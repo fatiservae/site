@@ -77,7 +77,8 @@ let banca = "N/A";
 let textoBase;
 let solvedQuestions = [];
 let randomIndex;
-fetch('/questoes.json')
+//fetch('/questoes.json')
+fetch('https://estalinecccp.github.io/JeffSite/medicina/banco-de-questoes/questoes.json')
   .then(response => response.json())
   .then(data => { 
     questions = data;

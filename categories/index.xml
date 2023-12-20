@@ -1271,7 +1271,8 @@ let banca = &#34;N/A&#34;;
 let textoBase;
 let solvedQuestions = [];
 let randomIndex;
-fetch(&#39;/questoes.json&#39;)
+//fetch(&#39;/questoes.json&#39;)
+fetch(&#39;https://estalinecccp.github.io/JeffSite/medicina/banco-de-questoes/questoes.json&#39;)
   .then(response =&gt; response.json())
   .then(data =&gt; { 
     questions = data;
