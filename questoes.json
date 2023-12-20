@@ -1,0 +1,996 @@
+[
+  {
+    "prova": "COREME/SES/GO",
+    "banca": "Instituto Verbena",
+    "ano": 2023,
+    "tipo": "multipla_escolha",
+    "alternativas": [
+      "Manchas em vinho do Porto e assimetria dos membros inferiores.",
+      "Edema da perna com varicosidades aumentadas e úlceras de estase.",
+      "Pulsos distais palpáveis com pulsos femorais impalpáveis.",
+      "Aneurisma da coxa proximal e perna distal."
+    ],
+    "questao": "Na anomalia vascular conhecida como artéria ciática persistente completa, que achados característicos ao exame físico vascular podem ser encontrados?",
+    "resposta_multipla": 2
+  },
+  {
+    "prova": "COREME/SES/GO",
+    "banca": "Instituto Verbena",
+    "ano": 2023,
+    "tipo": "multipla_escolha",
+    "texto_base": "Paciente do sexo feminino, 30 anos, é encaminhada ao pronto-socorro com quadro de dor e inchaço na perna esquerda há 3 dias. Paciente nega comorbidades associadas e uso de quaisquer tipos de medicamentos de uso contínuo. Ao exame físico na admissão, o médico nota um edema importante de todo membro inferior esquerdo, desde a raiz da coxa e com empastamento da panturrilha. Diante do quadro apresentado um ecoddopler venoso mostrou sinais de trombose venosa profunda aguda ilíaco-femoral esquerda.",
+    "alternativas": [
+      "a síndrome de May-Turner.",
+      "a trombose de aorta.",
+      "a doença de Buerger.",
+      "a doença de Takayasu."
+    ],
+    "questao": "Considerando todo o quadro clínico podemos considerar como hipótese diagnóstica",
+    "resposta_multipla": 0
+  },
+  {
+    "prova": "COREME/SES/GO",
+    "banca": "Instituto Verbena",
+    "ano": 2023,
+    "tipo": "multipla_escolha",
+    "alternativas": [
+      "105g de aminoácidos, 370g de dextrose, 47g de lipídios.",
+      "70g de aminoácido, 320g de dextrose, 30g de lipídios",
+      "56g de aminoácidos, 320g de dextrose, 140g de lipídios.",
+      "140g de aminoácidos, 420g de dextrose, 140g de lipídios"
+    ],
+    "questao": "O uso da nutrição parenteral é vital para pacientes com disfunção completa ou parcial do trato gastrointestinal. Usando o exemplo de uma pessoa de 70 kg, sem alterações metabólicas importantes, qual seria a melhor composição para uma nutrição parenteral total formulada com lipídeos (solução 3 em 1)?",
+    "resposta_multipla": 0
+  },
+  {
+    "prova": "COREME/SES/GO",
+    "banca": "Instituto Verbena",
+    "ano": 2023,
+    "tipo": "multipla_escolha",
+    "alternativas": [
+      "Perda involuntária maior que 5% do peso nos últimos 6 meses.",
+      "Perda de sangue esperada maior que 500 mL durante a cirurgia.",
+      "Concentração de Transferrina menor que 350 mg/dL.",
+      "Previsão de que o paciente não poderá satisfazer os requisitos calóricos dentro de 3 a 5 dias."
+    ],
+    "questao": "Os pacientes cirúrgicos com alterações nutricionais apresentam aumento de morbidade e mortalidade. O suporte nutricional deve ser considerado para todos os pacientes com risco nutricional grave. Qual deve ser o critério para iniciar suporte nutricional perioperatório?",
+    "resposta_multipla": 1
+  },
+  {
+    "prova": "Residência SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Todo profissional médico deve ter algum conhecimento a  respeito de atendimento ao paciente politraumatizado e  medicina de emergência.    No que se refere a essa informação e aos conhecimentos  médicos correlatos, julgue os itens a seguir.",
+    "questao": "Na sequência ABCDE de atendimento, a letra A refere-se a  garantir a via aérea pérvia e a estabilização da coluna  cervical; a letra B refere-se a garantir a ventilação; e a letra  C, a ressuscitação volêmica, o controle de hemorragia e os cuidados com hipotermia.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Todo profissional médico deve ter algum conhecimento a  respeito de atendimento ao paciente politraumatizado e  medicina de emergência.    No que se refere a essa informação e aos conhecimentos  médicos correlatos, julgue os itens a seguir.",
+    "questao": "A \"hora de ouro\" refere-se ao momento após o evento traumático, no qual o atendimento correto e precoce aumenta, de maneira significativa, a sobrevida do paciente.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Todo profissional médico deve ter algum conhecimento a  respeito de atendimento ao paciente politraumatizado e  medicina de emergência.    No que se refere a essa informação e aos conhecimentos  médicos correlatos, julgue os itens a seguir.",
+    "questao": "Em um atendimento de emergência, pode-se dispensar os princípios da beneficência e da não maleficência.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma criança de 1 ano e 4 meses de idade, com histórico de  aleitamento materno exclusivo até os 6 meses, é levada a  atendimento pela mãe que referiu tosse, febre, hiperemia  ocular e aparecimento de “manchas”  brancas em mucosa  oral, com posterior aparecimento de “manchas” vermelhas no  corpo. Ao exame, apresenta temperatura axilar de 38 °C e  exantema  maculopapular avermelhado, de progressão craniocauldal. Com base no caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Trata-se de uma doença de notificação compulsória imediata.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma criança de 1 ano e 4 meses de idade, com histórico de aleitamento materno exclusivo até os 6 meses, é levada a atendimento pela mãe que referiu tosse, febre, hiperemia ocular e aparecimento de “manchas”  brancas em mucosa oral, com posterior aparecimento de “manchas” vermelhas no corpo. Ao exame, apresenta temperatura axilar de 38 °C e exantema maculopapular avermelhado, de progressão craniocauldal. Com base no caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A vacina que contempla essa doença é realizada aos 12, aos 15 e aos 24 meses de vida.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma criança de 1 ano e 4 meses de idade, com histórico de aleitamento materno exclusivo até os 6 meses, é levada a atendimento pela mãe que referiu tosse, febre, hiperemia ocular e aparecimento de “manchas”  brancas em mucosa oral, com posterior aparecimento de “manchas” vermelhas no corpo. Ao exame, apresenta temperatura axilar de 38 °C e exantema maculopapular avermelhado, de progressão craniocauldal. Com base no caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A presença de pequenos pontos brancos em mucosa oral antecedendo o exantema é um sinal patognomônico dessa doença.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma criança de 1 ano e 4 meses de idade, com histórico de aleitamento materno exclusivo até os 6 meses, é levada a atendimento pela mãe que referiu tosse, febre, hiperemia ocular e aparecimento de “manchas”  brancas em mucosa oral, com posterior aparecimento de “manchas” vermelhas no corpo. Ao exame, apresenta temperatura axilar de 38 °C e exantema maculopapular avermelhado, de progressão craniocauldal. Com base no caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A respeito do aleitamento materno, a recomendação do Ministério da Saúde é de amamentar, se possível, até os 2 anos de idade ou mais, oferecendo aleitamento materno exclusivo até os 6 meses de vida.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma criança de 1 ano e 4 meses de idade, com histórico de aleitamento materno exclusivo até os 6 meses, é levada a atendimento pela mãe que referiu tosse, febre, hiperemia ocular e aparecimento de “manchas”  brancas em mucosa oral, com posterior aparecimento de “manchas” vermelhas no corpo. Ao exame, apresenta temperatura axilar de 38 °C e exantema maculopapular avermelhado, de progressão craniocauldal. Com base no caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A transmissão dessa doença dá-se por meio de aerossol e gotículas de secreção respiratória.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade, G1, idade gestacional de  19 semanas, realizando pré-natal regular na unidade básica  de saúde (UBS), procura a emergência obstétrica por pressão  arterial aferida adequadamente, durante a consulta de   pré-natal no dia anterior, de 150 mmHg x 92 mmHg. À  chegada, a paciente queixa-se de cefaleia e dor epigástrica  leve.  Verificam-se  os  seguintes  sinais  vitais:   PA = 140 mmHg x 90 mmHg; FC = 102 bpm; FR =18 irpm;  e SatO2 = 98%.",
+    "questao": "É possível considerar que a paciente possui diagnótisco de hipertensão arterial crônica.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade, G1, idade gestacional de  19 semanas, realizando pré-natal regular na unidade básica  de saúde (UBS), procura a emergência obstétrica por pressão  arterial aferida adequadamente, durante a consulta de   pré-natal no dia anterior, de 150 mmHg x 92 mmHg. À  chegada, a paciente queixa-se de cefaleia e dor epigástrica  leve.  Verificam-se  os  seguintes  sinais  vitais:   PA = 140 mmHg x 90 mmHg; FC = 102 bpm; FR =18 irpm;  e SatO2 = 98%.",
+    "questao": "Deve ser realizado rastreamento para pré-eclâmpsia em vista da presença de sinais premonitórios: cefaleia e dor epigástrica leve.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade, G1, idade gestacional de  19 semanas, realizando pré-natal regular na unidade básica  de saúde (UBS), procura a emergência obstétrica por pressão  arterial aferida adequadamente, durante a consulta de   pré-natal no dia anterior, de 150 mmHg x 92 mmHg. À  chegada, a paciente queixa-se de cefaleia e dor epigástrica  leve.  Verificam-se  os  seguintes  sinais  vitais:   PA = 140 mmHg x 90 mmHg; FC = 102 bpm; FR =18 irpm;  e SatO2 = 98%.",
+    "questao": "A identificação de um desvio de eixo à esquerda no eletrocardiograma (ECG) dessa paciente pode ser um achado fisiológico.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 12 anos de idade foi encaminhado a consulta por apresentar febre há dois dias, recebendo tratamento com amoxicilina para infecção na garganta, conforme relatou um familiar. Após 96 horas do uso do medicamento, o paciente evoluiu com exantema maculopapular, pruriginoso e dor abdominal de forte intensidade. Manifesta adenomegalias occiptais bilaterais, pequenas, fibroelásticas e móveis. Auscultas cardíaca e respiratória sem alterações. Ao exame físico abdominal, verifica-se hepatoesplenomegalia. Constatam-se FC = 85 bpm; FR = 17 irpm; e SatO2 = 98%. Descartou-se infecção por Coronavírus.",
+    "questao": "Alguns tipos de linfomas poder ter associação com o agente etiológico causador dessa comorbidade.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 12 anos de idade foi encaminhado a consulta por apresentar febre há dois dias, recebendo tratamento com amoxicilina para infecção na garganta, conforme relatou um familiar. Após 96 horas do uso do medicamento, o paciente evoluiu com exantema maculopapular, pruriginoso e dor abdominal de forte intensidade. Manifesta adenomegalias occiptais bilaterais, pequenas, fibroelásticas e móveis. Auscultas cardíaca e respiratória sem alterações. Ao exame físico abdominal, verifica-se hepatoesplenomegalia. Constatam-se FC = 85 bpm; FR = 17 irpm; e SatO2 = 98%. Descartou-se infecção por Coronavírus.",
+    "questao": "Hepatomegalia não faz parte da apresentação típica da doença.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 12 anos de idade foi encaminhado a consulta por apresentar febre há dois dias, recebendo tratamento com amoxicilina para infecção na garganta, conforme relatou um familiar. Após 96 horas do uso do medicamento, o paciente evoluiu com exantema maculopapular, pruriginoso e dor abdominal de forte intensidade. Manifesta adenomegalias occiptais bilaterais, pequenas, fibroelásticas e móveis. Auscultas cardíaca e respiratória sem alterações. Ao exame físico abdominal, verifica-se hepatoesplenomegalia. Constatam-se FC = 85 bpm; FR = 17 irpm; e SatO2 = 98%. Descartou-se infecção por Coronavírus.",
+    "questao": "Indica-se manter o uso do antibiótico.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 12 anos de idade foi encaminhado a consulta por apresentar febre há dois dias, recebendo tratamento com amoxicilina para infecção na garganta, conforme relatou um familiar. Após 96 horas do uso do medicamento, o paciente evoluiu com exantema maculopapular, pruriginoso e dor abdominal de forte intensidade. Manifesta adenomegalias occiptais bilaterais, pequenas, fibroelásticas e móveis. Auscultas cardíaca e respiratória sem alterações. Ao exame físico abdominal, verifica-se hepatoesplenomegalia. Constatam-se FC = 85 bpm; FR = 17 irpm; e SatO2 = 98%. Descartou-se infecção por Coronavírus.",
+    "questao": "Deve-se vigiar o sensório do paciente, pois a doença pode ter complicações neurológicas, como encefalite.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 12 anos de idade foi encaminhado a consulta por apresentar febre há dois dias, recebendo tratamento com amoxicilina para infecção na garganta, conforme relatou um familiar. Após 96 horas do uso do medicamento, o paciente evoluiu com exantema maculopapular, pruriginoso e dor abdominal de forte intensidade. Manifesta adenomegalias occiptais bilaterais, pequenas, fibroelásticas e móveis. Auscultas cardíaca e respiratória sem alterações. Ao exame físico abdominal, verifica-se hepatoesplenomegalia. Constatam-se FC = 85 bpm; FR = 17 irpm; e SatO2 = 98%. Descartou-se infecção por Coronavírus.",
+    "questao": "Para evitar possíveis traumas, indica-se repouso.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 12 anos de idade foi encaminhado a consulta por apresentar febre há dois dias, recebendo tratamento com amoxicilina para infecção na garganta, conforme relatou um familiar. Após 96 horas do uso do medicamento, o paciente evoluiu com exantema maculopapular, pruriginoso e dor abdominal de forte intensidade. Manifesta adenomegalias occiptais bilaterais, pequenas, fibroelásticas e móveis. Auscultas cardíaca e respiratória sem alterações. Ao exame físico abdominal, verifica-se hepatoesplenomegalia. Constatam-se FC = 85 bpm; FR = 17 irpm; e SatO2 = 98%. Descartou-se infecção por Coronavírus.",
+    "questao": "Ainda que a ausculta cardíaca esteja inicialmente normal, o paciente pode apresentar miocardite como complicação cardiovascular da doença.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um menino de 6 anos de idade, foi encaminhado ao consultório com relato de aumento do volume testicular progressivo há cerca de um ano. Ao exame físico, constataram-se FC = 85 bpm; FR = 18 ipm; e SatO2 = 98%, com abaulamento inguinal à esquerda, que piora às manobras de esforço, com identificação de tumefação que desce através do canal inguinal.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Trata-se de patologia benigna cujo tratamento exige uso  de antibióticos, sendo vancomicina uma opção segura.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um menino de 6 anos de idade, foi encaminhado ao consultório com relato de aumento do volume testicular progressivo há cerca de um ano. Ao exame físico, constataram-se FC = 85 bpm; FR = 18 ipm; e SatO2 = 98%, com abaulamento inguinal à esquerda, que piora às manobras de esforço, com identificação de tumefação que desce através do canal inguinal.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A origem do defeito, nesse caso, está lateral aos vasos epigástricos inferiores.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um menino de 6 anos de idade, foi encaminhado ao consultório com relato de aumento do volume testicular progressivo há cerca de um ano. Ao exame físico, constataram-se FC = 85 bpm; FR = 18 ipm; e SatO2 = 98%, com abaulamento inguinal à esquerda, que piora às manobras de esforço, com identificação de tumefação que desce através do canal inguinal. Com base nesse caso clínico e nos conhecimentos médicos, julgue os itens a seguir.",
+    "questao": "O diagnóstico necessita da realização de exame de imagem, sendo a TC contrastada uma boa opção.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um menino de 6 anos de idade, foi encaminhado ao consultório com relato de aumento do volume testicular progressivo há cerca de um ano. Ao exame físico, constataram-se FC = 85 bpm; FR = 18 ipm; e SatO2 = 98%, com abaulamento inguinal à esquerda, que piora às manobras de esforço, com identificação de tumefação que desce através do canal inguinal. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Esse paciente, segundo Nyhus, apresenta classificação 3C da sua patologia.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um menino de 6 anos de idade, foi encaminhado ao consultório com relato de aumento do volume testicular progressivo há cerca de um ano. Ao exame físico, constataram-se FC = 85 bpm; FR = 18 ipm; e SatO2 = 98%, com abaulamento inguinal à esquerda, que piora às manobras de esforço, com identificação de tumefação que desce através do canal inguinal. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Após a instituição do tratamento, espera-se aumento dos níveis séricos de IL-6.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um menino de 6 anos de idade, foi encaminhado ao consultório com relato de aumento do volume testicular progressivo há cerca de um ano. Ao exame físico, constataram-se FC = 85 bpm; FR = 18 ipm; e SatO2 = 98%, com abaulamento inguinal à esquerda, que piora às manobras de esforço, com identificação de tumefação que desce através do canal inguinal. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "No caso de pacientes do sexo feminino, a maior parte dos casos de defeitos ocorre através do anel femoral.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade apresenta mancha de cor marrom-enegrecida de 1,2 cm, assimétrica, com bordas irregulares e coloração heterogênea em coxa direita. Não se observou adenomegalia no exame físico ou de imagem. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A conduta inicial mais apropriada é uma biópsia excisional da lesão.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade apresenta mancha de cor marrom-enegrecida de 1,2 cm, assimétrica, com bordas irregulares e coloração heterogênea em coxa direita. Não se observou adenomegalia no exame físico ou de imagem. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Caso a biópsia evidencie índice de Breslow de até 1,2 mm, dispensa-se a realização de pesquisa de linfonodo sentinela, pois não há evidência de adenomegalia.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade apresenta mancha de cor marrom-enegrecida de 1,2 cm, assimétrica, com bordas irregulares e coloração heterogênea em coxa direita. Não se observou adenomegalia no exame físico ou de imagem. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Não há nenhuma evidência de que neoplasias como essa aumentem o risco de trombose venosa profunda.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade apresenta mancha de cor marrom-enegrecida de 1,2 cm, assimétrica, com bordas irregulares e coloração heterogênea em coxa direita. Não se observou adenomegalia no exame físico ou de imagem. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A ocorrência de tromboembolismo pulmonar mostrará hipoxemia com gradiente alvéoloarterial aumentado.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de “parada da descida do alimento” no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O aumento do átrio direito é a causa provável da compressão esofágica.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de “parada da descida do alimento” no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Antibioticoterapia adequada com quinolona é a escolha inicial para evitar a ocorrência dessas complicações.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de “parada da descida do alimento” no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Esse paciente apresenta estenose mitral com repercussão clínica.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de “parada da descida do alimento” no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O reparo cirúrgico da valva com próteses metálicas é preferível por reduzir o risco de hemólise e a necessidade de anticoagulação.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de “parada da descida do alimento” no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A presença de endocardite infecciosa com cultura positiva para S. bovis exige a investigação de neoplasia colônica.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de “parada da descida do alimento” no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A evolução da patologia descrita cursa com aumento pressórico do leito vascular pulmonar.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto-\nsocorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o \npaciente tornou a apresentar-se orientado no local do \nacidente. Na avaliação inicial, o paciente encontrava-se com \ncolar cervical, agitado, com hálito etílico, FR = 35 irpm,  SatO2 = 83% com máscara de oxigênio, hemitórax direito \ncom murmúrios vesiculares ausentes e hipertimpânico,  \nPA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur \nesquerdo com exposição óssea. FAST mostrou líquido livre \nno espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. \n \nCom base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Intubação orotraqueal é a primeira conduta a ser tomada nesse momento.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto- socorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o paciente tornou a apresentar-se orientado no local do acidente. Na avaliação inicial, o paciente encontrava-se com colar cervical, agitado, com hálito etílico, FR = 35 irpm, SatO2 = 83% com máscara de oxigênio, hemitórax direito com murmúrios vesiculares ausentes e hipertimpânico, PA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur esquerdo com exposição óssea. FAST mostrou líquido livre no espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A drenagem de tórax está formalmente indicada pelo provável hemotórax à direita.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto- socorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o paciente tornou a apresentar-se orientado no local do acidente. Na avaliação inicial, o paciente encontrava-se com colar cervical, agitado, com hálito etílico, FR = 35 irpm, SatO2 = 83% com máscara de oxigênio, hemitórax direito com murmúrios vesiculares ausentes e hipertimpânico, PA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur esquerdo com exposição óssea. FAST mostrou líquido livre no espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A TC de crânio deve evidenciar hematoma epidural.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto- socorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o paciente tornou a apresentar-se orientado no local do acidente. Na avaliação inicial, o paciente encontrava-se com colar cervical, agitado, com hálito etílico, FR = 35 irpm, SatO2 = 83% com máscara de oxigênio, hemitórax direito com murmúrios vesiculares ausentes e hipertimpânico, PA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur esquerdo com exposição óssea. FAST mostrou líquido livre no espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Lesão de artéria meníngea média é esperada nesse caso.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto- socorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o paciente tornou a apresentar-se orientado no local do acidente. Na avaliação inicial, o paciente encontrava-se com colar cervical, agitado, com hálito etílico, FR = 35 irpm, SatO2 = 83% com máscara de oxigênio, hemitórax direito com murmúrios vesiculares ausentes e hipertimpânico, PA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur esquerdo com exposição óssea. FAST mostrou líquido livre no espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A presença de líquido no espaço esplenorrenal indica laparotomia imediata, independentemente das lesões abdominais.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto- socorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o paciente tornou a apresentar-se orientado no local do acidente. Na avaliação inicial, o paciente encontrava-se com colar cervical, agitado, com hálito etílico, FR = 35 irpm, SatO2 = 83% com máscara de oxigênio, hemitórax direito com murmúrios vesiculares ausentes e hipertimpânico, PA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur esquerdo com exposição óssea. FAST mostrou líquido livre no espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Esse paciente apresenta fator de risco para desenvolvimento de embolia gordurosa.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto- socorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o paciente tornou a apresentar-se orientado no local do acidente. Na avaliação inicial, o paciente encontrava-se com colar cervical, agitado, com hálito etílico, FR = 35 irpm, SatO2 = 83% com máscara de oxigênio, hemitórax direito com murmúrios vesiculares ausentes e hipertimpânico, PA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur esquerdo com exposição óssea. FAST mostrou líquido livre no espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Lesão renal é um diagnóstico provável, e o acometimento do sistema coletor caracteriza a lesão como grau III.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 18 anos de idade foi levado ao pronto- socorro após queda de moto em alta velocidade, com relato de que estava sem capacete no momento do acidente e que houve perda momentânea da consciência. Mas, após o fato, o paciente tornou a apresentar-se orientado no local do acidente. Na avaliação inicial, o paciente encontrava-se com colar cervical, agitado, com hálito etílico, FR = 35 irpm, SatO2 = 83% com máscara de oxigênio, hemitórax direito com murmúrios vesiculares ausentes e hipertimpânico, PA = 90 mmHg x 50 mmHg, FC = 115 bpm, pupilas isocóricas e fotorreagentes, Glasgow 7, presença de hematoma extenso em flanco esquerdo e fratura de fêmur esquerdo com exposição óssea. FAST mostrou líquido livre no espaço esplenorrenal, e sonda vesical passada evidencia hematúria macroscópica. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Profilaxia antimicrobiana é essencial nesse caso e deve ser feita de forma precoce para minimizar o risco de infecções ósseas.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 35 anos de idade iniciou com dor torácica de \ninício súbito, febre (38,5 ºC) e dor pleurítica dependente. Foi  \nsolicitado um eletrocardiograma que demonstrou infra do segmento PR e supra do segmento ST difuso. Laboratorialmente o paciente apresentava troponina negativa e 10.000 leucócitos. \n \nConsiderando esse caso clínico e com base na imagem \napresentada e nos conhecimentos médicos correlatos, julgue \nos itens a seguir.",
+    "questao": "Trata-se provavelmente de pericardite aguda.",
+    "resposta_bool": true,
+    "imagem": "ses-df-2021-eletro.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 35 anos de idade iniciou com dor torácica de início súbito, febre (38,5 ºC) e dor pleurítica dependente. Foi  solicitado um eletrocardiograma que demonstrou infra do segmento PR e supra do segmento ST difuso. Laboratorialmente o paciente apresentava troponina negativa e 10.000 leucócitos.  Considerando esse caso clínico e com base na imagem apresentada e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Em geral, início súbito dos sintomas é associado ao pior prognóstico em relação a início subagudo.",
+    "resposta_bool": false,
+    "imagem": "ses-df-2021-eletro.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 35 anos de idade iniciou com dor torácica de início súbito, febre (38,5 ºC) e dor pleurítica dependente. Foi solicitado um eletrocardiograma que demonstrou infra do segmento PR e supra do segmento ST difuso. Laboratorialmente o paciente apresentava troponina negativa e 10.000 leucócitos. Considerando esse caso clínico e com base na imagem apresentada e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "É comum associação dessa patologia com edema agudo de pulmão e, consequentemente, insuficiência ventricular esquerda.",
+    "resposta_bool": false,
+    "imagem": "ses-df-2021-eletro.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 35 anos de idade iniciou com dor torácica de início súbito, febre (38,5 ºC) e dor pleurítica dependente. Foi solicitado um eletrocardiograma que demonstrou infra do segmento PR e supra do segmento ST difuso. Laboratorialmente o paciente apresentava troponina negativa e 10.000 leucócitos. Considerando esse caso clínico e com base na imagem apresentada e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "É necessário internar o paciente.",
+    "resposta_bool": false,
+    "imagem": "ses-df-2021-eletro.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente com história de dor torácica aos esforços comparece à consulta por estar mais cansado do que o normal. Refere que vem apresentando ortopneia e dispneia paroxística noturna. Foram realizados investigação laboratorial, Holter, ecocardiograma e cateterismo cardíaco. O ecocardiograma e o cateterismo estão representados a seguir. Tendo em vista esse caso clínico, as imagens apresentadas e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Na imagem do cateterismo, observa-se lesão em artéria descendente anterior.",
+    "resposta_bool": true,
+    "imagem": "ses-df-2021-angioplastia.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente com história de dor torácica aos esforços comparece à consulta por estar mais cansado do que o normal. Refere que vem apresentando ortopneia e dispneia paroxística noturna. Foram realizados investigação laboratorial, Holter, ecocardiograma e cateterismo cardíaco. O ecocardiograma e o cateterismo estão representados a seguir.  Tendo em vista esse caso clínico, as imagens apresentadas e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O ecocardiograma do paciente apresenta fração de ejeção reduzida, sendo necessária, o mais precocemente possível, a introdução de sacubitril com valsartana em relação à angioplastia.",
+    "resposta_bool": false,
+    "imagem": "ses-df-2021-angioplastia.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente com história de dor torácica aos esforços comparece à consulta por estar mais cansado do que o normal. Refere que vem apresentando ortopneia e dispneia paroxística noturna. Foram realizados investigação laboratorial, Holter, ecocardiograma e cateterismo cardíaco. O ecocardiograma e o cateterismo estão representados a seguir. Tendo em vista esse caso clínico, as imagens apresentadas e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O eletrocardiograma desse paciente pode apresentar alterações isquêmicas, como onda plus minus em derivações precordiais.",
+    "resposta_bool": true,
+    "imagem": "ses-df-2021-angioplastia.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 35 anos de idade, com miocardiopatia isquêmica dilatada com fração de ejeção prévia de 30%, encaminha-se à emergência com dor torácica em aperto há sete horas, dispneia importante e sudorese. Foram solicitados exames laboratoriais que demonstraram hemograma normal, função renal e eletrólitos normais. Seu peptídeo natriurético cerebral (BNP) era de 300 pg/mL (valor de referência até 150 pg/dL). Solicitou-se, então,  o eletrocardiograma representado na figura a seguir. Considerando esse caso clínico, a figura apresentada e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O paciente apresenta-se com infarto agudo do miocárdio anterior.",
+    "resposta_bool": true,
+    "imagem": "ses-df-2021-ecg2.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 35 anos de idade, com miocardiopatia isquêmica dilatada com fração de ejeção prévia de 30%, encaminha-se à emergência com dor torácica em aperto há sete horas, dispneia importante e sudorese. Foram solicitados exames laboratoriais q ue demonstraram hemograma normal, função renal e eletrólitos normais. Seu peptídeo natriurético cerebral (BNP) era de 300 pg/mL (valor de referência até 150 pg/dL). Solicitou-se, então, o eletrocardiograma representado na figura a seguir.   Considerando esse caso clínico, a figura apresentada e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Ao avaliar o valor de BNP para esse paciente, pode-se afirmar que ele está com insuficiência cardíaca descompensada.",
+    "resposta_bool": false,
+    "imagem": "ses-df-2021-ecg2.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 35 anos de idade, com miocardiopatia isquêmica dilatada com fração de ejeção prévia de 30%, encaminha-se à emergência com dor torácica em aperto há sete horas, dispneia importante e sudorese. Foram solicitados exames laboratoriais q ue demonstraram hemograma normal, função renal e eletrólitos normais. Seu peptídeo natriurético cerebral (BNP) era de 300 pg/mL (valor de referência até 150 pg/dL). Solicitou-se, então, o eletrocardiograma representado na figura a seguir.  Considerando esse caso clínico, a figura apresentada e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Miocardiopatia isquêmica dilatada é a forma mais rara das miocardiopatias dilatadas.",
+    "resposta_bool": false,
+    "imagem": "ses-df-2021-ecg2.png"
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 42 anos de idade evolui com convulsões de início recente do tipo parciais complexas. Foi realizada uma tomografia de crânio com contraste que evidenciou uma massa em lobo parietal direito, com contornos regulares, sugestivo de neoplasia primária. Durante a internação, foram efetuadas mais três tomografias com contraste para verificar a existência de outros sítios de tumor cerebral. Após  72 horas de internação, apresentou piora da diurese com  ureia = 280 mg/dL e creatinina = 1,4 mg/dL. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Ácido valproico é contraindicado para esse paciente.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 42 anos de idade evolui com convulsões de início recente do tipo parciais complexas. Foi realizada uma tomografia de crânio com contraste que evidenciou uma massa em lobo parietal direito, com contornos regulares, sugestivo de neoplasia primária. Durante a internação, foram efetuadas mais três tomografias com contraste para verificar a existência de outros sítios de tumor cerebral. Após 72 horas de internação, apresentou piora da diurese com  ureia = 280 mg/dL e creatinina = 1,4 mg/dL.   Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Epidemiologicamente trata-se de craniofaringioma.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 42 anos de idade evolui com convulsões de início recente do tipo parciais complexas. Foi realizada uma tomografia de crânio com contraste que evidenciou uma massa em lobo parietal direito, com contornos regulares, sugestivo de neoplasia primária. Durante a internação, foram efetuadas mais três tomografias com contraste para verificar a existência de outros sítios de tumor cerebral. Após 72 horas de internação, apresentou piora da diurese com ureia = 280 mg/dL e creatinina = 1,4 mg/dL.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O tratamento de tumores do sistema nervoso central (SNC) é cirúrgico.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 42 anos de idade evolui com convulsões de início recente do tipo parciais complexas. Foi realizada uma tomografia de crânio com contraste que evidenciou uma massa em lobo parietal direito, com contornos regulares, sugestivo de neoplasia primária. Durante a internação, foram efetuadas mais três tomografias com contraste para verificar a existência de outros sítios de tumor cerebral. Após 72 horas de internação, apresentou piora da diurese com ureia = 280 mg/dL e creatinina = 1,4 mg/dL. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A radioterapia nos tumores malignos do SNC pode ser utilizada.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um paciente de 42 anos de idade evolui com convulsões de início recente do tipo parciais complexas. Foi realizada uma tomografia de crânio com contraste que evidenciou uma massa em lobo parietal direito, com contornos regulares, sugestivo de neoplasia primária. Durante a internação, foram efetuadas mais três tomografias com contraste para verificar a existência de outros sítios de tumor cerebral. Após 72 horas de internação, apresentou piora da diurese com ureia = 280 mg/dL e creatinina = 1,4 mg/dL. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O paciente provavelmente apresenta insuficiência renal do tipo pré-renal.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade, afrodescendente, comparece à consulta por apresentar artrite, anemia e rash em asa de borboleta na face. Realizou exames laboratoriais.  Em relação a esse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Leucopenia é um achado esperado.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade, afrodescendente, comparece à consulta por apresentar artrite, anemia e rash em asa de borboleta na face. Realizou exames laboratoriais. Em relação a esse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A prevalência no sexo feminino é semelhante em relação ao masculino.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade, afrodescendente, comparece à consulta por apresentar artrite, anemia e rash em asa de borboleta na face. Realizou exames laboratoriais. Em relação a esse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A artrite é caracterizada por ser unilateral nessa patologia.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 35 anos de idade, afrodescendente, comparece à consulta por apresentar artrite, anemia e rash em asa de borboleta na face. Realizou exames laboratoriais. Em relação a esse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O rash é caracterizado por ser fotossensível.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 54 anos de idade, usuária de mirtazapina  30 mg por dia, vem apresentando importante aumento de peso. Durante a evolução do seu peso, tem sentido dor abdominal em hipocôndrio direito, mal-estar, náuseas e vômitos. Realizou exames que identificaram transaminases hepáticas quatro vezes acima do limite da normalidade, além de uma glicemia de jejum = 116mg/dL. Levantou-se a hipótese de esteato-hepatite não alcoólica.  Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Mirtazapina é um medicamento seletivo da receptação da serotonina, que apresenta ganho de peso como efeito colateral.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 54 anos de idade, usuária de mirtazapina 30 mg por dia, vem apresentando importante aumento de peso. Durante a evolução do seu peso, tem sentido dor abdominal em hipocôndrio direito, mal-estar, náuseas e vômitos. Realizou exames que identificaram transaminases hepáticas quatro vezes acima do limite da normalidade, além de uma glicemia de jejum = 116mg/dL. Levantou-se a hipótese de esteato-hepatite não alcoólica. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente apresenta provavelmente diabetes mellitus tipo II.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 54 anos de idade, usuária de mirtazapina 30 mg por dia, vem apresentando importante aumento de peso. Durante a evolução do seu peso, tem sentido dor abdominal em hipocôndrio direito, mal-estar, náuseas e vômitos. Realizou exames que identificaram transaminases hepáticas quatro vezes acima do limite da normalidade, além de uma glicemia de jejum = 116mg/dL. Levantou-se a hipótese de esteato-hepatite não alcoólica. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Essa patologia não cursa com cirrose hepática.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 54 anos de idade, usuária de mirtazapina 30 mg por dia, vem apresentando importante aumento de peso. Durante a evolução do seu peso, tem sentido dor abdominal em hipocôndrio direito, mal-estar, náuseas e vômitos. Realizou exames que identificaram transaminases hepáticas quatro vezes acima do limite da normalidade, além de uma glicemia de jejum = 116mg/dL. Levantou-se a hipótese de esteato-hepatite não alcoólica. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O melhor tratamento para essa patologia é silimarina em estudos clínicos randomizados.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 54 anos de idade, usuária de mirtazapina 30 mg por dia, vem apresentando importante aumento de peso. Durante a evolução do seu peso, tem sentido dor abdominal em hipocôndrio direito, mal-estar, náuseas e vômitos. Realizou exames que identificaram transaminases hepáticas quatro vezes acima do limite da normalidade, além de uma glicemia de jejum = 116mg/dL. Levantou-se a hipótese de esteato-hepatite não alcoólica. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Perda de peso deve ser estimulada para essa paciente.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo recém-nascido (RN) a termo, de parto vaginal, com peso ao nascimento de 3.200 gramas, é encaminhado à consulta de puericultura aos sete dias de vida, em aleitamento materno exclusivo. A lactante relata dor extrema ao amamentar. O peso atual do paciente é de 2.600 gramas.   Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A dor mamária e a perda de peso são sinais sugestivos de má pega do RN.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo recém-nascido (RN) a termo, de parto vaginal, com peso ao nascimento de 3.200 gramas, é encaminhado à consulta de puericultura aos sete dias de vida, em aleitamento materno exclusivo. A lactante relata dor extrema ao amamentar. O peso atual do paciente é de 2.600 gramas.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Recomenda-se aleitamento materno exclusivo até os 4 meses de idade, para todas as crianças em condições de serem amamentadas.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo recém-nascido (RN) a termo, de parto vaginal, com peso ao nascimento de 3.200 gramas, é encaminhado à consulta de puericultura aos sete dias de vida, em aleitamento materno exclusivo. A lactante relata dor extrema ao amamentar. O peso atual do paciente é de 2.600 gramas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A perda de peso do paciente indica que o leite está fraco.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo recém-nascido (RN) a termo, de parto vaginal, com peso ao nascimento de 3.200 gramas, é encaminhado à consulta de puericultura aos sete dias de vida, em aleitamento materno exclusivo. A lactante relata dor extrema ao amamentar. O peso atual do paciente é de 2.600 gramas.   Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O paciente mencionado deve apresentar sorriso social nessa idade.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo recém-nascido (RN) a termo, de parto vaginal, com peso ao nascimento de 3.200 gramas, é encaminhado à consulta de puericultura aos sete dias de vida, em aleitamento materno exclusivo. A lactante relata dor extrema ao amamentar. O peso atual do paciente é de 2.600 gramas.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Sonolência excessiva, hipoatividade e convulsões são manifestações de hipoglicemia neonatal.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo recém-nascido (RN) a termo, de parto vaginal, com peso ao nascimento de 3.200 gramas, é encaminhado à consulta de puericultura aos sete dias de vida, em aleitamento materno exclusivo. A lactante relata dor extrema ao amamentar. O peso atual do paciente é de 2.600 gramas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Na vigência de hipoglicemia neonatal prolongada, deve-se aventar a hipótese de erros inatos do metabolismo.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC de 80bpm; e SatO2 de 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas.  A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Nesse caso, recomenda-se o clampeamento do cordão umbilical após três minutos.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC de 80bpm; e SatO2 de 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas. A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Deve-se proceder imediatamente com massagem cardíaca externa.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC de 80bpm; e SatO2 de 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas. A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Indica-se ventilar o paciente utilizando-se de pressão positiva.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC de 80bpm; e SatO2 de 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas. A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Para a avaliação do neuro desenvolvimento na infância, indica-se avaliar o Apgar da criança ao nascimento.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC de 80bpm; e SatO2 de 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas. A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Icterícia neonatal à custa de hiperbilirrubinemia indireta é uma das complicações do céfalo-hematoma.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC de 80bpm; e SatO2 de 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas. A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Crepitações, edema e assimetria claviculares em RN são achados clínicos sugestivos de fratura.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um lactente de 6 meses de vida é encaminhado ao atendimento médico por apresentar coriza hialina e tosse, com três dias de evolução, piorando nas últimas 24 horas. Na chegada, encontra-se afebril, letárgico, com importantes retrações intercostais e subcostais e sibilos na ausculta pulmonar, sem outros ruídos adventícios. Constatam-se  FC de 120bpm; FR de 75irpm; e SatO2 de 85% em ar ambiente. A radiografia torácica mostra-se normal. É o primeiro episódio de sibilância do paciente. Descartou-se infecção por Coronavírus.  Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O diagnóstico da patologia é realizado por meio de espirometria.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um lactente de 6 meses de vida é encaminhado ao atendimento médico por apresentar coriza hialina e tosse, com três dias de evolução, piorando nas últimas 24 horas. Na chegada, encontra-se afebril, letárgico, com importantes retrações intercostais e subcostais e sibilos na ausculta pulmonar, sem outros ruídos adventícios. Constatam-se FC de 120bpm; FR de 75irpm; e SatO2 de 85% em ar ambiente. A radiografia torácica mostra-se normal. É o primeiro episódio de sibilância do paciente. Descartou-se infecção por Coronavírus. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Diante do exposto, considera-se a hipótese diagnóstica de bronquiolite viral aguda.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um lactente de 6 meses de vida é encaminhado ao atendimento médico por apresentar coriza hialina e tosse, com três dias de evolução, piorando nas últimas 24 horas. Na chegada, encontra-se afebril, letárgico, com importantes retrações intercostais e subcostais e sibilos na ausculta pulmonar, sem outros ruídos adventícios. Constatam-se FC de 120bpm; FR de 75irpm; e SatO2 de 85% em ar ambiente. A radiografia torácica mostra-se normal. É o primeiro episódio de sibilância do paciente. Descartou-se infecção por Coronavírus. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A transmissão do agente etiológico ocorre por contato direto ou próximo de secreções contaminadas geralmente de um membro da família ou de outra criança de convívio próximo, como em creche, que apresente sintomatologia respiratória.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um lactente de 6 meses de vida é encaminhado ao atendimento médico por apresentar coriza hialina e tosse, com três dias de evolução, piorando nas últimas 24 horas. Na chegada, encontra-se afebril, letárgico, com importantes retrações intercostais e subcostais e sibilos na ausculta pulmonar, sem outros ruídos adventícios. Constatam-se FC de 120bpm; FR de 75irpm; e SatO2 de 85% em ar ambiente. A radiografia torácica mostra-se normal. É o primeiro episódio de sibilância do paciente. Descartou-se infecção por Coronavírus. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Manter o aporte hídrico adequado é fundamental ao tratamento, estabelecendo-se controle da diurese como critério de avaliação da hidratação do paciente.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um lactente de 6 meses de vida é encaminhado ao atendimento médico por apresentar coriza hialina e tosse, com três dias de evolução, piorando nas últimas 24 horas. Na chegada, encontra-se afebril, letárgico, com importantes retrações intercostais e subcostais e sibilos na ausculta pulmonar, sem outros ruídos adventícios. Constatam-se FC de 120bpm; FR de 75irpm; e SatO2 de 85% em ar ambiente. A radiografia torácica mostra-se normal. É o primeiro episódio de sibilância do paciente. Descartou-se infecção por Coronavírus. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A ausência de febre não exclui o diagnóstico dessa comorbidade.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Um lactente de 6 meses de vida é encaminhado ao atendimento médico por apresentar coriza hialina e tosse, com três dias de evolução, piorando nas últimas 24 horas. Na chegada, encontra-se afebril, letárgico, com importantes retrações intercostais e subcostais e sibilos na ausculta pulmonar, sem outros ruídos adventícios. Constatam-se FC de 120bpm; FR de 75irpm; e SatO2 de 85% em ar ambiente. A radiografia torácica mostra-se normal. É o primeiro episódio de sibilância do paciente. Descartou-se infecção por Coronavírus. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "No caso descrito, o quadro respiratório é considerado grave.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 56 anos de idade comparece à consulta com o ginecologista para revisão. Refere realizar exames ginecológicos de rastreamento, conforme orientação do médico clínico geral que a atendia até então. Informa que faz uso de cálcio, vitamina D e sinvastatina, por histórico de osteoporose identificada em densitometria óssea (DMO) prévia, e dislipidemia. Recentemente recebeu diagnóstico de nefrolitíase após crise de dor renal. Relata ser tabagista e etilista desde os 23 anos de idade, e o peso atual dela é 54 kg. Teve dois partos vaginais prévios, menarca aos 12 anos e menopausa aos 38 anos de idade. Nega ter realizado terapia de reposição hormonal.  Considerando esse caso clínico e com base nas recomendações do Ministério da Saúde para exames de rastreamento e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente possui diagnóstico de menopausa precoce.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 56 anos de idade comparece à consulta com o ginecologista para revisão. Refere realizar exames ginecológicos de rastreamento, conforme orientação do médico clínico geral que a atendia até então. Informa que faz uso de cálcio, vitamina D e sinvastatina, por histórico de osteoporose identificada em densitometria óssea (DMO) prévia, e dislipidemia. Recentemente recebeu diagnóstico de nefrolitíase após crise de dor renal. Relata ser tabagista e etilista desde os 23 anos de idade, e o peso atual dela é 54 kg. Teve dois partos vaginais prévios, menarca aos 12 anos e menopausa aos 38 anos de idade. Nega ter realizado terapia de reposição hormonal. Considerando esse caso clínico e com base nas recomendações do Ministério da Saúde para exames de rastreamento e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente possui apenas dois fatores de risco para osteoporose, identificados no respectivo histórico.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 56 anos de idade comparece à consulta com o ginecologista para revisão. Refere realizar exames ginecológicos de rastreamento, conforme orientação do médico clínico geral que a atendia até então. Informa que faz uso de cálcio, vitamina D e sinvastatina, por histórico de osteoporose identificada em densitometria óssea (DMO) prévia, e dislipidemia. Recentemente recebeu diagnóstico de nefrolitíase após crise de dor renal. Relata ser tabagista e etilista desde os 23 anos de idade, e o peso atual dela é 54 kg. Teve dois partos vaginais prévios, menarca aos 12 anos e menopausa aos 38 anos de idade. Nega ter realizado terapia de reposição hormonal. Considerando esse caso clínico e com base nas recomendações do Ministério da Saúde para exames de rastreamento e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A avaliação complementar dessa paciente deve incluir, entre outros exames, a dosagem de vitamina D, calcemia, fosfatase alcalina, creatinina, TSH e paratormônio.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 56 anos de idade comparece à consulta com o ginecologista para revisão. Refere realizar exames ginecológicos de rastreamento, conforme orientação do médico clínico geral que a atendia até então. Informa que faz uso de cálcio, vitamina D e sinvastatina, por histórico de osteoporose identificada em densitometria óssea (DMO) prévia, e dislipidemia. Recentemente recebeu diagnóstico de nefrolitíase após crise de dor renal. Relata ser tabagista e etilista desde os 23 anos de idade, e o peso atual dela é 54 kg. Teve dois partos vaginais prévios, menarca aos 12 anos e menopausa aos 38 anos de idade. Nega ter realizado terapia de reposição hormonal. Considerando esse caso clínico e com base nas recomendações do Ministério da Saúde para exames de rastreamento e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A hipótese de hiperparatireoidismo secundário deve ser considerada.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 56 anos de idade comparece à consulta com o ginecologista para revisão. Refere realizar exames ginecológicos de rastreamento, conforme orientação do médico clínico geral que a atendia até então. Informa que faz uso de cálcio, vitamina D e sinvastatina, por histórico de osteoporose identificada em densitometria óssea (DMO) prévia, e dislipidemia. Recentemente recebeu diagnóstico de nefrolitíase após crise de dor renal. Relata ser tabagista e etilista desde os 23 anos de idade, e o peso atual dela é 54 kg. Teve dois partos vaginais prévios, menarca aos 12 anos e menopausa aos 38 anos de idade. Nega ter realizado terapia de reposição hormonal. Considerando esse caso clínico e com base nas recomendações do Ministério da Saúde para exames de rastreamento e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente poderia realizar o exame citopatológico do colo do útero a cada três anos, caso tenha dois resultados anuais consecutivos negativos.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 56 anos de idade comparece à consulta com o ginecologista para revisão. Refere realizar exames ginecológicos de rastreamento, conforme orientação do médico clínico geral que a atendia até então. Informa que faz uso de cálcio, vitamina D e sinvastatina, por histórico de osteoporose identificada em densitometria óssea (DMO) prévia, e dislipidemia. Recentemente recebeu diagnóstico de nefrolitíase após crise de dor renal. Relata ser tabagista e etilista desde os 23 anos de idade, e o peso atual dela é 54 kg. Teve dois partos vaginais prévios, menarca aos 12 anos e menopausa aos 38 anos de idade. Nega ter realizado terapia de reposição hormonal. Considerando esse caso clínico e com base nas recomendações do Ministério da Saúde para exames de rastreamento e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente deve realizar a mamografia anualmente.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 15 anos de idade vai à consulta com o ginecologista assistente, referindo que a “camisinha estourou” durante relação sexual consensual há cerca de quatro semanas. Relata que o parceiro procurou um urologista e foi diagnosticado com alguma doença sexualmente transmissível (DST), sendo prescrito tratamento com azitromicina e ceftriaxone, ambos em doses únicas. A paciente queixa-se de dor em baixo ventre, náuseas e vômitos nos últimos dois dias. Nega febre. Ao exame físico, é identificado corrimento amarelo-esverdeado e com odor fétido, e demonstra dor à mobilização do colo do útero e à palpação dos anexos. Apresenta uma ultrassonografia transvaginal sem laudo, com sinais de salpingite. Demais aspectos do exame não puderam ser avaliados, pois as imagens estavam pouco nítidas.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O diagnóstico mais provável é de doença inflamatória pélvica.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 15 anos de idade vai à consulta com o ginecologista assistente, referindo que a “camisinha estourou” durante relação sexual consensual há cerca de quatro semanas. Relata que o parceiro procurou um urologista e foi diagnosticado com alguma doença sexualmente transmissível (DST), sendo prescrito tratamento com azitromicina e ceftriaxone, ambos em doses únicas. A paciente queixa-se de dor em baixo ventre, náuseas e vômitos nos últimos dois dias. Nega febre. Ao exame físico, é identificado corrimento amarelo-esverdeado e com odor fétido, e demonstra dor à mobilização do colo do útero e à palpação dos anexos. Apresenta uma ultrassonografia transvaginal sem laudo, com sinais de salpingite. Demais aspectos do exame não puderam ser avaliados, pois as imagens estavam pouco nítidas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Entre os diagnósticos diferenciais, deve-se considerar o abortamento séptico.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 15 anos de idade vai à consulta com o ginecologista assistente, referindo que a “camisinha estourou” durante relação sexual consensual há cerca de quatro semanas. Relata que o parceiro procurou um urologista e foi diagnosticado com alguma doença sexualmente transmissível (DST), sendo prescrito tratamento com azitromicina e ceftriaxone, ambos em doses únicas. A paciente queixa-se de dor em baixo ventre, náuseas e vômitos nos últimos dois dias. Nega febre. Ao exame físico, é identificado corrimento amarelo-esverdeado e com odor fétido, e demonstra dor à mobilização do colo do útero e à palpação dos anexos. Apresenta uma ultrassonografia transvaginal sem laudo, com sinais de salpingite. Demais aspectos do exame não puderam ser avaliados, pois as imagens estavam pouco nítidas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A presença de náuseas e vômitos é o único critério para tratamento hospitalar.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 15 anos de idade vai à consulta com o ginecologista assistente, referindo que a “camisinha estourou” durante relação sexual consensual há cerca de quatro semanas. Relata que o parceiro procurou um urologista e foi diagnosticado com alguma doença sexualmente transmissível (DST), sendo prescrito tratamento com azitromicina e ceftriaxone, ambos em doses únicas. A paciente queixa-se de dor em baixo ventre, náuseas e vômitos nos últimos dois dias. Nega febre. Ao exame físico, é identificado corrimento amarelo-esverdeado e com odor fétido, e demonstra dor à mobilização do colo do útero e à palpação dos anexos. Apresenta uma ultrassonografia transvaginal sem laudo, com sinais de salpingite. Demais aspectos do exame não puderam ser avaliados, pois as imagens estavam pouco nítidas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O tratamento deve ser hospitalar pela presença de salpingite.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 15 anos de idade vai à consulta com o ginecologista assistente, referindo que a “camisinha estourou” durante relação sexual consensual há cerca de quatro semanas. Relata que o parceiro procurou um urologista e foi diagnosticado com alguma doença sexualmente transmissível (DST), sendo prescrito tratamento com azitromicina e ceftriaxone, ambos em doses únicas. A paciente queixa-se de dor em baixo ventre, náuseas e vômitos nos últimos dois dias. Nega febre. Ao exame físico, é identificado corrimento amarelo-esverdeado e com odor fétido, e demonstra dor à mobilização do colo do útero e à palpação dos anexos. Apresenta uma ultrassonografia transvaginal sem laudo, com sinais de salpingite. Demais aspectos do exame não puderam ser avaliados, pois as imagens estavam pouco nítidas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Um dos esquemas antibióticos para tratamento hospitalar pode ser a associação de clindamicina + gentamicina.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 15 anos de idade vai à consulta com o ginecologista assistente, referindo que a “camisinha estourou” durante relação sexual consensual há cerca de quatro semanas. Relata que o parceiro procurou um urologista e foi diagnosticado com alguma doença sexualmente transmissível (DST), sendo prescrito tratamento com azitromicina e ceftriaxone, ambos em doses únicas. A paciente queixa-se de dor em baixo ventre, náuseas e vômitos nos últimos dois dias. Nega febre. Ao exame físico, é identificado corrimento amarelo-esverdeado e com odor fétido, e demonstra dor à mobilização do colo do útero e à palpação dos anexos. Apresenta uma ultrassonografia transvaginal sem laudo, com sinais de salpingite. Demais aspectos do exame não puderam ser avaliados, pois as imagens estavam pouco nítidas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Caso seja indicado tratamento com metronidazol, o médico deve alertar a paciente a não ingerir bebidas alcoólicas até 24 horas após o tratamento, pelo risco de efeito dissulfiram.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 15 anos de idade vai à consulta com o ginecologista assistente, referindo que a “camisinha estourou” durante relação sexual consensual há cerca de quatro semanas. Relata que o parceiro procurou um urologista e foi diagnosticado com alguma doença sexualmente transmissível (DST), sendo prescrito tratamento com azitromicina e ceftriaxone, ambos em doses únicas. A paciente queixa-se de dor em baixo ventre, náuseas e vômitos nos últimos dois dias. Nega febre. Ao exame físico, é identificado corrimento amarelo-esverdeado e com odor fétido, e demonstra dor à mobilização do colo do útero e à palpação dos anexos. Apresenta uma ultrassonografia transvaginal sem laudo, com sinais de salpingite. Demais aspectos do exame não puderam ser avaliados, pois as imagens estavam pouco nítidas. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Pode-se considerar a paciente como vítima de estupro de vulnerável.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma adolescente de 12 anos de idade sofre uma queda ao andar de bicicleta, colidindo a região genital contra o quadro central. A paciente é levada pela mãe a uma emergência pediátrica para avaliação, em  razão de edema vulvar. Ao chegar, a paciente refere dor pélvica importante. É avaliada por um cirurgião pediátrico que identifica hematoma em grandes lábios, estável desde o acidente, segundo a mãe, associado a edema de pequenos e grandes lábios.  Quanto ao caso clínico apresentado e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A presença de instabilidade hemodinâmica indica necessidade de exploração cirúrgica do hematoma imediatamente.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma adolescente de 12 anos de idade sofre uma queda ao andar de bicicleta, colidindo a região genital contra o quadro central. A paciente é levada pela mãe a uma emergência pediátrica para avaliação, em razão de edema vulvar. Ao chegar, a paciente refere dor pélvica importante. É avaliada por um cirurgião pediátrico que identifica hematoma em grandes lábios, estável desde o acidente, segundo a mãe, associado a edema de pequenos e grandes lábios.  Quanto ao caso clínico apresentado e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Lesões traumáticas da vulva e da vagina são comuns.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma adolescente de 12 anos de idade sofre uma queda ao andar de bicicleta, colidindo a região genital contra o quadro central. A paciente é levada pela mãe a uma emergência pediátrica para avaliação, em razão de edema vulvar. Ao chegar, a paciente refere dor pélvica importante. É avaliada por um cirurgião pediátrico que identifica hematoma em grandes lábios, estável desde o acidente, segundo a mãe, associado a edema de pequenos e grandes lábios. Quanto ao caso clínico apresentado e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A minoria dos hematomas vulvares é tratada de maneira conservadora, com compressas frias e controle da dor, pois, em razão da natureza arterial da maioria deles, é necessário abordagem cirúrgica para ligar os vasos sangrantes.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 36 anos de idade foi atendida em primeira consulta com equipe de oncologia ginecológica, em abril de 2019, com queixa de sinusiorragia. Foi diagnosticada com adenocarcinoma de colo do útero, estágio clínico IIB. Indicou-se tratamento, porém a  paciente não desejou realizá-lo naquele momento, retornando um ano depois, grávida (G6P4C1), com idade gestacional de 30 semanas e 3 dias, referindo dificuldade para deambular e dor no quadril à esquerda. Foram, então, identificadas metástase óssea e fratura patológica, e re-estadiada para estágio clínico IVB. Após avaliações iniciais, a paciente definiu que desejava manter a gestação.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente não poderá realizar nenhum tipo de tratamento com radioterapia.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 36 anos de idade foi atendida em primeira consulta com equipe de oncologia ginecológica, em abril de 2019, com queixa de sinusiorragia. Foi diagnosticada com adenocarcinoma de colo do útero, estágio clínico IIB. Indicou-se tratamento, porém a paciente não desejou realizá-lo naquele momento, retornando um ano depois, grávida (G6P4C1), com idade gestacional de 30 semanas e 3 dias, referindo dificuldade para deambular e dor no quadril à esquerda. Foram, então, identificadas metástase óssea e fratura patológica, e re-estadiada para estágio clínico IVB. Após avaliações iniciais, a paciente definiu que desejava manter a gestação.  Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente poderá realizar tratamento com quimioterapia.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 36 anos de idade foi atendida em primeira consulta com equipe de oncologia ginecológica, em abril de 2019, com queixa de sinusiorragia. Foi diagnosticada com adenocarcinoma de colo do útero, estágio clínico IIB. Indicou-se tratamento, porém a paciente não desejou realizá-lo naquele momento, retornando um ano depois, grávida (G6P4C1), com idade gestacional de 30 semanas e 3 dias, referindo dificuldade para deambular e dor no quadril à esquerda. Foram, então, identificadas metástase óssea e fratura patológica, e re-estadiada para estágio clínico IVB. Após avaliações iniciais, a paciente definiu que desejava manter a gestação. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Se indicado, o tratamento proposto será paliativo.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Uma paciente de 36 anos de idade foi atendida em primeira consulta com equipe de oncologia ginecológica, em abril de 2019, com queixa de sinusiorragia. Foi diagnosticada com adenocarcinoma de colo do útero, estágio clínico IIB. Indicou-se tratamento, porém a paciente não desejou realizá-lo naquele momento, retornando um ano depois, grávida (G6P4C1), com idade gestacional de 30 semanas e 3 dias, referindo dificuldade para deambular e dor no quadril à esquerda. Foram, então, identificadas metástase óssea e fratura patológica, e re-estadiada para estágio clínico IVB. Após avaliações iniciais, a paciente definiu que desejava manter a gestação. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "A paciente não possui indicação de tratamento cirúrgico para o câncer de colo do útero.",
+    "resposta_bool": true
+  }
+]

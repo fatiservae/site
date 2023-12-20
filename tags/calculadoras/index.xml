@@ -1,0 +1,2334 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Jefferson T.</title>
+	<link>http://mmori.com/tags/calculadoras/</link>
+	<description>Recent content in calculadoras on Jefferson T.</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 21 Nov 2023 14:33:45 -0300</lastBuildDate>
+    
+        <atom:link href="http://mmori.com/tags/calculadoras/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Bulário</title>
+		<link>http://mmori.com/medicina/bulario/</link>
+		<pubDate>Sun, 17 Dec 2023 21:31:36 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/bulario/</guid>
+		<description>
+
+&lt;div class=&#34;search&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;
+  &lt;button id=&#34;clear-search&#34;&gt;
+    &lt;title&gt;Backspace&lt;/title&gt;
+    &lt;path d=&#34;M135.19 390.14a28.79 28.79 0 0021.68 9.86h246.26A29 29 0 00432 371.13V140.87A29 29 0 00403.13 112H156.87a28.84 28.84 0 00-21.67 9.84v0L46.33 256l88.86 134.11z&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;32&#34;&gt;&lt;/path&gt;
+    &lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;32&#34; d=&#34;M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt; 
+  &lt;/button&gt;
+  &lt;/input&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;div id=&#34;bulario&#34;&gt;
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th id=&#34;med&#34;&gt;Medicamento&lt;/th&gt;
+            &lt;td colspan=&#34;2&#34; id=&#34;alt&#34;&gt;Nomes alternativos&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Intravenoso&lt;/td&gt;
+            &lt;td id=&#34;iv&#34;&gt;IV&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Intramuscular&lt;/td&gt;
+            &lt;td id=&#34;im&#34;&gt;IM&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Oral&lt;/td&gt;
+            &lt;td id=&#34;oral&#34;&gt;IV&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td id=&#34;transderm&#34;&gt;Transdérmico&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;div&gt;
+
+&lt;ul id=&#34;search-output&#34;&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+  document.addEventListener(&#34;DOMContentLoaded&#34;, () =&gt; {
+  const search = document.getElementById(&#34;search&#34;);
+  const searched = document.getElementById(&#39;search-output&#39;);
+  fetch(&#39;/bulario.json&#39;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; {
+    for (let key in data) {
+      const listItem = document.createElement(&#39;li&#39;);
+      listItem.innerHTML = key; 
+      searched.appendChild(listItem);
+    }
+  })
+  .catch(error =&gt; console.error(&#39;Erro no fetch JSON:&#39;, error));
+})
+
+// Motor de busca
+// O motor trabalha em cima de &#34;searched&#34; tornando
+// invisível as entradas não compatíveis com a busca.
+search.addEventListener(&#34;input&#34;, () =&gt; {
+  const searchText = search.value
+    .toLowerCase()
+    .trim()
+    .normalize(&#39;NFD&#39;)
+    .replace(/\p{Diacritic}/gu, &#34;&#34;);
+  const searchTerms = searchText.split(&#34; &#34;);
+  const hasFilter = searchText.length &gt; 0;
+  document.querySelectorAll(&#34;#search-output li&#34;).forEach(out =&gt; {
+    const searchString = `${out.innerText}`
+      .toLowerCase()
+      .normalize(&#39;NFD&#39;)
+      .replace(/\p{Diacritic}/gu, &#34;&#34;); 
+    let isMatch = searchTerms.every(
+      term =&gt; searchString.includes(term)
+    );
+    if (isMatch &amp;&amp; hasFilter){
+      out.classList.add(&#39;show&#39;)
+    }else{
+      out.classList.remove(&#39;show&#39;)
+    }
+  })
+})
+&lt;/script&gt;
+
+
+</description>
+	</item>
+	
+	<item>
+		<title>Introdução ao banco de questões</title>
+		<link>http://mmori.com/medicina/bancoquestoes-intro/</link>
+		<pubDate>Sun, 17 Dec 2023 03:54:33 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/bancoquestoes-intro/</guid>
+		<description>&lt;h2 id=&#34;concursos-públicos-questões-públicas&#34;&gt;Concursos públicos, questões públicas!&lt;/h2&gt;
+&lt;p&gt;A grande maioria dos preparatórios vendem bancos de questões. A resolução de questões é um dos mais importantes instrumentos na aprovação em provas.&lt;/p&gt;
+&lt;p&gt;Infelizmente, a maior parte dos bancos está protegida por &lt;em&gt;paywalls&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Este banco foi elaborado inteiramente por mim, portanto a adição de novas questões demora um pouco porque faço quando posso. Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Banco-de-questoes-de-residencia-medica.&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Boa prática!&lt;/p&gt;
+&lt;p&gt;Clique &lt;a href=&#34;../../medicina/banco-de-questoes/index.html&#34;&gt;aqui&lt;/a&gt; para acessar as questões.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Afogamento</title>
+		<link>http://mmori.com/medicina/afogamento/</link>
+		<pubDate>Fri, 15 Dec 2023 20:39:22 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/afogamento/</guid>
+		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+    a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
+    y -- Com&lt;br&gt; pulso carotídeo --&gt; z(Grau 5)
+    a -- Sim --&gt; c(Ausculta pulmonar) -- Estertores&lt;br&gt; francos --&gt; d(Pulso radial) -- Não --&gt; m(Grau 4)
+    d -- Sim --&gt; gi(Grau 3)
+    c -- Estertores leves&lt;br&gt; ou moderados --&gt; l(Grau 2)
+    c -- Normal&lt;br&gt; com tosse --&gt; fim(Grau 1)
+    c -- Normal&lt;br&gt; sem tosse --&gt; lli(Resgate da cena)
+&lt;/pre&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>A aceitação da morte como modo de vida</title>
+		<link>http://mmori.com/filosofia/morte/</link>
+		<pubDate>Fri, 15 Dec 2023 00:35:27 -0300</pubDate>
+		
+		<guid>http://mmori.com/filosofia/morte/</guid>
+		<description>&lt;p&gt;
+
+&lt;style&gt;
+.sticker{
+  max-width: 50%;
+}
+em{
+  color: gray;
+}
+p.sticker{
+  text-indent: 0%;
+  text-align: center;
+}
+.videoc{
+ display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+.videoc iframe{
+}
+
+&lt;/style&gt;&lt;/p&gt;
+&lt;h3 id=&#34;as-escolhas-como-sofrimento&#34;&gt;As escolhas como sofrimento&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;../../pix/many-paths.jpg&#34; alt=&#34;many paths&#34;&gt;
+&lt;em style=&#34;font-size: 0.8em&#34;&gt;Em deviantart.com © by username465, 2016&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Somos forçados contra diversos caminhos na vida.&lt;/p&gt;
+&lt;p&gt;Escolhas são feitas. Muitas.&lt;/p&gt;
+&lt;p&gt;Poderíamos reduzir a vida de um ser humano normal como uma série de decisões e seus desdobramentos, muitas vezes condicionantes das próximas decisões, o que resulta numa recursividade e a problemas como &lt;strong&gt;depressão, ansiedade&lt;/strong&gt; e muitas outras condições. Somos &lt;em&gt;obrigados&lt;/em&gt; a &lt;em&gt;decidir&lt;/em&gt; o que vestimos, o que comer, se teremos filhos, a profissão etc.&lt;/p&gt;
+&lt;p&gt;Quanto mais decisões precisamos tomar e quanto maior o número de opções, mais a mente humana sofre com a pressão resultante. Este fenômeno é, na verdade, muito estudado. Schwartz observou que, em lojas, quanto mais opções os compradores têm, maior a ansiedade associada à compra¹.&lt;/p&gt;
+&lt;p&gt;Portanto, não é nenhum mistério para ninguém que uma vida baseada na relutância e na excessiva ponderação das escolhas é uma vida angustiada.&lt;/p&gt;
+&lt;h3 id=&#34;a-aceitação-como-caminho&#34;&gt;A aceitação como caminho&lt;/h3&gt;
+&lt;p&gt;Cerca de mil anos antes da consolidação do cristianismo, durante o período das &lt;em&gt;escolas helenísticas&lt;/em&gt;, o &lt;strong&gt;estoicismo&lt;/strong&gt; pavimentou o caminho para esta que viria a ser a principal religão ocidental.&lt;/p&gt;
+&lt;p&gt;O pensamento estoico se alicerça na noção de que a aceitação dos destinos é um caminho de menor sofrimento do que a insistência em alternativas por numerosas escolhas ou mera teimosia.&lt;/p&gt;
+&lt;p class=&#34;sticker&#34;&gt;&lt;em&gt;O crente é carregado pela fé. O descrente é arrastado pelo destino.&lt;br&gt;&lt;/em&gt;Antigo ditado estoico.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Os cristãos primitivos aperfeiçoaram essa visão, estimulando a vida pobre e miserável como forma de aceitação do mais básico, sendo, portanto, de melhor proveito as benesses de quaisquer natureza. A felicidade do homem que vive de migalhas pode ser um pão inteiro. O prazer do faminto não depende do bom sabor, apenas da comida.&lt;/p&gt;
+&lt;p class=&#34;sticker&#34;&gt;&lt;em&gt;Felizes aqueles que crêem sem ver.&lt;/em&gt;&lt;br&gt;João 20:29.&lt;/p&gt;
+&lt;p&gt;A fé, assim sendo, se reduz a aceitação do destino, num ato subjetivo de confiança em um ser benevolente que alegadamente sempre terá o melhor plano. Chama-se isto de &lt;em&gt;atitude estoica&lt;/em&gt;. A resistência, a teimosia, a beligerância e a intolerabilidade são conceitos opostos a conduta estoica. O descrente, portanto, duvida sempre, desacredita e reage ao destino.&lt;/p&gt;
+&lt;p&gt;Que não se confunda! A curiosidade, o questionamento e a busca do conhecimento pela via dialética não se contradiz à conduta estoica.&lt;/p&gt;
+&lt;h3 id=&#34;a-aceitação-da-morte-como-modo-de-vida&#34;&gt;A aceitação da morte como modo de vida&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;../../pix/memento-mori.jpg&#34; alt=&#34;memento-mori&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Dentre todos os destinos, qual aquele mais certo de que a morte? &lt;strong&gt;Nenhum&lt;/strong&gt;.&lt;/p&gt;
+&lt;p class=&#34;sticker&#34;&gt;&lt;em&gt;Memento mori. Amor fati.&lt;/em&gt;&lt;br&gt;Saudações estoicas.&lt;/p&gt;
+&lt;p&gt;Sendo a morte o destino mais certo da vida de qualquer ser humano, por que aprendemos a evitá-la, tanto como destino final, como assunto? Vivemos como se a vida eterna fosse uma certeza. No máximo, trata-se de uma promessa vazia e religiosa.&lt;/p&gt;
+&lt;p&gt;Somos agressivos na defesa de qualquer dos nossos bens, porém permissivos na perda do nosso tempo, mesmo com a rígida evidência de que a morte inexoravelmente virá e o limitado tempo nesta passagem será consumido.&lt;/p&gt;
+&lt;p&gt;A saída é a aceitação. Vivemos adorando a vida, valorizando os aspectos passageiros desta, como a beleza e a riqueza, mesmo sabendo que o fim é a morte. Tudo na vida transita. Tudo se esvai.&lt;/p&gt;
+
+
+&lt;div class=&#34;videoc&#34;&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/A40AGZ9tPcw?si=DWqRFbbRhxeQAm6t&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Memento mori&lt;/em&gt; é uma saudação de lembrança que nos recorda que a somos mortais.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Amor fati&lt;/em&gt; é a insistência estoica de que devemos amar o destino, pela sua inevitabilidade.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Schwartz, Barry. &lt;strong&gt;The Paradox of Choice&lt;/strong&gt;. New York, United States: Harper Perennial. ISBN 0-06-000568-8. 2004.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Diabetes Mellitus Gestacional</title>
+		<link>http://mmori.com/medicina/dmg/</link>
+		<pubDate>Thu, 14 Dec 2023 09:17:12 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/dmg/</guid>
+		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
+&lt;p&gt;O diabetes mellitus gestacional tem hoje um fluxograma de conduta bem definido pela FEBRASGO.&lt;/p&gt;
+&lt;p&gt;Outrora, já foi mais confuso.&lt;/p&gt;
+&lt;p&gt;Uma dúvida comum:&lt;/p&gt;
+&lt;p style=&#34;text-indent: 0%&#34; class=&#34;sticker&#34;&gt;
+A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.
+&lt;/p&gt;
+&lt;h2 id=&#34;diagnóstico&#34;&gt;Diagnóstico&lt;/h2&gt;
+
+ 
+&lt;div class=&#34;carousela&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma com viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma sem viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
+
+
+
+  
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousela .carouselslide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousela .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anteriora&#34;);
+  let proximo = document.getElementById(&#34;proximoa&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;flex&#34;;
+    legends[currentSlide].style.display = &#34;flex&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;conduta-no-pós-parto&#34;&gt;Conduta no pós-parto&lt;/h2&gt;
+
+ 
+&lt;div class=&#34;carousel2&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma com viabilidade financeira&lt;/p&gt;&lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma sem viabilidade financeira&lt;/p&gt;&lt;/div&gt;
+
+
+
+  
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior2&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo2&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel2 .carouselslide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel2 .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior2&#34;);
+  let proximo = document.getElementById(&#34;proximo2&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;flex&#34;;
+    legends[currentSlide].style.display = &#34;flex&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;FEBRASGO. &lt;strong&gt;Revista Feminina - Volume 47, Número 11&lt;/strong&gt;. Federação Brasileira de Ginecologia e Obstetrícia. Brasil. 2019.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Anatomia</title>
+		<link>http://mmori.com/medicina/anatomia/</link>
+		<pubDate>Tue, 12 Dec 2023 09:48:10 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/anatomia/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/medicina/anatomy.png&#34; alt=&#34;Anatomy Learning&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Iniciando em anatomia? Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto livre, open-source e em WebGL.&lt;/p&gt;
+&lt;p&gt;Ao avançar, não perca seu tempo, basta um bom atlas cadavérico como o Nielsen e o bom e velho Grays Anatomy. O livro, não a série.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Niesel, Mark; Miller, Shawn. &lt;strong&gt;Atlas of Human Anatomy&lt;/strong&gt;. Wiley. 2011.&lt;/li&gt;
+&lt;li&gt;Standring Susan. 2016. &lt;strong&gt;Gray&amp;rsquo;s Anatomy : The Anatomical Basis of Clinical Practice&lt;/strong&gt;. Forty-first ed. Philadelphia: Elsevier Limited. 2016.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Vacinas</title>
+		<link>http://mmori.com/medicina/vacinas/</link>
+		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/vacinas/</guid>
+		<description>&lt;h2 id=&#34;termos&#34;&gt;Termos&lt;/h2&gt;
+&lt;h3 id=&#34;heterólogo&#34;&gt;Heterólogo&lt;/h3&gt;
+&lt;p&gt;Termo confuso na medicina e na biologia. Na imunologia, &lt;strong&gt;esquema heterólogo&lt;/strong&gt; significa utilizar uma vacina diferente daquela do esquema inicial. Coloquialmente chamado de booster.&lt;/p&gt;
+&lt;h3 id=&#34;vírus-vivo&#34;&gt;Vírus vivo&lt;/h3&gt;
+&lt;p&gt;Forma de vacina em que o vírus ofertado é vivo e não enfraquecido, apenas selecionado para causar um efeito específico sobre a resposta imune. Pode causar doenças.&lt;/p&gt;
+&lt;h3 id=&#34;atenuada&#34;&gt;Atenuada&lt;/h3&gt;
+&lt;p&gt;Trata-se de patógeno vivo, enfraquecido estratégicamente via técnicas genéticas ou laboratoriais diversas. Pode causar doenças e tem contraindicações mais voltadas aos imunossuprimidos.&lt;/p&gt;
+&lt;h3 id=&#34;conjugada&#34;&gt;Conjugada&lt;/h3&gt;
+&lt;p&gt;Significa que a vacina foi associada a um outro antígeno conhecido por sua imunogenicidade maior, por exemplo, as proteínas tifoides ou tetânicas, que possuem poder de provocar maior avidez no carreamento sérico. É uma forma de potencialização imunogênica.&lt;/p&gt;
+&lt;h2 id=&#34;virais&#34;&gt;Virais&lt;/h2&gt;
+&lt;h3 id=&#34;hepatite&#34;&gt;Hepatite&lt;/h3&gt;
+&lt;h2 id=&#34;bacterianas&#34;&gt;Bacterianas&lt;/h2&gt;
+&lt;h3 id=&#34;bcg&#34;&gt;BCG&lt;/h3&gt;
+&lt;p&gt;A vacina bacilo Calmette-Guérin é um &lt;strong&gt;Mycobaterium bovis&lt;/strong&gt; atenuado, vivo, capaz de induzir imunidade contra a tuberculose (&lt;em&gt;M. tuberculosis&lt;/em&gt;) e hanseníase (&lt;em&gt;M. leprae&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Deve ser aplicada, preferencialmente, ao nascer.&lt;/p&gt;
+&lt;p&gt;Sua aplicação deixa uma cicatriz encrustada, de alto relevo, &lt;strong&gt;porém não necessária&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;meningocóccica&#34;&gt;Meningocóccica&lt;/h3&gt;
+&lt;p&gt;A meningite é um problema de saúde grave. Após a identificação da bactéria mais comumente responsável pelos surtos de infecção meníngea, os esforços para se criar uma vacina iniciaram.&lt;/p&gt;
+&lt;p&gt;Existem quatro subtipos principais de &lt;em&gt;Neissera meningitidis&lt;/em&gt;: A, C, W e Y.&lt;/p&gt;
+&lt;p&gt;Durante muito tempo a vacina mais aplicada foi a MenB, contra o subtipo B.&lt;/p&gt;
+&lt;p&gt;Atualmente, há aplicação em larga escala e em serviços públicos da MeningoACWY, cobrindo todos subtipos.&lt;/p&gt;
+&lt;p&gt;Idealmente, deve ser aplicada a MenC aos 5 meses com reforço aos 12 meses e, para maiores de 12 anos a MenACWY.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Eclâmpsia</title>
+		<link>http://mmori.com/medicina/eclampsia/</link>
+		<pubDate>Mon, 11 Dec 2023 00:53:39 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/eclampsia/</guid>
+		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
+&lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
+&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de gestação a pelo menos 20 semanas, hipertensão e proteinúria.&lt;/p&gt;
+&lt;p&gt;Considera-se hipertensa a mulher grávida com PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica.&lt;/p&gt;
+&lt;p&gt;Proteinúria é a ocorrência de 300mg ou mais na urina de 24h. Aceita-se o diagnóstico mais prático da relação proteína/creatinina² de 0.3.&lt;/p&gt;
+&lt;p&gt;Recentemente, na ausência de proteinúria, considera-se, também, qualquer lesão de órgão-alvo¹.&lt;/p&gt;
+&lt;p&gt;Eclâmpsia é a ocorrência de convulsões durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
+&lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cuidados&#34;&gt;Cuidados!&lt;/h3&gt;
+&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e há PCR com 12mEq/L.&lt;/p&gt;
+&lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
+&lt;p&gt;O gluconato de cálcio a 1g por via endovenosa (geralmente 10 mL a 10%) deve ser administrado lentamente nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
+&lt;h2 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h2&gt;
+&lt;p&gt;Como não sabemos a causa, sabemos menos ainda o que funciona. Porém, a medicina baseada em evidências consegue demostrar benefício no uso de ácido acetilsalicílico a 150mg/dia.&lt;/p&gt;
+&lt;p&gt;Caso se identifique deficiência de cálcio na dieta (presumida clinicamente ou laboratorial), prescreve-se cálcio oral dietético suplementar a 1-2g/dia.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;A &lt;a href=&#34;../../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
+&lt;li&gt;Proteína total dividida pela creatinina medidas em mesma unidade.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;FEBRASGO. Protocolo no. 73 - 2021. Federação Brasileira de Ginecologia e Obstetrícia. Brasil.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Meu dicionário instantâneo</title>
+		<link>http://mmori.com/dicionario/</link>
+		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
+		
+		<guid>http://mmori.com/dicionario/</guid>
+		<description>
+
+&lt;div class=&#34;sticker&#34;&gt;
+&lt;p&gt;
+Pensei neste dicionário como meio de consulta rápida para termos das minhas áreas de interesse, notadamente a medicina e ciências em geral. 
+&lt;/p&gt;&lt;p&gt;
+Programar um código que mostrasse a referência bibliográfica de cada definição mostrou-se improdutivo e &lt;em&gt;bloated&lt;/em&gt; e resolvi fazer uma listagem simples instantânea em JavaScript mesmo. Como gostei do resultado, mantive.
+&lt;/p&gt;&lt;p&gt;
+Aceito sugestões! 
+&lt;/p&gt;&lt;p&gt;
+Boa busca!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;div class=&#34;search&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;
+  &lt;button id=&#34;clear-search&#34;&gt;
+    &lt;title&gt;Backspace&lt;/title&gt;
+    &lt;path d=&#34;M135.19 390.14a28.79 28.79 0 0021.68 9.86h246.26A29 29 0 00432 371.13V140.87A29 29 0 00403.13 112H156.87a28.84 28.84 0 00-21.67 9.84v0L46.33 256l88.86 134.11z&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;32&#34;&gt;&lt;/path&gt;
+    &lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;32&#34; d=&#34;M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33&#34;&gt;&lt;/path&gt;
+    &lt;/svg&gt; 
+  &lt;/button&gt;
+  &lt;/input&gt;
+&lt;/div&gt;
+&lt;script src=&#34;../../dicionario.js&#34;&gt;&lt;/script&gt;
+&lt;ul id=&#34;search-output&#34;&gt;
+&lt;/ul&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Anestesia</title>
+		<link>http://mmori.com/anestesia/</link>
+		<pubDate>Thu, 30 Nov 2023 22:30:10 -0300</pubDate>
+		
+		<guid>http://mmori.com/anestesia/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/anesthesiology.jpg&#34; alt=&#34;Anestesia&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;porque-pretendo-anestesiologia-como-especialidade-médica&#34;&gt;Porque pretendo anestesiologia como especialidade médica&lt;/h2&gt;
+&lt;p&gt;Durante quase toda a trajetória do curso de medicina, tive muita dificuldade de me identificar com alguma especialidade.&lt;/p&gt;
+&lt;p&gt;Ocorre que a noção das pessoas leigas e dos estudantes ainda no ciclo básico sobre as especialidades médicas são muito parecidas. Temos a tendência de não enxergar o dia-a-dia profissional e nos prendemos em estereótipos. É o fenômeno do &lt;em&gt;meme&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Por exemplo, o aluno de medicina e as pessoas em geral imaginam o cirurgião pela ótica do ato cirúrgico em si, desconhecendo a rotina de visita de enfermaria e consultas em ambulatório que todo cirurgião acaba por precisar fazer. Muitos têm sua rotina quase inteira focada nestas áreas e bem pouco no centro cirúrgico em si.&lt;/p&gt;
+&lt;p&gt;Cada pessoa é uma. Tem gente que adora ambulatório. Tem gente que adora enfermaria.&lt;/p&gt;
+&lt;p&gt;Eu acho enfermaria um caos, o cuidado com o paciente é muito descontinuado, muitas condutas são abandonadas e trocadas a depender do plantonista e boa parte dos pacientes tem um movito de internação questionável, no mínimo. As internações contribuem para queda funcional global ou para a redução na expectativa de vida, principalmente de pacientes idosos¹²³.&lt;/p&gt;
+&lt;p&gt;Não me entenda errado! Eu admiro os profissionais envolvidos na medicina interna e a no processo de hospitalização. São os mais importantes guerreiros da saúde.&lt;/p&gt;
+&lt;p&gt;Mas, não é pra mim. Meu ideal de cuidado é mais continuado e eu gosto de ver um fim claro na minha atuação.&lt;/p&gt;
+&lt;p&gt;Sendo assim, as especialidades mais focadas em procedimentos e cuidado continuado subiram na minha prioridade. Dentre elas, a que mais fala a favor do meu perfil é a medicina intensiva. Porém, é na anestesia &lt;strong&gt;onde se domina o cuidado do paciente de forma integral por um período de tempo definido &amp;ndash; a cirurgia &amp;ndash; e há um objetivo claro na conduta&lt;/strong&gt;. A medicina intensiva, por outro lado, compartilha muitas características de enfermaria.&lt;/p&gt;
+&lt;p&gt;Por isso, acredito que um caminho interessante pra mim, na medicina, é a anestesiologia.&lt;/p&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Carvalho TC, Valle AP do, Jacinto AF, Mayoral VF de S, Boas PJFV. Impact of hospitalization on the functional capacity of the elderly: A cohort study. Rev bras geriatr gerontol [Internet]. 2018Mar;21(2):134–42. Available from: &lt;a href=&#34;https://doi.org/10.1590/1981-22562018021.170143&#34;&gt;https://doi.org/10.1590/1981-22562018021.170143&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Alzahrani N. The effect of hospitalization on patients&amp;rsquo; emotional and psychological well-being among adult patients: An integrative review. Appl Nurs Res. 2021 Oct;61:151488. doi: 10.1016/j.apnr.2021.151488. Epub 2021 Aug 12. PMID: 34544571.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.msdmanuals.com/home/special-subjects/hospital-care/problems-due-to-hospitalization&#34;&gt;https://www.msdmanuals.com/home/special-subjects/hospital-care/problems-due-to-hospitalization&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Abaixo a medicina!</title>
+		<link>http://mmori.com/medicina/abaixo-a-medicina/</link>
+		<pubDate>Tue, 28 Nov 2023 10:56:57 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/abaixo-a-medicina/</guid>
+		<description>&lt;img src=&#34;../../pix/doctor-plague.png&#34;&gt;
+&lt;p class=&#34;center&#34; style=&#34;max-width: 50%&#34;&gt;&lt;em&gt;Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: black; background: red&#34;&gt;AVISO:&lt;/span&gt; Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.&lt;/p&gt;
+&lt;h2 id=&#34;classificações-médicas&#34;&gt;Classificações médicas&lt;/h2&gt;
+&lt;div class=&#34;sticker&#34;&gt;Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre dezesseis e catorze classificações por semestre.
+&lt;br&gt;
+&lt;em&gt;Autor desconhecido, c. 2020.&lt;/em&gt;
+&lt;/div&gt;
+&lt;p&gt;Contém ironia, óbvio. Porém, uma realidade oculta reside no coração de todo médico: &lt;strong&gt;a insana sede por classificações!&lt;/strong&gt; Em certos casos, beira o ridículo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Os aneurismas de aorta, e.g., se classificam com relação ao seu diâmetro, do qual, 1mm de diferença significa a brusca mudança de conduta entre &amp;ldquo;tratamento conservador&amp;rdquo; e cirurgia radical. Ainda bem que se popularizou a cirurgia endovascular, porque há menos de duas décadas atrás tal procedimento consistia basicamente numa agressiva laparatomia.&lt;/li&gt;
+&lt;li&gt;A dor torácica pode ser tipicamente anginosa, dita quando suas características são clássicas de uma dor precordial. Porém, isso não é suficiente. Nas provas, ela se chama &amp;ldquo;Dor do tipo A&amp;rdquo;. Eu chamo este fetish de &lt;em&gt;tara taxônomica&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;O exame físico do baço espera, na normalidade, que não seja palpável. Caso seja, classifica-se o baço em três graus, a depender da altura da palpação. O mais lógico seria reportarmos a altura da palpação em si, não? Inclusive, o marco anatômico da tal classificação é a cicatriz umbilical, o que faz menos sentido ainda porque seria ainda mais óbvio registrarmos a que distância exata do marco está a palpação, para fins de acompanhamento. Vai entender.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;tara-taxonômica&#34;&gt;Tara taxonômica&lt;/h2&gt;
+&lt;p&gt;Para parecer inteligente em uma roda de conversa entre profissionais da saúde, experimente sempre questionar se as patologias são do tipo 1 ou 2. Mesmo inexistente a tal classificação, alguem se disporá a discuti-lá, acredite. Ainda mais, é possível que haja debate de validade e até de evidências sobre a mentira em curso.&lt;/p&gt;
+&lt;p&gt;Este fenômeno tem a ver com a origem das maiorias das classificações médicas. Normalmente, tenta-se compartimentalizar os fenômenos, na tentativa de delinear alguma abordagem sistematizada para cada patologia. Porém, esse fundamento lógico das classificações médicas se perdeu com o tempo.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Pressao Arterial</title>
+		<link>http://mmori.com/medicina/pressao-arterial/</link>
+		<pubDate>Mon, 27 Nov 2023 11:02:22 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/pressao-arterial/</guid>
+		<description>&lt;h2 id=&#34;pressão-arterial-média&#34;&gt;Pressão arterial média&lt;/h2&gt;
+&lt;p&gt;$$
+PAM = \frac{PAS + 2 * PAD}{3}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;média-da-pressão-arterial&#34;&gt;Média da pressão arterial&lt;/h2&gt;
+&lt;p&gt;$$
+PA[média] = \frac{PAS + PAD}{2}
+$$&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Assistente de antibioticoterapia</title>
+		<link>http://mmori.com/medicina/assistente-antibioticoterapia/</link>
+		<pubDate>Tue, 21 Nov 2023 14:33:45 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/assistente-antibioticoterapia/</guid>
+		<description>&lt;p style=&#34;color:black; background: red; font-weight: bold&#34; class=&#34;center&#34;&gt;&lt;big&gt; Em construção&lt;/p&gt;
+&lt;!DOCTYPE html&gt;
+
+
+&lt;form class=&#34;center&#34;&gt;
+  &lt;label for=&#34;sitios&#34;&gt;Sítio infeccioso:&lt;/label&gt;
+  &lt;br&gt;
+  &lt;select id=&#34;sitios&#34;&gt;
+    &lt;option value=&#34;tecidos-moles&#34;&gt;Pele e tecidos moles&lt;/option&gt;
+    &lt;option value=&#34;pulmao&#34;&gt;Trato respiratório inferior&lt;/option&gt;
+    &lt;option value=&#34;tgi&#34;&gt;Trato gastrointestinal&lt;/option&gt;
+    &lt;option value=&#34;osso&#34;&gt;Ossos e articulações&lt;/option&gt;
+    &lt;option value=&#34;snc&#34;&gt;Sistema nervoso central&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/form&gt;
+&lt;br&gt;
+&lt;div class=&#34;center&#34;&gt;
+  &lt;button class=&#34;center&#34; onclick=&#34;adicionarSitio()&#34;&gt;Adicionar sítio&lt;/button&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;form class=&#34;center&#34;&gt;
+  &lt;label for=&#34;cultura&#34;&gt;Patógeno cultivado/presumido:&lt;/label&gt;
+  &lt;br&gt;
+  &lt;select id=&#34;cultura&#34;&gt;
+    &lt;option value=&#34;ecoli&#34;&gt;E. coli&lt;/option&gt;
+    &lt;option value=&#34;estreptospp&#34;&gt;Estreptococco spp.&lt;/option&gt;
+    &lt;option value=&#34;enterecoco&#34;&gt;Enterococo&lt;/option&gt;
+    &lt;option value=&#34;gramnegativo&#34;&gt;Gram -&lt;/option&gt;
+    &lt;option value=&#34;estafilospp&#34;&gt;Estaphylicocco spp.&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/form&gt;
+&lt;br&gt;
+&lt;div class=&#34;center&#34;&gt;
+  &lt;button class=&#34;center&#34; onclick=&#34;adicionarCultura()&#34;&gt;Adicionar patógeno&lt;/button&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&#34;sticker&#34;&gt;
+  &lt;p class=&#34;center&#34; style=&#34;text-indent: 0%; color: tomato&#34;&gt;Sítios selecionados:&lt;/p&gt;
+  &lt;ul style=&#34;color: white;&#34; id=&#34;sitiosSelecionados&#34;&gt;&lt;/ul&gt;
+  &lt;p class=&#34;center&#34; style=&#34;text-indent: 0%; color: tomato&#34;&gt;Culturas selecionadas:&lt;/p&gt;
+  &lt;ul style=&#34;color: white;&#34; id=&#34;culturasSelecionadas&#34;&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&#34;center&#34;&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;button class=&#34;center&#34; onclick=&#34;filtro()&#34;&gt;Filtra&lt;/button&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;h3&gt; Opções: &lt;/h3&gt;
+&lt;div id=&#34;antibiotico&#34;&gt;
+&lt;/div&gt;
+
+&lt;table id=&#34;tabelaAntibioticos&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Antibiotico&lt;/th&gt;
+&lt;th&gt;Dose&lt;/th&gt;
+&lt;th&gt;Contraindicações&lt;/th&gt;
+&lt;th&gt;Observações&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;!-- Aqui será preenchida com dados do JSON --&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;script&gt;
+let sitiosSelecionados = [];
+let culturasSelecionadas = [];
+
+function adicionarSitio() {
+  const selectSitio = document.getElementById(&#39;sitios&#39;);
+  const selectedOption = selectSitio.options[selectSitio.selectedIndex];
+  const listItem = document.createElement(&#39;li&#39;);
+  const sitiosSelecionadosList = document.getElementById(&#39;sitiosSelecionados&#39;);
+  listItem.appendChild(document.createTextNode(selectedOption.text));
+  sitiosSelecionados.push(selectedOption.value);
+  sitiosSelecionadosList.appendChild(listItem);
+}
+
+function adicionarCultura() {
+  const selectCultura = document.getElementById(&#39;cultura&#39;);
+  const selectedOption = selectCultura.options[selectCultura.selectedIndex];
+  const listItem = document.createElement(&#39;li&#39;);
+  const culturasSelecionadasList = document.getElementById(&#39;culturasSelecionadas&#39;);
+  listItem.appendChild(document.createTextNode(selectedOption.text));
+  culturasSelecionadas.push(selectedOption.value);
+  culturasSelecionadasList.appendChild(listItem);
+}
+
+function temElementoComum(array1, array2) {
+  for (let i = 0; i &lt; array1.length; i++) {
+    for (let j = 0; j &lt; array2.length; j++) {
+      if (array1[i] === array2[j]) {
+        return true; 
+      }
+    }
+  }
+  return false; 
+}
+
+function filtro() {
+fetch(&#39;/antibioticos.json&#39;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; {
+    const tabela = document.getElementById(&#39;tabelaAntibioticos&#39;);
+    const tbody = tabela.querySelector(&#39;tbody&#39;);
+
+    data.forEach(antibiotico =&gt; {
+      if (temElementoComum(Array.from(antibiotico.sitios), sitiosSelecionados) &amp;&amp;
+        temElementoComum(Array.from(antibiotico.cobertura), culturasSelecionadas)){
+        console.log(true)
+        const row = document.createElement(&#39;tr&#39;);
+        row.setAttribute(&#39;id&#39;, antibiotico.nome);
+        row.innerHTML = `
+          &lt;td&gt;${antibiotico.nome}&lt;/td&gt;
+          &lt;td&gt;${antibiotico.im}&lt;/td&gt;
+          &lt;td&gt;${antibiotico.iv}&lt;/td&gt;
+          &lt;td&gt;${antibiotico.contraindicacoes.join(&#39;, &#39;)}&lt;/td&gt;
+        `;
+        tbody.appendChild(row);
+        }
+        else {console.log(false)}
+    });
+  })
+  .catch(error =&gt; console.error(&#39;Erro ao buscar dados:&#39;, error));
+}
+&lt;/script&gt;
+&lt;/body&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Grandes queimados - Parkland</title>
+		<link>http://mmori.com/medicina/calculos-queimados/</link>
+		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/calculos-queimados/</guid>
+		<description>
+
+&lt;h2 style=&#34;padding: 0%;&#34; class=&#34;center&#34;&gt;Percentual de área corporal queimada&lt;/h2&gt;
+&lt;style&gt;
+p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  color: white;
+  font-weight: bold;
+  text-indent: 0%;
+  align: center;
+  text-align: center;
+}
+&lt;/style&gt;
+&lt;form id=&#34;formElementos&#34; class=&#34;center&#34;&gt;
+  &lt;label for=&#34;elementos&#34;&gt;Adicione as partes queimadas:&lt;/label&gt;
+  &lt;br&gt;
+ &lt;select id=&#34;elementos&#34;&gt;
+    &lt;option value=&#34;meiacabeca&#34;&gt;Cabeça - anterior&lt;/option&gt;
+    &lt;option value=&#34;meiacabeca&#34;&gt;Cabeça - posterior&lt;/option&gt;
+    &lt;option value=&#34;pescoco&#34;&gt;Pescoço&lt;/option&gt;
+    &lt;option value=&#34;meiobraco&#34;&gt;Braço direito - anterior&lt;/option&gt;
+    &lt;option value=&#34;meiobraco&#34;&gt;Braço direito - posterior&lt;/option&gt;
+    &lt;option value=&#34;meiobraco&#34;&gt;Braço esquerdo - anterior&lt;/option&gt;
+    &lt;option value=&#34;meiobraco&#34;&gt;Braço esquerdo - posterior&lt;/option&gt;
+    &lt;option value=&#34;torax&#34;&gt;Tórax anterior&lt;/option&gt;
+    &lt;option value=&#34;dorso&#34;&gt;Tórax posterior&lt;/option&gt;
+    &lt;option value=&#34;nadega&#34;&gt;Nádega direita&lt;/option&gt;
+    &lt;option value=&#34;nadega&#34;&gt;Nádega esquerda&lt;/option&gt;
+    &lt;option value=&#34;genitalia&#34;&gt;Genitália&lt;/option&gt;
+    &lt;option value=&#34;meiaperna&#34;&gt;Perna direita - anterior&lt;/option&gt;
+    &lt;option value=&#34;meiaperna&#34;&gt;Perna direita - posterior&lt;/option&gt;
+    &lt;option value=&#34;meiaperna&#34;&gt;Perna esquerda - anterior&lt;/option&gt;
+    &lt;option value=&#34;meiaperna&#34;&gt;Perna esquerda - posterior&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/form&gt;
+&lt;br&gt;
+&lt;div class=&#34;center&#34;&gt;
+  &lt;button onclick=&#34;adicionarElemento()&#34;&gt;Adicionar&lt;/button&gt;
+  &lt;p class=&#34;center&#34; style=&#34;color: navajowhite&#34;&gt;Elementos selecionados:&lt;/p&gt;
+  &lt;ul id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
+  &lt;br&gt;
+  &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
+  &lt;input id=&#34;idade&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;label for=&#34;peso&#34;&gt;Peso:&lt;/label&gt;
+  &lt;input id=&#34;peso&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;input id=&#34;eletrica&#34; type=&#34;checkbox&#34;&gt;&lt;/input&gt;
+  &lt;label for=&#34;eletrica&#34;&gt;Queimadura elétrica&lt;/label&gt;
+  &lt;br&gt;
+  &lt;button onclick=&#34;calcular()&#34;&gt;Calcular&lt;/button&gt;
+  &lt;br&gt;
+  &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+  
+&lt;h2 style=&#34;padding: 0%&#34; class=&#34;center&#34;&gt;Parkland sugerido&lt;/h2&gt;
+&lt;p id=&#34;parkland-pratico&#34;&gt;&lt;/p&gt;
+&lt;p&gt; A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&lt;/p&gt; 
+&lt;script&gt;
+let elementosSelecionados = [];
+
+function adicionarElemento() {
+  const selectElement = document.getElementById(&#39;elementos&#39;);
+  const selectedOption = selectElement.options[selectElement.selectedIndex];
+  
+  elementosSelecionados.push(selectedOption.value);
+  const elementosSelecionadosList = document.getElementById(&#39;elementosSelecionados&#39;);
+  const listItem = document.createElement(&#39;p&#39;);
+  listItem.appendChild(document.createTextNode(selectedOption.text));
+  elementosSelecionadosList.appendChild(listItem);
+}
+
+function calcular() {
+  let meiaperna = 9;
+  let meiacabeca = 4.5;
+  let genitalia = 1;
+  let pescoco = 1;
+  let meiobraco = 4.5;
+  let torax = 18;
+  let dorso = 18;
+  let nadega = 0;
+  let scq = 0;
+  let dose;
+  let debito;
+  let eletrica = document.getElementById(&#34;eletrica&#34;).checked;
+  let peso = document.getElementById(&#34;peso&#34;).value;
+  // qual idade criança msm?
+  let pediatrico = false;
+  if ( document.getElementById(&#34;idade&#34;).value &lt; 3){
+    pediatrico = true
+  };
+
+  if (pediatrico) { 
+    meiaperna = 7;
+    meiacabeca = 9;
+    dorso = 13;
+    nadega = 2.5;
+  }
+
+  elementosSelecionados.forEach(elemento =&gt; {
+    if (elemento === &#39;meiacabeca&#39;) { scq = scq + meiacabeca}
+    else if ( elemento === &#39;meiaperna&#39;) {scq = scq + meiaperna}
+    else if ( elemento === &#39;nadega&#39;) {scq = scq + nadega}
+    else if ( elemento === &#39;meiaperna&#39;) {scq = scq + meiaperna}
+    else if ( elemento === &#39;meiobraco&#39;) {scq = scq + meiobraco}
+    else if ( elemento === &#39;pescoco&#39;) {scq = scq + pescoco}
+    else if ( elemento === &#39;torax&#39;) {scq = scq + torax}
+    else if ( elemento === &#39;dorso&#39;) {scq = scq + dorso}
+    else if ( elemento === &#39;genitalia&#39;) {scq = scq + dorso}
+  })
+
+  let classificacao;
+  let grau = &#34;pequeno&#34;;
+  if (scq &gt; 20 ) {
+    grau = &#34;grande&#34;;
+  } else if (scq &gt; 10 &amp;&amp; pediatrico) { 
+    grau = &#34;grande&#34;
+  } else { classificacao = &#34;&#34;}
+  classificacao = &#34;Paciente &#34; + grau +&#34; queimado.&#34;
+  document.getElementById(&#39;resultado&#39;).innerHTML = 
+    classificacao + &#34;&lt;br&gt;&#34;+scq+&#34;% da superfície corporal queimada.&#34;;
+
+  // Parkland
+  if (eletrica) {
+    dose = scq * peso * 4 ;
+    debito = 1.5 * peso ;
+  } else if (idade &lt; 14 || peso &lt; 31){
+    dose = scq * peso * 3;
+    debito = 1 * peso ;
+  } else{
+    dose = scq * peso * 2;
+    debito = 0.5 * peso ;
+  };
+
+  document.getElementById(&#39;parkland-pratico&#39;).innerHTML = 
+    &#34;Fazer &#34;+dose+&#34;ml/h e é esperado um débito em torno de &#34;+debito+&#34;mL/h &lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&#34;;
+
+  if (grau === &#34;pequeno&#34;) {
+    document.getElementById(&#39;parkland-pratico&#39;).innerHTML += 
+    &#34;&lt;br&gt;Em pacientes pequenos queimados, repense a necessidade de reidratação.&#34;;
+  }
+}
+&lt;/script&gt;
+&lt;style src=&#34;../../static/style.css&#34;&gt;
+&lt;/style&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Canais de ciências que recomendo</title>
+		<link>http://mmori.com/ciencia/canais-yt/</link>
+		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
+		
+		<guid>http://mmori.com/ciencia/canais-yt/</guid>
+		<description>&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
+&lt;h3 id=&#34;eugene-kuthoriansky&#34;&gt;Eugene Kuthoriansky&lt;/h3&gt;
+&lt;p&gt;Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.&lt;/p&gt;
+&lt;h3 id=&#34;science-asylum&#34;&gt;Science Asylum&lt;/h3&gt;
+&lt;p&gt;Canal do Nick Lucid, um professor de física casado com uma bióloga, com uma pegada mais adequada para vídeos rápidos e curiosos. Não recomendo como forma de esclarecer dúvidas muito aprofundadas, mas é ótimo como fonte de informação curiosa e acurada.&lt;/p&gt;
+&lt;p&gt;OBS: Não recomendo para verdadeira compreensão da &lt;a href=&#34;../../teoria-relatividade/index.html&#34;&gt;teoria da relatividade&lt;/a&gt;.
+&amp;hellip;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Cervejas</title>
+		<link>http://mmori.com/receitas/cervejas/</link>
+		<pubDate>Mon, 20 Nov 2023 20:46:46 -0300</pubDate>
+		
+		<guid>http://mmori.com/receitas/cervejas/</guid>
+		<description>&lt;h2 id=&#34;avisos&#34;&gt;Avisos!&lt;/h2&gt;
+&lt;p&gt;Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.&lt;/p&gt;
+&lt;p&gt;Todas cervejas desta páginas são recomendações minhas. Costumo degustá-las com carnes ou massas e salgados.&lt;/p&gt;
+&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
+&lt;p&gt;Cervejas são simples.&lt;/p&gt;
+&lt;p&gt;O termo mais complexo para uma boa discussão sobre cervejas é a escala &lt;strong&gt;IBU, International Bitterness Units&lt;/strong&gt;. Trata-se apenas de uma escala de amargor que foi adotada. O cervejeiro calcula o IBU a partir de fórmulas, mas a sua validação de mercado se dá pela degustação.&lt;/p&gt;
+&lt;p&gt;E os vários tipos de cerveja? Novamente, sejamos simples:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pilsen&lt;/strong&gt; se refere à cerveja clara, de espuma leve mas evidente e sabor florado. Foi possível sua obtenção a partir da revolução industrial. Sempre servida gelada.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Standard American Lager&lt;/strong&gt; é o tipo mais consumido, todas cervejas comuns beiram esse padrão, de uma bebida clara, encorpada e de IBU de até 30. Deve ser capaz de formar um colarinho espumoso mas não necessariamente durável.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Imperiais&lt;/strong&gt; são cervejas fortes, fermentadas e enriquecidas com caramelo ou malte torrado a ar quente. IBU alto, corpo denso e cor escura são as características quase que fixas destas cervejas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ale vs Lager&lt;/strong&gt; são termos comparativos ao processo de fermentação. As cervejas Lager são fermentadas a baixas temperaturas e Ale em temperaturas ambiente ou acima. Sabor, cor, corpo e demais características são extremamente variadas, não considere uma Ale isso ou aquilo, uma Lager necessariamente como dourada ou desincorpada etc.&lt;/p&gt;
+&lt;h2 id=&#34;galeria-de-fotos&#34;&gt;Galeria de fotos&lt;/h2&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  
+  
+  
+  
+    &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Michelob Ultra&lt;/p&gt;&lt;/div&gt;
+  
+
+  
+  
+  
+    &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Brahma Duplo Malte e Eisenbahn tradicional&lt;/p&gt;&lt;/div&gt;
+  
+
+  
+  
+  
+    &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Cacilds e Corona&lt;/p&gt;&lt;/div&gt;
+  
+
+  
+  
+  
+    &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Blue-Ribbon e Baden-Baden&lt;/p&gt;&lt;/div&gt;
+  
+
+  
+  
+  
+    &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/faxe.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/faxe.jpg&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;FAXE&lt;/p&gt;&lt;/div&gt;
+  
+
+  
+  
+  
+    &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/karin.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/karin.jpg&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Kirin-Ichban&lt;/p&gt;&lt;/div&gt;
+  
+
+
+  
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;flex&#34;;
+    legends[currentSlide].style.display = &#34;flex&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;blue-ribbon&#34;&gt;Blue-Ribbon&lt;/h2&gt;
+&lt;p&gt;Cerveja americana de corpo leve, mais pilsen que lager, clara, amargor IBU sempre inferior a 12. Ou seja, uma cerveja para &lt;em&gt;redneck&lt;/em&gt;! Esta é uma cerveja clássica para um apreciador tradicional. Com salgados é perfeita!&lt;/p&gt;
+&lt;h2 id=&#34;michelob-ultra&#34;&gt;Michelob Ultra&lt;/h2&gt;
+&lt;p&gt;Uma cerveja light excelente, de qualidade quase inacreditável, de difícil presença nos mercados comuns, apresenta obviamente um teor leve de carboidratos mas que lembra uma pilsen regular bastante filtrada, muito cabonatada, ideal para ser consumida com quase tudo.&lt;/p&gt;
+&lt;h2 id=&#34;kirin-ichban&#34;&gt;Kirin-Ichban&lt;/h2&gt;
+&lt;p&gt;Cerveja rara no mercado brasileiro. Dispesa análises, sabor ajustado, IBU entre 10-15, carbonatada de forma intensa, é uma cerveja de técnica!&lt;/p&gt;
+&lt;p&gt;Seu problema maior é que o amargor é fixo, não passa com a deglutição da cerveja. Para os desacostumados, pode incomodar.&lt;/p&gt;
+&lt;h2 id=&#34;cacilds&#34;&gt;Cacilds&lt;/h2&gt;
+&lt;p&gt;Cerveja com um marketing diferenciado. Porém, nada novo no seu conteúdo. Lembra bastante todas as outras cervejas mainstream da Petrópolis.&lt;/p&gt;
+&lt;p&gt;Muito recomendada como &lt;em&gt;&amp;ldquo;artesanal&amp;rdquo;&lt;/em&gt;, não se trata de uma cerveja que mereça essa alcunha, sob minha visão.&lt;/p&gt;
+&lt;p&gt;Teria, na escala IBU, talvez um 12 a 18, no máximo. Seria uma cerveja facilmente aceita na América do Norte e Central. Sua concorrente mais próxima certamente é a Império.&lt;/p&gt;
+&lt;h2 id=&#34;faxe&#34;&gt;FAXE&lt;/h2&gt;
+&lt;p&gt;Cerveja nórdica e de inspiração mais medieval. Particularmente, não vejo nada de mais. Receita clássica, IBU alto, cerveja escura e sabor indiscreto, mostrando diretamente um retorno aromático de Lúpulo de torra média.&lt;/p&gt;
+&lt;p&gt;Cai bem com carnes e refeições grandes e compostas, mas com massas puras não é boa ideia, faz um empachamento considerável mesmo para cervejeiros antigos. O tamanho grande da lata piora este aspecto.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Convulsões</title>
+		<link>http://mmori.com/medicina/convulsoes/</link>
+		<pubDate>Sun, 19 Nov 2023 15:45:49 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/convulsoes/</guid>
+		<description>&lt;h2 id=&#34;lactente-ou-neonato&#34;&gt;Lactente ou neonato&lt;/h2&gt;
+&lt;h3 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h3&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+G(Instalar o EEG disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia)
+A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg + manutenção 5-8mg/Kg)
+D -- Opção 2 --&gt; F(Midazolam 0.15mg/Kg + manutenção 0.1mcg/Kg/min)
+F -- Persistência --&gt; Z(Sedação e intubação)
+E -- Persistência --&gt;Z
+&lt;/pre&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Dor Toracica</title>
+		<link>http://mmori.com/medicina/dor-toracica/</link>
+		<pubDate>Sat, 18 Nov 2023 13:00:42 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/dor-toracica/</guid>
+		<description>&lt;h2 id=&#34;a-conduta-emergencial-da-dor-torácica&#34;&gt;A conduta emergencial da dor torácica&lt;/h2&gt;
+&lt;p&gt;A lógica é de eliminar, uma-a-uma, as causas mais graves com possibilidade de morte.&lt;/p&gt;
+&lt;h3 id=&#34;abcde&#34;&gt;ABCDE&lt;/h3&gt;
+&lt;p&gt;Tradicionalmente, usa-se o ABCDE do trauma na dor torácica pela sua praticidade e capacidade de identificar rapidamente causas graves.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A -   Airway: verificar se vias aéreas pérvias.&lt;/li&gt;
+&lt;li&gt;B -   Breathing: verificar se frequência respiratória alterada, se expansão torácica preservada e bilateral, ausculta na busca por ruído anormal ou abolição e observar se dor ventilatório dependente. Eleve a cabeceira, movimente o paciente para posição melhor e se saturação menor de 90% iniciar oxigenoterapia para manter saturação acima de 90%.&lt;/li&gt;
+&lt;li&gt;C -   Circulation: observar se reperfusão no extremo dos membros superiores é rápida e bilateral, aferir a frequência e ritmo de pulso e a pressão arteral em ambos os membros no intuito de eliminar a possibilidade de &lt;a href=&#34;../../dissecacao-aorta/index.html&#34;&gt;dissecacão de aorta&lt;/a&gt;. Buscar sinais de cianose ou congestão nas extremidades.&lt;/li&gt;
+&lt;li&gt;D -   Avaliação neurológica envolvendo observar movimentos, força, consciência e possíveis débitos neurológicos focais. Nesta estapa, tradicionalmente se avalia também a glicemia capilar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sample&#34;&gt;SAMPLE&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;S - Sinais e sintomas&lt;/li&gt;
+&lt;li&gt;A - Alergias&lt;/li&gt;
+&lt;li&gt;M - Medicamentos em uso&lt;/li&gt;
+&lt;li&gt;P - Passado médico (principalmente relacionado a dor torácica)&lt;/li&gt;
+&lt;li&gt;L - Líquidos (se a pessoa se alimentou/bebeu qualquer coisa)&lt;/li&gt;
+&lt;li&gt;E - Eventos similares&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;melhora dor
+ecg supra menor 50%
+arritmia reperfusao
+pico precoce de troponina (troponina circula mais quando revasculariza)&lt;/p&gt;
+&lt;p&gt;ecg 10min
+trombolise 12h
+porta-agulha 30min  trombolise
+porta-balao 120min transf 90min
+angio de resgate apos trombolise
+angio primaria&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Parada Cardiorespiratoria</title>
+		<link>http://mmori.com/medicina/parada-cardiorespiratoria/</link>
+		<pubDate>Sat, 18 Nov 2023 12:21:22 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/parada-cardiorespiratoria/</guid>
+		<description>&lt;p&gt;Este tema é tradicionalmente dividido entre as condutas de:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Socorrista leigo;&lt;/li&gt;
+&lt;li&gt;Socorrista treinado mas na rua (Basic Life Suport - Suporte Básico de Vida);&lt;/li&gt;
+&lt;li&gt;Socorrista treinado em ambiente de suporte (Advanced Life Suport - Suporte Avançado de Vida).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Todas condutas tem em comum a técnica de massagem cardíaca dita de alta qualidade e seu início precoce.&lt;/p&gt;
+&lt;h2 id=&#34;ressuscitação-cardiopulmonar-de-alta-qualidade&#34;&gt;Ressuscitação cardiopulmonar de alta qualidade&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Posicione-se lateralmente ao paciente à altura do tórax;&lt;/li&gt;
+&lt;li&gt;Mantenha seu tórax angulado a 90° do solo/maca/tórax do paciente;&lt;/li&gt;
+&lt;li&gt;Posicione a região hipotenar de uma das mãos contra a região inferior do esterno do paciente, com a outra mão oferecendo reforço/suporte tendo os dedos entrelaçados;&lt;/li&gt;
+&lt;li&gt;Execute compressões capazes de movimentar a parede torácica ao menos por 5cm abaixo do nível;&lt;/li&gt;
+&lt;li&gt;Permita o tórax retornar a posição de completa expansão após cada compressão;&lt;/li&gt;
+&lt;li&gt;Execute entre 100 a 120 compressões por minuto, algo como 2 compressões por segundo.&lt;/li&gt;
+&lt;li&gt;Mantenha o braço extendido e não flexione/dobre o cotovelo em nenhum momento, utilizando apenas o quadril como aarticulação do movimento.&lt;/li&gt;
+&lt;li&gt;Verifique o pulso a cada 5min por 10s e se ausente ou dúvida mantenha compressões.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;conduta-leiga&#34;&gt;Conduta leiga&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Constatar irresponsividade chamando vigorosamente pelo paciente;&lt;/li&gt;
+&lt;li&gt;Verificar pulso carotídeo por 10s.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;O socorrista leigo deve apenas identificar se a cena é segura e acionar o serviço de &lt;strong&gt;emergência&lt;/strong&gt;.&lt;/p&gt;
+&lt;p class=&#34;importante&#34;&gt; SE PACIENTE IRRESPONSIVO OU PULSO AUSENTE/DUVIDOSO INICIE RESSUSCITAÇÃO CARDIOPULMONAR DE ALTA QUALIDADE IMEDIATAMENTE! &lt;/p&gt;
+&lt;h2 id=&#34;suporte-básico-vida&#34;&gt;Suporte básico vida&lt;/h2&gt;
+&lt;p&gt;O suporte básico pressupõe um profissional de saúde na conduta.&lt;/p&gt;
+&lt;p&gt;A diferença está na possibilidade de reversão de uma provável causa e a instituição de suporte respiratório concomitante.&lt;/p&gt;
+&lt;h2 id=&#34;suporte-de-vida-avançado&#34;&gt;Suporte de vida avançado&lt;/h2&gt;
+&lt;p&gt;O suporte avançado de vida pressupõe profissional de saúde qualificado, equipe designada e organizada e material separado para intervir em RCP.&lt;/p&gt;
+&lt;p&gt;Internacionalmente conhecido como &lt;span style=&#34;color: white; font-weight: bold; background-color: blue&#34;&gt; código azul&lt;/span&gt;, é identificado na maioria dos centros brasileiros como &lt;em&gt;equipe de parada&lt;/em&gt; e possui, no mínimo, um carrinho de materiais e medicamentos.&lt;/p&gt;
+&lt;h2 id=&#34;contraindicação-de-rcp&#34;&gt;Contraindicação de RCP&lt;/h2&gt;
+&lt;p&gt;A RCP está contraindicada no paciente com rigor mortis, decaptações e exsanguinação grave/irreversível como em grandes mutilações.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Massagem Carotídea</title>
+		<link>http://mmori.com/medicina/massagem-carotidea/</link>
+		<pubDate>Wed, 15 Nov 2023 22:42:02 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/massagem-carotidea/</guid>
+		<description>&lt;h2 id=&#34;o-que-é&#34;&gt;O que é&lt;/h2&gt;
+&lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via sensores pressóricos que provocam estimulação parassimpática vagal.&lt;/p&gt;
+&lt;p&gt;Seu emprego também é terapêutico nos casos de taquiarritmias supraventriculares.&lt;/p&gt;
+&lt;p&gt;Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por profissionais menos treinados. Seu baixo custo e independência de preparo a tornam uma das mais mágicas atitudes médicas a beira-leito.&lt;/p&gt;
+&lt;h2 id=&#34;o-mito-da-tromboembolia-cerebral-como-complicação&#34;&gt;O mito da tromboembolia cerebral como complicação&lt;/h2&gt;
+&lt;p&gt;É comum que em instruções sobre massagem carotídea, os instrutores ou professores contraindiquem o procedimento em idosos e por mais de 10s, sob a argumentação de que uma complicação possível é o despreendimento de placa carotídea com consequente efeito embólico nos finos vasos cerebrais.&lt;/p&gt;
+&lt;p&gt;Isto não procede &lt;em&gt;estatisticamente&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Em um estudo transversal, Lacerda &lt;em&gt;et al&lt;/em&gt; demonstraram que apenas 0.4% de um grupo de 502 pacientes &lt;strong&gt;de risco&lt;/strong&gt; apresentaram complicações do tipo déficit neurológico agudo após serem submetidos a massagem carotídea¹.&lt;/p&gt;
+&lt;p&gt;Tal constatação joga por terra a teoria do fácil deslocamento de placas carotídeas, tendo em vista que foram selecionados pacientes de alta prevalência de doença aterosclerótica e de cardiopatia, já em acompanhamento ambulatorial. Por extrapolação estatística (neste caso mais que autorizada), podemos inferir que a incidência é ainda menor na população em geral, provavelmente zero.&lt;/p&gt;
+&lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura ateromatosa, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos o tromboembolismo, pelo menos de pequenos vasos, ocorrerem de forma abundante.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Non sequitur&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após apresentar carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
+&lt;p&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina. Um fenômeno largamente documentado pela medicina baseada em evidência. Nossos viéses são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Quod erat demonstrandum&lt;/em&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Lacerda G de C, Pedrosa RC, Lacerda RC de, Santos MC dos, Brasil AT, Siqueira-Filho AG de. Incidência de complicações relacionadas à massagem do seio carotídeo em 502 pacientes ambulatoriais. Arq Bras Cardiol [Internet]. 2009Feb;92(2):82–7. Available from: &lt;a href=&#34;https://doi.org/10.1590/S0066-782X2009000200002&#34;&gt;https://doi.org/10.1590/S0066-782X2009000200002&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;KWAK, Hyo Sung et al. Carotidynia presenting with acute ischemic stroke after carotid sinus massage. Annals of Clinical Neurophysiology, v. 19, n. 1, p. 46-49, 2017.&lt;/li&gt;
+&lt;li&gt;Bastulli JA, Orlowski JP. Stroke as a complication of carotid sinus massage. Crit Care Med. 1985 Oct;13(10):869. doi: 10.1097/00003246-198510000-00022. PMID: 4028760.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Taxa de filtração glomerular - Cockcroft Gault</title>
+		<link>http://mmori.com/medicina/cockcroft-gault/</link>
+		<pubDate>Wed, 15 Nov 2023 18:42:29 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/cockcroft-gault/</guid>
+		<description>
+
+&lt;!DOCTYPE html&gt;
+&lt;script&gt;
+  function calcularTFG() {
+    var idade = parseFloat(document.getElementById(&#34;idade&#34;).value);
+    var peso = parseFloat(document.getElementById(&#34;peso&#34;).value);
+    var creatinina = parseFloat(document.getElementById(&#34;creatinina&#34;).value);
+    var sexo = document.getElementById(&#34;sexo&#34;).value;
+    var ajuste = sexo === &#34;masculino&#34; ? 1 : 0.85;
+    var resultadoTFG = ((140 - idade) * peso) * ajuste / (72 * creatinina)
+
+    document.getElementById(&#34;resultado&#34;).innerText = resultadoTFG.toFixed(2) + &#34; mL/min&#34;;
+  }
+&lt;/script&gt;
+    
+    &lt;h2&gt;Estime a TFG via Cockcroft-Gault:&lt;/h2&gt;
+&lt;br&gt;
+&lt;div class=&#34;sticker&#34;&gt;
+$$
+TFG = \frac{(140 - idade_{anos}) * PesoSeco_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
+$$
+&lt;/div&gt;
+
+
+&lt;div class=&#34;center&#34;&gt;
+    &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;peso&#34;&gt;Peso (kg):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;peso&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;creatinina&#34;&gt;Creatinina (mg/dL):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;creatinina&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;sexo&#34;&gt;Sexo:&lt;/label&gt;&lt;br&gt;
+    &lt;select id=&#34;sexo&#34;&gt;
+        &lt;option value=&#34;masculino&#34;&gt;Masculino&lt;/option&gt;
+        &lt;option value=&#34;feminino&#34;&gt;Feminino&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;&lt;br&gt;
+    &lt;button onclick=&#34;calcularTFG()&#34;&gt;Calcular TFG&lt;/button&gt;&lt;br&gt;&lt;br&gt;
+    &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Considerações filosóficas sobre a reprodução humana</title>
+		<link>http://mmori.com/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
+		<pubDate>Tue, 14 Nov 2023 00:28:26 -0300</pubDate>
+		
+		<guid>http://mmori.com/filosofia/reproducao-humana-consideracoes-filosoficas/</guid>
+		<description>&lt;h2 id=&#34;a-longa-gestação-humana-e-seu-concepto-incapaz&#34;&gt;A longa gestação humana e seu concepto incapaz&lt;/h2&gt;
+&lt;p&gt;A tempo de reprodução humana é característicamente longo e, ao seu término, o concepto assume uma posição central e frágil na família¹.&lt;/p&gt;
+&lt;p&gt;Esta consideração, &lt;em&gt;per si&lt;/em&gt;, significa que a reprodução humana é peculiar e pouco eficiente. De fato, se comparado a muitos outros mamíferos, os primatas tem uma das reproduções mais limitadas.&lt;/p&gt;
+&lt;p&gt;Além disso, somos primatas medianos, incapazes de defesa direta contra outros grandes mamíferos e répteis e, ao mesmo tempo, temos alta neecssidade energética e metabólica.&lt;/p&gt;
+&lt;p&gt;Assim, tenho feito a derivação mental constante de que, na realidade, os empecilhos da reprodução humana serviram justamente de força motriz para as rápidas e específicas adaptações comunicativas e hábeis que nos tornam singulares.&lt;/p&gt;
+&lt;p&gt;Esta pressão evolutiva é rara em outros domínios, como entre os insetos, apesar das pontuais exceções, e.g. as ligeiramente longas metamorfoses das &lt;a href=&#34;./pix/isognatus.jpg&#34;&gt;isognatus&lt;/a&gt;. Adaptativamente falando, a gestação prolongada e a fragilidade do concepto promovem enormes mudanças comportamentais, entre as mais interessantes a clara vantagem da relação monogâmica, o armazenamento de alimentos, a construção de habitáculos seguros, a busca de locais de altitude considerável ou a região costeira, a presença fixa de água potável etc.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;A família aqui considerada é a melhor projeção moderna para o que entenderíamos como &lt;em&gt;bando primata&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Banco de questões</title>
+		<link>http://mmori.com/medicina/banco-de-questoes/</link>
+		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/banco-de-questoes/</guid>
+		<description>&lt;!-- &lt;p style=&#34;color:black; background: red; font-weight: bold&#34; class=&#34;center&#34;&gt;&lt;big&gt; Em construção&lt;/p&gt; --&gt;
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
+  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class=&#34;counter&#34;&gt;
+    &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;padding-left: 5%&#34; id=&#34;question-container&#34;&gt;&lt;/div&gt;
+  &lt;div id=&#34;info-question&#34;&gt;&lt;/div&gt;
+  &lt;br&gt;
+  &lt;button style=&#34;margin-left: 5%&#34; onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
+&lt;script&gt;
+
+let total = 0;
+let errors = 0;
+let corrects = 0;
+let questions;
+let prova = &#34;N/A&#34;;
+let ano = &#34;N/A&#34;;
+let banca = &#34;N/A&#34;;
+let textoBase;
+let solvedQuestions = [];
+let randomIndex;
+fetch(&#39;/questoes.json&#39;)
+  .then(response =&gt; response.json())
+  .then(data =&gt; { 
+    questions = data;
+  })
+  .catch(error =&gt; { 
+    console.error(
+      &#39;Erro ao carregar o arquivo JSON:&#39;, error);
+  });
+
+const container = document.getElementById(&#39;question-container&#39;);
+const counter = document.getElementById(&#39;counter&#39;);
+
+function generateRandomQuestion() {
+  container.innerHTML = &#39;&#39;;
+     console.log(&#34;questions len -&gt; &#34;+questions.length)
+     console.log(&#34;solved len -&gt; &#34;+solvedQuestions.length)
+
+  if (solvedQuestions.length === questions.length){
+    alert(&#34;Fim das questões&#34;)
+    return // otimizado pq assim se a função é chamada 
+           //novamente se recusa a executar!
+  }
+
+  randomIndex = Math.floor(Math.random() * questions.length);
+  
+  while (solvedQuestions.includes(randomIndex)  &amp;&amp;
+        (solvedQuestions.length !== questions.length + 1 )) {
+     randomIndex = Math.floor(Math.random() * questions.length);
+  }
+
+  if (!solvedQuestions.includes(randomIndex)){
+       solvedQuestions.push(randomIndex);
+  }
+
+  const randomQuestion = questions[randomIndex]; 
+
+  const questionDiv = document.createElement(&#39;div&#39;);
+  if (randomQuestion.banca !== undefined) { banca = randomQuestion.banca};
+  if (randomQuestion.ano !== undefined) { ano = randomQuestion.ano};
+  if (randomQuestion.prova !== undefined) { prova = randomQuestion.prova};
+
+  questionDiv.appendChild(document.createElement(&#39;br&#39;));
+  if (randomQuestion.imagem !== undefined) { 
+    let imagem = document.createElement(&#39;img&#39;);
+    imagem.src = &#34;/banco-questoes/&#34;+randomQuestion.imagem;
+    questionDiv.appendChild(imagem);
+  }
+
+  // o texto base vem antes da questao
+  if (randomQuestion.texto_base !== undefined) { 
+    let texto_base = document.createElement(&#39;p&#39;);
+    texto_base.textContent = randomQuestion.texto_base;
+    questionDiv.appendChild(texto_base);
+  }
+
+  const questaum = document.createElement(&#39;p&#39;);
+  questaum.textContent = randomQuestion.questao;
+  questionDiv.appendChild(questaum);
+
+  // Multipla Escolha
+  if (randomQuestion.tipo === &#39;multipla_escolha&#39;) {
+     let answerIndex = 0;
+     randomQuestion.alternativas.forEach(choice =&gt; {
+      const radio = document.createElement(&#39;input&#39;);
+      radio.type = &#39;radio&#39;;
+      radio.name = &#39;answer&#39;; 
+      radio.value = choice;
+      radio.id = `${answerIndex}`;
+
+      const label = document.createElement(&#39;label&#39;);
+      const breakline = document.createElement(&#39;br&#39;);
+      label.innerHTML = choice;
+
+      questionDiv.appendChild(radio);
+      questionDiv.appendChild(label);
+      questionDiv.appendChild(breakline);
+      answerIndex = answerIndex + 1; 
+    });
+  } else if (randomQuestion.tipo === &#39;verdadeiro_falso&#39;) {
+    const trueRadio = document.createElement(&#39;input&#39;);
+    trueRadio.type = &#39;radio&#39;;
+    trueRadio.name = &#39;answer&#39;;
+    trueRadio.value = &#39;true&#39;;
+    trueRadio.id = &#39;true&#39;;
+
+    const trueLabel = document.createElement(&#39;label&#39;);
+    trueLabel.htmlFor = &#39;true&#39;;
+    trueLabel.appendChild(document.createTextNode(&#39;Verdadeiro&#39;));
+
+    const falseRadio = document.createElement(&#39;input&#39;);
+    falseRadio.type = &#39;radio&#39;;
+    falseRadio.name = &#39;answer&#39;;
+    falseRadio.value = &#39;false&#39;;
+    falseRadio.id = &#39;false&#39;;
+
+    const falseLabel = document.createElement(&#39;label&#39;);
+    falseLabel.htmlFor = &#39;false&#39;;
+    falseLabel.appendChild(document.createTextNode(&#39;Falso&#39;));
+
+    questionDiv.appendChild(trueRadio);
+    questionDiv.appendChild(trueLabel);
+    questionDiv.appendChild(falseRadio);
+    questionDiv.appendChild(falseLabel);
+  }
+
+  // Adicione uma quebra de linha antes do botão &#34;Resolver&#34;
+  questionDiv.appendChild(document.createElement(&#39;br&#39;));
+
+  const solveButton = document.createElement(&#39;button&#39;);
+  solveButton.innerHTML = &#39;Resolver&#39;;
+  solveButton.id = &#39;resolver&#39;;
+  solveButton.onclick = () =&gt; checkAnswer(randomIndex, randomQuestion.tipo);
+  questionDiv.appendChild(solveButton);
+
+  container.appendChild(questionDiv);
+
+  counter.innerHTML = `&lt;span style=&#34;color: white&#34;&gt; ${prova}&lt;/span&gt;&lt;br&gt;BANCA: &lt;span style=&#34;color: white&#34;&gt; ${banca}&lt;/span&gt; ANO: &lt;span style=&#34;color: white&#34;&gt; ${ano}&lt;/span&gt;&lt;br&gt;Corretas:  &lt;span style=&#34;color: springgreen&#34;&gt;${corrects} &lt;/span&gt;Erradas:  &lt;span style=&#34;color: red&#34;&gt;${errors} &lt;/span&gt;&lt;br&gt;`
+}
+
+function checkAnswer(index, questionType) {
+  // Captura a resposta marcada
+  const checkedRadio = document.querySelector(&#39;input[name=&#34;answer&#34;]:checked&#39;);
+  
+  if (checkedRadio) {
+    const userAnswer = checkedRadio.id;
+    // Lógica para verificar a resposta aqui
+    // Compare a resposta marcada com o gabarito no array &#39;questions&#39;
+    if (userAnswer === JSON.stringify(questions[index].resposta_bool) ||
+    userAnswer === JSON.stringify(questions[index].resposta_multipla)) {
+      corrects = corrects + 1;
+      document.getElementById(&#39;resolver&#39;).style.backgroundColor = &#39;green&#39;;
+      document.getElementById(&#39;resolver&#39;).innerHTML = &#39;Acertou!&#39;;
+      document.getElementById(&#39;resolver&#39;).disabled = true; 
+    } else {
+      errors = errors + 1;
+      document.getElementById(&#39;resolver&#39;).style.backgroundColor = &#39;red&#39;;
+      document.getElementById(&#39;resolver&#39;).innerHTML = &#39;Errou!&#39;;
+      document.getElementById(&#39;resolver&#39;).disabled = true; 
+    }
+  } else {
+    alert(&#39;Nenhuma opção marcada para a pergunta!&#39;);
+  }
+
+  counter.innerHTML = `&lt;span style=&#34;color: white&#34;&gt; ${prova}&lt;/span&gt;&lt;br&gt;BANCA: &lt;span style=&#34;color: white&#34;&gt; ${banca}&lt;/span&gt; ANO: &lt;span style=&#34;color: white&#34;&gt; ${ano}&lt;/span&gt;&lt;br&gt;Corretas:  &lt;span style=&#34;color: springgreen&#34;&gt;${corrects} &lt;/span&gt;Erradas:  &lt;span style=&#34;color: red&#34;&gt;${errors} &lt;/span&gt;&lt;br&gt;`
+}
+prova = &#34;N/A&#34;;
+ano = &#34;N/A&#34;;
+banca = &#34;N/A&#34;;
+textoBase = undefined;
+
+generateRandomQuestion();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Bahia - Itacaré</title>
+		<link>http://mmori.com/viagem/bahia-itacare/</link>
+		<pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+		
+		<guid>http://mmori.com/viagem/bahia-itacare/</guid>
+		<description>
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;a href=&#34;../../pix/itacare.webp&#34;&gt;
+          &lt;img src=&#34;../../pix/itacare.webp&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Itacaré&lt;/p&gt;&lt;/div&gt;
+    
+
+
+  
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;flex&#34;;
+    legends[currentSlide].style.display = &#34;flex&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;detalhes&#34;&gt;Detalhes&lt;/h2&gt;
+&lt;p&gt;Cidade litorânea, com praias são do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.&lt;/p&gt;
+&lt;p&gt;Comunidade simples também.&lt;/p&gt;
+&lt;p&gt;A 250km de Salvador, dá pra conhecer o litoral sul bahiano no trajeto até Itacaré.&lt;/p&gt;
+&lt;p&gt;Muitas cidades no intervalo são costeiras e pequenas.&lt;/p&gt;
+&lt;h2 id=&#34;locais-em-novembro-de-2023&#34;&gt;Locais em novembro de 2023:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Vila Jungle;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pontal Beach Club.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Colecistite aguda - Tokyo Guideline</title>
+		<link>http://mmori.com/medicina/tokyo-guideline/</link>
+		<pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
+		
+		<guid>http://mmori.com/medicina/tokyo-guideline/</guid>
+		<description>
+
+&lt;!DOCTYPE html&gt;
+&lt;div class=&#34;center&#34;&gt;
+  &lt;div class=&#34;sticker&#34;&gt;
+      &lt;h3&gt;Exame do abdome&lt;/h3&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;suspeita&#34;&gt;
+      &lt;label&gt;Murphy positivo, palpação dolorosa ou de massa.&lt;/label&gt;
+      &lt;br&gt;
+  &lt;/div&gt;
+      &lt;br&gt;
+  &lt;div class=&#34;sticker&#34;&gt;
+      &lt;h3&gt;Inflamação sistêmica&lt;/h3&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;inflamacao&#34;&gt;
+      &lt;label&gt;Febre ou calafrios.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;inflamacao&#34;&gt;
+      &lt;label&gt;Proteína C reativa elevada ou leucocitose.&lt;/label&gt;
+      &lt;br&gt;
+  &lt;/div&gt;
+      &lt;br&gt;
+  &lt;div class=&#34;sticker&#34;&gt;
+      &lt;h3&gt;Colestase&lt;/h3&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
+      &lt;label&gt;Icterícia ou bilirrubina de pelo menos 2mg/dL.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
+      &lt;label&gt;Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal.&lt;/label&gt;
+      &lt;br&gt;
+  &lt;/div&gt;
+      &lt;br&gt;
+  &lt;div class=&#34;sticker&#34;&gt;
+      &lt;h3&gt;Imagem&lt;/h3&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
+      &lt;label&gt;Dilatação biliar.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
+      &lt;label&gt;Constricção constatada (estenose, cálculo etc).&lt;/label&gt;
+      &lt;br&gt;
+  &lt;/div&gt;
+      &lt;br&gt;
+  &lt;div class=&#34;sticker&#34;&gt;
+      &lt;h3&gt;Itens de gravidade&lt;/h3&gt;
+      &lt;label&gt;Idade.&lt;/label&gt;
+      &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_cardiovascular&#34;&gt;
+      &lt;label&gt;Necessidade de epinefrina em qualquer dose ou 5ug/Kg de dopamina.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_neurologica&#34;&gt;
+      &lt;label&gt;Qualquer aleração de consciência.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_respiratoria&#34;&gt;
+      &lt;label&gt;PaO2/FiO2 menor que 3.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_renal&#34;&gt;
+      &lt;label&gt;Oliguria, anúria ou Cr de pelo menos 2mg/dL&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_hematologica&#34;&gt;
+      &lt;label&gt;Plaquetopenia de 100.000/mm³ ou menos.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;leocicitose_12_leucopenia&#34;&gt;
+      &lt;label&gt;Leucocitose de 12.000/mm³ ou leucopenia de pelo menos 4.000/mm³.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;febre_alta&#34;&gt;
+      &lt;label&gt;Febre acima de 39°C.&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;bilirrubina&#34;&gt;
+      &lt;label&gt;Bilirrubina de pelo menos 5mg/dL&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;albumina&#34;&gt;
+      &lt;label&gt;Albumina menor que 70% do limite superior laboratorial.&lt;/label&gt;
+      &lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
+&lt;br&gt;
+&lt;p id=&#34;result&#34; style=&#34;text-indent: 0&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;style&gt;
+p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  color: white;
+  font-weight: bold;
+  text-indent: 0%;
+  align: center;
+  text-align: center;
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+function updateResult() {
+	var suspeita = document.getElementById(&#34;suspeita&#34;).checked;
+	var colestase = document.getElementById(&#34;colestase&#34;).checked;
+	var inflamacao = 
+		document.getElementById(&#34;inflamacao&#34;).checked || 
+		document.getElementById(&#34;febre_alta&#34;).checked;
+	var imagem = document.getElementById(&#34;imagem&#34;).checked;
+	var idade = false ;
+	if ( document.getElementById(&#34;idade&#34;).value &gt; 74) { 
+		idade = true
+	};
+	var grau2 = [
+		document.getElementById(&#34;leocicitose_12_leucopenia&#34;).checked,
+		document.getElementById(&#34;febre_alta&#34;).checked,
+		document.getElementById(&#34;bilirrubina&#34;).checked,
+		document.getElementById(&#34;albumina&#34;).checked,
+		idade
+	];
+
+	var diagnostico = &#34;verifique o exame do abdome!&#34;;
+	var grau = &#34;sem graduação&#34;;
+
+	// diagnostico
+	if (suspeita === true ) {
+		diagnostico = &#34;suspeita&#34;;
+		if (inflamacao === true ) {
+			if (colestase === true &amp;&amp; imagem === true ) {
+				diagnostico = &#34;confirmada&#34;;
+				console.log(&#34;local 1&#34;)
+				grau = &#34;I&#34;;
+			}
+		}
+	} else {
+      // suspeita falsa
+      diagnostico = &#34;sem exame do abdome não se faz Tokyo!&#34;
+    };
+		// gradação
+		conta_grau = 0 ;
+		grau2.forEach(function(value) {
+			if (value === true) {
+    	    conta_grau++; 
+    	}
+		});
+
+		if ( diagnostico === &#34;confirmada&#34; &amp;&amp; conta_grau &gt; 1 ) {
+			grau = &#34;II&#34;	
+		}
+
+		if ( 
+			document.getElementById(&#34;disfuncao_neurologica&#34;).checked === true ||
+			document.getElementById(&#34;disfuncao_hematologica&#34;).checked === true ||
+			document.getElementById(&#34;disfuncao_respiratoria&#34;).checked === true ||
+			document.getElementById(&#34;disfuncao_cardiovascular&#34;).checked === true ||
+			document.getElementById(&#34;disfuncao_renal&#34;).checked === true 
+		) {
+			diagnostico = &#34;confirmada&#34;;
+            grau = &#34;III&#34;;
+		}
+
+	let result = document.getElementById(&#34;result&#34;);
+	result.innerHTML = &#34;Colangite &#34; + diagnostico + &#34;&lt;br&gt;Grau &#34; +grau;
+}
+&lt;/script&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Gasometria Arterial</title>
+		<link>http://mmori.com/medicina/gasometria-arterial/</link>
+		<pubDate>Tue, 07 Nov 2023 20:55:26 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/gasometria-arterial/</guid>
+		<description>&lt;h2 id=&#34;acidez-e-basicidade-sérica&#34;&gt;Acidez e basicidade sérica&lt;/h2&gt;
+&lt;p&gt;O pH sanguíneo deve sempre estar entre 7.35 e 7.45.&lt;/p&gt;
+&lt;p&gt;Valores abaixo deste intervalo são chamados de acidemia. Acima, alcalemia.&lt;/p&gt;
+&lt;p&gt;Para este controle, um sistema tampão surgiu evolutivamente nos mamíferos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A respiração provoca retirada do dióxido de carbono diluído no soro; e&lt;/li&gt;
+&lt;li&gt;Os rins regulam a excreção de bicarbonato.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Este sistema é o principal sistema tampão sérico. Existem outros, como o sistema proteico (bases), principalmente via albumina.&lt;/p&gt;
+&lt;h2 id=&#34;regulação&#34;&gt;Regulação&lt;/h2&gt;
+&lt;p&gt;Sempre que o pH se altera, o sistema tampão tentará manter fixa a seguinte relação matemática:&lt;/p&gt;
+&lt;p&gt;$$
+pH \propto \frac{pCO2}{[HCO3⁻]}
+$$&lt;/p&gt;
+&lt;p&gt;Onde pCO2 é a pressão parcial de CO2 no soro e [HCO3⁻] é a concentração sanguínea de bicarbonato.&lt;/p&gt;
+&lt;p&gt;Aqui, alguns livros de medicina pecam em afirmar que esta fórmula é uma &amp;ldquo;igualdade&amp;rdquo;. O símbolo matemático correto é a &amp;ldquo;proporcionalidade&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;O cálcuo do pH depende, na verdade, de inúmeros fatores. Até mesmo a temperatura corporal influencia a autoionização da água e, portanto, o pH. Nesse sentido, a única forma de estimar matemáticamente o pH é por regressões numéricas. Historicamente, usa-se a estimativa de Henderson-Hasselbach:&lt;/p&gt;
+&lt;p&gt;$$
+pH = 6,10 + \frac{log[HCO3⁻]}{0,03} * pCO2
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Portanto, quedas na pC02 são compensadas também com queda da [HCO3⁻].&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O raciocínio inverso também é válido.&lt;/p&gt;
+&lt;div style=&#34;text-indent: 0%&#34; class=&#34;sticker&#34;&gt;
+Os processos que causam queda da pCO2 ou aumento da [HCO3⁻] são chamados de &lt;b&gt;alcalose&lt;/b&gt;.
+&lt;br&gt;
+Os processos que causam aumento da pCO2 ou queda da [HCO3⁻] são chamados de &lt;b&gt;acidose&lt;/b&gt;.
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&#34;sticker&#34;&gt;
+&lt;b&gt;Curiosidade:&lt;/b&gt;
+&lt;p&gt;Observe que na fórmula de Henderson-Hasselbach existe um valor constante de 6,10 acrescido de um valor dado pela fração do logarítmo de bicarbonato multiplicado pela pCO2 dividido por 0,03. Esta fração é justamente o sistema tampão do bicarbonato. Regressões numéricas mais sofisticadas adicionam outros tampões a este cálculo. Teríamos:
+$$
+pH = 6,1 + \sum_{1}^{i} tampão_i
+$$
+Onde, sendo $f(a,b)$ uma função genérica de parâmetros $a,b$, temos:
+$$
+tampão_{HCO_3⁻} = f([HCO_3⁻], pCO2)
+$$&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;interpretação&#34;&gt;Interpretação&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; EM CONSTRUÇÃO &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O paciente terá sempre uma gasometria esperada. Normalmente, ao vermos um paciente com taquipneia, hiperglicêmico e com alterações do estado geral e consciência no sentido de rebaixamento, estamos diante de uma acidose de provável causa metabólica. Assim, você espera ver uma gasometria de acidemia. Diante de um cenário de pH normal, você já está autorizado a pensar em um distúrbio misto, isto é, de acidose e alcalose juntos.&lt;/p&gt;
+&lt;p&gt;Em suma:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clínica.&lt;/li&gt;
+&lt;li&gt;Há acidemia ou alcalemia?&lt;/li&gt;
+&lt;li&gt;Há acidose ou alcalose?&lt;/li&gt;
+&lt;li&gt;De acordo com as respostas anteriores:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+    pH --&gt;|&lt; 7.35| acidemia[procure a acidose] --&gt; |ânion-gap &gt;12| gap-alargado[descubra o ânion];
+    acidemia --&gt; |8 &lt; ânion-gap &lt; 12| gap-normal[verifique o cloro] 
+    pH --&gt;|&gt; 7.45| alcalemia[procure a alcalose];
+&lt;/pre&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Como sincronizar iPhone e Linux</title>
+		<link>http://mmori.com/tecnologia/iphone-e-linux/</link>
+		<pubDate>Mon, 06 Nov 2023 18:19:06 -0300</pubDate>
+		
+		<guid>http://mmori.com/tecnologia/iphone-e-linux/</guid>
+		<description>&lt;h2 id=&#34;como-transferir-arquivos-linux-para-iphone-e-vice-versa&#34;&gt;Como transferir arquivos Linux para iPhone e vice versa&lt;/h2&gt;
+&lt;p&gt;Instale os pacotes &lt;em&gt;fuse&lt;/em&gt; e &lt;em&gt;ifuse&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://archlinux.org/packages/extra/x86_64/ifuse/&#34;&gt;iFuse&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://man.archlinux.org/man/fusermount.1.en&#34;&gt;Fuse2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Há versões para compilação direta no GitHub. Para maioria das distribuições Linux os gerenciadores de pacotes já possuem versão instalável.&lt;/p&gt;
+&lt;h2 id=&#34;como-usar&#34;&gt;Como usar&lt;/h2&gt;
+&lt;p&gt;Conecte o iPhone via usb e dê o comando:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ ifuse --list-apps&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Observe a lista de bundles e seus identificadores.&lt;/p&gt;
+&lt;p&gt;Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app deseja sincronizar. Por exemplo, para sincronizar o VLC, use org.videolan.vlc-ios&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ ifuse --documents org.videolan.vlc-ios /destino/de/montagem/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Substitua /destino/de/montagem/ com o destino de montagem que deseja, isto é, o local onde quer sincronizar os arquivos.&lt;/p&gt;
+&lt;p&gt;Movimente os arquivos que desejar para este local.&lt;/p&gt;
+&lt;h2 id=&#34;explicações&#34;&gt;Explicações&lt;/h2&gt;
+&lt;p&gt;A Apple criou um sistema de arquivos próprio para o iPhone. Este sistema se baseia em diversos encapsulamentos dos aplicativos de forma isolada. Na prática, isto significa que cada aplicativo &amp;ldquo;vê&amp;rdquo; apenas seus próprios arquivos. Por isso, ao montar/sincronizar os arquivos, apenas um aplicativo por vez é possível.&lt;/p&gt;
+&lt;p&gt;Tecnicamente a Apple chama esse encapsulamento de &amp;ldquo;bundles&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Trata-se de uma solução elegante ao problema de segurança entre espaço dos aplicativos. Tradicionalmente em Android é possível a um App alterar arquivos de outros aplicativos, desde que no mesmo nível de acesso e/ou autoria. Como o usuário Android é solicitado o tempo inteiro a compartilhar espaços de arquivos e acesso (as típicas menssagens &lt;em&gt;&amp;ldquo;permitir acesso às fotos&amp;rdquo;&lt;/em&gt; ou &lt;em&gt;&amp;ldquo;permitir que o App X acesse a câmera&amp;rdquo;&lt;/em&gt;) um grande número de aplicativos começa a ter capacidade de manipulação de outros. Estes acessos solicitados existem no iOS, mas de forma diferente, porque cada acesso é um ponto de montagem de apenas leitura.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Stultus Visio</title>
+		<link>http://mmori.com/tecnologia/stultus-visio/</link>
+		<pubDate>Mon, 06 Nov 2023 10:31:17 -0300</pubDate>
+		
+		<guid>http://mmori.com/tecnologia/stultus-visio/</guid>
+		<description>&lt;h1 id=&#34;stultusvisio-031&#34;&gt;StultusVisio 0.3.1&lt;/h1&gt;
+&lt;p&gt;Slides estúpidos e fáceis, apresentáveis em qualquer &lt;em&gt;browser&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;exemplo&#34;&gt;Exemplo&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html&#34;&gt;Minha_apresentacao.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;racional&#34;&gt;Racional&lt;/h2&gt;
+&lt;p&gt;Todos atuais softwares de apresentação de slides são &lt;strong&gt;péssimos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Um modo minimalista de construir apresentações, sem transições inúteis, modos contraproducentes como duas telas, WYSIWYG e compiladores complexos.&lt;/p&gt;
+&lt;h2 id=&#34;filosofia-e-uso&#34;&gt;Filosofia e uso&lt;/h2&gt;
+&lt;p&gt;Um software simples que te obriga a montar slides coerentes.&lt;/p&gt;
+&lt;p&gt;Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.&lt;/p&gt;
+&lt;p&gt;Para fluxogramas, timelines, tabelas e mídias de dados organizados, use &lt;a href=&#34;https://github.com/mermaid-js/mermaid&#34;&gt;Mermaid&lt;/a&gt;, conforme exemplo abaixo.&lt;/p&gt;
+&lt;p&gt;No diretório, crie um arquivo &lt;em&gt;minha_apresentacao.stv&lt;/em&gt; e edite-o:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.title Título da apresentação
+.foot Um rodapé.
+# Estes são comentários. 
+# As tags .script e .style apontam 
+# para arquivos personalizados de 
+# configuração. São opcionais.
+.script ./Config/style.css
+.style ./Config/script.js
+
+--- 
+.heading Os três hífens iniciam um slide.
+.list
+Primeiro item de uma lista.
+Segundo item de uma lista.
+
+---
+.image ./Images/exemplo.jpg
+
+---
+.video ./Videos/exemplo.mp4
+
+---
+.heading Exemplo de fluxograma em mermaid
+.mermaid
+graph TD
+A --- B
+B--&amp;gt;C[fa:fa-ban Fim]
+B--&amp;gt;D(fa:fa-spinner);
+C--&amp;gt;A
+
+---
+.table
+Coluna 1 | Coluna 2 | Coluna 3
+Item 1 | Item 2 | Item 3
+Última 1 | Última 2 | Última 3
+
+---
+.heading Um exemplo de lista ordenada.
+.ordlist
+Primeiro item numerado.
+Segundo.
+Mais um.
+Último.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;compilação-instalação-e-uso&#34;&gt;Compilação, instalação e uso&lt;/h2&gt;
+&lt;p&gt;Compile o StultusVisio:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cargo build --release 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Mova o binário para seu $PATH ou execute stultus_visio no mesmo diretório do arquvio minha_apresentacao.stv, por exemplo:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ./target/stultus_visio minha_apresentacao.stv
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação será criada no mesmo diretório.&lt;/p&gt;
+&lt;p&gt;Abra-a em qualquer navegador web.&lt;/p&gt;
+&lt;p&gt;O arquivo é portável e único. Basta compartilhar o HTML em si.&lt;/p&gt;
+&lt;p&gt;Para personalizar estilos e comportamento, aponte para arquivos personalizados de script.js e style.css.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+Erros de sintaxe no arquivo presentation.stv são renderizados como slides com uma mensagem de erro.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+A violação da filosofia do software produz comportamento imprevisto. Não seja estúpido, apresentadores de slides não são editores de imagens. Edite-as no seu software favorito e importe-as.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;controles&#34;&gt;Controles&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;t   :   Abra/feche a ajuda.
+j   :   Vá ao próximo slide.
+k   :   Anteceda ao slide anterior.
+p   :   Alterne para modo printável. 
+gg  :   Vá ao primeiro slide.
+G   :   Vá ao último slide.
+m   :   Abra o marcador interativo.
+x   :   Altere tamanho do marcador.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;salvar-como-pdf&#34;&gt;Salvar como PDF&lt;/h2&gt;
+&lt;p&gt;Pressione &amp;ldquo;p&amp;rdquo; para alternar no modo printável.
+Em qualquer navegador, escolha modo landscape e em opções avançadas, desmarque headers and footers ou cabeçalhos e rodapés.
+Imprima na opção Salvar para PDF.&lt;/p&gt;
+&lt;h2 id=&#34;tasks-e-devesenvolvimento&#34;&gt;Tasks e devesenvolvimento&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio/blob/Idiomatico/target/doc/stultusvisio/index.html&#34;&gt;Documentação&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; básico de uso geral.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; marcador circular.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; controles vim-like.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; implementar opção STDIN file.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; implementar tabelas.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; marcador do tipo desenho.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; zoom ad-hoc do slide atual.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; incluir arquivos de fontes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;licença&#34;&gt;Licença&lt;/h2&gt;
+&lt;p&gt;GNU GPL v.3&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;a href=&#34;https://www.gnu.org/licenses/&#34;&gt;https://www.gnu.org/licenses/&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Injuria Renal Aguda</title>
+		<link>http://mmori.com/medicina/injuria-renal-aguda/</link>
+		<pubDate>Mon, 06 Nov 2023 07:52:13 -0300</pubDate>
+		
+		<guid>http://mmori.com/medicina/injuria-renal-aguda/</guid>
+		<description>&lt;h2 id=&#34;etiologias&#34;&gt;Etiologias&lt;/h2&gt;
+&lt;h3 id=&#34;pré-renais&#34;&gt;Pré-renais&lt;/h3&gt;
+&lt;p&gt;Quaisquer situações de hipofluxo e ativação do sistema renina-angiotensina-aldosterona e constricção da artéria aferente.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hemorragias.&lt;/li&gt;
+&lt;li&gt;Desidratação grave.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;renais&#34;&gt;Renais&lt;/h3&gt;
+&lt;p&gt;Quaisquer situações que afetem a capacidade funcional do rim de forma aguda, ou seja, não dependente de dano cumulativo. Várias coisas podem danificar o rim cronicamente. As causas renais de &lt;strong&gt;injúria aguda&lt;/strong&gt; reduzem a função renal de forma imediata, sem necessidade de cumulatividade temporal (&lt;em&gt;semanas, meses, anos etc&lt;/em&gt;).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tubolopatias, principalmente medicamentosas, associadas ao uso de AINES, IECAs, BRAs, Anfotericina B e outros.&lt;/li&gt;
+&lt;li&gt;Nefrite intersticial medicamentosa (e em menor incidência a autoimune).&lt;/li&gt;
+&lt;li&gt;Causas vasogênicas, notadamente a hipercalcemia que povoca vasoconstricção vasculo-renal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;pós-renais&#34;&gt;Pós-renais&lt;/h3&gt;
+&lt;p&gt;Essencialmente, as obstruções do trajeto urinário causam estase a montante, com hidronefrose sendo o estágio mais grave desta complicação.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Todas obstruções da via urinária, seja renal, ureterais, uretrais ou vesicais, notadamente a doença calculosa. Em pacientes muito jovens, a epidemiologia em segundo lugar é de má-formação de trajeto urinário.&lt;/li&gt;
+&lt;li&gt;Outras.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Portanto, nota-se que as causas renais são as principais.&lt;/p&gt;
+&lt;p&gt;No contexto de emergência, as nefrites intersticiais medicamentosas são a principal causa de IRA, sendo os AINES disparados a principal causa.&lt;/p&gt;
+&lt;p&gt;Os demais medicamentos causadores de necrose tubular são menos comuns.&lt;/p&gt;
+&lt;p&gt;Nas causas pré-renais, a hemorragia e demais causas de hipovolemia lideram as causas, devendo-se suspeitar sempre de anúria em pacientes com fatores de risco para sangramento.&lt;/p&gt;
+&lt;p&gt;Já no pós-renal o exame de urina apresenta alterações típicas de trajeto como hematúria e piúria, sem necessariamente alterar métricas nefrológicas como fração de sódio etc. A sintomatologia envolve a disúria, urgência miccional e lombalgia. Pode haver contexto infeccioso (ITU).&lt;/p&gt;
+&lt;h2 id=&#34;classificação-segundo-kidney-disease-improving-global-outcomes&#34;&gt;Classificação segundo Kidney Disease: Improving Global Outcomes&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Estágio&lt;/th&gt;
+&lt;th&gt;Creatinina Sérica em mg/dL&lt;/th&gt;
+&lt;th&gt;Diurese em mL/kg/h&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Aumento de 0.3 em 48h ou 50% acima do basal em 7 dias.&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,5 por 6-12h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Dobrada em 7 dias&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,5 por 12-24h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Triplicada a qualquer momento&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Acima de 4 a qualquer momento&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;TFG&amp;lt; 35ml/min/1.73m² em &amp;lt; de 18 anos&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dialítico&lt;/td&gt;
+&lt;td&gt;Necessidade de diálise&lt;/td&gt;
+&lt;td&gt;Anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a href=&#34;../../medicina/cockcroft-gault/index.html&#34;&gt;Calcule aqui a TFG via Cockcroft-Gault&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h2&gt;
+&lt;h3 id=&#34;pré-renais-1&#34;&gt;Pré-renais&lt;/h3&gt;
+&lt;p&gt;Volemia parcimoniosa e criteriosa, inotrópicos e vasodilatadores.&lt;/p&gt;
+&lt;h3 id=&#34;renais-1&#34;&gt;Renais&lt;/h3&gt;
+&lt;p&gt;Retirar agente danoso.&lt;/p&gt;
+&lt;p&gt;Furosemida (inibindo cotransporte de Sódio-Cloro-Potássio na alça larga ascendente de Henle, resultando em excreta aumentada de cátions e consequente diurese).&lt;/p&gt;
+&lt;p&gt;A furosemida faz sentido pelo fato da doença interstiscial poupar o funcionamento das células tubulares e, portanto, seu estímulo é restaurador de TFG.&lt;/p&gt;
+&lt;h3 id=&#34;pós-renais-1&#34;&gt;Pós-renais&lt;/h3&gt;
+&lt;p&gt;Abordagem da obstrução.&lt;/p&gt;
+&lt;p&gt;Veja &lt;a href=&#34;../../litiase_urinaria/index.md&#34;&gt;litíase urinária&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Palenque - México</title>
+		<link>http://mmori.com/viagem/mexico/palenque-mexico/</link>
+		<pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+		
+		<guid>http://mmori.com/viagem/mexico/palenque-mexico/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/palenque.webp&#34; alt=&#34;Palenque&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Cidade de Chiapas referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
+&lt;p&gt;Conhecida por seu estado de preservação, a atração principal da cidade é o parque arqueológico principal.&lt;/p&gt;
+&lt;h2 id=&#34;distâncias&#34;&gt;Distâncias&lt;/h2&gt;
+&lt;p&gt;É longe de Cidad del Mexico, umas 12h de carro.&lt;/p&gt;
+&lt;p&gt;O local mais próximo com voôs é Villahermosa.&lt;/p&gt;
+&lt;p&gt;Alguns blogs recomendam ir de Villahermosa até lá de carro, cerca de 3h.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://palenquepark.com/&#34;&gt;https://palenquepark.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;em-2023&#34;&gt;Em 2023:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Estrada em boas condições (Villahermosa para Palenque);&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Parque arqueológico conservado.&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Site do parque tem informações como telefone e outros contatos.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Recepção específica para brasileiros turistas.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Sobre</title>
+		<link>http://mmori.com/sobre/</link>
+		<pubDate>Sun, 05 Nov 2023 18:30:21 -0300</pubDate>
+		
+		<guid>http://mmori.com/sobre/</guid>
+		<description>
+
+&lt;br&gt;
+&lt;div class=&#34;sticker&#34; style=&#34;max-width: 30%; text-align: center&#34;&gt;
+  &#34;Aceite tudo como é.&#34; 
+  &lt;br&gt;
+  Miyamoto Musashi 
+  &lt;br&gt;宮本 武蔵
+&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+  const item = document.querySelector(&#39;h1&#39;);
+  item.classList.add(&#39;show&#39;);
+});
+&lt;/script&gt;
+
+&lt;p&gt;Um aprendiz estoicista.&lt;/p&gt;
+&lt;p&gt;Estudante de medicina, &lt;a href=&#34;../../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../redes-sociais/index.html&#34;&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;interesses&#34;&gt;Interesses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Estudar física, matemática, química, psicologia, economia etc;&lt;/li&gt;
+&lt;li&gt;Culinária;&lt;/li&gt;
+&lt;li&gt;Preparação automobilística;&lt;/li&gt;
+&lt;li&gt;Acumular ferramentas;&lt;/li&gt;
+&lt;li&gt;Programar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo, raramente perco um interesse. Vamos ver onde vai parar 😂.&lt;/p&gt;
+&lt;p&gt;Entre os diversos hobbies, programar foi escolhido como passa-tempo. Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff. Nesta ordem.&lt;/p&gt;
+&lt;h2 id=&#34;nas-redes&#34;&gt;Nas redes&lt;/h2&gt;
+&lt;p&gt;Se tem sugestão assunto para o site, me contacte pelo &lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Às vezes filmo coisas interessante e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meus projetos estão no &lt;a href=&#34;https://github.com/EstalineCCCP&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;a href=&#34;../../pix/eu.webp&#34;&gt;
+          &lt;img src=&#34;../../pix/eu.webp&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Eu cometendo crime ambiental em Santa Catarina.&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;a href=&#34;../../pix/eu2.webp&#34;&gt;
+          &lt;img src=&#34;../../pix/eu2.webp&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Um típico representante nerd.&lt;/p&gt;&lt;/div&gt;
+    
+
+
+  
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;flex&#34;;
+    legends[currentSlide].style.display = &#34;flex&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+</description>
+	</item>
+	
+	<item>
+		<title>Escore de Wells</title>
+		<link>http://mmori.com/medicina/wells-tep/</link>
+		<pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+		
+		<guid>http://mmori.com/medicina/wells-tep/</guid>
+		<description>
+
+&lt;!DOCTYPE html&gt;
+&lt;!-- Falta incluir alguns elementos como ruptura de aneurisma etc --&gt;
+&lt;html&gt;
+	 &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt; 
+&lt;head&gt;
+	&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;style.css&#34;&gt;
+	&lt;title&gt;Escore de Wells para tromboembolismo pulmonar&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;center&#34;&gt;
+	&lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
+	&lt;label&gt;Não há outro diagnóstico mais provável.&lt;/label&gt;
+	&lt;br&gt;
+	&lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
+	&lt;label&gt;Sinais clínicos de trombose venosa.&lt;/label&gt;
+	&lt;br&gt;
+	&lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+	&lt;label&gt;Cirurgia recente ou imobilização.&lt;/label&gt;
+	&lt;br&gt;
+	&lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+	&lt;label&gt;Tromboembolismos prévios.&lt;/label&gt;
+	&lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+	&lt;label&gt;Frequência cardíaca acima de 100bpm.&lt;/label&gt;
+	&lt;br&gt;
+	&lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
+	&lt;label&gt;Hemoptise.&lt;/label&gt;
+	&lt;br&gt;
+	&lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
+	&lt;label&gt;Câncer.&lt;/label&gt;
+	&lt;br&gt;
+  &lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
+	&lt;br&gt;
+  &lt;br&gt;
+	&lt;div id=&#34;result&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function updateResult() {
+  let um = document.querySelectorAll(&#39;input[id=&#34;1&#34;]:checked&#39;).length;
+  let ummeio = (document.querySelectorAll(&#39;input[id=&#34;1.5&#34;]:checked&#39;).length * 1.5);
+  let tres = (document.querySelectorAll(&#39;input[id=&#34;3&#34;]:checked&#39;).length * 3);
+  let soma = um + ummeio + tres;
+  let resposta = &#34;Valor preditivo baixo de &#34;+soma+&#34;.&lt;br&gt;Solicite D-dímero.&lt;br&gt;Se acima de 400ng/mL para pacientes de até 40 anos ou acima de 10 vezes a idade a partir dos 40 anos, considere positivo.&lt;br&gt;&lt;br&gt;D-dímero é contexto-dependente, portanto, avalie se outra causa não está positivando o exame!&#34;;
+  if (soma &gt; 4) { 
+    resposta = &#34;&lt;span style=&#39;color: red; font-weight: bold&#39;;&gt;Valor preditivo alto de &#34;+ soma+&#34;!&lt;/span&gt; &lt;br&gt;Realize angiotomografia de tórax e proceda a anticoagulaçao plena com 1.5mg/Kg de heparina de baixo peso molecular (Enoxaparina).&#34;
+  };
+  let result = document.getElementById(&#34;result&#34;);
+  result.innerHTML = resposta
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Espírito Santo - Domingos Martins</title>
+		<link>http://mmori.com/viagem/espirito-santo-domingos-martins/</link>
+		<pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+		
+		<guid>http://mmori.com/viagem/espirito-santo-domingos-martins/</guid>
+		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
+&lt;p&gt;Cidade a 50km de Vitória de cultura alemã.&lt;/p&gt;
+&lt;p&gt;A praça principal Arthur Gerhardt já é uma atração.&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;a href=&#34;../../pix/praca-arthur-gerhardt.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/praca-arthur-gerhardt.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Praça Arthur Gerhardt&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;a href=&#34;../../pix/pedra-azul.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/pedra-azul.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Pedra Azul&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;div class=&#34;diviframe&#34;&gt;
+          &lt;iframe src=&#34;https://www.youtube.com/embed/iDbkxsqyXqs?si=b7XUfwMg16n1Z3q_&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;
+          &lt;/iframe&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Video de DM&lt;/p&gt;&lt;/div&gt;
+    
+
+
+  
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;flex&#34;;
+    legends[currentSlide].style.display = &#34;flex&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;p&gt;Ideal para visita de fim de viagem em Vitória.&lt;/p&gt;
+&lt;h2 id=&#34;baladas&#34;&gt;Baladas&lt;/h2&gt;
+&lt;p&gt;Parece ter mais bares especializados em cerveja e vinho.&lt;/p&gt;
+&lt;p&gt;Em outubruo de 2023 são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Empório 85 Wine Bar;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Cervejaria Barba Ruiva (fora de Domingos Martins, na estrada).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Espiríto Santo - Praia de Iriri</title>
+		<link>http://mmori.com/viagem/espirito-santo-iriri/</link>
+		<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+		
+		<guid>http://mmori.com/viagem/espirito-santo-iriri/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/iriri.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
+&lt;p&gt;É longe de vitória, 2h de carro.&lt;/p&gt;
+&lt;p&gt;Só tem a praia e restaurantes, parece fraco de festas.&lt;/p&gt;
+&lt;p&gt;Mas o bom é que da pra visitar durante o dia e na volta passar por Guarapari.&lt;/p&gt;
+&lt;p&gt;Os hotéis são simples mas bem avaliados. Na verdade a praia é pequena.&lt;/p&gt;
+&lt;h3 id=&#34;em-julho-de-2023&#34;&gt;Em julho de 2023:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pousada boa que fica bem na &amp;ldquo;penísula&amp;rdquo; da praia: &lt;a href=&#34;http://www.pousadabarlavento.com.br/&#34;&gt;http://www.pousadabarlavento.com.br/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Bahia - Piatã, Salvador</title>
+		<link>http://mmori.com/viagem/bahia-piata-salvador/</link>
+		<pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+		
+		<guid>http://mmori.com/viagem/bahia-piata-salvador/</guid>
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/piata.png&#34; alt=&#34;Praia em Piatã&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;geral&#34;&gt;Geral&lt;/h1&gt;
+&lt;p&gt;Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.&lt;/p&gt;
+&lt;p&gt;É mais barato, fica em praia do tipo vazia mas de avenida.&lt;/p&gt;
+&lt;p&gt;Durante o dia conhecer o pelourinho, andar pela praia e descansar. Noite tem as baladas.&lt;/p&gt;
+&lt;p&gt;Tem a festa do pelourinho em 2 de fevereiro.&lt;/p&gt;
+&lt;p&gt;OBS:  Pesquisar reveillon.&lt;/p&gt;
+&lt;p&gt;Em janeiro de 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Site muito bom: &lt;a href=&#34;https://dicasdabahia.com.br/&#34;&gt;https://dicasdabahia.com.br/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hotéis por R$300,00 em Piatã mesmo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bares:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 30 segundos bar;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Amsterdam - AMS;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Zen Salvador;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Balada SAN.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Diabetes Mellitus Gestacional | Jefferson T.</title>
+	<link rel="canonical" href="http://mmori.com/">
+	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+	<link rel='stylesheet' type='text/css' href='../../style.css'>
+	<link rel="icon" href="../../favicon.ico">
+	<meta name="description" content="Geral O diabetes mellitus gestacional tem hoje um fluxograma de conduta bem definido pela FEBRASGO.
+Outrora, já foi mais confuso.
+Uma dúvida comum:
+A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana. Diagnóstico Fluxograma com viabilidade finananceira
+Fluxograma sem viabilidade finananceira
+Anterior Próxima Conduta no pós-parto Fluxograma com viabilidade financeira
+Fluxograma sem viabilidade financeira">
+	<meta name="keywords" content="medicina">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Diabetes Mellitus Gestacional">
+  Diabetes Mellitus Gestacional
+</h1></header>
+<article>
+
+  
+  <div class="barra">
+    <a href="../../index.html" alt="Início">🏠︎ Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">★ Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+
+  
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const item = document.querySelector('h1');
+      item.classList.add('show');
+    });
+  </script>
+  <h2 id="geral">Geral</h2>
+<p>O diabetes mellitus gestacional tem hoje um fluxograma de conduta bem definido pela FEBRASGO.</p>
+<p>Outrora, já foi mais confuso.</p>
+<p>Uma dúvida comum:</p>
+<p style="text-indent: 0%" class="sticker">
+A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.
+</p>
+<h2 id="diagnóstico">Diagnóstico</h2>
+
+ 
+<div class="carousela">
+  
+
+
+
+  <div class="carouselslide">
+    <a href="../../pix/medicina/dmg-financeiro-viavel.png">
+      <img src="../../pix/medicina/dmg-financeiro-viavel.png"></img>
+    </a>
+  </div>
+  <div class="legend"><p>Fluxograma com viabilidade finananceira</p></div>
+
+
+
+
+
+  <div class="carouselslide">
+    <a href="../../pix/medicina/dmg-financeiro-nao-viavel.png">
+      <img src="../../pix/medicina/dmg-financeiro-nao-viavel.png"></img>
+    </a>
+  </div>
+  <div class="legend"><p>Fluxograma sem viabilidade finananceira</p></div>
+
+
+
+  
+  <div class="button-container">
+    <button type="button" id="anteriora">Anterior</button>
+    <button type="button" id="proximoa">Próxima</button>
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousela .carouselslide");
+  let legends = document.querySelectorAll(".carousela .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anteriora");
+  let proximo = document.getElementById("proximoa");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "flex";
+    legends[currentSlide].style.display = "flex";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<h2 id="conduta-no-pós-parto">Conduta no pós-parto</h2>
+
+ 
+<div class="carousel2">
+  
+
+
+
+  <div class="carouselslide">
+    <a href="../../pix/medicina/puerpera-dmg-financeiro-viavel.png">
+      <img src="../../pix/medicina/puerpera-dmg-financeiro-viavel.png"></img>
+    </a>
+  </div>
+  <div class="legend"><p>Fluxograma com viabilidade financeira</p></div>
+
+
+
+
+
+  <div class="carouselslide">
+    <a href="../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png">
+      <img src="../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png"></img>
+    </a>
+  </div>
+  <div class="legend"><p>Fluxograma sem viabilidade financeira</p></div>
+
+
+
+  
+  <div class="button-container">
+    <button type="button" id="anterior2">Anterior</button>
+    <button type="button" id="proximo2">Próxima</button>
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel2 .carouselslide");
+  let legends = document.querySelectorAll(".carousel2 .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior2");
+  let proximo = document.getElementById("proximo2");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "flex";
+    legends[currentSlide].style.display = "flex";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>FEBRASGO. <strong>Revista Feminina - Volume 47, Número 11</strong>. Federação Brasileira de Ginecologia e Obstetrícia. Brasil. 2019.</li>
+</ol>
+
+  
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+  
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_medicina" href="http://mmori.com/tags/medicina">Medicina</a></div>
+</article>
+</main>
+
+<footer>
+  <a href="http://mmori.com/">Início</a>
+</footer>
+
+</body>
+</html>

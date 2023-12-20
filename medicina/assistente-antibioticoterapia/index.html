@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Assistente De Antibioticoterapia | Jefferson T.</title>
+	<link rel="canonical" href="http://mmori.com/">
+	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+	<link rel='stylesheet' type='text/css' href='../../style.css'>
+	<link rel="icon" href="../../favicon.ico">
+	<meta name="description" content=" Em construção
+&lt;!DOCTYPE html&gt; Sítio infeccioso: Pele e tecidos moles Trato respiratório inferior Trato gastrointestinal Ossos e articulações Sistema nervoso central Adicionar sítio Patógeno cultivado/presumido: E. coli Estreptococco spp. Enterococo Gram - Estaphylicocco spp. Adicionar patógeno Sítios selecionados:
+Culturas selecionadas:
+Filtra Opções: Antibiotico Dose Contraindicações Observações ">
+	<meta name="keywords" content="medicina, calculadoras">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Assistente de antibioticoterapia">
+  Assistente de antibioticoterapia
+</h1></header>
+<article>
+
+  
+  <div class="barra">
+    <a href="../../index.html" alt="Início">🏠︎ Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">★ Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+
+  
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const item = document.querySelector('h1');
+      item.classList.add('show');
+    });
+  </script>
+  <p style="color:black; background: red; font-weight: bold" class="center"><big> Em construção</p>
+<!DOCTYPE html>
+
+
+<form class="center">
+  <label for="sitios">Sítio infeccioso:</label>
+  <br>
+  <select id="sitios">
+    <option value="tecidos-moles">Pele e tecidos moles</option>
+    <option value="pulmao">Trato respiratório inferior</option>
+    <option value="tgi">Trato gastrointestinal</option>
+    <option value="osso">Ossos e articulações</option>
+    <option value="snc">Sistema nervoso central</option>
+  </select>
+</form>
+<br>
+<div class="center">
+  <button class="center" onclick="adicionarSitio()">Adicionar sítio</button>
+</div>
+<br>
+<form class="center">
+  <label for="cultura">Patógeno cultivado/presumido:</label>
+  <br>
+  <select id="cultura">
+    <option value="ecoli">E. coli</option>
+    <option value="estreptospp">Estreptococco spp.</option>
+    <option value="enterecoco">Enterococo</option>
+    <option value="gramnegativo">Gram -</option>
+    <option value="estafilospp">Estaphylicocco spp.</option>
+  </select>
+</form>
+<br>
+<div class="center">
+  <button class="center" onclick="adicionarCultura()">Adicionar patógeno</button>
+</div>
+<br>
+<div class="sticker">
+  <p class="center" style="text-indent: 0%; color: tomato">Sítios selecionados:</p>
+  <ul style="color: white;" id="sitiosSelecionados"></ul>
+  <p class="center" style="text-indent: 0%; color: tomato">Culturas selecionadas:</p>
+  <ul style="color: white;" id="culturasSelecionadas"></ul>
+</div>
+<br>
+<div class="center">
+  <br>
+  <br>
+  <button class="center" onclick="filtro()">Filtra</button>
+</div>
+<br>
+
+<h3> Opções: </h3>
+<div id="antibiotico">
+</div>
+
+<table id="tabelaAntibioticos">
+<thead>
+<tr>
+<th>Antibiotico</th>
+<th>Dose</th>
+<th>Contraindicações</th>
+<th>Observações</th>
+</tr>
+</thead>
+<tbody>
+<!-- Aqui será preenchida com dados do JSON -->
+</tbody>
+</table>
+<script>
+let sitiosSelecionados = [];
+let culturasSelecionadas = [];
+
+function adicionarSitio() {
+  const selectSitio = document.getElementById('sitios');
+  const selectedOption = selectSitio.options[selectSitio.selectedIndex];
+  const listItem = document.createElement('li');
+  const sitiosSelecionadosList = document.getElementById('sitiosSelecionados');
+  listItem.appendChild(document.createTextNode(selectedOption.text));
+  sitiosSelecionados.push(selectedOption.value);
+  sitiosSelecionadosList.appendChild(listItem);
+}
+
+function adicionarCultura() {
+  const selectCultura = document.getElementById('cultura');
+  const selectedOption = selectCultura.options[selectCultura.selectedIndex];
+  const listItem = document.createElement('li');
+  const culturasSelecionadasList = document.getElementById('culturasSelecionadas');
+  listItem.appendChild(document.createTextNode(selectedOption.text));
+  culturasSelecionadas.push(selectedOption.value);
+  culturasSelecionadasList.appendChild(listItem);
+}
+
+function temElementoComum(array1, array2) {
+  for (let i = 0; i < array1.length; i++) {
+    for (let j = 0; j < array2.length; j++) {
+      if (array1[i] === array2[j]) {
+        return true; 
+      }
+    }
+  }
+  return false; 
+}
+
+function filtro() {
+fetch('/antibioticos.json')
+  .then(response => response.json())
+  .then(data => {
+    const tabela = document.getElementById('tabelaAntibioticos');
+    const tbody = tabela.querySelector('tbody');
+
+    data.forEach(antibiotico => {
+      if (temElementoComum(Array.from(antibiotico.sitios), sitiosSelecionados) &&
+        temElementoComum(Array.from(antibiotico.cobertura), culturasSelecionadas)){
+        console.log(true)
+        const row = document.createElement('tr');
+        row.setAttribute('id', antibiotico.nome);
+        row.innerHTML = `
+          <td>${antibiotico.nome}</td>
+          <td>${antibiotico.im}</td>
+          <td>${antibiotico.iv}</td>
+          <td>${antibiotico.contraindicacoes.join(', ')}</td>
+        `;
+        tbody.appendChild(row);
+        }
+        else {console.log(false)}
+    });
+  })
+  .catch(error => console.error('Erro ao buscar dados:', error));
+}
+</script>
+</body>
+
+
+  
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+  
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_medicina" href="http://mmori.com/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="http://mmori.com/tags/calculadoras">Calculadoras</a></div>
+</article>
+</main>
+
+<footer>
+  <a href="http://mmori.com/">Início</a>
+</footer>
+
+</body>
+</html>

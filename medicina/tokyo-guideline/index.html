@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Colecistite Aguda - Tokyo Guideline | Jefferson T.</title>
+	<link rel="canonical" href="http://mmori.com/">
+	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+	<link rel='stylesheet' type='text/css' href='../../style.css'>
+	<link rel="icon" href="../../favicon.ico">
+	<meta name="description" content="&lt;!DOCTYPE html&gt; Exame do abdome Murphy positivo, palpação dolorosa ou de massa. Inflamação sistêmica Febre ou calafrios. Proteína C reativa elevada ou leucocitose. Colestase Icterícia ou bilirrubina de pelo menos 2mg/dL. Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal. Imagem Dilatação biliar. Constricção constatada (estenose, cálculo etc). Itens de gravidade Idade. Necessidade de epinefrina em qualquer dose ou 5ug/Kg de dopamina. Qualquer aleração de consciência. PaO2/FiO2 menor que 3.">
+	<meta name="keywords" content="calculadoras, medicina">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Colecistite aguda - Tokyo Guideline">
+  Colecistite aguda - Tokyo Guideline
+</h1></header>
+<article>
+
+  
+  <div class="barra">
+    <a href="../../index.html" alt="Início">🏠︎ Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">★ Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+
+  
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const item = document.querySelector('h1');
+      item.classList.add('show');
+    });
+  </script>
+  
+
+<!DOCTYPE html>
+<div class="center">
+  <div class="sticker">
+      <h3>Exame do abdome</h3>
+      <input type="checkbox" id="suspeita">
+      <label>Murphy positivo, palpação dolorosa ou de massa.</label>
+      <br>
+  </div>
+      <br>
+  <div class="sticker">
+      <h3>Inflamação sistêmica</h3>
+      <input type="checkbox" id="inflamacao">
+      <label>Febre ou calafrios.</label>
+      <br>
+      <input type="checkbox" id="inflamacao">
+      <label>Proteína C reativa elevada ou leucocitose.</label>
+      <br>
+  </div>
+      <br>
+  <div class="sticker">
+      <h3>Colestase</h3>
+      <input type="checkbox" id="colestase">
+      <label>Icterícia ou bilirrubina de pelo menos 2mg/dL.</label>
+      <br>
+      <input type="checkbox" id="colestase">
+      <label>Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal.</label>
+      <br>
+  </div>
+      <br>
+  <div class="sticker">
+      <h3>Imagem</h3>
+      <input type="checkbox" id="imagem">
+      <label>Dilatação biliar.</label>
+      <br>
+      <input type="checkbox" id="imagem">
+      <label>Constricção constatada (estenose, cálculo etc).</label>
+      <br>
+  </div>
+      <br>
+  <div class="sticker">
+      <h3>Itens de gravidade</h3>
+      <label>Idade.</label>
+      <input type="number" id="idade">
+      <br>
+      <input type="checkbox" id="disfuncao_cardiovascular">
+      <label>Necessidade de epinefrina em qualquer dose ou 5ug/Kg de dopamina.</label>
+      <br>
+      <input type="checkbox" id="disfuncao_neurologica">
+      <label>Qualquer aleração de consciência.</label>
+      <br>
+      <input type="checkbox" id="disfuncao_respiratoria">
+      <label>PaO2/FiO2 menor que 3.</label>
+      <br>
+      <input type="checkbox" id="disfuncao_renal">
+      <label>Oliguria, anúria ou Cr de pelo menos 2mg/dL</label>
+      <br>
+      <input type="checkbox" id="disfuncao_hematologica">
+      <label>Plaquetopenia de 100.000/mm³ ou menos.</label>
+      <br>
+      <input type="checkbox" id="leocicitose_12_leucopenia">
+      <label>Leucocitose de 12.000/mm³ ou leucopenia de pelo menos 4.000/mm³.</label>
+      <br>
+      <input type="checkbox" id="febre_alta">
+      <label>Febre acima de 39°C.</label>
+      <br>
+      <input type="checkbox" id="bilirrubina">
+      <label>Bilirrubina de pelo menos 5mg/dL</label>
+      <br>
+      <input type="checkbox" id="albumina">
+      <label>Albumina menor que 70% do limite superior laboratorial.</label>
+      <br>
+</div>
+<br>
+<button onclick="updateResult()">Calcule!</button>
+<br>
+<p id="result" style="text-indent: 0"></p>
+</div>
+<style>
+p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  color: white;
+  font-weight: bold;
+  text-indent: 0%;
+  align: center;
+  text-align: center;
+}
+</style>
+
+<script>
+function updateResult() {
+	var suspeita = document.getElementById("suspeita").checked;
+	var colestase = document.getElementById("colestase").checked;
+	var inflamacao = 
+		document.getElementById("inflamacao").checked || 
+		document.getElementById("febre_alta").checked;
+	var imagem = document.getElementById("imagem").checked;
+	var idade = false ;
+	if ( document.getElementById("idade").value > 74) { 
+		idade = true
+	};
+	var grau2 = [
+		document.getElementById("leocicitose_12_leucopenia").checked,
+		document.getElementById("febre_alta").checked,
+		document.getElementById("bilirrubina").checked,
+		document.getElementById("albumina").checked,
+		idade
+	];
+
+	var diagnostico = "verifique o exame do abdome!";
+	var grau = "sem graduação";
+
+	// diagnostico
+	if (suspeita === true ) {
+		diagnostico = "suspeita";
+		if (inflamacao === true ) {
+			if (colestase === true && imagem === true ) {
+				diagnostico = "confirmada";
+				console.log("local 1")
+				grau = "I";
+			}
+		}
+	} else {
+      // suspeita falsa
+      diagnostico = "sem exame do abdome não se faz Tokyo!"
+    };
+		// gradação
+		conta_grau = 0 ;
+		grau2.forEach(function(value) {
+			if (value === true) {
+    	    conta_grau++; 
+    	}
+		});
+
+		if ( diagnostico === "confirmada" && conta_grau > 1 ) {
+			grau = "II"	
+		}
+
+		if ( 
+			document.getElementById("disfuncao_neurologica").checked === true ||
+			document.getElementById("disfuncao_hematologica").checked === true ||
+			document.getElementById("disfuncao_respiratoria").checked === true ||
+			document.getElementById("disfuncao_cardiovascular").checked === true ||
+			document.getElementById("disfuncao_renal").checked === true 
+		) {
+			diagnostico = "confirmada";
+            grau = "III";
+		}
+
+	let result = document.getElementById("result");
+	result.innerHTML = "Colangite " + diagnostico + "<br>Grau " +grau;
+}
+</script>
+
+
+  
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+  
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_calculadoras" href="http://mmori.com/tags/calculadoras">Calculadoras</a> &middot; <a id="tag_medicina" href="http://mmori.com/tags/medicina">Medicina</a></div>
+</article>
+</main>
+
+<footer>
+  <a href="http://mmori.com/">Início</a>
+</footer>
+
+</body>
+</html>

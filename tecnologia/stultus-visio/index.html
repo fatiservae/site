@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Stultus Visio | Jefferson T.</title>
+	<link rel="canonical" href="http://mmori.com/">
+	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+	<link rel='stylesheet' type='text/css' href='../../style.css'>
+	<link rel="icon" href="../../favicon.ico">
+	<meta name="description" content="StultusVisio 0.3.1 Slides estúpidos e fáceis, apresentáveis em qualquer browser.
+GitHub
+Exemplo Minha_apresentacao.html
+Racional Todos atuais softwares de apresentação de slides são péssimos.
+Um modo minimalista de construir apresentações, sem transições inúteis, modos contraproducentes como duas telas, WYSIWYG e compiladores complexos.
+Filosofia e uso Um software simples que te obriga a montar slides coerentes.
+Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.
+Para fluxogramas, timelines, tabelas e mídias de dados organizados, use Mermaid, conforme exemplo abaixo.">
+	<meta name="keywords" content="Programação, Projetos">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Stultus Visio">
+  Stultus Visio
+</h1></header>
+<article>
+
+  
+  <div class="barra">
+    <a href="../../index.html" alt="Início">🏠︎ Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">★ Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+
+  
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const item = document.querySelector('h1');
+      item.classList.add('show');
+    });
+  </script>
+  <h1 id="stultusvisio-031">StultusVisio 0.3.1</h1>
+<p>Slides estúpidos e fáceis, apresentáveis em qualquer <em>browser</em>.</p>
+<p><a href="https://github.com/EstalineCCCP/StultusVisio">GitHub</a></p>
+<h2 id="exemplo">Exemplo</h2>
+<p><a href="https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html">Minha_apresentacao.html</a></p>
+<h2 id="racional">Racional</h2>
+<p>Todos atuais softwares de apresentação de slides são <strong>péssimos</strong>.</p>
+<p>Um modo minimalista de construir apresentações, sem transições inúteis, modos contraproducentes como duas telas, WYSIWYG e compiladores complexos.</p>
+<h2 id="filosofia-e-uso">Filosofia e uso</h2>
+<p>Um software simples que te obriga a montar slides coerentes.</p>
+<p>Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.</p>
+<p>Para fluxogramas, timelines, tabelas e mídias de dados organizados, use <a href="https://github.com/mermaid-js/mermaid">Mermaid</a>, conforme exemplo abaixo.</p>
+<p>No diretório, crie um arquivo <em>minha_apresentacao.stv</em> e edite-o:</p>
+<pre tabindex="0"><code>.title Título da apresentação
+.foot Um rodapé.
+# Estes são comentários. 
+# As tags .script e .style apontam 
+# para arquivos personalizados de 
+# configuração. São opcionais.
+.script ./Config/style.css
+.style ./Config/script.js
+
+--- 
+.heading Os três hífens iniciam um slide.
+.list
+Primeiro item de uma lista.
+Segundo item de uma lista.
+
+---
+.image ./Images/exemplo.jpg
+
+---
+.video ./Videos/exemplo.mp4
+
+---
+.heading Exemplo de fluxograma em mermaid
+.mermaid
+graph TD
+A --- B
+B--&gt;C[fa:fa-ban Fim]
+B--&gt;D(fa:fa-spinner);
+C--&gt;A
+
+---
+.table
+Coluna 1 | Coluna 2 | Coluna 3
+Item 1 | Item 2 | Item 3
+Última 1 | Última 2 | Última 3
+
+---
+.heading Um exemplo de lista ordenada.
+.ordlist
+Primeiro item numerado.
+Segundo.
+Mais um.
+Último.
+</code></pre><h2 id="compilação-instalação-e-uso">Compilação, instalação e uso</h2>
+<p>Compile o StultusVisio:</p>
+<pre tabindex="0"><code>$ cargo build --release 
+</code></pre><p>Mova o binário para seu $PATH ou execute stultus_visio no mesmo diretório do arquvio minha_apresentacao.stv, por exemplo:</p>
+<pre tabindex="0"><code>$ ./target/stultus_visio minha_apresentacao.stv
+</code></pre><p>A apresentação será criada no mesmo diretório.</p>
+<p>Abra-a em qualquer navegador web.</p>
+<p>O arquivo é portável e único. Basta compartilhar o HTML em si.</p>
+<p>Para personalizar estilos e comportamento, aponte para arquivos personalizados de script.js e style.css.</p>
+<blockquote>
+<p>[!NOTE]
+Erros de sintaxe no arquivo presentation.stv são renderizados como slides com uma mensagem de erro.</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+A violação da filosofia do software produz comportamento imprevisto. Não seja estúpido, apresentadores de slides não são editores de imagens. Edite-as no seu software favorito e importe-as.</p>
+</blockquote>
+<h2 id="controles">Controles</h2>
+<pre tabindex="0"><code>t   :   Abra/feche a ajuda.
+j   :   Vá ao próximo slide.
+k   :   Anteceda ao slide anterior.
+p   :   Alterne para modo printável. 
+gg  :   Vá ao primeiro slide.
+G   :   Vá ao último slide.
+m   :   Abra o marcador interativo.
+x   :   Altere tamanho do marcador.
+</code></pre><h2 id="salvar-como-pdf">Salvar como PDF</h2>
+<p>Pressione &ldquo;p&rdquo; para alternar no modo printável.
+Em qualquer navegador, escolha modo landscape e em opções avançadas, desmarque headers and footers ou cabeçalhos e rodapés.
+Imprima na opção Salvar para PDF.</p>
+<h2 id="tasks-e-devesenvolvimento">Tasks e devesenvolvimento</h2>
+<p><a href="https://github.com/EstalineCCCP/StultusVisio/blob/Idiomatico/target/doc/stultusvisio/index.html">Documentação</a></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> básico de uso geral.</li>
+<li><input checked="" disabled="" type="checkbox"> marcador circular.</li>
+<li><input checked="" disabled="" type="checkbox"> controles vim-like.</li>
+<li><input checked="" disabled="" type="checkbox"> implementar opção STDIN file.</li>
+<li><input checked="" disabled="" type="checkbox"> implementar tabelas.</li>
+<li><input disabled="" type="checkbox"> marcador do tipo desenho.</li>
+<li><input disabled="" type="checkbox"> zoom ad-hoc do slide atual.</li>
+<li><input disabled="" type="checkbox"> incluir arquivos de fontes.</li>
+</ul>
+<h2 id="licença">Licença</h2>
+<p>GNU GPL v.3</p>
+<blockquote>
+<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.  If not, see <a href="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</a>.</p>
+</blockquote>
+
+  
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+  
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_programação" href="http://mmori.com/tags/programa%C3%A7%C3%A3o">Programação</a> &middot; <a id="tag_projetos" href="http://mmori.com/tags/projetos">Projetos</a></div>
+</article>
+</main>
+
+<footer>
+  <a href="http://mmori.com/">Início</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Categories | Jefferson T.</title>
+	<link rel="canonical" href="http://mmori.com/">
+	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+	<link rel='stylesheet' type='text/css' href='../style.css'>
+	<link rel="icon" href="../favicon.ico">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Categories">Categories</h1></header>
+<article>
+
+  <div class="barra">
+    <a href="../sobre/index.html" alt="Sobre">🧑🏽‍ Sobre</a>
+    <a href="../dicionario/index.html" alt="Dicionário">🔖 Dicionário</a>
+    <a href="../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../tags/ciência/index.html" alt="Ciência">🧪👨🏽‍🔬 Ciência</a>
+    <a href="../tags/medicina/index.html" alt="Medicina">🩺💉 Medicina</a>
+    <a href="../tags/filosofia/index.html" alt="Filosofia">🧠💭 Filosofia</a>
+    <a href="../tags/culinária/index.html" alt="Culinária">🍸🍕 Culinária</a>
+    <a href="../tags/projetos/index.html" alt="Projetos">👷🏽‍♂️🚧 Projetos</a>
+    <a href="../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+
+<script>
+function randomIndex(valor) {
+    return Math.floor(Math.random() * valor)
+}
+fetch('/citacoes.json')
+.then(response => response.json())
+.then(data => { 
+  
+  
+  
+  pensador = randomIndex(data.length);
+  frase = randomIndex(data[pensador].citacoes.length);
+  document.getElementById('frase').innerText = "\"" + data[pensador].citacoes[frase]+ "\"";
+  document.getElementById('autor').innerText = data[pensador].autor;
+})
+.catch(error => { 
+  console.error('Erro ao carregar o arquivo JSON:', error);
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const item = document.querySelector('.frase');
+  item.classList.add('show');
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const item = document.querySelector('.caveira');
+  item.classList.add('show');
+});
+  document.addEventListener("DOMContentLoaded", function() {
+    const item = document.querySelector('h1');
+    item.classList.add('show');
+});
+</script>
+
+<div class="frase"> 
+<p id="frase"></p> 
+<p id="autor"></p>
+<br>
+</div>
+
+<ul>
+</ul>
+
+
+</article>
+</main>
+
+<footer>
+  <a href="http://mmori.com/">Início</a>
+</footer>
+
+</body>
+</html>

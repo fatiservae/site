@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sobre | Jefferson T.</title>
+	<link rel="canonical" href="http://mmori.com/">
+	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+	<link rel='stylesheet' type='text/css' href='../style.css'>
+	<link rel="icon" href="../favicon.ico">
+	<meta name="description" content="&#34;Aceite tudo como é.&#34; Miyamoto Musashi 宮本 武蔵 Um aprendiz estoicista.
+Estudante de medicina, futuro anestesiologista. Eu acho.
+Não uso redes sociais e evito amizades e conversas apenas virtuais.
+Me chame pessoalmente para um assunto interessante e uma cerveja.
+Interesses Estudar física, matemática, química, psicologia, economia etc; Culinária; Preparação automobilística; Acumular ferramentas; Programar. Meu interesse flutua demais. Sempre adiciono algo, raramente perco um interesse. Vamos ver onde vai parar 😂.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Sobre">
+  Sobre
+</h1></header>
+<article>
+
+  
+  <div class="barra">
+    <a href="../index.html" alt="Início">🏠︎ Início</a>
+    <a href="../sobre/index.html" alt="Sobre">★ Sobre</a>
+    <a href="../dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
+    <a href="../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
+    <a href="../tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
+    <a href="../tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
+    <a href="../tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
+    <a href="../tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
+    <a href="../tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a href="../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+
+  
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const item = document.querySelector('h1');
+      item.classList.add('show');
+    });
+  </script>
+  
+
+<br>
+<div class="sticker" style="max-width: 30%; text-align: center">
+  "Aceite tudo como é." 
+  <br>
+  Miyamoto Musashi 
+  <br>宮本 武蔵
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const item = document.querySelector('h1');
+  item.classList.add('show');
+});
+</script>
+
+<p>Um aprendiz estoicista.</p>
+<p>Estudante de medicina, <a href="../anestesia/index.html">futuro anestesiologista. <strong>Eu acho</strong></a>.</p>
+<p><a href="../redes-sociais/index.html">Não uso redes sociais e evito amizades e conversas apenas virtuais</a>.</p>
+<p>Me chame pessoalmente para um assunto interessante e uma <a href="../receitas/cervejas/index.html">cerveja</a>.</p>
+<h2 id="interesses">Interesses</h2>
+<ul>
+<li>Estudar física, matemática, química, psicologia, economia etc;</li>
+<li>Culinária;</li>
+<li>Preparação automobilística;</li>
+<li>Acumular ferramentas;</li>
+<li>Programar.</li>
+</ul>
+<p>Meu interesse flutua demais. Sempre adiciono algo, raramente perco um interesse. Vamos ver onde vai parar 😂.</p>
+<p>Entre os diversos hobbies, programar foi escolhido como passa-tempo. Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff. Nesta ordem.</p>
+<h2 id="nas-redes">Nas redes</h2>
+<p>Se tem sugestão assunto para o site, me contacte pelo <a href="https://t.me/stalinCCCP">Telegram</a>.</p>
+<p>Às vezes filmo coisas interessante e coloco no <a href="https://www.youtube.com/@scientialiberat/videos">YouTube</a>.</p>
+<p>Meus projetos estão no <a href="https://github.com/EstalineCCCP">GitHub</a>.</p>
+<p>e-mail: <a href="mailto:jefferson.science@gmail.com">jefferson.science@gmail.com</a></p>
+
+ 
+<div class="carousel">
+  
+    
+    
+    
+      <div class="carouselslide">
+        <a href="../pix/eu.webp">
+          <img src="../pix/eu.webp"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Eu cometendo crime ambiental em Santa Catarina.</p></div>
+    
+
+    
+    
+    
+      <div class="carouselslide">
+        <a href="../pix/eu2.webp">
+          <img src="../pix/eu2.webp"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Um típico representante nerd.</p></div>
+    
+
+
+  
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .carouselslide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "flex";
+    legends[currentSlide].style.display = "flex";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+
+  
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
+  
+
+
+
+</article>
+</main>
+
+<footer>
+  <a href="http://mmori.com/">Início</a>
+</footer>
+
+</body>
+</html>
