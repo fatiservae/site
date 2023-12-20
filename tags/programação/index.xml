@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Jefferson T.</title>
-	<link>http://mmori.com/tags/programa%C3%A7%C3%A3o/</link>
+	<link>https://estalinecccp.github.io/JeffSite/tags/programa%C3%A7%C3%A3o/</link>
 	<description>Recent content in programação on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Mon, 06 Nov 2023 18:19:06 -0300</lastBuildDate>
     
-        <atom:link href="http://mmori.com/tags/programa%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://estalinecccp.github.io/JeffSite/tags/programa%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Bulário</title>
-		<link>http://mmori.com/medicina/bulario/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/bulario/</link>
 		<pubDate>Sun, 17 Dec 2023 21:31:36 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/bulario/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/bulario/</guid>
 		<description>
 
 &lt;div class=&#34;search&#34;&gt;
@@ -107,10 +107,10 @@ search.addEventListener(&#34;input&#34;, () =&gt; {
 	
 	<item>
 		<title>Introdução ao banco de questões</title>
-		<link>http://mmori.com/medicina/bancoquestoes-intro/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/bancoquestoes-intro/</link>
 		<pubDate>Sun, 17 Dec 2023 03:54:33 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/bancoquestoes-intro/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/bancoquestoes-intro/</guid>
 		<description>&lt;h2 id=&#34;concursos-públicos-questões-públicas&#34;&gt;Concursos públicos, questões públicas!&lt;/h2&gt;
 &lt;p&gt;A grande maioria dos preparatórios vendem bancos de questões. A resolução de questões é um dos mais importantes instrumentos na aprovação em provas.&lt;/p&gt;
 &lt;p&gt;Infelizmente, a maior parte dos bancos está protegida por &lt;em&gt;paywalls&lt;/em&gt;.&lt;/p&gt;
@@ -122,10 +122,10 @@ search.addEventListener(&#34;input&#34;, () =&gt; {
 	
 	<item>
 		<title>Afogamento</title>
-		<link>http://mmori.com/medicina/afogamento/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/afogamento/</link>
 		<pubDate>Fri, 15 Dec 2023 20:39:22 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/afogamento/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/afogamento/</guid>
 		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
     a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
     y -- Com&lt;br&gt; pulso carotídeo --&gt; z(Grau 5)
@@ -141,10 +141,10 @@ search.addEventListener(&#34;input&#34;, () =&gt; {
 	
 	<item>
 		<title>A aceitação da morte como modo de vida</title>
-		<link>http://mmori.com/filosofia/morte/</link>
+		<link>https://estalinecccp.github.io/JeffSite/filosofia/morte/</link>
 		<pubDate>Fri, 15 Dec 2023 00:35:27 -0300</pubDate>
 		
-		<guid>http://mmori.com/filosofia/morte/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/filosofia/morte/</guid>
 		<description>&lt;p&gt;
 
 &lt;style&gt;
@@ -208,10 +208,10 @@ p.sticker{
 	
 	<item>
 		<title>Diabetes Mellitus Gestacional</title>
-		<link>http://mmori.com/medicina/dmg/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/dmg/</link>
 		<pubDate>Thu, 14 Dec 2023 09:17:12 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/dmg/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/dmg/</guid>
 		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;O diabetes mellitus gestacional tem hoje um fluxograma de conduta bem definido pela FEBRASGO.&lt;/p&gt;
 &lt;p&gt;Outrora, já foi mais confuso.&lt;/p&gt;
@@ -381,10 +381,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Anatomia</title>
-		<link>http://mmori.com/medicina/anatomia/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/anatomia/</link>
 		<pubDate>Tue, 12 Dec 2023 09:48:10 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/anatomia/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/anatomia/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../../pix/medicina/anatomy.png&#34; alt=&#34;Anatomy Learning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Iniciando em anatomia? Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto livre, open-source e em WebGL.&lt;/p&gt;
 &lt;p&gt;Ao avançar, não perca seu tempo, basta um bom atlas cadavérico como o Nielsen e o bom e velho Grays Anatomy. O livro, não a série.&lt;/p&gt;
@@ -399,10 +399,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Vacinas</title>
-		<link>http://mmori.com/medicina/vacinas/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/vacinas/</link>
 		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/vacinas/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/vacinas/</guid>
 		<description>&lt;h2 id=&#34;termos&#34;&gt;Termos&lt;/h2&gt;
 &lt;h3 id=&#34;heterólogo&#34;&gt;Heterólogo&lt;/h3&gt;
 &lt;p&gt;Termo confuso na medicina e na biologia. Na imunologia, &lt;strong&gt;esquema heterólogo&lt;/strong&gt; significa utilizar uma vacina diferente daquela do esquema inicial. Coloquialmente chamado de booster.&lt;/p&gt;
@@ -430,10 +430,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Eclâmpsia</title>
-		<link>http://mmori.com/medicina/eclampsia/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/eclampsia/</link>
 		<pubDate>Mon, 11 Dec 2023 00:53:39 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/eclampsia/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/eclampsia/</guid>
 		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
 &lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de gestação a pelo menos 20 semanas, hipertensão e proteinúria.&lt;/p&gt;
@@ -464,10 +464,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Meu dicionário instantâneo</title>
-		<link>http://mmori.com/dicionario/</link>
+		<link>https://estalinecccp.github.io/JeffSite/dicionario/</link>
 		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
 		
-		<guid>http://mmori.com/dicionario/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/dicionario/</guid>
 		<description>
 
 &lt;div class=&#34;sticker&#34;&gt;
@@ -502,10 +502,10 @@ Boa busca!
 	
 	<item>
 		<title>Anestesia</title>
-		<link>http://mmori.com/anestesia/</link>
+		<link>https://estalinecccp.github.io/JeffSite/anestesia/</link>
 		<pubDate>Thu, 30 Nov 2023 22:30:10 -0300</pubDate>
 		
-		<guid>http://mmori.com/anestesia/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/anestesia/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../../pix/anesthesiology.jpg&#34; alt=&#34;Anestesia&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;porque-pretendo-anestesiologia-como-especialidade-médica&#34;&gt;Porque pretendo anestesiologia como especialidade médica&lt;/h2&gt;
 &lt;p&gt;Durante quase toda a trajetória do curso de medicina, tive muita dificuldade de me identificar com alguma especialidade.&lt;/p&gt;
@@ -528,10 +528,10 @@ Boa busca!
 	
 	<item>
 		<title>Abaixo a medicina!</title>
-		<link>http://mmori.com/medicina/abaixo-a-medicina/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/abaixo-a-medicina/</link>
 		<pubDate>Tue, 28 Nov 2023 10:56:57 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/abaixo-a-medicina/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/abaixo-a-medicina/</guid>
 		<description>&lt;img src=&#34;../../pix/doctor-plague.png&#34;&gt;
 &lt;p class=&#34;center&#34; style=&#34;max-width: 50%&#34;&gt;&lt;em&gt;Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&#34;color: black; background: red&#34;&gt;AVISO:&lt;/span&gt; Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.&lt;/p&gt;
@@ -554,10 +554,10 @@ Boa busca!
 	
 	<item>
 		<title>Pressao Arterial</title>
-		<link>http://mmori.com/medicina/pressao-arterial/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/pressao-arterial/</link>
 		<pubDate>Mon, 27 Nov 2023 11:02:22 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/pressao-arterial/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/pressao-arterial/</guid>
 		<description>&lt;h2 id=&#34;pressão-arterial-média&#34;&gt;Pressão arterial média&lt;/h2&gt;
 &lt;p&gt;$$
 PAM = \frac{PAS + 2 * PAD}{3}
@@ -571,10 +571,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Assistente de antibioticoterapia</title>
-		<link>http://mmori.com/medicina/assistente-antibioticoterapia/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/assistente-antibioticoterapia/</link>
 		<pubDate>Tue, 21 Nov 2023 14:33:45 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/assistente-antibioticoterapia/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/assistente-antibioticoterapia/</guid>
 		<description>&lt;p style=&#34;color:black; background: red; font-weight: bold&#34; class=&#34;center&#34;&gt;&lt;big&gt; Em construção&lt;/p&gt;
 &lt;!DOCTYPE html&gt;
 
@@ -711,10 +711,10 @@ fetch(&#39;/antibioticos.json&#39;)
 	
 	<item>
 		<title>Grandes queimados - Parkland</title>
-		<link>http://mmori.com/medicina/calculos-queimados/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/calculos-queimados/</link>
 		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/calculos-queimados/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/calculos-queimados/</guid>
 		<description>
 
 &lt;h2 style=&#34;padding: 0%;&#34; class=&#34;center&#34;&gt;Percentual de área corporal queimada&lt;/h2&gt;
@@ -870,10 +870,10 @@ function calcular() {
 	
 	<item>
 		<title>Canais de ciências que recomendo</title>
-		<link>http://mmori.com/ciencia/canais-yt/</link>
+		<link>https://estalinecccp.github.io/JeffSite/ciencia/canais-yt/</link>
 		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
 		
-		<guid>http://mmori.com/ciencia/canais-yt/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/ciencia/canais-yt/</guid>
 		<description>&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
 &lt;h3 id=&#34;eugene-kuthoriansky&#34;&gt;Eugene Kuthoriansky&lt;/h3&gt;
 &lt;p&gt;Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.&lt;/p&gt;
@@ -886,10 +886,10 @@ function calcular() {
 	
 	<item>
 		<title>Cervejas</title>
-		<link>http://mmori.com/receitas/cervejas/</link>
+		<link>https://estalinecccp.github.io/JeffSite/receitas/cervejas/</link>
 		<pubDate>Mon, 20 Nov 2023 20:46:46 -0300</pubDate>
 		
-		<guid>http://mmori.com/receitas/cervejas/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/receitas/cervejas/</guid>
 		<description>&lt;h2 id=&#34;avisos&#34;&gt;Avisos!&lt;/h2&gt;
 &lt;p&gt;Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.&lt;/p&gt;
 &lt;p&gt;Todas cervejas desta páginas são recomendações minhas. Costumo degustá-las com carnes ou massas e salgados.&lt;/p&gt;
@@ -1040,10 +1040,10 @@ function calcular() {
 	
 	<item>
 		<title>Convulsões</title>
-		<link>http://mmori.com/medicina/convulsoes/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/convulsoes/</link>
 		<pubDate>Sun, 19 Nov 2023 15:45:49 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/convulsoes/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/convulsoes/</guid>
 		<description>&lt;h2 id=&#34;lactente-ou-neonato&#34;&gt;Lactente ou neonato&lt;/h2&gt;
 &lt;h3 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
@@ -1059,10 +1059,10 @@ E -- Persistência --&gt;Z
 	
 	<item>
 		<title>Dor Toracica</title>
-		<link>http://mmori.com/medicina/dor-toracica/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/dor-toracica/</link>
 		<pubDate>Sat, 18 Nov 2023 13:00:42 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/dor-toracica/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/dor-toracica/</guid>
 		<description>&lt;h2 id=&#34;a-conduta-emergencial-da-dor-torácica&#34;&gt;A conduta emergencial da dor torácica&lt;/h2&gt;
 &lt;p&gt;A lógica é de eliminar, uma-a-uma, as causas mais graves com possibilidade de morte.&lt;/p&gt;
 &lt;h3 id=&#34;abcde&#34;&gt;ABCDE&lt;/h3&gt;
@@ -1097,10 +1097,10 @@ angio primaria&lt;/p&gt;
 	
 	<item>
 		<title>Parada Cardiorespiratoria</title>
-		<link>http://mmori.com/medicina/parada-cardiorespiratoria/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/parada-cardiorespiratoria/</link>
 		<pubDate>Sat, 18 Nov 2023 12:21:22 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/parada-cardiorespiratoria/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/parada-cardiorespiratoria/</guid>
 		<description>&lt;p&gt;Este tema é tradicionalmente dividido entre as condutas de:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Socorrista leigo;&lt;/li&gt;
@@ -1139,10 +1139,10 @@ angio primaria&lt;/p&gt;
 	
 	<item>
 		<title>Massagem Carotídea</title>
-		<link>http://mmori.com/medicina/massagem-carotidea/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/massagem-carotidea/</link>
 		<pubDate>Wed, 15 Nov 2023 22:42:02 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/massagem-carotidea/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/massagem-carotidea/</guid>
 		<description>&lt;h2 id=&#34;o-que-é&#34;&gt;O que é&lt;/h2&gt;
 &lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via sensores pressóricos que provocam estimulação parassimpática vagal.&lt;/p&gt;
 &lt;p&gt;Seu emprego também é terapêutico nos casos de taquiarritmias supraventriculares.&lt;/p&gt;
@@ -1169,10 +1169,10 @@ angio primaria&lt;/p&gt;
 	
 	<item>
 		<title>Taxa de filtração glomerular - Cockcroft Gault</title>
-		<link>http://mmori.com/medicina/cockcroft-gault/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/cockcroft-gault/</link>
 		<pubDate>Wed, 15 Nov 2023 18:42:29 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/cockcroft-gault/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/cockcroft-gault/</guid>
 		<description>
 
 &lt;!DOCTYPE html&gt;
@@ -1219,10 +1219,10 @@ $$
 	
 	<item>
 		<title>Considerações filosóficas sobre a reprodução humana</title>
-		<link>http://mmori.com/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
+		<link>https://estalinecccp.github.io/JeffSite/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
 		<pubDate>Tue, 14 Nov 2023 00:28:26 -0300</pubDate>
 		
-		<guid>http://mmori.com/filosofia/reproducao-humana-consideracoes-filosoficas/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/filosofia/reproducao-humana-consideracoes-filosoficas/</guid>
 		<description>&lt;h2 id=&#34;a-longa-gestação-humana-e-seu-concepto-incapaz&#34;&gt;A longa gestação humana e seu concepto incapaz&lt;/h2&gt;
 &lt;p&gt;A tempo de reprodução humana é característicamente longo e, ao seu término, o concepto assume uma posição central e frágil na família¹.&lt;/p&gt;
 &lt;p&gt;Esta consideração, &lt;em&gt;per si&lt;/em&gt;, significa que a reprodução humana é peculiar e pouco eficiente. De fato, se comparado a muitos outros mamíferos, os primatas tem uma das reproduções mais limitadas.&lt;/p&gt;
@@ -1238,10 +1238,10 @@ $$
 	
 	<item>
 		<title>Banco de questões</title>
-		<link>http://mmori.com/medicina/banco-de-questoes/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/banco-de-questoes/</link>
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/banco-de-questoes/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/banco-de-questoes/</guid>
 		<description>&lt;!-- &lt;p style=&#34;color:black; background: red; font-weight: bold&#34; class=&#34;center&#34;&gt;&lt;big&gt; Em construção&lt;/p&gt; --&gt;
 
 
@@ -1433,10 +1433,10 @@ generateRandomQuestion();
 	
 	<item>
 		<title>Bahia - Itacaré</title>
-		<link>http://mmori.com/viagem/bahia-itacare/</link>
+		<link>https://estalinecccp.github.io/JeffSite/viagem/bahia-itacare/</link>
 		<pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>http://mmori.com/viagem/bahia-itacare/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/viagem/bahia-itacare/</guid>
 		<description>
  
 &lt;div class=&#34;carousel&#34;&gt;
@@ -1516,10 +1516,10 @@ generateRandomQuestion();
 	
 	<item>
 		<title>Colecistite aguda - Tokyo Guideline</title>
-		<link>http://mmori.com/medicina/tokyo-guideline/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/tokyo-guideline/</link>
 		<pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>http://mmori.com/medicina/tokyo-guideline/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/tokyo-guideline/</guid>
 		<description>
 
 &lt;!DOCTYPE html&gt;
@@ -1682,10 +1682,10 @@ function updateResult() {
 	
 	<item>
 		<title>Gasometria Arterial</title>
-		<link>http://mmori.com/medicina/gasometria-arterial/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/gasometria-arterial/</link>
 		<pubDate>Tue, 07 Nov 2023 20:55:26 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/gasometria-arterial/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/gasometria-arterial/</guid>
 		<description>&lt;h2 id=&#34;acidez-e-basicidade-sérica&#34;&gt;Acidez e basicidade sérica&lt;/h2&gt;
 &lt;p&gt;O pH sanguíneo deve sempre estar entre 7.35 e 7.45.&lt;/p&gt;
 &lt;p&gt;Valores abaixo deste intervalo são chamados de acidemia. Acima, alcalemia.&lt;/p&gt;
@@ -1746,10 +1746,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Como sincronizar iPhone e Linux</title>
-		<link>http://mmori.com/tecnologia/iphone-e-linux/</link>
+		<link>https://estalinecccp.github.io/JeffSite/tecnologia/iphone-e-linux/</link>
 		<pubDate>Mon, 06 Nov 2023 18:19:06 -0300</pubDate>
 		
-		<guid>http://mmori.com/tecnologia/iphone-e-linux/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/tecnologia/iphone-e-linux/</guid>
 		<description>&lt;h2 id=&#34;como-transferir-arquivos-linux-para-iphone-e-vice-versa&#34;&gt;Como transferir arquivos Linux para iPhone e vice versa&lt;/h2&gt;
 &lt;p&gt;Instale os pacotes &lt;em&gt;fuse&lt;/em&gt; e &lt;em&gt;ifuse&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://archlinux.org/packages/extra/x86_64/ifuse/&#34;&gt;iFuse&lt;/a&gt;&lt;/p&gt;
@@ -1772,10 +1772,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Stultus Visio</title>
-		<link>http://mmori.com/tecnologia/stultus-visio/</link>
+		<link>https://estalinecccp.github.io/JeffSite/tecnologia/stultus-visio/</link>
 		<pubDate>Mon, 06 Nov 2023 10:31:17 -0300</pubDate>
 		
-		<guid>http://mmori.com/tecnologia/stultus-visio/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/tecnologia/stultus-visio/</guid>
 		<description>&lt;h1 id=&#34;stultusvisio-031&#34;&gt;StultusVisio 0.3.1&lt;/h1&gt;
 &lt;p&gt;Slides estúpidos e fáceis, apresentáveis em qualquer &lt;em&gt;browser&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
@@ -1884,10 +1884,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Injuria Renal Aguda</title>
-		<link>http://mmori.com/medicina/injuria-renal-aguda/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/injuria-renal-aguda/</link>
 		<pubDate>Mon, 06 Nov 2023 07:52:13 -0300</pubDate>
 		
-		<guid>http://mmori.com/medicina/injuria-renal-aguda/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/injuria-renal-aguda/</guid>
 		<description>&lt;h2 id=&#34;etiologias&#34;&gt;Etiologias&lt;/h2&gt;
 &lt;h3 id=&#34;pré-renais&#34;&gt;Pré-renais&lt;/h3&gt;
 &lt;p&gt;Quaisquer situações de hipofluxo e ativação do sistema renina-angiotensina-aldosterona e constricção da artéria aferente.&lt;/p&gt;
@@ -1913,7 +1913,8 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 &lt;p&gt;Os demais medicamentos causadores de necrose tubular são menos comuns.&lt;/p&gt;
 &lt;p&gt;Nas causas pré-renais, a hemorragia e demais causas de hipovolemia lideram as causas, devendo-se suspeitar sempre de anúria em pacientes com fatores de risco para sangramento.&lt;/p&gt;
 &lt;p&gt;Já no pós-renal o exame de urina apresenta alterações típicas de trajeto como hematúria e piúria, sem necessariamente alterar métricas nefrológicas como fração de sódio etc. A sintomatologia envolve a disúria, urgência miccional e lombalgia. Pode haver contexto infeccioso (ITU).&lt;/p&gt;
-&lt;h2 id=&#34;classificação-segundo-kidney-disease-improving-global-outcomes&#34;&gt;Classificação segundo Kidney Disease: Improving Global Outcomes&lt;/h2&gt;
+&lt;h2 id=&#34;classificações&#34;&gt;Classificações&lt;/h2&gt;
+&lt;h3 id=&#34;segundo-kidney-disease-improving-global-outcomes&#34;&gt;Segundo Kidney Disease: Improving Global Outcomes&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1971,10 +1972,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Palenque - México</title>
-		<link>http://mmori.com/viagem/mexico/palenque-mexico/</link>
+		<link>https://estalinecccp.github.io/JeffSite/viagem/mexico/palenque-mexico/</link>
 		<pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>http://mmori.com/viagem/mexico/palenque-mexico/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/viagem/mexico/palenque-mexico/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../../pix/palenque.webp&#34; alt=&#34;Palenque&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Cidade de Chiapas referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
 &lt;p&gt;Conhecida por seu estado de preservação, a atração principal da cidade é o parque arqueológico principal.&lt;/p&gt;
@@ -1995,10 +1996,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Sobre</title>
-		<link>http://mmori.com/sobre/</link>
+		<link>https://estalinecccp.github.io/JeffSite/sobre/</link>
 		<pubDate>Sun, 05 Nov 2023 18:30:21 -0300</pubDate>
 		
-		<guid>http://mmori.com/sobre/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/sobre/</guid>
 		<description>
 
 &lt;br&gt;
@@ -2060,6 +2061,17 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Um típico representante nerd.&lt;/p&gt;&lt;/div&gt;
     
 
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;a href=&#34;../../pix/kermit.gif&#34;&gt;
+          &lt;img src=&#34;../../pix/kermit.gif&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Você, lendo meu site kkkk&lt;/p&gt;&lt;/div&gt;
+    
+
 
   
   &lt;div class=&#34;button-container&#34;&gt;
@@ -2114,10 +2126,10 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 	
 	<item>
 		<title>Escore de Wells</title>
-		<link>http://mmori.com/medicina/wells-tep/</link>
+		<link>https://estalinecccp.github.io/JeffSite/medicina/wells-tep/</link>
 		<pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>http://mmori.com/medicina/wells-tep/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/medicina/wells-tep/</guid>
 		<description>
 
 &lt;!DOCTYPE html&gt;
@@ -2178,10 +2190,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espírito Santo - Domingos Martins</title>
-		<link>http://mmori.com/viagem/espirito-santo-domingos-martins/</link>
+		<link>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-domingos-martins/</link>
 		<pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
 		
-		<guid>http://mmori.com/viagem/espirito-santo-domingos-martins/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-domingos-martins/</guid>
 		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;Cidade a 50km de Vitória de cultura alemã.&lt;/p&gt;
 &lt;p&gt;A praça principal Arthur Gerhardt já é uma atração.&lt;/p&gt;
@@ -2285,10 +2297,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espiríto Santo - Praia de Iriri</title>
-		<link>http://mmori.com/viagem/espirito-santo-iriri/</link>
+		<link>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-iriri/</link>
 		<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
 		
-		<guid>http://mmori.com/viagem/espirito-santo-iriri/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-iriri/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../../pix/iriri.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;É longe de vitória, 2h de carro.&lt;/p&gt;
@@ -2304,10 +2316,10 @@ function updateResult() {
 	
 	<item>
 		<title>Bahia - Piatã, Salvador</title>
-		<link>http://mmori.com/viagem/bahia-piata-salvador/</link>
+		<link>https://estalinecccp.github.io/JeffSite/viagem/bahia-piata-salvador/</link>
 		<pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
 		
-		<guid>http://mmori.com/viagem/bahia-piata-salvador/</guid>
+		<guid>https://estalinecccp.github.io/JeffSite/viagem/bahia-piata-salvador/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../../pix/piata.png&#34; alt=&#34;Praia em Piatã&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;geral&#34;&gt;Geral&lt;/h1&gt;
 &lt;p&gt;Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.&lt;/p&gt;
