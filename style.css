@@ -1,7 +1,7 @@
 :root {
 /* Personalizadas */
   --gradiente-dark: var(--light-grad, radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%)) ;
-  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, yellow 0, transparent 75%), radial-gradient(ellipse at 60% 0%, var(--verde-google) 0, transparent 75%)) ;
+  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, var(--azul-google) 0, transparent 75%), radial-gradient(ellipse at 60% 0%, var(--verde-google) 0, transparent 75%)) ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
   --azul-google: #0057e7 ;
@@ -21,6 +21,7 @@
   --sticker-fundo: var(--gradiente-dark) ;
   --git-hub-dark-back: #22272e ;
   --azul-vibrante: #01bfff ;
+  --creme: #f5f5dc ;
 }
 
 :root[data-tema="escuro"] {
@@ -48,7 +49,7 @@
   --sticker-fundo: var(--gradiente-light) ;
   --fundo: var(--white-solarized) ;
   --fundo-invertido: var(--git-hub-dark-back) ;
-  --fundo-input: white;
+  --fundo-input: var(--creme) ;
   --green: #347d39 ;
   --blue: #539bf5 ;
   --separador: var(--verde-google);
@@ -62,8 +63,8 @@
   --frase-hover: var(--azul-google) ;
   --frase-show: var(--verde-google) ;
   --autor: black ;
-  --bordas: var(--amarelo-google) ;
-  --sticker-font: #282828 ;
+  --bordas: var(--azul-google) ;
+  --sticker-font: var(--fundo-invertido) ;
 }
 
 body {
@@ -141,7 +142,7 @@ body {
 }
 
 label {
-  color: #a0acb9;
+  color: var(--fonte) ;
 }
 
 .mermaid svg {
@@ -290,6 +291,7 @@ a .matched-recipe{
 }
 input#search::placeholder {
   text-align: center;
+  color: var(--fundo-invertido) ;
 }
 .matched-recipe {
   font-size: 1.5em;
@@ -464,30 +466,31 @@ th, td {
 }
 
 /* UL OL LI UNORDERED LISTS */
-ul{
-  list-style-type: none ;
+ul, ol {
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80% ;
+  columns: 2 ;
+  gap: 0.5em ;
+}
+ul {
 }
 ol {
-  list-style-type: none ;
-  background-color: #21262d;
-  border-radius: 5px;
-  border-left: 1px solid var(--blue);
-  text-align: justify;
-  max-width: 80%;
 }
 li:hover {
   background-size: cover;
   background: var(--fundo-input) ;
   border-radius: 4px ;
-  list-style-type: "| ";
+  list-style-type: "+  ";
 }
 li:before{
   font-weight: bold ;
   color: var(--fundo-input) ;
 }
+li:nth-child(3n) {
+  display: none ;
+}
+
 #autor{
   color: var(--autor) ; 
   padding-left: 20%;
@@ -713,7 +716,7 @@ nav#TableOfContents li:last-child::before {
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
-  color: white;
+  color: var(--fundo-invertido) ;
 }
 .barra a[href]:hover,
 .barra a[href]:active {
