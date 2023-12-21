@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Cervejas | Jefferson T.</title>
-	<link rel="canonical" href="https://estalinecccp.github.io/JeffSite/">
-	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
-	<link rel='stylesheet' type='text/css' href='../../style.css'>
-	<link rel="icon" href="../../favicon.ico">
-	<meta name="description" content="Avisos! Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Cervejas | Jefferson T.</title>
+  <link rel="canonical" href="http://mmori.com/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="Avisos! Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.
 Todas cervejas desta páginas são recomendações minhas. Costumo degustá-las com carnes ou massas e salgados.
 Definições Cervejas são simples.
 O termo mais complexo para uma boa discussão sobre cervejas é a escala IBU, International Bitterness Units. Trata-se apenas de uma escala de amargor que foi adotada. O cervejeiro calcula o IBU a partir de fórmulas, mas a sua validação de mercado se dá pela degustação.">
-	<meta name="keywords" content="culinária, receitas">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+  <meta name="keywords" content="culinária, receitas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
 </head>
 <body>
-<main>
-<header><h1 id="tag_Cervejas">
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  
-  <circle cx="50" cy="50" r="40" fill="#adbac7" />
-  
-  <text x="50" y="60" font-family="Arial, sans-serif" font-size="40" fill="#21262d" text-anchor="middle">Jeff</text>
-</svg>
-</h1></header>
-<article>
-
   <div class="barra">
-    <a href="../../index.html" alt="Início">🏠︎ Início</a>
-    <a href="../../sobre/index.html" alt="Sobre">★ Sobre</a>
-    <a href="../../dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
-    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
-    <a href="../../tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
-    <a href="../../tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
-    <a href="../../tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
-    <a href="../../tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">💭 Filosofia</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
     <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+    <a id="light-switch" href="#" onclick="alternarTema(); return false;"></a>
   </div>
-  <h1>Cervejas</h1>
-  
-  
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#avisos">Avisos!</a></li>
-    <li><a href="#definições">Definições</a></li>
-    <li><a href="#galeria-de-fotos">Galeria de fotos</a></li>
-    <li><a href="#blue-ribbon">Blue-Ribbon</a></li>
-    <li><a href="#michelob-ultra">Michelob Ultra</a></li>
-    <li><a href="#kirin-ichban">Kirin-Ichban</a></li>
-    <li><a href="#cacilds">Cacilds</a></li>
-    <li><a href="#faxe">FAXE</a></li>
-  </ul>
-</nav>
-  
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
 
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const item = document.querySelector('h1');
-      item.classList.add('show');
-    });
-  </script>
-  <h2 id="avisos">Avisos!</h2>
+<h2 id="avisos">Avisos!</h2>
 <p>Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.</p>
 <p>Todas cervejas desta páginas são recomendações minhas. Costumo degustá-las com carnes ou massas e salgados.</p>
 <h2 id="definições">Definições</h2>
@@ -209,31 +221,14 @@ O termo mais complexo para uma boa discussão sobre cervejas é a escala IBU, In
 <p>Cerveja nórdica e de inspiração mais medieval. Particularmente, não vejo nada de mais. Receita clássica, IBU alto, cerveja escura e sabor indiscreto, mostrando diretamente um retorno aromático de Lúpulo de torra média.</p>
 <p>Cai bem com carnes e refeições grandes e compostas, mas com massas puras não é boa ideia, faz um empachamento considerável mesmo para cervejeiros antigos. O tamanho grande da lata piora este aspecto.</p>
 
-  
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    });
-</script>
-
-
-  
 
 
 <br>
         <hr>
-        <div style="clear:both" class=taglist><a id="tag_culinária" href="https://estalinecccp.github.io/JeffSite/tags/culin%C3%A1ria">Culinária</a> &middot; <a id="tag_receitas" href="https://estalinecccp.github.io/JeffSite/tags/receitas">Receitas</a></div>
-</article>
-</main>
+        <div style="clear:both" class=taglist><a id="tag_culinária" href="http://mmori.com/tags/culin%C3%A1ria">Culinária</a> &middot; <a id="tag_receitas" href="http://mmori.com/tags/receitas">Receitas</a></div>
 
 <footer>
-  <a href="https://estalinecccp.github.io/JeffSite/">Início</a>
+  <a href="http://mmori.com/">📌 Início</a>
 </footer>
 
 </body>

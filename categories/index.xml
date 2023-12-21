@@ -1,20 +1,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Jefferson T.</title>
-	<link>https://estalinecccp.github.io/JeffSite/categories/</link>
+	<link>http://mmori.com/categories/</link>
 	<description>Recent content in Categories on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
     
-        <atom:link href="https://estalinecccp.github.io/JeffSite/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://mmori.com/categories/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
+		<title>Viéses - o estado atual da ciência</title>
+		<link>http://mmori.com/ciencia/vieses/</link>
+		<pubDate>Thu, 21 Dec 2023 04:33:48 -0300</pubDate>
+		
+		<guid>http://mmori.com/ciencia/vieses/</guid>
+		<description>&lt;h2 id=&#34;racionalidade&#34;&gt;Racionalidade&lt;/h2&gt;
+&lt;div class=&#34;sticker&#34;&gt;
+&lt;p class=&#34;center&#34;&gt;Linda é uma bancária inteligente, jovem e ativista.&lt;/p&gt;
+&lt;p class=&#34;center&#34;&gt;O que é mais provável? &lt;/p&gt;
+&lt;p class=&#34;center&#34;&gt;Que Linda seja uma bancária ou que seja uma bancária e uma feminista?&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;A mente humana é fruto de um processo evolutivo de milhares, senão milhões de anos. Durante este processo, selecionamos o mais bizarro aparato biológico: nosso cérebro. Capaz da mais alta atividade cognitiva conhecida, o homem lapidou esta ferramenta até seu estágio atual, altamente adaptada à lógica e ao mundo moderno, afeita a matemática e a razão, uma obra prima do acaso para nos deleitarmos com as melhores deciões possíveis, certo?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Errado&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Somos estranhamente compelidos aos viéses, interpretamos a natureza através de misticismos bobos, nos apegamos a figuras representativas e religiosas, cultuamos deídades mesmo dois mil anos após o início do declínio deste modelo etc. Somos, na verdade, fabricados para o absurdo. A mente humana distorce para entender, preenche vazios com mirabolismos e aceita o exdrúxulo como explicação.&lt;/p&gt;
+&lt;p&gt;De forma mais sofisticada e como exemplo, suponhamos nosso mais digno de nota ancestral: um &lt;em&gt;homo sapiens&lt;/em&gt; atrevido, astuto e bastante curioso que, &lt;strong&gt;arriscando sua sobrevivência&lt;/strong&gt;, provoca de perto um enorme leão na savana africana no ano 10.100 &lt;em&gt;bce&lt;/em&gt; tentando ver de perto as perigosas garras do animal. Desta observação, pressupôs que um instrumento similar, pontiagudo e longo, lhe serviria de peça auxiliar na caça. E de fato, serviu.&lt;/p&gt;
+&lt;p&gt;Um exímio lógico pensador, certo?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Novamente, errado&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Trata-se de um louco. Mais racional e sensata é a joaninha que não se arrisca próxima da teia, sabendo ser arriscado se aventurar próxima à aranha, por mais que a armadilha chame a atenção. Ao sucumbirmos à curiosidade, estamos sendo &lt;strong&gt;menos lógicos&lt;/strong&gt; que os animais ditos &lt;em&gt;irracionais&lt;/em&gt;. Ora, qual a lógica em facilitar a predação de sua própria espécie?&lt;/p&gt;
+&lt;p&gt;Porém, alguém pode argumentar que na verdade, ao longo prazo, aquele &lt;em&gt;h. sapiens&lt;/em&gt; aumentou suas chances de sobrevivência.&lt;/p&gt;
+&lt;p&gt;E é precisamente aí que entram os argumentos dos dois sistemas de pensamento, originalmente elaborados por Kahneman e Tversky¹.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pix/memes/images/troll.png&#34; alt=&#34;troll&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;center&#34;&gt;&lt;em&gt;&#34;Afinal, onde você quer chegar Jeff?&#34;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sistemas-1-e-2&#34;&gt;Sistemas 1 e 2&lt;/h3&gt;
+&lt;h3 id=&#34;ciência-vs-cognição-evolutiva&#34;&gt;Ciência vs. cognição evolutiva&lt;/h3&gt;
+&lt;h3 id=&#34;você-desconhece-o-mundo&#34;&gt;Você desconhece o mundo&lt;/h3&gt;
+&lt;h3 id=&#34;o-ritual-p-estatístico&#34;&gt;O ritual p-estatístico&lt;/h3&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;p&gt;Kahneman, Daniel. &lt;strong&gt;Rápido e devagar: duas formas de pensar&lt;/strong&gt;. Schwarcz s.a. 2012. Tradução objetiva.2016. ISBN 978-85-390-0383-9. Rio de Janeiro, Brasil.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Bulário</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/bulario/</link>
+		<link>http://mmori.com/medicina/bulario/</link>
 		<pubDate>Sun, 17 Dec 2023 21:31:36 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/bulario/</guid>
+		<guid>http://mmori.com/medicina/bulario/</guid>
 		<description>
 
 &lt;div class=&#34;search&#34;&gt;
@@ -106,10 +140,10 @@ search.addEventListener(&#34;input&#34;, () =&gt; {
 	
 	<item>
 		<title>Introdução ao banco de questões</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/bancoquestoes-intro/</link>
+		<link>http://mmori.com/medicina/bancoquestoes-intro/</link>
 		<pubDate>Sun, 17 Dec 2023 03:54:33 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/bancoquestoes-intro/</guid>
+		<guid>http://mmori.com/medicina/bancoquestoes-intro/</guid>
 		<description>&lt;h2 id=&#34;concursos-públicos-questões-públicas&#34;&gt;Concursos públicos, questões públicas!&lt;/h2&gt;
 &lt;p&gt;A grande maioria dos preparatórios vendem bancos de questões. A resolução de questões é um dos mais importantes instrumentos na aprovação em provas.&lt;/p&gt;
 &lt;p&gt;Infelizmente, a maior parte dos bancos está protegida por &lt;em&gt;paywalls&lt;/em&gt;.&lt;/p&gt;
@@ -121,10 +155,10 @@ search.addEventListener(&#34;input&#34;, () =&gt; {
 	
 	<item>
 		<title>Afogamento</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/afogamento/</link>
+		<link>http://mmori.com/medicina/afogamento/</link>
 		<pubDate>Fri, 15 Dec 2023 20:39:22 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/afogamento/</guid>
+		<guid>http://mmori.com/medicina/afogamento/</guid>
 		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
     a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
     y -- Com&lt;br&gt; pulso carotídeo --&gt; z(Grau 5)
@@ -140,10 +174,10 @@ search.addEventListener(&#34;input&#34;, () =&gt; {
 	
 	<item>
 		<title>A aceitação da morte como modo de vida</title>
-		<link>https://estalinecccp.github.io/JeffSite/filosofia/morte/</link>
+		<link>http://mmori.com/filosofia/morte/</link>
 		<pubDate>Fri, 15 Dec 2023 00:35:27 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/filosofia/morte/</guid>
+		<guid>http://mmori.com/filosofia/morte/</guid>
 		<description>&lt;p&gt;
 
 &lt;style&gt;
@@ -207,10 +241,10 @@ p.sticker{
 	
 	<item>
 		<title>Diabetes Mellitus Gestacional</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/dmg/</link>
+		<link>http://mmori.com/medicina/dmg/</link>
 		<pubDate>Thu, 14 Dec 2023 09:17:12 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/dmg/</guid>
+		<guid>http://mmori.com/medicina/dmg/</guid>
 		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;O diabetes mellitus gestacional tem hoje um fluxograma de conduta bem definido pela FEBRASGO.&lt;/p&gt;
 &lt;p&gt;Outrora, já foi mais confuso.&lt;/p&gt;
@@ -380,10 +414,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Anatomia</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/anatomia/</link>
+		<link>http://mmori.com/medicina/anatomia/</link>
 		<pubDate>Tue, 12 Dec 2023 09:48:10 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/anatomia/</guid>
+		<guid>http://mmori.com/medicina/anatomia/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/medicina/anatomy.png&#34; alt=&#34;Anatomy Learning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Iniciando em anatomia? Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto livre, open-source e em WebGL.&lt;/p&gt;
 &lt;p&gt;Ao avançar, não perca seu tempo, basta um bom atlas cadavérico como o Nielsen e o bom e velho Grays Anatomy. O livro, não a série.&lt;/p&gt;
@@ -398,10 +432,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Vacinas</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/vacinas/</link>
+		<link>http://mmori.com/medicina/vacinas/</link>
 		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/vacinas/</guid>
+		<guid>http://mmori.com/medicina/vacinas/</guid>
 		<description>&lt;h2 id=&#34;termos&#34;&gt;Termos&lt;/h2&gt;
 &lt;h3 id=&#34;heterólogo&#34;&gt;Heterólogo&lt;/h3&gt;
 &lt;p&gt;Termo confuso na medicina e na biologia. Na imunologia, &lt;strong&gt;esquema heterólogo&lt;/strong&gt; significa utilizar uma vacina diferente daquela do esquema inicial. Coloquialmente chamado de booster.&lt;/p&gt;
@@ -429,10 +463,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Eclâmpsia</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/eclampsia/</link>
+		<link>http://mmori.com/medicina/eclampsia/</link>
 		<pubDate>Mon, 11 Dec 2023 00:53:39 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/eclampsia/</guid>
+		<guid>http://mmori.com/medicina/eclampsia/</guid>
 		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
 &lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de gestação a pelo menos 20 semanas, hipertensão e proteinúria.&lt;/p&gt;
@@ -463,22 +497,25 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Meu dicionário instantâneo</title>
-		<link>https://estalinecccp.github.io/JeffSite/dicionario/</link>
+		<link>http://mmori.com/dicionario/</link>
 		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/dicionario/</guid>
+		<guid>http://mmori.com/dicionario/</guid>
 		<description>
 
-&lt;div class=&#34;sticker&#34;&gt;
+&lt;div class=&#34;sticker&#34; id=&#34;aviso&#34;&gt;
 &lt;p&gt;
-Pensei neste dicionário como meio de consulta rápida para termos das minhas áreas de interesse, notadamente a medicina e ciências em geral. 
+Às vezes, numa discussão, precisamos conferir algo rapidamente!
+
+🤣
 &lt;/p&gt;&lt;p&gt;
-Programar um código que mostrasse a referência bibliográfica de cada definição mostrou-se improdutivo e &lt;em&gt;bloated&lt;/em&gt; e resolvi fazer uma listagem simples instantânea em JavaScript mesmo. Como gostei do resultado, mantive.
+Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral. Então, resolvi fazer um dicionário simples em JavaScript.
 &lt;/p&gt;&lt;p&gt;
-Aceito sugestões! 
+Aceito sugestões de termos! 
 &lt;/p&gt;&lt;p&gt;
 Boa busca!
 &lt;/p&gt;
+&lt;button id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
 &lt;/div&gt;
 &lt;br&gt;
 
@@ -501,10 +538,10 @@ Boa busca!
 	
 	<item>
 		<title>Anestesia</title>
-		<link>https://estalinecccp.github.io/JeffSite/anestesia/</link>
+		<link>http://mmori.com/anestesia/</link>
 		<pubDate>Thu, 30 Nov 2023 22:30:10 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/anestesia/</guid>
+		<guid>http://mmori.com/anestesia/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/anesthesiology.jpg&#34; alt=&#34;Anestesia&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;porque-pretendo-anestesiologia-como-especialidade-médica&#34;&gt;Porque pretendo anestesiologia como especialidade médica&lt;/h2&gt;
 &lt;p&gt;Durante quase toda a trajetória do curso de medicina, tive muita dificuldade de me identificar com alguma especialidade.&lt;/p&gt;
@@ -527,13 +564,13 @@ Boa busca!
 	
 	<item>
 		<title>Abaixo a medicina!</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/abaixo-a-medicina/</link>
+		<link>http://mmori.com/medicina/abaixo-a-medicina/</link>
 		<pubDate>Tue, 28 Nov 2023 10:56:57 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/abaixo-a-medicina/</guid>
+		<guid>http://mmori.com/medicina/abaixo-a-medicina/</guid>
 		<description>&lt;img src=&#34;../pix/doctor-plague.png&#34;&gt;
 &lt;p class=&#34;center&#34; style=&#34;max-width: 50%&#34;&gt;&lt;em&gt;Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color: black; background: red&#34;&gt;AVISO:&lt;/span&gt; Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: black;background: red; border-radius: 2px;&#34;&gt;AVISO:&lt;/span&gt; Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.&lt;/p&gt;
 &lt;h2 id=&#34;classificações-médicas&#34;&gt;Classificações médicas&lt;/h2&gt;
 &lt;div class=&#34;sticker&#34;&gt;Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre dezesseis e catorze classificações por semestre.
 &lt;br&gt;
@@ -543,20 +580,21 @@ Boa busca!
 &lt;ol&gt;
 &lt;li&gt;Os aneurismas de aorta, e.g., se classificam com relação ao seu diâmetro, do qual, 1mm de diferença significa a brusca mudança de conduta entre &amp;ldquo;tratamento conservador&amp;rdquo; e cirurgia radical. Ainda bem que se popularizou a cirurgia endovascular, porque há menos de duas décadas atrás tal procedimento consistia basicamente numa agressiva laparatomia.&lt;/li&gt;
 &lt;li&gt;A dor torácica pode ser tipicamente anginosa, dita quando suas características são clássicas de uma dor precordial. Porém, isso não é suficiente. Nas provas, ela se chama &amp;ldquo;Dor do tipo A&amp;rdquo;. Eu chamo este fetish de &lt;em&gt;tara taxônomica&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;O exame físico do baço espera, na normalidade, que não seja palpável. Caso seja, classifica-se o baço em três graus, a depender da altura da palpação. O mais lógico seria reportarmos a altura da palpação em si, não? Inclusive, o marco anatômico da tal classificação é a cicatriz umbilical, o que faz menos sentido ainda porque seria ainda mais óbvio registrarmos a que distância exata do marco está a palpação, para fins de acompanhamento. Vai entender.&lt;/li&gt;
+&lt;li&gt;O exame físico do baço espera, na normalidade, que ele não seja palpável. Caso seja, classifica-se o baço em três graus, a depender da altura da palpação. O mais lógico seria reportarmos a altura da palpação em si, não? Inclusive, o marco anatômico da tal classificação é a cicatriz umbilical, o que faz menos sentido ainda porque seria ainda mais óbvio registrarmos a que distância exata do marco está a palpação, para fins de acompanhamento. Vai entender.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;tara-taxonômica&#34;&gt;Tara taxonômica&lt;/h2&gt;
-&lt;p&gt;Para parecer inteligente em uma roda de conversa entre profissionais da saúde, experimente sempre questionar se as patologias são do tipo 1 ou 2. Mesmo inexistente a tal classificação, alguem se disporá a discuti-lá, acredite. Ainda mais, é possível que haja debate de validade e até de evidências sobre a mentira em curso.&lt;/p&gt;
-&lt;p&gt;Este fenômeno tem a ver com a origem das maiorias das classificações médicas. Normalmente, tenta-se compartimentalizar os fenômenos, na tentativa de delinear alguma abordagem sistematizada para cada patologia. Porém, esse fundamento lógico das classificações médicas se perdeu com o tempo.&lt;/p&gt;
+&lt;p&gt;Para parecer inteligente em uma roda de conversa entre profissionais da saúde, experimente sempre questionar se as patologias são do tipo 1 ou 2. Mesmo inexistente a tal classificação, alguem se disporá a discuti-la, acredite.&lt;/p&gt;
+&lt;p&gt;Ainda mais: é possível que haja debate de validade e até de evidências sobre a mentira em curso 😂.&lt;/p&gt;
+&lt;p&gt;Este fenômeno tem a ver com a origem das maiorias das classificações médicas. Normalmente, tenta-se compartimentalizar os fenômenos, na tentativa de delinear alguma abordagem sistematizada para cada patologia. Porém, esse fundamento lógico das classificações médicas se perdeu com o tempo, o que há, atualmente, é uma insistência inocente em tal estratégia.&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Pressao Arterial</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/pressao-arterial/</link>
+		<link>http://mmori.com/medicina/pressao-arterial/</link>
 		<pubDate>Mon, 27 Nov 2023 11:02:22 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/pressao-arterial/</guid>
+		<guid>http://mmori.com/medicina/pressao-arterial/</guid>
 		<description>&lt;h2 id=&#34;pressão-arterial-média&#34;&gt;Pressão arterial média&lt;/h2&gt;
 &lt;p&gt;$$
 PAM = \frac{PAS + 2 * PAD}{3}
@@ -570,10 +608,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Assistente de antibioticoterapia</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/assistente-antibioticoterapia/</link>
+		<link>http://mmori.com/medicina/assistente-antibioticoterapia/</link>
 		<pubDate>Tue, 21 Nov 2023 14:33:45 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/assistente-antibioticoterapia/</guid>
+		<guid>http://mmori.com/medicina/assistente-antibioticoterapia/</guid>
 		<description>&lt;p style=&#34;color:black; background: red; font-weight: bold&#34; class=&#34;center&#34;&gt;&lt;big&gt; Em construção&lt;/p&gt;
 &lt;!DOCTYPE html&gt;
 
@@ -710,10 +748,10 @@ fetch(&#39;/antibioticos.json&#39;)
 	
 	<item>
 		<title>Grandes queimados - Parkland</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/calculos-queimados/</link>
+		<link>http://mmori.com/medicina/calculos-queimados/</link>
 		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/calculos-queimados/</guid>
+		<guid>http://mmori.com/medicina/calculos-queimados/</guid>
 		<description>
 
 &lt;h2 style=&#34;padding: 0%;&#34; class=&#34;center&#34;&gt;Percentual de área corporal queimada&lt;/h2&gt;
@@ -869,10 +907,10 @@ function calcular() {
 	
 	<item>
 		<title>Canais de ciências que recomendo</title>
-		<link>https://estalinecccp.github.io/JeffSite/ciencia/canais-yt/</link>
+		<link>http://mmori.com/ciencia/canais-yt/</link>
 		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/ciencia/canais-yt/</guid>
+		<guid>http://mmori.com/ciencia/canais-yt/</guid>
 		<description>&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
 &lt;h3 id=&#34;eugene-kuthoriansky&#34;&gt;Eugene Kuthoriansky&lt;/h3&gt;
 &lt;p&gt;Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.&lt;/p&gt;
@@ -885,10 +923,10 @@ function calcular() {
 	
 	<item>
 		<title>Cervejas</title>
-		<link>https://estalinecccp.github.io/JeffSite/receitas/cervejas/</link>
+		<link>http://mmori.com/receitas/cervejas/</link>
 		<pubDate>Mon, 20 Nov 2023 20:46:46 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/receitas/cervejas/</guid>
+		<guid>http://mmori.com/receitas/cervejas/</guid>
 		<description>&lt;h2 id=&#34;avisos&#34;&gt;Avisos!&lt;/h2&gt;
 &lt;p&gt;Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.&lt;/p&gt;
 &lt;p&gt;Todas cervejas desta páginas são recomendações minhas. Costumo degustá-las com carnes ou massas e salgados.&lt;/p&gt;
@@ -1039,10 +1077,10 @@ function calcular() {
 	
 	<item>
 		<title>Convulsões</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/convulsoes/</link>
+		<link>http://mmori.com/medicina/convulsoes/</link>
 		<pubDate>Sun, 19 Nov 2023 15:45:49 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/convulsoes/</guid>
+		<guid>http://mmori.com/medicina/convulsoes/</guid>
 		<description>&lt;h2 id=&#34;lactente-ou-neonato&#34;&gt;Lactente ou neonato&lt;/h2&gt;
 &lt;h3 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
@@ -1058,10 +1096,10 @@ E -- Persistência --&gt;Z
 	
 	<item>
 		<title>Dor Toracica</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/dor-toracica/</link>
+		<link>http://mmori.com/medicina/dor-toracica/</link>
 		<pubDate>Sat, 18 Nov 2023 13:00:42 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/dor-toracica/</guid>
+		<guid>http://mmori.com/medicina/dor-toracica/</guid>
 		<description>&lt;h2 id=&#34;a-conduta-emergencial-da-dor-torácica&#34;&gt;A conduta emergencial da dor torácica&lt;/h2&gt;
 &lt;p&gt;A lógica é de eliminar, uma-a-uma, as causas mais graves com possibilidade de morte.&lt;/p&gt;
 &lt;h3 id=&#34;abcde&#34;&gt;ABCDE&lt;/h3&gt;
@@ -1096,10 +1134,10 @@ angio primaria&lt;/p&gt;
 	
 	<item>
 		<title>Parada Cardiorespiratoria</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/parada-cardiorespiratoria/</link>
+		<link>http://mmori.com/medicina/parada-cardiorespiratoria/</link>
 		<pubDate>Sat, 18 Nov 2023 12:21:22 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/parada-cardiorespiratoria/</guid>
+		<guid>http://mmori.com/medicina/parada-cardiorespiratoria/</guid>
 		<description>&lt;p&gt;Este tema é tradicionalmente dividido entre as condutas de:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Socorrista leigo;&lt;/li&gt;
@@ -1138,23 +1176,24 @@ angio primaria&lt;/p&gt;
 	
 	<item>
 		<title>Massagem Carotídea</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/massagem-carotidea/</link>
+		<link>http://mmori.com/medicina/massagem-carotidea/</link>
 		<pubDate>Wed, 15 Nov 2023 22:42:02 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/massagem-carotidea/</guid>
+		<guid>http://mmori.com/medicina/massagem-carotidea/</guid>
 		<description>&lt;h2 id=&#34;o-que-é&#34;&gt;O que é&lt;/h2&gt;
-&lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via sensores pressóricos que provocam estimulação parassimpática vagal.&lt;/p&gt;
+&lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via barorreceptores que provocam estimulação parassimpática vagal.&lt;/p&gt;
 &lt;p&gt;Seu emprego também é terapêutico nos casos de taquiarritmias supraventriculares.&lt;/p&gt;
-&lt;p&gt;Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por profissionais menos treinados. Seu baixo custo e independência de preparo a tornam uma das mais mágicas atitudes médicas a beira-leito.&lt;/p&gt;
+&lt;p&gt;Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por profissionais menos treinados. Seu baixo custo e independência de preparo a tornam uma das mais famosas &lt;strong&gt;mágicas atitudes médicas a beira-leito&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;o-mito-da-tromboembolia-cerebral-como-complicação&#34;&gt;O mito da tromboembolia cerebral como complicação&lt;/h2&gt;
-&lt;p&gt;É comum que em instruções sobre massagem carotídea, os instrutores ou professores contraindiquem o procedimento em idosos e por mais de 10s, sob a argumentação de que uma complicação possível é o despreendimento de placa carotídea com consequente efeito embólico nos finos vasos cerebrais.&lt;/p&gt;
-&lt;p&gt;Isto não procede &lt;em&gt;estatisticamente&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Em um estudo transversal, Lacerda &lt;em&gt;et al&lt;/em&gt; demonstraram que apenas 0.4% de um grupo de 502 pacientes &lt;strong&gt;de risco&lt;/strong&gt; apresentaram complicações do tipo déficit neurológico agudo após serem submetidos a massagem carotídea¹.&lt;/p&gt;
+&lt;p&gt;É comum que em cursos de emergência, os instrutores ou professores contraindiquem o procedimento em idosos e/ou por mais de 10s, sob a argumentação de que uma complicação possível é o despreendimento de placa carotídea com consequente efeito embólico nos finos vasos cerebrais.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Isto não procede &lt;em&gt;estatisticamente&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Em um estudo transversal, Lacerda &lt;em&gt;et al&lt;/em&gt; demonstraram que apenas 0.4% de um grupo de 502 pacientes &lt;strong&gt;de alto risco&lt;/strong&gt; apresentaram complicações do tipo déficit neurológico agudo após serem submetidos a massagem carotídea¹.&lt;/p&gt;
 &lt;p&gt;Tal constatação joga por terra a teoria do fácil deslocamento de placas carotídeas, tendo em vista que foram selecionados pacientes de alta prevalência de doença aterosclerótica e de cardiopatia, já em acompanhamento ambulatorial. Por extrapolação estatística (neste caso mais que autorizada), podemos inferir que a incidência é ainda menor na população em geral, provavelmente zero.&lt;/p&gt;
-&lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura ateromatosa, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos o tromboembolismo, pelo menos de pequenos vasos, ocorrerem de forma abundante.&lt;/p&gt;
+&lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura ateromatosa, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Non sequitur&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após apresentar carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
-&lt;p&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina. Um fenômeno largamente documentado pela medicina baseada em evidência. Nossos viéses são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após longo período de carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../pix/codex-vieses.jpg&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A culpa de tais artigos atingirem o grande público recai sobre as bancas avaliadoras e a nossa fantástica fábrica de publicações. Assuma, você só escreveu aquele artigo na faculdade pra somar pontos na residência, né? 🤣&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Quod erat demonstrandum&lt;/em&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
@@ -1168,10 +1207,10 @@ angio primaria&lt;/p&gt;
 	
 	<item>
 		<title>Taxa de filtração glomerular - Cockcroft Gault</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/cockcroft-gault/</link>
+		<link>http://mmori.com/medicina/cockcroft-gault/</link>
 		<pubDate>Wed, 15 Nov 2023 18:42:29 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/cockcroft-gault/</guid>
+		<guid>http://mmori.com/medicina/cockcroft-gault/</guid>
 		<description>
 
 &lt;!DOCTYPE html&gt;
@@ -1189,13 +1228,11 @@ angio primaria&lt;/p&gt;
 &lt;/script&gt;
     
     &lt;h2&gt;Estime a TFG via Cockcroft-Gault:&lt;/h2&gt;
-&lt;br&gt;
 &lt;div class=&#34;sticker&#34;&gt;
 $$
 TFG = \frac{(140 - idade_{anos}) * PesoSeco_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
 $$
 &lt;/div&gt;
-
 
 &lt;div class=&#34;center&#34;&gt;
     &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
@@ -1218,10 +1255,10 @@ $$
 	
 	<item>
 		<title>Considerações filosóficas sobre a reprodução humana</title>
-		<link>https://estalinecccp.github.io/JeffSite/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
+		<link>http://mmori.com/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
 		<pubDate>Tue, 14 Nov 2023 00:28:26 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/filosofia/reproducao-humana-consideracoes-filosoficas/</guid>
+		<guid>http://mmori.com/filosofia/reproducao-humana-consideracoes-filosoficas/</guid>
 		<description>&lt;h2 id=&#34;a-longa-gestação-humana-e-seu-concepto-incapaz&#34;&gt;A longa gestação humana e seu concepto incapaz&lt;/h2&gt;
 &lt;p&gt;A tempo de reprodução humana é característicamente longo e, ao seu término, o concepto assume uma posição central e frágil na família¹.&lt;/p&gt;
 &lt;p&gt;Esta consideração, &lt;em&gt;per si&lt;/em&gt;, significa que a reprodução humana é peculiar e pouco eficiente. De fato, se comparado a muitos outros mamíferos, os primatas tem uma das reproduções mais limitadas.&lt;/p&gt;
@@ -1237,10 +1274,10 @@ $$
 	
 	<item>
 		<title>Banco de questões</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/banco-de-questoes/</link>
+		<link>http://mmori.com/medicina/banco-de-questoes/</link>
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/banco-de-questoes/</guid>
+		<guid>http://mmori.com/medicina/banco-de-questoes/</guid>
 		<description>&lt;!-- &lt;p style=&#34;color:black; background: red; font-weight: bold&#34; class=&#34;center&#34;&gt;&lt;big&gt; Em construção&lt;/p&gt; --&gt;
 
 
@@ -1252,7 +1289,7 @@ $$
   &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;div class=&#34;counter&#34;&gt;
+  &lt;div class=&#34;sticker&#34;&gt;
     &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div style=&#34;padding-left: 5%&#34; id=&#34;question-container&#34;&gt;&lt;/div&gt;
@@ -1433,10 +1470,10 @@ generateRandomQuestion();
 	
 	<item>
 		<title>Bahia - Itacaré</title>
-		<link>https://estalinecccp.github.io/JeffSite/viagem/bahia-itacare/</link>
+		<link>http://mmori.com/viagem/bahia-itacare/</link>
 		<pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/viagem/bahia-itacare/</guid>
+		<guid>http://mmori.com/viagem/bahia-itacare/</guid>
 		<description>
  
 &lt;div class=&#34;carousel&#34;&gt;
@@ -1516,10 +1553,10 @@ generateRandomQuestion();
 	
 	<item>
 		<title>Colecistite aguda - Tokyo Guideline</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/tokyo-guideline/</link>
+		<link>http://mmori.com/medicina/tokyo-guideline/</link>
 		<pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/tokyo-guideline/</guid>
+		<guid>http://mmori.com/medicina/tokyo-guideline/</guid>
 		<description>
 
 &lt;!DOCTYPE html&gt;
@@ -1682,10 +1719,10 @@ function updateResult() {
 	
 	<item>
 		<title>Gasometria Arterial</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/gasometria-arterial/</link>
+		<link>http://mmori.com/medicina/gasometria-arterial/</link>
 		<pubDate>Tue, 07 Nov 2023 20:55:26 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/gasometria-arterial/</guid>
+		<guid>http://mmori.com/medicina/gasometria-arterial/</guid>
 		<description>&lt;h2 id=&#34;acidez-e-basicidade-sérica&#34;&gt;Acidez e basicidade sérica&lt;/h2&gt;
 &lt;p&gt;O pH sanguíneo deve sempre estar entre 7.35 e 7.45.&lt;/p&gt;
 &lt;p&gt;Valores abaixo deste intervalo são chamados de acidemia. Acima, alcalemia.&lt;/p&gt;
@@ -1746,10 +1783,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Como sincronizar iPhone e Linux</title>
-		<link>https://estalinecccp.github.io/JeffSite/tecnologia/iphone-e-linux/</link>
+		<link>http://mmori.com/tecnologia/iphone-e-linux/</link>
 		<pubDate>Mon, 06 Nov 2023 18:19:06 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/tecnologia/iphone-e-linux/</guid>
+		<guid>http://mmori.com/tecnologia/iphone-e-linux/</guid>
 		<description>&lt;h2 id=&#34;como-transferir-arquivos-linux-para-iphone-e-vice-versa&#34;&gt;Como transferir arquivos Linux para iPhone e vice versa&lt;/h2&gt;
 &lt;p&gt;Instale os pacotes &lt;em&gt;fuse&lt;/em&gt; e &lt;em&gt;ifuse&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://archlinux.org/packages/extra/x86_64/ifuse/&#34;&gt;iFuse&lt;/a&gt;&lt;/p&gt;
@@ -1772,10 +1809,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Stultus Visio</title>
-		<link>https://estalinecccp.github.io/JeffSite/tecnologia/stultus-visio/</link>
+		<link>http://mmori.com/tecnologia/stultus-visio/</link>
 		<pubDate>Mon, 06 Nov 2023 10:31:17 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/tecnologia/stultus-visio/</guid>
+		<guid>http://mmori.com/tecnologia/stultus-visio/</guid>
 		<description>&lt;h1 id=&#34;stultusvisio-031&#34;&gt;StultusVisio 0.3.1&lt;/h1&gt;
 &lt;p&gt;Slides estúpidos e fáceis, apresentáveis em qualquer &lt;em&gt;browser&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
@@ -1884,10 +1921,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Injuria Renal Aguda</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/injuria-renal-aguda/</link>
+		<link>http://mmori.com/medicina/injuria-renal-aguda/</link>
 		<pubDate>Mon, 06 Nov 2023 07:52:13 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/injuria-renal-aguda/</guid>
+		<guid>http://mmori.com/medicina/injuria-renal-aguda/</guid>
 		<description>&lt;h2 id=&#34;etiologias&#34;&gt;Etiologias&lt;/h2&gt;
 &lt;h3 id=&#34;pré-renais&#34;&gt;Pré-renais&lt;/h3&gt;
 &lt;p&gt;Quaisquer situações de hipofluxo e ativação do sistema renina-angiotensina-aldosterona e constricção da artéria aferente.&lt;/p&gt;
@@ -1972,10 +2009,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Palenque - México</title>
-		<link>https://estalinecccp.github.io/JeffSite/viagem/mexico/palenque-mexico/</link>
+		<link>http://mmori.com/viagem/mexico/palenque-mexico/</link>
 		<pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/viagem/mexico/palenque-mexico/</guid>
+		<guid>http://mmori.com/viagem/mexico/palenque-mexico/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/palenque.webp&#34; alt=&#34;Palenque&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Cidade de Chiapas referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
 &lt;p&gt;Conhecida por seu estado de preservação, a atração principal da cidade é o parque arqueológico principal.&lt;/p&gt;
@@ -1996,10 +2033,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Sobre</title>
-		<link>https://estalinecccp.github.io/JeffSite/sobre/</link>
+		<link>http://mmori.com/sobre/</link>
 		<pubDate>Sun, 05 Nov 2023 18:30:21 -0300</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/sobre/</guid>
+		<guid>http://mmori.com/sobre/</guid>
 		<description>
 
 &lt;br&gt;
@@ -2028,11 +2065,11 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 &lt;li&gt;Acumular ferramentas;&lt;/li&gt;
 &lt;li&gt;Programar.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo, raramente perco um interesse. Vamos ver onde vai parar 😂.&lt;/p&gt;
+&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo raramente perco um interesse. Vamos ver onde vai parar 😂.&lt;/p&gt;
 &lt;p&gt;Entre os diversos hobbies, programar foi escolhido como passa-tempo. Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff. Nesta ordem.&lt;/p&gt;
 &lt;h2 id=&#34;nas-redes&#34;&gt;Nas redes&lt;/h2&gt;
 &lt;p&gt;Se tem sugestão assunto para o site, me contacte pelo &lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Às vezes filmo coisas interessante e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Às vezes filmo bobagens e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Meus projetos estão no &lt;a href=&#34;https://github.com/EstalineCCCP&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
 
@@ -2126,10 +2163,10 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 	
 	<item>
 		<title>Escore de Wells</title>
-		<link>https://estalinecccp.github.io/JeffSite/medicina/wells-tep/</link>
+		<link>http://mmori.com/medicina/wells-tep/</link>
 		<pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/medicina/wells-tep/</guid>
+		<guid>http://mmori.com/medicina/wells-tep/</guid>
 		<description>
 
 &lt;!DOCTYPE html&gt;
@@ -2190,10 +2227,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espírito Santo - Domingos Martins</title>
-		<link>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-domingos-martins/</link>
+		<link>http://mmori.com/viagem/espirito-santo-domingos-martins/</link>
 		<pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-domingos-martins/</guid>
+		<guid>http://mmori.com/viagem/espirito-santo-domingos-martins/</guid>
 		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;Cidade a 50km de Vitória de cultura alemã.&lt;/p&gt;
 &lt;p&gt;A praça principal Arthur Gerhardt já é uma atração.&lt;/p&gt;
@@ -2297,10 +2334,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espiríto Santo - Praia de Iriri</title>
-		<link>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-iriri/</link>
+		<link>http://mmori.com/viagem/espirito-santo-iriri/</link>
 		<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-iriri/</guid>
+		<guid>http://mmori.com/viagem/espirito-santo-iriri/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/iriri.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;É longe de vitória, 2h de carro.&lt;/p&gt;
@@ -2316,10 +2353,10 @@ function updateResult() {
 	
 	<item>
 		<title>Bahia - Piatã, Salvador</title>
-		<link>https://estalinecccp.github.io/JeffSite/viagem/bahia-piata-salvador/</link>
+		<link>http://mmori.com/viagem/bahia-piata-salvador/</link>
 		<pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://estalinecccp.github.io/JeffSite/viagem/bahia-piata-salvador/</guid>
+		<guid>http://mmori.com/viagem/bahia-piata-salvador/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/piata.png&#34; alt=&#34;Praia em Piatã&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;geral&#34;&gt;Geral&lt;/h1&gt;
 &lt;p&gt;Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.&lt;/p&gt;

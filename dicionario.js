@@ -40,10 +40,12 @@ search.addEventListener("input", () => {
     let isMatch = searchTerms.every(
       term => searchString.includes(term)
     );
-    if (isMatch && hasFilter){
-      out.classList.add('show')
+    if (!isMatch && hasFilter){
+      out.style.display = 'none'
+      //out.classList.remove('show')
     }else{
-      out.classList.remove('show')
+      out.style.display = 'block'
+      //out.classList.add('show')
     }
   })
 })
@@ -55,4 +57,9 @@ document.getElementById("clear-search")
     document.querySelectorAll("#search-output li").forEach(out => {
       out.classList.remove("show");
     })
-})
+});
+
+function fechardialogo() {
+  let aviso = document.getElementById("aviso");
+  aviso.style.display = 'none'
+};

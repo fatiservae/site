@@ -2,53 +2,77 @@
 <html lang="en">
 <head>
 	<meta name="generator" content="Hugo 0.120.1">
-	<title>Jefferson T.</title>
-	<link rel="canonical" href="https://estalinecccp.github.io/JeffSite/">
-	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
-	<link rel='stylesheet' type='text/css' href='./style.css'>
-	<link rel="icon" href="./favicon.ico">
-	<meta name="description" content="memento mori 💀">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Jefferson T.</title>
+  <link rel="canonical" href="http://mmori.com/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
+  <link rel='stylesheet' type='text/css' href='./style.css'>
+  <link rel="icon" href="./favicon.ico">
+  <meta name="description" content="memento mori 💀">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
 </head>
 <body>
-<main>
-<header><h1 id="tag_">
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  
-  <circle cx="50" cy="50" r="40" fill="#adbac7" />
-  
-  <text x="50" y="60" font-family="Arial, sans-serif" font-size="40" fill="#21262d" text-anchor="middle">Jeff</text>
-</svg>
-</h1></header>
-<article>
-
   <div class="barra">
-    <a href="./index.html" alt="Início">🏠︎ Início</a>
-    <a href="./sobre/index.html" alt="Sobre">★ Sobre</a>
-    <a href="./dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
-    <a href="./medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
-    <a href="./tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
-    <a href="./tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
-    <a href="./tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
-    <a href="./tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
-    <a href="./tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="./index.html" alt="Início">📌 Início</a>
+    <a href="./sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="./tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="./dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="./medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="./tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="./tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="./tags/filosofia/index.html" alt="Filosofia">💭 Filosofia</a>
+    <a href="./tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="./tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
     <a href="./tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+    <a id="light-switch" href="#" onclick="alternarTema(); return false;"></a>
   </div>
-  <h1></h1>
-  
-  
-
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const item = document.querySelector('h1');
-      item.classList.add('show');
-    });
-  </script>
-  <!-- <h1 class="caveira">memento mori</h1> -->
 <script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
+
+<p><script>
 function randomIndex(valor) {
     return Math.floor(Math.random() * valor)
 }
@@ -84,109 +108,49 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 
 
-<!DOCTYPE html>
-<p>
 
-  <h1 style="color:#222222"></h1>
-  <div class="search js-only">
-    <input type="text" id="search" placeholder="busque aqui...">
-    <button id="clear-search">
-    <svg aria-hidden="true" height="30" viewBox="0 0 16 16" version="1.1" width="30" data-view-component="true" class="octicon octicon-search">
-    <path style="fill: #383f48;" d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
-</svg>
-    </button>
-  </div>
-  
-  <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    for (e of document.getElementsByClassName("js-only")) {
-      e.classList.remove("js-only");
-    }
-  
-    const posts = document.querySelectorAll("#artlist li");
-    const search = document.getElementById("search");
-  //  const oldheading = document.getElementById("newest-recipes");
-    const clearSearch = document.getElementById("clear-search");
-    const artlist = document.getElementById("artlist");
-  
-    search.addEventListener("input", () => {
-      // grab search input value
-      const searchText = search.value.toLowerCase().trim().normalize('NFD').replace(/\p{Diacritic}/gu, "");
-      const searchTerms = searchText.split(" ");
-      const hasFilter = searchText.length > 0;
-  
-      artlist.classList.toggle("list-searched", hasFilter);
-      //oldheading.classList.toggle("hidden", hasFilter);
-  
-      // for each recipe hide all but matched
-      posts.forEach(post => {
-        const searchString = `${post.textContent} ${post.dataset.tags}`.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, "");
-        const isMatch = searchTerms.every(term => searchString.includes(term));
-  
-        //if (isMatch){
-        //  recipe.style.display = 'block'
-        //}
-        //recipe.hidden = !isMatch;
-        post.show = isMatch;
-  
-        post.classList.toggle("matched-recipe", hasFilter && isMatch);
-      })
-    })
-  
-    clearSearch.addEventListener("click", () => {
-      search.value = "";
-      posts.forEach(post => {
-        post.hidden = false;
-        post.classList.remove("matched-recipe");
-      })
-  
-      artlist.classList.remove("list-searched");
-      //oldheading.classList.remove("hidden");
-    })
-  })
-  
-  document.addEventListener("DOMContentLoaded", function() {
-    const item = document.querySelector('h1');
-    item.classList.add('show');
-  });
-  </script>
+
+<!DOCTYPE html>
+  <input type="text" id="search" placeholder="procure aqui..."></input>
+  <script src="index.js"></script>
 
 <ul id=artlist>
-<li data-tags="" ><a href="https://estalinecccp.github.io/JeffSite/medicina/bulario/">Bulário</a></li>
-<li data-tags="[projetos medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/bancoquestoes-intro/">Introdução ao banco de questões</a></li>
-<li data-tags="[medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/afogamento/">Afogamento</a></li>
-<li data-tags="[filosofia]" ><a href="https://estalinecccp.github.io/JeffSite/filosofia/morte/">A aceitação da morte como modo de vida</a></li>
-<li data-tags="[medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/dmg/">Diabetes Mellitus Gestacional</a></li>
-<li data-tags="[medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/anatomia/">Anatomia</a></li>
-<li data-tags="" ><a href="https://estalinecccp.github.io/JeffSite/medicina/vacinas/">Vacinas</a></li>
-<li data-tags="[medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/eclampsia/">Eclâmpsia</a></li>
-<li data-tags="[medicina projetos ciência]" ><a href="https://estalinecccp.github.io/JeffSite/dicionario/">Meu dicionário instantâneo</a></li>
-<li data-tags="[medicina]" ><a href="https://estalinecccp.github.io/JeffSite/anestesia/">Anestesia</a></li>
-<li data-tags="[medicina filosofia]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/abaixo-a-medicina/">Abaixo a medicina!</a></li>
-<li data-tags="" ><a href="https://estalinecccp.github.io/JeffSite/medicina/pressao-arterial/">Pressao Arterial</a></li>
-<li data-tags="[medicina calculadoras]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/assistente-antibioticoterapia/">Assistente de antibioticoterapia</a></li>
-<li data-tags="[Calculadoras Medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/calculos-queimados/">Grandes queimados - Parkland</a></li>
-<li data-tags="[ciência]" ><a href="https://estalinecccp.github.io/JeffSite/ciencia/canais-yt/">Canais de ciências que recomendo</a></li>
-<li data-tags="[culinária receitas]" ><a href="https://estalinecccp.github.io/JeffSite/receitas/cervejas/">Cervejas</a></li>
-<li data-tags="[Medicina Guidelines]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/convulsoes/">Convulsões</a></li>
-<li data-tags="[guidelines medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/dor-toracica/">Dor Toracica</a></li>
-<li data-tags="[medicina guidelines]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/parada-cardiorespiratoria/">Parada Cardiorespiratoria</a></li>
-<li data-tags="[medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/massagem-carotidea/">Massagem Carotídea</a></li>
-<li data-tags="[calculadoras medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/cockcroft-gault/">Taxa de filtração glomerular - Cockcroft Gault</a></li>
-<li data-tags="[filosofia ciência]" ><a href="https://estalinecccp.github.io/JeffSite/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações filosóficas sobre a reprodução humana</a></li>
-<li data-tags="[projetos medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/banco-de-questoes/">Banco de questões</a></li>
-<li data-tags="[brasil viagem]" ><a href="https://estalinecccp.github.io/JeffSite/viagem/bahia-itacare/">Bahia - Itacaré</a></li>
-<li data-tags="[calculadoras medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/tokyo-guideline/">Colecistite aguda - Tokyo Guideline</a></li>
-<li data-tags="[medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/gasometria-arterial/">Gasometria Arterial</a></li>
-<li data-tags="[tecnologia programação]" ><a href="https://estalinecccp.github.io/JeffSite/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
-<li data-tags="[Programação Projetos]" ><a href="https://estalinecccp.github.io/JeffSite/tecnologia/stultus-visio/">Stultus Visio</a></li>
-<li data-tags="[calculadoras medicina guidelines]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/injuria-renal-aguda/">Injuria Renal Aguda</a></li>
-<li data-tags="[México Viagem]" ><a href="https://estalinecccp.github.io/JeffSite/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
-<li data-tags="" ><a href="https://estalinecccp.github.io/JeffSite/sobre/">Sobre</a></li>
-<li data-tags="[guidelines calculadoras medicina]" ><a href="https://estalinecccp.github.io/JeffSite/medicina/wells-tep/">Escore de Wells</a></li>
-<li data-tags="[viagem brasil]" ><a href="https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
-<li data-tags="[viagem brasil]" ><a href="https://estalinecccp.github.io/JeffSite/viagem/espirito-santo-iriri/">Espiríto Santo - Praia de Iriri</a></li>
-<li data-tags="[viagem brasil]" ><a href="https://estalinecccp.github.io/JeffSite/viagem/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
+<li data-tags="[ciência medicina filosofia]" ><a href="http://mmori.com/ciencia/vieses/">Viéses - o estado atual da ciência</a></li>
+<li data-tags="" ><a href="http://mmori.com/medicina/bulario/">Bulário</a></li>
+<li data-tags="[projetos medicina]" ><a href="http://mmori.com/medicina/bancoquestoes-intro/">Introdução ao banco de questões</a></li>
+<li data-tags="[medicina]" ><a href="http://mmori.com/medicina/afogamento/">Afogamento</a></li>
+<li data-tags="[filosofia]" ><a href="http://mmori.com/filosofia/morte/">A aceitação da morte como modo de vida</a></li>
+<li data-tags="[medicina]" ><a href="http://mmori.com/medicina/dmg/">Diabetes Mellitus Gestacional</a></li>
+<li data-tags="[medicina]" ><a href="http://mmori.com/medicina/anatomia/">Anatomia</a></li>
+<li data-tags="" ><a href="http://mmori.com/medicina/vacinas/">Vacinas</a></li>
+<li data-tags="[medicina]" ><a href="http://mmori.com/medicina/eclampsia/">Eclâmpsia</a></li>
+<li data-tags="[medicina projetos ciência]" ><a href="http://mmori.com/dicionario/">Meu dicionário instantâneo</a></li>
+<li data-tags="[medicina]" ><a href="http://mmori.com/anestesia/">Anestesia</a></li>
+<li data-tags="[medicina filosofia]" ><a href="http://mmori.com/medicina/abaixo-a-medicina/">Abaixo a medicina!</a></li>
+<li data-tags="" ><a href="http://mmori.com/medicina/pressao-arterial/">Pressao Arterial</a></li>
+<li data-tags="[medicina calculadoras]" ><a href="http://mmori.com/medicina/assistente-antibioticoterapia/">Assistente de antibioticoterapia</a></li>
+<li data-tags="[Calculadoras Medicina]" ><a href="http://mmori.com/medicina/calculos-queimados/">Grandes queimados - Parkland</a></li>
+<li data-tags="[ciência]" ><a href="http://mmori.com/ciencia/canais-yt/">Canais de ciências que recomendo</a></li>
+<li data-tags="[culinária receitas]" ><a href="http://mmori.com/receitas/cervejas/">Cervejas</a></li>
+<li data-tags="[Medicina Guidelines]" ><a href="http://mmori.com/medicina/convulsoes/">Convulsões</a></li>
+<li data-tags="[guidelines medicina]" ><a href="http://mmori.com/medicina/dor-toracica/">Dor Toracica</a></li>
+<li data-tags="[medicina guidelines]" ><a href="http://mmori.com/medicina/parada-cardiorespiratoria/">Parada Cardiorespiratoria</a></li>
+<li data-tags="[medicina filosofia ciência]" ><a href="http://mmori.com/medicina/massagem-carotidea/">Massagem Carotídea</a></li>
+<li data-tags="[calculadoras medicina]" ><a href="http://mmori.com/medicina/cockcroft-gault/">Taxa de filtração glomerular - Cockcroft Gault</a></li>
+<li data-tags="[filosofia ciência]" ><a href="http://mmori.com/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações filosóficas sobre a reprodução humana</a></li>
+<li data-tags="[projetos medicina]" ><a href="http://mmori.com/medicina/banco-de-questoes/">Banco de questões</a></li>
+<li data-tags="[brasil viagem]" ><a href="http://mmori.com/viagem/bahia-itacare/">Bahia - Itacaré</a></li>
+<li data-tags="[calculadoras medicina]" ><a href="http://mmori.com/medicina/tokyo-guideline/">Colecistite aguda - Tokyo Guideline</a></li>
+<li data-tags="[medicina]" ><a href="http://mmori.com/medicina/gasometria-arterial/">Gasometria Arterial</a></li>
+<li data-tags="[tecnologia programação]" ><a href="http://mmori.com/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
+<li data-tags="[Programação Projetos]" ><a href="http://mmori.com/tecnologia/stultus-visio/">Stultus Visio</a></li>
+<li data-tags="[calculadoras medicina guidelines]" ><a href="http://mmori.com/medicina/injuria-renal-aguda/">Injuria Renal Aguda</a></li>
+<li data-tags="[México Viagem]" ><a href="http://mmori.com/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
+<li data-tags="" ><a href="http://mmori.com/sobre/">Sobre</a></li>
+<li data-tags="[guidelines calculadoras medicina]" ><a href="http://mmori.com/medicina/wells-tep/">Escore de Wells</a></li>
+<li data-tags="[viagem brasil]" ><a href="http://mmori.com/viagem/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
+<li data-tags="[viagem brasil]" ><a href="http://mmori.com/viagem/espirito-santo-iriri/">Espiríto Santo - Praia de Iriri</a></li>
+<li data-tags="[viagem brasil]" ><a href="http://mmori.com/viagem/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
 </ul>
 </p>
 <hr>
@@ -200,29 +164,12 @@ document.addEventListener("DOMContentLoaded", function() {
   <p class="center" style="text-indent: 0"><em>Eu.</em></p>
 
 
-  
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    });
-</script>
-
-
-  
 
 
 
-</article>
-</main>
 
 <footer>
-  <a href="https://estalinecccp.github.io/JeffSite/">Início</a>
+  <a href="http://mmori.com/">📌 Início</a>
 </footer>
 
 </body>

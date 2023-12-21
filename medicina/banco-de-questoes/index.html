@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Banco De Questões | Jefferson T.</title>
-	<link rel="canonical" href="https://estalinecccp.github.io/JeffSite/">
-	<link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
-	<link rel='stylesheet' type='text/css' href='../../style.css'>
-	<link rel="icon" href="../../favicon.ico">
-	<meta name="description" content=" &lt;!DOCTYPE html&gt; Gerar nova questão ">
-	<meta name="keywords" content="projetos, medicina">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Banco De Questões | Jefferson T.</title>
+  <link rel="canonical" href="http://mmori.com/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content=" &lt;!DOCTYPE html&gt; Gerar nova questão ">
+  <meta name="keywords" content="projetos, medicina">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
 </head>
 <body>
-<main>
-<header><h1 id="tag_Banco de questões">
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  
-  <circle cx="50" cy="50" r="40" fill="#adbac7" />
-  
-  <text x="50" y="60" font-family="Arial, sans-serif" font-size="40" fill="#21262d" text-anchor="middle">Jeff</text>
-</svg>
-</h1></header>
-<article>
-
   <div class="barra">
-    <a href="../../index.html" alt="Início">🏠︎ Início</a>
-    <a href="../../sobre/index.html" alt="Sobre">★ Sobre</a>
-    <a href="../../dicionario/index.html" alt="Dicionário">🕮  Dicionário</a>
-    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">✍ Banco de questões</a>
-    <a href="../../tags/ciência/index.html" alt="Ciência">☢ Ciência</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">⛱ Viagem</a>
-    <a href="../../tags/filosofia/index.html" alt="Filosofia">☯ Filosofia</a>
-    <a href="../../tags/culinária/index.html" alt="Culinária">🍽 Culinária</a>
-    <a href="../../tags/projetos/index.html" alt="Projetos">🛠 Projetos</a>
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">💭 Filosofia</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
     <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+    <a id="light-switch" href="#" onclick="alternarTema(); return false;"></a>
   </div>
-  <h1>Banco de questões</h1>
-  
-  
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
 
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const item = document.querySelector('h1');
-      item.classList.add('show');
-    });
-  </script>
-  <!-- <p style="color:black; background: red; font-weight: bold" class="center"><big> Em construção</p> -->
+<!-- <p style="color:black; background: red; font-weight: bold" class="center"><big> Em construção</p> -->
 
 
 <!DOCTYPE html>
@@ -58,7 +83,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <div class="counter">
+  <div class="sticker">
     <div id="counter"></div>
   </div>
   <div style="padding-left: 5%" id="question-container"></div>
@@ -235,31 +260,14 @@ generateRandomQuestion();
 </html>
 
 
-  
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "$", right: "$", display: false}
-            ]
-        });
-    });
-</script>
-
-
-  
 
 
 <br>
         <hr>
-        <div style="clear:both" class=taglist><a id="tag_projetos" href="https://estalinecccp.github.io/JeffSite/tags/projetos">Projetos</a> &middot; <a id="tag_medicina" href="https://estalinecccp.github.io/JeffSite/tags/medicina">Medicina</a></div>
-</article>
-</main>
+        <div style="clear:both" class=taglist><a id="tag_projetos" href="http://mmori.com/tags/projetos">Projetos</a> &middot; <a id="tag_medicina" href="http://mmori.com/tags/medicina">Medicina</a></div>
 
 <footer>
-  <a href="https://estalinecccp.github.io/JeffSite/">Início</a>
+  <a href="http://mmori.com/">📌 Início</a>
 </footer>
 
 </body>

@@ -1,24 +1,83 @@
-/*
- * background #21262d
- * green #347d39
-*/
-
-body {
-  background: #21262d;
-  color: #a0acb9;
-  max-width: 100vw;
-  margin: auto ;
-  margin-top: 0%;
-  scroll-behavior: smooth;
-  padding: 0 2% ;
-  margin-bottom: 0.5em;/* 500? eu heim... */
-  scrollbar-color: gray #151515;
-  font-family: "Open Sans", sans-serif;
-  font-weight: lighter;
-  font-size: 1.2em ;
+:root {
+/* Personalizadas */
+  --gradiente-dark: var(--light-grad, radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%)) ;
+  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, yellow 0, transparent 75%), radial-gradient(ellipse at 60% 0%, var(--verde-google) 0, transparent 75%)) ;
+  --branco-google: #f2f2f2 ;
+  --amarelo-google: #ffa700 ;
+  --azul-google: #0057e7 ;
+  --azul-escuro-google: #3f51b5 ;
+  --vermelho-google: #d62d20 ;
+  --verde-google: #008744 ;
+  --roxo-google: #673ab7 ;
+  --abobora-google: #f44336 ;
+  --white-solarized: #eee8d5 ;
+  --anil-aleatorio: #283784 ;
+  --bordas: #383f48 ;
+  --fundo: #22272e ;
+  --green: #347d39 ;
+  --blue: #539bf5 ;
+  --separador: #383f48 ;
+  --fonte: #a0acb9 ;
+  --sticker-fundo: var(--gradiente-dark) ;
+  --git-hub-dark-back: #22272e ;
+  --azul-vibrante: #01bfff ;
 }
 
-.importante{
+:root[data-tema="escuro"] {
+  /* Globais do tema escuro */
+  --bordas: #383f48 ;
+  --fundo: #22272e ;
+  --fundo-invertido: var(--white-solarized) ;
+  --fundo-input: #1c2128 ;
+  --green: #347d39 ;
+  --blue: #539bf5 ;
+  --separador: #383f48 ;
+  --fonte: #a0acb9 ;
+  --fonte-invertida: black;
+  --strong-color: white ;
+  --frase: white ;
+  --frase-show: gray ;
+  --frase-hover: white ;
+  --autor: #99a4b2 ;
+  --sticker-fundo: var(--gradiente-dark) ;
+  --links: var(--azul-vibrante) ;
+  --links-visitados: var(--blue) ;
+  --link-hover: white ;
+}
+:root[data-tema="claro"] {
+  --sticker-fundo: var(--gradiente-light) ;
+  --fundo: var(--white-solarized) ;
+  --fundo-invertido: var(--git-hub-dark-back) ;
+  --fundo-input: white;
+  --green: #347d39 ;
+  --blue: #539bf5 ;
+  --separador: var(--verde-google);
+  --fonte: black;
+  --fonte-invertida: var(--white-solarized);
+  --strong-color: black ;
+  --links: darkblue ;
+  --links-visitados: var(--azul-google) ;
+  --link-hover: black ;
+  --frase: var(--azul-google) ;
+  --frase-hover: var(--azul-google) ;
+  --frase-show: var(--verde-google) ;
+  --autor: black ;
+  --bordas: var(--amarelo-google) ;
+  --sticker-font: #282828 ;
+}
+
+body {
+  background: var(--fundo);
+  color: var(--fonte) ;
+  max-width: 100vw ;
+  scroll-behavior: smooth ;
+  scrollbar-color: gray #151515 ;
+  font-family: "Open Sans", sans-serif ;
+  font-weight: lighter ;
+  font-size: 1em ;
+}
+
+.importante {
   background-color: #983500;
   font-weight: normal;
   border-radius: 3px;
@@ -30,7 +89,7 @@ body {
   margin-left: 2em ;
   margin: auto;
   padding: 0.5em;
-  max-width: 88%;
+  max-width: 80%;
 }
 
 .center {
@@ -39,7 +98,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.left{
+.left {
   margin-left: 0px;
   align: left;
   text-align: left;
@@ -58,19 +117,17 @@ body {
 }
 
 .sticker {
-  border: 1px solid #383f48 ;
-  background: var(--light-grad-pink-blue, radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
+  border: 1px solid var(--bordas);
+  background: var(--sticker-fundo);
   margin-left: 1em ;
-  /*background-color: #090909; */
   border-radius: 5px;
   text-align: start;
   font-weight: bold ;
   padding: 0.5em;
   margin: auto;
-  max-width: 88%;
+  max-width: 80%;
   overflow: hidden; 
-  color: navajowhite; 
-  /*border-left: 1px solid tomato ;*/
+  color: var(--sticker-font); 
 }
 
 /*.sticker:hover {
@@ -126,50 +183,30 @@ a {
 }
 
 a[href]:visited{
-  color: #539bf5;
+  color: var(--links-visitados) ;
 }
 a[href] {
-  color: lightskyblue;
+  color: var(--links) ;
 }
 a[href]:visited:hover, a[href]:hover{
-  color: cyan;
+  color: var(--links-hover) ;
 }
+
+/* PARAGRAFOS HEADING H1 H2 H3 */
 h1, h2, h3 {
+  text-indent: 0% ;
   font-weight: bold ;
   text-align: center;
-  color: #737f8c ;
+  color: var(--blue);
 }
 h1 {
-  margin-bottom: 0%;
-  margin-top: 1px;
-  font-weight: bold;
-  /*border-style: solid ;
-  transition: color 5s ease-in-out, text-shadow 6s ease-in-out, font-size 4s ease-out;
-  text-shadow: 1px 1px 4px gold;
-  color: #21262d;*/
-  border-width: 0px 0px 2px 0px ;
-  text-align: center;
   font-size: 2em;
 }
-/*h1.show {
-  text-shadow: 1px 1px 1px black;
-}*/
+
+/* DIVISOR SEPARADOR HR */
 hr {
-  color: #383f48 ;
+  color: var(--separador);
 }
-
-h2, h3 {
-  color: #539bf5 ;
-  border-bottom: 1px solid #383f48 ;
-  font-weight: bold;
-}
-
-h2 {
-}
-
-h3 {
-}
-
 footer {
   text-align: center ;
   padding: 1em ;
@@ -189,7 +226,7 @@ pre{
 }
 
 strong {
-  color: white;
+  color: var(--strong-color) ;
 }
 
 .taglist {
@@ -208,8 +245,8 @@ display: inline ;
 }*/
 
 article {
+  background-color: #21262d ;
   padding: 2%;
-  background: var(--light-grad-pink-blue, radial-gradient(ellipse at 40% 0%, #21262d 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
   border: 1px solid #383f48 ; 
   border-radius: 8px ;
 }
@@ -226,72 +263,34 @@ article {
 }
 
 #search-output li {
-  display: none;
+  display: block;
 }
 #artlist {
+  columns: 2 !important;
   /*font-size: clamp(10px, 25%, 1em);*/
-  font-size: 0.7em;
 }
 
 a .matched-recipe{
   font-size: 0.5em;
 }
 
-#artlist li {
-  display: none ;
-  padding: .25em ;
-}
-
-/*
-@media (min-width: 55em) {
-  #artlist { column-count: 2 ;}
-}
-
-@media (min-width: 100em) {
-  #artlist { column-count: 3 ;}
-}
-*/
-
-input#search {
-  border: 1px solid #383f48 ; 
-  background-color: #21262d;
-  color: #aab7c4;
+#search {
+  margin-left: auto ;
+  margin-right: auto ;
+  display: block ;
+  border: 1px solid var(--bordas) ; 
+  background: var(--fundo-input) ;
+  color: #aab7c4 ;
   text-indent: 2%;
   padding-bottom: 0.2rem ;
-  padding-left: auto ;
-  padding-right: auto ;
   border-radius: 7px;
-  width: 90%;
-  height: 3em;
+  font-size: 90%;
+  width: 40%;
+  height: 2em ;
 }
 input#search::placeholder {
-  text-align: center
+  text-align: center;
 }
-
-.search {
-  max-width: 80%;
-  position: relative;
-  margin: auto ;
-  display: flex;
-}
-
-button#clear-search {
-  font-weight: bold;
-  all: unset;
-  position: absolute;
-  right: 4px;
-  top: 2px;
-  bottom: 2px;
-  /*height: 2em;
-  width: 2em;*/
-  color: springgreen;
-  cursor: pointer;
-  transition: color 580ms ease-in-out;
-}
-button#clear-search:hover {
-  color: red;
-}
-
 .matched-recipe {
   font-size: 1.5em;
   display: list-item !important ;
@@ -442,11 +441,11 @@ button#clear-search:hover {
 .js-only { display: none ; }
 
 table tr:nth-child(even) {
-  background-color: none;
+  background-color: #212222; 
 }
 
 table tr:nth-child(odd) {
-  background-color: #212222; 
+  background-color: none;
 }
 table {
   margin: auto;
@@ -459,54 +458,38 @@ th {
   background-color: #212222;
 }
 th, td {
-  border: 1px solid salmon ;
+  border: 1px solid var(--blue);
   padding: 10px ;
   text-align: left ;
 }
 
-/*ordered lists
- * DEPRECADO
- * Usar lista ordenada normal em .md produz formatação condicional do .ol li::before
- * Usar <ol class="num_list"> produz <ol> normal. 
-*/
+/* UL OL LI UNORDERED LISTS */
+ul{
+  list-style-type: none ;
+  margin-left: auto ;
+  margin-right: auto ;
+  max-width: 80% ;
+}
 ol {
-  list-style: none; 
-  color: silver;
-  counter-reset: item; 
+  list-style-type: none ;
   background-color: #21262d;
   border-radius: 5px;
-  border-left: 1px solid tomato;
+  border-left: 1px solid var(--blue);
   text-align: justify;
-  margin-left: 1em ;
-  padding: 0.5em;
-  margin: auto;
-  max-width: 88%;
+  max-width: 80%;
 }
-ol li::before {
-  counter-increment: item; 
-  content: counter(item); 
-  color: tomato; 
-  margin-right: 0.5em; 
+li:hover {
+  background-size: cover;
+  background: var(--fundo-input) ;
+  border-radius: 4px ;
+  list-style-type: "| ";
 }
-
-/*.num_list {
-  counter-reset: 0; 
-  list-style-type: decimal;
-  margin-left: 1em;
-  max-width: 70% ;
-  color: tomato ;
-}
-.num_list li::before {
-  content: none;
-}*/
-
-ul{
-  max-width: 70% ;
-  padding-left: 15%;
+li:before{
+  font-weight: bold ;
+  color: var(--fundo-input) ;
 }
 #autor{
-  color: #99a4b2; 
- /* font-weight: bold ; */
+  color: var(--autor) ; 
   padding-left: 20%;
 }
 #autor, #frase{
@@ -514,28 +497,25 @@ ul{
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center ;
 }
 .frase{
   transition: color 3s ease-in-out, font-size 3s ease-in-out;
   align: center ;
   text-align: center ;
-  /*max-width: 70% ;*/
   font-style: italic; 
   font-size: 1.5em;
-  color: white; 
+  color: var(--frase); 
   padding-left: auto;
   padding-right: auto;
-  /*background-color: #21262d; */
-  /*padding: 5px 5px 5px 5px ;*/
   border-radius: 5px ;
-  /*border: 1px solid tomato ;*/
 }
 .frase.show {
-  color: gray; 
+  color: var(--frase-show); 
   font-size: 1em; 
 }
 .frase:hover {
-  color: #316dca; 
+  color: var(--frase-hover); 
 }
 
 .caveira {
@@ -592,10 +572,11 @@ button:active {
 }*/
 
 p {
-  padding-left: 3%;
-  padding-right: 3%;
+  margin-left: auto;
+  margin-right: auto;
   text-indent: 3%;
-  text-align: start;
+  text-align: justify;
+  max-width: 80%;
 }
 
 [class^="carousel"] {
@@ -648,36 +629,6 @@ button[id^="proximo"], button[id^="anterior"]{
   font-weight: bold;
 }
 
-aside {
-  float: right;
-  width: 30%;
-  margin-left: 20px;
-}
-
-aside ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-aside li {
-  margin-bottom: 5px;
-}
-
-nav {
-  align: left;
-  text-align: left;
-}
-nav ul, 
-nav ol{
-  padding: 0%;
-  padding-left: 10%;
-  color: orange;
-  margin: 0;
-  text-align: left;
-}
-nav li::marker {
-  font-size: 1.5em;
-}
 /* Limpar campos de input
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -694,7 +645,7 @@ input {
 }
 
 hr {
-  max-width: 30%;
+  max-width: 25%;
   margin-top: 10%;
   margin-bottom: 5%;
 }
@@ -730,31 +681,24 @@ nav#TableOfContents li:first-child::before {
 nav#TableOfContents li:last-child::before {
   content: "└";
 }
-ul#search-output {
-  counter-reset: item; /* Inicializa o contador 'item' */
-  content: counter(item); /* Mostra o valor inicial do contador */
-}
-ul#search-output li.show span::before{
-  color: white;
-  margin-right: 0.5em;
-  counter-increment: item; 
-  content: counter(item) "."; 
-}
 
+/* MENU BARRA FLUTUANTE */
 .barra {
   background: var(--light-grad-pink-blue, radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
-  border: 1px solid #383f48 ; 
+  border: 1px solid var(--separador) ; 
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
-  padding-top: 0.5em;
+  margin-top: 0.5em;
   padding-bottom: 0.5em;
-  max-width: 99%;
+  padding-top: 0.5em;
+  max-width: 80%;
   align: center ;
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-align: center;
   border-radius: 7px ;
   background-size: cover;
+  font-weight: bold ;
 }
 .barra a{
   padding-left: 0.5em ; 
@@ -764,7 +708,6 @@ ul#search-output li.show span::before{
   border: 1px solid none;
   border-radius: 7px;
 }
-
 .barra a[href]:visited, .barra a[href] {
   color: #539bf5;
 }
@@ -772,7 +715,6 @@ ul#search-output li.show span::before{
 .barra a[href]:hover{
   color: white;
 }
-
 .barra a[href]:hover,
 .barra a[href]:active {
   background-size: cover;
@@ -782,7 +724,7 @@ ul#search-output li.show span::before{
 
 div#counter {
   text-align: center;
-  max-width: 77%;
+  max-width: 80%;
   margin: auto;
 }
 .counter{
@@ -796,7 +738,7 @@ div#counter {
   color: #adbac7 ; 
   font-weight: bold ;
   border: 1px solid #383f48 ; 
-  max-width: 77%;
+  max-width: 80%;
 }
 
 /* SMARTPHONE CELULAR DEVICES */
@@ -823,6 +765,15 @@ div#counter {
     max-width: 95% !important;
   }
 }
+/*
+@media (min-width: 55em) {
+  #artlist { column-count: 2 ;}
+}
+
+@media (min-width: 100em) {
+  #artlist { column-count: 3 ;}
+}
+*/
 
 /* IMPRESSAO IMPRESSORA PRINT */
 @media print {
