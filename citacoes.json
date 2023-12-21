@@ -1,39 +1,41 @@
-[ {
-    "autor": "Tao Te Ching 道德經",
-    "citacoes":[
-      "Uma viagem de mil léguas começa por um passo.",
-      "無為 - wúwéi.",
-      "Na busca do conhecimento, todos os dias algo é adquirido. Na busca do Tao, todos os dias algo é deixado para trás. E cada vez menos é feito até se atingir a perfeita não ação.",
-      "Quando nada é feito, nada fica por fazer. Domina-se o mundo deixando as coisas seguirem o seu curso."
-    ]
-  },
-  { 
-    "autor": "Viktor Emil Frankl",
-    "citacoes": [
-	"Entre o estímulo e a reação há um espaço."
-    ]
-  },
+[ 
+	{
+		"autor": "Tao Te Ching 道德經",
+		"citacoes":[
+		"Uma viagem de mil léguas começa por um passo.",
+		"無為 - wúwéi.",
+		"Na busca do conhecimento, todos os dias algo é adquirido. Na busca do Tao, todos os dias algo é deixado para trás. E cada vez menos é feito até se atingir a perfeita não ação.",
+		"Quando nada é feito, nada fica por fazer. Domina-se o mundo deixando as coisas seguirem o seu curso."
+		]
+	},
+	{ 
+		"autor": "Viktor Emil Frankl",
+		"citacoes": [
+		"Entre o estímulo e a reação há um espaço."
+		]
+	},
 
 	{
-		"autor": "",
+		"autor": "Nomen nescio",
 		"citacoes": [
-			"Happines is reality minus expectation.",
-			"Don't get stoped by analysis paralisys.",
-			"Lembre-se do último sentimento bom.",
-			"Hipocrisia é alegar todo sucesso ao individual e as falhas à coletividade.",
-      "Primum non nocere."
+		"Happines is reality minus expectation.",
+		"Don't get stoped by analysis paralisys.",
+		"Lembre-se do último sentimento bom.",
+		"Hipocrisia é alegar todo sucesso ao individual e as falhas à coletividade.",
+		"Primum non nocere."
 		]
 	},
 	{
 		"autor": "William Shakespeare",
 		"citacoes": [
-      "A coward dies a thousand times before his death, but the valiant taste of death but once."
-    ]
+		"A coward dies a thousand times before his death, but the valiant taste of death but once."
+		]
 	},
 	{
 		"autor": "Julius Caesar",
 		"citacoes": [
-      "It seems to me most strange that men should fear, seeing that death, a necessary end, will come when it will come."]
+		"It seems to me most strange that men should fear, seeing that death, a necessary end, will come when it will come."
+		]
 	},
 	{
 		"autor": "Epictetus",

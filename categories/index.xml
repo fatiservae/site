@@ -147,20 +147,13 @@ search.addEventListener(&#34;input&#34;, () =&gt; {
 		<description>&lt;p&gt;
 
 &lt;style&gt;
-.sticker{
-  max-width: 50%;
-}
-em{
-  color: gray;
-}
-p.sticker{
-  text-indent: 0%;
-  text-align: center;
+.sticker {
+ text-align: center;
 }
 .videoc{
  display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+ justify-content: center; /* Centraliza horizontalmente */
+ align-items: center; /* Centraliza verticalmente */
 }
 .videoc iframe{
 }
@@ -518,33 +511,6 @@ Boa busca!
 &lt;li&gt;Alzahrani N. The effect of hospitalization on patients&amp;rsquo; emotional and psychological well-being among adult patients: An integrative review. Appl Nurs Res. 2021 Oct;61:151488. doi: 10.1016/j.apnr.2021.151488. Epub 2021 Aug 12. PMID: 34544571.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.msdmanuals.com/home/special-subjects/hospital-care/problems-due-to-hospitalization&#34;&gt;https://www.msdmanuals.com/home/special-subjects/hospital-care/problems-due-to-hospitalization&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Abaixo a medicina!</title>
-		<link>https://www.jeffersontorres.com.br/medicina/abaixo-a-medicina/</link>
-		<pubDate>Tue, 28 Nov 2023 10:56:57 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/abaixo-a-medicina/</guid>
-		<description>&lt;img src=&#34;../pix/doctor-plague.png&#34;&gt;
-&lt;p class=&#34;center&#34; style=&#34;max-width: 50%&#34;&gt;&lt;em&gt;Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color: black;background: red; border-radius: 2px;&#34;&gt;AVISO:&lt;/span&gt; Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.&lt;/p&gt;
-&lt;h2 id=&#34;classificações-médicas&#34;&gt;Classificações médicas&lt;/h2&gt;
-&lt;div class=&#34;sticker&#34;&gt;Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre dezesseis e catorze classificações por semestre.
-&lt;br&gt;
-&lt;em&gt;Autor desconhecido, c. 2020.&lt;/em&gt;
-&lt;/div&gt;
-&lt;p&gt;Contém ironia, óbvio. Porém, uma realidade oculta reside no coração de todo médico: &lt;strong&gt;a insana sede por classificações!&lt;/strong&gt; Em certos casos, beira o ridículo:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Os aneurismas de aorta, e.g., se classificam com relação ao seu diâmetro, do qual, 1mm de diferença significa a brusca mudança de conduta entre &amp;ldquo;tratamento conservador&amp;rdquo; e cirurgia radical. Ainda bem que se popularizou a cirurgia endovascular, porque há menos de duas décadas atrás tal procedimento consistia basicamente numa agressiva laparatomia.&lt;/li&gt;
-&lt;li&gt;A dor torácica pode ser tipicamente anginosa, dita quando suas características são clássicas de uma dor precordial. Porém, isso não é suficiente. Nas provas, ela se chama &amp;ldquo;Dor do tipo A&amp;rdquo;. Eu chamo este fetish de &lt;em&gt;tara taxônomica&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;O exame físico do baço espera, na normalidade, que ele não seja palpável. Caso seja, classifica-se o baço em três graus, a depender da altura da palpação. O mais lógico seria reportarmos a altura da palpação em si, não? Inclusive, o marco anatômico da tal classificação é a cicatriz umbilical, o que faz menos sentido ainda porque seria ainda mais óbvio registrarmos a que distância exata do marco está a palpação, para fins de acompanhamento. Vai entender.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;tara-taxonômica&#34;&gt;Tara taxonômica&lt;/h2&gt;
-&lt;p&gt;Para parecer inteligente em uma roda de conversa entre profissionais da saúde, experimente sempre questionar se as patologias são do tipo 1 ou 2. Mesmo inexistente a tal classificação, alguem se disporá a discuti-la, acredite.&lt;/p&gt;
-&lt;p&gt;Ainda mais: é possível que haja debate de validade e até de evidências sobre a mentira em curso 😂.&lt;/p&gt;
-&lt;p&gt;Este fenômeno tem a ver com a origem das maiorias das classificações médicas. Normalmente, tenta-se compartimentalizar os fenômenos, na tentativa de delinear alguma abordagem sistematizada para cada patologia. Porém, esse fundamento lógico das classificações médicas se perdeu com o tempo, o que há, atualmente, é uma insistência inocente em tal estratégia.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -2018,7 +1984,8 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 &lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;interesses&#34;&gt;Interesses&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Estudar física, matemática, química, psicologia, economia etc;&lt;/li&gt;
+&lt;li&gt;Física, matemática e química;&lt;/li&gt;
+&lt;li&gt;Psicologia;&lt;/li&gt;
 &lt;li&gt;Culinária;&lt;/li&gt;
 &lt;li&gt;Preparação automobilística;&lt;/li&gt;
 &lt;li&gt;Acumular ferramentas;&lt;/li&gt;

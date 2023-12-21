@@ -466,16 +466,18 @@ th, td {
 }
 
 /* UL OL LI UNORDERED LISTS */
-ul, ol {
+#artlist ul, 
+#artlist ol {
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80% ;
   columns: 2 ;
   gap: 0.5em ;
 }
-ul {
-}
-ol {
+ol, ul {
+  margin-left: auto ;
+  margin-right: auto ;
+  max-width: 80% ;
 }
 li:hover {
   background-size: cover;
@@ -486,9 +488,6 @@ li:hover {
 li:before{
   font-weight: bold ;
   color: var(--fundo-input) ;
-}
-li:nth-child(3n) {
-  display: none ;
 }
 
 #autor{
