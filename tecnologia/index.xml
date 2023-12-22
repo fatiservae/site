@@ -743,12 +743,20 @@ function calcular() {
 		
 		<guid>https://www.jeffersontorres.com.br/ciencia/canais-yt/</guid>
 		<description>&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
-&lt;h3 id=&#34;eugene-kuthoriansky&#34;&gt;Eugene Kuthoriansky&lt;/h3&gt;
+&lt;h3 id=&#34;eugene-kuthorianskyhttpswwwyoutubecomeugenekhutoryansky&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@EugeneKhutoryansky&#34;&gt;Eugene Kuthoriansky&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.&lt;/p&gt;
-&lt;h3 id=&#34;science-asylum&#34;&gt;Science Asylum&lt;/h3&gt;
+&lt;p&gt;A grande vantagem do Eugene é a abordagem de temas acadêmicos lado-a-lado de curiosidades e assuntos mais mundanos.&lt;/p&gt;
+&lt;h3 id=&#34;science-asylumhttpswwwyoutubecomscienceasylum&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@ScienceAsylum&#34;&gt;Science Asylum&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Canal do Nick Lucid, um professor de física casado com uma bióloga, com uma pegada mais adequada para vídeos rápidos e curiosos. Não recomendo como forma de esclarecer dúvidas muito aprofundadas, mas é ótimo como fonte de informação curiosa e acurada.&lt;/p&gt;
-&lt;p&gt;OBS: Não recomendo para verdadeira compreensão da &lt;a href=&#34;../teoria-relatividade/index.html&#34;&gt;teoria da relatividade&lt;/a&gt;.
-&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Não recomendo para verdadeira compreensão da &lt;a href=&#34;../teoria-relatividade/index.html&#34;&gt;teoria da relatividade&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;medlife-crisishttpswwwyoutubecomchannelucgrbre1dup2w7hth9j_l4oq&#34;&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCgRBRE1DUP2w7HTH9j_L4OQ&#34;&gt;Medlife Crisis&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Dr Rohin Francis é um cardiologista inglês que iniciou o canal como uma forma de &lt;em&gt;scape&lt;/em&gt;, como ele mesmo diz, da crise da vida médica. O humor vem sempre primeiro, seu estilo é único, critica severamente a comunidade médica, monetizou o canal mas de forma transparente direciona todo o dinheiro para a caridade.&lt;/p&gt;
+&lt;p&gt;É um raro caso de canal de um médico que preste. Praticamente todo o resto da internet em canais pessoais médicos são de &lt;em&gt;vlogs&lt;/em&gt; de baixa responsabilidade, focados em mostrar o dia-a-dia da pessoa e glamour da profissão. Não confunda, há vários outros canais no ramo da medicina muito bons, mas todos com essa pegada pessoal são ruins.&lt;/p&gt;
+&lt;h3 id=&#34;strong-medicinehttpswwwyoutubecomstrongmed&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@StrongMed&#34;&gt;Strong Medicine&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Dr. Eric Strong é um médico da universidade de Stanford e tem uma personalidade séria e fixada na abordagem acadêmica, separando claramente os vídeos opinativos dos demais, de uma maneira mais monótona mas &lt;strong&gt;ideal&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Para mim, é o melhor canal no YT da comunidade médica!&lt;/p&gt;
+&lt;p&gt;O foco é no ensino de habilidades e conhecimentos médicos e, mesmo quando opinativos, seus vídeos são no formato de apresentação oficial. Se você é estudante de medicina, indico muito.&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
 </description>
 	</item>
 	
@@ -1109,192 +1117,17 @@ $$
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
-		<description>&lt;!-- &lt;p style=&#34;color:black; background: red; font-weight: bold&#34; class=&#34;center&#34;&gt;&lt;big&gt; Em construção&lt;/p&gt; --&gt;
+		<description>
 
-
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-  &lt;meta charset=&#34;UTF-8&#34;&gt;
-  &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
-  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
-    &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div style=&#34;padding-left: 5%&#34; id=&#34;question-container&#34;&gt;&lt;/div&gt;
-  &lt;div id=&#34;info-question&#34;&gt;&lt;/div&gt;
-  &lt;br&gt;
-  &lt;button style=&#34;margin-left: 5%&#34; onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
-&lt;script&gt;
-
-let total = 0;
-let errors = 0;
-let corrects = 0;
-let questions;
-let prova = &#34;N/A&#34;;
-let ano = &#34;N/A&#34;;
-let banca = &#34;N/A&#34;;
-let textoBase;
-let solvedQuestions = [];
-let randomIndex;
-//fetch(&#39;/questoes.json&#39;)
-fetch(&#39;/questoes.json&#39;)
-  .then(response =&gt; response.json())
-  .then(data =&gt; { 
-    questions = data;
-  })
-  .catch(error =&gt; { 
-    console.error(
-      &#39;Erro ao carregar o arquivo JSON:&#39;, error);
-  });
-
-const container = document.getElementById(&#39;question-container&#39;);
-const counter = document.getElementById(&#39;counter&#39;);
-
-function generateRandomQuestion() {
-  container.innerHTML = &#39;&#39;;
-     console.log(&#34;questions len -&gt; &#34;+questions.length)
-     console.log(&#34;solved len -&gt; &#34;+solvedQuestions.length)
-
-  if (solvedQuestions.length === questions.length){
-    alert(&#34;Fim das questões&#34;)
-    return // otimizado pq assim se a função é chamada 
-           //novamente se recusa a executar!
-  }
-
-  randomIndex = Math.floor(Math.random() * questions.length);
-  
-  while (solvedQuestions.includes(randomIndex)  &amp;&amp;
-        (solvedQuestions.length !== questions.length + 1 )) {
-     randomIndex = Math.floor(Math.random() * questions.length);
-  }
-
-  if (!solvedQuestions.includes(randomIndex)){
-       solvedQuestions.push(randomIndex);
-  }
-
-  const randomQuestion = questions[randomIndex]; 
-
-  const questionDiv = document.createElement(&#39;div&#39;);
-  if (randomQuestion.banca !== undefined) { banca = randomQuestion.banca};
-  if (randomQuestion.ano !== undefined) { ano = randomQuestion.ano};
-  if (randomQuestion.prova !== undefined) { prova = randomQuestion.prova};
-
-  questionDiv.appendChild(document.createElement(&#39;br&#39;));
-  if (randomQuestion.imagem !== undefined) { 
-    let imagem = document.createElement(&#39;img&#39;);
-    imagem.src = &#34;/banco-questoes/&#34;+randomQuestion.imagem;
-    questionDiv.appendChild(imagem);
-  }
-
-  // o texto base vem antes da questao
-  if (randomQuestion.texto_base !== undefined) { 
-    let texto_base = document.createElement(&#39;p&#39;);
-    texto_base.textContent = randomQuestion.texto_base;
-    questionDiv.appendChild(texto_base);
-  }
-
-  const questaum = document.createElement(&#39;p&#39;);
-  questaum.textContent = randomQuestion.questao;
-  questionDiv.appendChild(questaum);
-
-  // Multipla Escolha
-  if (randomQuestion.tipo === &#39;multipla_escolha&#39;) {
-     let answerIndex = 0;
-     randomQuestion.alternativas.forEach(choice =&gt; {
-      const radio = document.createElement(&#39;input&#39;);
-      radio.type = &#39;radio&#39;;
-      radio.name = &#39;answer&#39;; 
-      radio.value = choice;
-      radio.id = `${answerIndex}`;
-
-      const label = document.createElement(&#39;label&#39;);
-      const breakline = document.createElement(&#39;br&#39;);
-      label.innerHTML = choice;
-
-      questionDiv.appendChild(radio);
-      questionDiv.appendChild(label);
-      questionDiv.appendChild(breakline);
-      answerIndex = answerIndex + 1; 
-    });
-  } else if (randomQuestion.tipo === &#39;verdadeiro_falso&#39;) {
-    const trueRadio = document.createElement(&#39;input&#39;);
-    trueRadio.type = &#39;radio&#39;;
-    trueRadio.name = &#39;answer&#39;;
-    trueRadio.value = &#39;true&#39;;
-    trueRadio.id = &#39;true&#39;;
-
-    const trueLabel = document.createElement(&#39;label&#39;);
-    trueLabel.htmlFor = &#39;true&#39;;
-    trueLabel.appendChild(document.createTextNode(&#39;Verdadeiro&#39;));
-
-    const falseRadio = document.createElement(&#39;input&#39;);
-    falseRadio.type = &#39;radio&#39;;
-    falseRadio.name = &#39;answer&#39;;
-    falseRadio.value = &#39;false&#39;;
-    falseRadio.id = &#39;false&#39;;
-
-    const falseLabel = document.createElement(&#39;label&#39;);
-    falseLabel.htmlFor = &#39;false&#39;;
-    falseLabel.appendChild(document.createTextNode(&#39;Falso&#39;));
-
-    questionDiv.appendChild(trueRadio);
-    questionDiv.appendChild(trueLabel);
-    questionDiv.appendChild(falseRadio);
-    questionDiv.appendChild(falseLabel);
-  }
-
-  // Adicione uma quebra de linha antes do botão &#34;Resolver&#34;
-  questionDiv.appendChild(document.createElement(&#39;br&#39;));
-
-  const solveButton = document.createElement(&#39;button&#39;);
-  solveButton.innerHTML = &#39;Resolver&#39;;
-  solveButton.id = &#39;resolver&#39;;
-  solveButton.onclick = () =&gt; checkAnswer(randomIndex, randomQuestion.tipo);
-  questionDiv.appendChild(solveButton);
-
-  container.appendChild(questionDiv);
-
-  counter.innerHTML = `&lt;span style=&#34;color: white&#34;&gt; ${prova}&lt;/span&gt;&lt;br&gt;BANCA: &lt;span style=&#34;color: white&#34;&gt; ${banca}&lt;/span&gt; ANO: &lt;span style=&#34;color: white&#34;&gt; ${ano}&lt;/span&gt;&lt;br&gt;Corretas:  &lt;span style=&#34;color: springgreen&#34;&gt;${corrects} &lt;/span&gt;Erradas:  &lt;span style=&#34;color: red&#34;&gt;${errors} &lt;/span&gt;&lt;br&gt;`
-}
-
-function checkAnswer(index, questionType) {
-  // Captura a resposta marcada
-  const checkedRadio = document.querySelector(&#39;input[name=&#34;answer&#34;]:checked&#39;);
-  
-  if (checkedRadio) {
-    const userAnswer = checkedRadio.id;
-    // Lógica para verificar a resposta aqui
-    // Compare a resposta marcada com o gabarito no array &#39;questions&#39;
-    if (userAnswer === JSON.stringify(questions[index].resposta_bool) ||
-    userAnswer === JSON.stringify(questions[index].resposta_multipla)) {
-      corrects = corrects + 1;
-      document.getElementById(&#39;resolver&#39;).style.backgroundColor = &#39;green&#39;;
-      document.getElementById(&#39;resolver&#39;).innerHTML = &#39;Acertou!&#39;;
-      document.getElementById(&#39;resolver&#39;).disabled = true; 
-    } else {
-      errors = errors + 1;
-      document.getElementById(&#39;resolver&#39;).style.backgroundColor = &#39;red&#39;;
-      document.getElementById(&#39;resolver&#39;).innerHTML = &#39;Errou!&#39;;
-      document.getElementById(&#39;resolver&#39;).disabled = true; 
-    }
-  } else {
-    alert(&#39;Nenhuma opção marcada para a pergunta!&#39;);
-  }
-
-  counter.innerHTML = `&lt;span style=&#34;color: white&#34;&gt; ${prova}&lt;/span&gt;&lt;br&gt;BANCA: &lt;span style=&#34;color: white&#34;&gt; ${banca}&lt;/span&gt; ANO: &lt;span style=&#34;color: white&#34;&gt; ${ano}&lt;/span&gt;&lt;br&gt;Corretas:  &lt;span style=&#34;color: springgreen&#34;&gt;${corrects} &lt;/span&gt;Erradas:  &lt;span style=&#34;color: red&#34;&gt;${errors} &lt;/span&gt;&lt;br&gt;`
-}
-prova = &#34;N/A&#34;;
-ano = &#34;N/A&#34;;
-banca = &#34;N/A&#34;;
-textoBase = undefined;
-
-generateRandomQuestion();
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+&lt;div class=&#34;sticker&#34;&gt;
+  &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-container&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;info-question&#34;&gt;
+  &lt;button onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;script src=&#34;../bancoquestoes.js&#34;&gt;&lt;/script&gt;
 
 </description>
 	</item>
@@ -1431,7 +1264,7 @@ generateRandomQuestion();
       &lt;br&gt;
   &lt;div class=&#34;sticker&#34;&gt;
       &lt;h3&gt;Itens de gravidade&lt;/h3&gt;
-      &lt;label&gt;Idade.&lt;/label&gt;
+      &lt;label&gt;Idade:&lt;/label&gt;
       &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_cardiovascular&#34;&gt;

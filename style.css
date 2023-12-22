@@ -1,9 +1,10 @@
 :root {
 /* Personalizadas */
-  --gradiente-dark: var(--light-grad, radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%)) ;
-  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, var(--azul-google) 0, transparent 75%), radial-gradient(ellipse at 60% 0%, var(--verde-google) 0, transparent 75%)) ;
+  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 30% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 0%, #bf398910 0, transparent 75%)) ;
+  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, #c61d1030 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #ffa70070 0, transparent 75%)) ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
+  --amarelo-google-transp: #ffa70010 ;
   --azul-google: #0057e7 ;
   --azul-escuro-google: #3f51b5 ;
   --vermelho-google: #d62d20 ;
@@ -20,18 +21,21 @@
   --fonte: #a0acb9 ;
   --sticker-fundo: var(--gradiente-dark) ;
   --git-hub-dark-back: #22272e ;
+  --git-hub-roxo-escuro-transp: #bf398910 ;
   --azul-vibrante: #01bfff ;
   --creme: #f5f5dc ;
 }
 
 :root[data-tema="escuro"] {
   /* Globais do tema escuro */
+  --button-color: #21262d ;
+  --button-hover: #373e47 ;
+  --headings: var(--blue) ;
   --bordas: #383f48 ;
   --fundo: #22272e ;
   --fundo-invertido: var(--white-solarized) ;
   --fundo-input: #1c2128 ;
   --green: #347d39 ;
-  --blue: #539bf5 ;
   --separador: #383f48 ;
   --fonte: #a0acb9 ;
   --fonte-invertida: black;
@@ -46,13 +50,17 @@
   --link-hover: white ;
 }
 :root[data-tema="claro"] {
+  --button-color: #ebc7a2 ;
+  --button-hover: #deadbb ;
+  --headings: #591820 ;
   --sticker-fundo: var(--gradiente-light) ;
   --fundo: var(--white-solarized) ;
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: var(--creme) ;
   --green: #347d39 ;
   --blue: #539bf5 ;
-  --separador: var(--verde-google);
+  --separador: gray ;
+  --bordas: gray ;
   --fonte: black;
   --fonte-invertida: var(--white-solarized);
   --strong-color: black ;
@@ -63,7 +71,6 @@
   --frase-hover: var(--azul-google) ;
   --frase-show: var(--verde-google) ;
   --autor: black ;
-  --bordas: var(--azul-google) ;
   --sticker-font: var(--fundo-invertido) ;
 }
 
@@ -115,6 +122,9 @@ body {
   text-indent: 0%;
   font-weight: bold;
   color: tomato;
+}
+#result {
+  color: var(--fonte) ;
 }
 
 .sticker {
@@ -198,7 +208,7 @@ h1, h2, h3 {
   text-indent: 0% ;
   font-weight: bold ;
   text-align: center;
-  color: var(--blue);
+  color: var(--headings);
 }
 h1 {
   font-size: 2em;
@@ -475,6 +485,7 @@ th, td {
   gap: 0.5em ;
 }
 ol, ul {
+  padding-left: 15% ;
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80% ;
@@ -496,7 +507,7 @@ li:before{
 }
 #autor, #frase{
   text-indent: 0% !important;
-  max-width: 60%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
   text-align: center ;
@@ -541,37 +552,31 @@ input, textarea {
   border-left: 1px solid tomato; 
   border-radius: 5px; 
   /* box-sizing: border-box;  Inclui padding e borda na largura total */
-  background-color: #181818 ;
+  background-color: var(--fundo-input) ;
   border: none ;
-  color: tomato ;
+  color: var(--font-invertida) ;
   height: 2em ;
 }
 
+/* BOTÕES BUTTON SELETOR SELECT MENU */
 button, select {
   padding-top: 1%; 
   padding-bottom: 1%; 
   border: 1px solid #383f48 ; 
-  background-color: #21262d;
-  color: #c6cdd5; 
-  /*border-left: 2px solid rosybrown; 
-  border-bottom: 2px solid rosybrown; */
+  background-color: var(--button-color) ;
+  color: var(--font); 
   border-radius: 7px; 
   cursor: pointer; 
   font-size: 1em; 
 }
-
 button:hover {
-  background-color: #373e47 ;
+  background-color: var(--button-hover) ;
   border: 1px solid #21262d; 
 }
 button:active {
   background-color: #373e47 ;
   border: 1px solid #21262d; 
 }
-/*button:active {
-  border-left: 1px solid #373e47; 
-  border-bottom: 1px solid #373e47; 
-}*/
 
 p {
   margin-left: auto;
@@ -579,6 +584,25 @@ p {
   text-indent: 3%;
   text-align: justify;
   max-width: 80%;
+}
+#question-container {
+  display: block ;
+  align-content: center ;
+  padding: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+}
+#question-container p {
+  max-width: 100% ;
+}
+#info-question {
+  display: flex;
+  align-content: center;
+}
+#info-question button {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 [class^="carousel"] {
@@ -652,18 +676,17 @@ hr {
   margin-bottom: 5%;
 }
 
-
-nav#TableOfContents ul {
-  margin-left: 2em;
-  list-style: none;
-  padding-left: 0;
-}
-
+/* TABLE OF CONTENT MENU DO ARTIGO SUMARIO */
 nav#TableOfContents {
   font-weight: bold;
   white-space: nowrap;
   margin-left: 10%;
   margin-right: auto;
+}
+nav#TableOfContents ul {
+  margin-left: 2em;
+  list-style: none;
+  padding-left: 0;
 }
 nav#TableOfContents li {
   position: relative;
@@ -673,9 +696,13 @@ nav#TableOfContents li {
   color: #999;
 }
 nav#TableOfContents li::before {
+  color: var(--fonte) ;
   content: "├";
   position: absolute;
   left: -20px;
+}
+nav#TableOfContents li:hover {
+  list-style-type: none ; 
 }
 nav#TableOfContents li:first-child::before {
   content: "┌";
@@ -686,7 +713,7 @@ nav#TableOfContents li:last-child::before {
 
 /* MENU BARRA FLUTUANTE */
 .barra {
-  background: var(--light-grad-pink-blue, radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
+  background: var(--sticker-fundo) ;
   border: 1px solid var(--separador) ; 
   margin-left: auto;
   margin-right: auto;
@@ -711,7 +738,8 @@ nav#TableOfContents li:last-child::before {
   border-radius: 7px;
 }
 .barra a[href]:visited, .barra a[href] {
-  color: #539bf5;
+  color: var(--headings) ;
+  /*#539bf5; */
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
