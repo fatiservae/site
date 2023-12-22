@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Escore De Wells | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content=" &lt;!DOCTYPE html&gt; Escore de Wells para tromboembolismo pulmonar Não há outro diagnóstico mais provável. Sinais clínicos de trombose venosa. Cirurgia recente ou imobilização. Tromboembolismos prévios. Frequência cardíaca acima de 100bpm. Hemoptise. Câncer. Calcule! ">
+  <meta name="keywords" content="guidelines, calculadoras, medicina">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
+<h1>Escore de Wells</h1>
+ 
+
+
+
+
+<!DOCTYPE html>
+<!-- Falta incluir alguns elementos como ruptura de aneurisma etc -->
+<html>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Escore de Wells para tromboembolismo pulmonar</title>
+</head>
+<body>
+<div class="center">
+	<input type="checkbox" id="3">
+	<label>Não há outro diagnóstico mais provável.</label>
+	<br>
+	<input type="checkbox" id="3">
+	<label>Sinais clínicos de trombose venosa.</label>
+	<br>
+	<input type="checkbox" id="1.5">
+	<label>Cirurgia recente ou imobilização.</label>
+	<br>
+	<input type="checkbox" id="1.5">
+	<label>Tromboembolismos prévios.</label>
+	<br>
+  <input type="checkbox" id="1.5">
+	<label>Frequência cardíaca acima de 100bpm.</label>
+	<br>
+	<input type="checkbox" id="1">
+	<label>Hemoptise.</label>
+	<br>
+	<input type="checkbox" id="1">
+	<label>Câncer.</label>
+	<br>
+  <button onclick="updateResult()">Calcule!</button>
+	<br>
+  <br>
+	<div id="result"></div>
+</div>
+<script>
+function updateResult() {
+  let um = document.querySelectorAll('input[id="1"]:checked').length;
+  let ummeio = (document.querySelectorAll('input[id="1.5"]:checked').length * 1.5);
+  let tres = (document.querySelectorAll('input[id="3"]:checked').length * 3);
+  let soma = um + ummeio + tres;
+  let resposta = "Valor preditivo baixo de "+soma+".<br>Solicite D-dímero.<br>Se acima de 400ng/mL para pacientes de até 40 anos ou acima de 10 vezes a idade a partir dos 40 anos, considere positivo.<br><br>D-dímero é contexto-dependente, portanto, avalie se outra causa não está positivando o exame!";
+  if (soma > 4) { 
+    resposta = "<span style='color: red; font-weight: bold';>Valor preditivo alto de "+ soma+"!</span> <br>Realize angiotomografia de tórax e proceda a anticoagulaçao plena com 1.5mg/Kg de heparina de baixo peso molecular (Enoxaparina)."
+  };
+  let result = document.getElementById("result");
+  result.innerHTML = resposta
+}
+</script>
+</body>
+</html>
+
+
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_guidelines" href="https://www.jeffersontorres.com.br/tags/guidelines">Guidelines</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

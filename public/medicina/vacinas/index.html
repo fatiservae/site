@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Vacinas | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="Termos Heterólogo Termo confuso na medicina e na biologia. Na imunologia, esquema heterólogo significa utilizar uma vacina diferente daquela do esquema inicial. Coloquialmente chamado de booster.
+Vírus vivo Forma de vacina em que o vírus ofertado é vivo e não enfraquecido, apenas selecionado para causar um efeito específico sobre a resposta imune. Pode causar doenças.
+Atenuada Trata-se de patógeno vivo, enfraquecido estratégicamente via técnicas genéticas ou laboratoriais diversas. Pode causar doenças e tem contraindicações mais voltadas aos imunossuprimidos.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
+<h1>Vacinas</h1>
+ 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#termos">Termos</a>
+      <ul>
+        <li><a href="#heterólogo">Heterólogo</a></li>
+        <li><a href="#vírus-vivo">Vírus vivo</a></li>
+        <li><a href="#atenuada">Atenuada</a></li>
+        <li><a href="#conjugada">Conjugada</a></li>
+      </ul>
+    </li>
+    <li><a href="#virais">Virais</a>
+      <ul>
+        <li><a href="#hepatite">Hepatite</a></li>
+      </ul>
+    </li>
+    <li><a href="#bacterianas">Bacterianas</a>
+      <ul>
+        <li><a href="#bcg">BCG</a></li>
+        <li><a href="#meningocóccica">Meningocóccica</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  
+
+
+<h2 id="termos">Termos</h2>
+<h3 id="heterólogo">Heterólogo</h3>
+<p>Termo confuso na medicina e na biologia. Na imunologia, <strong>esquema heterólogo</strong> significa utilizar uma vacina diferente daquela do esquema inicial. Coloquialmente chamado de booster.</p>
+<h3 id="vírus-vivo">Vírus vivo</h3>
+<p>Forma de vacina em que o vírus ofertado é vivo e não enfraquecido, apenas selecionado para causar um efeito específico sobre a resposta imune. Pode causar doenças.</p>
+<h3 id="atenuada">Atenuada</h3>
+<p>Trata-se de patógeno vivo, enfraquecido estratégicamente via técnicas genéticas ou laboratoriais diversas. Pode causar doenças e tem contraindicações mais voltadas aos imunossuprimidos.</p>
+<h3 id="conjugada">Conjugada</h3>
+<p>Significa que a vacina foi associada a um outro antígeno conhecido por sua imunogenicidade maior, por exemplo, as proteínas tifoides ou tetânicas, que possuem poder de provocar maior avidez no carreamento sérico. É uma forma de potencialização imunogênica.</p>
+<h2 id="virais">Virais</h2>
+<h3 id="hepatite">Hepatite</h3>
+<h2 id="bacterianas">Bacterianas</h2>
+<h3 id="bcg">BCG</h3>
+<p>A vacina bacilo Calmette-Guérin é um <strong>Mycobaterium bovis</strong> atenuado, vivo, capaz de induzir imunidade contra a tuberculose (<em>M. tuberculosis</em>) e hanseníase (<em>M. leprae</em>).</p>
+<p>Deve ser aplicada, preferencialmente, ao nascer.</p>
+<p>Sua aplicação deixa uma cicatriz encrustada, de alto relevo, <strong>porém não necessária</strong>.</p>
+<h3 id="meningocóccica">Meningocóccica</h3>
+<p>A meningite é um problema de saúde grave. Após a identificação da bactéria mais comumente responsável pelos surtos de infecção meníngea, os esforços para se criar uma vacina iniciaram.</p>
+<p>Existem quatro subtipos principais de <em>Neissera meningitidis</em>: A, C, W e Y.</p>
+<p>Durante muito tempo a vacina mais aplicada foi a MenB, contra o subtipo B.</p>
+<p>Atualmente, há aplicação em larga escala e em serviços públicos da MeningoACWY, cobrindo todos subtipos.</p>
+<p>Idealmente, deve ser aplicada a MenC aos 5 meses com reforço aos 12 meses e, para maiores de 12 anos a MenACWY.</p>
+
+
+
+
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

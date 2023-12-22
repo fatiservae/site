@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.120.1">
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
+  <link rel='stylesheet' type='text/css' href='./style.css'>
+  <link rel="icon" href="./favicon.ico">
+  <meta name="description" content="memento mori 💀">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="./index.html" alt="Início">📌 Início</a>
+    <a href="./sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="./tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="./dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="./medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="./tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="./tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="./tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+    <a href="./tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="./tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+    <a href="./tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
+<h1></h1>
+ 
+
+
+<p><script>
+function randomIndex(valor) {
+    return Math.floor(Math.random() * valor)
+}
+fetch('/citacoes.json')
+.then(response => response.json())
+.then(data => { 
+  
+  
+  
+  pensador = randomIndex(data.length);
+  frase = randomIndex(data[pensador].citacoes.length);
+  document.getElementById('frase').innerText = "\"" + data[pensador].citacoes[frase]+ "\"";
+  document.getElementById('autor').innerText = data[pensador].autor;
+})
+.catch(error => { 
+  console.error('Erro ao carregar o arquivo JSON:', error);
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const item = document.querySelector('.frase');
+  item.classList.add('show');
+});
+document.addEventListener("DOMContentLoaded", function() {
+  const item = document.querySelector('.caveira');
+  item.classList.add('show');
+});
+
+</script>
+
+<div class="frase"> 
+<p id="frase"></p> 
+<p id="autor"></p>
+<br>
+</div>
+
+
+
+
+<!DOCTYPE html>
+  <input type="text" id="search" placeholder="procure aqui..."></input>
+  <script src="index.js"></script>
+
+<ul id=artlist>
+<li data-tags="[projetos medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/bancoquestoes-intro/">Introdução ao banco de questões</a></li>
+<li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/afogamento/">Afogamento</a></li>
+<li data-tags="[filosofia]" ><a href="https://www.jeffersontorres.com.br/filosofia/morte/">A aceitação da morte como modo de vida</a></li>
+<li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/dmg/">Diabetes Mellitus Gestacional</a></li>
+<li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/anatomia/">Anatomia</a></li>
+<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/vacinas/">Vacinas</a></li>
+<li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/eclampsia/">Eclâmpsia</a></li>
+<li data-tags="[medicina projetos ciência]" ><a href="https://www.jeffersontorres.com.br/dicionario/">Meu dicionário instantâneo</a></li>
+<li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/anestesia/">Anestesia</a></li>
+<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/pressao-arterial/">Pressao Arterial</a></li>
+<li data-tags="[medicina calculadoras]" ><a href="https://www.jeffersontorres.com.br/medicina/assistente-antibioticoterapia/">Assistente de antibioticoterapia</a></li>
+<li data-tags="[Calculadoras Medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/calculos-queimados/">Grandes queimados - Parkland</a></li>
+<li data-tags="[ciência]" ><a href="https://www.jeffersontorres.com.br/ciencia/canais-yt/">Canais de ciências que recomendo</a></li>
+<li data-tags="[culinária receitas]" ><a href="https://www.jeffersontorres.com.br/receitas/cervejas/">Cervejas</a></li>
+<li data-tags="[Medicina Guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões</a></li>
+<li data-tags="[guidelines medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/dor-toracica/">Dor Toracica</a></li>
+<li data-tags="[medicina guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/parada-cardiorespiratoria/">Parada Cardiorespiratoria</a></li>
+<li data-tags="[medicina ciência]" ><a href="https://www.jeffersontorres.com.br/medicina/massagem-carotidea/">Massagem Carotídea</a></li>
+<li data-tags="[calculadoras medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/cockcroft-gault/">Taxa de filtração glomerular - Cockcroft Gault</a></li>
+<li data-tags="[filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações filosóficas sobre a reprodução humana</a></li>
+<li data-tags="[projetos medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/banco-de-questoes/">Banco de questões</a></li>
+<li data-tags="[brasil viagem]" ><a href="https://www.jeffersontorres.com.br/viagem/bahia-itacare/">Bahia - Itacaré</a></li>
+<li data-tags="[calculadoras medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/tokyo-guideline/">Colecistite aguda - Tokyo Guideline</a></li>
+<li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria Arterial</a></li>
+<li data-tags="[tecnologia programação]" ><a href="https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
+<li data-tags="[Programação Projetos]" ><a href="https://www.jeffersontorres.com.br/tecnologia/stultus-visio/">Stultus Visio</a></li>
+<li data-tags="[calculadoras medicina guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/injuria-renal-aguda/">Injuria Renal Aguda</a></li>
+<li data-tags="[México Viagem]" ><a href="https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
+<li data-tags="" ><a href="https://www.jeffersontorres.com.br/sobre/">Sobre</a></li>
+<li data-tags="[guidelines calculadoras medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/wells-tep/">Escore de Wells</a></li>
+<li data-tags="[viagem brasil]" ><a href="https://www.jeffersontorres.com.br/viagem/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
+<li data-tags="[viagem brasil]" ><a href="https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/">Espiríto Santo - Praia de Iriri</a></li>
+<li data-tags="[viagem brasil]" ><a href="https://www.jeffersontorres.com.br/viagem/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
+</ul>
+</p>
+<hr>
+
+
+  <!DOCTYPE html>
+  <br>
+  <a href="./sobre/index.html">
+    <img src="./pix/eu2.webp" style="max-width: 20%; height: auto;" alt="Eu" align="center"></img>
+  </a>
+  <p class="center" style="text-indent: 0"><em>Eu.</em></p>
+
+
+
+
+
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

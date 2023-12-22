@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Grandes Queimados - Parkland | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="Percentual de área corporal queimada Adicione as partes queimadas: Cabeça - anterior Cabeça - posterior Pescoço Braço direito - anterior Braço direito - posterior Braço esquerdo - anterior Braço esquerdo - posterior Tórax anterior Tórax posterior Nádega direita Nádega esquerda Genitália Perna direita - anterior Perna direita - posterior Perna esquerda - anterior Perna esquerda - posterior Adicionar Elementos selecionados:
+Idade: Peso: Queimadura elétrica Calcular Parkland sugerido A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.">
+  <meta name="keywords" content="Calculadoras, Medicina">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
+<h1>Grandes queimados - Parkland</h1>
+ 
+
+
+
+
+<h2 style="padding: 0%;" class="center">Percentual de área corporal queimada</h2>
+<style>
+p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  color: white;
+  font-weight: bold;
+  text-indent: 0%;
+  align: center;
+  text-align: center;
+}
+</style>
+<form id="formElementos" class="center">
+  <label for="elementos">Adicione as partes queimadas:</label>
+  <br>
+ <select id="elementos">
+    <option value="meiacabeca">Cabeça - anterior</option>
+    <option value="meiacabeca">Cabeça - posterior</option>
+    <option value="pescoco">Pescoço</option>
+    <option value="meiobraco">Braço direito - anterior</option>
+    <option value="meiobraco">Braço direito - posterior</option>
+    <option value="meiobraco">Braço esquerdo - anterior</option>
+    <option value="meiobraco">Braço esquerdo - posterior</option>
+    <option value="torax">Tórax anterior</option>
+    <option value="dorso">Tórax posterior</option>
+    <option value="nadega">Nádega direita</option>
+    <option value="nadega">Nádega esquerda</option>
+    <option value="genitalia">Genitália</option>
+    <option value="meiaperna">Perna direita - anterior</option>
+    <option value="meiaperna">Perna direita - posterior</option>
+    <option value="meiaperna">Perna esquerda - anterior</option>
+    <option value="meiaperna">Perna esquerda - posterior</option>
+  </select>
+</form>
+<br>
+<div class="center">
+  <button onclick="adicionarElemento()">Adicionar</button>
+  <p class="center" style="color: navajowhite">Elementos selecionados:</p>
+  <ul id="elementosSelecionados"></ul>
+  <br>
+  <label for="idade">Idade:</label>
+  <input id="idade" type="number"></input>
+  <br>
+  <br>
+  <label for="peso">Peso:</label>
+  <input id="peso" type="number"></input>
+  <br>
+  <br>
+  <input id="eletrica" type="checkbox"></input>
+  <label for="eletrica">Queimadura elétrica</label>
+  <br>
+  <button onclick="calcular()">Calcular</button>
+  <br>
+  <p id="resultado"></p>
+</div>
+  
+<h2 style="padding: 0%" class="center">Parkland sugerido</h2>
+<p id="parkland-pratico"></p>
+<p> A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.</p> 
+<script>
+let elementosSelecionados = [];
+
+function adicionarElemento() {
+  const selectElement = document.getElementById('elementos');
+  const selectedOption = selectElement.options[selectElement.selectedIndex];
+  
+  elementosSelecionados.push(selectedOption.value);
+  const elementosSelecionadosList = document.getElementById('elementosSelecionados');
+  const listItem = document.createElement('p');
+  listItem.appendChild(document.createTextNode(selectedOption.text));
+  elementosSelecionadosList.appendChild(listItem);
+}
+
+function calcular() {
+  let meiaperna = 9;
+  let meiacabeca = 4.5;
+  let genitalia = 1;
+  let pescoco = 1;
+  let meiobraco = 4.5;
+  let torax = 18;
+  let dorso = 18;
+  let nadega = 0;
+  let scq = 0;
+  let dose;
+  let debito;
+  let eletrica = document.getElementById("eletrica").checked;
+  let peso = document.getElementById("peso").value;
+  // qual idade criança msm?
+  let pediatrico = false;
+  if ( document.getElementById("idade").value < 3){
+    pediatrico = true
+  };
+
+  if (pediatrico) { 
+    meiaperna = 7;
+    meiacabeca = 9;
+    dorso = 13;
+    nadega = 2.5;
+  }
+
+  elementosSelecionados.forEach(elemento => {
+    if (elemento === 'meiacabeca') { scq = scq + meiacabeca}
+    else if ( elemento === 'meiaperna') {scq = scq + meiaperna}
+    else if ( elemento === 'nadega') {scq = scq + nadega}
+    else if ( elemento === 'meiaperna') {scq = scq + meiaperna}
+    else if ( elemento === 'meiobraco') {scq = scq + meiobraco}
+    else if ( elemento === 'pescoco') {scq = scq + pescoco}
+    else if ( elemento === 'torax') {scq = scq + torax}
+    else if ( elemento === 'dorso') {scq = scq + dorso}
+    else if ( elemento === 'genitalia') {scq = scq + dorso}
+  })
+
+  let classificacao;
+  let grau = "pequeno";
+  if (scq > 20 ) {
+    grau = "grande";
+  } else if (scq > 10 && pediatrico) { 
+    grau = "grande"
+  } else { classificacao = ""}
+  classificacao = "Paciente " + grau +" queimado."
+  document.getElementById('resultado').innerHTML = 
+    classificacao + "<br>"+scq+"% da superfície corporal queimada.";
+
+  // Parkland
+  if (eletrica) {
+    dose = scq * peso * 4 ;
+    debito = 1.5 * peso ;
+  } else if (idade < 14 || peso < 31){
+    dose = scq * peso * 3;
+    debito = 1 * peso ;
+  } else{
+    dose = scq * peso * 2;
+    debito = 0.5 * peso ;
+  };
+
+  document.getElementById('parkland-pratico').innerHTML = 
+    "Fazer "+dose+"ml/h e é esperado um débito em torno de "+debito+"mL/h <br>Observe sempre se a urina é clara!<br>Considere hidratação de manutenção.";
+
+  if (grau === "pequeno") {
+    document.getElementById('parkland-pratico').innerHTML += 
+    "<br>Em pacientes pequenos queimados, repense a necessidade de reidratação.";
+  }
+}
+</script>
+<style src="../../static/style.css">
+</style>
+
+
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

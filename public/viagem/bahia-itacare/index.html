@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Bahia - Itacaré | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content=" Itacaré
+Anterior Próxima Detalhes Cidade litorânea, com praias são do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.
+Comunidade simples também.
+A 250km de Salvador, dá pra conhecer o litoral sul bahiano no trajeto até Itacaré.
+Muitas cidades no intervalo são costeiras e pequenas.
+Locais em novembro de 2023: Vila Jungle; Pontal Beach Club. ">
+  <meta name="keywords" content="brasil, viagem">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
+<h1>Bahia - Itacaré</h1>
+ 
+
+
+
+ 
+<div class="carousel">
+  
+    
+    
+    
+      <div class="carouselslide">
+        <a href="../../pix/itacare.webp">
+          <img src="../../pix/itacare.webp"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Itacaré</p></div>
+    
+
+
+  
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .carouselslide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "flex";
+    legends[currentSlide].style.display = "flex";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<h2 id="detalhes">Detalhes</h2>
+<p>Cidade litorânea, com praias são do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.</p>
+<p>Comunidade simples também.</p>
+<p>A 250km de Salvador, dá pra conhecer o litoral sul bahiano no trajeto até Itacaré.</p>
+<p>Muitas cidades no intervalo são costeiras e pequenas.</p>
+<h2 id="locais-em-novembro-de-2023">Locais em novembro de 2023:</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Vila Jungle;</li>
+<li><input checked="" disabled="" type="checkbox"> Pontal Beach Club.</li>
+</ul>
+
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_brasil" href="https://www.jeffersontorres.com.br/tags/brasil">Brasil</a> &middot; <a id="tag_viagem" href="https://www.jeffersontorres.com.br/tags/viagem">Viagem</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Espiríto Santo - Praia De Iriri | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="
+Geral É longe de vitória, 2h de carro.
+Só tem a praia e restaurantes, parece fraco de festas.
+Mas o bom é que da pra visitar durante o dia e na volta passar por Guarapari.
+Os hotéis são simples mas bem avaliados. Na verdade a praia é pequena.
+Em julho de 2023: Pousada boa que fica bem na &ldquo;penísula&rdquo; da praia: http://www.pousadabarlavento.com.br/ ">
+  <meta name="keywords" content="viagem, brasil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+  }
+</script>
+<h1>Espiríto Santo - Praia de Iriri</h1>
+ 
+
+
+<p><img src="../../pix/iriri.jpg" alt=""></p>
+<h2 id="geral">Geral</h2>
+<p>É longe de vitória, 2h de carro.</p>
+<p>Só tem a praia e restaurantes, parece fraco de festas.</p>
+<p>Mas o bom é que da pra visitar durante o dia e na volta passar por Guarapari.</p>
+<p>Os hotéis são simples mas bem avaliados. Na verdade a praia é pequena.</p>
+<h3 id="em-julho-de-2023">Em julho de 2023:</h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Pousada boa que fica bem na &ldquo;penísula&rdquo; da praia: <a href="http://www.pousadabarlavento.com.br/">http://www.pousadabarlavento.com.br/</a></li>
+</ul>
+
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_viagem" href="https://www.jeffersontorres.com.br/tags/viagem">Viagem</a> &middot; <a id="tag_brasil" href="https://www.jeffersontorres.com.br/tags/brasil">Brasil</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

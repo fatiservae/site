@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "ceftriaxona",
+    "comerciais": ["Rocefin", "Ceftriax", "Triaxin", "Keftron"],
+    "classe": "Cefalosporinas de terceira geração",
+    "sitios": ["snc", "pele"],
+    "iv": "1 a 2 g cada 24 horas; ou 500 mg a 1 g cada 12 horas.",
+    "im": "1g diluída em 500ml/30min",
+    "cobertura": ["Neissera gonorrhoeae", "Chlamydia trachomatis", "Ureaplasma urealyticum", "Micoplasma hominis", "Treponema pallidum", "Borrelia burgdorferi", "Haemophilus ducreyi", "stafilococco spp.", "grampositivos", "gramnegativos"],
+    "contraindicacoes": ["ICC"]
+  },
+  {
+    "nome": "Antibiótico B",
+    "tipo": "Tipo B",
+    "dose": "200mg",
+    "sitios": ["snc", "pele"],
+    "cobertura": ["stafilococcos", "grampositivo", "gramnegativo"],
+    "contraindicacoes": ["ICC"]
+  }
+]
