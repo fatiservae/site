@@ -27,7 +27,6 @@
 }
 
 :root[data-tema="escuro"] {
-  /* Globais do tema escuro */
   --button-color: #21262d ;
   --button-hover: #373e47 ;
   --headings: var(--blue) ;
@@ -507,13 +506,12 @@ li:before{
 }
 #autor, #frase{
   text-indent: 0% !important;
-  max-width: 90%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   text-align: center ;
 }
 .frase{
-  transition: color 3s ease-in-out, font-size 3s ease-in-out;
   align: center ;
   text-align: center ;
   font-style: italic; 
@@ -638,7 +636,7 @@ p {
   width: 100%;
   text-align: center;
   margin: auto;
-  color: white; 
+  color: var(--font); 
 }
 
 .button-container {
@@ -713,6 +711,7 @@ nav#TableOfContents li:last-child::before {
 
 /* MENU BARRA FLUTUANTE */
 .barra {
+  transition: background 3s ease-in-out, font-size 3s ease-in-out;
   background: var(--sticker-fundo) ;
   border: 1px solid var(--separador) ; 
   margin-left: auto;
