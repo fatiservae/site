@@ -17,11 +17,12 @@
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/bancoquestoes-intro/</guid>
 		<description>&lt;h2 id=&#34;concursos-públicos-questões-públicas&#34;&gt;Concursos públicos, questões públicas!&lt;/h2&gt;
-&lt;p&gt;A grande maioria dos preparatórios vendem bancos de questões. A resolução de questões é um dos mais importantes instrumentos na aprovação em provas.&lt;/p&gt;
-&lt;p&gt;Infelizmente, a maior parte dos bancos está protegida por &lt;em&gt;paywalls&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;A resolução de questões é um dos mais importantes instrumentos na aprovação em provas e a grande maioria dos preparatórios vendem bancos de questões.&lt;/p&gt;
+&lt;p&gt;Infelizmente, a maior parte dos bancos está protegida por &lt;em&gt;paywalls&lt;/em&gt;. Isto seria facilmente superado se houvesse esforço coletivo de pessoas para produzir um banco de livre acesso.&lt;/p&gt;
+&lt;p&gt;Sou contra criticar e não fazer nada a respeito, por isso resolvi criar um protótipo.&lt;/p&gt;
 &lt;p&gt;Este banco foi elaborado inteiramente por mim, portanto a adição de novas questões demora um pouco porque faço quando posso. Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Banco-de-questoes-de-residencia-medica.&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Boa prática!&lt;/p&gt;
-&lt;p&gt;Clique &lt;a href=&#34;./medicina/banco-de-questoes/index.html&#34;&gt;aqui&lt;/a&gt; para acessar as questões.&lt;/p&gt;
+&lt;p&gt;Clique &lt;a href=&#34;./medicina/banco-de-questoes/index.html&#34;&gt;👉 aqui&lt;/a&gt; para acessar as questões.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -1208,14 +1209,14 @@ $$
 
 
 &lt;h2 id=&#34;detalhes&#34;&gt;Detalhes&lt;/h2&gt;
-&lt;p&gt;Cidade litorânea, com praias são do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.&lt;/p&gt;
+&lt;p&gt;Cidade litorânea, com praias do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.&lt;/p&gt;
 &lt;p&gt;Comunidade simples também.&lt;/p&gt;
 &lt;p&gt;A 250km de Salvador, dá pra conhecer o litoral sul bahiano no trajeto até Itacaré.&lt;/p&gt;
 &lt;p&gt;Muitas cidades no intervalo são costeiras e pequenas.&lt;/p&gt;
 &lt;h2 id=&#34;locais-em-novembro-de-2023&#34;&gt;Locais em novembro de 2023:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Vila Jungle;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pontal Beach Club.&lt;/li&gt;
+&lt;li&gt;Vila Jungle;&lt;/li&gt;
+&lt;li&gt;Pontal Beach Club.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 	</item>
@@ -1647,19 +1648,22 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 		
 		<guid>https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;./pix/palenque.webp&#34; alt=&#34;Palenque&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Cidade de Chiapas referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
-&lt;p&gt;Conhecida por seu estado de preservação, a atração principal da cidade é o parque arqueológico principal.&lt;/p&gt;
+&lt;p&gt;Cidade de Chiapas, referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
+&lt;p&gt;Conhecida por seu ótimo estado de preservação, a atração da cidade é o parque arqueológico principal.&lt;/p&gt;
 &lt;h2 id=&#34;distâncias&#34;&gt;Distâncias&lt;/h2&gt;
 &lt;p&gt;É longe de Cidad del Mexico, umas 12h de carro.&lt;/p&gt;
 &lt;p&gt;O local mais próximo com voôs é Villahermosa.&lt;/p&gt;
 &lt;p&gt;Alguns blogs recomendam ir de Villahermosa até lá de carro, cerca de 3h.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://palenquepark.com/&#34;&gt;https://palenquepark.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;em-2023&#34;&gt;Em 2023:&lt;/h2&gt;
+&lt;h2 id=&#34;conferido-em-2023&#34;&gt;Conferido em 2023&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Estrada em boas condições (Villahermosa para Palenque);&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Parque arqueológico conservado.&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Site do parque tem informações como telefone e outros contatos.&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Recepção específica para brasileiros turistas.&lt;/li&gt;
+&lt;li&gt;Estrada em boas condições (Villahermosa para Palenque);&lt;/li&gt;
+&lt;li&gt;Parque arqueológico conservado.&lt;/li&gt;
+&lt;li&gt;Site do parque tem informações como telefone e outros contatos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;problemas&#34;&gt;Problemas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Recepção específica para brasileiros turistas.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 	</item>
@@ -1692,7 +1696,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 &lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
 &lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;./receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;interesses&#34;&gt;Interesses&lt;/h2&gt;
-&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo raramente perco um interesse.&lt;/p&gt;
+&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo e raramente perco um interesse.&lt;/p&gt;
 &lt;p&gt;Vamos ver onde vai parar 😂.&lt;/p&gt;
 &lt;h2 id=&#34;programação&#34;&gt;Programação&lt;/h2&gt;
 &lt;p&gt;Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff.&lt;/p&gt;
@@ -1892,10 +1896,8 @@ function updateResult() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;div class=&#34;diviframe&#34;&gt;
-          &lt;iframe src=&#34;https://www.youtube.com/embed/iDbkxsqyXqs?si=b7XUfwMg16n1Z3q_&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;
-          &lt;/iframe&gt;
-        &lt;/div&gt;
+        &lt;iframe src=&#34;https://www.youtube.com/embed/iDbkxsqyXqs?si=b7XUfwMg16n1Z3q_&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;
+        &lt;/iframe&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Video de DM&lt;/p&gt;&lt;/div&gt;
     

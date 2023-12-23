@@ -56,6 +56,17 @@ Tubolopatias, principalmente medicamentosas, associadas ao uso de AINES, IECAs, 
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -75,7 +86,12 @@ Tubolopatias, principalmente medicamentosas, associadas ao uso de AINES, IECAs, 
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Injuria Renal Aguda</h1>
  

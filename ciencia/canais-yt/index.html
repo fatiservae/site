@@ -51,6 +51,17 @@ A grande vantagem do Eugene é a abordagem de temas acadêmicos lado-a-lado de c
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -70,7 +81,12 @@ A grande vantagem do Eugene é a abordagem de temas acadêmicos lado-a-lado de c
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Canais de ciências que recomendo</h1>
  

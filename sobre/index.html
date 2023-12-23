@@ -25,7 +25,7 @@
 Estudante de medicina, futuro anestesiologista. Eu acho.
 Não uso redes sociais e evito amizades e conversas apenas virtuais.
 Me chame pessoalmente para um assunto interessante e uma cerveja.
-Interesses Meu interesse flutua demais. Sempre adiciono algo raramente perco um interesse.
+Interesses Meu interesse flutua demais. Sempre adiciono algo e raramente perco um interesse.
 Vamos ver onde vai parar 😂.
 Programação Linguagens de programação que mais escrevo: Rust, Shell, C/C&#43;&#43;, Javascript, HTML e Roff.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,6 +54,17 @@ Programação Linguagens de programação que mais escrevo: Rust, Shell, C/C&#43
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -73,7 +84,12 @@ Programação Linguagens de programação que mais escrevo: Rust, Shell, C/C&#43
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Sobre mim</h1>
  
@@ -101,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Não uso redes sociais e evito amizades e conversas apenas virtuais.</p>
 <p>Me chame pessoalmente para um assunto interessante e uma <a href="../receitas/cervejas/index.html">cerveja</a>.</p>
 <h2 id="interesses">Interesses</h2>
-<p>Meu interesse flutua demais. Sempre adiciono algo raramente perco um interesse.</p>
+<p>Meu interesse flutua demais. Sempre adiciono algo e raramente perco um interesse.</p>
 <p>Vamos ver onde vai parar 😂.</p>
 <h2 id="programação">Programação</h2>
 <p>Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff.</p>

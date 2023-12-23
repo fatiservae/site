@@ -54,6 +54,17 @@ Em julho de 2023: Pousada boa que fica bem na &ldquo;penísula&rdquo; da praia: 
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -73,7 +84,12 @@ Em julho de 2023: Pousada boa que fica bem na &ldquo;penísula&rdquo; da praia: 
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Espiríto Santo - Praia de Iriri</h1>
  

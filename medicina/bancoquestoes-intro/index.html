@@ -21,10 +21,9 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.ico">
-  <meta name="description" content="Concursos públicos, questões públicas! A grande maioria dos preparatórios vendem bancos de questões. A resolução de questões é um dos mais importantes instrumentos na aprovação em provas.
-Infelizmente, a maior parte dos bancos está protegida por paywalls.
-Este banco foi elaborado inteiramente por mim, portanto a adição de novas questões demora um pouco porque faço quando posso. Se deseja participar, visite o repositório do banco de questões no GitHub.
-Boa prática!">
+  <meta name="description" content="Concursos públicos, questões públicas! A resolução de questões é um dos mais importantes instrumentos na aprovação em provas e a grande maioria dos preparatórios vendem bancos de questões.
+Infelizmente, a maior parte dos bancos está protegida por paywalls. Isto seria facilmente superado se houvesse esforço coletivo de pessoas para produzir um banco de livre acesso.
+Sou contra criticar e não fazer nada a respeito, por isso resolvi criar um protótipo.">
   <meta name="keywords" content="projetos, medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -52,6 +51,17 @@ Boa prática!">
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -71,18 +81,24 @@ Boa prática!">
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Introdução ao banco de questões</h1>
  
 
 
 <h2 id="concursos-públicos-questões-públicas">Concursos públicos, questões públicas!</h2>
-<p>A grande maioria dos preparatórios vendem bancos de questões. A resolução de questões é um dos mais importantes instrumentos na aprovação em provas.</p>
-<p>Infelizmente, a maior parte dos bancos está protegida por <em>paywalls</em>.</p>
+<p>A resolução de questões é um dos mais importantes instrumentos na aprovação em provas e a grande maioria dos preparatórios vendem bancos de questões.</p>
+<p>Infelizmente, a maior parte dos bancos está protegida por <em>paywalls</em>. Isto seria facilmente superado se houvesse esforço coletivo de pessoas para produzir um banco de livre acesso.</p>
+<p>Sou contra criticar e não fazer nada a respeito, por isso resolvi criar um protótipo.</p>
 <p>Este banco foi elaborado inteiramente por mim, portanto a adição de novas questões demora um pouco porque faço quando posso. Se deseja participar, <a href="https://github.com/EstalineCCCP/Banco-de-questoes-de-residencia-medica.">visite o repositório do banco de questões no GitHub.</a></p>
 <p>Boa prática!</p>
-<p>Clique <a href="../../medicina/banco-de-questoes/index.html">aqui</a> para acessar as questões.</p>
+<p>Clique <a href="../../medicina/banco-de-questoes/index.html">👉 aqui</a> para acessar as questões.</p>
 
 
 

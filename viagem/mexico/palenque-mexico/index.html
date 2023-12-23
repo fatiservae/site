@@ -21,13 +21,13 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../../style.css'>
   <link rel="icon" href="../../../favicon.ico">
-  <meta name="description" content="Cidade de Chiapas referência de uma cultura perdida do século 8, pertencente aos Maias.
-Conhecida por seu estado de preservação, a atração principal da cidade é o parque arqueológico principal.
+  <meta name="description" content="Cidade de Chiapas, referência de uma cultura perdida do século 8, pertencente aos Maias.
+Conhecida por seu ótimo estado de preservação, a atração da cidade é o parque arqueológico principal.
 Distâncias É longe de Cidad del Mexico, umas 12h de carro.
 O local mais próximo com voôs é Villahermosa.
 Alguns blogs recomendam ir de Villahermosa até lá de carro, cerca de 3h.
 https://palenquepark.com/
-Em 2023: Estrada em boas condições (Villahermosa para Palenque); Parque arqueológico conservado.">
+Conferido em 2023 Estrada em boas condições (Villahermosa para Palenque); Parque arqueológico conservado.">
   <meta name="keywords" content="México, Viagem">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -55,6 +55,17 @@ Em 2023: Estrada em boas condições (Villahermosa para Palenque); Parque arqueo
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -74,26 +85,34 @@ Em 2023: Estrada em boas condições (Villahermosa para Palenque); Parque arqueo
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Palenque - México</h1>
  
 
 
 <p><img src="../../../pix/palenque.webp" alt="Palenque"></p>
-<p>Cidade de Chiapas referência de uma cultura perdida do século 8, pertencente aos Maias.</p>
-<p>Conhecida por seu estado de preservação, a atração principal da cidade é o parque arqueológico principal.</p>
+<p>Cidade de Chiapas, referência de uma cultura perdida do século 8, pertencente aos Maias.</p>
+<p>Conhecida por seu ótimo estado de preservação, a atração da cidade é o parque arqueológico principal.</p>
 <h2 id="distâncias">Distâncias</h2>
 <p>É longe de Cidad del Mexico, umas 12h de carro.</p>
 <p>O local mais próximo com voôs é Villahermosa.</p>
 <p>Alguns blogs recomendam ir de Villahermosa até lá de carro, cerca de 3h.</p>
 <p><a href="https://palenquepark.com/">https://palenquepark.com/</a></p>
-<h2 id="em-2023">Em 2023:</h2>
+<h2 id="conferido-em-2023">Conferido em 2023</h2>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Estrada em boas condições (Villahermosa para Palenque);</li>
-<li><input checked="" disabled="" type="checkbox"> Parque arqueológico conservado.</li>
-<li><input checked="" disabled="" type="checkbox"> Site do parque tem informações como telefone e outros contatos.</li>
-<li><input disabled="" type="checkbox"> Recepção específica para brasileiros turistas.</li>
+<li>Estrada em boas condições (Villahermosa para Palenque);</li>
+<li>Parque arqueológico conservado.</li>
+<li>Site do parque tem informações como telefone e outros contatos.</li>
+</ul>
+<h2 id="problemas">Problemas</h2>
+<ul>
+<li>Recepção específica para brasileiros turistas.</li>
 </ul>
 
 

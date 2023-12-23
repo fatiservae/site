@@ -27,6 +27,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --katex-color: salmon ;
   --button-color: #21262d ;
   --button-hover: #373e47 ;
   --headings: var(--blue) ;
@@ -49,6 +50,7 @@
   --link-hover: white ;
 }
 :root[data-tema="claro"] {
+  --katex-color: black ;
   --button-color: #ebc7a2 ;
   --button-hover: #deadbb ;
   --headings: #591820 ;
@@ -147,7 +149,7 @@ body {
 }*/
 
 .katex-html{
-  color: salmon;
+  color: var(--katex-color);
 }
 
 label {
@@ -219,7 +221,7 @@ a[href]:visited:hover, a[href]:hover{
 /* PARAGRAFOS HEADING H1 H2 H3 */
 h1, h2, h3 {
   text-indent: 0% ;
-  font-weight: bold ;
+  font-weight: normal ;
   text-align: center;
   color: var(--headings);
 }
@@ -562,11 +564,10 @@ input[type="email"],*/
 input, textarea {
   /* width: 100%; */
   /* padding: 10px; */
-  border-left: 1px solid tomato; 
   border-radius: 5px; 
   /* box-sizing: border-box;  Inclui padding e borda na largura total */
   background-color: var(--fundo-input) ;
-  border: none ;
+  border: 1px solid var(--bordas); 
   color: var(--font-invertida) ;
   height: 2em ;
 }
@@ -619,18 +620,27 @@ p {
 }
 
 /* CAROUSEL CARROSSEIS */
-[class^="carousel"] { /* Pega ambas carousel como carouselitem */
-/*.carousel {*/
-  margin-left: auto;
-  margin-right: auto;
+.carousel {
+  border-radius: 7px;
+  background: var(--sticker-fundo);
+  padding: 0.2em;
+  margin-left: auto ;
+  margin-right: auto ;
+  max-width: 80%;
+  border: 1px solid var(--bordas);
+}
+.carouselslide { /* Pega ambas carousel como carouselitem */
   overflow: hidden;
   align-content: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
 }
-[class^="carousel"].carousel.carouselslide.diviframe { /* Problematico */
-/*.carousel.carouselslide.diviframe {*/
+.carouselslide iframe {
+  display: block ;
   align-content: center;
+  justify-content: center;
+ /* Problema de tamanho... 'auto' não funciona, 70 do viewheight ficou bom, deixei sem. */
 }
 .carouselslide a{
   background-color: none;
@@ -642,7 +652,7 @@ p {
   padding-top: 0.5em ;
   padding-bottom: 0.5em ;
   text-indent: 0%;
-  width: 100%;
+  width: 90%;
   text-align: center;
   margin: auto;
   color: var(--font); 
@@ -726,13 +736,13 @@ nav#TableOfContents li:last-child::before {
   margin-top: 0.5em;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
-  max-width: 80%;
+  max-width: 90%;
   align: center ;
   font-size: 1rem;
   text-align: center;
   border-radius: 7px ;
   background-size: cover;
-  font-weight: bold ;
+  font-weight: normal ;
 }
 .barra a{
   padding-left: 0.5em ; 

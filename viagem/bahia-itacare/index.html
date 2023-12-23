@@ -22,7 +22,7 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.ico">
   <meta name="description" content=" Itacaré
-Anterior Próxima Detalhes Cidade litorânea, com praias são do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.
+Anterior Próxima Detalhes Cidade litorânea, com praias do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.
 Comunidade simples também.
 A 250km de Salvador, dá pra conhecer o litoral sul bahiano no trajeto até Itacaré.
 Muitas cidades no intervalo são costeiras e pequenas.
@@ -54,6 +54,17 @@ Locais em novembro de 2023: Vila Jungle; Pontal Beach Club. ">
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -73,7 +84,12 @@ Locais em novembro de 2023: Vila Jungle; Pontal Beach Club. ">
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Bahia - Itacaré</h1>
  
@@ -144,14 +160,14 @@ Locais em novembro de 2023: Vila Jungle; Pontal Beach Club. ">
 
 
 <h2 id="detalhes">Detalhes</h2>
-<p>Cidade litorânea, com praias são do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.</p>
+<p>Cidade litorânea, com praias do tipo selvagem, muitos coqueiros, mata atlântica e ambiente simples.</p>
 <p>Comunidade simples também.</p>
 <p>A 250km de Salvador, dá pra conhecer o litoral sul bahiano no trajeto até Itacaré.</p>
 <p>Muitas cidades no intervalo são costeiras e pequenas.</p>
 <h2 id="locais-em-novembro-de-2023">Locais em novembro de 2023:</h2>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> Vila Jungle;</li>
-<li><input checked="" disabled="" type="checkbox"> Pontal Beach Club.</li>
+<li>Vila Jungle;</li>
+<li>Pontal Beach Club.</li>
 </ul>
 
 

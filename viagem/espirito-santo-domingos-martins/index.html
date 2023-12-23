@@ -57,6 +57,17 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
     lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
     lighswitch.innerHTML = '🌚' ;
@@ -76,7 +87,12 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 <h1>Espírito Santo - Domingos Martins</h1>
  
@@ -115,10 +131,8 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
     
     
       <div class="carouselslide">
-        <div class="diviframe">
-          <iframe src="https://www.youtube.com/embed/iDbkxsqyXqs?si=b7XUfwMg16n1Z3q_" frameborder="0" allowfullscreen="true">
-          </iframe>
-        </div>
+        <iframe src="https://www.youtube.com/embed/iDbkxsqyXqs?si=b7XUfwMg16n1Z3q_" frameborder="0" allowfullscreen="true">
+        </iframe>
       </div>
       <div class="legend"><p>Video de DM</p></div>
     
