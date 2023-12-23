@@ -94,50 +94,9 @@ Para fluxogramas, timelines, tabelas e mídias de dados organizados, use Mermaid
 <p>Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.</p>
 <p>Para fluxogramas, timelines, tabelas e mídias de dados organizados, use <a href="https://github.com/mermaid-js/mermaid">Mermaid</a>, conforme exemplo abaixo.</p>
 <p>No diretório, crie um arquivo <em>minha_apresentacao.stv</em> e edite-o:</p>
-<pre tabindex="0"><code>.title Título da apresentação
-.foot Um rodapé.
-# Estes são comentários. 
-# As tags .script e .style apontam 
-# para arquivos personalizados de 
-# configuração. São opcionais.
-.script ./Config/style.css
-.style ./Config/script.js
+<div id="code"><p></p><p>.title Título da apresentação</p><p>.foot Um rodapé.</p><p># Estes são comentários. </p><p># As tags .script e .style apontam </p><p># para arquivos personalizados de </p><p># configuração. São opcionais.</p><p>.script ./Config/style.css</p><p>.style ./Config/script.js</p><p></p><p>--- </p><p>.heading Os três hífens iniciam um slide.</p><p>.list</p><p>Primeiro item de uma lista.</p><p>Segundo item de uma lista.</p><p></p><p>---</p><p>.image ./Images/exemplo.jpg</p><p></p><p>---</p><p>.video ./Videos/exemplo.mp4</p><p></p><p>---</p><p>.heading Exemplo de fluxograma em mermaid</p><p>.mermaid</p><p>graph TD</p><p>A --- B</p><p>B--&gt;C[fa:fa-ban Fim]</p><p>B--&gt;D(fa:fa-spinner);</p><p>C--&gt;A</p><p></p><p>---</p><p>.table</p><p>Coluna 1 | Coluna 2 | Coluna 3</p><p>Item 1 | Item 2 | Item 3</p><p>Última 1 | Última 2 | Última 3</p><p></p><p>---</p><p>.heading Um exemplo de lista ordenada.</p><p>.ordlist</p><p>Primeiro item numerado.</p><p>Segundo.</p><p>Mais um.</p><p></p><p>Último.</p><p></p><p></p></div>
 
---- 
-.heading Os três hífens iniciam um slide.
-.list
-Primeiro item de uma lista.
-Segundo item de uma lista.
-
----
-.image ./Images/exemplo.jpg
-
----
-.video ./Videos/exemplo.mp4
-
----
-.heading Exemplo de fluxograma em mermaid
-.mermaid
-graph TD
-A --- B
-B--&gt;C[fa:fa-ban Fim]
-B--&gt;D(fa:fa-spinner);
-C--&gt;A
-
----
-.table
-Coluna 1 | Coluna 2 | Coluna 3
-Item 1 | Item 2 | Item 3
-Última 1 | Última 2 | Última 3
-
----
-.heading Um exemplo de lista ordenada.
-.ordlist
-Primeiro item numerado.
-Segundo.
-Mais um.
-Último.
-</code></pre><h2 id="compilação-instalação-e-uso">Compilação, instalação e uso</h2>
+<h2 id="compilação-instalação-e-uso">Compilação, instalação e uso</h2>
 <p>Compile o StultusVisio:</p>
 <pre tabindex="0"><code>$ cargo build --release 
 </code></pre><p>Mova o binário para seu $PATH ou execute stultus_visio no mesmo diretório do arquvio minha_apresentacao.stv, por exemplo:</p>

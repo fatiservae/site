@@ -80,8 +80,8 @@ body {
   scroll-behavior: smooth ;
   scrollbar-color: gray #151515 ;
   font-family: "Open Sans", sans-serif ;
-  font-weight: lighter ;
-  font-size: 1em ;
+  font-weight: normal ;
+  font-size: 1.1em ;
 }
 
 .importante {
@@ -152,6 +152,20 @@ body {
 
 label {
   color: var(--fonte) ;
+}
+div#code{
+  background: var(--fundo-invertido) ;
+  border-radius: 7px; 
+  color: var(--fonte-invertida); 
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal ;
+}
+pre code {
+}
+code {
+  text-align: center ;
+  font-size: 100% ; /* Tem que por pq o code padrão reduz */
+  color: var(--fonte-invertida);
 }
 
 .mermaid svg {
@@ -503,6 +517,7 @@ li:before{
 #autor{
   color: var(--autor) ; 
   padding-left: 20%;
+  font-weight: lighter ;
 }
 #autor, #frase{
   text-indent: 0% !important;

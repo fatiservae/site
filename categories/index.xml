@@ -367,26 +367,25 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<guid>https://www.jeffersontorres.com.br/dicionario/</guid>
 		<description>
 
-&lt;div class=&#34;sticker&#34; id=&#34;aviso&#34;&gt;
-&lt;p&gt;
-Às vezes, numa discussão, precisamos conferir algo rapidamente!
-
-🤣
-&lt;/p&gt;&lt;p&gt;
-Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral. Então, resolvi fazer um dicionário simples em JavaScript.
-&lt;/p&gt;&lt;p&gt;
-Aceito sugestões de termos! 
-&lt;/p&gt;&lt;p&gt;
-Boa busca!
-&lt;/p&gt;
-&lt;button id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
+&lt;div  class=&#34;sticker&#34; id=&#34;aviso&#34;&gt;
+  Às vezes, numa discussão, precisamos conferir algo rapidamente! 🤣
+  &lt;br&gt;
+  Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral. Então, resolvi fazer um dicionário simples em JavaScript.
+  &lt;br&gt;
+  Aceito sugestões de termos! 
+  &lt;br&gt;
+  Boa busca!
+  &lt;br&gt;
+  &lt;button style=&#34;display: inline-block;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
 &lt;/div&gt;
 &lt;br&gt;
 
 &lt;div class=&#34;search&#34;&gt;
-  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;  &lt;/input&gt;
+  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
+
 &lt;script src=&#34;../dicionario.js&#34;&gt;&lt;/script&gt;
+
 &lt;ul id=&#34;search-output&#34;&gt;
 &lt;/ul&gt;
 
@@ -1229,12 +1228,11 @@ $$
 		<description>
 
 &lt;!DOCTYPE html&gt;
-&lt;div class=&#34;center&#34;&gt;
+&lt;div style=&#34;display: inline-block;&#34;  class=&#34;center&#34;&gt;
   &lt;div class=&#34;sticker&#34;&gt;
       &lt;h3&gt;Exame do abdome&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;suspeita&#34;&gt;
       &lt;label&gt;Murphy positivo, palpação dolorosa ou de massa.&lt;/label&gt;
-      &lt;br&gt;
   &lt;/div&gt;
       &lt;br&gt;
   &lt;div class=&#34;sticker&#34;&gt;
@@ -1246,17 +1244,6 @@ $$
       &lt;label&gt;Proteína C reativa elevada ou leucocitose.&lt;/label&gt;
       &lt;br&gt;
   &lt;/div&gt;
-      &lt;br&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
-      &lt;h3&gt;Colestase&lt;/h3&gt;
-      &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
-      &lt;label&gt;Icterícia ou bilirrubina de pelo menos 2mg/dL.&lt;/label&gt;
-      &lt;br&gt;
-      &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
-      &lt;label&gt;Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal.&lt;/label&gt;
-      &lt;br&gt;
-  &lt;/div&gt;
-      &lt;br&gt;
   &lt;div class=&#34;sticker&#34;&gt;
       &lt;h3&gt;Imagem&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
@@ -1264,16 +1251,23 @@ $$
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
       &lt;label&gt;Constricção constatada (estenose, cálculo etc).&lt;/label&gt;
-      &lt;br&gt;
   &lt;/div&gt;
+&lt;div class=&#34;sticker&#34;&gt;
+      &lt;h3&gt;Colestase&lt;/h3&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
+      &lt;label&gt;Icterícia ou bilirrubina de pelo menos 2mg/dL.&lt;/label&gt;
       &lt;br&gt;
+      &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
+      &lt;label&gt;Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal.&lt;/label&gt;
+  &lt;/div&gt;
+
   &lt;div class=&#34;sticker&#34;&gt;
-      &lt;h3&gt;Itens de gravidade&lt;/h3&gt;
+      &lt;h3&gt;Gravidade&lt;/h3&gt;
       &lt;label&gt;Idade:&lt;/label&gt;
       &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_cardiovascular&#34;&gt;
-      &lt;label&gt;Necessidade de epinefrina em qualquer dose ou 5ug/Kg de dopamina.&lt;/label&gt;
+      &lt;label&gt;Necessidade de epinefrina em qualquer dose ou pelo menos 5ug/Kg de dopamina.&lt;/label&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_neurologica&#34;&gt;
       &lt;label&gt;Qualquer aleração de consciência.&lt;/label&gt;
@@ -1298,8 +1292,9 @@ $$
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;albumina&#34;&gt;
       &lt;label&gt;Albumina menor que 70% do limite superior laboratorial.&lt;/label&gt;
-      &lt;br&gt;
 &lt;/div&gt;
+       &lt;br&gt;
+
 &lt;br&gt;
 &lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
 &lt;br&gt;
@@ -1315,6 +1310,10 @@ p {
   text-indent: 0%;
   align: center;
   text-align: center;
+}
+.sticker {
+  display: inline-block;
+  max-width: cover ;
 }
 &lt;/style&gt;
 
@@ -1495,50 +1494,9 @@ $$&lt;/p&gt;
 &lt;p&gt;Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.&lt;/p&gt;
 &lt;p&gt;Para fluxogramas, timelines, tabelas e mídias de dados organizados, use &lt;a href=&#34;https://github.com/mermaid-js/mermaid&#34;&gt;Mermaid&lt;/a&gt;, conforme exemplo abaixo.&lt;/p&gt;
 &lt;p&gt;No diretório, crie um arquivo &lt;em&gt;minha_apresentacao.stv&lt;/em&gt; e edite-o:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.title Título da apresentação
-.foot Um rodapé.
-# Estes são comentários. 
-# As tags .script e .style apontam 
-# para arquivos personalizados de 
-# configuração. São opcionais.
-.script ./Config/style.css
-.style ./Config/script.js
+&lt;div id=&#34;code&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;.title Título da apresentação&lt;/p&gt;&lt;p&gt;.foot Um rodapé.&lt;/p&gt;&lt;p&gt;# Estes são comentários. &lt;/p&gt;&lt;p&gt;# As tags .script e .style apontam &lt;/p&gt;&lt;p&gt;# para arquivos personalizados de &lt;/p&gt;&lt;p&gt;# configuração. São opcionais.&lt;/p&gt;&lt;p&gt;.script ./Config/style.css&lt;/p&gt;&lt;p&gt;.style ./Config/script.js&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;--- &lt;/p&gt;&lt;p&gt;.heading Os três hífens iniciam um slide.&lt;/p&gt;&lt;p&gt;.list&lt;/p&gt;&lt;p&gt;Primeiro item de uma lista.&lt;/p&gt;&lt;p&gt;Segundo item de uma lista.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.image ./Images/exemplo.jpg&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.video ./Videos/exemplo.mp4&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.heading Exemplo de fluxograma em mermaid&lt;/p&gt;&lt;p&gt;.mermaid&lt;/p&gt;&lt;p&gt;graph TD&lt;/p&gt;&lt;p&gt;A --- B&lt;/p&gt;&lt;p&gt;B--&amp;gt;C[fa:fa-ban Fim]&lt;/p&gt;&lt;p&gt;B--&amp;gt;D(fa:fa-spinner);&lt;/p&gt;&lt;p&gt;C--&amp;gt;A&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.table&lt;/p&gt;&lt;p&gt;Coluna 1 | Coluna 2 | Coluna 3&lt;/p&gt;&lt;p&gt;Item 1 | Item 2 | Item 3&lt;/p&gt;&lt;p&gt;Última 1 | Última 2 | Última 3&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.heading Um exemplo de lista ordenada.&lt;/p&gt;&lt;p&gt;.ordlist&lt;/p&gt;&lt;p&gt;Primeiro item numerado.&lt;/p&gt;&lt;p&gt;Segundo.&lt;/p&gt;&lt;p&gt;Mais um.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Último.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 
---- 
-.heading Os três hífens iniciam um slide.
-.list
-Primeiro item de uma lista.
-Segundo item de uma lista.
-
----
-.image ./Images/exemplo.jpg
-
----
-.video ./Videos/exemplo.mp4
-
----
-.heading Exemplo de fluxograma em mermaid
-.mermaid
-graph TD
-A --- B
-B--&amp;gt;C[fa:fa-ban Fim]
-B--&amp;gt;D(fa:fa-spinner);
-C--&amp;gt;A
-
----
-.table
-Coluna 1 | Coluna 2 | Coluna 3
-Item 1 | Item 2 | Item 3
-Última 1 | Última 2 | Última 3
-
----
-.heading Um exemplo de lista ordenada.
-.ordlist
-Primeiro item numerado.
-Segundo.
-Mais um.
-Último.
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;compilação-instalação-e-uso&#34;&gt;Compilação, instalação e uso&lt;/h2&gt;
+&lt;h2 id=&#34;compilação-instalação-e-uso&#34;&gt;Compilação, instalação e uso&lt;/h2&gt;
 &lt;p&gt;Compile o StultusVisio:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cargo build --release 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Mova o binário para seu $PATH ou execute stultus_visio no mesmo diretório do arquvio minha_apresentacao.stv, por exemplo:&lt;/p&gt;
@@ -1701,7 +1659,7 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Sobre</title>
+		<title>Sobre mim</title>
 		<link>https://www.jeffersontorres.com.br/sobre/</link>
 		<pubDate>Sun, 05 Nov 2023 18:30:21 -0300</pubDate>
 		
@@ -1724,19 +1682,15 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 
 &lt;p&gt;Um aprendiz estoicista.&lt;/p&gt;
 &lt;p&gt;Estudante de medicina, &lt;a href=&#34;../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../redes-sociais/index.html&#34;&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- [Não uso redes sociais e evito amizades e conversas apenas virtuais](/redes-sociais/index.html). --&gt;
+&lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
 &lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;interesses&#34;&gt;Interesses&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Física, matemática e química;&lt;/li&gt;
-&lt;li&gt;Psicologia;&lt;/li&gt;
-&lt;li&gt;Culinária;&lt;/li&gt;
-&lt;li&gt;Preparação automobilística;&lt;/li&gt;
-&lt;li&gt;Acumular ferramentas;&lt;/li&gt;
-&lt;li&gt;Programar.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo raramente perco um interesse. Vamos ver onde vai parar 😂.&lt;/p&gt;
-&lt;p&gt;Entre os diversos hobbies, programar foi escolhido como passa-tempo. Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff. Nesta ordem.&lt;/p&gt;
+&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo raramente perco um interesse.&lt;/p&gt;
+&lt;p&gt;Vamos ver onde vai parar 😂.&lt;/p&gt;
+&lt;h2 id=&#34;programação&#34;&gt;Programação&lt;/h2&gt;
+&lt;p&gt;Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff.&lt;/p&gt;
+&lt;p&gt;Nesta ordem.&lt;/p&gt;
 &lt;h2 id=&#34;nas-redes&#34;&gt;Nas redes&lt;/h2&gt;
 &lt;p&gt;Se tem sugestão assunto para o site, me contacte pelo &lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Às vezes filmo bobagens e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
