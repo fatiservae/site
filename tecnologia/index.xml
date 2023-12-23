@@ -1383,6 +1383,11 @@ function updateResult() {
 }
 &lt;/script&gt;
 
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;YOKOE, Masamichi et al. &lt;strong&gt;Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholecystitis (with videos)&lt;/strong&gt;. Journal of Hepato‐biliary‐pancreatic Sciences, v. 25, n. 1, p. 41-54, 2018.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -1794,16 +1799,9 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 		<guid>https://www.jeffersontorres.com.br/medicina/wells-tep/</guid>
 		<description>
 
-&lt;!DOCTYPE html&gt;
 &lt;!-- Falta incluir alguns elementos como ruptura de aneurisma etc --&gt;
-&lt;html&gt;
-	 &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt; 
-&lt;head&gt;
-	&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;style.css&#34;&gt;
-	&lt;title&gt;Escore de Wells para tromboembolismo pulmonar&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
 &lt;div class=&#34;center&#34;&gt;
+&lt;div style=&#34;display: inline-block;&#34; class=&#34;sticker&#34;&gt;
 	&lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
 	&lt;label&gt;Não há outro diagnóstico mais provável.&lt;/label&gt;
 	&lt;br&gt;
@@ -1824,11 +1822,13 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 	&lt;br&gt;
 	&lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
 	&lt;label&gt;Câncer.&lt;/label&gt;
+&lt;/div&gt;
 	&lt;br&gt;
   &lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
 	&lt;br&gt;
   &lt;br&gt;
 	&lt;div id=&#34;result&#34;&gt;&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;script&gt;
 function updateResult() {
@@ -1844,9 +1844,12 @@ function updateResult() {
   result.innerHTML = resposta
 }
 &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
 
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Wells PS, Anderson DR, Rodger M et al. &lt;strong&gt;Derivation of a simple clinical model to categorize patients probability of pulmonary embolism: increasing the models utility with the SimpliRED D-dimer&lt;/strong&gt;. Thromb Haemost. 2000;83(3): 416-20.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	

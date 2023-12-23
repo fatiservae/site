@@ -1,7 +1,7 @@
 :root {
 /* Personalizadas */
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 30% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 0%, #bf398910 0, transparent 75%)) ;
-  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, #c61d1030 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #ffa70070 0, transparent 75%)) ;
+  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #ffa70050 0, transparent 75%)) ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
   --amarelo-google-transp: #ffa70010 ;
@@ -498,7 +498,6 @@ th, td {
   gap: 0.5em ;
 }
 ol, ul {
-  padding-left: 15% ;
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80% ;
@@ -527,6 +526,7 @@ li:before{
   text-align: center ;
 }
 .frase{
+  transition: color 3s ease-in-out, font-size 3s ease-in-out;
   align: center ;
   text-align: center ;
   font-style: italic; 
@@ -618,7 +618,8 @@ p {
   margin-right: auto;
 }
 
-[class^="carousel"] {
+/* CAROUSEL CARROSSEIS */
+[class^="carousel"] { /* Pega ambas carousel como carouselitem */
 /*.carousel {*/
   margin-left: auto;
   margin-right: auto;
@@ -627,24 +628,17 @@ p {
   width: 100%;
   height: 100%;
 }
-
-
-[class^="carousel"].carousel.carouselslide.diviframe {
+[class^="carousel"].carousel.carouselslide.diviframe { /* Problematico */
 /*.carousel.carouselslide.diviframe {*/
   align-content: center;
 }
-
 .carouselslide a{
   background-color: none;
   align-content: center;
   width: 100%;
   object-fit: fit;
 }
-
 .legend p{
-  /*
-  border-left: 1px solid tomato;
-  justify-content: center;*/
   padding-top: 0.5em ;
   padding-bottom: 0.5em ;
   text-indent: 0%;
@@ -653,19 +647,17 @@ p {
   margin: auto;
   color: var(--font); 
 }
-
+button[id^="proximo"], button[id^="anterior"]{
+  flex: 1;
+  color: gray;
+  font-weight: bold;
+}
 .button-container {
   align: center;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  width: 90%;
-}
-
-button[id^="proximo"], button[id^="anterior"]{
-  flex: 1;
-  color: gray;
-  font-weight: bold;
+  width: 60%;
 }
 
 /* Limpar campos de input
@@ -726,7 +718,6 @@ nav#TableOfContents li:last-child::before {
 
 /* MENU BARRA FLUTUANTE */
 .barra {
-  transition: background 3s ease-in-out, font-size 3s ease-in-out;
   background: var(--sticker-fundo) ;
   border: 1px solid var(--separador) ; 
   margin-left: auto;

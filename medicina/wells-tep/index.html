@@ -21,7 +21,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.ico">
-  <meta name="description" content=" &lt;!DOCTYPE html&gt; Escore de Wells para tromboembolismo pulmonar Não há outro diagnóstico mais provável. Sinais clínicos de trombose venosa. Cirurgia recente ou imobilização. Tromboembolismos prévios. Frequência cardíaca acima de 100bpm. Hemoptise. Câncer. Calcule! ">
+  <meta name="description" content=" Não há outro diagnóstico mais provável. Sinais clínicos de trombose venosa. Cirurgia recente ou imobilização. Tromboembolismos prévios. Frequência cardíaca acima de 100bpm. Hemoptise. Câncer. Calcule! Referências Wells PS, Anderson DR, Rodger M et al. Derivation of a simple clinical model to categorize patients probability of pulmonary embolism: increasing the models utility with the SimpliRED D-dimer. Thromb Haemost. 2000;83(3): 416-20. ">
   <meta name="keywords" content="guidelines, calculadoras, medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -76,16 +76,9 @@
 
 
 
-<!DOCTYPE html>
 <!-- Falta incluir alguns elementos como ruptura de aneurisma etc -->
-<html>
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Escore de Wells para tromboembolismo pulmonar</title>
-</head>
-<body>
 <div class="center">
+<div style="display: inline-block;" class="sticker">
 	<input type="checkbox" id="3">
 	<label>Não há outro diagnóstico mais provável.</label>
 	<br>
@@ -106,11 +99,13 @@
 	<br>
 	<input type="checkbox" id="1">
 	<label>Câncer.</label>
+</div>
 	<br>
   <button onclick="updateResult()">Calcule!</button>
 	<br>
   <br>
 	<div id="result"></div>
+
 </div>
 <script>
 function updateResult() {
@@ -126,9 +121,12 @@ function updateResult() {
   result.innerHTML = resposta
 }
 </script>
-</body>
-</html>
 
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Wells PS, Anderson DR, Rodger M et al. <strong>Derivation of a simple clinical model to categorize patients probability of pulmonary embolism: increasing the models utility with the SimpliRED D-dimer</strong>. Thromb Haemost. 2000;83(3): 416-20.</li>
+</ol>
 
 
 
