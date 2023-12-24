@@ -117,9 +117,6 @@
 		<description>&lt;p&gt;
 
 &lt;style&gt;
-.sticker {
- text-align: center;
-}
 .videoc{
  display: flex;
  justify-content: center; /* Centraliza horizontalmente */
@@ -140,15 +137,33 @@
 &lt;h3 id=&#34;a-aceitação-como-caminho&#34;&gt;A aceitação como caminho&lt;/h3&gt;
 &lt;p&gt;Cerca de mil anos antes da consolidação do cristianismo, durante o período das &lt;em&gt;escolas helenísticas&lt;/em&gt;, o &lt;strong&gt;estoicismo&lt;/strong&gt; pavimentou o caminho para esta que viria a ser a principal religão ocidental.&lt;/p&gt;
 &lt;p&gt;O pensamento estoico se alicerça na noção de que a aceitação dos destinos é um caminho de menor sofrimento do que a insistência em alternativas por numerosas escolhas ou mera teimosia.&lt;/p&gt;
-&lt;p class=&#34;sticker&#34;&gt;&lt;em&gt;O crente é carregado pela fé. O descrente é arrastado pelo destino.&lt;br&gt;&lt;/em&gt;Antigo ditado estoico.&lt;/em&gt;&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+&lt;em&gt;O crente é carregado pela fé. O descrente é arrastado pelo destino.&lt;/em&gt;&lt;br&gt;Antigo ditado estoico.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
 &lt;p&gt;Os cristãos primitivos aperfeiçoaram essa visão, estimulando a vida pobre e miserável como forma de aceitação do mais básico, sendo, portanto, de melhor proveito as benesses de quaisquer natureza. A felicidade do homem que vive de migalhas pode ser um pão inteiro. O prazer do faminto não depende do bom sabor, apenas da comida.&lt;/p&gt;
-&lt;p class=&#34;sticker&#34;&gt;&lt;em&gt;Felizes aqueles que crêem sem ver.&lt;/em&gt;&lt;br&gt;João 20:29.&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+&lt;em&gt;Felizes aqueles que crêem sem ver.&lt;/em&gt;&lt;br&gt;João 20:29.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
 &lt;p&gt;A fé, assim sendo, se reduz a aceitação do destino, num ato subjetivo de confiança em um ser benevolente que alegadamente sempre terá o melhor plano. Chama-se isto de &lt;em&gt;atitude estoica&lt;/em&gt;. A resistência, a teimosia, a beligerância e a intolerabilidade são conceitos opostos a conduta estoica. O descrente, portanto, duvida sempre, desacredita e reage ao destino.&lt;/p&gt;
 &lt;p&gt;Que não se confunda! A curiosidade, o questionamento e a busca do conhecimento pela via dialética não se contradiz à conduta estoica.&lt;/p&gt;
 &lt;h3 id=&#34;a-aceitação-da-morte-como-modo-de-vida&#34;&gt;A aceitação da morte como modo de vida&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;../pix/memento-mori.jpg&#34; alt=&#34;memento-mori&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Dentre todos os destinos, qual aquele mais certo de que a morte? &lt;strong&gt;Nenhum&lt;/strong&gt;.&lt;/p&gt;
-&lt;p class=&#34;sticker&#34;&gt;&lt;em&gt;Memento mori. Amor fati.&lt;/em&gt;&lt;br&gt;Saudações estoicas.&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+&lt;em&gt;Memento mori. Amor fati.&lt;/em&gt;&lt;br&gt;Saudações estoicas.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
 &lt;p&gt;Sendo a morte o destino mais certo da vida de qualquer ser humano, por que aprendemos a evitá-la, tanto como destino final, como assunto? Vivemos como se a vida eterna fosse uma certeza. No máximo, trata-se de uma promessa vazia e religiosa.&lt;/p&gt;
 &lt;p&gt;Somos agressivos na defesa de qualquer dos nossos bens, porém permissivos na perda do nosso tempo, mesmo com a rígida evidência de que a morte inexoravelmente virá e o limitado tempo nesta passagem será consumido.&lt;/p&gt;
 &lt;p&gt;A saída é a aceitação. Vivemos adorando a vida, valorizando os aspectos passageiros desta, como a beleza e a riqueza, mesmo sabendo que o fim é a morte. Tudo na vida transita. Tudo se esvai.&lt;/p&gt;
@@ -1769,7 +1784,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 &lt;p&gt;Às vezes filmo bobagens e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Meus projetos estão no &lt;a href=&#34;https://github.com/EstalineCCCP&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;
  
 &lt;div class=&#34;carousel&#34;&gt;
   
@@ -1855,6 +1870,11 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
   &lt;/script&gt;
 
 
+&lt;br&gt;
+&lt;br&gt;
+&lt;img src=&#34;../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p class=&#34;center&#34;&gt;🤑 Minha carteira Monero&lt;/p&gt;
+&lt;p style=&#34;overflow: scroll&#34;&gt; 47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe&lt;/p&gt;
 </description>
 	</item>
 	

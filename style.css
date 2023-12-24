@@ -129,19 +129,32 @@ body {
 }
 
 .sticker {
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid var(--bordas);
   background: var(--sticker-fundo);
-  margin-left: 1em ;
   border-radius: 5px;
   text-align: start;
   font-weight: bold ;
   padding: 0.5em;
-  margin: auto;
   max-width: 80%;
   overflow: hidden; 
   color: var(--sticker-font); 
 }
-
+.etiqueta {
+  overflow: wrap;
+  margin-left: auto;
+  padding: 0.5em;
+  margin-right: auto;
+  border: 1px solid var(--bordas);
+  background: var(--sticker-fundo);
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold ;
+  max-width: 80%;
+  overflow: hidden; 
+  color: var(--sticker-font); 
+}
 /*.sticker:hover {
   border-right: 1px solid tomato;
   border-top: 1px solid tomato;
