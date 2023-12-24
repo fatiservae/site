@@ -15,10 +15,10 @@
 		<pubDate>Sat, 23 Dec 2023 20:13:59 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/files/</guid>
-		<description>
-    
-
-
+		<description>&lt;div class=&#34;search&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
+&lt;/div&gt;
+&lt;script src=&#34;../files.js&#34;&gt;&lt;/script&gt;
 </description>
 	</item>
 	
@@ -447,7 +447,9 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<guid>https://www.jeffersontorres.com.br/dicionario/</guid>
 		<description>
 
-&lt;div  class=&#34;sticker&#34; id=&#34;aviso&#34;&gt;
+&lt;div style=&#34;display: grid; align-content:center&#34; id=&#34;aviso&#34;&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
   Às vezes, numa discussão, precisamos conferir algo rapidamente! 🤣
   &lt;br&gt;
   Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral. Então, resolvi fazer um dicionário simples em JavaScript.
@@ -456,9 +458,14 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
   &lt;br&gt;
   Boa busca!
   &lt;br&gt;
-  &lt;button style=&#34;display: inline-block;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
+ &lt;/span&gt;
 &lt;/div&gt;
-&lt;br&gt;
+
+
+  &lt;button style=&#34;margin-left: auto; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
+&lt;/div&gt;
+  &lt;br&gt;
+  &lt;br&gt;
 
 &lt;div class=&#34;search&#34;&gt;
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;

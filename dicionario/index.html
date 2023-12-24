@@ -92,7 +92,9 @@
 
 
 
-<div  class="sticker" id="aviso">
+<div style="display: grid; align-content:center" id="aviso">
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
   Às vezes, numa discussão, precisamos conferir algo rapidamente! 🤣
   <br>
   Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral. Então, resolvi fazer um dicionário simples em JavaScript.
@@ -101,9 +103,14 @@
   <br>
   Boa busca!
   <br>
-  <button style="display: inline-block;" id="close" onclick="fechardialogo()">Fechar</button>
+ </span>
 </div>
-<br>
+
+
+  <button style="margin-left: auto; margin-right: auto;" id="close" onclick="fechardialogo()">Fechar</button>
+</div>
+  <br>
+  <br>
 
 <div class="search">
   <input type="text" id="search" placeholder="busque aqui..."></input>

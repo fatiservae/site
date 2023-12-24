@@ -139,6 +139,7 @@
 	{
 		"autor": "Sr. Madruga",
 		"citacoes": [
+			"As pessoas boas devem amar seus inimigos.",
 		  "Não há pior luta de que aquela que não se enfrente.",
 		  "A vingança nunca é plena, mata a alma e a envenena."
 		]
@@ -150,10 +151,9 @@
 		]
 	},
 	{
-		"autor": "中国古话",
+		"autor": "Antigo ditato 中国古话",
 		"citacoes": [
-		  "It’s better to be a warrior in the garden than a gardener in a war.",
-		  "在花园里做战士比在战争中做园丁更好"
+			"É melhor ser um guerreiro no jardim de que um jardineiro na guerra."
 		]
 	},
 	{
