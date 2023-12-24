@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.jeffersontorres.com.br/files/</loc>
+    <lastmod>2023-12-23T20:13:59-03:00</lastmod>
+  </url><url>
     <loc>https://www.jeffersontorres.com.br/</loc>
-    <lastmod>2023-12-17T03:54:33-03:00</lastmod>
+    <lastmod>2023-12-23T20:04:39-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/medicina/llmedica/</loc>
+    <lastmod>2023-12-23T20:04:39-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/medicina/</loc>
+    <lastmod>2023-12-23T20:04:39-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/medicina/bancoquestoes-intro/</loc>
     <lastmod>2023-12-17T03:54:33-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/tags/medicina/</loc>
-    <lastmod>2023-12-17T03:54:33-03:00</lastmod>
-  </url><url>
-    <loc>https://www.jeffersontorres.com.br/medicina/</loc>
     <lastmod>2023-12-17T03:54:33-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/tags/projetos/</loc>

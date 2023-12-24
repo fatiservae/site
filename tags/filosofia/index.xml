@@ -11,6 +11,70 @@
 	
 	
 	<item>
+		<title>Files</title>
+		<link>https://www.jeffersontorres.com.br/files/</link>
+		<pubDate>Sat, 23 Dec 2023 20:13:59 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/files/</guid>
+		<description>
+    
+
+
+</description>
+	</item>
+	
+	<item>
+		<title>LLMedica - IA para medicina</title>
+		<link>https://www.jeffersontorres.com.br/medicina/llmedica/</link>
+		<pubDate>Sat, 23 Dec 2023 20:04:39 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/llmedica/</guid>
+		<description>&lt;h2 id=&#34;gestão-de-prontuário-médico-com-ia-treinada-em-medicina&#34;&gt;Gestão de Prontuário Médico com IA Treinada em Medicina&lt;/h2&gt;
+&lt;p&gt;Este projeto visa integrar uma Inteligência Artificial baseada em LLM (Large Language Model) treinada especificamente em medicina para auxiliar na gestão de prontuários médicos.&lt;/p&gt;
+&lt;h2 id=&#34;descrição&#34;&gt;Descrição&lt;/h2&gt;
+&lt;p&gt;O objetivo principal desta solução é utilizar a inteligência artificial para:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analisar e compreender informações contidas nos prontuários médicos.&lt;/li&gt;
+&lt;li&gt;Auxiliar profissionais de saúde na interpretação e tomada de decisões com base nas informações encontradas.&lt;/li&gt;
+&lt;li&gt;Oferecer insights e sugestões baseadas no contexto médico para melhorar a gestão dos prontuários.&lt;/li&gt;
+&lt;li&gt;Alertar sobre possíveis erros de condutas ou prescrições.&lt;/li&gt;
+&lt;li&gt;Melhor compreensão holística do paciente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;funcionalidades&#34;&gt;Funcionalidades&lt;/h2&gt;
+&lt;p&gt;O projeto buscará as seguintes funcionalidades:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Análise e interpretação de textos médicos.&lt;/li&gt;
+&lt;li&gt;Construção de um tipo de arquivo independente para cada paciente, grupo de pacientes, enfermaria, unidade de saúde, hospital etc.&lt;/li&gt;
+&lt;li&gt;Identificação de padrões, tendências e informações relevantes nos prontuários.&lt;/li&gt;
+&lt;li&gt;Recomendações contextuais baseadas em informações médicas.&lt;/li&gt;
+&lt;li&gt;Interação livre com o profissional de saúde, nunca assumindo o controle sobre as condutas mas sempre disponível.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;alvo-tecnológico&#34;&gt;Alvo tecnológico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Linguagem de Programação: priorizar a construção de softwares em linguagens modernas e seguras como Rust, implementando bindings para os modelos open-source mais utilizados.&lt;/li&gt;
+&lt;li&gt;Modelos de IA: LLMs de código livre e treino em databases médicas diversas, bem como literaturas¹.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;metas&#34;&gt;Metas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Repositório básico da ideia.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Síntese de evidências que favoreçam o uso de IA neste contexto.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pesquisa de público alvo comercial e não-comercial.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Implementar demo.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Lançar codebase.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Instituir teste realístico em centro de saúde não-comercial ou comercial.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Lançar beta.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Instituir a startup/enterprise empresarial.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Fundar a marca.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Venda comercial do suporte e da integração.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;As referências bibliográficas precisarão de consultoria jurídica/autoral para implementação.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Introdução ao banco de questões</title>
 		<link>https://www.jeffersontorres.com.br/medicina/bancoquestoes-intro/</link>
 		<pubDate>Sun, 17 Dec 2023 03:54:33 -0300</pubDate>
@@ -737,7 +801,7 @@ function calcular() {
 	</item>
 	
 	<item>
-		<title>Canais de ciências que recomendo</title>
+		<title>Canais que recomendo</title>
 		<link>https://www.jeffersontorres.com.br/ciencia/canais-yt/</link>
 		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
 		
