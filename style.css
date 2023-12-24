@@ -528,7 +528,7 @@ li:before{
   text-align: center ;
 }
 .frase{
-  transition: color 3s ease-in-out, font-size 3s ease-in-out;
+  transition: color 3s ease-in-out, font-size 3s ease-in-out, text-shadow 3s ease-in-out;
   align: center ;
   text-align: center ;
   font-style: italic; 
@@ -537,8 +537,10 @@ li:before{
   padding-left: auto;
   padding-right: auto;
   border-radius: 5px ;
+  text-shadow: 10px 8px 10px var(--fonte);
 }
 .frase.show {
+  text-shadow: none;
   color: var(--frase-show); 
   font-size: 1em; 
 }
