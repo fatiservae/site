@@ -1,0 +1,20 @@
+[
+  {
+    "extension": "pdf",
+    "size": "11.88 MB",
+    "path": "entendendo-algoritmos-um-guia-ilustrado-para-programadores-e-outros.pdf",
+    "name": "entendendo-algoritmos-um-guia-ilustrado-para-programadores-e-outros"
+  },
+  {
+    "extension": "pdf",
+    "size": "11.88 MB",
+    "path": "programacao/entendendo-algoritmos-um-guia-ilustrado-para-programadores-e-outros.pdf",
+    "name": "entendendo-algoritmos-um-guia-ilustrado-para-programadores-e-outros"
+  },
+  {
+    "extension": "json",
+    "size": "475 bytes",
+    "path": "files_atuais.json",
+    "name": "files_atuais"
+  }
+]

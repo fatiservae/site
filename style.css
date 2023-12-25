@@ -308,7 +308,10 @@ article {
   columns: 2 !important;
   /*font-size: clamp(10px, 25%, 1em);*/
 }
-
+#files li{
+  display: block;
+  padding: 0.5em;
+}
 a .matched-recipe{
   font-size: 0.5em;
 }

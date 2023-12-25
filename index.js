@@ -1,7 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const searched = document.querySelectorAll('#artlist li');
+  if (document.querySelectorAll('#artlist li').length > 21) {
+    for (let i = document.querySelectorAll('#artlist li').length - 1; i >= 20 ; i--) {
+      document.querySelectorAll('#artlist li')[i].style.display = 'none'
+    }
+  }
+
   const search = document.getElementById("search");
- 
+  // const searched = document.querySelectorAll('#artlist li'); // por algum motivo não funciona!
+  
   // Motor de busca
   // O motor trabalha em cima de "searched" tornando
   // invisível as entradas não compatíveis com a busca.
@@ -25,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         out.style.display = 'none'
         //out.classList.remove('show')
       }else{
+        console.log('teste')
         out.style.display = 'block'
         //out.classList.add('show')
       }

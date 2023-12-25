@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const searched = document.getElementById('search-output');
+  const searched = document.getElementById('files');
   const search = document.getElementById("search");
 
 
@@ -9,12 +9,21 @@ document.addEventListener("DOMContentLoaded", () => {
   // um JSON. Outras formas incluem manipulação do DOM
   // ou dados raw.
   //
-  fetch('/dicionario.json')
+  fetch('/files/files_atuais.json')
   .then(response => response.json())
   .then(data => {
     for (let key in data) {
       const listItem = document.createElement('li');
-      listItem.innerHTML = "<span style=\"color: tomato\">"+key+"</span>"+": "+data[key]; 
+      let nome = data[key].name.replace(/[-_]/g, ' ');
+      listItem.innerHTML = 
+          "<span style=\"color: tomato\"><a href=\""+
+          data[key].path+
+          "\">"+
+          nome+
+          "</a></span><br>Tamanho: <span style=\"color: var(--frase);\">"+
+          data[key].size+
+          "</span><br>Extensão: <span style=\"color: var(--frase)\"></purple>"+
+          data[key].extension;
       searched.appendChild(listItem);
     }
   })
@@ -32,7 +41,7 @@ search.addEventListener("input", () => {
     .replace(/\p{Diacritic}/gu, "");
   const searchTerms = searchText.split(" ");
   const hasFilter = searchText.length > 0;
-  document.querySelectorAll("#search-output li").forEach(out => {
+  document.querySelectorAll("#files li").forEach(out => {
     const searchString = `${out.innerText}`
       .toLowerCase()
       .normalize('NFD')

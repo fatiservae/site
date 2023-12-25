@@ -11,7 +11,7 @@
 	
 	
 	<item>
-		<title>Files</title>
+		<title>Arquivos</title>
 		<link>https://www.jeffersontorres.com.br/files/</link>
 		<pubDate>Sat, 23 Dec 2023 20:13:59 -0300</pubDate>
 		
@@ -20,6 +20,8 @@
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
 &lt;script src=&#34;./files.js&#34;&gt;&lt;/script&gt;
+&lt;ul id=&#34;files&#34;&gt;
+&lt;/ul&gt;
 </description>
 	</item>
 	
