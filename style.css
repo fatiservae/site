@@ -305,6 +305,7 @@ article {
   display: block;
 }
 #artlist {
+  gap: 20% ;
   columns: 2 !important;
   /*font-size: clamp(10px, 25%, 1em);*/
 }
@@ -811,7 +812,10 @@ div#counter {
     padding: 0.2em 0;
   }
 }
-
+.eu {
+  max-width: 20%; 
+  height: auto;
+}
 @media only screen and (max-width: 800px){
   font-size: 0.8em;
   ul {
@@ -823,9 +827,32 @@ div#counter {
   body{
     font-size: 1em;
   }
+  p {
+    max-width: 96% ;
+  }
   table {
     font-size: 0.5em;
     max-width: 95% !important;
+  }
+  .barra {
+    max-width: 100% ;
+  }
+  #question-container {
+    max-width: 95%;
+  }
+  #artlist {
+    gap: 1%;
+    max-width: 95%;
+    font-size: 90%;
+  }
+  #artlist ul, ol {
+  }
+  #files, #search-output {
+    max-width: 95% ;
+  }
+  .eu {
+    max-width: 50%; 
+    height: auto;
   }
 }
 /*
