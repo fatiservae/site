@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // um JSON. Outras formas incluem manipulação do DOM
   // ou dados raw.
   //
-  fetch('/files/files_atuais.json')
+  fetch('/files_atuais.json')
   .then(response => response.json())
   .then(data => {
     for (let key in data) {
@@ -22,8 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
           nome+
           "</a></span><br>Tamanho: <span style=\"color: var(--frase);\">"+
           data[key].size+
+          "</span><br>Assuntos: <span style=\"color: var(--frase)\"></purple>"+
+          data[key].subjects+
           "</span><br>Extensão: <span style=\"color: var(--frase)\"></purple>"+
           data[key].extension;
+
       searched.appendChild(listItem);
     }
   })

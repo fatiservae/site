@@ -48,6 +48,7 @@
   --links: var(--azul-vibrante) ;
   --links-visitados: var(--blue) ;
   --link-hover: white ;
+  --termo: tomato ;
 }
 :root[data-tema="claro"] {
   --katex-color: black ;
@@ -73,6 +74,7 @@
   --frase-show: var(--verde-google) ;
   --autor: black ;
   --sticker-font: var(--fundo-invertido) ;
+  --termo: var(--azul-google);
 }
 
 body {

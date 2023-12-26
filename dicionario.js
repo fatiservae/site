@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   .then(data => {
     for (let key in data) {
       const listItem = document.createElement('li');
-      listItem.innerHTML = "<span style=\"color: tomato\">"+key+"</span>"+": "+data[key]; 
+      listItem.innerHTML = "<span style=\"color: var(--termo)\">"+key+"</span>"+": "+data[key]; 
       searched.appendChild(listItem);
     }
   })
