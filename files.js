@@ -15,18 +15,20 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let key in data) {
       const listItem = document.createElement('li');
       let nome = data[key].name.replace(/[-_]/g, ' ');
+      let size = data[key].size !== undefined ? data[key].size : '--';
+      let extensao = data[key].extension !== undefined ? data[key].extension : '--';
+      let temas = data[key].subjects !== undefined ? data[key].subjects : '--';
       listItem.innerHTML = 
           "<span style=\"color: tomato\"><a href=\""+
           data[key].path+
           "\">"+
           nome+
           "</a></span><br>Tamanho: <span style=\"color: var(--frase);\">"+
-          data[key].size+
+          size+
           "</span><br>Assuntos: <span style=\"color: var(--frase)\"></purple>"+
-          data[key].subjects+
+          temas+
           "</span><br>Extensão: <span style=\"color: var(--frase)\"></purple>"+
-          data[key].extension;
-
+          extensao
       searched.appendChild(listItem);
     }
   })
