@@ -830,6 +830,11 @@ div#counter {
   max-width: 20%; 
   height: auto;
 }
+.qrmonero {
+  width: clamp(100px, 15%, 10vw);
+  height: auto;
+}
+
 @media only screen and (max-width: 800px){
   font-size: 0.9em;
   ul {
