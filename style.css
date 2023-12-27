@@ -156,7 +156,6 @@ body {
   background: var(--sticker-fundo);
   border-radius: 5px;
   text-align: center;
-  font-weight: bold ;
   max-width: 80%;
   overflow: hidden; 
   color: var(--sticker-font); 
@@ -319,6 +318,7 @@ article {
   /*font-size: clamp(10px, 25%, 1em);*/
 }
 #files li{
+  columns: 2;
   text-align: center;
   display: block;
   padding: 0.5em;
@@ -872,6 +872,12 @@ div#counter {
   }
   #search {
     width: 80% ;
+  }
+  #files li {
+  columns: 1 !important;
+  }
+  #question-container p{
+    font-size: 115%;
   }
 }
 /*

@@ -127,7 +127,7 @@ function generateRandomQuestion() {
   container.appendChild(solveButton);
 
 
-  counter.innerHTML = `<span style="color: white"> ${prova}</span><br>BANCA: <span style="color: white"> ${banca}</span> ANO: <span style="color: white"> ${ano}</span><br>Corretas:  <span style="color: springgreen">${corrects} </span>Erradas:  <span style="color: red">${errors} </span><br>`
+  counter.innerHTML = `<span style="color: var(--termo)"> ${prova}</span><br>BANCA: <span style="color:var(--termo)"> ${banca}</span> ANO: <span style="color:var(--termo)"> ${ano}</span><br>Corretas:  <span style="color: springgreen">${corrects} </span>Erradas:  <span style="color: red">${errors} </span><br>`
 }
 
 function checkAnswer(index) {

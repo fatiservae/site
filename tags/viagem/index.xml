@@ -16,7 +16,17 @@
 		<pubDate>Sat, 23 Dec 2023 20:13:59 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/files/</guid>
-		<description>&lt;div class=&#34;search&#34;&gt;
+		<description>&lt;div style=&#34;display:flex; align-content:center;&#34;&gt;
+&lt;span class=&#34;etiqueta&#34;&gt;
+ATENÇÃO:
+&lt;br&gt;
+Para os arquivos guardados por algum direito autoral, ao clicar você será levado a respectiva página de aquisição.
+&lt;br&gt;
+Para os arquivos que eu entendo não estarem sob restrição, fará o download.
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&#34;search&#34;&gt;
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
 &lt;script src=&#34;../../files.js&#34;&gt;&lt;/script&gt;
@@ -509,7 +519,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	</item>
 	
 	<item>
-		<title>Pressao Arterial</title>
+		<title>Hemodinâmica</title>
 		<link>https://www.jeffersontorres.com.br/medicina/pressao-arterial/</link>
 		<pubDate>Mon, 27 Nov 2023 11:02:22 -0300</pubDate>
 		
@@ -520,7 +530,7 @@ PAM = \frac{PAS + 2 * PAD}{3}
 $$&lt;/p&gt;
 &lt;h2 id=&#34;média-da-pressão-arterial&#34;&gt;Média da pressão arterial&lt;/h2&gt;
 &lt;p&gt;$$
-PA[média] = \frac{PAS + PAD}{2}
+\bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
 $$&lt;/p&gt;
 </description>
 	</item>
@@ -690,7 +700,7 @@ function calcular() {
 		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/ciencia/canais-yt/</guid>
-		<description>&lt;p&gt;Clique nos tópicos (nomes dos canais) para redirecionar ao YouTube.&lt;/p&gt;
+		<description>&lt;p&gt;Clique nos nomes dos canais para redirecionar ao YouTube.&lt;/p&gt;
 &lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
 &lt;h3 id=&#34;eugene-kuthorianskyhttpswwwyoutubecomeugenekhutoryansky&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@EugeneKhutoryansky&#34;&gt;Eugene Kuthoriansky&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.&lt;/p&gt;
@@ -720,17 +730,17 @@ function calcular() {
 		<pubDate>Mon, 20 Nov 2023 20:46:46 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/receitas/cervejas/</guid>
-		<description>&lt;h2 id=&#34;avisos&#34;&gt;Avisos!&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;-avisos&#34;&gt;🔞 Avisos!&lt;/h2&gt;
 &lt;p&gt;Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.&lt;/p&gt;
 &lt;p&gt;Todas cervejas desta páginas são recomendações minhas. Costumo degustá-las com carnes ou massas e salgados.&lt;/p&gt;
 &lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;Cervejas são simples.&lt;/p&gt;
-&lt;p&gt;O termo mais complexo para uma boa discussão sobre cervejas é a escala &lt;strong&gt;IBU, International Bitterness Units&lt;/strong&gt;. Trata-se apenas de uma escala de amargor que foi adotada. O cervejeiro calcula o IBU a partir de fórmulas, mas a sua validação de mercado se dá pela degustação.&lt;/p&gt;
+&lt;p&gt;O termo mais complexo para uma boa discussão sobre cervejas é a escala &lt;strong&gt;IBU, International Bitterness Units&lt;/strong&gt;. Trata-se apenas de uma escala de amargor que foi mais aceita. O cervejeiro calcula o IBU a partir de fórmulas, mas a sua validação de mercado se dá pela degustação. Quanto maior o IBU, mais amarga e/ou mais duradouro é o amargor.&lt;/p&gt;
 &lt;p&gt;E os vários tipos de cerveja? Novamente, sejamos simples:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pilsen&lt;/strong&gt; se refere à cerveja clara, de espuma leve mas evidente e sabor florado. Foi possível sua obtenção a partir da revolução industrial. Sempre servida gelada.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Standard American Lager&lt;/strong&gt; é o tipo mais consumido, todas cervejas comuns beiram esse padrão, de uma bebida clara, encorpada e de IBU de até 30. Deve ser capaz de formar um colarinho espumoso mas não necessariamente durável.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pilsen&lt;/strong&gt; se refere à cerveja clara, de espuma leve mas com colarinho evidente e de sabor florado, fresco. Foi possível sua obtenção a partir da revolução industrial e melhora dos processos de filtração. No mercado, muitas recebem reforço de gaseificação. Sempre servida gelada¹.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Standard American Lager&lt;/strong&gt; é o tipo mais consumido, todas cervejas comuns beiram esse padrão, de uma bebida clara, encorpada e de IBU de até 30. Deve ser capaz de formar um colarinho espumoso e largo mas não necessariamente durável.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Imperiais&lt;/strong&gt; são cervejas fortes, fermentadas e enriquecidas com caramelo ou malte torrado a ar quente. IBU alto, corpo denso e cor escura são as características quase que fixas destas cervejas.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ale vs Lager&lt;/strong&gt; são termos comparativos ao processo de fermentação. As cervejas Lager são fermentadas a baixas temperaturas e Ale em temperaturas ambiente ou acima. Sabor, cor, corpo e demais características são extremamente variadas, não considere uma Ale isso ou aquilo, uma Lager necessariamente como dourada ou desincorpada etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ale vs Lager&lt;/strong&gt; são termos comparativos ao processo de fermentação. As cervejas Lager são fermentadas a baixas temperaturas e Ale em temperaturas ambiente ou acima. Sabor, cor, corpo e demais características são extremamente variadas, não considere uma Ale isso ou aquilo, uma Lager necessariamente como dourada ou desincorpada etc. Ale e Lager não são bons resumos sobre uma cerveja.&lt;/p&gt;
 &lt;h2 id=&#34;galeria-de-fotos&#34;&gt;Galeria de fotos&lt;/h2&gt;
 
  
@@ -865,6 +875,11 @@ function calcular() {
 &lt;h2 id=&#34;faxe&#34;&gt;FAXE&lt;/h2&gt;
 &lt;p&gt;Cerveja nórdica e de inspiração mais medieval. Particularmente, não vejo nada de mais. Receita clássica, IBU alto, cerveja escura e sabor indiscreto, mostrando diretamente um retorno aromático de Lúpulo de torra média.&lt;/p&gt;
 &lt;p&gt;Cai bem com carnes e refeições grandes e compostas, mas com massas puras não é boa ideia, faz um empachamento considerável mesmo para cervejeiros antigos. O tamanho grande da lata piora este aspecto.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Exceto no Marrocos, povo doido 🤣.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
