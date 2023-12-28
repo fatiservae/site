@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Meu Treino Atual | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  <link rel="icon" href="../favicon.ico">
+  <meta name="description" content="Anterior Próxima Elevação posterior halters Remada alta anterior Remada baixa de pé Serrote halter em equilíbrio Cavalinho Costas
+Rosca neutra com halters Rosca intercalada unilateral 1/2 carga Bíceps
+Extensão unilateral no pulley Extensão na barra reta no pulley Extensão com cordas no pulley Tríceps
+Crucifixo hater livre banco reto Supino halter livre banco reto Crucifixo no pulley 3 ângulos Peitoral
+Extensão de pé Panturrilha
+Agachamento unilateral Smith Agachamento livre Máquina Smith 30° Quadríceps">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../index.html" alt="Início">📌 Início</a>
+    <a href="../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../medicina/banco-de-questoes/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../files/index.html" alt="Arquivos">📁 Arquivos</a>
+    <a href="../tags/viagem/index.html" alt="Viagem">🏖️ Destinos</a>
+    <a href="../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+      
+    <a href="../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+      
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+<h1>Meu treino atual</h1>
+ 
+
+
+<style>
+  ul {
+    font-size: 1.5em;
+  }
+  .legend p {
+    font-size: 1.5em;
+    color: tomato;
+  }
+</style>
+
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+
+  
+  <div class="carouselslide">
+    <ul>
+      <li>Elevação posterior halters</li>
+      <li>Remada alta anterior</li>
+      <li>Remada baixa de pé</li>
+      <li>Serrote halter em equilíbrio</li>
+      <li>Cavalinho</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Costas</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Rosca neutra com halters</li>
+      <li>Rosca intercalada unilateral 1/2 carga</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Bíceps</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Extensão unilateral no pulley</li>
+      <li>Extensão na barra reta no pulley</li>
+      <li>Extensão com cordas no pulley</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Tríceps</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Crucifixo hater livre banco reto</li>
+      <li>Supino halter livre banco reto</li>
+      <li>Crucifixo no pulley 3 ângulos</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Peitoral</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Extensão de pé</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Panturrilha</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Agachamento unilateral Smith</li>
+      <li>Agachamento livre</li>
+      <li>Máquina Smith 30°</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Quadríceps</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Mesa flexora decúbito</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Bíceps femoral</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Rosca invertida</li>
+      <li>Rosca posterior</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Antebraço</p> 
+  </div>
+
+  <div class="carouselslide">
+    <ul>
+      <li>Puxada lateral no pulley apoiado no pulley</li>
+      <li>Elevação frontal com halteres</li>
+      <li>Elevação posterior sentado no banco</li>
+      <li>Elevação anterior neutra com triângulo invertido</li>
+    </ul>
+  </div>
+  <div class="legend">
+   <p>Ombro</p> 
+  </div>
+
+
+  
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .carouselslide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "flex";
+    legends[currentSlide].style.display = "flex";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+
+
+
+
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

@@ -1,5 +1,11 @@
 [ 
 	{
+		"autor": "Terry A. Davis",
+		"citacoes":[
+		"An idiot admires complexity, a genius admires simplicity."
+		]
+	},
+	{
 		"autor": "Tao Te Ching 道德經",
 		"citacoes":[
 		"Uma viagem de mil léguas começa por um passo.",

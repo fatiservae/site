@@ -382,6 +382,7 @@ input#search::placeholder {
 #tag_destinos:before { content: "🧳 " ;}
 #tag_alcohol:before { content: "🍸 " ;}
 #tag_american:before { content: "🇺🇸 " ; }
+[id*="tag_estados"]:before { content: "🇺🇸 " ; }
 #tag_apple:before { content: "🍎 " ; }
 #tag_argentinian:before { content: "🇦🇷 " ; }
 #tag_asian:before { content: "🥢 " ; }
