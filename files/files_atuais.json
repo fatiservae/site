@@ -4,15 +4,6 @@
       "Filosofia da ciencia"
     ],
     "extension": "pdf",
-    "size": "30.87 MB",
-    "path": "Filosofia da ciencia/Thomas-Kuhn-The-structure-of-Scientific-Revolutions-2012.pdf",
-    "name": "Thomas-Kuhn-The-structure-of-Scientific-Revolutions-2012"
-  },
-  {
-    "subjects": [
-      "Filosofia da ciencia"
-    ],
-    "extension": "pdf",
     "size": "277.45 KB",
     "path": "Filosofia da ciencia/Erwin-Schrodinger-What-Is-Life-1944.pdf",
     "name": "Erwin-Schrodinger-What-Is-Life-1944"
@@ -55,11 +46,33 @@
   },
   {
     "subjects": [
+      "Filosofia"
+    ],
+    "extension": "pdf",
+    "size": "531.58 KB",
+    "path": "Filosofia/Boethius-Consolation-of-Philosophy.pdf",
+    "name": "Boethius-Consolation-of-Philosophy"
+  },
+  {
+    "subjects": [
+      "Filosofia"
+    ],
+    "extension": "pdf",
+    "size": "1.89 MB",
+    "path": "Filosofia/Meditations Marcus Aurelius.pdf",
+    "name": "Meditations Marcus Aurelius"
+  },
+  {
+    "subjects": [
       "Fisica"
     ],
     "extension": "pdf",
     "size": "242.25 KB",
     "path": "Fisica/On-The-Eletrodynamics-of-Moving-Bodies-Einstein-1905.pdf",
     "name": "On-The-Eletrodynamics-of-Moving-Bodies-Einstein-1905"
-  }
+  },
+  {
+	"name": "Structure of Scientific Revolutions - Thomas Kuhn - 2012",
+	"url": "https://www.amazon.com.br/Structure-Scientific-Revolutions-Thomas-Kuhn/dp/0226458083"
+	}
 ]

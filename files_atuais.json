@@ -46,6 +46,24 @@
   },
   {
     "subjects": [
+      "Filosofia"
+    ],
+    "extension": "pdf",
+    "size": "531.58 KB",
+    "path": "Filosofia/Boethius-Consolation-of-Philosophy.pdf",
+    "name": "Boethius-Consolation-of-Philosophy"
+  },
+  {
+    "subjects": [
+      "Filosofia"
+    ],
+    "extension": "pdf",
+    "size": "1.89 MB",
+    "path": "Filosofia/Meditations Marcus Aurelius.pdf",
+    "name": "Meditations Marcus Aurelius"
+  },
+  {
+    "subjects": [
       "Fisica"
     ],
     "extension": "pdf",
@@ -53,9 +71,8 @@
     "path": "Fisica/On-The-Eletrodynamics-of-Moving-Bodies-Einstein-1905.pdf",
     "name": "On-The-Eletrodynamics-of-Moving-Bodies-Einstein-1905"
   },
-	{
+  {
 	"name": "Structure of Scientific Revolutions - Thomas Kuhn - 2012",
-	"path": "https://www.amazon.com.br/Structure-Scientific-Revolutions-Thomas-Kuhn/dp/0226458083",
-  "subjects": ["Filosofia"]
+	"path": "https://www.amazon.com.br/Structure-Scientific-Revolutions-Thomas-Kuhn/dp/0226458083"
 	}
 ]

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Analgesia: Seja Um Médico Melhor | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="A maior falha da formação médica É só uma picadinha!
+Entre as pessoas leigas há um consenso: médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.
+Errado!
+Durante a formação acadêmica em medicina, uma das maiores, senão a maior lacuna é o aprendizado da correta analgesia e o conhecimento da dor associada aos procedimentos quotidianos.
+A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-a-dia médico.">
+  <meta name="keywords" content="Medicina, Dor">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">📁 Arquivos</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Destinos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+      
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+      
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+<h1>Analgesia: seja um médico melhor</h1>
+ 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#a-maior-falha-da-formação-médica">A maior falha da formação médica</a></li>
+    <li><a href="#benzetacil-tabu-ou-despreparo">Benzetacil, tabu ou despreparo?</a></li>
+    <li><a href="#botões-anestésicos---quando-unãou-usar">Botões anestésicos - quando <u>não</u> usar</a></li>
+    <li><a href="#acesso-venoso-intraósseo">Acesso venoso intraósseo</a></li>
+    <li><a href="#-mais-em-breve">&hellip; mais em breve!</a></li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
+  
+
+
+<h2 id="a-maior-falha-da-formação-médica">A maior falha da formação médica</h2>
+
+
+
+<div id="img-div">
+  <img src="../../pix/medicina/dr-stupid.webp"></img>
+  <p>É só uma picadinha!</p>
+</div>
+
+
+
+<p>Entre as pessoas leigas há um consenso: <strong>médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.</strong></p>
+<p>Errado!</p>
+<p>Durante a formação acadêmica em medicina, uma das maiores, senão a maior lacuna é o aprendizado da correta analgesia e o conhecimento da dor associada aos procedimentos quotidianos.</p>
+<p><strong>A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-a-dia médico</strong>.</p>
+<h2 id="benzetacil-tabu-ou-despreparo">Benzetacil, tabu ou despreparo?</h2>
+<p>A famosa e <em>braba</em> Benzentacil, dolorosa, humilhante e sinônimo de penitência. Sua administração intramuscular no <em>gluteus maximus</em> é conhecida pela dor intensa. A solução está por aí já a algum tempo¹ ²:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+No preparo da diluição dos 2.4 milhões de UI de penincilina benzatina, substitua 0.5ml da água destilada por lidocaína a 2%³ ⁴.
+<br>
+Aplique usando agulha 30x8 sem fricção local. Não seja a tia da vacinação, não faça "morrinho" de músculo nem aperte o sítio.
+<br>
+Quanto mais lenta a injeção, menos intensa a dor da aplição, porém mais durável o desconforto. 
+<br>
+Depende do paciente, use seus seis anos de formação e avalie 😂.
+ </span>
+</div>
+
+
+<h2 id="botões-anestésicos---quando-unãou-usar">Botões anestésicos - quando <u>não</u> usar</h2>
+<p>Em muitos casos, fazemos o famoso botão anestésico previamente ao procedimento principal.</p>
+<p>Considere sempre o seguinte:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Será que as picadas para realizar o botão anestésico já não são equivalentes à picada para o procedimento? 
+<br>
+Se sim, você estará dobrando o sofrimento...evite!
+ </span>
+</div>
+
+
+<p>A lógica neste caso é bem óbvia: <strong>de repente, aquele abcesso bolhoso a ser drenado via agulha grossa não necessita de botão anestésico e sim de uma entrada certeira.</strong></p>
+<h2 id="acesso-venoso-intraósseo">Acesso venoso intraósseo</h2>
+<p>Este procedimento pertence ao departamento da emergência e da medicina pré-hospitalar, portanto, seu problema maior não é a instalação imediata, na cena, e sim o correr do fluido nos minutos e horas que se seguem. Novamente, a lidocaína apresenta boa aplicação neste caso porque seu início de ação e duração são compatíveis com o <em>onset</em> associado ao acesso intraósseo.</p>
+<p>Assim:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Prepare 40mg para adultos e 0.5mg/Kg para crianças de lidocaína em seringa separada.
+<br>
+Faça lentamente antes da administração de fluidos, aguardando 2min se possível⁵.
+ </span>
+</div>
+
+
+<h2 id="-mais-em-breve">&hellip; mais em breve!</h2>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Amir J, Ginat S, Cohen YH, Marcus TE, Keller N, Varsano I. Lidocaine as a diluent for administration of benzathine penicillin G. Pediatr Infect Dis J. 1998 Oct; 17 (10): 890-3. Disponível em: <a href="https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx">https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx</a></li>
+<li>Zeydi AE, Khezri HD. Can lidocaine be safely used to reduce pain caused by intramuscular penicillin injections? A short literature review. Oman Med J. 2012 Jul; 27(4): 337. Disponível em: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf</a></li>
+<li>Brasil. Sociedade Brasileira de Cardiologia. Diretrizes brasileiras para o diagnóstico, tratamento e prevenção da febre reumática. Arq Bras Cardiol 2009; 93(3 supl.4): 1-18. Disponível em: <a href="http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf">http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf</a></li>
+<li>Prefeitura Municipal de Campinas. Secretaria de Saúde. Departamento de Saúde. Departamento de Vigilância em Saúde. Nota técnica  Nº 001-2017 – SMS. Ref: Orientações para uso de penicilina benzatina associada a lidocaína 2% para gestantes com sífilis e seus parceiros. junho, 2017: 4p. Disponível em: <a href="http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf">http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf</a></li>
+<li>Ilicki J, Scholander J. Lidocaine can reduce the pain of intra-osseous fluid infusion. Crit Care. 2016 Jun 20;20(1):192. doi: 10.1186/s13054-016-1359-5. PMID: 27320792; PMCID: PMC4913427.</li>
+</ol>
+
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_dor" href="https://www.jeffersontorres.com.br/tags/dor">Dor</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

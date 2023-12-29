@@ -89,7 +89,7 @@ body {
   scrollbar-color: gray #151515 ;
   font-family: "SF Pro", "San Francisco Display Thin";
   font-weight: normal ;
-  font-size: 1.3em ;
+  font-size: 1.2em ;
 }
 
 .importante {
@@ -239,12 +239,14 @@ a[href]:visited:hover, a[href]:hover{
 
 /* PARAGRAFOS HEADING H1 H2 H3 */
 h1, h2, h3 {
+  padding-top: 2em;
   text-indent: 0% ;
   font-weight: normal ;
   text-align: center;
   color: var(--headings);
 }
 h1 {
+  padding-top: 0%; 
   font-size: 2em;
 }
 
@@ -262,6 +264,12 @@ img {
   max-height: 400px ;
   margin: auto ;
   display: block ;
+}
+
+#img-div p{
+  text-align: center;
+  font-size: 0.8em;
+  font-style:oblique;
 }
 
 pre{
@@ -842,6 +850,7 @@ div#counter {
   font-size: 0.9em;
   ul {
     font-size: 0.5em;
+    columns: 1 !important;
   }
   .katex-html {
     font-size: 0.7em ;

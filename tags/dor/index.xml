@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Jefferson T.</title>
-	<link>https://www.jeffersontorres.com.br/filosofia/</link>
-	<description>Recent content in Filosofia on Jefferson T.</description>
+	<link>https://www.jeffersontorres.com.br/tags/dor/</link>
+	<description>Recent content in Dor on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Fri, 15 Dec 2023 00:35:27 -0300</lastBuildDate>
+	<lastBuildDate>Fri, 29 Dec 2023 12:25:50 -0300</lastBuildDate>
     
-        <atom:link href="https://www.jeffersontorres.com.br/filosofia/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.jeffersontorres.com.br/tags/dor/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
@@ -21,7 +21,7 @@
 
 
 &lt;div id=&#34;img-div&#34;&gt;
-  &lt;img src=&#34;../pix/medicina/dr-stupid.webp&#34;&gt;&lt;/img&gt;
+  &lt;img src=&#34;../../pix/medicina/dr-stupid.webp&#34;&gt;&lt;/img&gt;
   &lt;p&gt;É só uma picadinha!&lt;/p&gt;
 &lt;/div&gt;
 
@@ -107,8 +107,8 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/prismatic1.jpg&#34;&gt;
-          &lt;img src=&#34;../pix/prismatic1.jpg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/prismatic1.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/prismatic1.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
@@ -118,8 +118,8 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/prismatic2.jpg&#34;&gt;
-          &lt;img src=&#34;../pix/prismatic2.jpg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/prismatic2.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/prismatic2.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
@@ -419,7 +419,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;div class=&#34;search&#34;&gt;
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
-&lt;script src=&#34;../files.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../files.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;files&#34;&gt;
 &lt;/ul&gt;
 </description>
@@ -518,7 +518,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 
 
 &lt;div id=&#34;img-div&#34;&gt;
-  &lt;img src=&#34;../pix/many-paths.jpg&#34;&gt;&lt;/img&gt;
+  &lt;img src=&#34;../../pix/many-paths.jpg&#34;&gt;&lt;/img&gt;
   &lt;p&gt;Em deviantart.com © by username465, 2016&lt;/p&gt;
 &lt;/div&gt;
 
@@ -557,7 +557,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;p&gt;A fé, assim sendo, se reduz a aceitação do destino, num ato subjetivo de confiança em um ser benevolente que alegadamente sempre terá o melhor plano. Chama-se isto de &lt;em&gt;atitude estoica&lt;/em&gt;. A resistência, a teimosia, a beligerância e a intolerabilidade são conceitos opostos a conduta estoica. O descrente, portanto, duvida sempre, desacredita e reage ao destino.&lt;/p&gt;
 &lt;p&gt;Que não se confunda! A curiosidade, o questionamento e a busca do conhecimento pela via dialética não contradizem conduta estoica.&lt;/p&gt;
 &lt;h3 id=&#34;a-aceitação-da-morte-como-modo-de-vida&#34;&gt;A aceitação da morte como modo de vida&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;../pix/memento-mori.jpg&#34; alt=&#34;memento-mori&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../pix/memento-mori.jpg&#34; alt=&#34;memento-mori&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Dentre todos os destinos, qual aquele mais certo de que a morte? &lt;strong&gt;Nenhum&lt;/strong&gt;.&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
@@ -592,7 +592,7 @@ Amor fati é a insistência estoica de que devemos amar o destino, pela sua inev
 &lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Schwartz, Barry. &lt;strong&gt;The Paradox of Choice&lt;/strong&gt;. New York, United States: Harper Perennial. ISBN 0-06-000568-8. 2004.&lt;/li&gt;
-&lt;li&gt;Boethius, Anicius Manlius Severinus. &lt;strong&gt;&lt;a href=&#34;../files/Filosofia/Boethius-Consolation-of-Philosophy.pdf&#34;&gt;The Consolation of Philosophy&lt;/a&gt;&lt;/strong&gt;. Translated from the Latin by W. V. Cooper. Published by the Ex-classics Project, 2009. &lt;a href=&#34;http://www.exclassics.com&#34;&gt;http://www.exclassics.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Boethius, Anicius Manlius Severinus. &lt;strong&gt;&lt;a href=&#34;../../files/Filosofia/Boethius-Consolation-of-Philosophy.pdf&#34;&gt;The Consolation of Philosophy&lt;/a&gt;&lt;/strong&gt;. Translated from the Latin by W. V. Cooper. Published by the Ex-classics Project, 2009. &lt;a href=&#34;http://www.exclassics.com&#34;&gt;http://www.exclassics.com&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -624,8 +624,8 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
   &lt;div class=&#34;carouselslide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma com viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
@@ -635,8 +635,8 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
   &lt;div class=&#34;carouselslide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma sem viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
@@ -701,8 +701,8 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
   &lt;div class=&#34;carouselslide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma com viabilidade financeira&lt;/p&gt;&lt;/div&gt;
@@ -712,8 +712,8 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
   &lt;div class=&#34;carouselslide&#34;&gt;
-    &lt;a href=&#34;../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
   &lt;/div&gt;
   &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma sem viabilidade financeira&lt;/p&gt;&lt;/div&gt;
@@ -778,7 +778,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<pubDate>Tue, 12 Dec 2023 09:48:10 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/anatomia/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/medicina/anatomy.png&#34; alt=&#34;Anatomy Learning&#34;&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/medicina/anatomy.png&#34; alt=&#34;Anatomy Learning&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Iniciando em anatomia? Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto livre, open-source e em WebGL.&lt;/p&gt;
 &lt;p&gt;Ao avançar, não perca seu tempo, basta um bom atlas cadavérico como o Nielsen e o bom e velho Grays Anatomy. O livro, não a série.&lt;/p&gt;
 &lt;hr&gt;
@@ -835,7 +835,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 &lt;p&gt;Recentemente, na ausência de proteinúria, considera-se, também, qualquer lesão de órgão-alvo¹.&lt;/p&gt;
 &lt;p&gt;Eclâmpsia é a ocorrência de convulsões durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
 &lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;cuidados&#34;&gt;Cuidados!&lt;/h3&gt;
 &lt;p&gt;O reflexo patelar desaparece com 10mEq/L e há PCR com 12mEq/L.&lt;/p&gt;
 &lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
@@ -845,7 +845,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 &lt;p&gt;Caso se identifique deficiência de cálcio na dieta (presumida clinicamente ou laboratorial), prescreve-se cálcio oral dietético suplementar a 1-2g/dia.&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li&gt;A &lt;a href=&#34;../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;../../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
 &lt;li&gt;Proteína total dividida pela creatinina medidas em mesma unidade.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
@@ -887,7 +887,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
 
-&lt;script src=&#34;../dicionario.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../dicionario.js&#34;&gt;&lt;/script&gt;
 
 &lt;ul id=&#34;search-output&#34;&gt;
 &lt;/ul&gt;
@@ -901,7 +901,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<pubDate>Thu, 30 Nov 2023 22:30:10 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/anestesia/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/anesthesiology.jpg&#34; alt=&#34;Anestesia&#34;&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/anesthesiology.jpg&#34; alt=&#34;Anestesia&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;porque-pretendo-anestesiologia-como-especialidade-médica&#34;&gt;Porque pretendo anestesiologia como especialidade médica&lt;/h2&gt;
 &lt;p&gt;Durante quase toda a trajetória do curso de medicina, tive muita dificuldade de me identificar com alguma especialidade.&lt;/p&gt;
 &lt;p&gt;Ocorre que a noção das pessoas leigas e dos estudantes ainda no ciclo básico sobre as especialidades médicas são muito parecidas. Temos a tendência de não enxergar o dia-a-dia profissional e nos prendemos em estereótipos. É o fenômeno do &lt;em&gt;meme&lt;/em&gt;.&lt;/p&gt;
@@ -1091,7 +1091,7 @@ function calcular() {
   }
 }
 &lt;/script&gt;
-&lt;style src=&#34;../static/style.css&#34;&gt;
+&lt;style src=&#34;../../static/style.css&#34;&gt;
 &lt;/style&gt;
 
 </description>
@@ -1110,7 +1110,7 @@ function calcular() {
 &lt;p&gt;A grande vantagem do Eugene é a abordagem de temas acadêmicos lado-a-lado de curiosidades e assuntos mais mundanos.&lt;/p&gt;
 &lt;h3 id=&#34;science-asylumhttpswwwyoutubecomscienceasylum&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@ScienceAsylum&#34;&gt;Science Asylum&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Canal do Nick Lucid, um professor de física casado com uma bióloga, com uma pegada mais adequada para vídeos rápidos e curiosos. Não recomendo como forma de esclarecer dúvidas muito aprofundadas, mas é ótimo como fonte de informação curiosa e acurada.&lt;/p&gt;
-&lt;p&gt;Não recomendo para verdadeira compreensão da &lt;a href=&#34;../teoria-relatividade/index.html&#34;&gt;teoria da relatividade&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Não recomendo para verdadeira compreensão da &lt;a href=&#34;../../teoria-relatividade/index.html&#34;&gt;teoria da relatividade&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;medicina&#34;&gt;Medicina&lt;/h2&gt;
 &lt;h3 id=&#34;strong-medicinehttpswwwyoutubecomstrongmed&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@StrongMed&#34;&gt;Strong Medicine&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Dr. Eric Strong é um médico da universidade de Stanford e tem uma personalidade séria e fixada na abordagem acadêmica, separando claramente os vídeos opinativos dos demais, de uma maneira mais monótona mas &lt;strong&gt;ideal&lt;/strong&gt;.&lt;/p&gt;
@@ -1158,8 +1158,8 @@ function calcular() {
   
   
     &lt;div class=&#34;carouselslide&#34;&gt;
-      &lt;a href=&#34;../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;
-        &lt;img src=&#34;../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Michelob Ultra&lt;/p&gt;&lt;/div&gt;
@@ -1169,8 +1169,8 @@ function calcular() {
   
   
     &lt;div class=&#34;carouselslide&#34;&gt;
-      &lt;a href=&#34;../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;
-        &lt;img src=&#34;../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Brahma Duplo Malte e Eisenbahn tradicional&lt;/p&gt;&lt;/div&gt;
@@ -1180,8 +1180,8 @@ function calcular() {
   
   
     &lt;div class=&#34;carouselslide&#34;&gt;
-      &lt;a href=&#34;../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;
-        &lt;img src=&#34;../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Cacilds e Corona&lt;/p&gt;&lt;/div&gt;
@@ -1191,8 +1191,8 @@ function calcular() {
   
   
     &lt;div class=&#34;carouselslide&#34;&gt;
-      &lt;a href=&#34;../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;
-        &lt;img src=&#34;../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Blue-Ribbon e Baden-Baden&lt;/p&gt;&lt;/div&gt;
@@ -1202,8 +1202,8 @@ function calcular() {
   
   
     &lt;div class=&#34;carouselslide&#34;&gt;
-      &lt;a href=&#34;../pix/culinaria/cervejas/faxe.jpg&#34;&gt;
-        &lt;img src=&#34;../pix/culinaria/cervejas/faxe.jpg&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/faxe.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/faxe.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;FAXE&lt;/p&gt;&lt;/div&gt;
@@ -1213,8 +1213,8 @@ function calcular() {
   
   
     &lt;div class=&#34;carouselslide&#34;&gt;
-      &lt;a href=&#34;../pix/culinaria/cervejas/karin.jpg&#34;&gt;
-        &lt;img src=&#34;../pix/culinaria/cervejas/karin.jpg&#34;&gt;&lt;/img&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/karin.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/karin.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Kirin-Ichban&lt;/p&gt;&lt;/div&gt;
@@ -1323,7 +1323,7 @@ E -- Persistência --&gt;Z
 &lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura ateromatosa, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Non sequitur&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após longo período de carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../pix/codex-vieses.jpg&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../../pix/codex-vieses.jpg&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;A culpa de tais artigos atingirem o grande público recai sobre as bancas avaliadoras e a nossa fantástica fábrica de publicações. Assuma, você só escreveu aquele artigo na faculdade pra somar pontos na residência, né? 🤣&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Quod erat demonstrandum&lt;/em&gt;.&lt;/p&gt;
 &lt;hr&gt;
@@ -1447,7 +1447,7 @@ Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquest
   &lt;button onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;script src=&#34;../bancoquestoes.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;../../bancoquestoes.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
 function fechardialogo() {
   let aviso = document.getElementById(&#34;aviso&#34;);
@@ -1477,8 +1477,8 @@ function fechardialogo() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/itacare.webp&#34;&gt;
-          &lt;img src=&#34;../pix/itacare.webp&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/itacare.webp&#34;&gt;
+          &lt;img src=&#34;../../pix/itacare.webp&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Itacaré&lt;/p&gt;&lt;/div&gt;
@@ -1948,7 +1948,7 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;a href=&#34;../medicina/cockcroft-gault/index.html&#34;&gt;Calcule aqui a TFG via Cockcroft-Gault&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../medicina/cockcroft-gault/index.html&#34;&gt;Calcule aqui a TFG via Cockcroft-Gault&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h2&gt;
 &lt;h3 id=&#34;pré-renais-1&#34;&gt;Pré-renais&lt;/h3&gt;
 &lt;p&gt;Volemia parcimoniosa e criteriosa, inotrópicos e vasodilatadores.&lt;/p&gt;
@@ -1958,7 +1958,7 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 &lt;p&gt;A furosemida faz sentido pelo fato da doença interstiscial poupar o funcionamento das células tubulares e, portanto, seu estímulo é restaurador de TFG.&lt;/p&gt;
 &lt;h3 id=&#34;pós-renais-1&#34;&gt;Pós-renais&lt;/h3&gt;
 &lt;p&gt;Abordagem da obstrução.&lt;/p&gt;
-&lt;p&gt;Veja &lt;a href=&#34;../litiase_urinaria/index.md&#34;&gt;litíase urinária&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Veja &lt;a href=&#34;../../litiase_urinaria/index.md&#34;&gt;litíase urinária&lt;/a&gt;&lt;/p&gt;
 </description>
 	</item>
 	
@@ -1968,7 +1968,7 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 		<pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/palenque.webp&#34; alt=&#34;Palenque&#34;&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/palenque.webp&#34; alt=&#34;Palenque&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Cidade de Chiapas, referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
 &lt;p&gt;Conhecida por seu ótimo estado de preservação, a atração da cidade é o parque arqueológico principal.&lt;/p&gt;
 &lt;h2 id=&#34;distâncias&#34;&gt;Distâncias&lt;/h2&gt;
@@ -2014,10 +2014,10 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 &lt;/script&gt;
 
 &lt;p&gt;Um aprendiz estoicista.&lt;/p&gt;
-&lt;p&gt;Estudante de medicina, &lt;a href=&#34;../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Estudante de medicina, &lt;a href=&#34;../../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- [Não uso redes sociais e evito amizades e conversas apenas virtuais](/redes-sociais/index.html). --&gt;
 &lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
-&lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;interesses&#34;&gt;Interesses&lt;/h2&gt;
 &lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo e raramente perco um interesse.&lt;/p&gt;
 &lt;p&gt;Vamos ver onde vai parar 😂.&lt;/p&gt;
@@ -2042,8 +2042,8 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/eu.webp&#34;&gt;
-          &lt;img src=&#34;../pix/eu.webp&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/eu.webp&#34;&gt;
+          &lt;img src=&#34;../../pix/eu.webp&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Eu cometendo crime ambiental em Santa Catarina.&lt;/p&gt;&lt;/div&gt;
@@ -2053,8 +2053,8 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/eu2.webp&#34;&gt;
-          &lt;img src=&#34;../pix/eu2.webp&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/eu2.webp&#34;&gt;
+          &lt;img src=&#34;../../pix/eu2.webp&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Um típico representante nerd.&lt;/p&gt;&lt;/div&gt;
@@ -2064,8 +2064,8 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/kermit.gif&#34;&gt;
-          &lt;img src=&#34;../pix/kermit.gif&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/kermit.gif&#34;&gt;
+          &lt;img src=&#34;../../pix/kermit.gif&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Você, lendo meu site kkkk&lt;/p&gt;&lt;/div&gt;
@@ -2118,7 +2118,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 
 &lt;br&gt;
 &lt;br&gt;
-&lt;img class=&#34;qrmonero&#34; src=&#34;../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;img class=&#34;qrmonero&#34; src=&#34;../../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;&lt;/p&gt;
 &lt;p class=&#34;center&#34;&gt;🤑 Minha carteira Monero&lt;/p&gt;
 &lt;p style=&#34;overflow: scroll&#34;&gt; 47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe&lt;/p&gt;
 </description>
@@ -2208,8 +2208,8 @@ function updateResult() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/praca-arthur-gerhardt.jpg&#34;&gt;
-          &lt;img src=&#34;../pix/praca-arthur-gerhardt.jpg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/praca-arthur-gerhardt.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/praca-arthur-gerhardt.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Praça Arthur Gerhardt&lt;/p&gt;&lt;/div&gt;
@@ -2219,8 +2219,8 @@ function updateResult() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/pedra-azul.jpg&#34;&gt;
-          &lt;img src=&#34;../pix/pedra-azul.jpg&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../../pix/pedra-azul.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/pedra-azul.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Pedra Azul&lt;/p&gt;&lt;/div&gt;
@@ -2288,7 +2288,7 @@ function updateResult() {
 		<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/iriri.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/iriri.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;É longe de vitória, 2h de carro.&lt;/p&gt;
 &lt;p&gt;Só tem a praia e restaurantes, parece fraco de festas.&lt;/p&gt;
@@ -2307,7 +2307,7 @@ function updateResult() {
 		<pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/viagem/bahia-piata-salvador/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/piata.png&#34; alt=&#34;Praia em Piatã&#34;&gt;&lt;/p&gt;
+		<description>&lt;p&gt;&lt;img src=&#34;../../pix/piata.png&#34; alt=&#34;Praia em Piatã&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;geral&#34;&gt;Geral&lt;/h1&gt;
 &lt;p&gt;Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.&lt;/p&gt;
 &lt;p&gt;É mais barato, fica em praia do tipo vazia mas de avenida.&lt;/p&gt;
