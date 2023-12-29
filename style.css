@@ -89,7 +89,7 @@ body {
   scrollbar-color: gray #151515 ;
   font-family: "SF Pro", "San Francisco Display Thin";
   font-weight: normal ;
-  font-size: 1.1em ;
+  font-size: 1.3em ;
 }
 
 .importante {
@@ -108,6 +108,7 @@ body {
 }
 
 .center {
+  text-indent: 0%;
   align: center ;
   text-align: center ;
   margin-left: auto;
@@ -690,6 +691,7 @@ p {
   text-align: center;
   margin: auto;
   color: var(--font); 
+  font-style: italic;
 }
 button[id^="proximo"], button[id^="anterior"]{
   flex: 1;
