@@ -847,7 +847,6 @@ div#counter {
 }
 
 @media only screen and (max-width: 800px){
-  font-size: 0.9em;
   ul {
     font-size: 0.5em;
     columns: 1 !important;
@@ -856,7 +855,7 @@ div#counter {
     font-size: 0.7em ;
   }
   body{
-    font-size: 1em;
+    font-size: 115%;
   }
   p {
     max-width: 96% ;
@@ -895,6 +894,9 @@ div#counter {
   }
   #question-container p{
     font-size: 115%;
+  }
+  nav#TableOfContents {
+    font-size: 160%;
   }
 }
 /*

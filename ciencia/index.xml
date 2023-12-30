@@ -11,6 +11,58 @@
 	
 	
 	<item>
+		<title>Taquicardias: ao que interessa</title>
+		<link>https://www.jeffersontorres.com.br/medicina/taquicardias/</link>
+		<pubDate>Sat, 30 Dec 2023 04:08:57 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/taquicardias/</guid>
+		<description>&lt;h2 id=&#34;a-taquiarritmia-é-derivada&#34;&gt;A taquiarritmia é derivada?&lt;/h2&gt;
+&lt;p&gt;Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la &lt;em&gt;per si&lt;/em&gt; pouco ajuda.&lt;/p&gt;
+&lt;p&gt;Para distinguir de forma prática, utilize o corte de Karvonen¹:&lt;/p&gt;
+&lt;p&gt;$$ 220 - idade $$&lt;/p&gt;
+&lt;p&gt;Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é causa primária.&lt;/p&gt;
+&lt;h2 id=&#34;conduta-&#34;&gt;Conduta² ³&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+    inicio(Hemodinâmica) -- estável &lt;br&gt; Descartar &lt;br&gt;intoxicação digitálica --&gt; estavel(Monitorização completa)
+    estavel -- Taqui sinusal --&gt; fimTsinu(ansiólise e.g. &lt;br&gt;Midazolam 5mg)
+    estavel -- Taqui supra --&gt; Ts(Massagem carotídea) -- persiste --&gt; fimTs(adenosina 6mg) -- persiste --&gt; fimTs2(adenosina 12mg) --&gt; fimTs3(Cardioversão&lt;br&gt;elétrica)
+    estavel -- Taqui ventricular --&gt; Tq(amiodarona&lt;br&gt;5 a 10 mg/kg&lt;br&gt;OU&lt;br&gt;Lidocaína &lt;br&gt;1 a 1.5mg/Kg em 3min) -- persiste --&gt; fimTq(Cardioversão&lt;br&gt;elétrica)
+    Tq -- Se lidocaína&lt;br&gt;com resolução --&gt; fimTq2(Manter infusão&lt;br&gt;1 a 4mg/Kg)
+    inicio -- instável --&gt; instavel(Conferir pulso)
+    instavel -- Sem pulso --&gt; fimInsta(Algoritmo de PCR)
+    instavel -- Com pulso --&gt; fimInsta2(Medidas de estabilização hemodinâmica) --&gt; inicio
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;alternativas&#34;&gt;Alternativas&lt;/h2&gt;
+&lt;p&gt;Verapamil 5mg/IV e a ssociação de diltiazém 120mg e propranolol 80mg por VO também podem ser utilizados para cardioversão química das taquicardias que dependem da junção AV.&lt;/p&gt;
+&lt;h2 id=&#34;massagem-carotídea&#34;&gt;Massagem carotídea&lt;/h2&gt;
+&lt;p&gt;Em detalhes &lt;a href=&#34;../medicina/massagem-carotidea/index.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;pill-in-the-pocket-para-taquicardia-supraventricular&#34;&gt;Pill-in-the-pocket para taquicardia supraventricular⁴&lt;/h2&gt;
+&lt;p&gt;Para pacientes sem cardiopatia estrutural ou distúrbios de condução e que já conhecem o diagnóstico de FA e fizeram teste hospitalar da estratégia, há algumas opções para uso emergencial-doméstico:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;600 mg de propafenona ou 450 mg se massa corporal menor que 70 kg.&lt;/li&gt;
+&lt;li&gt;300mg de flecainida ou 200mg se massa corporal menor que 70kg.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ambas estratégias necessitam de repouso por 4 horas após a administração. Na segunda hora há resolução dos sintomas em 84% dos pacientes.&lt;/p&gt;
+&lt;h2 id=&#34;mais-em-breve&#34;&gt;Mais em breve&amp;hellip;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Cardioversão elétrica&lt;/li&gt;
+&lt;li&gt;Como realizar manobras&lt;/li&gt;
+&lt;li&gt;Guia rápido de preparo medicamentoso com ampolas usadas no Brasil&lt;/li&gt;
+&lt;li&gt;mais&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Karvonen JJ, Kentala E, Mustala O. &lt;strong&gt;The effects of training on heart rate: a “longitudinal” study&lt;/strong&gt;. Ann Med Exp Biol Fenn. 1957; 35: 307-15.&lt;/li&gt;
+&lt;li&gt;Brugada P, Brugada J, Lluis M, Smeets J, Andries EW. &lt;strong&gt;A new approach to the differential diagnosis of a regular tachycardia with a wide QRS complex&lt;/strong&gt;. Circulation. 1991;83:1649-1659.&lt;/li&gt;
+&lt;li&gt;VELASCO, Irineu Tadeu et al. &lt;strong&gt;Medicina de emergência: abordagem prática 16ed. - 2022&lt;/strong&gt;. Manole. Santana do Parnaíba - SP. Brasil. 2022.&lt;/li&gt;
+&lt;li&gt;ALBONI, Paolo et al. &lt;strong&gt;Outpatient treatment of recent-onset atrial fibrillation with the “pill-in-the-pocket” approach&lt;/strong&gt;. New England Journal of Medicine, v. 351, n. 23, p. 2384-2391, 2004.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Analgesia: seja um médico melhor</title>
 		<link>https://www.jeffersontorres.com.br/medicina/analgesias/</link>
 		<pubDate>Fri, 29 Dec 2023 12:25:50 -0300</pubDate>
@@ -46,7 +98,7 @@ Depende do paciente, use seus seis anos de formação e avalie 😂.
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;botões-anestésicos---quando-unãou-usar&#34;&gt;Botões anestésicos - quando &lt;u&gt;não&lt;/u&gt; usar&lt;/h2&gt;
+&lt;h2 id=&#34;botões-anestésicos-quando-unãou-usar&#34;&gt;Botões anestésicos: quando &lt;u&gt;não&lt;/u&gt; usar&lt;/h2&gt;
 &lt;p&gt;Em muitos casos, fazemos o famoso botão anestésico previamente ao procedimento principal.&lt;/p&gt;
 &lt;p&gt;Considere sempre o seguinte:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
@@ -426,7 +478,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 	</item>
 	
 	<item>
-		<title>LLMedica - IA para medicina</title>
+		<title>LLMedica: inteligência artificial para medicina</title>
 		<link>https://www.jeffersontorres.com.br/medicina/llmedica/</link>
 		<pubDate>Sat, 23 Dec 2023 20:04:39 -0300</pubDate>
 		

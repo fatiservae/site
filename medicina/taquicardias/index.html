@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === 'escuro') {
+      mermaid.initialize({ 
+          'theme': 'base',
+          'themeVariables': {
+            'primaryColor': '#090909',
+            'primaryTextColor': '#ff6347',
+            'primaryBorderColor': '#7C0000',
+            'lineColor': '#ff6347',
+            'secondaryColor': '#21262d',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else {
+      mermaid.initialize({ 
+          'theme': 'base',
+          'themeVariables': {
+            'primaryColor': '#f5f5dc',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': '#21262d',
+            'lineColor': '#000000',
+            'secondaryColor': '#eee8d5',
+            'tertiaryColor': '#fff'
+          }
+      });
+    }
+    </script>
+  
+
+  <title>Taquicardias: Ao Que Interessa | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="A taquiarritmia é derivada? Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la per si pouco ajuda.
+Para distinguir de forma prática, utilize o corte de Karvonen¹:
+$$ 220 - idade $$
+Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é causa primária.
+Conduta² ³ graph TD; inicio(Hemodinâmica) -- estável Descartar intoxicação digitálica --&gt; estavel(Monitorização completa) estavel -- Taqui sinusal --&gt; fimTsinu(ansiólise e.">
+  <meta name="keywords" content="Medicina">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">📁 Arquivos</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Destinos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+      
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+      
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+<h1>Taquicardias: ao que interessa</h1>
+ 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#a-taquiarritmia-é-derivada">A taquiarritmia é derivada?</a></li>
+    <li><a href="#conduta-">Conduta² ³</a></li>
+    <li><a href="#alternativas">Alternativas</a></li>
+    <li><a href="#massagem-carotídea">Massagem carotídea</a></li>
+    <li><a href="#pill-in-the-pocket-para-taquicardia-supraventricular">Pill-in-the-pocket para taquicardia supraventricular⁴</a></li>
+    <li><a href="#mais-em-breve">Mais em breve&hellip;</a></li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
+  
+
+
+<h2 id="a-taquiarritmia-é-derivada">A taquiarritmia é derivada?</h2>
+<p>Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la <em>per si</em> pouco ajuda.</p>
+<p>Para distinguir de forma prática, utilize o corte de Karvonen¹:</p>
+<p>$$ 220 - idade $$</p>
+<p>Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é causa primária.</p>
+<h2 id="conduta-">Conduta² ³</h2>
+<pre class="mermaid">graph TD;
+    inicio(Hemodinâmica) -- estável <br> Descartar <br>intoxicação digitálica --> estavel(Monitorização completa)
+    estavel -- Taqui sinusal --> fimTsinu(ansiólise e.g. <br>Midazolam 5mg)
+    estavel -- Taqui supra --> Ts(Massagem carotídea) -- persiste --> fimTs(adenosina 6mg) -- persiste --> fimTs2(adenosina 12mg) --> fimTs3(Cardioversão<br>elétrica)
+    estavel -- Taqui ventricular --> Tq(amiodarona<br>5 a 10 mg/kg<br>OU<br>Lidocaína <br>1 a 1.5mg/Kg em 3min) -- persiste --> fimTq(Cardioversão<br>elétrica)
+    Tq -- Se lidocaína<br>com resolução --> fimTq2(Manter infusão<br>1 a 4mg/Kg)
+    inicio -- instável --> instavel(Conferir pulso)
+    instavel -- Sem pulso --> fimInsta(Algoritmo de PCR)
+    instavel -- Com pulso --> fimInsta2(Medidas de estabilização hemodinâmica) --> inicio
+</pre>
+
+<h2 id="alternativas">Alternativas</h2>
+<p>Verapamil 5mg/IV e a ssociação de diltiazém 120mg e propranolol 80mg por VO também podem ser utilizados para cardioversão química das taquicardias que dependem da junção AV.</p>
+<h2 id="massagem-carotídea">Massagem carotídea</h2>
+<p>Em detalhes <a href="../../medicina/massagem-carotidea/index.html">aqui</a>.</p>
+<h2 id="pill-in-the-pocket-para-taquicardia-supraventricular">Pill-in-the-pocket para taquicardia supraventricular⁴</h2>
+<p>Para pacientes sem cardiopatia estrutural ou distúrbios de condução e que já conhecem o diagnóstico de FA e fizeram teste hospitalar da estratégia, há algumas opções para uso emergencial-doméstico:</p>
+<ol>
+<li>600 mg de propafenona ou 450 mg se massa corporal menor que 70 kg.</li>
+<li>300mg de flecainida ou 200mg se massa corporal menor que 70kg.</li>
+</ol>
+<p>Ambas estratégias necessitam de repouso por 4 horas após a administração. Na segunda hora há resolução dos sintomas em 84% dos pacientes.</p>
+<h2 id="mais-em-breve">Mais em breve&hellip;</h2>
+<ol>
+<li>Cardioversão elétrica</li>
+<li>Como realizar manobras</li>
+<li>Guia rápido de preparo medicamentoso com ampolas usadas no Brasil</li>
+<li>mais&hellip;</li>
+</ol>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Karvonen JJ, Kentala E, Mustala O. <strong>The effects of training on heart rate: a “longitudinal” study</strong>. Ann Med Exp Biol Fenn. 1957; 35: 307-15.</li>
+<li>Brugada P, Brugada J, Lluis M, Smeets J, Andries EW. <strong>A new approach to the differential diagnosis of a regular tachycardia with a wide QRS complex</strong>. Circulation. 1991;83:1649-1659.</li>
+<li>VELASCO, Irineu Tadeu et al. <strong>Medicina de emergência: abordagem prática 16ed. - 2022</strong>. Manole. Santana do Parnaíba - SP. Brasil. 2022.</li>
+<li>ALBONI, Paolo et al. <strong>Outpatient treatment of recent-onset atrial fibrillation with the “pill-in-the-pocket” approach</strong>. New England Journal of Medicine, v. 351, n. 23, p. 2384-2391, 2004.</li>
+</ol>
+
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>
