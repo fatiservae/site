@@ -18,11 +18,11 @@
 		<description>&lt;h2 id=&#34;a-taquiarritmia-é-derivada&#34;&gt;A taquiarritmia é derivada?&lt;/h2&gt;
 &lt;p&gt;Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la &lt;em&gt;per si&lt;/em&gt; pouco ajuda.&lt;/p&gt;
 &lt;p&gt;Para distinguir de forma prática, utilize o corte de Karvonen¹:&lt;/p&gt;
-&lt;p&gt;$$ 220 - idade $$&lt;/p&gt;
-&lt;p&gt;Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é causa primária.&lt;/p&gt;
+&lt;p&gt;$$ FC_{corte} = 220 - idade $$&lt;/p&gt;
+&lt;p&gt;Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é a causa da instabilidade clínica. Se menor, é derivada de outra patologia.&lt;/p&gt;
 &lt;h2 id=&#34;conduta-&#34;&gt;Conduta² ³&lt;/h2&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-    inicio(Hemodinâmica) -- estável &lt;br&gt; Descartar &lt;br&gt;intoxicação digitálica --&gt; estavel(Monitorização completa)
+    inicio(Hemodinâmica) -- estável --&gt; i(Descartar &lt;br&gt;intoxicação digitálica) --&gt; estavel(Monitorização completa)
     estavel -- Taqui sinusal --&gt; fimTsinu(ansiólise e.g. &lt;br&gt;Midazolam 5mg)
     estavel -- Taqui supra --&gt; Ts(Massagem carotídea) -- persiste --&gt; fimTs(adenosina 6mg) -- persiste --&gt; fimTs2(adenosina 12mg) --&gt; fimTs3(Cardioversão&lt;br&gt;elétrica)
     estavel -- Taqui ventricular --&gt; Tq(amiodarona&lt;br&gt;5 a 10 mg/kg&lt;br&gt;OU&lt;br&gt;Lidocaína &lt;br&gt;1 a 1.5mg/Kg em 3min) -- persiste --&gt; fimTq(Cardioversão&lt;br&gt;elétrica)
@@ -33,19 +33,20 @@
 &lt;/pre&gt;
 
 &lt;h2 id=&#34;alternativas&#34;&gt;Alternativas&lt;/h2&gt;
-&lt;p&gt;Verapamil 5mg/IV e a ssociação de diltiazém 120mg e propranolol 80mg por VO também podem ser utilizados para cardioversão química das taquicardias que dependem da junção AV.&lt;/p&gt;
+&lt;p&gt;Verapamil 5mg/IV e associação de diltiazém 120mg e propranolol 80mg por VO também podem ser utilizados para cardioversão química das taquicardias que dependem da junção AV.&lt;/p&gt;
 &lt;h2 id=&#34;massagem-carotídea&#34;&gt;Massagem carotídea&lt;/h2&gt;
 &lt;p&gt;Em detalhes &lt;a href=&#34;../medicina/massagem-carotidea/index.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;pill-in-the-pocket-para-taquicardia-supraventricular&#34;&gt;Pill-in-the-pocket para taquicardia supraventricular⁴&lt;/h2&gt;
-&lt;p&gt;Para pacientes sem cardiopatia estrutural ou distúrbios de condução e que já conhecem o diagnóstico de FA e fizeram teste hospitalar da estratégia, há algumas opções para uso emergencial-doméstico:&lt;/p&gt;
+&lt;h2 id=&#34;pill-in-the-pocket&#34;&gt;Pill-in-the-pocket⁴&lt;/h2&gt;
+&lt;p&gt;Para pacientes sem cardiopatia estrutural ou distúrbios de condução e que já conhecem o diagnóstico de FA é possível adotar a seguinte estratégia:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;600 mg de propafenona ou 450 mg se massa corporal menor que 70 kg.&lt;/li&gt;
 &lt;li&gt;300mg de flecainida ou 200mg se massa corporal menor que 70kg.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Ambas estratégias necessitam de repouso por 4 horas após a administração. Na segunda hora há resolução dos sintomas em 84% dos pacientes.&lt;/p&gt;
+&lt;p&gt;Ambas necessitam de repouso por 4 horas após a administração. Na segunda hora há resolução dos sintomas em 84% dos pacientes.&lt;/p&gt;
+&lt;p&gt;Uma vez realizada com sucesso e sem reações adversas em regime hospitalar, faça a prescrição para uso emergencial-doméstico.&lt;/p&gt;
 &lt;h2 id=&#34;mais-em-breve&#34;&gt;Mais em breve&amp;hellip;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Cardioversão elétrica&lt;/li&gt;
+&lt;li&gt;Detalhes da cardioversão elétrica&lt;/li&gt;
 &lt;li&gt;Como realizar manobras&lt;/li&gt;
 &lt;li&gt;Guia rápido de preparo medicamentoso com ampolas usadas no Brasil&lt;/li&gt;
 &lt;li&gt;mais&amp;hellip;&lt;/li&gt;
@@ -82,7 +83,7 @@
 &lt;p&gt;Errado!&lt;/p&gt;
 &lt;p&gt;Durante a formação acadêmica em medicina, uma das maiores, senão a maior lacuna é o aprendizado da correta analgesia e o conhecimento da dor associada aos procedimentos quotidianos.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-a-dia médico&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;benzetacil-tabu-ou-despreparo&#34;&gt;Benzetacil, tabu ou despreparo?&lt;/h2&gt;
+&lt;h2 id=&#34;benzetacil-tabu-ou-despreparo&#34;&gt;Benzetacil: tabu ou despreparo?&lt;/h2&gt;
 &lt;p&gt;A famosa e &lt;em&gt;braba&lt;/em&gt; Benzentacil, dolorosa, humilhante e sinônimo de penitência. Sua administração intramuscular no &lt;em&gt;gluteus maximus&lt;/em&gt; é conhecida pela dor intensa. A solução está por aí já a algum tempo¹ ²:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
@@ -152,7 +153,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
     
     
@@ -178,6 +179,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {
@@ -248,7 +250,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
   &lt;div class=&#34;carouselslide&#34;&gt;
     &lt;ul&gt;
@@ -348,6 +350,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {
@@ -669,7 +672,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
     &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
 
 
@@ -695,6 +698,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {
@@ -746,7 +750,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
     &lt;button type=&#34;button&#34; id=&#34;anterior2&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo2&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
 
 
@@ -772,6 +776,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {
@@ -830,8 +835,11 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/anatomia/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/medicina/anatomy.png&#34; alt=&#34;Anatomy Learning&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Iniciando em anatomia? Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto livre, open-source e em WebGL.&lt;/p&gt;
-&lt;p&gt;Ao avançar, não perca seu tempo, basta um bom atlas cadavérico como o Nielsen e o bom e velho Grays Anatomy. O livro, não a série.&lt;/p&gt;
+&lt;p&gt;Iniciando em anatomia?&lt;/p&gt;
+&lt;p&gt;Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto com versão aberta em WebGL.&lt;/p&gt;
+&lt;p&gt;Os aplicativos Android e iPhone são pagos, mas o acesso Web é grátis.&lt;/p&gt;
+&lt;p&gt;Ao avançar, não perca seu tempo, basta um bom atlas cadavérico como o Nielsen e o bom e velho Grays Anatomy. O livro, não a série 🤣.&lt;/p&gt;
+&lt;p&gt;Com relação a prática, eu recomendo fazer o que eu fiz, buscar fazer um rodízio em uma unidade do SVO ou IML, se conseguir.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
 &lt;ol&gt;
@@ -1203,7 +1211,7 @@ function calcular() {
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
   
   
@@ -1273,6 +1281,7 @@ function calcular() {
 
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {
@@ -1522,7 +1531,7 @@ function fechardialogo() {
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
     
     
@@ -1537,6 +1546,7 @@ function fechardialogo() {
 
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {
@@ -2048,46 +2058,14 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/sobre/</guid>
 		<description>
 
-&lt;br&gt;
-&lt;div style=&#34;display:flex&#34;&gt;
-&lt;span class=&#34;etiqueta&#34;&gt;
-  &#34;Aceite tudo como é.&#34; 
-  &lt;br&gt;
-  Miyamoto Musashi 
-  &lt;br&gt;宮本 武蔵
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
-  const item = document.querySelector(&#39;h1&#39;);
-  item.classList.add(&#39;show&#39;);
-});
-&lt;/script&gt;
 
-&lt;p&gt;Um aprendiz estoicista.&lt;/p&gt;
-&lt;p&gt;Estudante de medicina, &lt;a href=&#34;../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- [Não uso redes sociais e evito amizades e conversas apenas virtuais](/redes-sociais/index.html). --&gt;
-&lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
-&lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;interesses&#34;&gt;Interesses&lt;/h2&gt;
-&lt;p&gt;Meu interesse flutua demais. Sempre adiciono algo e raramente perco um interesse.&lt;/p&gt;
-&lt;p&gt;Vamos ver onde vai parar 😂.&lt;/p&gt;
-&lt;h2 id=&#34;programação&#34;&gt;Programação&lt;/h2&gt;
-&lt;p&gt;Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff.&lt;/p&gt;
-&lt;p&gt;Nesta ordem.&lt;/p&gt;
-&lt;h2 id=&#34;nas-redes&#34;&gt;Nas redes&lt;/h2&gt;
-&lt;p&gt;Se tem sugestão assunto para o site, me contacte pelo &lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Às vezes filmo bobagens e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Meus projetos estão no &lt;a href=&#34;https://github.com/EstalineCCCP&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
     
     
@@ -2104,11 +2082,11 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     
     
       &lt;div class=&#34;carouselslide&#34;&gt;
-        &lt;a href=&#34;../pix/eu2.webp&#34;&gt;
-          &lt;img src=&#34;../pix/eu2.webp&#34;&gt;&lt;/img&gt;
+        &lt;a href=&#34;../pix/eu3.jpg&#34;&gt;
+          &lt;img src=&#34;../pix/eu3.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Um típico representante nerd.&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
     
 
     
@@ -2122,8 +2100,20 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
       &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Você, lendo meu site kkkk&lt;/p&gt;&lt;/div&gt;
     
 
+    
+    
+    
+      &lt;div class=&#34;carouselslide&#34;&gt;
+        &lt;a href=&#34;../pix/eu2.webp&#34;&gt;
+          &lt;img src=&#34;../pix/eu2.webp&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Um típico representante nerd.&lt;/p&gt;&lt;/div&gt;
+    
+
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {
@@ -2169,7 +2159,42 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 
 &lt;br&gt;
 &lt;br&gt;
-&lt;img class=&#34;qrmonero&#34; src=&#34;../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;  
+&lt;em&gt;&#34;Aceite tudo como é.&#34;&lt;/em&gt;&lt;br&gt;Miyamoto Musashi&lt;br&gt;宮本 武蔵
+ &lt;/span&gt;
+&lt;/div&gt;
+
+  
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+  const item = document.querySelector(&#39;h1&#39;);
+  item.classList.add(&#39;show&#39;);
+});
+&lt;/script&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;Um aprendiz estoicista, estudante de medicina, &lt;a href=&#34;../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- [Não uso redes sociais e evito amizades e conversas apenas virtuais](/redes-sociais/index.html). --&gt;
+&lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
+&lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meus interesses flutuam demais. Sempre adiciono algo e raramente perco um interesse.&lt;/p&gt;
+&lt;p&gt;Vamos ver onde vai parar 😂.
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;programação&#34;&gt;Programação&lt;/h2&gt;
+&lt;p&gt;Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff.&lt;/p&gt;
+&lt;p&gt;Nesta ordem.&lt;/p&gt;
+&lt;h2 id=&#34;nas-redes&#34;&gt;Nas redes&lt;/h2&gt;
+&lt;p&gt;Se tem sugestão assunto para o site, me contacte pelo &lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Às vezes filmo bobagens e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meus projetos estão no &lt;a href=&#34;https://github.com/EstalineCCCP&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;img class=&#34;qrmonero&#34; src=&#34;../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;
 &lt;p class=&#34;center&#34;&gt;🤑 Minha carteira Monero&lt;/p&gt;
 &lt;p style=&#34;overflow: scroll&#34;&gt; 47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe&lt;/p&gt;
 </description>
@@ -2253,7 +2278,7 @@ function updateResult() {
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-
+  &lt;div class=&#34;carousel-conteudo&#34;&gt;
   
     
     
@@ -2279,6 +2304,7 @@ function updateResult() {
 
 
   
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
 (function() {

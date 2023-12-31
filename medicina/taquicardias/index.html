@@ -57,9 +57,8 @@
   <link rel="icon" href="../../favicon.ico">
   <meta name="description" content="A taquiarritmia é derivada? Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la per si pouco ajuda.
 Para distinguir de forma prática, utilize o corte de Karvonen¹:
-$$ 220 - idade $$
-Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é causa primária.
-Conduta² ³ graph TD; inicio(Hemodinâmica) -- estável Descartar intoxicação digitálica --&gt; estavel(Monitorização completa) estavel -- Taqui sinusal --&gt; fimTsinu(ansiólise e.">
+$$ FC_{corte} = 220 - idade $$
+Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é a causa da instabilidade clínica. Se menor, é derivada de outra patologia.">
   <meta name="keywords" content="Medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -132,7 +131,7 @@ Conduta² ³ graph TD; inicio(Hemodinâmica) -- estável Descartar intoxicação
     <li><a href="#conduta-">Conduta² ³</a></li>
     <li><a href="#alternativas">Alternativas</a></li>
     <li><a href="#massagem-carotídea">Massagem carotídea</a></li>
-    <li><a href="#pill-in-the-pocket-para-taquicardia-supraventricular">Pill-in-the-pocket para taquicardia supraventricular⁴</a></li>
+    <li><a href="#pill-in-the-pocket">Pill-in-the-pocket⁴</a></li>
     <li><a href="#mais-em-breve">Mais em breve&hellip;</a></li>
     <li><a href="#referências">Referências</a></li>
   </ul>
@@ -143,11 +142,11 @@ Conduta² ³ graph TD; inicio(Hemodinâmica) -- estável Descartar intoxicação
 <h2 id="a-taquiarritmia-é-derivada">A taquiarritmia é derivada?</h2>
 <p>Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la <em>per si</em> pouco ajuda.</p>
 <p>Para distinguir de forma prática, utilize o corte de Karvonen¹:</p>
-<p>$$ 220 - idade $$</p>
-<p>Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é causa primária.</p>
+<p>$$ FC_{corte} = 220 - idade $$</p>
+<p>Se a FC atual do paciente é maior que o previsto na equação, muito provavelmente a taquiarritmia é a causa da instabilidade clínica. Se menor, é derivada de outra patologia.</p>
 <h2 id="conduta-">Conduta² ³</h2>
 <pre class="mermaid">graph TD;
-    inicio(Hemodinâmica) -- estável <br> Descartar <br>intoxicação digitálica --> estavel(Monitorização completa)
+    inicio(Hemodinâmica) -- estável --> i(Descartar <br>intoxicação digitálica) --> estavel(Monitorização completa)
     estavel -- Taqui sinusal --> fimTsinu(ansiólise e.g. <br>Midazolam 5mg)
     estavel -- Taqui supra --> Ts(Massagem carotídea) -- persiste --> fimTs(adenosina 6mg) -- persiste --> fimTs2(adenosina 12mg) --> fimTs3(Cardioversão<br>elétrica)
     estavel -- Taqui ventricular --> Tq(amiodarona<br>5 a 10 mg/kg<br>OU<br>Lidocaína <br>1 a 1.5mg/Kg em 3min) -- persiste --> fimTq(Cardioversão<br>elétrica)
@@ -158,19 +157,20 @@ Conduta² ³ graph TD; inicio(Hemodinâmica) -- estável Descartar intoxicação
 </pre>
 
 <h2 id="alternativas">Alternativas</h2>
-<p>Verapamil 5mg/IV e a ssociação de diltiazém 120mg e propranolol 80mg por VO também podem ser utilizados para cardioversão química das taquicardias que dependem da junção AV.</p>
+<p>Verapamil 5mg/IV e associação de diltiazém 120mg e propranolol 80mg por VO também podem ser utilizados para cardioversão química das taquicardias que dependem da junção AV.</p>
 <h2 id="massagem-carotídea">Massagem carotídea</h2>
 <p>Em detalhes <a href="../../medicina/massagem-carotidea/index.html">aqui</a>.</p>
-<h2 id="pill-in-the-pocket-para-taquicardia-supraventricular">Pill-in-the-pocket para taquicardia supraventricular⁴</h2>
-<p>Para pacientes sem cardiopatia estrutural ou distúrbios de condução e que já conhecem o diagnóstico de FA e fizeram teste hospitalar da estratégia, há algumas opções para uso emergencial-doméstico:</p>
+<h2 id="pill-in-the-pocket">Pill-in-the-pocket⁴</h2>
+<p>Para pacientes sem cardiopatia estrutural ou distúrbios de condução e que já conhecem o diagnóstico de FA é possível adotar a seguinte estratégia:</p>
 <ol>
 <li>600 mg de propafenona ou 450 mg se massa corporal menor que 70 kg.</li>
 <li>300mg de flecainida ou 200mg se massa corporal menor que 70kg.</li>
 </ol>
-<p>Ambas estratégias necessitam de repouso por 4 horas após a administração. Na segunda hora há resolução dos sintomas em 84% dos pacientes.</p>
+<p>Ambas necessitam de repouso por 4 horas após a administração. Na segunda hora há resolução dos sintomas em 84% dos pacientes.</p>
+<p>Uma vez realizada com sucesso e sem reações adversas em regime hospitalar, faça a prescrição para uso emergencial-doméstico.</p>
 <h2 id="mais-em-breve">Mais em breve&hellip;</h2>
 <ol>
-<li>Cardioversão elétrica</li>
+<li>Detalhes da cardioversão elétrica</li>
 <li>Como realizar manobras</li>
 <li>Guia rápido de preparo medicamentoso com ampolas usadas no Brasil</li>
 <li>mais&hellip;</li>

@@ -544,6 +544,9 @@ ol, ul {
   margin-right: auto ;
   max-width: 80% ;
 }
+ul {
+  list-style-type: none;
+} 
 li:hover {
   background-size: cover;
   background: var(--fundo-input) ;
@@ -664,20 +667,59 @@ p {
 
 /* CAROUSEL CARROSSEIS */
 .carousel {
+  --largura: 60vw;
+  --carouselheight: calc(var(--largura) * 2 / 3);
   border-radius: 7px;
+  border: 1px solid var(--bordas);
   background: var(--sticker-fundo);
-  padding: 0.2em;
   margin-left: auto ;
   margin-right: auto ;
-  max-width: 80%;
-  border: 1px solid var(--bordas);
-}
-.carouselslide { /* Pega ambas carousel como carouselitem */
+  width: var(--largura); 
+  display: block;
+  height: var(--carouselheight);
   overflow: hidden;
+  /*
+  max-width: 80%; 
+  */
+}
+.button-container {
+ /* 
+  align: center;
+  margin: auto;
+  margin-top: none;
+  margin-bottom: none;
+  width: 60%;
+  height: 200px;
+*/
+  justify-content: space-between;
+  height: calc(var(--carouselheight) * 1 / 10 );
+  display: flex;
+}
+.carousel-conteudo {
+  height: calc(var(--carouselheight) * 9 / 10 );
+}
+button[id^="proximo"], button[id^="anterior"]{
+ /* 
+  color: gray;
+  */
+  flex: 1;
+  padding: 0%;
+  margin: 0%;
+  max-height: 90%;
+  font-weight: bold;
+  font-size: 80%;
+}
+.carouselslide { 
+/*  
+  overflow: hidden;
+  height: 80%;
   align-content: center;
+  object-fit: cover;
+  align-content: center;
+*/
+  display: flex;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  height: 85%;
 }
 .carouselslide iframe {
   display: block ;
@@ -686,32 +728,32 @@ p {
  /* Problema de tamanho... 'auto' não funciona, 70 do viewheight ficou bom, deixei sem. */
 }
 .carouselslide a{
+/*  
   background-color: none;
   align-content: center;
   width: 100%;
-  object-fit: fit;
+  object-fit: cover;
+*/
+  }
+.carouselslide a[href]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .legend p{
-  padding-top: 0.5em ;
-  padding-bottom: 0.5em ;
+  font-size: 80%;
   text-indent: 0%;
-  width: 90%;
   text-align: center;
-  margin: auto;
   color: var(--font); 
   font-style: italic;
+  margin: none;
+  padding: none;
+  /*
+  width: 90%;
+  */
 }
-button[id^="proximo"], button[id^="anterior"]{
-  flex: 1;
-  color: gray;
-  font-weight: bold;
-}
-.button-container {
-  align: center;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  width: 60%;
+.carouselslide a[href] img {
+  max-height: 100%;
 }
 
 /* Limpar campos de input
