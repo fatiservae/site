@@ -29,6 +29,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --texto-dim: #555555;
   --letragradiente: white;
   --katex-color: salmon ;
   --button-color: #21262d ;
@@ -54,6 +55,7 @@
   --termo: tomato ;
 }
 :root[data-tema="claro"] {
+  --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
   --button-color: #ebc7a2 ;
@@ -322,11 +324,7 @@ article {
 #search-output li {
   display: block;
 }
-#artlist {
-  gap: 20% ;
-  columns: 2 !important;
-  /*font-size: clamp(10px, 25%, 1em);*/
-}
+
 #files li{
   columns: 2;
   text-align: center;
@@ -356,7 +354,8 @@ a .matched-recipe{
 }
 input#search::placeholder {
   text-align: center;
-  color: var(--fundo-invertido) ;
+  /**/
+  color: var(--texto-dim) ;
 }
 .matched-recipe {
   font-size: 1.5em;
@@ -532,16 +531,21 @@ th, td {
 }
 
 /* UL OL LI UNORDERED LISTS */
+
 ul#artlist, 
 ol#artlist {
   /*
-  margin-left: auto ;
-  margin-right: auto ;
   max-width: 80% ;
   columns: 2 ;
-  gap: 0.5em ;
+  gap: 20% ;
   */
+  margin-left: auto ;
+  margin-right: auto ;
+  width: clamp(50vw, 50%, 70%);
+  max-width: 70%;
+  gap: 0.5em ;
   text-align: center;
+  columns: 2;
 }
 li {
   /*
@@ -933,12 +937,15 @@ div#counter {
     max-width: 95%;
   }
   #artlist {
-    columns: 1 !important;
+    /*
     gap: 1%;
+    */
     max-width: 95%;
     font-size: 110%;
+    columns: 1 !important;
   }
   #artlist ul, ol {
+    columns: 1 !important;
   }
   #files, #search-output {
     max-width: 95% ;
