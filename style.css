@@ -90,6 +90,7 @@ body {
   font-family: "SF Pro", "San Francisco Display Thin";
   font-weight: normal ;
   font-size: 1.2em ;
+  padding: 0%;
 }
 
 .importante {
@@ -531,32 +532,51 @@ th, td {
 }
 
 /* UL OL LI UNORDERED LISTS */
-#artlist ul, 
-#artlist ol {
+ul#artlist, 
+ol#artlist {
+  /*
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80% ;
   columns: 2 ;
   gap: 0.5em ;
+  */
+  text-align: center;
+}
+li {
+  /*
+  padding: 0%;
+  */
 }
 ol, ul {
+  padding-left: 5%;
+  font-size: 100%;
+  /*
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80% ;
+  */
 }
 ul {
   list-style-type: none;
 } 
 li:hover {
-  background-size: cover;
   background: var(--fundo-input) ;
+  background-size: cover;
   border-radius: 4px ;
   list-style-type: "+  ";
 }
-li:before{
+li::before{
+  /*
+  margin-left: 0%;
+  align: start;
+  padding: 0%;
   font-weight: bold ;
   color: var(--fundo-input) ;
+  width: 10px;
+  */
 }
+
 
 #autor{
   color: var(--autor) ; 
@@ -890,7 +910,6 @@ div#counter {
 
 @media only screen and (max-width: 800px){
   ul {
-    font-size: 0.5em;
     columns: 1 !important;
   }
   .katex-html {
@@ -938,7 +957,6 @@ div#counter {
     font-size: 115%;
   }
   nav#TableOfContents {
-    font-size: 160%;
   }
 }
 /*
