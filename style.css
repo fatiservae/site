@@ -531,14 +531,23 @@ th, td {
 }
 
 /* UL OL LI UNORDERED LISTS */
-
+.listing-list ul{
+  /*
+  text-align: center;
+  */
+}
+.listing-list li{
+  margin-left: auto;
+  margin-right: auto;
+  width: clamp(100px, 50%, 85%);
+}
 ul#artlist, 
 ol#artlist {
   /*
   max-width: 80% ;
   columns: 2 ;
   gap: 20% ;
-  */
+    */
   margin-left: auto ;
   margin-right: auto ;
   width: clamp(50vw, 50%, 70%);
@@ -965,6 +974,75 @@ div#counter {
   }
   nav#TableOfContents {
   }
+  .carousel {
+    --largura: 95vw;
+    /*
+    --carouselheight: calc(var(--largura) * 2 / 3);
+    border-radius: 7px;
+    border: 1px solid var(--bordas);
+    background: var(--sticker-fundo);
+    margin-left: auto ;
+    margin-right: auto ;
+    width: var(--largura); 
+    display: block;
+    height: var(--carouselheight);
+    overflow: hidden;
+    */
+  }
+  .button-container {
+   /* 
+    justify-content: space-between;
+    height: calc(var(--carouselheight) * 1 / 10 );
+    display: flex;
+  */
+  }
+  .carousel-conteudo {
+   /* 
+    height: calc(var(--carouselheight) * 9 / 10 );
+  */
+  }
+  button[id^="proximo"], button[id^="anterior"]{
+   /* 
+    flex: 1;
+    padding: 0%;
+    margin: 0%;
+    max-height: 90%;
+    font-weight: bold;
+    font-size: 80%;
+    */
+  }
+  .carouselslide { 
+  /*  
+    display: flex;
+    justify-content: center;
+    height: 85%;
+  */
+  }
+  .carouselslide a{
+    }
+  .carouselslide a[href]{
+  /*  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   */
+  }
+  .legend p{
+    /*
+    font-size: 80%;
+    text-indent: 0%;
+    text-align: center;
+    color: var(--font); 
+    font-style: italic;
+    margin: none;
+    padding: none;
+    */
+  }
+  .carouselslide a[href] img {
+    /*
+    max-height: 100%;
+    */
+  }
 }
 /*
 @media (min-width: 55em) {
@@ -1029,4 +1107,11 @@ div#counter {
   font-weight: 400;
   src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.svg#San Francisco Display Bold") format("svg")
 }
-
+.scalidraw {
+  display: flex;
+}
+.scalidraw svg{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95vw;
+}

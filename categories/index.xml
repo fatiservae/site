@@ -462,7 +462,7 @@ ul {
 		<guid>https://www.jeffersontorres.com.br/files/</guid>
 		<description>&lt;div style=&#34;display:flex; align-content:center;&#34;&gt;
 &lt;span class=&#34;etiqueta&#34;&gt;
-&lt;span style=&#34;color: red; background: black; border-radius: 7px; padding-right: 1%;padding-letf: 1%;&#34;&gt; ⚠️ ATENÇÃO &lt;/span&gt;
+⚠️
 &lt;br&gt;
 Para os arquivos guardados por algum direito autoral, ao clicar você será levado a respectiva página de aquisição.
 &lt;br&gt;
@@ -1162,8 +1162,7 @@ function calcular() {
 		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/ciencia/canais-yt/</guid>
-		<description>&lt;p&gt;Clique nos nomes dos canais para redirecionar ao YouTube.&lt;/p&gt;
-&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
 &lt;h3 id=&#34;eugene-kuthoriansky&#34;&gt;Eugene Kuthoriansky&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@EugeneKhutoryansky&#34;&gt;https://www.youtube.com/@EugeneKhutoryansky&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.&lt;/p&gt;
@@ -1188,6 +1187,18 @@ function calcular() {
 &lt;p&gt;Costumo buscar muitos canais de cozinha. Infelizmente, programas como Master Chef e outros arruinaram a cozinha amadora nos últimos anos. Muito apelo midiático e foco em &lt;em&gt;reality drama&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Chef Jean é antigo no ramo! Muito! E ao contrário de Gordon Ramsay, não tem opiniões fortes, não enche o saco com receita certa/errada e é a pessoa mais descontraída que já vi na vida!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Remeber: eat butter!! Mama mia!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;geopolítica&#34;&gt;Geopolítica&lt;/h2&gt;
+&lt;h3 id=&#34;britmonkey&#34;&gt;Britmonkey&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@BritMonkey&#34;&gt;https://www.youtube.com/@BritMonkey&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Um britânico que começou um canal despretencioso com temas rápidos e assertivos e cresceu como um bom documentarista independente.&lt;/p&gt;
+&lt;p&gt;Defensor ferrenho do Georgismo, tem sacadas incríveis e um ponto de vista bem curado sobre geopolítica e história.&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi, na verdade, vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma &#34;rainha&#34; que de importante só tem a herança genética. Questione-se.&lt;br&gt;Pense.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
 </description>
 	</item>
 	
@@ -2370,15 +2381,25 @@ function updateResult() {
 		<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/iriri.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+		<description>
+
+
+&lt;div id=&#34;img-div&#34;&gt;
+  &lt;img src=&#34;../pix/iriri.jpg&#34;&gt;&lt;/img&gt;
+  &lt;p&gt;Pousada Barla Vento&lt;/p&gt;
+&lt;/div&gt;
+
+
+
 &lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
-&lt;p&gt;É longe de vitória, 2h de carro.&lt;/p&gt;
-&lt;p&gt;Só tem a praia e restaurantes, parece fraco de festas.&lt;/p&gt;
-&lt;p&gt;Mas o bom é que da pra visitar durante o dia e na volta passar por Guarapari.&lt;/p&gt;
+&lt;p&gt;Litoral sul do estado, longe de vitória umas 2h de carro.&lt;/p&gt;
+&lt;p&gt;Iriri em si é pequena e dá pra alternar de praia a pé.&lt;/p&gt;
+&lt;p&gt;Só tem a praia e restaurantes, parece fraco de festas. A praia mais isolada é Santa Helena.&lt;/p&gt;
+&lt;p&gt;O bom é que da pra visitar durante o dia e na volta passar por Guarapari.&lt;/p&gt;
 &lt;p&gt;Os hotéis são simples mas bem avaliados. Na verdade a praia é pequena.&lt;/p&gt;
 &lt;h3 id=&#34;em-julho-de-2023&#34;&gt;Em julho de 2023:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pousada boa que fica bem na &amp;ldquo;penísula&amp;rdquo; da praia: &lt;a href=&#34;http://www.pousadabarlavento.com.br/&#34;&gt;http://www.pousadabarlavento.com.br/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pousada boa que fica bem na &amp;ldquo;penísula&amp;rdquo; da praia: &lt;a href=&#34;http://www.pousadabarlavento.com.br/&#34;&gt;http://www.pousadabarlavento.com.br/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
 	</item>

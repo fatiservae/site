@@ -72,7 +72,14 @@
     "name": "On-The-Eletrodynamics-of-Moving-Bodies-Einstein-1905"
   },
   {
-	"name": "Structure of Scientific Revolutions - Thomas Kuhn - 2012",
-	"path": "https://www.amazon.com.br/Structure-Scientific-Revolutions-Thomas-Kuhn/dp/0226458083"
-	}
+    "name": "Structure of Scientific Revolutions - Thomas Kuhn - 2012",
+    "path": "https://www.amazon.com.br/Structure-Scientific-Revolutions-Thomas-Kuhn/dp/0226458083"
+  },
+  {
+    "name": "Revista Feminina - Diabetes Mellitus Gestacional 2019",
+    "path": "Medicina/febrasgo-feminina-diabetes-mellitus-2019.pdf",
+    "size": "3.80 MB",
+    "extension": "pdf",
+    "subjects": [ "Medicina", "Obstetrícia"]
+  }
 ]
