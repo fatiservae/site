@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Por Trás De Toda Teoria Conspiratória | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="A ilusão nada mais é que a realidade ocultada.
+Como a mágica da advinhação funciona Num típico show de mágicas não pode faltar o número da boa e velha carta adivinhada:
+O mágico te entrega o baralho e pede que ele seja embaralhado.
+Solicita que você retire uma carta e guarde consigo, sem revelar qual é.
+...
+Ele então faz uma graça qualquer e pede que você revele sua carta.">
+  <meta name="keywords" content="Filosofia">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌 Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">📝 Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">📁 Arquivos</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Destinos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
+      
+    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
+      
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+<h1>Por trás de toda teoria conspiratória</h1>
+ 
+
+
+
+
+
+<div id="img-div">
+  <img src="../../pix/magician.jpg"></img>
+  <p>A ilusão nada mais é que a realidade ocultada.</p>
+</div>
+
+
+
+<h2 id="como-a-mágica-da-advinhação-funciona">Como a mágica da advinhação funciona</h2>
+<p>Num típico show de mágicas não pode faltar o número da boa e velha carta adivinhada:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+O mágico te entrega o baralho e pede que ele seja embaralhado.<br>
+Solicita que você retire uma carta e guarde consigo, sem revelar qual é.<br>
+...<br>
+Ele então faz uma graça qualquer e pede que você revele sua carta.<br>
+Após isso, manda que você olhe debaixo da mesa:<br>
+<strong>Há uma carta idêntica a sua!</strong>
+ </span>
+</div>
+
+
+<p>Como isto aconteceu?</p>
+<p>Simples: para cada carta do baralho ele tem uma guardada em algum lugar. Debaixo da mesa, outra no bolso, uma terceira na manga, mais uma no paletó&hellip;você entendeu.</p>
+<p>Aliás, baralhos específicos para praticar mágica tem cartas reduziadas, justamente para facilitar ao aprendiz.</p>
+<p>A grande habilidade do mágico é, na verdade, a <em>memorização</em>.</p>
+<h2 id="por-que-as-elites-parecem-sempre-se-beneficiar-de-toda-situação">Por que as elites parecem sempre se beneficiar de toda situação?</h2>
+<p>Você confere as notícias e, se parar bem pra pensar, não importa a catástrofe, o desastre, a emergência ou a bárbarie: as elites mundiais parecem inafetadas, capazes de ainda tirar proveito de toda situação.</p>
+<p>Como isso é possível?</p>
+<p>Esta capacidade é a mesma do mágico. As pessoas comuns raramente tem múltiplos planos e saídas para as diversas situações da vida. Como demonstrou B.F. Skinner¹, <strong>somos seres altamente mecanizados</strong>, incapazes de alterar nosso <em>estado-resposta</em> de acordo com diferentes <em>situações-problemas</em>, a menos que tenhamos adquirido esta habilidade por algum processo formal de treino ou de forma mais natural através da nossa herança cultural.</p>
+<h2 id="como-chegaram-a-tal-capacidade">Como chegaram a tal capacidade</h2>
+<p>A maioria das elites é composta por uma rica gama de pessoas versadas em diferentes tópicos da vida e do conhecimento. Por exemplo, a elite judaica sionista construiu, ao longo das décadas, um sólido sistema de educação que inicialmente visava transmitir o conhecimento cultural-religioso e foi, ao longo dos séculos, se tornando eficaz também na transmissão de conhecimentos práticos, financeiros e acadêmicos. Citei a cultura judaica pela farta documentação deste fenômeno, como demonstrado por Botticini².</p>
+<h2 id="epílogo">Epílogo</h2>
+<p>Quase toda cultura milenar se ajustou em algum grau à técnica das múltiplas saídas. No frigir dos ovos, trata-se de uma praticidade natural, fruto da criatividade e do instinto de sobrevivência do ser humano.</p>
+<p>O problema reside na análise retrógrada, quando olhamos para os problemas quotidianos e não entendemos porque algumas pessoas se sobressaem e são mais hábeis em tirar proveito dos sistemas estabelecidos.</p>
+<p>Notadamente, temos o fenômeno das <em>teorias conspiratórias</em>: na falta de conhecimento sobre este fenômeno, a pessoa tende a crer numa explicação moralista e surreal, já que tudo parece um absurdo se visto de fora. Se o observável em si é anormal, qual o problema em aceitar explicações ainda mais anormais?</p>
+<h2 id="saída">Saída</h2>
+<p>A solução ideal para a assimetria de habilidades entre povos milenarmente treinados na <em>técnica das múltiplas saídas</em> e pessoas não versadas na prática é a <strong>edução em massa</strong>. Infelizmente, o estado atual da excessiva parcialidade da informação, comunicação de alta velocidade e vida efêmera vão ao contrário da solução.
+<br>
+<br>
+<br>
+<span style="padding-left: 10%"><em>dura verum, sed verum</em>.</span></p>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>SKINNER, Burrhus Friederich. <strong>Beyond Freedom and Dignity</strong>. New York: Bantam, Vintage Book, 1973.</li>
+<li>BOTTICINI, Maristella; ECKSTEIN, Zvi. <strong>The chosen few: How education shaped Jewish history</strong>. 70-1492. Princeton University Press, 2015.</li>
+</ol>
+
+
+
+<br>
+        <hr>
+        <div style="clear:both" class=taglist><a id="tag_filosofia" href="https://www.jeffersontorres.com.br/tags/filosofia">Filosofia</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>
