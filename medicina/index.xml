@@ -102,7 +102,6 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 
 &lt;/div&gt;
 
-&lt;h2 id=&#34;dobutamina&#34;&gt;Dobutamina&lt;/h2&gt;
 </description>
 	</item>
 	
@@ -936,7 +935,16 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<pubDate>Tue, 12 Dec 2023 09:48:10 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/anatomia/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/medicina/anatomy.png&#34; alt=&#34;Anatomy Learning&#34;&gt;&lt;/p&gt;
+		<description>
+
+
+&lt;div id=&#34;img-div&#34;&gt;
+  &lt;img src=&#34;../pix/medicina/anatomy.png&#34;&gt;&lt;/img&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
 &lt;p&gt;Iniciando em anatomia?&lt;/p&gt;
 &lt;p&gt;Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto com versão aberta em WebGL.&lt;/p&gt;
 &lt;p&gt;Os aplicativos Android e iPhone são pagos, mas o acesso Web é grátis.&lt;/p&gt;
@@ -2185,6 +2193,41 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/sobre/</guid>
 		<description>
 
+&lt;br&gt;
+&lt;br&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;  
+&lt;em&gt;&#34;Aceite tudo como é.&#34;&lt;/em&gt;&lt;br&gt;Miyamoto Musashi&lt;br&gt;宮本 武蔵
+ &lt;/span&gt;
+&lt;/div&gt;
+
+  
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
+  const item = document.querySelector(&#39;h1&#39;);
+  item.classList.add(&#39;show&#39;);
+});
+&lt;/script&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;Um aprendiz estoicista, estudante de medicina, &lt;a href=&#34;../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- [Não uso redes sociais e evito amizades e conversas apenas virtuais](/redes-sociais/index.html). --&gt;
+&lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
+&lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meus interesses flutuam demais. Sempre adiciono algo e raramente perco um interesse.&lt;/p&gt;
+&lt;p&gt;Vamos ver onde vai parar 😂.
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;programação&#34;&gt;Programação&lt;/h2&gt;
+&lt;p&gt;Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff.&lt;/p&gt;
+&lt;p&gt;Nesta ordem.&lt;/p&gt;
+&lt;h2 id=&#34;nas-redes&#34;&gt;Nas redes&lt;/h2&gt;
+&lt;p&gt;Se tem sugestão assunto para o site, me contacte pelo &lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Às vezes filmo bobagens e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meus projetos estão no &lt;a href=&#34;https://github.com/EstalineCCCP&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
 
  
 &lt;div class=&#34;carousel&#34;&gt;
@@ -2284,41 +2327,6 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
   &lt;/script&gt;
 
 
-&lt;br&gt;
-&lt;br&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
-  &lt;span class=&#34;etiqueta&#34;&gt;  
-&lt;em&gt;&#34;Aceite tudo como é.&#34;&lt;/em&gt;&lt;br&gt;Miyamoto Musashi&lt;br&gt;宮本 武蔵
- &lt;/span&gt;
-&lt;/div&gt;
-
-  
-&lt;script&gt;
-document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
-  const item = document.querySelector(&#39;h1&#39;);
-  item.classList.add(&#39;show&#39;);
-});
-&lt;/script&gt;
-
-&lt;br&gt;
-&lt;br&gt;
-&lt;p&gt;Um aprendiz estoicista, estudante de medicina, &lt;a href=&#34;../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- [Não uso redes sociais e evito amizades e conversas apenas virtuais](/redes-sociais/index.html). --&gt;
-&lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
-&lt;p&gt;Me chame pessoalmente para um assunto interessante e uma &lt;a href=&#34;../receitas/cervejas/index.html&#34;&gt;cerveja&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Meus interesses flutuam demais. Sempre adiciono algo e raramente perco um interesse.&lt;/p&gt;
-&lt;p&gt;Vamos ver onde vai parar 😂.
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&#34;programação&#34;&gt;Programação&lt;/h2&gt;
-&lt;p&gt;Linguagens de programação que mais escrevo: Rust, Shell, C/C++, Javascript, HTML e Roff.&lt;/p&gt;
-&lt;p&gt;Nesta ordem.&lt;/p&gt;
-&lt;h2 id=&#34;nas-redes&#34;&gt;Nas redes&lt;/h2&gt;
-&lt;p&gt;Se tem sugestão assunto para o site, me contacte pelo &lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Às vezes filmo bobagens e coloco no &lt;a href=&#34;https://www.youtube.com/@scientialiberat/videos&#34;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Meus projetos estão no &lt;a href=&#34;https://github.com/EstalineCCCP&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;a href=&#34;../pix/myMonero.png&#34;&gt;
