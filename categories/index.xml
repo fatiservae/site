@@ -41,7 +41,7 @@ Após isso, manda que você olhe debaixo da mesa:&lt;br&gt;
 
 &lt;p&gt;Como isto aconteceu?&lt;/p&gt;
 &lt;p&gt;Simples: para cada carta do baralho ele tem uma guardada em algum lugar. Debaixo da mesa, outra no bolso, uma terceira na manga, mais uma no paletó&amp;hellip;você entendeu.&lt;/p&gt;
-&lt;p&gt;Aliás, baralhos específicos para praticar mágica tem cartas reduziadas, justamente para facilitar ao aprendiz.&lt;/p&gt;
+&lt;p&gt;Aliás, baralhos específicos para praticar mágica tem cartas reduzidas, justamente para facilitar ao aprendiz.&lt;/p&gt;
 &lt;p&gt;A grande habilidade do mágico é, na verdade, a &lt;em&gt;memorização&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;por-que-as-elites-parecem-sempre-se-beneficiar-de-toda-situação&#34;&gt;Por que as elites parecem sempre se beneficiar de toda situação?&lt;/h2&gt;
 &lt;p&gt;Você confere as notícias e, se parar bem pra pensar, não importa a catástrofe, o desastre, a emergência ou a bárbarie: as elites mundiais parecem inafetadas, capazes de ainda tirar proveito de toda situação.&lt;/p&gt;
@@ -193,7 +193,7 @@ Depende do paciente, use seus seis anos de formação e avalie 😂.
 &lt;/div&gt;
 
 
-&lt;h2 id=&#34;botões-anestésicos-quando-unãou-usar&#34;&gt;Botões anestésicos: quando &lt;u&gt;não&lt;/u&gt; usar&lt;/h2&gt;
+&lt;h2 id=&#34;botões-anestésicos-quando-unãou-fazer&#34;&gt;Botões anestésicos: quando &lt;u&gt;não&lt;/u&gt; fazer&lt;/h2&gt;
 &lt;p&gt;Em muitos casos, fazemos o famoso botão anestésico previamente ao procedimento principal.&lt;/p&gt;
 &lt;p&gt;Considere sempre o seguinte:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
@@ -206,6 +206,17 @@ Se sim, você estará dobrando o sofrimento...evite!
 
 
 &lt;p&gt;A lógica neste caso é bem óbvia: &lt;strong&gt;de repente, aquele abcesso bolhoso a ser drenado via agulha grossa não necessita de botão anestésico e sim de uma entrada certeira.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;botões-anestésicos-como-fazer&#34;&gt;Botões anestésicos: como fazer&lt;/h2&gt;
+&lt;p&gt;Tendo em vista o tópico anterior, sabe-se que a analgesia injetável em si causa dor. A principal razão é a acidez dos compostos anestésicos locais.&lt;/p&gt;
+&lt;p&gt;A base Cochrane já recomenda o ajuste de pH dos anestésicos locais a algum tempo⁶. Porém, sua adoção é muito restrita a centros de excelência. Na verdade, a lidocaína e.g. é 1mil vezes mais ácida que o tecido subcutâneo⁷.&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+O preparo ideal é de 1ml de $ HCO_{3}^- $ a 8.4% para cada 10ml de anestésico com vasopressor⁷.&lt;br&gt;
+Porém, é possível ajustes intermediários sem cálculos complexos, tendo em vista que qualquer atenuação da acidez é melhor que nenhuma!
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
 &lt;h2 id=&#34;acesso-venoso-intraósseo&#34;&gt;Acesso venoso intraósseo&lt;/h2&gt;
 &lt;p&gt;Este procedimento pertence ao departamento da emergência e da medicina pré-hospitalar, portanto, seu problema maior não é a instalação imediata, na cena, e sim o correr do fluido nos minutos e horas que se seguem. Novamente, a lidocaína apresenta boa aplicação neste caso porque seu início de ação e duração são compatíveis com o &lt;em&gt;onset&lt;/em&gt; associado ao acesso intraósseo.&lt;/p&gt;
 &lt;p&gt;Assim:&lt;/p&gt;
@@ -222,11 +233,13 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Amir J, Ginat S, Cohen YH, Marcus TE, Keller N, Varsano I. Lidocaine as a diluent for administration of benzathine penicillin G. Pediatr Infect Dis J. 1998 Oct; 17 (10): 890-3. Disponível em: &lt;a href=&#34;https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx&#34;&gt;https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Zeydi AE, Khezri HD. Can lidocaine be safely used to reduce pain caused by intramuscular penicillin injections? A short literature review. Oman Med J. 2012 Jul; 27(4): 337. Disponível em: &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Brasil. Sociedade Brasileira de Cardiologia. Diretrizes brasileiras para o diagnóstico, tratamento e prevenção da febre reumática. Arq Bras Cardiol 2009; 93(3 supl.4): 1-18. Disponível em: &lt;a href=&#34;http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf&#34;&gt;http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Prefeitura Municipal de Campinas. Secretaria de Saúde. Departamento de Saúde. Departamento de Vigilância em Saúde. Nota técnica  Nº 001-2017 – SMS. Ref: Orientações para uso de penicilina benzatina associada a lidocaína 2% para gestantes com sífilis e seus parceiros. junho, 2017: 4p. Disponível em: &lt;a href=&#34;http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf&#34;&gt;http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ilicki J, Scholander J. Lidocaine can reduce the pain of intra-osseous fluid infusion. Crit Care. 2016 Jun 20;20(1):192. doi: 10.1186/s13054-016-1359-5. PMID: 27320792; PMCID: PMC4913427.&lt;/li&gt;
+&lt;li&gt;Amir J, Ginat S, Cohen YH, Marcus TE, Keller N, Varsano I. &lt;strong&gt;Lidocaine as a diluent for administration of benzathine penicillin&lt;/strong&gt;. G. Pediatr Infect Dis J. 1998 Oct; 17 (10): 890-3. Disponível em: &lt;a href=&#34;https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx&#34;&gt;https://journals.lww.com/pidj/Abstract/1998/10000/Lidocaine_as_a_diluent_for_administration_of.8.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Zeydi AE, Khezri HD. &lt;strong&gt;Can lidocaine be safely used to reduce pain caused by intramuscular penicillin injections? A short literature review&lt;/strong&gt;. Oman Med J. 2012 Jul; 27(4): 337. Disponível em: &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3464756/pdf/OMJ-D-12-00111.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brasil. Sociedade Brasileira de Cardiologia. &lt;strong&gt;Diretrizes brasileiras para o diagnóstico, tratamento e prevenção da febre reumática.&lt;/strong&gt; Arq Bras Cardiol 2009; 93(3 supl.4): 1-18. Disponível em: &lt;a href=&#34;http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf&#34;&gt;http://publicacoes.cardiol.br/consenso/2009/diretriz_febrereumatica_93supl04.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prefeitura Municipal de Campinas. Secretaria de Saúde. Departamento de Saúde. Departamento de Vigilância em Saúde. Nota técnica  Nº 001-2017 – SMS. &lt;strong&gt;Ref: Orientações para uso de penicilina benzatina associada a lidocaína 2% para gestantes com sífilis e seus parceiros&lt;/strong&gt;. junho, 2017: 4p. Disponível em: &lt;a href=&#34;http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf&#34;&gt;http://saude.campinas.sp.gov.br/saude/programas/protocolos/protocolo_mulher/2017/Nota_Tecnica_001_2017_Protocolo_de_Uso_de_Penicilina_Benzatina_associada_a_Lidocaina_para_Gestantes_com_Sifilis_e_Parceiros.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ilicki J, Scholander J. &lt;strong&gt;Lidocaine can reduce the pain of intra-osseous fluid infusion&lt;/strong&gt;. Crit Care. 2016 Jun 20;20(1):192. doi: 10.1186/s13054-016-1359-5. PMID: 27320792; PMCID: PMC4913427.&lt;/li&gt;
+&lt;li&gt;CEPEDA, M. Soledad et al. &lt;strong&gt;Adjusting the pH of lidocaine for reducing pain on injection&lt;/strong&gt;. Cochrane Database of Systematic Reviews, n. 12, 2010.&lt;/li&gt;
+&lt;li&gt;Frank SG, Lalonde DH. &lt;strong&gt;How acidic is the lidocaine we are injecting, and how much bicarbonate should we add?&lt;/strong&gt;. Can J Plast Surg. 2012 Summer;20(2):71-3. doi: 10.1177/229255031202000207. PMID: 23730153; PMCID: PMC3383550.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
