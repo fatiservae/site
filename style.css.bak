@@ -2,7 +2,7 @@
 /* Personalizadas */
   --letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff);
   --letragradiente-light: linear-gradient(45deg, black, darkred, var(--fonte));
-  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
+  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 30% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 0%, #bf398910 0, transparent 75%)) ;
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 40% 0%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #ffa70050 0, transparent 75%)) ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
@@ -29,10 +29,9 @@
 }
 
 :root[data-tema="escuro"] {
-  --strong-color: navajowhite ;
   --texto-dim: #555555;
   --letragradiente: white;
-  --katex-color: var(--strong-color);
+  --katex-color: salmon ;
   --button-color: #21262d ;
   --button-hover: #373e47 ;
   --headings: var(--blue) ;
@@ -44,6 +43,7 @@
   --separador: #383f48 ;
   --fonte: #a0acb9 ;
   --fonte-invertida: black;
+  --strong-color: white ;
   --frase: white ;
   --frase-show: gray ;
   --frase-hover: white ;
@@ -60,7 +60,7 @@
   --katex-color: black ;
   --button-color: #ebc7a2 ;
   --button-hover: #deadbb ;
-  --headings: black;
+  --headings: #591820 ;
   --sticker-fundo: var(--gradiente-light) ;
   --fundo: var(--white-solarized) ;
   --fundo-invertido: var(--git-hub-dark-back) ;
@@ -69,9 +69,9 @@
   --blue: #539bf5 ;
   --separador: gray ;
   --bordas: gray ;
-  --fonte: #303030;
+  --fonte: black;
   --fonte-invertida: var(--white-solarized);
-  --strong-color: #101010;
+  --strong-color: black ;
   --links: darkblue ;
   --links-visitados: var(--azul-google) ;
   --link-hover: black ;
@@ -89,9 +89,9 @@ body {
   max-width: 100vw ;
   scroll-behavior: smooth ;
   scrollbar-color: gray #151515 ;
-  font-family: "SF Mono", "San Francisco Display Thin";
+  font-family: "SF Pro", "San Francisco Display Thin";
   font-weight: normal ;
-  font-size: 1em ;
+  font-size: 1.2em ;
   padding: 0%;
 }
 
@@ -153,11 +153,9 @@ body {
 }
 .etiqueta {
   overflow: wrap;
-  margin-left: 5vw;
+  margin-left: auto;
   padding: 0.5em;
   margin-right: auto;
-  /*
-  */
   border: 1px solid var(--bordas);
   background: var(--sticker-fundo);
   border-radius: 5px;
@@ -165,12 +163,6 @@ body {
   max-width: 80%;
   overflow: hidden; 
   color: var(--sticker-font); 
-  transition: color 2s ease-in-out, font-size 2s ease-in-out, text-shadow 2s ease-in-out;
-}
-.etiqueta:hover{
-  color: var(--strong-color);
-  font-size: 110%;
-  font-weight: normal;
 }
 /*.sticker:hover {
   border-right: 1px solid tomato;
@@ -250,56 +242,35 @@ a[href]:visited:hover, a[href]:hover{
 
 /* PARAGRAFOS HEADING H1 H2 H3 */
 h1, h2, h3 {
-  /*
-  */
-  font-size: 110%;
   padding-top: 2em;
-  margin-left: 5vw;
   text-indent: 0% ;
-  font-weight: bold;
-  text-align: start;
+  font-weight: normal ;
+  text-align: center;
   color: var(--headings);
-  max-width: 90vw;
 }
 h1 {
-  padding: 0em;
   padding-top: 0%; 
-  font-size: 120%;
-}
-h3 {
-  font-size: 105%;
+  font-size: 2em;
 }
 
 /* DIVISOR SEPARADOR HR */
 hr {
-/* 
-*/
-  margin-top: 8%;
-  margin-bottom: 2%;
-  margin-left: clamp(5vw, 5%, 50%);
-  width: 45%;
   color: var(--separador);
-  align: left;
 }
-
 footer {
   text-align: center ;
   padding: 1em ;
 }
 
 img {
-  /*
-  */
-  margin-left: 1em;
   max-width: 90% ;
   max-height: 400px ;
+  margin: auto ;
   display: block ;
 }
 
 #img-div p{
-  margin-left: 5vw;
-  text-align: start;
-  padding-left: 5vw;
+  text-align: center;
   font-size: 0.8em;
   font-style:oblique;
 }
@@ -311,12 +282,10 @@ pre{
 }
 
 strong {
-  font-weight: bold;
-  /*
-  color: var(--strong-color) ; 
+  background: var(--letragradiente); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  */
+/*  color: var(--strong-color) ; */
 }
 
 .taglist {
@@ -370,10 +339,8 @@ a .matched-recipe{
 }
 
 #search {
-  /*
+  margin-left: auto ;
   margin-right: auto ;
-  */
-  margin-left: 5vw;
   display: block ;
   border: 1px solid var(--bordas) ; 
   background: var(--fundo-input) ;
@@ -565,19 +532,14 @@ th, td {
 
 /* UL OL LI UNORDERED LISTS */
 .listing-list ul{
-  text-align: start;
-  padding: 5vw;
-  margin-left: 0%;
+  /*
+  text-align: center;
+  */
 }
 .listing-list li{
-  /*
   margin-left: auto;
   margin-right: auto;
   width: clamp(100px, 50%, 85%);
-  */
-  max-width: 80vw;
-  padding: 0vw;
-  margin-left: 0%;
 }
 ul#artlist, 
 ol#artlist {
@@ -585,16 +547,14 @@ ol#artlist {
   max-width: 80% ;
   columns: 2 ;
   gap: 20% ;
+    */
   margin-left: auto ;
-  columns: 2;
   margin-right: auto ;
-  margin-left: 5vw;
-  margin-left: 5vw;
-  */
   width: clamp(50vw, 50%, 70%);
-  max-width: 90vw;
+  max-width: 70%;
   gap: 0.5em ;
-  text-align: start;
+  text-align: center;
+  columns: 2;
 }
 li {
   /*
@@ -602,29 +562,22 @@ li {
   */
 }
 ol, ul {
-  /*
-  font-size: 100%;
   padding-left: 5%;
+  font-size: 100%;
+  /*
   margin-left: auto ;
   margin-right: auto ;
+  max-width: 80% ;
   */
-  max-width: 90vw ;
-  padding-left: 5vw;
-  margin-left: 0%;
 }
 ul {
-  list-style-type: "  + ";
-  /*
   list-style-type: none;
-  */
 } 
 li:hover {
   background: var(--fundo-input) ;
   background-size: cover;
   border-radius: 4px ;
-  /*
   list-style-type: "+  ";
-  */
 }
 li::before{
   /*
@@ -639,27 +592,17 @@ li::before{
 
 
 #autor{
-  /*
-  padding-left: 20%;
-  */
-  margin-left: 15vw;
   color: var(--autor) ; 
+  padding-left: 20%;
   font-weight: normal;
   font-family: "San Francisco Display Thin";
 }
-#frase{
-  margin-left: 5vw;
-}
 #autor, #frase{
-  /*
-  padding-left: 20%;
+  text-indent: 0% !important;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-
-  */
-  text-indent: 0% !important;
-  max-width: 80vw;
-  text-align: start;
+  text-align: center ;
 }
 .frase{
   transition: color 2s ease-in-out, font-size 2s ease-in-out, text-shadow 2s ease-in-out;
@@ -692,7 +635,6 @@ li::before{
 
 img {
   border-radius: 5px ;
-  margin-left: 5vw;
 }
 
 /*input[type="text"],
@@ -730,13 +672,11 @@ button:active {
 }
 
 p {
-  /*
+  margin-left: auto;
   margin-right: auto;
   text-indent: 3%;
-  */
-  max-width: 80vw;
-  margin-left: 5vw;
-  text-align: start;
+  text-align: justify;
+  max-width: 80%;
 }
 #question-container {
   display: block ;
@@ -765,14 +705,13 @@ p {
   border-radius: 7px;
   border: 1px solid var(--bordas);
   background: var(--sticker-fundo);
+  margin-left: auto ;
+  margin-right: auto ;
   width: var(--largura); 
   display: block;
   height: var(--carouselheight);
   overflow: hidden;
-  margin-left: 5vw;
   /*
-  margin-left: auto ;
-  margin-right: auto ;
   max-width: 80%; 
   */
 }
@@ -834,18 +773,15 @@ button[id^="proximo"], button[id^="anterior"]{
   justify-content: center;
   align-items: center;
 }
-.legend {
-}
 .legend p{
   font-size: 80%;
+  text-indent: 0%;
+  text-align: center;
   color: var(--font); 
   font-style: italic;
-  margin: auto;
+  margin: none;
+  padding: none;
   /*
-  text-align: center;
-  margin: 0%;
-  text-indent: 0%;
-  padding-left: 5%;
   width: 90%;
   */
 }
@@ -866,6 +802,12 @@ input[type=number] {
 }
 input {
   text-align: center;
+}
+
+hr {
+  max-width: 25%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 /* TABLE OF CONTENT MENU DO ARTIGO SUMARIO */
@@ -905,21 +847,19 @@ nav#TableOfContents li:last-child::before {
 
 /* MENU BARRA FLUTUANTE */
 .barra {
-  /*
-  margin-right: auto;
-  font-size: 105%;
-  */
   background: var(--sticker-fundo) ;
   border: 1px solid var(--separador) ; 
-  margin-left: 5vw;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 1em;
   margin-top: 0.5em;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   max-width: 90%;
   align: center ;
+  font-size: 1rem;
   text-align: center;
-  border-radius: 4px ;
+  border-radius: 7px ;
   background-size: cover;
   font-weight: normal ;
 }
@@ -983,17 +923,13 @@ div#counter {
 
 @media only screen and (max-width: 800px){
   ul {
-    /*
     columns: 1 !important;
-    */
   }
   .katex-html {
-    /*
     font-size: 0.7em ;
-    */
   }
   body{
-    font-size: 105%;
+    font-size: 115%;
   }
   p {
     max-width: 96% ;
@@ -1003,7 +939,7 @@ div#counter {
     max-width: 95% !important;
   }
   .barra {
-    font-size: 105%;
+    font-size: 120%;
     max-width: 100% ;
   }
   #question-container {
@@ -1012,18 +948,13 @@ div#counter {
   #artlist {
     /*
     gap: 1%;
+    */
+    max-width: 95%;
     font-size: 110%;
     columns: 1 !important;
-    */
-    max-width: 100vw;
   }
   #artlist ul, ol {
-    /*
     columns: 1 !important;
-    */
-  }
-  #artlist li {
-    width: 100vw;
   }
   #files, #search-output {
     max-width: 95% ;
@@ -1045,14 +976,14 @@ div#counter {
   }
   .carousel {
     --largura: 95vw;
-    margin-left: auto ;
     /*
     --carouselheight: calc(var(--largura) * 2 / 3);
-    max-width: var(--largura); 
     border-radius: 7px;
     border: 1px solid var(--bordas);
     background: var(--sticker-fundo);
+    margin-left: auto ;
     margin-right: auto ;
+    width: var(--largura); 
     display: block;
     height: var(--carouselheight);
     overflow: hidden;

@@ -21,7 +21,7 @@
 
 &lt;div id=&#34;img-div&#34;&gt;
   &lt;img src=&#34;../pix/magician.jpg&#34;&gt;&lt;/img&gt;
-  &lt;p&gt;A ilusão nada mais é que a realidade ocultada.&lt;/p&gt;
+  &lt;p&gt;A ilusão nada mais é que a realidade mal compreendida.&lt;/p&gt;
 &lt;/div&gt;
 
 
@@ -30,20 +30,21 @@
 &lt;p&gt;Num típico show de mágicas não pode faltar o número da boa e velha carta adivinhada:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-O mágico te entrega o baralho e pede que ele seja embaralhado.&lt;br&gt;
-Solicita que você retire uma carta e guarde consigo, sem revelar qual é.&lt;br&gt;
+O mágico te entrega as cartas e pede que sejam embaralhadas.&lt;br&gt;
+Pede que você retire uma e guarde, sem revelar qual é.&lt;br&gt;
 ...&lt;br&gt;
-Ele então faz uma graça qualquer e pede que você revele sua carta.&lt;br&gt;
-Após isso, manda que você olhe debaixo da mesa:&lt;br&gt;
+Então, ele faz uma graça qualquer e pede que você revele sua carta.&lt;br&gt;
+Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 &lt;strong&gt;Há uma carta idêntica a sua!&lt;/strong&gt;
  &lt;/span&gt;
 &lt;/div&gt;
 
 
 &lt;p&gt;Como isto aconteceu?&lt;/p&gt;
-&lt;p&gt;Simples: para cada carta do baralho ele tem uma guardada em algum lugar. Debaixo da mesa, outra no bolso, uma terceira na manga, mais uma no paletó&amp;hellip;você entendeu.&lt;/p&gt;
+&lt;p&gt;Simples: para cada carta do baralho ele tem uma outra guardada em algum lugar. Debaixo da mesa, outra no bolso, uma terceira na manga, mais uma no paletó&amp;hellip;você entendeu.&lt;/p&gt;
 &lt;p&gt;Aliás, baralhos específicos para praticar mágica tem cartas reduzidas, justamente para facilitar ao aprendiz.&lt;/p&gt;
 &lt;p&gt;A grande habilidade do mágico é, na verdade, a &lt;em&gt;memorização&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Este truque simples se chama &lt;strong&gt;técnica das múltiplas saídas&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;por-que-as-elites-parecem-sempre-se-beneficiar-de-toda-situação&#34;&gt;Por que as elites parecem sempre se beneficiar de toda situação?&lt;/h2&gt;
 &lt;p&gt;Você confere as notícias e, se parar bem pra pensar, não importa a catástrofe, o desastre, a emergência ou a bárbarie: as elites mundiais parecem inafetadas, capazes de ainda tirar proveito de toda situação.&lt;/p&gt;
 &lt;p&gt;Como isso é possível?&lt;/p&gt;
@@ -176,7 +177,7 @@ Após isso, manda que você olhe debaixo da mesa:&lt;br&gt;
 
 
 &lt;p&gt;Entre as pessoas leigas há um consenso: &lt;strong&gt;médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Errado!&lt;/p&gt;
+&lt;p&gt;Será?!&lt;/p&gt;
 &lt;p&gt;Durante a formação acadêmica em medicina, uma das maiores, senão a maior lacuna é o aprendizado da correta analgesia e o conhecimento da dor associada aos procedimentos quotidianos.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-a-dia médico&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;benzetacil-tabu-ou-despreparo&#34;&gt;Benzetacil: tabu ou despreparo?&lt;/h2&gt;
@@ -512,15 +513,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 		<pubDate>Wed, 27 Dec 2023 19:07:14 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/receitas/pao-de-queijo/</guid>
-		<description>
-
-&lt;style&gt;
-ul {
-  padding-left: 30%;
-}
-&lt;/style&gt;
-
-&lt;h2 id=&#34;ingredientes&#34;&gt;Ingredientes&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;ingredientes&#34;&gt;Ingredientes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Manteiga;&lt;/li&gt;
 &lt;li&gt;Ovos;&lt;/li&gt;
@@ -1312,7 +1305,7 @@ function calcular() {
 &lt;p&gt;Defensor ferrenho do Georgismo, tem sacadas incríveis e um ponto de vista bem curado sobre geopolítica e história.&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi, na verdade, vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma &#34;rainha&#34; que de importante só tem a herança genética. Questione-se.&lt;br&gt;Pense.
+Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi, na verdade, vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma &#34;rainha&#34; que de importante só tem a herança genética. &lt;br&gt;Questione. Pense.
  &lt;/span&gt;
 &lt;/div&gt;
 
@@ -2328,9 +2321,11 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 &lt;p&gt;e-mail: &lt;a href=&#34;mailto:jefferson.science@gmail.com&#34;&gt;jefferson.science@gmail.com&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;br&gt;
+&lt;a href=&#34;../pix/myMonero.png&#34;&gt;
 &lt;img class=&#34;qrmonero&#34; src=&#34;../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;
-&lt;p class=&#34;center&#34;&gt;🤑 Minha carteira Monero&lt;/p&gt;
-&lt;p style=&#34;overflow: scroll&#34;&gt; 47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe&lt;/p&gt;
+&lt;/a&gt;
+&lt;p&gt;🤑 Minha carteira Monero&lt;/p&gt;
+&lt;p style=&#34;width: 70vw; overflow: scroll&#34;&gt; 47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe&lt;/p&gt;
 </description>
 	</item>
 	
