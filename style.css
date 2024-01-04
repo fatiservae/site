@@ -810,6 +810,13 @@ p {
 .slide img{
   margin: 0%;
 }
+.slide ul {
+  text-align: start;
+
+}
+.slide li {
+  text-align: start;
+}
 .button-container {
  /* 
   align: center;

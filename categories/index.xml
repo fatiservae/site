@@ -10,7 +10,7 @@
 	
 	
 	<item>
-		<title>Pohnpei: Micronesia</title>
+		<title>Pohnpei: Micronésia</title>
 		<link>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</link>
 		<pubDate>Thu, 04 Jan 2024 06:27:45 -0300</pubDate>
 		
@@ -369,6 +369,7 @@ Se sim, você estará dobrando o sofrimento...evite!
 
 
 &lt;p&gt;A lógica neste caso é bem óbvia: &lt;strong&gt;de repente, aquele abcesso bolhoso a ser drenado via agulha grossa não necessita de botão anestésico e sim de uma entrada certeira.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;É por isso que não faz sentido anestesiar uma vacina, por exemplo! ;)&lt;/p&gt;
 &lt;h2 id=&#34;botões-anestésicos-como-fazer&#34;&gt;Botões anestésicos: como fazer&lt;/h2&gt;
 &lt;p&gt;Tendo em vista o tópico anterior, sabe-se que a analgesia injetável em si causa dor. A principal razão é a acidez dos compostos anestésicos locais.&lt;/p&gt;
 &lt;p&gt;A base Cochrane já recomenda o ajuste de pH dos anestésicos locais a algum tempo⁶. Porém, sua adoção é muito restrita a centros de excelência. Na verdade, a lidocaína e.g. é 1mil vezes mais ácida que o tecido subcutâneo⁷.&lt;/p&gt;
@@ -506,13 +507,6 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 		
 		<guid>https://www.jeffersontorres.com.br/treino-atual/</guid>
 		<description>&lt;style&gt;
-  ul {
-    font-size: 1.5em;
-  }
-  .legend p {
-    font-size: 1.5em;
-    color: tomato;
-  }
 &lt;/style&gt;
 
  
@@ -523,7 +517,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Elevação posterior halters&lt;/li&gt;
       &lt;li&gt;Remada alta anterior&lt;/li&gt;
@@ -536,7 +530,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Costas&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Rosca neutra com halters&lt;/li&gt;
       &lt;li&gt;Rosca intercalada unilateral 1/2 carga&lt;/li&gt;
@@ -546,7 +540,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Bíceps&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Extensão unilateral no pulley&lt;/li&gt;
       &lt;li&gt;Extensão na barra reta no pulley&lt;/li&gt;
@@ -557,7 +551,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Tríceps&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Crucifixo hater livre banco reto&lt;/li&gt;
       &lt;li&gt;Supino halter livre banco reto&lt;/li&gt;
@@ -568,7 +562,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Peitoral&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Extensão de pé&lt;/li&gt;
     &lt;/ul&gt;
@@ -577,7 +571,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Panturrilha&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Agachamento unilateral Smith&lt;/li&gt;
       &lt;li&gt;Agachamento livre&lt;/li&gt;
@@ -588,7 +582,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Quadríceps&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Mesa flexora decúbito&lt;/li&gt;
     &lt;/ul&gt;
@@ -597,7 +591,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Bíceps femoral&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Rosca invertida&lt;/li&gt;
       &lt;li&gt;Rosca posterior&lt;/li&gt;
@@ -607,7 +601,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
    &lt;p&gt;Antebraço&lt;/p&gt; 
   &lt;/div&gt;
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Puxada lateral no pulley apoiado no pulley&lt;/li&gt;
       &lt;li&gt;Elevação frontal com halteres&lt;/li&gt;
