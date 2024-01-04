@@ -139,12 +139,12 @@ document.addEventListener("DOMContentLoaded", function() {
     <button type="button" id="anterior">Anterior</button>
     <button type="button" id="proximo">Próxima</button>
   </div>
-  <div class="carousel-conteudo">
+  <div class="conteudo">
   
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../pix/eu.webp">
           <img src="../pix/eu.webp"></img>
         </a>
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../pix/eu3.jpg">
           <img src="../pix/eu3.jpg"></img>
         </a>
@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../pix/kermit.gif">
           <img src="../pix/kermit.gif"></img>
         </a>
@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../pix/eu2.webp">
           <img src="../pix/eu2.webp"></img>
         </a>
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <script>
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(".carousel .carouselslide");
+  let slides = document.querySelectorAll(".carousel .slide");
   let legends = document.querySelectorAll(".carousel .legend");
   let totalSlides = slides.length;
   let anterior = document.getElementById("anterior");

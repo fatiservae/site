@@ -107,12 +107,12 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
     <button type="button" id="anterior">Anterior</button>
     <button type="button" id="proximo">Próxima</button>
   </div>
-  <div class="carousel-conteudo">
+  <div class="conteudo">
   
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../../pix/praca-arthur-gerhardt.jpg">
           <img src="../../pix/praca-arthur-gerhardt.jpg"></img>
         </a>
@@ -123,7 +123,7 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../../pix/pedra-azul.jpg">
           <img src="../../pix/pedra-azul.jpg"></img>
         </a>
@@ -138,7 +138,7 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
 <script>
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(".carousel .carouselslide");
+  let slides = document.querySelectorAll(".carousel .slide");
   let legends = document.querySelectorAll(".carousel .legend");
   let totalSlides = slides.length;
   let anterior = document.getElementById("anterior");

@@ -81,5 +81,14 @@
     "size": "3.80 MB",
     "extension": "pdf",
     "subjects": [ "Medicina", "Obstetrícia"]
+  },
+  {
+    "name": "A guide to stoicism - George Stock",
+    "extension": "pdf",
+    "size": "288KB",
+    "path": "Filosofia/George-Stock-a-Guide-to-Stoicism.pdf",
+    "subjects": [
+      "Filosofia","Estoicismo"
+    ]
   }
 ]

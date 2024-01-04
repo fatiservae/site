@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Pohnpei: Micronesia | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="A terra do mistério Pohnpei é uma das ilhas da Micronésia, importante pelo seu valor arqueológico. As ruínas e sítios arqueológicos estão entre os menos explicados do planeta.
+A palavra pohnpei significa terra surgida de orações e explica a origem mitológica das ilhas, que seriam fruto das orações dos antigos migrantes oriundos da China em uma canoa mágica.
+Anterior Próxima Ruínas de Nan Madol
+Ruínas de Nan Madol
+Ruínas de Nan Madol">
+  <meta name="keywords" content="viagem, destinos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">Destinos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+      
+    <a href="../../tags/projetos/index.html" alt="Projetos">Projetos</a>
+      
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+
+
+<h2 id="a-terra-do-mistério">A terra do mistério</h2>
+<p>Pohnpei é uma das ilhas da Micronésia, importante pelo seu valor arqueológico. As ruínas e sítios arqueológicos estão entre os menos explicados do planeta.</p>
+<p>A palavra <em>pohnpei</em> significa terra surgida de orações e explica a origem mitológica das ilhas, que seriam fruto das orações dos antigos migrantes oriundos da China em uma canoa mágica.</p>
+
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+    
+    
+    
+      <div class="slide">
+        <a href="../../pix/destinos/ruinas-nan-madol.jpg">
+          <img src="../../pix/destinos/ruinas-nan-madol.jpg"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+    
+
+    
+    
+    
+      <div class="slide">
+        <a href="../../pix/destinos/ruinas-nan-madol2.jpg">
+          <img src="../../pix/destinos/ruinas-nan-madol2.jpg"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+    
+
+    
+    
+    
+      <div class="slide">
+        <a href="../../pix/destinos/ruinas-nan-madol3.jpg">
+          <img src="../../pix/destinos/ruinas-nan-madol3.jpg"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+    
+
+    
+    
+    
+      <div class="slide">
+        <a href="../../pix/destinos/bruce-guam.webp">
+          <img src="../../pix/destinos/bruce-guam.webp"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Bruce Best</p></div>
+    
+
+    
+    
+    
+      <div class="slide">
+        <a href="../../pix/destinos/ruinas-nan-madol4.jpg">
+          <img src="../../pix/destinos/ruinas-nan-madol4.jpg"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+    
+
+    
+    
+    
+      <div class="slide">
+        <a href="../../pix/destinos/ruinas-nan-madol-map.jpg">
+          <img src="../../pix/destinos/ruinas-nan-madol-map.jpg"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Mapa estimativo de ruínas de 2019</p></div>
+    
+
+    
+    
+    
+      <div class="slide">
+        <a href="../../pix/destinos/nan-madol.webp">
+          <img src="../../pix/destinos/nan-madol.webp"></img>
+        </a>
+      </div>
+      <div class="legend"><p>Vista panorâmica de ruínas</p></div>
+    
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .slide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "flex";
+    legends[currentSlide].style.display = "flex";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<p>Nan Madol é uma outra palavra local que significa <em>pedras organizadas</em> ou ainda <em>cidade organizada</em>. Os moradores locais acreditam que as ruínas são uma entrada para um submergido continente.</p>
+<p>Estas estórias foram aproveitadas por Lovecraft em seus livros.</p>
+<p>Os moradores locais apresentam alto índice de acromatopsia genética, conforme observou o neurologista Oliver Sacks¹:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+"Fui à Micronésia como neurologista ou neuroantropólogo com a intenção de ver de que maneira indivíduos e comunidades reagiam à condições endêmicas incomuns - uma cegueira total e hereditária para cores em Pingelap e Pohnpei, um distúrbio neurodegeneneativo progressivo e fatal em Guam e Rota. Mas também me prenderam a atenção a vida cultural e a história dessas ilhas, sua flora e fauna únicas, suas origens geológicas singulares. Se a princípio examinar pacientes, visitar sítios arqueológicos, perambular por florestas tropicais e mergulhar de snorkel nos recifes pareciam atividades sem relação umas com as outras, depois fundiram-se todas em uma experiência única e indivisível, uma imersão total na vida da ilha".
+ </span>
+</div>
+
+
+<p>Bruce Best é um professor da universidade de Guam que, sozinho, construiu praticamente toda estrutura comunicacional de Pohnpei e das ilhas correlatas. Até onde pude apurar, ele estva vivo e trabalhando em setembro 2023. Ele coordena as operações, inclusive militares, na região.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hf0taYjdZOw?si=Qni0mJGBd50ygZlz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p class="legend">Banda de moradores locais, c. 2013</p>
+<p>Para viagem, trata-se de um local absurdamente isolado, com cultura ainda preservada, inclusive a língua, apesar do inglês oficial. É um local obviamente tropical.</p>
+<h2 id="como-chegar-e-orientações">Como chegar e orientações</h2>
+<p>Só há duas formas de chegar em Pohnpei: por Guam ou pelo Hawai. Só há uma linha aérea, a United.</p>
+<p>Em 2023 a empresa local que prestava os serviços de telecomunicações e máquinas de ATM estava com seus serviços sem funcionar.</p>
+<p>Em 2024 conferi o telefone da locadora de veículos Budget +691 320 8705, que funcionou e faz reservas na ilha, se é que é necessário.</p>
+<p>Site oficial de turismo local: <a href="https://visitpohnpei.travel/travel-advisory/">https://visitpohnpei.travel/travel-advisory/</a></p>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>SACKS, Oliver. <strong>A ilha dos daltônicos</strong>. Tradução: Laura Teixeira Motta. ISBN: 978-85-7164-682-7. Companhia das Letras. 1997.</li>
+</ol>
+
+
+
+<br>
+        <div style="clear:both" class=taglist><a id="tag_viagem" href="https://www.jeffersontorres.com.br/tags/viagem">Viagem</a> &middot; <a id="tag_destinos" href="https://www.jeffersontorres.com.br/tags/destinos">Destinos</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

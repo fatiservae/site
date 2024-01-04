@@ -104,12 +104,12 @@ Anterior Próxima Yellowstone Park &hellip;breve.">
     <button type="button" id="anterior">Anterior</button>
     <button type="button" id="proximo">Próxima</button>
   </div>
-  <div class="carousel-conteudo">
+  <div class="conteudo">
   
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../../pix/prismatic1.jpg">
           <img src="../../pix/prismatic1.jpg"></img>
         </a>
@@ -120,7 +120,7 @@ Anterior Próxima Yellowstone Park &hellip;breve.">
     
     
     
-      <div class="carouselslide">
+      <div class="slide">
         <a href="../../pix/prismatic2.jpg">
           <img src="../../pix/prismatic2.jpg"></img>
         </a>
@@ -135,7 +135,7 @@ Anterior Próxima Yellowstone Park &hellip;breve.">
 <script>
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(".carousel .carouselslide");
+  let slides = document.querySelectorAll(".carousel .slide");
   let legends = document.querySelectorAll(".carousel .legend");
   let totalSlides = slides.length;
   let anterior = document.getElementById("anterior");

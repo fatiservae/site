@@ -5,10 +5,177 @@
 	<description>Recent content in Viagems on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 28 Dec 2023 14:16:28 -0300</lastBuildDate>
+	<lastBuildDate>Thu, 04 Jan 2024 06:27:45 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/viagem/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Pohnpei: Micronesia</title>
+		<link>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</link>
+		<pubDate>Thu, 04 Jan 2024 06:27:45 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</guid>
+		<description>&lt;h2 id=&#34;a-terra-do-mistério&#34;&gt;A terra do mistério&lt;/h2&gt;
+&lt;p&gt;Pohnpei é uma das ilhas da Micronésia, importante pelo seu valor arqueológico. As ruínas e sítios arqueológicos estão entre os menos explicados do planeta.&lt;/p&gt;
+&lt;p&gt;A palavra &lt;em&gt;pohnpei&lt;/em&gt; significa terra surgida de orações e explica a origem mitológica das ilhas, que seriam fruto das orações dos antigos migrantes oriundos da China em uma canoa mágica.&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/destinos/ruinas-nan-madol.jpg&#34;&gt;
+          &lt;img src=&#34;../pix/destinos/ruinas-nan-madol.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Ruínas de Nan Madol&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/destinos/ruinas-nan-madol2.jpg&#34;&gt;
+          &lt;img src=&#34;../pix/destinos/ruinas-nan-madol2.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Ruínas de Nan Madol&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/destinos/ruinas-nan-madol3.jpg&#34;&gt;
+          &lt;img src=&#34;../pix/destinos/ruinas-nan-madol3.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Ruínas de Nan Madol&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/destinos/bruce-guam.webp&#34;&gt;
+          &lt;img src=&#34;../pix/destinos/bruce-guam.webp&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Bruce Best&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/destinos/ruinas-nan-madol4.jpg&#34;&gt;
+          &lt;img src=&#34;../pix/destinos/ruinas-nan-madol4.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Ruínas de Nan Madol&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/destinos/ruinas-nan-madol-map.jpg&#34;&gt;
+          &lt;img src=&#34;../pix/destinos/ruinas-nan-madol-map.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Mapa estimativo de ruínas de 2019&lt;/p&gt;&lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/destinos/nan-madol.webp&#34;&gt;
+          &lt;img src=&#34;../pix/destinos/nan-madol.webp&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Vista panorâmica de ruínas&lt;/p&gt;&lt;/div&gt;
+    
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;flex&#34;;
+    legends[currentSlide].style.display = &#34;flex&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;p&gt;Nan Madol é uma outra palavra local que significa &lt;em&gt;pedras organizadas&lt;/em&gt; ou ainda &lt;em&gt;cidade organizada&lt;/em&gt;. Os moradores locais acreditam que as ruínas são uma entrada para um submergido continente.&lt;/p&gt;
+&lt;p&gt;Estas estórias foram aproveitadas por Lovecraft em seus livros.&lt;/p&gt;
+&lt;p&gt;Os moradores locais apresentam alto índice de acromatopsia genética, conforme observou o neurologista Oliver Sacks¹:&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+&#34;Fui à Micronésia como neurologista ou neuroantropólogo com a intenção de ver de que maneira indivíduos e comunidades reagiam à condições endêmicas incomuns - uma cegueira total e hereditária para cores em Pingelap e Pohnpei, um distúrbio neurodegeneneativo progressivo e fatal em Guam e Rota. Mas também me prenderam a atenção a vida cultural e a história dessas ilhas, sua flora e fauna únicas, suas origens geológicas singulares. Se a princípio examinar pacientes, visitar sítios arqueológicos, perambular por florestas tropicais e mergulhar de snorkel nos recifes pareciam atividades sem relação umas com as outras, depois fundiram-se todas em uma experiência única e indivisível, uma imersão total na vida da ilha&#34;.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Bruce Best é um professor da universidade de Guam que, sozinho, construiu praticamente toda estrutura comunicacional de Pohnpei e das ilhas correlatas. Até onde pude apurar, ele estva vivo e trabalhando em setembro 2023. Ele coordena as operações, inclusive militares, na região.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/hf0taYjdZOw?si=Qni0mJGBd50ygZlz&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p class=&#34;legend&#34;&gt;Banda de moradores locais, c. 2013&lt;/p&gt;
+&lt;p&gt;Para viagem, trata-se de um local absurdamente isolado, com cultura ainda preservada, inclusive a língua, apesar do inglês oficial. É um local obviamente tropical.&lt;/p&gt;
+&lt;h2 id=&#34;como-chegar-e-orientações&#34;&gt;Como chegar e orientações&lt;/h2&gt;
+&lt;p&gt;Só há duas formas de chegar em Pohnpei: por Guam ou pelo Hawai. Só há uma linha aérea, a United.&lt;/p&gt;
+&lt;p&gt;Em 2023 a empresa local que prestava os serviços de telecomunicações e máquinas de ATM estava com seus serviços sem funcionar.&lt;/p&gt;
+&lt;p&gt;Em 2024 conferi o telefone da locadora de veículos Budget +691 320 8705, que funcionou e faz reservas na ilha, se é que é necessário.&lt;/p&gt;
+&lt;p&gt;Site oficial de turismo local: &lt;a href=&#34;https://visitpohnpei.travel/travel-advisory/&#34;&gt;https://visitpohnpei.travel/travel-advisory/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;SACKS, Oliver. &lt;strong&gt;A ilha dos daltônicos&lt;/strong&gt;. Tradução: Laura Teixeira Motta. ISBN: 978-85-7164-682-7. Companhia das Letras. 1997.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Por trás de toda teoria conspiratória</title>
@@ -258,12 +425,12 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/prismatic1.jpg&#34;&gt;
           &lt;img src=&#34;../pix/prismatic1.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -274,7 +441,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/prismatic2.jpg&#34;&gt;
           &lt;img src=&#34;../pix/prismatic2.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -289,7 +456,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anterior&#34;);
@@ -355,7 +522,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
   &lt;div class=&#34;carouselslide&#34;&gt;
     &lt;ul&gt;
@@ -460,7 +627,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anterior&#34;);
@@ -557,7 +724,8 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 		<pubDate>Sat, 23 Dec 2023 20:13:59 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/files/</guid>
-		<description>&lt;div style=&#34;display:flex; align-content:center;&#34;&gt;
+		<description>&lt;!--
+&lt;div style=&#34;display:flex; align-content:center;&#34;&gt;
 &lt;span class=&#34;etiqueta&#34;&gt;
 ⚠️
 &lt;br&gt;
@@ -565,7 +733,8 @@ Para os arquivos guardados por algum direito autoral, ao clicar você será leva
 &lt;br&gt;
 Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;/span&gt;
-&lt;/div&gt;
+&lt;/div&gt; 
+--&gt;
 &lt;br&gt;
 &lt;div class=&#34;search&#34;&gt;
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
@@ -739,6 +908,7 @@ Amor fati é a insistência estoica de que devemos amar o destino, pela sua inev
 &lt;ol&gt;
 &lt;li&gt;Schwartz, Barry. &lt;strong&gt;The Paradox of Choice&lt;/strong&gt;. New York, United States: Harper Perennial. ISBN 0-06-000568-8. 2004.&lt;/li&gt;
 &lt;li&gt;Boethius, Anicius Manlius Severinus. &lt;strong&gt;&lt;a href=&#34;../files/Filosofia/Boethius-Consolation-of-Philosophy.pdf&#34;&gt;The Consolation of Philosophy&lt;/a&gt;&lt;/strong&gt;. Translated from the Latin by W. V. Cooper. Published by the Ex-classics Project, 2009. &lt;a href=&#34;http://www.exclassics.com&#34;&gt;http://www.exclassics.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;MARCUS, Aurelius. &lt;strong&gt;Meditations&lt;/strong&gt;. c. 161-180 &lt;em&gt;anno domini&lt;/em&gt;. Imperium Romanum.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -764,12 +934,12 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
     &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
 
 
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;a href=&#34;../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
       &lt;img src=&#34;../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
@@ -780,7 +950,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;a href=&#34;../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
       &lt;img src=&#34;../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
@@ -795,7 +965,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousela .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousela .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousela .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anteriora&#34;);
@@ -842,12 +1012,12 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
     &lt;button type=&#34;button&#34; id=&#34;anterior2&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo2&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
 
 
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;a href=&#34;../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
       &lt;img src=&#34;../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
@@ -858,7 +1028,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 
 
 
-  &lt;div class=&#34;carouselslide&#34;&gt;
+  &lt;div class=&#34;slide&#34;&gt;
     &lt;a href=&#34;../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
       &lt;img src=&#34;../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
     &lt;/a&gt;
@@ -873,7 +1043,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel2 .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel2 .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousel2 .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anterior2&#34;);
@@ -1019,37 +1189,14 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/dicionario/</guid>
-		<description>
-
-&lt;div style=&#34;display: grid; align-content:center&#34; id=&#34;aviso&#34;&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
-  &lt;span class=&#34;etiqueta&#34;&gt;
-  Às vezes, numa discussão, precisamos conferir algo rapidamente! 🤣
-  &lt;br&gt;
-  Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral. Então, resolvi fazer um dicionário simples em JavaScript.
-  &lt;br&gt;
-  Aceito sugestões de termos! 
-  &lt;br&gt;
-  Boa busca!
-  &lt;br&gt;
- &lt;/span&gt;
-&lt;/div&gt;
-
-
-  &lt;button style=&#34;margin-left: auto; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
-&lt;/div&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-
+		<description>&lt;p&gt;Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral.
+&lt;br&gt;&lt;/p&gt;
 &lt;div class=&#34;search&#34;&gt;
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
-
 &lt;script src=&#34;../dicionario.js&#34;&gt;&lt;/script&gt;
-
 &lt;ul id=&#34;search-output&#34;&gt;
 &lt;/ul&gt;
-
 </description>
 	</item>
 	
@@ -1335,12 +1482,12 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
   
   
   
-    &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;div class=&#34;slide&#34;&gt;
       &lt;a href=&#34;../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;
         &lt;img src=&#34;../pix/culinaria/cervejas/michelob-ultra.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
@@ -1351,7 +1498,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
   
   
   
-    &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;div class=&#34;slide&#34;&gt;
       &lt;a href=&#34;../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;
         &lt;img src=&#34;../pix/culinaria/cervejas/brahma-duplo.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
@@ -1362,7 +1509,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
   
   
   
-    &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;div class=&#34;slide&#34;&gt;
       &lt;a href=&#34;../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;
         &lt;img src=&#34;../pix/culinaria/cervejas/cacilds.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
@@ -1373,7 +1520,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
   
   
   
-    &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;div class=&#34;slide&#34;&gt;
       &lt;a href=&#34;../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;
         &lt;img src=&#34;../pix/culinaria/cervejas/blue-ribbon.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
@@ -1384,7 +1531,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
   
   
   
-    &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;div class=&#34;slide&#34;&gt;
       &lt;a href=&#34;../pix/culinaria/cervejas/faxe.jpg&#34;&gt;
         &lt;img src=&#34;../pix/culinaria/cervejas/faxe.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
@@ -1395,7 +1542,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
   
   
   
-    &lt;div class=&#34;carouselslide&#34;&gt;
+    &lt;div class=&#34;slide&#34;&gt;
       &lt;a href=&#34;../pix/culinaria/cervejas/karin.jpg&#34;&gt;
         &lt;img src=&#34;../pix/culinaria/cervejas/karin.jpg&#34;&gt;&lt;/img&gt;
       &lt;/a&gt;
@@ -1410,7 +1557,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anterior&#34;);
@@ -1655,12 +1802,12 @@ function fechardialogo() {
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/itacare.webp&#34;&gt;
           &lt;img src=&#34;../pix/itacare.webp&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -1675,7 +1822,7 @@ function fechardialogo() {
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anterior&#34;);
@@ -2224,12 +2371,12 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/eu.webp&#34;&gt;
           &lt;img src=&#34;../pix/eu.webp&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -2240,7 +2387,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/eu3.jpg&#34;&gt;
           &lt;img src=&#34;../pix/eu3.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -2251,7 +2398,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/kermit.gif&#34;&gt;
           &lt;img src=&#34;../pix/kermit.gif&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -2262,7 +2409,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/eu2.webp&#34;&gt;
           &lt;img src=&#34;../pix/eu2.webp&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -2277,7 +2424,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anterior&#34;);
@@ -2404,12 +2551,12 @@ function updateResult() {
     &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
     &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;carousel-conteudo&#34;&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
   
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/praca-arthur-gerhardt.jpg&#34;&gt;
           &lt;img src=&#34;../pix/praca-arthur-gerhardt.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -2420,7 +2567,7 @@ function updateResult() {
     
     
     
-      &lt;div class=&#34;carouselslide&#34;&gt;
+      &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;../pix/pedra-azul.jpg&#34;&gt;
           &lt;img src=&#34;../pix/pedra-azul.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
@@ -2435,7 +2582,7 @@ function updateResult() {
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .carouselslide&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
   let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
   let totalSlides = slides.length;
   let anterior = document.getElementById(&#34;anterior&#34;);

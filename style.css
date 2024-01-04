@@ -85,7 +85,7 @@
   --links-visitados: var(--azul-google) ;
   --link-hover: black ;
   --frase-show: var(--texto-dim) ;
-  --frase-hover: var(--azul-google) ;
+  --frase-hover: darkred ;
   --frase: var(--verde-google) ;
   --autor: black ;
   --sticker-font: var(--fundo-invertido) ;
@@ -167,8 +167,8 @@ body {
   margin-left: 5vw;
   padding: 0.5em;
   margin-right: auto;
+  max-width: 75vw;
   /*
-  width: clamp(25vw, 75vw, 95vw);
   border: 1px solid var(--bordas);
   */
   background: var(--sticker-fundo);
@@ -622,6 +622,7 @@ ol#artlist {
   text-align: start;
 }
 li {
+  transition: color 200ms ease-in-out; 
   /*
   padding: 0%;
   */
@@ -642,13 +643,17 @@ ul {
   list-style-type: none;
   */
   list-style-type: "  + ";
-} 
-li:hover {
-  background: var(--fundo-input) ;
-  background-size: cover;
-  border-radius: 4px ;
+}
+ol {
+  margin-left: 1vw;
+}
+li a:hover {
+  color: var(--fonte);
   /*
+  border-radius: 4px ;
+  background-size: cover;
   list-style-type: "+  ";
+  background: var(--fundo-input) ;
   */
 }
 li::before{
@@ -692,7 +697,7 @@ li::before{
   text-align: center ;
   font-style: italic; 
   font-size: 1.5em;
- /* color: var(--frase); */
+  /* color: var(--frase); */
   padding-left: auto;
   padding-right: auto;
   border-radius: 5px ;
@@ -784,22 +789,26 @@ p {
 }
 
 /* CAROUSEL CARROSSEIS */
-.carousel {
+[class^=carousel] {
   --largura: 60vw;
   --carouselheight: calc(var(--largura) * 2 / 3);
   border-radius: 7px;
-  border: 1px solid var(--bordas);
   background: var(--sticker-fundo);
   width: var(--largura); 
   display: block;
-  height: var(--carouselheight);
   overflow: hidden;
   margin-left: 5vw;
   /*
+  height: var(--carouselheight);
+  border: 1px solid var(--bordas);
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80%; 
   */
+}
+
+.slide img{
+  margin: 0%;
 }
 .button-container {
  /* 
@@ -807,28 +816,44 @@ p {
   margin: auto;
   margin-top: none;
   margin-bottom: none;
-  width: 60%;
   height: 200px;
+  width: calc(var(--largura) - 5vw);
 */
   justify-content: space-between;
-  height: calc(var(--carouselheight) * 1 / 10 );
-  display: flex;
 }
-.carousel-conteudo {
-  height: calc(var(--carouselheight) * 9 / 10 );
+.carousel .conteudo {
 }
-button[id^="proximo"], button[id^="anterior"]{
+button[id^="proximo"] {
+  text-align: start;
+  padding-left: 1%;
+}
+
+button[id^="anterior"] {
+  padding-right: 1%;
+  text-align: end;
+}
+
+button[id^="proximo"], button[id^="anterior"] {
  /* 
   color: gray;
-  */
-  flex: 1;
-  padding: 0%;
-  margin: 0%;
-  max-height: 90%;
   font-weight: bold;
+  max-height: 90%;
+  padding: 0%;
+  transition: color 1s ease-in-out;
+  */
+  border: none;
+  background: var(--fundo);
+  flex: 1;
+  margin: 0%;
   font-size: 80%;
 }
-.carouselslide { 
+button[id^="proximo"]:hover , 
+button[id^="anterior"]:hover,
+button[id^="proximo"]:active, 
+button[id^="anterior"]:active{
+  color: red;
+}
+.carousel.slide { 
 /*  
   overflow: hidden;
   height: 80%;
@@ -838,15 +863,14 @@ button[id^="proximo"], button[id^="anterior"]{
 */
   display: flex;
   justify-content: center;
-  height: 85%;
 }
-.carouselslide iframe {
+.carousel.slide iframe {
   display: block ;
   align-content: center;
   justify-content: center;
  /* Problema de tamanho... 'auto' não funciona, 70 do viewheight ficou bom, deixei sem. */
 }
-.carouselslide a{
+.carousel.slide a{
 /*  
   background-color: none;
   align-content: center;
@@ -854,27 +878,38 @@ button[id^="proximo"], button[id^="anterior"]{
   object-fit: cover;
 */
   }
-.carouselslide a[href]{
+.carousel.slide a[href]{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.legend {
-}
-.legend p{
+.conteudo .legend {
   font-size: 80%;
   color: var(--font); 
   font-style: italic;
-  margin: auto;
+  margin-left: 5vw;
+  text-align: start;
+}
+.legend {
+  font-size: 80%;
+  color: var(--font); 
+  font-style: italic;
+  margin-left: 5vw;
+  text-align: start;
+}
+.conteudo.legend p{
+  font-size: 90%;
+  color: var(--font); 
+  font-style: italic;
+  margin-left: 5vw;
+  max-width: 75%;
   /*
-  text-align: center;
   margin: 0%;
   text-indent: 0%;
   padding-left: 5%;
-  width: 90%;
   */
 }
-.carouselslide a[href] img {
+.carousel.slide a[href] img {
   max-height: 100%;
 }
 
@@ -1075,17 +1110,17 @@ div#counter {
   }
   nav#TableOfContents {
   }
-  .carousel {
+  [class^=carousel] {
     --largura: 95vw;
-    margin-left: auto ;
+    margin-left: 5vw;
     /*
+    display: flex;
     --carouselheight: calc(var(--largura) * 2 / 3);
     max-width: var(--largura); 
     border-radius: 7px;
     border: 1px solid var(--bordas);
     background: var(--sticker-fundo);
     margin-right: auto ;
-    display: block;
     height: var(--carouselheight);
     overflow: hidden;
     */
@@ -1128,16 +1163,19 @@ div#counter {
     align-items: center;
    */
   }
-  .legend p{
-    /*
+  .legend {
     font-size: 80%;
-    text-indent: 0%;
-    text-align: center;
     color: var(--font); 
     font-style: italic;
-    margin: none;
-    padding: none;
-    */
+    margin-left: 5vw;
+    text-align: start;
+  }
+  .conteudo .legend p{
+    font-size: 90%;
+    color: var(--font); 
+    font-style: italic;
+    margin-left: 5vw;
+    max-width: 75%;  
   }
   .carouselslide a[href] img {
     /*
