@@ -19,12 +19,10 @@
 		<description>
 
 
-&lt;div id=&#34;img-div&#34;&gt;
-  &lt;img src=&#34;./pix/magician.jpg&#34;&gt;&lt;/img&gt;
-  &lt;p&gt;A ilusão nada mais é que a realidade mal compreendida.&lt;/p&gt;
-&lt;/div&gt;
-
-
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/magician.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;A ilusão nada mais é que a realidade mal compreendida.&lt;/p&gt;
+  &lt;/div&gt;
 
 &lt;h2 id=&#34;como-a-mágica-da-advinhação-funciona&#34;&gt;Como a mágica da advinhação funciona&lt;/h2&gt;
 &lt;p&gt;Num típico show de mágicas não pode faltar o número da boa e velha carta adivinhada:&lt;/p&gt;
@@ -168,12 +166,10 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 
 
 
-&lt;div id=&#34;img-div&#34;&gt;
-  &lt;img src=&#34;./pix/medicina/dr-stupid.webp&#34;&gt;&lt;/img&gt;
-  &lt;p&gt;É só uma picadinha!&lt;/p&gt;
-&lt;/div&gt;
-
-
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/medicina/dr-stupid.webp&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;É só uma picadinha!&lt;/p&gt;
+  &lt;/div&gt;
 
 &lt;p&gt;Entre as pessoas leigas há um consenso: &lt;strong&gt;médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Será?!&lt;/p&gt;
@@ -672,12 +668,10 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 
 
 
-&lt;div id=&#34;img-div&#34;&gt;
-  &lt;img src=&#34;./pix/many-paths.jpg&#34;&gt;&lt;/img&gt;
-  &lt;p&gt;Em deviantart.com © by username465, 2016&lt;/p&gt;
-&lt;/div&gt;
-
-
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/many-paths.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Em deviantart.com © by username465, 2016&lt;/p&gt;
+  &lt;/div&gt;
 
 &lt;p&gt;Somos forçados contra diversos caminhos na vida.&lt;/p&gt;
 &lt;p&gt;Escolhas são feitas. Muitas.&lt;/p&gt;
@@ -695,13 +689,8 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 
 
 &lt;p&gt;Os cristãos primitivos aperfeiçoaram essa visão, estimulando a vida pobre e miserável como forma de aceitação do mais básico, sendo, portanto, de melhor proveito as benesses de quaisquer natureza. A felicidade do homem que vive de migalhas pode ser um pão inteiro. O prazer do faminto não depende do sabor, apenas da mera comida.&lt;/p&gt;
-
-
-&lt;div class=&#34;videoc&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/EFkyxzJtiv4?si=n9fXWYbO4tvOyYPx&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
 &lt;br&gt;
-
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
 &lt;em&gt;Felizes aqueles que crêem sem ver.&lt;/em&gt;&lt;br&gt;João 20:29.
@@ -712,7 +701,14 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;p&gt;A fé, assim sendo, se reduz a aceitação do destino, num ato subjetivo de confiança em um ser benevolente que alegadamente sempre terá o melhor plano. Chama-se isto de &lt;em&gt;atitude estoica&lt;/em&gt;. A resistência, a teimosia, a beligerância e a intolerabilidade são conceitos opostos a conduta estoica. O descrente, portanto, duvida sempre, desacredita e reage ao destino.&lt;/p&gt;
 &lt;p&gt;Que não se confunda! A curiosidade, o questionamento e a busca do conhecimento pela via dialética não contradizem conduta estoica.&lt;/p&gt;
 &lt;h3 id=&#34;a-aceitação-da-morte-como-modo-de-vida&#34;&gt;A aceitação da morte como modo de vida&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./pix/memento-mori.jpg&#34; alt=&#34;memento-mori&#34;&gt;&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/memento-mori.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
 &lt;p&gt;Dentre todos os destinos, qual aquele mais certo de que a morte? &lt;strong&gt;Nenhum&lt;/strong&gt;.&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
@@ -724,12 +720,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;p&gt;Sendo a morte o destino mais certo da vida de qualquer ser humano, por que aprendemos a evitá-la, tanto como destino final, como assunto? Vivemos como se a vida eterna fosse uma certeza. No máximo, trata-se de uma promessa vazia e religiosa.&lt;/p&gt;
 &lt;p&gt;Somos agressivos na defesa de qualquer dos nossos bens, porém permissivos na perda do nosso tempo, mesmo com a rígida evidência de que a morte inexoravelmente virá e o limitado tempo nesta passagem será consumido.&lt;/p&gt;
 &lt;p&gt;A saída é a aceitação. Vivemos adorando a vida, valorizando os aspectos passageiros desta, como a beleza e a riqueza, mesmo sabendo que o fim é a morte. Tudo na vida transita. Tudo se esvai.&lt;/p&gt;
-
-
-&lt;div class=&#34;videoc&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/A40AGZ9tPcw?si=DWqRFbbRhxeQAm6t&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
 &lt;p&gt;O mais extremo exemplo de aceitação em registro é de Boethius, um grande senador e ministro romano condenado a morte por perseguição política na transição do governo de Zeno pelos cristãos arianos.&lt;/p&gt;
 &lt;p&gt;Diante do infortúnio da morte injusta, Boethius aceita-a como forma de consolação, narrando seu encontro com a Filosofia personificada na forma de mulher que debate, na verdade consigo mesmo, diversos temas de correição de vida². O termo &lt;em&gt;&amp;ldquo;roda da fortuna&amp;rdquo;&lt;/em&gt; muito difundido na Europa medieval advém deste livro, já que a tradução mais adequada de destino para o inglês antigo seria &lt;em&gt;fortune&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Após aceitar seu destino, Boethius foi condenado e executado. Seus bens tomados pelo estado romano e sua esposa condenada a pobreza.&lt;/p&gt;
@@ -938,12 +929,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<description>
 
 
-&lt;div id=&#34;img-div&#34;&gt;
-  &lt;img src=&#34;./pix/medicina/anatomy.png&#34;&gt;&lt;/img&gt;
-  &lt;p&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/medicina/anatomy.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
 
 &lt;p&gt;Iniciando em anatomia?&lt;/p&gt;
 &lt;p&gt;Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto com versão aberta em WebGL.&lt;/p&gt;
@@ -2505,12 +2494,10 @@ function updateResult() {
 		<description>
 
 
-&lt;div id=&#34;img-div&#34;&gt;
-  &lt;img src=&#34;./pix/iriri.jpg&#34;&gt;&lt;/img&gt;
-  &lt;p&gt;Pousada Barla Vento&lt;/p&gt;
-&lt;/div&gt;
-
-
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/iriri.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Pousada Barla Vento&lt;/p&gt;
+  &lt;/div&gt;
 
 &lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;Litoral sul do estado, longe de vitória umas 2h de carro.&lt;/p&gt;

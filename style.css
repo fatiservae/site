@@ -300,6 +300,10 @@ footer {
   padding: 1em ;
 }
 
+iframe {
+  margin-left: 5vw;
+  max-width: 90vw;
+}
 img {
   /*
   */
