@@ -21,14 +21,11 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.ico">
-  <meta name="description" content="StultusVisio 0.3.1 Slides estúpidos e fáceis, apresentáveis em qualquer browser.
-GitHub
-Exemplo Minha_apresentacao.html
-Racional Todos atuais softwares de apresentação de slides são péssimos.
-Um modo minimalista de construir apresentações, sem transições inúteis, modos contraproducentes como duas telas, WYSIWYG e compiladores complexos.
-Filosofia e uso Um software simples que te obriga a montar slides coerentes.
-Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.
-Para fluxogramas, timelines, tabelas e mídias de dados organizados, use Mermaid, conforme exemplo abaixo.">
+  <meta name="description" content="Você e seus slides.
+Não há nada mais improdutivo como montar apresentações de slides!
+O tempo que se perde com diagramação e baboseiras como temas e formatação é absurdo.
+Criando uma apresentação em Microsoft Power Point.
+O formato de arquivo associado aos principais programas de slideshows são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado. Além disso, a apresentação é mostrada a partir do arquivo editável.">
   <meta name="keywords" content="Programação, Projetos">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -97,14 +94,30 @@ Para fluxogramas, timelines, tabelas e mídias de dados organizados, use Mermaid
  
 
 
-<h1 id="stultusvisio-031">StultusVisio 0.3.1</h1>
-<p>Slides estúpidos e fáceis, apresentáveis em qualquer <em>browser</em>.</p>
-<p><a href="https://github.com/EstalineCCCP/StultusVisio">GitHub</a></p>
-<h2 id="exemplo">Exemplo</h2>
-<p><a href="https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html">Minha_apresentacao.html</a></p>
-<h2 id="racional">Racional</h2>
-<p>Todos atuais softwares de apresentação de slides são <strong>péssimos</strong>.</p>
-<p>Um modo minimalista de construir apresentações, sem transições inúteis, modos contraproducentes como duas telas, WYSIWYG e compiladores complexos.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/slides.jpg"></img>
+    <p>Você e seus slides.</p>
+  </div>
+
+<p>Não há nada mais improdutivo como montar apresentações de slides!</p>
+<p>O tempo que se perde com diagramação e baboseiras como temas e formatação é absurdo.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/explain-much.gif"></img>
+    <p>Criando uma apresentação em Microsoft Power Point.</p>
+  </div>
+
+<p>O formato de arquivo associado aos principais programas de <em>slideshows</em> são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado.  Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente! <strong>Seria como ler um livro inteiro no Word!</strong></p>
+<p>Decidi então criar um sistema próprio e automatizado.</p>
+<p><a href="https://github.com/EstalineCCCP/StultusVisio">StultusVisio no GitHub</a></p>
+<h2 id="exemplos">Exemplos</h2>
+<p><a href="https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html">Exemplo simples com vídeo, imagem e listas.</a></p>
+<p><a href="https://estalinecccp.github.io/Dor-Toracica/">Apresentação sobre dor torácica que fiz em 2023.</a></p>
 <h2 id="filosofia-e-uso">Filosofia e uso</h2>
 <p>Um software simples que te obriga a montar slides coerentes.</p>
 <p>Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.</p>
@@ -112,23 +125,12 @@ Para fluxogramas, timelines, tabelas e mídias de dados organizados, use Mermaid
 <p>No diretório, crie um arquivo <em>minha_apresentacao.stv</em> e edite-o:</p>
 <div id="code"><p></p><p>.title Título da apresentação</p><p>.foot Um rodapé.</p><p># Estes são comentários. </p><p># As tags .script e .style apontam </p><p># para arquivos personalizados de </p><p># configuração. São opcionais.</p><p>.script ./Config/style.css</p><p>.style ./Config/script.js</p><p></p><p>--- </p><p>.heading Os três hífens iniciam um slide.</p><p>.list</p><p>Primeiro item de uma lista.</p><p>Segundo item de uma lista.</p><p></p><p>---</p><p>.image ./Images/exemplo.jpg</p><p></p><p>---</p><p>.video ./Videos/exemplo.mp4</p><p></p><p>---</p><p>.heading Exemplo de fluxograma em mermaid</p><p>.mermaid</p><p>graph TD</p><p>A --- B</p><p>B--&gt;C[fa:fa-ban Fim]</p><p>B--&gt;D(fa:fa-spinner);</p><p>C--&gt;A</p><p></p><p>---</p><p>.table</p><p>Coluna 1 | Coluna 2 | Coluna 3</p><p>Item 1 | Item 2 | Item 3</p><p>Última 1 | Última 2 | Última 3</p><p></p><p>---</p><p>.heading Um exemplo de lista ordenada.</p><p>.ordlist</p><p>Primeiro item numerado.</p><p>Segundo.</p><p>Mais um.</p><p></p><p>Último.</p><p></p><p></p></div>
 
-<h2 id="compilação-instalação-e-uso">Compilação, instalação e uso</h2>
-<p>Compile o StultusVisio:</p>
-<pre tabindex="0"><code>$ cargo build --release 
-</code></pre><p>Mova o binário para seu $PATH ou execute stultus_visio no mesmo diretório do arquvio minha_apresentacao.stv, por exemplo:</p>
+<h2 id="uso">Uso</h2>
+<p>Execute stultus_visio no mesmo diretório do arquvio <code>minha_apresentacao.stv</code>, por exemplo:</p>
 <pre tabindex="0"><code>$ ./target/stultus_visio minha_apresentacao.stv
-</code></pre><p>A apresentação será criada no mesmo diretório.</p>
+</code></pre><p>A apresentação será criada no mesmo diretório como um <code>html</code> de mesmo nome.</p>
 <p>Abra-a em qualquer navegador web.</p>
-<p>O arquivo é portável e único. Basta compartilhar o HTML em si.</p>
-<p>Para personalizar estilos e comportamento, aponte para arquivos personalizados de script.js e style.css.</p>
-<blockquote>
-<p>[!NOTE]
-Erros de sintaxe no arquivo presentation.stv são renderizados como slides com uma mensagem de erro.</p>
-</blockquote>
-<blockquote>
-<p>[!IMPORTANT]
-A violação da filosofia do software produz comportamento imprevisto. Não seja estúpido, apresentadores de slides não são editores de imagens. Edite-as no seu software favorito e importe-as.</p>
-</blockquote>
+<p>O arquivo é portável e único. Basta compartilhar o HTML em si. Zero necessidade de internet, exceto se você incorporar vídeos online.</p>
 <h2 id="controles">Controles</h2>
 <pre tabindex="0"><code>t   :   Abra/feche a ajuda.
 j   :   Vá ao próximo slide.
@@ -142,7 +144,7 @@ x   :   Altere tamanho do marcador.
 <p>Pressione &ldquo;p&rdquo; para alternar no modo printável.
 Em qualquer navegador, escolha modo landscape e em opções avançadas, desmarque headers and footers ou cabeçalhos e rodapés.
 Imprima na opção Salvar para PDF.</p>
-<h2 id="tasks-e-devesenvolvimento">Tasks e devesenvolvimento</h2>
+<h2 id="desenvolvimento">Desenvolvimento</h2>
 <p><a href="https://github.com/EstalineCCCP/StultusVisio/blob/Idiomatico/target/doc/stultusvisio/index.html">Documentação</a></p>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> básico de uso geral.</li>
@@ -156,9 +158,6 @@ Imprima na opção Salvar para PDF.</p>
 </ul>
 <h2 id="licença">Licença</h2>
 <p>GNU GPL v.3</p>
-<blockquote>
-<p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.  If not, see <a href="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</a>.</p>
-</blockquote>
 
 
 

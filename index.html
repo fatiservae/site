@@ -94,37 +94,38 @@
 function randomIndex(valor) {
     return Math.floor(Math.random() * valor)
 }
+let frases;
+let index ;
+let fraseAleatoria ;
+let autor ;
+
 fetch('/citacoes.json')
 .then(response => response.json())
 .then(data => { 
   
   
   
-  pensador = randomIndex(data.length);
-  frase = randomIndex(data[pensador].citacoes.length);
-  document.getElementById('frase').innerText = "\"" + data[pensador].citacoes[frase]+ "\"";
-  document.getElementById('autor').innerText = data[pensador].autor;
-})
-.catch(error => { 
-  console.error('Erro ao carregar o arquivo JSON:', error);
-});
+  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
+  index = randomIndex(novoFormato.length);
+  fraseAleatoria = novoFormato[index].frase;
+  autor = novoFormato[index].autor;
+  console.log(novoFormato);
+  console.log(fraseAleatoria, autor);
+  document.getElementById("frase").textContent = fraseAleatoria;
+  document.getElementById("autor").textContent = autor;
+  })
+.catch(error => console.error('Erro ao buscar o JSON:', error));
+
 document.addEventListener("DOMContentLoaded", function() {
   const item = document.querySelector('.frase');
   item.classList.add('show');
 });
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.caveira');
-  item.classList.add('show');
-});
-
 </script>
-
 <div> 
-<p class="frase" id="frase"></p> 
-<p id="autor"></p>
-<br>
+  <p class="frase" id="frase"></p> 
+  <p id="autor"></p>
+  <br>
 </div>
-
 
 
 

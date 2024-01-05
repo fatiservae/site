@@ -703,7 +703,7 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 &lt;p&gt;&lt;strong&gt;Recomendo polvilho azedo&lt;/strong&gt;. O polvilho doce tende a formar uma massa com muita liga que enrijece no calor e fica muito duro. Na verdade, o pão de queijo não é pão e sim um biscoito e, por essa lógica, o polvilho doce seria interessante, mas para a textura final de &lt;em&gt;&amp;ldquo;semi pão&amp;rdquo;&lt;/em&gt; o ideal é o azedo. Para pães mais ao estilo raiz e tradicional usa-se uma mistura de polvilhos, sendo que o azedo promove uma certa aeração da massa quando assada, fazendo matriz no pão, aqueles espaços de ar interessantes e o doce forma uma casca grossa e bem assada. O sabor do azedo também adiciona uma ligeira acidez que é desviada pela gordura, muito bom.&lt;/p&gt;
 &lt;p&gt;Não use água, como recomendam várias receitas, ela vai evaporar ao assar e não tem propósito nenhum, já que não é uma massa fermentada. Nem óleo, se possível. O óleo é um substituto gorduroso lubrificante para a emulsão de alta viscosidade que é a massa do pão de queijo. A lógica da gordura na receita é: &lt;strong&gt;primeiro manteiga de alta qualidade, depois manteigas de produção, por fim as margarinas e só em caso de não ter nenhum destes o óleo&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Não é realmente necessário aquecer o leite e a manteiga, mas esse processo faz diferença, já testei ambos e a massa &lt;em&gt;fria&lt;/em&gt; tenda a ter um cheiro mais forte. Pode ser uma coisa pessoal, mas fato é que o método consolidado é de leite quente. Uso fervido, antes da espuma subir.&lt;/p&gt;
-&lt;p&gt;Adicione os ovos só quando a primeira mistura esfriar, porque o ovo tende a cozinhar se adicionado com a massa quente ou mornae vai ficar separado.&lt;/p&gt;
+&lt;p&gt;Adicione os ovos só quando a primeira mistura esfriar, porque o ovo tende a cozinhar se adicionado com a massa quente ou morna e vai ficar separado.&lt;/p&gt;
 &lt;p&gt;Tudo deve ser adicionado devagar, porque se torna muito difícil manipular a massa quando ela molha muito rápido.&lt;/p&gt;
 &lt;p&gt;Pré aqueça o forno, como na maioria das receitas de assados, para evitar a drenagem excessiva de calor e queda da temperatura.&lt;/p&gt;
 &lt;p&gt;Quando começar a rachar e dourar, faça o café 😎.&lt;/p&gt;
@@ -2135,14 +2135,30 @@ $$&lt;/p&gt;
 		<pubDate>Mon, 06 Nov 2023 10:31:17 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/tecnologia/stultus-visio/</guid>
-		<description>&lt;h1 id=&#34;stultusvisio-031&#34;&gt;StultusVisio 0.3.1&lt;/h1&gt;
-&lt;p&gt;Slides estúpidos e fáceis, apresentáveis em qualquer &lt;em&gt;browser&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;exemplo&#34;&gt;Exemplo&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html&#34;&gt;Minha_apresentacao.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;racional&#34;&gt;Racional&lt;/h2&gt;
-&lt;p&gt;Todos atuais softwares de apresentação de slides são &lt;strong&gt;péssimos&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Um modo minimalista de construir apresentações, sem transições inúteis, modos contraproducentes como duas telas, WYSIWYG e compiladores complexos.&lt;/p&gt;
+		<description>
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/slides.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Você e seus slides.&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Não há nada mais improdutivo como montar apresentações de slides!&lt;/p&gt;
+&lt;p&gt;O tempo que se perde com diagramação e baboseiras como temas e formatação é absurdo.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/explain-much.gif&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Criando uma apresentação em Microsoft Power Point.&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;O formato de arquivo associado aos principais programas de &lt;em&gt;slideshows&lt;/em&gt; são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado.  Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente! &lt;strong&gt;Seria como ler um livro inteiro no Word!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Decidi então criar um sistema próprio e automatizado.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;StultusVisio no GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;exemplos&#34;&gt;Exemplos&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html&#34;&gt;Exemplo simples com vídeo, imagem e listas.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/Dor-Toracica/&#34;&gt;Apresentação sobre dor torácica que fiz em 2023.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;filosofia-e-uso&#34;&gt;Filosofia e uso&lt;/h2&gt;
 &lt;p&gt;Um software simples que te obriga a montar slides coerentes.&lt;/p&gt;
 &lt;p&gt;Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.&lt;/p&gt;
@@ -2150,23 +2166,12 @@ $$&lt;/p&gt;
 &lt;p&gt;No diretório, crie um arquivo &lt;em&gt;minha_apresentacao.stv&lt;/em&gt; e edite-o:&lt;/p&gt;
 &lt;div id=&#34;code&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;.title Título da apresentação&lt;/p&gt;&lt;p&gt;.foot Um rodapé.&lt;/p&gt;&lt;p&gt;# Estes são comentários. &lt;/p&gt;&lt;p&gt;# As tags .script e .style apontam &lt;/p&gt;&lt;p&gt;# para arquivos personalizados de &lt;/p&gt;&lt;p&gt;# configuração. São opcionais.&lt;/p&gt;&lt;p&gt;.script ./Config/style.css&lt;/p&gt;&lt;p&gt;.style ./Config/script.js&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;--- &lt;/p&gt;&lt;p&gt;.heading Os três hífens iniciam um slide.&lt;/p&gt;&lt;p&gt;.list&lt;/p&gt;&lt;p&gt;Primeiro item de uma lista.&lt;/p&gt;&lt;p&gt;Segundo item de uma lista.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.image ./Images/exemplo.jpg&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.video ./Videos/exemplo.mp4&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.heading Exemplo de fluxograma em mermaid&lt;/p&gt;&lt;p&gt;.mermaid&lt;/p&gt;&lt;p&gt;graph TD&lt;/p&gt;&lt;p&gt;A --- B&lt;/p&gt;&lt;p&gt;B--&amp;gt;C[fa:fa-ban Fim]&lt;/p&gt;&lt;p&gt;B--&amp;gt;D(fa:fa-spinner);&lt;/p&gt;&lt;p&gt;C--&amp;gt;A&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.table&lt;/p&gt;&lt;p&gt;Coluna 1 | Coluna 2 | Coluna 3&lt;/p&gt;&lt;p&gt;Item 1 | Item 2 | Item 3&lt;/p&gt;&lt;p&gt;Última 1 | Última 2 | Última 3&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.heading Um exemplo de lista ordenada.&lt;/p&gt;&lt;p&gt;.ordlist&lt;/p&gt;&lt;p&gt;Primeiro item numerado.&lt;/p&gt;&lt;p&gt;Segundo.&lt;/p&gt;&lt;p&gt;Mais um.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Último.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
 
-&lt;h2 id=&#34;compilação-instalação-e-uso&#34;&gt;Compilação, instalação e uso&lt;/h2&gt;
-&lt;p&gt;Compile o StultusVisio:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cargo build --release 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Mova o binário para seu $PATH ou execute stultus_visio no mesmo diretório do arquvio minha_apresentacao.stv, por exemplo:&lt;/p&gt;
+&lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
+&lt;p&gt;Execute stultus_visio no mesmo diretório do arquvio &lt;code&gt;minha_apresentacao.stv&lt;/code&gt;, por exemplo:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ./target/stultus_visio minha_apresentacao.stv
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação será criada no mesmo diretório.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação será criada no mesmo diretório como um &lt;code&gt;html&lt;/code&gt; de mesmo nome.&lt;/p&gt;
 &lt;p&gt;Abra-a em qualquer navegador web.&lt;/p&gt;
-&lt;p&gt;O arquivo é portável e único. Basta compartilhar o HTML em si.&lt;/p&gt;
-&lt;p&gt;Para personalizar estilos e comportamento, aponte para arquivos personalizados de script.js e style.css.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]
-Erros de sintaxe no arquivo presentation.stv são renderizados como slides com uma mensagem de erro.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!IMPORTANT]
-A violação da filosofia do software produz comportamento imprevisto. Não seja estúpido, apresentadores de slides não são editores de imagens. Edite-as no seu software favorito e importe-as.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;O arquivo é portável e único. Basta compartilhar o HTML em si. Zero necessidade de internet, exceto se você incorporar vídeos online.&lt;/p&gt;
 &lt;h2 id=&#34;controles&#34;&gt;Controles&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;t   :   Abra/feche a ajuda.
 j   :   Vá ao próximo slide.
@@ -2180,7 +2185,7 @@ x   :   Altere tamanho do marcador.
 &lt;p&gt;Pressione &amp;ldquo;p&amp;rdquo; para alternar no modo printável.
 Em qualquer navegador, escolha modo landscape e em opções avançadas, desmarque headers and footers ou cabeçalhos e rodapés.
 Imprima na opção Salvar para PDF.&lt;/p&gt;
-&lt;h2 id=&#34;tasks-e-devesenvolvimento&#34;&gt;Tasks e devesenvolvimento&lt;/h2&gt;
+&lt;h2 id=&#34;desenvolvimento&#34;&gt;Desenvolvimento&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio/blob/Idiomatico/target/doc/stultusvisio/index.html&#34;&gt;Documentação&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; básico de uso geral.&lt;/li&gt;
@@ -2194,9 +2199,6 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;licença&#34;&gt;Licença&lt;/h2&gt;
 &lt;p&gt;GNU GPL v.3&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;a href=&#34;https://www.gnu.org/licenses/&#34;&gt;https://www.gnu.org/licenses/&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
 	</item>
 	
@@ -2294,7 +2296,14 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 		<pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/palenque.webp&#34; alt=&#34;Palenque&#34;&gt;&lt;/p&gt;
+		<description>
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/palenque.webp&#34;&gt;&lt;/img&gt;
+    &lt;p&gt; &lt;/p&gt;
+  &lt;/div&gt;
+
 &lt;p&gt;Cidade de Chiapas, referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
 &lt;p&gt;Conhecida por seu ótimo estado de preservação, a atração da cidade é o parque arqueológico principal.&lt;/p&gt;
 &lt;h2 id=&#34;distâncias&#34;&gt;Distâncias&lt;/h2&gt;
