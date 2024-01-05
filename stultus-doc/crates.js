@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["base64","lib","stultusvisio"];

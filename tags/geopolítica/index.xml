@@ -521,15 +521,33 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
   
   &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
-      &lt;li&gt;Elevação posterior halters&lt;/li&gt;
-      &lt;li&gt;Remada alta anterior&lt;/li&gt;
+      &lt;li&gt;Aquecimento na máquina de pull&lt;/li&gt;
+      &lt;li&gt;Cavalinho&lt;/li&gt;
       &lt;li&gt;Remada baixa de pé&lt;/li&gt;
       &lt;li&gt;Serrote halter em equilíbrio&lt;/li&gt;
-      &lt;li&gt;Cavalinho&lt;/li&gt;
+      &lt;li&gt;Elevação posterior halters sentado&lt;/li&gt;
+      &lt;li&gt;Remada alta anterior barra&lt;/li&gt;
+      &lt;li&gt;Remada plana barra&lt;/li&gt;
+      &lt;!--li&gt;Cabo cruzado&lt;/li--&gt;
+      &lt;li&gt;Latissimus isolado cabo&lt;/li&gt;
+      &lt;li&gt;Latissimus isolado banco&lt;/li&gt;
+      &lt;li&gt;Pullover na corda&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div class=&#34;legend&#34;&gt;
    &lt;p&gt;Costas&lt;/p&gt; 
+  &lt;/div&gt;
+
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Rosca invertida&lt;/li&gt;
+      &lt;li&gt;Rosca posterior&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Antebraço&lt;/p&gt; 
   &lt;/div&gt;
 
   &lt;div class=&#34;slide&#34;&gt;
@@ -591,16 +609,6 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
   &lt;/div&gt;
   &lt;div class=&#34;legend&#34;&gt;
    &lt;p&gt;Bíceps femoral&lt;/p&gt; 
-  &lt;/div&gt;
-
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Rosca invertida&lt;/li&gt;
-      &lt;li&gt;Rosca posterior&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Antebraço&lt;/p&gt; 
   &lt;/div&gt;
 
   &lt;div class=&#34;slide&#34;&gt;
@@ -2229,7 +2237,8 @@ x   :   Altere tamanho do marcador.
 Em qualquer navegador, escolha modo landscape e em opções avançadas, desmarque headers and footers ou cabeçalhos e rodapés.
 Imprima na opção Salvar para PDF.&lt;/p&gt;
 &lt;h2 id=&#34;desenvolvimento&#34;&gt;Desenvolvimento&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio/blob/Idiomatico/target/doc/stultusvisio/index.html&#34;&gt;Documentação&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Se você é programador, clique &lt;a href=&#34;../../stultus-doc/stultusvisio/index.html&#34;&gt;aqui&lt;/a&gt; para acessar a documentação.&lt;/p&gt;
+&lt;h2 id=&#34;progresso&#34;&gt;Progresso&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; básico de uso geral.&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; marcador circular.&lt;/li&gt;
