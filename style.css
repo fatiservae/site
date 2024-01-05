@@ -205,12 +205,18 @@ div#code{
   font-family: monospace;
   color: var(--code-text); 
 }
+pre{
+  margin-left: 5vw;
+  align: center;
+  color: springgreen;
+}
 pre code {
 }
 code {
+  font-family: monospace;
   text-align: center ;
   font-size: 100% ; /* Tem que por pq o code padrão reduz */
-  color: var(--fonte-invertida);
+  color: var(--code-text);
 }
 
 .mermaid svg {
@@ -319,12 +325,6 @@ img {
   padding-left: 5vw;
   font-size: 0.8em;
   font-style:oblique;
-}
-
-pre{
-  margin-left: 3em;
-  align: center;
-  color: springgreen;
 }
 
 strong {

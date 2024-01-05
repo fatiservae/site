@@ -2163,9 +2163,51 @@ $$&lt;/p&gt;
 &lt;p&gt;Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.&lt;/p&gt;
 &lt;p&gt;Para fluxogramas, timelines, tabelas e mídias de dados organizados, use &lt;a href=&#34;https://github.com/mermaid-js/mermaid&#34;&gt;Mermaid&lt;/a&gt;, conforme exemplo abaixo.&lt;/p&gt;
 &lt;p&gt;No diretório, crie um arquivo &lt;em&gt;minha_apresentacao.stv&lt;/em&gt; e edite-o:&lt;/p&gt;
-&lt;div id=&#34;code&#34;&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;.title Título da apresentação&lt;/p&gt;&lt;p&gt;.foot Um rodapé.&lt;/p&gt;&lt;p&gt;# Estes são comentários. &lt;/p&gt;&lt;p&gt;# As tags .script e .style apontam &lt;/p&gt;&lt;p&gt;# para arquivos personalizados de &lt;/p&gt;&lt;p&gt;# configuração. São opcionais.&lt;/p&gt;&lt;p&gt;.script ./Config/style.css&lt;/p&gt;&lt;p&gt;.style ./Config/script.js&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;--- &lt;/p&gt;&lt;p&gt;.heading Os três hífens iniciam um slide.&lt;/p&gt;&lt;p&gt;.list&lt;/p&gt;&lt;p&gt;Primeiro item de uma lista.&lt;/p&gt;&lt;p&gt;Segundo item de uma lista.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.image ./Images/exemplo.jpg&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.video ./Videos/exemplo.mp4&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.heading Exemplo de fluxograma em mermaid&lt;/p&gt;&lt;p&gt;.mermaid&lt;/p&gt;&lt;p&gt;graph TD&lt;/p&gt;&lt;p&gt;A --- B&lt;/p&gt;&lt;p&gt;B--&amp;gt;C[fa:fa-ban Fim]&lt;/p&gt;&lt;p&gt;B--&amp;gt;D(fa:fa-spinner);&lt;/p&gt;&lt;p&gt;C--&amp;gt;A&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.table&lt;/p&gt;&lt;p&gt;Coluna 1 | Coluna 2 | Coluna 3&lt;/p&gt;&lt;p&gt;Item 1 | Item 2 | Item 3&lt;/p&gt;&lt;p&gt;Última 1 | Última 2 | Última 3&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;.heading Um exemplo de lista ordenada.&lt;/p&gt;&lt;p&gt;.ordlist&lt;/p&gt;&lt;p&gt;Primeiro item numerado.&lt;/p&gt;&lt;p&gt;Segundo.&lt;/p&gt;&lt;p&gt;Mais um.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Último.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.title Título da apresentação
+.foot Um rodapé.
+# Estes são comentários. 
+# As tags .script e .style apontam 
+# para arquivos personalizados de 
+# configuração. São opcionais.
+.script ./Config/style.css
+.style ./Config/script.js
 
-&lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
+--- 
+.heading Os três hífens iniciam um slide.
+.list
+Primeiro item de uma lista.
+Segundo item de uma lista.
+
+---
+.image ./Images/exemplo.jpg
+
+---
+.video ./Videos/exemplo.mp4
+
+---
+.heading Exemplo de fluxograma em mermaid
+.mermaid
+graph TD
+A --- B
+B--&amp;gt;C[fa:fa-ban Fim]
+B--&amp;gt;D(fa:fa-spinner);
+C--&amp;gt;A
+
+---
+.table
+Coluna 1 | Coluna 2 | Coluna 3
+Item 1 | Item 2 | Item 3
+Última 1 | Última 2 | Última 3
+
+---
+.heading Um exemplo de lista ordenada.
+.ordlist
+Primeiro item numerado.
+Segundo.
+Mais um.
+
+Último.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
 &lt;p&gt;Execute stultus_visio no mesmo diretório do arquvio &lt;code&gt;minha_apresentacao.stv&lt;/code&gt;, por exemplo:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ./target/stultus_visio minha_apresentacao.stv
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação será criada no mesmo diretório como um &lt;code&gt;html&lt;/code&gt; de mesmo nome.&lt;/p&gt;
