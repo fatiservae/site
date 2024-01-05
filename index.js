@@ -1,9 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
-  if (document.querySelectorAll('#artlist li').length > 21) {
-    for (let i = document.querySelectorAll('#artlist li').length - 1; i >= 20 ; i--) {
-      document.querySelectorAll('#artlist li')[i].style.display = 'none'
-    }
+  //if (document.querySelectorAll('#artlist li').length > 21) {
+  //  for (let i = document.querySelectorAll('#artlist li').length - 1; i >= 20 ; i--) {
+  //    document.querySelectorAll('#artlist li')[i].style.display = 'none'
+  //  }
+  //}
+
+  for (let i = 0; i < document.querySelectorAll('#artlist li').length;  i++) {
+    document.querySelectorAll('#artlist li')[i].style.display = 'none'
   }
+
 
   const search = document.getElementById("search");
   // const searched = document.querySelectorAll('#artlist li'); // por algum motivo não funciona!
@@ -27,11 +32,10 @@ document.addEventListener("DOMContentLoaded", () => {
       let isMatch = searchTerms.every(
         term => searchString.includes(term)
       );
-      if (!isMatch && hasFilter){
+      if (!isMatch || !hasFilter){
         out.style.display = 'none'
         //out.classList.remove('show')
       }else{
-        console.log('teste')
         out.style.display = 'block'
         //out.classList.add('show')
       }

@@ -1,9 +1,11 @@
 :root {
 /* Personalizadas */
+  --left-gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
+  --left-gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff);
   --letragradiente-light: linear-gradient(45deg, black, darkred, var(--fonte));
-  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
-  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
+  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
+  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
   --amarelo-google-transp: #ffa70010 ;
@@ -29,6 +31,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --fundo-carousel: var(--left-gradiente-dark);
   --code-text: navajowhite;
   --strong-color: navajowhite ;
   --texto-dim: #555555;
@@ -59,6 +62,7 @@
   --link-barra: var(--headings);
 }
 :root[data-tema="claro"] {
+  --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
   --link-barra: darkred;
   --texto-dim: var(--fundo-invertido);
@@ -645,7 +649,7 @@ ul {
   list-style-type: "  + ";
 }
 ol {
-  margin-left: 1vw;
+  margin-left: 5vw;
 }
 li a:hover {
   color: var(--fonte);
@@ -793,7 +797,7 @@ p {
   --largura: 60vw;
   --carouselheight: calc(var(--largura) * 2 / 3);
   border-radius: 7px;
-  background: var(--sticker-fundo);
+  background: var(--fundo-carousel);
   width: var(--largura); 
   display: block;
   overflow: hidden;
@@ -939,11 +943,10 @@ input {
 nav#TableOfContents {
   font-weight: bold;
   white-space: nowrap;
-  margin-left: 10%;
-  margin-right: auto;
+  margin-left: 5vw;
 }
 nav#TableOfContents ul {
-  margin-left: 2em;
+  margin-left: 2vw;
   list-style: none;
   padding-left: 0;
 }
@@ -975,18 +978,18 @@ nav#TableOfContents li:last-child::before {
   /*
   margin-right: auto;
   font-size: 105%;
-  border: 1px solid var(--separador) ; 
+  align: center ;
+  border-radius: 4px ;
+  border-bottom: 1px solid var(--separador) ; 
+  max-width: 60vw;
   */
   background: var(--sticker-fundo) ;
   margin-left: 5vw;
   margin-bottom: 1em;
   margin-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-bottom: 2em;
   padding-top: 0.5em;
-  max-width: 90%;
-  align: center ;
   text-align: center;
-  border-radius: 4px ;
   background-size: cover;
   font-weight: normal ;
 }
