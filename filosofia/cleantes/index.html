@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Cleantes: Há Um Exemplo | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="A inspiração de Cristo? Cleantes de Assos foi um filósofo helenístico discípulo de Zenão.
+Nascido pobre, viveu sob a alcunha de estúpido e foi atleta durante o dia e servo a noite para se sustentar pela maior parte da vida jovem.
+Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma dama que cozinhava.
+Foi acusado injustamente de manter atividades ilegais, porque chamava atenção estar apenas trabalhando o tempo inteiro.">
+  <meta name="keywords" content="Filosofia, Estoicismo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    
+    <a href="../../index.html" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
+    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+
+
+<div class="duploflex">
+<div>
+<h2>A inspiração de Cristo?</h2>
+<p><strong>Cleantes de Assos</strong> foi um filósofo helenístico discípulo de Zenão.</p>
+<p>Nascido pobre, viveu sob a alcunha de estúpido e foi atleta durante o dia e servo a noite para se sustentar pela maior parte da vida jovem.</p>
+<p>Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma dama que cozinhava.</p>
+<p>Foi acusado injustamente de manter atividades ilegais, porque chamava atenção estar apenas trabalhando o tempo inteiro. Seus patrões depuseram a seu favor e foi absolvido. <strong>Na verdade, o tribunal ficou tão convencido de sua retidão de conduta que se determinou pagamento de um salário público a Cleantes. Ele rejeitou.</strong></p>
+<p>Assumiu a escola de filosofia após a morte de Zenão e, para se sustentar, continuou trabalhando como carregador de água e outras cargas.</p>
+<p>Morreu na pobreza, solidão e ensino da filosofia estoica.</p>
+</div>
+<div class="sticker">
+
+
+
+  <div id="img-div">
+    <img src="../../pix/cleanthes.png"></img>
+    <p>Cleantes, o cara.</p>
+  </div>
+
+</div>
+</div>
+<h2>A diferença?</h2>
+<p>A diferença entre Cleantes e Cristo é que aquele de fato existiu e este foi, ao que tudo indica, uma alegoria poderosa para salvação humana.</p>
+
+
+
+<br>
+        <div style="clear:both" class=taglist><a id="tag_filosofia" href="https://www.jeffersontorres.com.br/tags/filosofia">Filosofia</a> &middot; <a id="tag_estoicismo" href="https://www.jeffersontorres.com.br/tags/estoicismo">Estoicismo</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

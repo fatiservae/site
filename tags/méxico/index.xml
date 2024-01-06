@@ -11,6 +11,38 @@
 	
 	
 	<item>
+		<title>Cleantes: há um exemplo</title>
+		<link>https://www.jeffersontorres.com.br/filosofia/cleantes/</link>
+		<pubDate>Sat, 06 Jan 2024 18:05:29 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/filosofia/cleantes/</guid>
+		<description>&lt;div class=&#34;duploflex&#34;&gt;
+&lt;div&gt;
+&lt;h2&gt;A inspiração de Cristo?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cleantes de Assos&lt;/strong&gt; foi um filósofo helenístico discípulo de Zenão.&lt;/p&gt;
+&lt;p&gt;Nascido pobre, viveu sob a alcunha de estúpido e foi atleta durante o dia e servo a noite para se sustentar pela maior parte da vida jovem.&lt;/p&gt;
+&lt;p&gt;Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma dama que cozinhava.&lt;/p&gt;
+&lt;p&gt;Foi acusado injustamente de manter atividades ilegais, porque chamava atenção estar apenas trabalhando o tempo inteiro. Seus patrões depuseram a seu favor e foi absolvido. &lt;strong&gt;Na verdade, o tribunal ficou tão convencido de sua retidão de conduta que se determinou pagamento de um salário público a Cleantes. Ele rejeitou.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Assumiu a escola de filosofia após a morte de Zenão e, para se sustentar, continuou trabalhando como carregador de água e outras cargas.&lt;/p&gt;
+&lt;p&gt;Morreu na pobreza, solidão e ensino da filosofia estoica.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sticker&#34;&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/cleanthes.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Cleantes, o cara.&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;A diferença?&lt;/h2&gt;
+&lt;p&gt;A diferença entre Cleantes e Cristo é que aquele de fato existiu e este foi, ao que tudo indica, uma alegoria poderosa para salvação humana.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Pohnpei: Micronésia</title>
 		<link>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</link>
 		<pubDate>Thu, 04 Jan 2024 06:27:45 -0300</pubDate>
@@ -23,8 +55,8 @@
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -424,8 +456,8 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -514,8 +546,8 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -934,8 +966,8 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
  
 &lt;div class=&#34;carousela&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -1012,8 +1044,8 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
  
 &lt;div class=&#34;carousel2&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior2&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo2&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior2&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo2&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -1263,7 +1295,6 @@ $$&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</guid>
 		<description>
 
-&lt;h2 style=&#34;padding: 0%;&#34; class=&#34;center&#34;&gt;Percentual de área corporal queimada&lt;/h2&gt;
 &lt;style&gt;
 p {
   margin-left: auto;
@@ -1302,7 +1333,9 @@ p {
 &lt;div class=&#34;center&#34;&gt;
   &lt;button onclick=&#34;adicionarElemento()&#34;&gt;Adicionar&lt;/button&gt;
   &lt;p class=&#34;center&#34; style=&#34;color: navajowhite&#34;&gt;Elementos selecionados:&lt;/p&gt;
-  &lt;ul id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
+  &lt;div class=&#34;sticker&#34;&gt;
+    &lt;ul id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
+  &lt;/div&gt;
   &lt;br&gt;
   &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
   &lt;input id=&#34;idade&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
@@ -1320,9 +1353,8 @@ p {
   &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
   
-&lt;h2 style=&#34;padding: 0%&#34; class=&#34;center&#34;&gt;Parkland sugerido&lt;/h2&gt;
-&lt;p id=&#34;parkland-pratico&#34;&gt;&lt;/p&gt;
-&lt;p&gt; A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&lt;/p&gt; 
+&lt;h2 style=&#34;padding: 0%&#34; class=&#34;center&#34;&gt;Parkland sugerido:&lt;/h2&gt;
+&lt;p id=&#34;parkland-pratico&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
 &lt;script&gt;
 let elementosSelecionados = [];
 
@@ -1400,7 +1432,7 @@ function calcular() {
   };
 
   document.getElementById(&#39;parkland-pratico&#39;).innerHTML = 
-    &#34;Fazer &#34;+dose+&#34;ml/h e é esperado um débito em torno de &#34;+debito+&#34;mL/h &lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&#34;;
+    &#34;Fazer &#34;+dose+&#34;ml/h de Ringer Lactato&lt;br&gt;Débito urinário esperado em torno de &#34;+debito+&#34;mL/h.&lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&lt;br&gt;&lt;br&gt;A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&#34;
 
   if (grau === &#34;pequeno&#34;) {
     document.getElementById(&#39;parkland-pratico&#39;).innerHTML += 
@@ -1482,8 +1514,8 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -1551,6 +1583,17 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
       &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Kirin-Ichban&lt;/p&gt;&lt;/div&gt;
+  
+
+  
+  
+  
+    &lt;div class=&#34;slide&#34;&gt;
+      &lt;a href=&#34;../../pix/culinaria/cervejas/copo-medina.jpg&#34;&gt;
+        &lt;img src=&#34;../../pix/culinaria/cervejas/copo-medina.jpg&#34;&gt;&lt;/img&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Exemplo de Standard American e seu colarinho evidente&lt;/p&gt;&lt;/div&gt;
   
 
 
@@ -1743,7 +1786,8 @@ $$
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
-		<description>&lt;div style=&#34;display: grid; align-content:center&#34; id=&#34;aviso&#34;&gt;
+		<description>&lt;!--
+&lt;div style=&#34;display: grid; align-content:center&#34; id=&#34;aviso&#34;&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
 A resolução de questões é um dos mais importantes instrumentos na aprovação em provas e a grande maioria dos preparatórios vendem bancos de questões. 
@@ -1771,6 +1815,8 @@ Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquest
 &lt;/div&gt;
   &lt;br&gt;
   &lt;br&gt;
+
+--&gt;
 
 
 &lt;div class=&#34;sticker&#34;&gt;
@@ -1802,8 +1848,8 @@ function fechardialogo() {
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -2423,8 +2469,8 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -2603,8 +2649,8 @@ function updateResult() {
  
 &lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;&amp;lt;-- Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima --&gt;&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   

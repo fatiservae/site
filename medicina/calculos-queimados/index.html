@@ -26,8 +26,8 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.ico">
-  <meta name="description" content="Percentual de área corporal queimada Adicione as partes queimadas: Cabeça - anterior Cabeça - posterior Pescoço Braço direito - anterior Braço direito - posterior Braço esquerdo - anterior Braço esquerdo - posterior Tórax anterior Tórax posterior Nádega direita Nádega esquerda Genitália Perna direita - anterior Perna direita - posterior Perna esquerda - anterior Perna esquerda - posterior Adicionar Elementos selecionados:
-Idade: Peso: Queimadura elétrica Calcular Parkland sugerido A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.">
+  <meta name="description" content="Adicione as partes queimadas: Cabeça - anterior Cabeça - posterior Pescoço Braço direito - anterior Braço direito - posterior Braço esquerdo - anterior Braço esquerdo - posterior Tórax anterior Tórax posterior Nádega direita Nádega esquerda Genitália Perna direita - anterior Perna direita - posterior Perna esquerda - anterior Perna esquerda - posterior Adicionar Elementos selecionados:
+Idade: Peso: Queimadura elétrica Calcular Parkland sugerido: Adicione os elementos queimados, idade, peso e clique em Calcular.">
   <meta name="keywords" content="Calculadoras, Medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -41,6 +41,7 @@ Idade: Peso: Queimadura elétrica Calcular Parkland sugerido A administração d
     <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
     <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
     <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
+    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
     <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
     <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
     <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
@@ -95,7 +96,6 @@ Idade: Peso: Queimadura elétrica Calcular Parkland sugerido A administração d
 
 
 
-<h2 style="padding: 0%;" class="center">Percentual de área corporal queimada</h2>
 <style>
 p {
   margin-left: auto;
@@ -134,7 +134,9 @@ p {
 <div class="center">
   <button onclick="adicionarElemento()">Adicionar</button>
   <p class="center" style="color: navajowhite">Elementos selecionados:</p>
-  <ul id="elementosSelecionados"></ul>
+  <div class="sticker">
+    <ul id="elementosSelecionados"></ul>
+  </div>
   <br>
   <label for="idade">Idade:</label>
   <input id="idade" type="number"></input>
@@ -152,9 +154,8 @@ p {
   <p id="resultado"></p>
 </div>
   
-<h2 style="padding: 0%" class="center">Parkland sugerido</h2>
-<p id="parkland-pratico"></p>
-<p> A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.</p> 
+<h2 style="padding: 0%" class="center">Parkland sugerido:</h2>
+<p id="parkland-pratico">Adicione os elementos queimados, idade, peso e clique em Calcular.</p>
 <script>
 let elementosSelecionados = [];
 
@@ -232,7 +233,7 @@ function calcular() {
   };
 
   document.getElementById('parkland-pratico').innerHTML = 
-    "Fazer "+dose+"ml/h e é esperado um débito em torno de "+debito+"mL/h <br>Observe sempre se a urina é clara!<br>Considere hidratação de manutenção.";
+    "Fazer "+dose+"ml/h de Ringer Lactato<br>Débito urinário esperado em torno de "+debito+"mL/h.<br>Observe sempre se a urina é clara!<br>Considere hidratação de manutenção.<br><br>A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário."
 
   if (grau === "pequeno") {
     document.getElementById('parkland-pratico').innerHTML += 
