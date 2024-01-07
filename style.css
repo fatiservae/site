@@ -63,7 +63,7 @@
   --link-barra: var(--headings);
 }
 :root[data-tema="claro"] {
-  --switch-shadow: -3px 1px 20px yellow;
+  --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
   --link-barra: darkred;
@@ -314,19 +314,21 @@ h1 {
   font-size: 120%;
 }
 h3 {
+  margin-left: 10vw;
   font-size: 105%;
+  font-weight: normal;
 }
 
 /* DIVISOR SEPARADOR HR */
 hr {
   /* 
-  */
   margin-top: 8%;
   margin-bottom: 2%;
+  */
   margin-left: clamp(5vw, 5%, 50%);
-  width: 45%;
+  width: 25%;
   color: var(--separador);
-  align: left;
+  align: start;
 }
 
 footer {
@@ -348,9 +350,11 @@ img {
 }
 
 #img-div p{
-  margin-left: 5vw;
-  text-align: start;
+  /*
   padding-left: 5vw;
+  */
+  text-align: start;
+  margin-left: 5vw;
   font-size: 0.8em;
   font-style:oblique;
 }
@@ -591,27 +595,32 @@ input#search::placeholder {
 
 .js-only { display: none ; }
 
+/*
 table tr:nth-child(even) {
-  background-color: #212222; 
+  background-color: var(--fundo-invertido); 
+  color: var(--fonte-invertida);
 }
 
 table tr:nth-child(odd) {
   background-color: none;
 }
+*/
 table {
+  /*
   margin: auto;
   align: center ;
-  border: 1px solid salmon ;
+  */
+  margin-left: 5vw;
+  border: 1px solid var(--fonte);
   border-collapse: collapse ;
 }
 th {
   font-weight: bold;
-  background-color: #212222;
 }
 th, td {
-  border: 1px solid var(--blue);
-  padding: 10px ;
-  text-align: left ;
+}
+table p{
+  margin-left: 1vw;
 }
 
 /* UL OL LI UNORDERED LISTS */
@@ -1295,5 +1304,7 @@ div#counter {
 .scalidraw svg{
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 0%;
+  padding: 0%;
   max-width: 95vw;
 }

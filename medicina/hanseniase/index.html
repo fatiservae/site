@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Hanseniase | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="O agente etiológico da hanseníase é o Mycobacterium leprae, que foi descrito em 1873 pelo cientista norueguês Gerhard Henry Armauer Hansen, razão pela qual também é denominado de Bacilo de Hansen. Não é cultivável. BacilosRespostaImunex Polo IndeterminadoForma tuberculoideFormaVirchowiana0&#43;t&#43;tTh1Th2predomíno O ponto de tempo zero t=0 é o momento da descoberta de lesões indeterminadas;
+A partir de então, o número de bacilos infiltrados nos diversos tecidos do corpo podem cair ou aumentar;">
+  <meta name="keywords" content="Medicina">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div class="barra">
+    
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
+    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#a-doença">A doença</a></li>
+    <li><a href="#resposta-imune-forte">Resposta imune forte</a></li>
+    <li><a href="#resposta-imune-fraca">Resposta imune fraca</a></li>
+    <li><a href="#classificação-da-oms">Classificação da OMS</a>
+      <ul>
+        <li><a href="#multibacilar">Multibacilar</a></li>
+        <li><a href="#paucibacilares">Paucibacilares</a></li>
+      </ul>
+    </li>
+    <li><a href="#diagnóstico">Diagnóstico</a></li>
+    <li><a href="#tratamento">Tratamento</a></li>
+    <li><a href="#operacional-na-ses-df">Operacional na SES-DF</a></li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
+  
+
+
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+O agente etiológico da hanseníase é o <em>Mycobacterium leprae</em>, que foi descrito em 1873 pelo cientista norueguês <b>Gerhard Henry Armauer Hansen</b>, razão pela qual também é denominado de Bacilo de Hansen. <br><b>Não é cultivável.</b>
+ </span>
+</div>
+
+
+
+<div class="scalidraw">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624.5 373" width="624.5" height="373">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <g stroke-linecap="round"><g transform="translate(92 324) rotate(0 1.5 -142.5)"><path d="M-0.56 -0.66 C-0.11 -48.2, 2.84 -238.64, 3.6 -286.12 M1.35 1.61 C1.61 -45.75, 2.56 -237.48, 2.97 -285.17" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(92 324) rotate(0 1.5 -142.5)"><path d="M11.36 -261.62 C7.28 -269.51, 3.36 -277.66, 2.97 -285.17 M11.36 -261.62 C8.46 -266.91, 6.73 -272.75, 2.97 -285.17" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(92 324) rotate(0 1.5 -142.5)"><path d="M-5.74 -261.73 C-3.4 -269.5, -0.89 -277.6, 2.97 -285.17 M-5.74 -261.73 C-4.28 -267.03, -1.66 -272.85, 2.97 -285.17" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(527 24) rotate(0 3 151)"><path d="M-1.01 1.07 C-0.18 51.44, 4.44 251.71, 5.66 301.8 M0.65 0.59 C1.24 51.18, 3.69 252.88, 4.54 303.23" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(527 24) rotate(0 3 151)"><path d="M-4.34 279.86 C0.53 287.69, 1.57 297.08, 4.54 303.23 M-4.34 279.86 C-2.52 286.12, -0.56 291.72, 4.54 303.23" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(527 24) rotate(0 3 151)"><path d="M12.75 279.62 C11.54 287.39, 6.5 296.87, 4.54 303.23 M12.75 279.62 C10.01 285.99, 7.39 291.66, 4.54 303.23" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(545 34) rotate(0 34.75 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Bacilos</text></g><g transform="translate(10 10) rotate(0 45.90833282470703 25)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Resposta</text><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Imune</text></g><g stroke-linecap="round"><g transform="translate(391.155626748483 327.71194156055856) rotate(0 -169.0778133742415 -2.8559707802792786)"><path d="M0.41 1.16 C-28.63 0.75, -117.59 -0.81, -174.17 -1.87 C-230.75 -2.94, -311.74 -4.79, -339.07 -5.24 M-0.83 0.73 C-30.04 -0.07, -119.16 -2.21, -175.13 -3.56 C-231.1 -4.9, -309.53 -6.84, -336.65 -7.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(391.155626748483 327.71194156055856) rotate(0 -169.0778133742415 -2.8559707802792786)"><path d="M-312.98 -15.38 C-318.26 -12.86, -326.06 -11.89, -336.65 -7.34 M-312.98 -15.38 C-320.81 -13.23, -329.25 -10.02, -336.65 -7.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(391.155626748483 327.71194156055856) rotate(0 -169.0778133742415 -2.8559707802792786)"><path d="M-313.35 1.72 C-318.6 -1.01, -326.29 -5.28, -336.65 -7.34 M-313.35 1.72 C-321.06 -1.94, -329.37 -4.53, -336.65 -7.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(348.61531237299516 328.3634882663277) rotate(0 113.19234381350242 -0.1817441331638463)"><path d="M-0.97 0.68 C36.99 0.46, 189.22 -1.07, 227.26 -1.17 M0.72 -0.01 C38.64 -0.1, 189.07 0.27, 226.77 -0.05" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(348.61531237299516 328.3634882663277) rotate(0 113.19234381350242 -0.1817441331638463)"><path d="M203.29 8.55 C210.54 7.95, 214.18 5.67, 226.77 -0.05 M203.29 8.55 C211.25 5.83, 218.76 2.91, 226.77 -0.05" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(348.61531237299516 328.3634882663277) rotate(0 113.19234381350242 -0.1817441331638463)"><path d="M203.25 -8.55 C210.53 -4.69, 214.18 -2.52, 226.77 -0.05 M203.25 -8.55 C211.24 -5.46, 218.77 -2.58, 226.77 -0.05" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(304 322) rotate(0 0.030859788936993482 -59.5)"><path d="M-1.01 -0.86 C-1.01 -20.68, -1.4 -99.27, -1.06 -118.95 M0.65 1.3 C1.11 -18.3, 1.04 -97.57, 1.06 -117.38" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(304 322) rotate(0 0.030859788936993482 -59.5)"><path d="M9.6 -93.88 C6.38 -100.76, 6.12 -102.19, 1.06 -117.38 M9.6 -93.88 C6.61 -100.45, 3.74 -108.67, 1.06 -117.38" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(304 322) rotate(0 0.030859788936993482 -59.5)"><path d="M-7.5 -93.89 C-7.12 -100.62, -3.8 -102.05, 1.06 -117.38 M-7.5 -93.89 C-5.23 -100.31, -2.84 -108.52, 1.06 -117.38" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(291.2750015258789 170.5) rotate(0 108.7249984741211 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">x  Polo Indeterminado</text></g><g stroke-linecap="round"><g transform="translate(285 167.48382959937663) rotate(0 -32.00982476973064 -30.146513351485353)"><path d="M0.81 -0.89 C-9.92 -10.96, -52.86 -50.23, -63.78 -60.08 M-0.22 1.26 C-11.14 -9.23, -53.67 -52.14, -64.6 -62.09" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(285 167.48382959937663) rotate(0 -32.00982476973064 -30.146513351485353)"><path d="M-41.76 -51.92 C-51.26 -54.93, -57.42 -59.99, -64.6 -62.09 M-41.76 -51.92 C-49.96 -54.23, -56.01 -57.96, -64.6 -62.09" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(285 167.48382959937663) rotate(0 -32.00982476973064 -30.146513351485353)"><path d="M-53.64 -39.62 C-59.02 -47.01, -61.02 -56.37, -64.6 -62.09 M-53.64 -39.62 C-58.07 -46.04, -60.23 -53.8, -64.6 -62.09" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(127 53) rotate(0 58.40833282470703 25)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Forma </text><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">tuberculoide</text></g><g transform="translate(399 241) rotate(0 53.44166564941406 25)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Forma</text><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Virchowiana</text></g><g stroke-linecap="round"><g transform="translate(313 194) rotate(0 58.711935173225015 23)"><path d="M-0.32 -0.75 C19.37 6.62, 98.94 37.16, 118.53 44.89 M1.71 1.46 C21.31 8.89, 99.05 38.3, 118.16 45.84" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(313 194) rotate(0 58.711935173225015 23)"><path d="M93.17 45.38 C100.21 47.44, 107.91 45.47, 118.16 45.84 M93.17 45.38 C99.68 44.85, 105.56 46.47, 118.16 45.84" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(313 194) rotate(0 58.711935173225015 23)"><path d="M99.31 29.42 C104.4 36.77, 110.06 40.09, 118.16 45.84 M99.31 29.42 C104.17 33.15, 108.41 39.04, 118.16 45.84" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(295 338) rotate(0 6.883333206176758 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">0</text></g><g transform="translate(514 331) rotate(0 11.899999618530273 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">+t</text></g><g transform="translate(82 326) rotate(0 11.899999618530273 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">+t</text></g><g transform="translate(25 69) rotate(0 15.691666603088379 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Th1</text></g><g transform="translate(31 278) rotate(0 20.100000381469727 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Th2</text></g><g stroke-linecap="round"><g transform="translate(42 179) rotate(0 1 -38.5)"><path d="M-0.38 0.22 C-0.38 -12.54, 0.54 -63.69, 1.03 -76.36 M1.62 -0.72 C1.9 -13.83, 3.16 -65.34, 3.24 -78.15" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(42 179) rotate(0 1 -38.5)"><path d="M11.4 -54.51 C8.6 -65.22, 6.17 -71.71, 3.24 -78.15 M11.4 -54.51 C8.5 -64.79, 5.81 -73.79, 3.24 -78.15" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(42 179) rotate(0 1 -38.5)"><path d="M-5.7 -54.8 C-1.94 -65.34, 2.2 -71.73, 3.24 -78.15 M-5.7 -54.8 C-1.81 -64.97, 2.31 -73.85, 3.24 -78.15" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(43 177) rotate(0 0 41)"><path d="M-0.64 0.98 C-0.69 14.44, -0.97 67.55, -0.72 81.25 M1.22 0.45 C1.6 14.01, 1.73 68.9, 1.61 82.4" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(43 177) rotate(0 0 41)"><path d="M-6.89 58.89 C-2.93 63.9, -3.58 72.62, 1.61 82.4 M-6.89 58.89 C-2.31 68.34, -0.3 78.36, 1.61 82.4" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(43 177) rotate(0 0 41)"><path d="M10.21 58.92 C9.68 63.84, 4.54 72.55, 1.61 82.4 M10.21 58.92 C7.98 68.42, 3.16 78.42, 1.61 82.4" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(-21 164) rotate(268.8818117937933 45.61666488647461 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">predomíno</text></g></svg>
+
+</div>
+
+<p class="legend">O ponto de tempo zero <em>t=0</em> é o momento da descoberta de lesões indeterminadas;<br>A partir de então, o número de bacilos infiltrados nos diversos tecidos do corpo podem cair ou aumentar;<br>A resposta imune pode ser mediada por macrófagos predominantemente Th1 ou Th2.</p> 
+<h2 id="a-doença">A doença</h2>
+<p>A infecção ocorre pelas vias aéreas a partir de contato íntimo e prolongado entre pessoas. Alguns animais são infectados, como o tatu, porém não se conhece caso de transmissão ao homem. O bacilo é intracelular obrigatório.</p>
+<p>A hanseníase evolui de forma muito dependente do hospedeiro. Se a reação imune é intensa e capaz de conter a infiltração, lesões granulomatosas vão se formar e os bacilos serão contidos na lesão. Do contrário, a infiltração será generalizada e o número de bacilos aumentará.</p>
+<h2 id="resposta-imune-forte">Resposta imune forte</h2>
+<p>Uma resposta imune competente montada a tempo fará com que a doença evolua com uma característica fixa de lesões típicas, <strong>acrômicas, indolores, secas e de localização fixa</strong>.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/hanseniase-hipocromicas.webp"></img>
+    <p>Forma clássica</p>
+  </div>
+
+<h2 id="resposta-imune-fraca">Resposta imune fraca</h2>
+<p>A resposta de predomínio Th2 ou a ausência de resposta imune permite a exacerbada replicação bacilar, levando a infiltração disseminada e sintomatologia mais rica. Pode afetar quaisquer tecidos, notadamente os de origem ectodérmica: a pele e o sistema nervos. Curiosamente, o SNC costuma ser poupado.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/hanseniase-eritematoferruginosa.jpeg"></img>
+    <p>Desconfie de lesões com aspecto purpúrico somadas a sintomas neurológicos. A pele é lisa e caracteristicamente infiltrada.</p>
+  </div>
+
+<h2 id="classificação-da-oms">Classificação da OMS</h2>
+<p>A OMS visa uma classificação mais operacional, sem a preocupação imunohistológica.</p>
+<p>A importância é epidemiológica, já que o convívio com multibacilares deve aumentar a probabilidade diagnóstica <strong>sempre</strong>.</p>
+<h3 id="multibacilar">Multibacilar</h3>
+<p>Se há mais de cinco lesões ao todo ou se há lesão neurológica, por conclusão clínica ou por imagem.</p>
+<h3 id="paucibacilares">Paucibacilares</h3>
+<p>Os demais indivíduos não multibacilares.</p>
+<br>
+<h2 id="diagnóstico">Diagnóstico</h2>
+<p>A investigação clínica envolve primeiro determinar a plausibilidade epidemiológica. Se a probabilidade pré-teste é alta e as lesões compatíveis com descrição literária, o diagnóstico clínico é feito, principalmente se a prevalência local é alta ou se há convívio-contato com outro indivíduo multibacilar.</p>
+<p>O diagnóstico laboratorial ou por exames específicos não é a prática comum.</p>
+<p>O raspado ou a biópsia de lesão/pele pode confirmar o diagnóstico mas é normalmente utilizada em situações de extrema dúvida ou para fins acadêmicos.</p>
+<h2 id="tratamento">Tratamento</h2>
+<p>O tratamento, no Brasil, é a poliquimioterapia padrão da OMS (PQT/OMS).</p>
+<p>No Distrito Federal, em 2023, estão vigentes os seguintes esquemas:</p>
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+	<tbody>
+		<tr>
+			<td colspan="2"><b>Medicamentos padronizados para o tratamento da Hanseníase</b></td>
+		</tr>
+		<tr>
+			<td>
+			<p>Tratamento de 1ª linha adulto</p>
+			</td>
+			<td>Poliquimioterapia Única adulto (PQT-U adulto)</td>
+		</tr>
+		<tr>
+			<td>
+			<p>Tratamento de 1ª linha infantil</p>
+			</td>
+			<td>Poliquimioterapia Única infantil (PQT-U infantil)</td>
+		</tr>
+		<tr>
+			<td>
+			<p>Tratamento das reações hansênicas</p>
+			</td>
+			<td>Clofazimina 50 mg e 100 mg / Prednisona 5 mg e 20 mg / Pentoxifilina 400 mg/ Talidomida 100 mg</td>
+		</tr>
+		<tr>
+			<td>
+			<p>Tratamento de 2ª linha</p>
+			</td>
+			<td>Clofazimina 50 mg e 100 mg / Minociclina 100 mg / Rifampicina 300 mg / Ofloxacino 400 mg</td>
+		</tr>
+		<tr>
+			<td>
+			<p>Esquema Farmacológico ROM1</p>
+			</td>
+			<td>Rifampicina 600 mg / Ofloxacino 400 mg / Minociclina 100 mg</td>
+		</tr>
+		<tr>
+			<td>
+			<p>Tratamento para os casos resistentes</p>
+			</td>
+			<td>Ofloxacino 400 mg / Minociclina 100 mg / Claritromicina 500 mg2/Clofazimina 50 mg</td>
+		</tr>
+	</tbody>
+</table>
+<h2 id="operacional-na-ses-df">Operacional na SES-DF</h2>
+<p>Para detalhes de dispensação, documentos e responsáveis, visite a referência 2 no fim da página.
+<br>
+<br>
+<br></p>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>TAVARES, Walter; MARINHO, Luiz Alberto Carneiro. <strong>Rotinas de diagnóstico e tratamento das doenças infecciosas e parasitárias</strong>. In: Rotinas de diagnóstico e tratamento das doenças infecciosas e parasitárias. 2005. p. 1206-1206.</li>
+<li>GDF, Governo do Distrito Federal. <strong><a href="https://www.saude.df.gov.br/medicamentos-hanseniase">https://www.saude.df.gov.br/medicamentos-hanseniase</a></strong>. Visitado em 07 de janeiro de 2024.</li>
+</ol>
+
+
+
+<br>
+        <div style="clear:both" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>
