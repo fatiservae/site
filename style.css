@@ -108,6 +108,9 @@ body {
   padding: 0%;
 }
 
+a#switch {
+  font-size: 170%;
+}
 .importante {
   background-color: #983500;
   font-weight: normal;

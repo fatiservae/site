@@ -16,12 +16,13 @@
 
   
 
-  <title>Tecnologia | Jefferson T.</title>
+  <title>Crypto | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
-  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
-  <link rel='stylesheet' type='text/css' href='../style.css'>
-  <link rel="icon" href="../favicon.ico">
-  <meta name="description" content="">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.ico">
+  <meta name="description" content="🤑 Minha carteira Monero
+47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -30,14 +31,14 @@
   <div class="barra">
     <a id="switch" onclick="alternarTema(); return false"></a>
     
-    <a href="../index.html" alt="Início">Início</a>
-    <a href="../sobre/index.html" alt="Sobre">Sobre</a>
-    <a href="../dicionario/index.html" alt="Dicionário">Dicionário</a>
-    <a href="../tags/medicina/index.html" alt="Medicina">Medicina</a>
-    <a href="../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
-    <a href="../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
-    <a href="../files/index.html" alt="Arquivos">Arquivos</a>
-    <a href="../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+    <a href="../../index.html" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
+    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
   </div>
 <script>
   let lighswitch = document.getElementById("switch");
@@ -87,55 +88,13 @@
  
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
+<a href="../../pix/myMonero.png">
+<img class="qrmonero" src="../../pix/myMonero.png" alt="Minha carteira monero"></img>
+</a>
+<p>🤑 Minha carteira Monero</p>
+<p style="width: 70vw; overflow: scroll"> 47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe</p>
 
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  console.log(novoFormato);
-  console.log(fraseAleatoria, autor);
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  document.getElementById("autor").textContent = autor;
-  })
-.catch(error => console.error('Erro ao buscar o JSON:', error));
 
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-
-<div class="frase"> 
-<p id="frase"></p> 
-<p id="autor"></p>
-<br>
-</div>
-
-<ul class="listing-list">
-<li>
-	<a href="../tecnologia/mycrypto/">Crypto</a>
-	
-	</li>
-<li>
-	<a href="../tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a>
-	
-	</li>
-<li>
-	<a href="../tecnologia/stultus-visio/">Stultus Visio</a>
-	
-	</li>
-</ul>
 
 
 
