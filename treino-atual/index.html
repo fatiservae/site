@@ -31,8 +31,8 @@ Extensão unilateral no pulley Extensão na barra reta no pulley Extensão com c
 </head>
 <body>
   <div class="barra">
-    <a id="switch" onclick="alternarTema(); return false"></a>
     
+    <a id="switch" onclick="alternarTema(); return false"></a>
     <a href="../index.html" alt="Início">Início</a>
     <a href="../sobre/index.html" alt="Sobre">Sobre</a>
     <a href="../dicionario/index.html" alt="Dicionário">Dicionário</a>
@@ -48,7 +48,7 @@ Extensão unilateral no pulley Extensão na barra reta no pulley Extensão com c
  
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -62,20 +62,20 @@ Extensão unilateral no pulley Extensão na barra reta no pulley Extensão com c
     });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = '🌚' ;
+    lighswitch.innerHTML = '🌞' ;
   }
   else {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '🌚' ;
   }
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === 'claro') {
-      lighswitch.innerHTML = '🌞'
+      lighswitch.innerHTML = '🌚'
       document.documentElement.setAttribute('data-tema', 'escuro');
       localStorage.setItem('tema', 'escuro'); 
     } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = '🌚'
+      lighswitch.innerHTML = '🌞'
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }

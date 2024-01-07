@@ -31,6 +31,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --switch-shadow: -3px 1px 10px #ffffff;
   --fundo-carousel: var(--left-gradiente-dark);
   --code-text: navajowhite;
   --strong-color: navajowhite ;
@@ -62,6 +63,7 @@
   --link-barra: var(--headings);
 }
 :root[data-tema="claro"] {
+  --switch-shadow: -3px 1px 20px yellow;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
   --link-barra: darkred;
@@ -108,9 +110,24 @@ body {
   padding: 0%;
 }
 
-a#switch {
-  font-size: 170%;
+#switch {
+  /*
+  position: absolute;
+  left: 5vw;
+  top: 1vw;
+  font-size: 200%;
+  */
+  text-shadow: var(--switch-shadow);
 }
+a#switch {
+   font-size: 150%;
+}
+@media only screen and (max-width: 800px){
+  a#switch {
+   font-size: 110%;
+  }
+}
+
 .importante {
   background-color: #983500;
   font-weight: normal;

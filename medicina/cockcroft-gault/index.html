@@ -38,8 +38,8 @@ Masculino Feminino Calcular TFG">
 </head>
 <body>
   <div class="barra">
-    <a id="switch" onclick="alternarTema(); return false"></a>
     
+    <a id="switch" onclick="alternarTema(); return false"></a>
     <a href="../../index.html" alt="Início">Início</a>
     <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
     <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
@@ -55,7 +55,7 @@ Masculino Feminino Calcular TFG">
  
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -69,20 +69,20 @@ Masculino Feminino Calcular TFG">
     });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = '🌚' ;
+    lighswitch.innerHTML = '🌞' ;
   }
   else {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '🌚' ;
   }
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === 'claro') {
-      lighswitch.innerHTML = '🌞'
+      lighswitch.innerHTML = '🌚'
       document.documentElement.setAttribute('data-tema', 'escuro');
       localStorage.setItem('tema', 'escuro'); 
     } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = '🌚'
+      lighswitch.innerHTML = '🌞'
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }

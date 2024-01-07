@@ -36,8 +36,8 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
 </head>
 <body>
   <div class="barra">
-    <a id="switch" onclick="alternarTema(); return false"></a>
     
+    <a id="switch" onclick="alternarTema(); return false"></a>
     <a href="../../index.html" alt="Início">Início</a>
     <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
     <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
@@ -53,7 +53,7 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
  
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -67,20 +67,20 @@ Empório 85 Wine Bar; Cervejaria Barba Ruiva (fora de Domingos Martins, na estra
     });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = '🌚' ;
+    lighswitch.innerHTML = '🌞' ;
   }
   else {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '🌚' ;
   }
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === 'claro') {
-      lighswitch.innerHTML = '🌞'
+      lighswitch.innerHTML = '🌚'
       document.documentElement.setAttribute('data-tema', 'escuro');
       localStorage.setItem('tema', 'escuro'); 
     } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = '🌚'
+      lighswitch.innerHTML = '🌞'
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
