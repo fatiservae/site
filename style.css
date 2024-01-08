@@ -357,6 +357,7 @@ img {
   margin-left: 5vw;
   font-size: 0.8em;
   font-style:oblique;
+  max-width: 65vw;
 }
 
 strong {
@@ -400,7 +401,9 @@ article {
 .show {
   display: block !important ;
 }
-
+ul#search-output {
+  padding: 0vw;
+}
 #search-output li {
   display: block;
 }
@@ -815,8 +818,6 @@ p {
   display: block ;
   align-content: center ;
   padding: 0%;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 85%;
 }
 #question-container p {
@@ -829,6 +830,15 @@ p {
 #info-question button {
   margin-left: auto;
   margin-right: auto;
+}
+p.texto-questao {
+  margin-left: 5vw;
+}
+#resolver {
+  margin-left: 5vw;
+}
+input#true {
+  margin-left: 5vw;
 }
 
 /* CAROUSEL CARROSSEIS */
@@ -1061,8 +1071,10 @@ nav#TableOfContents li:last-child::before {
 div#counter {
   text-align: center;
   border: none;
-  max-width: 80%;
+  /*
   margin: auto;
+  max-width: 80%;
+  */
 }
 .counter{
   /*
@@ -1163,7 +1175,7 @@ div#counter {
   columns: 1 !important;
   }
   #question-container p{
-    font-size: 115%;
+    font-size: 105%;
   }
   nav#TableOfContents {
   }
