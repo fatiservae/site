@@ -433,7 +433,7 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
     &lt;style class=&#34;style-fonts&#34;&gt;
       @font-face {
         font-family: &#34;Virgil&#34;;
-        src: url(&#34;https://excalidraw.com/Virgil.woff2&#34;);
+        src: url(&#34;https://virgil.excalidraw.com/Virgil.woff2&#34;);
       }
       @font-face {
         font-family: &#34;Cascadia&#34;;
@@ -2354,16 +2354,9 @@ $$&lt;/p&gt;
 		<pubDate>Mon, 06 Nov 2023 10:31:17 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/tecnologia/stultus-visio/</guid>
-		<description>
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/slides.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Você e seus slides.&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;Não há nada mais improdutivo como montar apresentações de slides!&lt;/p&gt;
-&lt;p&gt;O tempo que se perde com diagramação e baboseiras como temas e formatação é absurdo.&lt;/p&gt;
+		<description>&lt;h1 id=&#34;stultusvisio&#34;&gt;StultusVisio&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Não há nada mais improdutivo que montar apresentações de slides!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O tempo que se perde com diagramação, baboseiras, temas e formatação é absurdo!&lt;/p&gt;
 
 
 
@@ -2373,12 +2366,32 @@ $$&lt;/p&gt;
   &lt;/div&gt;
 
 &lt;p&gt;O formato de arquivo associado aos principais programas de &lt;em&gt;slideshows&lt;/em&gt; são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado.  Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente! &lt;strong&gt;Seria como ler um livro inteiro no Word!&lt;/strong&gt;&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/slides.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Você e seus slides.&lt;/p&gt;
+  &lt;/div&gt;
+
 &lt;p&gt;Decidi então criar um sistema próprio e automatizado.&lt;/p&gt;
+&lt;h2 id=&#34;filosofia&#34;&gt;Filosofia&lt;/h2&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+Stultus visio é um &lt;strong&gt;parser&lt;/strong&gt; para HTML, usando como inspiração o antigo sistema Roff/Nroff/Groff.&lt;br&gt;
+A regra semântica central é a âncora, um termo que inicia no começo da linha com ponto, como &lt;em&gt;.image&lt;/em&gt;.&lt;br&gt;
+Tentei concentrar a compilação literal de um &amp;ltdiv&amp;gt para cada slide.&lt;br&gt;
+O básico da linguagem é o &lt;strong&gt;paradigma procedural&lt;/strong&gt;.&lt;br&gt;
+Não há suporte a recorrência, ainda.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
 &lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;StultusVisio no GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;exemplos&#34;&gt;Exemplos&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html&#34;&gt;Exemplo simples com vídeo, imagem e listas.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/Dor-Toracica/&#34;&gt;Apresentação sobre dor torácica que fiz em 2023.&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;filosofia-e-uso&#34;&gt;Filosofia e uso&lt;/h2&gt;
+&lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
 &lt;p&gt;Um software simples que te obriga a montar slides coerentes.&lt;/p&gt;
 &lt;p&gt;Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.&lt;/p&gt;
 &lt;p&gt;Para fluxogramas, timelines, tabelas e mídias de dados organizados, use &lt;a href=&#34;https://github.com/mermaid-js/mermaid&#34;&gt;Mermaid&lt;/a&gt;, conforme exemplo abaixo.&lt;/p&gt;
@@ -2427,8 +2440,7 @@ Segundo.
 Mais um.
 
 Último.
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
-&lt;p&gt;Execute stultus_visio no mesmo diretório do arquvio &lt;code&gt;minha_apresentacao.stv&lt;/code&gt;, por exemplo:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Execute stultus_visio no mesmo diretório do arquvio &lt;code&gt;minha_apresentacao.stv&lt;/code&gt;, por exemplo:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ./target/stultus_visio minha_apresentacao.stv
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação será criada no mesmo diretório como um &lt;code&gt;html&lt;/code&gt; de mesmo nome.&lt;/p&gt;
 &lt;p&gt;Abra-a em qualquer navegador web.&lt;/p&gt;

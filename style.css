@@ -200,12 +200,12 @@ a#switch {
   text-align: center;
   overflow: hidden; 
   color: var(--sticker-font); 
-  transition: color 2s ease-in-out, font-size 2s ease-in-out, text-shadow 2s ease-in-out;
+  font-weight: normal;
+  transition: color 4s ease-in-out, font-weight 2s ease-in-out;
 }
 .etiqueta:hover{
   color: var(--strong-color);
-  font-size: 110%;
-  font-weight: normal;
+  font-weight: bold;
 }
 /*.sticker:hover {
   border-right: 1px solid tomato;
@@ -309,6 +309,7 @@ h1, h2, h3 {
   max-width: 90vw;
 }
 h1 {
+  margin-left: 25vw;
   padding: 0em;
   padding-top: 0%; 
   font-size: 120%;

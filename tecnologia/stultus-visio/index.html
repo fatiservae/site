@@ -21,11 +21,10 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.ico">
-  <meta name="description" content="Você e seus slides.
-Não há nada mais improdutivo como montar apresentações de slides!
-O tempo que se perde com diagramação e baboseiras como temas e formatação é absurdo.
+  <meta name="description" content="StultusVisio Não há nada mais improdutivo que montar apresentações de slides!
+O tempo que se perde com diagramação, baboseiras, temas e formatação é absurdo!
 Criando uma apresentação em Microsoft Power Point.
-O formato de arquivo associado aos principais programas de slideshows são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado. Além disso, a apresentação é mostrada a partir do arquivo editável.">
+O formato de arquivo associado aos principais programas de slideshows são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado. Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente!">
   <meta name="keywords" content="Programação, Projetos">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -92,16 +91,9 @@ O formato de arquivo associado aos principais programas de slideshows são estú
  
 
 
-
-
-
-  <div id="img-div">
-    <img src="../../pix/slides.jpg"></img>
-    <p>Você e seus slides.</p>
-  </div>
-
-<p>Não há nada mais improdutivo como montar apresentações de slides!</p>
-<p>O tempo que se perde com diagramação e baboseiras como temas e formatação é absurdo.</p>
+<h1 id="stultusvisio">StultusVisio</h1>
+<p><strong>Não há nada mais improdutivo que montar apresentações de slides!</strong></p>
+<p>O tempo que se perde com diagramação, baboseiras, temas e formatação é absurdo!</p>
 
 
 
@@ -111,12 +103,32 @@ O formato de arquivo associado aos principais programas de slideshows são estú
   </div>
 
 <p>O formato de arquivo associado aos principais programas de <em>slideshows</em> são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado.  Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente! <strong>Seria como ler um livro inteiro no Word!</strong></p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/slides.jpg"></img>
+    <p>Você e seus slides.</p>
+  </div>
+
 <p>Decidi então criar um sistema próprio e automatizado.</p>
+<h2 id="filosofia">Filosofia</h2>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Stultus visio é um <strong>parser</strong> para HTML, usando como inspiração o antigo sistema Roff/Nroff/Groff.<br>
+A regra semântica central é a âncora, um termo que inicia no começo da linha com ponto, como <em>.image</em>.<br>
+Tentei concentrar a compilação literal de um &ltdiv&gt para cada slide.<br>
+O básico da linguagem é o <strong>paradigma procedural</strong>.<br>
+Não há suporte a recorrência, ainda.
+ </span>
+</div>
+
+
 <p><a href="https://github.com/EstalineCCCP/StultusVisio">StultusVisio no GitHub</a></p>
 <h2 id="exemplos">Exemplos</h2>
 <p><a href="https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html">Exemplo simples com vídeo, imagem e listas.</a></p>
 <p><a href="https://estalinecccp.github.io/Dor-Toracica/">Apresentação sobre dor torácica que fiz em 2023.</a></p>
-<h2 id="filosofia-e-uso">Filosofia e uso</h2>
+<h2 id="uso">Uso</h2>
 <p>Um software simples que te obriga a montar slides coerentes.</p>
 <p>Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.</p>
 <p>Para fluxogramas, timelines, tabelas e mídias de dados organizados, use <a href="https://github.com/mermaid-js/mermaid">Mermaid</a>, conforme exemplo abaixo.</p>
@@ -165,8 +177,7 @@ Segundo.
 Mais um.
 
 Último.
-</code></pre><h2 id="uso">Uso</h2>
-<p>Execute stultus_visio no mesmo diretório do arquvio <code>minha_apresentacao.stv</code>, por exemplo:</p>
+</code></pre><p>Execute stultus_visio no mesmo diretório do arquvio <code>minha_apresentacao.stv</code>, por exemplo:</p>
 <pre tabindex="0"><code>$ ./target/stultus_visio minha_apresentacao.stv
 </code></pre><p>A apresentação será criada no mesmo diretório como um <code>html</code> de mesmo nome.</p>
 <p>Abra-a em qualquer navegador web.</p>
