@@ -31,8 +31,8 @@
 }
 
 :root[data-tema="escuro"] {
-  --switch-shadow: -3px 1px 10px #ffffff;
-  --fundo-carousel: var(--left-gradiente-dark);
+  --switch-shadow: -2px 1px 10px #ffffff;
+  --fundo-carousel: none;
   --code-text: navajowhite;
   --strong-color: navajowhite ;
   --texto-dim: #555555;
@@ -120,7 +120,7 @@ body {
   text-shadow: var(--switch-shadow);
 }
 a#switch {
-   font-size: 150%;
+  font-size: 150%;
 }
 @media only screen and (max-width: 800px){
   a#switch {
@@ -413,6 +413,8 @@ article {
 }
 #files li:hover{
   background-size: cover;
+  background: var(--fundo-input);
+  border-radius: 7px;
 }
 a .matched-recipe{
   font-size: 0.5em;
@@ -837,23 +839,23 @@ p {
   background: var(--fundo-carousel);
   width: var(--largura); 
   display: block;
-  overflow: hidden;
   margin-left: 5vw;
   /*
   height: var(--carouselheight);
+  overflow: hidden;
   border: 1px solid var(--bordas);
   margin-left: auto ;
   margin-right: auto ;
   max-width: 80%; 
   */
 }
-
 .slide img{
   margin: 0%;
+  height: 100%;
+  border-radius: 7px;
 }
 .slide ul {
   text-align: start;
-
 }
 .slide li {
   text-align: start;
@@ -869,7 +871,10 @@ p {
 */
   justify-content: space-between;
 }
-.carousel .conteudo {
+.conteudo div.slide {
+}
+.conteudo div.legend {
+  margin-left: 0vw;
 }
 button[id^="proximo"] {
   text-align: start;
@@ -945,12 +950,12 @@ button[id^="anterior"]:active{
   margin-left: 5vw;
   text-align: start;
 }
-.conteudo.legend p{
+.legend p{
   font-size: 90%;
-  color: var(--font); 
   font-style: italic;
-  margin-left: 5vw;
   max-width: 75%;
+  margin-left: 0vw;
+  color: var(--font); 
   /*
   margin: 0%;
   text-indent: 0%;
@@ -1165,11 +1170,11 @@ div#counter {
   [class^=carousel] {
     --largura: 95vw;
     margin-left: 5vw;
+    border-radius: 7px;
     /*
     display: flex;
     --carouselheight: calc(var(--largura) * 2 / 3);
     max-width: var(--largura); 
-    border-radius: 7px;
     border: 1px solid var(--bordas);
     background: var(--sticker-fundo);
     margin-right: auto ;
@@ -1219,15 +1224,17 @@ div#counter {
     font-size: 80%;
     color: var(--font); 
     font-style: italic;
-    margin-left: 5vw;
     text-align: start;
+    margin-left: 5vw;
   }
   .conteudo .legend p{
     font-size: 90%;
     color: var(--font); 
     font-style: italic;
-    margin-left: 5vw;
     max-width: 75%;  
+    /*
+    margin-left: 5vw;
+    */
   }
   .carouselslide a[href] img {
     /*
@@ -1302,8 +1309,7 @@ div#counter {
   display: flex;
 }
 .scalidraw svg{
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 5vw;
   margin-bottom: 0%;
   padding: 0%;
   max-width: 95vw;
