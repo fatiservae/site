@@ -4,7 +4,8 @@
   --left-gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff);
   --letragradiente-light: linear-gradient(45deg, black, darkred, var(--fonte));
-  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
+  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;
+  /*--gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ; */
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
@@ -31,6 +32,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --negrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
   --code-text: navajowhite;
@@ -43,6 +45,7 @@
   --headings: navajowhite ;
   --bordas: #383f48 ;
   --fundo: #22272e ;
+  --marca-texto: #aeff77;
   --fundo-invertido: var(--white-solarized) ;
   --fundo-input: #1c2128 ;
   /*
@@ -60,13 +63,15 @@
   --links-visitados: var(--blue) ;
   --link-hover: white ;
   --termo: tomato ;
-  --link-barra: var(--headings);
+  --link-barra: tan;
 }
 :root[data-tema="claro"] {
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
+  --marca-texto: yellow;
   --code-text: indigo;
   --link-barra: darkred;
+  --negrito: #b0132d;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
@@ -117,11 +122,18 @@ body {
   top: 1vw;
   font-size: 200%;
   */
+  background: none;
   text-shadow: var(--switch-shadow);
 }
 a#switch {
+  transition: box-shadow 200ms ease-in-out;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
   font-size: 150%;
 }
+a#switch:hover {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),inset  0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
 @media only screen and (max-width: 800px){
   a#switch {
    font-size: 110%;
@@ -300,7 +312,9 @@ h1, h2, h3 {
   /*
   */
   font-size: 115%;
-  padding-top: 2em;
+  padding: 0%;
+  padding-top: 1em;
+  margin: 0vw;
   margin-left: 5vw;
   text-indent: 0% ;
   font-weight: bold;
@@ -311,7 +325,6 @@ h1, h2, h3 {
 h1 {
   margin-left: 25vw;
   padding: 0em;
-  padding-top: 0%; 
   font-size: 120%;
 }
 h3 {
@@ -363,6 +376,8 @@ img {
 
 strong {
   font-weight: bold;
+  color: var(--negrito);
+  border-radius: 2px;
   /*
   color: var(--strong-color) ; 
   -webkit-background-clip: text;
@@ -630,6 +645,10 @@ table p{
 }
 
 /* UL OL LI UNORDERED LISTS */
+ul strong,
+ol strong {
+  background: none;
+}
 .listing-list ul{
   text-align: start;
   padding: 5vw;
@@ -1014,13 +1033,16 @@ nav#TableOfContents li::before {
   color: var(--fonte) ;
   content: "├";
   position: absolute;
-  left: -20px;
+  left: -15px;
 }
 nav#TableOfContents li:hover {
   list-style-type: none ; 
 }
 nav#TableOfContents li:first-child::before {
   content: "┌";
+}
+nav#TableOfContents li li:first-child::before {
+  content: "├";
 }
 nav#TableOfContents li:last-child::before {
   content: "└";
@@ -1037,7 +1059,8 @@ nav#TableOfContents li:last-child::before {
   max-width: 60vw;
   */
   background: var(--sticker-fundo) ;
-  margin-left: 5vw;
+  margin-left: 3vw;
+  margin-righ: auto;
   margin-bottom: 1em;
   margin-top: 0.5em;
   padding-bottom: 2em;
@@ -1047,12 +1070,24 @@ nav#TableOfContents li:last-child::before {
   font-weight: normal ;
 }
 .barra a{
+  /*
   padding-left: 0.5em ; 
   padding-right: 0.5em ; 
+  */
+  background: none;
+  font-weight: bold;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal ;
+  transition: box-shadow 200ms ease-in-out;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px ; 
+  background-color: var(--fundo);
   white-space: nowrap;
   background-size: cover;
   border: 1px solid none;
   border-radius: 7px;
+  text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
 }
 .barra a[href]:visited, .barra a[href] {
   color: var(--link-barra) ;
@@ -1060,13 +1095,17 @@ nav#TableOfContents li:last-child::before {
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
   color: var(--fundo-invertido) ;
 }
 .barra a[href]:hover,
 .barra a[href]:active {
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
   background-size: cover;
+  /*
   border: 1px solid #737f8c;
   border-radius: 7px;
+  */
 }
 
 div#counter {
@@ -1140,6 +1179,9 @@ div#counter {
     max-width: 100% ;
     margin-left: 1vw;
     margin-right: 1vw;
+  }
+  .barra a {
+    transition: none; 
   }
   #question-container {
     max-width: 95%;
