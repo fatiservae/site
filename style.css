@@ -677,6 +677,11 @@ ol strong {
   padding: 0vw;
   margin-left: 0%;
 }
+
+a {
+  word-wrap: break-word;
+}
+
 ul#artlist, 
 ol#artlist {
   /*
@@ -688,6 +693,8 @@ ol#artlist {
   margin-right: auto ;
   margin-left: 5vw;
   */
+  min-height: 60vh;
+  max-height: 70vh;
   list-style-type: none;
   width: clamp(50vw, 50%, 70%);
   max-width: 90vw;
@@ -1105,7 +1112,7 @@ nav#TableOfContents li:last-child::before {
   font-kerning: normal ;
   transition: box-shadow 200ms ease-in-out;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  padding: 5px ; 
+  padding: 3px ; 
   background-color: var(--fundo);
   white-space: nowrap;
   background-size: cover;
@@ -1227,8 +1234,9 @@ div#counter {
     */
   }
   #artlist li {
-    width: 100vw;
-  }
+    width: 95;
+  } 
+
   #files, #search-output {
     max-width: 95% ;
   }
