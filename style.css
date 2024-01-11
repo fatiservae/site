@@ -29,6 +29,7 @@
   --git-hub-roxo-escuro-transp: #bf398910 ;
   --azul-vibrante: #01bfff ;
   --creme: #f5f5dc ;
+  --largura-texto: calc(50vw + 2rem);
 }
 
 :root[data-tema="escuro"] {
@@ -212,7 +213,7 @@ a#switch:hover {
   margin-left: 5vw;
   padding: 0.5em;
   margin-right: auto;
-  max-width: 75vw;
+  max-width: var(--largura-texto);
   /*
   border: 1px solid var(--bordas);
   */
@@ -840,7 +841,7 @@ p {
   margin-right: auto;
   text-indent: 3%;
   */
-  max-width: 80vw;
+  max-width: var(--largura-texto);
   margin-left: 5vw;
   text-align: start;
 }
@@ -1312,6 +1313,9 @@ div#counter {
     max-height: 100%;
     */
   }
+  .etiqueta {
+    max-width: 95vw;
+  } 
 }
 /*
 @media (min-width: 55em) {
