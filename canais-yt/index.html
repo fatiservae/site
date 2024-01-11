@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Canais Que Recomendo | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  <link rel="icon" href="../favicon.webp">
+  <meta name="description" content="Física Eugene Kuthoriansky https://www.youtube.com/@EugeneKhutoryansky
+Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.
+A grande vantagem do Eugene é a abordagem de temas acadêmicos lado-a-lado de curiosidades e assuntos mais mundanos.
+Science Asylum https://www.youtube.com/@ScienceAsylum
+Canal do Nick Lucid, um professor de física casado com uma bióloga, com uma pegada mais adequada para vídeos rápidos e curiosos.">
+  <meta name="keywords" content="ciência, História, Medicina, Culinária, Geopolítica">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="barra">
+    
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../index.html" alt="Início">Início</a>
+    <a href="../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../tags/medicina/index.html" alt="Medicina">Medicina</a>
+    <a href="../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
+    <a href="../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
+    <a href="../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#física">Física</a>
+      <ul>
+        <li><a href="#eugene-kuthoriansky">Eugene Kuthoriansky</a></li>
+        <li><a href="#science-asylum">Science Asylum</a></li>
+      </ul>
+    </li>
+    <li><a href="#medicina">Medicina</a>
+      <ul>
+        <li><a href="#strong-medicine">Strong Medicine</a></li>
+        <li><a href="#medlife-crisis">Medlife Crisis</a></li>
+      </ul>
+    </li>
+    <li><a href="#culinária">Culinária</a>
+      <ul>
+        <li><a href="#chef-jean-pierre">Chef Jean Pierre</a></li>
+      </ul>
+    </li>
+    <li><a href="#geopolítica">Geopolítica</a>
+      <ul>
+        <li><a href="#britmonkey">Britmonkey</a></li>
+      </ul>
+    </li>
+    <li><a href="#treino--fisiculturismo">Treino &amp; fisiculturismo</a>
+      <ul>
+        <li><a href="#josh---jail-house-strong">Josh - Jail House Strong</a></li>
+        <li><a href="#noel-deyzel">Noel Deyzel</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  
+
+
+<h2 id="física">Física</h2>
+<h3 id="eugene-kuthoriansky">Eugene Kuthoriansky</h3>
+<p><a href="https://www.youtube.com/@EugeneKhutoryansky">https://www.youtube.com/@EugeneKhutoryansky</a></p>
+<p>Talvez um dos canais mais singurales do YouTube. Grande parte dos vídeos oferece uma perspectiva mais acadêmica de temas comumente tratados em outros canais, porém de forma ilustrada. As animações são em CGI de baixa fidelidade, porém este não é o foco.</p>
+<p>A grande vantagem do Eugene é a abordagem de temas acadêmicos lado-a-lado de curiosidades e assuntos mais mundanos.</p>
+<h3 id="science-asylum">Science Asylum</h3>
+<p><a href="https://www.youtube.com/@ScienceAsylum">https://www.youtube.com/@ScienceAsylum</a></p>
+<p>Canal do Nick Lucid, um professor de física casado com uma bióloga, com uma pegada mais adequada para vídeos rápidos e curiosos. Não recomendo como forma de esclarecer dúvidas muito aprofundadas, mas é ótimo como fonte de informação curiosa e acurada.</p>
+<p>Não recomendo para verdadeira compreensão da <a href="../teoria-relatividade/index.html">teoria da relatividade</a>.</p>
+<h2 id="medicina">Medicina</h2>
+<h3 id="strong-medicine">Strong Medicine</h3>
+<p><a href="https://www.youtube.com/@StrongMed">https://www.youtube.com/@StrongMed</a></p>
+<p>Dr. Eric Strong é um médico da universidade de Stanford e tem uma personalidade séria e fixada na abordagem acadêmica, separando claramente os vídeos opinativos dos demais, de uma maneira mais monótona mas <strong>ideal</strong>.</p>
+<p>Para mim, é o melhor canal no YT da comunidade médica!</p>
+<p>O foco é no ensino de habilidades e conhecimentos médicos e, mesmo quando opinativos, seus vídeos são no formato de apresentação oficial. Se você é estudante de medicina, indico muito.</p>
+<h3 id="medlife-crisis">Medlife Crisis</h3>
+<p><a href="https://www.youtube.com/@MedlifeCrisis">https://www.youtube.com/@MedlifeCrisis</a></p>
+<p>Dr Rohin Francis é um cardiologista inglês que iniciou o canal como uma forma de <em>scape</em>, como ele mesmo diz, da crise da vida médica. O humor vem sempre primeiro, seu estilo é único, critica severamente a comunidade médica, monetizou o canal mas de forma transparente direciona todo o dinheiro para a caridade.</p>
+<p>É um raro caso de canal de um médico que preste. Praticamente todo o resto da internet em canais pessoais médicos são de <em>vlogs</em> de baixa responsabilidade, focados em mostrar o dia-a-dia da pessoa e glamour da profissão. Não confunda, há vários outros canais no ramo da medicina muito bons, mas todos com essa pegada pessoal são ruins.</p>
+<h2 id="culinária">Culinária</h2>
+<h3 id="chef-jean-pierre">Chef Jean Pierre</h3>
+<p><a href="https://www.youtube.com/@ChefJeanPierre">https://www.youtube.com/@ChefJeanPierre</a></p>
+<p>Costumo buscar muitos canais de cozinha. Infelizmente, programas como Master Chef e outros arruinaram a cozinha amadora nos últimos anos. Muito apelo midiático e foco em <em>reality drama</em>.</p>
+<p>Chef Jean é antigo no ramo! Muito! E ao contrário de Gordon Ramsay, não tem opiniões fortes, não enche o saco com receita certa/errada e é a pessoa mais descontraída que já vi na vida!</p>
+<p><em>Remeber: eat butter!! Mama mia!</em></p>
+<h2 id="geopolítica">Geopolítica</h2>
+<h3 id="britmonkey">Britmonkey</h3>
+<p><a href="https://www.youtube.com/@BritMonkey">https://www.youtube.com/@BritMonkey</a></p>
+<p>Um britânico que começou um canal despretencioso com temas rápidos e assertivos e cresceu como um bom documentarista independente.</p>
+<p>Defensor ferrenho do Georgismo, tem sacadas incríveis e um ponto de vista bem curado sobre geopolítica e história.</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi, na verdade, vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma "rainha" que de importante só tem a herança genética. <br>Questione. Pense.
+ </span>
+</div>
+
+
+<h2 id="treino--fisiculturismo">Treino &amp; fisiculturismo</h2>
+<h3 id="josh---jail-house-strong">Josh - Jail House Strong</h3>
+<p><a href="https://www.youtube.com/@jailhousestrong">https://www.youtube.com/@jailhousestrong</a></p>
+<p>Josh em si ficou conhecido pelo seu livro famoso &ldquo;Jailhouse Strong&rdquo;.</p>
+<p>Porém meu interesse nesse canal é a cobertura do Tom Haviland, provavelmente o homem mais forte do mundo.</p>
+<p>Eu conheci Tom em um fórum. Sua identidade nunca foi revelada totalmente e ele vive isolado em sua fazenda australiana. Eu sempre me identifiquei com Tom por ter descoberto ele quando estive militar e ele também foi, além de ser outro bizarro de dois metros kkkk.</p>
+<p>Esqueça seu YouTuber papinho furado <em>coach</em> fiiiiitniz. <strong>This is the real deal</strong>.</p>
+<p>O instagram dele é @tom_haviland. Porém só recentemente ele passou a usar redes sociais.</p>
+<p>Nem nega nem confirma ser um Força Especial australiano.</p>
+<h3 id="noel-deyzel">Noel Deyzel</h3>
+<p><a href="https://www.youtube.com/@NoelDeyzel">https://www.youtube.com/@NoelDeyzel</a></p>
+<p>O fisiculturista mais honesto do YT.</p>
+<p>Sul africano, sofreu muito <em>bullying</em> quando adolescente e atualmente seu canal é focado na motivação e no estímulo de iniciantes. Costuma treinar nos EUA, África do Sul e Tailândia, portanto o canal é bem rico de conteúdo.</p>
+<p><em>&ldquo;You&rsquo;ve got this!</em></p>
+
+
+
+<br>
+        <div style="clear:both" class=taglist><a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">Ciência</a> &middot; <a id="tag_história" href="https://www.jeffersontorres.com.br/tags/hist%C3%B3ria">História</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_culinária" href="https://www.jeffersontorres.com.br/tags/culin%C3%A1ria">Culinária</a> &middot; <a id="tag_geopolítica" href="https://www.jeffersontorres.com.br/tags/geopol%C3%ADtica">Geopolítica</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

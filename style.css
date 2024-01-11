@@ -450,7 +450,7 @@ a .matched-recipe{
   font-size: 0.5em;
 }
 
-#search {
+input#search {
   /*
   margin-right: auto ;
   border-radius: 7px;
@@ -462,10 +462,11 @@ a .matched-recipe{
   background: var(--fundo-input) ;
   text-indent: 2%;
   border: none;
-  margin-left: 5vw;
+  margin-left: 0vw;
   display: block ;
+  padding: 0em;
   padding-bottom: 0.2rem ;
-  width: clamp(25vw, 70%, 45vw);
+  width: 25vw; 
   height: 2em ;
   text-align: start;
 }
@@ -697,6 +698,10 @@ ol#artlist {
 #artlist li {
   margin-left: 0vw;
 }
+#artlist li:nth-child(n+21) {
+  display: none;
+}
+
 li {
   transition: color 200ms ease-in-out; 
   /*
@@ -769,21 +774,24 @@ li::before{
   text-align: start;
 }
 .frase{
-  transition: color 2s ease-in-out, font-size 2s ease-in-out, text-shadow 2s ease-in-out;
+  transition: text-shadow 5s ease-in-out, color 4s ease-in-out;
   align: center ;
   text-align: center ;
   font-style: italic; 
+  /* 
+  color: var(--frase);  
   font-size: 1.5em;
-  /* color: var(--frase); */
+  font-size: 1em; 
+  */
+  color: var(--fonte);
   padding-left: auto;
   padding-right: auto;
   border-radius: 5px ;
-  text-shadow: 10px 8px 10px var(--fonte);
+  text-shadow: 1px 1px 20px var(--fonte);
 }
 .frase.show {
   text-shadow: none;
   color: var(--frase-show); 
-  font-size: 1em; 
 }
 .frase:hover {
   color: var(--frase-hover); 
@@ -1228,8 +1236,8 @@ div#counter {
     max-width: 50%; 
     height: auto;
   }
-  #search {
-    width: 80% ;
+  input#search {
+    width: 90vw; 
   }
   #files li {
   columns: 1 !important;

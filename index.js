@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
   //  }
   //}
 
-  for (let i = 0; i < document.querySelectorAll('#artlist li').length;  i++) {
-    document.querySelectorAll('#artlist li')[i].style.display = 'none'
-  }
+  //for (let i = 0; i < document.querySelectorAll('#artlist li').length;  i++) {
+  //  document.querySelectorAll('#artlist li')[i].style.display = 'none'
+  //}
 
 
   const search = document.getElementById("search");
@@ -32,7 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
       let isMatch = searchTerms.every(
         term => searchString.includes(term)
       );
-      if (!isMatch || !hasFilter){
+      //if (!isMatch || !hasFilter){
+      if (!isMatch){
         out.style.display = 'none'
         //out.classList.remove('show')
       }else{
@@ -40,5 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
         //out.classList.add('show')
       }
     })
+  for (let i = 0; i < 41;  i++) {
+    if (i % 2 !== 0) {
+      document.querySelectorAll('#artlist li')[i].style.display = 'none'
+    }
+  }
+
   })
 });
