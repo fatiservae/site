@@ -702,6 +702,9 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
+  &lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Costas&lt;/p&gt; 
+  &lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Aquecimento na máquina de pull&lt;/li&gt;
@@ -715,45 +718,43 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
       &lt;li&gt;Latissimus isolado cabo&lt;/li&gt;
       &lt;li&gt;Latissimus isolado banco&lt;/li&gt;
       &lt;li&gt;Pullover na corda&lt;/li&gt;
-      &lt;li&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Costas&lt;/p&gt; 
-  &lt;/div&gt;
 
-  &lt;div class=&#34;slide&#34;&gt;
+&lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Antebraço&lt;/p&gt; 
+  &lt;/div&gt;
+&lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Rosca invertida&lt;/li&gt;
       &lt;li&gt;Rosca posterior&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Antebraço&lt;/p&gt; 
-  &lt;/div&gt;
 
+&lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Bíceps&lt;/p&gt; 
+  &lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Rosca neutra com halters&lt;/li&gt;
       &lt;li&gt;Rosca intercalada unilateral 1/2 carga&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Bíceps&lt;/p&gt; 
-  &lt;/div&gt;
 
-  &lt;div class=&#34;slide&#34;&gt;
+ &lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Tríceps&lt;/p&gt; 
+  &lt;/div&gt;
+ &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Extensão unilateral no pulley&lt;/li&gt;
       &lt;li&gt;Extensão na barra reta no pulley&lt;/li&gt;
       &lt;li&gt;Extensão com cordas no pulley&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Tríceps&lt;/p&gt; 
-  &lt;/div&gt;
 
+&lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Peitoral&lt;/p&gt; 
+  &lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Crucifixo hater livre banco reto&lt;/li&gt;
@@ -761,19 +762,19 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
       &lt;li&gt;Crucifixo no pulley 3 ângulos&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Peitoral&lt;/p&gt; 
+ 
+ &lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Panturrilha&lt;/p&gt; 
   &lt;/div&gt;
-
-  &lt;div class=&#34;slide&#34;&gt;
+ &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Extensão de pé&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Panturrilha&lt;/p&gt; 
-  &lt;/div&gt;
 
+  &lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Quadríceps&lt;/p&gt; 
+  &lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Agachamento unilateral Smith&lt;/li&gt;
@@ -781,19 +782,19 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
       &lt;li&gt;Máquina Smith 30°&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Quadríceps&lt;/p&gt; 
-  &lt;/div&gt;
 
+ &lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Bíceps femoral&lt;/p&gt; 
+  &lt;/div&gt;
   &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Mesa flexora decúbito&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Bíceps femoral&lt;/p&gt; 
+ 
+ &lt;div class=&#34;legend&#34;&gt;
+   &lt;p&gt;Ombro&lt;/p&gt; 
   &lt;/div&gt;
-
   &lt;div class=&#34;slide&#34;&gt;
     &lt;ul&gt;
       &lt;li&gt;Puxada lateral no pulley apoiado no pulley&lt;/li&gt;
@@ -801,9 +802,6 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
       &lt;li&gt;Elevação posterior sentado no banco&lt;/li&gt;
       &lt;li&gt;Elevação anterior neutra com triângulo invertido&lt;/li&gt;
     &lt;/ul&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Ombro&lt;/p&gt; 
   &lt;/div&gt;
 
 
