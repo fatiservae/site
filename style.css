@@ -1183,6 +1183,7 @@ div#counter {
 }
 
 @media only screen and (max-width: 800px){
+  font-size: 170%;
   .duploflex {
     display: block;
   }
@@ -1197,7 +1198,6 @@ div#counter {
     */
   }
   body{
-    font-size: 105%;
   }
   p {
     max-width: 96% ;
