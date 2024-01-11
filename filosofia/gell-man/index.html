@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Gell Man | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="O quão capacitado você é para julgar uma informação?
+Sr. Carlos é um médico renomado, cirurgião especialista. Está em casa pela manhã, lendo as notícias em seu jornal e se depara com uma reportagem sobre uma patologia cirúrgica que conhece muito bem.
+Percebe claramente que o jornalista não tem a mínima ideia do que está falando. A reportagem é recheada de furos e inconsistências, além de confusões conceituais básicas sobre a área médica.">
+  <meta name="keywords" content="Filosofia">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="barra">
+    
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
+    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
+    <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+
+
+
+
+
+  <div id="img-div">
+    <img src="../../pix/lendo-jornal.png"></img>
+    <p>O quão capacitado você é para julgar uma informação?</p>
+  </div>
+
+<p>Sr. Carlos é um médico renomado, cirurgião especialista. Está em casa pela manhã, lendo as notícias em seu jornal e se depara com uma reportagem sobre uma patologia cirúrgica que conhece muito bem.</p>
+<p><strong>Percebe claramente que o jornalista não tem a mínima ideia do que está falando.</strong> A reportagem é recheada de furos e inconsistências, além de confusões conceituais básicas sobre a área médica.</p>
+<p>Indignado, ele folheia as páginas.</p>
+<p>Na seção &rsquo;economia&rsquo;, começa a ler sobre previsões econômicas. Ele entende algo, mas não tudo. Concorda com o jornalista e pensa &ldquo;<strong><em>realmente, a economia vai muito mal, aqui está a causa!</em></strong>&rdquo;.</p>
+<p>Satisfeito, deixa o jornal de lado.</p>
+<p>Do outro lado da cidade, Sr. Roberto, grande economista da Universidade local, reconhecido nacionalmente, inicia a leitura do mesmo jornal na seção que mais lhe interessa, a de economia.</p>
+<p>Já nos primeiros parágrafos, <strong>percebe claramente que o jornalista não tem a mínima ideia do que está falando.</strong> A reportagem é recheada de furos e inconsistências, além de confusões conceituais básicas sobre a área econômica. Soa familiar?</p>
+<p>Indignado, ele vira a página.</p>
+<p>Na seção &lsquo;saúde&rsquo;, se depara com explicações sobre a patologia cirúrgica citada anteriormente. Assustado, concorda com a matéria: &ldquo;<strong><em>onde vamos parar? que doença horrível! por que os médicos não se dedicam a combater tal atrocidade?</em></strong>&rdquo;.</p>
+<p>Satisfeito, deixa o jornal de lado.</p>
+<h2 id="análise">Análise</h2>
+<p>Ambas as renomadas personagens desta estória se conformaram facilmente com a fonte, mesmo tendo provas de sua inconsistência <em>previamente</em>. Por quê?</p>
+<p>Por que ignoraram o fato de que, há algumas páginas antes o jornal era uma fonte completamente estúpida?</p>
+<h2 id="efeito-gell-mann">Efeito Gell-Mann</h2>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/gell-mann.jpg"></img>
+    <p>Murray Gell-Mann, c. 2012.</p>
+  </div>
+
+<p>Em uma tarde setentrional norte americana da década de 70, em algum café aconchegante, o físico nuclear Gell-Mann e seu colega médico Michael Crichton conversavam sobre este fenômeno. Após o <em>insight</em> do amigo, Crichton nomeou-o de <strong>amnésia de Gell-Mann.</strong></p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+A amnésia de Gell-Mann é o efeito de curta memória que temos sobre a estupidez das fontes, isto é, temos a tendência de perdoarmos informações incoerentes ou inconsistentes fora do nosso campo de especialidade, o que nos torna suscetíveis a manipulação jornalística com facilidade.
+ </span>
+</div>
+
+
+<p>Este fenômeno é, sem dúvidas, o <em>impetus</em> de toda desinformação atual. Não podemos ser especialistas em tudo e, para a grande maioria das pessoas, é difícil construir um juízo adequado sobre a um assunto aleatório qualquer.</p>
+<p>Desde a metade do século passado, somos bombardeados pela dita <em>mídia</em>, sobre inúmeros temas e, em quase todos, você não tem a mínima capacidade de formular uma opinião sólida. Às vezes, desconfia de algo aqui, ou acolá, mas nunca duvida do todo, porque vira a página e é feliz novamente.</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Amnésia vem do grego <em>mnesis</em>, que signfica registo, memória.<br> <em>a-mnesis</em> é a negação absoluta, ausência.
+ </span>
+</div>
+
+
+
+
+
+<br>
+        <div style="clear:both" class=taglist><a id="tag_filosofia" href="https://www.jeffersontorres.com.br/tags/filosofia">Filosofia</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+</footer>
+
+</body>
+</html>

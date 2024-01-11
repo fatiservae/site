@@ -129,18 +129,23 @@ body {
   text-shadow: var(--switch-shadow);
 }
 a#switch {
-  margin-right: 0.5em;
+  /*
   transition: box-shadow 200ms ease-in-out;
+  margin-right: 0.5em;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  font-size: 150%;
+  */
+  box-shadow: none;
+  font-size: 200%;
 }
 a#switch:hover {
+  /*
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),inset  0 1px 5px rgba(0, 0, 0, 0.5);
+  */
 }
 
 @media only screen and (max-width: 800px){
   a#switch {
-   font-size: 110%;
+   font-size: 200%;
   }
 }
 
@@ -221,9 +226,9 @@ a#switch:hover {
 }
 .etiqueta:hover{
   color: var(--strong-color);
-  font-weight: bold;
 }
 /*.sticker:hover {
+  font-weight: bold;
   border-right: 1px solid tomato;
   border-top: 1px solid tomato;
 
@@ -319,6 +324,7 @@ h1, h2, h3 {
   padding: 0%;
   padding-top: 1em;
   margin: 0vw;
+  margin-bottom: 1vw;
   margin-left: 5vw;
   text-indent: 0% ;
   font-weight: bold;
@@ -922,23 +928,28 @@ button[id^="anterior"] {
 
 button[id^="proximo"], button[id^="anterior"] {
  /* 
-  color: gray;
-  font-weight: bold;
-  max-height: 90%;
-  padding: 0%;
-  transition: color 1s ease-in-out;
-  */
-  border: none;
-  background: var(--fundo);
-  flex: 1;
-  margin: 0%;
-  font-size: 80%;
+ color: gray;
+ font-weight: bold;
+ max-height: 90%;
+ padding: 0%;
+ font-size: 80%;
+ transition: color 1s ease-in-out;
+ */
+ transition: box-shadow 200ms ease-in-out;
+ text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+ border: none;
+ background: var(--fundo);
+ flex: 1;
+ margin: 0%;
 }
 button[id^="proximo"]:hover , 
-button[id^="anterior"]:hover,
+button[id^="anterior"]:hover {
+  color: var(--negrito);
+}
 button[id^="proximo"]:active, 
 button[id^="anterior"]:active{
-  color: red;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),inset  0 1px 5px rgba(0, 0, 0, 0.5);
 }
 .carousel.slide { 
 /*  
@@ -971,7 +982,7 @@ button[id^="anterior"]:active{
   align-items: center;
 }
 .conteudo .legend {
-  font-size: 80%;
+  font-size: 100%;
   color: var(--font); 
   font-style: italic;
   margin-left: 5vw;
@@ -1090,7 +1101,7 @@ nav#TableOfContents li:last-child::before {
   white-space: nowrap;
   background-size: cover;
   border: 1px solid none;
-  border-radius: 7px;
+  border-radius: 4px;
   text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
@@ -1255,14 +1266,14 @@ div#counter {
   */
   }
   button[id^="proximo"], button[id^="anterior"]{
-   /* 
-    flex: 1;
-    padding: 0%;
-    margin: 0%;
-    max-height: 90%;
-    font-weight: bold;
-    font-size: 80%;
-    */
+  /* 
+  flex: 1;
+  padding: 0%;
+  margin: 0%;
+  max-height: 90%;
+  font-weight: bold;
+  font-size: 80%;
+  */
   }
   .carouselslide { 
   /*  
