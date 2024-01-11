@@ -2127,13 +2127,13 @@ function fechardialogo() {
 
 &lt;!DOCTYPE html&gt;
 &lt;div style=&#34;display: inline-block;&#34;  class=&#34;center&#34;&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
+  &lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid gray&#34;&gt;
       &lt;h3&gt;Exame do abdome&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;suspeita&#34;&gt;
       &lt;label&gt;Murphy positivo, palpação dolorosa ou de massa.&lt;/label&gt;
   &lt;/div&gt;
       &lt;br&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
+  &lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid gray&#34;&gt;
       &lt;h3&gt;Inflamação sistêmica&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;inflamacao&#34;&gt;
       &lt;label&gt;Febre ou calafrios.&lt;/label&gt;
@@ -2142,7 +2142,7 @@ function fechardialogo() {
       &lt;label&gt;Proteína C reativa elevada ou leucocitose.&lt;/label&gt;
       &lt;br&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
+  &lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid gray&#34;&gt;
       &lt;h3&gt;Imagem&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
       &lt;label&gt;Dilatação biliar.&lt;/label&gt;
@@ -2150,7 +2150,7 @@ function fechardialogo() {
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
       &lt;label&gt;Constricção constatada (estenose, cálculo etc).&lt;/label&gt;
   &lt;/div&gt;
-&lt;div class=&#34;sticker&#34;&gt;
+  &lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid gray&#34;&gt;
       &lt;h3&gt;Colestase&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
       &lt;label&gt;Icterícia ou bilirrubina de pelo menos 2mg/dL.&lt;/label&gt;
@@ -2159,7 +2159,7 @@ function fechardialogo() {
       &lt;label&gt;Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal.&lt;/label&gt;
   &lt;/div&gt;
 
-  &lt;div class=&#34;sticker&#34;&gt;
+  &lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid gray&#34;&gt;
       &lt;h3&gt;Gravidade&lt;/h3&gt;
       &lt;label&gt;Idade:&lt;/label&gt;
       &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;
