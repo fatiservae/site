@@ -14,6 +14,10 @@
   --azul-escuro-google: #3f51b5 ;
   --vermelho-google: #d62d20 ;
   --verde-google: #008744 ;
+  --amarelo-servo: #faae30;
+  --laranja-servo: #f68243;
+  --lilas-servo: #f03278;
+  --verdo-servo: #4fc066;
   --roxo-google: #673ab7 ;
   --abobora-google: #f44336 ;
   --white-solarized: #eee8d5 ;
@@ -33,6 +37,9 @@
 }
 
 :root[data-tema="escuro"] {
+  --h1: var(--laranja-servo);
+  --h2: var(--lilas-servo);
+  --h3: var(--amarelo-servo);
   --negrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
@@ -48,7 +55,7 @@
   --fundo: #22272e ;
   --marca-texto: #aeff77;
   --fundo-invertido: var(--white-solarized) ;
-  --fundo-input: #1c2128 ;
+  --fundo-input: #313131;
   /*
   */
   --green: #347d39 ;
@@ -58,20 +65,23 @@
   --frase: white ;
   --frase-show: gray ;
   --frase-hover: white ;
-  --autor: #99a4b2 ;
+  --autor: var(--amarelo-servo);
   --sticker-fundo: var(--gradiente-dark) ;
   --links: var(--azul-vibrante) ;
   --links-visitados: var(--blue) ;
   --link-hover: white ;
   --termo: tomato ;
-  --link-barra: tan;
+  --link-barra: var(--laranja-servo);
 }
 :root[data-tema="claro"] {
+  --h1: var(--azul-escuro-google);
+  --h2: var(--roxo-google);
+  --h3: var(--anil-aleatorio);
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --marca-texto: yellow;
   --code-text: indigo;
-  --link-barra: darkred;
+  --link-barra: #0F9D58;
   --negrito: #b0132d;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
@@ -99,7 +109,7 @@
   --frase-show: var(--texto-dim) ;
   --frase-hover: darkred ;
   --frase: var(--verde-google) ;
-  --autor: black ;
+  --autor: var(--roxo-google);
   --sticker-font: var(--fundo-invertido) ;
   --termo: darkred;
 }
@@ -110,7 +120,7 @@ body {
   max-width: 100vw ;
   scroll-behavior: smooth ;
   scrollbar-color: gray #151515 ;
-  font-family: 'Lato', sans-serif;
+  font-family: "Fira Sans", 'Lato', sans-serif;
   /*
   "Google Sans", "Noto Sans", "Source Sans Pro", "Open Sans", "Lucida Sans" , monospace;
   */
@@ -330,15 +340,19 @@ h1, h2, h3 {
   text-indent: 0% ;
   font-weight: bold;
   text-align: start;
-  color: var(--headings);
   max-width: 90vw;
 }
+h2 {
+  color: var(--h2);
+}
 h1 {
+  color: var(--h1);
   margin-left: 25vw;
   padding: 0em;
   font-size: 120%;
 }
 h3 {
+  color: var(--h3);
   margin-left: 10vw;
   font-size: 105%;
   font-weight: normal;
@@ -462,11 +476,11 @@ input#search {
   background: var(--fundo-input) ;
   text-indent: 2%;
   border: none;
-  margin-left: 0vw;
+  margin-left: 5vw;
   display: block ;
   padding: 0em;
   padding-bottom: 0.2rem ;
-  width: 25vw; 
+  width: 45vw; 
   height: 2em ;
   text-align: start;
 }
@@ -476,6 +490,9 @@ input#search::placeholder {
   */
   text-align: start;
   text-indent: 2%;
+}
+p input#search { /* Não sei de onde saiu esse p na _index... */
+  margin-left: 0;
 }
 
 .matched-recipe {
@@ -721,10 +738,10 @@ ol, ul {
   padding-left: 5%;
   margin-left: auto ;
   margin-right: auto ;
-  */
-  max-width: 85vw ;
   padding-left: 5vw;
-  margin-left: 0%;
+  */
+  max-width: calc(var(--largura-texto) + 10%); 
+  margin-left: 5vw;
 }
 ul {
   /*
@@ -1089,8 +1106,8 @@ nav#TableOfContents li:last-child::before {
   border-bottom: 1px solid var(--separador) ; 
   max-width: 60vw;
   background-size: cover;
-  */
   font-family: monospace;
+  */
   background: var(--sticker-fundo) ;
   margin-left: 3vw;
   margin-righ: auto;
@@ -1105,37 +1122,48 @@ nav#TableOfContents li:last-child::before {
   /*
   padding-left: 0.5em ; 
   padding-right: 0.5em ; 
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 200ms ease-in-out;
+  text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  background-color: var(--fundo);
   */
+  color: var(--link-barra);
+  transition: background 300ms ease-in-out;
   background: none;
   font-weight: bold;
   font-feature-settings: "kern" 1;
   font-kerning: normal ;
-  transition: box-shadow 200ms ease-in-out;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  padding: 3px ; 
-  background-color: var(--fundo);
+  padding: 4px ; 
   white-space: nowrap;
   background-size: cover;
   border: 1px solid none;
   border-radius: 4px;
-  text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
 }
 .barra a[href]:visited, .barra a[href] {
+  color: var(--link-barra);
+  /*
+  #539bf5; 
   color: var(--link-barra) ;
-  /*#539bf5; */
+  */
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
-  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: var(--fundo-invertido) ;
-}
-.barra a[href]:hover,
-.barra a[href]:active {
-  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
-  background-size: cover;
+  background: var(--fonte);
+  color: var(--fundo);
   /*
+  color: var(--fundo-invertido) ;
+  background: var(--fundo-invertido);
+  */
+}
+.barra a[href]:visited:active,
+.barra a[href]:active {
+  background: var(--fonte);
+  color: var(--fundo);
+  /*
+  background-size: cover;
   border: 1px solid #737f8c;
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
   border-radius: 7px;
   */
 }
@@ -1152,7 +1180,6 @@ div#counter {
   /*
   border: 1px solid #383f48 ; 
   background: cover;
-  
   */
   margin-left: 1em ;
   background-color: none;
@@ -1183,7 +1210,6 @@ div#counter {
 }
 
 @media only screen and (max-width: 800px){
-  font-size: 170%;
   .duploflex {
     display: block;
   }
@@ -1198,22 +1224,23 @@ div#counter {
     */
   }
   body{
+    font-size: 120%;
   }
   p {
-    max-width: 96% ;
+    max-width: 110% ;
   }
   table {
     font-size: 0.5em;
     max-width: 95% !important;
   }
   .barra {
-    font-size: 105%;
+    font-size: 120%;
     max-width: 100% ;
     margin-left: 1vw;
     margin-right: 1vw;
   }
   .barra a {
-    transition: none; 
+    transition: background 0ms ease-in-out;
   }
   #question-container {
     max-width: 95%;
@@ -1221,14 +1248,16 @@ div#counter {
   #artlist {
     /*
     gap: 1%;
-    font-size: 110%;
     columns: 1 !important;
     */
+    font-size: 80%;
     max-width: 100vw;
   }
   /*#artlist ul, ol {*/
   ul#artlist, 
   ol#artlist {
+    min-height: none;
+    max-height: none;
     /*
     columns: 1 !important;
     */
