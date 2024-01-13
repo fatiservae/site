@@ -33,7 +33,7 @@
   --git-hub-roxo-escuro-transp: #bf398910 ;
   --azul-vibrante: #01bfff ;
   --creme: #f5f5dc ;
-  --largura-texto: calc(50vw + 2rem);
+  --largura-texto: calc(60vw + 10%);
 }
 
 :root[data-tema="escuro"] {
@@ -136,6 +136,7 @@ body {
   top: 1vw;
   font-size: 200%;
   */
+  border: none;
   background: none;
   text-shadow: var(--switch-shadow);
 }
@@ -252,6 +253,10 @@ a#switch:hover {
   display: inline-flex;
   margin-right: 5vw;
 }
+.duploflex div {
+  max-width: 40%;
+}
+
 label {
   color: var(--fonte) ;
 }
@@ -709,15 +714,16 @@ ol#artlist {
   columns: 2;
   margin-right: auto ;
   margin-left: 5vw;
+  gap: 0.5em ;
   */
   min-height: 60vh;
   max-height: 70vh;
   list-style-type: none;
   width: clamp(50vw, 50%, 70%);
   max-width: 90vw;
-  gap: 0.5em ;
   text-align: start;
   margin-left: 0vw;
+  padding-left: 5vw;
 }
 #artlist li {
   margin-left: 0vw;
@@ -740,7 +746,7 @@ ol, ul {
   margin-right: auto ;
   padding-left: 5vw;
   */
-  max-width: calc(var(--largura-texto) + 10%); 
+  max-width: calc(var(--largura-texto) - 5%); 
   margin-left: 5vw;
 }
 ul {
@@ -1122,12 +1128,13 @@ nav#TableOfContents li:last-child::before {
   /*
   padding-left: 0.5em ; 
   padding-right: 0.5em ; 
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
   transition: box-shadow 200ms ease-in-out;
   text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   background-color: var(--fundo);
   */
+  background: var(--fundo) ;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
   color: var(--link-barra);
   transition: background 300ms ease-in-out;
   background: none;
@@ -1137,10 +1144,11 @@ nav#TableOfContents li:last-child::before {
   padding: 4px ; 
   white-space: nowrap;
   background-size: cover;
-  border: 1px solid none;
+  border: 1px solid var(--bordas);
   border-radius: 4px;
 }
 .barra a[href]:visited, .barra a[href] {
+  background: var(--fundo) ;
   color: var(--link-barra);
   /*
   #539bf5; 
@@ -1158,8 +1166,8 @@ nav#TableOfContents li:last-child::before {
 }
 .barra a[href]:visited:active,
 .barra a[href]:active {
-  background: var(--fonte);
-  color: var(--fundo);
+  background: var(--fonte-invertida);
+  color: var(--fundo-invertido);
   /*
   background-size: cover;
   border: 1px solid #737f8c;
@@ -1212,6 +1220,9 @@ div#counter {
 @media only screen and (max-width: 800px){
   .duploflex {
     display: block;
+  }
+  .duploflex div {
+    max-width: 100%;
   }
   ul {
     /*
