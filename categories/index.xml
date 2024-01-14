@@ -1438,24 +1438,27 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		<guid>https://www.jeffersontorres.com.br/medicina/eclampsia/</guid>
 		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
-&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de gestação a pelo menos 20 semanas, hipertensão e proteinúria.&lt;/p&gt;
-&lt;p&gt;Considera-se hipertensa a mulher grávida com PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica.&lt;/p&gt;
-&lt;p&gt;Proteinúria é a ocorrência de 300mg ou mais na urina de 24h. Aceita-se o diagnóstico mais prático da relação proteína/creatinina² de 0.3.&lt;/p&gt;
-&lt;p&gt;Recentemente, na ausência de proteinúria, considera-se, também, qualquer lesão de órgão-alvo¹.&lt;/p&gt;
-&lt;p&gt;Eclâmpsia é a ocorrência de convulsões durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
+&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de &lt;strong&gt;gestação a pelo menos 20 semanas, hipertensão e proteinúria&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Considera-se hipertensa a grávida com &lt;strong&gt;PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;. Aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Considera-se, também, qualquer lesão de órgão-alvo².&lt;/p&gt;
+&lt;p&gt;Eclâmpsia é a ocorrência de &lt;strong&gt;convulsões&lt;/strong&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
 &lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
+&lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A cura é o &lt;strong&gt;parto&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;cuidados&#34;&gt;Cuidados!&lt;/h3&gt;
-&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e há PCR com 12mEq/L.&lt;/p&gt;
+&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e ocorre PCR com 12mEq/L.&lt;/p&gt;
 &lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
-&lt;p&gt;O gluconato de cálcio a 1g por via endovenosa (geralmente 10 mL a 10%) deve ser administrado lentamente nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
+&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10 mL a 10%) deve ser administrado lentamente nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
 &lt;h2 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h2&gt;
-&lt;p&gt;Como não sabemos a causa, sabemos menos ainda o que funciona. Porém, a medicina baseada em evidências consegue demostrar benefício no uso de ácido acetilsalicílico a 150mg/dia.&lt;/p&gt;
-&lt;p&gt;Caso se identifique deficiência de cálcio na dieta (presumida clinicamente ou laboratorial), prescreve-se cálcio oral dietético suplementar a 1-2g/dia.&lt;/p&gt;
+&lt;p&gt;A medicina baseada em evidências consegue demostrar benefício no uso de &lt;strong&gt;ácido acetilsalicílico a 150mg/dia&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Caso se tenha deficiência de cálcio na dieta presumida clinicamente ou por diagnóstico laboratorial, prescreve-se &lt;strong&gt;cálcio oral dietético suplementar a 1-2g/dia&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;A &lt;a href=&#34;../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
 &lt;li&gt;Proteína total dividida pela creatinina medidas em mesma unidade.&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -2046,37 +2049,32 @@ $$
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
-		<description>&lt;!--
-&lt;div style=&#34;display: grid; align-content:center&#34; id=&#34;aviso&#34;&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+		<description>&lt;div id=&#34;aviso&#34;&gt;
+  &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-A resolução de questões é um dos mais importantes instrumentos na aprovação em provas e a grande maioria dos preparatórios vendem bancos de questões. 
-&lt;br&gt;
-&lt;br&gt;
-Infelizmente, a maior parte dos bancos está protegida por &lt;em&gt;paywalls&lt;/em&gt;. Isto seria facilmente superado se houvesse esforço coletivo de pessoas para produzir um banco de livre acesso.
-&lt;br&gt;
-&lt;br&gt;
-&lt;strong&gt;Sou contra criticar e não fazer nada a respeito, por isso resolvi criar um protótipo.&lt;/strong&gt;
-&lt;br&gt;
-&lt;br&gt;
-Este banco foi elaborado inteiramente por mim, portanto a adição de novas questões demora um pouco porque faço quando posso. 
-&lt;br&gt;
-&lt;br&gt;
-Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquestoes&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt;
-
-&lt;br&gt;
-&lt;span style=&#34;color: var(--termo)&#34;&gt;Clique em &lt;em&gt;Gerar nova questão&lt;/em&gt; e boa prática! &lt;/span&gt;
-
- &lt;/span&gt;
+    Infelizmente, a maior parte dos bancos de questões estãos protegidos por &lt;em&gt;paywalls&lt;/em&gt;. 
+    &lt;br&gt;
+    Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso.
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;strong&gt;Por isso resolvi criar um protótipo.&lt;/strong&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    A adição de novas questões demora um pouco porque faço quando posso. 
+    &lt;br&gt;
+    Entre em contato se deseja adicionar questões.
+    &lt;span style=&#34;color: var(--termo)&#34;&gt;Clique em &lt;em&gt;Gerar nova questão&lt;/em&gt; e boa prática! &lt;/span&gt;
+   &lt;/span&gt;
 &lt;/div&gt;
 
 
-  &lt;button style=&#34;margin-left: auto; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
-&lt;/div&gt;
+ &lt;button style=&#34;margin-left: 5vw; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;
+    Fechar aviso!
+  &lt;/button&gt;
+ &lt;/div&gt;
   &lt;br&gt;
   &lt;br&gt;
-
---&gt;
+&lt;!-- Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquestoes&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt; --&gt; 
 
 
 &lt;div class=&#34;sticker&#34;&gt;

@@ -17,7 +17,7 @@
   --amarelo-servo: #faae30;
   --laranja-servo: #f68243;
   --lilas-servo: #f03278;
-  --verdo-servo: #4fc066;
+  --verde-servo: #4fc066;
   --roxo-google: #673ab7 ;
   --abobora-google: #f44336 ;
   --white-solarized: #eee8d5 ;
@@ -81,7 +81,6 @@
   --fundo-carousel: var(--left-gradiente-light);
   --marca-texto: yellow;
   --code-text: indigo;
-  --link-barra: #0F9D58;
   --negrito: #b0132d;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
@@ -906,8 +905,10 @@ p.texto-questao {
 #resolver {
   margin-left: 5vw;
 }
-input#true {
+input[name="answer"] {
   margin-left: 5vw;
+  padding: 0vw;
+  justify-content: center;
 }
 
 /* CAROUSEL CARROSSEIS */

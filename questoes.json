@@ -992,5 +992,95 @@
     "texto_base": "Uma paciente de 36 anos de idade foi atendida em primeira consulta com equipe de oncologia ginecológica, em abril de 2019, com queixa de sinusiorragia. Foi diagnosticada com adenocarcinoma de colo do útero, estágio clínico IIB. Indicou-se tratamento, porém a paciente não desejou realizá-lo naquele momento, retornando um ano depois, grávida (G6P4C1), com idade gestacional de 30 semanas e 3 dias, referindo dificuldade para deambular e dor no quadril à esquerda. Foram, então, identificadas metástase óssea e fratura patológica, e re-estadiada para estágio clínico IVB. Após avaliações iniciais, a paciente definiu que desejava manter a gestação. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir.",
     "questao": "A paciente não possui indicação de tratamento cirúrgico para o câncer de colo do útero.",
     "resposta_bool": true
+  },
+  {
+    "prova": "SES-DF Residência Médica",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado paciente de 58 anos de idade, tabagista, com histórico de IAM há cinco anos e DM2, em uso de metformina, comparece à consulta com os seguintes exames laboratoriais: glicemia = 136 mg/dL; colesterol HDL = 32 mg/dL; colesterol LDL = 192,3 mg/dL; e creatinina sérica = 1,32 mg/dL. Apresenta medida de PA = 165 mmHg x 102 mmHg, FC = 80 bpm, SatO2 = 92% com níveis tensionais confir mados em duas consultas com mais de quatro semanas entre elas.",
+    "questao": "Trata-se de um caso de HAS estágio 2.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "SES-DF Residência Médica",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado paciente de 58 anos de idade, tabagista, com histórico de IAM há cinco anos e DM2, em uso de metformina, comparece à consulta com os seguintes exames laboratoriais: glicemia = 136 mg/dL; colesterol HDL = 32 mg/dL; colesterol LDL = 192,3 mg/dL; e creatinina sérica = 1,32 mg/dL. Apresenta medida de PA = 165 mmHg x 102 mmHg, FC = 80 bpm, SatO2 = 92% com níveis tensionais confir mados em duas consultas com mais de quatro semanas entre elas.",
+    "questao": "O tratamento indicado é a realização de medidas não farmacológicas (mudanças no estilo de vida) e reavaliação em três meses.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "SES-DF Residência Médica",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado paciente de 58 anos de idade, tabagista, com histórico de IAM há cinco anos e DM2, em uso de metformina, comparece à consulta com os seguintes exames laboratoriais: glicemia = 136 mg/dL; colesterol HDL = 32 mg/dL; colesterol LDL = 192,3 mg/dL; e creatinina sérica = 1,32 mg/dL. Apresenta medida de PA = 165 mmHg x 102 mmHg, FC = 80 bpm, SatO2 = 92% com níveis tensionais confir mados em duas consultas com mais de quatro semanas entre elas.",
+    "questao": "O uso de metformina é contraindicado em pacientes com depuração de creatinina inferior a 30 mL/min.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "SES-DF Residência Médica",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado paciente de 58 anos de idade, tabagista, com histórico de IAM há cinco anos e DM2, em uso de metformina, comparece à consulta com os seguintes exames laboratoriais: glicemia = 136 mg/dL; colesterol HDL = 32 mg/dL; colesterol LDL = 192,3 mg/dL; e creatinina sérica = 1,32 mg/dL. Apresenta medida de PA = 165 mmHg x 102 mmHg, FC = 80 bpm, SatO2 = 92% com níveis tensionais confir mados em duas consultas com mais de quatro semanas entre elas.",
+    "questao": "Tendo em vista o histórico de IAM prévio e as demais comorbidades, além do controle pressórico, também é recomendado o controle dos fatores de risco, tais como controle glicêmico, cessar tabagismo, uso de AAS e estatinas.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "SES-DF Residência Médica",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Determinado paciente de 58 anos de idade, tabagista, com histórico de IAM há cinco anos e DM2, em uso de metformina, comparece à consulta com os seguintes exames laboratoriais: glicemia = 136 mg/dL; colesterol HDL = 32 mg/dL; colesterol LDL = 192,3 mg/dL; e creatinina sérica = 1,32 mg/dL. Apresenta medida de PA = 165 mmHg x 102 mmHg, FC = 80 bpm, SatO2 = 92% com níveis tensionais confir mados em duas consultas com mais de quatro semanas entre elas.",
+    "questao": "Entre as drogas de primeira linha para tratamento da hipertensão, encontram-se os diuréticos tiazídicos, IECA, betabloqueadores e antagonistas dos canais de cálcio.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo estudo acompanhou pacientes tabagistas que desejavam parar de fumar e que fizeram uso de medicamento como método auxiliar, e também pacientes tabagistas que desejavam parar de fumar e que não fizeram uso de medicamento, observando-se, posteriormente, os resultados de sucesso, ou não, na cessação do tabagismo nos dois grupos.  Acerca desse caso e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Trata-se de um estudo de coorte, estudo observacional e longitudinal que compara grupos expostos e não expostos a determinado fator.",
+    "resposta_bool": true 
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo estudo acompanhou pacientes tabagistas que desejavam parar de fumar e que fizeram uso de medicamento como método auxiliar, e também pacientes tabagistas que desejavam parar de fumar e que não fizeram uso de medicamento, observando-se, posteriormente, os resultados de sucesso, ou não, na cessação do tabagismo nos dois grupos. Acerca desse caso e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Enquanto os estudos do tipo caso-controle são retrospectivos, os estudos do tipo coorte sempre são prospectivos.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo estudo acompanhou pacientes tabagistas que desejavam parar de fumar e que fizeram uso de medicamento como método auxiliar, e também pacientes tabagistas que desejavam parar de fumar e que não fizeram uso de medicamento, observando-se, posteriormente, os resultados de sucesso, ou não, na cessação do tabagismo nos dois grupos. Acerca desse caso e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Ao avaliar se estudos são válidos e confiáveis, deve-se atentar aos erros sistemáticos, como o viés de seleção e o viés de aferição, e avaliar se o p < 0,05.",
+    "resposta_bool": true
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo estudo acompanhou pacientes tabagistas que desejavam parar de fumar e que fizeram uso de medicamento como método auxiliar, e também pacientes tabagistas que desejavam parar de fumar e que não fizeram uso de medicamento, observando-se, posteriormente, os resultados de sucesso, ou não, na cessação do tabagismo nos dois grupos. Acerca desse caso e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "O uso de medicamentos na cessação do tabagismo tem importância para minimizar os sintomas da abstinência. Entre os medicamentos oferecidos pelo Ministério da Saúde na rede pública, estão o cloridrato de bupropiona e a vareniclina.",
+    "resposta_bool": false
+  },
+  {
+    "prova": "Residência Médica SES-DF",
+    "banca": "IADES",
+    "ano": 2021,
+    "tipo": "verdadeiro_falso",
+    "texto_base": "Certo estudo acompanhou pacientes tabagistas que desejavam parar de fumar e que fizeram uso de medicamento como método auxiliar, e também pacientes tabagistas que desejavam parar de fumar e que não fizeram uso de medicamento, observando-se, posteriormente, os resultados de sucesso, ou não, na cessação do tabagismo nos dois grupos. Acerca desse caso e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir.",
+    "questao": "Uma das dificuldades encontradas ao tentar cessar o tabagismo é a chamada “fi ssura”, que consiste na grande vontade de fumar, com duração, geralmente, de até cinco minutos.",
+    "resposta_bool": true
   }
 ]

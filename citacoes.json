@@ -138,16 +138,16 @@
 	{
 		"autor": "Boethius",
 		"citacoes": [
-		  "Nothing is miserable unless you think it so.",
-		  "He who has calmly reconciled his life to fate ... can look fortune in the face.",
-		  "Contemplate the extent and stability of the heavens, and then at last cease to admire worthless things.",
-		  "In other living creatures the ignorance of themselves is nature, but in men it is a vice.",
-		  "Nunc fluens facit tempus, nunc stans facit aeternitatum."
+			"Nada é miserável se você não o considera assim.",
+			"Aquele que tranquilamente se reconcilia com o destino pode olhar a sorte no olho.",
+			"Contemple a extensão e a firmeza dos céus e pare de admirar coisas mundanas.",
+			"Em outra criaturas a ignorância de si mesmas é natural, para o ser humano é um vício.",
 		]
-	},{
+	},
+	{
 		"autor": "B.F. Skinner",
 		"citacoes": [
-		  "If we want to say that people are responsible, we must do nothing to infringe their freedom, since if they are not free to act they cannot be held responsible. If we want to say they are free, we must hold them responsible for their behaviour by maintaining punitive contingencies, since if they behaved in the same way under conspicuous non­punitive contingencies, it would be clear that they were not free."
+			"Se desejamos dizer que as pessoas são responsáveis, devemos garantir suas liberdades, já que se não forem livres pra agir, não podem ser responsabilizados. Se desejamos dizer que são livres, devemos responsabilizá-los por suas ações, porque se agissem da mesma forma com garantia de inpunição estariam claramente sendo condicionados e não livres."
 		]
 	},
 	{
@@ -161,7 +161,7 @@
 	{
 		"autor": "Phil Karlton",
 		"citacoes": [
-			"There are only two hard things in computer science: cache invalidation and naming things."
+			"Só existem duas coisas difíceis em computação: invalidação de cache e nomear coisas."
 		]
 	},
 	{
@@ -173,7 +173,7 @@
 	{
 		"autor": "Theodore Roosevelt",
 		"citacoes": [
-			"Comparison is the thief of joy."
+			"Comparação é a ladra do prazer."
 		]
 	},
 	{
