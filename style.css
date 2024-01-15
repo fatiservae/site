@@ -135,6 +135,7 @@ body {
   top: 1vw;
   font-size: 200%;
   */
+  margin-right: 1em;
   border: none;
   background: none;
   text-shadow: var(--switch-shadow);
@@ -155,6 +156,9 @@ a#switch:hover {
 }
 
 @media only screen and (max-width: 800px){
+  #switch {
+    margin-right: 0em;
+  }
   a#switch {
    font-size: 200%;
   }
@@ -249,11 +253,18 @@ a#switch:hover {
 }
 
 .duploflex {
+  display: flex;
+  justify-content: space-between;
+  /*
   display: inline-flex;
+  */
   margin-right: 5vw;
 }
 .duploflex div {
   max-width: 40%;
+}
+div.duploflex p{
+  width: 100%;
 }
 
 label {
@@ -385,10 +396,10 @@ iframe {
 }
 img {
   /*
+  max-height: 400px ;
   */
   margin-left: 1em;
-  max-width: 90% ;
-  max-height: 400px ;
+  max-width: 500px;
   display: block ;
 }
 
@@ -1265,7 +1276,6 @@ div#counter {
     font-size: 80%;
     max-width: 100vw;
   }
-  /*#artlist ul, ol {*/
   ul#artlist, 
   ol#artlist {
     min-height: none;
@@ -1373,6 +1383,10 @@ div#counter {
   .etiqueta {
     max-width: 95vw;
   } 
+
+  img {
+    max-width: 90vw;
+  }
 }
 /*
 @media (min-width: 55em) {
