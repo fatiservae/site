@@ -1518,7 +1518,7 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		<guid>https://www.jeffersontorres.com.br/medicina/pressao-arterial/</guid>
 		<description>&lt;h2 id=&#34;frequência-cardíaca&#34;&gt;Frequência cardíaca¹&lt;/h2&gt;
 &lt;p&gt;$$
-50bpm \leq FC_{normal} \geq 100bpm
+50bpm \leq FC_{normal} \leq 100bpm
 $$&lt;/p&gt;
 &lt;h2 id=&#34;pressão-arterial-média&#34;&gt;Pressão arterial média&lt;/h2&gt;
 &lt;p&gt;$$
@@ -1528,6 +1528,15 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
 $$&lt;/p&gt;
+&lt;h2 id=&#34;pressão-normal-de-tecidos-não-fluidos&#34;&gt;Pressão normal de tecidos não-fluidos&lt;/h2&gt;
+&lt;p&gt;$$
+0mmHg \leq PA_{tissue} \leq 8mmHg
+$$
+$$
+\Delta P_{tissue} = PA_{dias} - PA_{tissue}
+$$&lt;/p&gt;
+&lt;p&gt;O $\Delta P_{tissue}$ é crítico se &lt;strong&gt;menor que 30mmHg&lt;/strong&gt;. Se zero, a isquemia é presumida.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -1936,7 +1945,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 		<description>&lt;h2 id=&#34;lactente-ou-neonato&#34;&gt;Lactente ou neonato&lt;/h2&gt;
 &lt;h3 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-G(Instalar o EEG disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia)
+G(Instalar o EEG se disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia)
 A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg + manutenção 5-8mg/Kg)
 D -- Opção 2 --&gt; F(Midazolam 0.15mg/Kg + manutenção 0.1mcg/Kg/min)
 F -- Persistência --&gt; Z(Sedação e intubação)

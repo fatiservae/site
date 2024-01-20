@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
-
+<style>
+.katex{
+  text-align: start !important ;
+}
+</style>
 
   
   <script>
@@ -26,10 +29,12 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Frequência cardíaca¹ $$ 50bpm \leq FC_{normal} \geq 100bpm $$
+  <meta name="description" content="Frequência cardíaca¹ $$ 50bpm \leq FC_{normal} \leq 100bpm $$
 Pressão arterial média $$ PAM = \frac{PAS &#43; 2 * PAD}{3} $$
 Média da pressão arterial $$ \bar{\mu}= PA[média] = \frac{PAS &#43; PAD}{2} $$
-Referências MASON, Jay W. et al. Electrocardiographic reference ranges derived from 79,743 ambulatory subjects. Journal of electrocardiology, v. 40, n. 3, p. 228-234. e8, 2007. ">
+Pressão normal de tecidos não-fluidos $$ 0mmHg \leq PA_{tissue} \leq 8mmHg $$ $$ \Delta P_{tissue} = PA_{dias} - PA_{tissue} $$
+O $\Delta P_{tissue}$ é crítico se menor que 30mmHg. Se zero, a isquemia é presumida.
+Referências MASON, Jay W.">
   <meta name="keywords" content="Medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -119,7 +124,7 @@ Referências MASON, Jay W. et al. Electrocardiographic reference ranges derived 
 
 <h2 id="frequência-cardíaca">Frequência cardíaca¹</h2>
 <p>$$
-50bpm \leq FC_{normal} \geq 100bpm
+50bpm \leq FC_{normal} \leq 100bpm
 $$</p>
 <h2 id="pressão-arterial-média">Pressão arterial média</h2>
 <p>$$
@@ -129,6 +134,15 @@ $$</p>
 <p>$$
 \bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
 $$</p>
+<h2 id="pressão-normal-de-tecidos-não-fluidos">Pressão normal de tecidos não-fluidos</h2>
+<p>$$
+0mmHg \leq PA_{tissue} \leq 8mmHg
+$$
+$$
+\Delta P_{tissue} = PA_{dias} - PA_{tissue}
+$$</p>
+<p>O $\Delta P_{tissue}$ é crítico se <strong>menor que 30mmHg</strong>. Se zero, a isquemia é presumida.</p>
+<h2 id="heading"></h2>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
