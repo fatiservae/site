@@ -1,4 +1,11 @@
-[
+[ 
+  {
+    "subjects": ["Medicina", "Inteligência artificial"],
+    "size": "9,8MB",
+    "path": "/Medicina/Towards Accurate Differential with large language models.pdf",
+    "name": "Towards accurate differential with large language models",
+    "extension": "pdf"
+  },
   {
     "subjects": [
       "Filosofia da ciencia"

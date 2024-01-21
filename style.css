@@ -361,6 +361,10 @@ h1, h2, h3 {
 h2 {
   color: var(--h2);
 }
+h2::before {
+  content: "#  ";
+  color: var(--strong-color);
+}
 h1 {
   color: var(--h1);
   margin-left: 25vw;
@@ -373,7 +377,10 @@ h3 {
   font-size: 105%;
   font-weight: normal;
 }
-
+h3::before {
+  content: "--  ";
+  color: var(--strong-color);
+}
 /* DIVISOR SEPARADOR HR */
 hr {
   /* 
