@@ -40,12 +40,14 @@ document.addEventListener("DOMContentLoaded", () => {
         out.style.display = 'block'
         //out.classList.add('show')
       }
+      })
+      if (!hasFilter) { // permite a lista crescer se há busca
+        for (let i = 0; i < 41;  i++) {
+          if (i % 2 !== 0) {
+            document.querySelectorAll('#artlist li')[i].style.display = 'none'
+          }
+        }
+      }
+      
     })
-  for (let i = 0; i < 41;  i++) {
-    if (i % 2 !== 0) {
-      document.querySelectorAll('#artlist li')[i].style.display = 'none'
-    }
-  }
-
-  })
-});
+  });

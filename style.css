@@ -734,11 +734,13 @@ ol#artlist {
   margin-right: auto ;
   margin-left: 5vw;
   gap: 0.5em ;
+  width: clamp(50vw, 90%, 70%);
   */
+  max-height: 70vh; /* necessario pra nao estourar tela -- futuro */
+  overflow: hidden ; /* necessario pra nao estourar tela -- futuro */
   min-height: 60vh;
-  max-height: 70vh;
   list-style-type: none;
-  width: clamp(50vw, 50%, 70%);
+  width: 90%;
   max-width: 90vw;
   text-align: start;
   margin-left: 0vw;
