@@ -378,7 +378,7 @@ h3 {
   font-weight: normal;
 }
 h3::before {
-  content: "--  ";
+  content: "+  ";
   color: var(--strong-color);
 }
 /* DIVISOR SEPARADOR HR */
@@ -1137,15 +1137,20 @@ nav#TableOfContents li:last-child::before {
   background-size: cover;
   font-family: monospace;
   */
+  position: sticky;
+  top: 0;
   background: var(--sticker-fundo) ;
   margin-left: 3vw;
-  margin-righ: auto;
+  margin-right: auto;
   margin-bottom: 1em;
   margin-top: 0.5em;
   padding-bottom: 2em;
   padding-top: 0.5em;
   text-align: center;
   font-weight: bold ;
+}
+.barra::first-line {
+  text-align: start;
 }
 .barra a{
   /*
@@ -1263,6 +1268,8 @@ div#counter {
     max-width: 95% !important;
   }
   .barra {
+    position: static;
+    text-align: center;
     font-size: 120%;
     max-width: 100% ;
     margin-left: 1vw;
