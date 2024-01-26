@@ -1,5 +1,14 @@
 [ 
   {
+    "subjects": [
+      "Medicina", "Apresentações"
+    ],
+    "size": "1,7MB",
+    "path": "/Medicina/JeffersonT-Apresentacao-Neoplasia-Apendice.pdf",
+    "name": "Jefferson T. Apresentacao Neoplasia Apendice - 2024",
+    "extension": "pdf"
+  },
+  {
     "subjects": ["Medicina", "Inteligência artificial"],
     "size": "9,8MB",
     "path": "/Medicina/Towards Accurate Differential with large language models.pdf",

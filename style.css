@@ -37,6 +37,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --hover-botao: var(--azul-escuro-google);
   --h1: var(--laranja-servo);
   --h2: var(--lilas-servo);
   --h3: var(--amarelo-servo);
@@ -74,6 +75,7 @@
   --link-barra: var(--laranja-servo);
 }
 :root[data-tema="claro"] {
+  --hover-botao: #904500 ;
   --h1: var(--azul-escuro-google);
   --h2: var(--roxo-google);
   --h3: var(--anil-aleatorio);
@@ -147,7 +149,7 @@ a#switch {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
   */
   box-shadow: none;
-  font-size: 200%;
+  font-size: 150%;
 }
 a#switch:hover {
   /*
@@ -251,7 +253,7 @@ a#switch:hover {
 
 .duploflex {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   /*
   display: inline-flex;
   */
@@ -347,7 +349,7 @@ a[href]:visited:hover, a[href]:hover{
 h1, h2, h3 {
   /*
   */
-  font-size: 115%;
+  font-size: 125%;
   padding: 0%;
   padding-top: 1em;
   margin: 0vw;
@@ -407,8 +409,9 @@ img {
   max-height: 400px ;
   */
   margin-left: 1em;
-  max-width: 500px;
   display: block ;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 #img-div p{
@@ -939,6 +942,7 @@ input[name="answer"] {
   --carouselheight: calc(var(--largura) * 2 / 3);
   border-radius: 7px;
   background: var(--fundo-carousel);
+  background-size: fit-content;
   width: var(--largura); 
   display: block;
   margin-left: 5vw;
@@ -948,13 +952,13 @@ input[name="answer"] {
   border: 1px solid var(--bordas);
   margin-left: auto ;
   margin-right: auto ;
-  max-width: 80%; 
   */
 }
 .slide img{
   margin: 0%;
   height: 100%;
   border-radius: 7px;
+  max-width: 300px; 
 }
 .slide ul {
   text-align: start;
@@ -1129,7 +1133,6 @@ nav#TableOfContents li:last-child::before {
 .barra {
   /*
   margin-right: auto;
-  font-size: 105%;
   align: center ;
   border-radius: 4px ;
   border-bottom: 1px solid var(--separador) ; 
@@ -1139,19 +1142,18 @@ nav#TableOfContents li:last-child::before {
   */
   position: sticky;
   top: 0;
+  width: fit-content;
   background: var(--sticker-fundo) ;
-  margin-left: 3vw;
+  margin-left: 5vw;
   margin-right: auto;
   margin-bottom: 1em;
   margin-top: 0.5em;
   padding-bottom: 2em;
   padding-top: 0.5em;
-  text-align: center;
+  text-align: start;
   font-weight: bold ;
 }
-.barra::first-line {
-  text-align: start;
-}
+
 .barra a{
   /*
   padding-left: 0.5em ; 
@@ -1166,6 +1168,7 @@ nav#TableOfContents li:last-child::before {
   color: var(--link-barra);
   transition: background 300ms ease-in-out;
   background: none;
+  font-size: 150%;
   font-weight: bold;
   font-feature-settings: "kern" 1;
   font-kerning: normal ;
@@ -1185,7 +1188,7 @@ nav#TableOfContents li:last-child::before {
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
-  background: var(--fonte);
+  background: var(--hover-botao);
   color: var(--fundo);
   /*
   color: var(--fundo-invertido) ;
@@ -1205,8 +1208,10 @@ nav#TableOfContents li:last-child::before {
 }
 
 div#counter {
-  text-align: center;
-  border: none;
+  text-align: start;
+  margin-left: 5vw;
+  width: fit-content;
+  background: var(--gradiente-dark);
   /*
   margin: auto;
   max-width: 80%;
@@ -1270,7 +1275,6 @@ div#counter {
   .barra {
     position: static;
     text-align: center;
-    font-size: 120%;
     max-width: 100% ;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -1328,7 +1332,6 @@ div#counter {
     --carouselheight: calc(var(--largura) * 2 / 3);
     max-width: var(--largura); 
     border: 1px solid var(--bordas);
-    background: var(--sticker-fundo);
     margin-right: auto ;
     height: var(--carouselheight);
     overflow: hidden;
@@ -1399,6 +1402,7 @@ div#counter {
 
   img {
     max-width: 90vw;
+    max-height: 400px;
   }
 }
 /*

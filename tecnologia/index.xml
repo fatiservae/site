@@ -1485,9 +1485,7 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/dicionario/</guid>
-		<description>&lt;p&gt;Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral.
-&lt;br&gt;&lt;/p&gt;
-&lt;div class=&#34;search&#34;&gt;
+		<description>&lt;div class=&#34;search&#34;&gt;
   &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
 &lt;script src=&#34;../dicionario.js&#34;&gt;&lt;/script&gt;
@@ -2080,36 +2078,33 @@ $$
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
 		<description>&lt;div id=&#34;aviso&#34;&gt;
-  &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+ &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-    Infelizmente, a maior parte dos bancos de questões estãos protegidos por &lt;em&gt;paywalls&lt;/em&gt;. 
-    &lt;br&gt;
-    Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso.
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;strong&gt;Por isso resolvi criar um protótipo.&lt;/strong&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    A adição de novas questões demora um pouco porque faço quando posso. 
-    &lt;br&gt;
-    Entre em contato se deseja adicionar questões.
-    &lt;span style=&#34;color: var(--termo)&#34;&gt;Clique em &lt;em&gt;Gerar nova questão&lt;/em&gt; e boa prática! &lt;/span&gt;
-   &lt;/span&gt;
+   Infelizmente, a maior parte dos bancos de questões estãos protegidos por &lt;em&gt;paywalls&lt;/em&gt;. 
+   &lt;br&gt;
+   Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso.
+   &lt;br&gt;
+   &lt;br&gt;
+   &lt;strong&gt;Por isso resolvi criar um protótipo.&lt;/strong&gt;
+   &lt;br&gt;
+   &lt;br&gt;
+   A adição de novas questões demora um pouco porque faço quando posso. 
+   &lt;br&gt;
+   Entre em contato se deseja adicionar questões.
+   &lt;span style=&#34;color: var(--termo)&#34;&gt;Clique em &lt;em&gt;Gerar nova questão&lt;/em&gt; e boa prática! &lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
 
 
  &lt;button style=&#34;margin-left: 5vw; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;
     Fechar aviso!
-  &lt;/button&gt;
- &lt;/div&gt;
-  &lt;br&gt;
-  &lt;br&gt;
+ &lt;/button&gt;
+&lt;/div&gt;
+&lt;br&gt;
 &lt;!-- Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquestoes&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt; --&gt; 
 
 
-&lt;div class=&#34;sticker&#34;&gt;
-  &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
 &lt;div id=&#34;question-container&#34;&gt;&lt;/div&gt;
 &lt;div id=&#34;info-question&#34;&gt;
   &lt;button onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;

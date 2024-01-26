@@ -52,14 +52,14 @@
     <a id="switch" onclick="alternarTema(); return false"></a>
     <a href="../../index.html" alt="Início">📌</a>
     <a href="../../sobre/index.html" alt="Sobre">🙋🏾‍♂️</a>
-    <a href="../../files/index.html" alt="Arquivos">📁</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">Destinos</a>
-    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
-    <a href="../../tags/filosofia/index.html" alt="Filosofia">Filosofia</a>
-    <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
-    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
-    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
-    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+    <a href="../../files/index.html" alt="Arquivos">📂</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📕</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">🤔</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">🫀</a>
+    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">💀</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">✍🏽</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🎯</a>
   </div>
 <script>
   let lighswitch = document.getElementById("switch");
@@ -110,36 +110,33 @@
 
 
 <div id="aviso">
-  <div style="display:flex; align-content:center">
+ <div style="display:flex; align-content:center">
   <span class="etiqueta">
-    Infelizmente, a maior parte dos bancos de questões estãos protegidos por <em>paywalls</em>. 
-    <br>
-    Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso.
-    <br>
-    <br>
-    <strong>Por isso resolvi criar um protótipo.</strong>
-    <br>
-    <br>
-    A adição de novas questões demora um pouco porque faço quando posso. 
-    <br>
-    Entre em contato se deseja adicionar questões.
-    <span style="color: var(--termo)">Clique em <em>Gerar nova questão</em> e boa prática! </span>
-   </span>
+   Infelizmente, a maior parte dos bancos de questões estãos protegidos por <em>paywalls</em>. 
+   <br>
+   Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso.
+   <br>
+   <br>
+   <strong>Por isso resolvi criar um protótipo.</strong>
+   <br>
+   <br>
+   A adição de novas questões demora um pouco porque faço quando posso. 
+   <br>
+   Entre em contato se deseja adicionar questões.
+   <span style="color: var(--termo)">Clique em <em>Gerar nova questão</em> e boa prática! </span>
+  </span>
 </div>
 
 
  <button style="margin-left: 5vw; margin-right: auto;" id="close" onclick="fechardialogo()">
     Fechar aviso!
-  </button>
- </div>
-  <br>
-  <br>
+ </button>
+</div>
+<br>
 <!-- Se deseja participar, <a href="https://github.com/EstalineCCCP/Bancoquestoes">visite o repositório do banco de questões no GitHub.</a> --> 
 
 
-<div class="sticker">
-  <div id="counter"></div>
-</div>
+<div id="counter"></div>
 <div id="question-container"></div>
 <div id="info-question">
   <button onclick="generateRandomQuestion()">Gerar nova questão</button>
