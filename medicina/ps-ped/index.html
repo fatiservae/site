@@ -16,12 +16,15 @@
 
   
 
-  <title>Projetos | Jefferson T.</title>
+  <title>Calculadora De Drogas | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE !!
+Idade (anos) Peso (Kg) Selecione droga: Adrenalina 1:10.000 Adrenalina 1:10.000 Atropina 0.25mg/ml Inserir droga Drogas adicionadas:
+Calcular ">
+  <meta name="keywords" content="Calculadoras, Medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -108,56 +111,55 @@
  
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
+<p><span style="background: red; color: black">ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE !!</span></p>
+<style>
+
+div label, button, select {
+    margin-left:5vw;
 }
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
-
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  
-  
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  document.getElementById("autor").textContent = autor;
-  })
-.catch(error => console.error('Erro ao buscar o JSON:', error));
-
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-
-<div class="frase"> 
-<p id="frase"></p> 
-<p id="autor"></p>
+</style>
+<!-- 
+<label for="data">Data de nascimento</label>
 <br>
+<input type="date" id="data"></input>
+<br>
+<br>
+-->
+<p><label for="idade">Idade (anos)</label>
+<br>
+<input type="number" id="idade"></input>
+<br>
+<br>
+<br>
+<label for="peso">Peso (Kg)</label>
+<br>
+<input type="mumber" id="peso"></input>
+<br>
+<br></p>
+<div>
+<label for="drogas">Selecione droga:</label>
+<br>
+<select id="drogas">
+    <option value="Adrenalina 1:10.000">Adrenalina 1:10.000</option>
+    <option value="Adrenalina 1:1.000">Adrenalina 1:10.000</option>
+    <option value="Atropina 0.25mg/ml">Atropina 0.25mg/ml</option> 
+</select>
 </div>
+<button id="inserir-droga">Inserir droga</button>
+<br>
+<p>Drogas adicionadas:</p>
+<p id="drogas-adicionadas"></p>
+<br>
+<br>
+<button id="calcular" onclick="updateTable()">Calcular</button>
+<br>
+<br>
+<table id="tabela"></table>
+<script src="../../psped.js"></script>
 
-<ul class="listing-list">
-<li>
-	<a href="../../dicionario/">Meu dicionário instantâneo</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/banco-de-questoes/">Banco de questões</a>
-	
-	</li>
-<li>
-	<a href="../../tecnologia/stultus-visio/">Stultus Visio</a>
-	
-	</li>
-</ul>
 
+<br>
+        <div style="" class=taglist><a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
 
 <footer>
   <a href="https://www.jeffersontorres.com.br/">📌 Início</a>

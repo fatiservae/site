@@ -200,10 +200,10 @@ a#switch:hover {
 }
 
 #resultado{
-  text-align: center;
+  text-align: start;
   text-indent: 0%;
   font-weight: bold;
-  color: tomato;
+  color: var(--negrito);
 }
 #result {
   color: var(--fonte) ;
@@ -552,6 +552,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência:before { content: "🚨 " ;}
 #tag_calculadoras:before { content: "🔢 " ;}
 #tag_medicina:before { content: "🩺💉 " ;}
+#tag_obstetricia:before { content: "🤰 " ;}
 #tag_inteligência:before { content: "🌐 " ;}
 #tag_guidelines:before { content: "🚩 " ;}
 #tag_viagem:before { content: "🏖️ " ;}
@@ -674,16 +675,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 
 .js-only { display: none ; }
 
-/*
-table tr:nth-child(even) {
-  background-color: var(--fundo-invertido); 
-  color: var(--fonte-invertida);
-}
-
-table tr:nth-child(odd) {
-  background-color: none;
-}
-*/
+/* TABELAS */
 table {
   /*
   margin: auto;
@@ -694,13 +686,29 @@ table {
   border-collapse: collapse ;
 }
 th {
+  background-color: var(--fundo-input); 
+  color: var(--fonte);
   font-weight: bold;
 }
 th, td {
+  border: 1px solid var(--fonte);
+  border-collapse: collapse ;
 }
 table p{
   margin-left: 1vw;
 }
+/*
+table tr:nth-child(even) {
+  background-color: none;
+}
+
+table tr:nth-child(odd) {
+  background-color: var(--fundo-invertido); 
+  color: var(--fonte-invertida);
+
+}
+*/
+
 
 /* UL OL LI UNORDERED LISTS */
 ul strong,
@@ -1447,3 +1455,5 @@ div#counter {
   padding: 0%;
   max-width: 95vw;
 }
+
+
