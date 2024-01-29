@@ -2080,11 +2080,9 @@ E -- Persistência --&gt;Z
 &lt;/script&gt;
     
     &lt;h2&gt;Estime a TFG via Cockcroft-Gault:&lt;/h2&gt;
-&lt;div class=&#34;sticker&#34;&gt;
 $$
 TFG = \frac{(140 - idade_{anos}) * PesoSeco_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
 $$
-&lt;/div&gt;
 
 &lt;div style=&#34;margin-left: 5vw;&#34;&gt;
     &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;

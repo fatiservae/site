@@ -1415,6 +1415,7 @@ div#counter {
   img {
     max-width: 90vw;
     max-height: 400px;
+    object-fit: contain;
   }
 }
 /*
