@@ -33,10 +33,11 @@
   --git-hub-roxo-escuro-transp: #bf398910 ;
   --azul-vibrante: #01bfff ;
   --creme: #f5f5dc ;
-  --largura-texto: calc(60vw + 10%);
+  --largura-texto: calc(650px + 10vw);
 }
 
 :root[data-tema="escuro"] {
+  --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
   --h1: var(--laranja-servo);
   --h2: var(--lilas-servo);
@@ -53,7 +54,6 @@
   --button-hover: #373e47 ;
   --headings: navajowhite ;
   --bordas: #383f48 ;
-  --fundo: #22272e ;
   --marca-texto: #aeff77;
   --fundo-invertido: var(--white-solarized) ;
   --fundo-input: #313131;
@@ -73,8 +73,14 @@
   --link-hover: white ;
   --termo: tomato ;
   --link-barra: var(--laranja-servo);
+  /*
+  --fundo: var(--gradfundo);
+  */
+  --fundo: #26262d;
+  --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
 }
 :root[data-tema="claro"] {
+  --background-img: url('pix/day.jpg'); 
   --hover-botao: #904500 ;
   --h1: var(--azul-escuro-google);
   --h2: var(--roxo-google);
@@ -91,7 +97,8 @@
   --button-hover: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
-  --fundo: tan;
+  --fundo: #dd866a; 
+  --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: wheat;
   --green: #347d39 ;
@@ -114,17 +121,25 @@
   --sticker-font: var(--fundo-invertido) ;
   --termo: darkred;
 }
-
 body {
+ /*
+  "Google Sans", "Noto Sans", "Source Sans Pro", "Open Sans", "Lucida Sans" , monospace;
   background: var(--fundo);
+
+   background: var(--background-img) no-repeat ;
+  background-size: cover;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: cover;
+
+  */
+  background: var(--fundo);
+  background-attachment: fixed;
   color: var(--fonte) ;
   max-width: 100vw ;
   scroll-behavior: smooth ;
   scrollbar-color: gray #151515 ;
   font-family: "Fira Sans", 'Lato', sans-serif;
-  /*
-  "Google Sans", "Noto Sans", "Source Sans Pro", "Open Sans", "Lucida Sans" , monospace;
-  */
   font-weight: normal ;
   font-size: 1em ;
   padding: 0%;
@@ -189,6 +204,7 @@ a#switch:hover {
   margin-right: auto;
 }
 .left {
+  padding-left: 0px;
   margin-left: 0px;
   align: left;
   text-align: left;
@@ -213,11 +229,11 @@ a#switch:hover {
   /*
   border: 1px solid var(--bordas);
   */
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5vw;
   background: var(--sticker-fundo);
   border-radius: 5px;
   text-align: start;
+  width: fit-content;
   font-weight: bold ;
   padding: 0.5em;
   max-width: 80%;
@@ -1141,15 +1157,6 @@ nav#TableOfContents li:last-child::before {
 
 /* MENU BARRA FLUTUANTE */
 .barra {
-  /*
-  margin-right: auto;
-  align: center ;
-  border-radius: 4px ;
-  border-bottom: 1px solid var(--separador) ; 
-  max-width: 60vw;
-  background-size: cover;
-  font-family: monospace;
-  */
   position: sticky;
   top: 0;
   width: fit-content;
@@ -1166,55 +1173,46 @@ nav#TableOfContents li:last-child::before {
 }
 
 .barra a{
-  /*
-  padding-left: 0.5em ; 
-  padding-right: 0.5em ; 
-  transition: box-shadow 200ms ease-in-out;
-  text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-  background-color: var(--fundo);
-  */
-  background: var(--fundo) ;
+  /* ELEMENTOS DO TEMA BOTAO 3D
+  background-size: cover;
+  border: 1px solid var(--bordas);
+  border-radius: 4px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  color: var(--link-barra);
+  background: var(--fundo) ;
   transition: background 300ms ease-in-out;
+  text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+  */
+  color: var(--link-barra);
+  transition: text-shadow 500ms ease-in-out;
   background: none;
+  text-shadow: none; 
   font-size: 200%;
   font-weight: bold;
   font-feature-settings: "kern" 1;
   font-kerning: normal ;
   padding: 4px ; 
   white-space: nowrap;
-  background-size: cover;
-  border: 1px solid var(--bordas);
-  border-radius: 4px;
-}
+  }
 .barra a[href]:visited, .barra a[href] {
-  background: var(--fundo) ;
   color: var(--link-barra);
-  /*
-  #539bf5; 
-  color: var(--link-barra) ;
+  /* ELEMENTOS DO TEMA BOTAO 3D
+  background: var(--fundo) ;
   */
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
+  text-shadow: var(--switch-shadow);
+  /* ELEMENTOS DO TEMA BOTAO 3D
   background: var(--hover-botao);
   color: var(--fundo);
-  /*
-  color: var(--fundo-invertido) ;
-  background: var(--fundo-invertido);
   */
 }
 .barra a[href]:visited:active,
 .barra a[href]:active {
+  text-shadow: var(--switch-shadow);
+  /* ELEMENTOS DO TEMA BOTAO 3D
   background: var(--fonte-invertida);
   color: var(--fundo-invertido);
-  /*
-  background-size: cover;
-  border: 1px solid #737f8c;
-  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
-  border-radius: 7px;
   */
 }
 

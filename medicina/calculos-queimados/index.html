@@ -123,19 +123,9 @@ Idade: Peso: Queimadura elétrica Calcular Parkland sugerido: Adicione os elemen
 
 
 
-<style>
-p {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 65%;
-  color: white;
-  font-weight: bold;
-  text-indent: 0%;
-  align: center;
-  text-align: center;
-}
-</style>
-<form id="formElementos" class="center">
+<style> p {margin-left: 0;} </style>
+<div style="margin-left: 5vw; background: var(--gradiente-dark); width: fit-content;"> 
+<form id="formElementos">
   <label for="elementos">Adicione as partes queimadas:</label>
   <br>
  <select id="elementos">
@@ -158,12 +148,10 @@ p {
   </select>
 </form>
 <br>
-<div class="center">
+<div>
   <button onclick="adicionarElemento()">Adicionar</button>
-  <p class="center" style="color: navajowhite">Elementos selecionados:</p>
-  <div class="sticker">
-    <ul id="elementosSelecionados"></ul>
-  </div>
+  <p>Elementos selecionados:</p>
+    <ul class="left" id="elementosSelecionados"></ul>
   <br>
   <label for="idade">Idade:</label>
   <input id="idade" type="number"></input>
@@ -181,8 +169,9 @@ p {
   <p id="resultado"></p>
 </div>
   
-<h2 style="padding: 0%" class="center">Parkland sugerido:</h2>
+<h2>Parkland sugerido:</h2>
 <p id="parkland-pratico">Adicione os elementos queimados, idade, peso e clique em Calcular.</p>
+</div>
 <script>
 let elementosSelecionados = [];
 
@@ -268,8 +257,6 @@ function calcular() {
   }
 }
 </script>
-<style src="../../static/style.css">
-</style>
 
 
 

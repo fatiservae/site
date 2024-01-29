@@ -1617,19 +1617,9 @@ $$&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</guid>
 		<description>
 
-&lt;style&gt;
-p {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 65%;
-  color: white;
-  font-weight: bold;
-  text-indent: 0%;
-  align: center;
-  text-align: center;
-}
-&lt;/style&gt;
-&lt;form id=&#34;formElementos&#34; class=&#34;center&#34;&gt;
+&lt;style&gt; p {margin-left: 0;} &lt;/style&gt;
+&lt;div style=&#34;margin-left: 5vw; background: var(--gradiente-dark); width: fit-content;&#34;&gt; 
+&lt;form id=&#34;formElementos&#34;&gt;
   &lt;label for=&#34;elementos&#34;&gt;Adicione as partes queimadas:&lt;/label&gt;
   &lt;br&gt;
  &lt;select id=&#34;elementos&#34;&gt;
@@ -1652,12 +1642,10 @@ p {
   &lt;/select&gt;
 &lt;/form&gt;
 &lt;br&gt;
-&lt;div class=&#34;center&#34;&gt;
+&lt;div&gt;
   &lt;button onclick=&#34;adicionarElemento()&#34;&gt;Adicionar&lt;/button&gt;
-  &lt;p class=&#34;center&#34; style=&#34;color: navajowhite&#34;&gt;Elementos selecionados:&lt;/p&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
-    &lt;ul id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
-  &lt;/div&gt;
+  &lt;p&gt;Elementos selecionados:&lt;/p&gt;
+    &lt;ul class=&#34;left&#34; id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
   &lt;br&gt;
   &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
   &lt;input id=&#34;idade&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
@@ -1675,8 +1663,9 @@ p {
   &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
   
-&lt;h2 style=&#34;padding: 0%&#34; class=&#34;center&#34;&gt;Parkland sugerido:&lt;/h2&gt;
+&lt;h2&gt;Parkland sugerido:&lt;/h2&gt;
 &lt;p id=&#34;parkland-pratico&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
+&lt;/div&gt;
 &lt;script&gt;
 let elementosSelecionados = [];
 
@@ -1762,8 +1751,6 @@ function calcular() {
   }
 }
 &lt;/script&gt;
-&lt;style src=&#34;../../static/style.css&#34;&gt;
-&lt;/style&gt;
 
 </description>
 	</item>
