@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Calculadora De Holliday-Segar | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, CONFIRA RESULTADOS!!
+Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Volume da ampola de sódio (mL) Quantidade sódio por ampola (mEq) Volume da ampola de potássio (mL) Quantidade potássio por ampola (mEq) Massa do paciente (Kg) Calcular sódio isotônico? Calcular sódio hipotônico? Calcular
+O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h. – A velocidade de infusão máxima de potássio é 10-20 mEq/h)!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+      
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="barra">
+    
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">📌</a>
+    <a href="../../sobre/index.html" alt="Sobre">🙋🏾‍♂️</a>
+    <a href="../../files/index.html" alt="Arquivos">📂</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">📕</a>
+    <a href="../../tags/filosofia/index.html" alt="Filosofia">🤔</a>
+    <a href="../../tags/medicina/index.html" alt="Medicina">❤️‍🩹</a>
+    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">💀</a>
+    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">✍🏽</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">💉</a>
+  </div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+
+
+<p><span style="background: red; color: black">ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, CONFIRA RESULTADOS!!</span></p>
+<h2 id="calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar">Calculadora de manutenção hidro-eletrolítica de Holliday-Segar</h2>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Esta calculadora aceita valores decimais nas unidades indicadas. <br>
+Use pontos e não vírgulas.
+ </span>
+</div>
+
+
+<p><label for="sodioAmpola">Volume da ampola de sódio (mL)</label>
+<br>
+<input type="number" id="VolumeSodio"></input>
+<br>
+<label for="sodioAmpola">Quantidade sódio por ampola (mEq)</label>
+<br>
+<input type="number" id="sodioAmpola"></input>
+<br>
+<br>
+<label for="sodioAmpola">Volume da ampola de potássio (mL)</label>
+<br>
+<input type="number" id="VolumePotassio"></input>
+<br>
+<label for="potassioAmpola">Quantidade potássio por ampola (mEq)</label>
+<br>
+<input type="number" id="potassioAmpola"></input>
+<br>
+<br>
+<br>
+<label for="massa">Massa do paciente (Kg)</label>
+<br>
+<input type="number" id="massa"></input>
+<br></p>
+<form style="margin-left: 5vw;">
+<input name="tonicidade" type="radio" id="sodioIso">Calcular sódio isotônico? 
+        <br>
+<input name="tonicidade" type="radio" id="sodioHipo">Calcular sódio hipotônico? 
+</form>
+<br>
+<p><button onclick="holliday()">Calcular</button></p>
+<p id="resultado"></p>
+<p id="alertas" style="display: none;">
+O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
+<br>
+– A velocidade de infusão máxima de potássio é 10-20 mEq/h)!
+<br>
+– A concentração ideal em acesso periférico é de no máx. 40-50mEq/L.
+<br>
+– A concentração ideal em acesso central é de no máx. 80-100mEq/L.
+<br>
+– Não prescreva potássio ao paciente anúrico!
+</p>
+<script src="../../holliday.js"></script>
+
+
+
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  <br>
+  <br>
+</footer>
+
+</body>
+</html>

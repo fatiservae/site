@@ -5,10 +5,72 @@
 	<description>Recent content on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sat, 27 Jan 2024 16:45:48 -0300</lastBuildDate>
+	<lastBuildDate>Tue, 30 Jan 2024 15:44:34 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Calculadora de Holliday-Segar</title>
+		<link>https://www.jeffersontorres.com.br/medicina/holliday/</link>
+		<pubDate>Tue, 30 Jan 2024 15:44:34 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/holliday/</guid>
+		<description>&lt;p&gt;&lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, CONFIRA RESULTADOS!!&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidro-eletrolítica de Holliday-Segar&lt;/h2&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+Esta calculadora aceita valores decimais nas unidades indicadas. &lt;br&gt;
+Use pontos e não vírgulas.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;label for=&#34;sodioAmpola&#34;&gt;Volume da ampola de sódio (mL)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;VolumeSodio&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;label for=&#34;sodioAmpola&#34;&gt;Quantidade sódio por ampola (mEq)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;sodioAmpola&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;label for=&#34;sodioAmpola&#34;&gt;Volume da ampola de potássio (mL)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;VolumePotassio&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;label for=&#34;potassioAmpola&#34;&gt;Quantidade potássio por ampola (mEq)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;potassioAmpola&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;form style=&#34;margin-left: 5vw;&#34;&gt;
+&lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Calcular sódio isotônico? 
+        &lt;br&gt;
+&lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Calcular sódio hipotônico? 
+&lt;/form&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;button onclick=&#34;holliday()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
+&lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;p id=&#34;alertas&#34; style=&#34;display: none;&#34;&gt;
+O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
+&lt;br&gt;
+– A velocidade de infusão máxima de potássio é 10-20 mEq/h)!
+&lt;br&gt;
+– A concentração ideal em acesso periférico é de no máx. 40-50mEq/L.
+&lt;br&gt;
+– A concentração ideal em acesso central é de no máx. 80-100mEq/L.
+&lt;br&gt;
+– Não prescreva potássio ao paciente anúrico!
+&lt;/p&gt;
+&lt;script src=&#34;./holliday.js&#34;&gt;&lt;/script&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Calculadora de drogas</title>
@@ -1227,7 +1289,7 @@ Seneca
 &lt;/div&gt;
 
 
-&lt;p&gt;Seu legado foi sua própria consolação na forma de livro, deixando os exemplos de autocontrole e autodeterminação.&lt;/p&gt;
+&lt;p&gt;Seu legado foi sua própria consolação na forma do livro, deixando-nos seus exemplos de autocontrole e autodeterminação.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A maioria de nós não estamos no extremo de Boethius. Pensemos sobre.&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
