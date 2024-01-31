@@ -1,48 +1,71 @@
+// Ringer Eurofarma
+//Conteúdo Eletrolítico:
+// Sódio 130,00mEq/L
+// Potássio 4,0 mEq/L
+// Cálcio 2,7 mEq/L
+// Cloreto 109,0 mEq/L
+// Lactato 27,0 mEq/L
+//
+//
 function holliday() {
   const sodio = document.getElementById("sodioAmpola").value;
-  const potassio = document.getElementById("potassioAmpola").value;
+  const TipoAmpolaPotassio = document.getElementById("potassioAmpola").value;
   const massa = document.getElementById("massa").value;
-  let quantidade;
-  let fluxo;
+  const volumeAmpNa = document.getElementById("VolumeSodio").value;
+  const volumeAmpK = document.getElementById("VolumePotassio").value;
 
-  if (massa > 20) {
-    quantidade = 1500 + (20 * (massa - 20)); // mL/dia
-    fluxo = 60 + (massa - 20); // mL/h
-  } else if (massa > 10 ) {
-    quantidade = 1000 + (10 * (massa - 10)); 
-    fluxo = 60 + (massa - 10); 
-  } else {
-    quantidade = 100 * massa;
-    fluxo = 4 * massa;
-  }
-
+  let volumeLiq;
+  let velocInfusao;
   let ampolasSodio;
   let totalSodio;
-  let volumeAmpNa = document.getElementById("VolumeSodio").value;
-  let volumeAmpK = document.getElementById("VolumePotassio").value;
+  let ampolasPotassio;
+ 
+  if (massa > 20) {
+    volumeLiq = 1500 + (20 * (massa - 20)); // mL/dia
+    velocInfusao = 60 + (massa - 20); // mL/h
+  } else if (massa > 10 && massa < 20 ){
+    volumeLiq = 1000 + (10 * (massa - 10)); 
+    velocInfusao = 40 + (2 * (massa - 10)); 
+  } else {
+    volumeLiq = 100 * massa;
+    velocInfusao = 4 * massa;
+  }
+ 
+  // valor seguro de 20mEq a cada 100ml, ou seja 0.02mEq/ml
+  let totalPotassio = 0.02 * volumeLiq; 
 
-  // converter pra % pq é o mais comum
-  // uma amp de 19% é 2562 mEq/L... pesquisar demais 
-  let totalPotassio = 0.02 * quantidade; // valor seguro min
-  let ampolasPotassio = totalPotassio / potassio;
+  console.log(totalPotassio)
+  console.log("tipo amp k "+TipoAmpolaPotassio)
+  console.log("volume amp K "+volumeAmpK)
+  if ( TipoAmpolaPotassio === '19' ) {
+    // uma amp de 19% é 2562 mEq/L... pesquisar demais 
+    ampolasPotassio = totalPotassio / ( 2.562 * volumeAmpK);  
+  } else if ( volumeAmpK === 5 ) {
+    // calc para 5%
+  } else if ( volumeAmpK === 10 ) {
+    // calc para 10%
+  } else {
+    document.getElementById("resultado").innerText = "SELECIONE TIPO AMPOLA DE POTASSIO";
+  }
 
   if (document.getElementById("sodioIso").checked) {
-    totalSodio = 0.135 * quantidade; // 135mEq/L para sódio iso
+    totalSodio = 0.135 * volumeLiq; // 135mEq/L para sódio iso
     ampolasSodio = totalSodio / sodio;
   } else if (document.getElementById("sodioHipo").checked){
-    totalSodio = 0.03 * quantidade;
+    totalSodio = 0.03 * volumeLiq;
     ampolasSodio = totalSodio / sodio;
   } else {
     document.getElementById("resultado").innerText = "ESCOLHA TONICIDADE";
   }
 
-  quantidade = quantidade - volumeAmpNa - volumeAmpK;
+  volumeLiq = volumeLiq - volumeAmpNa - volumeAmpK;
 
-  final(quantidade, fluxo, totalSodio, totalPotassio); //desconstruir a função? 
+// final(volumeLiq, velocInfusao, totalSodio, totalPotassio); //desconstruir a função? 
 
-  function final(quantidade, fluxo, totalSodio, totalPotassio) {
-    document.getElementById("resultado").innerText = "Fazer "+quantidade+"mL ao dia de manutenção.\nCorrer "+fluxo+"ml por hora.\nSerá necessário adicionar:\n - "+totalPotassio.toFixed(2)+"mEq de Potássio ou "+ampolasPotassio.toFixed(2)+"ampola(s); e\n - "+totalSodio.toFixed(2)+"mEq de Sódio ou "+ampolasSodio.toFixed(2)+" ampola(s).";
+  
+document.getElementById("resultado").innerText = 
+    "\nSerá necessário adicionar:\n - "+totalPotassio.toFixed(2)+"mEq de Potássio ou "+ampolasPotassio.toFixed(2)+"ampola(s); e\n - "+totalSodio.toFixed(2)+"mEq de Sódio ou "+ampolasSodio.toFixed(2)+" ampola(s).\n Dilua as ampolas em "+volumeLiq+"mL de soro a 0.9% ou Ringer por dia de manutenção.\nCorrer "+velocInfusao+"ml por hora.";
 
-    document.getElementById("alertas").style.display = 'block';
-  }
+document.getElementById("alertas").style.display = 'block';
+console.log(potassio)
 }

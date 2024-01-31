@@ -21,9 +21,13 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, CONFIRA RESULTADOS!!
-Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Volume da ampola de sódio (mL) Quantidade sódio por ampola (mEq) Volume da ampola de potássio (mL) Quantidade potássio por ampola (mEq) Massa do paciente (Kg) Calcular sódio isotônico? Calcular sódio hipotônico? Calcular
-O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h. – A velocidade de infusão máxima de potássio é 10-20 mEq/h)!">
+  <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!
+Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Líquido principal
+&ndash;Selecione fluido principal&ndash; Ringer Lactato Soro fisiológico a 0.9% Soro fisiológico a 5% Soro fisiológico a 10% Soro fisiológico a 20% Volume de cada ampola de sódio (mL)
+Quantidade sódio por ampola (mEq)
+Volume de cada ampola de potássio (mL)
+Concentração de Potássio da ampola">
+  <meta name="keywords" content="Medicina, Calculadoras, Pediatria">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -110,7 +114,7 @@ O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h. – A velocidade 
  
 
 
-<p><span style="background: red; color: black">ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, CONFIRA RESULTADOS!!</span></p>
+<p><span style="background: red; color: black">ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!</span></p>
 <h2 id="calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar">Calculadora de manutenção hidro-eletrolítica de Holliday-Segar</h2>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
@@ -120,33 +124,33 @@ Use pontos e não vírgulas.
 </div>
 
 
-<p><label for="sodioAmpola">Volume da ampola de sódio (mL)</label>
-<br>
-<input type="number" id="VolumeSodio"></input>
-<br>
-<label for="sodioAmpola">Quantidade sódio por ampola (mEq)</label>
-<br>
-<input type="number" id="sodioAmpola"></input>
-<br>
-<br>
-<label for="sodioAmpola">Volume da ampola de potássio (mL)</label>
-<br>
-<input type="number" id="VolumePotassio"></input>
-<br>
-<label for="potassioAmpola">Quantidade potássio por ampola (mEq)</label>
-<br>
-<input type="number" id="potassioAmpola"></input>
-<br>
-<br>
-<br>
-<label for="massa">Massa do paciente (Kg)</label>
-<br>
-<input type="number" id="massa"></input>
-<br></p>
+<p><label for="liquidoPrincipal">Líquido principal</label><br>
+<select type="number" id="liquidoPrincipal">
+<option value="">&ndash;Selecione fluido principal&ndash;</option>
+<option value="ringer">Ringer Lactato</option>
+<option value="sf09">Soro fisiológico a 0.9%</option>
+<option value="sf5">Soro fisiológico a 5%</option>
+<option value="sf10">Soro fisiológico a 10%</option>
+<option value="sf20">Soro fisiológico a 20%</option>
+</select><br><br><br></p>
+<p><label for="sodioAmpola">Volume de cada ampola de sódio (mL)</label><br>
+<input type="number" id="VolumeSodio"></input><br>
+<label for="sodioAmpola">Quantidade sódio por ampola (mEq)</label><br>
+<input type="number" id="sodioAmpola"></input><br><br></p>
+<p><label for="sodioAmpola">Volume de cada ampola de potássio (mL)</label><br>
+<input type="number" id="VolumePotassio"></input> <br>
+<label for="potassioAmpola">Concentração de Potássio da ampola<label><br>
+<select type="number" id="potassioAmpola">
+<option value="">&ndash;Selecione tipo de ampola&ndash;</option>
+<option value="19">Cloreto de Potássio a 19,1%</option>
+<option value="10">Cloreto de Potássio a 10%</option> <!-- conferir se 10 -->
+<option value="5">Cloreto de Potássio a 5%</option> <!-- conferir se 5 -->
+</select><br><br><br></p>
+<p><label for="massa">Massa do paciente (Kg)</label><br>
+<input type="number" id="massa"></input><br></p>
 <form style="margin-left: 5vw;">
-<input name="tonicidade" type="radio" id="sodioIso">Calcular sódio isotônico? 
-        <br>
-<input name="tonicidade" type="radio" id="sodioHipo">Calcular sódio hipotônico? 
+    <input name="tonicidade" type="radio" id="sodioIso">Calcular sódio isotônico? <br>
+    <input name="tonicidade" type="radio" id="sodioHipo">Calcular sódio hipotônico? 
 </form>
 <br>
 <p><button onclick="holliday()">Calcular</button></p>
@@ -154,7 +158,7 @@ Use pontos e não vírgulas.
 <p id="alertas" style="display: none;">
 O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
 <br>
-– A velocidade de infusão máxima de potássio é 10-20 mEq/h)!
+– A velocidade de infusão máxima de potássio é 10-20 mEq/h!
 <br>
 – A concentração ideal em acesso periférico é de no máx. 40-50mEq/L.
 <br>
@@ -165,7 +169,8 @@ O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
 <script src="../../holliday.js"></script>
 
 
-
+<br>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a> &middot; <a id="tag_pediatria" href="https://www.jeffersontorres.com.br/tags/pediatria">Pediatria</a></div>
 
 <footer>
   <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
