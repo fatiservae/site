@@ -97,7 +97,7 @@
   --button-hover: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
-  --fundo: #dd866a; 
+  --fundo: #cc866a; 
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: wheat;
@@ -1456,4 +1456,16 @@ div#counter {
   max-width: 95vw;
 }
 
+@media only screen and (max-width: 800px){ 
+    .fundo-only-big {
+        display: none; 
+    }
+}
+.fundo-only-big {
+    position: fixed; 
+    right: 1em; 
+    bottom: 1em; 
+    z-index: -1;
+}
+</style>
 

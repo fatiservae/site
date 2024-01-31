@@ -11,12 +11,16 @@
 	
 	
 	<item>
-		<title>Calculadora de Holliday-Segar</title>
+		<title>Calculadora para Holliday-Segar</title>
 		<link>https://www.jeffersontorres.com.br/medicina/holliday/</link>
 		<pubDate>Tue, 30 Jan 2024 15:44:34 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/holliday/</guid>
 		<description>&lt;p&gt;&lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!&lt;/span&gt;&lt;/p&gt;
+
+
+&lt;img class=&#34;fundo-only-big&#34; src=&#34;./pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
+
 &lt;h2 id=&#34;calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidro-eletrolítica de Holliday-Segar&lt;/h2&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
@@ -26,8 +30,10 @@ Use pontos e não vírgulas.
 &lt;/div&gt;
 
 
-&lt;p&gt;&lt;label for=&#34;liquidoPrincipal&#34;&gt;Líquido principal&lt;/label&gt;&lt;br&gt;
-&lt;select type=&#34;number&#34; id=&#34;liquidoPrincipal&#34;&gt;
+&lt;p&gt;&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label for=&#34;liquidoPrincipal&#34;&gt;Fluido principal&lt;/label&gt;&lt;br&gt;
+&lt;select type=&#34;number&#34; id=&#34;fluidoPrincipal&#34;&gt;
 &lt;option value=&#34;&#34;&gt;&amp;ndash;Selecione fluido principal&amp;ndash;&lt;/option&gt;
 &lt;option value=&#34;ringer&#34;&gt;Ringer Lactato&lt;/option&gt;
 &lt;option value=&#34;sf09&#34;&gt;Soro fisiológico a 0.9%&lt;/option&gt;
@@ -38,7 +44,7 @@ Use pontos e não vírgulas.
 &lt;p&gt;&lt;label for=&#34;sodioAmpola&#34;&gt;Volume de cada ampola de sódio (mL)&lt;/label&gt;&lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;VolumeSodio&#34;&gt;&lt;/input&gt;&lt;br&gt;
 &lt;label for=&#34;sodioAmpola&#34;&gt;Quantidade sódio por ampola (mEq)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;sodioAmpola&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;input type=&#34;number&#34; id=&#34;qteSodioAmpola&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;label for=&#34;sodioAmpola&#34;&gt;Volume de cada ampola de potássio (mL)&lt;/label&gt;&lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;VolumePotassio&#34;&gt;&lt;/input&gt; &lt;br&gt;
 &lt;label for=&#34;potassioAmpola&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
@@ -48,8 +54,6 @@ Use pontos e não vírgulas.
 &lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt; &lt;!-- conferir se 10 --&gt;
 &lt;option value=&#34;5&#34;&gt;Cloreto de Potássio a 5%&lt;/option&gt; &lt;!-- conferir se 5 --&gt;
 &lt;/select&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;/p&gt;
 &lt;form style=&#34;margin-left: 5vw;&#34;&gt;
     &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Calcular sódio isotônico? &lt;br&gt;
     &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Calcular sódio hipotônico? 

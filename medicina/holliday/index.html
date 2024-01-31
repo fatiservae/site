@@ -16,17 +16,17 @@
 
   
 
-  <title>Calculadora De Holliday-Segar | Jefferson T.</title>
+  <title>Calculadora Para Holliday-Segar | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!
-Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Líquido principal
+Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Massa do paciente (Kg)
+Fluido principal
 &ndash;Selecione fluido principal&ndash; Ringer Lactato Soro fisiológico a 0.9% Soro fisiológico a 5% Soro fisiológico a 10% Soro fisiológico a 20% Volume de cada ampola de sódio (mL)
 Quantidade sódio por ampola (mEq)
-Volume de cada ampola de potássio (mL)
-Concentração de Potássio da ampola">
+Volume de cada ampola de potássio (mL)">
   <meta name="keywords" content="Medicina, Calculadoras, Pediatria">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -58,13 +58,15 @@ Concentração de Potássio da ampola">
     <a href="../../index.html" alt="Início">📌</a>
     <a href="../../sobre/index.html" alt="Sobre">🙋🏾‍♂️</a>
     <a href="../../files/index.html" alt="Arquivos">📂</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">💉</a>
+    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 </a> 
     <a href="../../dicionario/index.html" alt="Dicionário">📕</a>
     <a href="../../tags/filosofia/index.html" alt="Filosofia">🤔</a>
     <a href="../../tags/medicina/index.html" alt="Medicina">❤️‍🩹</a>
     <a href="../../tags/estoicismo/index.html" alt="Estoicismo">💀</a>
+    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️</a>
+    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 </a> 
     <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">✍🏽</a>
-    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">💉</a>
   </div>
 <script>
   let lighswitch = document.getElementById("switch");
@@ -115,6 +117,10 @@ Concentração de Potássio da ampola">
 
 
 <p><span style="background: red; color: black">ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!</span></p>
+
+
+<img class="fundo-only-big" src="../../pix/medicina/paudesoro.webp"></img>
+
 <h2 id="calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar">Calculadora de manutenção hidro-eletrolítica de Holliday-Segar</h2>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
@@ -124,8 +130,10 @@ Use pontos e não vírgulas.
 </div>
 
 
-<p><label for="liquidoPrincipal">Líquido principal</label><br>
-<select type="number" id="liquidoPrincipal">
+<p><label for="massa">Massa do paciente (Kg)</label><br>
+<input type="number" id="massa"></input><br></p>
+<p><label for="liquidoPrincipal">Fluido principal</label><br>
+<select type="number" id="fluidoPrincipal">
 <option value="">&ndash;Selecione fluido principal&ndash;</option>
 <option value="ringer">Ringer Lactato</option>
 <option value="sf09">Soro fisiológico a 0.9%</option>
@@ -136,7 +144,7 @@ Use pontos e não vírgulas.
 <p><label for="sodioAmpola">Volume de cada ampola de sódio (mL)</label><br>
 <input type="number" id="VolumeSodio"></input><br>
 <label for="sodioAmpola">Quantidade sódio por ampola (mEq)</label><br>
-<input type="number" id="sodioAmpola"></input><br><br></p>
+<input type="number" id="qteSodioAmpola"></input><br><br></p>
 <p><label for="sodioAmpola">Volume de cada ampola de potássio (mL)</label><br>
 <input type="number" id="VolumePotassio"></input> <br>
 <label for="potassioAmpola">Concentração de Potássio da ampola<label><br>
@@ -146,8 +154,6 @@ Use pontos e não vírgulas.
 <option value="10">Cloreto de Potássio a 10%</option> <!-- conferir se 10 -->
 <option value="5">Cloreto de Potássio a 5%</option> <!-- conferir se 5 -->
 </select><br><br><br></p>
-<p><label for="massa">Massa do paciente (Kg)</label><br>
-<input type="number" id="massa"></input><br></p>
 <form style="margin-left: 5vw;">
     <input name="tonicidade" type="radio" id="sodioIso">Calcular sódio isotônico? <br>
     <input name="tonicidade" type="radio" id="sodioHipo">Calcular sódio hipotônico? 

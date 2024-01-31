@@ -8,7 +8,8 @@
 //
 //
 function holliday() {
-  const sodio = document.getElementById("sodioAmpola").value;
+  const fluidoPrincipal = document.getElementById("fluidoPrincipal").value;
+  const qteSodio = document.getElementById("qteSodioAmpola").value;
   const TipoAmpolaPotassio = document.getElementById("potassioAmpola").value;
   const massa = document.getElementById("massa").value;
   const volumeAmpNa = document.getElementById("VolumeSodio").value;
@@ -19,6 +20,9 @@ function holliday() {
   let ampolasSodio;
   let totalSodio;
   let ampolasPotassio;
+
+  // aporte calorico e hídrico deve manter 100kcal/100ml
+  // cada 1g de glicose hidratada tem 3.4kcal
  
   if (massa > 20) {
     volumeLiq = 1500 + (20 * (massa - 20)); // mL/dia
@@ -50,10 +54,10 @@ function holliday() {
 
   if (document.getElementById("sodioIso").checked) {
     totalSodio = 0.135 * volumeLiq; // 135mEq/L para sódio iso
-    ampolasSodio = totalSodio / sodio;
+    ampolasSodio = totalSodio / qteSodio;
   } else if (document.getElementById("sodioHipo").checked){
     totalSodio = 0.03 * volumeLiq;
-    ampolasSodio = totalSodio / sodio;
+    ampolasSodio = totalSodio / qteSodio;
   } else {
     document.getElementById("resultado").innerText = "ESCOLHA TONICIDADE";
   }
@@ -63,9 +67,9 @@ function holliday() {
 // final(volumeLiq, velocInfusao, totalSodio, totalPotassio); //desconstruir a função? 
 
   
-document.getElementById("resultado").innerText = 
+  document.getElementById("resultado").innerText = 
     "\nSerá necessário adicionar:\n - "+totalPotassio.toFixed(2)+"mEq de Potássio ou "+ampolasPotassio.toFixed(2)+"ampola(s); e\n - "+totalSodio.toFixed(2)+"mEq de Sódio ou "+ampolasSodio.toFixed(2)+" ampola(s).\n Dilua as ampolas em "+volumeLiq+"mL de soro a 0.9% ou Ringer por dia de manutenção.\nCorrer "+velocInfusao+"ml por hora.";
 
-document.getElementById("alertas").style.display = 'block';
-console.log(potassio)
+  document.getElementById("alertas").style.display = 'block';
+  console.log(potassio)
 }
