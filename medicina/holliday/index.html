@@ -16,17 +16,16 @@
 
   
 
-  <title>Calculadora Para Holliday-Segar | Jefferson T.</title>
+  <title>Fluidoterapia De Manutenção: Holliday-Segar | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!
-Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Massa do paciente (Kg)
+Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Ao usar soro glicosado, deixe em branco os campos de glicose. Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito. Fluido
+Massa do paciente (Kg)
 Fluido principal
-&ndash;Selecione fluido principal&ndash; Ringer Lactato Soro fisiológico a 0.9% Soro fisiológico a 5% Soro fisiológico a 10% Soro fisiológico a 20% Volume de cada ampola de sódio (mL)
-Quantidade sódio por ampola (mEq)
-Volume de cada ampola de potássio (mL)">
+--Selecione fluido principal-- Ringer Lactato Soro glicosado a 5% Soro fisiológico a 0.9% Sódio">
   <meta name="keywords" content="Medicina, Calculadoras, Pediatria">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -125,44 +124,83 @@ Volume de cada ampola de potássio (mL)">
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
 Esta calculadora aceita valores decimais nas unidades indicadas. <br>
-Use pontos e não vírgulas.
+Use pontos e não vírgulas. <br>
+Ao usar soro glicosado, deixe em branco os campos de glicose. <br>
+Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito.
  </span>
 </div>
 
 
-<p><label for="massa">Massa do paciente (Kg)</label><br>
-<input type="number" id="massa"></input><br></p>
-<p><label for="liquidoPrincipal">Fluido principal</label><br>
-<select type="number" id="fluidoPrincipal">
-<option value="">&ndash;Selecione fluido principal&ndash;</option>
-<option value="ringer">Ringer Lactato</option>
-<option value="sf09">Soro fisiológico a 0.9%</option>
-<option value="sf5">Soro fisiológico a 5%</option>
-<option value="sf10">Soro fisiológico a 10%</option>
-<option value="sf20">Soro fisiológico a 20%</option>
-</select><br><br><br></p>
-<p><label for="sodioAmpola">Volume de cada ampola de sódio (mL)</label><br>
-<input type="number" id="VolumeSodio"></input><br>
-<label for="sodioAmpola">Quantidade sódio por ampola (mEq)</label><br>
-<input type="number" id="qteSodioAmpola"></input><br><br></p>
-<p><label for="sodioAmpola">Volume de cada ampola de potássio (mL)</label><br>
-<input type="number" id="VolumePotassio"></input> <br>
-<label for="potassioAmpola">Concentração de Potássio da ampola<label><br>
-<select type="number" id="potassioAmpola">
-<option value="">&ndash;Selecione tipo de ampola&ndash;</option>
-<option value="19">Cloreto de Potássio a 19,1%</option>
-<option value="10">Cloreto de Potássio a 10%</option> <!-- conferir se 10 -->
-<option value="5">Cloreto de Potássio a 5%</option> <!-- conferir se 5 -->
-</select><br><br><br></p>
-<form style="margin-left: 5vw;">
-    <input name="tonicidade" type="radio" id="sodioIso">Calcular sódio isotônico? <br>
-    <input name="tonicidade" type="radio" id="sodioHipo">Calcular sódio hipotônico? 
+<div style="max-width: 60vw; display: flex; flex-wrap: wrap;">
+<div class="sticker" style="border: 1px solid var(--bordas)">
+<p>Fluido</p>
+<label for="massa">Massa do paciente (Kg)</label><br>
+<input type="number" id="massa"></input><br><br>
+<label for="fluidoPrincipal">Fluido principal</label><br>
+<select id="tipoFluidoPrincipal">
+    <!-- 
+    <option value="sf5">Soro fisiológico a 5%</option>
+    <option value="sf10">Soro fisiológico a 10%</option>
+    <option value="sf20">Soro fisiológico a 20%</option>
+    -->
+    <option value="">--Selecione fluido principal--</option>
+    <option value="ringer">Ringer Lactato</option>
+    <option value="sg5">Soro glicosado a 5%</option>
+    <option value="sf09">Soro fisiológico a 0.9%</option>
+    </select>
+</div>
+<br><br>
+<div class="sticker" style="border: 1px solid var(--bordas)">
+<p>Sódio</p>
+<label for="volumeAmpNa">Volume de cada ampola de sódio (mL)</label><br>
+<input type="number" id="volumeAmpNa"></input> <br><br>
+<label for="concentAmpNa">Ampola de sódio concentrado</label><br>
+<select id="concentAmpNa">
+    <option value="">--Selecione sódio concentrado--</option>
+    <option value="10">Cloreto de sódio a 10%</option>
+    <option value="20">Cloreto de sódio a 20%</option>
+</select>
+<form>
+    <input name="tonicidade" type="radio" id="sodioIso">Calcular sódio isotônico (135mEq/L)? <br>
+    <input name="tonicidade" type="radio" id="sodioHipo">Calcular sódio hipotônico (30mEq/L)? 
 </form>
+</div>
+<br><br>
+<div class="sticker" style="border: 1px solid var(--bordas)">
+<p>Potássio</p>
+<label for="volumeAmpK">Volume de cada ampola de potássio (mL)</label><br>
+<input type="number" id="volumeAmpK"></input> <br><br>
+<label for="concentAmpK">Concentração de Potássio da ampola<label><br>
+<select id="concentAmpK">
+    <option value="">--Selecione tipo de ampola--</option>
+    <option value="19">Cloreto de Potássio a 19,1%</option>
+    <option value="10">Cloreto de Potássio a 10%</option>
+    <option value="fosft2meqml">Fosfato de Potássio a 2mEq/mL</option>
+    <!--<option value="10">Cloreto de Potássio a 10%</option>  conferir se 10 -->
+ <!--    <option value="5">Cloreto de Potássio a 5%</option> conferir se 5 -->
+</select><br>
+</div>
+<br><br>
+<div class="sticker" style="border: 1px solid var(--bordas)">
+<p>Glicose</p>
+<label for="volumeAmpGlic">Volume de cada ampola de glicose (mL)</label><br>
+<input type="number" id="volumeAmpGlic"></input> <br><br>
+<label for="percentualGlic">Percentual de glicose da ampola<label><br>
+<select id="percentualGlic">
+    <option value="">--Selecione tipo de ampola--</option>
+    <option value=5>Glicose a 5%</option>
+    <option value=50>Glicose a 50%</option> 
+</select><br>
+</div>
+</div>
 <br>
 <p><button onclick="holliday()">Calcular</button></p>
+<div class="sticker" style="border: 1px solid var(--bordas)">
 <p id="resultado"></p>
+</div>
+<div class="sticker" style="border: 1px solid var(--bordas)">
 <p id="alertas" style="display: none;">
-O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
+O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 <br>
 – A velocidade de infusão máxima de potássio é 10-20 mEq/h!
 <br>
@@ -172,6 +210,7 @@ O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
 <br>
 – Não prescreva potássio ao paciente anúrico!
 </p>
+</div>
 <script src="../../holliday.js"></script>
 
 

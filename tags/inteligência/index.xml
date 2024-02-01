@@ -11,7 +11,7 @@
 	
 	
 	<item>
-		<title>Calculadora para Holliday-Segar</title>
+		<title>Fluidoterapia de manutenção: Holliday-Segar</title>
 		<link>https://www.jeffersontorres.com.br/medicina/holliday/</link>
 		<pubDate>Tue, 30 Jan 2024 15:44:34 -0300</pubDate>
 		
@@ -25,44 +25,83 @@
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
 Esta calculadora aceita valores decimais nas unidades indicadas. &lt;br&gt;
-Use pontos e não vírgulas.
+Use pontos e não vírgulas. &lt;br&gt;
+Ao usar soro glicosado, deixe em branco os campos de glicose. &lt;br&gt;
+Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito.
  &lt;/span&gt;
 &lt;/div&gt;
 
 
-&lt;p&gt;&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;label for=&#34;liquidoPrincipal&#34;&gt;Fluido principal&lt;/label&gt;&lt;br&gt;
-&lt;select type=&#34;number&#34; id=&#34;fluidoPrincipal&#34;&gt;
-&lt;option value=&#34;&#34;&gt;&amp;ndash;Selecione fluido principal&amp;ndash;&lt;/option&gt;
-&lt;option value=&#34;ringer&#34;&gt;Ringer Lactato&lt;/option&gt;
-&lt;option value=&#34;sf09&#34;&gt;Soro fisiológico a 0.9%&lt;/option&gt;
-&lt;option value=&#34;sf5&#34;&gt;Soro fisiológico a 5%&lt;/option&gt;
-&lt;option value=&#34;sf10&#34;&gt;Soro fisiológico a 10%&lt;/option&gt;
-&lt;option value=&#34;sf20&#34;&gt;Soro fisiológico a 20%&lt;/option&gt;
-&lt;/select&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;label for=&#34;sodioAmpola&#34;&gt;Volume de cada ampola de sódio (mL)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;VolumeSodio&#34;&gt;&lt;/input&gt;&lt;br&gt;
-&lt;label for=&#34;sodioAmpola&#34;&gt;Quantidade sódio por ampola (mEq)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;qteSodioAmpola&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;label for=&#34;sodioAmpola&#34;&gt;Volume de cada ampola de potássio (mL)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;VolumePotassio&#34;&gt;&lt;/input&gt; &lt;br&gt;
-&lt;label for=&#34;potassioAmpola&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
-&lt;select type=&#34;number&#34; id=&#34;potassioAmpola&#34;&gt;
-&lt;option value=&#34;&#34;&gt;&amp;ndash;Selecione tipo de ampola&amp;ndash;&lt;/option&gt;
-&lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
-&lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt; &lt;!-- conferir se 10 --&gt;
-&lt;option value=&#34;5&#34;&gt;Cloreto de Potássio a 5%&lt;/option&gt; &lt;!-- conferir se 5 --&gt;
-&lt;/select&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;form style=&#34;margin-left: 5vw;&#34;&gt;
-    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Calcular sódio isotônico? &lt;br&gt;
-    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Calcular sódio hipotônico? 
+&lt;div style=&#34;max-width: 60vw; display: flex; flex-wrap: wrap;&#34;&gt;
+&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
+&lt;p&gt;Fluido&lt;/p&gt;
+&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;fluidoPrincipal&#34;&gt;Fluido principal&lt;/label&gt;&lt;br&gt;
+&lt;select id=&#34;tipoFluidoPrincipal&#34;&gt;
+    &lt;!-- 
+    &lt;option value=&#34;sf5&#34;&gt;Soro fisiológico a 5%&lt;/option&gt;
+    &lt;option value=&#34;sf10&#34;&gt;Soro fisiológico a 10%&lt;/option&gt;
+    &lt;option value=&#34;sf20&#34;&gt;Soro fisiológico a 20%&lt;/option&gt;
+    --&gt;
+    &lt;option value=&#34;&#34;&gt;--Selecione fluido principal--&lt;/option&gt;
+    &lt;option value=&#34;ringer&#34;&gt;Ringer Lactato&lt;/option&gt;
+    &lt;option value=&#34;sg5&#34;&gt;Soro glicosado a 5%&lt;/option&gt;
+    &lt;option value=&#34;sf09&#34;&gt;Soro fisiológico a 0.9%&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/div&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
+&lt;p&gt;Sódio&lt;/p&gt;
+&lt;label for=&#34;volumeAmpNa&#34;&gt;Volume de cada ampola de sódio (mL)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;volumeAmpNa&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;concentAmpNa&#34;&gt;Ampola de sódio concentrado&lt;/label&gt;&lt;br&gt;
+&lt;select id=&#34;concentAmpNa&#34;&gt;
+    &lt;option value=&#34;&#34;&gt;--Selecione sódio concentrado--&lt;/option&gt;
+    &lt;option value=&#34;10&#34;&gt;Cloreto de sódio a 10%&lt;/option&gt;
+    &lt;option value=&#34;20&#34;&gt;Cloreto de sódio a 20%&lt;/option&gt;
+&lt;/select&gt;
+&lt;form&gt;
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Calcular sódio isotônico (135mEq/L)? &lt;br&gt;
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Calcular sódio hipotônico (30mEq/L)? 
 &lt;/form&gt;
+&lt;/div&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
+&lt;p&gt;Potássio&lt;/p&gt;
+&lt;label for=&#34;volumeAmpK&#34;&gt;Volume de cada ampola de potássio (mL)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;volumeAmpK&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;concentAmpK&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
+&lt;select id=&#34;concentAmpK&#34;&gt;
+    &lt;option value=&#34;&#34;&gt;--Selecione tipo de ampola--&lt;/option&gt;
+    &lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
+    &lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;
+    &lt;option value=&#34;fosft2meqml&#34;&gt;Fosfato de Potássio a 2mEq/mL&lt;/option&gt;
+    &lt;!--&lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;  conferir se 10 --&gt;
+ &lt;!--    &lt;option value=&#34;5&#34;&gt;Cloreto de Potássio a 5%&lt;/option&gt; conferir se 5 --&gt;
+&lt;/select&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
+&lt;p&gt;Glicose&lt;/p&gt;
+&lt;label for=&#34;volumeAmpGlic&#34;&gt;Volume de cada ampola de glicose (mL)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;volumeAmpGlic&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;percentualGlic&#34;&gt;Percentual de glicose da ampola&lt;label&gt;&lt;br&gt;
+&lt;select id=&#34;percentualGlic&#34;&gt;
+    &lt;option value=&#34;&#34;&gt;--Selecione tipo de ampola--&lt;/option&gt;
+    &lt;option value=5&gt;Glicose a 5%&lt;/option&gt;
+    &lt;option value=50&gt;Glicose a 50%&lt;/option&gt; 
+&lt;/select&gt;&lt;br&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;button onclick=&#34;holliday()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
 &lt;p id=&#34;alertas&#34; style=&#34;display: none;&#34;&gt;
-O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
+O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;br&gt;
 – A velocidade de infusão máxima de potássio é 10-20 mEq/h!
 &lt;br&gt;
@@ -72,12 +111,13 @@ O potássio deve ser realizado idealmente em 0,3-0,5 mEq/kg/h.
 &lt;br&gt;
 – Não prescreva potássio ao paciente anúrico!
 &lt;/p&gt;
+&lt;/div&gt;
 &lt;script src=&#34;../../holliday.js&#34;&gt;&lt;/script&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Calculadora de drogas</title>
+		<title>Calculadora de dosagens comuns: internação</title>
 		<link>https://www.jeffersontorres.com.br/medicina/calculadora-drogas/</link>
 		<pubDate>Sat, 27 Jan 2024 16:45:48 -0300</pubDate>
 		
@@ -1294,7 +1334,7 @@ Seneca
 
 
 &lt;p&gt;Seu legado foi sua própria consolação na forma do livro, deixando-nos seus exemplos de autocontrole e autodeterminação.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A maioria de nós não estamos no extremo de Boethius. Pensemos sobre.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A maioria de nós não está no extremo de Boethius. Pensemos sobre.&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
 &lt;ol&gt;
@@ -1676,7 +1716,7 @@ $$&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Grandes queimados - Parkland</title>
+		<title>Grandes queimados: Parkland</title>
 		<link>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</link>
 		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
 		
