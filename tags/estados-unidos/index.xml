@@ -32,9 +32,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
 &lt;/div&gt;
 
 
-&lt;div style=&#34;max-width: 60vw; display: flex; flex-wrap: wrap;&#34;&gt;
-&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
-&lt;p&gt;Fluido&lt;/p&gt;
+&lt;div style=&#34;margin-left: 5vw&#34;&gt;
+&lt;h2&gt;Fluido&lt;/h2&gt;
 &lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;fluidoPrincipal&#34;&gt;Fluido principal&lt;/label&gt;&lt;br&gt;
@@ -49,10 +48,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     &lt;option value=&#34;sg5&#34;&gt;Soro glicosado a 5%&lt;/option&gt;
     &lt;option value=&#34;sf09&#34;&gt;Soro fisiológico a 0.9%&lt;/option&gt;
     &lt;/select&gt;
-&lt;/div&gt;
 &lt;br&gt;&lt;br&gt;
-&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
-&lt;p&gt;Sódio&lt;/p&gt;
+&lt;h2&gt;Sódio&lt;/h2&gt;
 &lt;label for=&#34;volumeAmpNa&#34;&gt;Volume de cada ampola de sódio (mL)&lt;/label&gt;&lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;volumeAmpNa&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;concentAmpNa&#34;&gt;Ampola de sódio concentrado&lt;/label&gt;&lt;br&gt;
@@ -65,10 +62,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Calcular sódio isotônico (135mEq/L)? &lt;br&gt;
     &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Calcular sódio hipotônico (30mEq/L)? 
 &lt;/form&gt;
-&lt;/div&gt;
 &lt;br&gt;&lt;br&gt;
-&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
-&lt;p&gt;Potássio&lt;/p&gt;
+&lt;h2&gt;Potássio&lt;/h2&gt;
 &lt;label for=&#34;volumeAmpK&#34;&gt;Volume de cada ampola de potássio (mL)&lt;/label&gt;&lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;volumeAmpK&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;concentAmpK&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
@@ -80,10 +75,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     &lt;!--&lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;  conferir se 10 --&gt;
  &lt;!--    &lt;option value=&#34;5&#34;&gt;Cloreto de Potássio a 5%&lt;/option&gt; conferir se 5 --&gt;
 &lt;/select&gt;&lt;br&gt;
-&lt;/div&gt;
 &lt;br&gt;&lt;br&gt;
-&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
-&lt;p&gt;Glicose&lt;/p&gt;
+&lt;h2&gt;Glicose&lt;/h2&gt;
 &lt;label for=&#34;volumeAmpGlic&#34;&gt;Volume de cada ampola de glicose (mL)&lt;/label&gt;&lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;volumeAmpGlic&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;percentualGlic&#34;&gt;Percentual de glicose da ampola&lt;label&gt;&lt;br&gt;
@@ -92,14 +85,9 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     &lt;option value=5&gt;Glicose a 5%&lt;/option&gt;
     &lt;option value=50&gt;Glicose a 50%&lt;/option&gt; 
 &lt;/select&gt;&lt;br&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;button onclick=&#34;holliday()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
-&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sticker&#34; style=&#34;border: 1px solid var(--bordas)&#34;&gt;
 &lt;p id=&#34;alertas&#34; style=&#34;display: none;&#34;&gt;
 O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;br&gt;

@@ -22,10 +22,9 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!
-Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Ao usar soro glicosado, deixe em branco os campos de glicose. Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito. Fluido
-Massa do paciente (Kg)
+Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Ao usar soro glicosado, deixe em branco os campos de glicose. Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito. Fluido Massa do paciente (Kg)
 Fluido principal
---Selecione fluido principal-- Ringer Lactato Soro glicosado a 5% Soro fisiológico a 0.9% Sódio">
+--Selecione fluido principal-- Ringer Lactato Soro glicosado a 5% Soro fisiológico a 0.9% Sódio Volume de cada ampola de sódio (mL)">
   <meta name="keywords" content="Medicina, Calculadoras, Pediatria">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -131,9 +130,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
 </div>
 
 
-<div style="max-width: 60vw; display: flex; flex-wrap: wrap;">
-<div class="sticker" style="border: 1px solid var(--bordas)">
-<p>Fluido</p>
+<div style="margin-left: 5vw">
+<h2>Fluido</h2>
 <label for="massa">Massa do paciente (Kg)</label><br>
 <input type="number" id="massa"></input><br><br>
 <label for="fluidoPrincipal">Fluido principal</label><br>
@@ -148,10 +146,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     <option value="sg5">Soro glicosado a 5%</option>
     <option value="sf09">Soro fisiológico a 0.9%</option>
     </select>
-</div>
 <br><br>
-<div class="sticker" style="border: 1px solid var(--bordas)">
-<p>Sódio</p>
+<h2>Sódio</h2>
 <label for="volumeAmpNa">Volume de cada ampola de sódio (mL)</label><br>
 <input type="number" id="volumeAmpNa"></input> <br><br>
 <label for="concentAmpNa">Ampola de sódio concentrado</label><br>
@@ -164,10 +160,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     <input name="tonicidade" type="radio" id="sodioIso">Calcular sódio isotônico (135mEq/L)? <br>
     <input name="tonicidade" type="radio" id="sodioHipo">Calcular sódio hipotônico (30mEq/L)? 
 </form>
-</div>
 <br><br>
-<div class="sticker" style="border: 1px solid var(--bordas)">
-<p>Potássio</p>
+<h2>Potássio</h2>
 <label for="volumeAmpK">Volume de cada ampola de potássio (mL)</label><br>
 <input type="number" id="volumeAmpK"></input> <br><br>
 <label for="concentAmpK">Concentração de Potássio da ampola<label><br>
@@ -179,10 +173,8 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     <!--<option value="10">Cloreto de Potássio a 10%</option>  conferir se 10 -->
  <!--    <option value="5">Cloreto de Potássio a 5%</option> conferir se 5 -->
 </select><br>
-</div>
 <br><br>
-<div class="sticker" style="border: 1px solid var(--bordas)">
-<p>Glicose</p>
+<h2>Glicose</h2>
 <label for="volumeAmpGlic">Volume de cada ampola de glicose (mL)</label><br>
 <input type="number" id="volumeAmpGlic"></input> <br><br>
 <label for="percentualGlic">Percentual de glicose da ampola<label><br>
@@ -191,14 +183,9 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     <option value=5>Glicose a 5%</option>
     <option value=50>Glicose a 50%</option> 
 </select><br>
-</div>
-</div>
 <br>
 <p><button onclick="holliday()">Calcular</button></p>
-<div class="sticker" style="border: 1px solid var(--bordas)">
 <p id="resultado"></p>
-</div>
-<div class="sticker" style="border: 1px solid var(--bordas)">
 <p id="alertas" style="display: none;">
 O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 <br>
