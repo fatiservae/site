@@ -65,24 +65,28 @@ function holliday() {
   let totalSodio;
   let sodioAdd;
   let sodioFluido;
+  glicoseAdd = (volumeLiq) * 5/100; // 5g/100ml ou seja 0.05g/ml
   if (tipoFluidoPrincipal === 'sf09') {
     sodioFluido = volumeLiq * 0.13; // 0.13mEq por ml de soro 
     glicoseFluido = 0;
-    glicoseAdd = (volumeLiq - volumeAmpGlic) * percentualGlic/100 ; // 5g / 100ml ou seja 0.05g/ml
   } else if (tipoFluidoPrincipal === 'sg5') {
     glicoseAdd = 0; // pra evitar ser NaN
     sodioFluido = 0;
-    glicoseFluido = volumeLiq * 5/100;
-  } else if (tipoFluidoPrincipal === 'sf10') {
+    glicoseFluido = volumeLiq * 5/100; // vai dar certinho 5g/100ml
+  } else if (tipoFluidoPrincipal === 'sg10') {
+    document.getElementById("resultado").innerText = "DILUA SEU FLUIDO PRINCIPAL PARA 5% DE GLICOSE.\n No caso de Soro a 10% de glicose dobre o volume da solução com água para injeção.\n Ex.: 100ml de soro a 10% adicione mais 100ml de água.\nReinicie a calculadora com soro a 5% de glicose ou outro.";
+    return
     //
-  } else if (tipoFluidoPrincipal === 'sf20') {
+  } else if (tipoFluidoPrincipal === 'sg20') {
+    document.getElementById("resultado").innerText = "DILUA SEU FLUIDO PRINCIPAL PARA 5% DE GLICOSE.\n No caso de Soro a 20% de glicose adicione 3x (três) vezes o volume atual da solução com água para injeção.\n Ex.: 100ml de soro a 20% adicione mais 300ml de água.\nReinicie a calculadora com soro a 5% de glicose ou outro.";
+    return
     //
   } else if (tipoFluidoPrincipal === 'sf5') {
     //
   } else if (tipoFluidoPrincipal === 'ringer') {
     sodioFluido = volumeLiq * 0.13;
-    // Ringer Eurofarma 
-    // esquece esse potassio de 0.004mEq/mL ... palhaçada!
+    totalPotassio = totalPotassio + ( volumeLiq/1000 * 4); // Ringer tem 4mEq/L de K
+    glicoseFluido = 0;
     // Sódio 130,00mEq/L Potássio 4,0 mEq/L Cálcio 2,7 mEq/L Cloreto 109,0 mEq/L Lactato 27,0 mEq/L
   } else {
     document.getElementById("resultado").innerText = "SELECIONE TIPO FLUIDO PRINCIPAL";
@@ -104,6 +108,10 @@ function holliday() {
   ampolasGlic = totalGlicose / ((percentualGlic/100) * volumeAmpGlic);
   if(isNaN(totalGlicose)){totalGlicose = 0;};
   if(isNaN(ampolasGlic) || !isFinite(ampolasGlic)){ampolasGlic = 0;}
+  if (totalGlicose > 0  && percentualGlic === "" ) {
+    document.getElementById("resultado").innerText = "ESCOLHA AMPOLAS DE GLICOSE";
+    return
+  }
 
   if (concentAmpNa === '20') {
     ampolasSodio = sodioAdd / (3.4 * volumeAmpNa);
@@ -121,7 +129,7 @@ function holliday() {
   //volumeLiq = volumeLiq - volumeAmpNa - volumeAmpK;
   // final(volumeLiq, velocInfusao, totalSodio, totalPotassio); //desconstruir a função? 
 
-  document.getElementById("resultado").innerText = "\nPara alcançar o Potássio necessário, adicione "+totalPotassio.toFixed(2)+"mEq ou "+ampolasPotassio.toFixed(2)+"ampola(s); \n\nO fluido escolhido contém "+sodioFluido.toFixed(2)+"mEq de Sódio.\n Portanto, para alcançar "+totalSodio.toFixed(2)+"mEq de Sódio, adicione "+ampolasSodio.toFixed(2)+" ampolas de Sódio.\n\nSerá necessário "+totalGlicose.toFixed(2)+"g de Glicose.\nO fluido escolhido oferta "+glicoseFluido.toFixed(2)+"g de glicose.\nAdicione "+ampolasGlic.toFixed(2)+" ampolas de glicose.\n\n Dilua todas as ampolas em "+volumeLiq.toFixed(2)+"mL do fluido principal escolhido.\n\n Correr "+velocInfusao.toFixed(2)+"ml por hora durante um dia (24h).";
+  document.getElementById("resultado").innerText = "\nPara alcançar o Potássio necessário, adicione "+totalPotassio.toFixed(2)+"mEq ou "+ampolasPotassio.toFixed(2)+"ampola(s); \n\nO fluido escolhido contém "+sodioFluido.toFixed(2)+"mEq de Sódio.\n Portanto, para alcançar "+totalSodio.toFixed(2)+"mEq de Sódio, adicione "+ampolasSodio.toFixed(2)+" ampolas de Sódio.\n\nSerá necessário "+totalGlicose.toFixed(2)+"g de Glicose.\nO fluido escolhido oferta "+glicoseFluido.toFixed(2)+"g de glicose.\nAdicione "+ampolasGlic.toFixed(2)+" ampolas de glicose.\n\n Dilua todas as ampolas em "+volumeLiq.toFixed(2)+"mL do fluido principal escolhido.\n\n Correr "+velocInfusao.toFixed(2)+"ml por hora. Esta é a manutenção de um dia (24h).";
 
   document.getElementById("alertas").style.display = 'block';
 }

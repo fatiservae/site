@@ -23,10 +23,11 @@
 &lt;h2 id=&#34;calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidro-eletrolítica de Holliday-Segar&lt;/h2&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
+&lt;strong&gt;Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.&lt;/strong&gt;&lt;br&gt;
+Nenhuma calculadora substitui seu julgamento clínico!&lt;br&gt;
 Esta calculadora aceita valores decimais nas unidades indicadas. &lt;br&gt;
 Use pontos e não vírgulas. &lt;br&gt;
-Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose. &lt;br&gt;
-Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito.
+Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose.
  &lt;/span&gt;
 &lt;/div&gt;
 
@@ -45,7 +46,9 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     &lt;option value=&#34;&#34;&gt;--Selecione fluido principal--&lt;/option&gt;
     &lt;option value=&#34;ringer&#34;&gt;Ringer Lactato&lt;/option&gt;
     &lt;option value=&#34;sg5&#34;&gt;Soro glicosado a 5%&lt;/option&gt;
-    &lt;option value=&#34;sf09&#34;&gt;Soro fisiológico a 0.9%&lt;/option&gt;
+    &lt;option value=&#34;sg10&#34;&gt;Soro glicosado a 10%&lt;/option&gt;
+    &lt;option value=&#34;sg20&#34;&gt;Soro glicosado a 20%&lt;/option&gt;
+    &lt;option value=&#34;sf09&#34;&gt;Soro fisiológico (0.9% de Na)&lt;/option&gt;
     &lt;/select&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;h2&gt;Sódio&lt;/h2&gt;
@@ -86,7 +89,7 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
 &lt;/select&gt;&lt;br&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;button onclick=&#34;holliday()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
-&lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;p id=&#34;resultado&#34; style=&#34;max-width: 60vw;&#34;&gt;&lt;/p&gt;
 &lt;p id=&#34;alertas&#34; style=&#34;display: none;&#34;&gt;
 O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;br&gt;
@@ -2116,7 +2119,8 @@ E -- Persistência --&gt;Z
 		<pubDate>Wed, 15 Nov 2023 22:42:02 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/massagem-carotidea/</guid>
-		<description>&lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via barorreceptores que provocam estimulação parassimpática vagal.&lt;/p&gt;
+		<description>&lt;h2 id=&#34;o-que-é&#34;&gt;O que é&lt;/h2&gt;
+&lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via barorreceptores que provocam estimulação parassimpática vagal.&lt;/p&gt;
 &lt;p&gt;Seu emprego também é terapêutico nos casos de taquiarritmias supraventriculares.&lt;/p&gt;
 &lt;p&gt;Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por profissionais menos treinados. Seu baixo custo e independência de preparo a tornam uma das mais famosas &lt;strong&gt;mágicas atitudes médicas a beira-leito&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;o-mito-da-tromboembolia-cerebral-como-complicação&#34;&gt;O mito da tromboembolia cerebral como complicação&lt;/h2&gt;
@@ -2124,7 +2128,7 @@ E -- Persistência --&gt;Z
 &lt;p&gt;&lt;strong&gt;Isto não procede &lt;em&gt;estatisticamente&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Em um estudo transversal, Lacerda &lt;em&gt;et al&lt;/em&gt; demonstraram que apenas 0.4% de um grupo de 502 pacientes &lt;strong&gt;de alto risco&lt;/strong&gt; apresentaram complicações do tipo déficit neurológico agudo após serem submetidos a massagem carotídea¹.&lt;/p&gt;
 &lt;p&gt;Tal constatação joga por terra a teoria do fácil deslocamento de placas carotídeas, tendo em vista que foram selecionados pacientes de alta prevalência de doença aterosclerótica e de cardiopatia, já em acompanhamento ambulatorial. Por extrapolação estatística (neste caso mais que autorizada), podemos inferir que a incidência é ainda menor na população em geral, provavelmente zero.&lt;/p&gt;
-&lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura ateromatosa, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
+&lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura aterial, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Non sequitur&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após longo período de carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../pix/codex-vieses.jpg&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;

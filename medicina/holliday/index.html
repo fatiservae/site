@@ -22,9 +22,11 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!
-Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose. Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito. Fluido Massa do paciente (Kg)
+Calculadora de manutenção hidro-eletrolítica de Holliday-Segar Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.
+Nenhuma calculadora substitui seu julgamento clínico!
+Esta calculadora aceita valores decimais nas unidades indicadas. Use pontos e não vírgulas. Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose. Fluido Massa do paciente (Kg)
 Fluido principal
---Selecione fluido principal-- Ringer Lactato Soro glicosado a 5% Soro fisiológico a 0.">
+--Selecione fluido principal-- Ringer Lactato Soro glicosado a 5% Soro glicosado a 10% Soro glicosado a 20% Soro fisiológico (0.">
   <meta name="keywords" content="Medicina, Calculadoras, Pediatria">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -52,19 +54,12 @@ Fluido principal
 <body>
 <div class="barra">
     <a id="switch" onclick="alternarTema(); return false"></a>
-    
     <a href="../../index.html" alt="Início">Início</a>
     <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
     <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
-    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
-    <a href="../../tags/programação/index.html" alt="Programação">Programação</a> 
     <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
-    <a href="../../tags/filosofia/index.html" alt="Filosofia">Filosofia</a>
-    <a href="../../tags/medicina/index.html" alt="Medicina">Medicina</a>
-    <a href="../../tags/estoicismo/index.html" alt="Estoicismo">Estoicismo</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">Destinos</a>
-    <a href="../../tags/culinária/index.html" alt="Culinária">Culinária</a> 
-    <a href="../../medicina/banco-de-questoes/index.html" alt="Banco de questões">Banco de questões</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+
 </div>
 <script>
   let lighswitch = document.getElementById("switch");
@@ -122,10 +117,11 @@ Fluido principal
 <h2 id="calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar">Calculadora de manutenção hidro-eletrolítica de Holliday-Segar</h2>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
+<strong>Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.</strong><br>
+Nenhuma calculadora substitui seu julgamento clínico!<br>
 Esta calculadora aceita valores decimais nas unidades indicadas. <br>
 Use pontos e não vírgulas. <br>
-Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose. <br>
-Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse eletrólito.
+Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose.
  </span>
 </div>
 
@@ -144,7 +140,9 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
     <option value="">--Selecione fluido principal--</option>
     <option value="ringer">Ringer Lactato</option>
     <option value="sg5">Soro glicosado a 5%</option>
-    <option value="sf09">Soro fisiológico a 0.9%</option>
+    <option value="sg10">Soro glicosado a 10%</option>
+    <option value="sg20">Soro glicosado a 20%</option>
+    <option value="sf09">Soro fisiológico (0.9% de Na)</option>
     </select>
 <br><br>
 <h2>Sódio</h2>
@@ -185,7 +183,7 @@ Ringer Lactato oferece ridículos 0.004mEq/mL de potássio. Não conte com esse 
 </select><br>
 <br>
 <p><button onclick="holliday()">Calcular</button></p>
-<p id="resultado"></p>
+<p id="resultado" style="max-width: 60vw;"></p>
 <p id="alertas" style="display: none;">
 O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 <br>
