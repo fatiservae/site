@@ -11,19 +11,21 @@
 	
 	
 	<item>
-		<title>Superfície corporal em pediatria - Costeff</title>
+		<title>Superfície corporal estimada - Costeff</title>
 		<link>https://www.jeffersontorres.com.br/medicina/costeff/</link>
 		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/costeff/</guid>
-		<description>&lt;h2 id=&#34;superfície-corporal-em-pediatria---costeff&#34;&gt;Superfície corporal em pediatria - Costeff&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;superfície-corporal-estimada---costeff&#34;&gt;Superfície corporal estimada - Costeff&lt;/h2&gt;
 &lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
 &lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
 &lt;p&gt;$$
 ASC = {( 4m + 7 ) \over ( m + 90 )}
-$$
-&lt;br&gt;
-&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
+$$&lt;/p&gt;
+&lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada é de 300-400 mL/m²/dia¹.&lt;/p&gt;
+&lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../../medicina/cockcroft-gault/&#34;&gt;calcule a TFG&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;calculadora&#34;&gt;Calculadora&lt;/h2&gt;
+&lt;p&gt;&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
 &lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;massa&#34;/&gt;&lt;/p&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
@@ -50,7 +52,12 @@ $$
         document.getElementById(&#34;resultado&#34;).innerText = resultado.toFixed(2)+&#34;m² de área corporal estimada.\nEm milímetros são &#34;+resultadoMm.toFixed(2)+&#34;mm².&#34;;
     }
 &lt;/script&gt;
+&lt;br&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Esta estimativa foi feita para pacientes de 10kg ou mais.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Costeff H. A simple empirical formula for calculating approximate surface area in children. Arch Dis Child. 1966 Dec;41(220):681-3. doi: 10.1136/adc.41.220.681. PMID: 5927924; PMCID: PMC2019700.&lt;/li&gt;
