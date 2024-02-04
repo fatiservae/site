@@ -22,14 +22,16 @@
 &lt;p&gt;$$
 ASC = {( 4m + 7 ) \over ( m + 90 )}
 $$&lt;/p&gt;
-&lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada é de 300-400 mL/m²/dia¹.&lt;/p&gt;
-&lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../medicina/cockcroft-gault/&#34;&gt;calcule a TFG&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada¹ é de 300-400mL/m²/dia.&lt;/p&gt;
+&lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../medicina/cockcroft-gault/&#34;&gt;calcule a TFG via Cockcroft-Gault&lt;/a&gt;).&lt;/p&gt;
 &lt;h2 id=&#34;calculadora&#34;&gt;Calculadora&lt;/h2&gt;
 &lt;p&gt;&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
 &lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;massa&#34;/&gt;&lt;/p&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
+&lt;h2 id=&#34;queimados&#34;&gt;Queimados&lt;/h2&gt;
+&lt;p&gt;Veja &lt;a href=&#34;../medicina/calculos-queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;script&gt;
     function bsa(){
         const massa = parseFloat(document.getElementById(&#34;massa&#34;).value);
@@ -60,7 +62,7 @@ $$&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Costeff H. A simple empirical formula for calculating approximate surface area in children. Arch Dis Child. 1966 Dec;41(220):681-3. doi: 10.1136/adc.41.220.681. PMID: 5927924; PMCID: PMC2019700.&lt;/li&gt;
+&lt;li&gt;Costeff H. &lt;strong&gt;A simple empirical formula for calculating approximate surface area in children&lt;/strong&gt;. Arch Dis Child. 1966 Dec;41(220):681-3. doi: 10.1136/adc.41.220.681. PMID: 5927924; PMCID: PMC2019700.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -1582,6 +1584,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/anatomia/</guid>
 		<description>
+
+&lt;img class=&#34;fundo-only-big&#34; style=&#34;rigth: 0px;&#34; src=&#34;../pix/medicina/body.png&#34;&gt;&lt;/img&gt;
+
+
 
 
   &lt;div id=&#34;img-div&#34;&gt;
