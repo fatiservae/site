@@ -1,3 +1,4 @@
+// Considerar reformar o código para Float em todas aquisições de const
 function holliday() {
   // principal
   const tipoFluidoPrincipal = document.getElementById("tipoFluidoPrincipal").value;

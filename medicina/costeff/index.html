@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<style>
+.katex{
+  text-align: start !important ;
+  width: fit-content;
+  margin-left: 5vw;
+  background: var(--gradiente-dark);
+}
+</style>
+
   
   <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -16,15 +27,15 @@
 
   
 
-  <title>Appendiceal Neoplasms: Secondary Analysis of the CODA Trial | Jefferson T.</title>
+  <title>Superfície Corporal Em Pediatria - Costeff | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Apresentei este artigo em janeiro de 2024 no Hospital Regional da Asa Norte de Brasília-DF.
-Slides para desktop em StultusVisio disponível aqui.
-Versão em PDF aqui.">
-  <meta name="keywords" content="Medicina, Apresentações">
+  <meta name="description" content="Superfície corporal em pediatria - Costeff Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.
+Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.
+$$ ASC = {( 4m &#43; 7 ) \over ( m &#43; 90 )} $$ Massa do paciente (Kg) Calcular">
+  <meta name="keywords" content="medicina, calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -106,13 +117,49 @@ Versão em PDF aqui.">
  
 
 
-<p>Apresentei este artigo em janeiro de 2024 no Hospital Regional da Asa Norte de Brasília-DF.</p>
-<p>Slides para <em>desktop</em> em <a href="../../tecnologia/stultus-visio/">StultusVisio</a> disponível <a href="../../neoplasia-apendice/neoapendice.html">aqui</a>.</p>
-<p>Versão em PDF <a href="../../files/Medicina/JeffersonT-Apresentacao-Neoplasia-Apendice.pdf">aqui</a>.</p>
+<h2 id="superfície-corporal-em-pediatria---costeff">Superfície corporal em pediatria - Costeff</h2>
+<p>Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.</p>
+<p>Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.</p>
+<p>$$
+ASC = {( 4m + 7 ) \over ( m + 90 )}
+$$
+<br>
+<label for="massa">Massa do paciente (Kg)</label>
+<br>
+<input type="number" id="massa"/></p>
+<p id="resultado"></p>
+<p><button onClick="bsa()">Calcular</button></p>
+<script>
+    function bsa(){
+        const massa = parseFloat(document.getElementById("massa").value);
+        if (isNaN(massa)) {
+            document.getElementById("resultado").innerText = "Insira valor da massa!";
+            return
+        }
+        console.log(massa)
+
+        let numerador = (massa * 4) + 7;
+        let denominador = massa + 90;
+        
+        console.log("Numerador:", numerador);
+        console.log("Denominador:", denominador);
+        
+        let resultado = numerador / denominador;
+        console.log("Resultado:", resultado);
+
+        let resultadoMm = resultado * 10000;
+        document.getElementById("resultado").innerText = resultado.toFixed(2)+"m² de área corporal estimada.\nEm milímetros são "+resultadoMm.toFixed(2)+"mm².";
+    }
+</script>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Costeff H. A simple empirical formula for calculating approximate surface area in children. Arch Dis Child. 1966 Dec;41(220):681-3. doi: 10.1136/adc.41.220.681. PMID: 5927924; PMCID: PMC2019700.</li>
+</ol>
 
 
 <br>
-        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_apresentações" href="https://www.jeffersontorres.com.br/tags/apresenta%C3%A7%C3%B5es">Apresentações</a></div>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a></div>
 
 <footer>
   <a href="https://www.jeffersontorres.com.br/">📌 Início</a>

@@ -76,7 +76,7 @@
   /*
   --fundo: var(--gradfundo);
   */
-  --fundo: #26262d;
+  --fundo: #22272e; 
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
 }
 :root[data-tema="claro"] {
@@ -134,6 +134,7 @@ body {
   background-size: cover;
 
   */
+  transition: background 4000ms ease-in-out;
   background: var(--fundo);
   background-attachment: fixed;
   color: var(--fonte) ;
@@ -521,8 +522,9 @@ input#search {
   */
   font-size: 100%;
   background: var(--fundo-input) ;
-  text-indent: 2%;
-  border: none;
+  text-indent: 10%;
+  border: 1px solid var(--bordas);
+  border-radius: 34px;
   margin-left: 5vw;
   display: block ;
   padding: 0em;
@@ -554,8 +556,8 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
   margin: auto ;
   color: salmon ;
 }
-
 #tag_culinária:before { content: "🍸🍕 " ;}
+#tag_apresentações:before { content: "📽️ " ;}
 #tag_receitas:before { content: "🍅🍲 " ;}
 #tag_linux:before { content: "🐧 " ;}
 #tag_tecnologia:before { content: "📡💻 " ;}
