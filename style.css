@@ -521,7 +521,7 @@ input#search {
   border-bottom: 1px solid var(--bordas) ; 
   */
   font-size: 100%;
-  background: var(--fundo-input) ;
+  background: none;
   text-indent: 10%;
   border: 1px solid var(--bordas);
   border-radius: 34px;
@@ -532,16 +532,33 @@ input#search {
   width: 45vw; 
   height: 2em ;
   text-align: start;
+  text-indent: 50px;
+}
+input#search:active{
+  border: 1px solid var(--links-visitados);
 }
 input#search::placeholder {
   /*
   color: var(--texto) ;
   */
   text-align: start;
-  text-indent: 2%;
 }
 p input#search { /* Não sei de onde saiu esse p na _index... */
   margin-left: 0;
+}
+.search {
+  width: 45vw; 
+}
+.lupa{
+  pointer-events: none; 
+  display: block; 
+  width: 1.5em; 
+  height: 1.5em; 
+  fill: none; 
+  stroke: var(--fonte); 
+  left: 7vw; 
+  top: 0.5em; 
+  position: absolute;
 }
 
 .matched-recipe {
@@ -1452,7 +1469,8 @@ div#counter {
   }
   input#search {
     width: 90vw; 
-  }
+  } 
+
   #files li {
   columns: 1 !important;
   }
@@ -1597,5 +1615,3 @@ div#counter {
   bottom: 1em; 
   z-index: -1;
 }
-</style>
-
