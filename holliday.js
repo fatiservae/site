@@ -106,7 +106,7 @@ function holliday() {
   sodioAdd = totalSodio - sodioFluido; // 135mEq/L para sódio iso
 
   totalGlicose = glicoseAdd + glicoseFluido;
-  ampolasGlic = totalGlicose / ((percentualGlic/100) * volumeAmpGlic);
+  ampolasGlic = glicoseAdd / ((percentualGlic/100) * volumeAmpGlic);
   if(isNaN(totalGlicose)){totalGlicose = 0;};
   if(isNaN(ampolasGlic) || !isFinite(ampolasGlic)){ampolasGlic = 0;}
   if (totalGlicose > 0  && percentualGlic === "" ) {
@@ -130,7 +130,12 @@ function holliday() {
   //volumeLiq = volumeLiq - volumeAmpNa - volumeAmpK;
   // final(volumeLiq, velocInfusao, totalSodio, totalPotassio); //desconstruir a função? 
 
-  document.getElementById("resultado").innerText = "\nPara alcançar o Potássio necessário, adicione "+totalPotassio.toFixed(2)+"mEq ou "+ampolasPotassio.toFixed(2)+"ampola(s); \n\nO fluido escolhido contém "+sodioFluido.toFixed(2)+"mEq de Sódio.\n Portanto, para alcançar "+totalSodio.toFixed(2)+"mEq de Sódio, adicione "+ampolasSodio.toFixed(2)+" ampolas de Sódio.\n\nSerá necessário "+totalGlicose.toFixed(2)+"g de Glicose.\nO fluido escolhido oferta "+glicoseFluido.toFixed(2)+"g de glicose.\nAdicione "+ampolasGlic.toFixed(2)+" ampolas de glicose.\n\n Dilua todas as ampolas em "+volumeLiq.toFixed(2)+"mL do fluido principal escolhido.\n\n Correr "+velocInfusao.toFixed(2)+"ml por hora. Esta é a manutenção de um dia (24h).";
+  // GOTEJAMENTO
+  let gotasMin = (volumeLiq * 20) / (24 * 60);
+  let uGotasMin = gotasMin * 3;
+  let gotasSeg = (1/gotasMin) * 60;
+
+  document.getElementById("resultado").innerText = "\nPara alcançar o Potássio necessário, adicione "+totalPotassio.toFixed(2)+"mEq ou "+ampolasPotassio.toFixed(2)+"ampola(s); \n\nO fluido escolhido contém "+sodioFluido.toFixed(2)+"mEq de Sódio.\n Portanto, para alcançar "+totalSodio.toFixed(2)+"mEq de Sódio, adicione "+ampolasSodio.toFixed(2)+" ampolas de Sódio.\n\nSerá necessário "+totalGlicose.toFixed(2)+"g de Glicose.\nO fluido escolhido oferta "+glicoseFluido.toFixed(2)+"g de glicose.\nAdicione "+ampolasGlic.toFixed(2)+" ampolas de glicose.\n\n Dilua todas as ampolas em "+volumeLiq.toFixed(2)+"mL do fluido principal escolhido.\n\n Correr "+velocInfusao.toFixed(2)+"ml por hora.\n Goteje a "+gotasMin.toFixed(0)+"gotas/min ou "+uGotasMin.toFixed(0)+"μgotas/min.\n De forma prática, são "+gotasSeg.toFixed(1)+"segundos entre gotas.\n Esta é a manutenção de um dia (24h).";
 
   document.getElementById("alertas").style.display = 'block';
 }

@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .normalize('NFD')
         .replace(/\p{Diacritic}/gu, "")
         .replace(/\[/g, '');
-     console.log(searchString); 
       let isMatch = searchTerms.every(
         term => searchString.includes(term)
       );

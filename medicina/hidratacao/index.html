@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Hidratação Venosa | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="As três hidratações Existem três hidratações, por assim se dizer:
+A ressuscitação volêmica; A manutenção hidro-calórica; A reposição hídrica. A ressuscitação volêmica é uma medida de urgência, trata-se da prescrição padrão para o diagnóstico de desidratação. Se baseia no exame físico e deve ser iniciada no paciente que demonstre pele seca, anúria, ausência de humidade nas mucosas de boca e olhos, além de sinais mais gravez como rebaixamento de consciência e confusão.">
+  <meta name="keywords" content="Medicina">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+      
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="barra">
+    <a id="switch" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+
+</div>
+<script>
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+
+
+<h2 id="as-três-hidratações">As três hidratações</h2>
+<p>Existem três hidratações, por assim se dizer:</p>
+<ul>
+<li>A ressuscitação volêmica;</li>
+<li>A manutenção hidro-calórica;</li>
+<li>A reposição hídrica.</li>
+</ul>
+<p>A <strong>ressuscitação volêmica</strong> é uma medida de urgência, trata-se da prescrição padrão para o diagnóstico de <em>desidratação</em>. Se baseia no exame físico e deve ser iniciada no paciente que demonstre pele seca, anúria, ausência de humidade nas mucosas de boca e olhos, além de sinais mais gravez como rebaixamento de consciência e confusão.</p>
+<p>A <strong>manutenção hidro-calórica</strong> é a prescrição pós-ressuscitação e tem por objetivo dar suporte calórico e líquido ao paciente em recuperação. Esta abordagem é uma <em>evolução médica</em>, ou seja, direciona-se ao paciente internado que teve manejo ou estabilização anterior.</p>
+<p>A <strong>reposição hídrica</strong> é uma ação concomitante que visa devolver a autonomia hidro-calórica do paciente, isto é, a volta a normalidade fisiológica. Costuma ser ofertada como ingesta espontânea, de preferência oral, o mais cedo possível. O paciente recém manejado pode ter sede e este é um bom sinal, sobretudo no retorno da consciência.</p>
+<h2 id="ressuscitação-volêmica">Ressuscitação volêmica</h2>
+<p>Existem dois aspectos da ressuscitação:</p>
+<ul>
+<li>sua forma simples, de 20-50ml/Kg;</li>
+<li>manejos complexos de UTI, onde deve-se considerar aspectos como perdas grandes (queimados), sangramentos (trauma e pós-cirúrgico) e doenças com desequilíbrio hídrico intrínseco (hidrocefalias, insuficiência cardíaca etc).</li>
+</ul>
+<p>Na abordagem simples, temos o paciente desidratado por síndromes globais (febril, infecciosa, dengue, diarreia aguda etc) e que necessita restaurar volumes imediatamente.</p>
+<p>Na complexa, cada caso deve ser considerado por julgamento clínico e aspectos mais graves como função renal e integridade fisiológica devem ser pesados.</p>
+<h2 id="manutenção-hidro-calórica">Manutenção hidro-calórica</h2>
+<p>O corpo humano necessita de cerca de 100ml de água para cada 100kcal processadas. Isto significa que, ao reidratar um paciente devemos também renutri-lo e vice-versa.</p>
+<p>Porém, esta situação traz consigo aspectos osmolares quanto aos eletrólitos. Tendo em vista que a mera hidratação e fornecimento de glicose pura vão diluir os eletrólitos corporais, podemos terminar em situações graves, e.g. hipocalemia.</p>
+<p>Para isto, fórmulas foram desenvolvidas, notadamente na pediatria a fórmula de Holliday-Segar e suas variações.</p>
+<p>Acesse <a href="../../medicina/holliday/">aqui</a> a calculadora de Holliday-Segar que eu fiz.</p>
+<h2 id="reposição-hídrica">Reposição hídrica</h2>
+<p>Normalmente feita através de soros de reidratação oral, oferta livre, a 1L dia. Espera se a ingesta mínima baseada em guideline de 2L/dia ao adulto. Porém estes valores são contestados atualmente.</p>
+<p>Na prática, pode se optar por soros caseiros, preparados com açúcar e sal caseiro, mas estas preparações devem ser evitadas sempre que soros industrializados forem disponíveis.</p>
+
+
+<br>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  <br>
+  <br>
+</footer>
+
+</body>
+</html>
