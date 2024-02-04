@@ -154,8 +154,6 @@ body {
   top: 1vw;
   font-size: 200%;
   */
-  margin-right: 1em;
-  margin-left: 2vw;
   border: none;
   background: none;
   text-shadow: var(--switch-shadow);
@@ -529,19 +527,20 @@ input#search {
   display: block ;
   padding: 0em;
   padding-bottom: 0.2rem ;
-  width: 45vw; 
+  width: 38vw; 
   height: 2em ;
   text-align: start;
   text-indent: 50px;
+  outline: none;
 }
-input#search:active{
+input#search:focus{
   border: 1px solid var(--links-visitados);
 }
 input#search::placeholder {
   /*
   color: var(--texto) ;
-  */
   text-align: start;
+  */
 }
 p input#search { /* Não sei de onde saiu esse p na _index... */
   margin-left: 0;
@@ -556,7 +555,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
   height: 1.5em; 
   fill: none; 
   stroke: var(--fonte); 
-  left: 7vw; 
+  left: 6vw; 
   top: 0.5em; 
   position: absolute;
 }
@@ -1154,6 +1153,10 @@ input[type=number] {
 }
 input {
   text-align: center;
+  outline: none;
+}
+input:focus{
+  border: 1px solid var(--links-visitados);
 }
 
 /* TABLE OF CONTENT MENU DO ARTIGO SUMARIO */

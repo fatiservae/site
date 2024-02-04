@@ -11,16 +11,16 @@
 	
 	
 	<item>
-		<title>Superfície corporal estimada - Costeff</title>
+		<title>Superfície corporal estimada: Costeff</title>
 		<link>https://www.jeffersontorres.com.br/medicina/costeff/</link>
 		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/costeff/</guid>
-		<description>&lt;h2 id=&#34;superfície-corporal-estimada---costeff&#34;&gt;Superfície corporal estimada - Costeff&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;superfície-corporal-estimada-de-costeff&#34;&gt;Superfície corporal estimada de Costeff&lt;/h2&gt;
 &lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
 &lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
 &lt;p&gt;$$
-ASC = {( 4m + 7 ) \over ( m + 90 )}
+ASC = {{ 4m + 7 } \over { m + 90 }}
 $$&lt;/p&gt;
 &lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada¹ é de 300-400mL/m²/dia.&lt;/p&gt;
 &lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../../medicina/cockcroft-gault/&#34;&gt;calcule a TFG via Cockcroft-Gault&lt;/a&gt;).&lt;/p&gt;

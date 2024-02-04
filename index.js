@@ -25,10 +25,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchTerms = searchText.split(" ");
     const hasFilter = searchText.length > 0;
     document.querySelectorAll("#artlist li").forEach(out => {
-      const searchString = `${out.innerText}`
+      let titulo = `${out.innerText}`
         .toLowerCase()
         .normalize('NFD')
-        .replace(/\p{Diacritic}/gu, ""); 
+        .replace(/\p{Diacritic}/gu, "");
+      let tags = `${out.getAttribute('data-tags')}`
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, "");
+      let searchString = titulo + tags;
+      searchString
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, "")
+        .replace(/\[/g, '');
+     console.log(searchString); 
       let isMatch = searchTerms.every(
         term => searchString.includes(term)
       );
