@@ -62,7 +62,6 @@ A partir de então, o número de bacilos infiltrados nos diversos tecidos do cor
   const urlAtual = window.location.href;
   const inicio = document.getElementById("indexlink");
 
-  inicio.style = "border: 2px solid var(--negrito)";
   for (const link of linksPaginas) {
     if (urlAtual.includes(link.getAttribute("alt")
                               .toLowerCase()
@@ -70,8 +69,10 @@ A partir de então, o número de bacilos infiltrados nos diversos tecidos do cor
                               .normalize('NFD')
                               .replace(/\p{Diacritic}/gu, "")
     )){
-      inicio.style = "border: 1px solid var(--bordas)";
       link.style = "border: 2px solid var(--negrito)";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "http://localhost:1313/" ) {
+      inicio.style = "border: 2px solid var(--negrito)";
     }
   }
 
