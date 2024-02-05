@@ -51,15 +51,32 @@ Foi acusado injustamente de manter atividades ilegais. Seus patrões depuseram a
 </head>
 <body>
 <div class="barra">
-    <a id="switch" onclick="alternarTema(); return false"></a>
-    <a href="../../index.html" alt="Início">Início</a>
+    <a id="switch" alt="switch-tema" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" id="indexlink" alt="Início">Início</a>
     <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
-    <a href="../../files/index.html" alt="Arquivos">Arquivos</a>
+    <a href="../../files/index.html" alt="Files">Arquivos</a>
     <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
     <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
 
 </div>
 <script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  inicio.style = "border: 2px solid var(--negrito)";
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      inicio.style = "border: 1px solid var(--bordas)";
+      link.style = "border: 2px solid var(--negrito)";
+    }
+  }
+
   let lighswitch = document.getElementById("switch");
   const temaAtual = localStorage.getItem('tema');
  

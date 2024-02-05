@@ -137,7 +137,7 @@ Veja &lt;a href=&#34;../../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hid
     &lt;option value=&#34;sf10&#34;&gt;Soro fisiológico a 10%&lt;/option&gt;
     &lt;option value=&#34;sf20&#34;&gt;Soro fisiológico a 20%&lt;/option&gt;
     --&gt;
-    &lt;option value=&#34;&#34;&gt;--Selecione fluido principal--&lt;/option&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione fluido principal&lt;/option&gt;
     &lt;option value=&#34;ringer&#34;&gt;Ringer Lactato&lt;/option&gt;
     &lt;option value=&#34;sg5&#34;&gt;Soro glicosado a 5%&lt;/option&gt;
     &lt;option value=&#34;sg10&#34;&gt;Soro glicosado a 10%&lt;/option&gt;
@@ -150,7 +150,7 @@ Veja &lt;a href=&#34;../../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hid
 &lt;input type=&#34;number&#34; id=&#34;volumeAmpNa&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;concentAmpNa&#34;&gt;Ampola de sódio concentrado&lt;/label&gt;&lt;br&gt;
 &lt;select id=&#34;concentAmpNa&#34;&gt;
-    &lt;option value=&#34;&#34;&gt;--Selecione sódio concentrado--&lt;/option&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione sódio concentrado&lt;/option&gt;
     &lt;option value=&#34;10&#34;&gt;Cloreto de sódio a 10%&lt;/option&gt;
     &lt;option value=&#34;20&#34;&gt;Cloreto de sódio a 20%&lt;/option&gt;
 &lt;/select&gt;
@@ -164,7 +164,7 @@ Veja &lt;a href=&#34;../../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hid
 &lt;input type=&#34;number&#34; id=&#34;volumeAmpK&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;concentAmpK&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
 &lt;select id=&#34;concentAmpK&#34;&gt;
-    &lt;option value=&#34;&#34;&gt;--Selecione tipo de ampola--&lt;/option&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione tipo de ampola&lt;/option&gt;
     &lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
     &lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;
     &lt;option value=&#34;fosft2meqml&#34;&gt;Fosfato de Potássio a 2mEq/mL&lt;/option&gt;
@@ -177,7 +177,7 @@ Veja &lt;a href=&#34;../../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hid
 &lt;input type=&#34;number&#34; id=&#34;volumeAmpGlic&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;percentualGlic&#34;&gt;Percentual de glicose da ampola&lt;label&gt;&lt;br&gt;
 &lt;select id=&#34;percentualGlic&#34;&gt;
-    &lt;option value=&#34;&#34;&gt;--Selecione tipo de ampola--&lt;/option&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione tipo de ampola&lt;/option&gt;
     &lt;option value=5&gt;Glicose a 5%&lt;/option&gt;
     &lt;option value=50&gt;Glicose a 50%&lt;/option&gt; 
 &lt;/select&gt;&lt;br&gt;
