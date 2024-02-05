@@ -23,25 +23,25 @@
 &lt;li&gt;A manutenção hidro-calórica;&lt;/li&gt;
 &lt;li&gt;A reposição hídrica.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A &lt;strong&gt;ressuscitação volêmica&lt;/strong&gt; é uma medida de urgência, trata-se da prescrição padrão para o diagnóstico de &lt;em&gt;desidratação&lt;/em&gt;. Se baseia no exame físico e deve ser iniciada no paciente que demonstre pele seca, anúria, ausência de humidade nas mucosas de boca e olhos, além de sinais mais gravez como rebaixamento de consciência e confusão.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;ressuscitação volêmica&lt;/strong&gt; é uma medida de urgência, conduta padrão para o diagnóstico de &lt;em&gt;hipovolemia&lt;/em&gt; ou de &lt;em&gt;desidratação&lt;/em&gt;. Se baseia no exame físico e deve ser iniciada no paciente que demonstre anúria, pele seca, ausência de humidade nas mucosas de boca e olhos, além de sinais mais graves como rebaixamento de consciência e confusão.&lt;/p&gt;
 &lt;p&gt;A &lt;strong&gt;manutenção hidro-calórica&lt;/strong&gt; é a prescrição pós-ressuscitação e tem por objetivo dar suporte calórico e líquido ao paciente em recuperação. Esta abordagem é uma &lt;em&gt;evolução médica&lt;/em&gt;, ou seja, direciona-se ao paciente internado que teve manejo ou estabilização anterior.&lt;/p&gt;
-&lt;p&gt;A &lt;strong&gt;reposição hídrica&lt;/strong&gt; é uma ação concomitante que visa devolver a autonomia hidro-calórica do paciente, isto é, a volta a normalidade fisiológica. Costuma ser ofertada como ingesta espontânea, de preferência oral, o mais cedo possível. O paciente recém manejado pode ter sede e este é um bom sinal, sobretudo no retorno da consciência.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;reposição hídrica&lt;/strong&gt; é uma ação concomitante que visa devolver a autonomia do paciente, isto é, a volta a normalidade fisiológica. Costuma ser ofertada de preferência por ingesta oral expontânea, o mais cedo possível. O paciente recém manejado pode ter sede e este é um bom sinal, sobretudo no retorno da consciência.&lt;/p&gt;
 &lt;h2 id=&#34;ressuscitação-volêmica&#34;&gt;Ressuscitação volêmica&lt;/h2&gt;
 &lt;p&gt;Existem dois aspectos da ressuscitação:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;sua forma simples, de 20-50ml/Kg;&lt;/li&gt;
-&lt;li&gt;manejos complexos de UTI, onde deve-se considerar aspectos como perdas grandes (queimados), sangramentos (trauma e pós-cirúrgico) e doenças com desequilíbrio hídrico intrínseco (hidrocefalias, insuficiência cardíaca etc).&lt;/li&gt;
+&lt;li&gt;Sua forma simples, prescrição de 20 a 50ml por Kg de massa corporal;&lt;/li&gt;
+&lt;li&gt;Manejos complexos de UTI, onde se deve considerar aspectos como perdas significativas (grandes queimados), sangramentos (trauma e pós-cirúrgico) e doenças com desequilíbrio hídrico intrínseco (hidrocefalias, insuficiência cardíaca etc).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Na abordagem simples, temos o paciente desidratado por síndromes globais (febril, infecciosa, dengue, diarreia aguda etc) e que necessita restaurar volumes imediatamente.&lt;/p&gt;
-&lt;p&gt;Na complexa, cada caso deve ser considerado por julgamento clínico e aspectos mais graves como função renal e integridade fisiológica devem ser pesados.&lt;/p&gt;
+&lt;p&gt;Na abordagem simples, temos um paciente desidratado por síndromes globais (febril, infecciosa, dengue, diarreia aguda etc) e que necessita restaurar volumes imediatamente.&lt;/p&gt;
+&lt;p&gt;Na complexa, cada caso deve ser considerado por julgamento clínico e aspectos mais graves. A função renal e integridade fisiológica devem ser pesadas porque as perdas de líquido no paciente de UTI são menores, principalmente se mecanicamente ventilado.&lt;/p&gt;
 &lt;h2 id=&#34;manutenção-hidro-calórica&#34;&gt;Manutenção hidro-calórica&lt;/h2&gt;
-&lt;p&gt;O corpo humano necessita de cerca de 100ml de água para cada 100kcal processadas. Isto significa que, ao reidratar um paciente devemos também renutri-lo e vice-versa.&lt;/p&gt;
-&lt;p&gt;Porém, esta situação traz consigo aspectos osmolares quanto aos eletrólitos. Tendo em vista que a mera hidratação e fornecimento de glicose pura vão diluir os eletrólitos corporais, podemos terminar em situações graves, e.g. hipocalemia.&lt;/p&gt;
-&lt;p&gt;Para isto, fórmulas foram desenvolvidas, notadamente na pediatria a fórmula de Holliday-Segar e suas variações.&lt;/p&gt;
+&lt;p&gt;O corpo humano necessita de cerca de 100ml de água para cada 100kcal processadas. Isto significa que, ao hidratar um paciente, devemos também nutri-lo e vice-versa.&lt;/p&gt;
+&lt;p&gt;Porém, esta situação traz consigo aspectos osmolares em relação aos eletrólitos. Tendo em vista que a mera hidratação e fornecimento de glicose pura vão diluir os eletrólitos corporais, podemos terminar em situações graves, e.g. hipocalemia.&lt;/p&gt;
+&lt;p&gt;Para isto, fórmulas foram desenvolvidas, notadamente a fórmula de Holliday-Segar e suas variações.&lt;/p&gt;
 &lt;p&gt;Acesse &lt;a href=&#34;./medicina/holliday/&#34;&gt;aqui&lt;/a&gt; a calculadora de Holliday-Segar que eu fiz.&lt;/p&gt;
 &lt;h2 id=&#34;reposição-hídrica&#34;&gt;Reposição hídrica&lt;/h2&gt;
-&lt;p&gt;Normalmente feita através de soros de reidratação oral, oferta livre, a 1L dia. Espera se a ingesta mínima baseada em guideline de 2L/dia ao adulto. Porém estes valores são contestados atualmente.&lt;/p&gt;
-&lt;p&gt;Na prática, pode se optar por soros caseiros, preparados com açúcar e sal caseiro, mas estas preparações devem ser evitadas sempre que soros industrializados forem disponíveis.&lt;/p&gt;
+&lt;p&gt;Normalmente feita através de soros de reidratação oral, de oferta livre, a pelo menos 1L/dia. Espera se a ingesta mínima baseada em guideline de 2L/dia pro adulto. Porém estes valores são contestados atualmente.&lt;/p&gt;
+&lt;p&gt;Na prática, pode se optar por soros caseiros, preparados com açúcar e sal, mas estes devem ser evitados sempre que soros industrializados forem disponíveis.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -120,7 +120,7 @@ $$&lt;/p&gt;
 Nenhuma calculadora substitui seu julgamento clínico!&lt;br&gt;
 Esta calculadora aceita valores decimais nas unidades indicadas. &lt;br&gt;
 Use pontos e não vírgulas. &lt;br&gt;
-Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose.
+Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose. &lt;br&gt;
 Veja &lt;a href=&#34;./medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidratação venosa em geral.
  &lt;/span&gt;
 &lt;/div&gt;
@@ -2354,7 +2354,7 @@ $$
 &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
 &lt;div id=&#34;question-container&#34;&gt;&lt;/div&gt;
 &lt;div id=&#34;info-question&#34;&gt;
-  &lt;button onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
+  &lt;button style=&#34;margin-left: 5vw; margin-right: auto; margin-top: 5px;&#34; onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;script src=&#34;./bancoquestoes.js&#34;&gt;&lt;/script&gt;

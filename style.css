@@ -1216,6 +1216,7 @@ nav#TableOfContents li:last-child::before {
   padding-top: 0.5em;
   background: linear-gradient(var(--fundo), transparent);
   */
+  line-height: 1.5;
   left: 3px;
   top: 0;
   background: none;
@@ -1223,7 +1224,6 @@ nav#TableOfContents li:last-child::before {
   margin-left: 5vw;
   margin-right: auto;
   margin-top: 0.5em;
-  line-height: 2;
   text-align: center;
   font-weight: bold ;
 }
@@ -1235,21 +1235,22 @@ nav#TableOfContents li:last-child::before {
   background: var(--fundo) ;
   transition: background 300ms ease-in-out;
   text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  font-size: 200%;
   background: linear-gradient(var(--fundo), transparent);
   text-shadow: none; 
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-kerning: normal ;
   */
+  font-size: 110%;
   border: 1px solid var(--bordas);
   border-radius: 4px;
-  padding: 4px ; 
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
   background: var(--button-color);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
   font-weight: bold;
   font-feature-settings: "kern" 1;
-  font-kerning: normal ;
   white-space: nowrap;
   border: 1px solid none;
   border-radius: 38px;
@@ -1430,14 +1431,14 @@ div#counter {
     */
     font-size: 70%;
     position: static;
-    max-width: 100% ;
+    width: 100% ;
     margin-left: 1vw;
     margin-right: 1vw;
   }
   .barra a {
     /*
-    font-size: 150%;
     */
+    font-size: 130%;
     transition: background 0ms ease-in-out;
   }
   #question-container {
