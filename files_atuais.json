@@ -1,6 +1,15 @@
 [ 
   {
     "subjects": [
+      "Artificial Inteligence"
+    ],
+    "size": "1.1MB",
+    "path": "Programacao/A-Non-Technical-Survey-On-Deep-Convolutional-Neural-Network-Architectures.pdf",
+    "name": "A-Non-Technical-Survey-On-Deep-Convolutional-Neural-Network-Architectures", 
+    "extension": "pdf"
+  },
+  {
+    "subjects": [
       "Medicina", "Apresentações"
     ],
     "size": "1,7MB",
