@@ -206,7 +206,7 @@ a#switch:hover {
 }
 .left {
   padding-left: 0px;
-  margin-left: 0px;
+  margin-left: 5vw;
   align: left;
   text-align: left;
 }
@@ -869,10 +869,9 @@ li::before{
   padding-left: 20%;
   margin-left: auto;
   margin-right: auto;
-
   */
   text-indent: 0% !important;
-  max-width: 80vw;
+  max-width: 60vw;
   text-align: start;
 }
 .frase{
@@ -889,7 +888,7 @@ li::before{
   padding-left: auto;
   padding-right: auto;
   border-radius: 5px ;
-  text-shadow: 1px 1px 20px var(--fonte);
+  text-shadow: 1px 1px 20px var(--amarelo-servo);
 }
 .frase.show {
   text-shadow: none;
@@ -902,7 +901,6 @@ li::before{
 .caveira {
   transition: font-size 2s ease-in-out;
 }
-
 .caveira.show{
   font-size: 3em;
 }
@@ -1240,10 +1238,12 @@ nav#TableOfContents li:last-child::before {
   margin-top: 5px;
   margin-bottom: 2px;
   font-kerning: normal ;
+  border: 1px solid none;
+  border-radius: 4px;
   */
   font-size: 110%;
   border: 1px solid var(--bordas);
-  border-radius: 4px;
+  border-radius: 38px;
   padding-right: 10px;
   padding-left: 10px;
   background: var(--button-color);
@@ -1252,10 +1252,9 @@ nav#TableOfContents li:last-child::before {
   font-weight: bold;
   font-feature-settings: "kern" 1;
   white-space: nowrap;
-  border: 1px solid none;
-  border-radius: 38px;
   }
 .barra a[href]:visited, .barra a[href] {
+  border: 1px solid var(--bordas);
   color: var(--link-barra);
   /* ELEMENTOS DO TEMA BOTAO 3D
   background: var(--fundo) ;
@@ -1264,8 +1263,8 @@ nav#TableOfContents li:last-child::before {
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
   background: var(--button-hover);
-  /* ELEMENTOS DO TEMA BOTAO 3D
   border: 1px solid var(--fundo-invertido);
+  /* ELEMENTOS DO TEMA BOTAO 3D
   background: var(--hover-botao);
   text-shadow: var(--switch-shadow);
   color: var(--fundo);
@@ -1394,8 +1393,8 @@ div#counter {
     padding: 0.2em 0;
   }
 }
-.eu {
-  max-width: 20%; 
+.eu img{
+  width: calc(80px + 12vw); 
   height: auto;
 }
 .qrmonero {
@@ -1471,6 +1470,10 @@ div#counter {
     max-width: 50%; 
     height: auto;
   }
+  .eu img {
+    width: calc(250px - 9vw);
+  }
+
   input#search {
     width: 90vw; 
   } 
