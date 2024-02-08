@@ -1,4 +1,20 @@
 [ 
+  { "subjects": [
+      "Medicina", "Tomografia", "Abcesso", "Derrame"
+  ],
+    "size": "4.6MB",
+    "path": "Medicina/tc-torax-abcesso-hep-derrame-pericardico.mp4",
+    "name": "Tomografia - derrame pericárdico e abcesso hepático em segmento II.",
+    "extension": "mp4"
+  },
+  { "subjects": [
+      "Medicina", "Apresentações"
+  ],
+    "size": "3.7MB",
+    "path": "Medicina/JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf",
+    "name": "Jefferson T. Caso Clínico de abcesso hepático",
+    "extension": "pdf"
+  },
   {
     "subjects": [
       "Artificial Inteligence"

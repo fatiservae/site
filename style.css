@@ -928,8 +928,14 @@ input, textarea {
 
 /* BOTÕES BUTTON SELETOR SELECT MENU */
 button, select {
+  padding-right: 14px;
+  padding-left: 14px;
+  /*
+  padding-top: 14px; 
+  padding-bottom: 14px; 
   padding-top: 1%; 
   padding-bottom: 1%; 
+  */
   border: 1px solid #383f48 ; 
   border-radius: 34px;
   background-color: var(--button-color) ;
@@ -988,13 +994,17 @@ input[name="answer"] {
 [class^=carousel] {
   --largura: 60vw;
   --carouselheight: calc(var(--largura) * 2 / 3);
+  padding: 1vw;
+  border: 1px solid var(--bordas);
+  width: fit-content;
   border-radius: 7px;
   background: var(--fundo-carousel);
-  background-size: fit-content;
-  width: var(--largura); 
   display: block;
   margin-left: 5vw;
   /*
+  height: 400px;
+  background-size: fit-content;
+  width: var(--largura); 
   height: var(--carouselheight);
   overflow: hidden;
   border: 1px solid var(--bordas);
@@ -1006,7 +1016,11 @@ input[name="answer"] {
   margin: 0%;
   height: 100%;
   border-radius: 7px;
-  max-width: 300px; 
+  max-width: calc(300px + 20vw); 
+  position: relative;
+  max-height: 300px; 
+  /*
+  */
 }
 .slide ul {
   text-align: start;
@@ -1557,6 +1571,11 @@ div#counter {
     */
   }
   .carouselslide a[href] img {
+  }
+  .slide img {
+    max-width: 85vw; 
+    border-right: 2vw;
+    max-height: 85vw; 
     /*
     max-height: 100%;
     */

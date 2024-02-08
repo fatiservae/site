@@ -1,5 +1,9 @@
-{
-  "Cordocentese": "Drenagem de sangue do cordão umbilical para exames ou quando detectado fluxo de artéria cerebral média superior a 1.5MoM (múltiplos da mediana)",
+{ 
+  "Rede neural convolucionada": "Rede neural que aplica regras matemáticas para restringir a relação entre neurônios, isto é, evita-se a conexão de sinapses distantes, no intuito de reduzir o tamanho e a exigência computacional da rede neural, e.g. reconhecimento de imagens, para diminuir ou zerar do número de interações desnecessárias entre pixels distantes.",
+  "Rede neural profunda": "Rede neural de múltiplas camadas na qual uma ou mais camadas opera de forma \"oculta\", já que, uma vez treinada, não se conhece mais as conexões e pesos individuais das sinapses.",
+  "Token - inteligência artificial": "Fração de informação fornecida a um modelo de linguagem larga. Normalmente, trata-se de uma palavra ou porção de palavra, como radicais.",
+  "Large language model ou modelo de linguagem larga": "Arquivo binário de rede neural treinada capaz de interação em linguagem natural humana através de inputs fracionados em tokens.",
+  "Cordocentese": "Drenagem de sangue do cordão umbilical para exames ou quando detectado fluxo de artéria cerebral média superior a 1.5MoM (múltiplos da mediana).",
   "Sonder": "Termo literário cunhado por John Koenig para representar o sentimento único de quando percebemos que as pessoas desconhecidas que cruzam nossos caminhos tem histórias tão complexas quanto as nossas, ao invés de serem meros figurantes da nossa história \"princial\".",
   "Efeito Gell-Mann": "A amnésia de Gell-Mann é o efeito de curta memória que temos sobre a estupidez das fontes, isto é, temos a tendência de perdoarmos informações incoerentes ou inconsistentes fora do nosso campo de especialidade, mesmo quando a mesma fonte foi pega em erro dentro do nosso campo de especialidade, o que nos torna suscetíveis a manipulação jornalística.", 
   "Clomifeno": "o mais usado inibidor da aromatase, prescrito como tratamento para síndrome dos ovários policísticos.",

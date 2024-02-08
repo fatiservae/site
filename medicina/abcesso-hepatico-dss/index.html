@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Abcesso Hepatico - Caso Clínico | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="Apresentado em 08/02/24 no Hospital Regional da Asa Norte em Brasília.
+Acesse aqui a versão em StultusVisio.
+Versão em PDF aqui.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+      
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="barra">
+    <a id="switch" alt="switch-tema" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" id="indexlink" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../files/index.html" alt="Files">Arquivos</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+
+</div>
+<script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      link.style = "border: 2px solid var(--negrito)";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      inicio.style = "border: 2px solid var(--negrito)";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = '🌞' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = '🌚' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = '🌚'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = '🌞'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+ 
+
+
+<p>Apresentado em 08/02/24 no Hospital Regional da Asa Norte em Brasília.</p>
+<p>Acesse <a href="../../caso-clinico-abcesso-hep/abcesso-hep-dss.html">aqui</a> a versão em <a href="../../tecnologia/stultus-visio/">StultusVisio</a>.</p>
+<p>Versão em PDF <a href="../../files/Medicina/JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf">aqui</a>.</p>
+
+
+
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  <br>
+  <br>
+</footer>
+
+</body>
+</html>

@@ -11,7 +11,19 @@
 	
 	
 	<item>
-		<title>Hidratação venosa</title>
+		<title>Abcesso Hepatico - caso clínico</title>
+		<link>https://www.jeffersontorres.com.br/medicina/abcesso-hepatico-dss/</link>
+		<pubDate>Thu, 08 Feb 2024 11:18:33 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/abcesso-hepatico-dss/</guid>
+		<description>&lt;p&gt;Apresentado em 08/02/24 no Hospital Regional da Asa Norte em Brasília.&lt;/p&gt;
+&lt;p&gt;Acesse &lt;a href=&#34;../../caso-clinico-abcesso-hep/abcesso-hep-dss.html&#34;&gt;aqui&lt;/a&gt; a versão em &lt;a href=&#34;../../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Hidratação venosa: resumo breve</title>
 		<link>https://www.jeffersontorres.com.br/medicina/hidratacao/</link>
 		<pubDate>Sun, 04 Feb 2024 15:26:54 -0300</pubDate>
 		
@@ -2009,7 +2021,7 @@ function calcular() {
 &lt;p&gt;Defensor ferrenho do Georgismo, tem sacadas incríveis e um ponto de vista bem curado sobre geopolítica e história.&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi, na verdade, vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma &#34;rainha&#34; que de importante só tem a herança genética. &lt;br&gt;Questione. Pense.
+Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma &#34;rainha&#34; que de importante só tem a herança genética. &lt;br&gt;Questione. Pense.
  &lt;/span&gt;
 &lt;/div&gt;
 
@@ -3137,34 +3149,34 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 		<description>
 
 &lt;!-- Falta incluir alguns elementos como ruptura de aneurisma etc --&gt;
-&lt;div class=&#34;center&#34;&gt;
+&lt;div&gt;
 &lt;div style=&#34;display: inline-block;&#34; class=&#34;sticker&#34;&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
-	&lt;label&gt;Não há outro diagnóstico mais provável.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
-	&lt;label&gt;Sinais clínicos de trombose venosa.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
-	&lt;label&gt;Cirurgia recente ou imobilização.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
-	&lt;label&gt;Tromboembolismos prévios.&lt;/label&gt;
-	&lt;br&gt;
-  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
-	&lt;label&gt;Frequência cardíaca acima de 100bpm.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
-	&lt;label&gt;Hemoptise.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
-	&lt;label&gt;Câncer.&lt;/label&gt;
-&lt;/div&gt;
-	&lt;br&gt;
-  &lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
-	&lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
+  &lt;label&gt;Não há outro diagnóstico mais provável.&lt;/label&gt;
   &lt;br&gt;
-	&lt;div id=&#34;result&#34;&gt;&lt;/div&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
+  &lt;label&gt;Sinais clínicos de trombose venosa.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+  &lt;label&gt;Cirurgia recente ou imobilização.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+  &lt;label&gt;Tromboembolismos prévios.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+  &lt;label&gt;Frequência cardíaca acima de 100bpm.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
+  &lt;label&gt;Hemoptise.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
+  &lt;label&gt;Câncer.&lt;/label&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;button style=&#34;margin-left: 5vw&#34; onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p id=&#34;result&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;script&gt;
