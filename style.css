@@ -102,7 +102,9 @@
   --button-hover: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
-  /*--fundo: #cc866a ; */
+  /*
+  --fundo: #cc866a ; 
+  */
   --fundo: #FFECB3; 
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
@@ -1282,7 +1284,7 @@ nav#TableOfContents li:last-child::before {
   background: var(--button-color);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
-  font-weight: normal;
+  font-weight: bold;
   font-feature-settings: "kern" 1;
   white-space: nowrap;
 }
@@ -1470,7 +1472,7 @@ div#counter {
   .barra a {
     /*
     */
-    font-size: 130%;
+    font-size: 140%;
     transition: background 0ms ease-in-out;
   }
   #question-container {

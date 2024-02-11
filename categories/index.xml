@@ -2251,7 +2251,7 @@ E -- Persistência --&gt;Z
 
 
 $$
-m_{ideal} = 50 | 45.5 + 2.3(alt - 60)
+m_{ideal} = 50_{homem} | 45.5_{mulher} + 2.3(alt - 60)
 $$
 
 $$
