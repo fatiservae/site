@@ -32,9 +32,10 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="&lt;!DOCTYPE html&gt; Estime a TFG via Cockcroft-Gault: $$ TFG = \frac{(140 - idade_{anos}) * PesoSeco_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres} $$ Idade (anos):
+  <meta name="description" content="&lt;!DOCTYPE html&gt; Estime a TFG via Cockcroft-Gault: $$ TFG = \frac{(140 - idade_{anos}) * PesoAjustado_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres} $$ Idade (anos):
 Peso (kg):
 Creatinina (mg/dL):
+Altura (cm):
 Sexo:
 Masculino Feminino Calcular TFG">
   <meta name="keywords" content="calculadoras, medicina">
@@ -71,6 +72,8 @@ Masculino Feminino Calcular TFG">
     <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
 
 </div>
+<br>
+<br>
 <script>
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
@@ -147,18 +150,21 @@ Masculino Feminino Calcular TFG">
   function calcularTFG() {
     var idade = parseFloat(document.getElementById("idade").value);
     var peso = parseFloat(document.getElementById("peso").value);
+    var altura = parseFloat(document.getElementById("altura").value);
     var creatinina = parseFloat(document.getElementById("creatinina").value);
     var sexo = document.getElementById("sexo").value;
     var ajuste = sexo === "masculino" ? 1 : 0.85;
-    var resultadoTFG = ((140 - idade) * peso) * ajuste / (72 * creatinina)
+    var ajustePeso = sexo === "masculino" ? 0 : 4.5;
+    var pesoIdeal = ((50 - ajustePeso) + (2.3 * (altura - 60))); //trocar o 60 p/ cm
+    var pesoAjustado = pesoIdeal + 0.4 * ( peso - pesoIdeal);
+    var resultadoTFG = ((140 - idade) * pesoIdeal) * ajuste / (72 * creatinina)
 
     document.getElementById("resultado").innerText = resultadoTFG.toFixed(2) + " mL/min";
   }
 </script>
-    
     <h2>Estime a TFG via Cockcroft-Gault:</h2>
 $$
-TFG = \frac{(140 - idade_{anos}) * PesoSeco_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
+TFG = \frac{(140 - idade_{anos}) * PesoAjustado_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
 $$
 
 <div style="margin-left: 5vw;">
@@ -168,6 +174,8 @@ $$
     <input type="number" id="peso"><br><br>
     <label for="creatinina">Creatinina (mg/dL):</label><br>
     <input type="number" id="creatinina"><br><br>
+    <label for="altura">Altura (cm):</label><br>
+    <input type="number" id="altura"><br><br>
     <label for="sexo">Sexo:</label><br>
     <select id="sexo">
         <option value="masculino">Masculino</option>

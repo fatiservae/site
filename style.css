@@ -2,7 +2,7 @@
 /* Personalizadas */
   --left-gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
   --left-gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
-  --letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff);
+  /*--letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff); */
   --letragradiente-light: linear-gradient(45deg, black, darkred, var(--fonte));
   /*--gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;*/
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ; 
@@ -37,10 +37,11 @@
 }
 
 :root[data-tema="escuro"] {
+  --h2-gradiente: linear-gradient(90deg, orange, tomato, tan, white);
   --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
   --h1: var(--amarelo-google);
-  --h2: var(--lilas-servo);
+  --h2: var(--letragradiente-dark);
   --h3: var(--amarelo-servo);
   --negrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
@@ -80,6 +81,7 @@
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
 }
 :root[data-tema="claro"] {
+  --h2-gradiente: linear-gradient(90deg, darkred, brown, green);
   --background-img: url('pix/day.jpg'); 
   --hover-botao: #904500 ;
   --h2: #4E342E;
@@ -93,7 +95,10 @@
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
+  /*
   --button-color: #ebc9a9 ;
+  */
+  --button-color: none ;
   --button-hover: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
@@ -110,7 +115,7 @@
   --strong-color: #101010;
   */
   --fonte: #303030;
-  --strong-color: var(--azul-google);
+  --strong-color: var(--lilas-servo);
   --fonte-invertida: var(--white-solarized);
   --links: darkblue ;
   --links-visitados: var(--azul-google) ;
@@ -363,7 +368,11 @@ a[href]:visited:hover, a[href]:hover{
 }
 
 /* PARAGRAFOS HEADING H1 H2 H3 */
-h1, h2, h3 {
+h1, h3, h2 {
+  background-image: var(--h2-gradiente); 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  font-weight: bold;
   /*
   */
   font-size: 125%;
@@ -376,13 +385,19 @@ h1, h2, h3 {
   font-weight: bold;
   text-align: start;
   max-width: 90vw;
+  width: fit-content;
 }
 h2 {
+  /*
   color: var(--h2);
+  */
 }
 h2::before {
   content: "#  ";
   color: var(--strong-color);
+  /*
+  color: red;
+  */
 }
 h1 {
   color: var(--h1);
@@ -1090,7 +1105,10 @@ button[id^="anterior"]:hover {
 }
 button[id^="proximo"]:active, 
 button[id^="anterior"]:active{
+  /*
+  shadow antigo
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),inset  0 1px 5px rgba(0, 0, 0, 0.5);
+  */
 }
 .carousel.slide { 
 /*  
@@ -1266,7 +1284,7 @@ nav#TableOfContents li:last-child::before {
   font-weight: bold;
   font-feature-settings: "kern" 1;
   white-space: nowrap;
-  }
+}
 .barra a[href]:visited, .barra a[href] {
   border: 1px solid var(--bordas);
   color: var(--link-barra);
@@ -1476,6 +1494,10 @@ div#counter {
   #artlist li {
     width: 95;
   } 
+
+  #frase {
+   max-width: 90vw;
+  }
 
   #files, #search-output {
     max-width: 95% ;

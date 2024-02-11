@@ -20,66 +20,117 @@
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
-  <link rel="icon" href="../../favicon.ico">
-  <meta name="description" content=" Backspace Medicamento Nomes alternativos Intravenoso IV Intramuscular IM Oral IV Transdérmico ">
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content=" Medicamento Nomes alternativos Intravenoso IV Intramuscular IM Oral IV Transdérmico ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+      
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <div class="barra">
-    <a id="switch" onclick="alternarTema(); return false"></a>
-    <a href="../../index.html" alt="Início">📌 Início</a>
-    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
-    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
-    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
-    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
-    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
-    <a href="../../tags/filosofia/index.html" alt="Filosofia">💭 Filosofia</a>
-    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
-    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
-    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
-  </div>
+<div class="barra">
+    <a id="switch" alt="switch-tema" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" id="indexlink" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../files/index.html" alt="Files">Arquivos</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+
+</div>
+<br>
+<br>
 <script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      link.style = "border: 2px solid var(--negrito)";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      inicio.style = "border: 2px solid var(--negrito)";
+    }
+  }
+
   let lighswitch = document.getElementById("switch");
   const temaAtual = localStorage.getItem('tema');
  
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '🌚' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = '🌚' ;
+    lighswitch.innerHTML = '🌞' ;
   }
   else {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = '🌚' ;
   }
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === 'claro') {
-      lighswitch.innerHTML = '🌞'
+      lighswitch.innerHTML = '🌚'
       document.documentElement.setAttribute('data-tema', 'escuro');
       localStorage.setItem('tema', 'escuro'); 
     } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = '🌚'
+      lighswitch.innerHTML = '🌞'
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
   }
+
 </script>
 
+ 
 
 
-<div class="search">
+
+
+<div class="search" style="position: relative;">
   <input type="text" id="search" placeholder="busque aqui...">
-  <button id="clear-search">
-    <title>Backspace</title>
-    <path d="M135.19 390.14a28.79 28.79 0 0021.68 9.86h246.26A29 29 0 00432 371.13V140.87A29 29 0 00403.13 112H156.87a28.84 28.84 0 00-21.67 9.84v0L46.33 256l88.86 134.11z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"></path>
-    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33"></path>
-    </svg> 
-  </button>
+    <svg class="lupa" xmlns="http://www.w3.org/2000/svg" stroke-width="1.09" enable-background="new 0 0 24 24" height="14px" viewBox="0 0 24 24" width="4px" focusable="false" autocapitalize="none" autocomplete="off" autocorrect="off" tabindex="0" type="text" spellcheck="false" aria-label="Pesquisar"><path d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"></path></svg>
   </input>
 </div>
 
@@ -160,9 +211,10 @@ search.addEventListener("input", () => {
 
 
 
-
 <footer>
   <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  <br>
+  <br>
 </footer>
 
 </body>
