@@ -1482,8 +1482,8 @@ div#counter {
     /*
     gap: 1%;
     columns: 1 !important;
-    */
     font-size: 80%;
+    */
     max-width: 100vw;
   }
   ul#artlist, 
