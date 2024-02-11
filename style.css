@@ -73,7 +73,7 @@
   --links-visitados: var(--blue) ;
   --link-hover: white ;
   --termo: tomato ;
-  --link-barra: var(--laranja-servo);
+  --link-barra: tomato;
   /*
   --fundo: var(--gradfundo);
   */
@@ -146,7 +146,8 @@ body {
   max-width: 100vw ;
   scroll-behavior: smooth ;
   scrollbar-color: gray #151515 ;
-  font-family: "Open Sans", "Fira Sans", 'Lato', sans-serif;
+  font-family: "Fira Sans", "Open Sans", 'Lato', sans-serif;
+  font-feature-settings: "liga" 1, "dlig" 1;
   font-weight: normal ;
   font-size: 1em ;
   padding: 0%;
@@ -1281,7 +1282,7 @@ nav#TableOfContents li:last-child::before {
   background: var(--button-color);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
-  font-weight: bold;
+  font-weight: normal;
   font-feature-settings: "kern" 1;
   white-space: nowrap;
 }

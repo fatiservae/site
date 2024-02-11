@@ -32,21 +32,22 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="&lt;!DOCTYPE html&gt; Estime a TFG via Cockcroft-Gault: $$ TFG = \frac{(140 - idade_{anos}) * PesoAjustado_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres} $$ Idade (anos):
+  <meta name="description" content="Idade (anos):
 Peso (kg):
 Creatinina (mg/dL):
 Altura (cm):
 Sexo:
-Masculino Feminino Calcular TFG">
+Masculino Feminino Calcular TFG
+Copiar Resultado Os cálculos de Cockcroft-Gault: $$ m_{ideal} = 50 | 45.5 &#43; 2.3(alt - 60) $$ $$ m_{ajustada} = m_{ideal} &#43; 0.4(m - m_{ideal}) $$ $$ TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher} $$ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a creatinina sérica em mg/dL e 0.">
   <meta name="keywords" content="calculadoras, medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
       
       
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
     
       
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -140,12 +141,9 @@ Masculino Feminino Calcular TFG">
 
 </script>
 
- 
 
 
 
-
-<!DOCTYPE html>
 <script>
   function calcularTFG() {
     var idade = parseFloat(document.getElementById("idade").value);
@@ -155,18 +153,34 @@ Masculino Feminino Calcular TFG">
     var sexo = document.getElementById("sexo").value;
     var ajuste = sexo === "masculino" ? 1 : 0.85;
     var ajustePeso = sexo === "masculino" ? 0 : 4.5;
-    var pesoIdeal = ((50 - ajustePeso) + (2.3 * (altura - 60))); //trocar o 60 p/ cm
-    var pesoAjustado = pesoIdeal + 0.4 * ( peso - pesoIdeal);
+    var pesoIdeal = (50 - ajustePeso) + 2.3 * ((altura/2.54) - 60); //trocar o 60 p/ cm
+    var pesoAjustado = pesoIdeal + 0.4 * (peso - pesoIdeal);
     var resultadoTFG = ((140 - idade) * pesoIdeal) * ajuste / (72 * creatinina)
 
-    document.getElementById("resultado").innerText = resultadoTFG.toFixed(2) + " mL/min";
+    if  (isNaN(idade) ||
+         isNaN(peso) ||
+         isNaN(altura) ||
+         isNaN(creatinina)) 
+    {
+        document.getElementById("resultado").innerText = "VERIFIQUE DADOS INSERIDOS!";
+        return
+    }
+
+    console.log(peso)
+
+    document.getElementById("resultado").innerText = "Taxa de filtração glomerular estimada de "+resultadoTFG.toFixed(2)+"mL/min.\nO peso ideal é de "+pesoIdeal.toFixed(1)+"Kg.\nO peso ajustado é de "+pesoAjustado.toFixed(1)+"Kg.";
+
+    document.getElementById("botao-copiar").style.display = 'block';
+    const botaoCopiar = document.getElementById('botao-copiar');
+    const paragrafo = document.getElementById('resultado');
+    
+    botaoCopiar.addEventListener('click', () => {
+      const textoParaCopiar = paragrafo.textContent;
+      navigator.clipboard.writeText(textoParaCopiar);
+      //alert('Texto copiado para a área de transferência!');
+    });
   }
 </script>
-    <h2>Estime a TFG via Cockcroft-Gault:</h2>
-$$
-TFG = \frac{(140 - idade_{anos}) * PesoAjustado_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
-$$
-
 <div style="margin-left: 5vw;">
     <label for="idade">Idade (anos):</label><br>
     <input type="number" id="idade"><br><br>
@@ -183,8 +197,29 @@ $$
     </select><br><br>
     <button onclick="calcularTFG()">Calcular TFG</button><br><br>
     <p id="resultado"></p>
+    <button style="display: none" id="botao-copiar">Copiar Resultado</button>
 </div>
+<h2 id="os-cálculos-de-cockcroft-gault">Os cálculos de Cockcroft-Gault:</h2>
 
+
+$$
+m_{ideal} = 50 | 45.5 + 2.3(alt - 60)
+$$
+
+$$
+m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
+$$
+
+$$
+TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher}
+$$
+
+
+<p>Onde <strong><em>m(s)</em></strong> são as massas em Kg, <strong><strong>alt</strong></strong> a altura em pol, <strong><em>i</em></strong> a idade em anos, <strong><em>cr</em></strong> a creatinina sérica em mg/dL e <strong><em>0.85</em></strong> uma constante de ajuste aplicado às mulheres, apenas.</p>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Cockcroft DW, Gault MH. <strong>Prediction of creatinine clearance from serum creatinine</strong>. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.</li>
+</ol>
 
 
 <br>

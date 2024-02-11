@@ -2193,10 +2193,7 @@ E -- Persistência --&gt;Z
 		<pubDate>Wed, 15 Nov 2023 18:42:29 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/cockcroft-gault/</guid>
-		<description>
-
-&lt;!DOCTYPE html&gt;
-&lt;script&gt;
+		<description>&lt;script&gt;
   function calcularTFG() {
     var idade = parseFloat(document.getElementById(&#34;idade&#34;).value);
     var peso = parseFloat(document.getElementById(&#34;peso&#34;).value);
@@ -2205,18 +2202,34 @@ E -- Persistência --&gt;Z
     var sexo = document.getElementById(&#34;sexo&#34;).value;
     var ajuste = sexo === &#34;masculino&#34; ? 1 : 0.85;
     var ajustePeso = sexo === &#34;masculino&#34; ? 0 : 4.5;
-    var pesoIdeal = ((50 - ajustePeso) + (2.3 * (altura - 60))); //trocar o 60 p/ cm
-    var pesoAjustado = pesoIdeal + 0.4 * ( peso - pesoIdeal);
+    var pesoIdeal = (50 - ajustePeso) + 2.3 * ((altura/2.54) - 60); //trocar o 60 p/ cm
+    var pesoAjustado = pesoIdeal + 0.4 * (peso - pesoIdeal);
     var resultadoTFG = ((140 - idade) * pesoIdeal) * ajuste / (72 * creatinina)
 
-    document.getElementById(&#34;resultado&#34;).innerText = resultadoTFG.toFixed(2) + &#34; mL/min&#34;;
+    if  (isNaN(idade) ||
+         isNaN(peso) ||
+         isNaN(altura) ||
+         isNaN(creatinina)) 
+    {
+        document.getElementById(&#34;resultado&#34;).innerText = &#34;VERIFIQUE DADOS INSERIDOS!&#34;;
+        return
+    }
+
+    console.log(peso)
+
+    document.getElementById(&#34;resultado&#34;).innerText = &#34;Taxa de filtração glomerular estimada de &#34;+resultadoTFG.toFixed(2)+&#34;mL/min.\nO peso ideal é de &#34;+pesoIdeal.toFixed(1)+&#34;Kg.\nO peso ajustado é de &#34;+pesoAjustado.toFixed(1)+&#34;Kg.&#34;;
+
+    document.getElementById(&#34;botao-copiar&#34;).style.display = &#39;block&#39;;
+    const botaoCopiar = document.getElementById(&#39;botao-copiar&#39;);
+    const paragrafo = document.getElementById(&#39;resultado&#39;);
+    
+    botaoCopiar.addEventListener(&#39;click&#39;, () =&gt; {
+      const textoParaCopiar = paragrafo.textContent;
+      navigator.clipboard.writeText(textoParaCopiar);
+      //alert(&#39;Texto copiado para a área de transferência!&#39;);
+    });
   }
 &lt;/script&gt;
-    &lt;h2&gt;Estime a TFG via Cockcroft-Gault:&lt;/h2&gt;
-$$
-TFG = \frac{(140 - idade_{anos}) * PesoAjustado_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
-$$
-
 &lt;div style=&#34;margin-left: 5vw;&#34;&gt;
     &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
@@ -2233,8 +2246,29 @@ $$
     &lt;/select&gt;&lt;br&gt;&lt;br&gt;
     &lt;button onclick=&#34;calcularTFG()&#34;&gt;Calcular TFG&lt;/button&gt;&lt;br&gt;&lt;br&gt;
     &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+    &lt;button style=&#34;display: none&#34; id=&#34;botao-copiar&#34;&gt;Copiar Resultado&lt;/button&gt;
 &lt;/div&gt;
+&lt;h2 id=&#34;os-cálculos-de-cockcroft-gault&#34;&gt;Os cálculos de Cockcroft-Gault:&lt;/h2&gt;
 
+
+$$
+m_{ideal} = 50 | 45.5 + 2.3(alt - 60)
+$$
+
+$$
+m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
+$$
+
+$$
+TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher}
+$$
+
+
+&lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;m(s)&lt;/em&gt;&lt;/strong&gt; são as massas em Kg, &lt;strong&gt;&lt;strong&gt;alt&lt;/strong&gt;&lt;/strong&gt; a altura em pol, &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos, &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;0.85&lt;/em&gt;&lt;/strong&gt; uma constante de ajuste aplicado às mulheres, apenas.&lt;/p&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Cockcroft DW, Gault MH. &lt;strong&gt;Prediction of creatinine clearance from serum creatinine&lt;/strong&gt;. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
