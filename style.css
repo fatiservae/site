@@ -37,7 +37,7 @@
 }
 
 :root[data-tema="escuro"] {
-  --h2-gradiente: linear-gradient(90deg, orange, tomato, tan, white);
+  --h2-gradiente: linear-gradient(90deg, orange, tomato, silver, tan);
   --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
   --h1: var(--amarelo-google);
@@ -1277,6 +1277,7 @@ nav#TableOfContents li:last-child::before {
   border-radius: 4px;
   */
   font-size: 110%;
+  font-weight: normal;
   border: 1px solid var(--bordas);
   border-radius: 38px;
   padding-right: 10px;
@@ -1284,7 +1285,6 @@ nav#TableOfContents li:last-child::before {
   background: var(--button-color);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
-  font-weight: bold;
   font-feature-settings: "kern" 1;
   white-space: nowrap;
 }
@@ -1315,7 +1315,6 @@ nav#TableOfContents li:last-child::before {
   color: var(--fundo-invertido);
   */
 }
-
 
 /* MENU BARRA FLUTUANTE */
 /*Menu com barra superior e hover*/
