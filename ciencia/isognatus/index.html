@@ -16,12 +16,18 @@
 
   
 
-  <title>Ciencia | Jefferson T.</title>
+  <title>Lagartas Isognatus | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
-  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
-  <link rel='stylesheet' type='text/css' href='../style.css'>
-  <link rel="icon" href="../favicon.webp">
-  <meta name="description" content="">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="Lagarta isognatus Fotografei esta lagarta em 2020.
+Ao tentar manipulá-la, senti que causa irritação na pele. Formou casulo, mas nunca terminou a metamorfose, morreu por algum motivo.
+Esqueci de fotografar o casulo.
+Nunca consegui encontrar foto de uma similar com alguma descrição. Se você conhece exatamente o subgênero desta lagarta, me informe.
+Telegram
+Anterior Próxima ">
+  <meta name="keywords" content="ciência, Natureza">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -48,11 +54,11 @@
 <body>
 <div class="barra">
     <a id="switch" alt="switch-tema" onclick="alternarTema(); return false"></a>
-    <a href="../index.html" id="indexlink" alt="Início">Início</a>
-    <a href="../sobre/index.html" alt="Sobre">Sobre</a>
-    <a href="../files/index.html" alt="Files">Arquivos</a>
-    <a href="../dicionario/index.html" alt="Dicionário">Dicionário</a>
-    <a href="../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
+    <a href="../../index.html" id="indexlink" alt="Início">Início</a>
+    <a href="../../sobre/index.html" alt="Sobre">Sobre</a>
+    <a href="../../files/index.html" alt="Files">Arquivos</a>
+    <a href="../../dicionario/index.html" alt="Dicionário">Dicionário</a>
+    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">Calculadoras</a>
 
 </div>
 <br>
@@ -126,48 +132,106 @@
 
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
+<h2 id="lagarta-isognatus">Lagarta isognatus</h2>
+<p>Fotografei esta lagarta em 2020.</p>
+<p>Ao tentar manipulá-la, senti que causa irritação na pele. Formou casulo, mas nunca terminou a metamorfose, morreu por algum motivo.</p>
+<p>Esqueci de fotografar o casulo.</p>
+<p>Nunca consegui encontrar foto de uma similar com alguma descrição. Se você conhece exatamente o <em>subgênero</em> desta lagarta, me informe.</p>
+<p><a href="https://t.me/stalinCCCP">Telegram</a></p>
 
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+  <div class="conteudo">
   
+
+
+
+
+  <div class="legend"><p> </p></div>
+  <div class="slide">
+    <a href="../../pix/ciencia/isognatus1.JPEG">
+      <img src="../../pix/ciencia/isognatus1.JPEG"></img>
+    </a>
+  </div>
+
+
+
+
+
+  <div class="legend"><p> </p></div>
+  <div class="slide">
+    <a href="../../pix/ciencia/isognatus2.JPEG">
+      <img src="../../pix/ciencia/isognatus2.JPEG"></img>
+    </a>
+  </div>
+
+
+
+
+
+  <div class="legend"><p> </p></div>
+  <div class="slide">
+    <a href="../../pix/ciencia/isognatus3.JPEG">
+      <img src="../../pix/ciencia/isognatus3.JPEG"></img>
+    </a>
+  </div>
+
+
+
+
   
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  document.getElementById("autor").textContent = autor;
-  })
-.catch(error => console.error('Erro ao buscar o JSON:', error));
-
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-
-<div class="frase"> 
-<p id="frase"></p> 
-<p id="autor"></p>
-<br>
+  </div>
 </div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .slide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
 
-<ul class="listing-list">
-<li>
-	<a href="../ciencia/isognatus/">Lagartas isognatus</a>
-	
-	</li>
-</ul>
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
 
+
+
+
+<br>
+        <div style="" class=taglist><a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">Ciência</a> &middot; <a id="tag_natureza" href="https://www.jeffersontorres.com.br/tags/natureza">Natureza</a></div>
 
 <footer>
   <a href="https://www.jeffersontorres.com.br/">📌 Início</a>

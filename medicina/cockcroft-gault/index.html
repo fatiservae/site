@@ -8,7 +8,6 @@
 .katex{
   text-align: start !important ;
   width: fit-content;
-  margin-left: 5vw;
   background: var(--gradiente-dark);
 }
 @media only screen and (max-width: 800px){
@@ -44,7 +43,10 @@ Creatinina (mg/dL):
 Altura (cm):
 Sexo:
 Masculino Feminino Calcular TFG
-Copiar Resultado Os cálculos de Cockcroft-Gault: $$ m_{ideal} = 50_{homem} | 45.5_{mulher} &#43; 2.3(alt - 60) $$ $$ m_{ajustada} = m_{ideal} &#43; 0.4(m - m_{ideal}) $$ $$ TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher} $$ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a creatinina sérica em mg/dL e 0.">
+Copiar Resultado Os cálculos de Cockcroft-Gault: $$ m_{ideal} = 50_{homem} | 45.5_{mulher} &#43; 2.3(alt - 60) $$
+$$ m_{ajustada} = m_{ideal} &#43; 0.4(m - m_{ideal}) $$
+$$ TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher} $$
+Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a creatinina sérica em mg/dL e 0.">
   <meta name="keywords" content="calculadoras, medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -187,7 +189,7 @@ Copiar Resultado Os cálculos de Cockcroft-Gault: $$ m_{ideal} = 50_{homem} | 45
     });
   }
 </script>
-<div style="margin-left: 5vw;">
+<div class="calculadoras">
     <label for="idade">Idade (anos):</label><br>
     <input type="number" id="idade"><br><br>
     <label for="peso">Peso (kg):</label><br>
@@ -206,21 +208,15 @@ Copiar Resultado Os cálculos de Cockcroft-Gault: $$ m_{ideal} = 50_{homem} | 45
     <button style="display: none" id="botao-copiar">Copiar Resultado</button>
 </div>
 <h2 id="os-cálculos-de-cockcroft-gault">Os cálculos de Cockcroft-Gault:</h2>
-
-
-$$
+<p>$$
 m_{ideal} = 50_{homem} | 45.5_{mulher} + 2.3(alt - 60)
-$$
-
-$$
+$$</p>
+<p>$$
 m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
-$$
-
-$$
+$$</p>
+<p>$$
 TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher}
-$$
-
-
+$$</p>
 <p>Onde <strong><em>m(s)</em></strong> são as massas em Kg, <strong><strong>alt</strong></strong> a altura em pol, <strong><em>i</em></strong> a idade em anos, <strong><em>cr</em></strong> a creatinina sérica em mg/dL e <strong><em>0.85</em></strong> uma constante de ajuste aplicado às mulheres, apenas.</p>
 <h2 id="referências">Referências</h2>
 <ol>

@@ -5,10 +5,115 @@
 	<description>Recent content on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 08 Feb 2024 11:18:33 -0300</lastBuildDate>
+	<lastBuildDate>Mon, 12 Feb 2024 09:28:40 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Lagartas isognatus</title>
+		<link>https://www.jeffersontorres.com.br/ciencia/isognatus/</link>
+		<pubDate>Mon, 12 Feb 2024 09:28:40 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/ciencia/isognatus/</guid>
+		<description>&lt;h2 id=&#34;lagarta-isognatus&#34;&gt;Lagarta isognatus&lt;/h2&gt;
+&lt;p&gt;Fotografei esta lagarta em 2020.&lt;/p&gt;
+&lt;p&gt;Ao tentar manipulá-la, senti que causa irritação na pele. Formou casulo, mas nunca terminou a metamorfose, morreu por algum motivo.&lt;/p&gt;
+&lt;p&gt;Esqueci de fotografar o casulo.&lt;/p&gt;
+&lt;p&gt;Nunca consegui encontrar foto de uma similar com alguma descrição. Se você conhece exatamente o &lt;em&gt;subgênero&lt;/em&gt; desta lagarta, me informe.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;./pix/ciencia/isognatus1.JPEG&#34;&gt;
+      &lt;img src=&#34;./pix/ciencia/isognatus1.JPEG&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;./pix/ciencia/isognatus2.JPEG&#34;&gt;
+      &lt;img src=&#34;./pix/ciencia/isognatus2.JPEG&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;./pix/ciencia/isognatus3.JPEG&#34;&gt;
+      &lt;img src=&#34;./pix/ciencia/isognatus3.JPEG&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+</description>
+	</item>
 	
 	<item>
 		<title>Abcesso Hepatico - caso clínico</title>
@@ -71,12 +176,13 @@ ASC = {{ 4m + 7 } \over { m + 90 }}
 $$&lt;/p&gt;
 &lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada¹ é de 300-400mL/m²/dia.&lt;/p&gt;
 &lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;./medicina/cockcroft-gault/&#34;&gt;calcule a TFG via Cockcroft-Gault&lt;/a&gt;).&lt;/p&gt;
-&lt;h2 id=&#34;calculadora&#34;&gt;Calculadora&lt;/h2&gt;
-&lt;p&gt;&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
+&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
 &lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;massa&#34;/&gt;&lt;/p&gt;
+&lt;input type=&#34;number&#34; id=&#34;massa&#34;/&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;queimados&#34;&gt;Queimados&lt;/h2&gt;
 &lt;p&gt;Veja &lt;a href=&#34;./medicina/calculos-queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;script&gt;
@@ -120,13 +226,13 @@ $$&lt;/p&gt;
 		<pubDate>Tue, 30 Jan 2024 15:44:34 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/holliday/</guid>
-		<description>&lt;p&gt;&lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!&lt;/span&gt;&lt;/p&gt;
+		<description>&lt;!-- &lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!&lt;/span&gt; --&gt;
 
 
 &lt;img class=&#34;fundo-only-big&#34; src=&#34;./pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
 
 &lt;h2 id=&#34;calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidro-eletrolítica de Holliday-Segar&lt;/h2&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+&lt;p&gt;&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
 &lt;strong&gt;Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.&lt;/strong&gt;&lt;br&gt;
 Nenhuma calculadora substitui seu julgamento clínico!&lt;br&gt;
@@ -138,7 +244,8 @@ Veja &lt;a href=&#34;./medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidrata
 &lt;/div&gt;
 
 
-&lt;div style=&#34;margin-left: 5vw&#34;&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
 &lt;h2&gt;Fluido&lt;/h2&gt;
 &lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
 &lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;
@@ -214,60 +321,6 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;ol&gt;
 &lt;li&gt;HOLLIDAY MA, SEGAR WE. &lt;strong&gt;The maintenance need for water in parenteral fluid therapy.&lt;/strong&gt; Pediatrics. 1957 May;19(5):823-32. PMID: 13431307.&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Calculadora de dosagens comuns: internação</title>
-		<link>https://www.jeffersontorres.com.br/medicina/calculadora-drogas/</link>
-		<pubDate>Sat, 27 Jan 2024 16:45:48 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/calculadora-drogas/</guid>
-		<description>&lt;p&gt;&lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE !!&lt;/span&gt;&lt;/p&gt;
-&lt;style&gt;
-
-div label, button, select {
-    margin-left:5vw;
-}
-&lt;/style&gt;
-&lt;!-- 
-&lt;label for=&#34;data&#34;&gt;Data de nascimento&lt;/label&gt;
-&lt;br&gt;
-&lt;input type=&#34;date&#34; id=&#34;data&#34;&gt;&lt;/input&gt;
-&lt;br&gt;
-&lt;br&gt;
---&gt;
-&lt;p&gt;&lt;label for=&#34;idade&#34;&gt;Idade (anos)&lt;/label&gt;
-&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;/input&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;label for=&#34;peso&#34;&gt;Peso (Kg)&lt;/label&gt;
-&lt;br&gt;
-&lt;input type=&#34;mumber&#34; id=&#34;peso&#34;&gt;&lt;/input&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;div&gt;
-&lt;label for=&#34;drogas&#34;&gt;Selecione droga:&lt;/label&gt;
-&lt;br&gt;
-&lt;select id=&#34;drogas&#34;&gt;
-    &lt;option value=&#34;Adrenalina 1:10.000&#34;&gt;Adrenalina 1:10.000&lt;/option&gt;
-    &lt;option value=&#34;Adrenalina 1:1.000&#34;&gt;Adrenalina 1:10.000&lt;/option&gt;
-    &lt;option value=&#34;Atropina 0.25mg/ml&#34;&gt;Atropina 0.25mg/ml&lt;/option&gt; 
-&lt;/select&gt;
-&lt;/div&gt;
-&lt;button id=&#34;inserir-droga&#34;&gt;Inserir droga&lt;/button&gt;
-&lt;br&gt;
-&lt;p&gt;Drogas adicionadas:&lt;/p&gt;
-&lt;p id=&#34;drogas-adicionadas&#34;&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;button id=&#34;calcular&#34; onclick=&#34;updateTable()&#34;&gt;Calcular&lt;/button&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;table id=&#34;tabela&#34;&gt;&lt;/table&gt;
-&lt;script src=&#34;./psped.js&#34;&gt;&lt;/script&gt;
 </description>
 	</item>
 	
@@ -1638,7 +1691,38 @@ $$&lt;/p&gt;
 &lt;h2 id=&#34;pressão-arterial-média&#34;&gt;Pressão arterial média&lt;/h2&gt;
 &lt;p&gt;$$
 PAM = \frac{PAS + 2 * PAD}{3}
-$$&lt;/p&gt;
+$$
+
+
+&lt;div class=&#34;calculadoras&#34;&gt;
+&lt;label for=&#34;pad&#34;&gt;Pressão diastólica:&lt;/label&gt;
+&lt;br&gt;
+&lt;input id=&#34;pad&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;label for=&#34;pas&#34;&gt;Pressão sistólica:&lt;/label&gt;
+&lt;br&gt;
+&lt;input id=&#34;pas&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;button id=&#34;calc-pam&#34; onclick=&#34;pamedia()&#34;&gt;Calcular PAM&lt;/button&gt;
+&lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    function pamedia() {
+        let pad = parseFloat(document.getElementById(&#34;pad&#34;).value);
+        let pas = parseFloat(document.getElementById(&#34;pas&#34;).value);
+
+        let resultado = (pas + (2 * pad)) / 3;
+
+        if (isNaN(resultado)) {
+            document.getElementById(&#34;resultado&#34;).innerText = &#34;Confira os dados!&#34;;
+            return
+        }
+
+        document.getElementById(&#34;resultado&#34;).innerText = resultado.toFixed(2)+&#34;mmHg de pressão arterial média.&#34;;
+    }
+&lt;/script&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;média-da-pressão-arterial&#34;&gt;Média da pressão arterial&lt;/h2&gt;
 &lt;p&gt;$$
 \bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
@@ -1651,7 +1735,6 @@ $$
 \Delta P_{tissue} = PA_{dias} - PA_{tissue}
 $$&lt;/p&gt;
 &lt;p&gt;O $\Delta P_{tissue}$ é crítico se &lt;strong&gt;menor que 30mmHg&lt;/strong&gt;. Se zero, a isquemia é presumida.&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -1668,8 +1751,7 @@ $$&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</guid>
 		<description>
 
-&lt;style&gt; p {margin-left: 0;} &lt;/style&gt;
-&lt;div style=&#34;margin-left: 5vw; background: var(--gradiente-dark); width: fit-content;&#34;&gt; 
+&lt;div class=&#34;calculadoras&#34;&gt; 
 &lt;form id=&#34;formElementos&#34;&gt;
   &lt;label for=&#34;elementos&#34;&gt;Adicione as partes queimadas:&lt;/label&gt;
   &lt;br&gt;
@@ -1711,11 +1793,8 @@ $$&lt;/p&gt;
   &lt;br&gt;
   &lt;button onclick=&#34;calcular()&#34;&gt;Calcular&lt;/button&gt;
   &lt;br&gt;
-  &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+  &lt;p id=&#34;resultado&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
 &lt;/div&gt;
-  
-&lt;h2&gt;Parkland sugerido:&lt;/h2&gt;
-&lt;p id=&#34;parkland-pratico&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
 &lt;/div&gt;
 &lt;script&gt;
 let elementosSelecionados = [];
@@ -1732,6 +1811,8 @@ function adicionarElemento() {
 }
 
 function calcular() {
+  document.getElementById(&#39;resultado&#39;).innerHTML = &#39;&#39;;
+
   let meiaperna = 9;
   let meiacabeca = 4.5;
   let genitalia = 1;
@@ -1793,13 +1874,13 @@ function calcular() {
     debito = 0.5 * peso ;
   };
 
-  document.getElementById(&#39;parkland-pratico&#39;).innerHTML = 
-    &#34;Fazer &#34;+dose+&#34;ml/h de Ringer Lactato&lt;br&gt;Débito urinário esperado em torno de &#34;+debito+&#34;mL/h.&lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&lt;br&gt;&lt;br&gt;A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&#34;
-
   if (grau === &#34;pequeno&#34;) {
-    document.getElementById(&#39;parkland-pratico&#39;).innerHTML += 
-    &#34;&lt;br&gt;Em pacientes pequenos queimados, repense a necessidade de reidratação.&#34;;
+    document.getElementById(&#39;resultado&#39;).innerHTML += 
+    &#34;&lt;br&gt;&lt;strong&gt;Em pacientes pequenos queimados, repense a necessidade de reidratação.&lt;/strong&gt;&#34;;
   }
+
+  document.getElementById(&#39;resultado&#39;).innerHTML += 
+    &#34;&lt;br&gt;Fazer &#34;+dose+&#34;ml/h de Ringer Lactato&lt;br&gt;Débito urinário esperado em torno de &#34;+debito+&#34;mL/h.&lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&lt;br&gt;&lt;br&gt;A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&#34;
 }
 &lt;/script&gt;
 
@@ -2140,7 +2221,7 @@ E -- Persistência --&gt;Z
     });
   }
 &lt;/script&gt;
-&lt;div style=&#34;margin-left: 5vw;&#34;&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
     &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
     &lt;label for=&#34;peso&#34;&gt;Peso (kg):&lt;/label&gt;&lt;br&gt;
@@ -2159,21 +2240,15 @@ E -- Persistência --&gt;Z
     &lt;button style=&#34;display: none&#34; id=&#34;botao-copiar&#34;&gt;Copiar Resultado&lt;/button&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;os-cálculos-de-cockcroft-gault&#34;&gt;Os cálculos de Cockcroft-Gault:&lt;/h2&gt;
-
-
-$$
+&lt;p&gt;$$
 m_{ideal} = 50_{homem} | 45.5_{mulher} + 2.3(alt - 60)
-$$
-
-$$
+$$&lt;/p&gt;
+&lt;p&gt;$$
 m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
-$$
-
-$$
+$$&lt;/p&gt;
+&lt;p&gt;$$
 TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher}
-$$
-
-
+$$&lt;/p&gt;
 &lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;m(s)&lt;/em&gt;&lt;/strong&gt; são as massas em Kg, &lt;strong&gt;&lt;strong&gt;alt&lt;/strong&gt;&lt;/strong&gt; a altura em pol, &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos, &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;0.85&lt;/em&gt;&lt;/strong&gt; uma constante de ajuste aplicado às mulheres, apenas.&lt;/p&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -2193,7 +2268,7 @@ $$
 &lt;p&gt;Esta consideração, &lt;em&gt;per si&lt;/em&gt;, significa que a reprodução humana é peculiar e pouco eficiente. De fato, se comparado a muitos outros mamíferos, os primatas tem uma das reproduções mais limitadas.&lt;/p&gt;
 &lt;p&gt;Além disso, somos primatas medianos, incapazes de defesa direta contra outros grandes mamíferos e répteis e, ao mesmo tempo, temos alta neecssidade energética e metabólica.&lt;/p&gt;
 &lt;p&gt;Assim, tenho feito a derivação mental constante de que, na realidade, os empecilhos da reprodução humana serviram justamente de força motriz para as rápidas e específicas adaptações comunicativas e hábeis que nos tornam singulares.&lt;/p&gt;
-&lt;p&gt;Esta pressão evolutiva é rara em outros domínios, como entre os insetos, apesar das pontuais exceções, e.g. as ligeiramente longas metamorfoses das &lt;a href=&#34;./pix/isognatus.jpg&#34;&gt;isognatus&lt;/a&gt;. Adaptativamente falando, a gestação prolongada e a fragilidade do concepto promovem enormes mudanças comportamentais, entre as mais interessantes a clara vantagem da relação monogâmica, o armazenamento de alimentos, a construção de habitáculos seguros, a busca de locais de altitude considerável ou a região costeira, a presença fixa de água potável etc.&lt;/p&gt;
+&lt;p&gt;Esta pressão evolutiva é rara em outros domínios, como entre os insetos, apesar das pontuais exceções, e.g. as ligeiramente longas metamorfoses das &lt;a href=&#34;./ciencia/isognatus/&#34;&gt;isognatus&lt;/a&gt;. Adaptativamente falando, a gestação prolongada e a fragilidade do concepto promovem enormes mudanças comportamentais, entre as mais interessantes a clara vantagem da relação monogâmica, o armazenamento de alimentos, a construção de habitáculos seguros, a busca de locais de altitude considerável ou a região costeira, a presença fixa de água potável etc.&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li&gt;A família aqui considerada é a melhor projeção moderna para o que entenderíamos como &lt;em&gt;bando primata&lt;/em&gt;.&lt;/li&gt;

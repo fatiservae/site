@@ -8,7 +8,6 @@
 .katex{
   text-align: start !important ;
   width: fit-content;
-  margin-left: 5vw;
   background: var(--gradiente-dark);
 }
 @media only screen and (max-width: 800px){
@@ -39,7 +38,7 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="Adicione as partes queimadas: Cabeça - anterior Cabeça - posterior Pescoço Braço direito - anterior Braço direito - posterior Braço esquerdo - anterior Braço esquerdo - posterior Tórax anterior Tórax posterior Nádega direita Nádega esquerda Genitália Perna direita - anterior Perna direita - posterior Perna esquerda - anterior Perna esquerda - posterior Adicionar Elementos selecionados:
-Idade: Peso: Queimadura elétrica Calcular Parkland sugerido: Adicione os elementos queimados, idade, peso e clique em Calcular.">
+Idade: Peso: Queimadura elétrica Calcular Adicione os elementos queimados, idade, peso e clique em Calcular.">
   <meta name="keywords" content="Pediatria, Calculadoras, Medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -147,8 +146,7 @@ Idade: Peso: Queimadura elétrica Calcular Parkland sugerido: Adicione os elemen
 
 
 
-<style> p {margin-left: 0;} </style>
-<div style="margin-left: 5vw; background: var(--gradiente-dark); width: fit-content;"> 
+<div class="calculadoras"> 
 <form id="formElementos">
   <label for="elementos">Adicione as partes queimadas:</label>
   <br>
@@ -190,11 +188,8 @@ Idade: Peso: Queimadura elétrica Calcular Parkland sugerido: Adicione os elemen
   <br>
   <button onclick="calcular()">Calcular</button>
   <br>
-  <p id="resultado"></p>
+  <p id="resultado">Adicione os elementos queimados, idade, peso e clique em Calcular.</p>
 </div>
-  
-<h2>Parkland sugerido:</h2>
-<p id="parkland-pratico">Adicione os elementos queimados, idade, peso e clique em Calcular.</p>
 </div>
 <script>
 let elementosSelecionados = [];
@@ -211,6 +206,8 @@ function adicionarElemento() {
 }
 
 function calcular() {
+  document.getElementById('resultado').innerHTML = '';
+
   let meiaperna = 9;
   let meiacabeca = 4.5;
   let genitalia = 1;
@@ -272,13 +269,13 @@ function calcular() {
     debito = 0.5 * peso ;
   };
 
-  document.getElementById('parkland-pratico').innerHTML = 
-    "Fazer "+dose+"ml/h de Ringer Lactato<br>Débito urinário esperado em torno de "+debito+"mL/h.<br>Observe sempre se a urina é clara!<br>Considere hidratação de manutenção.<br><br>A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário."
-
   if (grau === "pequeno") {
-    document.getElementById('parkland-pratico').innerHTML += 
-    "<br>Em pacientes pequenos queimados, repense a necessidade de reidratação.";
+    document.getElementById('resultado').innerHTML += 
+    "<br><strong>Em pacientes pequenos queimados, repense a necessidade de reidratação.</strong>";
   }
+
+  document.getElementById('resultado').innerHTML += 
+    "<br>Fazer "+dose+"ml/h de Ringer Lactato<br>Débito urinário esperado em torno de "+debito+"mL/h.<br>Observe sempre se a urina é clara!<br>Considere hidratação de manutenção.<br><br>A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário."
 }
 </script>
 

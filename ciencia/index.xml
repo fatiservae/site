@@ -5,13 +5,339 @@
 	<description>Recent content in Ciencia on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Mon, 20 Nov 2023 20:48:39 -0300</lastBuildDate>
+	<lastBuildDate>Mon, 12 Feb 2024 09:28:40 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/ciencia/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
-		<title>Efeito Gell Man: a psicologia da informação</title>
+		<title>Lagartas isognatus</title>
+		<link>https://www.jeffersontorres.com.br/ciencia/isognatus/</link>
+		<pubDate>Mon, 12 Feb 2024 09:28:40 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/ciencia/isognatus/</guid>
+		<description>&lt;h2 id=&#34;lagarta-isognatus&#34;&gt;Lagarta isognatus&lt;/h2&gt;
+&lt;p&gt;Fotografei esta lagarta em 2020.&lt;/p&gt;
+&lt;p&gt;Ao tentar manipulá-la, senti que causa irritação na pele. Formou casulo, mas nunca terminou a metamorfose, morreu por algum motivo.&lt;/p&gt;
+&lt;p&gt;Esqueci de fotografar o casulo.&lt;/p&gt;
+&lt;p&gt;Nunca consegui encontrar foto de uma similar com alguma descrição. Se você conhece exatamente o &lt;em&gt;subgênero&lt;/em&gt; desta lagarta, me informe.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../pix/ciencia/isognatus1.JPEG&#34;&gt;
+      &lt;img src=&#34;../pix/ciencia/isognatus1.JPEG&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../pix/ciencia/isognatus2.JPEG&#34;&gt;
+      &lt;img src=&#34;../pix/ciencia/isognatus2.JPEG&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../pix/ciencia/isognatus3.JPEG&#34;&gt;
+      &lt;img src=&#34;../pix/ciencia/isognatus3.JPEG&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+</description>
+	</item>
+	
+	<item>
+		<title>Abcesso Hepatico - caso clínico</title>
+		<link>https://www.jeffersontorres.com.br/medicina/abcesso-hepatico-dss/</link>
+		<pubDate>Thu, 08 Feb 2024 11:18:33 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/abcesso-hepatico-dss/</guid>
+		<description>&lt;p&gt;Apresentado em 08/02/24 no Hospital Regional da Asa Norte em Brasília.&lt;/p&gt;
+&lt;p&gt;Acesse &lt;a href=&#34;../caso-clinico-abcesso-hep/abcesso-hep-dss.html&#34;&gt;aqui&lt;/a&gt; a versão em &lt;a href=&#34;../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Versão em PDF &lt;a href=&#34;../files/Medicina/JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Hidratação venosa: resumo breve</title>
+		<link>https://www.jeffersontorres.com.br/medicina/hidratacao/</link>
+		<pubDate>Sun, 04 Feb 2024 15:26:54 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/hidratacao/</guid>
+		<description>&lt;h2 id=&#34;as-três-hidratações&#34;&gt;As três hidratações&lt;/h2&gt;
+&lt;p&gt;Existem três hidratações, por assim se dizer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A ressuscitação volêmica;&lt;/li&gt;
+&lt;li&gt;A manutenção hidro-calórica;&lt;/li&gt;
+&lt;li&gt;A reposição hídrica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A &lt;strong&gt;ressuscitação volêmica&lt;/strong&gt; é uma medida de urgência, conduta padrão para o diagnóstico de &lt;em&gt;hipovolemia&lt;/em&gt; ou de &lt;em&gt;desidratação&lt;/em&gt;. Se baseia no exame físico e deve ser iniciada no paciente que demonstre anúria, pele seca, ausência de humidade nas mucosas de boca e olhos, além de sinais mais graves como rebaixamento de consciência e confusão.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;manutenção hidro-calórica&lt;/strong&gt; é a prescrição pós-ressuscitação e tem por objetivo dar suporte calórico e líquido ao paciente em recuperação. Esta abordagem é uma &lt;em&gt;evolução médica&lt;/em&gt;, ou seja, direciona-se ao paciente internado que teve manejo ou estabilização anterior.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;reposição hídrica&lt;/strong&gt; é uma ação concomitante que visa devolver a autonomia do paciente, isto é, a volta a normalidade fisiológica. Costuma ser ofertada de preferência por ingesta oral expontânea, o mais cedo possível. O paciente recém manejado pode ter sede e este é um bom sinal, sobretudo no retorno da consciência.&lt;/p&gt;
+&lt;h2 id=&#34;ressuscitação-volêmica&#34;&gt;Ressuscitação volêmica&lt;/h2&gt;
+&lt;p&gt;Existem dois aspectos da ressuscitação:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sua forma simples, prescrição de 20 a 50ml por Kg de massa corporal;&lt;/li&gt;
+&lt;li&gt;Manejos complexos de UTI, onde se deve considerar aspectos como perdas significativas (grandes queimados), sangramentos (trauma e pós-cirúrgico) e doenças com desequilíbrio hídrico intrínseco (hidrocefalias, insuficiência cardíaca etc).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Na abordagem simples, temos um paciente desidratado por síndromes globais (febril, infecciosa, dengue, diarreia aguda etc) e que necessita restaurar volumes imediatamente.&lt;/p&gt;
+&lt;p&gt;Na complexa, cada caso deve ser considerado por julgamento clínico e aspectos mais graves. A função renal e integridade fisiológica devem ser pesadas porque as perdas de líquido no paciente de UTI são menores, principalmente se mecanicamente ventilado.&lt;/p&gt;
+&lt;h2 id=&#34;manutenção-hidro-calórica&#34;&gt;Manutenção hidro-calórica&lt;/h2&gt;
+&lt;p&gt;O corpo humano necessita de cerca de 100ml de água para cada 100kcal processadas. Isto significa que, ao hidratar um paciente, devemos também nutri-lo e vice-versa.&lt;/p&gt;
+&lt;p&gt;Porém, esta situação traz consigo aspectos osmolares em relação aos eletrólitos. Tendo em vista que a mera hidratação e fornecimento de glicose pura vão diluir os eletrólitos corporais, podemos terminar em situações graves, e.g. hipocalemia.&lt;/p&gt;
+&lt;p&gt;Para isto, fórmulas foram desenvolvidas, notadamente a fórmula de Holliday-Segar e suas variações.&lt;/p&gt;
+&lt;p&gt;Acesse &lt;a href=&#34;../medicina/holliday/&#34;&gt;aqui&lt;/a&gt; a calculadora de Holliday-Segar que eu fiz.&lt;/p&gt;
+&lt;h2 id=&#34;reposição-hídrica&#34;&gt;Reposição hídrica&lt;/h2&gt;
+&lt;p&gt;Normalmente feita através de soros de reidratação oral, de oferta livre, a pelo menos 1L/dia. Espera se a ingesta mínima baseada em guideline de 2L/dia pro adulto. Porém estes valores são contestados atualmente.&lt;/p&gt;
+&lt;p&gt;Na prática, pode se optar por soros caseiros, preparados com açúcar e sal, mas estes devem ser evitados sempre que soros industrializados forem disponíveis.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Superfície corporal estimada: Costeff</title>
+		<link>https://www.jeffersontorres.com.br/medicina/costeff/</link>
+		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/costeff/</guid>
+		<description>&lt;h2 id=&#34;superfície-corporal-estimada-de-costeff&#34;&gt;Superfície corporal estimada de Costeff&lt;/h2&gt;
+&lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
+&lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
+&lt;p&gt;$$
+ASC = {{ 4m + 7 } \over { m + 90 }}
+$$&lt;/p&gt;
+&lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada¹ é de 300-400mL/m²/dia.&lt;/p&gt;
+&lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../medicina/cockcroft-gault/&#34;&gt;calcule a TFG via Cockcroft-Gault&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
+&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;massa&#34;/&gt;
+&lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;queimados&#34;&gt;Queimados&lt;/h2&gt;
+&lt;p&gt;Veja &lt;a href=&#34;../medicina/calculos-queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
+&lt;script&gt;
+    function bsa(){
+        const massa = parseFloat(document.getElementById(&#34;massa&#34;).value);
+        if (isNaN(massa)) {
+            document.getElementById(&#34;resultado&#34;).innerText = &#34;Insira valor da massa!&#34;;
+            return
+        }
+        console.log(massa)
+
+        let numerador = (massa * 4) + 7;
+        let denominador = massa + 90;
+        
+        console.log(&#34;Numerador:&#34;, numerador);
+        console.log(&#34;Denominador:&#34;, denominador);
+        
+        let resultado = numerador / denominador;
+        console.log(&#34;Resultado:&#34;, resultado);
+
+        let resultadoMm = resultado * 10000;
+        document.getElementById(&#34;resultado&#34;).innerText = resultado.toFixed(2)+&#34;m² de área corporal estimada.\nEm milímetros são &#34;+resultadoMm.toFixed(2)+&#34;mm².&#34;;
+    }
+&lt;/script&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Esta estimativa foi feita para pacientes de 10kg ou mais.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Costeff H. &lt;strong&gt;A simple empirical formula for calculating approximate surface area in children&lt;/strong&gt;. Arch Dis Child. 1966 Dec;41(220):681-3. doi: 10.1136/adc.41.220.681. PMID: 5927924; PMCID: PMC2019700.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Fluidoterapia de manutenção: Holliday-Segar</title>
+		<link>https://www.jeffersontorres.com.br/medicina/holliday/</link>
+		<pubDate>Tue, 30 Jan 2024 15:44:34 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/holliday/</guid>
+		<description>&lt;!-- &lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!&lt;/span&gt; --&gt;
+
+
+&lt;img class=&#34;fundo-only-big&#34; src=&#34;../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
+
+&lt;h2 id=&#34;calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidro-eletrolítica de Holliday-Segar&lt;/h2&gt;
+&lt;p&gt;&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+&lt;strong&gt;Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.&lt;/strong&gt;&lt;br&gt;
+Nenhuma calculadora substitui seu julgamento clínico!&lt;br&gt;
+Esta calculadora aceita valores decimais nas unidades indicadas. &lt;br&gt;
+Use pontos e não vírgulas. &lt;br&gt;
+Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose. &lt;br&gt;
+Veja &lt;a href=&#34;../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidratação venosa em geral.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
+&lt;h2&gt;Fluido&lt;/h2&gt;
+&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;fluidoPrincipal&#34;&gt;Fluido principal&lt;/label&gt;&lt;br&gt;
+&lt;select id=&#34;tipoFluidoPrincipal&#34;&gt;
+    &lt;!-- 
+    &lt;option value=&#34;sf5&#34;&gt;Soro fisiológico a 5%&lt;/option&gt;
+    &lt;option value=&#34;sf10&#34;&gt;Soro fisiológico a 10%&lt;/option&gt;
+    &lt;option value=&#34;sf20&#34;&gt;Soro fisiológico a 20%&lt;/option&gt;
+    --&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione fluido principal&lt;/option&gt;
+    &lt;option value=&#34;ringer&#34;&gt;Ringer Lactato&lt;/option&gt;
+    &lt;option value=&#34;sg5&#34;&gt;Soro glicosado a 5%&lt;/option&gt;
+    &lt;option value=&#34;sg10&#34;&gt;Soro glicosado a 10%&lt;/option&gt;
+    &lt;option value=&#34;sg20&#34;&gt;Soro glicosado a 20%&lt;/option&gt;
+    &lt;option value=&#34;sf09&#34;&gt;Soro fisiológico (0.9% de Na)&lt;/option&gt;
+    &lt;/select&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;h2&gt;Sódio&lt;/h2&gt;
+&lt;label for=&#34;volumeAmpNa&#34;&gt;Volume de cada ampola de sódio (mL)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;volumeAmpNa&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;concentAmpNa&#34;&gt;Ampola de sódio concentrado&lt;/label&gt;&lt;br&gt;
+&lt;select id=&#34;concentAmpNa&#34;&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione sódio concentrado&lt;/option&gt;
+    &lt;option value=&#34;10&#34;&gt;Cloreto de sódio a 10%&lt;/option&gt;
+    &lt;option value=&#34;20&#34;&gt;Cloreto de sódio a 20%&lt;/option&gt;
+&lt;/select&gt;
+&lt;form&gt;
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Calcular sódio isotônico - 135mEq/L? &lt;br&gt;
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Calcular sódio hipotônico - 30mEq/L? 
+&lt;/form&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;h2&gt;Potássio&lt;/h2&gt;
+&lt;label for=&#34;volumeAmpK&#34;&gt;Volume de cada ampola de potássio (mL)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;volumeAmpK&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;concentAmpK&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
+&lt;select id=&#34;concentAmpK&#34;&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione tipo de ampola&lt;/option&gt;
+    &lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
+    &lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;
+    &lt;option value=&#34;fosft2meqml&#34;&gt;Fosfato de Potássio a 2mEq/mL&lt;/option&gt;
+    &lt;!--&lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;  conferir se 10 --&gt;
+ &lt;!--    &lt;option value=&#34;5&#34;&gt;Cloreto de Potássio a 5%&lt;/option&gt; conferir se 5 --&gt;
+&lt;/select&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;h2&gt;Glicose&lt;/h2&gt;
+&lt;label for=&#34;volumeAmpGlic&#34;&gt;Volume de cada ampola de glicose (mL)&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; id=&#34;volumeAmpGlic&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;percentualGlic&#34;&gt;Percentual de glicose da ampola&lt;label&gt;&lt;br&gt;
+&lt;select id=&#34;percentualGlic&#34;&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione tipo de ampola&lt;/option&gt;
+    &lt;option value=5&gt;Glicose a 5%&lt;/option&gt;
+    &lt;option value=50&gt;Glicose a 50%&lt;/option&gt; 
+&lt;/select&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;button onclick=&#34;holliday()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
+&lt;p id=&#34;resultado&#34; style=&#34;max-width: 60vw;&#34;&gt;&lt;/p&gt;
+&lt;p id=&#34;alertas&#34; style=&#34;display: none;&#34;&gt;
+O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
+&lt;br&gt;
+– A velocidade de infusão máxima de potássio é 10-20 mEq/h!
+&lt;br&gt;
+– A concentração ideal em acesso periférico é de no máx. 40-50mEq/L.
+&lt;br&gt;
+– A concentração ideal em acesso central é de no máx. 80-100mEq/L.
+&lt;br&gt;
+– Não prescreva potássio ao paciente anúrico!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;script src=&#34;../holliday.js&#34;&gt;&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;HOLLIDAY MA, SEGAR WE. &lt;strong&gt;The maintenance need for water in parenteral fluid therapy.&lt;/strong&gt; Pediatrics. 1957 May;19(5):823-32. PMID: 13431307.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Appendiceal neoplasms: secondary analysis of the CODA trial</title>
+		<link>https://www.jeffersontorres.com.br/medicina/neoplasia-apendice/</link>
+		<pubDate>Thu, 25 Jan 2024 12:16:58 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/neoplasia-apendice/</guid>
+		<description>&lt;p&gt;Apresentei este artigo em janeiro de 2024 no Hospital Regional da Asa Norte de Brasília-DF.&lt;/p&gt;
+&lt;p&gt;Slides para &lt;em&gt;desktop&lt;/em&gt; em &lt;a href=&#34;../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt; disponível &lt;a href=&#34;../neoplasia-apendice/neoapendice.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Versão em PDF &lt;a href=&#34;../files/Medicina/JeffersonT-Apresentacao-Neoplasia-Apendice.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Efeito Gell Man: perpetuador da desinformação</title>
 		<link>https://www.jeffersontorres.com.br/filosofia/gell-man/</link>
 		<pubDate>Thu, 11 Jan 2024 09:38:02 -0300</pubDate>
 		
@@ -68,7 +394,7 @@ Amnésia vem do grego &lt;em&gt;mnesis&lt;/em&gt;, que signfica registo, memóri
 	</item>
 	
 	<item>
-		<title>Hanseniase</title>
+		<title>Hanseníase</title>
 		<link>https://www.jeffersontorres.com.br/medicina/hanseniase/</link>
 		<pubDate>Sun, 07 Jan 2024 14:43:03 -0300</pubDate>
 		
@@ -218,32 +544,30 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 	</item>
 	
 	<item>
-		<title>Cleantes: há um exemplo</title>
+		<title>Cleantes, o exemplo</title>
 		<link>https://www.jeffersontorres.com.br/filosofia/cleantes/</link>
 		<pubDate>Sat, 06 Jan 2024 18:05:29 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/filosofia/cleantes/</guid>
 		<description>&lt;div class=&#34;duploflex&#34;&gt;
-&lt;div&gt;
-&lt;h2&gt;A inspiração para história de Cristo?&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Cleantes de Assos&lt;/strong&gt; foi um filósofo helenístico discípulo de Zenão.&lt;/p&gt;
-&lt;p&gt;Nascido pobre, viveu a juventude sob a alcunha de estúpido porque foi atleta durante o dia e, para se sustentar, servo a noite.&lt;/p&gt;
-&lt;p&gt;Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma cozinheira.&lt;/p&gt;
-&lt;p&gt;Foi acusado injustamente de manter atividades ilegais. Seus patrões depuseram a seu favor e foi absolvido. Na verdade, o tribunal ficou tão convencido de sua retidão de conduta que se determinou pagamento de um salário público a Cleantes. &lt;strong&gt;Ele rejeitou.&lt;/strong&gt;&lt;/p&gt;
-    &lt;br&gt;
-&lt;p&gt;Assumiu a escola de filosofia após a morte de Zenão mas continuou trabalhando como carregador de água e outras cargas.&lt;/p&gt;
-&lt;p&gt;Morreu na pobreza, solidão e ensino da filosofia estoica.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sticker&#34;&gt;
+    &lt;div&gt;
+        &lt;h2&gt;A inspiração para história de Cristo?&lt;/h2&gt;
+        &lt;p&gt;&lt;strong&gt;Cleantes de Assos&lt;/strong&gt; foi um filósofo helenístico discípulo de Zenão.&lt;/p&gt;
+        &lt;p&gt;Nascido pobre, viveu a juventude sob a alcunha de estúpido porque foi atleta durante o dia e, para se sustentar, servo a noite.&lt;/p&gt;
+        &lt;p&gt;Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma cozinheira.&lt;/p&gt;
+        &lt;p&gt;Foi acusado injustamente de manter atividades ilegais. Seus patrões depuseram a seu favor e foi absolvido. Na verdade, o tribunal ficou tão convencido de sua retidão de conduta que se determinou pagamento de um salário público a Cleantes. &lt;strong&gt;Ele rejeitou.&lt;/strong&gt;&lt;/p&gt;
+            &lt;br&gt;
+        &lt;p&gt;Assumiu a escola de filosofia após a morte de Zenão mas continuou trabalhando como carregador de água e outras cargas.&lt;/p&gt;
+        &lt;p&gt;Morreu na pobreza, solidão e ensino da filosofia estoica.&lt;/p&gt;
+    &lt;/div&gt;
+    
+    
+    
+      &lt;div id=&#34;img-div&#34;&gt;
+        &lt;img src=&#34;../pix/cleanthes.png&#34;&gt;&lt;/img&gt;
+        &lt;p&gt;Cleantes, o cara.&lt;/p&gt;
+      &lt;/div&gt;
 
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/cleanthes.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Cleantes, o cara.&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;A diferença?&lt;/h2&gt;
 &lt;p&gt;A diferença é que Cleantes de fato existiu e Cristo foi, ao que tudo indica, uma alegoria poderosa para salvação humana.&lt;/p&gt;
@@ -405,6 +729,18 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/hf0taYjdZOw?si=Qni0mJGBd50ygZlz&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p class=&#34;legend&#34;&gt;Banda de moradores locais, c. 2013&lt;/p&gt;
 &lt;p&gt;Para viagem, trata-se de um local absurdamente isolado, com cultura ainda preservada, inclusive a língua, apesar do inglês oficial. É um local obviamente tropical.&lt;/p&gt;
+&lt;h2 id=&#34;curiosidades&#34;&gt;Curiosidades&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chove todo dia o tempo inteiro;&lt;/li&gt;
+&lt;li&gt;Os moradores evitam comer os cocos maduros, ao contrário da cultura litorânea brasileira;&lt;/li&gt;
+&lt;li&gt;Comem cachorros, como iguaria, não rotineiramente;&lt;/li&gt;
+&lt;li&gt;A cultura é muito contaminada pela americana. Basicamente todo mundo se comporta e se veste o mais próximo possível dos artistas americanos;&lt;/li&gt;
+&lt;li&gt;Todos restaurantes servem basicamente tudo que se pode pescar: polvos, tubarões, peixes diversos etc;&lt;/li&gt;
+&lt;li&gt;Existem muitos resquícios da ocupação militar da segunda guerra mundial;&lt;/li&gt;
+&lt;li&gt;Os sítios arqueológicos não são protegidos e você pode tocar, subir e mexer em qualquer coisa;&lt;/li&gt;
+&lt;li&gt;Existem barcos e navios menores naufragados e, caso tenha coragem, é possível mergulhar;&lt;/li&gt;
+&lt;li&gt;Existem reis e cada reinado fala uma língua. &lt;strong&gt;Sério&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;como-chegar-e-orientações&#34;&gt;Como chegar e orientações&lt;/h2&gt;
 &lt;p&gt;Só há duas formas de chegar em Pohnpei: por Guam ou pelo Hawai. Só há uma linha aérea, a United.&lt;/p&gt;
 &lt;p&gt;Em 2023 a empresa local que prestava os serviços de telecomunicações e máquinas de ATM estava com seus serviços sem funcionar.&lt;/p&gt;
@@ -462,7 +798,8 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 &lt;p&gt;O problema reside na análise retrógrada, quando olhamos para os problemas quotidianos e não entendemos porque algumas pessoas se sobressaem e são mais hábeis em tirar proveito dos sistemas estabelecidos.&lt;/p&gt;
 &lt;p&gt;Notadamente, temos o fenômeno das &lt;em&gt;teorias conspiratórias&lt;/em&gt;: na falta de conhecimento sobre este fenômeno, a pessoa tende a crer numa explicação moralista e surreal, já que tudo parece um absurdo se visto de fora. Se o observável em si é anormal, qual o problema em aceitar explicações ainda mais anormais?&lt;/p&gt;
 &lt;h2 id=&#34;saída&#34;&gt;Saída&lt;/h2&gt;
-&lt;p&gt;A solução ideal para a assimetria de habilidades entre povos milenarmente treinados na &lt;em&gt;técnica das múltiplas saídas&lt;/em&gt; e pessoas não versadas na prática é a &lt;strong&gt;edução em massa&lt;/strong&gt;. Infelizmente, o estado atual da excessiva parcialidade da informação, comunicação de alta velocidade e vida efêmera vão ao contrário da solução.
+&lt;p&gt;A solução ideal para a assimetria de habilidades entre povos milenarmente treinados na &lt;em&gt;técnica das múltiplas saídas&lt;/em&gt; e pessoas não versadas na prática é a &lt;strong&gt;educação em massa&lt;/strong&gt;. Infelizmente, o estado atual da excessiva parcialidade da informação, comunicação de alta velocidade e vida efêmera vão ao contrário da solução.&lt;/p&gt;
+&lt;p&gt;Somos bombardeados com informações o tempo inteiro pelo &amp;ldquo;&lt;em&gt;quadradinho de vidro no bolso&lt;/em&gt;&amp;rdquo;. &lt;a href=&#34;../filosofia/gell-man/&#34;&gt;Mas o quão capacitado você é para julgar uma informação jornalística?&lt;/a&gt;
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
@@ -743,174 +1080,6 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 	</item>
 	
 	<item>
-		<title>Meu treino atual</title>
-		<link>https://www.jeffersontorres.com.br/treino-atual/</link>
-		<pubDate>Thu, 28 Dec 2023 09:50:29 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/treino-atual/</guid>
-		<description>&lt;style&gt;
-&lt;/style&gt;
-
- 
-&lt;div class=&#34;carousel&#34;&gt;
-  &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;conteudo&#34;&gt;
-  
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Costas&lt;/p&gt; 
-  &lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Aquecimento na máquina de pull&lt;/li&gt;
-      &lt;li&gt;Cavalinho&lt;/li&gt;
-      &lt;li&gt;Remada baixa de pé&lt;/li&gt;
-      &lt;li&gt;Serrote halter em equilíbrio&lt;/li&gt;
-      &lt;li&gt;Elevação posterior halters sentado&lt;/li&gt;
-      &lt;li&gt;Remada alta anterior barra&lt;/li&gt;
-      &lt;li&gt;Remada plana barra&lt;/li&gt;
-      &lt;!--li&gt;Cabo cruzado&lt;/li--&gt;
-      &lt;li&gt;Latissimus isolado cabo&lt;/li&gt;
-      &lt;li&gt;Latissimus isolado banco&lt;/li&gt;
-      &lt;li&gt;Pullover na corda&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-
-&lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Antebraço&lt;/p&gt; 
-  &lt;/div&gt;
-&lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Rosca invertida&lt;/li&gt;
-      &lt;li&gt;Rosca posterior&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-
-&lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Bíceps&lt;/p&gt; 
-  &lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Rosca neutra com halters&lt;/li&gt;
-      &lt;li&gt;Rosca intercalada unilateral 1/2 carga&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-
- &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Tríceps&lt;/p&gt; 
-  &lt;/div&gt;
- &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Extensão unilateral no pulley&lt;/li&gt;
-      &lt;li&gt;Extensão na barra reta no pulley&lt;/li&gt;
-      &lt;li&gt;Extensão com cordas no pulley&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-
-&lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Peitoral&lt;/p&gt; 
-  &lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Crucifixo hater livre banco reto&lt;/li&gt;
-      &lt;li&gt;Supino halter livre banco reto&lt;/li&gt;
-      &lt;li&gt;Crucifixo no pulley 3 ângulos&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
- 
- &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Panturrilha&lt;/p&gt; 
-  &lt;/div&gt;
- &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Extensão de pé&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Quadríceps&lt;/p&gt; 
-  &lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Agachamento unilateral Smith&lt;/li&gt;
-      &lt;li&gt;Agachamento livre&lt;/li&gt;
-      &lt;li&gt;Máquina Smith 30°&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-
- &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Bíceps femoral&lt;/p&gt; 
-  &lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Mesa flexora decúbito&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
- 
- &lt;div class=&#34;legend&#34;&gt;
-   &lt;p&gt;Ombro&lt;/p&gt; 
-  &lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Puxada lateral no pulley apoiado no pulley&lt;/li&gt;
-      &lt;li&gt;Elevação frontal com halteres&lt;/li&gt;
-      &lt;li&gt;Elevação posterior sentado no banco&lt;/li&gt;
-      &lt;li&gt;Elevação anterior neutra com triângulo invertido&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-
-
-  
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-(function() {
-  let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
-  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
-  let totalSlides = slides.length;
-  let anterior = document.getElementById(&#34;anterior&#34;);
-  let proximo = document.getElementById(&#34;proximo&#34;);
-
-  function showSlide(n) {
-    currentSlide = (n + totalSlides) % totalSlides;
-    for (let i = 0; i &lt; totalSlides; i++) {
-      slides[i].style.display = &#34;none&#34;;
-      legends[i].style.display = &#34;none&#34;;
-    }
-    slides[currentSlide].style.display = &#34;block&#34;;
-    legends[currentSlide].style.display = &#34;block&#34;;
-  }
-  
-  showSlide(currentSlide);
-  
-  
-  
-  
-  proximo.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide + 1);
-  })
-  anterior.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide - 1);
-  })
-  
-  
-  
-  
-  
-  
-  
-  
-})();
-  &lt;/script&gt;
-
-
-</description>
-	</item>
-	
-	<item>
 		<title>Pão de queijo</title>
 		<link>https://www.jeffersontorres.com.br/receitas/pao-de-queijo/</link>
 		<pubDate>Wed, 27 Dec 2023 19:07:14 -0300</pubDate>
@@ -977,8 +1146,10 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;/div&gt; 
 --&gt;
 &lt;br&gt;
-&lt;div class=&#34;search&#34;&gt;
-  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
+&lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;
+&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;procure aqui&#34;&gt;
+&lt;svg class=&#34;lupa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; stroke-width=&#34;1.09&#34; enable-background=&#34;new 0 0 24 24&#34; height=&#34;14px&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;4px&#34; focusable=&#34;false&#34;&gt;&lt;path d=&#34;m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/input&gt;
 &lt;/div&gt;
 &lt;script src=&#34;../files.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;files&#34;&gt;
@@ -1152,8 +1323,8 @@ Seneca
 &lt;/div&gt;
 
 
-&lt;p&gt;Seu legado foi sua própria consolação na forma de livro, deixando os exemplos de autocontrole e autodeterminação.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A maioria de nós não estamos no extremo de Boethius. Pensemos sobre.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Seu legado foi sua própria consolação na forma do livro, deixando-nos seus exemplos de autocontrole e autodeterminação.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A maioria de nós não está no extremo de Boethius. Pensemos sobre.&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
 &lt;ol&gt;
@@ -1349,6 +1520,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 		<guid>https://www.jeffersontorres.com.br/medicina/anatomia/</guid>
 		<description>
 
+&lt;img class=&#34;fundo-only-big&#34; style=&#34;rigth: 0px;&#34; src=&#34;../pix/medicina/body.png&#34;&gt;&lt;/img&gt;
+
+
+
 
   &lt;div id=&#34;img-div&#34;&gt;
     &lt;img src=&#34;../pix/medicina/anatomy.png&#34;&gt;&lt;/img&gt;
@@ -1429,24 +1604,27 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		<guid>https://www.jeffersontorres.com.br/medicina/eclampsia/</guid>
 		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
-&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de gestação a pelo menos 20 semanas, hipertensão e proteinúria.&lt;/p&gt;
-&lt;p&gt;Considera-se hipertensa a mulher grávida com PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica.&lt;/p&gt;
-&lt;p&gt;Proteinúria é a ocorrência de 300mg ou mais na urina de 24h. Aceita-se o diagnóstico mais prático da relação proteína/creatinina² de 0.3.&lt;/p&gt;
-&lt;p&gt;Recentemente, na ausência de proteinúria, considera-se, também, qualquer lesão de órgão-alvo¹.&lt;/p&gt;
-&lt;p&gt;Eclâmpsia é a ocorrência de convulsões durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
+&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de &lt;strong&gt;gestação a pelo menos 20 semanas, hipertensão e proteinúria&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Considera-se hipertensa a grávida com &lt;strong&gt;PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;. Aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Considera-se, também, qualquer lesão de órgão-alvo².&lt;/p&gt;
+&lt;p&gt;Eclâmpsia é a ocorrência de &lt;strong&gt;convulsões&lt;/strong&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
 &lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
+&lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A cura é o &lt;strong&gt;parto&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;cuidados&#34;&gt;Cuidados!&lt;/h3&gt;
-&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e há PCR com 12mEq/L.&lt;/p&gt;
+&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e ocorre PCR com 12mEq/L.&lt;/p&gt;
 &lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
-&lt;p&gt;O gluconato de cálcio a 1g por via endovenosa (geralmente 10 mL a 10%) deve ser administrado lentamente nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
+&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10 mL a 10%) deve ser administrado lentamente nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
 &lt;h2 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h2&gt;
-&lt;p&gt;Como não sabemos a causa, sabemos menos ainda o que funciona. Porém, a medicina baseada em evidências consegue demostrar benefício no uso de ácido acetilsalicílico a 150mg/dia.&lt;/p&gt;
-&lt;p&gt;Caso se identifique deficiência de cálcio na dieta (presumida clinicamente ou laboratorial), prescreve-se cálcio oral dietético suplementar a 1-2g/dia.&lt;/p&gt;
+&lt;p&gt;A medicina baseada em evidências consegue demostrar benefício no uso de &lt;strong&gt;ácido acetilsalicílico a 150mg/dia&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Caso se tenha deficiência de cálcio na dieta presumida clinicamente ou por diagnóstico laboratorial, prescreve-se &lt;strong&gt;cálcio oral dietético suplementar a 1-2g/dia&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;A &lt;a href=&#34;../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
 &lt;li&gt;Proteína total dividida pela creatinina medidas em mesma unidade.&lt;/li&gt;
+&lt;li&gt;A &lt;a href=&#34;../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -1461,10 +1639,12 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/dicionario/</guid>
-		<description>&lt;p&gt;Pensei neste dicionário como meio de consulta rápida para minhas áreas de interesse, notadamente a medicina e ciências em geral.
-&lt;br&gt;&lt;/p&gt;
-&lt;div class=&#34;search&#34;&gt;
-  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;busque aqui...&#34;&gt;&lt;/input&gt;
+		<description>&lt;br&gt;
+&lt;br&gt;
+&lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;
+&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;procure aqui&#34;&gt;
+&lt;svg class=&#34;lupa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; stroke-width=&#34;1.09&#34; enable-background=&#34;new 0 0 24 24&#34; height=&#34;14px&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;4px&#34; focusable=&#34;false&#34;&gt;&lt;path d=&#34;m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/input&gt;
 &lt;/div&gt;
 &lt;script src=&#34;../dicionario.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;search-output&#34;&gt;
@@ -1506,16 +1686,55 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		<guid>https://www.jeffersontorres.com.br/medicina/pressao-arterial/</guid>
 		<description>&lt;h2 id=&#34;frequência-cardíaca&#34;&gt;Frequência cardíaca¹&lt;/h2&gt;
 &lt;p&gt;$$
-50bpm \leq FC_{normal} \geq 100bpm
+50bpm \leq FC_{normal} \leq 100bpm
 $$&lt;/p&gt;
 &lt;h2 id=&#34;pressão-arterial-média&#34;&gt;Pressão arterial média&lt;/h2&gt;
 &lt;p&gt;$$
 PAM = \frac{PAS + 2 * PAD}{3}
-$$&lt;/p&gt;
+$$
+
+
+&lt;div class=&#34;calculadoras&#34;&gt;
+&lt;label for=&#34;pad&#34;&gt;Pressão diastólica:&lt;/label&gt;
+&lt;br&gt;
+&lt;input id=&#34;pad&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;label for=&#34;pas&#34;&gt;Pressão sistólica:&lt;/label&gt;
+&lt;br&gt;
+&lt;input id=&#34;pas&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;button id=&#34;calc-pam&#34; onclick=&#34;pamedia()&#34;&gt;Calcular PAM&lt;/button&gt;
+&lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+    function pamedia() {
+        let pad = parseFloat(document.getElementById(&#34;pad&#34;).value);
+        let pas = parseFloat(document.getElementById(&#34;pas&#34;).value);
+
+        let resultado = (pas + (2 * pad)) / 3;
+
+        if (isNaN(resultado)) {
+            document.getElementById(&#34;resultado&#34;).innerText = &#34;Confira os dados!&#34;;
+            return
+        }
+
+        document.getElementById(&#34;resultado&#34;).innerText = resultado.toFixed(2)+&#34;mmHg de pressão arterial média.&#34;;
+    }
+&lt;/script&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;média-da-pressão-arterial&#34;&gt;Média da pressão arterial&lt;/h2&gt;
 &lt;p&gt;$$
 \bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
 $$&lt;/p&gt;
+&lt;h2 id=&#34;pressão-normal-de-tecidos-não-fluidos&#34;&gt;Pressão normal de tecidos não-fluidos&lt;/h2&gt;
+&lt;p&gt;$$
+0mmHg \leq PA_{tissue} \leq 8mmHg
+$$
+$$
+\Delta P_{tissue} = PA_{dias} - PA_{tissue}
+$$&lt;/p&gt;
+&lt;p&gt;O $\Delta P_{tissue}$ é crítico se &lt;strong&gt;menor que 30mmHg&lt;/strong&gt;. Se zero, a isquemia é presumida.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -1525,26 +1744,15 @@ $$&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Grandes queimados - Parkland</title>
+		<title>Grandes queimados: Parkland</title>
 		<link>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</link>
 		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</guid>
 		<description>
 
-&lt;style&gt;
-p {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 65%;
-  color: white;
-  font-weight: bold;
-  text-indent: 0%;
-  align: center;
-  text-align: center;
-}
-&lt;/style&gt;
-&lt;form id=&#34;formElementos&#34; class=&#34;center&#34;&gt;
+&lt;div class=&#34;calculadoras&#34;&gt; 
+&lt;form id=&#34;formElementos&#34;&gt;
   &lt;label for=&#34;elementos&#34;&gt;Adicione as partes queimadas:&lt;/label&gt;
   &lt;br&gt;
  &lt;select id=&#34;elementos&#34;&gt;
@@ -1567,12 +1775,10 @@ p {
   &lt;/select&gt;
 &lt;/form&gt;
 &lt;br&gt;
-&lt;div class=&#34;center&#34;&gt;
+&lt;div&gt;
   &lt;button onclick=&#34;adicionarElemento()&#34;&gt;Adicionar&lt;/button&gt;
-  &lt;p class=&#34;center&#34; style=&#34;color: navajowhite&#34;&gt;Elementos selecionados:&lt;/p&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
-    &lt;ul id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
-  &lt;/div&gt;
+  &lt;p&gt;Elementos selecionados:&lt;/p&gt;
+    &lt;ul class=&#34;left&#34; id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
   &lt;br&gt;
   &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
   &lt;input id=&#34;idade&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
@@ -1587,11 +1793,9 @@ p {
   &lt;br&gt;
   &lt;button onclick=&#34;calcular()&#34;&gt;Calcular&lt;/button&gt;
   &lt;br&gt;
-  &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+  &lt;p id=&#34;resultado&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
 &lt;/div&gt;
-  
-&lt;h2 style=&#34;padding: 0%&#34; class=&#34;center&#34;&gt;Parkland sugerido:&lt;/h2&gt;
-&lt;p id=&#34;parkland-pratico&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
+&lt;/div&gt;
 &lt;script&gt;
 let elementosSelecionados = [];
 
@@ -1607,6 +1811,8 @@ function adicionarElemento() {
 }
 
 function calcular() {
+  document.getElementById(&#39;resultado&#39;).innerHTML = &#39;&#39;;
+
   let meiaperna = 9;
   let meiacabeca = 4.5;
   let genitalia = 1;
@@ -1668,27 +1874,25 @@ function calcular() {
     debito = 0.5 * peso ;
   };
 
-  document.getElementById(&#39;parkland-pratico&#39;).innerHTML = 
-    &#34;Fazer &#34;+dose+&#34;ml/h de Ringer Lactato&lt;br&gt;Débito urinário esperado em torno de &#34;+debito+&#34;mL/h.&lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&lt;br&gt;&lt;br&gt;A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&#34;
-
   if (grau === &#34;pequeno&#34;) {
-    document.getElementById(&#39;parkland-pratico&#39;).innerHTML += 
-    &#34;&lt;br&gt;Em pacientes pequenos queimados, repense a necessidade de reidratação.&#34;;
+    document.getElementById(&#39;resultado&#39;).innerHTML += 
+    &#34;&lt;br&gt;&lt;strong&gt;Em pacientes pequenos queimados, repense a necessidade de reidratação.&lt;/strong&gt;&#34;;
   }
+
+  document.getElementById(&#39;resultado&#39;).innerHTML += 
+    &#34;&lt;br&gt;Fazer &#34;+dose+&#34;ml/h de Ringer Lactato&lt;br&gt;Débito urinário esperado em torno de &#34;+debito+&#34;mL/h.&lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&lt;br&gt;&lt;br&gt;A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&#34;
 }
 &lt;/script&gt;
-&lt;style src=&#34;../static/style.css&#34;&gt;
-&lt;/style&gt;
 
 </description>
 	</item>
 	
 	<item>
 		<title>Canais que recomendo</title>
-		<link>https://www.jeffersontorres.com.br/ciencia/canais-yt/</link>
+		<link>https://www.jeffersontorres.com.br/canais-yt/</link>
 		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/ciencia/canais-yt/</guid>
+		<guid>https://www.jeffersontorres.com.br/canais-yt/</guid>
 		<description>&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
 &lt;h3 id=&#34;eugene-kuthoriansky&#34;&gt;Eugene Kuthoriansky&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@EugeneKhutoryansky&#34;&gt;https://www.youtube.com/@EugeneKhutoryansky&lt;/a&gt;&lt;/p&gt;
@@ -1696,8 +1900,17 @@ function calcular() {
 &lt;p&gt;A grande vantagem do Eugene é a abordagem de temas acadêmicos lado-a-lado de curiosidades e assuntos mais mundanos.&lt;/p&gt;
 &lt;h3 id=&#34;science-asylum&#34;&gt;Science Asylum&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@ScienceAsylum&#34;&gt;https://www.youtube.com/@ScienceAsylum&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Canal do Nick Lucid, um professor de física casado com uma bióloga, com uma pegada mais adequada para vídeos rápidos e curiosos. Não recomendo como forma de esclarecer dúvidas muito aprofundadas, mas é ótimo como fonte de informação curiosa e acurada.&lt;/p&gt;
-&lt;p&gt;Não recomendo para verdadeira compreensão da &lt;a href=&#34;../teoria-relatividade/index.html&#34;&gt;teoria da relatividade&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Canal do Nick Lucid, um professor de física casado com uma bióloga, com uma pegada mais adequada para vídeos rápidos e curiosos. Recomendo como forma de esclarecer dúvidas muito aprofundadas sem muito lenga-lenga, pois é ótimo como fonte de informação curiosa e acurada.&lt;/p&gt;
+&lt;h3 id=&#34;caltech&#34;&gt;Caltech&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@caltech&#34;&gt;https://www.youtube.com/@caltech&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Em 1985 o Instituto Caltech da Califórnia produziu um videocurso chamado &lt;strong&gt;The mechanical Universe&lt;/strong&gt;, apresentado de forma televisiva cobrindo todos tópicos essenciais em Física. O &lt;em&gt;host&lt;/em&gt; foi o carismático professor &lt;a href=&#34;https://en.wikipedia.org/wiki/David_Goodstein&#34;&gt;David Goodstein&lt;/a&gt;, conhecido por ser muito didático.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Desconheço curso melhor de física!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A série foi disponibilizada ainda no início dos anos 2000 e foi posta no YouTube em 2016.&lt;/p&gt;
+&lt;p&gt;Clique &lt;a href=&#34;https://www.youtube.com/watch?v=XtMmeAjQTXc&amp;amp;list=PL8_xPU5epJddRABXqJ5h5G0dk-XGtA5cZ&amp;amp;pp=iAQB&#34;&gt;aqui&lt;/a&gt; para acessar a playlist do curso.&lt;/p&gt;
+&lt;h2 id=&#34;filosofia&#34;&gt;Filosofia&lt;/h2&gt;
+&lt;h3 id=&#34;dialect&#34;&gt;Dialect&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@dialectphilosophy&#34;&gt;https://www.youtube.com/@dialectphilosophy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Talvez o canal que mais admiro. &lt;strong&gt;Único canal do YouTube que recomendo para verdadeira compreensão da teoria da relatividade&lt;/strong&gt; porque este é o tema central do canal e a pesquisa gira em torno dos &lt;em&gt;papers&lt;/em&gt; de Einstein.&lt;/p&gt;
 &lt;h2 id=&#34;medicina&#34;&gt;Medicina&lt;/h2&gt;
 &lt;h3 id=&#34;strong-medicine&#34;&gt;Strong Medicine&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@StrongMed&#34;&gt;https://www.youtube.com/@StrongMed&lt;/a&gt;&lt;/p&gt;
@@ -1721,7 +1934,7 @@ function calcular() {
 &lt;p&gt;Defensor ferrenho do Georgismo, tem sacadas incríveis e um ponto de vista bem curado sobre geopolítica e história.&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi, na verdade, vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma &#34;rainha&#34; que de importante só tem a herança genética. &lt;br&gt;Questione. Pense.
+Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informação de que o Serviço Secreto Britânico passou um ato proibindo todas pessoas de conhecer completamente o trabalho de Turing sob a desculpa do segredo de guerra. Na verdade, uma das mais brilhantes mentes do século passado foi vítima de perseguição e opressão pela bizarra elite Imperial. Sim, a mesma que exige que você chore a morte de uma &#34;rainha&#34; que de importante só tem a herança genética. &lt;br&gt;Questione. Pense.
  &lt;/span&gt;
 &lt;/div&gt;
 
@@ -1924,7 +2137,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 		<description>&lt;h2 id=&#34;lactente-ou-neonato&#34;&gt;Lactente ou neonato&lt;/h2&gt;
 &lt;h3 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-G(Instalar o EEG disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia)
+G(Instalar o EEG se disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia)
 A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg + manutenção 5-8mg/Kg)
 D -- Opção 2 --&gt; F(Midazolam 0.15mg/Kg + manutenção 0.1mcg/Kg/min)
 F -- Persistência --&gt; Z(Sedação e intubação)
@@ -1940,7 +2153,8 @@ E -- Persistência --&gt;Z
 		<pubDate>Wed, 15 Nov 2023 22:42:02 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/massagem-carotidea/</guid>
-		<description>&lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via barorreceptores que provocam estimulação parassimpática vagal.&lt;/p&gt;
+		<description>&lt;h2 id=&#34;o-que-é&#34;&gt;O que é&lt;/h2&gt;
+&lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via barorreceptores que provocam estimulação parassimpática vagal.&lt;/p&gt;
 &lt;p&gt;Seu emprego também é terapêutico nos casos de taquiarritmias supraventriculares.&lt;/p&gt;
 &lt;p&gt;Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por profissionais menos treinados. Seu baixo custo e independência de preparo a tornam uma das mais famosas &lt;strong&gt;mágicas atitudes médicas a beira-leito&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;o-mito-da-tromboembolia-cerebral-como-complicação&#34;&gt;O mito da tromboembolia cerebral como complicação&lt;/h2&gt;
@@ -1948,7 +2162,7 @@ E -- Persistência --&gt;Z
 &lt;p&gt;&lt;strong&gt;Isto não procede &lt;em&gt;estatisticamente&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Em um estudo transversal, Lacerda &lt;em&gt;et al&lt;/em&gt; demonstraram que apenas 0.4% de um grupo de 502 pacientes &lt;strong&gt;de alto risco&lt;/strong&gt; apresentaram complicações do tipo déficit neurológico agudo após serem submetidos a massagem carotídea¹.&lt;/p&gt;
 &lt;p&gt;Tal constatação joga por terra a teoria do fácil deslocamento de placas carotídeas, tendo em vista que foram selecionados pacientes de alta prevalência de doença aterosclerótica e de cardiopatia, já em acompanhamento ambulatorial. Por extrapolação estatística (neste caso mais que autorizada), podemos inferir que a incidência é ainda menor na população em geral, provavelmente zero.&lt;/p&gt;
-&lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura ateromatosa, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
+&lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura aterial, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Non sequitur&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após longo período de carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../pix/codex-vieses.jpg&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
@@ -1970,36 +2184,52 @@ E -- Persistência --&gt;Z
 		<pubDate>Wed, 15 Nov 2023 18:42:29 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/cockcroft-gault/</guid>
-		<description>
-
-&lt;!DOCTYPE html&gt;
-&lt;script&gt;
+		<description>&lt;script&gt;
   function calcularTFG() {
     var idade = parseFloat(document.getElementById(&#34;idade&#34;).value);
     var peso = parseFloat(document.getElementById(&#34;peso&#34;).value);
+    var altura = parseFloat(document.getElementById(&#34;altura&#34;).value);
     var creatinina = parseFloat(document.getElementById(&#34;creatinina&#34;).value);
     var sexo = document.getElementById(&#34;sexo&#34;).value;
     var ajuste = sexo === &#34;masculino&#34; ? 1 : 0.85;
-    var resultadoTFG = ((140 - idade) * peso) * ajuste / (72 * creatinina)
+    var ajustePeso = sexo === &#34;masculino&#34; ? 0 : 4.5;
+    var pesoIdeal = (50 - ajustePeso) + 2.3 * ((altura/2.54) - 60); //trocar o 60 p/ cm
+    var pesoAjustado = pesoIdeal + 0.4 * (peso - pesoIdeal);
+    var resultadoTFG = ((140 - idade) * pesoIdeal) * ajuste / (72 * creatinina)
 
-    document.getElementById(&#34;resultado&#34;).innerText = resultadoTFG.toFixed(2) + &#34; mL/min&#34;;
+    if  (isNaN(idade) ||
+         isNaN(peso) ||
+         isNaN(altura) ||
+         isNaN(creatinina)) 
+    {
+        document.getElementById(&#34;resultado&#34;).innerText = &#34;VERIFIQUE DADOS INSERIDOS!&#34;;
+        return
+    }
+
+    console.log(peso)
+
+    document.getElementById(&#34;resultado&#34;).innerText = &#34;Taxa de filtração glomerular estimada de &#34;+resultadoTFG.toFixed(2)+&#34;mL/min.\nO peso ideal é de &#34;+pesoIdeal.toFixed(1)+&#34;Kg.\nO peso ajustado é de &#34;+pesoAjustado.toFixed(1)+&#34;Kg.&#34;;
+
+    document.getElementById(&#34;botao-copiar&#34;).style.display = &#39;block&#39;;
+    const botaoCopiar = document.getElementById(&#39;botao-copiar&#39;);
+    const paragrafo = document.getElementById(&#39;resultado&#39;);
+    
+    botaoCopiar.addEventListener(&#39;click&#39;, () =&gt; {
+      const textoParaCopiar = paragrafo.textContent;
+      navigator.clipboard.writeText(textoParaCopiar);
+      //alert(&#39;Texto copiado para a área de transferência!&#39;);
+    });
   }
 &lt;/script&gt;
-    
-    &lt;h2&gt;Estime a TFG via Cockcroft-Gault:&lt;/h2&gt;
-&lt;div class=&#34;sticker&#34;&gt;
-$$
-TFG = \frac{(140 - idade_{anos}) * PesoSeco_{kg}}{Creatinina_{mg/dL} * 72} * 0.85_{mulheres}
-$$
-&lt;/div&gt;
-
-&lt;div class=&#34;center&#34;&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
     &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
     &lt;label for=&#34;peso&#34;&gt;Peso (kg):&lt;/label&gt;&lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;peso&#34;&gt;&lt;br&gt;&lt;br&gt;
     &lt;label for=&#34;creatinina&#34;&gt;Creatinina (mg/dL):&lt;/label&gt;&lt;br&gt;
     &lt;input type=&#34;number&#34; id=&#34;creatinina&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;altura&#34;&gt;Altura (cm):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;altura&#34;&gt;&lt;br&gt;&lt;br&gt;
     &lt;label for=&#34;sexo&#34;&gt;Sexo:&lt;/label&gt;&lt;br&gt;
     &lt;select id=&#34;sexo&#34;&gt;
         &lt;option value=&#34;masculino&#34;&gt;Masculino&lt;/option&gt;
@@ -2007,8 +2237,23 @@ $$
     &lt;/select&gt;&lt;br&gt;&lt;br&gt;
     &lt;button onclick=&#34;calcularTFG()&#34;&gt;Calcular TFG&lt;/button&gt;&lt;br&gt;&lt;br&gt;
     &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+    &lt;button style=&#34;display: none&#34; id=&#34;botao-copiar&#34;&gt;Copiar Resultado&lt;/button&gt;
 &lt;/div&gt;
-
+&lt;h2 id=&#34;os-cálculos-de-cockcroft-gault&#34;&gt;Os cálculos de Cockcroft-Gault:&lt;/h2&gt;
+&lt;p&gt;$$
+m_{ideal} = 50_{homem} | 45.5_{mulher} + 2.3(alt - 60)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
+$$&lt;/p&gt;
+&lt;p&gt;$$
+TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher}
+$$&lt;/p&gt;
+&lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;m(s)&lt;/em&gt;&lt;/strong&gt; são as massas em Kg, &lt;strong&gt;&lt;strong&gt;alt&lt;/strong&gt;&lt;/strong&gt; a altura em pol, &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos, &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;0.85&lt;/em&gt;&lt;/strong&gt; uma constante de ajuste aplicado às mulheres, apenas.&lt;/p&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Cockcroft DW, Gault MH. &lt;strong&gt;Prediction of creatinine clearance from serum creatinine&lt;/strong&gt;. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -2023,7 +2268,7 @@ $$
 &lt;p&gt;Esta consideração, &lt;em&gt;per si&lt;/em&gt;, significa que a reprodução humana é peculiar e pouco eficiente. De fato, se comparado a muitos outros mamíferos, os primatas tem uma das reproduções mais limitadas.&lt;/p&gt;
 &lt;p&gt;Além disso, somos primatas medianos, incapazes de defesa direta contra outros grandes mamíferos e répteis e, ao mesmo tempo, temos alta neecssidade energética e metabólica.&lt;/p&gt;
 &lt;p&gt;Assim, tenho feito a derivação mental constante de que, na realidade, os empecilhos da reprodução humana serviram justamente de força motriz para as rápidas e específicas adaptações comunicativas e hábeis que nos tornam singulares.&lt;/p&gt;
-&lt;p&gt;Esta pressão evolutiva é rara em outros domínios, como entre os insetos, apesar das pontuais exceções, e.g. as ligeiramente longas metamorfoses das &lt;a href=&#34;./pix/isognatus.jpg&#34;&gt;isognatus&lt;/a&gt;. Adaptativamente falando, a gestação prolongada e a fragilidade do concepto promovem enormes mudanças comportamentais, entre as mais interessantes a clara vantagem da relação monogâmica, o armazenamento de alimentos, a construção de habitáculos seguros, a busca de locais de altitude considerável ou a região costeira, a presença fixa de água potável etc.&lt;/p&gt;
+&lt;p&gt;Esta pressão evolutiva é rara em outros domínios, como entre os insetos, apesar das pontuais exceções, e.g. as ligeiramente longas metamorfoses das &lt;a href=&#34;../ciencia/isognatus/&#34;&gt;isognatus&lt;/a&gt;. Adaptativamente falando, a gestação prolongada e a fragilidade do concepto promovem enormes mudanças comportamentais, entre as mais interessantes a clara vantagem da relação monogâmica, o armazenamento de alimentos, a construção de habitáculos seguros, a busca de locais de altitude considerável ou a região costeira, a presença fixa de água potável etc.&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li&gt;A família aqui considerada é a melhor projeção moderna para o que entenderíamos como &lt;em&gt;bando primata&lt;/em&gt;.&lt;/li&gt;
@@ -2037,45 +2282,37 @@ $$
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
-		<description>&lt;!--
-&lt;div style=&#34;display: grid; align-content:center&#34; id=&#34;aviso&#34;&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+		<description>&lt;div id=&#34;aviso&#34;&gt;
+ &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-A resolução de questões é um dos mais importantes instrumentos na aprovação em provas e a grande maioria dos preparatórios vendem bancos de questões. 
-&lt;br&gt;
-&lt;br&gt;
-Infelizmente, a maior parte dos bancos está protegida por &lt;em&gt;paywalls&lt;/em&gt;. Isto seria facilmente superado se houvesse esforço coletivo de pessoas para produzir um banco de livre acesso.
-&lt;br&gt;
-&lt;br&gt;
-&lt;strong&gt;Sou contra criticar e não fazer nada a respeito, por isso resolvi criar um protótipo.&lt;/strong&gt;
-&lt;br&gt;
-&lt;br&gt;
-Este banco foi elaborado inteiramente por mim, portanto a adição de novas questões demora um pouco porque faço quando posso. 
-&lt;br&gt;
-&lt;br&gt;
-Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquestoes&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt;
-
-&lt;br&gt;
-&lt;span style=&#34;color: var(--termo)&#34;&gt;Clique em &lt;em&gt;Gerar nova questão&lt;/em&gt; e boa prática! &lt;/span&gt;
-
- &lt;/span&gt;
+   Infelizmente, a maior parte dos bancos de questões estãos protegidos por &lt;em&gt;paywalls&lt;/em&gt;. 
+   &lt;br&gt;
+   Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso.
+   &lt;br&gt;
+   &lt;br&gt;
+   &lt;strong&gt;Por isso resolvi criar um protótipo.&lt;/strong&gt;
+   &lt;br&gt;
+   &lt;br&gt;
+   A adição de novas questões demora um pouco porque faço quando posso. 
+   &lt;br&gt;
+   Entre em contato se deseja adicionar questões.
+   &lt;span style=&#34;color: var(--termo)&#34;&gt;Clique em &lt;em&gt;Gerar nova questão&lt;/em&gt; e boa prática! &lt;/span&gt;
+  &lt;/span&gt;
 &lt;/div&gt;
 
 
-  &lt;button style=&#34;margin-left: auto; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;Fechar&lt;/button&gt;
+ &lt;button style=&#34;margin-left: 5vw; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;
+    Fechar aviso!
+ &lt;/button&gt;
 &lt;/div&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-
---&gt;
+&lt;br&gt;
+&lt;!-- Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquestoes&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt; --&gt; 
 
 
-&lt;div class=&#34;sticker&#34;&gt;
-  &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;
 &lt;div id=&#34;question-container&#34;&gt;&lt;/div&gt;
 &lt;div id=&#34;info-question&#34;&gt;
-  &lt;button onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
+  &lt;button style=&#34;margin-left: 5vw; margin-right: auto; margin-top: 5px;&#34; onclick=&#34;generateRandomQuestion()&#34;&gt;Gerar nova questão&lt;/button&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;script src=&#34;../bancoquestoes.js&#34;&gt;&lt;/script&gt;
@@ -2389,6 +2626,7 @@ Onde, sendo $f(a,b)$ uma função genérica de parâmetros $a,b$, temos:
 $$
 tampão_{HCO_3⁻} = f([HCO_3⁻], pCO2)
 $$&lt;/p&gt;
+&lt;p&gt;O valor de 6,10 trata-se exatamente da chamada constante de autodissociação da água, ou seja, é um determinístico do pH da água que reage consigo mesma, produzindo íons hidrônio $H_{3}O^{+}$.&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;interpretação&#34;&gt;Interpretação&lt;/h2&gt;
 &lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; EM CONSTRUÇÃO &lt;/span&gt;&lt;/p&gt;
@@ -2406,6 +2644,11 @@ $$&lt;/p&gt;
     pH --&gt;|&gt; 7.45| alcalemia[procure a alcalose];
 &lt;/pre&gt;
 
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;COPPOLA, Silvia et al. &lt;strong&gt;Sodium bicarbonate in different critically ill conditions: From physiology to clinical practice&lt;/strong&gt;. Anesthesiology, v. 134, n. 5, p. 774-783, 2021.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -2711,6 +2954,7 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 
 &lt;br&gt;
 &lt;br&gt;
+&lt;h2 id=&#34;sobre-mim&#34;&gt;Sobre mim&lt;/h2&gt;
 &lt;p&gt;Um aprendiz estoicista, estudante de medicina, &lt;a href=&#34;../anestesia/index.html&#34;&gt;futuro anestesiologista. &lt;strong&gt;Eu acho&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- [Não uso redes sociais e evito amizades e conversas apenas virtuais](/redes-sociais/index.html). --&gt;
 &lt;p&gt;Não uso redes sociais e evito amizades e conversas apenas virtuais.&lt;/p&gt;
@@ -2851,34 +3095,34 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, function() {
 		<description>
 
 &lt;!-- Falta incluir alguns elementos como ruptura de aneurisma etc --&gt;
-&lt;div class=&#34;center&#34;&gt;
+&lt;div&gt;
 &lt;div style=&#34;display: inline-block;&#34; class=&#34;sticker&#34;&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
-	&lt;label&gt;Não há outro diagnóstico mais provável.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
-	&lt;label&gt;Sinais clínicos de trombose venosa.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
-	&lt;label&gt;Cirurgia recente ou imobilização.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
-	&lt;label&gt;Tromboembolismos prévios.&lt;/label&gt;
-	&lt;br&gt;
-  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
-	&lt;label&gt;Frequência cardíaca acima de 100bpm.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
-	&lt;label&gt;Hemoptise.&lt;/label&gt;
-	&lt;br&gt;
-	&lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
-	&lt;label&gt;Câncer.&lt;/label&gt;
-&lt;/div&gt;
-	&lt;br&gt;
-  &lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
-	&lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
+  &lt;label&gt;Não há outro diagnóstico mais provável.&lt;/label&gt;
   &lt;br&gt;
-	&lt;div id=&#34;result&#34;&gt;&lt;/div&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
+  &lt;label&gt;Sinais clínicos de trombose venosa.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+  &lt;label&gt;Cirurgia recente ou imobilização.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+  &lt;label&gt;Tromboembolismos prévios.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1.5&#34;&gt;
+  &lt;label&gt;Frequência cardíaca acima de 100bpm.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
+  &lt;label&gt;Hemoptise.&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
+  &lt;label&gt;Câncer.&lt;/label&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;button style=&#34;margin-left: 5vw&#34; onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p id=&#34;result&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;script&gt;

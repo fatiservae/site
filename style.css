@@ -225,10 +225,10 @@ a#switch:hover {
 }
 
 #resultado{
+  margin-left: 0;
   text-align: start;
   text-indent: 0%;
   font-weight: bold;
-  color: var(--negrito);
 }
 #result {
   color: var(--fonte) ;
@@ -607,6 +607,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência:before { content: "🚨 " ;}
 #tag_calculadoras:before { content: "🔢 " ;}
 #tag_medicina:before { content: "🩺💉 " ;}
+#tag_natureza:before { content: "🐞🌻 " ;}
 #tag_pediatria:before { content: "👶 " ;}
 #tag_obstetricia:before { content: "🤰 " ;}
 #tag_inteligência:before { content: "🌐 " ;}
@@ -1664,4 +1665,16 @@ div#counter {
   right: 1em; 
   bottom: 1em; 
   z-index: -1;
+}
+
+.calculadoras {
+  background: var(--gradiente-dark);
+  border-radius: 20px;
+  padding: 1em;
+  width: fit-content;
+  margin-left: 5vw;
+  border: 2px dashed var(--fonte);
+}
+.calculadoras h2:before {
+  content: none;
 }

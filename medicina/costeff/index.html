@@ -8,7 +8,6 @@
 .katex{
   text-align: start !important ;
   width: fit-content;
-  margin-left: 5vw;
   background: var(--gradiente-dark);
 }
 @media only screen and (max-width: 800px){
@@ -154,12 +153,13 @@ ASC = {{ 4m + 7 } \over { m + 90 }}
 $$</p>
 <p>A perda hídrica <strong>insensível</strong> estimada¹ é de 300-400mL/m²/dia.</p>
 <p>Considere também a perda <strong>sensível</strong> de diurese, evacuação e sangramentos (<a href="../../medicina/cockcroft-gault/">calcule a TFG via Cockcroft-Gault</a>).</p>
-<h2 id="calculadora">Calculadora</h2>
-<p><label for="massa">Massa do paciente (Kg)</label>
+<div class="calculadoras">
+<label for="massa">Massa do paciente (Kg)</label>
 <br>
-<input type="number" id="massa"/></p>
+<input type="number" id="massa"/>
 <p id="resultado"></p>
 <p><button onClick="bsa()">Calcular</button></p>
+</div>
 <h2 id="queimados">Queimados</h2>
 <p>Veja <a href="../../medicina/calculos-queimados/">grandes queimados</a>.</p>
 <script>

@@ -8,7 +8,6 @@
 .katex{
   text-align: start !important ;
   width: fit-content;
-  margin-left: 5vw;
   background: var(--gradiente-dark);
 }
 @media only screen and (max-width: 800px){
@@ -39,12 +38,10 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="Frequência cardíaca¹ $$ 50bpm \leq FC_{normal} \leq 100bpm $$
-Pressão arterial média $$ PAM = \frac{PAS &#43; 2 * PAD}{3} $$
-Média da pressão arterial $$ \bar{\mu}= PA[média] = \frac{PAS &#43; PAD}{2} $$
+Pressão arterial média $$ PAM = \frac{PAS &#43; 2 * PAD}{3} $$ Pressão diastólica: Pressão sistólica: Calcular PAM Média da pressão arterial $$ \bar{\mu}= PA[média] = \frac{PAS &#43; PAD}{2} $$
 Pressão normal de tecidos não-fluidos $$ 0mmHg \leq PA_{tissue} \leq 8mmHg $$ $$ \Delta P_{tissue} = PA_{dias} - PA_{tissue} $$
-O $\Delta P_{tissue}$ é crítico se menor que 30mmHg. Se zero, a isquemia é presumida.
-Referências MASON, Jay W.">
-  <meta name="keywords" content="Medicina">
+O $\Delta P_{tissue}$ é crítico se menor que 30mmHg. Se zero, a isquemia é presumida.">
+  <meta name="keywords" content="Medicina, Calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -156,7 +153,38 @@ $$</p>
 <h2 id="pressão-arterial-média">Pressão arterial média</h2>
 <p>$$
 PAM = \frac{PAS + 2 * PAD}{3}
-$$</p>
+$$
+
+
+<div class="calculadoras">
+<label for="pad">Pressão diastólica:</label>
+<br>
+<input id="pad" type="number"></input>
+<br>
+<label for="pas">Pressão sistólica:</label>
+<br>
+<input id="pas" type="number"></input>
+<br>
+<br>
+<button id="calc-pam" onclick="pamedia()">Calcular PAM</button>
+<p id="resultado"></p>
+</div>
+<script>
+    function pamedia() {
+        let pad = parseFloat(document.getElementById("pad").value);
+        let pas = parseFloat(document.getElementById("pas").value);
+
+        let resultado = (pas + (2 * pad)) / 3;
+
+        if (isNaN(resultado)) {
+            document.getElementById("resultado").innerText = "Confira os dados!";
+            return
+        }
+
+        document.getElementById("resultado").innerText = resultado.toFixed(2)+"mmHg de pressão arterial média.";
+    }
+</script>
+</p>
 <h2 id="média-da-pressão-arterial">Média da pressão arterial</h2>
 <p>$$
 \bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
@@ -169,7 +197,6 @@ $$
 \Delta P_{tissue} = PA_{dias} - PA_{tissue}
 $$</p>
 <p>O $\Delta P_{tissue}$ é crítico se <strong>menor que 30mmHg</strong>. Se zero, a isquemia é presumida.</p>
-<h2 id="heading"></h2>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
@@ -178,7 +205,7 @@ $$</p>
 
 
 <br>
-        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a></div>
 
 <footer>
   <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
