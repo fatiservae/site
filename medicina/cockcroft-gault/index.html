@@ -32,7 +32,7 @@
 
   
 
-  <title>Taxa De Filtração Glomerular - Cockcroft Gault | Jefferson T.</title>
+  <title>Taxa De Filtração Glomerular: MDRD E Cockcroft-Gault | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
@@ -42,10 +42,10 @@ Peso (kg):
 Creatinina (mg/dL):
 Altura (cm):
 Sexo:
-Masculino Feminino Calcular TFG
-Copiar Resultado Os cálculos de Cockcroft-Gault: $$ m_{ideal} = 50_{homem} | 45.5_{mulher} &#43; 2.3(alt - 60) $$
+Masculino Feminino Negro(a) Calcular TFG
+Copiar Resultado Os cálculos de Cockcroft-Gault: $$ m_{ideal} = (50_{homem} \wedge 45.5_{mulher}) &#43; 2.3(alt - 60) $$
 $$ m_{ajustada} = m_{ideal} &#43; 0.4(m - m_{ideal}) $$
-$$ TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher} $$
+$$ TFG = \frac{(140 - i) m_{ajustada}}{cr * 72} 0.85_{mulher} $$
 Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a creatinina sérica em mg/dL e 0.">
   <meta name="keywords" content="calculadoras, medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -164,6 +164,18 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
     var pesoIdeal = (50 - ajustePeso) + 2.3 * ((altura/2.54) - 60); //trocar o 60 p/ cm
     var pesoAjustado = pesoIdeal + 0.4 * (peso - pesoIdeal);
     var resultadoTFG = ((140 - idade) * pesoIdeal) * ajuste / (72 * creatinina)
+    var negro = document.getElementById("negro");
+    var fatormdrd1 = 1;
+    var fatormdrd2 = 1;
+
+    if (negro.checked) {
+      fatormdrd1 = 1.21;
+    } 
+    if (sexo === "feminino") {
+      fatormdrd2 = 0.742
+    }
+
+    var mdrd = 175 * Math.pow(creatinina, -1.154) * Math.pow(idade, -0.203) * fatormdrd1 * fatormdrd2; 
 
     if  (isNaN(idade) ||
          isNaN(peso) ||
@@ -174,9 +186,7 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
         return
     }
 
-    console.log(peso)
-
-    document.getElementById("resultado").innerText = "Taxa de filtração glomerular estimada de "+resultadoTFG.toFixed(2)+"mL/min.\nO peso ideal é de "+pesoIdeal.toFixed(1)+"Kg.\nO peso ajustado é de "+pesoAjustado.toFixed(1)+"Kg.";
+    document.getElementById("resultado").innerText = "Taxa de filtração glomerular estimada via Cockcroft-Gault de "+resultadoTFG.toFixed(2)+"mL/min.\nO peso ideal é de "+pesoIdeal.toFixed(1)+"Kg.\nO peso ajustado é de "+pesoAjustado.toFixed(1)+"Kg.\nA estimativa MDRD é de "+mdrd.toFixed(1)+"mL/min.";
 
     document.getElementById("botao-copiar").style.display = 'block';
     const botaoCopiar = document.getElementById('botao-copiar');
@@ -203,24 +213,33 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
         <option value="masculino">Masculino</option>
         <option value="feminino">Feminino</option>
     </select><br><br>
+    <input id="negro" type="checkbox">Negro(a)</input>
+    <br>
+    <br>
     <button onclick="calcularTFG()">Calcular TFG</button><br><br>
     <p id="resultado"></p>
     <button style="display: none" id="botao-copiar">Copiar Resultado</button>
 </div>
 <h2 id="os-cálculos-de-cockcroft-gault">Os cálculos de Cockcroft-Gault:</h2>
 <p>$$
-m_{ideal} = 50_{homem} | 45.5_{mulher} + 2.3(alt - 60)
+m_{ideal} = (50_{homem} \wedge 45.5_{mulher}) + 2.3(alt - 60)
 $$</p>
 <p>$$
 m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
 $$</p>
 <p>$$
-TFG = \frac{(140 - i) * m_{ajustada}}{cr * 72} * 0.85_{mulher}
+TFG = \frac{(140 - i) m_{ajustada}}{cr * 72} 0.85_{mulher}
 $$</p>
-<p>Onde <strong><em>m(s)</em></strong> são as massas em Kg, <strong><strong>alt</strong></strong> a altura em pol, <strong><em>i</em></strong> a idade em anos, <strong><em>cr</em></strong> a creatinina sérica em mg/dL e <strong><em>0.85</em></strong> uma constante de ajuste aplicado às mulheres, apenas.</p>
+<p>Onde <strong><em>m(s)</em></strong> são as massas em Kg, <strong><em>alt</em></strong> a altura em pol, <strong><em>i</em></strong> a idade em anos, <strong><em>cr</em></strong> a creatinina sérica em mg/dL e <strong><em>0.85</em></strong> uma constante de ajuste aplicado às mulheres, apenas.</p>
+<h2 id="os-cálculos-do-estudo-modification-of-diet-in-renal-disease-mdrd">Os cálculos do estudo Modification of Diet in Renal Disease (MDRD)</h2>
+<p>$$
+TFG = 175 \frac {(1.212_{negro} \wedge 1_{demais}) (0.742_{mulher} \wedge 1_{homem})} {cr^{-1.154} i^{-0.203}}
+$$</p>
+<p>Onde <strong><em>cr</em></strong> é a creatinina sérica em mg/dL e <strong><em>i</em></strong> a idade em anos completos. A constante de 175 era originalmente 185 e foi alterada por uma revisão do estudo[2].</p>
 <h2 id="referências">Referências</h2>
 <ol>
 <li>Cockcroft DW, Gault MH. <strong>Prediction of creatinine clearance from serum creatinine</strong>. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.</li>
+<li>LEVEY, Andrew S. et al. <strong>A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation</strong>. Annals of internal medicine, v. 130, n. 6, p. 461-470, 1999.</li>
 </ol>
 
 

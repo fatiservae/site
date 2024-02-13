@@ -1678,3 +1678,8 @@ div#counter {
 .calculadoras h2:before {
   content: none;
 }
+
+p#resultado {
+  margin-left: 0;
+  max-width: 100%;
+}
