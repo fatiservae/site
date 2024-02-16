@@ -10,6 +10,34 @@
 	
 	
 	<item>
+		<title>Bradarritmias</title>
+		<link>https://www.jeffersontorres.com.br/medicina/bradarritmias/</link>
+		<pubDate>Thu, 15 Feb 2024 11:47:11 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/bradarritmias/</guid>
+		<description>&lt;h2 id=&#34;bloqueio-de-segundo-grau&#34;&gt;Bloqueio de segundo grau&lt;/h2&gt;
+&lt;h3 id=&#34;mobitz-i&#34;&gt;Mobitz I&lt;/h3&gt;
+&lt;p&gt;É benigno, acontece por exacerbação vagal ou drogas. Caracteriza-se pelo aumento progressivo do intervalo PR e falha de condução sequente. É o chamado fenômeno de Wenckebach. Para diagnóstico, o intervalo PR anterior à onda bloqueada é sempre maior que o PR posterior.&lt;/p&gt;
+&lt;p&gt;Assintomático. Tratamento apenas em casos sintomáticos, com &lt;strong&gt;atropina 0.5-3mg&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;mobitz-ii&#34;&gt;Mobitz II&lt;/h3&gt;
+&lt;p&gt;É maligno, ocorre por bloqueio repentino de ondas P. É indicativo de doença intrínseca do sistema de condução.&lt;/p&gt;
+&lt;p&gt;Pode apresentar QRS estreito ou largo, geralmente sintomático e são irreversíveis. &lt;span class=&#34;marcatexto&#34;&gt;Atropina não funciona e pode até piorar a bradicardia.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O QRS alargado indica lesão após feixo de Hiss.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Compêndio de viéses</title>
+		<link>https://www.jeffersontorres.com.br/vieses/</link>
+		<pubDate>Wed, 14 Feb 2024 10:39:08 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/vieses/</guid>
+		<description>&lt;h2 id=&#34;códex&#34;&gt;Códex&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;../pix/codex-vieses.jpg&#34;&gt;Clique aqui&lt;/a&gt; para visualizar a imagem grande dos viéses.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Lagartas isognatus</title>
 		<link>https://www.jeffersontorres.com.br/ciencia/isognatus/</link>
 		<pubDate>Mon, 12 Feb 2024 09:28:40 -0300</pubDate>
@@ -852,7 +880,7 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 	</item>
 	
 	<item>
-		<title>Taquicardias: ao que interessa</title>
+		<title>Taquiarritimias</title>
 		<link>https://www.jeffersontorres.com.br/medicina/taquicardias/</link>
 		<pubDate>Sat, 30 Dec 2023 04:08:57 -0300</pubDate>
 		
@@ -1208,6 +1236,78 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;ol&gt;
 &lt;li&gt;As referências bibliográficas precisarão de consultoria jurídica/autoral para implementação.&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Bulário</title>
+		<link>https://www.jeffersontorres.com.br/medicina/bulario/</link>
+		<pubDate>Sun, 17 Dec 2023 21:31:36 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/bulario/</guid>
+		<description>
+
+&lt;style&gt;
+  #resultado{
+    min-height: 100vw;
+    font-size: 90%;
+  }
+  #resultado div{
+    font-weight: normal;
+    display: none;
+    margin-left: 5vw;
+    margin-bottom: 0.5em;
+    border: solid 1px var(--bordas);
+    padding: 1px;
+    padding-right: 2em;
+    border-radius: 14px;
+    background: var(--gradiente-dark);
+    width: fit-content;
+  }
+    /*
+  #divAtb div{
+    background: none;
+    border: solid 1px var(--texto-dim);
+    background-color: var(--fundo-input);
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    padding: 1px;
+    margin: 3px;
+  }
+  #resultado div div {
+    border: solid 1px var(--fonte);
+    font-size: 80%;
+  }
+  */
+  .observacao {
+    font-size: 80%;
+    color: var(--negrito);
+  }
+  #resultado div .nome{
+    font-size: 130%;
+    background-image: var(--h2-gradiente); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    font-weight: bold;
+  }
+  #resultado div .comercial{
+    font-size: 80%;
+    color: var(--autor);
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;
+&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34; nomes, propriedades, doses...&#34;&gt;
+&lt;svg class=&#34;lupa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; stroke-width=&#34;1.09&#34; enable-background=&#34;new 0 0 24 24&#34; height=&#34;14px&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;4px&#34; focusable=&#34;false&#34; autocapitalize=&#34;none&#34; autocomplete=&#34;off&#34; autocorrect=&#34;off&#34; tabindex=&#34;0&#34; type=&#34;text&#34; spellcheck=&#34;false&#34; aria-label=&#34;Pesquisar&#34;&gt;&lt;path d=&#34;m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/input&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div id=&#34;resultado&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;../bulario.js&#34;&gt;
+&lt;/script&gt;
+
+
 </description>
 	</item>
 	
@@ -2168,7 +2268,7 @@ E -- Persistência --&gt;Z
 &lt;p&gt;Na verdade, a plausibilidade biológica do despreendimento de placa carotídea pela massagem revelaria uma delicadeza excessiva da estrutura aterial, sendo possível, até mesmo no curso de movimentos bruscos, tal complicação. Aliás, tromboembolismos ocorreriam por todo o corpo sob movimentos. Em quase todos cenários de traumas veríamos tromboembolismos decorrentes de agitação mecânica, pelo menos nos pequenos vasos ocorreriam de forma abundante.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Non sequitur&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Por outro lado, a excessiva manipulação do sítio carotídeo pode, e é documentada, como causa de AVCi, como demonstrado por Hyo &lt;em&gt;et al&lt;/em&gt; quando uma paciente de 50 anos cursou com múltiplas isquemias cerebrais após longo período de carotidínea e excessiva manipulação do pescoço na tentativa de compensar a dor².&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../pix/codex-vieses.jpg&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O que ocorre é o tradicional hábito de superestimação de incidências raras na medicina&lt;/strong&gt;. &lt;a href=&#34;../vieses/&#34;&gt;Trata-se de um viés&lt;/a&gt;. Nossos vícios de percepção estatística são amplificados por casos específicos e raros, como Bastulli &lt;em&gt;et all&lt;/em&gt; demonstraram de um paciente de 77 anos pós-cirúrgico que cursa com AVCi embólico³. Como se pode observar no estudo, a recomendação de evitarmos o procedimento foi extrapolada para todos idosos, inclusive entre aqueles sem indicativos de doença aterosclerótica. &lt;strong&gt;Absurdo&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;A culpa de tais artigos atingirem o grande público recai sobre as bancas avaliadoras e a nossa fantástica fábrica de publicações. Assuma, você só escreveu aquele artigo na faculdade pra somar pontos na residência, né? 🤣&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Quod erat demonstrandum&lt;/em&gt;.&lt;/p&gt;
 &lt;hr&gt;
@@ -2434,7 +2534,7 @@ function fechardialogo() {
 	</item>
 	
 	<item>
-		<title>Colecistite aguda - Tokyo Guideline</title>
+		<title>Colecistite aguda: Tokyo Guideline</title>
 		<link>https://www.jeffersontorres.com.br/medicina/tokyo-guideline/</link>
 		<pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
 		

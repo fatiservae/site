@@ -55,7 +55,7 @@
   --button-hover: #2e2c35;
   --headings: navajowhite ;
   --bordas: #383f48 ;
-  --marca-texto: #aeff77;
+  --marca-texto: #FFE500;
   --fundo-invertido: var(--white-solarized) ;
   --fundo-input: #313131;
   /*
@@ -89,7 +89,7 @@
   --h3: #455A64;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
-  --marca-texto: yellow;
+  --marca-texto: #FFE500;
   --code-text: indigo;
   --negrito: #b0132d;
   --texto-dim: var(--fundo-invertido);
@@ -444,6 +444,7 @@ img {
   /*
   max-height: 400px ;
   */
+  width: fit-content;
   margin-left: 1em;
   display: block ;
   max-width: 500px;
@@ -1428,6 +1429,9 @@ div#counter {
     padding: 0.2em 0;
   }
 }
+.eu {
+  width: fit-content;
+}
 .eu img{
   width: calc(80px + 12vw); 
   height: auto;
@@ -1682,4 +1686,8 @@ div#counter {
 p#resultado {
   margin-left: 0;
   max-width: 100%;
+}
+span.marcatexto {
+  background-color: var(--marca-texto);
+  color: black;
 }
