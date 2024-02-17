@@ -1249,6 +1249,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 
 &lt;style&gt;
   #resultado{
+    overflow-wrap: normal;
     min-height: 100vw;
     font-size: 90%;
   }
@@ -1292,7 +1293,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     font-weight: bold;
   }
   #resultado div .comercial{
-    font-size: 80%;
+    font-size: 90%;
     color: var(--autor);
   }
 &lt;/style&gt;

@@ -3,14 +3,14 @@
     "nome": ["amicacina", "Amicilon"],
     "posologias": [
       ["mg", "h"],
-      [7.5, 12, "iv"],
-      [15, 24, "iv"], 
-      [7.5, 12, "iv", "Para pacientes com clearence de Cr abaixo de 90mL/min"],
-      [7.5, 24, "iv", "Para pacientes com clearence de Cr abaixo de 50mL/min"],
-      [15, 56, "iv", "Fazer 15mg três vezes na semana para pacientes com clearence de Cr abaixo de 10mL/min."]
+      [7.5, 12, "IV"],
+      [15, 24, "IV"], 
+      [7.5, 12, "IV", "para pacientes com clearence de Cr abaixo de 90mL/min"],
+      [7.5, 24, "IV", "para pacientes com clearence de Cr abaixo de 50mL/min"]
     ],
     "obs": [
-      "Repetir dose de 15mg no pós-diálise."
+      "Repetir dose de 15mg no pós-diálise.",
+      "Fazer 15mg três vezes na semana para pacientes com clearence de Cr abaixo de 10mL/min."
     ]
   },
   {
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "nome": ["gentamicina"],
+    "nome": ["gentamicina", "Gentamisan"],
     "posologias": [
       ["mg", "h"],
       [1.7, 8, "iv"],
