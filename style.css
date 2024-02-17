@@ -443,8 +443,8 @@ iframe {
 img {
   /*
   max-height: 400px ;
-  */
   width: fit-content;
+  */
   margin-left: 1em;
   display: block ;
   max-width: 500px;
@@ -1041,6 +1041,8 @@ input[name="answer"] {
   max-height: 300px; 
   /*
   */
+}
+div.slide a img {
 }
 .slide ul {
   text-align: start;
