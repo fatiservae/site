@@ -81,7 +81,7 @@
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
 }
 :root[data-tema="claro"] {
-  --h2-gradiente: linear-gradient(90deg, darkred, brown, green);
+  --h2-gradiente: linear-gradient(-90deg, darkred, blue, brown);
   --background-img: url('pix/day.jpg'); 
   --hover-botao: #904500 ;
   --h2: #4E342E;

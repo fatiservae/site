@@ -5,23 +5,31 @@
       ["mg", "h"],
       [7.5, 12, "IV"],
       [15, 24, "IV"], 
-      [7.5, 12, "IV", "para pacientes com clearence de Cr abaixo de 90mL/min"],
-      [7.5, 24, "IV", "para pacientes com clearence de Cr abaixo de 50mL/min"]
+      [7.5, 12, "IV", "se clearence de Cr abaixo de 90mL/min"],
+      [7.5, 24, "IV", "se clearence de Cr abaixo de 50mL/min"]
     ],
     "obs": [
       "Repetir dose de 15mg no pós-diálise.",
-      "Fazer 15mg três vezes na semana para pacientes com clearence de Cr abaixo de 10mL/min."
+      "Fazer 15mg três vezes na semana se clearence de Cr abaixo de 10mL/min."
+    ]
+  },
+  {
+    "nome": ["noretisterona", "Norestin"],
+    "posologias": [
+      ["mg", "h"],
+      [0.35, 24, "VO"],
+      [5, 24, "VO", "para adiar menstruação se tomado entre 3 e 5 dias antes da data de menstruação prevista."]
     ]
   },
   {
     "nome": ["tobramicina"],
     "posologias": [
       ["mg", "h"],
-      [1.7, 8, "iv"],
-      [5.1, 24, "iv"],
-      [1.7, 8, "iv", "Para pacientes com clearence de Cr abaixo de 90ml/min"],
-      [1.7, 24, "iv", "Para pacientes com clearence de Cr abaixo de 50ml/min"],
-      [1.7, 48, "iv", "Para pacientes com clearence de Cr abaixo de 10ml/min"]
+      [1.7, 8, "IV"],
+      [5.1, 24, "IV"],
+      [1.7, 8, "IV", "se clearence de Cr abaixo de 90ml/min"],
+      [1.7, 24, "IV", "se clearence de Cr abaixo de 50ml/min"],
+      [1.7, 48, "IV", "se clearence de Cr abaixo de 10ml/min"]
     ],
     "obs": [ 
       "Há apresentações IM/IV/SUBCAPS/ITRQ etc.", 
@@ -32,11 +40,11 @@
     "nome": ["gentamicina", "Gentamisan"],
     "posologias": [
       ["mg", "h"],
-      [1.7, 8, "iv"],
-      [5.1, 24, "iv"],
-      [1.7, 8, "iv", "Para pacientes com clearence de Cr abaixo de 90ml/min"],
-      [1.7, 24, "iv", "Para pacientes com clearence de Cr abaixo de 50ml/min"],
-      [1.7, 48, "iv", "Para pacientes com clearence de Cr abaixo de 10ml/min"]
+      [1.7, 8, "IV"],
+      [5.1, 24, "IV"],
+      [1.7, 8, "IV", "se clearence de Cr abaixo de 90ml/min"],
+      [1.7, 24, "IV", "se clearence de Cr abaixo de 50ml/min"],
+      [1.7, 48, "IV", "se clearence de Cr abaixo de 10ml/min"]
     ],
     "obs": [ 
       "Há apresentações IM/IV/SUBCAPS/ITRQ etc", 
@@ -47,8 +55,8 @@
     "nome": ["ceftriaxona", "Rocefin"],
     "posologias":[
       ["g", "h"],
-      [1, 24, "iv"],
-      [2, 24, "iv"]
+      [1, 24, "IV"],
+      [2, 24, "IV"]
     ],
     "obs": [
       "Dose máxima de 4g/dia se o clearence de Cr entre 90mL/min e 10mL/min.",
@@ -59,8 +67,8 @@
     "nome": ["ertapenem"],
     "posologias":[
       ["mg", "h"],
-      [1000, 24, "iv"],
-      [500, 24, "iv", "Para pacientes com clearence de Cr menor que 50mL/min"]
+      [1000, 24, "IV"],
+      [500, 24, "IV", "se clearence de Cr menor que 50mL/min"]
     ],
     "obs": [
       "Repetir 150mg no pós-diálise se a última dose foi administrada até 6h antes."
@@ -70,10 +78,10 @@
     "nome": ["piperacilina com tazobactam", "Tazocin"],
     "posologias":[
       ["mg", "h"],
-      [4500, 8, "iv", "4g de piperacilina e 500mg de tazobactam"],
-      [4500, 6, "iv", "4g de piperacilina e 500mg de tazobactam"],
-      [2250, 6, "iv", "Para pacientes com clearence de Cr abaixo de 40mL/min"],
-      [2250, 8, "iv", "Para pacientes com clearence de Cr abaixo de 20mL/min"]
+      [4500, 8, "IV", "sendo 4g de piperacilina e 500mg de tazobactam"],
+      [4500, 6, "IV", "sendo 4g de piperacilina e 500mg de tazobactam"],
+      [2250, 6, "IV", "se clearence de Cr abaixo de 40mL/min"],
+      [2250, 8, "IV", "se clearence de Cr abaixo de 20mL/min"]
     ],
     "obs": [
       "Se dialítico, fazer dose diária de 2.25g/12h e dose pós-diálise de 750mg."
@@ -83,9 +91,9 @@
     "nome": ["Meropenem"],
     "posologias":[
       ["mg", "h"],
-      ["1000", 24, "iv"],
-      ["1000", 12, "iv", "Dose aplicável para clearence de Cr acima de 10mL/min."],
-      ["500", 24, "iv", "Dose aplicável para clearence menores de 10mL/min."]
+      ["1000", 24, "IV"],
+      ["1000", 12, "IV", "se o clearence de Cr acima de 10mL/min."],
+      ["500", 24, "IV", "se o clearence menor que 10mL/min."]
     ],
     "obs":[
       "Verificar com fabricante a dose pós-diálise, se necessária"
@@ -95,12 +103,12 @@
     "nome": ["cefazolina", "Kefazol"],
     "posologias":[
       ["g", "h"],
-      [1, 8, "iv"],
-      [2, 8, "iv"],
-      [1, 12, "iv", "Dose aplicável se o clearence de Cr entre 50-10mL/min"],
-      [2, 12, "iv", "Dose aplicável se o clearence de Cr entre 50-10mL/min"],
-      [1, 24, "iv", "Dose aplicável se o clearence menor que 10mL/min"],
-      [1, 48, "iv", "Dose aplicável se o clearence menor que 10mL/min"]
+      [1, 8, "IV"],
+      [2, 8, "IV"],
+      [1, 12, "IV", "se o clearence de Cr entre 50-10mL/min"],
+      [2, 12, "IV", "se o clearence de Cr entre 50-10mL/min"],
+      [1, 24, "IV", "se o clearence menor que 10mL/min"],
+      [1, 48, "IV", "se o clearence menor que 10mL/min"]
     ],
     "obs": [
       "Adicionar 1g no pós-diálise."
@@ -110,62 +118,73 @@
     "nome": ["cefepime"],
     "posologias": [
       ["g", "h"],
-      [2, 8, "iv"],
-      [2, 12, "iv"],
-      [2, 8, "iv", "Dose aplicável se o clearence de Cr estiver entre 90-50mL/min."],
-      [2, 12, "iv", "Dose aplicável se o clearence de Cr estiver entre 50-10mL/min."],
-      [1, 24, "iv", "Dose aplicável se o clearence de Cr estiver menor que 10mL/min."]
+      [2, 8, "IV"],
+      [2, 12, "IV"],
+      [2, 8, "IV", "se o clearence de Cr estiver entre 90-50mL/min."],
+      [2, 12, "IV", "se o clearence de Cr estiver entre 50-10mL/min."],
+      [1, 24, "IV", "se o clearence de Cr estiver menor que 10mL/min."]
     ],
     "obs":[
       "Realizar dose extra de 1g no pós-diálise."
     ]
   },
   {
-    "nome": ["oxacilina"],
+    "nome": ["oxacilina", "Oxanon", "Staficilin-N"],
     "posologias": [
       ["g", "h"],
-      [1, 4, "iv"],
-      [2, 6, "iv"],
-      [1, 4, "iv"],
-      [2, 6, "iv"]
+      [1, 4, "IV"],
+      [2, 6, "IV"],
+      [1, 4, "IV"],
+      [2, 6, "IV"]
     ]
   },
   {
     "nome": ["ceftazidima"],
     "posologias":[
       ["g", "h"],
-      [2, 8, "iv"],
-      [2, 12, "iv", "Dose para pacientes com clearence entre 90-50mL/min."],
-      [2, 24, "iv", "Dose para pacientes com clearence menor que 10mL/min. Considerar a 2g/48h. Adicionar 1g no pós-diálise."]
+      [2, 8, "IV"],
+      [2, 12, "IV", "Dose se clearence entre 90-50mL/min."],
+      [2, 24, "IV", "Dose se clearence menor que 10mL/min. Considerar a 2g/48h. Adicionar 1g no pós-diálise."]
     ]
   },
   {
     "nome": ["ciprofloxacino"],
     "posologias":[
       ["mg", "h"],
-      [200, 12, "iv"],
-      [400, 12, "iv"],
-      [400, 8, "iv", "Dose aplicável se clearence de Cr de 60mL/min ou mais."]
+      [200, 12, "IV"],
+      [400, 12, "IV"],
+      [400, 8, "IV", "Dose aplicável se clearence de Cr de 60mL/min ou mais."]
     ]
   },
   {
     "nome": ["levofloxacina"],
-    "posologia":[
+    "posologias":[
       ["mg", "h"],
-      [750, 24],
-      [750, 48, "Dose aplicável se clearence de Cr entre 50-10mL/min."],
-      [500, 48, "Dose aplicável para pacientes com clearence de Cr menor que 10mL/min. Fazer a primeira dose em 750mg."]
+      [750, 24, "IV"],
+      [750, 48, "IV", "Dose aplicável se clearence de Cr entre 50-10mL/min."],
+      [500, 48, "IV", "Dose aplicável se clearence de Cr menor que 10mL/min. Fazer a primeira dose em 750mg."]
     ]
   },
   {
     "nome": ["sulfametoxazol e trimetoprima", "Bactrim"],
     "posologias":[
       ["mg/Kg", "h"],
-      [5, 24, "Pode chegar a 20mg/Kg/dia, dividida de 6/6h ou de 12/12h."],
-      [5, 24, "Se o clearence de Cr for menor que 50-10mL/min e pode ser dividida de 6/6h ou de 12/12h."]
+      [5, 24, "IV", "Pode chegar a 20mg/Kg/dia, dividida de 6/6h ou de 12/12h."],
+      [5, 24, "IV", "Se o clearence de Cr for menor que 50-10mL/min e pode ser dividida de 6/6h ou de 12/12h."]
     ],
     "obs":[
       "Nã́o recomendável para clearences reduzidos abaixo de 10mL/min."
+    ]
+  },
+  {
+    "nome": ["daptomicina"],
+    "posologias": [
+      ["mg/Kg", "h"],
+      [6, 24, "IV"],
+      [6, 48, "IV", "para clearence menor que 30mL/min."]
+    ],
+    "obs":[
+      "Fazer 4-6mg/Kg/24h após diálise."
     ]
   }
 ]
