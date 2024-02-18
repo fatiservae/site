@@ -1278,14 +1278,14 @@ nav#TableOfContents li:last-child::before {
   margin-bottom: 2px;
   font-kerning: normal ;
   border: 1px solid none;
-  border-radius: 4px;
+  border-radius: 38px;
+  border-bottom: 1px solid var(--bordas);
   */
   font-size: 110%;
   font-weight: normal;
-  border: 1px solid var(--bordas);
-  border-radius: 38px;
   padding-right: 10px;
   padding-left: 10px;
+  border: none;
   background: var(--button-color);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
@@ -1293,17 +1293,18 @@ nav#TableOfContents li:last-child::before {
   white-space: nowrap;
 }
 .barra a[href]:visited, .barra a[href] {
-  border: 1px solid var(--bordas);
   color: var(--link-barra);
   /* ELEMENTOS DO TEMA BOTAO 3D
+  border-bottom: 1px solid var(--bordas);
   background: var(--fundo) ;
   */
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
-  background: var(--button-hover);
-  border: 1px solid var(--fundo-invertido);
+  color: var(--negrito);
+  border-bottom: 1px solid var(--fundo-invertido);
   /* ELEMENTOS DO TEMA BOTAO 3D
+  background: var(--button-hover);
   background: var(--hover-botao);
   text-shadow: var(--switch-shadow);
   color: var(--fundo);
@@ -1312,7 +1313,7 @@ nav#TableOfContents li:last-child::before {
 .barra a[href]:visited:active,
 .barra a[href]:active {
   background: var(--button-hover);
-  border: 1px solid var(--fundo-invertido);
+  border-bottom: 1px solid var(--fundo-invertido);
   text-shadow: var(--switch-shadow);
   /* ELEMENTOS DO TEMA BOTAO 3D
   background: var(--fonte-invertida);
@@ -1508,8 +1509,13 @@ div#counter {
    max-width: 90vw;
   }
 
-  #files, #search-output {
+  #search-output {
     max-width: 95% ;
+  }
+  #files {
+    max-width: 95% ;
+    padding:0;
+    margin:0;
   }
   .eu {
     max-width: 50%; 

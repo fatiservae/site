@@ -153,7 +153,10 @@
       ["mg", "h"],
       [200, 12, "IV"],
       [400, 12, "IV"],
-      [400, 8, "IV", "Dose aplicável se clearence de Cr de 60mL/min ou mais."]
+      [400, 8, "IV", "se clearence de Cr de 60mL/min ou mais."]
+    ],
+    "obs": [
+      "As quinolonas são sinérgicas com a gentamicina ou a ceftazidima contra spp. pseudomonas."
     ]
   },
   {
