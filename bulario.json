@@ -1,5 +1,20 @@
 [
   {
+    "nome": ["levomepromazina", "Neozine"],
+    "posologias": [
+      ["mg", "h"],
+      [150, 24, "VO"],
+      [250, 24, "VO", "é a dose diária máxima útil literária."],
+      [20, 24, "VO", "inicialmente para progressão diária até dose ideal."],
+      [200, 24, "VO", "para manejo da dor em pacientes terminais."],
+      [500, 24, "VO", "máximo para manejo da dor em pacientes terminais."]
+    ],
+    "obs": [
+      "Em pacientes de 2 a 15 anos, prescrever 0.1-0.2mg/Kg/dia.",
+      "No caso de gotas, diluir em solução de açúcar ou equivalente, nunca instilar diretamente nas mucosas."
+    ]
+  },
+  {
     "nome": ["amicacina", "Amicilon"],
     "posologias": [
       ["mg", "h"],

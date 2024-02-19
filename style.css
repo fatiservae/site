@@ -950,11 +950,9 @@ input, textarea {
 button, select {
   padding-right: 14px;
   padding-left: 14px;
+  padding-top: 0; 
+  padding-bottom: 0; 
   /*
-  padding-top: 14px; 
-  padding-bottom: 14px; 
-  padding-top: 1%; 
-  padding-bottom: 1%; 
   */
   border: 1px solid #383f48 ; 
   border-radius: 34px;
@@ -970,6 +968,10 @@ button:hover {
 button:active {
   background-color: #373e47 ;
   border: 1px solid #21262d; 
+}
+button {
+  padding-top: 5px; 
+  padding-bottom: 5px; 
 }
 
 p {

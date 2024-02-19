@@ -2,17 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.jeffersontorres.com.br/</loc>
-    <lastmod>2024-02-15T11:47:11-03:00</lastmod>
-  </url><url>
-    <loc>https://www.jeffersontorres.com.br/medicina/bradarritmias/</loc>
-    <lastmod>2024-02-15T11:47:11-03:00</lastmod>
-  </url><url>
-    <loc>https://www.jeffersontorres.com.br/medicina/</loc>
-    <lastmod>2024-02-15T11:47:11-03:00</lastmod>
-  </url><url>
     <loc>https://www.jeffersontorres.com.br/vieses/</loc>
     <lastmod>2024-02-14T10:39:08-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/</loc>
+    <lastmod>2024-02-12T09:28:40-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/ciencia/</loc>
     <lastmod>2024-02-12T09:28:40-03:00</lastmod>
@@ -30,6 +24,9 @@
     <lastmod>2024-02-12T09:28:40-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/medicina/abcesso-hepatico-dss/</loc>
+    <lastmod>2024-02-08T11:18:33-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/medicina/</loc>
     <lastmod>2024-02-08T11:18:33-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/medicina/hidratacao/</loc>
