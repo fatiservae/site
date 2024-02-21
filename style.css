@@ -37,6 +37,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --fundo-card: linear-gradient(85deg,#101010,#262626);
   --h2-gradiente: linear-gradient(90deg, orange, tomato, silver, tan);
   --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
@@ -79,8 +80,11 @@
   */
   --fundo: #22272e; 
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
+  --sombra: -1rem 0 1rem -1rem darkgray;
 }
 :root[data-tema="claro"] {
+  --sombra: -1rem 0 3rem -1rem #000;
+  --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
   --h2-gradiente: linear-gradient(-90deg, darkred, blue, brown);
   --background-img: url('pix/day.jpg'); 
   --hover-botao: #904500 ;

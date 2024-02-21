@@ -1255,20 +1255,17 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     padding: 1px;
     padding-right: 2em;
     border-radius: 14px;
+    box-shadow: var(--sombra);
+    /*
     background: var(--sticker-fundo);
+    */
+	background: var(--fundo-card);
     width: fit-content;
   }
-    /*
-  #divAtb div{
-    background: none;
-    border: solid 1px var(--texto-dim);
-    background-color: var(--fundo-input);
-    opacity: 0.5;
-    display: block;
-    width: 100%;
-    padding: 1px;
-    margin: 3px;
+  div#divAtb p{
+    margin: 1em;
   }
+    /*
   #resultado div div {
     border: solid 1px var(--fonte);
     font-size: 80%;
@@ -1280,6 +1277,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
   }
   #resultado div .nome{
     font-size: 130%;
+    margin-left: 1em;
     background-image: var(--h2-gradiente); 
     -webkit-background-clip: text; 
     color: transparent; 
