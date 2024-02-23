@@ -1,4 +1,12 @@
-[ 
+[
+  { "subjects": [
+      "Medicina", "Apresentações"
+  ],
+    "path": "Medicina/JeffersonT-Caso-Clinico-explosao-l2.pdf",
+    "name": "Jefferson T. Caso clínico de fratura de L2",
+    "extension": "pdf",
+    "size": "1.3MB"
+  },
   { "subjects": [
       "Medicina", "Tomografia", "Abcesso", "Derrame"
   ],
