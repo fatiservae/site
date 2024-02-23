@@ -825,10 +825,10 @@ ol#artlist {
   margin-left: 5vw;
   gap: 0.5em ;
   width: clamp(50vw, 90%, 70%);
+  max-height: 70vh; /* necessario pra nao estourar tela -- futuro */
   */
   overflow: none; /* necessario pra nao estourar tela -- futuro */
-  columns: 2;
-  max-height: 70vh; /* necessario pra nao estourar tela -- futuro */
+  columns: 2 !important;
   min-height: 60vh;
   list-style-type: none;
   width: 90%;
@@ -1351,15 +1351,15 @@ nav#TableOfContents li:last-child::before {
     text-align: center;
     width: 100% ;
     */
-    font-size: 70%;
+    font-size: 90%;
     position: static;
     margin-left: 3vw;
     margin-right: 1vw;
   }
   .barra a {
     /*
-    */
     font-size: 150%;
+    */
     transition: background 0ms ease-in-out;
   }
 }
