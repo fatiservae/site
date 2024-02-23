@@ -1,3 +1,18 @@
+let typed = "Escrevo aqui o que penso. Às vezes.";
+let typedout = "";
+let delay = 100;
+
+for (let i = 0; i < typed.length; i++) {
+  let f = i;
+  if(i>=26){
+    f = i + 15;
+  };
+  setTimeout(() => {
+    typedout += typed[i];
+    document.getElementById("typed").innerText = typedout;
+  }, f * delay);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   //if (document.querySelectorAll('#artlist li').length > 21) {
   //  for (let i = document.querySelectorAll('#artlist li').length - 1; i >= 20 ; i--) {

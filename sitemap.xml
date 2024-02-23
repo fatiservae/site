@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.jeffersontorres.com.br/</loc>
+    <lastmod>2024-02-18T17:21:43-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/medicina/</loc>
+    <lastmod>2024-02-15T11:47:11-03:00</lastmod>
+  </url><url>
     <loc>https://www.jeffersontorres.com.br/vieses/</loc>
     <lastmod>2024-02-14T10:39:08-03:00</lastmod>
   </url><url>
-    <loc>https://www.jeffersontorres.com.br/</loc>
-    <lastmod>2024-02-12T09:28:40-03:00</lastmod>
+    <loc>https://www.jeffersontorres.com.br/receitas/</loc>
+    <lastmod>2024-02-12T09:47:03-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/ciencia/</loc>
     <lastmod>2024-02-12T09:28:40-03:00</lastmod>
@@ -32,13 +38,13 @@
     <loc>https://www.jeffersontorres.com.br/tags/medicina/</loc>
     <lastmod>2024-02-08T11:18:33-03:00</lastmod>
   </url><url>
-    <loc>https://www.jeffersontorres.com.br/medicina/</loc>
-    <lastmod>2024-02-08T11:18:33-03:00</lastmod>
-  </url><url>
     <loc>https://www.jeffersontorres.com.br/medicina/hidratacao/</loc>
     <lastmod>2024-02-04T15:26:54-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/tags/calculadoras/</loc>
+    <lastmod>2024-02-04T07:49:46-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/tags/projetos/</loc>
     <lastmod>2024-02-04T07:49:46-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/medicina/costeff/</loc>
@@ -52,6 +58,9 @@
   </url><url>
     <loc>https://www.jeffersontorres.com.br/medicina/neoplasia-apendice/</loc>
     <lastmod>2024-01-25T12:16:58-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/medical/</loc>
+    <lastmod>2024-01-21T09:07:53-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/filosofia/gell-man/</loc>
     <lastmod>2024-01-11T09:38:02-03:00</lastmod>
@@ -119,9 +128,6 @@
     <loc>https://www.jeffersontorres.com.br/receitas/pao-de-queijo/</loc>
     <lastmod>2023-12-27T19:07:14-03:00</lastmod>
   </url><url>
-    <loc>https://www.jeffersontorres.com.br/receitas/</loc>
-    <lastmod>2023-12-27T19:07:14-03:00</lastmod>
-  </url><url>
     <loc>https://www.jeffersontorres.com.br/files/</loc>
     <lastmod>2023-12-23T20:13:59-03:00</lastmod>
   </url><url>
@@ -132,9 +138,6 @@
     <lastmod>2023-12-17T21:31:36-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/tags/farmacologia/</loc>
-    <lastmod>2023-12-17T21:31:36-03:00</lastmod>
-  </url><url>
-    <loc>https://www.jeffersontorres.com.br/tags/projetos/</loc>
     <lastmod>2023-12-17T21:31:36-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/medicina/afogamento/</loc>
@@ -175,6 +178,9 @@
   </url><url>
     <loc>https://www.jeffersontorres.com.br/tags/hist%C3%B3ria/</loc>
     <lastmod>2023-11-20T20:48:39-03:00</lastmod>
+  </url><url>
+    <loc>https://www.jeffersontorres.com.br/automobilismo/</loc>
+    <lastmod>2023-11-20T20:47:58-03:00</lastmod>
   </url><url>
     <loc>https://www.jeffersontorres.com.br/receitas/cervejas/</loc>
     <lastmod>2023-11-20T20:46:46-03:00</lastmod>

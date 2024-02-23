@@ -1714,20 +1714,11 @@ span.marcatexto {
   color: black;
 }
 
-
 span.typewriter{
   border-right: 10px solid var(--fonte);
-}
-
-.anim-typewriter{
   animation: blinkTextCursor 800ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: var(--fonte);}
   to{border-right-color: transparent;}
 }
-
