@@ -11,6 +11,10 @@
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
+  --azul-gemini: #4b83f0;
+  --roxo-gemini: #8776d4; 
+  --rosa-gemini: #be6b98;
+  --tomato-gemini: #d56676;
   --amarelo-google-transp: #ffa70010 ;
   --azul-google: #0057e7 ;
   --azul-escuro-google: #3f51b5 ;
@@ -41,7 +45,7 @@
 
 :root[data-tema="escuro"] {
   --fundo-card: linear-gradient(85deg,#101010,#262626);
-  --h2-gradiente: linear-gradient(90deg, orange, tomato, tan, orange, pink, tomato);
+  --h2-gradiente: linear-gradient(90deg, #4b83f0, #6b7ce1, #8776d4, #ab6fb4, #be6b98, #d96570, #d56676);
   --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
   --h1: var(--amarelo-google);
