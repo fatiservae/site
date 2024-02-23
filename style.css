@@ -44,6 +44,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --barra-selecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
   --h2-gradiente: linear-gradient(90deg, #4b83f0, #6b7ce1, #8776d4, #ab6fb4, #be6b98, #d96570, #d56676);
   --background-img: url('pix/night.jpg'); 
@@ -81,7 +82,7 @@
   --links-visitados: var(--blue) ;
   --link-hover: white ;
   --termo: tomato ;
-  --link-barra: tomato;
+  --link-barra: var(--tomato-gemini);
   /*
   --fundo: var(--gradfundo);
   */
@@ -90,9 +91,10 @@
   --sombra: -1rem 0 1rem -1rem darkgray;
 }
 :root[data-tema="claro"] {
+  --barra-selecionado: #3864da;
   --sombra: -1rem 0 3rem -1rem #000;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
-  --h2-gradiente: linear-gradient(-90deg, darkred, blue, brown);
+  --h2-gradiente: linear-gradient(90deg, orangered, var(--roxo-google), var(--azul-estadao));
   --background-img: url('pix/day.jpg'); 
   --hover-botao: #904500 ;
   --h2: #4E342E;
@@ -115,8 +117,9 @@
   --sticker-fundo: var(--gradiente-light) ;
   /*
   --fundo: #cc866a ; 
-  */
   --fundo: #FFECB3; 
+  */
+  --fundo: navajowhite;
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: wheat;
@@ -168,21 +171,24 @@ body {
 #switch {
   /*
   position: absolute;
-  left: 5vw;
   top: 1vw;
   font-size: 200%;
+  left: 5vw;
+  text-shadow: var(--switch-shadow);
   */
   border: none;
   background: none;
-  text-shadow: var(--switch-shadow);
 }
 a#switch {
   /*
   transition: box-shadow 200ms ease-in-out;
   margin-right: 0.5em;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  */
   font-size: 150%;
+  */
+  position: static;
+  align: left;
+  left: 3px;
   box-shadow: none;
 }
 a#switch:hover {
@@ -193,10 +199,12 @@ a#switch:hover {
 
 @media only screen and (max-width: 800px){
   #switch {
-    margin-right: 0em;
   }
   a#switch {
-   font-size: 200%;
+    /*
+    font-size: 200%;
+    margin-right: 0em;
+    */
   }
 }
 
@@ -813,14 +821,14 @@ ol#artlist {
   columns: 2 ;
   gap: 20% ;
   margin-left: auto ;
-  columns: 2;
   margin-right: auto ;
   margin-left: 5vw;
   gap: 0.5em ;
   width: clamp(50vw, 90%, 70%);
   */
+  overflow: none; /* necessario pra nao estourar tela -- futuro */
+  columns: 2;
   max-height: 70vh; /* necessario pra nao estourar tela -- futuro */
-  overflow: hidden ; /* necessario pra nao estourar tela -- futuro */
   min-height: 60vh;
   list-style-type: none;
   width: 90%;
@@ -1266,16 +1274,17 @@ nav#TableOfContents li:last-child::before {
   position: sticky;
   padding-top: 0.5em;
   background: linear-gradient(var(--fundo), transparent);
-  */
-  line-height: 1.5;
-  left: 3px;
-  top: 0;
-  background: none;
-  width: fit-content;
+  text-align: right;
   margin-left: 5vw;
-  margin-right: auto;
+  */
+  position: absolute;
+  top: 1vw;
+  right: 3vw;
+  width: fit-content;
+  line-height: 1.5;
+  background: none;
+  margin-right: 8vw;
   margin-top: 0.5em;
-  text-align: center;
   font-weight: bold ;
 }
 
@@ -1294,10 +1303,10 @@ nav#TableOfContents li:last-child::before {
   border: 1px solid none;
   border-radius: 38px;
   border-bottom: 1px solid var(--bordas);
+  padding-right: 10px;
   */
   font-size: 110%;
   font-weight: normal;
-  padding-right: 10px;
   padding-left: 10px;
   border: none;
   background: var(--button-color);
@@ -1308,6 +1317,7 @@ nav#TableOfContents li:last-child::before {
 }
 .barra a[href]:visited, .barra a[href] {
   color: var(--link-barra);
+  font-weight: normal;
   /* ELEMENTOS DO TEMA BOTAO 3D
   border-bottom: 1px solid var(--bordas);
   background: var(--fundo) ;
@@ -1316,8 +1326,8 @@ nav#TableOfContents li:last-child::before {
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
   color: var(--negrito);
-  border-bottom: 1px solid var(--fundo-invertido);
   /* ELEMENTOS DO TEMA BOTAO 3D
+  border-bottom: 1px solid var(--fundo-invertido);
   background: var(--button-hover);
   background: var(--hover-botao);
   text-shadow: var(--switch-shadow);
@@ -1327,14 +1337,32 @@ nav#TableOfContents li:last-child::before {
 .barra a[href]:visited:active,
 .barra a[href]:active {
   background: var(--button-hover);
-  border-bottom: 1px solid var(--fundo-invertido);
   text-shadow: var(--switch-shadow);
+  font-weight: bold;
   /* ELEMENTOS DO TEMA BOTAO 3D
+  border-bottom: 1px solid var(--fundo-invertido);
   background: var(--fonte-invertida);
   color: var(--fundo-invertido);
   */
 }
-
+@media only screen and (max-width: 600px){
+  .barra {
+    /*
+    text-align: center;
+    width: 100% ;
+    */
+    font-size: 70%;
+    position: static;
+    margin-left: 3vw;
+    margin-right: 1vw;
+  }
+  .barra a {
+    /*
+    */
+    font-size: 150%;
+    transition: background 0ms ease-in-out;
+  }
+}
 /* MENU BARRA FLUTUANTE */
 /*Menu com barra superior e hover*/
 /*.barra {
@@ -1480,22 +1508,6 @@ div#counter {
     font-size: 0.5em;
     max-width: 95% !important;
   }
-  .barra {
-    /*
-    text-align: center;
-    */
-    font-size: 70%;
-    position: static;
-    width: 100% ;
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
-  .barra a {
-    /*
-    */
-    font-size: 140%;
-    transition: background 0ms ease-in-out;
-  }
   #question-container {
     max-width: 95%;
   }
@@ -1511,8 +1523,8 @@ div#counter {
   ol#artlist {
     min-height: none;
     max-height: none;
-    /*
     columns: 1 !important;
+    /*
     */
   }
   #artlist li {

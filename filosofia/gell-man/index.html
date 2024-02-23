@@ -60,9 +60,9 @@ Percebe claramente que o jornalista não tem a mínima ideia do que está faland
 <body>
 <div class="barra">
     <a id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-    <a href="../../index.html" id="indexlink" alt="início">início</a>
-    <a href="../../files/index.html" alt="files">arquivos</a>
-    <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+    <a href="../../index.html" id="indexlink" alt="início">início.</a>
+    <a href="../../files/index.html" alt="files">arquivos.</a>
+    <a href="../../tags/projetos/index.html" alt="projetos">projetos.</a> 
 
 </div>
 <br>
@@ -79,13 +79,15 @@ Percebe claramente que o jornalista não tem a mínima ideia do que está faland
                               .normalize('NFD')
                               .replace(/\p{Diacritic}/gu, "")
     )){
-      link.style = "border-bottom: 2px solid var(--negrito)";
+      
+      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
     } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
                 urlAtual === "https://jeffersontorres.com.br/" || 
                 urlAtual === "https://jeffersontorres.com.br" || 
                 urlAtual === "jeffersontorres.com.br" || 
                 urlAtual === "http://localhost:1313/" ) {
-      inicio.style = "border-bottom: 2px solid var(--negrito)";
+      
+      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
     }
   }
 
@@ -94,7 +96,7 @@ Percebe claramente que o jornalista não tem a mínima ideia do que está faland
  
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌚' ;
+    lighswitch.innerHTML = 'claro.' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -108,20 +110,20 @@ Percebe claramente que o jornalista não tem a mínima ideia do que está faland
     });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = '🌞' ;
+    lighswitch.innerHTML = 'escuro.' ;
   }
   else {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌚' ;
+    lighswitch.innerHTML = 'claro.' ;
   }
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === 'claro') {
-      lighswitch.innerHTML = '🌚'
+      lighswitch.innerHTML = 'claro.'
       document.documentElement.setAttribute('data-tema', 'escuro');
       localStorage.setItem('tema', 'escuro'); 
     } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = '🌞'
+      lighswitch.innerHTML = 'escuro.'
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
