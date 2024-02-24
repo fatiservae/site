@@ -58,10 +58,10 @@
 </head>
 <body>
 <div class="barra">
-    <a id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-    <a href="./index.html" id="indexlink" alt="início">início.</a>
-    <a href="./files/index.html" alt="files">arquivos.</a>
-    <a href="./tags/projetos/index.html" alt="projetos">projetos.</a> 
+    <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+    <a href="./index.html" id="indexlink" alt="início">início</a>
+    <a href="./files/index.html" alt="files">arquivos</a>
+    <a href="./tags/projetos/index.html" alt="projetos">projetos</a> 
 
 </div>
 <br>
@@ -79,7 +79,7 @@
                               .replace(/\p{Diacritic}/gu, "")
     )){
       
-      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
     } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
                 urlAtual === "https://jeffersontorres.com.br/" || 
                 urlAtual === "https://jeffersontorres.com.br" || 
@@ -95,7 +95,7 @@
  
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro.' ;
+    lighswitch.innerHTML = 'claro' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -109,20 +109,20 @@
     });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = 'escuro.' ;
+    lighswitch.innerHTML = 'escuro' ;
   }
   else {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro.' ;
+    lighswitch.innerHTML = 'claro' ;
   }
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === 'claro') {
-      lighswitch.innerHTML = 'claro.'
+      lighswitch.innerHTML = 'claro'
       document.documentElement.setAttribute('data-tema', 'escuro');
       localStorage.setItem('tema', 'escuro'); 
     } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = 'escuro.'
+      lighswitch.innerHTML = 'escuro'
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
@@ -138,7 +138,7 @@
 
 
 <p><big><big><big><big>
-<span style="background-image: var(--h2-gradiente); -webkit-background-clip: text; color: transparent; font-weight: bold;)"> Olá, sou Jeff! </span>
+<span style="background-image: var(--h2-gradiente); -webkit-background-clip: text; color: transparent; font-weight: bold;)"> Bem vinda(o)! </span>
 </big></big></p>
 <p><span class="typewriter" id="typed"><span>
 </big></big></p>

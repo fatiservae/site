@@ -2405,7 +2405,8 @@ $$&lt;/p&gt;
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
-		<description>&lt;div id=&#34;aviso&#34;&gt;
+		<description>&lt;!-- 
+&lt;div id=&#34;aviso&#34;&gt;
  &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
    Infelizmente, a maior parte dos bancos de questões estãos protegidos por &lt;em&gt;paywalls&lt;/em&gt;. 
@@ -2429,7 +2430,7 @@ $$&lt;/p&gt;
  &lt;/button&gt;
 &lt;/div&gt;
 &lt;br&gt;
-&lt;!-- Se deseja participar, &lt;a href=&#34;https://github.com/EstalineCCCP/Bancoquestoes&#34;&gt;visite o repositório do banco de questões no GitHub.&lt;/a&gt; --&gt; 
+--&gt;
 
 
 &lt;div id=&#34;counter&#34;&gt;&lt;/div&gt;

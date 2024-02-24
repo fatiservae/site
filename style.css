@@ -1336,10 +1336,10 @@ nav#TableOfContents li:last-child::before {
 }
 .barra a[href]:visited:active,
 .barra a[href]:active {
-  background: var(--button-hover);
-  text-shadow: var(--switch-shadow);
   font-weight: bold;
   /* ELEMENTOS DO TEMA BOTAO 3D
+  background: var(--button-hover);
+  text-shadow: var(--switch-shadow);
   border-bottom: 1px solid var(--fundo-invertido);
   background: var(--fonte-invertida);
   color: var(--fundo-invertido);

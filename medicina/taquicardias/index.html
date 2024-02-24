@@ -106,10 +106,10 @@ Se a FC atual do paciente é maior que o previsto na equação, muito provavelme
 </head>
 <body>
 <div class="barra">
-    <a id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-    <a href="../../index.html" id="indexlink" alt="início">início.</a>
-    <a href="../../files/index.html" alt="files">arquivos.</a>
-    <a href="../../tags/projetos/index.html" alt="projetos">projetos.</a> 
+    <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+    <a href="../../index.html" id="indexlink" alt="início">início</a>
+    <a href="../../files/index.html" alt="files">arquivos</a>
+    <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
 
 </div>
 <br>
@@ -127,7 +127,7 @@ Se a FC atual do paciente é maior que o previsto na equação, muito provavelme
                               .replace(/\p{Diacritic}/gu, "")
     )){
       
-      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
     } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
                 urlAtual === "https://jeffersontorres.com.br/" || 
                 urlAtual === "https://jeffersontorres.com.br" || 
@@ -143,7 +143,7 @@ Se a FC atual do paciente é maior que o previsto na equação, muito provavelme
  
   if (temaAtual === 'escuro') {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro.' ;
+    lighswitch.innerHTML = 'claro' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -157,20 +157,20 @@ Se a FC atual do paciente é maior que o previsto na equação, muito provavelme
     });
   } else if (temaAtual === 'claro') {
     document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = 'escuro.' ;
+    lighswitch.innerHTML = 'escuro' ;
   }
   else {
     document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro.' ;
+    lighswitch.innerHTML = 'claro' ;
   }
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === 'claro') {
-      lighswitch.innerHTML = 'claro.'
+      lighswitch.innerHTML = 'claro'
       document.documentElement.setAttribute('data-tema', 'escuro');
       localStorage.setItem('tema', 'escuro'); 
     } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = 'escuro.'
+      lighswitch.innerHTML = 'escuro'
       document.documentElement.setAttribute('data-tema', 'claro');
       localStorage.setItem('tema', 'claro'); 
     }
