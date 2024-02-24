@@ -1304,12 +1304,12 @@ nav#TableOfContents li:last-child::before {
   border-radius: 38px;
   border-bottom: 1px solid var(--bordas);
   padding-right: 10px;
+  background: var(--button-color);
   */
   font-size: 110%;
   font-weight: normal;
   padding-left: 10px;
   border: none;
-  background: var(--button-color);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
   font-feature-settings: "kern" 1;

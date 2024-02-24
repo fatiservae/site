@@ -1,5 +1,32 @@
 [
   {
+    "nome": ["desogestrel e etinilestradiol", "Mercilon"],
+    "posologias":[
+      ["mcg", "dia"],
+      ["150+20", 1, "VO", "conforme ordem de cartela ou critério médico."]
+    ]
+  },
+  {
+    "nome": ["etinilestradiol"],
+    "posologias":[
+      ["mcg", "h"],
+      [30, 6, "VO", "até parar o sangramento uterino agudo."],
+      [30, 8, "VO", "até parar o sangramento uterino agudo, por no máximo 7 dias."],
+      [30, 12, "VO", "por até 7 dias em caso de sangramento uterino agudo."],
+      [30, 24, "VO", "seguimento pós sagramento uterino agudo, a critério médico."]
+    ]
+  },
+  {
+    "nome": ["medroxiprogesterona", "Provera"],
+    "posologias":[
+      ["mg", "dia"],
+      [10, 1, "VO", "habitualmente usado como contraceptivo. A posologia pode ser individualizada."],
+      [60, 1, "VO", "por 2 dias na vigência de sangramento uterino agudo."],
+      [120, 1, "VO", "é a dose máxima por 2 dias na vigência de sangramento uterino agudo."],
+      [30, 1, "VO", "por 3 a 6 semanas após cessar o sangramento uterino agudo."]
+    ]
+  },
+  {
     "nome": ["levomepromazina", "Neozine"],
     "posologias": [
       ["mg", "h"],
@@ -25,7 +52,7 @@
     ],
     "obs": [
       "Repetir dose de 15mg no pós-diálise.",
-      "Fazer 15mg três vezes na semana se clearence de Cr abaixo de 10mL/min."
+      "Fazer 15mg 3 vezes na semana se clearence de Cr abaixo de 10mL/min."
     ]
   },
   {

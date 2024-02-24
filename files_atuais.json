@@ -1,4 +1,40 @@
 [
+  {
+    "subjects": [
+      "Medicina", "História"
+    ],
+    "name": "Livros Hipocráticos By WHS Jones 1959 - Vol I",
+    "size": "15MB",
+    "path": "Medicina/1-Hippocrates-By-WHS-Jones-1923-59.pdf",
+    "extension": "pdf"
+  },
+  {
+    "subjects": [
+      "Medicina", "História"
+    ],
+    "name": "Livros Hipocráticos By WHS Jones 1959 - Vol II",
+    "size": "15MB",
+    "path": "Medicina/2-Hippocrates-By-WHS-Jones-1923-59.pdf",
+    "extension": "pdf"
+  },
+  {
+    "subjects": [
+      "Medicina", "História"
+    ],
+    "name": "Livros Hipocráticos By WHS Jones 1959 - Vol III",
+    "size": "18MB",
+    "path": "Medicina/3-Hippocrates-By-WHS-Jones-1923-59.pdf",
+    "extension": "pdf"
+  },
+  {
+    "subjects": [
+      "Medicina", "História"
+    ],
+    "name": "Livros Hipocráticos By WHS Jones 1959 - Vol IV",
+    "size": "21MB",
+    "path": "Medicina/4-Hippocrates-By-WHS-Jones-1923-59.pdf",
+    "extension": "pdf"
+  },
   { "subjects": [
       "Medicina", "Apresentações"
   ],
