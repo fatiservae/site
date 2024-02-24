@@ -303,9 +303,10 @@ Veja &lt;a href=&#34;./medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidrata
     &lt;option value=&#34;10&#34;&gt;Cloreto de sódio a 10%&lt;/option&gt;
     &lt;option value=&#34;20&#34;&gt;Cloreto de sódio a 20%&lt;/option&gt;
 &lt;/select&gt;
+&lt;h2&gt;Tonicidade do sódio&lt;/h2&gt;
 &lt;form&gt;
-    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Calcular sódio isotônico - 135mEq/L? &lt;br&gt;
-    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Calcular sódio hipotônico - 30mEq/L? 
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Isotônico - 135mEq/L? &lt;br&gt;
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Hipotônico - 30mEq/L? 
 &lt;/form&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;h2&gt;Potássio&lt;/h2&gt;

@@ -60,7 +60,7 @@
   --texto-dim: #555555;
   --letragradiente: white;
   --katex-color: var(--fonte);
-  --button-color: none;
+  --button-color: var(--fundo-input);
   --button-hover: #2e2c35;
   --headings: navajowhite ;
   --bordas: #383f48 ;
