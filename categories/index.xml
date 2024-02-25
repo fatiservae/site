@@ -1294,6 +1294,9 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     font-size: 90%;
     color: var(--autor);
   }
+  .atbClasses{
+    color: var(--termo);
+  }
 &lt;/style&gt;
 
 &lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;

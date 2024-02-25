@@ -1,5 +1,28 @@
 [
   {
+    "nome": ["axetilcefuroxima", "Zinnat"],
+    "class": ["antibióticos", "cefalosporinas de 2° geração", "betalactâmicos"],
+    "posologias": [
+      ["mg", "h"],
+      [250, 12, "VO", "em forma de comprimido, sachê ou suspensão."],
+      [500, 12, "VO"]
+    ]
+  },
+  {
+    "nome": ["ferripolimaltose", "Noripurum"],
+    "posologias":[
+      ["mg", "dose"], 
+      [20, "" , "IV", "ajustado de acordo com o nível de hemoglobina."]
+    ]
+  },
+  {
+    "nome": ["carboximaltose férrica", "Ferinject"],
+    "posologias":[
+      ["g", "dose"],
+      [1, "", "IV", "nunca excedendo 1g ou 20mg/Kg"]
+    ]
+  },
+  {
     "nome": ["desogestrel e etinilestradiol", "Mercilon"],
     "posologias":[
       ["mcg", "dia"],

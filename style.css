@@ -94,7 +94,7 @@
   --barra-selecionado: #3864da;
   --sombra: -1rem 0 3rem -1rem #000;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
-  --h2-gradiente: linear-gradient(90deg, orangered, var(--roxo-google), var(--azul-estadao));
+  --h2-gradiente: linear-gradient(90deg, var(--frase), var(--roxo-google), var(--azul-estadao));
   --background-img: url('pix/day.jpg'); 
   --hover-botao: #904500 ;
   --h2: #4E342E;
@@ -141,7 +141,7 @@
   --frase: var(--verde-google) ;
   --autor: var(--roxo-google);
   --sticker-font: var(--fundo-invertido) ;
-  --termo: darkred;
+  --termo: var(--azul-estadao);
 }
 
 body {
@@ -565,7 +565,7 @@ input#search {
   display: block ;
   padding: 0em;
   padding-bottom: 0.2rem ;
-  width: 38vw; 
+  width: 48vw; 
   height: 2em ;
   text-align: start;
   text-indent: 50px;

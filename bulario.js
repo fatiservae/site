@@ -24,17 +24,21 @@
         atb.appendChild(nome);
         atb.appendChild(habitual);
 
+        if (atbAtual.class !== undefined && Object.keys(data[i].class).length > 0 ) {
+            let classes = document.createElement('p');
+            classes.innerHTML = "Classes: <span class=\"atbClasses\">"+atbAtual.class.map(item => `${item}`).join(', ')+"</span>";
+            atb.appendChild(classes);
+        }
+
         let posologiasAdc = document.createElement('p');
-        //if (atbAtual.posologias.lenght > 2) {
         let noPosologias = Object.keys(data[i].posologias).length;
         if (noPosologias > 2) {
-            //for (i=1; i < Object.keys(data).posologias.length; i++){
             posologiasAdc.innerHTML = "Doses alternativas: <br><br>";
             for (j=2; j < noPosologias; j++){
               let instrucoes = atbAtual.posologias[j][3] === undefined ? '' : " "+atbAtual.posologias[j][3];
               posologiasAdc.innerHTML+= (j-1)+") "+atbAtual.posologias[j][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[j][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[j][2]+instrucoes+"<br><br>";
             }
-        atb.appendChild(posologiasAdc);
+            atb.appendChild(posologiasAdc);
         }
 
         if (atbAtual.obs !== undefined){
