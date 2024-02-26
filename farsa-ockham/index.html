@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>A Farsa Da Navalha De Ockham | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  <link rel="icon" href="../favicon.webp">
+  <meta name="description" content="Guilherme de Ockham.
+Suponha que uma raça alienígena entre em contato com os humanos e decida estudar o nosso comportamento em jogos. Mais especificamente, eles têm interesse em xadrez. Há, contudo, um problema: os aliens são incapazes de enxergar as peças no tabuleiro, tudo que conseguem ver é um emaranhado de borrões ente peças brancas e pretas. Para eles, nenhum mecanismo do jogo é visível.
+Diante desta situação, decidem estudar o jogo de forma comportamental, observado os jogadores de xadrez.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="barra">
+    <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+    <a href="../index.html" id="indexlink" alt="início">início</a>
+    <a href="../files/index.html" alt="files">arquivos</a>
+    <a href="../tags/projetos/index.html" alt="projetos">projetos</a> 
+
+</div>
+<br>
+<br>
+<script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === 'escuro') {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = 'claro' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === 'claro') {
+    document.documentElement.setAttribute('data-tema', 'claro');
+    lighswitch.innerHTML = 'escuro' ;
+  }
+  else {
+    document.documentElement.setAttribute('data-tema', 'escuro');
+    lighswitch.innerHTML = 'claro' ;
+  }
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === 'claro') {
+      lighswitch.innerHTML = 'claro'
+      document.documentElement.setAttribute('data-tema', 'escuro');
+      localStorage.setItem('tema', 'escuro'); 
+    } else if (temaAtual === 'escuro') {
+      lighswitch.innerHTML = 'escuro'
+      document.documentElement.setAttribute('data-tema', 'claro');
+      localStorage.setItem('tema', 'claro'); 
+    }
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+
+
+
+  <div id="img-div">
+    <img src="../pix/guilherme-ockham.webp"></img>
+    <p>Guilherme de Ockham.</p>
+  </div>
+
+<p>Suponha que uma raça alienígena entre em contato com os humanos e decida estudar o nosso comportamento em jogos. Mais especificamente, eles têm interesse em <strong>xadrez</strong>. Há, contudo, um problema: <em>os aliens são incapazes de enxergar as peças no tabuleiro, tudo que conseguem ver é um emaranhado de borrões ente peças brancas e pretas</em>. Para eles, nenhum mecanismo do jogo é visível.</p>
+<p>Diante desta situação, decidem estudar o jogo de forma comportamental, observado os jogadores de xadrez. Após milhares de partidas assistidas, os aliens concluem que, <em>no longo prazo</em>, o xadrez é na verdade um jogo de 50/50 já que em metade das partidas o jogador dito &ldquo;brancas&rdquo; venceu e, na outra metade, os jogadores de &ldquo;pretas&rdquo; ganharam.</p>
+<p>Assim, o cientista mais renomado dentre os alienígenas conclui que, na verdade, o xadrez trata-se de um simples jogo de cara-coroa.</p>
+<h2 id="novacula-occami">Novacula Occami</h2>
+
+
+
+  <div id="img-div">
+    <img src="../pix/razor-ockham.jpg"></img>
+    <p>Não me parece que esta navalha corte muito.</p>
+  </div>
+
+<p>Guilherme de Ockham foi um frade e filósofo inglês que formulou o princípio da econômia da natureza, como se segue:</p>
+<p><em>Numquam ponenda est pluralitas sine necessitate</em>.</p>
+<p>Para ele — e também para Kant, Newton e outros — todo fenômeno tende a acontecer por uma economia natural de recursos, sendo presumível que o mecanismo por trás de quaisquer estruturas desconhecidas deve ser ou evoluir para o mais simples possível.</p>
+<p>Com o tempo, a ciência positivista moderna, impulsionada pela revolução francesa e pelas sociedades secretas europeias insistiram no seu uso literário, tendo cuminado no termo <em>navalha de Ockham</em> como alusão a regra prática de eliminarmos todas teorias mais complexas como menos prováveis.</p>
+<h2 id="o-mundo-real">O mundo real</h2>
+<p>Porém, como no nosso problema alegórico dos aliens estudando xadrez, o mundo real quase sempre funciona pelo mecanismo mais complexo e elaborado.</p>
+<p>Pensava-se, há milênios, que os elementos naturais eram a <em>terra, o fogo, a água e o ar</em>. Uma combinação destes itens acontecia por interações simples e, com alguma ginástica argumentativa, filósofos antigos importantes construiram teorias inteiras para explicar toda matéria do universo com base nos quatro elementos.</p>
+<p>Ainda na atomística, <em>Democritus</em> acreditava e postulou que toda matéria se reduziria a uma esfera minúscula sólida mínima, indestrutível, mantenedora das características da substância que representava. Era o <strong>átomo</strong>. Hoje, sabemos se tratar de uma redução absurda da realidade, já que tomamos conhecimento de partículas subatômicas ainda mais minúsculas, como o elétron ou, posteriormente, os <em>quarks</em>.</p>
+<p>No campo da psiquiatria, e.g. Freud, postulou-se que, na verdade, todo o comportamento humano era fruto da interação consciente e inconsciente de partes da personalidade, sendo elas o <em>eu</em> o <em>id</em> e o <em>ego</em>. Surgia, assim, uma das mais prósperas pseudociências já elaboradas, tendo lançado bases profundas até os dias atuais, mesmo quando sabemos ser uma grosseira redução da chamada psicologia comportamental moderna que considera sutilezas do comportamento humano muito além da simples teoria <em>freudiana</em>.</p>
+<p>Outros exemplos podem ser trazidos aos montes. Poupemo-nos. O mundo é, quase sempre, muito mais complexo que nossas ingênuas teorias iniciais.</p>
+<h2 id="o-verdadeiro-xadrez">O verdadeiro xadrez</h2>
+<p>Suponhamos que, em nosso exemplo inicial, exista um outro cientista alienígena, conhecido por ser louco e marginalizado, excluído da academia principal. Este visionário propõe que, na realidade, o jogo de xadrez é extremamente complexo e tem peças de diversos tipos e também que as regras são convolucionadas e os jogadores desenvolvem habilidades únicas, bem como estratégias complicadas e arriscadas.</p>
+<p>Sua teoria será, obviamente, tratada como uma <em>piada</em> pela academia que louva Ockham.</p>
+<h2 id="justiça-seja-feita">Justiça seja feita</h2>
+<p>Se Ockham estivesse correto em seu princípio, a explicação mais econômica para todas questões mundanas seria a teísta: <strong>Deus criou todas as coisas como são e pronto</strong>. Porém, sejamos justos aqui: Ockham propôs, na verdade, um princípio de econômia energética natural, mais bem formulado e rigorosamente curado pela matemática através dos trabalhos de Lagrange. A deturpação de sua filosofia se deu pela academia positivista dos séculos XVIII e XIX.</p>
+<p>Portanto, cuidemos. Nem toda teoria elegante e simplista representa a realidade.</p>
+
+
+
+
+<footer>
+  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  <br>
+  <br>
+</footer>
+
+</body>
+</html>
