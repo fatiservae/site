@@ -1,0 +1,319 @@
+.title Dor Toracica e Dispneia
+.foot Dor torácica e dispneia - Jefferson T. - ESCS - 2023
+.logo logo-escs.png
+
+---
+.image chest-pain.png
+
+---
+.heading Dor Toracica e dispneia
+.subheading Jefferson T.
+.subheading Internato - Clinica Médica
+
+---
+.heading Epidemiologia
+.list
+8 milhões de atendimentos ao ano.
+Até 10% das consultas de emergência.
+Até 70% dos atendidos internam.
+Maioria baixo risco.
+Grande falha no diagnóstico da SCA e TEP.
+
+---
+.heading Conceitos
+.subheading preferir "desconforto" a "dor"
+.list 
+<b>Angina:</b> síndrome clínica caracterizada por dor ou desconforto em tórax, epigástrio, mandíbula, ombro, dorso ou membros superiores.
+<b>Aguda</b>: dor nova ou mudança do padrão de dor antiga.
+<b>Crônica:</b> repetição de um padrão doloroso.
+<b>Estável:</b> <em>crônica</em> que se associa sempre aos mesmos fatores.
+<b>Dor ventilatório dependente</b>: desconforto predominante na fase inspiratória que melhora ao superficializar a respiração.
+<b>Dispneia</b>: desconforto subjetivo descrito como sensação de aperto no peito, sufocamento, falta de ar ou incapacidade de encher o pulmão de ar. 
+
+---
+.heading Principais entidades
+.list
+Síndromes aórticas: dissecação de aorta;
+Síndromes coronarianas;
+Tromboembolismo: embolia pulmonar aguda;
+Rotura esofágica;
+Pneumotórax: hipertensivo;
+Tamponamento pericárdico: pericardite;
+
+---
+.image chart-epidemiologia.png
+.caption Gulati et al, Chest Pain Guideline, 2021 
+
+---
+.image outras-pulmonar.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.image outras-gastro.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.image outras.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.image outras-dispneia.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+#---
+#.heading Abordagem inicial de emergência
+#.subheading Geral + ABCDE + MOV
+#.ordlist
+#Iniciar monitorização cardíaca.
+#Oxigênio se saturação de O2 < 90%.
+#Obter acesso venoso periférico.
+#
+#---
+#.heading Abordagem sequente
+#.ordlist
+#Características e tempo da dor;
+#Exame físico toraco-abdominal;
+#Simetria de pulsos;
+#Pressão arterial nos quatro membros;
+#Sinais neurológicos relevantes.
+
+---
+.heading Síndromes aórticas
+.image dissecation.png
+.caption encyclopedia.pub --online
+
+---
+.heading Fatores de risco
+.list
+Sexo masculino;
+Idade superior a 50 anos;
+Hipertensão mal controlada;
+Uso de cocaína ou anfetamina;
+Valva aórtica bicúspide ou troca valvar aórtica prévia;
+Síndrome de Marfan e Ehlers-Danlos;
+Gestação.
+
+---
+.heading Sintomatologia
+.list
+Dor torácica súbita lancinante sem progressão, já se instala como máxima/forte em escala;
+Irradiação ou foco dorsal;
+Sensação de <em>tearing</em> ou rasgo;
+Palpitação, sudorese;
+Pode ocorrer IAM como repercursão imediata!
+
+---
+.heading Os sinais e sua relevância
+.list
+Elevação reflexa da PA e gradiente pressórico unilateral, ocorre quase sempre;
+Déficit de pulso unilateral 5.7% de probabilidade;
+Déficit neurológico associado +17%;
+ECG com alterações de onda T e ST em até 50%;
+Alargamento de mediastino em radiografias de tórax.
+
+---
+.image advised.png
+.caption Nazerian, Peiman et al., 2018.
+
+---
+.image advised-fluxo.png
+.caption Nazerian, Peiman et al., 2018.
+
+---
+.image add-rs.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.heading Manejo
+.list
+Manter a PA entre 100 a 120mmHg e FC até 60bpm;
+<b>Esmolol:</b> betabloqueador ultracurto, bolus de 500 μg/kg, e infusão de 50 a 200 μg/kg/min. 
+Embora o esmolol seja frequentemente utilizado na DA, um agente adicional é tipicamente necessário para aumentar os efeitos anti-hipertensivos;
+Nitroprussiato:</b> infusão inicial de 0,5 a 3 μg/kg/min e titulação para os objetivos hemodinâmicos.
+Não antiagregar!
+
+---
+.image blocked.png
+.caption Google Imagens, 2023.
+
+---
+.image diamond-forrester.png
+.caption Diamond & Forrester, 1979.
+
+---
+.image autopsy.png
+.caption Diamond & Forrester, 1979.
+
+---
+.image calcium.png
+.caption Diamond & Forrester, 1979.
+
+---
+.image male-female.png
+.caption Diamond & Forrester, 1979.
+
+---
+.image st-likelihood.png
+.caption Diamond & Forrester, 1979.
+
+---
+.image cass-study.png
+.caption BR Chaitman et al, 1981.
+
+---
+.image pre-teste.png
+.caption Diretriz de angina estável - SBC, 2014.
+
+---
+.image classificacao-dor-toracica.png
+.caption Diretriz de angina estável - SBC, 2014.
+
+---
+.image probability-ischemia.png
+.caption Gulati et al, Chest Pain Guideline, 2021 
+
+---
+.heading Definição de isquemia aguda
+.list
+Dor típica;
+Onda Q patológica;
+Alterações novas de segmento ST ou BRD/BRE ou onda T apiculada simétrica;
+Nova perda constatada de miocárdio viável;
+Trombo em angiografia/autópsia.
+
+---
+.heading Troponina
+.list 
+Marcador 
+<b>Curva</b>: elevação de 20% a mais seguida de queda semelhante;
+Presente em toda situação de injúria cardíaca;
+Pertence a definição de isquemia miocárdica.
+
+---
+.image minoca-tinoca.png
+.caption Diretriz de SCASST - SBC, 2021.<br> TINOCA: troponin-positive nonobstructive coronary arteries<br>MINOCA: myocardial infarction with non-obstructive coronary arteries 
+
+---
+.image curva-tropo.png
+.caption 4th universal definition of MI, selected messages. Cardiology Journal, 2021.
+
+---
+.image algol-tropo.png
+.caption Diretriz de SCASST - SBC, 2021.
+
+---
+.image fluxo-dt-2021.png
+.caption Diretriz de SCASST - SBC, 2021.
+
+---
+.image escore-heart.png
+.caption Diretriz de SCASST - SBC, 2021.<br>Usar o escore HEART guia - <em>protocolo acelerado</em>.
+
+---
+.image conduta-iam.png
+.caption Diretriz de SCASST - SBC, 2021.
+
+---
+.image unblocked.png
+.caption Google Imagens, 2023.
+
+---
+.heading Rotura esofágica
+.list
+Forte dor retroesternal;
+Queda rápida do estado geral;
+Taquicardia, febre, dispneia ou diaforese;
+Atenção à síndrome de Mallory-Weis e o espasmo esofágico.
+<b>Conduta imediata:</b>
+Ressuscitação volêmica se necessário;
+Monitorização;
+
+---
+.image tep.png
+
+---
+.heading Sintomas
+.list
+Dispneia súbita;
+Angina ou dor pleurítica repentina;
+Repercursão cardiovascular (taquicardia, queda da saturação);
+Tosse;
+Sintomas de TVP (dor unilateral de MI, edema, empastamento de panturrilhas etc).
+
+---
+.image wells.png
+.caption Diretriz conjunta de TEP, 2022.
+
+---
+.image s1q3t3.png
+.caption SanarMed, 2020.
+
+---
+.image tep-estavel.png
+.caption Diretriz conjunta de TEP, 2022.<br>Considerar corte de D-dímero idade x 10 para pacientes acima de 50 anos.
+
+---
+.image tep-instavel.png
+.caption Diretriz conjunta de TEP, 2022.
+
+---
+.image fleischner.jpg
+.caption Sinal de Fleischner: dilatação da artéria pulmonar, surge em 20% dos casos.
+
+---
+.image westermark.jpg
+.caption Corcova de Hamptom: área de isquemia em cunha contra bases pulmonares, incidência variável.
+
+---
+.heading Outros sinais
+.list
+Knuckle: afilamento de algum ramo da artéria pulmonar – melhor visto na tomografia.
+Chang: dilatação no calibre da artéria pulmonar principal, com incidência desconhecida.
+Derrame pleural: surge em 35% dos casos.
+
+---
+.heading Pneumotórax
+.image change-mind.jpg
+
+---
+.image pneumotorax-nao-traumatico.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.image fluxo-pneumotorax.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.heading Pericardite e/ou tamponamento
+.list
+Pródromo gripal;
+ST elevado difusamente e baixa voltagem;
+Tríade de Beck: turgência jugular, hipofonese de bulhas e hipotensão, em 10 a 40% dos pacientes;
+Hipotensão paradoxal à inspiração;
+Na ultrassonografia: desvio de septo, derrame pericárdico;
+Na radiografia: área cardíaca aumentada, desvios.
+
+---
+.image estratificacao-pericardite.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.heading Sumarizando...
+
+---
+.image fluxograma-dispneia.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.image final.png
+.caption VELASCO, Irineu T. et al. Medicina de emergência, 2022.
+
+---
+.heading Referências
+.list
+<b>Diretrizes da SBC de angina estável, SCASST e SCACST</b>, anos 2014, 2015 e 2021, respectivamente.
+ALBRICKER, Ana Cristina Lopes et al. <b>Diretriz Conjunta sobre Tromboembolismo Venoso 2022</b>. Arquivos Brasileiros de Cardiologia, v. 118, p. 797-857, 2022.
+BR Chaitman et al. <b>Angiographic prevalence of high-risk coronary artery disease in patient subsets (CASS). </b>Aug 1981. <a href="https://doi.org/10.1161/01.CIR.68.5.939">doi.org/10.1161/01.CIR.68.5.939</a>. Circulation Magazine, 64:360–367. 1981.
+Nazerian P. et al. ADvISED Investigators. <b>Diagnostic Accuracy of the Aortic Dissection Detection Risk Score Plus D-Dimer for Acute Aortic Syndromes: The ADvISED Prospective Multicenter Study</b>. Circulation. 2018 Jan 16;137(3):250-258. doi: 10.1161/CIRCULATIONAHA.117.029457. Epub 2017 Oct 13. PMID: 29030346.
+VELASCO, Irineu Tadeu et al. Medicina de emergência: abordagem prática 16ed. Universidade de São Paulo (USP). 2022.
+DOMIENIK-KARŁOWICZ, Justyna et al. <b>Fourth universal definition of myocardial infarction. Selected messages from the European Society of Cardiology document and lessons learned from the new guidelines on ST-segment elevation myocardial infarction and non-ST-segment elevation-acute coronary syndrome.</b> Cardiology Journal, v. 28, n. 2, p. 195-201, 2021.
