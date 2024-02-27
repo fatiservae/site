@@ -18,7 +18,8 @@
         comercial.innerText = atbAtual.nome[1] === undefined ? '' : atbAtual.nome.slice(1).map(item => `${item}`+'®').join('  ');
       
         let habitual = document.createElement('p');
-        habitual.innerText = "Dose habitual de "+atbAtual.posologias[1][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[1][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[1][2];
+        let instrucoes = atbAtual.posologias[1][3] === undefined ? '' : "<br><span style=\"color:var(--termo);\"><br>Instruções</span>: "+atbAtual.posologias[1][3];
+        habitual.innerHTML = "Dose habitual de "+atbAtual.posologias[1][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[1][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[1][2]+instrucoes;
         
         atb.appendChild(comercial);
         atb.appendChild(nome);
@@ -26,17 +27,17 @@
 
         if (atbAtual.class !== undefined && Object.keys(data[i].class).length > 0 ) {
             let classes = document.createElement('p');
-            classes.innerHTML = "Classes: <span class=\"atbClasses\">"+atbAtual.class.map(item => `${item}`).join(', ')+"</span>";
+            classes.innerHTML = "<span style=\"color: var(--termo)\">Classes: </span>"+atbAtual.class.map(item => `${item}`).join(', ');
             atb.appendChild(classes);
         }
 
         let posologiasAdc = document.createElement('p');
         let noPosologias = Object.keys(data[i].posologias).length;
         if (noPosologias > 2) {
-            posologiasAdc.innerHTML = "Doses alternativas: <br><br>";
+            posologiasAdc.innerHTML = "<span style=\"color: var(--termo)\">Demais posologias: <br><br></span>";
             for (j=2; j < noPosologias; j++){
               let instrucoes = atbAtual.posologias[j][3] === undefined ? '' : " "+atbAtual.posologias[j][3];
-              posologiasAdc.innerHTML+= (j-1)+") "+atbAtual.posologias[j][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[j][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[j][2]+instrucoes+"<br><br>";
+              posologiasAdc.innerHTML+= "<span style=\"color: var(--termo)\">"+(j-1)+") </span>"+atbAtual.posologias[j][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[j][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[j][2]+instrucoes+"<br><br>";
             }
             atb.appendChild(posologiasAdc);
         }

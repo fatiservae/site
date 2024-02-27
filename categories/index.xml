@@ -1293,14 +1293,13 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 		<pubDate>Sun, 17 Dec 2023 21:31:36 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/bulario/</guid>
-		<description>&lt;p&gt;Este é um bulário médico profissional, &lt;strong&gt;não serve a pacientes&lt;/strong&gt; por não conter orientações de tomada, apresentações, preparo, colaterais nem complicações.&lt;/p&gt;
+		<description>&lt;p&gt;Este é um bulário médico profissional, &lt;strong&gt;não serve a pacientes&lt;/strong&gt;.&lt;/p&gt;
 
 
 &lt;style&gt;
   #resultado{
     overflow-wrap: normal;
     min-height: 100vw;
-    font-size: 90%;
   }
   #resultado div{
     font-weight: normal;
@@ -1315,7 +1314,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     /*
     background: var(--sticker-fundo);
     */
-	background: var(--fundo-card);
+    background: var(--fundo-card);
     width: fit-content;
   }
   div#divAtb p{
@@ -1328,7 +1327,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
   }
   */
   .observacao {
-    font-size: 80%;
+    font-size: 90%;
     color: var(--negrito);
   }
   #resultado div .nome{
@@ -1338,13 +1337,10 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     -webkit-background-clip: text; 
     color: transparent; 
     font-weight: bold;
+    width: fit-content;
   }
   #resultado div .comercial{
-    font-size: 90%;
     color: var(--autor);
-  }
-  .atbClasses{
-    color: var(--termo);
   }
 &lt;/style&gt;
 
