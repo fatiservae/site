@@ -1,3 +1,9 @@
+/*
+Regras de estilo:
+- <mark> deve ser usada para uma única palavra.
+- a propriedade word-wrap será sempre nowrap.
+*/
+
 :root {
 /* Personalizadas */
   --fonte-comedia: "Bangers";
@@ -44,6 +50,7 @@
 }
 
 :root[data-tema="escuro"] {
+  --marca-texto: #FFE500;
   --barra-selecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
   --h2-gradiente: linear-gradient(90deg, #4b83f0, #6b7ce1, #8776d4, #ab6fb4, #be6b98, #d96570, #d56676);
@@ -64,7 +71,6 @@
   --button-hover: #2e2c35;
   --headings: navajowhite ;
   --bordas: #383f48 ;
-  --marca-texto: #FFE500;
   --fundo-invertido: var(--white-solarized) ;
   --fundo-input: #313131;
   /*
@@ -76,7 +82,7 @@
   --frase: white ;
   --frase-show: gray ;
   --frase-hover: white ;
-  --autor: var(--amarelo-servo);
+  --autor: var(--fundo);
   --sticker-fundo: var(--gradiente-dark) ;
   --links: var(--azul-vibrante) ;
   --links-visitados: var(--blue) ;
@@ -91,6 +97,7 @@
   --sombra: -1rem 0 1rem -1rem darkgray;
 }
 :root[data-tema="claro"] {
+  --marca-texto: var(--negrito);
   --barra-selecionado: #3864da;
   --sombra: -1rem 0 3rem -1rem #000;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
@@ -102,7 +109,6 @@
   --h3: #455A64;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
-  --marca-texto: #FFE500;
   --code-text: indigo;
   --negrito: #b0132d;
   --texto-dim: var(--fundo-invertido);
@@ -139,7 +145,7 @@
   --frase-show: var(--texto-dim) ;
   --frase-hover: darkred ;
   --frase: var(--verde-google) ;
-  --autor: var(--roxo-google);
+  --autor: var(--fundo);
   --sticker-font: var(--fundo-invertido) ;
   --termo: var(--azul-estadao);
 }
@@ -166,6 +172,11 @@ body {
   scrollbar-color: gray #151515 ;
   font-size: 20px;
   padding: 0%;
+}
+@media only screen and (max-width: 800px){
+  body{
+    font-size: 120%;
+  }
 }
 
 #switch {
@@ -248,6 +259,10 @@ a#switch:hover {
   text-indent: 0%;
   font-weight: bold;
 }
+p#resultado {
+  margin-left: 0;
+  max-width: 100%;
+}
 #result {
   color: var(--fonte) ;
 }
@@ -307,6 +322,14 @@ a#switch:hover {
 }
 div.duploflex p{
   width: 100%;
+}
+@media only screen and (max-width: 800px){
+  .duploflex {
+    display: block;
+  }
+  .duploflex div {
+    max-width: 100%;
+  }
 }
 
 label {
@@ -894,10 +917,9 @@ li::before{
 
 #autor{
   /*
-  padding-left: 20%;
-  font-family: "San Francisco Display Thin";
   */
   margin-left: 15vw;
+  word-wrap: nowrap;
   color: var(--autor) ; 
   font-weight: normal;
 }
@@ -906,12 +928,10 @@ li::before{
 }
 #autor, #frase{
   /*
-  padding-left: 20%;
-  margin-left: auto;
-  margin-right: auto;
   */
   text-indent: 0% !important;
   max-width: 60vw;
+  width: fit-content;
   text-align: start;
 }
 .frase{
@@ -1255,27 +1275,8 @@ nav#TableOfContents li:last-child::before {
   content: "└";
 }
 
-.corpo {
-}
-
-
-/* MENU BARRA FLUTUANTE */
-/* Menu com barra superior e hover*/
 .barra {
   /*
-  margin-bottom: 1em;
-  background: var(--sticker-fundo) ;
-  padding-bottom: 2em;
-  transform: rotate(90deg) scaleY(-1); 
-  transform-origin: left bottom; 
-  position: absolute;
-  z-index: 1000;
-  white-space: nowrap; 
-  position: sticky;
-  padding-top: 0.5em;
-  background: linear-gradient(var(--fundo), transparent);
-  text-align: right;
-  margin-left: 5vw;
   */
   position: absolute;
   top: 1vw;
@@ -1287,24 +1288,8 @@ nav#TableOfContents li:last-child::before {
   margin-top: 0.5em;
   font-weight: bold ;
 }
-
 .barra a{
-  /* ELEMENTOS DO TEMA BOTAO 3D
-  background-size: cover;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  background: var(--fundo) ;
-  transition: background 300ms ease-in-out;
-  text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(var(--fundo), transparent);
-  text-shadow: none; 
-  margin-top: 5px;
-  margin-bottom: 2px;
-  font-kerning: normal ;
-  border: 1px solid none;
-  border-radius: 38px;
-  border-bottom: 1px solid var(--bordas);
-  padding-right: 10px;
-  background: var(--button-color);
+  /* 
   */
   font-size: 110%;
   font-weight: normal;
@@ -1318,38 +1303,25 @@ nav#TableOfContents li:last-child::before {
 .barra a[href]:visited, .barra a[href] {
   color: var(--link-barra);
   font-weight: normal;
-  /* ELEMENTOS DO TEMA BOTAO 3D
-  border-bottom: 1px solid var(--bordas);
-  background: var(--fundo) ;
+  /* 
   */
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
   color: var(--negrito);
-  /* ELEMENTOS DO TEMA BOTAO 3D
-  border-bottom: 1px solid var(--fundo-invertido);
-  background: var(--button-hover);
-  background: var(--hover-botao);
-  text-shadow: var(--switch-shadow);
-  color: var(--fundo);
+  /* 
   */
 }
+
 .barra a[href]:visited:active,
 .barra a[href]:active {
   font-weight: bold;
-  /* ELEMENTOS DO TEMA BOTAO 3D
-  background: var(--button-hover);
-  text-shadow: var(--switch-shadow);
-  border-bottom: 1px solid var(--fundo-invertido);
-  background: var(--fonte-invertida);
-  color: var(--fundo-invertido);
+  /* 
   */
 }
 @media only screen and (max-width: 600px){
   .barra {
     /*
-    text-align: center;
-    width: 100% ;
     */
     font-size: 90%;
     position: static;
@@ -1363,82 +1335,6 @@ nav#TableOfContents li:last-child::before {
     transition: background 0ms ease-in-out;
   }
 }
-/* MENU BARRA FLUTUANTE */
-/*Menu com barra superior e hover*/
-/*.barra {
-/*  /*
-/*  margin-bottom: 1em;
-/*  background: var(--sticker-fundo) ;
-/*  padding-bottom: 2em;
-/*  transform: rotate(90deg) scaleY(-1); 
-/*  transform-origin: left bottom; 
-/*  position: absolute;
-/*  z-index: 1000;
-/*  white-space: nowrap; 
-/*  position: sticky;
-/*  padding-top: 0.5em;
-/*  */
-/*  left: 3px;
-/*  top: 0;
-/*  background: none;
-/*  width: fit-content;
-/*  margin-left: 5vw;
-/*  margin-right: auto;
-/*  margin-top: 0.5em;
-/*  line-height: 2;
-/*  text-align: center;
-/*  font-weight: bold ;
-/*  background: linear-gradient(var(--fundo), transparent);
-/*}
-/*
-/*.barra a{
-/*  /* ELEMENTOS DO TEMA BOTAO 3D
-/*  background-size: cover;
-/*  border: 1px solid var(--bordas);
-/*  border-radius: 4px;
-/*  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-/*  background: var(--fundo) ;
-/*  transition: background 300ms ease-in-out;
-/*  text-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
-/*  font-size: 200%;
-/*  */
-/*
-/*  color: var(--link-barra);
-/*  transition: border 500ms ease-in-out;
-/*  background: linear-gradient(var(--fundo), transparent);
-/*  text-shadow: none; 
-/*  font-weight: bold;
-/*  font-feature-settings: "kern" 1;
-/*  font-kerning: normal ;
-/*  padding: 4px ; 
-/*  white-space: nowrap;
-/*  border-top: 2px solid var(--bordas);
-/*  }
-/*.barra a[href]:visited, .barra a[href] {
-/*  color: var(--link-barra);
-/*  /* ELEMENTOS DO TEMA BOTAO 3D
-/*  background: var(--fundo) ;
-/*  */
-/*}
-/*.barra a[href]:visited:hover,
-/*.barra a[href]:hover{
-/*  background: linear-gradient(var(--hover-botao), transparent);
-/*  border-top: 2px solid var(--fundo-invertido);
-/*  /* ELEMENTOS DO TEMA BOTAO 3D
-/*  background: var(--hover-botao);
-/*  text-shadow: var(--switch-shadow);
-/*  color: var(--fundo);
-/*  */
-/*}
-/*.barra a[href]:visited:active,
-/*.barra a[href]:active {
-/*  border-top: 2px solid var(--fundo-invertido);
-/*  text-shadow: var(--switch-shadow);
-/*  /* ELEMENTOS DO TEMA BOTAO 3D
-/*  background: var(--fonte-invertida);
-/*  color: var(--fundo-invertido);
-/*  */
-/*}*/
 
 div#counter {
   text-align: start;
@@ -1446,14 +1342,10 @@ div#counter {
   width: fit-content;
   background: var(--gradiente-dark);
   /*
-  margin: auto;
-  max-width: 80%;
   */
 }
 .counter{
   /*
-  border: 1px solid #383f48 ; 
-  background: cover;
   */
   margin-left: 1em ;
   background-color: none;
@@ -1467,13 +1359,13 @@ div#counter {
   max-width: 80%;
 }
 
-/* SMARTPHONE CELULAR DEVICES */
 @media (pointer: coarse) {
   li > a {
     display: inline-block;
     padding: 0.2em 0;
   }
 }
+
 .eu {
   width: fit-content;
 }
@@ -1481,26 +1373,22 @@ div#counter {
   width: calc(80px + 12vw); 
   height: auto;
 }
+@media only screen and (max-width: 800px){
+  .eu {
+    max-width: 50%; 
+    height: auto;
+  }
+  .eu img {
+    width: calc(250px - 9vw);
+  }
+}
+
 .qrmonero {
   width: clamp(100px, 15%, 10vw);
   height: auto;
 }
 
 @media only screen and (max-width: 800px){
-  .duploflex {
-    display: block;
-  }
-  .duploflex div {
-    max-width: 100%;
-  }
-  ul {
-    /*
-    columns: 1 !important;
-    */
-  }
-  body{
-    font-size: 120%;
-  }
   p {
     max-width: 110% ;
   }
@@ -1542,13 +1430,6 @@ div#counter {
     max-width: 95% ;
     padding:0;
     margin:0;
-  }
-  .eu {
-    max-width: 50%; 
-    height: auto;
-  }
-  .eu img {
-    width: calc(250px - 9vw);
   }
 
   input#search {
@@ -1717,13 +1598,21 @@ div#counter {
   content: none;
 }
 
-p#resultado {
-  margin-left: 0;
-  max-width: 100%;
-}
-span.marcatexto {
+mark {
   background-color: var(--marca-texto);
-  color: black;
+  position: relative;
+}
+mark::before,
+mark::after{
+  background-color: var(--marca-texto);
+  content: "";
+  position: absolute;
+  width: calc(100% + 6px);
+  height: 100%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-4deg);
 }
 
 span.typewriter{

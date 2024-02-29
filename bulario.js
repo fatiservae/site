@@ -19,7 +19,7 @@
       
         let habitual = document.createElement('p');
         let instrucoes = atbAtual.posologias[1][3] === undefined ? '' : "<br><span style=\"color:var(--termo);\"><br>Instruções</span>: "+atbAtual.posologias[1][3];
-        habitual.innerHTML = "Dose habitual de "+atbAtual.posologias[1][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[1][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[1][2]+instrucoes;
+        habitual.innerHTML = "Posologia habitual de "+atbAtual.posologias[1][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[1][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[1][2]+instrucoes;
         
         atb.appendChild(comercial);
         atb.appendChild(nome);

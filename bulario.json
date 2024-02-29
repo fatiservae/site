@@ -1,5 +1,32 @@
 [
   {
+    "nome": ["fluconazol"],
+    "class": ["antifúngicos"],
+    "posologias":[
+      ["mg", "dose"],
+      [150, "", "VO", "dose única que pode ser tomada semanal para sítios difíceis, como ungueal."]
+    ]
+  },
+  {
+    "nome": ["terbinafina"],
+    "class": ["antifúngicos"],
+    "posologias":[
+      ["mg", "dia"],
+      [250, "", "VO", "sendo a terapia muito variável, de 3 a 12 semanas, a depender do sítio infectado."]
+    ]
+  },
+  {
+    "nome": ["dexmedetomidina", "Precedex"],
+    "class": ["pré-anestésicos", "ansiolíticos", "simpaticolíticos"],
+    "posologias":[
+      ["mcg/Kg", "min"],
+      [1, 10, "IV", "ataque por 10min."],
+      [0.5, 60, "IV", "para manutenção, por hora. Também pode ser usada como droga de auxílio à VNI e para ansiólise."],
+      [0.2, 60, "IV", "é o mínimo conhecido para manutenção de hora."],
+      [0.7, 60, "IV", "é o máximo indicado por bula comercial para manutenção de hora."]
+    ]
+  },
+  {
     "nome": ["ácido tranexâmico", "Transamin"],
     "class": ["antifibrinolítico"],
     "posologias":[
@@ -95,8 +122,8 @@
       ["mg", "h"],
       [7.5, 12, "IV"],
       [15, 24, "IV"], 
-      [7.5, 12, "IV", "se clearence de Cr abaixo de 90mL/min"],
-      [7.5, 24, "IV", "se clearence de Cr abaixo de 50mL/min"]
+      [7.5, 12, "IV", "se clearence de Cr abaixo de 90mL/min."],
+      [7.5, 24, "IV", "se clearence de Cr abaixo de 50mL/min."]
     ],
     "obs": [
       "Repetir dose de 15mg no pós-diálise.",
@@ -117,9 +144,9 @@
       ["mg", "h"],
       [1.7, 8, "IV"],
       [5.1, 24, "IV"],
-      [1.7, 8, "IV", "se clearence de Cr abaixo de 90ml/min"],
-      [1.7, 24, "IV", "se clearence de Cr abaixo de 50ml/min"],
-      [1.7, 48, "IV", "se clearence de Cr abaixo de 10ml/min"]
+      [1.7, 8, "IV", "se clearence de Cr abaixo de 90ml/min."],
+      [1.7, 24, "IV", "se clearence de Cr abaixo de 50ml/min."],
+      [1.7, 48, "IV", "se clearence de Cr abaixo de 10ml/min."]
     ],
     "obs": [ 
       "Há apresentações IM/IV/SUBCAPS/ITRQ etc.", 
@@ -132,9 +159,9 @@
       ["mg", "h"],
       [1.7, 8, "IV"],
       [5.1, 24, "IV"],
-      [1.7, 8, "IV", "se clearence de Cr abaixo de 90ml/min"],
-      [1.7, 24, "IV", "se clearence de Cr abaixo de 50ml/min"],
-      [1.7, 48, "IV", "se clearence de Cr abaixo de 10ml/min"]
+      [1.7, 8, "IV", "se clearence de Cr abaixo de 90ml/min."],
+      [1.7, 24, "IV", "se clearence de Cr abaixo de 50ml/min."],
+      [1.7, 48, "IV", "se clearence de Cr abaixo de 10ml/min."]
     ],
     "obs": [ 
       "Há apresentações IM/IV/SUBCAPS/ITRQ etc", 
@@ -160,7 +187,7 @@
     "posologias":[
       ["mg", "h"],
       [1000, 24, "IV"],
-      [500, 24, "IV", "se clearence de Cr menor que 50mL/min"]
+      [500, 24, "IV", "se clearence de Cr menor que 50mL/min."]
     ],
     "obs": [
       "Repetir 150mg no pós-diálise se a última dose foi administrada até 6h antes do procedimento."
@@ -170,10 +197,10 @@
     "nome": ["piperacilina com tazobactam", "Tazocin"],
     "posologias":[
       ["mg", "h"],
-      [4500, 8, "IV", "sendo 4g de piperacilina e 500mg de tazobactam"],
-      [4500, 6, "IV", "sendo 4g de piperacilina e 500mg de tazobactam"],
-      [2250, 6, "IV", "se clearence de Cr abaixo de 40mL/min"],
-      [2250, 8, "IV", "se clearence de Cr abaixo de 20mL/min"]
+      [4500, 8, "IV", "sendo 4g de piperacilina e 500mg de tazobactam."],
+      [4500, 6, "IV", "sendo 4g de piperacilina e 500mg de tazobactam."],
+      [2250, 6, "IV", "se clearence de Cr abaixo de 40mL/min."],
+      [2250, 8, "IV", "se clearence de Cr abaixo de 20mL/min."]
     ],
     "obs": [
       "Se dialítico, fazer dose diária de 2.25g/12h e dose pós-diálise de 750mg."
@@ -197,10 +224,10 @@
       ["g", "h"],
       [1, 8, "IV"],
       [2, 8, "IV"],
-      [1, 12, "IV", "se o clearence de Cr entre 50-10mL/min"],
-      [2, 12, "IV", "se o clearence de Cr entre 50-10mL/min"],
-      [1, 24, "IV", "se o clearence menor que 10mL/min"],
-      [1, 48, "IV", "se o clearence menor que 10mL/min"]
+      [1, 12, "IV", "se o clearence de Cr entre 50-10mL/min."],
+      [2, 12, "IV", "se o clearence de Cr entre 50-10mL/min."],
+      [1, 24, "IV", "se o clearence menor que 10mL/min."],
+      [1, 48, "IV", "se o clearence menor que 10mL/min."]
     ],
     "obs": [
       "Adicionar 1g no pós-diálise."
@@ -225,10 +252,8 @@
     "class": ["antibióticos", "penicilinas", "penicilinas resistentes a penicilinases", "betalactâmicos"],
     "posologias": [
       ["g", "h"],
-      [1, 4, "IV"],
-      [2, 6, "IV"],
-      [1, 4, "IV"],
-      [2, 6, "IV"]
+      [1, 6, "IV"],
+      [2, 6, "IV", "ou com tempo interdoses de 4h."]
     ]
   },
   {

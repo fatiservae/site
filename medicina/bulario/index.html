@@ -57,12 +57,14 @@
 
 </head>
 <body>
-<div class="barra">
-    <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-    <a href="../../index.html" id="indexlink" alt="início">início</a>
-    <a href="../../files/index.html" alt="files">arquivos</a>
-    <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
-
+<div class="fundobarra">
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
 </div>
 <br>
 <br>
@@ -142,6 +144,7 @@
 
 <style>
   #resultado{
+    font-size: 80%;
     overflow-wrap: normal;
     min-height: 100vw;
   }
@@ -162,21 +165,20 @@
     width: fit-content;
   }
   div#divAtb p{
-    margin: 1em;
+    margin: 2vw;
   }
-    /*
+  /*
   #resultado div div {
     border: solid 1px var(--fonte);
     font-size: 80%;
   }
   */
   .observacao {
-    font-size: 90%;
     color: var(--negrito);
   }
-  #resultado div .nome{
-    font-size: 130%;
-    margin-left: 1em;
+  .nome{
+    font-size: 140%;
+    margin-left: 0em;
     background-image: var(--h2-gradiente); 
     -webkit-background-clip: text; 
     color: transparent; 

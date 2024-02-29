@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.123.0">
+	<meta name="generator" content="Hugo 0.122.0">
   
   
   <script>
@@ -57,12 +57,14 @@
 
 </head>
 <body>
-<div class="barra">
-    <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-    <a href="./index.html" id="indexlink" alt="início">início</a>
-    <a href="./files/index.html" alt="files">arquivos</a>
-    <a href="./tags/projetos/index.html" alt="projetos">projetos</a> 
-
+<div class="fundobarra">
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="./index.html" id="indexlink" alt="início">início</a>
+      <a href="./files/index.html" alt="files">arquivos</a>
+      <a href="./tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
 </div>
 <br>
 <br>
@@ -162,8 +164,11 @@ fetch('/citacoes.json')
   
   
   document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  document.getElementById("autor").textContent = autor;
-  })
+  if (autor.length > 1){
+    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
+    console.log(autor)
+  }
+})
 .catch(error => console.error('Erro ao buscar o JSON:', error));
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -173,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 <div> 
   <p class="frase" id="frase"></p> 
-  <p id="autor"></p>
+  <div id="autor"></div>
   <br>
 </div>
 

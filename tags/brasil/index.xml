@@ -2,7 +2,7 @@
   <channel>
 	<title>Jefferson T.</title>
 	<link>https://www.jeffersontorres.com.br/tags/brasil/</link>
-	<description>Recent content in Brasil on Jefferson T.</description>
+	<description>Recent content in brasil on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate>
@@ -184,21 +184,28 @@
 		<pubDate>Thu, 08 Feb 2024 11:18:33 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/apresentacoes/</guid>
-		<description>&lt;p&gt;Minhas apresentações.&lt;/p&gt;
+		<description>
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/projector.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Sinta a nostalgia de um velho projetor de transparências.&lt;/p&gt;
+  &lt;/div&gt;
+
 &lt;p&gt;Os arquivos devem ser acessados preferencialmente no formato original &lt;a href=&#34;../../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;, pois contém vídeos e outros conteúdos interativos impossíveis em PDF.&lt;/p&gt;
 &lt;h2 id=&#34;aula-sobre-dor-torácica&#34;&gt;Aula sobre dor torácica&lt;/h2&gt;
 &lt;p&gt;Apresentei esta aula no Hospital de Sobradinho - DF em outubro de 2023.&lt;/p&gt;
 &lt;p&gt;Slides para &lt;em&gt;desktop&lt;/em&gt; em StultusVisio disponível &lt;a href=&#34;../../medicina/aulas/DorToracicaDispneia.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Dor-Toracica.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;appendiceal-neoplasms-secondary-analysis-of-the-coda-trial&#34;&gt;Appendiceal neoplasms: secondary analysis of the CODA trial&lt;/h2&gt;
+&lt;h2 id=&#34;aula-sobre-o-artigo-appendiceal-neoplasms-secondary-analysis-of-the-coda-trial&#34;&gt;Aula sobre o artigo Appendiceal neoplasms: secondary analysis of the CODA trial&lt;/h2&gt;
 &lt;p&gt;Apresentei este artigo em janeiro de 2024 no Hospital Regional da Asa Norte de Brasília-DF.&lt;/p&gt;
 &lt;p&gt;Slides para &lt;em&gt;desktop&lt;/em&gt; em StultusVisio disponível &lt;a href=&#34;../../neoplasia-apendice/neoapendice.html&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Apresentacao-Neoplasia-Apendice.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;abcesso-hepático&#34;&gt;Abcesso hepático&lt;/h2&gt;
+&lt;h2 id=&#34;caso-clínico-abcesso-hepático&#34;&gt;Caso clínico: abcesso hepático&lt;/h2&gt;
 &lt;p&gt;Apresentado em 08/02/24 no Hospital Regional da Asa Norte em Brasília.&lt;/p&gt;
 &lt;p&gt;Acesse &lt;a href=&#34;../../medicina/casos-clinicos/abcesso-hep-dss.html&#34;&gt;aqui&lt;/a&gt; a versão em StultusVisio.&lt;/p&gt;
 &lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;lesão-de-vértebra-lombar-l2&#34;&gt;Lesão de vértebra lombar L2&lt;/h2&gt;
+&lt;h2 id=&#34;caso-clínico-lesão-de-vértebra-lombar-l2&#34;&gt;Caso clínico: lesão de vértebra lombar L2&lt;/h2&gt;
 &lt;p&gt;Apresentado em 22/02/24 no Hospital de BASE de Brasília.&lt;/p&gt;
 &lt;p&gt;Acesse &lt;a href=&#34;../../medicina/casos-clinicos/caso-base-explosao-l2.html&#34;&gt;aqui&lt;/a&gt; a versão em StultusVisio.&lt;/p&gt;
 &lt;p&gt;Versão em PDF &lt;a href=&#34;../../files/Medicina/JeffersonT-Caso-Clinico-explosao-l2.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -1299,6 +1306,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 
 &lt;style&gt;
   #resultado{
+    font-size: 80%;
     overflow-wrap: normal;
     min-height: 100vw;
   }
@@ -1319,21 +1327,20 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     width: fit-content;
   }
   div#divAtb p{
-    margin: 1em;
+    margin: 2vw;
   }
-    /*
+  /*
   #resultado div div {
     border: solid 1px var(--fonte);
     font-size: 80%;
   }
   */
   .observacao {
-    font-size: 90%;
     color: var(--negrito);
   }
-  #resultado div .nome{
-    font-size: 130%;
-    margin-left: 1em;
+  .nome{
+    font-size: 140%;
+    margin-left: 0em;
     background-image: var(--h2-gradiente); 
     -webkit-background-clip: text; 
     color: transparent; 
@@ -1755,11 +1762,16 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 		<guid>https://www.jeffersontorres.com.br/medicina/eclampsia/</guid>
 		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
-&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de &lt;strong&gt;gestação a pelo menos 20 semanas, hipertensão e proteinúria&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;gestação a pelo menos 20 semanas;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;hipertensão; e&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;proteinúria&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Considera-se hipertensa a grávida com &lt;strong&gt;PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;. Aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Considera-se, também, qualquer lesão de órgão-alvo².&lt;/p&gt;
-&lt;p&gt;Eclâmpsia é a ocorrência de &lt;strong&gt;convulsões&lt;/strong&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
+&lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Eclâmpsia&lt;/strong&gt; é a ocorrência de &lt;mark&gt;convulsões&lt;/mark&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
 &lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
 &lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;A cura é o &lt;strong&gt;parto&lt;/strong&gt;.&lt;/p&gt;
@@ -1767,7 +1779,7 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 &lt;h3 id=&#34;cuidados&#34;&gt;Cuidados!&lt;/h3&gt;
 &lt;p&gt;O reflexo patelar desaparece com 10mEq/L e ocorre PCR com 12mEq/L.&lt;/p&gt;
 &lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
-&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10 mL a 10%) deve ser administrado lentamente nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
+&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10 mL a 10%) deve ser administrado &lt;mark&gt;lentamente &lt;/mark&gt;nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
 &lt;h2 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h2&gt;
 &lt;p&gt;A medicina baseada em evidências consegue demostrar benefício no uso de &lt;strong&gt;ácido acetilsalicílico a 150mg/dia&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Caso se tenha deficiência de cálcio na dieta presumida clinicamente ou por diagnóstico laboratorial, prescreve-se &lt;strong&gt;cálcio oral dietético suplementar a 1-2g/dia&lt;/strong&gt;.&lt;/p&gt;
@@ -1775,7 +1787,6 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Proteína total dividida pela creatinina medidas em mesma unidade.&lt;/li&gt;
-&lt;li&gt;A &lt;a href=&#34;../../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
