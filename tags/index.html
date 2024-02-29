@@ -157,8 +157,11 @@ fetch('/citacoes.json')
   
   
   document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  document.getElementById("autor").textContent = autor;
-  })
+  if (autor.length > 1){
+    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
+    console.log(autor)
+  }
+})
 .catch(error => console.error('Erro ao buscar o JSON:', error));
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -166,20 +169,19 @@ document.addEventListener("DOMContentLoaded", function() {
   item.classList.add('show');
 });
 </script>
-
-<div class="frase"> 
-<p id="frase"></p> 
-<p id="autor"></p>
-<br>
+<div> 
+  <p class="frase" id="frase"></p> 
+  <div id="autor"></div>
+  <br>
 </div>
 
 <ul class="listing-list">
 <li>
-	<a href="../tags/ci%C3%AAncia/">ciência</a>
+	<a href="../tags/ci%C3%AAncia/">Ciência</a>
 	
 	</li>
 <li>
-	<a href="../tags/filosofia/">filosofia</a>
+	<a href="../tags/filosofia/">Filosofia</a>
 	
 	</li>
 <li>
@@ -187,11 +189,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 	</li>
 <li>
-	<a href="../tags/apresenta%C3%A7%C3%B5es/">apresentações</a>
+	<a href="../tags/apresenta%C3%A7%C3%B5es/">Apresentações</a>
 	
 	</li>
 <li>
-	<a href="../tags/medicina/">medicina</a>
+	<a href="../tags/medicina/">Medicina</a>
 	
 	</li>
 <li>
@@ -199,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 	</li>
 <li>
-	<a href="../tags/projetos/">projetos</a>
+	<a href="../tags/projetos/">Projetos</a>
 	
 	</li>
 <li>
@@ -219,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 	</li>
 <li>
-	<a href="../tags/viagem/">viagem</a>
+	<a href="../tags/viagem/">Viagem</a>
 	
 	</li>
 <li>
@@ -235,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 	</li>
 <li>
-	<a href="../tags/farmacologia/">farmacologia</a>
+	<a href="../tags/farmacologia/">Farmacologia</a>
 	
 	</li>
 <li>
@@ -247,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 	</li>
 <li>
-	<a href="../tags/receitas/">receitas</a>
+	<a href="../tags/receitas/">Receitas</a>
 	
 	</li>
 <li>
@@ -255,15 +257,15 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 	</li>
 <li>
-	<a href="../tags/brasil/">brasil</a>
+	<a href="../tags/brasil/">Brasil</a>
 	
 	</li>
 <li>
-	<a href="../tags/programa%C3%A7%C3%A3o/">programação</a>
+	<a href="../tags/programa%C3%A7%C3%A3o/">Programação</a>
 	
 	</li>
 <li>
-	<a href="../tags/tecnologia/">tecnologia</a>
+	<a href="../tags/tecnologia/">Tecnologia</a>
 	
 	</li>
 <li>

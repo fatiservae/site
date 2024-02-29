@@ -73,8 +73,6 @@ Regras de estilo:
   --bordas: #383f48 ;
   --fundo-invertido: var(--white-solarized) ;
   --fundo-input: #313131;
-  /*
-  */
   --green: #347d39 ;
   --separador: #383f48 ;
   --fonte: #a0acb9 ;
@@ -90,7 +88,6 @@ Regras de estilo:
   --termo: tomato ;
   --link-barra: var(--tomato-gemini);
   /*
-  --fundo: var(--gradfundo);
   */
   --fundo: #22272e; 
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
@@ -152,15 +149,6 @@ Regras de estilo:
 
 body {
 /*
-  "Google Sans", "Noto Sans", "Source Sans Pro", "Open Sans", "Lucida Sans" , monospace;
-  background: var(--fundo);
-  background: var(--background-img) no-repeat ;
-  background-size: cover;
-  background-position: left top;
-  background-attachment: fixed;
-  background-size: cover;
-  transition: background 4000ms ease-in-out; // toda página atualizada faz a transition
-  font-feature-settings: "liga" 1, "dlig" 1;
 */
   font-family: "Fira Sans", "Noto color emoji",  "Open Sans", 'Lato', sans-serif;
   font-weight: light;
@@ -897,20 +885,10 @@ ol {
 li a:hover {
   color: var(--fonte);
   /*
-  border-radius: 4px ;
-  background-size: cover;
-  list-style-type: "+  ";
-  background: var(--fundo-input) ;
   */
 }
 li::before{
   /*
-  margin-left: 0%;
-  align: start;
-  padding: 0%;
-  font-weight: bold ;
-  color: var(--fundo-input) ;
-  width: 10px;
   */
 }
 
@@ -918,7 +896,7 @@ li::before{
 #autor{
   /*
   */
-  margin-left: 15vw;
+  margin-left: 5vw;
   word-wrap: nowrap;
   color: var(--autor) ; 
   font-weight: normal;

@@ -1347,7 +1347,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     width: fit-content;
   }
   #resultado div .comercial{
-    color: var(--autor);
+    color: var(--fundo-invertido);
   }
 &lt;/style&gt;
 

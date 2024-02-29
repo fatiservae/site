@@ -5,7 +5,7 @@
 	<description>Recent content in Medicinas on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 08 Feb 2024 11:18:33 -0300</lastBuildDate>
+	<lastBuildDate>Thu, 15 Feb 2024 11:47:11 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/medicina/index.xml" rel="self" type="application/rss+xml" />
 	
@@ -1348,7 +1348,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     width: fit-content;
   }
   #resultado div .comercial{
-    color: var(--autor);
+    color: var(--fundo-invertido);
   }
 &lt;/style&gt;
 

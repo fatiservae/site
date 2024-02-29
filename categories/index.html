@@ -157,8 +157,11 @@ fetch('/citacoes.json')
   
   
   document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  document.getElementById("autor").textContent = autor;
-  })
+  if (autor.length > 1){
+    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
+    console.log(autor)
+  }
+})
 .catch(error => console.error('Erro ao buscar o JSON:', error));
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -166,11 +169,10 @@ document.addEventListener("DOMContentLoaded", function() {
   item.classList.add('show');
 });
 </script>
-
-<div class="frase"> 
-<p id="frase"></p> 
-<p id="autor"></p>
-<br>
+<div> 
+  <p class="frase" id="frase"></p> 
+  <div id="autor"></div>
+  <br>
 </div>
 
 <ul class="listing-list">

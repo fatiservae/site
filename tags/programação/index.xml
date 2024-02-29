@@ -2,7 +2,7 @@
   <channel>
 	<title>Jefferson T.</title>
 	<link>https://www.jeffersontorres.com.br/tags/programa%C3%A7%C3%A3o/</link>
-	<description>Recent content in programação on Jefferson T.</description>
+	<description>Recent content in Programação on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Mon, 06 Nov 2023 18:19:06 -0300</lastBuildDate>
@@ -1348,7 +1348,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     width: fit-content;
   }
   #resultado div .comercial{
-    color: var(--autor);
+    color: var(--fundo-invertido);
   }
 &lt;/style&gt;
 
