@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.123.0">
+	<meta name="generator" content="Hugo 0.122.0">
   
   
   <script>
@@ -161,12 +161,9 @@ fetch('/citacoes.json')
   index = randomIndex(novoFormato.length);
   fraseAleatoria = novoFormato[index].frase;
   autor = novoFormato[index].autor;
-  
-  
   document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
   if (autor.length > 1){
     document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    console.log(autor)
   }
 })
 .catch(error => console.error('Erro ao buscar o JSON:', error));

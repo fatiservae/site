@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Jefferson T.</title>
-	<link>https://www.jeffersontorres.com.br/automobilismo/</link>
+	<link>http://localhost:1313/automobilismo/</link>
 	<description>Recent content in Automobilismoes on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Mon, 20 Nov 2023 20:47:58 -0300</lastBuildDate>
     
-        <atom:link href="https://www.jeffersontorres.com.br/automobilismo/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/automobilismo/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>A farsa da navalha de Ockham</title>
-		<link>https://www.jeffersontorres.com.br/farsa-ockham/</link>
+		<link>http://localhost:1313/farsa-ockham/</link>
 		<pubDate>Sun, 25 Feb 2024 23:34:21 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/farsa-ockham/</guid>
+		<guid>http://localhost:1313/farsa-ockham/</guid>
 		<description>
 
 
@@ -64,10 +64,10 @@
 	
 	<item>
 		<title>Compêndio de viéses</title>
-		<link>https://www.jeffersontorres.com.br/vieses/</link>
+		<link>http://localhost:1313/vieses/</link>
 		<pubDate>Wed, 14 Feb 2024 10:39:08 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/vieses/</guid>
+		<guid>http://localhost:1313/vieses/</guid>
 		<description>&lt;h2 id=&#34;códex&#34;&gt;Códex&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;../pix/codex-vieses.jpg&#34;&gt;Clique aqui&lt;/a&gt; para visualizar a imagem grande dos viéses.&lt;/p&gt;
 </description>
@@ -75,10 +75,10 @@
 	
 	<item>
 		<title>Lagartas isognatus</title>
-		<link>https://www.jeffersontorres.com.br/ciencia/isognatus/</link>
+		<link>http://localhost:1313/ciencia/isognatus/</link>
 		<pubDate>Mon, 12 Feb 2024 09:28:40 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/ciencia/isognatus/</guid>
+		<guid>http://localhost:1313/ciencia/isognatus/</guid>
 		<description>&lt;h2 id=&#34;lagarta-isognatus&#34;&gt;Lagarta isognatus&lt;/h2&gt;
 &lt;p&gt;Fotografei esta lagarta em 2020.&lt;/p&gt;
 &lt;p&gt;Ao tentar manipulá-la, senti que causa irritação na pele. Formou casulo, mas nunca terminou a metamorfose, morreu por algum motivo.&lt;/p&gt;
@@ -180,10 +180,10 @@
 	
 	<item>
 		<title>Minhas apresentações</title>
-		<link>https://www.jeffersontorres.com.br/medicina/apresentacoes/</link>
+		<link>http://localhost:1313/medicina/apresentacoes/</link>
 		<pubDate>Thu, 08 Feb 2024 11:18:33 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/apresentacoes/</guid>
+		<guid>http://localhost:1313/medicina/apresentacoes/</guid>
 		<description>
 
 
@@ -214,10 +214,10 @@
 	
 	<item>
 		<title>Hidratação venosa: resumo breve</title>
-		<link>https://www.jeffersontorres.com.br/medicina/hidratacao/</link>
+		<link>http://localhost:1313/medicina/hidratacao/</link>
 		<pubDate>Sun, 04 Feb 2024 15:26:54 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/hidratacao/</guid>
+		<guid>http://localhost:1313/medicina/hidratacao/</guid>
 		<description>
 
 &lt;img class=&#34;fundo-only-big&#34; src=&#34;../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
@@ -262,10 +262,10 @@
 	
 	<item>
 		<title>Superfície corporal estimada: Costeff</title>
-		<link>https://www.jeffersontorres.com.br/medicina/costeff/</link>
+		<link>http://localhost:1313/medicina/costeff/</link>
 		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/costeff/</guid>
+		<guid>http://localhost:1313/medicina/costeff/</guid>
 		<description>&lt;h2 id=&#34;superfície-corporal-estimada-de-costeff&#34;&gt;Superfície corporal estimada de Costeff&lt;/h2&gt;
 &lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
 &lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
@@ -320,10 +320,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Fluidoterapia de manutenção: Holliday-Segar</title>
-		<link>https://www.jeffersontorres.com.br/medicina/holliday/</link>
+		<link>http://localhost:1313/medicina/holliday/</link>
 		<pubDate>Tue, 30 Jan 2024 15:44:34 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/holliday/</guid>
+		<guid>http://localhost:1313/medicina/holliday/</guid>
 		<description>&lt;!-- &lt;span style=&#34;background: red; color: black&#34;&gt;ESTA CALCULADORA ESTÁ EM CONSTRUÇÃO, NÃO USE!!&lt;/span&gt; --&gt;
 
 
@@ -425,10 +425,10 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 	
 	<item>
 		<title>Efeito Gell Man: perpetuador da desinformação</title>
-		<link>https://www.jeffersontorres.com.br/filosofia/gell-man/</link>
+		<link>http://localhost:1313/filosofia/gell-man/</link>
 		<pubDate>Thu, 11 Jan 2024 09:38:02 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/filosofia/gell-man/</guid>
+		<guid>http://localhost:1313/filosofia/gell-man/</guid>
 		<description>&lt;h2 id=&#34;o-quão-capacitado-você-é-para-julgar-uma-informação-jornalística&#34;&gt;O quão capacitado você é para julgar uma informação jornalística?&lt;/h2&gt;
 
 
@@ -482,10 +482,10 @@ Amnésia vem do grego &lt;em&gt;mnesis&lt;/em&gt;, que signfica registo, memóri
 	
 	<item>
 		<title>Hanseníase</title>
-		<link>https://www.jeffersontorres.com.br/medicina/hanseniase/</link>
+		<link>http://localhost:1313/medicina/hanseniase/</link>
 		<pubDate>Sun, 07 Jan 2024 14:43:03 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/hanseniase/</guid>
+		<guid>http://localhost:1313/medicina/hanseniase/</guid>
 		<description>&lt;p&gt;&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
 O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&gt;, que foi descrito em 1873 pelo cientista norueguês &lt;b&gt;Gerhard Henry Armauer Hansen&lt;/b&gt;, razão pela qual também é denominado de Bacilo de Hansen. &lt;br&gt;&lt;b&gt;Não é cultivável.&lt;/b&gt;
@@ -618,10 +618,10 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 	
 	<item>
 		<title>Crypto</title>
-		<link>https://www.jeffersontorres.com.br/tecnologia/mycrypto/</link>
+		<link>http://localhost:1313/tecnologia/mycrypto/</link>
 		<pubDate>Sat, 06 Jan 2024 20:53:57 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/tecnologia/mycrypto/</guid>
+		<guid>http://localhost:1313/tecnologia/mycrypto/</guid>
 		<description>&lt;a href=&#34;../pix/myMonero.png&#34;&gt;
 &lt;img class=&#34;qrmonero&#34; src=&#34;../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;
 &lt;/a&gt;
@@ -632,10 +632,10 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 	
 	<item>
 		<title>Cleantes, o exemplo</title>
-		<link>https://www.jeffersontorres.com.br/filosofia/cleantes/</link>
+		<link>http://localhost:1313/filosofia/cleantes/</link>
 		<pubDate>Sat, 06 Jan 2024 18:05:29 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/filosofia/cleantes/</guid>
+		<guid>http://localhost:1313/filosofia/cleantes/</guid>
 		<description>&lt;div class=&#34;duploflex&#34;&gt;
     &lt;div&gt;
         &lt;h2&gt;A inspiração para história de Cristo?&lt;/h2&gt;
@@ -663,10 +663,10 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 	
 	<item>
 		<title>Pohnpei: Micronésia</title>
-		<link>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</link>
+		<link>http://localhost:1313/viagem/pohnpei-micronesia/</link>
 		<pubDate>Thu, 04 Jan 2024 06:27:45 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</guid>
+		<guid>http://localhost:1313/viagem/pohnpei-micronesia/</guid>
 		<description>&lt;h2 id=&#34;a-terra-do-mistério&#34;&gt;A terra do mistério&lt;/h2&gt;
 &lt;p&gt;Pohnpei é uma das ilhas da Micronésia, importante pelo seu valor arqueológico. As ruínas e sítios arqueológicos estão entre os menos explicados do planeta.&lt;/p&gt;
 &lt;p&gt;A palavra &lt;em&gt;pohnpei&lt;/em&gt; significa terra surgida de orações e explica a origem mitológica das ilhas, que seriam fruto das orações dos antigos migrantes oriundos da China em uma canoa mágica.&lt;/p&gt;
@@ -843,10 +843,10 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 	
 	<item>
 		<title>Por trás de toda teoria conspiratória</title>
-		<link>https://www.jeffersontorres.com.br/filosofia/multiplas-saidas/</link>
+		<link>http://localhost:1313/filosofia/multiplas-saidas/</link>
 		<pubDate>Tue, 02 Jan 2024 12:13:22 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/filosofia/multiplas-saidas/</guid>
+		<guid>http://localhost:1313/filosofia/multiplas-saidas/</guid>
 		<description>
 
 
@@ -902,10 +902,10 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 	
 	<item>
 		<title>Drogas vasoativas</title>
-		<link>https://www.jeffersontorres.com.br/medicina/drogas-vasoativas/</link>
+		<link>http://localhost:1313/medicina/drogas-vasoativas/</link>
 		<pubDate>Tue, 02 Jan 2024 11:11:09 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/drogas-vasoativas/</guid>
+		<guid>http://localhost:1313/medicina/drogas-vasoativas/</guid>
 		<description>
 &lt;div class=&#34;scalidraw&#34;&gt;
 &lt;svg version=&#34;1.1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 557.8000030517578 494&#34; width=&#34;557.8000030517578&#34; height=&#34;494&#34;&gt;
@@ -937,10 +937,10 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 	
 	<item>
 		<title>Taquiarritimias</title>
-		<link>https://www.jeffersontorres.com.br/medicina/taquicardias/</link>
+		<link>http://localhost:1313/medicina/taquicardias/</link>
 		<pubDate>Sat, 30 Dec 2023 04:08:57 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/taquicardias/</guid>
+		<guid>http://localhost:1313/medicina/taquicardias/</guid>
 		<description>&lt;h2 id=&#34;a-taquiarritmia-é-derivada&#34;&gt;A taquiarritmia é derivada?&lt;/h2&gt;
 &lt;p&gt;Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la &lt;em&gt;per si&lt;/em&gt; pouco ajuda.&lt;/p&gt;
 &lt;p&gt;Para distinguir de forma prática, utilize o corte de Karvonen¹:&lt;/p&gt;
@@ -990,10 +990,10 @@ Depois, manda que você olhe debaixo da mesa:&lt;br&gt;
 	
 	<item>
 		<title>Analgesia: seja um médico melhor</title>
-		<link>https://www.jeffersontorres.com.br/medicina/analgesias/</link>
+		<link>http://localhost:1313/medicina/analgesias/</link>
 		<pubDate>Fri, 29 Dec 2023 12:25:50 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/analgesias/</guid>
+		<guid>http://localhost:1313/medicina/analgesias/</guid>
 		<description>&lt;h2 id=&#34;a-maior-falha-da-formação-médica&#34;&gt;A maior falha da formação médica&lt;/h2&gt;
 
 
@@ -1076,10 +1076,10 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 	
 	<item>
 		<title>Grand Prismatic Spring - Estados Unidos</title>
-		<link>https://www.jeffersontorres.com.br/viagem/grand-prismatic-spring/</link>
+		<link>http://localhost:1313/viagem/grand-prismatic-spring/</link>
 		<pubDate>Thu, 28 Dec 2023 14:16:28 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/grand-prismatic-spring/</guid>
+		<guid>http://localhost:1313/viagem/grand-prismatic-spring/</guid>
 		<description>&lt;h2 id=&#34;grand-prismatic-spring&#34;&gt;Grand Prismatic Spring&lt;/h2&gt;
 &lt;p&gt;A mais incrível &lt;em&gt;Hot Springs&lt;/em&gt; do mundo!&lt;/p&gt;
 &lt;p&gt;A terceira maior e a mais memorável pelas cores.&lt;/p&gt;
@@ -1168,10 +1168,10 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 	
 	<item>
 		<title>Pão de queijo</title>
-		<link>https://www.jeffersontorres.com.br/receitas/pao-de-queijo/</link>
+		<link>http://localhost:1313/receitas/pao-de-queijo/</link>
 		<pubDate>Wed, 27 Dec 2023 19:07:14 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/receitas/pao-de-queijo/</guid>
+		<guid>http://localhost:1313/receitas/pao-de-queijo/</guid>
 		<description>&lt;h2 id=&#34;ingredientes&#34;&gt;Ingredientes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Manteiga;&lt;/li&gt;
@@ -1217,10 +1217,10 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 	
 	<item>
 		<title>Arquivos</title>
-		<link>https://www.jeffersontorres.com.br/files/</link>
+		<link>http://localhost:1313/files/</link>
 		<pubDate>Sat, 23 Dec 2023 20:13:59 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/files/</guid>
+		<guid>http://localhost:1313/files/</guid>
 		<description>&lt;!--
 &lt;div style=&#34;display:flex; align-content:center;&#34;&gt;
 &lt;span class=&#34;etiqueta&#34;&gt;
@@ -1246,10 +1246,10 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 	
 	<item>
 		<title>LLMedica: inteligência artificial para medicina</title>
-		<link>https://www.jeffersontorres.com.br/medicina/llmedica/</link>
+		<link>http://localhost:1313/medicina/llmedica/</link>
 		<pubDate>Sat, 23 Dec 2023 20:04:39 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/llmedica/</guid>
+		<guid>http://localhost:1313/medicina/llmedica/</guid>
 		<description>&lt;h2 id=&#34;gestão-de-prontuário-médico-com-ia-treinada-em-medicina&#34;&gt;Gestão de Prontuário Médico com IA Treinada em Medicina&lt;/h2&gt;
 &lt;p&gt;Este projeto visa integrar uma Inteligência Artificial baseada em LLM (Large Language Model) treinada especificamente em medicina para auxiliar na gestão de prontuários médicos.&lt;/p&gt;
 &lt;h2 id=&#34;descrição&#34;&gt;Descrição&lt;/h2&gt;
@@ -1297,10 +1297,10 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 	
 	<item>
 		<title>Bulário</title>
-		<link>https://www.jeffersontorres.com.br/medicina/bulario/</link>
+		<link>http://localhost:1313/medicina/bulario/</link>
 		<pubDate>Sun, 17 Dec 2023 21:31:36 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/bulario/</guid>
+		<guid>http://localhost:1313/medicina/bulario/</guid>
 		<description>&lt;p&gt;Este é um bulário médico profissional, &lt;strong&gt;não serve a pacientes&lt;/strong&gt;.&lt;/p&gt;
 
 
@@ -1368,10 +1368,10 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 	
 	<item>
 		<title>Afogamento</title>
-		<link>https://www.jeffersontorres.com.br/medicina/afogamento/</link>
+		<link>http://localhost:1313/medicina/afogamento/</link>
 		<pubDate>Fri, 15 Dec 2023 20:39:22 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/afogamento/</guid>
+		<guid>http://localhost:1313/medicina/afogamento/</guid>
 		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
     a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
     y -- Com&lt;br&gt; pulso carotídeo --&gt; z(Grau 5)
@@ -1387,10 +1387,10 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 	
 	<item>
 		<title>A aceitação da morte como modo de vida</title>
-		<link>https://www.jeffersontorres.com.br/filosofia/morte/</link>
+		<link>http://localhost:1313/filosofia/morte/</link>
 		<pubDate>Fri, 15 Dec 2023 00:35:27 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/filosofia/morte/</guid>
+		<guid>http://localhost:1313/filosofia/morte/</guid>
 		<description>&lt;p&gt;
 
 &lt;style&gt;
@@ -1495,10 +1495,10 @@ Seneca
 	
 	<item>
 		<title>Diabetes Mellitus Gestacional</title>
-		<link>https://www.jeffersontorres.com.br/medicina/dmg/</link>
+		<link>http://localhost:1313/medicina/dmg/</link>
 		<pubDate>Thu, 14 Dec 2023 09:17:12 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/dmg/</guid>
+		<guid>http://localhost:1313/medicina/dmg/</guid>
 		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;O diabetes mellitus gestacional tem hoje um fluxograma de conduta bem definido pela FEBRASGO.&lt;/p&gt;
 &lt;p&gt;Outrora, já foi mais confuso.&lt;/p&gt;
@@ -1672,10 +1672,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Anatomia</title>
-		<link>https://www.jeffersontorres.com.br/medicina/anatomia/</link>
+		<link>http://localhost:1313/medicina/anatomia/</link>
 		<pubDate>Tue, 12 Dec 2023 09:48:10 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/anatomia/</guid>
+		<guid>http://localhost:1313/medicina/anatomia/</guid>
 		<description>
 
 &lt;img class=&#34;fundo-only-big&#34; style=&#34;rigth: 0px;&#34; src=&#34;../pix/medicina/body.png&#34;&gt;&lt;/img&gt;
@@ -1704,10 +1704,10 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	
 	<item>
 		<title>Vacinas</title>
-		<link>https://www.jeffersontorres.com.br/medicina/vacinas/</link>
+		<link>http://localhost:1313/medicina/vacinas/</link>
 		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/vacinas/</guid>
+		<guid>http://localhost:1313/medicina/vacinas/</guid>
 		<description>&lt;h2 id=&#34;termos&#34;&gt;Termos&lt;/h2&gt;
 &lt;h3 id=&#34;heterólogo&#34;&gt;Heterólogo&lt;/h3&gt;
 &lt;p&gt;Termo confuso na medicina e na biologia. Na imunologia, &lt;strong&gt;esquema heterólogo&lt;/strong&gt; significa utilizar uma vacina diferente daquela do esquema inicial. Coloquialmente chamado de booster.&lt;/p&gt;
@@ -1756,10 +1756,10 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 	
 	<item>
 		<title>Eclâmpsia</title>
-		<link>https://www.jeffersontorres.com.br/medicina/eclampsia/</link>
+		<link>http://localhost:1313/medicina/eclampsia/</link>
 		<pubDate>Mon, 11 Dec 2023 00:53:39 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/eclampsia/</guid>
+		<guid>http://localhost:1313/medicina/eclampsia/</guid>
 		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
 &lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de:&lt;/p&gt;
@@ -1797,10 +1797,10 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 	
 	<item>
 		<title>Meu dicionário</title>
-		<link>https://www.jeffersontorres.com.br/dicionario/</link>
+		<link>http://localhost:1313/dicionario/</link>
 		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/dicionario/</guid>
+		<guid>http://localhost:1313/dicionario/</guid>
 		<description>&lt;br&gt;
 &lt;br&gt;
 &lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;
@@ -1816,10 +1816,10 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 	
 	<item>
 		<title>Anestesia</title>
-		<link>https://www.jeffersontorres.com.br/anestesia/</link>
+		<link>http://localhost:1313/anestesia/</link>
 		<pubDate>Thu, 30 Nov 2023 22:30:10 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/anestesia/</guid>
+		<guid>http://localhost:1313/anestesia/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/anesthesiology.jpg&#34; alt=&#34;Anestesia&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;por-que-pretendo-anestesiologia-como-especialidade-médica&#34;&gt;Por que pretendo anestesiologia como especialidade médica&lt;/h2&gt;
 &lt;p&gt;Durante quase toda a trajetória do curso de medicina, tive muita dificuldade de me identificar com alguma especialidade.&lt;/p&gt;
@@ -1842,10 +1842,10 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 	
 	<item>
 		<title>Hemodinâmica</title>
-		<link>https://www.jeffersontorres.com.br/medicina/pressao-arterial/</link>
+		<link>http://localhost:1313/medicina/pressao-arterial/</link>
 		<pubDate>Mon, 27 Nov 2023 11:02:22 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/pressao-arterial/</guid>
+		<guid>http://localhost:1313/medicina/pressao-arterial/</guid>
 		<description>&lt;h2 id=&#34;frequência-cardíaca&#34;&gt;Frequência cardíaca¹&lt;/h2&gt;
 &lt;p&gt;$$
 50bpm \leq FC_{normal} \leq 100bpm
@@ -1907,10 +1907,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Grandes queimados: Parkland</title>
-		<link>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</link>
+		<link>http://localhost:1313/medicina/calculos-queimados/</link>
 		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/calculos-queimados/</guid>
+		<guid>http://localhost:1313/medicina/calculos-queimados/</guid>
 		<description>
 
 &lt;div class=&#34;calculadoras&#34;&gt; 
@@ -2051,10 +2051,10 @@ function calcular() {
 	
 	<item>
 		<title>Canais que recomendo</title>
-		<link>https://www.jeffersontorres.com.br/canais-yt/</link>
+		<link>http://localhost:1313/canais-yt/</link>
 		<pubDate>Mon, 20 Nov 2023 20:48:39 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/canais-yt/</guid>
+		<guid>http://localhost:1313/canais-yt/</guid>
 		<description>&lt;h2 id=&#34;física&#34;&gt;Física&lt;/h2&gt;
 &lt;h3 id=&#34;eugene-kuthoriansky&#34;&gt;Eugene Kuthoriansky&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@EugeneKhutoryansky&#34;&gt;https://www.youtube.com/@EugeneKhutoryansky&lt;/a&gt;&lt;/p&gt;
@@ -2124,10 +2124,10 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 	
 	<item>
 		<title>Cervejas</title>
-		<link>https://www.jeffersontorres.com.br/receitas/cervejas/</link>
+		<link>http://localhost:1313/receitas/cervejas/</link>
 		<pubDate>Mon, 20 Nov 2023 20:46:46 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/receitas/cervejas/</guid>
+		<guid>http://localhost:1313/receitas/cervejas/</guid>
 		<description>&lt;h2 id=&#34;-avisos&#34;&gt;🔞 Avisos!&lt;/h2&gt;
 &lt;p&gt;Esta página faz recomendações de bebidas alcoólicas, direcionadas para maiores de 18 anos de idade.&lt;/p&gt;
 &lt;p&gt;Todas cervejas desta páginas são recomendações minhas. Costumo degustá-las com carnes ou massas e salgados.&lt;/p&gt;
@@ -2296,10 +2296,10 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 	
 	<item>
 		<title>Convulsões</title>
-		<link>https://www.jeffersontorres.com.br/medicina/convulsoes/</link>
+		<link>http://localhost:1313/medicina/convulsoes/</link>
 		<pubDate>Sun, 19 Nov 2023 15:45:49 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/convulsoes/</guid>
+		<guid>http://localhost:1313/medicina/convulsoes/</guid>
 		<description>&lt;h2 id=&#34;lactente-ou-neonato&#34;&gt;Lactente ou neonato&lt;/h2&gt;
 &lt;h3 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
@@ -2315,10 +2315,10 @@ E -- Persistência --&gt;Z
 	
 	<item>
 		<title>Massagem Carotídea</title>
-		<link>https://www.jeffersontorres.com.br/medicina/massagem-carotidea/</link>
+		<link>http://localhost:1313/medicina/massagem-carotidea/</link>
 		<pubDate>Wed, 15 Nov 2023 22:42:02 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/massagem-carotidea/</guid>
+		<guid>http://localhost:1313/medicina/massagem-carotidea/</guid>
 		<description>&lt;h2 id=&#34;o-que-é&#34;&gt;O que é&lt;/h2&gt;
 &lt;p&gt;A massagem do seio carotídeo constitui-se no emprego de preensão manual do seio carotídeo do paciente por cerca de 10s para averiguar se a frequência cardíaca é reduzida como resposta ao aumento de pressão arterial local com consequente sinalizacão via barorreceptores que provocam estimulação parassimpática vagal.&lt;/p&gt;
 &lt;p&gt;Seu emprego também é terapêutico nos casos de taquiarritmias supraventriculares.&lt;/p&gt;
@@ -2346,10 +2346,10 @@ E -- Persistência --&gt;Z
 	
 	<item>
 		<title>Taxa de filtração glomerular: MDRD e Cockcroft-Gault</title>
-		<link>https://www.jeffersontorres.com.br/medicina/cockcroft-gault/</link>
+		<link>http://localhost:1313/medicina/cockcroft-gault/</link>
 		<pubDate>Wed, 15 Nov 2023 18:42:29 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/cockcroft-gault/</guid>
+		<guid>http://localhost:1313/medicina/cockcroft-gault/</guid>
 		<description>&lt;script&gt;
   function calcularTFG() {
     var idade = parseFloat(document.getElementById(&#34;idade&#34;).value);
@@ -2444,10 +2444,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Considerações sobre a reprodução humana</title>
-		<link>https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
+		<link>http://localhost:1313/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
 		<pubDate>Tue, 14 Nov 2023 00:28:26 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/</guid>
+		<guid>http://localhost:1313/filosofia/reproducao-humana-consideracoes-filosoficas/</guid>
 		<description>&lt;h2 id=&#34;a-longa-gestação-humana-e-seu-concepto-incapaz&#34;&gt;A longa gestação humana e seu concepto incapaz&lt;/h2&gt;
 &lt;p&gt;A tempo de reprodução humana é característicamente longo e, ao seu término, o concepto assume uma posição central e frágil na família¹.&lt;/p&gt;
 &lt;p&gt;Esta consideração, &lt;em&gt;per si&lt;/em&gt;, significa que a reprodução humana é peculiar e pouco eficiente. De fato, se comparado a muitos outros mamíferos, os primatas tem uma das reproduções mais limitadas.&lt;/p&gt;
@@ -2463,10 +2463,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Banco de questões</title>
-		<link>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</link>
+		<link>http://localhost:1313/medicina/banco-de-questoes/</link>
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
+		<guid>http://localhost:1313/medicina/banco-de-questoes/</guid>
 		<description>&lt;!-- 
 &lt;div id=&#34;aviso&#34;&gt;
  &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
@@ -2514,10 +2514,10 @@ function fechardialogo() {
 	
 	<item>
 		<title>Bahia - Itacaré</title>
-		<link>https://www.jeffersontorres.com.br/viagem/bahia-itacare/</link>
+		<link>http://localhost:1313/viagem/bahia-itacare/</link>
 		<pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/bahia-itacare/</guid>
+		<guid>http://localhost:1313/viagem/bahia-itacare/</guid>
 		<description>
  
 &lt;div class=&#34;carousel&#34;&gt;
@@ -2599,10 +2599,10 @@ function fechardialogo() {
 	
 	<item>
 		<title>Colecistite aguda: Tokyo Guideline</title>
-		<link>https://www.jeffersontorres.com.br/medicina/tokyo-guideline/</link>
+		<link>http://localhost:1313/medicina/tokyo-guideline/</link>
 		<pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/tokyo-guideline/</guid>
+		<guid>http://localhost:1313/medicina/tokyo-guideline/</guid>
 		<description>
 
 &lt;!DOCTYPE html&gt;
@@ -2770,10 +2770,10 @@ function updateResult() {
 	
 	<item>
 		<title>Gasometria Arterial</title>
-		<link>https://www.jeffersontorres.com.br/medicina/gasometria-arterial/</link>
+		<link>http://localhost:1313/medicina/gasometria-arterial/</link>
 		<pubDate>Tue, 07 Nov 2023 20:55:26 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/gasometria-arterial/</guid>
+		<guid>http://localhost:1313/medicina/gasometria-arterial/</guid>
 		<description>&lt;h2 id=&#34;acidez-e-basicidade-sérica&#34;&gt;Acidez e basicidade sérica&lt;/h2&gt;
 &lt;p&gt;O pH sanguíneo deve sempre estar entre 7.35 e 7.45.&lt;/p&gt;
 &lt;p&gt;Valores abaixo deste intervalo são chamados de acidemia. Acima, alcalemia.&lt;/p&gt;
@@ -2840,10 +2840,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Como sincronizar iPhone e Linux</title>
-		<link>https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/</link>
+		<link>http://localhost:1313/tecnologia/iphone-e-linux/</link>
 		<pubDate>Mon, 06 Nov 2023 18:19:06 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/</guid>
+		<guid>http://localhost:1313/tecnologia/iphone-e-linux/</guid>
 		<description>&lt;h2 id=&#34;como-transferir-arquivos-linux-para-iphone-e-vice-versa&#34;&gt;Como transferir arquivos Linux para iPhone e vice versa&lt;/h2&gt;
 &lt;p&gt;Instale os pacotes &lt;em&gt;fuse&lt;/em&gt; e &lt;em&gt;ifuse&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://archlinux.org/packages/extra/x86_64/ifuse/&#34;&gt;iFuse&lt;/a&gt;&lt;/p&gt;
@@ -2866,10 +2866,10 @@ $$&lt;/p&gt;
 	
 	<item>
 		<title>Stultus Visio</title>
-		<link>https://www.jeffersontorres.com.br/tecnologia/stultus-visio/</link>
+		<link>http://localhost:1313/tecnologia/stultus-visio/</link>
 		<pubDate>Mon, 06 Nov 2023 10:31:17 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/tecnologia/stultus-visio/</guid>
+		<guid>http://localhost:1313/tecnologia/stultus-visio/</guid>
 		<description>&lt;h1 id=&#34;stultusvisio&#34;&gt;StultusVisio&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Não há nada mais improdutivo que montar apresentações de slides!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;O tempo que se perde com diagramação, baboseiras, temas e formatação é absurdo!&lt;/p&gt;
@@ -2994,10 +2994,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Injuria Renal Aguda</title>
-		<link>https://www.jeffersontorres.com.br/medicina/injuria-renal-aguda/</link>
+		<link>http://localhost:1313/medicina/injuria-renal-aguda/</link>
 		<pubDate>Mon, 06 Nov 2023 07:52:13 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/injuria-renal-aguda/</guid>
+		<guid>http://localhost:1313/medicina/injuria-renal-aguda/</guid>
 		<description>&lt;h2 id=&#34;etiologias&#34;&gt;Etiologias&lt;/h2&gt;
 &lt;h3 id=&#34;pré-renais&#34;&gt;Pré-renais&lt;/h3&gt;
 &lt;p&gt;Quaisquer situações de hipofluxo e ativação do sistema renina-angiotensina-aldosterona e constricção da artéria aferente.&lt;/p&gt;
@@ -3082,10 +3082,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Palenque - México</title>
-		<link>https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/</link>
+		<link>http://localhost:1313/viagem/mexico/palenque-mexico/</link>
 		<pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/</guid>
+		<guid>http://localhost:1313/viagem/mexico/palenque-mexico/</guid>
 		<description>
 
 
@@ -3116,10 +3116,10 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	
 	<item>
 		<title>Tromboembolismo pulmonar - Escore de Wells</title>
-		<link>https://www.jeffersontorres.com.br/medicina/wells-tep/</link>
+		<link>http://localhost:1313/medicina/wells-tep/</link>
 		<pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/wells-tep/</guid>
+		<guid>http://localhost:1313/medicina/wells-tep/</guid>
 		<description>
 
 &lt;!-- Falta incluir alguns elementos como ruptura de aneurisma etc --&gt;
@@ -3178,10 +3178,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espírito Santo - Domingos Martins</title>
-		<link>https://www.jeffersontorres.com.br/viagem/espirito-santo-domingos-martins/</link>
+		<link>http://localhost:1313/viagem/espirito-santo-domingos-martins/</link>
 		<pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/espirito-santo-domingos-martins/</guid>
+		<guid>http://localhost:1313/viagem/espirito-santo-domingos-martins/</guid>
 		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;Cidade a 50km de Vitória de cultura alemã.&lt;/p&gt;
 &lt;p&gt;A praça principal Arthur Gerhardt já é uma atração.&lt;/p&gt;
@@ -3275,10 +3275,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espiríto Santo - Praia de Iriri</title>
-		<link>https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/</link>
+		<link>http://localhost:1313/viagem/espirito-santo-iriri/</link>
 		<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/</guid>
+		<guid>http://localhost:1313/viagem/espirito-santo-iriri/</guid>
 		<description>
 
 
@@ -3302,10 +3302,10 @@ function updateResult() {
 	
 	<item>
 		<title>Bahia - Piatã, Salvador</title>
-		<link>https://www.jeffersontorres.com.br/viagem/bahia-piata-salvador/</link>
+		<link>http://localhost:1313/viagem/bahia-piata-salvador/</link>
 		<pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/bahia-piata-salvador/</guid>
+		<guid>http://localhost:1313/viagem/bahia-piata-salvador/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../pix/piata.png&#34; alt=&#34;Praia em Piatã&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;geral&#34;&gt;Geral&lt;/h1&gt;
 &lt;p&gt;Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.&lt;/p&gt;

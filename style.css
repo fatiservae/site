@@ -2,6 +2,7 @@
 Regras de estilo:
 - <mark> deve ser usada para uma única palavra.
 - a propriedade word-wrap será sempre nowrap.
+- TODO: regra de nomes para variaveis, propriedades, tags e seletores
 */
 
 :root {
@@ -125,7 +126,7 @@ Regras de estilo:
   --fundo: navajowhite;
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
-  --fundo-input: wheat;
+  --fundo-input: #fbc782;
   --green: #347d39 ;
   --blue: #539bf5 ;
   --separador: gray ;
@@ -897,7 +898,7 @@ li::before{
   /*
   */
   margin-left: 5vw;
-  word-wrap: nowrap;
+  white-space: nowrap;
   color: var(--autor) ; 
   font-weight: normal;
 }
@@ -1579,6 +1580,7 @@ div#counter {
 mark {
   background-color: var(--marca-texto);
   position: relative;
+  white-space: nowrap;
 }
 mark::before,
 mark::after{
