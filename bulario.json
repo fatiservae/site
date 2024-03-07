@@ -1,5 +1,20 @@
 [
   {
+    "nome": ["cetamina", "Ketalar"],
+    "class": ["hipnóticos", "sedativos", "bloqueadores de NMDA"],
+    "posologias": [
+      ["mg", "Kg"],
+      [1, "", "IV", "dose inicial para sedação."],
+      [3, "", "IV", "dose máxima literária para sedação."],
+      [0.3, "", "IV", "dose máxima para analgesia moderada."]
+    ],
+    "obs": [
+      "Causa hipertensão por liberação de adrenalina endógena.",
+      "Nas situações de adrenalina endógena esgotada, causa hipotensão.",
+      "Provoca moderada sialorreia, halucinação parasitária e outras."
+    ]
+  },
+  {
     "nome": ["fluconazol"],
     "class": ["antifúngicos"],
     "posologias":[
