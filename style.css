@@ -359,6 +359,10 @@ p code::before {
 }
 
 /* KATEX E MERMAID */
+.mermaid {
+  background-color: var(--fundo);
+  border: none;
+}
 /* Para Katex, veja o shortcode com css integrado. */
 .mermaid svg {
   align: center
