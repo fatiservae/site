@@ -16,6 +16,7 @@ Regras de estilo:
   /*--gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;*/
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ; 
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
+  --pimenta: #bb1450 ;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
   --azul-gemini: #4b83f0;
@@ -51,6 +52,7 @@ Regras de estilo:
 }
 
 :root[data-tema="escuro"] {
+  --fundoCode: #303030;
   --barraRolagem: tomato;
   --marca-texto: #FFE500;
   --barra-selecionado: var(--amarelo-servo);
@@ -93,13 +95,14 @@ Regras de estilo:
   */
   --fundo: #22272e; 
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
-  --sombra: -1rem 0 1rem -1rem darkgray;
+  --sombra: #353535;
 }
 :root[data-tema="claro"] {
+  --fundoCode: tan;
   --barraRolagem: black;
   --marca-texto: var(--negrito);
   --barra-selecionado: #3864da;
-  --sombra: -1rem 0 3rem -1rem #000;
+  --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
   --h2-gradiente: linear-gradient(90deg, var(--frase), var(--roxo-google), var(--azul-estadao));
   --background-img: url('pix/day.jpg'); 
@@ -325,11 +328,9 @@ div.duploflex p{
 label {
   color: var(--fonte) ;
 }
+
 div#code{
   /*
-  background: var(--fundo-invertido) ;
-  border-radius: 7px;
-  font-weight: normal ;
   */
   text-indent: 3%;
   font-family: monospace;
@@ -338,15 +339,23 @@ div#code{
 pre{
   margin-left: 5vw;
   align: center;
-  color: springgreen;
-}
-pre code {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid var(--bordas);
+  max-width: var(--largura-texto);
+  background-color: var(--fundoCode) ;
+  white-space: pre-wrap;
 }
 code {
+  border-radius: 5px;
+  background-color: var(--fundoCode) ;
   font-family: monospace;
-  text-align: center ;
-  font-size: 100% ; /* Tem que por pq o code padrão reduz */
+  font-size: 90% ; /* Tem que por pq o code padrão reduz */
   color: var(--code-text);
+}
+p code::after, 
+p code::before {
+  content: "\00a0";
 }
 
 /* KATEX E MERMAID */
@@ -354,8 +363,6 @@ code {
 .mermaid svg {
   align: center
 }
-
-
 
 ::-webkit-scrollbar {
   width: .66vw;
@@ -476,6 +483,7 @@ img {
   /*
   max-height: 400px ;
   width: fit-content;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   */
   margin-left: 1em;
   display: block ;

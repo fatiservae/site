@@ -1,5 +1,20 @@
 [
   {
+    "nome": ["citrato de fentanila", "Fentanil"],
+    "class": ["analgésicos", "opioides"],
+    "posologias":[
+      ["mcg", "paciente"],
+      [100, "", "IV", "dose inicial."],
+      [200, "", "IV", "dose máxima literária."]
+    ],
+    "obs": [
+      "Todas características do paciente influenciam a dose que deve ser individualizada",
+      "No passado, doses muito maiores eram utilizadas isoladamente na antestesia.",
+      "Tem ação potencializadora dos sedativos.",
+      "A apresentação padrão é de 50mcg/ml."
+    ]
+  },
+  {
     "nome": ["cetamina", "Ketalar"],
     "class": ["hipnóticos", "sedativos", "bloqueadores de NMDA"],
     "posologias": [

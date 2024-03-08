@@ -189,7 +189,7 @@
 
   &lt;div id=&#34;img-div&#34;&gt;
     &lt;img src=&#34;../pix/projector.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Sinta a nostalgia de um velho projetor de transparências.&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Os arquivos devem ser acessados preferencialmente no formato original &lt;a href=&#34;../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;, pois contém vídeos e outros conteúdos interativos impossíveis em PDF.&lt;/p&gt;
@@ -329,19 +329,13 @@ $$&lt;/p&gt;
 
 &lt;img class=&#34;fundo-only-big&#34; src=&#34;../pix/medicina/paudesoro.webp&#34;&gt;&lt;/img&gt;
 
-&lt;h2 id=&#34;calculadora-de-manutenção-hidro-eletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidro-eletrolítica de Holliday-Segar&lt;/h2&gt;
-&lt;p&gt;&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
-  &lt;span class=&#34;etiqueta&#34;&gt;
-&lt;strong&gt;Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.&lt;/strong&gt;&lt;br&gt;
-Nenhuma calculadora substitui seu julgamento clínico!&lt;br&gt;
-Esta calculadora aceita valores decimais nas unidades indicadas. &lt;br&gt;
-Use pontos e não vírgulas. &lt;br&gt;
-Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose. &lt;br&gt;
-Veja &lt;a href=&#34;../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidratação venosa em geral.
- &lt;/span&gt;
-&lt;/div&gt;
-
-
+&lt;h2 id=&#34;calculadora-de-manutenção-hidroeletrolítica-de-holliday-segar&#34;&gt;Calculadora de manutenção hidroeletrolítica de Holliday-Segar&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Esta ferramenta deve ser usada para pacientes já fluido-ressuscitados e sem desidratação ou distúrbios hidro-eletrolíticos.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nenhuma calculadora substitui seu julgamento clínico!&lt;/p&gt;
+&lt;p&gt;Esta calculadora aceita valores decimais nas unidades indicadas.&lt;/p&gt;
+&lt;p&gt;Use pontos e não vírgulas.&lt;/p&gt;
+&lt;p&gt;Ao usar soro glicosado como fluido principal, deixe em branco os campos de glicose.&lt;/p&gt;
+&lt;p&gt;Veja &lt;a href=&#34;../medicina/hidratacao/&#34;&gt;aqui&lt;/a&gt; sobre hidratação venosa em geral.
 &lt;br&gt;&lt;/p&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
 &lt;h2&gt;Fluido&lt;/h2&gt;
@@ -613,20 +607,6 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;li&gt;TAVARES, Walter; MARINHO, Luiz Alberto Carneiro. &lt;strong&gt;Rotinas de diagnóstico e tratamento das doenças infecciosas e parasitárias&lt;/strong&gt;. In: Rotinas de diagnóstico e tratamento das doenças infecciosas e parasitárias. 2005. p. 1206-1206.&lt;/li&gt;
 &lt;li&gt;GDF, Governo do Distrito Federal. &lt;strong&gt;&lt;a href=&#34;https://www.saude.df.gov.br/medicamentos-hanseniase&#34;&gt;https://www.saude.df.gov.br/medicamentos-hanseniase&lt;/a&gt;&lt;/strong&gt;. Visitado em 07 de janeiro de 2024.&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Crypto</title>
-		<link>http://localhost:1313/tecnologia/mycrypto/</link>
-		<pubDate>Sat, 06 Jan 2024 20:53:57 -0300</pubDate>
-		
-		<guid>http://localhost:1313/tecnologia/mycrypto/</guid>
-		<description>&lt;a href=&#34;../pix/myMonero.png&#34;&gt;
-&lt;img class=&#34;qrmonero&#34; src=&#34;../pix/myMonero.png&#34; alt=&#34;Minha carteira monero&#34;&gt;&lt;/img&gt;
-&lt;/a&gt;
-&lt;p&gt;🤑 Minha carteira Monero&lt;/p&gt;
-&lt;p style=&#34;width: 70vw; overflow: scroll&#34;&gt; 47DXLefYiZWCm5n7j39YGF3eQoHESE9qfKeMjC6CnDpG2UvY4tGacE7R1iZ36BUHbrYqkB2H4VugLQX2B51ihTmY4mQeAbe&lt;/p&gt;
 </description>
 	</item>
 	
@@ -1671,38 +1651,6 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	</item>
 	
 	<item>
-		<title>Anatomia</title>
-		<link>http://localhost:1313/medicina/anatomia/</link>
-		<pubDate>Tue, 12 Dec 2023 09:48:10 -0300</pubDate>
-		
-		<guid>http://localhost:1313/medicina/anatomia/</guid>
-		<description>
-
-&lt;img class=&#34;fundo-only-big&#34; style=&#34;rigth: 0px;&#34; src=&#34;../pix/medicina/body.png&#34;&gt;&lt;/img&gt;
-
-
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/anatomy.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;Iniciando em anatomia?&lt;/p&gt;
-&lt;p&gt;Quebre o gelo com o projeto &lt;a href=&#34;https://anatomylearning.com/webgl2023v3/browser.php&#34;&gt;Anatomy Learning&lt;/a&gt;, único projeto com versão aberta em WebGL.&lt;/p&gt;
-&lt;p&gt;Os aplicativos Android e iPhone são pagos, mas o acesso Web é grátis.&lt;/p&gt;
-&lt;p&gt;Ao avançar, não perca seu tempo, basta um bom atlas cadavérico como o Nielsen e o bom e velho Grays Anatomy. O livro, não a série 🤣.&lt;/p&gt;
-&lt;p&gt;Com relação a prática, eu recomendo fazer o que eu fiz, buscar fazer um rodízio em uma unidade do SVO ou IML, se conseguir.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;referências&#34;&gt;Referências&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Niesel, Mark; Miller, Shawn. &lt;strong&gt;Atlas of Human Anatomy&lt;/strong&gt;. Wiley. 2011.&lt;/li&gt;
-&lt;li&gt;Standring Susan. 2016. &lt;strong&gt;Gray&amp;rsquo;s Anatomy : The Anatomical Basis of Clinical Practice&lt;/strong&gt;. Forty-first ed. Philadelphia: Elsevier Limited. 2016.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Vacinas</title>
 		<link>http://localhost:1313/medicina/vacinas/</link>
 		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
@@ -1811,32 +1759,6 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 &lt;script src=&#34;../dicionario.js&#34;&gt;&lt;/script&gt;
 &lt;ul id=&#34;search-output&#34;&gt;
 &lt;/ul&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Anestesia</title>
-		<link>http://localhost:1313/anestesia/</link>
-		<pubDate>Thu, 30 Nov 2023 22:30:10 -0300</pubDate>
-		
-		<guid>http://localhost:1313/anestesia/</guid>
-		<description>&lt;p&gt;&lt;img src=&#34;../pix/anesthesiology.jpg&#34; alt=&#34;Anestesia&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;por-que-pretendo-anestesiologia-como-especialidade-médica&#34;&gt;Por que pretendo anestesiologia como especialidade médica&lt;/h2&gt;
-&lt;p&gt;Durante quase toda a trajetória do curso de medicina, tive muita dificuldade de me identificar com alguma especialidade.&lt;/p&gt;
-&lt;p&gt;Ocorre que a noção das pessoas leigas e dos estudantes ainda no ciclo básico sobre as especialidades médicas são muito parecidas. Temos a tendência de não enxergar o dia-a-dia profissional e nos prendemos em estereótipos. É o fenômeno do &lt;em&gt;meme&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Por exemplo, o aluno de medicina e as pessoas em geral imaginam o cirurgião pela ótica do ato cirúrgico em si, desconhecendo a rotina de visita de enfermaria e consultas em ambulatório que todo cirurgião acaba por precisar fazer. Muitos têm sua rotina quase inteira focada nestas áreas e bem pouco no centro cirúrgico em si.&lt;/p&gt;
-&lt;p&gt;Cada pessoa é uma. Tem gente que adora ambulatório. Tem gente que adora enfermaria.&lt;/p&gt;
-&lt;p&gt;Eu acho enfermaria um caos, o cuidado com o paciente é muito descontinuado, muitas condutas são abandonadas e trocadas a depender do plantonista e boa parte dos pacientes tem um movito de internação questionável, no mínimo. As internações contribuem para queda funcional global ou para a redução na expectativa de vida, principalmente de pacientes idosos¹²³.&lt;/p&gt;
-&lt;p&gt;Não me entenda errado! Eu admiro os profissionais envolvidos na medicina interna e a no processo de hospitalização. São os mais importantes guerreiros da saúde.&lt;/p&gt;
-&lt;p&gt;Mas, não é pra mim. Meu ideal de cuidado é mais continuado e eu gosto de ver um fim claro na minha atuação.&lt;/p&gt;
-&lt;p&gt;Sendo assim, as especialidades mais focadas em procedimentos e cuidado continuado subiram na minha prioridade. Dentre elas, a que mais fala a favor do meu perfil é a medicina intensiva. Porém, é na anestesia &lt;strong&gt;onde se domina o cuidado do paciente de forma integral por um período de tempo definido &amp;ndash; a cirurgia &amp;ndash; e há um objetivo claro na conduta&lt;/strong&gt;. A medicina intensiva, por outro lado, compartilha muitas características de enfermaria.&lt;/p&gt;
-&lt;p&gt;Por isso, acredito que um caminho interessante pra mim, na medicina, é a anestesiologia.&lt;/p&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Carvalho TC, Valle AP do, Jacinto AF, Mayoral VF de S, Boas PJFV. &lt;strong&gt;Impact of hospitalization on the functional capacity of the elderly: A cohort study&lt;/strong&gt;. Rev bras geriatr gerontol [Internet]. 2018Mar;21(2):134–42. Available from: &lt;a href=&#34;https://doi.org/10.1590/1981-22562018021.170143&#34;&gt;https://doi.org/10.1590/1981-22562018021.170143&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Alzahrani N. &lt;strong&gt;The effect of hospitalization on patients&amp;rsquo; emotional and psychological well-being among adult patients: An integrative review&lt;/strong&gt;. Appl Nurs Res. 2021 Oct;61:151488. doi: 10.1016/j.apnr.2021.151488. Epub 2021 Aug 12. PMID: 34544571.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.msdmanuals.com/home/special-subjects/hospital-care/problems-due-to-hospitalization&#34;&gt;https://www.msdmanuals.com/home/special-subjects/hospital-care/problems-due-to-hospitalization&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -2906,16 +2828,16 @@ Não há suporte a recorrência, ainda.
 &lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;StultusVisio no GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;exemplos&#34;&gt;Exemplos&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html&#34;&gt;Exemplo simples com vídeo, imagem e listas.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/Dor-Toracica/&#34;&gt;Apresentação sobre dor torácica que fiz em 2023.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/Dor-Toracica/&#34;&gt;Apresentação sobre dor torácica que fiz em 2023, numa versão básica.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
 &lt;p&gt;Um software simples que te obriga a montar slides coerentes.&lt;/p&gt;
-&lt;p&gt;Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.&lt;/p&gt;
-&lt;p&gt;Para fluxogramas, timelines, tabelas e mídias de dados organizados, use &lt;a href=&#34;https://github.com/mermaid-js/mermaid&#34;&gt;Mermaid&lt;/a&gt;, conforme exemplo abaixo.&lt;/p&gt;
-&lt;p&gt;No diretório, crie um arquivo &lt;em&gt;minha_apresentacao.stv&lt;/em&gt; e edite-o:&lt;/p&gt;
+&lt;p&gt;Um slide deve conter apenas um vídeo, duas images ou texto. Evite inserir ambos.&lt;/p&gt;
+&lt;p&gt;Para fluxogramas, timelines, tabelas e mídias de dados organizados, use &lt;img src=&#34;https://github.com/mermaid-js/mermaid&#34; alt=&#34;Mermaid&#34;&gt;, conforme exemplo abaixo.&lt;/p&gt;
+&lt;p&gt;Crie um arquivo como &lt;code&gt;minha_apresentacao.stv&lt;/code&gt; e edite-o:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.title Título da apresentação
 .foot Um rodapé.
-# Estes são comentários. 
-# As tags .script e .style apontam 
+# Estes são comentários porque começam com #. 
+# As âncoras .script e .style apontam 
 # para arquivos personalizados de 
 # configuração. São opcionais.
 .script ./Config/style.css
@@ -2926,13 +2848,16 @@ Não há suporte a recorrência, ainda.
 .list
 Primeiro item de uma lista.
 Segundo item de uma lista.
-
+Se quiser lista ordenada, use .ordlist
 ---
 .image ./Images/exemplo.jpg
-
+# um slide com imagem
 ---
 .video ./Videos/exemplo.mp4
-
+# slide com vídeo
+---
+.urlvideo &amp;#34;iframe do YouTube&amp;#34;
+# esta âncora .urlvideo serve para integrar iframes
 ---
 .heading Exemplo de fluxograma em mermaid
 .mermaid
@@ -2943,39 +2868,48 @@ B--&amp;gt;D(fa:fa-spinner);
 C--&amp;gt;A
 
 ---
+.subheading Um slide com tabela
 .table
 Coluna 1 | Coluna 2 | Coluna 3
 Item 1 | Item 2 | Item 3
 Última 1 | Última 2 | Última 3
-
 ---
 .heading Um exemplo de lista ordenada.
 .ordlist
 Primeiro item numerado.
 Segundo.
 Mais um.
-
 Último.
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Execute stultus_visio no mesmo diretório do arquvio &lt;code&gt;minha_apresentacao.stv&lt;/code&gt;, por exemplo:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ./target/stultus_visio minha_apresentacao.stv
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação será criada no mesmo diretório como um &lt;code&gt;html&lt;/code&gt; de mesmo nome.&lt;/p&gt;
-&lt;p&gt;Abra-a em qualquer navegador web.&lt;/p&gt;
-&lt;p&gt;O arquivo é portável e único. Basta compartilhar o HTML em si. Zero necessidade de internet, exceto se você incorporar vídeos online.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;No mesmo diretório do arquvio, execute o StultusVisio:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ stultusvisio minha_apresentacao.stv
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação em &lt;code&gt;HTML&lt;/code&gt; será criada no mesmo diretório, com mesmo nome do arquivo.&lt;/p&gt;
+&lt;p&gt;Abra-a em qualquer navegador web. O arquivo é portável e único. Basta compartilhar o HTML em si.&lt;/p&gt;
+&lt;p&gt;Para personalizar estilos e comportamento, aponte para arquivos personalizados de &lt;code&gt;script.js&lt;/code&gt; e &lt;code&gt;style.css&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]
+Erros de sintaxe no arquivo presentation.stv são renderizados como slides com uma mensagem de erro.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!IMPORTANT]
+A violação da filosofia do software produz comportamento imprevisto.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;controles&#34;&gt;Controles&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;t   :   Abra/feche a ajuda.
 j   :   Vá ao próximo slide.
-k   :   Anteceda ao slide anterior.
+k   :   Vá ao slide anterior.
 p   :   Alterne para modo printável. 
 gg  :   Vá ao primeiro slide.
 G   :   Vá ao último slide.
 m   :   Abra o marcador interativo.
 x   :   Altere tamanho do marcador.
+
+Deslize para passar slides em telas móveis com aparelho deitado.
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;salvar-como-pdf&#34;&gt;Salvar como PDF&lt;/h2&gt;
-&lt;p&gt;Pressione &amp;ldquo;p&amp;rdquo; para alternar no modo printável.
-Em qualquer navegador, escolha modo landscape e em opções avançadas, desmarque headers and footers ou cabeçalhos e rodapés.
-Imprima na opção Salvar para PDF.&lt;/p&gt;
+&lt;p&gt;Pressione &lt;code&gt;p&lt;/code&gt; para alternar no modo printável.
+Em qualquer navegador, escolha modo &lt;code&gt;landscape&lt;/code&gt; e em opções avançadas, desmarque &lt;code&gt;headers and footers&lt;/code&gt; ou &lt;code&gt;cabeçalhos e rodapés&lt;/code&gt;.
+Imprima na opção &lt;code&gt;Salvar para PDF&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;desenvolvimento&#34;&gt;Desenvolvimento&lt;/h2&gt;
-&lt;p&gt;Se você é programador, clique &lt;a href=&#34;../stultus-doc/stultusvisio/index.html&#34;&gt;aqui&lt;/a&gt; para acessar a documentação.&lt;/p&gt;
+&lt;p&gt;Se você é programador, &lt;a href=&#34;../stultus-doc/stultusvisio/index.html&#34;&gt;acesse aqui&lt;/a&gt; a documentação.&lt;/p&gt;
 &lt;h2 id=&#34;progresso&#34;&gt;Progresso&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; básico de uso geral.&lt;/li&gt;
@@ -2987,8 +2921,6 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; zoom ad-hoc do slide atual.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; incluir arquivos de fontes.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;licença&#34;&gt;Licença&lt;/h2&gt;
-&lt;p&gt;GNU GPL v.3&lt;/p&gt;
 </description>
 	</item>
 	
@@ -3115,7 +3047,7 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Tromboembolismo pulmonar - Escore de Wells</title>
+		<title>Tromboembolismo pulmonar: Escore de Wells</title>
 		<link>http://localhost:1313/medicina/wells-tep/</link>
 		<pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
 		

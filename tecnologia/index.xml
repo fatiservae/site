@@ -1299,7 +1299,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     padding: 1px;
     padding-right: 2em;
     border-radius: 14px;
-    box-shadow: var(--sombra);
+    box-shadow: 10px 10px 10px var(--sombra);
     /*
     background: var(--sticker-fundo);
     */
@@ -2792,7 +2792,7 @@ $$&lt;/p&gt;
 		<pubDate>Mon, 06 Nov 2023 10:31:17 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/tecnologia/stultus-visio/</guid>
-		<description>&lt;h1 id=&#34;stultusvisio&#34;&gt;StultusVisio&lt;/h1&gt;
+		<description>&lt;h2 id=&#34;stultusvisio&#34;&gt;StultusVisio&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Não há nada mais improdutivo que montar apresentações de slides!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;O tempo que se perde com diagramação, baboseiras, temas e formatação é absurdo!&lt;/p&gt;
 
@@ -2828,16 +2828,16 @@ Não há suporte a recorrência, ainda.
 &lt;p&gt;&lt;a href=&#34;https://github.com/EstalineCCCP/StultusVisio&#34;&gt;StultusVisio no GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;exemplos&#34;&gt;Exemplos&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/StultusVisio/Exemplo/minha_apresentacao.html&#34;&gt;Exemplo simples com vídeo, imagem e listas.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/Dor-Toracica/&#34;&gt;Apresentação sobre dor torácica que fiz em 2023.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://estalinecccp.github.io/Dor-Toracica/&#34;&gt;Apresentação sobre dor torácica que fiz em 2023, numa versão básica.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;uso&#34;&gt;Uso&lt;/h2&gt;
 &lt;p&gt;Um software simples que te obriga a montar slides coerentes.&lt;/p&gt;
-&lt;p&gt;Um slide deve conter apenas um(a) imagem, vídeo ou texto. Evite inserir ambos.&lt;/p&gt;
+&lt;p&gt;Um slide deve conter apenas um vídeo, duas images ou texto. Evite inserir ambos.&lt;/p&gt;
 &lt;p&gt;Para fluxogramas, timelines, tabelas e mídias de dados organizados, use &lt;a href=&#34;https://github.com/mermaid-js/mermaid&#34;&gt;Mermaid&lt;/a&gt;, conforme exemplo abaixo.&lt;/p&gt;
-&lt;p&gt;No diretório, crie um arquivo &lt;em&gt;minha_apresentacao.stv&lt;/em&gt; e edite-o:&lt;/p&gt;
+&lt;p&gt;Crie um arquivo como &lt;code&gt;minha_apresentacao.stv&lt;/code&gt; e edite-o:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.title Título da apresentação
 .foot Um rodapé.
-# Estes são comentários. 
-# As tags .script e .style apontam 
+# Estes são comentários porque começam com #. 
+# As âncoras .script e .style apontam 
 # para arquivos personalizados de 
 # configuração. São opcionais.
 .script ./Config/style.css
@@ -2848,13 +2848,16 @@ Não há suporte a recorrência, ainda.
 .list
 Primeiro item de uma lista.
 Segundo item de uma lista.
-
+Se quiser lista ordenada, use .ordlist
 ---
 .image ./Images/exemplo.jpg
-
+# um slide com imagem
 ---
 .video ./Videos/exemplo.mp4
-
+# slide com vídeo
+---
+.urlvideo &amp;#34;iframe do YouTube&amp;#34;
+# esta âncora .urlvideo serve para integrar iframes
 ---
 .heading Exemplo de fluxograma em mermaid
 .mermaid
@@ -2865,39 +2868,42 @@ B--&amp;gt;D(fa:fa-spinner);
 C--&amp;gt;A
 
 ---
+.subheading Um slide com tabela
 .table
 Coluna 1 | Coluna 2 | Coluna 3
 Item 1 | Item 2 | Item 3
 Última 1 | Última 2 | Última 3
-
 ---
 .heading Um exemplo de lista ordenada.
 .ordlist
 Primeiro item numerado.
 Segundo.
 Mais um.
-
 Último.
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Execute stultus_visio no mesmo diretório do arquvio &lt;code&gt;minha_apresentacao.stv&lt;/code&gt;, por exemplo:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ ./target/stultus_visio minha_apresentacao.stv
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação será criada no mesmo diretório como um &lt;code&gt;html&lt;/code&gt; de mesmo nome.&lt;/p&gt;
-&lt;p&gt;Abra-a em qualquer navegador web.&lt;/p&gt;
-&lt;p&gt;O arquivo é portável e único. Basta compartilhar o HTML em si. Zero necessidade de internet, exceto se você incorporar vídeos online.&lt;/p&gt;
-&lt;h2 id=&#34;controles&#34;&gt;Controles&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;No mesmo diretório do arquvio, execute o StultusVisio:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ stultusvisio minha_apresentacao.stv
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A apresentação em &lt;code&gt;HTML&lt;/code&gt; será criada no mesmo diretório, com mesmo nome do arquivo.&lt;/p&gt;
+&lt;p&gt;Abra-a em qualquer navegador web. O arquivo é portável e único. Basta compartilhar o HTML em si.&lt;/p&gt;
+&lt;p&gt;Para personalizar estilos e comportamento, aponte para arquivos personalizados de &lt;code&gt;script.js&lt;/code&gt; e &lt;code&gt;style.css&lt;/code&gt;.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;❗Erros de sintaxe no arquivo presentation.stv são renderizados como slides com uma mensagem de erro.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;⚠️ A violação da filosofia do software produz comportamento imprevisto. 
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;controles&#34;&gt;Controles&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;t   :   Abra/feche a ajuda.
 j   :   Vá ao próximo slide.
-k   :   Anteceda ao slide anterior.
+k   :   Vá ao slide anterior.
 p   :   Alterne para modo printável. 
 gg  :   Vá ao primeiro slide.
 G   :   Vá ao último slide.
 m   :   Abra o marcador interativo.
 x   :   Altere tamanho do marcador.
+
+Deslize para passar slides em telas móveis com aparelho deitado.
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;salvar-como-pdf&#34;&gt;Salvar como PDF&lt;/h2&gt;
-&lt;p&gt;Pressione &amp;ldquo;p&amp;rdquo; para alternar no modo printável.
-Em qualquer navegador, escolha modo landscape e em opções avançadas, desmarque headers and footers ou cabeçalhos e rodapés.
-Imprima na opção Salvar para PDF.&lt;/p&gt;
+&lt;p&gt;Pressione &lt;code&gt;p&lt;/code&gt; para alternar no modo printável.
+Em qualquer navegador, escolha modo &lt;code&gt;landscape&lt;/code&gt; e em opções avançadas, desmarque &lt;code&gt;headers and footers&lt;/code&gt; ou &lt;code&gt;cabeçalhos e rodapés&lt;/code&gt;.
+Imprima na opção &lt;code&gt;Salvar para PDF&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;desenvolvimento&#34;&gt;Desenvolvimento&lt;/h2&gt;
-&lt;p&gt;Se você é programador, clique &lt;a href=&#34;../stultus-doc/stultusvisio/index.html&#34;&gt;aqui&lt;/a&gt; para acessar a documentação.&lt;/p&gt;
+&lt;p&gt;Se você é programador, &lt;a href=&#34;../stultus-doc/stultusvisio/index.html&#34;&gt;acesse aqui&lt;/a&gt; a documentação.&lt;/p&gt;
 &lt;h2 id=&#34;progresso&#34;&gt;Progresso&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; básico de uso geral.&lt;/li&gt;
@@ -2909,8 +2915,6 @@ Imprima na opção Salvar para PDF.&lt;/p&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; zoom ad-hoc do slide atual.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; incluir arquivos de fontes.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;licença&#34;&gt;Licença&lt;/h2&gt;
-&lt;p&gt;GNU GPL v.3&lt;/p&gt;
 </description>
 	</item>
 	
