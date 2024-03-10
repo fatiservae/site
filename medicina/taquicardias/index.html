@@ -169,6 +169,10 @@ Se a FC atual do paciente é maior que o previsto na equação, muito provavelme
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'chocolate' ;
   }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
 
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');

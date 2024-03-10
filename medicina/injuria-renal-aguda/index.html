@@ -139,6 +139,10 @@ Tubolopatias, principalmente medicamentosas, associadas ao uso de AINES, IECAs, 
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'chocolate' ;
   }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
 
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');

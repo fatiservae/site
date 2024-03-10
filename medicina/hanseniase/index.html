@@ -122,6 +122,10 @@ A partir de então, o número de bacilos infiltrados nos diversos tecidos do cor
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'chocolate' ;
   }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
 
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');

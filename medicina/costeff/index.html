@@ -139,6 +139,10 @@ $$ ASC = {{ 4m &#43; 7 } \over { m &#43; 90 }} $$">
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'chocolate' ;
   }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
 
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
