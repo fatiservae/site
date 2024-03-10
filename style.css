@@ -51,7 +51,7 @@ Regras de estilo:
   --largura-texto: calc(650px + 10vw);
 }
 
-:root[data-tema="escuro"] {
+:root[data-tema="0"] {
   --fundoCode: #303030;
   --barraRolagem: tomato;
   --marca-texto: #FFE500;
@@ -62,7 +62,7 @@ Regras de estilo:
   --hover-botao: var(--azul-escuro-google);
   --h1: var(--amarelo-google);
   --h2: var(--letragradiente-dark);
-  --h3: var(--amarelo-servo);
+  --h3: tomato;
   --negrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
@@ -97,10 +97,10 @@ Regras de estilo:
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
   --sombra: #353535;
 }
-:root[data-tema="claro"] {
+:root[data-tema="1"] {
   --fundoCode: tan;
   --barraRolagem: black;
-  --marca-texto: var(--negrito);
+  --marca-texto: #b0132d ;
   --barra-selecionado: #3864da;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
@@ -113,7 +113,7 @@ Regras de estilo:
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
-  --negrito: #b0132d;
+  --negrito: #b0132d ;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
@@ -152,7 +152,61 @@ Regras de estilo:
   --sticker-font: var(--fundo-invertido) ;
   --termo: var(--azul-estadao);
 }
-
+:root[data-tema="2"] {
+  --fundoCode: peru;
+  --barraRolagem: black;
+  --marca-texto: var(--negrito);
+  --barra-selecionado: #3864da;
+  --sombra: #303030;
+  --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
+  --h2-gradiente: linear-gradient(90deg, var(--frase), var(--roxo-google), var(--azul-estadao));
+  --background-img: url('pix/day.jpg'); 
+  --hover-botao: #904500 ;
+  --h2: #4E342E;
+  --h1: #424242;
+  --h3: #455A64;
+  --switch-shadow: 3px 1px 20px red;
+  --fundo-carousel: var(--left-gradiente-light);
+  --code-text: indigo;
+  --negrito: yellow ;
+  --texto-dim: var(--fundo-invertido);
+  --letragradiente: black;
+  --katex-color: black ;
+  /*
+  --button-color: #ebc9a9 ;
+  */
+  --button-color: none ;
+  --button-hover: #deadbb ;
+  --headings: var(--azul-escuro-google);
+  --sticker-fundo: var(--gradiente-light) ;
+  /*
+  --fundo: #cc866a ; 
+  --fundo: #FFECB3; 
+  */
+  --fundo: #a57c51 ;
+  --gradfundo: linear-gradient(to top, #e2725b , tan);
+  --fundo-invertido: var(--git-hub-dark-back) ;
+  --fundo-input: #fbc782;
+  --green: #347d39 ;
+  --blue: #539bf5 ;
+  --separador: gray ;
+  --bordas: green;
+  /*
+  --strong-color: #101010;
+  */
+  --fonte: #303030;
+  --strong-color: var(--lilas-servo);
+  --fonte-invertida: var(--white-solarized);
+  --links: darkblue ;
+  --links-visitados: var(--azul-google) ;
+  --link-hover: black ;
+  --frase-show: var(--texto-dim) ;
+  --frase-hover: darkred ;
+  --frase: var(--verde-google) ;
+  --autor: var(--fundo);
+  --sticker-font: var(--fundo-invertido) ;
+  --termo: var(--azul-estadao);
+}
 body {
 /*
 */
@@ -184,6 +238,7 @@ body {
   background: none;
 }
 a#switch {
+  padding-right: 12px;
   /*
   transition: box-shadow 200ms ease-in-out;
   margin-right: 0.5em;
@@ -194,8 +249,12 @@ a#switch {
   align: left;
   left: 3px;
   box-shadow: none;
+  color: var(--negrito);
 }
-a#switch:hover {
+a#switch:hover,
+a#switch:hover::before {
+  color: var(--fonte);
+  content: 'tema ';
   /*
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),inset  0 1px 5px rgba(0, 0, 0, 0.5);
   */
@@ -796,6 +855,9 @@ th {
 th, td {
   border: 1px solid var(--fonte);
   border-collapse: collapse ;
+  padding: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 table p{
   margin-left: 1vw;
@@ -804,7 +866,6 @@ table p{
 table tr:nth-child(even) {
   background-color: none;
 }
-
 table tr:nth-child(odd) {
   background-color: var(--fundo-invertido); 
   color: var(--fonte-invertida);
@@ -1279,6 +1340,7 @@ nav#TableOfContents li:last-child::before {
   margin-right: 8vw;
   margin-top: 0.5em;
   font-weight: bold ;
+  white-space: nowrap;
 }
 .barra a{
   /* 

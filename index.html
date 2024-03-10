@@ -95,9 +95,9 @@
   let lighswitch = document.getElementById("switch");
   const temaAtual = localStorage.getItem('tema');
  
-  if (temaAtual === 'escuro') {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro' ;
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -109,25 +109,35 @@
           'tertiaryColor': '#fff'
         }
     });
-  } else if (temaAtual === 'claro') {
-    document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = 'escuro' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'caatinga' ;
   }
-  else {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro' ;
+  else if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
   }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'chocolate' ;
+  }
+
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === 'claro') {
-      lighswitch.innerHTML = 'claro'
-      document.documentElement.setAttribute('data-tema', 'escuro');
-      localStorage.setItem('tema', 'escuro'); 
-    } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = 'escuro'
-      document.documentElement.setAttribute('data-tema', 'claro');
-      localStorage.setItem('tema', 'claro'); 
+    if (temaAtual === '2') {
+      lighswitch.innerHTML = 'noite'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'chocolate'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+    } else if (temaAtual === '0') {
+      lighswitch.innerHTML = 'caatinga'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
     }
+
     const mermaidTags = document.querySelectorAll('pre.mermaid');
     if (mermaidTags.length > 0) {
       location.reload();
@@ -211,6 +221,8 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <script src="index.js"></script>
 
 <ul id=artlist>
+<li data-tags="[Medicina Calculadoras Ciência]" ><a href="https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/">Estatística diagnóstica</a></li>
+<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/colesterol/">Dislipidemias: síntese de recomendações da SBC 2017</a></li>
 <li data-tags="[filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/farsa-ockham/">A farsa da navalha de Ockham</a></li>
 <li data-tags="" ><a href="https://www.jeffersontorres.com.br/vieses/">Compêndio de viéses</a></li>
 <li data-tags="[ciência Natureza]" ><a href="https://www.jeffersontorres.com.br/ciencia/isognatus/">Lagartas isognatus</a></li>
@@ -264,7 +276,7 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 
 
 <footer>
-  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  
   <br>
   <br>
 </footer>

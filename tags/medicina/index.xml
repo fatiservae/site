@@ -5,10 +5,323 @@
 	<description>Recent content in Medicina on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 08 Feb 2024 11:18:33 -0300</lastBuildDate>
+	<lastBuildDate>Sat, 09 Mar 2024 17:43:11 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/medicina/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Estatística diagnóstica</title>
+		<link>https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/</link>
+		<pubDate>Sat, 09 Mar 2024 17:43:11 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/</guid>
+		<description>&lt;p&gt;Na medicina, o diagnóstico é fruto de testes ajustados em sequência.&lt;/p&gt;
+&lt;p&gt;Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento. Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.&lt;/p&gt;
+&lt;h2 id=&#34;primeiro-contexto-paciente-aleatório-de-uma-determinada-população&#34;&gt;Primeiro contexto: paciente aleatório de uma determinada população&lt;/h2&gt;
+&lt;p&gt;A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população a qualquer momento. Esta estatística deve ser levantada por estudos.&lt;/p&gt;
+&lt;p&gt;Seu resultado é chamado de &lt;strong&gt;prevalência&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente.&lt;/p&gt;
+&lt;h2 id=&#34;segundo-contexto-o-paciente-aleatório-faz-um-exame&#34;&gt;Segundo contexto: o paciente aleatório faz um exame&lt;/h2&gt;
+&lt;p&gt;A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente sua sensibilidade e especificidade.&lt;/p&gt;
+&lt;p&gt;No caso do teste positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:&lt;/p&gt;
+&lt;p&gt;$$
+P(A\mid B) = \frac{P(B \mid A)\ P(A)}{P(B)}
+$$&lt;/p&gt;
+&lt;p&gt;Leia-se:&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+A probabilidade de A, dado que B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Este é o &lt;a href=&#34;https://pt.wikipedia.org/wiki/Teorema_de_Bayes&#34;&gt;Teorema de Bayes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;No caso do exame, lemos:&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+A probabilidade do diagnóstico dado o exame é igual a probabilidade do exame dado o diagnóstico vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Em outras palavras:&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+A probabilidade do diagnóstico é a especificidade vezes a prevalência dividido pela sensibilidade.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco&#34;&gt;Terceiro contexto: um estudo foi feito para determinar fatores de risco&lt;/h2&gt;
+&lt;p&gt;Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.&lt;/p&gt;
+&lt;p&gt;Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.&lt;/p&gt;
+&lt;p&gt;Este &lt;em&gt;risco adicional&lt;/em&gt; associado a um fator é chamado de &lt;strong&gt;risco relativo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% &lt;strong&gt;a mais&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;o-nomograma-de-fagan&#34;&gt;O nomograma de Fagan&lt;/h2&gt;
+&lt;p&gt;No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada &lt;strong&gt;diagrama de Fagan&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Trata-se de um ajuste estatístico bayesiano para diagnóstico clínico ajustado por testes. Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/fagan-nomogram.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt; &lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Pre-_and_post-test_probability&#34;&gt;Leia mais sobre&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;calculadora-para-teste-positivo&#34;&gt;Calculadora para teste positivo&lt;/h2&gt;
+&lt;p&gt;Calcule a probabilidade de doença após teste positivo.&lt;/p&gt;
+&lt;p&gt;Lembre-se: &lt;strong&gt;a prevalência pode ser a prevalência basal ou um valor adicionado de risco relativo&lt;/strong&gt;¹.&lt;/p&gt;
+
+
+&lt;style&gt;
+    #probPosT {
+        color: var(--negrito);
+    }
+&lt;/style&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
+&lt;!--
+    &lt;select id=tipo&gt;
+        &lt;option value=prevalencia&gt;Prevalência&lt;/option&gt;
+        &lt;option value=testeClinico&gt;Testes clínicos&lt;/option&gt;
+        &lt;option value=riscoRelativo&gt;Risco relativo&lt;/option&gt;
+    &lt;/select&gt;
+--&gt;
+    &lt;label for=&#34;probPreT&#34;&gt;Probabilidade pré-teste (%)&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;probPreT&#34;&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    
+    &lt;label for=sensibilidade&gt;Sensibilidade (%)&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number id=sensibilidade&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+ 
+    &lt;label for=especificidade&gt;Especificidade (%)&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number id=especificidade&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    
+    &lt;div class=&#34;resultado&#34;&gt;
+        &lt;label for=probPosT&gt;Probabilidade pós-teste&lt;/label&gt;
+        &lt;p id=probPosT&gt;0&lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;button id=calc onclick=&#34;calcPosT()&#34;&gt;Calcular!&lt;/button&gt;
+    &lt;script&gt;
+        function calcPosT() {
+            let probPreT = document.getElementById(&#34;probPreT&#34;).value;
+            let sensibilidade = document.getElementById(&#34;sensibilidade&#34;).value;
+            let especificidade = document.getElementById(&#34;especificidade&#34;).value;
+            console.log(&#34;especificidade: &#34;+especificidade+&#34;\nsensibilidade: &#34;+sensibilidade+&#34;\nPreteste: &#34;+probPreT);
+
+            let verossimilhanca = sensibilidade / (1 - especificidade);
+            let probPosT = 0;
+
+            probPosT = ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT))) * 100;
+            document.getElementById(&#34;probPosT&#34;).innerText = probPosT.toFixed(2)+&#34;%&#34;;
+        }
+    &lt;/script&gt;
+&lt;/div&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, não é justo que seu paciente queixoso em consultório seja comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência e os estudos disponíveis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;JAMA Networks. &lt;strong&gt;JAMA guide to statistics and methods.&lt;/strong&gt; Disponível em (2024): &lt;a href=&#34;https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods&#34;&gt;https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes&#34;&gt;https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BRASIL. &lt;strong&gt;Tabaco e saúde pulmonar: dia mundial sem tabaco: manual 2019&lt;/strong&gt;. Instituto Nacional de Câncer José Alencar Gomes da Silva. – Rio de Janeiro: INCA, 2019.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Dislipidemias: síntese de recomendações da SBC 2017</title>
+		<link>https://www.jeffersontorres.com.br/medicina/colesterol/</link>
+		<pubDate>Fri, 08 Mar 2024 23:33:58 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/colesterol/</guid>
+		<description>&lt;style&gt;
+table{
+    text-align: center;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;valores-de-normalidade&#34;&gt;Valores de normalidade&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lipídeo&lt;/th&gt;
+&lt;th&gt;jejum (mg/dL)&lt;/th&gt;
+&lt;th&gt;sem jejum (mg/dL)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Colesterol total&lt;/td&gt;
+&lt;td&gt;até 190&lt;/td&gt;
+&lt;td&gt;até 190&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Triglicerídeos&lt;/td&gt;
+&lt;td&gt;até 150&lt;/td&gt;
+&lt;td&gt;até 175&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;HDLc&lt;/td&gt;
+&lt;td&gt;pelo menos 40&lt;/td&gt;
+&lt;td&gt;pelo menos 40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;classificações-das-dislipidemias&#34;&gt;Classificações das dislipidemias&lt;/h2&gt;
+&lt;h3 id=&#34;etiológica&#34;&gt;Etiológica&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Primárias&lt;/strong&gt;: distúrbio genético.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Secundárias&lt;/strong&gt;: decorre do estilo de vida, uso de medicamentos ou condições de saúde diversas.&lt;/p&gt;
+&lt;h3 id=&#34;laboratorial&#34;&gt;Laboratorial&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Hipercolesterolemia isolada&lt;/strong&gt;: apenas o LDLc acima de 159mg/dL.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hipertrigliceridemia isolada&lt;/strong&gt;: apenas triglicerídeos acima de 149mg/dL no jejum ou 175mg/dL sem jejum.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hiperlipidemia mista&lt;/strong&gt;: se ambos os critérios anteriores ou se o não-HDLc superar 190mg/dL quando os triglicerídeos forem de 400mg/dL ou superiores².&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Baixo HDLc&lt;/strong&gt;: Homens com HDLc abaixo que 40mg/dL e mulheres abaixo de 50mg/dL.&lt;/p&gt;
+&lt;h2 id=&#34;categorias-de-risco&#34;&gt;Categorias de risco&lt;/h2&gt;
+&lt;p&gt;Acesse &lt;a href=&#34;http://departamentos.cardiol.br/sbc-da/2015/CALCULADORAER2017/index.html&#34;&gt;aqui&lt;/a&gt; a caluladora de risco cardiovascular da SBC.&lt;/p&gt;
+&lt;p&gt;Para cada nível de risco cardiológico global há um lipidograma desejável, conforme tabela abaixo.&lt;/p&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Lipídios&lt;/th&gt;
+            &lt;th&gt;máximo¹ (mg/dL)&lt;/th&gt;
+            &lt;th&gt;risco&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=4&gt;LDLc&lt;/td&gt;
+            &lt;td&gt;130&lt;/td&gt;
+            &lt;td&gt;baixo&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;100&lt;/td&gt;
+            &lt;td&gt;intermediário&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;70&lt;/td&gt;
+            &lt;td&gt;alto&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;50&lt;/td&gt;
+            &lt;td&gt;muito alto&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan=4&gt;Não-HDLc&lt;/td&gt;
+            &lt;td&gt;160&lt;/td&gt;
+            &lt;td&gt;baixo&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;130&lt;/td&gt;
+            &lt;td&gt;intermediário&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;100&lt;/td&gt;
+            &lt;td&gt;alto&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;80&lt;/td&gt;
+            &lt;td&gt;muito alto&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;metas-terapêuticas&#34;&gt;Metas terapêuticas&lt;/h2&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th rowspan=2&gt;Risco&lt;/th&gt;
+            &lt;th&gt;sem estatina&lt;/th&gt;
+            &lt;th colspan=2&gt;máximos com estatina&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Reduzir em&lt;/th&gt;
+            &lt;th&gt;LDLc (mg/dL)&lt;/th&gt;
+            &lt;th&gt;Não-HDLc (mg/dL)&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Muito alto&lt;/td&gt;
+            &lt;td&gt;mais de 50%&lt;/td&gt;
+            &lt;td&gt;50&lt;/td&gt;
+            &lt;td&gt;80&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Alto&lt;/td&gt;
+            &lt;td&gt;mais de 50%&lt;/td&gt;
+            &lt;td&gt;70&lt;/td&gt;
+            &lt;td&gt;100&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Intermediário&lt;/td&gt;
+            &lt;td&gt;pelo menos 30%&lt;/td&gt;
+            &lt;td&gt;100&lt;/td&gt;
+            &lt;td&gt;130&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Intermediário&lt;/td&gt;
+            &lt;td&gt;pelo menos 30%&lt;/td&gt;
+            &lt;td&gt;130&lt;/td&gt;
+            &lt;td&gt;160&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Atorvastatina de 40mg ou mais, Rosuvastatina de 20mg ou mais e sinvastatina combinada com ezetimiba tem poder de redução do LDL alto com &lt;strong&gt;queda esperada de 50% ou mais.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quaisquer estatinas acima de 40mg, a pitavastatina de 2mg ou mais, a sinvastatina de 20mg, a atorvastatina de 10mg ou mais ou a rosuvastatina de 5mg ou mais têm poder de redução do HDL moderado, &lt;strong&gt;esperando-se queda de 30-50% do valor.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A fluvastatina de 40mg, a sinvastatina de 10mg, a pitavastatina de 1mg ou todas outras estatinas com dosagem diária menor de 40mg tem baixo poder de redução do HDL com &lt;strong&gt;queda esperada não maior que 30%&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;fibratos&#34;&gt;Fibratos&lt;/h2&gt;
+&lt;p&gt;Na hipertrigliceridemia com falha do tratamento não farmacológico, introduz-se os fibratos conforme dosagem diária de bula. Para triglicerídeos acima de 500mg/dL, faz-se de imediato a introdução de fibratos, concomitantes às medidas não farmacológicas.&lt;/p&gt;
+&lt;!--
+## Cálculo de risco
+
+
+
+&lt;select id=&#34;calcRisco&#34;&gt;
+    &lt;option value=&#34;alto&#34;&gt;Selecione&lt;/option&gt;
+    &lt;option value=&#34;alto&#34;&gt;Artéria ocluída&lt;/option&gt;
+    &lt;option value=&#34;alto&#34;&gt;História IAMs&lt;/option&gt;
+    &lt;option value=&#34;alto&#34;&gt;História AVEs&lt;/option&gt;
+&lt;/select&gt;
+&lt;script&gt;
+    var risco = document.getElementById(&#34;calcRisco&#34;).value;
+
+    if (risco === &#34;Selecione&#34;) {
+        console.log();
+    } else if {
+        console.log();
+    } else if (
+        console.log();
+&lt;/script&gt;
+
+--&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Com ou sem jejum.&lt;/li&gt;
+&lt;li&gt;Porque a fórmula de Friedewald não deve ser usada se triglicerídeos maiores que 400mg/dL.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;referência&#34;&gt;Referência&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Faludi AA, Izar MCO, Saraiva JFK, Chacra APM, Bianco HT, Afiune Neto A, Bertolami A, et al. &lt;strong&gt;Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose – 2017&lt;/strong&gt;. Arq. Bras. Cardiol. 2017;109(2 suppl 1):1-76.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>A farsa da navalha de Ockham</title>

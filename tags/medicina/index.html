@@ -94,9 +94,9 @@
   let lighswitch = document.getElementById("switch");
   const temaAtual = localStorage.getItem('tema');
  
-  if (temaAtual === 'escuro') {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro' ;
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
     mermaid.initialize({ 
         'theme': 'base',
         'themeVariables': {
@@ -108,25 +108,35 @@
           'tertiaryColor': '#fff'
         }
     });
-  } else if (temaAtual === 'claro') {
-    document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = 'escuro' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'caatinga' ;
   }
-  else {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = 'claro' ;
+  else if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
   }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'chocolate' ;
+  }
+
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === 'claro') {
-      lighswitch.innerHTML = 'claro'
-      document.documentElement.setAttribute('data-tema', 'escuro');
-      localStorage.setItem('tema', 'escuro'); 
-    } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = 'escuro'
-      document.documentElement.setAttribute('data-tema', 'claro');
-      localStorage.setItem('tema', 'claro'); 
+    if (temaAtual === '2') {
+      lighswitch.innerHTML = 'noite'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'chocolate'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+    } else if (temaAtual === '0') {
+      lighswitch.innerHTML = 'caatinga'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
     }
+
     const mermaidTags = document.querySelectorAll('pre.mermaid');
     if (mermaidTags.length > 0) {
       location.reload();
@@ -176,6 +186,10 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 
 <ul class="listing-list">
+<li>
+	<a href="../../medicina/estatistica-diagnostica/">Estatística diagnóstica</a>
+	
+	</li>
 <li>
 	<a href="../../medicina/apresentacoes/">Minhas apresentações</a>
 	
@@ -276,7 +290,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <footer>
-  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  
   <br>
   <br>
 </footer>

@@ -1,5 +1,16 @@
 [
   {
+    "nome": ["dissulfiram", "Antietanol", "(US) Antabuse"],
+    "class": ["antialcoólicos"],
+    "posologias":[
+      ["mg", "dia"],
+      [250, "", "VO", "de preferência pela manhã, desde que esteja há 12h sem consumo de alcoól."]
+    ],
+    "obs":[
+      "Se usado na vigência do consumo de alcoól, causa depressão neurológica, colapso cardíaco e diversos outros efeitos graves."
+    ]
+  },
+  {
     "nome": ["citrato de fentanila", "Fentanil"],
     "class": ["analgésicos", "opioides"],
     "posologias":[

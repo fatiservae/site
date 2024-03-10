@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<style>
+.katex{
+  text-align: start !important ;
+  width: fit-content;
+  background: var(--gradiente-dark);
+}
+@media only screen and (max-width: 800px){
+  .katex{
+    max-width: 95vw;
+    font-size: 90%;
+  }
+}
+</style>
+
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Estatística Diagnóstica | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="Na medicina, o diagnóstico é fruto de testes ajustados em sequência.
+Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento. Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.
+Primeiro contexto: paciente aleatório de uma determinada população A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população a qualquer momento. Esta estatística deve ser levantada por estudos.">
+  <meta name="keywords" content="Medicina, Calculadoras, Ciência">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="fundobarra">
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
+</div>
+<br>
+<br>
+<script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'caatinga' ;
+  }
+  else if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'chocolate' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '2') {
+      lighswitch.innerHTML = 'noite'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'chocolate'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+    } else if (temaAtual === '0') {
+      lighswitch.innerHTML = 'caatinga'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+<p>Na medicina, o diagnóstico é fruto de testes ajustados em sequência.</p>
+<p>Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento. Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.</p>
+<h2 id="primeiro-contexto-paciente-aleatório-de-uma-determinada-população">Primeiro contexto: paciente aleatório de uma determinada população</h2>
+<p>A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população a qualquer momento. Esta estatística deve ser levantada por estudos.</p>
+<p>Seu resultado é chamado de <strong>prevalência</strong>.</p>
+<p>Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente.</p>
+<h2 id="segundo-contexto-o-paciente-aleatório-faz-um-exame">Segundo contexto: o paciente aleatório faz um exame</h2>
+<p>A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente sua sensibilidade e especificidade.</p>
+<p>No caso do teste positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:</p>
+<p>$$
+P(A\mid B) = \frac{P(B \mid A)\ P(A)}{P(B)}
+$$</p>
+<p>Leia-se:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+A probabilidade de A, dado que B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
+ </span>
+</div>
+
+
+<p>Este é o <a href="https://pt.wikipedia.org/wiki/Teorema_de_Bayes">Teorema de Bayes</a>.</p>
+<p>No caso do exame, lemos:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+A probabilidade do diagnóstico dado o exame é igual a probabilidade do exame dado o diagnóstico vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo.
+ </span>
+</div>
+
+
+<p>Em outras palavras:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+A probabilidade do diagnóstico é a especificidade vezes a prevalência dividido pela sensibilidade.
+ </span>
+</div>
+
+
+<h2 id="terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco">Terceiro contexto: um estudo foi feito para determinar fatores de risco</h2>
+<p>Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.</p>
+<p>Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.</p>
+<p>Este <em>risco adicional</em> associado a um fator é chamado de <strong>risco relativo</strong>.</p>
+<p>Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% <strong>a mais</strong>.</p>
+<h2 id="o-nomograma-de-fagan">O nomograma de Fagan</h2>
+<p>No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada <strong>diagrama de Fagan</strong>.</p>
+<p>Trata-se de um ajuste estatístico bayesiano para diagnóstico clínico ajustado por testes. Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/fagan-nomogram.jpg"></img>
+    <p> </p>
+  </div>
+
+<p><a href="https://en.wikipedia.org/wiki/Pre-_and_post-test_probability">Leia mais sobre</a>.</p>
+<h2 id="calculadora-para-teste-positivo">Calculadora para teste positivo</h2>
+<p>Calcule a probabilidade de doença após teste positivo.</p>
+<p>Lembre-se: <strong>a prevalência pode ser a prevalência basal ou um valor adicionado de risco relativo</strong>¹.</p>
+
+
+<style>
+    #probPosT {
+        color: var(--negrito);
+    }
+</style>
+<br>
+<br>
+<div class="calculadoras">
+<!--
+    <select id=tipo>
+        <option value=prevalencia>Prevalência</option>
+        <option value=testeClinico>Testes clínicos</option>
+        <option value=riscoRelativo>Risco relativo</option>
+    </select>
+-->
+    <label for="probPreT">Probabilidade pré-teste (%)</label>
+    <br>
+    <input type="number" id="probPreT"></input>
+    <br>
+    <br>
+    
+    <label for=sensibilidade>Sensibilidade (%)</label>
+    <br>
+    <input type=number id=sensibilidade></input>
+    <br>
+    <br>
+ 
+    <label for=especificidade>Especificidade (%)</label>
+    <br>
+    <input type=number id=especificidade></input>
+    <br>
+    <br>
+    
+    <div class="resultado">
+        <label for=probPosT>Probabilidade pós-teste</label>
+        <p id=probPosT>0</p>
+    </div>
+    
+    <button id=calc onclick="calcPosT()">Calcular!</button>
+    <script>
+        function calcPosT() {
+            let probPreT = document.getElementById("probPreT").value;
+            let sensibilidade = document.getElementById("sensibilidade").value;
+            let especificidade = document.getElementById("especificidade").value;
+            console.log("especificidade: "+especificidade+"\nsensibilidade: "+sensibilidade+"\nPreteste: "+probPreT);
+
+            let verossimilhanca = sensibilidade / (1 - especificidade);
+            let probPosT = 0;
+
+            probPosT = ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT))) * 100;
+            document.getElementById("probPosT").innerText = probPosT.toFixed(2)+"%";
+        }
+    </script>
+</div>
+    <br>
+    <br>
+
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, não é justo que seu paciente queixoso em consultório seja comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência e os estudos disponíveis.</li>
+</ol>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>JAMA Networks. <strong>JAMA guide to statistics and methods.</strong> Disponível em (2024): <a href="https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods">https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods</a></li>
+<li><a href="https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes">https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes</a></li>
+<li>BRASIL. <strong>Tabaco e saúde pulmonar: dia mundial sem tabaco: manual 2019</strong>. Instituto Nacional de Câncer José Alencar Gomes da Silva. – Rio de Janeiro: INCA, 2019.</li>
+</ol>
+
+
+<br>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a> &middot; <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">Ciência</a></div>
+
+<footer>
+  
+  <br>
+  <br>
+</footer>
+
+</body>
+</html>

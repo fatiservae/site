@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Dislipidemias: Síntese De Recomendações Da SBC 2017 | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="Valores de normalidade Lipídeo jejum (mg/dL) sem jejum (mg/dL) Colesterol total até 190 até 190 Triglicerídeos até 150 até 175 HDLc pelo menos 40 pelo menos 40 Classificações das dislipidemias Etiológica Primárias: distúrbio genético.
+Secundárias: decorre do estilo de vida, uso de medicamentos ou condições de saúde diversas.
+Laboratorial Hipercolesterolemia isolada: apenas o LDLc acima de 159mg/dL.
+Hipertrigliceridemia isolada: apenas triglicerídeos acima de 149mg/dL no jejum ou 175mg/dL sem jejum.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="fundobarra">
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
+</div>
+<br>
+<br>
+<script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+    mermaid.initialize({ 
+        'theme': 'base',
+        'themeVariables': {
+          'primaryColor': '#090909',
+          'primaryTextColor': '#ff6347',
+          'primaryBorderColor': '#7C0000',
+          'lineColor': '#ff6347',
+          'secondaryColor': '#21262d',
+          'tertiaryColor': '#fff'
+        }
+    });
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'caatinga' ;
+  }
+  else if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'chocolate' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '2') {
+      lighswitch.innerHTML = 'noite'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'chocolate'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+    } else if (temaAtual === '0') {
+      lighswitch.innerHTML = 'caatinga'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#valores-de-normalidade">Valores de normalidade</a></li>
+    <li><a href="#classificações-das-dislipidemias">Classificações das dislipidemias</a>
+      <ul>
+        <li><a href="#etiológica">Etiológica</a></li>
+        <li><a href="#laboratorial">Laboratorial</a></li>
+      </ul>
+    </li>
+    <li><a href="#categorias-de-risco">Categorias de risco</a></li>
+    <li><a href="#metas-terapêuticas">Metas terapêuticas</a></li>
+    <li><a href="#fibratos">Fibratos</a></li>
+    <li><a href="#notas">Notas</a></li>
+    <li><a href="#referência">Referência</a></li>
+  </ul>
+</nav>
+
+
+
+<style>
+table{
+    text-align: center;
+}
+</style>
+<h2 id="valores-de-normalidade">Valores de normalidade</h2>
+<table>
+<thead>
+<tr>
+<th>Lipídeo</th>
+<th>jejum (mg/dL)</th>
+<th>sem jejum (mg/dL)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Colesterol total</td>
+<td>até 190</td>
+<td>até 190</td>
+</tr>
+<tr>
+<td>Triglicerídeos</td>
+<td>até 150</td>
+<td>até 175</td>
+</tr>
+<tr>
+<td>HDLc</td>
+<td>pelo menos 40</td>
+<td>pelo menos 40</td>
+</tr>
+</tbody>
+</table>
+<h2 id="classificações-das-dislipidemias">Classificações das dislipidemias</h2>
+<h3 id="etiológica">Etiológica</h3>
+<p><strong>Primárias</strong>: distúrbio genético.</p>
+<p><strong>Secundárias</strong>: decorre do estilo de vida, uso de medicamentos ou condições de saúde diversas.</p>
+<h3 id="laboratorial">Laboratorial</h3>
+<p><strong>Hipercolesterolemia isolada</strong>: apenas o LDLc acima de 159mg/dL.</p>
+<p><strong>Hipertrigliceridemia isolada</strong>: apenas triglicerídeos acima de 149mg/dL no jejum ou 175mg/dL sem jejum.</p>
+<p><strong>Hiperlipidemia mista</strong>: se ambos os critérios anteriores ou se o não-HDLc superar 190mg/dL quando os triglicerídeos forem de 400mg/dL ou superiores².</p>
+<p><strong>Baixo HDLc</strong>: Homens com HDLc abaixo que 40mg/dL e mulheres abaixo de 50mg/dL.</p>
+<h2 id="categorias-de-risco">Categorias de risco</h2>
+<p>Acesse <a href="http://departamentos.cardiol.br/sbc-da/2015/CALCULADORAER2017/index.html">aqui</a> a caluladora de risco cardiovascular da SBC.</p>
+<p>Para cada nível de risco cardiológico global há um lipidograma desejável, conforme tabela abaixo.</p>
+<table>
+    <thead>
+        <tr>
+            <th>Lipídios</th>
+            <th>máximo¹ (mg/dL)</th>
+            <th>risco</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>LDLc</td>
+            <td>130</td>
+            <td>baixo</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>intermediário</td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td>alto</td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>muito alto</td>
+        </tr>
+        <tr>
+            <td rowspan=4>Não-HDLc</td>
+            <td>160</td>
+            <td>baixo</td>
+        </tr>
+        <tr>
+            <td>130</td>
+            <td>intermediário</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>alto</td>
+        </tr>
+        <tr>
+            <td>80</td>
+            <td>muito alto</td>
+        </tr>
+    </tbody>
+</table>
+<h2 id="metas-terapêuticas">Metas terapêuticas</h2>
+<table>
+    <thead>
+        <tr>
+            <th rowspan=2>Risco</th>
+            <th>sem estatina</th>
+            <th colspan=2>máximos com estatina</th>
+        </tr>
+        <tr>
+            <th>Reduzir em</th>
+            <th>LDLc (mg/dL)</th>
+            <th>Não-HDLc (mg/dL)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Muito alto</td>
+            <td>mais de 50%</td>
+            <td>50</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Alto</td>
+            <td>mais de 50%</td>
+            <td>70</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Intermediário</td>
+            <td>pelo menos 30%</td>
+            <td>100</td>
+            <td>130</td>
+        </tr>
+        <tr>
+            <td>Intermediário</td>
+            <td>pelo menos 30%</td>
+            <td>130</td>
+            <td>160</td>
+        </tr>
+    </tbody>
+</table>
+<p>Atorvastatina de 40mg ou mais, Rosuvastatina de 20mg ou mais e sinvastatina combinada com ezetimiba tem poder de redução do LDL alto com <strong>queda esperada de 50% ou mais.</strong></p>
+<p>Quaisquer estatinas acima de 40mg, a pitavastatina de 2mg ou mais, a sinvastatina de 20mg, a atorvastatina de 10mg ou mais ou a rosuvastatina de 5mg ou mais têm poder de redução do HDL moderado, <strong>esperando-se queda de 30-50% do valor.</strong></p>
+<p>A fluvastatina de 40mg, a sinvastatina de 10mg, a pitavastatina de 1mg ou todas outras estatinas com dosagem diária menor de 40mg tem baixo poder de redução do HDL com <strong>queda esperada não maior que 30%</strong>.</p>
+<h2 id="fibratos">Fibratos</h2>
+<p>Na hipertrigliceridemia com falha do tratamento não farmacológico, introduz-se os fibratos conforme dosagem diária de bula. Para triglicerídeos acima de 500mg/dL, faz-se de imediato a introdução de fibratos, concomitantes às medidas não farmacológicas.</p>
+<!--
+## Cálculo de risco
+
+
+
+<select id="calcRisco">
+    <option value="alto">Selecione</option>
+    <option value="alto">Artéria ocluída</option>
+    <option value="alto">História IAMs</option>
+    <option value="alto">História AVEs</option>
+</select>
+<script>
+    var risco = document.getElementById("calcRisco").value;
+
+    if (risco === "Selecione") {
+        console.log();
+    } else if {
+        console.log();
+    } else if (
+        console.log();
+</script>
+
+-->
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>Com ou sem jejum.</li>
+<li>Porque a fórmula de Friedewald não deve ser usada se triglicerídeos maiores que 400mg/dL.</li>
+</ol>
+<h2 id="referência">Referência</h2>
+<ol>
+<li>Faludi AA, Izar MCO, Saraiva JFK, Chacra APM, Bianco HT, Afiune Neto A, Bertolami A, et al. <strong>Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose – 2017</strong>. Arq. Bras. Cardiol. 2017;109(2 suppl 1):1-76.</li>
+</ol>
+
+
+
+
+<footer>
+  
+  <br>
+  <br>
+</footer>
+
+</body>
+</html>
