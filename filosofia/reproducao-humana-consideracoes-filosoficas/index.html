@@ -100,24 +100,13 @@ Além disso, somos primatas medianos, incapazes de defesa direta contra outros g
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
     lighswitch.innerHTML = 'noite' ;
-    mermaid.initialize({ 
-        'theme': 'base',
-        'themeVariables': {
-          'primaryColor': '#090909',
-          'primaryTextColor': '#ff6347',
-          'primaryBorderColor': '#7C0000',
-          'lineColor': '#ff6347',
-          'secondaryColor': '#21262d',
-          'tertiaryColor': '#fff'
-        }
-    });
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'caatinga' ;
+    lighswitch.innerHTML = 'paper' ;
   }
-  else if (temaAtual === '0') {
-    document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'branco' ;
   }
   else if (temaAtual === '2') {
     document.documentElement.setAttribute('data-tema', '2');
@@ -130,18 +119,25 @@ Além disso, somos primatas medianos, incapazes de defesa direta contra outros g
 
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === '2') {
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'paper'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'choco'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'branco' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
       lighswitch.innerHTML = 'noite'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
-    } else if (temaAtual === '1') {
-      lighswitch.innerHTML = 'chocolate'
-      document.documentElement.setAttribute('data-tema', '2');
-      localStorage.setItem('tema', '2'); 
-    } else if (temaAtual === '0') {
-      lighswitch.innerHTML = 'caatinga'
-      document.documentElement.setAttribute('data-tema', '1');
-      localStorage.setItem('tema', '1'); 
     }
 
     const mermaidTags = document.querySelectorAll('pre.mermaid');
@@ -172,6 +168,12 @@ Além disso, somos primatas medianos, incapazes de defesa direta contra outros g
 
 <footer>
   
+  <a href="" onClick="retornaTopo()">^</a>
+  <script>
+      function retornaTopo(){
+            document.documentElement.scrollTop = 0;
+      }
+  </script>
   <br>
   <br>
 </footer>

@@ -17,6 +17,7 @@ Regras de estilo:
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ; 
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --pimenta: #bb1450 ;
+  --vermelhoMITMarcador: #e56478;
   --branco-google: #f2f2f2 ;
   --amarelo-google: #ffa700 ;
   --azul-gemini: #4b83f0;
@@ -43,7 +44,6 @@ Regras de estilo:
   --blue: #539bf5 ;
   --separador: #383f48 ;
   --fonte: #a0acb9 ;
-  --sticker-fundo: var(--gradiente-dark) ;
   --git-hub-dark-back: #22272e ;
   --git-hub-roxo-escuro-transp: #bf398910 ;
   --azul-vibrante: #01bfff ;
@@ -51,7 +51,7 @@ Regras de estilo:
   --largura-texto: calc(650px + 10vw);
 }
 
-:root[data-tema="0"] {
+:root[data-tema="0"] { /* noite */
   --fundoCode: #303030;
   --barraRolagem: tomato;
   --marca-texto: #FFE500;
@@ -97,7 +97,7 @@ Regras de estilo:
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
   --sombra: #353535;
 }
-:root[data-tema="1"] {
+:root[data-tema="1"] {/* paper */
   --fundoCode: tan;
   --barraRolagem: black;
   --marca-texto: #b0132d ;
@@ -152,7 +152,7 @@ Regras de estilo:
   --sticker-font: var(--fundo-invertido) ;
   --termo: var(--azul-estadao);
 }
-:root[data-tema="2"] {
+:root[data-tema="2"] { /* choco */
   --fundoCode: peru;
   --barraRolagem: black;
   --marca-texto: var(--negrito);
@@ -206,6 +206,63 @@ Regras de estilo:
   --autor: var(--fundo);
   --sticker-font: var(--fundo-invertido) ;
   --termo: var(--azul-estadao);
+}
+
+:root[data-tema="3"] { /* branco */
+  --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #1010bb10 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #1120ff40 0, transparent 75%)) ;
+  --fundoCode: darkgray;
+  --barraRolagem: black;
+  --marca-texto: var(--negrito);
+  --barra-selecionado: #3864da;
+  --sombra: #303030;
+  --fundo-card: linear-gradient(85deg, gray, white, tan);
+  --h2-gradiente: linear-gradient(90deg, var(--frase), var(--azul-google), var(--verde-servo));
+  --background-img: url('pix/day.jpg'); 
+  --hover-botao: salmon;
+  --h2: #4E342E;
+  --h1: #424242;
+  --h3: #455A64;
+  --switch-shadow: 3px 1px 20px red;
+  --fundo-carousel: var(--left-gradiente-light);
+  --code-text: darkred;
+  --negrito: var(--azul-estadao);
+  --texto-dim: var(--fundo-invertido);
+  --letragradiente: black;
+  --katex-color: brown ;
+  /*
+  --button-color: #ebc9a9 ;
+  */
+  --button-color: none ;
+  --button-hover: gray;
+  --headings: var(--azul-escuro-google);
+  --sticker-fundo: var(--gradiente-light) ;
+  /*
+  --fundo: #cc866a ; 
+  --fundo: #FFECB3; 
+  */
+  --fundo: white;
+  --gradfundo: linear-gradient(to top, #e2725b , tan);
+  --fundo-invertido: var(--git-hub-dark-back) ;
+  --fundo-input: lightgray ;
+  --green: #347d39 ;
+  --blue: #539bf5 ;
+  --separador: black;
+  --bordas: black;
+  /*
+  --strong-color: #101010;
+  */
+  --fonte: black;
+  --strong-color: var(--azul-gemini);
+  --fonte-invertida: var(--white-solarized);
+  --links: darkblue ;
+  --links-visitados: var(--azul-google) ;
+  --link-hover: black ;
+  --frase: var(--azul-estadao);
+  --frase-hover: darkred ;
+  --frase-show: var(--roxo-google) ;
+  --autor: white;
+  --sticker-font: brown;
+  --termo: tomato;
 }
 body {
 /*

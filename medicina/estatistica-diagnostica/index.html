@@ -38,8 +38,9 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="Na medicina, o diagnóstico é fruto de testes ajustados em sequência.
-Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento. Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.
-Primeiro contexto: paciente aleatório de uma determinada população A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população a qualquer momento. Esta estatística deve ser levantada por estudos.">
+Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.
+Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.
+Primeiro contexto: paciente aleatório de uma determinada população A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.">
   <meta name="keywords" content="Medicina, Calculadoras, Ciência">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -116,24 +117,13 @@ Primeiro contexto: paciente aleatório de uma determinada população A probabil
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
     lighswitch.innerHTML = 'noite' ;
-    mermaid.initialize({ 
-        'theme': 'base',
-        'themeVariables': {
-          'primaryColor': '#090909',
-          'primaryTextColor': '#ff6347',
-          'primaryBorderColor': '#7C0000',
-          'lineColor': '#ff6347',
-          'secondaryColor': '#21262d',
-          'tertiaryColor': '#fff'
-        }
-    });
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'caatinga' ;
+    lighswitch.innerHTML = 'paper' ;
   }
-  else if (temaAtual === '0') {
-    document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'branco' ;
   }
   else if (temaAtual === '2') {
     document.documentElement.setAttribute('data-tema', '2');
@@ -146,18 +136,25 @@ Primeiro contexto: paciente aleatório de uma determinada população A probabil
 
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === '2') {
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'paper'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'choco'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'branco' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
       lighswitch.innerHTML = 'noite'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
-    } else if (temaAtual === '1') {
-      lighswitch.innerHTML = 'chocolate'
-      document.documentElement.setAttribute('data-tema', '2');
-      localStorage.setItem('tema', '2'); 
-    } else if (temaAtual === '0') {
-      lighswitch.innerHTML = 'caatinga'
-      document.documentElement.setAttribute('data-tema', '1');
-      localStorage.setItem('tema', '1'); 
     }
 
     const mermaidTags = document.querySelectorAll('pre.mermaid');
@@ -172,21 +169,22 @@ Primeiro contexto: paciente aleatório de uma determinada população A probabil
 
 
 <p>Na medicina, o diagnóstico é fruto de testes ajustados em sequência.</p>
-<p>Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento. Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.</p>
+<p>Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.</p>
+<p>Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.</p>
 <h2 id="primeiro-contexto-paciente-aleatório-de-uma-determinada-população">Primeiro contexto: paciente aleatório de uma determinada população</h2>
-<p>A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população a qualquer momento. Esta estatística deve ser levantada por estudos.</p>
+<p>A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.</p>
 <p>Seu resultado é chamado de <strong>prevalência</strong>.</p>
-<p>Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente.</p>
+<p>Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente, segundo estudos atualizados até 2023.</p>
 <h2 id="segundo-contexto-o-paciente-aleatório-faz-um-exame">Segundo contexto: o paciente aleatório faz um exame</h2>
-<p>A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente sua sensibilidade e especificidade.</p>
-<p>No caso do teste positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:</p>
+<p>A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.</p>
+<p>No caso do resultado positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:</p>
 <p>$$
 P(A\mid B) = \frac{P(B \mid A)\ P(A)}{P(B)}
 $$</p>
 <p>Leia-se:</p>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
-A probabilidade de A, dado que B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
+A probabilidade de A dado B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
  </span>
 </div>
 
@@ -195,15 +193,15 @@ A probabilidade de A, dado que B é igual a probabilidade de B dado A vezes a pr
 <p>No caso do exame, lemos:</p>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
-A probabilidade do diagnóstico dado o exame é igual a probabilidade do exame dado o diagnóstico vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo.
+A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo real vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
  </span>
 </div>
 
 
-<p>Em outras palavras:</p>
+<p>Finalmente:</p>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
-A probabilidade do diagnóstico é a especificidade vezes a prevalência dividido pela sensibilidade.
+A probabilidade do diagnóstico é igual a especificidade vezes a prevalência dividido pela sensibilidade.
  </span>
 </div>
 
@@ -211,11 +209,11 @@ A probabilidade do diagnóstico é a especificidade vezes a prevalência dividid
 <h2 id="terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco">Terceiro contexto: um estudo foi feito para determinar fatores de risco</h2>
 <p>Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.</p>
 <p>Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.</p>
-<p>Este <em>risco adicional</em> associado a um fator é chamado de <strong>risco relativo</strong>.</p>
-<p>Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% <strong>a mais</strong>.</p>
+<p>Este <em>risco associado</em> a um fator é chamado de <strong>risco relativo</strong>.</p>
+<p>Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% <strong>independentemente da prevalencia global</strong>.</p>
 <h2 id="o-nomograma-de-fagan">O nomograma de Fagan</h2>
-<p>No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada <strong>diagrama de Fagan</strong>.</p>
-<p>Trata-se de um ajuste estatístico bayesiano para diagnóstico clínico ajustado por testes. Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança.</p>
+<p>No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada <strong>diagrama de Fagan</strong>. Traçamos uma reta entre os valores de pré-teste e de verossimilhança (likelihood) para lermos onde a reta toca no eixo pós-teste.</p>
+<p>Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança, obviamente.</p>
 
 
 
@@ -226,8 +224,8 @@ A probabilidade do diagnóstico é a especificidade vezes a prevalência dividid
 
 <p><a href="https://en.wikipedia.org/wiki/Pre-_and_post-test_probability">Leia mais sobre</a>.</p>
 <h2 id="calculadora-para-teste-positivo">Calculadora para teste positivo</h2>
-<p>Calcule a probabilidade de doença após teste positivo.</p>
-<p>Lembre-se: <strong>a prevalência pode ser a prevalência basal ou um valor adicionado de risco relativo</strong>¹.</p>
+<p>Calcule a probabilidade de doença após exame positivo.</p>
+<p>Lembre-se: <strong>a prevalência pode ser a prevalência basal ou um valor de risco relativo</strong>¹.</p>
 
 
 <style>
@@ -290,7 +288,7 @@ A probabilidade do diagnóstico é a especificidade vezes a prevalência dividid
 <hr>
 <h2 id="notas">Notas</h2>
 <ol>
-<li>Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, não é justo que seu paciente queixoso em consultório seja comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência e os estudos disponíveis.</li>
+<li>Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, também é consenso que não é justo o seu paciente queixoso em consultório ser comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência ou, melhor ainda, estudos disponíveis.</li>
 </ol>
 <h2 id="referências">Referências</h2>
 <ol>
@@ -305,6 +303,12 @@ A probabilidade do diagnóstico é a especificidade vezes a prevalência dividid
 
 <footer>
   
+  <a href="" onClick="retornaTopo()">^</a>
+  <script>
+      function retornaTopo(){
+            document.documentElement.scrollTop = 0;
+      }
+  </script>
   <br>
   <br>
 </footer>
