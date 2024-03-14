@@ -115,11 +115,11 @@ window.addEventListener('scroll', function() {
   }
   else if (temaAtual === '3') {
     document.documentElement.setAttribute('data-tema', '3');
-    lighswitch.innerHTML = 'branco' ;
+    lighswitch.innerHTML = 'comics' ;
   }
   else if (temaAtual === '2') {
     document.documentElement.setAttribute('data-tema', '2');
-    lighswitch.innerHTML = 'chocolate' ;
+    lighswitch.innerHTML = 'café' ;
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
@@ -134,13 +134,13 @@ window.addEventListener('scroll', function() {
       localStorage.setItem('tema', '1'); 
 
     } else if (temaAtual === '1') {
-      lighswitch.innerHTML = 'choco'
+      lighswitch.innerHTML = 'café'
       document.documentElement.setAttribute('data-tema', '2');
       localStorage.setItem('tema', '2'); 
 
     } else if (temaAtual === '2') {
       document.documentElement.setAttribute('data-tema', '3');
-      lighswitch.innerHTML = 'branco' ;
+      lighswitch.innerHTML = 'comics' ;
       localStorage.setItem('tema', '3'); 
 
     } else if (temaAtual === '3') {
@@ -174,15 +174,14 @@ window.addEventListener('scroll', function() {
     display: none;
     margin-left: 5vw;
     margin-bottom: 0.5em;
-    border: solid 1px var(--bordas);
+    border: solid 2px var(--corBordas);
     padding: 1px;
     padding-right: 2em;
     border-radius: 14px;
-    box-shadow: 10px 10px 10px var(--sombra);
     /*
-    background: var(--sticker-fundo);
-    */
     background: var(--fundo-card);
+    box-shadow: 10px 10px 10px var(--sombra);
+    */
     width: fit-content;
   }
   div#divAtb p{
