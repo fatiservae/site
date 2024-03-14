@@ -59,7 +59,18 @@ Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por pr
 
 </head>
 <body>
-<div class="fundobarra">
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+window.addEventListener('scroll', function() {
+  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = scrollTop / scrollHeight * 100;
+  
+  document.getElementById('progress-bar').style.width = scrolled + '%';
+});
+</script>
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../../index.html" id="indexlink" alt="início">início</a>
@@ -67,7 +78,7 @@ Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por pr
       <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
   
   </div>
-</div>
+<article>
 <br>
 <br>
 <script>
@@ -102,7 +113,7 @@ Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por pr
     lighswitch.innerHTML = 'noite' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'paper' ;
+    lighswitch.innerHTML = 'árido' ;
   }
   else if (temaAtual === '3') {
     document.documentElement.setAttribute('data-tema', '3');
@@ -120,7 +131,7 @@ Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por pr
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === '0') {
-      lighswitch.innerHTML = 'paper'
+      lighswitch.innerHTML = 'árido'
       document.documentElement.setAttribute('data-tema', '1');
       localStorage.setItem('tema', '1'); 
 
@@ -178,9 +189,10 @@ Reporta-se uma baixíssima taxa de complicações, mesmo quando praticada por pr
 <br>
         <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">Ciência</a></div>
 
+</article>
 <footer>
   
-  <a href="" onClick="retornaTopo()">^</a>
+  <a onClick="retornaTopo()">^</a>
   <script>
       function retornaTopo(){
             document.documentElement.scrollTop = 0;

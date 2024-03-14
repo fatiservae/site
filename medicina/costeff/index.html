@@ -75,7 +75,18 @@ $$ ASC = {{ 4m &#43; 7 } \over { m &#43; 90 }} $$">
 
 </head>
 <body>
-<div class="fundobarra">
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+window.addEventListener('scroll', function() {
+  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = scrollTop / scrollHeight * 100;
+  
+  document.getElementById('progress-bar').style.width = scrolled + '%';
+});
+</script>
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../../index.html" id="indexlink" alt="início">início</a>
@@ -83,7 +94,7 @@ $$ ASC = {{ 4m &#43; 7 } \over { m &#43; 90 }} $$">
       <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
   
   </div>
-</div>
+<article>
 <br>
 <br>
 <script>
@@ -118,7 +129,7 @@ $$ ASC = {{ 4m &#43; 7 } \over { m &#43; 90 }} $$">
     lighswitch.innerHTML = 'noite' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'paper' ;
+    lighswitch.innerHTML = 'árido' ;
   }
   else if (temaAtual === '3') {
     document.documentElement.setAttribute('data-tema', '3');
@@ -136,7 +147,7 @@ $$ ASC = {{ 4m &#43; 7 } \over { m &#43; 90 }} $$">
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
     if (temaAtual === '0') {
-      lighswitch.innerHTML = 'paper'
+      lighswitch.innerHTML = 'árido'
       document.documentElement.setAttribute('data-tema', '1');
       localStorage.setItem('tema', '1'); 
 
@@ -221,9 +232,10 @@ $$</p>
 <br>
         <div style="" class=taglist><a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">Projetos</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a></div>
 
+</article>
 <footer>
   
-  <a href="" onClick="retornaTopo()">^</a>
+  <a onClick="retornaTopo()">^</a>
   <script>
       function retornaTopo(){
             document.documentElement.scrollTop = 0;

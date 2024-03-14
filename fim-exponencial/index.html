@@ -16,12 +16,13 @@
 
   
 
-  <title>Medicina | Jefferson T.</title>
+  <title>Crescimento Exponencial: Quando O Fim É Próximo | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
-  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
-  <link rel='stylesheet' type='text/css' href='../../style.css'>
-  <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  <link rel="icon" href="../favicon.webp">
+  <meta name="description" content="Neste curto ensaio vamos analisar falácias de crescimento.
+A proximidade do fim">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -70,9 +71,9 @@ window.addEventListener('scroll', function() {
 </script>
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-      <a href="../../index.html" id="indexlink" alt="início">início</a>
-      <a href="../../files/index.html" alt="files">arquivos</a>
-      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+      <a href="../index.html" id="indexlink" alt="início">início</a>
+      <a href="../files/index.html" alt="files">arquivos</a>
+      <a href="../tags/projetos/index.html" alt="projetos">projetos</a> 
   
   </div>
 <article>
@@ -159,145 +160,18 @@ window.addEventListener('scroll', function() {
 
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
 
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  
-  
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  if (autor.length > 1){
-    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    console.log(autor)
-  }
-})
-.catch(error => console.error('Erro ao buscar o JSON:', error));
 
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-<div> 
-  <p class="frase" id="frase"></p> 
-  <div id="autor"></div>
-  <br>
-</div>
 
-<ul class="listing-list">
-<li>
-	<a href="../../medicina/estatistica-diagnostica/">Estatística diagnóstica</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/apresentacoes/">Minhas apresentações</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/hidratacao/">Hidratação venosa: resumo breve</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/costeff/">Superfície corporal estimada: Costeff</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/hanseniase/">Hanseníase</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/drogas-vasoativas/">Drogas vasoativas</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/taquicardias/">Taquiarritimias</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/analgesias/">Analgesia: seja um médico melhor</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/bulario/">Bulário</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/afogamento/">Afogamento</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/dmg/">Diabetes Mellitus Gestacional</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/eclampsia/">Eclâmpsia</a>
-	
-	</li>
-<li>
-	<a href="../../dicionario/">Meu dicionário</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/pressao-arterial/">Hemodinâmica</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/calculos-queimados/">Grandes queimados: Parkland</a>
-	
-	</li>
-<li>
-	<a href="../../canais-yt/">Canais que recomendo</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/convulsoes/">Convulsões</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/massagem-carotidea/">Massagem Carotídea</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/cockcroft-gault/">Taxa de filtração glomerular: MDRD e Cockcroft-Gault</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/banco-de-questoes/">Banco de questões</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/tokyo-guideline/">Colecistite aguda: Tokyo Guideline</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/gasometria-arterial/">Gasometria Arterial</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/injuria-renal-aguda/">Injuria Renal Aguda</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/wells-tep/">Tromboembolismo pulmonar: Escore de Wells</a>
-	
-	</li>
-</ul>
+  <div id="img-div">
+    <img src="../pix/petri-plate.png"></img>
+    <p></p>
+  </div>
+
+<p>Neste curto ensaio vamos analisar falácias de crescimento.</p>
+<p>A proximidade do fim</p>
+
+
 
 
 </article>

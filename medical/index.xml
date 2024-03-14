@@ -17,21 +17,22 @@
 		
 		<guid>http://localhost:1313/medicina/estatistica-diagnostica/</guid>
 		<description>&lt;p&gt;Na medicina, o diagnóstico é fruto de testes ajustados em sequência.&lt;/p&gt;
-&lt;p&gt;Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento. Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.&lt;/p&gt;
+&lt;p&gt;Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.&lt;/p&gt;
+&lt;p&gt;Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.&lt;/p&gt;
 &lt;h2 id=&#34;primeiro-contexto-paciente-aleatório-de-uma-determinada-população&#34;&gt;Primeiro contexto: paciente aleatório de uma determinada população&lt;/h2&gt;
-&lt;p&gt;A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população a qualquer momento. Esta estatística deve ser levantada por estudos.&lt;/p&gt;
+&lt;p&gt;A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.&lt;/p&gt;
 &lt;p&gt;Seu resultado é chamado de &lt;strong&gt;prevalência&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente.&lt;/p&gt;
+&lt;p&gt;Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente, segundo estudos atualizados até 2023.&lt;/p&gt;
 &lt;h2 id=&#34;segundo-contexto-o-paciente-aleatório-faz-um-exame&#34;&gt;Segundo contexto: o paciente aleatório faz um exame&lt;/h2&gt;
-&lt;p&gt;A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente sua sensibilidade e especificidade.&lt;/p&gt;
-&lt;p&gt;No caso do teste positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:&lt;/p&gt;
+&lt;p&gt;A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.&lt;/p&gt;
+&lt;p&gt;No caso do resultado positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:&lt;/p&gt;
 &lt;p&gt;$$
 P(A\mid B) = \frac{P(B \mid A)\ P(A)}{P(B)}
 $$&lt;/p&gt;
 &lt;p&gt;Leia-se:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade de A, dado que B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
+A probabilidade de A dado B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
  &lt;/span&gt;
 &lt;/div&gt;
 
@@ -40,15 +41,15 @@ A probabilidade de A, dado que B é igual a probabilidade de B dado A vezes a pr
 &lt;p&gt;No caso do exame, lemos:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade do diagnóstico dado o exame é igual a probabilidade do exame dado o diagnóstico vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo.
+A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo real vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
  &lt;/span&gt;
 &lt;/div&gt;
 
 
-&lt;p&gt;Em outras palavras:&lt;/p&gt;
+&lt;p&gt;Finalmente:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade do diagnóstico é a especificidade vezes a prevalência dividido pela sensibilidade.
+A probabilidade do diagnóstico é igual a especificidade vezes a prevalência dividido pela sensibilidade.
  &lt;/span&gt;
 &lt;/div&gt;
 
@@ -56,11 +57,11 @@ A probabilidade do diagnóstico é a especificidade vezes a prevalência dividid
 &lt;h2 id=&#34;terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco&#34;&gt;Terceiro contexto: um estudo foi feito para determinar fatores de risco&lt;/h2&gt;
 &lt;p&gt;Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.&lt;/p&gt;
 &lt;p&gt;Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.&lt;/p&gt;
-&lt;p&gt;Este &lt;em&gt;risco adicional&lt;/em&gt; associado a um fator é chamado de &lt;strong&gt;risco relativo&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% &lt;strong&gt;a mais&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Este &lt;em&gt;risco associado&lt;/em&gt; a um fator é chamado de &lt;strong&gt;risco relativo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% &lt;strong&gt;independentemente da prevalencia global&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;o-nomograma-de-fagan&#34;&gt;O nomograma de Fagan&lt;/h2&gt;
-&lt;p&gt;No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada &lt;strong&gt;diagrama de Fagan&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Trata-se de um ajuste estatístico bayesiano para diagnóstico clínico ajustado por testes. Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança.&lt;/p&gt;
+&lt;p&gt;No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada &lt;strong&gt;diagrama de Fagan&lt;/strong&gt;. Traçamos uma reta entre os valores de pré-teste e de verossimilhança (likelihood) para lermos onde a reta toca no eixo pós-teste.&lt;/p&gt;
+&lt;p&gt;Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança, obviamente.&lt;/p&gt;
 
 
 
@@ -71,8 +72,8 @@ A probabilidade do diagnóstico é a especificidade vezes a prevalência dividid
 
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Pre-_and_post-test_probability&#34;&gt;Leia mais sobre&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;calculadora-para-teste-positivo&#34;&gt;Calculadora para teste positivo&lt;/h2&gt;
-&lt;p&gt;Calcule a probabilidade de doença após teste positivo.&lt;/p&gt;
-&lt;p&gt;Lembre-se: &lt;strong&gt;a prevalência pode ser a prevalência basal ou um valor adicionado de risco relativo&lt;/strong&gt;¹.&lt;/p&gt;
+&lt;p&gt;Calcule a probabilidade de doença após exame positivo.&lt;/p&gt;
+&lt;p&gt;Lembre-se: &lt;strong&gt;a prevalência pode ser a prevalência basal ou um valor de risco relativo&lt;/strong&gt;¹.&lt;/p&gt;
 
 
 &lt;style&gt;
@@ -135,7 +136,7 @@ A probabilidade do diagnóstico é a especificidade vezes a prevalência dividid
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, não é justo que seu paciente queixoso em consultório seja comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência e os estudos disponíveis.&lt;/li&gt;
+&lt;li&gt;Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, também é consenso que não é justo o seu paciente queixoso em consultório ser comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência ou, melhor ainda, estudos disponíveis.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;

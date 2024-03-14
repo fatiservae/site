@@ -11,6 +11,25 @@
 	
 	
 	<item>
+		<title>Crescimento exponencial: quando o fim é próximo</title>
+		<link>https://www.jeffersontorres.com.br/fim-exponencial/</link>
+		<pubDate>Wed, 13 Mar 2024 14:55:50 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/fim-exponencial/</guid>
+		<description>
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/petri-plate.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Neste curto ensaio vamos analisar falácias de crescimento.&lt;/p&gt;
+&lt;p&gt;A proximidade do fim&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Estatística diagnóstica</title>
 		<link>https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/</link>
 		<pubDate>Sat, 09 Mar 2024 17:43:11 -0300</pubDate>
@@ -679,6 +698,8 @@ $$&lt;/p&gt;
     &lt;option value=&#34;10&#34;&gt;Cloreto de sódio a 10%&lt;/option&gt;
     &lt;option value=&#34;20&#34;&gt;Cloreto de sódio a 20%&lt;/option&gt;
 &lt;/select&gt;
+&lt;br&gt;
+&lt;br&gt;
 &lt;h2&gt;Tonicidade do sódio&lt;/h2&gt;
 &lt;form&gt;
     &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Isotônico - 135mEq/L? &lt;br&gt;
@@ -690,7 +711,7 @@ $$&lt;/p&gt;
 &lt;input type=&#34;number&#34; id=&#34;volumeAmpK&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;concentAmpK&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
 &lt;select id=&#34;concentAmpK&#34;&gt;
-    &lt;option value=&#34;&#34;&gt;Selecione tipo de ampola&lt;/option&gt;
+    &lt;option value=&#34;&#34;&gt;Selecione ampola&lt;/option&gt;
     &lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
     &lt;option value=&#34;10&#34;&gt;Cloreto de Potássio a 10%&lt;/option&gt;
     &lt;option value=&#34;fosft2meqml&#34;&gt;Fosfato de Potássio a 2mEq/mL&lt;/option&gt;
