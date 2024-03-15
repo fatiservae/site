@@ -1,5 +1,17 @@
 [
   {
+    "nome": ["-"],
+    "class": ["aminoglicosídeos"],
+    "posologias": [
+      ["mg","h", "IV"],
+      ["",""]
+    ],
+    "obs": [
+      "Todo aminoglicosídeo é capaz de provocar bloqueio da atividade neuromuscular.",
+      "Os aminoglicosídeos não agem em ambiente de anaerobiose, pois o oxigênio é fundamental para o transporte dessas drogas para o interior da célula bacteriana."
+    ]
+  },
+  {
     "nome": ["dissulfiram", "Antietanol", "(US) Antabuse"],
     "class": ["antialcoólicos"],
     "posologias":[
