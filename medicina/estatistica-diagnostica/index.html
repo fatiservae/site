@@ -50,6 +50,10 @@ Primeiro contexto: paciente aleatório de uma determinada população A probabil
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -186,11 +190,11 @@ window.addEventListener('scroll', function() {
 <p>A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.</p>
 <p>Seu resultado é chamado de <strong>prevalência</strong>.</p>
 <p>Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente, segundo estudos atualizados até 2023.</p>
-<h2 id="segundo-contexto-o-paciente-aleatório-faz-um-exame">Segundo contexto: o paciente aleatório faz um exame</h2>
-<p>A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.</p>
+<h2 id="segundo-contexto-o-paciente-aleatório-faz-um-exame-ou-tem-um-sintoma">Segundo contexto: o paciente aleatório faz um exame ou tem um sintoma</h2>
+<p>A partir do momento que um paciente realiza um teste², seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.</p>
 <p>No caso do resultado positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:</p>
 <p>$$
-P(A\mid B) = \frac{P(B \mid A)\ P(A)}{P(B)}
+p(A\mid B) = \frac{p(B \mid A)\ p(A)}{p(B)}
 $$</p>
 <p>Leia-se:</p>
 <div style="display:flex; align-content:center">
@@ -204,7 +208,7 @@ A probabilidade de A dado B é igual a probabilidade de B dado A vezes a probabi
 <p>No caso do exame, lemos:</p>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
-A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo real vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
+A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo verdadeiro vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
  </span>
 </div>
 
@@ -212,11 +216,42 @@ A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade d
 <p>Finalmente:</p>
 <div style="display:flex; align-content:center">
   <span class="etiqueta">
-A probabilidade do diagnóstico é igual a especificidade vezes a prevalência dividido pela sensibilidade.
+A probabilidade do diagnóstico pelo exame é igual a especificidade vezes a prevalência dividido pela sensibilidade.
  </span>
 </div>
 
 
+<p>Para tanto, $p(B)$ deve ser entendido como a soma de todas probabilidades de dar positivo, ou seja:</p>
+<p>$$
+p(B)=p(B\mid A)p(A) + p(B\mid ¬A)p(¬A)
+$$</p>
+<p>Onde:</p>
+<p>$p(B\mid A)p(A)$ são todos os positivos verdadeiros expressos em probabilidade; e</p>
+<p>$p(B\mid ¬A)p(¬A)$ são todos os falsos positivos, em probabilidade.</p>
+<h3 id="exemplo-concreto">Exemplo concreto</h3>
+<p>Atualmente em Brasília (2024), estamos vivendos um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.</p>
+<p>$$
+prevalência = \frac{72600}{2.817.381} \approx 0.026
+$$</p>
+<p>Suponhamos que um paciente se apresente apenas com dor retro-orbitária há 4 dias.</p>
+<p>Vamos supor, também, que esse sintoma tem probabilidade geral de 1%, ou seja, somadas todas as outras formas de dor retro-orbitária em Brasília no momento, 1 a cada 100 pessoas terá o sintoma.</p>
+<p>Este sintoma é extremamente comum na dengue, digamos que 85% das pessoas com dengue tenham dor retro-orbitária.</p>
+<p>Assim sendo, qual a probabilidade desta pessoa ter dengue?</p>
+<p>$$
+p(Dengue\mid dor) = \frac{p(dor\mid Dengue) p(Dengue)}{p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue)}
+$$</p>
+<p>Resolvendo o denominador para facilitar:</p>
+<p>$$
+p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.98*0.026 + 0.01*0.934
+$$</p>
+<p>$$
+\approx 0.035</p>
+<p>Já que a probabilidade de se ter dor retro-orbitária sem dengue é de 0.01 e a <em>&ldquo;prevalência de não-dengue&rdquo;</em> é de $1 - 0.026$, ou melhor, 0.934.</p>
+<p>Então:</p>
+<p>$$
+p(Dengue\mid dor) = \frac{0.85*0.026}{0.035} \approx 0.63
+$$</p>
+<p>Ou seja, <strong>temos 63% de chance deste paciente ter dengue</strong>. Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.</p>
 <h2 id="terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco">Terceiro contexto: um estudo foi feito para determinar fatores de risco</h2>
 <p>Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.</p>
 <p>Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.</p>
@@ -288,6 +323,8 @@ A probabilidade do diagnóstico é igual a especificidade vezes a prevalência d
             let verossimilhanca = sensibilidade / (1 - especificidade);
             let probPosT = 0;
 
+            probPreT = probPreT/100;
+            console.log(probPreT);
             probPosT = ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT))) * 100;
             document.getElementById("probPosT").innerText = probPosT.toFixed(2)+"%";
         }
@@ -300,12 +337,14 @@ A probabilidade do diagnóstico é igual a especificidade vezes a prevalência d
 <h2 id="notas">Notas</h2>
 <ol>
 <li>Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, também é consenso que não é justo o seu paciente queixoso em consultório ser comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência ou, melhor ainda, estudos disponíveis.</li>
+<li>Entenda-se por teste qualquer exame ou sintoma pelo qual eu possa atribuir um valorestatístico na interpretação de seu resultado.</li>
 </ol>
 <h2 id="referências">Referências</h2>
 <ol>
 <li>JAMA Networks. <strong>JAMA guide to statistics and methods.</strong> Disponível em (2024): <a href="https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods">https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods</a></li>
 <li><a href="https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes">https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes</a></li>
 <li>BRASIL. <strong>Tabaco e saúde pulmonar: dia mundial sem tabaco: manual 2019</strong>. Instituto Nacional de Câncer José Alencar Gomes da Silva. – Rio de Janeiro: INCA, 2019.</li>
+<li><a href="https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude">https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude</a></li>
 </ol>
 
 

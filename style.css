@@ -54,6 +54,7 @@ Regras de estilo:
 
   /* PROPRIEDADES */
   scrollbar-color: var(--barraRolagem) var(--fundo);
+  --temaFonte: "Fira Sans", "Noto color emoji",  "Open Sans", 'Lato', sans-serif;
   --displayFigurasFundo: block;
   --bordasButao: 34px;
   --fundoSticker: var(--gradiente-dark);
@@ -179,6 +180,8 @@ Regras de estilo:
   --termo: var(--azul-estadao);
 }
 :root[data-tema="2"] { /* café */
+  --links: darkred;
+  --temaFonte: "Georgia", serif;
   --displayFigurasFundo: none;
   --corProgressBar: var(--madeira);
   --imageBackgroundHeadings: var(--h2-gradiente); 
@@ -191,7 +194,7 @@ Regras de estilo:
   --barra-selecionado: black;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
-  --h2-gradiente: linear-gradient(90deg, var(--madeira), var(--roxoGoogle), saddlebrown);
+  --h2-gradiente: linear-gradient(90deg, var(--madeira), darkred, #5b3027);
   --fundoImagem: url('pix/cafe.jpg'); 
   --hover-botao: #904500 ;
   --h2: #4E342E;
@@ -200,7 +203,7 @@ Regras de estilo:
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
-  --corNegrito: var(--roxoGoogle);
+  --corNegrito: darkred;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
@@ -226,12 +229,11 @@ Regras de estilo:
   /*
   --strong-color: #101010;
   */
-  --fonte: var(--madeira);
+  --fonte: black;
   /* #303030; */
   --strong-color: var(--lilas-servo);
   --fonteInvertida: var(--white-solarized);
-  --links: darkblue ;
-  --links-visitados: var(--azul-google) ;
+  --links-visitados: var(--madeira);
   --link-hover: black ;
   --fraseShow: var(--texto-dim) ;
   --fraseHover: darkred ;
@@ -242,8 +244,11 @@ Regras de estilo:
 }
 
 :root[data-tema="3"] { /* comics */
+  --temaFonte: "Comics Sans MS", cursive;
   --corProgressBar: var(--vermelhoDailyBeast);
   --fundoBarra: var(--vermelhoDailyBeast);
+  --gradfundo: linear-gradient(to top, #e2725b , tan);
+  --fundoImagem: var(--gradfundo);
   --imageBackgroundHeadings: none; 
   --h2Cor: black;
   --bordasHeadings: 1px solid black ;
@@ -283,8 +288,6 @@ Regras de estilo:
   --fundo: #cc866a ; 
   --fundo: #FFECB3; 
   */
-  --fundo: white;
-  --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: lightgray ;
   --green: #347d39 ;
@@ -310,11 +313,13 @@ Regras de estilo:
 
 body {
 /*
+  background-repeat: no-repeat;
 */
-  font-family: "Fira Sans", "Noto color emoji",  "Open Sans", 'Lato', sans-serif;
+  font-family: var(--temaFonte);
   font-weight: light;
   background: var(--fundo);
   background-image: var(--fundoImagem);
+  background-size: auto;
   background-attachment: fixed;
   color: var(--fonte) ;
   max-width: 100vw ;
@@ -599,6 +604,7 @@ h1, h3, h2 {
   width: fit-content;
 }
 h2 {
+  margin-top: 3rem;
   /*
   font-family: "Bangers";
   color: var(--h2);
@@ -1135,10 +1141,10 @@ input[type="email"],*/
 input, textarea {
   /* 
   width: 1em; 
+  padding: 10px;
+  box-sizing: border-box;  Inclui padding e borda na largura total 
   */
-  /* padding: 10px; */
   border-radius: var(--raioCampos);
-  /* box-sizing: border-box;  Inclui padding e borda na largura total */
   background-color: var(--fundo-input) ;
   border: 1px solid var(--corBordas); 
   color: var(--font-invertida) ;
@@ -1147,12 +1153,13 @@ input, textarea {
 
 /* BOTÕES BUTTON SELETOR SELECT MENU */
 button, select {
+  /*
+  */
   padding-right: 14px;
   padding-left: 14px;
   padding-top: 0; 
   padding-bottom: 0; 
-  /*
-  */
+  max-width: 96%;
   border: 1px solid #383f48 ; 
   border-radius: var(--bordasButao);
   background-color: var(--corBotao) ;
