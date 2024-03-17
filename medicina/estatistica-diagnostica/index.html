@@ -245,7 +245,8 @@ $$</p>
 p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.98*0.026 + 0.01*0.934
 $$</p>
 <p>$$
-\approx 0.035</p>
+\approx 0.035
+$$</p>
 <p>Já que a probabilidade de se ter dor retro-orbitária sem dengue é de 0.01 e a <em>&ldquo;prevalência de não-dengue&rdquo;</em> é de $1 - 0.026$, ou melhor, 0.934.</p>
 <p>Então:</p>
 <p>$$
@@ -325,7 +326,8 @@ $$</p>
 
             probPreT = probPreT/100;
             console.log(probPreT);
-            probPosT = ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT))) * 100;
+            probPosT = 100 * ((verossimilhanca * probPreT ) / 
+                (1 + (verossimilhanca - probPreT)));
             document.getElementById("probPosT").innerText = probPosT.toFixed(2)+"%";
         }
     </script>

@@ -9,12 +9,15 @@ Regras de estilo:
 */
 
 :root {
+  /*
+  --letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff); 
+  --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;
+  */
   /* CORES */
   --left-gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
   --left-gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
-  /*--letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff); */
   --letragradiente-light: linear-gradient(45deg, black, darkred, var(--fonte));
-  /*--gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;*/
+
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ; 
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --pimenta: #bb1450 ;
@@ -154,6 +157,7 @@ Regras de estilo:
   /*
   --fundo: #cc866a ; 
   --fundo: #FFECB3; 
+  --strong-color: #101010;
   */
   --fundo: navajowhite;
   --gradfundo: linear-gradient(to top, #e2725b , tan);
@@ -163,9 +167,6 @@ Regras de estilo:
   --blue: #539bf5 ;
   --separador: gray ;
   --corBordas: gray ;
-  /*
-  --strong-color: #101010;
-  */
   --fonte: #303030;
   --strong-color: var(--lilas-servo);
   --fonteInvertida: var(--white-solarized);
@@ -180,6 +181,12 @@ Regras de estilo:
   --termo: var(--azul-estadao);
 }
 :root[data-tema="2"] { /* café */
+  /*
+  --corBotao: #ebc9a9 ;
+  --fundo: #cc866a ; 
+  --fundo: #FFECB3; 
+  --strong-color: #101010;
+  */
   --links: darkred;
   --temaFonte: "Georgia", serif;
   --displayFigurasFundo: none;
@@ -194,7 +201,7 @@ Regras de estilo:
   --barra-selecionado: black;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
-  --h2-gradiente: linear-gradient(90deg, var(--madeira), darkred, #5b3027);
+  --h2-gradiente: linear-gradient(90deg, #5b3027, var(--madeira), darkred);
   --fundoImagem: url('pix/cafe.jpg'); 
   --hover-botao: #904500 ;
   --h2: #4E342E;
@@ -207,17 +214,10 @@ Regras de estilo:
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
-  /*
-  --corBotao: #ebc9a9 ;
-  */
   --corBotao: none ;
   --hoverBotao: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
-  /*
-  --fundo: #cc866a ; 
-  --fundo: #FFECB3; 
-  */
   --fundo: #a57c51 ;
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
@@ -226,12 +226,8 @@ Regras de estilo:
   --blue: #539bf5 ;
   --separador: gray ;
   --corBordas: var(--madeira);
-  /*
-  --strong-color: #101010;
-  */
   --fonte: black;
-  /* #303030; */
-  --strong-color: var(--lilas-servo);
+  --strong-color: black;
   --fonteInvertida: var(--white-solarized);
   --links-visitados: var(--madeira);
   --link-hover: black ;
@@ -244,6 +240,11 @@ Regras de estilo:
 }
 
 :root[data-tema="3"] { /* comics */
+  /*
+  --fundo: #cc866a ; 
+  --fundo: #FFECB3; 
+  --strong-color: #101010;
+  */
   --temaFonte: "Comics Sans MS", cursive;
   --corProgressBar: var(--vermelhoDailyBeast);
   --fundoBarra: var(--vermelhoDailyBeast);
@@ -284,19 +285,12 @@ Regras de estilo:
   --katex-color: brown ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
-  /*
-  --fundo: #cc866a ; 
-  --fundo: #FFECB3; 
-  */
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: lightgray ;
   --green: #347d39 ;
   --blue: #539bf5 ;
   --separador: black;
   --corBordas: black;
-  /*
-  --strong-color: #101010;
-  */
   --fonte: black;
   --strong-color: var(--azul-gemini);
   --fonteInvertida: var(--white);
@@ -344,9 +338,6 @@ body {
   border: none;
 }
 a#switch {
-  background: var(--fundoBarra);
-  box-shadow: var(--sombraCaixas);
-  padding-right: 12px;
   /*
   transition: box-shadow 200ms ease-in-out;
   margin-right: 0.5em;
@@ -355,6 +346,9 @@ a#switch {
   box-shadow: none;
   color: var(--corNegrito);
   */
+  background: var(--fundoBarra);
+  box-shadow: var(--sombraCaixas);
+  padding-right: 12px;
   position: static;
   align: left;
   left: 3px;
@@ -443,14 +437,14 @@ p#resultado {
   color: var(--sticker-font); 
 }
 .etiqueta {
+  /*
+  border: 1px solid var(--corBordas);
+  */
   overflow: wrap;
   margin-left: 5vw;
   padding: 0.5em;
   margin-right: auto;
   max-width: var(--largura-texto);
-  /*
-  border: 1px solid var(--corBordas);
-  */
   background: var(--sticker-fundo);
   border-radius: 5px;
   text-align: center;
@@ -462,19 +456,20 @@ p#resultado {
 .etiqueta:hover{
   color: var(--strong-color);
 }
-/*.sticker:hover {
+/*
+.sticker:hover {
   font-weight: bold;
   border-right: 1px solid tomato;
   border-top: 1px solid tomato;
-
-}*/
+}
+*/
 
 .duploflex {
-  display: flex;
-  justify-content: flex-start;
   /*
   display: inline-flex;
   */
+  display: flex;
+  justify-content: flex-start;
   margin-right: 5vw;
 }
 .duploflex div {
@@ -517,7 +512,7 @@ code {
   border-radius: 5px;
   background-color: var(--fundoCode) ;
   font-family: monospace;
-  font-size: 90% ; /* Tem que por pq o code padrão reduz */
+  font-size: 90% ; 
   color: var(--code-text);
 }
 p code::after, 
@@ -556,15 +551,12 @@ a {
   margin: auto;
   padding: 0;
 }
-
 #tagcloud li {
   display: inline-block ;
 }
-
 #tagcloud ul {
   align: center ;
 }
-
 #tagcloud a {
   font-size: 1.2em;
 }
@@ -581,6 +573,8 @@ a[href]:visited:hover, a[href]:hover{
 
 /* PARAGRAFOS HEADING H1 H2 H3 */
 h1, h3, h2 {
+  /*
+  */
   background-image: var(--imageBackgroundHeadings);
   -webkit-background-clip: var(--clipHeading);
   background-color: var(--fundoHeading);
@@ -588,8 +582,6 @@ h1, h3, h2 {
   border: var(--bordasHeadings);
   font-weight: bold;  
   box-shadow: var(--sombraCaixas);
-  /*
-  */
   font-size: 125%;
   padding: 0%;
   margin-top: 1em;
@@ -604,18 +596,18 @@ h1, h3, h2 {
   width: fit-content;
 }
 h2 {
-  margin-top: 3rem;
   /*
   font-family: "Bangers";
   color: var(--h2);
   */
+  margin-top: 3rem;
 }
 h2::before {
-  color: var(--strong-color);
   /*
   content: "#  ";
   color: red;
   */
+  color: var(--strong-color);
 }
 h1 {
   color: var(--h1);
@@ -634,6 +626,7 @@ h3::before {
   content: "+  ";
   color: var(--strong-color);
 }
+
 /* DIVISOR SEPARADOR HR */
 hr {
   /* 
@@ -655,6 +648,7 @@ iframe {
   margin-left: 5vw;
   max-width: 90vw;
 }
+
 img {
   /*
   max-height: 400px ;
@@ -679,14 +673,14 @@ img {
 }
 
 strong {
-  font-weight: bold;
-  color: var(--corNegrito);
-  border-radius: 2px;
   /*
   color: var(--strong-color) ; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   */
+  font-weight: bold;
+  color: var(--corNegrito);
+  border-radius: 2px;
 }
 
 .taglist {
@@ -697,14 +691,16 @@ strong {
   margin-top: 2em ;
 }
 
-/* bitcoin
+/* bitcoin */
+/*
 img[alt="BTC Logo"],
 img[alt="ETH Logo"],
 img[alt="XMR Logo"] {
-max-width: 1em ;
-max-height: 1em ;
-display: inline ;
-}*/
+  max-width: 1em ;
+  max-height: 1em ;
+  display: inline ;
+}
+*/
 
 article {
 }
@@ -982,7 +978,6 @@ table tr:nth-child(odd) {
 }
 */
 
-
 /* UL OL LI UNORDERED LISTS */
 ul strong,
 ol strong {
@@ -1040,10 +1035,10 @@ ol#artlist {
 }
 
 li {
-  transition: color 200ms ease-in-out; 
   /*
   padding: 0%;
   */
+  transition: color 200ms ease-in-out; 
 }
 ol, ul {
   /*
@@ -1057,11 +1052,11 @@ ol, ul {
   margin-left: 5vw;
 }
 ul {
+  margin-left: 5vw;
   /*
   list-style-type: none;
   list-style-type: "  + ";
   */
-  margin-left: 5vw;
 }
 ol {
   margin-left: 5vw;
@@ -1097,15 +1092,15 @@ li::before{
   text-align: start ;
 }
 .frase{
-  transition: font-size 5s ease-in-out, color 4s ease-in-out ;
-  align: center ;
-  text-align: center ;
-  font-style: italic ;
   /* 
   color: var(--frase);  
   font-size: 1.5em;
   font-size: 1em; 
   */
+  transition: font-size 5s ease-in-out, color 4s ease-in-out ;
+  align: center ;
+  text-align: center ;
+  font-style: italic ;
   color: var(--fonte) ;
   padding-left: auto ;
   padding-right: auto ;
@@ -1135,9 +1130,11 @@ img {
   margin-left: 5vw;
 }
 
-/*input[type="text"],
+/*
+input[type="text"],
 input[type="number"],
-input[type="email"],*/
+input[type="email"],
+*/
 input, textarea {
   /* 
   width: 1em; 
@@ -1221,15 +1218,6 @@ input[name="answer"] {
 
 /* CAROUSEL CARROSSEIS */
 [class^=carousel] {
-  --largura: 60vw;
-  --carouselheight: calc(var(--largura) * 2 / 3);
-  padding: 1vw;
-  border: 1px solid var(--corBordas);
-  width: fit-content;
-  border-radius: var(--raioBordas);
-  background: var(--fundo-carousel);
-  display: block;
-  margin-left: 5vw;
   /*
   height: 400px;
   background-size: fit-content;
@@ -1240,16 +1228,25 @@ input[name="answer"] {
   margin-left: auto ;
   margin-right: auto ;
   */
+  --largura: 60vw;
+  --carouselheight: calc(var(--largura) * 2 / 3);
+  padding: 1vw;
+  border: 1px solid var(--corBordas);
+  width: fit-content;
+  border-radius: var(--raioBordas);
+  background: var(--fundo-carousel);
+  display: block;
+  margin-left: 5vw;
 }
 .slide img{
+  /*
+  */
   margin: 0%;
   height: 100%;
   border-radius: 7px;
   max-width: calc(300px + 20vw); 
   position: relative;
   max-height: 300px; 
-  /*
-  */
 }
 div.slide a img {
 }
@@ -1260,7 +1257,7 @@ div.slide a img {
   text-align: start;
 }
 .button-container {
- /* 
+/* 
   align: center;
   margin: auto;
   margin-top: none;
@@ -1347,7 +1344,7 @@ button[id^="anterior"]:active{
   display: block ;
   align-content: center;
   justify-content: center;
- /* Problema de tamanho... 'auto' não funciona, 70 do viewheight ficou bom, deixei sem. */
+/* Problema de tamanho... 'auto' não funciona, 70 do viewheight ficou bom, deixei sem. */
 }
 .carousel.slide a{
 /*  
@@ -1377,16 +1374,16 @@ button[id^="anterior"]:active{
   text-align: start;
 }
 .legend p{
-  font-size: 90%;
-  font-style: italic;
-  max-width: 75%;
-  margin-left: 0vw;
-  color: var(--font); 
   /*
   margin: 0%;
   text-indent: 0%;
   padding-left: 5%;
   */
+  font-size: 90%;
+  font-style: italic;
+  max-width: 75%;
+  margin-left: 0vw;
+  color: var(--font); 
 }
 .carousel.slide a[href] img {
   max-height: 100%;
@@ -1478,23 +1475,23 @@ nav#TableOfContents li:last-child::before {
   box-shadow: var(--sombraCaixas);
 }
 .barra a[href]:visited, .barra a[href] {
-  color: var(--link-barra);
-  font-weight: normal;
   /* 
   */
+  color: var(--link-barra);
+  font-weight: normal;
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
-  color: var(--corNegrito);
   /* 
   */
+  color: var(--corNegrito);
 }
 
 .barra a[href]:visited:active,
 .barra a[href]:active {
-  font-weight: bold;
   /* 
   */
+  font-weight: bold;
 }
 @media only screen and (max-width: 600px){
   .barra {
@@ -1514,12 +1511,12 @@ nav#TableOfContents li:last-child::before {
 }
 
 div#counter {
+  /*
+  */
   text-align: start;
   margin-left: 5vw;
   width: fit-content;
   background: var(--gradiente-dark);
-  /*
-  */
 }
 .counter{
   /*
@@ -1586,11 +1583,11 @@ div#counter {
   }
   ul#artlist, 
   ol#artlist {
+    /*
+    */
     min-height: none;
     max-height: none;
     columns: 1 !important;
-    /*
-    */
   }
   #artlist li {
     width: 95;
@@ -1622,9 +1619,6 @@ div#counter {
   nav#TableOfContents {
   }
   [class^=carousel] {
-    --largura: 95vw;
-    margin-left: 5vw;
-    border-radius: 7px;
     /*
     display: flex;
     --carouselheight: calc(var(--largura) * 2 / 3);
@@ -1634,27 +1628,30 @@ div#counter {
     height: var(--carouselheight);
     overflow: hidden;
     */
+    --largura: 95vw;
+    margin-left: 5vw;
+    border-radius: 7px;
   }
   .button-container {
-   /* 
+  /* 
     justify-content: space-between;
     height: calc(var(--carouselheight) * 1 / 10 );
     display: flex;
   */
   }
   .carousel-conteudo {
-   /* 
+  /* 
     height: calc(var(--carouselheight) * 9 / 10 );
   */
   }
   button[id^="proximo"] {
   /* 
-  flex: 1;
-  padding: 0%;
-  margin: 0%;
-  max-height: 90%;
-  font-weight: bold;
-  font-size: 80%;
+    flex: 1;
+    padding: 0%;
+    margin: 0%;
+    max-height: 90%;
+    font-weight: bold;
+    font-size: 80%;
   */
   }
   button[id^="anterior"]{
