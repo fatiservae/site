@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const searched = document.getElementById('files');
-  const search = document.getElementById("search");
-
+//  const search = document.getElementById("search");
 
   // A variável searched deve ser incrementada com os 
   // dados que vão sofrer a busca.
@@ -14,21 +13,20 @@ document.addEventListener("DOMContentLoaded", () => {
   .then(data => {
     for (let key in data) {
       const listItem = document.createElement('li');
-      let nome = data[key].name.replace(/[-_]/g, ' ');
       let size = data[key].size !== undefined ? data[key].size : '--';
-      let extensao = data[key].extension !== undefined ? data[key].extension : '--';
-      let temas = data[key].subjects !== undefined ? data[key].subjects : '--';
+      let temas = data[key].subjects !== undefined ? 
+                  data[key].subjects
+                      .map(item => `${item}`)
+                      .join(', ') : '--';
+      let nome = data[key].name;
       listItem.innerHTML = 
-          "<span style=\"color: tomato\"><a href=\""+
-          data[key].path+
-          "\">"+
+          "<a href=\""+
           nome+
-          "</a></span><br>Tamanho: <span style=\"color: var(--frase);\">"+
+          "\">"+nome+
+          "</a><br><span style=\"color: var(--termo);\">Tamanho: </span>"+
           size+
-          "</span><br>Assuntos: <span style=\"color: var(--frase)\"></purple>"+
-          temas+
-          "</span><br>Extensão: <span style=\"color: var(--frase)\"></purple>"+
-          extensao
+          "<br><span style=\"color: var(--termo);\">Assuntos: </span>"+
+          temas
       searched.appendChild(listItem);
     }
   })

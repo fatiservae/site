@@ -11,6 +11,40 @@
 	
 	
 	<item>
+		<title>Surdez aguda: testes de Rinner e Weber</title>
+		<link>http://localhost:1313/medicina/surdez/</link>
+		<pubDate>Fri, 15 Mar 2024 15:46:55 -0300</pubDate>
+		
+		<guid>http://localhost:1313/medicina/surdez/</guid>
+		<description>&lt;h2 id=&#34;teste-de-rinner&#34;&gt;Teste de Rinner&lt;/h2&gt;
+&lt;p&gt;O diapasão é apresentado por contato no processo mastoide, de um dos lados. Após a exposição por um tempo &lt;em&gt;t&lt;/em&gt;, deve ser apresentado ao lado do ouvido para que o paciente relate percepção sonora por, no mínimo &lt;em&gt;2t&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;teste-de-weber&#34;&gt;Teste de Weber&lt;/h2&gt;
+&lt;p&gt;O diapasão deve ser posicionado em qualquer parte média-anterior do crânio, prefrencialmente no topo do vértice. Anota-se a perceção do paciente em ambos lados e espera se nível e tempo simétrico. O teste é dito &lt;strong&gt;anormal&lt;/strong&gt; se lateralizado.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Perda&lt;/th&gt;
+&lt;th&gt;Rinne&lt;/th&gt;
+&lt;th&gt;Weber&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Condutiva&lt;/td&gt;
+&lt;td&gt;Condução óssea superior que aérea&lt;/td&gt;
+&lt;td&gt;Lateralização da percepção par lado afetado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Neurosensorial&lt;/td&gt;
+&lt;td&gt;Condução aérea superior a óssea&lt;/td&gt;
+&lt;td&gt;Lateralização para o lado normal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Dissecação aguda de aorta: Score ADD-RS</title>
 		<link>http://localhost:1313/medicina/addrs/</link>
 		<pubDate>Thu, 14 Mar 2024 11:21:34 -0300</pubDate>
@@ -19,7 +53,7 @@
 		<description>&lt;h2 id=&#34;sempre-descarte-a-dissecação-de-aorta&#34;&gt;Sempre descarte a dissecação de aorta!&lt;/h2&gt;
 &lt;p&gt;A dissecação de aorta é um diagnóstico muito improvável, mesmo no contexto de dor torácica.&lt;/p&gt;
 &lt;p&gt;Porém, sua fatalidade e necessidade de alta desconfiança diagnóstica exige que sempre a descartemos como diferencial o mais cedo possível!&lt;/p&gt;
-&lt;p&gt;Para isso, a ferramenta mais atualizada é o chamado *&lt;em&gt;Score ADD-Risk Score&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Para isso, a ferramenta mais atualizada é o chamado &lt;strong&gt;Score ADD-Risk Score&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, tentar um segundo descarte por D-dímero, como foi sugerido posteriormente pelo estudo ADvISED[1]. Em toda lesão de leito vascular o valor de D-dímero se alterará e o estudo considerou o corte de 500ng/ml como valor superior de descarte.&lt;/p&gt;
 &lt;p&gt;De forma prática, utilize a calculadora abaixo.&lt;/p&gt;
 &lt;h2 id=&#34;calculadora-add-rs&#34;&gt;Calculadora ADD-RS&lt;/h2&gt;
@@ -101,25 +135,6 @@
 	</item>
 	
 	<item>
-		<title>Crescimento exponencial: quando o fim é próximo</title>
-		<link>http://localhost:1313/fim-exponencial/</link>
-		<pubDate>Wed, 13 Mar 2024 14:55:50 -0300</pubDate>
-		
-		<guid>http://localhost:1313/fim-exponencial/</guid>
-		<description>
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/petri-plate.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;Neste curto ensaio vamos analisar falácias de crescimento.&lt;/p&gt;
-&lt;p&gt;A proximidade do fim&lt;/p&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Estatística diagnóstica</title>
 		<link>http://localhost:1313/medicina/estatistica-diagnostica/</link>
 		<pubDate>Sat, 09 Mar 2024 17:43:11 -0300</pubDate>
@@ -132,11 +147,11 @@
 &lt;p&gt;A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.&lt;/p&gt;
 &lt;p&gt;Seu resultado é chamado de &lt;strong&gt;prevalência&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente, segundo estudos atualizados até 2023.&lt;/p&gt;
-&lt;h2 id=&#34;segundo-contexto-o-paciente-aleatório-faz-um-exame&#34;&gt;Segundo contexto: o paciente aleatório faz um exame&lt;/h2&gt;
-&lt;p&gt;A partir do momento que um paciente realiza um exame, seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.&lt;/p&gt;
+&lt;h2 id=&#34;segundo-contexto-o-paciente-aleatório-faz-um-exame-ou-tem-um-sintoma&#34;&gt;Segundo contexto: o paciente aleatório faz um exame ou tem um sintoma&lt;/h2&gt;
+&lt;p&gt;A partir do momento que um paciente realiza um teste², seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.&lt;/p&gt;
 &lt;p&gt;No caso do resultado positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:&lt;/p&gt;
 &lt;p&gt;$$
-P(A\mid B) = \frac{P(B \mid A)\ P(A)}{P(B)}
+p(A\mid B) = \frac{p(B \mid A)\ p(A)}{p(B)}
 $$&lt;/p&gt;
 &lt;p&gt;Leia-se:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
@@ -150,7 +165,7 @@ A probabilidade de A dado B é igual a probabilidade de B dado A vezes a probabi
 &lt;p&gt;No caso do exame, lemos:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo real vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
+A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo verdadeiro vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
  &lt;/span&gt;
 &lt;/div&gt;
 
@@ -158,11 +173,43 @@ A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade d
 &lt;p&gt;Finalmente:&lt;/p&gt;
 &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade do diagnóstico é igual a especificidade vezes a prevalência dividido pela sensibilidade.
+A probabilidade do diagnóstico pelo exame é igual a especificidade vezes a prevalência dividido pela sensibilidade.
  &lt;/span&gt;
 &lt;/div&gt;
 
 
+&lt;p&gt;Para tanto, $p(B)$ deve ser entendido como a soma de todas probabilidades de dar positivo, ou seja:&lt;/p&gt;
+&lt;p&gt;$$
+p(B)=p(B\mid A)p(A) + p(B\mid ¬A)p(¬A)
+$$&lt;/p&gt;
+&lt;p&gt;Onde:&lt;/p&gt;
+&lt;p&gt;$p(B\mid A)p(A)$ são todos os positivos verdadeiros expressos em probabilidade; e&lt;/p&gt;
+&lt;p&gt;$p(B\mid ¬A)p(¬A)$ são todos os falsos positivos, em probabilidade.&lt;/p&gt;
+&lt;h3 id=&#34;exemplo-concreto&#34;&gt;Exemplo concreto&lt;/h3&gt;
+&lt;p&gt;Atualmente em Brasília (2024), estamos vivendos um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.&lt;/p&gt;
+&lt;p&gt;$$
+prevalência = \frac{72600}{2.817.381} \approx 0.026
+$$&lt;/p&gt;
+&lt;p&gt;Suponhamos que um paciente se apresente apenas com dor retro-orbitária há 4 dias.&lt;/p&gt;
+&lt;p&gt;Vamos supor, também, que esse sintoma tem probabilidade geral de 1%, ou seja, somadas todas as outras formas de dor retro-orbitária em Brasília no momento, 1 a cada 100 pessoas terá o sintoma.&lt;/p&gt;
+&lt;p&gt;Este sintoma é extremamente comum na dengue, digamos que 85% das pessoas com dengue tenham dor retro-orbitária.&lt;/p&gt;
+&lt;p&gt;Assim sendo, qual a probabilidade desta pessoa ter dengue?&lt;/p&gt;
+&lt;p&gt;$$
+p(Dengue\mid dor) = \frac{p(dor\mid Dengue) p(Dengue)}{p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue)}
+$$&lt;/p&gt;
+&lt;p&gt;Resolvendo o denominador para facilitar:&lt;/p&gt;
+&lt;p&gt;$$
+p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.98*0.026 + 0.01*0.934
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\approx 0.035
+$$&lt;/p&gt;
+&lt;p&gt;Já que a probabilidade de se ter dor retro-orbitária sem dengue é de 0.01 e a &lt;em&gt;&amp;ldquo;prevalência de não-dengue&amp;rdquo;&lt;/em&gt; é de $1 - 0.026$, ou melhor, 0.934.&lt;/p&gt;
+&lt;p&gt;Então:&lt;/p&gt;
+&lt;p&gt;$$
+p(Dengue\mid dor) = \frac{0.85*0.026}{0.035} \approx 0.63
+$$&lt;/p&gt;
+&lt;p&gt;Ou seja, &lt;strong&gt;temos 63% de chance deste paciente ter dengue&lt;/strong&gt;. Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.&lt;/p&gt;
 &lt;h2 id=&#34;terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco&#34;&gt;Terceiro contexto: um estudo foi feito para determinar fatores de risco&lt;/h2&gt;
 &lt;p&gt;Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.&lt;/p&gt;
 &lt;p&gt;Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.&lt;/p&gt;
@@ -234,7 +281,10 @@ A probabilidade do diagnóstico é igual a especificidade vezes a prevalência d
             let verossimilhanca = sensibilidade / (1 - especificidade);
             let probPosT = 0;
 
-            probPosT = ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT))) * 100;
+            probPreT = probPreT/100;
+            console.log(probPreT);
+            probPosT = 100 * ((verossimilhanca * probPreT ) / 
+                (1 + (verossimilhanca - probPreT)));
             document.getElementById(&#34;probPosT&#34;).innerText = probPosT.toFixed(2)+&#34;%&#34;;
         }
     &lt;/script&gt;
@@ -246,12 +296,14 @@ A probabilidade do diagnóstico é igual a especificidade vezes a prevalência d
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, também é consenso que não é justo o seu paciente queixoso em consultório ser comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência ou, melhor ainda, estudos disponíveis.&lt;/li&gt;
+&lt;li&gt;Entenda-se por teste qualquer exame ou sintoma pelo qual eu possa atribuir um valorestatístico na interpretação de seu resultado.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;JAMA Networks. &lt;strong&gt;JAMA guide to statistics and methods.&lt;/strong&gt; Disponível em (2024): &lt;a href=&#34;https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods&#34;&gt;https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes&#34;&gt;https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;BRASIL. &lt;strong&gt;Tabaco e saúde pulmonar: dia mundial sem tabaco: manual 2019&lt;/strong&gt;. Instituto Nacional de Câncer José Alencar Gomes da Silva. – Rio de Janeiro: INCA, 2019.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude&#34;&gt;https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -448,8 +500,16 @@ table{
   &lt;/div&gt;
 
 &lt;p&gt;Suponha que uma raça alienígena entre em contato com os humanos e decida estudar o nosso comportamento em jogos. Mais especificamente, eles têm interesse em &lt;strong&gt;xadrez&lt;/strong&gt;. Há, contudo, um problema: &lt;em&gt;os aliens são incapazes de enxergar as peças no tabuleiro, tudo que conseguem ver é um emaranhado de borrões entre peças brancas e pretas&lt;/em&gt;. Para eles, nenhum mecanismo do jogo é visível.&lt;/p&gt;
-&lt;p&gt;Diante desta situação, decidem estudar o jogo de forma comportamental, observado os jogadores de xadrez. Após milhares de partidas assistidas, os aliens concluem que, &lt;em&gt;no longo prazo&lt;/em&gt;, o xadrez é na verdade um jogo de 50/50 já que em metade das partidas o jogador dito &amp;ldquo;brancas&amp;rdquo; venceu e, na outra metade, os jogadores de &amp;ldquo;pretas&amp;rdquo; ganharam.&lt;/p&gt;
-&lt;p&gt;Assim, o cientista mais renomado dentre os alienígenas conclui que, na verdade, o xadrez trata-se de um simples jogo de cara-coroa.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/chess-board.webp&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Diante desta situação, decidem estudar o jogo de forma comportamental, observando os jogadores de xadrez. Após milhares de partidas assistidas, os aliens concluem que, &lt;em&gt;no longo prazo&lt;/em&gt;, o xadrez é na verdade um jogo de 50/50 já que em metade das partidas o jogador dito &amp;ldquo;peças brancas&amp;rdquo; venceu e, na outra metade, perderam.&lt;/p&gt;
+&lt;p&gt;Assim, um renomado pensador da raça alienígena chamado Guilherme de Ockham conclui que, na verdade, &lt;strong&gt;o xadrez trata-se de um simples jogo de cara-coroa&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;novacula-occami&#34;&gt;Novacula Occami&lt;/h2&gt;
 
 
@@ -460,21 +520,24 @@ table{
   &lt;/div&gt;
 
 &lt;p&gt;Guilherme de Ockham foi um frade e filósofo inglês que formulou o princípio da econômia da natureza, como se segue:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Numquam ponenda est pluralitas sine necessitate&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Numquam ponenda est pluralitas sine necessitate&lt;/em&gt;.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Para ele — e também para Kant, Newton e outros — todo fenômeno tende a acontecer por uma economia natural de recursos, sendo presumível que o mecanismo por trás de quaisquer estruturas desconhecidas deve ser ou evoluir para o mais simples possível.&lt;/p&gt;
 &lt;p&gt;Com o tempo, a ciência positivista moderna, impulsionada pela revolução francesa e pelas sociedades secretas europeias insistiram no seu uso literário, tendo cuminado no termo &lt;em&gt;navalha de Ockham&lt;/em&gt; como alusão à regra prática de eliminarmos todas teorias mais complexas como menos prováveis.&lt;/p&gt;
 &lt;h2 id=&#34;o-mundo-real&#34;&gt;O mundo real&lt;/h2&gt;
-&lt;p&gt;Porém, como no nosso problema alegórico dos aliens estudando xadrez, o mundo real quase sempre funciona pelo mecanismo mais complexo e elaborado.&lt;/p&gt;
+&lt;p&gt;Porém, como no nosso problema alegórico dos aliens estudando o xadrez, o mundo real quase sempre funciona pelo mecanismo mais complexo e elaborado.&lt;/p&gt;
 &lt;p&gt;Pensava-se, há milênios, que os elementos naturais eram a &lt;em&gt;terra, o fogo, a água e o ar&lt;/em&gt;. Uma combinação destes itens acontecia por interações simples e, com alguma ginástica argumentativa, filósofos antigos importantes construiram teorias inteiras para explicar toda matéria do universo com base nos quatro elementos.&lt;/p&gt;
-&lt;p&gt;Ainda na atomística, &lt;em&gt;Democritus&lt;/em&gt; acreditava e postulou que toda matéria se reduziria a uma esfera minúscula sólida mínima, indestrutível, mantenedora das características da substância que representava. Era o &lt;strong&gt;átomo&lt;/strong&gt;. Hoje, sabemos se tratar de uma redução absurda da realidade, já que tomamos conhecimento de partículas subatômicas ainda mais minúsculas, como o elétron ou, posteriormente, os &lt;em&gt;quarks&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;No campo da psiquiatria, e.g. Freud, postulou-se que, na verdade, todo o comportamento humano era fruto da interação consciente e inconsciente de partes da personalidade, sendo elas o &lt;em&gt;eu&lt;/em&gt; o &lt;em&gt;id&lt;/em&gt; e o &lt;em&gt;ego&lt;/em&gt;. Surgia, assim, uma das mais prósperas pseudociências já elaboradas, tendo lançado bases profundas até os dias atuais, mesmo quando sabemos ser uma grosseira redução da chamada psicologia comportamental moderna que considera sutilezas do comportamento humano muito além da simples teoria &lt;em&gt;freudiana&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Outros exemplos podem ser trazidos aos montes. Poupemo-nos. O mundo é, quase sempre, muito mais complexo que nossas ingênuas teorias iniciais.&lt;/p&gt;
+&lt;p&gt;Ainda na atomística, &lt;em&gt;Democritus&lt;/em&gt; acreditava e postulou que toda matéria se reduziria a uma esfera minúscula sólida mínima, indestrutível, mantenedora das características da substância que representava. Era o &lt;strong&gt;átomo&lt;/strong&gt;. Hoje, sabemos se tratar de uma redução grave da realidade, já que tomamos conhecimento de partículas subatômicas ainda mais minúsculas, como os prótons e elétron ou, ainda mais recentemente, os &lt;em&gt;quarks&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;No campo da psiquiatria, e.g. Freud, postulou-se que, na verdade, todo o comportamento humano era fruto da interação consciente e inconsciente de partes da personalidade, sendo elas o &lt;em&gt;eu&lt;/em&gt; o &lt;em&gt;id&lt;/em&gt; e o &lt;em&gt;ego&lt;/em&gt;. Surgia, assim, a psicanálise, uma das mais prósperas pseudociências já elaboradas, tendo lançado bases profundas até os dias atuais, mesmo quando sabemos ser uma grosseira redução da chamada psicologia comportamental moderna que considera sutilezas do comportamento humano muito além da simples teoria &lt;em&gt;freudiana&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Outros exemplos podem ser trazidos aos montes. Poupemo-nos.&lt;/p&gt;
+&lt;p&gt;A verdade é que o mundo é, quase sempre, muito mais complexo que nossas ingênuas teorias iniciais.&lt;/p&gt;
 &lt;h2 id=&#34;o-verdadeiro-xadrez&#34;&gt;O verdadeiro xadrez&lt;/h2&gt;
-&lt;p&gt;Suponhamos que, em nosso exemplo inicial, exista um outro cientista alienígena, conhecido por ser louco e marginalizado, excluído da academia principal. Este visionário propõe que, na realidade, o jogo de xadrez é extremamente complexo e tem peças de diversos tipos e também que as regras são convolucionadas e os jogadores desenvolvem habilidades únicas, bem como estratégias complicadas e arriscadas.&lt;/p&gt;
+&lt;p&gt;Suponhamos ainda que, em nosso exemplo inicial, exista um outro cientista alienígena, conhecido por ser louco e marginalizado, excluído da academia principal. Este visionário propõe que, na realidade, o jogo de xadrez é extremamente complexo e tem peças de diversos tipos e também que as regras são inúmeras e os jogadores desenvolvem habilidades únicas, bem como estratégias complicadas e arriscadas.&lt;/p&gt;
+&lt;p&gt;Este louco chega ao ponto de insinuar que algumas peças teriam nomes, como &lt;em&gt;cavalos, bispos, reis e rainhas&lt;/em&gt; etc.&lt;/p&gt;
 &lt;p&gt;Sua teoria será, obviamente, tratada como uma &lt;em&gt;piada&lt;/em&gt; pela academia que louva Ockham.&lt;/p&gt;
 &lt;h2 id=&#34;justiça-seja-feita&#34;&gt;Justiça seja feita&lt;/h2&gt;
-&lt;p&gt;Se Ockham estivesse correto em seu princípio, a explicação mais econômica para todas questões mundanas seria a teísta: &lt;strong&gt;Deus criou todas as coisas como são e pronto&lt;/strong&gt;. Porém, sejamos justos aqui: Ockham propôs, na verdade, um princípio de econômia energética natural, mais bem formulado e rigorosamente curado pela matemática através dos trabalhos de Lagrange. A deturpação de sua filosofia se deu pela academia positivista dos séculos XVIII e XIX.&lt;/p&gt;
-&lt;p&gt;Portanto, cuidemos. Nem toda teoria elegante e simplista representa a realidade.&lt;/p&gt;
+&lt;p&gt;Se Ockham estivesse correto em seu princípio, a explicação mais econômica para todas questões mundanas seria a teísta: &lt;strong&gt;Deus criou todas as coisas como são e pronto&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Porém, sejamos justos aqui: Ockham propôs, na verdade, um princípio de econômia energética natural, mais bem formulado e rigorosamente curado pela matemática através dos trabalhos de Lagrange. A deturpação de sua filosofia se deu pela academia positivista dos séculos XVIII e XIX que tornaram toda a filosofia natural em uma atividade de reducionismo.&lt;/p&gt;
+&lt;p&gt;Portanto, cuidemos. Nem toda teoria elegante e simplista representa a realidade. Aliás, quase nunca o faz.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -3666,6 +3729,25 @@ function updateResult() {
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Amsterdam - AMS;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Zen Salvador;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Balada SAN.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Sites úteis</title>
+		<link>http://localhost:1313/sites-uteis/</link>
+		<pubDate>Wed, 31 Dec 1969 21:33:44 -0300</pubDate>
+		
+		<guid>http://localhost:1313/sites-uteis/</guid>
+		<description>&lt;br&gt;
+&lt;br&gt;
+&lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;
+&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34;procure aqui&#34;&gt;
+&lt;svg class=&#34;lupa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; stroke-width=&#34;1.09&#34; enable-background=&#34;new 0 0 24 24&#34; height=&#34;14px&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;4px&#34; focusable=&#34;false&#34;&gt;&lt;path d=&#34;m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/input&gt;
+&lt;/div&gt;
+&lt;script src=&#34;../sites-uteis.js&#34;&gt;&lt;/script&gt;
+&lt;ul id=&#34;search-output&#34;&gt;
 &lt;/ul&gt;
 </description>
 	</item>

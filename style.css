@@ -245,7 +245,7 @@ Regras de estilo:
   --fundo: #FFECB3; 
   --strong-color: #101010;
   */
-  --temaFonte: "Comics Sans MS", cursive;
+  --temaFonte: 'comic sans ms' , sans-serif;
   --corProgressBar: var(--vermelhoDailyBeast);
   --fundoBarra: var(--vermelhoDailyBeast);
   --gradfundo: linear-gradient(to top, #e2725b , tan);
@@ -722,11 +722,19 @@ ul#search-output {
   display: block;
 }
 
+ul#files {
+  margin-left: 5vw;
+  padding: 0em;
+}
 #files li{
+/*
   columns: 2;
   text-align: center;
-  display: block;
   padding: 0.5em;
+  padding-left: 0;
+*/
+  width: fit-content;
+  display: block;
 }
 #files li:hover{
   background-size: cover;
