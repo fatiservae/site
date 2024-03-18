@@ -5,10 +5,31 @@
 	<description>Recent content in projetos on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sun, 04 Feb 2024 07:49:46 -0300</lastBuildDate>
+	<lastBuildDate>Sun, 17 Mar 2024 21:16:47 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/projetos/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Online vim</title>
+		<link>https://www.jeffersontorres.com.br/vim/</link>
+		<pubDate>Sun, 17 Mar 2024 21:16:47 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/vim/</guid>
+		<description>&lt;!DOCYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&#39;vim&#39;&gt;&lt;/div&gt;
+  &lt;script src=&#39;../js-vim-embed/vim.js&#39;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    var vim = new Vim({el: document.getElementById(&#39;vim&#39;)});
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Surdez aguda: testes de Rinner e Weber</title>

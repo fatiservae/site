@@ -11,6 +11,27 @@
 	
 	
 	<item>
+		<title>Online vim</title>
+		<link>https://www.jeffersontorres.com.br/vim/</link>
+		<pubDate>Sun, 17 Mar 2024 21:16:47 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/vim/</guid>
+		<description>&lt;!DOCYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&#39;vim&#39;&gt;&lt;/div&gt;
+  &lt;script src=&#39;../js-vim-embed/vim.js&#39;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    var vim = new Vim({el: document.getElementById(&#39;vim&#39;)});
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Surdez aguda: testes de Rinner e Weber</title>
 		<link>https://www.jeffersontorres.com.br/medicina/surdez/</link>
 		<pubDate>Fri, 15 Mar 2024 15:46:55 -0300</pubDate>
