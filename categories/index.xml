@@ -10,23 +10,36 @@
 	
 	
 	<item>
-		<title>Online vim</title>
+		<title>Webvim: editor de texto do hacker viajante</title>
 		<link>https://www.jeffersontorres.com.br/vim/</link>
 		<pubDate>Sun, 17 Mar 2024 21:16:47 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/vim/</guid>
-		<description>&lt;!DOCYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;div id=&#39;vim&#39;&gt;&lt;/div&gt;
-  &lt;script src=&#39;../js-vim-embed/vim.js&#39;&gt;&lt;/script&gt;
-  &lt;script&gt;
-    var vim = new Vim({el: document.getElementById(&#39;vim&#39;)});
-  &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+		<description>
+
+&lt;style&gt;
+	#vim {
+		position:relative;
+		margin; 0;
+		margin-left:5vw;
+		width: 90%;
+		height: 90vh;
+		padding:10px;
+	}
+&lt;/style&gt;
+&lt;div id=&#39;vim&#39;&gt;
+Este é um editor Vim implementado por @itsjoesullivan
+
+https://github.com/itsjoesullivan
+
+&lt;/div&gt;
+&lt;script src=&#39;../js-vim-embed/vim.js&#39;&gt;&lt;/script&gt;
+&lt;script&gt;
+	vim.edit({
+		el: document.getElementById(&#39;vim&#39;)
+	});
+&lt;/script&gt;
+
 </description>
 	</item>
 	
@@ -155,7 +168,7 @@
 	</item>
 	
 	<item>
-		<title>Estatística diagnóstica</title>
+		<title>Estatística bayesiana para o diagnóstico médico</title>
 		<link>https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/</link>
 		<pubDate>Sat, 09 Mar 2024 17:43:11 -0300</pubDate>
 		
