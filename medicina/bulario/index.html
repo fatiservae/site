@@ -177,19 +177,21 @@ window.addEventListener('scroll', function() {
     min-height: 100vw;
   }
   #resultado div{
+    /*
+    solid 2px var(--corBordas);
+    background: var(--fundo-card);
+    padding: 1px;
+    padding-right: 2em;
+    border-radius: var(--raioBordas);
+    box-shadow: var(--sombraCaixas);
+    */
     font-weight: normal;
+    width: fit-content;
     display: none;
     margin-left: 5vw;
     margin-bottom: 0.5em;
-    border: solid 2px var(--corBordas);
-    padding: 1px;
-    padding-right: 2em;
-    border-radius: 14px;
-    /*
-    background: var(--fundo-card);
-    box-shadow: 10px 10px 10px var(--sombra);
-    */
-    width: fit-content;
+    border: none;
+    border-bottom: 2px dashed var(--fonte);
   }
   div#divAtb p{
     margin: 2vw;

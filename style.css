@@ -187,6 +187,7 @@ Regras de estilo:
   --fundo: #FFECB3; 
   --strong-color: #101010;
   */
+  --bordasCalculadoras: 1px solid var(--fonte);
   --links: darkred;
   --temaFonte: "Georgia", serif;
   --displayFigurasFundo: none;
@@ -735,11 +736,13 @@ ul#files {
 */
   width: fit-content;
   display: block;
+  padding: 1rem;
 }
 #files li:hover{
   background-size: cover;
   background: var(--fundo-input);
-  border-radius: 7px;
+  border: var(--bordasCalculadoras);
+  border-radius: var(--raioBordas);
 }
 a .matched-recipe{
   font-size: 0.5em;

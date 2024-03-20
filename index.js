@@ -1,4 +1,4 @@
-let typed = "Escrevo aqui o que penso.\n Às vezes.";
+let typed = "Escrevo aqui o que penso.\n Às vezes...";
 let typedout = "";
 let delay = 100;
 

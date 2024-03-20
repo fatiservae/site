@@ -603,7 +603,7 @@ table{
 &lt;p&gt;Ao tentar manipulá-la, senti que causa irritação na pele. Formou casulo, mas nunca terminou a metamorfose, morreu por algum motivo.&lt;/p&gt;
 &lt;p&gt;Esqueci de fotografar o casulo.&lt;/p&gt;
 &lt;p&gt;Nunca consegui encontrar foto de uma similar com alguma descrição. Se você conhece exatamente o &lt;em&gt;subgênero&lt;/em&gt; desta lagarta, me informe.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://t.me/stalinCCCP&#34;&gt;Telegram&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/fatiservae&#34;&gt;Telegram&lt;/a&gt;&lt;/p&gt;
 
  
 &lt;div class=&#34;carousel&#34;&gt;
@@ -1804,19 +1804,21 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     min-height: 100vw;
   }
   #resultado div{
+    /*
+    solid 2px var(--corBordas);
+    background: var(--fundo-card);
+    padding: 1px;
+    padding-right: 2em;
+    border-radius: var(--raioBordas);
+    box-shadow: var(--sombraCaixas);
+    */
     font-weight: normal;
+    width: fit-content;
     display: none;
     margin-left: 5vw;
     margin-bottom: 0.5em;
-    border: solid 2px var(--corBordas);
-    padding: 1px;
-    padding-right: 2em;
-    border-radius: 14px;
-    /*
-    background: var(--fundo-card);
-    box-shadow: 10px 10px 10px var(--sombra);
-    */
-    width: fit-content;
+    border: none;
+    border-bottom: 2px dashed var(--fonte);
   }
   div#divAtb p{
     margin: 2vw;
