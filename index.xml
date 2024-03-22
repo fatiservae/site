@@ -5,10 +5,185 @@
 	<description>Recent content on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sun, 17 Mar 2024 21:16:47 -0300</lastBuildDate>
+	<lastBuildDate>Thu, 21 Mar 2024 21:47:16 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Neoplasias: visão geral de nomeclaturas</title>
+		<link>https://www.jeffersontorres.com.br/medicina/neoplasias/</link>
+		<pubDate>Thu, 21 Mar 2024 21:47:16 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/neoplasias/</guid>
+		<description>&lt;table&gt;
+    &lt;caption&gt;NEOPLASIAS&lt;/caption&gt;
+    &lt;thead&gt;
+        &lt;th&gt;Linhagem histogenética&lt;/th&gt;
+        &lt;th&gt;Benigna&lt;/th&gt;
+        &lt;th&gt;Maligna&lt;/th&gt;
+    &lt;thead&gt;
+        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Sanguíneos&lt;/th&gt;
+    &lt;/thead&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Hematopoiéticas&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Leucemias&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Tecido linfoide&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Linfomas malignos&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;thead&gt;
+        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Endoteliais&lt;/th&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Sanguíneos&lt;/td&gt;
+        &lt;td&gt;Hemangioma&lt;/td&gt;
+        &lt;td&gt;Angiossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Linfáticos&lt;/td&gt;
+        &lt;td&gt;Linfangioma&lt;/td&gt;
+        &lt;td&gt;Linfangiossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;thead&gt;
+        &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Musculares&lt;/th&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Liso&lt;/td&gt;
+        &lt;td&gt;Leiomioma&lt;/td&gt;
+        &lt;td&gt;Meiomiossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Estriado&lt;/td&gt;
+        &lt;td&gt;Rabdomioma&lt;/td&gt;
+        &lt;td&gt;Rabdomiossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Mesênquima&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+        &lt;td&gt;Sarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Fibroso&lt;/td&gt;
+        &lt;td&gt;Fibroma&lt;/td&gt;
+        &lt;td&gt;Fibrossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Gordura&lt;/td&gt;
+        &lt;td&gt;Lipoma&lt;/td&gt;
+        &lt;td&gt;Lipossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Cartilagem&lt;/td&gt;
+        &lt;td&gt;Condroma&lt;/td&gt;
+        &lt;td&gt;Condrossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Osso&lt;/td&gt;
+        &lt;td&gt;Osteoma&lt;/td&gt;
+        &lt;td&gt;Osteossarcoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Epitélio&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+        &lt;td&gt;Carcinoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Escamoso estratificado&lt;/td&gt;
+        &lt;td&gt;Papiloma&lt;/td&gt;
+        &lt;td&gt;Carcinoma de células escamosas - CEC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Basal da pele e anexos&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+        &lt;td&gt;Carcinoma basocelular - CBC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td rowspan=3&gt;Glandulas - ácinos e ductos&lt;/td&gt;
+        &lt;td&gt;Adenoma&lt;/td&gt;
+        &lt;td&gt;Adenocarcinoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Adenoma papilar ou papiloma&lt;/td&gt;
+        &lt;td&gt;Carcinoma papilífero&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Cistoadenoma&lt;/td&gt;
+        &lt;td&gt;Cistoadenocarcinoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Respiratório&lt;/td&gt;
+        &lt;td&gt;Adenoma brônquico&lt;/td&gt;
+        &lt;td&gt;Carcinoma brônquico&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Renal&lt;/td&gt;
+        &lt;td&gt;Adenoma tubular renal&lt;/td&gt;
+        &lt;td&gt;Carcinoma de células renais&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Fígado - hepatócitos, epitélio biliar (colangiócitos)
+        &lt;/td&gt;
+        &lt;td&gt;Adenoma hepatocelular&lt;br&gt;Adenoma biliar/colangioma&lt;/td&gt;
+        &lt;td&gt;Carcinoma hepatocelular&lt;br&gt;hepatocarcinoma&lt;br&gt;colangiocarcinoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vias urinárias&lt;/td&gt;
+        &lt;td&gt;Papiloma de células transicionais/uroteliais&lt;/td&gt;
+        &lt;td&gt;Carcinoma de céulas transicionais&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Placenta&lt;/td&gt;
+        &lt;td&gt;Mola hidatiforme&lt;/td&gt;
+        &lt;td&gt;Coriocarcinoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Células germinativas de testículo&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+        &lt;td&gt;Seminona&lt;br&gt;carcinoma embrionário&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Revestimento do encéfalo&lt;/td&gt;
+        &lt;td&gt;Meningioma&lt;/td&gt;
+        &lt;td&gt;Meningioma maligno&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Melanócitos&lt;/td&gt;
+        &lt;td&gt;Nevus&lt;/td&gt;
+        &lt;td&gt;Melanoma maligno&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;thead&gt;
+       &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Mistos&lt;/th&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Glândulas salivares&lt;/td&gt;
+        &lt;td&gt;Adenoma pleomórfico&lt;/td&gt;
+        &lt;td&gt;Tumor misto maligno&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Células renais primordiais&lt;/td&gt;
+        &lt;td&gt;&lt;/td&gt;
+        &lt;td&gt;Tumor de Wilms&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;thead&gt;
+       &lt;th style=&#34;text-align: left&#34; colspan=3&gt;Células germinativas&lt;/th&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Células totipotentes gonadais e restos embrionários&lt;/td&gt;
+        &lt;td&gt;Teratoma maduro e cisto dermoide&lt;/td&gt;
+        &lt;td&gt;Teratoma imaturo e teratocarcinoma&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;HOFF, Paulo Marcelo Gehm et. al. &lt;strong&gt;Tratado de Oncologia&lt;/strong&gt;. Editora Atheneu, 2013. São Paulo - Brasil. ISBN 978-85-388-0312-6&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Webvim: editor de texto do hacker viajante</title>
@@ -21,13 +196,21 @@
 &lt;style&gt;
 	#vim {
 		position:relative;
-		margin; 0;
-		margin-left:5vw;
+		margin; 0vw;
+		margin-left:0vw;
 		width: 90%;
 		height: 90vh;
-		padding:10px;
+		padding:0px;
+	}
+	input {
+		margin-left: 0vw;
 	}
 &lt;/style&gt;
+&lt;!--
+&lt;button onclick=&#34;copiarTexto()&#34;&gt;Copiar&lt;/button&gt;
+&lt;button onclick=&#34;colarTexto()&#34;&gt;Colar&lt;/button&gt;
+&lt;script src=&#39;../controlesvim.js&#39;&gt;&lt;/script&gt;
+--&gt;
 &lt;div id=&#39;vim&#39;&gt;
 Este é um editor Vim implementado por @itsjoesullivan
 

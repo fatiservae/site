@@ -1,0 +1,36 @@
+<html>
+<style>
+	#vim {
+		position:relative;
+		margin; 0vw;
+		margin-left:0vw;
+		width: 90vw;
+		height: auto;
+		padding:0px;
+	}
+	input {
+		margin-left: 0vw;
+	}
+</style>
+<!--
+	<div id='controles'>
+	<input type='text' id='texto'></input>
+	<button id='colar' onclick='colar()'>Inserir texto</button>
+	<br>
+	<button id='copiar'>Colar!</button>
+</div>
+-->
+<script src='../controlesvim.js'></script>
+<div id='vim'>
+Este é um editor Vim implementado por @itsjoesullivan
+
+https://github.com/itsjoesullivan
+
+</div>
+<script src='../vim.js'></script>
+<script>
+	vim.edit({
+		el: document.getElementById('vim')
+	});
+</script>
+</html>
