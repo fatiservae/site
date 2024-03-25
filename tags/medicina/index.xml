@@ -5,10 +5,168 @@
 	<description>Recent content in Medicina on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 21 Mar 2024 21:47:16 -0300</lastBuildDate>
+	<lastBuildDate>Sun, 24 Mar 2024 19:54:15 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/medicina/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Monitorando nível de sedação: RASS/SAS</title>
+		<link>https://www.jeffersontorres.com.br/medicina/sedacao-rass/</link>
+		<pubDate>Sun, 24 Mar 2024 19:54:15 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/sedacao-rass/</guid>
+		<description>&lt;h2 id=&#34;richmond-agitation-sedation-scale---rass&#34;&gt;Richmond agitation sedation scale - RASS&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Score&lt;/th&gt;
+&lt;th&gt;Termos&lt;/th&gt;
+&lt;th&gt;Descrição&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;+4&lt;/td&gt;
+&lt;td&gt;Combativo&lt;/td&gt;
+&lt;td&gt;Violento, perigo à equipe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;+3&lt;/td&gt;
+&lt;td&gt;Muito agitado&lt;/td&gt;
+&lt;td&gt;Retira dispositivos e agride&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;+2&lt;/td&gt;
+&lt;td&gt;Agitado&lt;/td&gt;
+&lt;td&gt;Se move muito, luta com ventilador&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;+1&lt;/td&gt;
+&lt;td&gt;Impaciente&lt;/td&gt;
+&lt;td&gt;Ansioso, movimentos não-vigorosos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;Alerta e calmo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;td&gt;Sonolento&lt;/td&gt;
+&lt;td&gt;Responde contato verbal com contato visual por mais de 10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-2&lt;/td&gt;
+&lt;td&gt;Sedação leve&lt;/td&gt;
+&lt;td&gt;Responde contato verbal com contato visual por menos de 10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-3&lt;/td&gt;
+&lt;td&gt;Sedação moderada&lt;/td&gt;
+&lt;td&gt;Abre os olhos ao contato verbal sem contato visual sustentado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-4&lt;/td&gt;
+&lt;td&gt;Sedação profunda&lt;/td&gt;
+&lt;td&gt;Irresponsivo a comandos verbais, apenas estímulo físico&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-5&lt;/td&gt;
+&lt;td&gt;Não desperta&lt;/td&gt;
+&lt;td&gt;Nenhuma resposta a nenhum estímulo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;sedation-agitation-scale---sas&#34;&gt;Sedation agitation scale - SAS&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Pontuação&lt;/th&gt;
+&lt;th&gt;Termo&lt;/th&gt;
+&lt;th&gt;Descrição&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Agitação perigosa&lt;/td&gt;
+&lt;td&gt;Arrancando o tubo endotraqueal ou cateteres, tentando remover cateteres, subindo na grade da cama, batendo na equipe, se debatendo de lado a lado.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Muito agitado&lt;/td&gt;
+&lt;td&gt;Não se acalma, apesar de frequentes lembretes verbais dos limites; requer restrições físicas, mordendo o tubo endotraqueal.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Agitado&lt;/td&gt;
+&lt;td&gt;Ansioso ou levemente agitado, tentando se sentar, se acalma com instruções verbais.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Calmo e cooperativo&lt;/td&gt;
+&lt;td&gt;Calmo, acorda facilmente, segue comandos.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Sedado&lt;/td&gt;
+&lt;td&gt;Dificil de despertar, acorda com estímulos verbais ou agitação suave, mas volta a dormir, segue comandos simples.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Muito sedado&lt;/td&gt;
+&lt;td&gt;Desperta com estímulos físicos, mas não se comunica ou segue comandos, pode se mover espontaneamente.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Inconsciente&lt;/td&gt;
+&lt;td&gt;Resposta mínima ou nenhuma a estímulos nocivos, não se comunica ou segue comandos.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;MOTES, Arunee. &lt;strong&gt;Monitoring sedation during mechanical ventilation&lt;/strong&gt;. The Southwest Respiratory and Critical Care Chronicles, v. 10, n. 45, p. 19-27, 2022.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Eletrocardiograma: principais achados</title>
+		<link>https://www.jeffersontorres.com.br/medicina/ecg/</link>
+		<pubDate>Fri, 22 Mar 2024 16:15:54 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/ecg/</guid>
+		<description>&lt;p style=&#34;color: black; background-color: red; width: fit-content&#34;&gt; ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
+
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Este é um compêndio e exemplos de eletrocardiogramas de condições incomuns.&lt;/p&gt;
+&lt;h2 id=&#34;padrão-wellens&#34;&gt;Padrão Wellens&lt;/h2&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/ecg/wellens.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt; &lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;h3 id=&#34;critérios&#34;&gt;Critérios&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ondas T bifásicas ou simétricas e invertidas em V2 e V3. Pode ou não haver em V1, V4, V5 e V6.&lt;/li&gt;
+&lt;li&gt;Ausência de ondas Q patológicas.&lt;/li&gt;
+&lt;li&gt;Ondas R no plano horizontal (V1-V6) com progressão normal.&lt;/li&gt;
+&lt;li&gt;Supradesnivelamento do segmento ST pequeno ou ausente.&lt;/li&gt;
+&lt;li&gt;Sem indicadores de necrose miocárdica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;significado&#34;&gt;Significado&lt;/h3&gt;
+&lt;p&gt;Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;p&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Neoplasias: visão geral de nomeclaturas</title>
@@ -2613,6 +2771,7 @@ function calcular() {
   if ( document.getElementById(&#34;idade&#34;).value &lt; 3){
     pediatrico = true
   };
+  let lesao_pescoco = false;
 
   if (pediatrico) { 
     meiaperna = 7;
@@ -2627,7 +2786,7 @@ function calcular() {
     else if ( elemento === &#39;nadega&#39;) {scq = scq + nadega}
     else if ( elemento === &#39;meiaperna&#39;) {scq = scq + meiaperna}
     else if ( elemento === &#39;meiobraco&#39;) {scq = scq + meiobraco}
-    else if ( elemento === &#39;pescoco&#39;) {scq = scq + pescoco}
+    else if ( elemento === &#39;pescoco&#39;) {scq = scq + pescoco; lesao_pescoco = true}
     else if ( elemento === &#39;torax&#39;) {scq = scq + torax}
     else if ( elemento === &#39;dorso&#39;) {scq = scq + dorso}
     else if ( elemento === &#39;genitalia&#39;) {scq = scq + dorso}
@@ -2655,6 +2814,11 @@ function calcular() {
     dose = scq * peso * 2;
     debito = 0.5 * peso ;
   };
+
+  if (lesao_pescoco === true) {
+    document.getElementById(&#39;resultado&#39;).innerHTML += 
+    &#34;&lt;br&gt;&lt;strong&gt;Atente-se para lesões de pescoço pela fatalidade de síndromes compressivas no sítio!&lt;/strong&gt;&#34;;
+  }
 
   if (grau === &#34;pequeno&#34;) {
     document.getElementById(&#39;resultado&#39;).innerHTML += 
@@ -3403,7 +3567,7 @@ function updateResult() {
 &lt;li&gt;Os rins regulam a excreção de bicarbonato.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Este sistema é o principal sistema tampão sérico. Existem outros, como o sistema proteico (bases), principalmente via albumina.&lt;/p&gt;
-&lt;h2 id=&#34;regulação&#34;&gt;Regulação&lt;/h2&gt;
+&lt;h3 id=&#34;regulação&#34;&gt;Regulação&lt;/h3&gt;
 &lt;p&gt;Sempre que o pH se altera, o sistema tampão tentará manter fixa a seguinte relação matemática:&lt;/p&gt;
 &lt;p&gt;$$
 pH \propto \frac{pCO2}{[HCO3⁻]}
@@ -3416,40 +3580,95 @@ pH = 6,10 + \frac{log[HCO3⁻]}{0,03} * pCO2
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Portanto, quedas na pC02 são compensadas também com queda da [HCO3⁻].&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;O raciocínio inverso também é válido.&lt;/p&gt;
-&lt;div style=&#34;text-indent: 0%&#34; class=&#34;sticker&#34;&gt;
-Os processos que causam queda da pCO2 ou aumento da [HCO3⁻] são chamados de &lt;b&gt;alcalose&lt;/b&gt;.
-&lt;br&gt;
-Os processos que causam aumento da pCO2 ou queda da [HCO3⁻] são chamados de &lt;b&gt;acidose&lt;/b&gt;.
-&lt;/div&gt;
-&lt;br&gt;
-&lt;div class=&#34;sticker&#34;&gt;
-&lt;b&gt;Curiosidade:&lt;/b&gt;
-&lt;p&gt;Observe que na fórmula de Henderson-Hasselbach existe um valor constante de 6,10 acrescido de um valor dado pela fração do logarítmo de bicarbonato multiplicado pela pCO2 dividido por 0,03. Esta fração é justamente o sistema tampão do bicarbonato. Regressões numéricas mais sofisticadas adicionam outros tampões a este cálculo. Teríamos:
-$$
+&lt;p&gt;Os processos que causam queda da pCO2 ou aumento da [HCO3⁻] são chamados de &lt;mark&gt;alcalose&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Os processos que causam aumento da pCO2 ou queda da [HCO3⁻] são chamados de &lt;mark&gt;acidose&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Observe que na fórmula de Henderson-Hasselbach existe um valor constante de 6,10 acrescido de um valor dado pela fração do logarítmo de bicarbonato multiplicado pela pCO2 dividido por 0,03. Esta fração é justamente o sistema tampão do bicarbonato. Regressões numéricas mais sofisticadas adicionam outros tampões a este cálculo. Teríamos:&lt;/p&gt;
+&lt;p&gt;$$
 pH = 6,1 + \sum_{1}^{i} tampão_i
-$$
-Onde, sendo $f(a,b)$ uma função genérica de parâmetros $a,b$, temos:
-$$
+$$&lt;/p&gt;
+&lt;p&gt;Onde, sendo $f(a,b)$ uma função genérica de parâmetros $a,b$, temos:&lt;/p&gt;
+&lt;p&gt;$$
 tampão_{HCO_3⁻} = f([HCO_3⁻], pCO2)
 $$&lt;/p&gt;
-&lt;p&gt;O valor de 6,10 trata-se exatamente da chamada constante de autodissociação da água, ou seja, é um determinístico do pH da água que reage consigo mesma, produzindo íons hidrônio $H_{3}O^{+}$.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;interpretação&#34;&gt;Interpretação&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; EM CONSTRUÇÃO &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;O paciente terá sempre uma gasometria esperada. Normalmente, ao vermos um paciente com taquipneia, hiperglicêmico e com alterações do estado geral e consciência no sentido de rebaixamento, estamos diante de uma acidose de provável causa metabólica. Assim, você espera ver uma gasometria de acidemia. Diante de um cenário de pH normal, você já está autorizado a pensar em um distúrbio misto, isto é, de acidose e alcalose juntos.&lt;/p&gt;
-&lt;p&gt;Em suma:&lt;/p&gt;
+&lt;p&gt;O valor de 6,10 é uma constante que reflete a composição sanguínea estática e a autodissociação da água, ou seja, é um determinístico do pH basal do sangue, sendo o principal fator a reação da água consigo mesma, produzindo íons hidrônio ($H_{3}O^{+}$):&lt;/p&gt;
+&lt;p&gt;$$
+H_{2}O + H_{2}O \rightarrow H_{3}O^{+}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;interpretação-da-gasometria&#34;&gt;Interpretação da gasometria&lt;/h2&gt;
+&lt;p&gt;O paciente terá sempre uma gasometria &lt;mark&gt;esperada&lt;/mark&gt;, pois a clínica do paciente deve ser entendida como o primeiro passo da interpretação de gasometria arterial.&lt;/p&gt;
+&lt;p&gt;Exemplo:&lt;/p&gt;
+&lt;p&gt;Um paciente com taquipneia, hiperglicêmico e com alterações do estado geral e de consciência no sentido de rebaixamento, sofre com uma provável &lt;strong&gt;acidose metabólica&lt;/strong&gt;. Assim, espera-se uma gasometria de acidemia.&lt;/p&gt;
+&lt;p&gt;Normalmente, este é o curso de interpetação:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Clínica.&lt;/li&gt;
 &lt;li&gt;Há acidemia ou alcalemia?&lt;/li&gt;
 &lt;li&gt;Há acidose ou alcalose?&lt;/li&gt;
-&lt;li&gt;De acordo com as respostas anteriores:&lt;/li&gt;
+&lt;li&gt;Qual a resposta renal (bicarbonato)?&lt;/li&gt;
+&lt;li&gt;Qual a resposta esperada respiratória (gás carbônico)?&lt;/li&gt;
+&lt;li&gt;Hipóteses de acordo que expliquem a clínica.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;Repare que os passos 4 e 5 podem ser invertidos, mas raramente faz sentido observar primeiro a resposta respiratória, já que esta é muito efêmera.&lt;/p&gt;
+&lt;p&gt;Ao analisarmos os passos 4 e 5, será necessário conhecer as respostas fisiológicas a cada cenário, chamada de &lt;strong&gt;compensação esperada&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Após, deve se proceder a elucidação do mecanismo de acidose ou de alcalose e se, porventura, ambos concorrem, num processo conhecido como &lt;strong&gt;misto&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;compensação-esperada&#34;&gt;Compensação esperada&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt; EM CONSTRUÇÃO &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ânion-gap&#34;&gt;Ânion gap&lt;/h3&gt;
+&lt;p&gt;Nos casos de acidemia por acidose metabólica, o bicarbonato pode ter sido diminuído pela presença de outros ânions, visto que há um equilibrío eletrostático no sangue. Matematicamente:&lt;/p&gt;
+&lt;p&gt;$$
+[H_{3}O⁺] + [Na⁺] - [HCO_{3}⁻] - [Cl⁻] - \sum_{}^{} ânions = 0
+$$&lt;/p&gt;
+&lt;p&gt;Desconsiderando o hidrônio, já que este se associa ao bicarbonato, e isolando para os demais ânions:&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{}^{} ânions = \cancel{[H_{3}O⁺]} + [Na⁺] - [HCO_{3}⁻] - [Cl⁻]
+$$&lt;/p&gt;
+&lt;p&gt;Este somatório de outros íons negativos não medidos seria o &lt;mark&gt;ânion gap&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Porém, a albumina é uma proteína grande e, como toda proteína, tem carga eletrostática tendente a valores negativos. Assim, quando um ânion qualquer aumenta, também &lt;em&gt;empurra&lt;/em&gt; a albumina para menos e sua influência merece correção, dada empiricamente por:&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{}^{} ânions = [Na⁺] - [HCO_{3}⁻] - [Cl⁻] + 2.5(\Delta{Albumina})
+$$&lt;/p&gt;
+&lt;p&gt;Onde:&lt;/p&gt;
+&lt;p&gt;$$
+\Delta{Albumina} = Albumina_{referência} - Abulina_{aferida}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;delta-delta&#34;&gt;Delta delta&lt;/h3&gt;
+&lt;p&gt;Como sei que mais de um processo (alcalose ou acidose) não ocorrem simultâneamente num contexto de gap aniônico alargado?&lt;/p&gt;
+&lt;p&gt;Esta dúvida raramente fará sentido clínico, uma vez que o exame de gasometria é um teste complementar e &lt;a href=&#34;../../medicina/estatistica-diagnostica&#34;&gt;deve ser solicitado já com uma hipótese diagnóstica prévia&lt;/a&gt; reforçando ou enfraquecendo-a.&lt;/p&gt;
+&lt;p&gt;Mas em casos obscuros, a seguinte lógica deve ser aplicada:&lt;/p&gt;
+&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
+  &lt;span class=&#34;etiqueta&#34;&gt;
+Se o ânion gap aumenta, o bicarbonato diminui na &lt;mark&gt;mesma proporção&lt;/mark&gt;.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Matematicamente:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{\Delta{ânion gap}}{\Delta{HCO⁻_3}} \propto 1
+$$&lt;/p&gt;
+&lt;p&gt;Ou ainda:
+$$
+\frac{{ânion gap} – 10} {24 – [HCO3⁻]} \propto 1
+$$&lt;/p&gt;
+&lt;p&gt;Assim, esperamos que esta relação seja sempre próxima de 1.&lt;/p&gt;
+&lt;p&gt;Quando menor que 1 significa que o ânion gap foi alargado por outro processo de acidose hiperclorêmica, já que o bicarbonato não foi deslocado tanto quanto o gap demonstra, havendo outro ânion com presença aumentada, o cloro.&lt;/p&gt;
+&lt;p&gt;Quando maior que 1 significa que o bicarbonato está sendo retido por um processo além do compensatório, sendo portanto uma alcalose escondida.&lt;/p&gt;
+&lt;p&gt;A interpretação da relação delta/delta só se justifica em contextos muito confusos e deve ser criteriosa.&lt;/p&gt;
+&lt;h3 id=&#34;fluxograma-para-acidemia&#34;&gt;Fluxograma para acidemia&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-    pH --&gt;|&lt; 7.35| acidemia[procure a acidose] --&gt; |ânion-gap &gt;12| gap-alargado[descubra o ânion];
-    acidemia --&gt; |8 &lt; ânion-gap &lt; 12| gap-normal[verifique o cloro] 
-    pH --&gt;|&gt; 7.45| alcalemia[procure a alcalose];
+    acidemia[acidemia&lt;br&gt;pH &lt; 7.35];
+    acidemia -- HCO3⁻ &lt; 20 --&gt; acmet[acidose&lt;br&gt;metabólica];
+    acmet --&gt; gapN[ânion gap normal] --&gt; clor[acidose hiperclorêmica]; 
+    acmet --&gt; gapLargo[ânion gap &gt; 12 ];
+    gapLargo -- dúvidas --&gt; delta[calcular&lt;br&gt;delta/delta];
+    gapLargo --&gt; etio[cetoacidose diabética&lt;br&gt;intoxicação alcoólica&lt;br&gt;sepse];
+    acidemia -- HCO3⁻ &gt; 26&lt;br&gt;pCO2 &lt; 35 --&gt; fimmetcomp[acidose respiratória&lt;br&gt;compensada] --&gt; cron[investigar processos de hipóxia crônica];
+    acidemia -- HCO3⁻ normal&lt;br&gt;pCO2 &gt; 45 --&gt; resp1[acidose respiratória&lt;br&gt;recente não compensada] --&gt;hipox[hipóxia];
+    hipox --&gt; etioH[edema pulmonar&lt;br&gt;DPOC descompensado&lt;br&gt;crise de asma];
 &lt;/pre&gt;
 
+&lt;h3 id=&#34;fluxograma-para-alcalemia&#34;&gt;Fluxograma para alcalemia&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;!-- alcalemia[alcalemia&lt;br&gt;pH &gt; 7.45] -- HCO3- &gt; 26 -- alcmet[alcalose&lt;br&gt;metabólica]; --&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;

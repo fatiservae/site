@@ -21,21 +21,21 @@
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#22272e',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#a0acb9',
             'primaryBorderColor': '#ffdead',
             'lineColor': '#ffdead',
-            'secondaryColor': '#21262d',
+            'secondaryColor': '#262626',
             'tertiaryColor': '#fff'
           }
       });
-    } else { 
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#ffdead',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
-            'primaryBorderColor': '#21262d',
+            'primaryBorderColor': 'black',
             'lineColor': '#000000',
             'secondaryColor': '#ffdead',
             'tertiaryColor': '#fff'
@@ -196,7 +196,7 @@ window.addEventListener('scroll', function() {
 
 
 
-<h2 id="lactente-ou-neonato">Lactente ou neonato</h2>
+  <h2 id="lactente-ou-neonato">Lactente ou neonato</h2>
 <h3 id="tratamento">Tratamento</h3>
 <pre class="mermaid">graph TD;
 G(Instalar o EEG se disponível) --> A(Fenobarbital em 20-30mg/Kg) -- Resolução -->B(Manter 5-6mg/Kg/dia)
@@ -208,20 +208,20 @@ E -- Persistência -->Z
 
 
 
-<br>
+
+  <br>
         <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_guidelines" href="https://www.jeffersontorres.com.br/tags/guidelines">Guidelines</a></div>
 
 </article>
+
 <footer>
-  
-  <a onClick="retornaTopo()">^</a>
-  <script>
-      function retornaTopo(){
-            document.documentElement.scrollTop = 0;
-      }
-  </script>
-  <br>
-  <br>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </footer>
 
 </body>

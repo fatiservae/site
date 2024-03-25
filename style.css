@@ -1,6 +1,6 @@
 /*
 Regras de estilo:
-- <mark> deve ser usada para uma única palavra.
+- <mark> deve ser usada para uma única palavra sempre que possível.
 - a propriedade word-wrap será sempre nowrap.
 - Regras de nomes: 
   1. propriedadeItem;
@@ -20,6 +20,8 @@ Regras de estilo:
 
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ; 
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
+  --green: #347d39 ;
+  --blue: #539bf5 ;
   --pimenta: #bb1450 ;
   --vermelhoMITMarcador: #e56478;
   --branco-google: #f2f2f2 ;
@@ -45,8 +47,6 @@ Regras de estilo:
   --anil-aleatorio: #283784 ;
   --corBordas: #383f48 ;
   --fundo: #22272e ;
-  --green: #347d39 ;
-  --blue: #539bf5 ;
   --separador: #383f48 ;
   --fonte: #a0acb9 ;
   --git-hub-dark-back: #22272e ;
@@ -63,7 +63,8 @@ Regras de estilo:
   --fundoSticker: var(--gradiente-dark);
   --raioCampos: 34px; 
   --sombraCaixas: none;
-  --raioBordas: 20px;
+  --sombraImagens: none;
+  --raioBordas: 10px;
   --bordasCalculadoras: 2px dashed var(--fonte);
   --fonte-comedia: "Bangers";
   --largura-texto: calc(650px + 10vw);
@@ -86,7 +87,7 @@ Regras de estilo:
   --hover-botao: var(--azul-escuro-google);
   --h1: var(--amarelo-google);
   --h2: var(--letragradiente-dark);
-  --h3: tomato;
+  --corH3: tomato;
   --corNegrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
@@ -101,7 +102,6 @@ Regras de estilo:
   --corBordas: #383f48 ;
   --fundo-invertido: var(--white-solarized) ;
   --fundo-input: #313131;
-  --green: #347d39 ;
   --separador: #383f48 ;
   --fonte: #a0acb9 ;
   --fonteInvertida: black;
@@ -139,7 +139,7 @@ Regras de estilo:
   --hover-botao: #904500 ;
   --h2: #4E342E;
   --h1: #424242;
-  --h3: #455A64;
+  --corH3: #455A64;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
@@ -163,8 +163,6 @@ Regras de estilo:
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: #fbc782;
-  --green: #347d39 ;
-  --blue: #539bf5 ;
   --separador: gray ;
   --corBordas: gray ;
   --fonte: #303030;
@@ -207,7 +205,7 @@ Regras de estilo:
   --hover-botao: #904500 ;
   --h2: #4E342E;
   --h1: #424242;
-  --h3: #455A64;
+  --corH3: #455A64;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
@@ -223,8 +221,6 @@ Regras de estilo:
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: #fbc782;
-  --green: #347d39 ;
-  --blue: #539bf5 ;
   --separador: gray ;
   --corBordas: var(--madeira);
   --fonte: black;
@@ -237,7 +233,7 @@ Regras de estilo:
   --frase: var(--verde-google) ;
   --autor: var(--fundo);
   --sticker-font: var(--fundo-invertido) ;
-  --termo: var(--azul-estadao);
+  --termo: darkred;
 }
 
 :root[data-tema="3"] { /* comics */
@@ -263,6 +259,7 @@ Regras de estilo:
   --fundoSticker: none;
   --raioCampos: 0px; 
   --sombraCaixas: black 5px 5px 0px -1px;
+  --sombraImagens: var(--sombraCaixas);
   --raioBordas: none;
   --bordasCalculadoras: 2px solid black;
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #ff000010 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ff000010, transparent 75%)) ;
@@ -277,7 +274,7 @@ Regras de estilo:
   --background-img: url('pix/day.jpg'); 
   --h2: #4E342E;
   --h1: #424242;
-  --h3: #455A64;
+  --corH3: black;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: darkred;
@@ -288,8 +285,6 @@ Regras de estilo:
   --sticker-fundo: var(--gradiente-light) ;
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: lightgray ;
-  --green: #347d39 ;
-  --blue: #539bf5 ;
   --separador: black;
   --corBordas: black;
   --fonte: black;
@@ -303,7 +298,7 @@ Regras de estilo:
   --fraseShow: black ;
   --autor: white;
   --sticker-font: brown;
-  --termo: var(--vermelhoDailyBeast);
+  --termo: var(--verde-google);
 }
 
 body {
@@ -319,7 +314,7 @@ body {
   color: var(--fonte) ;
   max-width: 100vw ;
   scroll-behavior: smooth ;
-  font-size: 20px;
+  font-size: 18px;
   padding: 0%;
 }
 @media only screen and (max-width: 800px){
@@ -523,7 +518,7 @@ p code::before {
 
 /* KATEX E MERMAID */
 .mermaid {
-  background-color: var(--fundo);
+  background-color: transparent;
   border: none;
 }
 /* Para Katex, veja o shortcode com css integrado. */
@@ -618,7 +613,7 @@ h1 {
   font-size: 120%;
 }
 h3 {
-  color: var(--h3);
+  color: var(--corH3);
   margin-left: 10vw;
   font-size: 105%;
   font-weight: normal;
@@ -660,7 +655,11 @@ img {
   display: block ;
   max-width: 500px;
   max-height: 500px;
+  border-radius: var(--raioBordas);
+  box-shadow: var(--sombraImagens);
+  margin-left: 5vw;
 }
+
 
 #img-div p{
   /*
@@ -822,6 +821,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_rust:before { content: "🚀 " ;}
 #tag_filosofia:before { content: "🧠💭 " ;}
 #tag_nefrologia:before { content: "🥔 " ;}
+#tag_cardiologia:before { content: "❤️ " ;}
 #tag_pneumologia:before { content: "🫁 " ;}
 #tag_ciência:before { content: "🧪👨🏽‍🔬 " ;}
 #tag_emergência:before { content: "🚨 " ;}
@@ -962,6 +962,11 @@ table {
   margin-left: 5vw;
   border: 1px solid var(--fonte);
   border-collapse: collapse ;
+  max-width: 77%;
+}
+th, td, tr, thead, tbody {
+  border: 1px solid var(--fonte);
+  border-collapse: collapse ;
 }
 th {
   background-color: var(--fundo-input); 
@@ -969,8 +974,8 @@ th {
   font-weight: bold;
 }
 th, td {
-  border: 1px solid var(--fonte);
-  border-collapse: collapse ;
+  /*
+  */
   padding: 3px;
   padding-right: 10px;
   padding-left: 10px;
@@ -1135,11 +1140,6 @@ li::before{
   font-size: 3em;
 }
 */
-
-img {
-  border-radius: 5px ;
-  margin-left: 5vw;
-}
 
 /*
 input[type="text"],

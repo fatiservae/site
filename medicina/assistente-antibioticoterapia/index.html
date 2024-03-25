@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
   
   <script>
@@ -17,10 +17,10 @@
   
 
   <title>Assistente De Antibioticoterapia | Jefferson T.</title>
-  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel="canonical" href="http://localhost:1313/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
-  <link rel="icon" href="../../favicon.ico">
+  <link rel="icon" href="../../favicon.webp">
   <meta name="description" content=" Em construção
 &lt;!DOCTYPE html&gt; Sítio infeccioso: Pele e tecidos moles Trato respiratório inferior Trato gastrointestinal Ossos e articulações Sistema nervoso central Adicionar sítio Patógeno cultivado/presumido: E. coli Estreptococco spp. Enterococo Gram - Estaphylicocco spp. Adicionar patógeno Sítios selecionados:
 Culturas selecionadas:
@@ -29,59 +29,136 @@ Filtra Opções: Antibiotico Dose Contraindicações Observações ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+<link href="https://db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS" rel="stylesheet" crossorigin> 
+
 </head>
 <body>
-  <div class="barra">
-    <a id="switch" onclick="alternarTema(); return false"></a>
-    <a href="../../index.html" alt="Início">📌 Início</a>
-    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
-    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
-    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
-    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
-    <a href="../../files/index.html" alt="Arquivos">📁 Arquivos</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Destinos</a>
-    <a href="../../tags/calculadoras/index.html" alt="Calculadoras">🔢 Calculadoras</a>
-      
-    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
-      
-  </div>
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
 <script>
+window.addEventListener('scroll', function() {
+  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = scrollTop / scrollHeight * 100;
+  
+  document.getElementById('progress-bar').style.width = scrolled + '%';
+});
+</script>
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+<script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+    }
+  }
+
   let lighswitch = document.getElementById("switch");
   const temaAtual = localStorage.getItem('tema');
  
-  if (temaAtual === 'escuro') {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
-    mermaid.initialize({ 
-        'theme': 'base',
-        'themeVariables': {
-          'primaryColor': '#090909',
-          'primaryTextColor': '#ff6347',
-          'primaryBorderColor': '#7C0000',
-          'lineColor': '#ff6347',
-          'secondaryColor': '#21262d',
-          'tertiaryColor': '#fff'
-        }
-    });
-  } else if (temaAtual === 'claro') {
-    document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = '🌚' ;
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
   }
-  else {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
   }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
+
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === 'claro') {
-      lighswitch.innerHTML = '🌞'
-      document.documentElement.setAttribute('data-tema', 'escuro');
-      localStorage.setItem('tema', 'escuro'); 
-    } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = '🌚'
-      document.documentElement.setAttribute('data-tema', 'claro');
-      localStorage.setItem('tema', 'claro'); 
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'noite'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
     }
+
     const mermaidTags = document.querySelectorAll('pre.mermaid');
     if (mermaidTags.length > 0) {
       location.reload();
@@ -89,10 +166,14 @@ Filtra Opções: Antibiotico Dose Contraindicações Observações ">
   }
 
 </script>
-<h1>Assistente de antibioticoterapia</h1>
- 
 
 
+
+
+<!-- Considerar:
+  Deixar apenas antimicrobiano, patógeno e sítio. Observações para esclarecer se bacteriostático, bactericida etc
+  O assistente devolve apenas quais antibióticos cobrem.
+-->
 <p style="color:black; background: red; font-weight: bold" class="center"><big> Em construção</p>
 <!DOCTYPE html>
 
@@ -226,13 +307,20 @@ fetch('/antibioticos.json')
 
 
 
-
 <br>
-        <hr>
-        <div style="clear:both" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a></div>
+        <div style="" class=taglist><a id="tag_medicina" href="http://localhost:1313/tags/medicina">Medicina</a> &middot; <a id="tag_calculadoras" href="http://localhost:1313/tags/calculadoras">Calculadoras</a></div>
 
+</article>
 <footer>
-  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  
+  <a onClick="retornaTopo()">^</a>
+  <script>
+      function retornaTopo(){
+            document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <br>
+  <br>
 </footer>
 
 </body>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
   
   <script>
@@ -17,89 +17,270 @@
   
 
   <title>Abaixo a Medicina! | Jefferson T.</title>
-  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel="canonical" href="http://localhost:1313/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
-  <link rel="icon" href="../../favicon.ico">
-  <meta name="description" content="Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.
-AVISO: Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="AVISO: Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.
+Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.
 Classificações médicas Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre dezesseis e catorze classificações por semestre.">
-  <meta name="keywords" content="medicina, filosofia">
+  <meta name="keywords" content="Medicina, Filosofia">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+<link href="https://db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS" rel="stylesheet" crossorigin> 
+
 </head>
 <body>
-  <div class="barra">
-    <a id="switch" onclick="alternarTema(); return false"></a>
-    <a href="../../index.html" alt="Início">📌 Início</a>
-    <a href="../../sobre/index.html" alt="Sobre">👨🏾 Sobre</a>
-    <a href="../../tags/medicina/index.html" alt="Medicina">💉 Medicina</a>
-    <a href="../../dicionario/index.html" alt="Dicionário">📖  Dicionário</a>
-    <a href="../../medicina/bancoquestoes-intro/index.html" alt="Banco de questões">📝 Banco de questões</a>
-    <a href="../../tags/ciência/index.html" alt="Ciência">🔬 Ciência</a>
-    <a href="../../tags/viagem/index.html" alt="Viagem">🏖️ Viagem</a>
-    <a href="../../tags/filosofia/index.html" alt="Filosofia">💭 Filosofia</a>
-    <a href="../../tags/culinária/index.html" alt="Culinária">🍕 Culinária</a>
-    <a href="../../tags/projetos/index.html" alt="Projetos">🚧 Projetos</a>
-    <a href="../../tags/programação/index.html" alt="Programação">🧑🏽‍💻 Programação</a>
-  </div>
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
 <script>
+window.addEventListener('scroll', function() {
+  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = scrollTop / scrollHeight * 100;
+  
+  document.getElementById('progress-bar').style.width = scrolled + '%';
+});
+</script>
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+<script>
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+    }
+  }
+
   let lighswitch = document.getElementById("switch");
   const temaAtual = localStorage.getItem('tema');
  
-  if (temaAtual === 'escuro') {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
-  } else if (temaAtual === 'claro') {
-    document.documentElement.setAttribute('data-tema', 'claro');
-    lighswitch.innerHTML = '🌚' ;
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
   }
-  else {
-    document.documentElement.setAttribute('data-tema', 'escuro');
-    lighswitch.innerHTML = '🌞' ;
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
   }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
+
   function alternarTema() {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === 'claro') {
-      lighswitch.innerHTML = '🌞'
-      document.documentElement.setAttribute('data-tema', 'escuro');
-      localStorage.setItem('tema', 'escuro'); 
-    } else if (temaAtual === 'escuro') {
-      lighswitch.innerHTML = '🌚'
-      document.documentElement.setAttribute('data-tema', 'claro');
-      localStorage.setItem('tema', 'claro'); 
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'noite'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
     }
   }
+
 </script>
 
-<img src="../../pix/doctor-plague.png">
-<p class="center" style="max-width: 50%"><em>Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.</em></p>
-<p><span style="color: black;background: red; border-radius: 2px;">AVISO:</span> Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.</p>
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#classificações-médicas">Classificações médicas</a>
+      <ul>
+        <li><a href="#tara-taxonômica">Tara taxonômica</a></li>
+      </ul>
+    </li>
+    <li><a href="#_circus-medicus_"><em>Circus Medicus</em></a></li>
+    <li><a href="#impregnado-pela-dúvida">Impregnado pela dúvida</a>
+      <ul>
+        <li><a href="#actore-non-probante-reus-absolvitur">actore non probante reus absolvitur</a></li>
+      </ul>
+    </li>
+    <li><a href="#a-grande-festa-publicações-_científicas_-em-medicina">A grande festa: publicações <em>&ldquo;científicas&rdquo;</em> em medicina</a></li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
+
+
+
+<!--
+https://en.wikipedia.org/wiki/Soapbox
+
+<span style="color: black;background: red; border-radius: 2px;">AVISO:</span> Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.
+-->
+<p><mark>AVISO:</mark> Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/doctor-plague.png"></img>
+    <p>Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.</p>
+  </div>
+
 <h2 id="classificações-médicas">Classificações médicas</h2>
-<div class="sticker">Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre dezesseis e catorze classificações por semestre.
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre dezesseis e catorze classificações por semestre.
 <br>
 <em>Autor desconhecido, c. 2020.</em>
+ </span>
 </div>
+
+
 <p>Contém ironia, óbvio. Porém, uma realidade oculta reside no coração de todo médico: <strong>a insana sede por classificações!</strong> Em certos casos, beira o ridículo:</p>
 <ol>
 <li>Os aneurismas de aorta, e.g., se classificam com relação ao seu diâmetro, do qual, 1mm de diferença significa a brusca mudança de conduta entre &ldquo;tratamento conservador&rdquo; e cirurgia radical. Ainda bem que se popularizou a cirurgia endovascular, porque há menos de duas décadas atrás tal procedimento consistia basicamente numa agressiva laparatomia.</li>
 <li>A dor torácica pode ser tipicamente anginosa, dita quando suas características são clássicas de uma dor precordial. Porém, isso não é suficiente. Nas provas, ela se chama &ldquo;Dor do tipo A&rdquo;. Eu chamo este fetish de <em>tara taxônomica</em>.</li>
 <li>O exame físico do baço espera, na normalidade, que ele não seja palpável. Caso seja, classifica-se o baço em três graus, a depender da altura da palpação. O mais lógico seria reportarmos a altura da palpação em si, não? Inclusive, o marco anatômico da tal classificação é a cicatriz umbilical, o que faz menos sentido ainda porque seria ainda mais óbvio registrarmos a que distância exata do marco está a palpação, para fins de acompanhamento. Vai entender.</li>
 </ol>
-<h2 id="tara-taxonômica">Tara taxonômica</h2>
+<h3 id="tara-taxonômica">Tara taxonômica</h3>
 <p>Para parecer inteligente em uma roda de conversa entre profissionais da saúde, experimente sempre questionar se as patologias são do tipo 1 ou 2. Mesmo inexistente a tal classificação, alguem se disporá a discuti-la, acredite.</p>
 <p>Ainda mais: é possível que haja debate de validade e até de evidências sobre a mentira em curso 😂.</p>
-<p>Este fenômeno tem a ver com a origem das maiorias das classificações médicas. Normalmente, tenta-se compartimentalizar os fenômenos, na tentativa de delinear alguma abordagem sistematizada para cada patologia. Porém, esse fundamento lógico das classificações médicas se perdeu com o tempo, o que há, atualmente, é uma insistência inocente em tal estratégia.</p>
+<p>Este fenômeno tem a ver com a origem das maiorias das classificações médicas.</p>
+<p>Normalmente, tenta-se compartimentalizar os fenômenos, na tentativa de delinear alguma abordagem sistematizada para cada patologia. Porém, esse fundamento lógico das classificações médicas se perdeu com o tempo, o que há, atualmente, é uma insistência inocente em tal estratégia.</p>
+<h2 id="_circus-medicus_"><em>Circus Medicus</em></h2>
 
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/snake-oil.png"></img>
+    <p>Óleo de víboras, bom pra tudo. Panaceia Alles Da</p>
+  </div>
+
+<p>O ano é 2023 e você se lembra da velha caixa de vídeos chamada TV. Liga-a. Uma mulher de meia idade está numa aparente curta estória, explicando inúmeras melhoras na sua vida, desde energia para os filhos até alta libido com seu marido, também de meia idade mas grisalho sorridente. Suas bocas tem sorrisos amplos, ela com 177 dentes, ele com 150. No fim, ela explica:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Este é o óleo de peixe Peixoba, comprovadamente aumenta seu cálcio, sua vitamina Z, diminui o colesterol ruim e quintuplica o bom. Compre já em www.esquemapilantra.com.br!
+ </span>
+</div>
+
+
+<p>Engraçado, né? kkkk.</p>
+<p>Calma. Mas e aquele seu YouTuber favorito, <em>fitness</em>, que vive te dizendo que bom mesmo é suco de beterraba, correr de lado e beber água com vinagre? Esse você certamente não segue, né?</p>
+<p>Mas e aquele que <em>parece muito inteligente</em>, tem um <em>Instagram</em> lotado de fotos de pratos e destinos, uma esposa também muito <em>fit</em>, três cachorros e vende um curso na <em>Hotmart</em>? <strong>Esse, também, você não segue.</strong> Sei&hellip; 😏</p>
+<img style="border:none; box-shadow:none" src="../../pix/medicina/ducktor.png">
+<p>Tá, e aquele que tem inúmeros estigmas do uso crônico de esteróides anabolizantes e diz pra você que é natural? <strong>Te peguei, né?!</strong>.</p>
+<h2 id="impregnado-pela-dúvida">Impregnado pela dúvida</h2>
+<p>Me deparei certa vez com um termo peculiar em medicina: <em>impregnação</em>.</p>
+<p>Num primeiro momento, no contexto da neurologia, há uma definição específica para impregnação neuroléptica, que se refere a um efeito colateral dos antipsicóticos. Porém, a minha mente de <em>químico</em> que &ldquo;fui&rdquo; um dia se sentiu incomodada, já que o termo parecia se referia a farmacodinâmica do medicamento que, de alguma forma, se deposita nos tecidos. Você provavelmente acha o mesmo. <strong>Mas não é.</strong></p>
+<p>Na cardiologia, o termo reaparece na prescrição da amiodarona, que deve ser feita em dose bem alta inicialmente, sob a desculpa de se alcançar a &ldquo;<em>impregnação</em>&rdquo; do medicamento.</p>
+<p>Além disso, os digitálicos podem produzir taquiarritmias como efeito colateral e, neste caso, todo esse quadro é chamado de <em>impregnação digitálica</em>.</p>
+<p>Na oftalmologia, há certos casos de menção ao termo <em>impregnação do nervo óptico</em> como sinônimo da neurite óptica. Notadamente, o Manual de Emergências Clínica da USP de 2022¹ usa esta associação.</p>
+<p>Radiologista se referem a má difusão do contraste nos diversos tecidos como <em>impregnação difusa</em>. Novamente, é proeminente o uso em neuroimagem.</p>
+<p>E assim segue o baile. Um termo curinga, sem expressão ou, no caso do seu uso mais conhecido da impregnação neuroléptica, contém uma conotação de cinética ou dinâmica medicamentosa, aludindo a situação de depósito da substância.</p>
+<p><strong>Porém, na ciência de base farmacologia o termo é simplesmente inexistente!</strong></p>
+<p>Isto mesmo, experimento abrir o Katzung² e buscar pelo termo que este nem mesmo citado estará. O mesmo vale para pelo menos outros três grandes títulos que pesquisei.</p>
+<p>Conclua o seguinte: este é um termo que deve ser encarado com especificidade de cada área em que é citado. Ponto.</p>
+<h3 id="actore-non-probante-reus-absolvitur">actore non probante reus absolvitur</h3>
+<p>Questionando meus professores ao longo da formação médica, notei que não há dolo neste ponto fraco da medicina. Na verdade, somos impelidos pela tradição no uso dos termos equivocados ou pessimamente definidos. Me lembra muito o efeito jornalístico na física, e.g. na nomeclatura da singularidade como Big-Bang, um termo jornalístico irônico que acabou por se tornar o nome ofial da cosmologia moderna para a primeira expansão do universo. Depois de um tempo, a cultura e a tradição já investiram tanto sobre o termo que este é <em>adquirido</em> oficialmente ao <em>corpus</em>, se tornando parte daquele campo científico.</p>
+<p>Perdoável, mas cômico, pelo menos.</p>
+<h2 id="a-grande-festa-publicações-_científicas_-em-medicina">A grande festa: publicações <em>&ldquo;científicas&rdquo;</em> em medicina</h2>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Manual Medicina USP</li>
+<li>Katzung</li>
+</ol>
 
 
 <br>
-        <hr>
-        <div style="clear:both" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_filosofia" href="https://www.jeffersontorres.com.br/tags/filosofia">Filosofia</a></div>
+        <div style="" class=taglist><a id="tag_medicina" href="http://localhost:1313/tags/medicina">Medicina</a> &middot; <a id="tag_filosofia" href="http://localhost:1313/tags/filosofia">Filosofia</a></div>
 
+</article>
 <footer>
-  <a href="https://www.jeffersontorres.com.br/">📌 Início</a>
+  
+  <a onClick="retornaTopo()">^</a>
+  <script>
+      function retornaTopo(){
+            document.documentElement.scrollTop = 0;
+      }
+  </script>
+  <br>
+  <br>
 </footer>
 
 </body>

@@ -184,7 +184,7 @@ window.addEventListener('scroll', function() {
 
 
 
-
+  
 
 <div class="calculadoras"> 
 <form id="formElementos">
@@ -266,6 +266,7 @@ function calcular() {
   if ( document.getElementById("idade").value < 3){
     pediatrico = true
   };
+  let lesao_pescoco = false;
 
   if (pediatrico) { 
     meiaperna = 7;
@@ -280,7 +281,7 @@ function calcular() {
     else if ( elemento === 'nadega') {scq = scq + nadega}
     else if ( elemento === 'meiaperna') {scq = scq + meiaperna}
     else if ( elemento === 'meiobraco') {scq = scq + meiobraco}
-    else if ( elemento === 'pescoco') {scq = scq + pescoco}
+    else if ( elemento === 'pescoco') {scq = scq + pescoco; lesao_pescoco = true}
     else if ( elemento === 'torax') {scq = scq + torax}
     else if ( elemento === 'dorso') {scq = scq + dorso}
     else if ( elemento === 'genitalia') {scq = scq + dorso}
@@ -309,6 +310,11 @@ function calcular() {
     debito = 0.5 * peso ;
   };
 
+  if (lesao_pescoco === true) {
+    document.getElementById('resultado').innerHTML += 
+    "<br><strong>Atente-se para lesões de pescoço pela fatalidade de síndromes compressivas no sítio!</strong>";
+  }
+
   if (grau === "pequeno") {
     document.getElementById('resultado').innerHTML += 
     "<br><strong>Em pacientes pequenos queimados, repense a necessidade de reidratação.</strong>";
@@ -321,20 +327,20 @@ function calcular() {
 
 
 
-<br>
+
+  <br>
         <div style="" class=taglist><a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">Projetos</a> &middot; <a id="tag_pediatria" href="https://www.jeffersontorres.com.br/tags/pediatria">Pediatria</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
 
 </article>
+
 <footer>
-  
-  <a onClick="retornaTopo()">^</a>
-  <script>
-      function retornaTopo(){
-            document.documentElement.scrollTop = 0;
-      }
-  </script>
-  <br>
-  <br>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </footer>
 
 </body>

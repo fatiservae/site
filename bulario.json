@@ -1,5 +1,16 @@
 [
   {
+    "nome": ["tetracaína e hexamidina", "Hexomedine"],
+    "class": ["anestésico tópico", "antisséptico"],
+    "posologias": [
+      [" nebulizações", "h"],
+      [3, 4, "VO", "aplicando diretamente na mucosa oral e perioral."]
+    ],
+    "obs": [
+      "Apresentação comercial normal de 1+0.5mg/ml em colutório"
+    ]
+  },
+  {
     "nome": ["-"],
     "class": ["aminoglicosídeos"],
     "posologias": [

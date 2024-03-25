@@ -37,21 +37,21 @@
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#22272e',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#a0acb9',
             'primaryBorderColor': '#ffdead',
             'lineColor': '#ffdead',
-            'secondaryColor': '#21262d',
+            'secondaryColor': '#262626',
             'tertiaryColor': '#fff'
           }
       });
-    } else { 
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#ffdead',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
-            'primaryBorderColor': '#21262d',
+            'primaryBorderColor': 'black',
             'lineColor': '#000000',
             'secondaryColor': '#ffdead',
             'tertiaryColor': '#fff'
@@ -227,7 +227,7 @@ window.addEventListener('scroll', function() {
 
 
 
-<h2 id="a-taquiarritmia-é-derivada">A taquiarritmia é derivada?</h2>
+  <h2 id="a-taquiarritmia-é-derivada">A taquiarritmia é derivada?</h2>
 <p>Às vezes, como na sepse, a taquiarritmia é decorrente da condição clínica do paciente e resolvê-la <em>per si</em> pouco ajuda.</p>
 <p>Para distinguir de forma prática, utilize o corte de Karvonen¹:</p>
 <p>$$ FC_{corte} = 220 - idade $$</p>
@@ -273,20 +273,20 @@ window.addEventListener('scroll', function() {
 </ol>
 
 
-<br>
+
+  <br>
         <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
 
 </article>
+
 <footer>
-  
-  <a onClick="retornaTopo()">^</a>
-  <script>
-      function retornaTopo(){
-            document.documentElement.scrollTop = 0;
-      }
-  </script>
-  <br>
-  <br>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </footer>
 
 </body>

@@ -21,21 +21,21 @@
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#22272e',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#a0acb9',
             'primaryBorderColor': '#ffdead',
             'lineColor': '#ffdead',
-            'secondaryColor': '#21262d',
+            'secondaryColor': '#262626',
             'tertiaryColor': '#fff'
           }
       });
-    } else { 
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#ffdead',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
-            'primaryBorderColor': '#21262d',
+            'primaryBorderColor': 'black',
             'lineColor': '#000000',
             'secondaryColor': '#ffdead',
             'tertiaryColor': '#fff'
@@ -201,7 +201,7 @@ window.addEventListener('scroll', function() {
 
 
 
-<pre class="mermaid">graph TD;
+  <pre class="mermaid">graph TD;
     a(Resposta ao chamado) -- Não --> y(Desobstrua via aérea, <br>jawthrust, checar respiração <br>+ cuidado com trauma cervical) -- Sem<br> pulso carotídeo --> x(Morte/Grau 6)
     y -- Com<br> pulso carotídeo --> z(Grau 5)
     a -- Sim --> c(Ausculta pulmonar) -- Estertores<br> francos --> d(Pulso radial) -- Não --> m(Grau 4)
@@ -213,20 +213,20 @@ window.addEventListener('scroll', function() {
 
 
 
-<br>
+
+  <br>
         <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
 
 </article>
+
 <footer>
-  
-  <a onClick="retornaTopo()">^</a>
-  <script>
-      function retornaTopo(){
-            document.documentElement.scrollTop = 0;
-      }
-  </script>
-  <br>
-  <br>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </footer>
 
 </body>

@@ -37,21 +37,21 @@
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#22272e',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#a0acb9',
             'primaryBorderColor': '#ffdead',
             'lineColor': '#ffdead',
-            'secondaryColor': '#21262d',
+            'secondaryColor': '#262626',
             'tertiaryColor': '#fff'
           }
       });
-    } else { 
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
       mermaid.initialize({ 
           'theme': 'base',
           'themeVariables': {
-            'primaryColor': '#ffdead',
+            'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
-            'primaryBorderColor': '#21262d',
+            'primaryBorderColor': 'black',
             'lineColor': '#000000',
             'secondaryColor': '#ffdead',
             'tertiaryColor': '#fff'
@@ -70,7 +70,7 @@
 Valores abaixo deste intervalo são chamados de acidemia. Acima, alcalemia.
 Para este controle, um sistema tampão surgiu evolutivamente nos mamíferos:
 A respiração provoca retirada do dióxido de carbono diluído no soro; e Os rins regulam a excreção de bicarbonato. Este sistema é o principal sistema tampão sérico. Existem outros, como o sistema proteico (bases), principalmente via albumina.">
-  <meta name="keywords" content="medicina">
+  <meta name="keywords" content="Medicina, Projetos, Calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -213,9 +213,29 @@ window.addEventListener('scroll', function() {
 </script>
 
 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#acidez-e-basicidade-sérica">Acidez e basicidade sérica</a>
+      <ul>
+        <li><a href="#regulação">Regulação</a></li>
+      </ul>
+    </li>
+    <li><a href="#interpretação-da-gasometria">Interpretação da gasometria</a>
+      <ul>
+        <li><a href="#compensação-esperada">Compensação esperada</a></li>
+        <li><a href="#ânion-gap">Ânion gap</a></li>
+        <li><a href="#delta-delta">Delta delta</a></li>
+        <li><a href="#fluxograma-para-acidemia">Fluxograma para acidemia</a></li>
+        <li><a href="#fluxograma-para-alcalemia">Fluxograma para alcalemia</a></li>
+      </ul>
+    </li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
 
 
-<h2 id="acidez-e-basicidade-sérica">Acidez e basicidade sérica</h2>
+
+  <h2 id="acidez-e-basicidade-sérica">Acidez e basicidade sérica</h2>
 <p>O pH sanguíneo deve sempre estar entre 7.35 e 7.45.</p>
 <p>Valores abaixo deste intervalo são chamados de acidemia. Acima, alcalemia.</p>
 <p>Para este controle, um sistema tampão surgiu evolutivamente nos mamíferos:</p>
@@ -224,7 +244,7 @@ window.addEventListener('scroll', function() {
 <li>Os rins regulam a excreção de bicarbonato.</li>
 </ol>
 <p>Este sistema é o principal sistema tampão sérico. Existem outros, como o sistema proteico (bases), principalmente via albumina.</p>
-<h2 id="regulação">Regulação</h2>
+<h3 id="regulação">Regulação</h3>
 <p>Sempre que o pH se altera, o sistema tampão tentará manter fixa a seguinte relação matemática:</p>
 <p>$$
 pH \propto \frac{pCO2}{[HCO3⁻]}
@@ -237,40 +257,95 @@ pH = 6,10 + \frac{log[HCO3⁻]}{0,03} * pCO2
 $$</p>
 <p><strong>Portanto, quedas na pC02 são compensadas também com queda da [HCO3⁻].</strong></p>
 <p>O raciocínio inverso também é válido.</p>
-<div style="text-indent: 0%" class="sticker">
-Os processos que causam queda da pCO2 ou aumento da [HCO3⁻] são chamados de <b>alcalose</b>.
-<br>
-Os processos que causam aumento da pCO2 ou queda da [HCO3⁻] são chamados de <b>acidose</b>.
-</div>
-<br>
-<div class="sticker">
-<b>Curiosidade:</b>
-<p>Observe que na fórmula de Henderson-Hasselbach existe um valor constante de 6,10 acrescido de um valor dado pela fração do logarítmo de bicarbonato multiplicado pela pCO2 dividido por 0,03. Esta fração é justamente o sistema tampão do bicarbonato. Regressões numéricas mais sofisticadas adicionam outros tampões a este cálculo. Teríamos:
-$$
+<p>Os processos que causam queda da pCO2 ou aumento da [HCO3⁻] são chamados de <mark>alcalose</mark>.</p>
+<p>Os processos que causam aumento da pCO2 ou queda da [HCO3⁻] são chamados de <mark>acidose</mark>.</p>
+<p>Observe que na fórmula de Henderson-Hasselbach existe um valor constante de 6,10 acrescido de um valor dado pela fração do logarítmo de bicarbonato multiplicado pela pCO2 dividido por 0,03. Esta fração é justamente o sistema tampão do bicarbonato. Regressões numéricas mais sofisticadas adicionam outros tampões a este cálculo. Teríamos:</p>
+<p>$$
 pH = 6,1 + \sum_{1}^{i} tampão_i
-$$
-Onde, sendo $f(a,b)$ uma função genérica de parâmetros $a,b$, temos:
-$$
+$$</p>
+<p>Onde, sendo $f(a,b)$ uma função genérica de parâmetros $a,b$, temos:</p>
+<p>$$
 tampão_{HCO_3⁻} = f([HCO_3⁻], pCO2)
 $$</p>
-<p>O valor de 6,10 trata-se exatamente da chamada constante de autodissociação da água, ou seja, é um determinístico do pH da água que reage consigo mesma, produzindo íons hidrônio $H_{3}O^{+}$.</p>
-</div>
-<h2 id="interpretação">Interpretação</h2>
-<p><span style="color:red"> EM CONSTRUÇÃO </span></p>
-<p>O paciente terá sempre uma gasometria esperada. Normalmente, ao vermos um paciente com taquipneia, hiperglicêmico e com alterações do estado geral e consciência no sentido de rebaixamento, estamos diante de uma acidose de provável causa metabólica. Assim, você espera ver uma gasometria de acidemia. Diante de um cenário de pH normal, você já está autorizado a pensar em um distúrbio misto, isto é, de acidose e alcalose juntos.</p>
-<p>Em suma:</p>
+<p>O valor de 6,10 é uma constante que reflete a composição sanguínea estática e a autodissociação da água, ou seja, é um determinístico do pH basal do sangue, sendo o principal fator a reação da água consigo mesma, produzindo íons hidrônio ($H_{3}O^{+}$):</p>
+<p>$$
+H_{2}O + H_{2}O \rightarrow H_{3}O^{+}
+$$</p>
+<h2 id="interpretação-da-gasometria">Interpretação da gasometria</h2>
+<p>O paciente terá sempre uma gasometria <mark>esperada</mark>, pois a clínica do paciente deve ser entendida como o primeiro passo da interpretação de gasometria arterial.</p>
+<p>Exemplo:</p>
+<p>Um paciente com taquipneia, hiperglicêmico e com alterações do estado geral e de consciência no sentido de rebaixamento, sofre com uma provável <strong>acidose metabólica</strong>. Assim, espera-se uma gasometria de acidemia.</p>
+<p>Normalmente, este é o curso de interpetação:</p>
 <ol>
 <li>Clínica.</li>
 <li>Há acidemia ou alcalemia?</li>
 <li>Há acidose ou alcalose?</li>
-<li>De acordo com as respostas anteriores:</li>
+<li>Qual a resposta renal (bicarbonato)?</li>
+<li>Qual a resposta esperada respiratória (gás carbônico)?</li>
+<li>Hipóteses de acordo que expliquem a clínica.</li>
 </ol>
+<p>Repare que os passos 4 e 5 podem ser invertidos, mas raramente faz sentido observar primeiro a resposta respiratória, já que esta é muito efêmera.</p>
+<p>Ao analisarmos os passos 4 e 5, será necessário conhecer as respostas fisiológicas a cada cenário, chamada de <strong>compensação esperada</strong>.</p>
+<p>Após, deve se proceder a elucidação do mecanismo de acidose ou de alcalose e se, porventura, ambos concorrem, num processo conhecido como <strong>misto</strong>.</p>
+<h3 id="compensação-esperada">Compensação esperada</h3>
+<p><span style="color:red"> EM CONSTRUÇÃO </span></p>
+<h3 id="ânion-gap">Ânion gap</h3>
+<p>Nos casos de acidemia por acidose metabólica, o bicarbonato pode ter sido diminuído pela presença de outros ânions, visto que há um equilibrío eletrostático no sangue. Matematicamente:</p>
+<p>$$
+[H_{3}O⁺] + [Na⁺] - [HCO_{3}⁻] - [Cl⁻] - \sum_{}^{} ânions = 0
+$$</p>
+<p>Desconsiderando o hidrônio, já que este se associa ao bicarbonato, e isolando para os demais ânions:</p>
+<p>$$
+\sum_{}^{} ânions = \cancel{[H_{3}O⁺]} + [Na⁺] - [HCO_{3}⁻] - [Cl⁻]
+$$</p>
+<p>Este somatório de outros íons negativos não medidos seria o <mark>ânion gap</mark>.</p>
+<p>Porém, a albumina é uma proteína grande e, como toda proteína, tem carga eletrostática tendente a valores negativos. Assim, quando um ânion qualquer aumenta, também <em>empurra</em> a albumina para menos e sua influência merece correção, dada empiricamente por:</p>
+<p>$$
+\sum_{}^{} ânions = [Na⁺] - [HCO_{3}⁻] - [Cl⁻] + 2.5(\Delta{Albumina})
+$$</p>
+<p>Onde:</p>
+<p>$$
+\Delta{Albumina} = Albumina_{referência} - Abulina_{aferida}
+$$</p>
+<h3 id="delta-delta">Delta delta</h3>
+<p>Como sei que mais de um processo (alcalose ou acidose) não ocorrem simultâneamente num contexto de gap aniônico alargado?</p>
+<p>Esta dúvida raramente fará sentido clínico, uma vez que o exame de gasometria é um teste complementar e <a href="../../medicina/estatistica-diagnostica">deve ser solicitado já com uma hipótese diagnóstica prévia</a> reforçando ou enfraquecendo-a.</p>
+<p>Mas em casos obscuros, a seguinte lógica deve ser aplicada:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+Se o ânion gap aumenta, o bicarbonato diminui na <mark>mesma proporção</mark>.
+ </span>
+</div>
+
+
+<p>Matematicamente:</p>
+<p>$$
+\frac{\Delta{ânion gap}}{\Delta{HCO⁻_3}} \propto 1
+$$</p>
+<p>Ou ainda:
+$$
+\frac{{ânion gap} – 10} {24 – [HCO3⁻]} \propto 1
+$$</p>
+<p>Assim, esperamos que esta relação seja sempre próxima de 1.</p>
+<p>Quando menor que 1 significa que o ânion gap foi alargado por outro processo de acidose hiperclorêmica, já que o bicarbonato não foi deslocado tanto quanto o gap demonstra, havendo outro ânion com presença aumentada, o cloro.</p>
+<p>Quando maior que 1 significa que o bicarbonato está sendo retido por um processo além do compensatório, sendo portanto uma alcalose escondida.</p>
+<p>A interpretação da relação delta/delta só se justifica em contextos muito confusos e deve ser criteriosa.</p>
+<h3 id="fluxograma-para-acidemia">Fluxograma para acidemia</h3>
 <pre class="mermaid">graph TD;
-    pH -->|< 7.35| acidemia[procure a acidose] --> |ânion-gap >12| gap-alargado[descubra o ânion];
-    acidemia --> |8 < ânion-gap < 12| gap-normal[verifique o cloro] 
-    pH -->|> 7.45| alcalemia[procure a alcalose];
+    acidemia[acidemia<br>pH < 7.35];
+    acidemia -- HCO3⁻ < 20 --> acmet[acidose<br>metabólica];
+    acmet --> gapN[ânion gap normal] --> clor[acidose hiperclorêmica]; 
+    acmet --> gapLargo[ânion gap > 12 ];
+    gapLargo -- dúvidas --> delta[calcular<br>delta/delta];
+    gapLargo --> etio[cetoacidose diabética<br>intoxicação alcoólica<br>sepse];
+    acidemia -- HCO3⁻ > 26<br>pCO2 < 35 --> fimmetcomp[acidose respiratória<br>compensada] --> cron[investigar processos de hipóxia crônica];
+    acidemia -- HCO3⁻ normal<br>pCO2 > 45 --> resp1[acidose respiratória<br>recente não compensada] -->hipox[hipóxia];
+    hipox --> etioH[edema pulmonar<br>DPOC descompensado<br>crise de asma];
 </pre>
 
+<h3 id="fluxograma-para-alcalemia">Fluxograma para alcalemia</h3>
+<p>Em breve.</p>
+<!-- alcalemia[alcalemia<br>pH > 7.45] -- HCO3- > 26 -- alcmet[alcalose<br>metabólica]; -->
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
@@ -278,20 +353,20 @@ $$</p>
 </ol>
 
 
-<br>
-        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a></div>
+
+  <br>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">Projetos</a> &middot; <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">Calculadoras</a></div>
 
 </article>
+
 <footer>
-  
-  <a onClick="retornaTopo()">^</a>
-  <script>
-      function retornaTopo(){
-            document.documentElement.scrollTop = 0;
-      }
-  </script>
-  <br>
-  <br>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </footer>
 
 </body>
