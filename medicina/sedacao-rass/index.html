@@ -16,7 +16,7 @@
 
   
 
-  <title>Monitorando Nível De Sedação: RASS/SAS | Jefferson T.</title>
+  <title>Monitorando Nível De Sedação: RASS/SAS/FOUR | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
@@ -86,6 +86,7 @@ window.addEventListener('scroll', function() {
 <article>
 <br>
 <br>
+  <h1>Monitorando nível de sedação: RASS/SAS/FOUR</h1>
 <script>
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
@@ -128,6 +129,10 @@ window.addEventListener('scroll', function() {
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'café' ;
   }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
     lighswitch.innerHTML = 'noite' ;
@@ -151,6 +156,11 @@ window.addEventListener('scroll', function() {
       localStorage.setItem('tema', '3'); 
 
     } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
       lighswitch.innerHTML = 'noite'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
@@ -276,10 +286,102 @@ window.addEventListener('scroll', function() {
 </tr>
 </tbody>
 </table>
+<h2 id="full-outline-of-unresponsiveness-score-2">Full outline of unresponsiveness score [2]</h2>
+<table>
+<thead>
+<tr>
+<th>Legenda</th>
+<th>E - Eye; M - motor; B - brain; R - respiration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E4</td>
+<td>Abre os olhos, pisca e acompanha ao comando</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>Abre os olhos, mas não acompanha comando</td>
+</tr>
+<tr>
+<td>E2</td>
+<td>Abre os olhos ao chamado vigoroso</td>
+</tr>
+<tr>
+<td>E1</td>
+<td>Abre os olhos ao estímulo doloroso</td>
+</tr>
+<tr>
+<td>E0</td>
+<td>Não abre os olhos</td>
+</tr>
+<tr>
+<td>M4</td>
+<td>Obedece com &ldquo;joinha&rdquo; ou outro sinal</td>
+</tr>
+<tr>
+<td>M3</td>
+<td>Localiza dor/estímulo doloroso</td>
+</tr>
+<tr>
+<td>M2</td>
+<td>Flexiona como resposta a dor</td>
+</tr>
+<tr>
+<td>M1</td>
+<td>Extende como resposta a dor</td>
+</tr>
+<tr>
+<td>M0</td>
+<td>Sem movimentos ou mioclonia generalizada</td>
+</tr>
+<tr>
+<td>B4</td>
+<td>Reflexos pupilar e córneo presentes</td>
+</tr>
+<tr>
+<td>B3</td>
+<td>Uma pupila midriática</td>
+</tr>
+<tr>
+<td>B2</td>
+<td>Ausente o reflexo pupilar ou córneo</td>
+</tr>
+<tr>
+<td>B1</td>
+<td>Ausente o reflexo pupilar e córneo</td>
+</tr>
+<tr>
+<td>B0</td>
+<td>Ausente o reflexo pupilar, córneo e de tosse</td>
+</tr>
+<tr>
+<td>R4</td>
+<td>Não intubado, respiração regular</td>
+</tr>
+<tr>
+<td>R3</td>
+<td>Não intubado, respiração de Cheyne-Stokes</td>
+</tr>
+<tr>
+<td>R2</td>
+<td>Não intubado, respiração irregular</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Respira acima do ritmo de ventilador</td>
+</tr>
+<tr>
+<td>R0</td>
+<td>Respira no ritmo do ventilar ou em apneia</td>
+</tr>
+</tbody>
+</table>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
 <li>MOTES, Arunee. <strong>Monitoring sedation during mechanical ventilation</strong>. The Southwest Respiratory and Critical Care Chronicles, v. 10, n. 45, p. 19-27, 2022.</li>
+<li>Almojuela A, Hasen M, Zeiler FA. <strong>The Full Outline of UnResponsiveness (FOUR) Score and Its Use in Outcome Prediction: A Scoping Systematic Review of the Adult Literature</strong>. Neurocrit Care. 2019 Aug;31(1):162-175. doi: 10.1007/s12028-018-0630-9. PMID: 30411302.</li>
 </ol>
 
 

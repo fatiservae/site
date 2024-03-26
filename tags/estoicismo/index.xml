@@ -11,7 +11,7 @@
 	
 	
 	<item>
-		<title>Monitorando nível de sedação: RASS/SAS</title>
+		<title>Monitorando nível de sedação: RASS/SAS/FOUR</title>
 		<link>https://www.jeffersontorres.com.br/medicina/sedacao-rass/</link>
 		<pubDate>Sun, 24 Mar 2024 19:54:15 -0300</pubDate>
 		
@@ -125,10 +125,102 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;full-outline-of-unresponsiveness-score-2&#34;&gt;Full outline of unresponsiveness score [2]&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Legenda&lt;/th&gt;
+&lt;th&gt;E - Eye; M - motor; B - brain; R - respiration&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;E4&lt;/td&gt;
+&lt;td&gt;Abre os olhos, pisca e acompanha ao comando&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;E3&lt;/td&gt;
+&lt;td&gt;Abre os olhos, mas não acompanha comando&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;E2&lt;/td&gt;
+&lt;td&gt;Abre os olhos ao chamado vigoroso&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;E1&lt;/td&gt;
+&lt;td&gt;Abre os olhos ao estímulo doloroso&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;E0&lt;/td&gt;
+&lt;td&gt;Não abre os olhos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M4&lt;/td&gt;
+&lt;td&gt;Obedece com &amp;ldquo;joinha&amp;rdquo; ou outro sinal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M3&lt;/td&gt;
+&lt;td&gt;Localiza dor/estímulo doloroso&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M2&lt;/td&gt;
+&lt;td&gt;Flexiona como resposta a dor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M1&lt;/td&gt;
+&lt;td&gt;Extende como resposta a dor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;M0&lt;/td&gt;
+&lt;td&gt;Sem movimentos ou mioclonia generalizada&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B4&lt;/td&gt;
+&lt;td&gt;Reflexos pupilar e córneo presentes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B3&lt;/td&gt;
+&lt;td&gt;Uma pupila midriática&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B2&lt;/td&gt;
+&lt;td&gt;Ausente o reflexo pupilar ou córneo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B1&lt;/td&gt;
+&lt;td&gt;Ausente o reflexo pupilar e córneo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B0&lt;/td&gt;
+&lt;td&gt;Ausente o reflexo pupilar, córneo e de tosse&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R4&lt;/td&gt;
+&lt;td&gt;Não intubado, respiração regular&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R3&lt;/td&gt;
+&lt;td&gt;Não intubado, respiração de Cheyne-Stokes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R2&lt;/td&gt;
+&lt;td&gt;Não intubado, respiração irregular&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R1&lt;/td&gt;
+&lt;td&gt;Respira acima do ritmo de ventilador&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R0&lt;/td&gt;
+&lt;td&gt;Respira no ritmo do ventilar ou em apneia&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;MOTES, Arunee. &lt;strong&gt;Monitoring sedation during mechanical ventilation&lt;/strong&gt;. The Southwest Respiratory and Critical Care Chronicles, v. 10, n. 45, p. 19-27, 2022.&lt;/li&gt;
+&lt;li&gt;Almojuela A, Hasen M, Zeiler FA. &lt;strong&gt;The Full Outline of UnResponsiveness (FOUR) Score and Its Use in Outcome Prediction: A Scoping Systematic Review of the Adult Literature&lt;/strong&gt;. Neurocrit Care. 2019 Aug;31(1):162-175. doi: 10.1007/s12028-018-0630-9. PMID: 30411302.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -3218,6 +3310,7 @@ $$&lt;/p&gt;
 TFG = 175 \frac {(1.212_{negro} \wedge 1_{demais}) (0.742_{mulher} \wedge 1_{homem})} {cr^{-1.154} i^{-0.203}}
 $$&lt;/p&gt;
 &lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; é a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos completos. A constante de 175 era originalmente 185 e foi alterada por uma revisão do estudo[2].&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Cockcroft DW, Gault MH. &lt;strong&gt;Prediction of creatinine clearance from serum creatinine&lt;/strong&gt;. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.&lt;/li&gt;

@@ -85,6 +85,7 @@ window.addEventListener('scroll', function() {
 <article>
 <br>
 <br>
+  <h1>Arquivos</h1>
 <script>
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
@@ -127,6 +128,10 @@ window.addEventListener('scroll', function() {
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'café' ;
   }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
     lighswitch.innerHTML = 'noite' ;
@@ -150,6 +155,11 @@ window.addEventListener('scroll', function() {
       localStorage.setItem('tema', '3'); 
 
     } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
       lighswitch.innerHTML = 'noite'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 

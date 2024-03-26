@@ -69,12 +69,20 @@ Regras de estilo:
   --fonte-comedia: "Bangers";
   --largura-texto: calc(650px + 10vw);
   --clipHeading: text; 
+  --corFundoSelecao: tomato;
+  --corSelecao: black;
+}
+
+::selection {
+    background-color: var(--corFundoSelecao); 
+    color: var(--corSelecao);
 }
 
 :root[data-tema="0"] { /* noite */
+  --corMark: black;
   --corProgressBar: tomato;
-  --imageBackgroundHeadings: var(--h2-gradiente); 
-  --h2Cor: transparent;
+  --imageBackgroundHeadings: var(--corH2-gradiente); 
+  --corH2: transparent;
   --bordasHeading: none;
   --fundoHeading: none;
   --fundoCode: #303030;
@@ -82,11 +90,13 @@ Regras de estilo:
   --highlightCor: #FFE500;
   --barra-selecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
-  --h2-gradiente: linear-gradient(90deg, #4b83f0, #6b7ce1, #8776d4, #ab6fb4, #be6b98, #d96570, #d56676);
+  --corH2-gradiente: linear-gradient(90deg, #4b83f0, #6b7ce1, #8776d4, #ab6fb4, #be6b98, #d96570, #d56676);
   --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
-  --h1: var(--amarelo-google);
-  --h2: var(--letragradiente-dark);
+  --corH1: var(--amarelo-google);
+  /*
+  --corH2: var(--letragradiente-dark);
+  */
   --corH3: tomato;
   --corNegrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
@@ -115,16 +125,17 @@ Regras de estilo:
   --link-hover: white ;
   --termo: tomato ;
   --link-barra: var(--tomato-gemini);
-  /*
-  */
   --fundo: #22272e; 
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
   --sombra: #353535;
 }
 :root[data-tema="1"] {/* árido */
+  --corFundoSelecao: black;
+  --corSelecao: tomato;
+  --corMark: black;
   --displayFigurasFundo: none;
-  --imageBackgroundHeadings: var(--h2-gradiente); 
-  --h2Cor: transparent;
+  --imageBackgroundHeadings: var(--corH2-gradiente); 
+  --corH2: transparent;
   --corProgressBar: var(--corNegrito);
   --bordasHeading: none;
   --fundoHeading: none;
@@ -134,12 +145,11 @@ Regras de estilo:
   --barra-selecionado: #3864da;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
-  --h2-gradiente: linear-gradient(90deg, darkred, var(--highlightCor), red);
+  --corH2-gradiente: linear-gradient(90deg, darkred, var(--highlightCor), red);
   --fundoImagem: url('pix/day.jpg'); 
   --hover-botao: #904500 ;
-  --h2: #4E342E;
-  --h1: #424242;
-  --corH3: #455A64;
+  --corH1: black;
+  --corH3: darkred;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: indigo;
@@ -178,6 +188,7 @@ Regras de estilo:
   --sticker-font: var(--fundo-invertido) ;
   --termo: var(--azul-estadao);
 }
+
 :root[data-tema="2"] { /* café */
   /*
   --corBotao: #ebc9a9 ;
@@ -185,13 +196,14 @@ Regras de estilo:
   --fundo: #FFECB3; 
   --strong-color: #101010;
   */
+  --corMark: black;
   --bordasCalculadoras: 1px solid var(--fonte);
   --links: darkred;
   --temaFonte: "Georgia", serif;
   --displayFigurasFundo: none;
   --corProgressBar: var(--madeira);
-  --imageBackgroundHeadings: var(--h2-gradiente); 
-  --h2Cor: transparent;
+  --imageBackgroundHeadings: var(--corH2-gradiente); 
+  --corH2: transparent;
   --bordasHeading: none;
   --fundoHeading: none;
   --fundoCode: peru;
@@ -200,11 +212,11 @@ Regras de estilo:
   --barra-selecionado: black;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
-  --h2-gradiente: linear-gradient(90deg, #5b3027, var(--madeira), darkred);
+  --corH2-gradiente: linear-gradient(90deg, #5b3027, var(--madeira), darkred);
   --fundoImagem: url('pix/cafe.jpg'); 
   --hover-botao: #904500 ;
-  --h2: #4E342E;
-  --h1: #424242;
+  --corH2: #4E342E;
+  --corH1: #424242;
   --corH3: #455A64;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
@@ -235,20 +247,21 @@ Regras de estilo:
   --sticker-font: var(--fundo-invertido) ;
   --termo: darkred;
 }
-
 :root[data-tema="3"] { /* comics */
   /*
   --fundo: #cc866a ; 
   --fundo: #FFECB3; 
   --strong-color: #101010;
   */
+  --bordaLinksBarra: 1px solid black;
+  --corMark: black;
   --temaFonte: 'comic sans ms' , sans-serif;
   --corProgressBar: var(--vermelhoDailyBeast);
   --fundoBarra: var(--vermelhoDailyBeast);
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundoImagem: var(--gradfundo);
   --imageBackgroundHeadings: none; 
-  --h2Cor: black;
+  --corH2: black;
   --bordasHeadings: 1px solid black ;
   --clipHeading: none; 
   --bordasHeading: 1px solid black;
@@ -259,7 +272,7 @@ Regras de estilo:
   --fundoSticker: none;
   --raioCampos: 0px; 
   --sombraCaixas: black 5px 5px 0px -1px;
-  --sombraImagens: var(--sombraCaixas);
+  --sombraImagens: none;
   --raioBordas: none;
   --bordasCalculadoras: 2px solid black;
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #ff000010 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ff000010, transparent 75%)) ;
@@ -270,11 +283,8 @@ Regras de estilo:
   --barra-selecionado: white;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, gray, white, tan);
-  --h2-gradiente: linear-gradient(90deg, var(--frase), var(--azul-google), var(--verde-servo));
+  --corH2-gradiente: linear-gradient(90deg, var(--frase), var(--azul-google), var(--verde-servo));
   --background-img: url('pix/day.jpg'); 
-  --h2: #4E342E;
-  --h1: #424242;
-  --corH3: black;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
   --code-text: darkred;
@@ -299,6 +309,60 @@ Regras de estilo:
   --autor: white;
   --sticker-font: brown;
   --termo: var(--verde-google);
+}
+:root[data-tema="4"] { /* papel */
+  --bordaEtiqueta: 1px solid black;
+  --corMark: white;
+  --bordaLinksBarra: 1px solid black;
+  --temaFonte:  'Noto sans';
+  --corProgressBar: black;
+  --imageBackgroundHeadings: none; 
+  --corH2: black;
+  --bordasHeading: none;
+  --fundoHeading: none;
+  --fundoCode: gray ;
+  --barraRolagem: black;
+  --highlightCor: #000012 ;
+  --barra-selecionado: black;
+  --fundo-card: linear-gradient(85deg,#101010,#262626);
+  --corH2-gradiente: black;
+  --background-img: none; 
+  --hover-botao: var(--azul-escuro-google);
+  --corH1: black ;
+  --corH2: black ;
+  --corH3: blue;
+  --corNegrito: black; 
+  --switch-shadow: -2px 1px 10px #ffffff;
+  --fundo-carousel: none;
+  --code-text: black;
+  --strong-color: green ;
+  --texto-dim: #555555;
+  --letragradiente: white;
+  --katex-color: var(--fonte);
+  --corBotao: var(--fundo-input);
+  --hoverBotao: #2e2c35;
+  --headings: navajowhite ;
+  --corBordas: #383f48 ;
+  --fundo-invertido: var(--white-solarized) ;
+  --fundo-input: lightgray ;
+  --separador: #383f48 ;
+  --fonte: black;
+  --fonteInvertida: white;
+  --frase: gray ;
+  --fraseShow: black ;
+  --fraseHover: gray;
+  --autor: var(--fundo);
+  --sticker-fundo: var(--gradiente-dark) ;
+  --links: blue ;
+  --links-visitados: darkblue ;
+  --link-hover: gray ;
+  --termo: darkred;
+  --link-barra: black ;
+  /*
+  */
+  --fundo: white; 
+  --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
+  --sombra: #353535;
 }
 
 body {
@@ -342,6 +406,7 @@ a#switch {
   box-shadow: none;
   color: var(--corNegrito);
   */
+  border: var(--bordaLinksBarra);
   background: var(--fundoBarra);
   box-shadow: var(--sombraCaixas);
   padding-right: 12px;
@@ -434,8 +499,8 @@ p#resultado {
 }
 .etiqueta {
   /*
-  border: 1px solid var(--corBordas);
   */
+  border: var(--bordaEtiqueta);
   overflow: wrap;
   margin-left: 5vw;
   padding: 0.5em;
@@ -448,6 +513,13 @@ p#resultado {
   color: var(--sticker-font); 
   font-weight: normal;
   transition: color 4s ease-in-out, font-weight 2s ease-in-out;
+}
+.etiqueta::before,
+.etiqueta::after {
+  /*
+  content: ' "';
+  font-size: 200%;
+  */
 }
 .etiqueta:hover{
   color: var(--strong-color);
@@ -574,7 +646,7 @@ h1, h3, h2 {
   background-image: var(--imageBackgroundHeadings);
   -webkit-background-clip: var(--clipHeading);
   background-color: var(--fundoHeading);
-  color: var(--h2Cor); 
+  color: var(--corH2); 
   border: var(--bordasHeadings);
   font-weight: bold;  
   box-shadow: var(--sombraCaixas);
@@ -594,7 +666,7 @@ h1, h3, h2 {
 h2 {
   /*
   font-family: "Bangers";
-  color: var(--h2);
+  color: var(corH2);
   */
   margin-top: 3rem;
 }
@@ -606,11 +678,11 @@ h2::before {
   color: var(--strong-color);
 }
 h1 {
-  color: var(--h1);
-  margin-left: 25vw;
+  color: var(--corH1);
+  margin-left: 5vw;
   padding: 0em;
-  padding-top: 1em;
-  font-size: 120%;
+  margin-top: 1em;
+  font-size: 150%;
 }
 h3 {
   color: var(--corH3);
@@ -1477,7 +1549,8 @@ nav#TableOfContents li:last-child::before {
   font-size: 110%;
   font-weight: normal;
   padding-left: 10px;
-  border: none;
+  padding-right: 5px;
+  border: var(--bordaLinksBarra);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
   font-feature-settings: "kern" 1;
@@ -1494,6 +1567,7 @@ nav#TableOfContents li:last-child::before {
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
   /* 
+  background: var(--fundo-invertido);
   */
   color: var(--corNegrito);
 }
@@ -1787,6 +1861,7 @@ div#counter {
 }
 
 mark {
+  color: var(--corMark);
   background-color: var(--highlightCor);
   position: relative;
   white-space: nowrap;

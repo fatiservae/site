@@ -111,6 +111,7 @@ window.addEventListener('scroll', function() {
 <article>
 <br>
 <br>
+  <h1>Taxa de filtração glomerular: MDRD e Cockcroft-Gault</h1>
 <script>
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
@@ -153,6 +154,10 @@ window.addEventListener('scroll', function() {
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'café' ;
   }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
     lighswitch.innerHTML = 'noite' ;
@@ -176,6 +181,11 @@ window.addEventListener('scroll', function() {
       localStorage.setItem('tema', '3'); 
 
     } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
       lighswitch.innerHTML = 'noite'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
@@ -276,6 +286,7 @@ $$</p>
 TFG = 175 \frac {(1.212_{negro} \wedge 1_{demais}) (0.742_{mulher} \wedge 1_{homem})} {cr^{-1.154} i^{-0.203}}
 $$</p>
 <p>Onde <strong><em>cr</em></strong> é a creatinina sérica em mg/dL e <strong><em>i</em></strong> a idade em anos completos. A constante de 175 era originalmente 185 e foi alterada por uma revisão do estudo[2].</p>
+<hr>
 <h2 id="referências">Referências</h2>
 <ol>
 <li>Cockcroft DW, Gault MH. <strong>Prediction of creatinine clearance from serum creatinine</strong>. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.</li>
