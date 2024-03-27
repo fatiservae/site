@@ -37,7 +37,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Na medicina, o diagnóstico é fruto de testes ajustados em sequência.
+  <meta name="description" content="Introdução Na medicina, o diagnóstico é fruto de testes ajustados em sequência.
 Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.
 Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.
 Primeiro contexto: paciente aleatório de uma determinada população A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.">
@@ -105,7 +105,9 @@ window.addEventListener('scroll', function() {
 <article>
 <br>
 <br>
+
   <h1>Estatística bayesiana para o diagnóstico médico</h1>
+
 <script>
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
@@ -194,9 +196,27 @@ window.addEventListener('scroll', function() {
 </script>
 
 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introdução">Introdução</a></li>
+    <li><a href="#primeiro-contexto-paciente-aleatório-de-uma-determinada-população">Primeiro contexto: paciente aleatório de uma determinada população</a></li>
+    <li><a href="#segundo-contexto-o-paciente-aleatório-faz-um-exame-ou-tem-um-sintoma">Segundo contexto: o paciente aleatório faz um exame ou tem um sintoma</a>
+      <ul>
+        <li><a href="#exemplo-concreto">Exemplo concreto</a></li>
+      </ul>
+    </li>
+    <li><a href="#terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco">Terceiro contexto: um estudo foi feito para determinar fatores de risco</a></li>
+    <li><a href="#o-nomograma-de-fagan">O nomograma de Fagan</a></li>
+    <li><a href="#calculadora-para-teste-positivo">Calculadora para teste positivo</a></li>
+    <li><a href="#notas">Notas</a></li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
 
 
-  <p>Na medicina, o diagnóstico é fruto de testes ajustados em sequência.</p>
+
+  <h2 id="introdução">Introdução</h2>
+<p>Na medicina, o diagnóstico é fruto de testes ajustados em sequência.</p>
 <p>Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.</p>
 <p>Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.</p>
 <h2 id="primeiro-contexto-paciente-aleatório-de-uma-determinada-população">Primeiro contexto: paciente aleatório de uma determinada população</h2>
@@ -242,7 +262,7 @@ $$</p>
 <p>$p(B\mid A)p(A)$ são todos os positivos verdadeiros expressos em probabilidade; e</p>
 <p>$p(B\mid ¬A)p(¬A)$ são todos os falsos positivos, em probabilidade.</p>
 <h3 id="exemplo-concreto">Exemplo concreto</h3>
-<p>Atualmente em Brasília (2024), estamos vivendos um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.</p>
+<p>Atualmente em Brasília (2024), estamos vivendo um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.</p>
 <p>$$
 prevalência = \frac{72600}{2.817.381} \approx 0.026
 $$</p>
@@ -255,17 +275,18 @@ p(Dengue\mid dor) = \frac{p(dor\mid Dengue) p(Dengue)}{p(dor\mid Dengue)p(Dengue
 $$</p>
 <p>Resolvendo o denominador para facilitar:</p>
 <p>$$
-p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.98*0.026 + 0.01*0.934
+p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.85*0.026 + 0.01*0.934
 $$</p>
 <p>$$
-\approx 0.035
+\approx 0.031
 $$</p>
 <p>Já que a probabilidade de se ter dor retro-orbitária sem dengue é de 0.01 e a <em>&ldquo;prevalência de não-dengue&rdquo;</em> é de $1 - 0.026$, ou melhor, 0.934.</p>
 <p>Então:</p>
 <p>$$
-p(Dengue\mid dor) = \frac{0.85*0.026}{0.035} \approx 0.63
+p(Dengue\mid dor) = \frac{0.85*0.026}{0.031} \approx 0.71
 $$</p>
-<p>Ou seja, <strong>temos 63% de chance deste paciente ter dengue</strong>. Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.</p>
+<p>Ou seja, <strong>temos <mark>71%</mark> de chance deste paciente ter dengue!</strong></p>
+<p>Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.</p>
 <h2 id="terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco">Terceiro contexto: um estudo foi feito para determinar fatores de risco</h2>
 <p>Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.</p>
 <p>Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.</p>

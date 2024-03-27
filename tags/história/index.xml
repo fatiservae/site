@@ -266,8 +266,9 @@
 		<pubDate>Thu, 21 Mar 2024 21:47:16 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/neoplasias/</guid>
-		<description>&lt;table&gt;
-    &lt;caption&gt;NEOPLASIAS&lt;/caption&gt;
+		<description>&lt;br&gt;
+&lt;br&gt;
+&lt;table&gt;
     &lt;thead&gt;
         &lt;th&gt;Linhagem histogenética&lt;/th&gt;
         &lt;th&gt;Benigna&lt;/th&gt;
@@ -607,7 +608,8 @@ https://github.com/itsjoesullivan
 		<pubDate>Sat, 09 Mar 2024 17:43:11 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/</guid>
-		<description>&lt;p&gt;Na medicina, o diagnóstico é fruto de testes ajustados em sequência.&lt;/p&gt;
+		<description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;Na medicina, o diagnóstico é fruto de testes ajustados em sequência.&lt;/p&gt;
 &lt;p&gt;Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.&lt;/p&gt;
 &lt;p&gt;Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.&lt;/p&gt;
 &lt;h2 id=&#34;primeiro-contexto-paciente-aleatório-de-uma-determinada-população&#34;&gt;Primeiro contexto: paciente aleatório de uma determinada população&lt;/h2&gt;
@@ -653,7 +655,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$p(B\mid A)p(A)$ são todos os positivos verdadeiros expressos em probabilidade; e&lt;/p&gt;
 &lt;p&gt;$p(B\mid ¬A)p(¬A)$ são todos os falsos positivos, em probabilidade.&lt;/p&gt;
 &lt;h3 id=&#34;exemplo-concreto&#34;&gt;Exemplo concreto&lt;/h3&gt;
-&lt;p&gt;Atualmente em Brasília (2024), estamos vivendos um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.&lt;/p&gt;
+&lt;p&gt;Atualmente em Brasília (2024), estamos vivendo um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.&lt;/p&gt;
 &lt;p&gt;$$
 prevalência = \frac{72600}{2.817.381} \approx 0.026
 $$&lt;/p&gt;
@@ -666,17 +668,18 @@ p(Dengue\mid dor) = \frac{p(dor\mid Dengue) p(Dengue)}{p(dor\mid Dengue)p(Dengue
 $$&lt;/p&gt;
 &lt;p&gt;Resolvendo o denominador para facilitar:&lt;/p&gt;
 &lt;p&gt;$$
-p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.98*0.026 + 0.01*0.934
+p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.85*0.026 + 0.01*0.934
 $$&lt;/p&gt;
 &lt;p&gt;$$
-\approx 0.035
+\approx 0.031
 $$&lt;/p&gt;
 &lt;p&gt;Já que a probabilidade de se ter dor retro-orbitária sem dengue é de 0.01 e a &lt;em&gt;&amp;ldquo;prevalência de não-dengue&amp;rdquo;&lt;/em&gt; é de $1 - 0.026$, ou melhor, 0.934.&lt;/p&gt;
 &lt;p&gt;Então:&lt;/p&gt;
 &lt;p&gt;$$
-p(Dengue\mid dor) = \frac{0.85*0.026}{0.035} \approx 0.63
+p(Dengue\mid dor) = \frac{0.85*0.026}{0.031} \approx 0.71
 $$&lt;/p&gt;
-&lt;p&gt;Ou seja, &lt;strong&gt;temos 63% de chance deste paciente ter dengue&lt;/strong&gt;. Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.&lt;/p&gt;
+&lt;p&gt;Ou seja, &lt;strong&gt;temos &lt;mark&gt;71%&lt;/mark&gt; de chance deste paciente ter dengue!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.&lt;/p&gt;
 &lt;h2 id=&#34;terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco&#34;&gt;Terceiro contexto: um estudo foi feito para determinar fatores de risco&lt;/h2&gt;
 &lt;p&gt;Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.&lt;/p&gt;
 &lt;p&gt;Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.&lt;/p&gt;
@@ -1021,8 +1024,61 @@ table{
 		<pubDate>Wed, 14 Feb 2024 10:39:08 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/vieses/</guid>
-		<description>&lt;h2 id=&#34;códex&#34;&gt;Códex&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;introdução-ao-códex&#34;&gt;Introdução ao códex&lt;/h2&gt;
+&lt;p&gt;Esta página está em construção!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;../../pix/codex-vieses.jpg&#34;&gt;Clique aqui&lt;/a&gt; para visualizar a imagem grande dos viéses.&lt;/p&gt;
+&lt;h2 id=&#34;modificamos-e-reforçamos-certas-memórias-após-os-fatos&#34;&gt;Modificamos e reforçamos certas memórias após os fatos&lt;/h2&gt;
+&lt;h3 id=&#34;efeito-de-espaçamento&#34;&gt;Efeito de espaçamento&lt;/h3&gt;
+&lt;h3 id=&#34;sugestividade&#34;&gt;Sugestividade&lt;/h3&gt;
+&lt;h3 id=&#34;falsa-lembrança&#34;&gt;Falsa lembrança&lt;/h3&gt;
+&lt;h3 id=&#34;criptomnésia&#34;&gt;Criptomnésia&lt;/h3&gt;
+&lt;h3 id=&#34;confusão-sobre-a-fonte&#34;&gt;Confusão sobre a fonte&lt;/h3&gt;
+&lt;h3 id=&#34;erro-de-atribuição-de-origem&#34;&gt;Erro de atribuição de origem&lt;/h3&gt;
+&lt;h2 id=&#34;preferimos-opções-que-pareçam-simples-ou-tenham-informações-mais-completas-com-opções-mais-complexas-ou-ambíguas&#34;&gt;Preferimos opções que pareçam simples ou tenham informações mais completas com opções mais complexas ou ambíguas&lt;/h2&gt;
+&lt;h3 id=&#34;efeito-menos-é-melhor&#34;&gt;Efeito menos é melhor&lt;/h3&gt;
+&lt;h3 id=&#34;navalha-de-ockam&#34;&gt;Navalha de Ockam&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A explicação mais simples é provavelmente a mais correta.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../farsa-ockham/&#34;&gt;Eu discordo deste viés&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;erro-de-conjunção&#34;&gt;Erro de conjunção&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-delmore&#34;&gt;Efeito Delmore&lt;/h3&gt;
+&lt;h3 id=&#34;lei-de-parkinson-e-a-gestão-do-tempo&#34;&gt;Lei de Parkinson e a gestão do tempo&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-abrigo-de-bicicleta-lei-da-trivialidade&#34;&gt;Efeito abrigo de bicicleta (lei da trivialidade)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A futilidade é mais debatível que a sofisticação.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para construção de um reator nuclear poucos podem opinar e, portanto, a deliberação se torna objetiva. Para a construção de um abrigo de bicicletas qualquer um pode opinar e, por consequência, as discussões serão intermináveis.&lt;/p&gt;
+&lt;h3 id=&#34;efeito-_rima-portanto-é-bom_&#34;&gt;Efeito &lt;em&gt;rima portanto é bom&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;viés-de-crença&#34;&gt;Viés de crença&lt;/h3&gt;
+&lt;h3 id=&#34;víes-de-informação&#34;&gt;Víes de informação&lt;/h3&gt;
+&lt;h3 id=&#34;viés-de-ambiguidade&#34;&gt;Viés de ambiguidade&lt;/h3&gt;
+&lt;h2 id=&#34;para-evitar-erros-tendemos-a-preservar-nossa-autonomia-e-status-de-grupo-e-evitar-decisões-irreversíveis&#34;&gt;Para evitar erros, tendemos a preservar nossa autonomia e status de grupo e evitar decisões irreversíveis&lt;/h2&gt;
+&lt;h3 id=&#34;viés-do-status-quo&#34;&gt;Viés do status quo&lt;/h3&gt;
+&lt;h3 id=&#34;viés-de-comparação-social&#34;&gt;Viés de comparação social&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-de-domínio&#34;&gt;Efeito de domínio&lt;/h3&gt;
+&lt;h3 id=&#34;reatância-psicológica&#34;&gt;Reatância psicológica&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Quando percebemos a persuasão, tendemos a reafirmar nossa opinião ou radicalizar para evitar nos sentirmos coagidos.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quando um cliente percebe estar sendo persuadido na compra de um produto, tende a rejeitá-lo ou comprar o concorrente, apenas para manter a sensação de liberdade.&lt;/p&gt;
+&lt;h3 id=&#34;psicologia-reversa&#34;&gt;Psicologia reversa&lt;/h3&gt;
+&lt;h3 id=&#34;justificação-do-sistema&#34;&gt;Justificação do sistema&lt;/h3&gt;
+&lt;h2 id=&#34;tendemos-a-investir-mais-em-tarefas-que-já-tiveram-algum-investimento-energético-ou-de-tempo&#34;&gt;Tendemos a investir mais em tarefas que já tiveram algum investimento energético ou de tempo&lt;/h2&gt;
+&lt;h3 id=&#34;efeito-bumerangue&#34;&gt;Efeito bumerangue&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-de-doação&#34;&gt;Efeito de doação&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-tratamento-da-informação-difícil&#34;&gt;Efeito tratamento da informação difícil&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-de-pseudo-certeza&#34;&gt;Efeito de pseudo-certeza&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Tendemos a eliminar pequenos riscos do que reduzir grandes riscos pelo conforto da pseudo-certeza de termos controle.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Prefere-se o investimento no combate ao terrorismo, um evento raro, do que o mesmo valor ser alocado em educação básica, um item muito mais relevante.&lt;/p&gt;
+&lt;h3 id=&#34;efeito-de-disposição&#34;&gt;Efeito de disposição&lt;/h3&gt;
+&lt;h3 id=&#34;viés-de-risco-zero&#34;&gt;Viés de risco zero&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Evitamos o risco a todo custo, muitas vezes perdendo oportunidades de longo prazo com riscos baixos ou moderados.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;viés-da-unidade&#34;&gt;Viés da unidade&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-ikea&#34;&gt;Efeito IKEA&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Valorizamos de forma desproporcional o resultado de nosso esforço.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A loja sueca IKEA vendia móveis que os próprios consumidores montavam com preço superior aos já montados, se aproveitando do viés cognitivo dos clientes valorizarem seu próprio trabalho.&lt;/p&gt;
+&lt;h3 id=&#34;aversão-à-perda&#34;&gt;Aversão à perda&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-de-própria-geração&#34;&gt;Efeito de própria geração&lt;/h3&gt;
+&lt;h3 id=&#34;escalada-de-compromisso&#34;&gt;Escalada de compromisso&lt;/h3&gt;
+&lt;h3 id=&#34;escalada-irracional&#34;&gt;Escalada irracional&lt;/h3&gt;
+&lt;h3 id=&#34;viés-de-cuso-irrecuperável&#34;&gt;Viés de cuso irrecuperável&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;O investimento atual é grande o suficiente para nos mantermos no plano, mesmo que seja um péssimo plano&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Víes mais conhecido como teoria do frânces &lt;em&gt;Jacque&lt;/em&gt;. &amp;ldquo;Já que&amp;rdquo; já estou aqui, continuo! kkkkk&lt;/p&gt;
 </description>
 	</item>
 	
@@ -1430,7 +1486,7 @@ Amnésia vem do grego &lt;em&gt;mnesis&lt;/em&gt;, que signfica registo, memóri
 	</item>
 	
 	<item>
-		<title>Hanseníase</title>
+		<title>Hanseníase: resumo compreensivo</title>
 		<link>https://www.jeffersontorres.com.br/medicina/hanseniase/</link>
 		<pubDate>Sun, 07 Jan 2024 14:43:03 -0300</pubDate>
 		
@@ -2711,11 +2767,11 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 	</item>
 	
 	<item>
-		<title>Hemodinâmica</title>
-		<link>https://www.jeffersontorres.com.br/medicina/pressao-arterial/</link>
+		<title>Principais conceitos em hemodinâmica</title>
+		<link>https://www.jeffersontorres.com.br/medicina/hemodinamica/</link>
 		<pubDate>Mon, 27 Nov 2023 11:02:22 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/pressao-arterial/</guid>
+		<guid>https://www.jeffersontorres.com.br/medicina/hemodinamica/</guid>
 		<description>&lt;h2 id=&#34;frequência-cardíaca&#34;&gt;Frequência cardíaca¹&lt;/h2&gt;
 &lt;p&gt;$$
 50bpm \leq FC_{normal} \leq 100bpm
