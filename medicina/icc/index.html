@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Manejo de descompensação em insuficiência cardíaca | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="ESTA PÁGINA ESTÁ EM CONSTRUÇÃO ICC nova vs. doença descompensada O paciente com ICC nova, diagnosticada na emergência se apresenta com sintomatologia mais pulmonar, como dispneia, asculta grosseira ou com creptação e dessaturação periférica.
+Por outro lado, aquele que já tem diagnóstico e descompensa tem sinais sistêmicos como edemas, congestão generalizada e hipervolemia. Também traz história compatível, como:
+Ingesta excessiva de sal e água; Consumo excessivo de álcool e uso de drogas ilícitas; Temperatura ambiente elevada; Doenças descompensadoras da IC¹; Falta de aderência ao tratamento e/ou falta de acesso ao medicamento; Esforço físico excessivo; Fibrilação atrial aguda ou outras taquiarritmias/bradiarritmias; Sobrecarga de líquidos IV durante a internação ou em internação recente; Intoxicação digitálica; Drogas que retém água ou inibem prostaglandinas: AINEs, esteroides, estrógenos, andrógenos, clorpropamida, glitazonas, minoxidil; Drogas inotrópicas negativas: antiarrítmicos do grupo I, antagonistas de cálcio (exceto amlodipina), antidepressivos tricíclicos; Drogas miocárdio-tóxicas: citostáticos como a adriamicina; Automedicação, terapias alternativas; e Fatores sociais (abandono, isolamento social).">
+  <meta name="keywords" content="Medicina, Emergência, Cardiologia">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+<link href="https://db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS" rel="stylesheet" crossorigin> 
+
+</head>
+<body>
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+window.addEventListener('scroll', function() {
+  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = scrollTop / scrollHeight * 100;
+  
+  document.getElementById('progress-bar').style.width = scrolled + '%';
+});
+</script>
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+
+  <h1>Manejo de descompensação em insuficiência cardíaca</h1>
+
+<script>
+  
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
+  }
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noite' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
+      lighswitch.innerHTML = 'noite'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+  <p style="color: black; background-color: red; width: fit-content"> ESTA PÁGINA ESTÁ EM CONSTRUÇÃO </p>
+
+<h2 id="icc-nova-vs-doença-descompensada">ICC nova vs. doença descompensada</h2>
+<p>O paciente com ICC nova, diagnosticada na emergência se apresenta com sintomatologia mais pulmonar, <strong>como dispneia, asculta grosseira ou com creptação e dessaturação periférica</strong>.</p>
+<p>Por outro lado, aquele que já tem diagnóstico e descompensa tem sinais sistêmicos como edemas, congestão generalizada e hipervolemia. Também traz história compatível, como:</p>
+<ul>
+<li>Ingesta excessiva de sal e água;</li>
+<li>Consumo excessivo de álcool e uso de drogas ilícitas;</li>
+<li>Temperatura ambiente elevada;</li>
+<li>Doenças descompensadoras da IC¹;</li>
+<li>Falta de aderência ao tratamento e/ou falta de acesso ao medicamento;</li>
+<li>Esforço físico excessivo;</li>
+<li>Fibrilação atrial aguda ou outras taquiarritmias/bradiarritmias;</li>
+<li>Sobrecarga de líquidos IV durante a internação ou em internação recente;</li>
+<li>Intoxicação digitálica;</li>
+<li>Drogas que retém água ou inibem prostaglandinas: AINEs, esteroides, estrógenos, andrógenos, clorpropamida, glitazonas, minoxidil;</li>
+<li>Drogas inotrópicas negativas: antiarrítmicos do grupo I, antagonistas de cálcio (exceto amlodipina), antidepressivos tricíclicos;</li>
+<li>Drogas miocárdio-tóxicas: citostáticos como a adriamicina;</li>
+<li>Automedicação, terapias alternativas; e</li>
+<li>Fatores sociais (abandono, isolamento social).</li>
+</ul>
+<h3 id="critérios-de-framingham">Critérios de Framingham</h3>
+<p>Em caso de suspeita de ICC descompensada, o diagnóstico é clínico através da concomitância de dois critérios maiores ou um maior e dois menores:</p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>critérios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maiores</td>
+<td>cardiomegalia, turgência jugular, refluxo hepatojugular, dispneia paroxística noturna, ortopneia, crepitações pulmonares, edema agudo de pulmão e terceira bulha (galope)</td>
+</tr>
+<tr>
+<td>Menores</td>
+<td>edema de tornozelos, tosse noturna, dispneia aos esforços, hepatomegalia, derrame pleural e frequência cardíaca acima de 120 bpm</td>
+</tr>
+</tbody>
+</table>
+<h2 id="perfis">Perfis</h2>
+<p>A classificação atualmente proposta pela Diretriz 2018 é descritiva. As letrinhas ABCL/ABCD é um <a href="../../medicina/abaixo-a-medicina/#tara-taxon%C3%B4mica">cacoete médico risível</a>. <strong>Nã́o tem essa de paciente tipo C. É paciente frio e úmido!</strong> Porém, como se trata de uma besteira em voga, é preciso saber:</p>
+<table>
+<thead>
+<tr>
+<th>Perfil</th>
+<th>Descrição</th>
+<th>Conduta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>quente e seco</td>
+<td>alta e ambulatório</td>
+</tr>
+<tr>
+<td>B</td>
+<td>quente e úmido</td>
+<td>terapia diurética</td>
+</tr>
+<tr>
+<td>C</td>
+<td>frio e úmido</td>
+<td>terapias diurética e inotrópica</td>
+</tr>
+<tr>
+<td>L/D</td>
+<td>frio e seco</td>
+<td>fluidoterapia parcimoniosa</td>
+</tr>
+</tbody>
+</table>
+<h2 id="manejo-imediato">Manejo imediato</h2>
+<p>
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+    
+    
+    
+      <div class="legend"><p>ICC crônica agudizada</p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/icc-agudizada.png">
+          <img src="../../pix/medicina/icc-agudizada.png"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>ICC aguda nova</p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/icc-aguda-nova.png">
+          <img src="../../pix/medicina/icc-aguda-nova.png"></img>
+        </a>
+      </div>
+    
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .slide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<br></p>
+<h3 id="terapia-inotrópica">Terapia inotrópica</h3>
+<blockquote>
+<p>Após retorno da estabilidade hemodinâmica e início do tratamento da causa, desmame dobutamina de forma extremamente lenta e cautelosa.</p>
+</blockquote>
+<h3 id="terapia-diurética">Terapia diurética</h3>
+<h3 id="vasodilatação">Vasodilatação</h3>
+<blockquote>
+<p>Vasodilate o paciente o máximo tolerável pela estabilidade hemodinâmica.
+Tolere hipotensão desde que tenha certeza clínica da boa perfusão.</p>
+</blockquote>
+<h2 id="conduta-concomitante-e-alta">Conduta concomitante e alta</h2>
+<p>Considere:</p>
+<ol>
+<li>Dosagem de peptídeo natiurético²;</li>
+<li>Ecocardiografia e eletrocardiografia;</li>
+<li>Monitorar balanços hidroeletrolíticos, função tireoideana, cinética do ferro e hematimetria;</li>
+<li>Radiografar o tórax³;</li>
+<li>Agendar reavaliação clínica preferencialmente em 7 a 14 dias após a alta;</li>
+</ol>
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>Hipertensão arterial sistêmica, tromboembolismo pulmonar, isquemia miocárdica, disfunção tireoidiana, diabetes descompensado, infecções, insuficiência renal, gravidez, depressão etc.</li>
+<li>Para esclarecimento diagnóstico <strong>se houver dúvida</strong> e para estratificação prognóstica no acompanhamento ambulatorial com o cardiologista.</li>
+<li>Avaliar a necessidade de radiografar para fins documentais do índice cardiotorácico e das condições de alta.</li>
+</ol>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Rohde LEP, Montera MW, Bocchi EA, Clausell NO, Albuquerque DC, Rassi S, Colafranceschi AS, et al. <strong>Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda</strong>. Arq. Bras. Cardiol. 2018;111(3):436-59.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_emergência" href="https://www.jeffersontorres.com.br/tags/emerg%C3%AAncia">Emergência</a> &middot; <a id="tag_cardiologia" href="https://www.jeffersontorres.com.br/tags/cardiologia">Cardiologia</a></div>
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

@@ -14,6 +14,8 @@ Regras de estilo:
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;
   */
   /* CORES */
+  --rosinhaMDN: #ff6d91;
+  --vidro: rgba(8, 8, 7, .25);
   --left-gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
   --left-gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --letragradiente-light: linear-gradient(45deg, black, darkred, var(--fonte));
@@ -56,6 +58,7 @@ Regras de estilo:
   --vermelhoDailyBeast: #ea0606;
 
   /* PROPRIEDADES */
+  --bordas: 1px solid var(--fonte);
   --corFonteBarraHover: var(--corNegrito);
   scrollbar-color: var(--barraRolagem) var(--fundo);
   --temaFonte: "Fira Sans", "Noto color emoji",  "Open Sans", 'Lato', sans-serif;
@@ -80,16 +83,17 @@ Regras de estilo:
 }
 
 :root[data-tema="0"] { /* noite */
+  --bordas: 1px solid var(--corBordas);
   --corMark: black;
   --corProgressBar: tomato;
   --imageBackgroundHeadings: var(--corH2-gradiente); 
   --corH2: transparent;
   --bordasHeading: none;
   --fundoHeading: none;
-  --fundoCode: #303030;
+  --corFundoCode: #303030;
   --barraRolagem: tomato;
   --highlightCor: #FFE500;
-  --barra-selecionado: var(--amarelo-servo);
+  --corBarraSelecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
   --corH2-gradiente: linear-gradient(90deg, #4b83f0, #6b7ce1, #8776d4, #ab6fb4, #be6b98, #d96570, #d56676);
   --background-img: url('pix/night.jpg'); 
@@ -102,13 +106,13 @@ Regras de estilo:
   --corNegrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
-  --code-text: navajowhite;
+  --corTextoCode: navajowhite;
   --strong-color: navajowhite ;
   --texto-dim: #555555;
   --letragradiente: white;
   --katex-color: var(--fonte);
   --corBotao: var(--fundo-input);
-  --hoverBotao: #2e2c35;
+  --corFundoHoverBotao: #2e2c35;
   --headings: navajowhite ;
   --corBordas: #383f48 ;
   --fundo-invertido: var(--white-solarized) ;
@@ -131,6 +135,7 @@ Regras de estilo:
   --sombra: #353535;
 }
 :root[data-tema="1"] {/* árido */
+  --corFonteBotao: black;
   --gradfundo: linear-gradient(to top, #d4ab86, #e2725b );
   --corFundoSelecao: black;
   --corSelecao: tomato;
@@ -141,10 +146,10 @@ Regras de estilo:
   --corProgressBar: var(--corNegrito);
   --bordasHeading: none;
   --fundoHeading: none;
-  --fundoCode: tan;
+  --corFundoCode: tan;
   --barraRolagem: black;
   --highlightCor: #b0132d ;
-  --barra-selecionado: #3864da;
+  --corBarraSelecionado: #3864da;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
   --corH2-gradiente: linear-gradient(90deg, darkred, var(--highlightCor), red);
@@ -159,7 +164,7 @@ Regras de estilo:
   --corH3: darkred;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
-  --code-text: indigo;
+  --corTextoCode: indigo;
   --corNegrito: #b0132d ;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
@@ -167,8 +172,9 @@ Regras de estilo:
   /*
   --corBotao: #ebc9a9 ;
   */
-  --corBotao: none ;
-  --hoverBotao: #deadbb ;
+  --corBotao: black ;
+  --corFonteBotao: white;
+  --corFundoHoverBotao: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
   /*
@@ -205,9 +211,10 @@ Regras de estilo:
   --corH1: #424242;
   --corH3: #455A64;
   */
+
   --corMark: black;
   --bordasCalculadoras: 1px solid var(--fonte);
-  --temaFonte: "Georgia", serif;
+  --temaFonte: serif ;
   --displayFigurasFundo: none;
   --corProgressBar: var(--madeira);
   --corH2-gradiente: linear-gradient(90deg, #5b3027, var(--madeira), darkred);
@@ -215,23 +222,24 @@ Regras de estilo:
   --corH2: transparent ;
   --bordasHeading: none;
   --fundoHeading: none;
-  --fundoCode: peru;
+  --corFundoCode: rgba(200, 80, 50, .5);
   --barraRolagem: black;
   --highlightCor: var(--corNegrito);
-  --barra-selecionado: black;
+  --corBarraSelecionado: black;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
   --fundoImagem: url('pix/cafe.jpg'); 
   --hover-botao: #904500 ;
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
-  --code-text: indigo;
+  --corTextoCode: indigo;
   --corNegrito: darkred;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
-  --corBotao: none ;
-  --hoverBotao: #deadbb ;
+  --corBotao: darksalmon ;
+  --corFonteBotao: black;
+  --corFundoHoverBotao: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
   --fundo: #a57c51 ;
@@ -259,6 +267,7 @@ Regras de estilo:
   --fundo: #FFECB3; 
   --strong-color: #101010;
   */
+  --corHoverBotao: var(--vermelhoDailyBeast);
   --fundo: #cc866a ; 
   --corFonteBarraHover: white;
   --corFundoBarraHover: black;
@@ -271,32 +280,34 @@ Regras de estilo:
   --fundoImagem: var(--gradfundo);
   --imageBackgroundHeadings: none; 
   --corH2: black;
+  --corH3: black;
   --bordasHeadings: 1px solid black ;
   --clipHeading: none; 
   --bordasHeading: 1px solid black;
   --fundoHeading: var(--vermelhoDailyBeast);
-  --corBotao: none;
-  --hoverBotao: var(--vermelhoDailyBeast);
+  --corBotao: var(--vermelhoDailyBeast);
+  --corFonteBotao: black ;
+  --corFundoHoverBotao: black;
   --bordasButao: none;
   --fundoSticker: none;
   --raioCampos: 0px; 
   --sombraCaixas: black 5px 5px 0px -1px;
   --sombraImagens: none;
-  --raioBordas: none;
+  --raioBordas: 0px;
   --bordasCalculadoras: 2px solid black;
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #ff000010 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ff000010, transparent 75%)) ;
-  --fundoCode: darkgray;
+  --corFundoCode: rgba(10, 50, 50, .5);
   --barraRolagem: black;
   --highlightCor: var(--vermelhoDailyBeast);
   --corNegrito: darkred ;
-  --barra-selecionado: white;
+  --corBarraSelecionado: white;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, gray, white, tan);
   --corH2-gradiente: linear-gradient(90deg, var(--frase), var(--azul-google), var(--verde-servo));
   --background-img: url('pix/day.jpg'); 
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
-  --code-text: darkred;
+  --corTextoCode: skyblue ;
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: brown ;
@@ -331,10 +342,10 @@ Regras de estilo:
   --corH2: black;
   --bordasHeading: none;
   --fundoHeading: none;
-  --fundoCode: gray ;
+  --corFundoCode: gray ;
   --barraRolagem: black;
   --highlightCor: #000012 ;
-  --barra-selecionado: black;
+  --corBarraSelecionado: var(--azul-gemini);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
   --corH2-gradiente: black;
   --background-img: none; 
@@ -345,13 +356,14 @@ Regras de estilo:
   --corNegrito: black; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
-  --code-text: black;
+  --corTextoCode: black;
   --strong-color: green ;
   --texto-dim: #555555;
   --letragradiente: white;
   --katex-color: var(--fonte);
   --corBotao: var(--fundo-input);
-  --hoverBotao: #2e2c35;
+  --corFundoHoverBotao: #2e2c35;
+  --corHoverBotao: white;
   --headings: navajowhite ;
   --corBordas: #383f48 ;
   --fundo-invertido: var(--white-solarized) ;
@@ -375,6 +387,8 @@ Regras de estilo:
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
   --sombra: #353535;
 }
+title {
+}
 
 body {
 /*
@@ -387,7 +401,7 @@ body {
 */
   font-family: var(--temaFonte);
   font-weight: light;
-  background: var(--fundo);
+  background-color: var(--fundo);
   background-image: var(--fundoImagem);
   background-attachment: fixed;
   color: var(--fonte) ;
@@ -402,6 +416,28 @@ body {
   }
 }
 
+blockquote {
+  /*
+  border-left: 1px solid var(--fonte);
+  border: var(--bordasCalculadoras);
+  */
+  padding: 0vw;
+  margin-left: 5vw;
+  box-shadow: var(--sombraCaixas);
+  border-radius: var(--raioBordas);
+  background-color: var(--vidro);
+  max-width: 88vw;
+  width: fit-content; 
+}
+blockquote p {
+  font-style: italic;
+  margin: 8px;
+}
+blockquote p::before,
+blockquote p::after {
+  content: '"';
+  font-size: 150%;
+}
 #switch {
   /*
   position: absolute;
@@ -580,7 +616,7 @@ div#code{
   */
   text-indent: 3%;
   font-family: monospace;
-  color: var(--code-text); 
+  color: var(--corTextoCode); 
 }
 pre{
   margin-left: 5vw;
@@ -589,15 +625,20 @@ pre{
   border-radius: 10px;
   border: 1px solid var(--corBordas);
   max-width: var(--largura-texto);
-  background-color: var(--fundoCode) ;
+  background-color: var(--corFundoCode) ;
   white-space: pre-wrap;
 }
-code {
+code, 
+pre code {
   border-radius: 5px;
-  background-color: var(--fundoCode) ;
+  background-color: transparent ;
   font-family: monospace;
   font-size: 90% ; 
-  color: var(--code-text);
+  color: var(--corTextoCode);
+}
+code {
+  background-color: var(--corFundoCode) ;
+  color: var(--fonte);
 }
 p code::after, 
 p code::before {
@@ -676,7 +717,7 @@ h1, h3, h2 {
   text-indent: 0% ;
   font-weight: bold;
   text-align: start;
-  max-width: 90vw;
+  max-width: 79vw;
   width: fit-content;
 }
 h2 {
@@ -691,7 +732,6 @@ h2::before {
   content: "#  ";
   color: red;
   */
-  color: var(--strong-color);
 }
 h1 {
   color: var(--corH1);
@@ -897,126 +937,126 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
   margin: auto ;
   color: salmon ;
 }
-#tag_culinária:before { content: "🍸🍕 " ;}
-#tag_apresentações:before { content: "📽️ " ;}
-#tag_receitas:before { content: "🍅🍲 " ;}
-#tag_linux:before { content: "🐧 " ;}
-#tag_tecnologia:before { content: "📡💻 " ;}
-#tag_mecanica:before { content: "🔧⚙️ " ;}
-#tag_projetos:before { content: "👷🏽‍♂️🚧 " ;}
-#tag_arqueologia:before { content: "🗿 " ;}
-#tag_programação:before { content: "🧑🏽‍💻 " ;}
-#tag_rust:before { content: "🚀 " ;}
-#tag_filosofia:before { content: "🧠💭 " ;}
-#tag_nefrologia:before { content: "🥔 " ;}
-#tag_cardiologia:before { content: "❤️ " ;}
-#tag_pneumologia:before { content: "🫁 " ;}
-#tag_ciência:before { content: "🧪👨🏽‍🔬 " ;}
-#tag_emergência:before { content: "🚨 " ;}
-#tag_calculadoras:before { content: "🔢 " ;}
-#tag_medicina:before { content: "🩺💉 " ;}
-#tag_psicologia:before { content: "🎭 " ;}
-#tag_filosofia:before { content: "🤔 " ;}
-#tag_farmacologia:before { content: "🧪💊 " ;}
-#tag_natureza:before { content: "🐞🌻 " ;}
-#tag_pediatria:before { content: "👶 " ;}
-#tag_obstetricia:before { content: "🤰 " ;}
-#tag_inteligência:before { content: "🌐 " ;}
-#tag_guidelines:before { content: "🚩 " ;}
-#tag_viagem:before { content: "🏖️ " ;}
-#tag_destinos:before { content: "🧳 " ;}
-#tag_alcohol:before { content: "🍸 " ;}
-#tag_american:before { content: "🇺🇸 " ; }
-[id*="tag_estados"]:before { content: "🇺🇸 " ; }
-#tag_apple:before { content: "🍎 " ; }
-#tag_argentinian:before { content: "🇦🇷 " ; }
-#tag_asian:before { content: "🥢 " ; }
-#tag_australian:before { content: "🇦🇺 " ;}
-#tag_austrian:before { content: "🇦🇹 " ;}
-#tag_bacon:before { content: "🥓 " ; }
-#tag_beans:before { content: "🫘 " ; }
-#tag_beef:before { content: "🐄 " ; }
-#tag_belgian:before { content: "🇧🇪 " ; }
-#tag_brasil:before { content: "🇧🇷 " ; }
-#tag_bread:before { content: "🍞 " ;}
-#tag_breakfast:before { content: "🌅 " ;}
-#tag_broccoli:before { content: "🥦 " ;}
-#tag_cake:before { content: "🍰 " ; }
-#tag_cheese:before { content: "🧀 " ; }
-#tag_chicken:before { content: "🐔 " ;}
-#tag_chinese:before { content: "🐉 " ; }
-#tag_chocolate:before { content: "🍫 " ; }
-#tag_christmas:before { content: "🎄 " ; }
-#tag_cookies:before { content: "🍪 " ;}
-#tag_corn:before { content: "🌽 " ;}
-#tag_curry:before { content: "🍛 " ; }
-#tag_dessert:before { content: "🍮 " ; }
-#tag_dominican:before { content: "🇩🇴 " ;}
-#tag_drink:before { content: "🍹 " ;}
-#tag_duck:before { content: "🦆 " ; }
-#tag_dumpling:before { content: "🥟 " ;}
-#tag_dutch:before { content: "🇳🇱 " ;}
-#tag_easter:before { content: "✝️ " ; }
-#tag_eggs:before { content: "🥚 " ; }
-#tag_english:before { content: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 " ; }
-#tag_fasting:before { content: "☦️ " ; }
-#tag_filipino:before { content: "🇵🇭 " ; }
-#tag_fish:before { content: "🐟 " ; }
-#tag_french:before { content: "🇫🇷 " ; }
-#tag_fruit:before { content: "🍇 " ; }
-#tag_german:before { content: "🇩🇪 " ; }
-#tag_greek:before { content: "🇬🇷 " ; }
-#tag_indian:before { content: "🇮🇳 " ; }
-#tag_irish:before { content: "🇮🇪 " ; }
-#tag_israeli:before { content: "🇮🇱 " ; }
-#tag_italian:before { content: "🇮🇹 " ; }
-#tag_japanese:before { content: "🇯🇵 " ; }
-#tag_lebanese:before { content: "🇱🇧 " ; }
-#tag_lemons:before { content: "🍋 " ;}
-#tag_liquour:before { content: "🥃 " ;}
-#tag_lunch:before { content: "🍱 " ; }
-#tag_mediterranean:before { content: "🫒 " ; }
-#tag_méxico:before { content: "🇲🇽 " ; }
-#tag_milk:before { content: "🥛 " ; }
-#tag_mushrooms:before { content: "🍄 " ;}
-#tag_pancake:before { content: "🥞 " ; }
-#tag_pasta:before { content: "🍝 " ;}
-#tag_pastry:before { content: "🧁 " ;}
-#tag_peruvian:before { content: "🇵🇪 " ;}
-#tag_pie:before { content: "🥧 " ;}
-#tag_pizza:before { content: "🍕 " ; }
-#tag_polish:before { content: "🇵🇱 " ;}
-#tag_pork:before { content: "🐖 " ;}
-#tag_portuguese:before { content: "🇵🇹 " ;}
-#tag_potato:before { content: "🥔 " ; }
-#tag_quebec:before { content: "⚜️ " ; }
-#tag_quick:before { content: "🏃 " ; }
-#tag_raw:before { content: "🍖 " ;}
-#tag_rice:before { content: "🍚 " ; }
-#tag_russian:before { content: "🇷🇺 " ;}
-#tag_salad:before { content: "🥗 " ;}
-#tag_sandwich:before { content: "🥪 " ;}
-#tag_seafood:before { content: "🦐 " ; }
-#tag_soup:before { content: "🍜 " ;}
-#tag_sourdough:before { content: "🥖 " ;}
-#tag_southwest:before { content: "🤠 " ; }
-#tag_spanish:before { content: "🇪🇸 " ; }
-#tag_spice:before { content: "🧂 " ; }
-#tag_spicy:before { content: "🌶️ " ; }
-#tag_spread:before { content: "🧈 " ; }
-#tag_steak:before { content: "🥩 " ; }
-#tag_stew:before { content: "🍲 " ; }
-#tag_swedish:before { content: "🇸🇪 " ; }
-#tag_sweet:before { content: "🍯 " ; }
-#tag_swiss:before { content: "🇨🇭 " ; }
-#tag_thai:before { content: "🇹🇭 " ;}
-#tag_tomato:before { content: "🍅 " ;}
-#tag_tunisian:before { content: "🇹🇳 " ; }
-#tag_turkey:before { content: "🦃 " ; }
-#tag_turkish:before { content: "🇹🇷 " ; }
-#tag_ukrainian:before { content: "🇺🇦 " ; }
-#tag_vietnamese:before { content: "🇻🇳 " ; }
-#tag_wine:before { content: "🍷 " ; }
+#tag_culinária::before { content: "🍸🍕 " ;}
+#tag_apresentações::before { content: "📽️ " ;}
+#tag_receitas::before { content: "🍅🍲 " ;}
+#tag_linux::before { content: "🐧 " ;}
+#tag_tecnologia::before { content: "📡💻 " ;}
+#tag_mecanica::before { content: "🔧⚙️ " ;}
+#tag_projetos::before { content: "👷🏽‍♂️🚧 " ;}
+#tag_arqueologia::before { content: "🗿 " ;}
+#tag_programação::before { content: "🧑🏽‍💻 " ;}
+#tag_rust::before { content: "🚀 " ;}
+#tag_filosofia::before { content: "🧠💭 " ;}
+#tag_nefrologia::before { content: "🥔 " ;}
+#tag_cardiologia::before { content: "❤️ " ;}
+#tag_pneumologia::before { content: "🫁 " ;}
+#tag_ciência::before { content: "🧪👨🏽‍🔬 " ;}
+#tag_emergência::before { content: "🚨 " ;}
+#tag_calculadoras::before { content: "🔢 " ;}
+#tag_medicina::before { content: "🩺💉 " ;}
+#tag_psicologia::before { content: "🎭 " ;}
+#tag_filosofia::before { content: "🤔 " ;}
+#tag_farmacologia::before { content: "🧪💊 " ;}
+#tag_natureza::before { content: "🐞🌻 " ;}
+#tag_pediatria::before { content: "👶 " ;}
+#tag_obstetricia::before { content: "🤰 " ;}
+#tag_inteligência::before { content: "🌐 " ;}
+#tag_guidelines::before { content: "🚩 " ;}
+#tag_viagem::before { content: "🏖️ " ;}
+#tag_destinos::before { content: "🧳 " ;}
+#tag_alcohol::before { content: "🍸 " ;}
+#tag_american::before { content: "🇺🇸 " ; }
+[id*="tag_estados"]::before { content: "🇺🇸 " ; }
+#tag_apple::before { content: "🍎 " ; }
+#tag_argentinian::before { content: "🇦🇷 " ; }
+#tag_asian::before { content: "🥢 " ; }
+#tag_australian::before { content: "🇦🇺 " ;}
+#tag_austrian::before { content: "🇦🇹 " ;}
+#tag_bacon::before { content: "🥓 " ; }
+#tag_beans::before { content: "🫘 " ; }
+#tag_beef::before { content: "🐄 " ; }
+#tag_belgian::before { content: "🇧🇪 " ; }
+#tag_brasil::before { content: "🇧🇷 " ; }
+#tag_bread::before { content: "🍞 " ;}
+#tag_breakfast::before { content: "🌅 " ;}
+#tag_broccoli::before { content: "🥦 " ;}
+#tag_cake::before { content: "🍰 " ; }
+#tag_cheese::before { content: "🧀 " ; }
+#tag_chicken::before { content: "🐔 " ;}
+#tag_chinese::before { content: "🐉 " ; }
+#tag_chocolate::before { content: "🍫 " ; }
+#tag_christmas::before { content: "🎄 " ; }
+#tag_cookies::before { content: "🍪 " ;}
+#tag_corn::before { content: "🌽 " ;}
+#tag_curry::before { content: "🍛 " ; }
+#tag_dessert::before { content: "🍮 " ; }
+#tag_dominican::before { content: "🇩🇴 " ;}
+#tag_drink::before { content: "🍹 " ;}
+#tag_duck::before { content: "🦆 " ; }
+#tag_dumpling::before { content: "🥟 " ;}
+#tag_dutch::before { content: "🇳🇱 " ;}
+#tag_easter::before { content: "✝️ " ; }
+#tag_eggs::before { content: "🥚 " ; }
+#tag_english::before { content: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 " ; }
+#tag_fasting::before { content: "☦️ " ; }
+#tag_filipino::before { content: "🇵🇭 " ; }
+#tag_fish::before { content: "🐟 " ; }
+#tag_french::before { content: "🇫🇷 " ; }
+#tag_fruit::before { content: "🍇 " ; }
+#tag_german::before { content: "🇩🇪 " ; }
+#tag_greek::before { content: "🇬🇷 " ; }
+#tag_indian::before { content: "🇮🇳 " ; }
+#tag_irish::before { content: "🇮🇪 " ; }
+#tag_israeli::before { content: "🇮🇱 " ; }
+#tag_italian::before { content: "🇮🇹 " ; }
+#tag_japanese::before { content: "🇯🇵 " ; }
+#tag_lebanese::before { content: "🇱🇧 " ; }
+#tag_lemons::before { content: "🍋 " ;}
+#tag_liquour::before { content: "🥃 " ;}
+#tag_lunch::before { content: "🍱 " ; }
+#tag_mediterranean::before { content: "🫒 " ; }
+#tag_méxico::before { content: "🇲🇽 " ; }
+#tag_milk::before { content: "🥛 " ; }
+#tag_mushrooms::before { content: "🍄 " ;}
+#tag_pancake::before { content: "🥞 " ; }
+#tag_pasta::before { content: "🍝 " ;}
+#tag_pastry::before { content: "🧁 " ;}
+#tag_peruvian::before { content: "🇵🇪 " ;}
+#tag_pie::before { content: "🥧 " ;}
+#tag_pizza::before { content: "🍕 " ; }
+#tag_polish::before { content: "🇵🇱 " ;}
+#tag_pork::before { content: "🐖 " ;}
+#tag_portuguese::before { content: "🇵🇹 " ;}
+#tag_potato::before { content: "🥔 " ; }
+#tag_quebec::before { content: "⚜️ " ; }
+#tag_quick::before { content: "🏃 " ; }
+#tag_raw::before { content: "🍖 " ;}
+#tag_rice::before { content: "🍚 " ; }
+#tag_russian::before { content: "🇷🇺 " ;}
+#tag_salad::before { content: "🥗 " ;}
+#tag_sandwich::before { content: "🥪 " ;}
+#tag_seafood::before { content: "🦐 " ; }
+#tag_soup::before { content: "🍜 " ;}
+#tag_sourdough::before { content: "🥖 " ;}
+#tag_southwest::before { content: "🤠 " ; }
+#tag_spanish::before { content: "🇪🇸 " ; }
+#tag_spice::before { content: "🧂 " ; }
+#tag_spicy::before { content: "🌶️ " ; }
+#tag_spread::before { content: "🧈 " ; }
+#tag_steak::before { content: "🥩 " ; }
+#tag_stew::before { content: "🍲 " ; }
+#tag_swedish::before { content: "🇸🇪 " ; }
+#tag_sweet::before { content: "🍯 " ; }
+#tag_swiss::before { content: "🇨🇭 " ; }
+#tag_thai::before { content: "🇹🇭 " ;}
+#tag_tomato::before { content: "🍅 " ;}
+#tag_tunisian::before { content: "🇹🇳 " ; }
+#tag_turkey::before { content: "🦃 " ; }
+#tag_turkish::before { content: "🇹🇷 " ; }
+#tag_ukrainian::before { content: "🇺🇦 " ; }
+#tag_vietnamese::before { content: "🇻🇳 " ; }
+#tag_wine::before { content: "🍷 " ; }
 .cryptocontainer {
   display: flex ;
   flex-wrap: wrap ;
@@ -1045,44 +1085,39 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 
 /* TABELAS */
 table {
-  /*
-  margin: auto;
-  align: center ;
-  */
+  border-radius: var(--raioBordas);
+  border-spacing: 0;
+  border-collapse: separate;
+  border: var(--bordas);
+  overflow: hidden;
+  box-shadow: var(--sombraCaixas);
   margin-left: 5vw;
-  border: 1px solid var(--fonte);
-  border-collapse: collapse ;
-  max-width: 77%;
+  margin-right: 5vw;
+  max-width: 70vw;
 }
-th, td, tr, thead, tbody {
-  border: 1px solid var(--fonte);
-  border-collapse: collapse ;
+table th:not(:last-child),
+table td:not(:last-child) {
+  border-right: var(--bordas);
+}
+table>thead>tr:not(:last-child)>th,
+table>thead>tr:not(:last-child)>td,
+table>tbody>tr:not(:last-child)>th,
+table>tbody>tr:not(:last-child)>td,
+table>tfoot>tr:not(:last-child)>th,
+table>tfoot>tr:not(:last-child)>td,
+table>tr:not(:last-child)>td,
+table>tr:not(:last-child)>th,
+table>thead:not(:last-child),
+table>tbody:not(:last-child),
+table>tfoot:not(:last-child) {
+  border-bottom: var(--bordas);
 }
 th {
-  background-color: var(--fundo-input); 
-  color: var(--fonte);
-  font-weight: bold;
+  background-color: var(--corBotao);
+  color: var(--corFonteBotao); 
+  border-top: var(--bordas);
+  border-bottom: var(--bordas);
 }
-th, td {
-  /*
-  */
-  padding: 3px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-table p{
-  margin-left: 1vw;
-}
-/*
-table tr:nth-child(even) {
-  background-color: none;
-}
-table tr:nth-child(odd) {
-  background-color: var(--fundo-invertido); 
-  color: var(--fonteInvertida);
-
-}
-*/
 
 /* UL OL LI UNORDERED LISTS */
 ul strong,
@@ -1199,11 +1234,9 @@ li::before{
 }
 .frase{
   /* 
-  color: var(--frase);  
-  font-size: 1.5em;
-  font-size: 1em; 
   */
-  transition: font-size 5s ease-in-out, color 4s ease-in-out ;
+  font-size: 130%;
+  transition: filter 2s ease-in-out, font-size 5s ease-in-out, color 4s ease-in-out ;
   align: center ;
   text-align: center ;
   font-style: italic ;
@@ -1212,11 +1245,14 @@ li::before{
   padding-right: auto ;
   border-radius: 5px ;
   text-shadow: 8px 6px 10px var(--sombra);
-  font-size: 150%;
+  filter: blur(5px);
 }
 .frase.show {
-  color: var(--fraseShow); 
-  font-size: 100%;
+  filter: none;
+  color: var(--fraseShow);
+  font-size: 120%;
+  /*
+  */
 }
 .frase:hover {
   color: var(--fraseHover); 
@@ -1261,14 +1297,17 @@ button, select {
   border: 1px solid #383f48 ; 
   border-radius: var(--bordasButao);
   background-color: var(--corBotao) ;
-  color: var(--font); 
+  color: var(--corFonteBotao); 
   box-shadow: var(--sombraCaixas);
   cursor: pointer; 
   font-size: 1em; 
 }
 button:hover {
-  background-color: var(--hoverBotao) ;
+  color: var(--corHoverBotao);
+  background-color: var(--corFundoHoverBotao) ;
+  /*
   border: 1px solid #21262d; 
+  */
 }
 button:active {
   background-color: #373e47 ;
@@ -1421,7 +1460,6 @@ button[id^="proximo"] {
 }
 button[id^="proximo"]:hover , 
 button[id^="anterior"]:hover {
-  color: var(--corNegrito);
 }
 button[id^="proximo"]:active, 
 button[id^="anterior"]:active{
@@ -1670,7 +1708,7 @@ div#counter {
     max-width: 110% ;
   }
   table {
-    font-size: 0.5em;
+    font-size: 65%;
     max-width: 95% !important;
   }
   #question-container {
@@ -1853,11 +1891,7 @@ div#counter {
   max-width: 95vw;
 }
 
-@media only screen and (max-width: 800px){ 
-  .fundo-only-big {
-    display: none; 
-  }
-}
+
 .fundo-only-big {
   display: var(--displayFigurasFundo);
   position: fixed; 
@@ -1866,7 +1900,11 @@ div#counter {
   bottom: 1em; 
   z-index: -1;
 }
-
+@media only screen and (max-width: 900px){ 
+  .fundo-only-big {
+    display: none; 
+  }
+}
 .calculadoras {
   background: var(--fundoSticker); 
   border-radius: var(--raioBordas);
@@ -1877,7 +1915,7 @@ div#counter {
   border: var(--bordasCalculadoras);
   box-shadow: var(--sombraCaixas);
 }
-.calculadoras h2:before {
+.calculadoras h2::before {
   content: none;
 }
 

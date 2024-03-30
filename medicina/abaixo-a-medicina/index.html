@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   
   <script>
@@ -16,15 +16,16 @@
 
   
 
-  <title>Abaixo a Medicina! | Jefferson T.</title>
-  <link rel="canonical" href="http://localhost:1313/">
+  <title>Abaixo a medicina! | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="AVISO: Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.
+AVISO 2: Esta página está em constante mudança.
 Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.
 Classificações médicas Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre dezesseis e catorze classificações por semestre.">
-  <meta name="keywords" content="Medicina, Filosofia">
+  <meta name="keywords" content="Medicina, Filosofia, Ciência">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -88,7 +89,11 @@ window.addEventListener('scroll', function() {
 <article>
 <br>
 <br>
+
+  <h1>Abaixo a medicina!</h1>
+
 <script>
+  
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
   const inicio = document.getElementById("indexlink");
@@ -108,7 +113,7 @@ window.addEventListener('scroll', function() {
                 urlAtual === "jeffersontorres.com.br" || 
                 urlAtual === "http://localhost:1313/" ) {
       
-      inicio.style = "color: var(--barra-selecionado); font-weight: bold;";
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
     }
   }
 
@@ -129,6 +134,10 @@ window.addEventListener('scroll', function() {
   else if (temaAtual === '2') {
     document.documentElement.setAttribute('data-tema', '2');
     lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
@@ -153,6 +162,11 @@ window.addEventListener('scroll', function() {
       localStorage.setItem('tema', '3'); 
 
     } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
       lighswitch.innerHTML = 'noite'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
@@ -187,12 +201,13 @@ window.addEventListener('scroll', function() {
 
 
 
-<!--
+  <!--
 https://en.wikipedia.org/wiki/Soapbox
 
 <span style="color: black;background: red; border-radius: 2px;">AVISO:</span> Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.
 -->
 <p><mark>AVISO:</mark> Esta página se dedica a críticas realistas à medicina como ramo profissional e científico. Todas as visões são do autor e não da comunidade médica em geral. Seu conteúdo deve ser lido sob a perspectiva da ironia e do humor.</p>
+<p><mark>AVISO 2:</mark> Esta página está em constante mudança.</p>
 
 
 
@@ -243,7 +258,7 @@ Este é o óleo de peixe Peixoba, comprovadamente aumenta seu cálcio, sua vitam
 <p>Calma. Mas e aquele seu YouTuber favorito, <em>fitness</em>, que vive te dizendo que bom mesmo é suco de beterraba, correr de lado e beber água com vinagre? Esse você certamente não segue, né?</p>
 <p>Mas e aquele que <em>parece muito inteligente</em>, tem um <em>Instagram</em> lotado de fotos de pratos e destinos, uma esposa também muito <em>fit</em>, três cachorros e vende um curso na <em>Hotmart</em>? <strong>Esse, também, você não segue.</strong> Sei&hellip; 😏</p>
 <img style="border:none; box-shadow:none" src="../../pix/medicina/ducktor.png">
-<p>Tá, e aquele que tem inúmeros estigmas do uso crônico de esteróides anabolizantes e diz pra você que é natural? <strong>Te peguei, né?!</strong>.</p>
+<p>Tá, e aquele que tem inúmeros estigmas do uso crônico de esteróides anabolizantes e diz pra você que é natural? <strong>Tá bom, chega kkk!</strong>.</p>
 <h2 id="impregnado-pela-dúvida">Impregnado pela dúvida</h2>
 <p>Me deparei certa vez com um termo peculiar em medicina: <em>impregnação</em>.</p>
 <p>Num primeiro momento, no contexto da neurologia, há uma definição específica para impregnação neuroléptica, que se refere a um efeito colateral dos antipsicóticos. Porém, a minha mente de <em>químico</em> que &ldquo;fui&rdquo; um dia se sentiu incomodada, já que o termo parecia se referia a farmacodinâmica do medicamento que, de alguma forma, se deposita nos tecidos. Você provavelmente acha o mesmo. <strong>Mas não é.</strong></p>
@@ -262,25 +277,25 @@ Este é o óleo de peixe Peixoba, comprovadamente aumenta seu cálcio, sua vitam
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
-<li>Manual Medicina USP</li>
-<li>Katzung</li>
+<li>Velasco, Irineu Tadeu; Brandão Neto, Rodrigo Antonio; Souza, Heraldo Possolo de; Marino, Lucas Oliveira; Marchini, Julio Flávio Meirelles (eds). <strong>Manual de medicina de emergência</strong>. BARUERI: Manole, 2018.</li>
+<li>Bertram G. Katzung, Anthony J. Trevor. <strong>Farmacologia Básica e Clínica - 13.ed</strong>. McGraw-Hill, 2017 ISBN	8580555973, 9788580555974.</li>
 </ol>
 
 
-<br>
-        <div style="" class=taglist><a id="tag_medicina" href="http://localhost:1313/tags/medicina">Medicina</a> &middot; <a id="tag_filosofia" href="http://localhost:1313/tags/filosofia">Filosofia</a></div>
+
+  <br>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_filosofia" href="https://www.jeffersontorres.com.br/tags/filosofia">Filosofia</a> &middot; <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">Ciência</a></div>
 
 </article>
+
 <footer>
-  
-  <a onClick="retornaTopo()">^</a>
-  <script>
-      function retornaTopo(){
-            document.documentElement.scrollTop = 0;
-      }
-  </script>
-  <br>
-  <br>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </footer>
 
 </body>

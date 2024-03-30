@@ -19,9 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
                       .map(item => `${item}`)
                       .join(', ') : '--';
       let nome = data[key].name;
+      let caminho = data[key].path+"/"+nome;
       listItem.innerHTML = 
           "<a href=\""+
-          nome+
+          caminho+
           "\">"+nome+
           "</a><br><span style=\"color: var(--termo);\">Tamanho: </span>"+
           size+

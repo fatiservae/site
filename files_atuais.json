@@ -4,28 +4,32 @@
     "subjects": [
       "Aulas e apresentações"
     ],
-    "size": "1.68 MB"
+    "size": "1.68 MB",
+    "path": "Aulas e apresentações"
   },
   {
     "name": "JeffersonT-Caso-Clinico-Abcesso-Hepatico.pdf",
     "subjects": [
       "Aulas e apresentações"
     ],
-    "size": "3.86 MB"
+    "size": "3.86 MB",
+    "path": "Aulas e apresentações"
   },
   {
     "name": "JeffersonT-Caso-Clinico-explosao-l2.pdf",
     "subjects": [
       "Aulas e apresentações"
     ],
-    "size": "1.33 MB"
+    "size": "1.33 MB",
+    "path": "Aulas e apresentações"
   },
   {
     "name": "JeffersonT-Dor-Toracica.pdf",
     "subjects": [
       "Aulas e apresentações"
     ],
-    "size": "11.13 MB"
+    "size": "11.13 MB",
+    "path": "Aulas e apresentações"
   },
   {
     "name": "Boethius-Consolation-of-Philosophy.pdf",
@@ -33,7 +37,8 @@
       "Filosofia",
       "Estoicismo"
     ],
-    "size": "531.58 KB"
+    "size": "531.58 KB",
+    "path": "Filosofia/Estoicismo"
   },
   {
     "name": "George-Stock-a-Guide-to-Stoicism.pdf",
@@ -41,7 +46,8 @@
       "Filosofia",
       "Estoicismo"
     ],
-    "size": "387.07 KB"
+    "size": "387.07 KB",
+    "path": "Filosofia/Estoicismo"
   },
   {
     "name": "Meditations Marcus Aurelius.pdf",
@@ -49,7 +55,8 @@
       "Filosofia",
       "Estoicismo"
     ],
-    "size": "1.99 MB"
+    "size": "1.99 MB",
+    "path": "Filosofia/Estoicismo"
   },
   {
     "name": "Erwin-Schrodinger-What-Is-Life-1944.pdf",
@@ -57,7 +64,8 @@
       "Filosofia",
       "Filosofia da ciência"
     ],
-    "size": "277.45 KB"
+    "size": "277.45 KB",
+    "path": "Filosofia/Filosofia da ciência"
   },
   {
     "name": "Gigerenzer-Mindless-Statistics.pdf",
@@ -65,7 +73,8 @@
       "Filosofia",
       "Filosofia da ciência"
     ],
-    "size": "147.59 KB"
+    "size": "147.59 KB",
+    "path": "Filosofia/Filosofia da ciência"
   },
   {
     "name": "Imposturas-Intelectuais.pdf",
@@ -73,7 +82,8 @@
       "Filosofia",
       "Filosofia da ciência"
     ],
-    "size": "14.08 MB"
+    "size": "14.08 MB",
+    "path": "Filosofia/Filosofia da ciência"
   },
   {
     "name": "John-Gall-Systemantics.pdf",
@@ -81,7 +91,8 @@
       "Filosofia",
       "Filosofia da ciência"
     ],
-    "size": "11.34 MB"
+    "size": "11.34 MB",
+    "path": "Filosofia/Filosofia da ciência"
   },
   {
     "name": "On-The-Eletrodynamics-of-Moving-Bodies-Einstein-1905.pdf",
@@ -89,7 +100,17 @@
       "Física",
       "Teoria da Relatividade"
     ],
-    "size": "242.25 KB"
+    "size": "242.25 KB",
+    "path": "Física/Teoria da Relatividade"
+  },
+  {
+    "name": "Caderneta-gestante-8ed-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Ginecologia e obstetrícia"
+    ],
+    "size": "13.03 MB",
+    "path": "Medicina/Ginecologia e obstetrícia"
   },
   {
     "name": "febrasgo-feminina-diabetes-mellitus-2019.pdf",
@@ -97,7 +118,8 @@
       "Medicina",
       "Ginecologia e obstetrícia"
     ],
-    "size": "3.96 MB"
+    "size": "3.96 MB",
+    "path": "Medicina/Ginecologia e obstetrícia"
   },
   {
     "name": "1-Hippocrates-By-WHS-Jones-1923-59.pdf",
@@ -105,7 +127,8 @@
       "Medicina",
       "História da medicina"
     ],
-    "size": "15.61 MB"
+    "size": "15.61 MB",
+    "path": "Medicina/História da medicina"
   },
   {
     "name": "2-Hippocrates-By-WHS-Jones-1923-59.pdf",
@@ -113,7 +136,8 @@
       "Medicina",
       "História da medicina"
     ],
-    "size": "14.76 MB"
+    "size": "14.76 MB",
+    "path": "Medicina/História da medicina"
   },
   {
     "name": "3-Hippocrates-By-WHS-Jones-1923-59.pdf",
@@ -121,7 +145,8 @@
       "Medicina",
       "História da medicina"
     ],
-    "size": "17.85 MB"
+    "size": "17.85 MB",
+    "path": "Medicina/História da medicina"
   },
   {
     "name": "4-Hippocrates-By-WHS-Jones-1923-59.pdf",
@@ -129,7 +154,8 @@
       "Medicina",
       "História da medicina"
     ],
-    "size": "21.69 MB"
+    "size": "21.69 MB",
+    "path": "Medicina/História da medicina"
   },
   {
     "name": "Manual-declaracao-obito-2022.pdf",
@@ -137,21 +163,42 @@
       "Medicina",
       "Manuais médicos"
     ],
-    "size": "3.55 MB"
+    "size": "3.55 MB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
+    "name": "Caderneta-crianca-menina-6ed-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "12.04 MB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "Caderneta-crianca-menino-6ed-2023.pdf",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "15.06 MB",
+    "path": "Medicina/Pediatria"
   },
   {
     "name": "TC de tórax com abcesso hepático e derrame pericárdico.mp4",
     "subjects": [
       "Medicina"
     ],
-    "size": "4.78 MB"
+    "size": "4.78 MB",
+    "path": "Medicina"
   },
   {
     "name": "Hacking-The-Hacker-Learn-From-The-Experts-Who-Take-Down-Hackers.pdf",
     "subjects": [
       "Programação"
     ],
-    "size": "1.41 MB"
+    "size": "1.41 MB",
+    "path": "Programação"
   },
   {
     "name": "A-Non-Technical-Survey-On-Deep-Convolutional-Neural-Network-Architectures.pdf",
@@ -159,7 +206,8 @@
       "Programação",
       "Inteligência artificial"
     ],
-    "size": "1.13 MB"
+    "size": "1.13 MB",
+    "path": "Programação/Inteligência artificial"
   },
   {
     "name": "Towards Accurate Differential with large language models.pdf",
@@ -168,6 +216,7 @@
       "Inteligência artificial",
       "IA médica"
     ],
-    "size": "10.18 MB"
+    "size": "10.18 MB",
+    "path": "Programação/Inteligência artificial/IA médica"
   }
 ]
