@@ -83,18 +83,30 @@ Primeiro contexto: paciente aleatório de uma determinada população A probabil
 
 </head>
 <body>
+
 <div id="progress-bar-container">
   <div id="progress-bar"></div>
 </div>
 <script>
-window.addEventListener('scroll', function() {
-  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  const scrolled = scrollTop / scrollHeight * 100;
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
   
-  document.getElementById('progress-bar').style.width = scrolled + '%';
-});
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
 </script>
+
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../../index.html" id="indexlink" alt="início">início</a>

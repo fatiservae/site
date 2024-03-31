@@ -16,12 +16,13 @@
 
   
 
-  <title>Programação | Jefferson T.</title>
+  <title>Simulador de ventilador mecânico | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <meta name="description" content="Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em @fatiservae.
+Paciente Nome: Idade: Condição: Pneumonia Pós-cirúrgico Ventilador Volume Tidal: Frequência Respiratória: Gastometria pH: PaO2: ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -64,29 +65,6 @@
 </head>
 <body>
 
-<div id="progress-bar-container">
-  <div id="progress-bar"></div>
-</div>
-<script>
-  let scrollbar = document.getElementById('progress-bar');
-  let timeout;
-  
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = scrollTop / scrollHeight * 100;
-    scrollbar.style.width = scrolled + '%';
-  });
-
-  document.addEventListener('scroll' || 'mousemove', function() {
-      scrollbar.style.display = 'block';
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-          scrollbar.style.display = 'none'; 
-      }, 2000); 
-  });
-</script>
-
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../../index.html" id="indexlink" alt="início">início</a>
@@ -97,6 +75,8 @@
 <article>
 <br>
 <br>
+
+  <h1>Simulador de ventilador mecânico</h1>
 
 <script>
   
@@ -189,61 +169,81 @@
 
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
-
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  
-  
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  if (autor.length > 1){
-    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    console.log(autor)
-  }
-})
-.catch(error => console.error('Erro ao buscar o JSON:', error));
-
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-<div> 
-  <p class="frase" id="frase"></p> 
-  <div id="autor"></div>
-  <br>
+  <p>Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em <a href="https://t.me/fatiservae">@fatiservae</a>.</p>
+<hr>
+<br>
+<style>
+    .modulos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .modulo {
+        border: var(--bordas);
+        width: fit-content;
+        padding: 5px;
+        margin: 0px;
+        margin-left: 3vw;
+    }
+    .modulo .modulo {
+        margin-left: 0px;
+        padding: 0px;
+    }
+    h2 {
+        padding: 0px;
+        margin: 0px;
+    }
+</style>
+<div class=modulos>
+<div class="modulo sticker" id="dados-clinicos">
+    <h2>Paciente</h2>
+    <label for="nome">Nome:</label>
+    <br>
+    <input type="text" id="nome" name="nome">
+    <br>
+    <label for="idade">Idade:</label>
+    <br>
+    <input type="number" id="idade" name="idade">
+    <br>
+    <!-- Adicione mais campos conforme necessário -->
+    <label for="condicao">Condição:</label>
+    <br>
+    <select id="condicao" name="condicao">
+    <option value="pneumonia">Pneumonia</option>
+    <option value="pos-cirurgico">Pós-cirúrgico</option>
+    <!-- Adicione mais opções conforme necessário -->
+    </select>
 </div>
+<div class="modulo sticker" id="ventilador">
+    <h2>Ventilador</h2>
+    <label for="volume-tidal">Volume Tidal:</label>
+    <br>
+    <input type="number" id="volume-tidal" name="volume-tidal">
+    <br>
+    <label for="frequencia-respiratoria">Frequência Respiratória:</label>
+    <br>
+    <input type="number" id="frequencia-respiratoria" name="frequencia-respiratoria">
+</div>
+<div class="modulo sticker" id="gasometria">
+        <h2>Gastometria</h2>
+        <!-- Campos para os parâmetros gasométricos -->
+        <label for="ph">pH:</label>
+    <br>
+        <input type="number" id="ph" name="ph" step="0.01">
+        <br>
+        <label for="pao2">PaO2:</label>
+    <br>
+        <input type="number" id="pao2" name="pao2">
+        <!-- Adicione mais campos conforme necessário -->
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<p><canvas id="volume"></canvas>
+<canvas id="pressao"></canvas>
+<canvas id="fluxo"></canvas></p>
+<script src="../../ventilador.js">   
+</script>
 
-<ul class="listing-list">
-<li>
-	<a href="../../vim/">Webvim: editor de texto do hacker viajante</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/banco-de-questoes/">Banco de questões</a>
-	
-	</li>
-<li>
-	<a href="../../tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a>
-	
-	</li>
-<li>
-	<a href="../../tecnologia/stultus-visio/">Slides menos estúpidos: StultusVisio</a>
-	
-	</li>
-</ul>
+
 
   
 

@@ -64,18 +64,30 @@
 
 </head>
 <body>
+
 <div id="progress-bar-container">
   <div id="progress-bar"></div>
 </div>
 <script>
-window.addEventListener('scroll', function() {
-  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  const scrolled = scrollTop / scrollHeight * 100;
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
   
-  document.getElementById('progress-bar').style.width = scrolled + '%';
-});
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
 </script>
+
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../../index.html" id="indexlink" alt="início">início</a>
@@ -195,7 +207,6 @@ window.addEventListener('scroll', function() {
     background: var(--fundo-card);
     padding: 1px;
     padding-right: 2em;
-    border-radius: var(--raioBordas);
     box-shadow: var(--sombraCaixas);
     */
     font-weight: normal;
@@ -204,7 +215,9 @@ window.addEventListener('scroll', function() {
     margin-left: 5vw;
     margin-bottom: 0.5em;
     border: none;
-    border-bottom: 2px dashed var(--fonte);
+    border-radius: var(--raioBordas);
+    border: var(--bordas);
+    background-color: var(--vidro);
   }
   div#divAtb p{
     margin: 2vw;
@@ -221,7 +234,7 @@ window.addEventListener('scroll', function() {
   .nome{
     font-size: 140%;
     margin-left: 0em;
-    background-image: var(--h2-gradiente); 
+    background-image: var(--corH2-gradiente); 
     -webkit-background-clip: text; 
     color: transparent; 
     font-weight: bold;

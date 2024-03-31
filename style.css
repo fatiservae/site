@@ -14,6 +14,13 @@ Regras de estilo:
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;
   */
   /* CORES */
+  --ferrugem1: #92340b;
+  --ferrugem2: #6d2708;
+  --ferrugem3: #491a05;
+  --cafe: #744a31;
+  --mocha: #e9dbb5;
+  --blueComics: #0256a1;
+  --orangeComics: #fbb013;
   --rosinhaMDN: #ff6d91;
   --vidro: rgba(8, 8, 7, .25);
   --left-gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ;
@@ -69,7 +76,6 @@ Regras de estilo:
   --sombraCaixas: none;
   --sombraImagens: none;
   --raioBordas: 10px;
-  --bordasCalculadoras: 2px dashed var(--fonte);
   --fonte-comedia: "Bangers";
   --largura-texto: calc(650px + 10vw);
   --clipHeading: text; 
@@ -83,6 +89,9 @@ Regras de estilo:
 }
 
 :root[data-tema="0"] { /* noite */
+  /*
+  --corH2: var(--letragradiente-dark);
+  */
   --bordas: 1px solid var(--corBordas);
   --corMark: black;
   --corProgressBar: tomato;
@@ -99,9 +108,6 @@ Regras de estilo:
   --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
   --corH1: var(--amarelo-google);
-  /*
-  --corH2: var(--letragradiente-dark);
-  */
   --corH3: tomato;
   --corNegrito: tan; 
   --switch-shadow: -2px 1px 10px #ffffff;
@@ -135,6 +141,15 @@ Regras de estilo:
   --sombra: #353535;
 }
 :root[data-tema="1"] {/* árido */
+  /*
+  --fundoImagem: var(--gradfundo); 
+  --corBotao: #ebc9a9 ;
+  --fundo: #FFECB3; 
+  --strong-color: #101010;
+  --fundo: navajowhite;
+  --gradfundo: linear-gradient(to top, #e2725b , tan);
+  */
+  --bordas: 1px solid var(--corBordas);
   --corFonteBotao: black;
   --gradfundo: linear-gradient(to top, #d4ab86, #e2725b );
   --corFundoSelecao: black;
@@ -153,9 +168,6 @@ Regras de estilo:
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
   --corH2-gradiente: linear-gradient(90deg, darkred, var(--highlightCor), red);
-  /*
-  --fundoImagem: var(--gradfundo); 
-  */
   --fundoImagem: url('pix/day.jpg'); 
   --fundo: #cc866a ; 
   --fonte: #303030;
@@ -169,20 +181,11 @@ Regras de estilo:
   --texto-dim: var(--fundo-invertido);
   --letragradiente: black;
   --katex-color: black ;
-  /*
-  --corBotao: #ebc9a9 ;
-  */
   --corBotao: black ;
   --corFonteBotao: white;
   --corFundoHoverBotao: #deadbb ;
   --headings: var(--azul-escuro-google);
   --sticker-fundo: var(--gradiente-light) ;
-  /*
-  --fundo: #FFECB3; 
-  --strong-color: #101010;
-  --fundo: navajowhite;
-  --gradfundo: linear-gradient(to top, #e2725b , tan);
-  */
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: #fbc782;
   --separador: gray ;
@@ -211,13 +214,12 @@ Regras de estilo:
   --corH1: #424242;
   --corH3: #455A64;
   */
-
   --corMark: black;
-  --bordasCalculadoras: 1px solid var(--fonte);
+  --bordas: 1px solid var(--fonte);
   --temaFonte: serif ;
   --displayFigurasFundo: none;
   --corProgressBar: var(--madeira);
-  --corH2-gradiente: linear-gradient(90deg, #5b3027, var(--madeira), darkred);
+  --corH2-gradiente: linear-gradient(90deg, #5b3027, var(--cafe), var(--madeira));
   --imageBackgroundHeadings: var(--corH2-gradiente); 
   --corH2: transparent ;
   --bordasHeading: none;
@@ -245,7 +247,7 @@ Regras de estilo:
   --fundo: #a57c51 ;
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   --fundo-invertido: var(--git-hub-dark-back) ;
-  --fundo-input: #a57c70 ;
+  --fundo-input: var(--mocha);
   --separador: gray ;
   --corBordas: var(--madeira);
   --fonte: black;
@@ -294,7 +296,7 @@ Regras de estilo:
   --sombraCaixas: black 5px 5px 0px -1px;
   --sombraImagens: none;
   --raioBordas: 0px;
-  --bordasCalculadoras: 2px solid black;
+  --bordas: 2px solid black;
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #ff000010 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #ff000010, transparent 75%)) ;
   --corFundoCode: rgba(10, 50, 50, .5);
   --barraRolagem: black;
@@ -328,7 +330,7 @@ Regras de estilo:
   --fraseShow: black ;
   --autor: white;
   --sticker-font: brown;
-  --termo: var(--verde-google);
+  --termo: var(--blueComics);
 }
 :root[data-tema="4"] { /* papel */
   --corFonteBarraHover: white;
@@ -337,7 +339,7 @@ Regras de estilo:
   --corMark: white;
   --bordaLinksBarra: 1px solid black;
   --temaFonte:  'Noto sans';
-  --corProgressBar: black;
+  --corProgressBar: blue;
   --imageBackgroundHeadings: none; 
   --corH2: black;
   --bordasHeading: none;
@@ -381,8 +383,6 @@ Regras de estilo:
   --corLinksHover: tomato;
   --termo: darkred;
   --link-barra: black ;
-  /*
-  */
   --fundo: white; 
   --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
   --sombra: #353535;
@@ -419,7 +419,7 @@ body {
 blockquote {
   /*
   border-left: 1px solid var(--fonte);
-  border: var(--bordasCalculadoras);
+  border: var(--bordas);
   */
   padding: 0vw;
   margin-left: 5vw;
@@ -747,7 +747,7 @@ h3 {
   font-weight: normal;
 }
 h3::before {
-  content: "+  ";
+  content: "•  ";
   color: var(--corNegrito);
 }
 
@@ -868,7 +868,7 @@ ul#files {
 #files li:hover{
   background-size: cover;
   background: var(--fundo-input);
-  border: var(--bordasCalculadoras);
+  border: var(--bordas);
   border-radius: var(--raioBordas);
 }
 a .matched-recipe{
@@ -936,6 +936,10 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
   max-width: 600px ;
   margin: auto ;
   color: salmon ;
+}
+
+[id^="tag_"] {
+  white-space: nowrap;
 }
 #tag_culinária::before { content: "🍸🍕 " ;}
 #tag_apresentações::before { content: "📽️ " ;}
@@ -1117,6 +1121,10 @@ th {
   color: var(--corFonteBotao); 
   border-top: var(--bordas);
   border-bottom: var(--bordas);
+}
+th, td {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /* UL OL LI UNORDERED LISTS */
@@ -1912,7 +1920,7 @@ div#counter {
   width: fit-content;
   max-width: 80vw;
   margin-left: 5vw;
-  border: var(--bordasCalculadoras);
+  border: var(--bordas);
   box-shadow: var(--sombraCaixas);
 }
 .calculadoras h2::before {
@@ -1956,7 +1964,6 @@ span.typewriter{
   left: 0;
   z-index: 9999;
 }
-
 #progress-bar {
   height: 100%;
   background-color: var(--corProgressBar); 

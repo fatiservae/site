@@ -22,7 +22,7 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content=" Gerar nova questão ">
-  <meta name="keywords" content="projetos, medicina">
+  <meta name="keywords" content="Projetos, Medicina, Programação">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -64,18 +64,30 @@
 
 </head>
 <body>
+
 <div id="progress-bar-container">
   <div id="progress-bar"></div>
 </div>
 <script>
-window.addEventListener('scroll', function() {
-  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  const scrolled = scrollTop / scrollHeight * 100;
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
   
-  document.getElementById('progress-bar').style.width = scrolled + '%';
-});
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
 </script>
+
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../../index.html" id="indexlink" alt="início">início</a>
@@ -226,7 +238,7 @@ function fechardialogo() {
 
 
   <br>
-        <div style="" class=taglist><a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">projetos</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a></div>
+        <div style="" class=taglist><a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">Projetos</a> &middot; <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_programação" href="https://www.jeffersontorres.com.br/tags/programa%C3%A7%C3%A3o">Programação</a></div>
 
 </article>
 

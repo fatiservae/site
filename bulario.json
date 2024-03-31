@@ -1,5 +1,29 @@
 [
   {
+    "nome": ["polisulfato de mucopolissacarídeo", "Hirudoid"],
+    "class": ["mucopolissacarídeos"],
+    "posologias":[
+      ["mg", "g"],
+      [3, "", "uso tópico"],
+      [5, "", "uso tópico"]
+    ],
+    "obs": [
+      "Aplicar fina camada sobre todo o hematoma."
+    ]
+  },
+  {
+    "nome": ["amiodarona"],
+    "class": ["antiarritmícos"],
+    "posologias": [
+      ["mg", ""],
+      [300, "", "IV", "para o ataque de FA de alta resposta com hemodinâmica estável."],
+      [900, "", "IV", "para manutenção em FA."]
+    ],
+    "obs":[
+      "Em FA, diluir as doses em 250ml de soro 0.9%."
+    ]
+  },
+  {
     "nome": ["tetracaína e hexamidina", "Hexomedine"],
     "class": ["anestésico tópico", "antisséptico"],
     "posologias": [
@@ -167,6 +191,7 @@
   },
   {
     "nome": ["levomepromazina", "Neozine"],
+    "class": ["antipsicóticos típicos", "fenotiazinas"],
     "posologias": [
       ["mg", "dia"],
       [150, "", "VO"],

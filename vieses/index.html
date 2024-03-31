@@ -68,18 +68,30 @@ Erro de conjunção Efeito Delmore O cérebro humano superestima os objetivos im
 
 </head>
 <body>
+
 <div id="progress-bar-container">
   <div id="progress-bar"></div>
 </div>
 <script>
-window.addEventListener('scroll', function() {
-  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  const scrolled = scrollTop / scrollHeight * 100;
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
   
-  document.getElementById('progress-bar').style.width = scrolled + '%';
-});
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
 </script>
+
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../index.html" id="indexlink" alt="início">início</a>
@@ -207,6 +219,7 @@ window.addEventListener('scroll', function() {
         <li><a href="#viés-de-crença">Viés de crença</a></li>
         <li><a href="#víes-de-informação">Víes de informação</a></li>
         <li><a href="#viés-de-ambiguidade">Viés de ambiguidade</a></li>
+        <li><a href="#viés-de-confusão-das-variáveis">Viés de confusão das variáveis</a></li>
       </ul>
     </li>
     <li><a href="#a-psique-humana-tende-a-preservar-o-status-atual">A psique humana tende a preservar o status atual</a>
@@ -277,6 +290,9 @@ window.addEventListener('scroll', function() {
 <h3 id="viés-de-crença">Viés de crença</h3>
 <h3 id="víes-de-informação">Víes de informação</h3>
 <h3 id="viés-de-ambiguidade">Viés de ambiguidade</h3>
+<h3 id="viés-de-confusão-das-variáveis">Viés de confusão das variáveis</h3>
+<p><strong>Duas variáveis no mesmo contexto têm sua relação interpretada de forma errada.</strong></p>
+<p>Durante o verão, o consumo de sorvetes e uso de piscinas aumentam por causa do calor. O observador desavisado tende a criar uma relação errada entre estas variáveis, afirmando que o consumo de sorvete aumenta os afogamentos, por exemplo.</p>
 <h2 id="a-psique-humana-tende-a-preservar-o-status-atual">A psique humana tende a preservar o status atual</h2>
 <h3 id="viés-do-status-quo">Viés do status quo</h3>
 <h3 id="viés-de-comparação-social">Viés de comparação social</h3>
