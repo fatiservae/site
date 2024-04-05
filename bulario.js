@@ -1,64 +1,100 @@
-  document.addEventListener("DOMContentLoaded", () => {
-  //const search = document.getElementById("search");
+document.addEventListener("DOMContentLoaded", () => {
   const searched = document.getElementById('resultado');
+  /*
+      * bulario.json é estruturado com os campos
+      * nome, class, posologias e obs
+      * na falta de posologias, a entrada é ignorada
+      * class e obs são opcionais
+      * falta de nome quebra o processamento do toJSON 
+      *
+      * A quebra do JSON é intencional para provocar a 
+      * conferência das entradas.
+  */
   fetch('/bulario.json')
   .then(response => response.json())
   .then(data => {
-      for (i=0; i < Object.keys(data).length; i++){
-        let atbAtual = data[i];
-        let atb = document.createElement('div');
-        atb.id = "divAtb" ;
-
-        let nome = document.createElement('p');
-        nome.classList.add('nome');
-        nome.innerText = atbAtual.nome[0] === undefined ? "" : atbAtual.nome[0];
-
-        let comercial = document.createElement('p');
-        comercial.classList.add('comercial');
-        comercial.innerText = atbAtual.nome[1] === undefined ? '' : atbAtual.nome.slice(1).map(item => `${item}`+'®').join('  ');
-      
-        let habitual = document.createElement('p');
-        let instrucoes = atbAtual.posologias[1][3] === undefined ? '' : "<br><span style=\"color:var(--termo);\"><br>Instruções</span>: "+atbAtual.posologias[1][3];
-        habitual.innerHTML = "Posologia habitual de "+atbAtual.posologias[1][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[1][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[1][2]+instrucoes;
-        
-        atb.appendChild(comercial);
-        atb.appendChild(nome);
-        atb.appendChild(habitual);
-
-        if (atbAtual.class !== undefined && Object.keys(data[i].class).length > 0 ) {
-            let classes = document.createElement('p');
-            classes.innerHTML = "<span style=\"color: var(--termo)\">Classes: </span>"+atbAtual.class.map(item => `${item}`).join(', ');
-            atb.appendChild(classes);
-        }
-
-        let posologiasAdc = document.createElement('p');
-        let noPosologias = Object.keys(data[i].posologias).length;
-        if (noPosologias > 2) {
-            posologiasAdc.innerHTML = "<span style=\"color: var(--termo)\">Demais posologias: <br><br></span>";
-            for (j=2; j < noPosologias; j++){
-              let instrucoes = atbAtual.posologias[j][3] === undefined ? '' : " "+atbAtual.posologias[j][3];
-              posologiasAdc.innerHTML+= "<span style=\"color: var(--termo)\">"+(j-1)+") </span>"+atbAtual.posologias[j][0]+atbAtual.posologias[0][0]+'/'+atbAtual.posologias[j][1]+atbAtual.posologias[0][1]+" "+atbAtual.posologias[j][2]+instrucoes+"<br><br>";
-            }
-            atb.appendChild(posologiasAdc);
-        }
-
-        if (atbAtual.obs !== undefined){
-          let obsTopic = document.createElement('p');
-          obsTopic.innerHTML = "<hr>Observações";
-          let obs = document.createElement('p');
-          obs.classList.add('observacao');
-          obs.innerText = atbAtual.obs[0] === undefined ? '' : atbAtual.obs.map(item => `${item}`).join('\n');
-
-          atb.appendChild(obsTopic);
-          atb.appendChild(obs);
-        }
-
-                
-        searched.appendChild(atb);
+    for (i=0; i < Object.keys(data).length; i++){
+      //console.log(data[i].posologias);
+      // na falta de posologias, a entrada é ignorada
+      if (data[i].posologias == "" || 
+          data[i].posologias == '' || 
+          data[i].posologias == null || 
+          data[i].posologias == undefined)
+      {
+         continue 
       }
-      //document.querySelectorAll("#resultado p").forEach(p => {
-      //  p.style.display = 'none';
-      //}
+
+      let atbAtual = data[i];
+
+      let atb = document.createElement('div');
+      let nome = document.createElement('p');
+      let comercial = document.createElement('p');
+      let prescricoes = document.createElement('p');
+      prescricoes.innerHTML += "Prescrições:<br>";
+      
+      atb.id = "divAtb" ;
+
+      nome.classList.add('nome');
+      nome.innerText = atbAtual.nome[0] === undefined ? "" : 
+                       atbAtual.nome[0];
+
+      comercial.classList.add('comercial');
+      comercial.innerText = atbAtual.nome[1] === undefined ? '' : 
+                            atbAtual.nome.slice(1)
+                                         .map(item => `${item}`+'®')
+                                         .join('  ');
+      
+      atb.appendChild(comercial);
+      atb.appendChild(nome);
+
+      if (atbAtual.class !== undefined && 
+      Object.keys(data[i].class).length > 0 ) 
+      {
+        let classes = document.createElement('p');
+        classes.innerHTML = 
+          "<span style=\"color: var(--termo)\">Classes: </span>"+
+          atbAtual.class.map(item => `${item}`)
+                        .join(', ');
+        atb.appendChild(classes);
+      }
+
+      let posologias = atbAtual.posologias;
+
+      posologias.forEach(posologia => {
+        let indexUnidades = posologia.unidades.length - 1;
+        let dose = document.createElement('p');
+
+        dose.innerText += posologia.via+" - ";
+
+        for (var i = 0; i < posologia.unidades.length; i++)
+        {
+          if (i != 0)
+          {
+            dose.innerText += "/";
+          };
+          dose.innerText += posologia.dosagem[i]+posologia.unidades[i];
+          indexUnidades--
+        };
+        let instrucao = posologia.instrucao === undefined ? '' : " - "+posologia.instrucao;
+        dose.innerText += instrucao;
+        atb.appendChild(dose);
+      });
+
+      if (atbAtual.obs !== undefined){
+        let obsTopic = document.createElement('p');
+        obsTopic.innerHTML = "<hr>Observações";
+        let obs = document.createElement('p');
+        obs.classList.add('observacao');
+        obs.innerText = atbAtual.obs[0] === undefined ? '' : 
+                        atbAtual.obs.map(item => `${item}`)
+                                    .join('\n');
+
+        atb.appendChild(obsTopic);
+        atb.appendChild(obs);
+      }
+
+       searched.appendChild(atb);
+      }
   })
   .catch(error => console.error('Erro no fetch JSON:', error));
 })
@@ -93,4 +129,3 @@ search.addEventListener("input", () => {
     }
   })
 })
-

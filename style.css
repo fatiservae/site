@@ -81,6 +81,7 @@ Regras de estilo:
   --clipHeading: text; 
   --corFundoSelecao: tomato;
   --corSelecao: black;
+  --h3BeforeContent: "•  ";
 }
 
 ::selection {
@@ -269,6 +270,7 @@ Regras de estilo:
   --fundo: #FFECB3; 
   --strong-color: #101010;
   */
+  --h3BeforeContent: none;
   --corHoverBotao: var(--vermelhoDailyBeast);
   --fundo: #cc866a ; 
   --corFonteBarraHover: white;
@@ -305,7 +307,7 @@ Regras de estilo:
   --corBarraSelecionado: white;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, gray, white, tan);
-  --corH2-gradiente: linear-gradient(90deg, var(--frase), var(--azul-google), var(--verde-servo));
+  --corH2-gradiente: linear-gradient(90deg, var(--azul-google), var(--frase), var(--roxoGoogle));
   --background-img: url('pix/day.jpg'); 
   --switch-shadow: 3px 1px 20px red;
   --fundo-carousel: var(--left-gradiente-light);
@@ -368,7 +370,7 @@ Regras de estilo:
   --corHoverBotao: white;
   --headings: navajowhite ;
   --corBordas: #383f48 ;
-  --fundo-invertido: var(--white-solarized) ;
+  --fundo-invertido: black ;
   --fundo-input: lightgray ;
   --separador: #383f48 ;
   --fonte: black;
@@ -747,7 +749,7 @@ h3 {
   font-weight: normal;
 }
 h3::before {
-  content: "•  ";
+  content: var(--h3BeforeContent);
   color: var(--corNegrito);
 }
 
@@ -959,6 +961,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_resumos::before { content: "📝 " ;}
 #tag_psicologia::before { content: "🎭 " ;}
 #tag_filosofia::before { content: "🤔 " ;}
 #tag_farmacologia::before { content: "🧪💊 " ;}

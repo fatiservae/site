@@ -17,44 +17,49 @@
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/ventilador-mec/</guid>
 		<description>&lt;p&gt;Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em &lt;a href=&#34;https://t.me/fatiservae&#34;&gt;@fatiservae&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].&lt;/p&gt;
+&lt;p&gt;Atualmente, os valores &lt;strong&gt;servem apenas de prova de conceito, não é um simulador real!&lt;/strong&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;style&gt;
     .modulos{
         display: flex;
+        margin-left: 5vw;
         flex-wrap: wrap;
+        justify-content: start ; 
     }
     .modulo {
         border: var(--bordas);
         width: fit-content;
         padding: 5px;
         margin: 0px;
-        margin-left: 3vw;
     }
     .modulo .modulo {
         margin-left: 0px;
         padding: 0px;
     }
-    h2 {
+    .modulo h2 {
         padding: 0px;
         margin: 0px;
+    }
+    label {
     }
 &lt;/style&gt;
 &lt;div class=modulos&gt;
 &lt;div class=&#34;modulo sticker&#34; id=&#34;dados-clinicos&#34;&gt;
     &lt;h2&gt;Paciente&lt;/h2&gt;
-    &lt;label for=&#34;nome&#34;&gt;Nome:&lt;/label&gt;
+    &lt;label for=&#34;nome&#34;&gt;Nome&lt;/label&gt;
     &lt;br&gt;
-    &lt;input type=&#34;text&#34; id=&#34;nome&#34; name=&#34;nome&#34;&gt;
+    &lt;input type=&#34;text&#34; id=&#34;nome&#34; name=&#34;nome&#34; value=&#34;José&#34;&gt;
     &lt;br&gt;
-    &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
+    &lt;label for=&#34;idade&#34;&gt;Idade(anos)&lt;/label&gt;
     &lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;idade&#34; name=&#34;idade&#34;&gt;
+    &lt;input type=&#34;number&#34; id=&#34;idade&#34; name=&#34;idade&#34; value=32&gt;
     &lt;br&gt;
     &lt;!-- Adicione mais campos conforme necessário --&gt;
-    &lt;label for=&#34;condicao&#34;&gt;Condição:&lt;/label&gt;
+    &lt;label for=&#34;condicao&#34;&gt;Condição&lt;/label&gt;
     &lt;br&gt;
     &lt;select id=&#34;condicao&#34; name=&#34;condicao&#34;&gt;
+    &lt;option value=&#34;sepse&#34;&gt;Sepse&lt;/option&gt;
     &lt;option value=&#34;pneumonia&#34;&gt;Pneumonia&lt;/option&gt;
     &lt;option value=&#34;pos-cirurgico&#34;&gt;Pós-cirúrgico&lt;/option&gt;
     &lt;!-- Adicione mais opções conforme necessário --&gt;
@@ -62,33 +67,44 @@
 &lt;/div&gt;
 &lt;div class=&#34;modulo sticker&#34; id=&#34;ventilador&#34;&gt;
     &lt;h2&gt;Ventilador&lt;/h2&gt;
-    &lt;label for=&#34;volume-tidal&#34;&gt;Volume Tidal:&lt;/label&gt;
+    &lt;label for=&#34;volume-tidal&#34;&gt;Volume Tidal(ml)&lt;/label&gt;
     &lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;volume-tidal&#34; name=&#34;volume-tidal&#34;&gt;
+    &lt;input type=&#34;number&#34; id=&#34;volume-tidal&#34; name=&#34;volume-tidal&#34; value=300 max=1000 min=0&gt;
     &lt;br&gt;
-    &lt;label for=&#34;frequencia-respiratoria&#34;&gt;Frequência Respiratória:&lt;/label&gt;
+    &lt;label for=&#34;frequencia-respiratoria&#34;&gt;Frequência Respiratória&lt;br&gt;(irpm)&lt;/label&gt;
     &lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;frequencia-respiratoria&#34; name=&#34;frequencia-respiratoria&#34;&gt;
+    &lt;input type=&#34;number&#34; id=&#34;frequencia-respiratoria&#34; value=&#34;20&#34; min=&#34;0&#34; max=&#34;100&#34; step=&#34;1&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;modulo sticker&#34; id=&#34;gasometria&#34;&gt;
-        &lt;h2&gt;Gastometria&lt;/h2&gt;
+        &lt;h2&gt;Gasometria&lt;/h2&gt;
         &lt;!-- Campos para os parâmetros gasométricos --&gt;
-        &lt;label for=&#34;ph&#34;&gt;pH:&lt;/label&gt;
+        &lt;label for=&#34;ph&#34;&gt;pH&lt;/label&gt;
     &lt;br&gt;
-        &lt;input type=&#34;number&#34; id=&#34;ph&#34; name=&#34;ph&#34; step=&#34;0.01&#34;&gt;
+        &lt;input type=&#34;number&#34; id=&#34;ph&#34; max=7.6 min=7.11 name=&#34;ph&#34; step=&#34;0.01&#34; value=7.31&gt;
         &lt;br&gt;
-        &lt;label for=&#34;pao2&#34;&gt;PaO2:&lt;/label&gt;
+        &lt;label for=&#34;pco2&#34;&gt;pCO2(mmHg)&lt;/label&gt;
     &lt;br&gt;
-        &lt;input type=&#34;number&#34; id=&#34;pao2&#34; name=&#34;pao2&#34;&gt;
+        &lt;input type=&#34;number&#34; value=31 id=&#34;pco2&#34; name=&#34;pco2&#34;&gt;
         &lt;!-- Adicione mais campos conforme necessário --&gt;
+    &lt;br&gt;
+    &lt;label for=&#34;Bic&#34;&gt;Bicarbonato(mEq/L)&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;bicarbonato&#34; name=&#34;Bic&#34; step=&#34;0.1&#34; value=16&gt;
+    &lt;br&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;button id=atualizar onclick=atualizar()&gt;Atualizar&lt;/button&gt;&lt;/p&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt;&lt;canvas id=&#34;volume&#34;&gt;&lt;/canvas&gt;
 &lt;canvas id=&#34;pressao&#34;&gt;&lt;/canvas&gt;
 &lt;canvas id=&#34;fluxo&#34;&gt;&lt;/canvas&gt;&lt;/p&gt;
-&lt;script src=&#34;../ventilador.js&#34;&gt;   
+&lt;script src=&#34;../medicina/simulador-ventilador/ventilador.js&#34;&gt;   
 &lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas. &lt;strong&gt;Comparison of mathematical and controlled mechanical lung simulation in active breathing and ventilated state&lt;/strong&gt;. IFAC-PapersOnLine, v. 51, n. 6, p. 42-47, 2018.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -1063,6 +1079,8 @@ table{
     text-align: center;
 }
 &lt;/style&gt;
+&lt;h2 id=&#34;fisiopatologia-da-doença-ateroesclerótica&#34;&gt;Fisiopatologia da doença ateroesclerótica&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;valores-de-normalidade&#34;&gt;Valores de normalidade&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1147,7 +1165,8 @@ table{
         &lt;/tr&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;metas-terapêuticas&#34;&gt;Metas terapêuticas&lt;/h2&gt;
+&lt;h2 id=&#34;estatinas&#34;&gt;Estatinas&lt;/h2&gt;
+&lt;h3 id=&#34;metas-terapêuticas&#34;&gt;Metas terapêuticas&lt;/h3&gt;
 &lt;table&gt;
     &lt;thead&gt;
         &lt;tr&gt;
@@ -1191,6 +1210,9 @@ table{
 &lt;p&gt;Atorvastatina de 40mg ou mais, Rosuvastatina de 20mg ou mais e sinvastatina combinada com ezetimiba tem poder de redução do LDL alto com &lt;strong&gt;queda esperada de 50% ou mais.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Quaisquer estatinas acima de 40mg, a pitavastatina de 2mg ou mais, a sinvastatina de 20mg, a atorvastatina de 10mg ou mais ou a rosuvastatina de 5mg ou mais têm poder de redução do HDL moderado, &lt;strong&gt;esperando-se queda de 30-50% do valor.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A fluvastatina de 40mg, a sinvastatina de 10mg, a pitavastatina de 1mg ou todas outras estatinas com dosagem diária menor de 40mg tem baixo poder de redução do HDL com &lt;strong&gt;queda esperada não maior que 30%&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;ação-antiinflamatória-das-estatinas&#34;&gt;Ação antiinflamatória das estatinas&lt;/h3&gt;
+&lt;p&gt;Está provada a ação antiinflamatória das estatinas ao inibir certas citocinas.&lt;/p&gt;
+&lt;p&gt;Por exemplo, a CXCL9, uma quimiocina regulada por interferon que está envolvida na patogênese do lúpus eritomatoso sistêmico é inibida pelas estatinas.&lt;/p&gt;
 &lt;h2 id=&#34;fibratos&#34;&gt;Fibratos&lt;/h2&gt;
 &lt;p&gt;Na hipertrigliceridemia com falha do tratamento não farmacológico, introduz-se os fibratos conforme dosagem diária de bula. Para triglicerídeos acima de 500mg/dL, faz-se de imediato a introdução de fibratos, concomitantes às medidas não farmacológicas.&lt;/p&gt;
 &lt;!--
@@ -1225,6 +1247,8 @@ table{
 &lt;h2 id=&#34;referência&#34;&gt;Referência&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Faludi AA, Izar MCO, Saraiva JFK, Chacra APM, Bianco HT, Afiune Neto A, Bertolami A, et al. &lt;strong&gt;Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose – 2017&lt;/strong&gt;. Arq. Bras. Cardiol. 2017;109(2 suppl 1):1-76.&lt;/li&gt;
+&lt;li&gt;Jain, M., Ridker, P. &lt;strong&gt;Anti-Inflammatory Effects of Statins: Clinical Evidence and Basic Mechanisms&lt;/strong&gt;. Nat Rev Drug Discov 4, 977–987 (2005). &lt;a href=&#34;https://doi.org/10.1038/nrd1901&#34;&gt;https://doi.org/10.1038/nrd1901&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ferreira GA, Teixeira AL, Sato EI. &lt;strong&gt;Atorvastatin therapy reduces interferon- regulated chemokine CXCL9 plasma levels in patients with systemic lupus erythematosus&lt;/strong&gt;. Lupus. 2010;19(8):927-34.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -1530,7 +1554,7 @@ table{
 &lt;li&gt;A manutenção hidro-calórica;&lt;/li&gt;
 &lt;li&gt;A reposição hídrica.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A &lt;strong&gt;ressuscitação volêmica&lt;/strong&gt; é uma medida de urgência, conduta padrão para o diagnóstico de &lt;em&gt;hipovolemia&lt;/em&gt; ou de &lt;em&gt;desidratação&lt;/em&gt;. Se baseia no exame físico e deve ser iniciada no paciente que demonstre anúria, pele seca, ausência de humidade nas mucosas de boca e olhos, além de sinais mais graves como rebaixamento de consciência e confusão.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;ressuscitação volêmica&lt;/strong&gt; é uma medida de urgência, conduta padrão para o diagnóstico de &lt;em&gt;choque hipovolêmico&lt;/em&gt; ou a &lt;em&gt;desidratação&lt;/em&gt;. Se baseia no exame físico e deve ser iniciada no paciente que demonstre anúria, pele seca, ausência de humidade nas mucosas de boca e olhos, além de sinais mais graves como rebaixamento de consciência e confusão.&lt;/p&gt;
 &lt;p&gt;A &lt;strong&gt;manutenção hidro-calórica&lt;/strong&gt; é a prescrição pós-ressuscitação e tem por objetivo dar suporte calórico e líquido ao paciente em recuperação. Esta abordagem é uma &lt;em&gt;evolução médica&lt;/em&gt;, ou seja, direciona-se ao paciente internado que teve manejo ou estabilização anterior.&lt;/p&gt;
 &lt;p&gt;A &lt;strong&gt;reposição hídrica&lt;/strong&gt; é uma ação concomitante que visa devolver a autonomia do paciente, isto é, a volta a normalidade fisiológica. Costuma ser ofertada de preferência por ingesta oral expontânea, o mais cedo possível. O paciente recém manejado pode ter sede e este é um bom sinal, sobretudo no retorno da consciência.&lt;/p&gt;
 &lt;h2 id=&#34;ressuscitação-volêmica&#34;&gt;Ressuscitação volêmica&lt;/h2&gt;
@@ -1552,11 +1576,25 @@ table{
 &lt;h2 id=&#34;a-falácia-do-fluido-fisiológico&#34;&gt;A falácia do &amp;ldquo;fluido fisiológico&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Nenhum fluido é fisiológico. Na verdade, diversos estudos tentam determinar quando um fluido pode, na verdade, ser danoso ao estado do doente. Este assunto é particularmente importante no caso de pacientes com injúria cerebral[2].&lt;/p&gt;
 &lt;p&gt;Até o momento, nenhum fluido alcança o status de fisiológico, devendo o médico sempre considerar a repercussão da conduta a depender da composição da prescrição.&lt;/p&gt;
+&lt;h2 id=&#34;dicas-da-ressuscitação-volêmica-do-paciente-crítico-3&#34;&gt;Dicas da ressuscitação volêmica do paciente crítico [3]&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A responsividade ao fluido é &lt;strong&gt;o essencial&lt;/strong&gt;. Porém, o exame físico, as imagens de tórax, a média de pressão arterial nem a ultrassonografia cardíaca são capazes de determinar, isoladamente, o status de responsividade.&lt;/li&gt;
+&lt;li&gt;O padrão ouro é a &lt;strong&gt;avaliação de débito cardíaco frente ao desafio de fluido.&lt;/strong&gt; Ou seja, realiza-se o bolus de fluido e é esperado aumento imediato do débito cardíaco que pode ser determinado por Doppler.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;manobra de elevação passiva dos membros inferiores&lt;/strong&gt; pode substituir o bolus de fluido e pela segurança e baixo custo deve ser uma opção sempre tentada.&lt;/li&gt;
+&lt;li&gt;A resposta à administração de fluidos costuma ser rápida e pueril. A melhora clínica depende muito mais da correção do distúrbio base.&lt;/li&gt;
+&lt;li&gt;A pressão venosa central é o principal preditor de mau diagnóstico¹ e deve estar sempre &lt;strong&gt;acima de 65mmHg&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Na verdade, a baixa pressão venosa central se correlaciona diretamente a má perfusão de órgãos centrais. Portanto, apesar de não ser muito útil para se determinar a resposta ao fluido, tem alto valor na predição de prognóstico ruim.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;GHOSH, Supradip. &lt;strong&gt;Handbook of Intravenous Fluids&lt;/strong&gt;. Springer, 2022.&lt;/li&gt;
 &lt;li&gt;Roquilly A, Loutrel O, Cinotti R, Rosenczweig E, Flet L, Mahe PJ, et al. &lt;strong&gt;Balanced versus chloride-rich solutions for fluid resusci- tation in brain-injured patients: a randomised double-blind pilot study&lt;/strong&gt;. Crit Care. 2013;17:R77.&lt;/li&gt;
+&lt;li&gt;MARIK, Paul E. &lt;strong&gt;Fluid responsiveness and the six guiding principles of fluid resuscitation&lt;/strong&gt;. Critical care medicine, v. 44, n. 10, p. 1920-1922, 2016.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -1844,7 +1882,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;h2 id=&#34;classificação-da-oms&#34;&gt;Classificação da OMS&lt;/h2&gt;
 &lt;p&gt;A OMS visa uma classificação mais operacional, sem a preocupação imunohistológica.&lt;/p&gt;
 &lt;p&gt;A importância é epidemiológica, já que o convívio com multibacilares deve aumentar a probabilidade diagnóstica &lt;strong&gt;sempre&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;multibacilar&#34;&gt;Multibacilar&lt;/h3&gt;
+&lt;h3 id=&#34;multibacilar-ou-dimorfa&#34;&gt;Multibacilar ou dimorfa&lt;/h3&gt;
 &lt;p&gt;Se há mais de cinco lesões ao todo ou se há lesão neurológica, por conclusão clínica ou por imagem.&lt;/p&gt;
 &lt;h3 id=&#34;paucibacilares&#34;&gt;Paucibacilares&lt;/h3&gt;
 &lt;p&gt;Os demais indivíduos não multibacilares.&lt;/p&gt;
@@ -1899,6 +1937,9 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;reações-hansênicas&#34;&gt;Reações hansênicas&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;operacional-na-ses-df&#34;&gt;Operacional na SES-DF&lt;/h2&gt;
 &lt;p&gt;Para detalhes de dispensação, documentos e responsáveis, visite a referência 2 no fim da página.
 &lt;br&gt;
@@ -2661,7 +2702,9 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
     margin-left: 0em;
     background-image: var(--corH2-gradiente); 
     -webkit-background-clip: text; 
-    color: transparent; 
+    /*
+    */
+    color: var(--corH2); 
     font-weight: bold;
     width: fit-content;
   }
@@ -3245,10 +3288,18 @@ $$
 \Delta P_{tissue} = PA_{dias} - PA_{tissue}
 $$&lt;/p&gt;
 &lt;p&gt;O $\Delta P_{tissue}$ é crítico se &lt;strong&gt;menor que 30mmHg&lt;/strong&gt;. Se zero, a isquemia é presumida.&lt;/p&gt;
+&lt;h2 id=&#34;acessos-vasculares&#34;&gt;Acessos vasculares&lt;/h2&gt;
+&lt;h3 id=&#34;acesso-venoso-femoral&#34;&gt;Acesso venoso femoral&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Indicado quando obstruída a cava superior, para poupar comprometimento de vias aéreas, facilitar a pronagem e para evitar a manipulação excessiva pelo paciente com desordem psiquiátrica[2];&lt;/li&gt;
+&lt;li&gt;Deve ser realizado, preferencialmente, guiado por ultrassonografia[2];&lt;/li&gt;
+&lt;li&gt;A maioria das punções inserem cateters comerciais com menos de 20cm e, portanto, não alcançam a cava inferior e devem ser tratados como periférico de grosso calibre[2].&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;MASON, Jay W. et al. &lt;strong&gt;Electrocardiographic reference ranges derived from 79,743 ambulatory subjects&lt;/strong&gt;. Journal of electrocardiology, v. 40, n. 3, p. 228-234. e8, 2007.&lt;/li&gt;
+&lt;li&gt;ANNETTA, Maria Giuseppina et al. &lt;strong&gt;Femoral venous access: State of the art and future perspectives&lt;/strong&gt;. The Journal of Vascular Access, p. 11297298231209253, 2023.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -3469,7 +3520,8 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 &lt;p&gt;O fisiculturista mais honesto do YT.&lt;/p&gt;
 &lt;p&gt;Sul africano, sofreu muito &lt;em&gt;bullying&lt;/em&gt; quando adolescente e atualmente seu canal é focado na motivação e no estímulo de iniciantes. Costuma treinar nos EUA, África do Sul e Tailândia, portanto o canal é bem rico de conteúdo.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;You&amp;rsquo;ve got this!&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;promogração&#34;&gt;Promogração&lt;/h2&gt;
+&lt;h2 id=&#34;programação&#34;&gt;Programação&lt;/h2&gt;
+&lt;h3 id=&#34;daves-garage&#34;&gt;Dave&amp;rsquo;s garage&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/@DavesGarage&#34;&gt;https://www.youtube.com/@DavesGarage&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Programador aposentado da Microsoft, responsável por criar e manter por mais de 20 anos o gerenciador de tarefas do Windows.&lt;/p&gt;
 &lt;p&gt;Autor do livro &lt;a href=&#34;amzn.to/3diQILq&#34;&gt;The Autistic Millionaire&lt;/a&gt;, faz vídeos específicos e também é fã de automobilismo e preparação de motores.&lt;/p&gt;

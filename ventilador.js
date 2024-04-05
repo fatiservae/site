@@ -43,4 +43,5 @@ setInterval(function() {
         dados.datasets[0].data.shift();
     }
     volume.update();
+
 }, 100); // Intervalo de atualização em milissegundos

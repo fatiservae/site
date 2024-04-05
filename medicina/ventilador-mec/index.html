@@ -22,7 +22,12 @@
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em @fatiservae.
-Paciente Nome: Idade: Condição: Pneumonia Pós-cirúrgico Ventilador Volume Tidal: Frequência Respiratória: Gastometria pH: PaO2: ">
+Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].
+Atualmente, os valores servem apenas de prova de conceito, não é um simulador real!
+Paciente Nome Idade(anos) Condição Sepse Pneumonia Pós-cirúrgico Ventilador Volume Tidal(ml) Frequência Respiratória
+(irpm) Gasometria pH pCO2(mmHg) Bicarbonato(mEq/L) Atualizar
+Referências RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas.">
+  <meta name="keywords" content="Medicina, Ciência, Projetos">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -170,44 +175,49 @@ Paciente Nome: Idade: Condição: Pneumonia Pós-cirúrgico Ventilador Volume Ti
 
 
   <p>Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em <a href="https://t.me/fatiservae">@fatiservae</a>.</p>
-<hr>
+<p>Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].</p>
+<p>Atualmente, os valores <strong>servem apenas de prova de conceito, não é um simulador real!</strong></p>
 <br>
 <style>
     .modulos{
         display: flex;
+        margin-left: 5vw;
         flex-wrap: wrap;
+        justify-content: start ; 
     }
     .modulo {
         border: var(--bordas);
         width: fit-content;
         padding: 5px;
         margin: 0px;
-        margin-left: 3vw;
     }
     .modulo .modulo {
         margin-left: 0px;
         padding: 0px;
     }
-    h2 {
+    .modulo h2 {
         padding: 0px;
         margin: 0px;
+    }
+    label {
     }
 </style>
 <div class=modulos>
 <div class="modulo sticker" id="dados-clinicos">
     <h2>Paciente</h2>
-    <label for="nome">Nome:</label>
+    <label for="nome">Nome</label>
     <br>
-    <input type="text" id="nome" name="nome">
+    <input type="text" id="nome" name="nome" value="José">
     <br>
-    <label for="idade">Idade:</label>
+    <label for="idade">Idade(anos)</label>
     <br>
-    <input type="number" id="idade" name="idade">
+    <input type="number" id="idade" name="idade" value=32>
     <br>
     <!-- Adicione mais campos conforme necessário -->
-    <label for="condicao">Condição:</label>
+    <label for="condicao">Condição</label>
     <br>
     <select id="condicao" name="condicao">
+    <option value="sepse">Sepse</option>
     <option value="pneumonia">Pneumonia</option>
     <option value="pos-cirurgico">Pós-cirúrgico</option>
     <!-- Adicione mais opções conforme necessário -->
@@ -215,37 +225,49 @@ Paciente Nome: Idade: Condição: Pneumonia Pós-cirúrgico Ventilador Volume Ti
 </div>
 <div class="modulo sticker" id="ventilador">
     <h2>Ventilador</h2>
-    <label for="volume-tidal">Volume Tidal:</label>
+    <label for="volume-tidal">Volume Tidal(ml)</label>
     <br>
-    <input type="number" id="volume-tidal" name="volume-tidal">
+    <input type="number" id="volume-tidal" name="volume-tidal" value=300 max=1000 min=0>
     <br>
-    <label for="frequencia-respiratoria">Frequência Respiratória:</label>
+    <label for="frequencia-respiratoria">Frequência Respiratória<br>(irpm)</label>
     <br>
-    <input type="number" id="frequencia-respiratoria" name="frequencia-respiratoria">
+    <input type="number" id="frequencia-respiratoria" value="20" min="0" max="100" step="1">
 </div>
 <div class="modulo sticker" id="gasometria">
-        <h2>Gastometria</h2>
+        <h2>Gasometria</h2>
         <!-- Campos para os parâmetros gasométricos -->
-        <label for="ph">pH:</label>
+        <label for="ph">pH</label>
     <br>
-        <input type="number" id="ph" name="ph" step="0.01">
+        <input type="number" id="ph" max=7.6 min=7.11 name="ph" step="0.01" value=7.31>
         <br>
-        <label for="pao2">PaO2:</label>
+        <label for="pco2">pCO2(mmHg)</label>
     <br>
-        <input type="number" id="pao2" name="pao2">
+        <input type="number" value=31 id="pco2" name="pco2">
         <!-- Adicione mais campos conforme necessário -->
+    <br>
+    <label for="Bic">Bicarbonato(mEq/L)</label>
+    <br>
+    <input type="number" id="bicarbonato" name="Bic" step="0.1" value=16>
+    <br>
 </div>
 </div>
+<p><button id=atualizar onclick=atualizar()>Atualizar</button></p>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <p><canvas id="volume"></canvas>
 <canvas id="pressao"></canvas>
 <canvas id="fluxo"></canvas></p>
-<script src="../../ventilador.js">   
+<script src="../../medicina/simulador-ventilador/ventilador.js">   
 </script>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas. <strong>Comparison of mathematical and controlled mechanical lung simulation in active breathing and ventilated state</strong>. IFAC-PapersOnLine, v. 51, n. 6, p. 42-47, 2018.</li>
+</ol>
 
 
 
-  
+  <br>
+        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">Ciência</a> &middot; <a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">Projetos</a></div>
 
 </article>
 

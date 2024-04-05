@@ -1,0 +1,322 @@
+  {
+    "nome": ["dissulfiram", "Antietanol", "(US) Antabuse"],
+    "class": ["antialcoólicos"],
+    "posologias":[
+      ["mg", "dia"],
+      [250, "", "VO", "de preferência pela manhã, desde que esteja há 12h sem consumo de alcoól."]
+    ],
+    "obs":[
+      "Se usado na vigência do consumo de alcoól, causa depressão neurológica, colapso cardíaco e diversos outros efeitos graves."
+    ]
+  },
+  {
+    "nome": ["citrato de fentanila", "Fentanil"],
+    "class": ["analgésicos", "opioides"],
+    "posologias":[
+      ["mcg", "paciente"],
+      [100, "", "IV", "dose inicial."],
+      [200, "", "IV", "dose máxima literária."]
+    ],
+    "obs": [
+      "Todas características do paciente influenciam a dose que deve ser individualizada",
+      "No passado, doses muito maiores eram utilizadas isoladamente na antestesia.",
+      "Tem ação potencializadora dos sedativos.",
+      "A apresentação padrão é de 50mcg/ml."
+    ]
+  },
+  {
+    "nome": ["cetamina", "Ketalar"],
+    "class": ["hipnóticos", "sedativos", "bloqueadores de NMDA"],
+    "posologias": [
+      ["mg", "Kg"],
+      [1, "", "IV", "dose inicial para sedação."],
+      [3, "", "IV", "dose máxima literária para sedação."],
+      [0.3, "", "IV", "dose máxima para analgesia moderada."]
+    ],
+    "obs": [
+      "Causa hipertensão por liberação de adrenalina endógena.",
+      "Nas situações de adrenalina endógena esgotada, causa hipotensão.",
+      "Provoca moderada sialorreia, halucinação parasitária e outras."
+    ]
+  },
+  {
+    "nome": ["fluconazol"],
+    "class": ["antifúngicos"],
+    "posologias":[
+      ["mg", "dose"],
+      [150, "", "VO", "dose única que pode ser tomada semanal para sítios difíceis, como ungueal."]
+    ]
+  },
+  {
+    "nome": ["terbinafina"],
+    "class": ["antifúngicos"],
+    "posologias":[
+      ["mg", "dia"],
+      [250, "", "VO", "sendo a terapia muito variável, de 3 a 12 semanas, a depender do sítio infectado."]
+    ]
+  },
+  {
+    "nome": ["dexmedetomidina", "Precedex"],
+    "class": ["pré-anestésicos", "ansiolíticos", "simpaticolíticos"],
+    "posologias":[
+      ["mcg/Kg", "min"],
+      [1, 10, "IV", "ataque por 10min."],
+      [0.5, 60, "IV", "para manutenção, por hora. Também pode ser usada como droga de auxílio à VNI e para ansiólise."],
+      [0.2, 60, "IV", "é o mínimo conhecido para manutenção de hora."],
+      [0.7, 60, "IV", "é o máximo indicado por bula comercial para manutenção de hora."]
+    ]
+  },
+  {
+    "nome": ["ácido tranexâmico", "Transamin"],
+    "class": ["antifibrinolítico"],
+    "posologias":[
+      ["g", "h"],
+      [1, 3, "IV", "no trauma deve ser administrado nas 3 primeiras horas em infusão por 10min no melhor acesso adquirido."],
+      [1, 8, "IV", "manutenção no pós-trauma."],
+      [1, 3, "", "em obstetrícia, nos sangramentos uterogênicos nas 3 primeiras horas em infusão por 10min."]
+    ]
+  },
+  {
+    "nome": ["sulfato de magnésio"],
+    "class": ["eletrólitos"],
+    "posologias": [
+      ["g", "min"],
+      [4, 10, "IV", "acompanhado de 5g IM em cada nádega - ataque por esquemas Zuspan e Pritchard."],
+      [6, 10, "IV", "esquema Zuspan ataque modificado (Sibai)."],
+      [5, 4, "IM", "manutenção - esquema Pritchard."],
+      [1, 10, "IV", "manutenção - esquema Zuspan."],
+      [2, 60, "IV", "manutenção - esquema Sibai."]
+    ],
+    "obs": [
+      "Para transportes, melhor usar Pritchard."
+    ]
+  },
+  {
+    "nome": ["axetilcefuroxima", "Zinnat"],
+    "class": ["antibióticos", "cefalosporinas de 2° geração", "betalactâmicos"],
+    "posologias": [
+      ["mg", "h"],
+      [250, 12, "VO", "em forma de comprimido, sachê ou suspensão."],
+      [500, 12, "VO"]
+    ]
+  },
+  {
+    "nome": ["ferripolimaltose", "Noripurum"],
+    "posologias":[
+      ["mg", "dose"], 
+      [20, "" , "IV", "ajustado de acordo com o nível de hemoglobina."]
+    ]
+  },
+  {
+    "nome": ["carboximaltose férrica", "Ferinject"],
+    "posologias":[
+      ["g", "dose"],
+      [1, "", "IV", "nunca excedendo 1g ou 20mg/Kg"]
+    ]
+  },
+  {
+    "nome": ["desogestrel e etinilestradiol", "Mercilon"],
+    "posologias":[
+      ["mcg", "dia"],
+      ["150+20", 1, "VO", "conforme ordem de cartela ou critério médico."]
+    ]
+  },
+  {
+    "nome": ["etinilestradiol"],
+    "posologias":[
+      ["mcg", "h"],
+      [30, 6, "VO", "até parar o sangramento uterino agudo."],
+      [30, 8, "VO", "até parar o sangramento uterino agudo, por no máximo 7 dias."],
+      [30, 12, "VO", "por até 7 dias em caso de sangramento uterino agudo."],
+      [30, 24, "VO", "seguimento pós sagramento uterino agudo, a critério médico."]
+    ]
+  },
+  {
+    "nome": ["medroxiprogesterona", "Provera"],
+    "posologias":[
+      ["mg", "dia"],
+      [10, 1, "VO", "habitualmente usado como contraceptivo. A posologia pode ser individualizada."],
+      [60, 1, "VO", "por 2 dias na vigência de sangramento uterino agudo."],
+      [120, 1, "VO", "é a dose máxima por 2 dias na vigência de sangramento uterino agudo."],
+      [30, 1, "VO", "por 3 a 6 semanas após cessar o sangramento uterino agudo."]
+    ]
+  },
+  {
+    "nome": ["levomepromazina", "Neozine"],
+    "class": ["antipsicóticos típicos", "fenotiazinas"],
+    "posologias": [
+      ["mg", "dia"],
+      [150, "", "VO"],
+      [250, "", "VO", "é a dose diária máxima útil literária."],
+      [20, "", "VO", "inicialmente para progressão diária até dose ideal."],
+      [200, "", "VO", "para manejo da dor em pacientes terminais."],
+      [500, "", "VO", "máximo para manejo da dor em pacientes terminais."]
+    ],
+    "obs": [
+      "Em pacientes de 2 a 15 anos, prescrever 0.1-0.2mg/Kg/dia.",
+      "No caso de gotas, diluir em solução de açúcar ou equivalente, nunca instilar diretamente nas mucosas."
+    ]
+  },
+  {
+    "nome": ["amicacina", "Amicilon"],
+    "posologias": [
+      ["mg", "h"],
+      [7.5, 12, "IV"],
+      [15, 24, "IV"], 
+      [7.5, 12, "IV", "se clearence de Cr abaixo de 90mL/min."],
+      [7.5, 24, "IV", "se clearence de Cr abaixo de 50mL/min."]
+    ],
+    "obs": [
+      "Repetir dose de 15mg no pós-diálise.",
+      "Fazer 15mg 3 vezes na semana se clearence de Cr abaixo de 10mL/min."
+    ]
+  },
+  {
+    "nome": ["noretisterona", "Norestin"],
+    "posologias": [
+      ["mg", "h"],
+      [0.35, 24, "VO"],
+      [5, 24, "VO", "para adiar menstruação se tomado entre 3 e 5 dias antes da data de menstruação prevista."]
+    ]
+  },
+  {
+    "nome": ["ceftriaxona", "Rocefin"],
+    "class": ["antibióticos", "cefalosporinas de 3° geração", "betalactâmicos"],
+    "posologias":[
+      ["g", "h"],
+      [1, 24, "IV"],
+      [2, 24, "IV"]
+    ],
+    "obs": [
+      "Dose máxima de 4g/dia se o clearence de Cr entre 90mL/min e 10mL/min.",
+      "Dose máxima de 2g/dia se o clearence de Cr abaixo de 10mL/min."
+    ]
+  },
+  {
+    "nome": ["ertapenem"],
+    "class": ["antibióticos", "carbapenemicos", "betalactâmicos"],
+    "posologias":[
+      ["mg", "h"],
+      [1000, 24, "IV"],
+      [500, 24, "IV", "se clearence de Cr menor que 50mL/min."]
+    ],
+    "obs": [
+      "Repetir 150mg no pós-diálise se a última dose foi administrada até 6h antes do procedimento."
+    ]
+  },
+  { 
+    "nome": ["piperacilina com tazobactam", "Tazocin"],
+    "posologias":[
+      ["mg", "h"],
+      [4500, 8, "IV", "sendo 4g de piperacilina e 500mg de tazobactam."],
+      [4500, 6, "IV", "sendo 4g de piperacilina e 500mg de tazobactam."],
+      [2250, 6, "IV", "se clearence de Cr abaixo de 40mL/min."],
+      [2250, 8, "IV", "se clearence de Cr abaixo de 20mL/min."]
+    ],
+    "obs": [
+      "Se dialítico, fazer dose diária de 2.25g/12h e dose pós-diálise de 750mg."
+    ]
+  },
+  {
+    "nome": ["Meropenem"],
+    "posologias":[
+      ["mg", "h"],
+      ["1000", 24, "IV"],
+      ["1000", 12, "IV", "se o clearence de Cr acima de 10mL/min."],
+      ["500", 24, "IV", "se o clearence menor que 10mL/min."]
+    ],
+    "obs":[
+      "Verificar com fabricante a dose pós-diálise, se necessária"
+    ]
+  },
+  {
+    "nome": ["cefazolina", "Kefazol"],
+    "posologias":[
+      ["g", "h"],
+      [1, 8, "IV"],
+      [2, 8, "IV"],
+      [1, 12, "IV", "se o clearence de Cr entre 50-10mL/min."],
+      [2, 12, "IV", "se o clearence de Cr entre 50-10mL/min."],
+      [1, 24, "IV", "se o clearence menor que 10mL/min."],
+      [1, 48, "IV", "se o clearence menor que 10mL/min."]
+    ],
+    "obs": [
+      "Adicionar 1g no pós-diálise."
+    ]
+  },
+  {
+    "nome": ["cefepime"],
+    "posologias": [
+      ["g", "h"],
+      [2, 8, "IV"],
+      [2, 12, "IV"],
+      [2, 8, "IV", "se o clearence de Cr estiver entre 90-50mL/min."],
+      [2, 12, "IV", "se o clearence de Cr estiver entre 50-10mL/min."],
+      [1, 24, "IV", "se o clearence de Cr estiver menor que 10mL/min."]
+    ],
+    "obs":[
+      "Realizar dose extra de 1g no pós-diálise."
+    ]
+  },
+  {
+    "nome": ["oxacilina", "Oxanon", "Staficilin-N"],
+    "class": ["antibióticos", "penicilinas", "penicilinas resistentes a penicilinases", "betalactâmicos"],
+    "posologias": [
+      ["g", "h"],
+      [1, 6, "IV"],
+      [2, 6, "IV", "ou com tempo interdoses de 4h."]
+    ]
+  },
+  {
+    "nome": ["ceftazidima"],
+    "posologias":[
+      ["g", "h"],
+      [2, 8, "IV"],
+      [2, 12, "IV", "Dose se clearence entre 90-50mL/min."],
+      [2, 24, "IV", "Dose se clearence menor que 10mL/min. Considerar a 2g/48h. Adicionar 1g no pós-diálise."]
+    ]
+  },
+  {
+    "nome": ["ciprofloxacino"],
+    "posologias":[
+      ["mg", "h"],
+      [200, 12, "IV"],
+      [400, 12, "IV"],
+      [400, 8, "IV", "se clearence de Cr de 60mL/min ou mais."]
+    ],
+    "obs": [
+      "As quinolonas são sinérgicas com a gentamicina ou a ceftazidima contra spp. pseudomonas."
+    ]
+  },
+  {
+    "nome": ["levofloxacina"],
+    "posologias":[
+      ["mg", "h"],
+      [750, 24, "IV"],
+      [750, 48, "IV", "Dose aplicável se clearence de Cr entre 50-10mL/min."],
+      [500, 48, "IV", "Dose aplicável se clearence de Cr menor que 10mL/min. Fazer a primeira dose em 750mg."]
+    ]
+  },
+  {
+    "nome": ["sulfametoxazol e trimetoprima", "Bactrim"],
+    "posologias":[
+      ["mg/Kg", "h"],
+      [5, 24, "IV", "podendo chegar a 20mg/Kg/dia, dividida de 6/6h ou de 12/12h."],
+      [5, 24, "IV", "se o clearence de Cr for menor que 50-10mL/min e pode ser dividida de 6/6h ou de 12/12h."]
+    ],
+    "obs":[
+      "Nã́o recomendável para clearences reduzidos abaixo de 10mL/min."
+    ]
+  },
+  {
+    "nome": ["daptomicina"],
+    "posologias": [
+      ["mg/Kg", "h"],
+      [6, 24, "IV"],
+      [6, 48, "IV", "para clearence menor que 30mL/min."]
+    ],
+    "obs":[
+      "Fazer 4-6mg/Kg/24h após diálise."
+    ]
+  }
+
