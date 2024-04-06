@@ -77,20 +77,29 @@
     &lt;input type=&#34;number&#34; id=&#34;frequencia-respiratoria&#34; value=&#34;20&#34; min=&#34;0&#34; max=&#34;100&#34; step=&#34;1&#34;&gt;
 &lt;/div&gt;
 &lt;div class=&#34;modulo sticker&#34; id=&#34;gasometria&#34;&gt;
-        &lt;h2&gt;Gasometria&lt;/h2&gt;
-        &lt;!-- Campos para os parâmetros gasométricos --&gt;
-        &lt;label for=&#34;ph&#34;&gt;pH&lt;/label&gt;
+    &lt;h2&gt;Gasometria&lt;/h2&gt;
+&lt;!-- PH
+&lt;input type=&#34;number&#34; id=&#34;ph&#34; max=7.6 min=7.11 name=&#34;ph&#34; step=&#34;0.01&#34; value=7.31&gt; 
+--&gt;
+    &lt;label for=&#34;ph&#34;&gt;pH&lt;/label&gt;
     &lt;br&gt;
-        &lt;input type=&#34;number&#34; id=&#34;ph&#34; max=7.6 min=7.11 name=&#34;ph&#34; step=&#34;0.01&#34; value=7.31&gt;
-        &lt;br&gt;
-        &lt;label for=&#34;pco2&#34;&gt;pCO2(mmHg)&lt;/label&gt;
+    &lt;p id=ph&gt;&lt;/p&gt;
     &lt;br&gt;
-        &lt;input type=&#34;number&#34; value=31 id=&#34;pco2&#34; name=&#34;pco2&#34;&gt;
-        &lt;!-- Adicione mais campos conforme necessário --&gt;
+&lt;!-- PCO2
+&lt;input type=&#34;number&#34; value=31 id=&#34;pco2&#34; name=&#34;pco2&#34;&gt; 
+--&gt;
+    &lt;label for=&#34;pco2&#34;&gt;pCO2(mmHg)&lt;/label&gt;
     &lt;br&gt;
-    &lt;label for=&#34;Bic&#34;&gt;Bicarbonato(mEq/L)&lt;/label&gt;
+    &lt;p id=pco2&gt;&lt;/p&gt;
+&lt;!-- 
+--&gt;
     &lt;br&gt;
+    &lt;label for=&#34;bic&#34;&gt;Bicarbonato(mEq/L)&lt;/label&gt;
+    &lt;br&gt;
+        &lt;p id=bic&gt;&lt;/p&gt;
+        &lt;!--
     &lt;input type=&#34;number&#34; id=&#34;bicarbonato&#34; name=&#34;Bic&#34; step=&#34;0.1&#34; value=16&gt;
+        --&gt;
     &lt;br&gt;
 &lt;/div&gt;
 &lt;/div&gt;

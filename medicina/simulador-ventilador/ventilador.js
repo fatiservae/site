@@ -1,51 +1,53 @@
-//let fr = document.getElementById("frequencia-respiratoria").value;
-//let volumeTidal = 300;
-let tins = 8;
-//let texp= 4 * tins;
-var volumeResidual = 300;
+/*
+ * tempo em ms
+ * fr em irpm - Lembrar de sempre converter
+ * volume em ml 
+ * fio2 em %
+*/
+let fr = 12;
+let volTidal = 300;
+let tins = ((60000/fr)/5); // 1/5 do tempo da fr
+let texp = ((240000/fr)/5); // 4/5 do tempo da fr
+let fio2 = 30;
+let volResidual = 300;
+let bic;
+let ph = 7.4;
+let pco2;
+let po2;
+let flux; /* ml/ms */
+let peep; /* normalmente informada em cmH2O, deve ser convertida em mmHg */
+let lact; /* influencia em que? */
+let idade; /* influencia em que? */
+/*
+ * patologia deve ser definida via função:
+ * - pneumonia e.g. alterar valores de pH etc
+let patologia;
+*/
+
 //let fatorFr = 1;
 //let fatorVol;
 //let fatorPh;
 //let fatorLact;
 //let fatorBic
-//let ph = 7.4;
-//let pco2;
-//let po2;
-//let bic;
-//let lact;
 //let nome;
-//let idade;
-//let patologia;
 
 function atualizar() {
-    fr = document.getElementById("frequencia-respiratoria").value;
-    volumeTidal = parseFloat(document.getElementById("volume-tidal").value);
-    ;
+    fr = ((document.getElementById("frequencia-respiratoria").value) / 60000);
+    volTidal = parseFloat(document.getElementById("vol-tidal").value);
     fatorFr = 1;
     ph = document.getElementById("ph").value;
     pco2 = document.getElementById("pco2").value;
     bic = document.getElementById("bicarbonato").value;
-    //fatorVol;
-    //fatorPh;
-    //fatorLact;
-    //fatorBic
-    //pco2;
-    //po2;
-    //lact;
-    //nome;
-    //idade;
-    //patologia;
 }
 
 // Obtenha o contexto do canvas
 var ctx = document.getElementById('volume').getContext('2d');
 var cor = getComputedStyle(document.documentElement).getPropertyValue('--fonte');
 
-// Inicialize os dados do gráfico
-var dados = {
+var vol = {
     labels: [],
     datasets: [{
-        label: '% Volume pulmonar', // so pra por um titulo marrom
+        label: 'Volume pulmonar', // so pra por um titulo marrom
         borderColor: cor ,
         borderWidth: 1,
         data: []
@@ -55,47 +57,86 @@ var dados = {
 // Crie um novo gráfico de linha
 var respiracao = new Chart(ctx, {
     type: 'line',
-    data: dados,
+    data: vol,
     options: {
         animation: false,
         scales: {
             x: {
-                display: false
+                display: true 
             },
             y: {
-                beginAtZero: false
+                beginAtZero: true 
             }
         }
     }
 });
-// Atualize os dados do gráfico para desenhar uma onda sinusal
 var tempo = 0;
 var deslocamento = 0;
 var valor = 300;
 
-function respirar(tempo, fr, ph, volumeTidal, valor){
-    return Math.abs(Math.sin(tempo))
-}
- 
-setInterval(function() {
-    if (tempo < tins){
-        tempo += .5
-    } else {
-        tempo = 0;
-    }; 
-    // Altere a frequência da onda ajustando este valor
-    //var valor = Math.sin(tempo);
-    valor = respirar(tempo, fr, ph, volumeTidal, valor);
-    dados.labels.push('');
-    dados.datasets[0].data.push(valor);
-    deslocamento += 1; // Deslocamento para mover o gráfico para a esquerda
-    // Remova os dados mais antigos para criar o efeito de deslizamento infinito
-    if (deslocamento > 50) {
-        dados.labels.shift();
-        dados.datasets[0].data.shift();
+/*
+    * respirar() devolve:
+    * ph / pco2 / po2 / compl
+*/
+function atualizarFisiologia (fr, fio2, peep, volTidal, flux) {
+    /* Influência de FR em PH */
+    if (fr>22) {
+        ph = ph - ph*20/100;
+    }else if(fr>18){
+        ph = ph - ph*10/100;
     }
-    console.log("fr: "+fr+"\nph: "+ph+"\npCO2: "+pco2+"\nvolume pulmonar: "+valor+"\nbic: "+bic+"\nvolume tidal :"+volumeTidal);
+}
+
+// Intervalo de atualização em ms
+let intervalo = 1000 ; 
+let tCiclo = 0; /* tempo do ciclo respiratorio em ms */
+const maxT = (60000/fr) + 5000;
+let ultimoVol = volResidual;
+
+function respirar(tCiclo, ultimoVol) {
+    let fracaoTidalIns = ultimoVol + ultimoVol*(40/100);
+    let fracaoTidalExp = ultimoVol - ultimoVol*(1/100);
+
+    if (tCiclo < tins){
+        // como uma curva de inspiração
+        return fracaoTidalIns + volResidual
+    }else if(tCiclo < tins + texp){
+        // como uma curva de expiração 
+        return fracaoTidalExp + volResidual
+    }else{
+        // residuo
+        return volResidual
+    }
+}
+
+setInterval(function() {
+    tCiclo = tCiclo + intervalo;
+    if (tCiclo > maxT) {
+        tCiclo = 0;
+    }
+    /* Altere a frequência da onda ajustando este valor */ 
+    calcVol = respirar(tCiclo, ultimoVol);
+    ultimoVol = calcVol;
+    vol.labels.push('');
+    vol.datasets[0].data.push(calcVol);
+    deslocamento += 1; 
+    /* Remova dados antigos para efeito deslizamento infinito */
+    if (deslocamento > 10) {
+        vol.labels.shift();
+        vol.datasets[0].data.shift();
+    }
+    console.log(
+        "fr: "+fr+
+        "\nph: "+ph+
+        "\npCO2: "+pco2+
+        "\nvol pulmonar: "+calcVol+
+        "\nbic: "+bic+
+        "\nvol tidal :"+volTidal+
+        "\ntCiclo :"+tCiclo+
+        "\ntIns: :"+tins+
+        "\ntExp: :"+texp
+    );
     respiracao.update();
-}, 800); // Intervalo de atualização em milissegundos
+}, intervalo); 
 
 atualizar()

@@ -235,20 +235,29 @@ Paciente Nome Idade(anos) Condição Sepse Pneumonia Pós-cirúrgico Ventilador 
     <input type="number" id="frequencia-respiratoria" value="20" min="0" max="100" step="1">
 </div>
 <div class="modulo sticker" id="gasometria">
-        <h2>Gasometria</h2>
-        <!-- Campos para os parâmetros gasométricos -->
-        <label for="ph">pH</label>
+    <h2>Gasometria</h2>
+<!-- PH
+<input type="number" id="ph" max=7.6 min=7.11 name="ph" step="0.01" value=7.31> 
+-->
+    <label for="ph">pH</label>
     <br>
-        <input type="number" id="ph" max=7.6 min=7.11 name="ph" step="0.01" value=7.31>
-        <br>
-        <label for="pco2">pCO2(mmHg)</label>
+    <p id=ph></p>
     <br>
-        <input type="number" value=31 id="pco2" name="pco2">
-        <!-- Adicione mais campos conforme necessário -->
+<!-- PCO2
+<input type="number" value=31 id="pco2" name="pco2"> 
+-->
+    <label for="pco2">pCO2(mmHg)</label>
     <br>
-    <label for="Bic">Bicarbonato(mEq/L)</label>
+    <p id=pco2></p>
+<!-- 
+-->
     <br>
+    <label for="bic">Bicarbonato(mEq/L)</label>
+    <br>
+        <p id=bic></p>
+        <!--
     <input type="number" id="bicarbonato" name="Bic" step="0.1" value=16>
+        -->
     <br>
 </div>
 </div>
