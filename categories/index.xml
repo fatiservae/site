@@ -15,9 +15,10 @@
 		<pubDate>Sun, 31 Mar 2024 07:49:10 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/ventilador-mec/</guid>
-		<description>&lt;p&gt;Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em &lt;a href=&#34;https://t.me/fatiservae&#34;&gt;@fatiservae&lt;/a&gt;.&lt;/p&gt;
+		<description>&lt;p&gt;Estou construindo este embrião de simulador para um ventilador mecânico.&lt;/p&gt;
+&lt;p&gt;Se você tem interesse de participar do desenvolvimento, me chame no Telegram em &lt;a href=&#34;https://t.me/fatiservae&#34;&gt;@fatiservae&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].&lt;/p&gt;
-&lt;p&gt;Atualmente, os valores &lt;strong&gt;servem apenas de prova de conceito, não é um simulador real!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Os valores &lt;strong&gt;servem apenas de prova de conceito, AINDA não é um simulador real!&lt;/strong&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;style&gt;
     .modulos{
@@ -1963,7 +1964,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
     &lt;div&gt;
         &lt;h2&gt;A inspiração para história de Cristo?&lt;/h2&gt;
         &lt;p&gt;&lt;strong&gt;Cleantes de Assos&lt;/strong&gt; foi um filósofo helenístico discípulo de Zenão.&lt;/p&gt;
-        &lt;p&gt;Nascido pobre, viveu a juventude sob a alcunha de estúpido porque foi atleta durante o dia e, para se sustentar, servo a noite.&lt;/p&gt;
+        &lt;p&gt;Nascido pobre, viveu a juventude sob a alcunha de estúpido porque foi atleta durante o dia e, a noite, era servente para se sustentar.&lt;/p&gt;
         &lt;p&gt;Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma cozinheira.&lt;/p&gt;
         &lt;p&gt;Foi acusado injustamente de manter atividades ilegais. Seus patrões depuseram a seu favor e foi absolvido. Na verdade, o tribunal ficou tão convencido de sua retidão de conduta que se determinou pagamento de um salário público a Cleantes. &lt;strong&gt;Ele rejeitou.&lt;/strong&gt;&lt;/p&gt;
             &lt;br&gt;
@@ -3194,13 +3195,9 @@ Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre 
   &lt;/div&gt;
 
 &lt;p&gt;O ano é 2023 e você se lembra da velha caixa de vídeos chamada TV. Liga-a. Uma mulher de meia idade está numa aparente curta estória, explicando inúmeras melhoras na sua vida, desde energia para os filhos até alta libido com seu marido, também de meia idade mas grisalho sorridente. Suas bocas tem sorrisos amplos, ela com 177 dentes, ele com 150. No fim, ela explica:&lt;/p&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
-  &lt;span class=&#34;etiqueta&#34;&gt;
-Este é o óleo de peixe Peixoba, comprovadamente aumenta seu cálcio, sua vitamina Z, diminui o colesterol ruim e quintuplica o bom. Compre já em www.esquemapilantra.com.br!
- &lt;/span&gt;
-&lt;/div&gt;
-
-
+&lt;blockquote&gt;
+&lt;p&gt;Este é o óleo de peixe Peixoba, comprovadamente aumenta seu cálcio, sua vitamina Z, diminui o colesterol ruim e quintuplica o bom. Compre já em &lt;a href=&#34;https://www.esquemapilantra.com.br&#34;&gt;www.esquemapilantra.com.br&lt;/a&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Engraçado, né? kkkk.&lt;/p&gt;
 &lt;p&gt;Calma. Mas e aquele seu YouTuber favorito, &lt;em&gt;fitness&lt;/em&gt;, que vive te dizendo que bom mesmo é suco de beterraba, correr de lado e beber água com vinagre? Esse você certamente não segue, né?&lt;/p&gt;
 &lt;p&gt;Mas e aquele que &lt;em&gt;parece muito inteligente&lt;/em&gt;, tem um &lt;em&gt;Instagram&lt;/em&gt; lotado de fotos de pratos e destinos, uma esposa também muito &lt;em&gt;fit&lt;/em&gt;, três cachorros e vende um curso na &lt;em&gt;Hotmart&lt;/em&gt;? &lt;strong&gt;Esse, também, você não segue.&lt;/strong&gt; Sei&amp;hellip; 😏&lt;/p&gt;
@@ -3208,19 +3205,20 @@ Este é o óleo de peixe Peixoba, comprovadamente aumenta seu cálcio, sua vitam
 &lt;p&gt;Tá, e aquele que tem inúmeros estigmas do uso crônico de esteróides anabolizantes e diz pra você que é natural? &lt;strong&gt;Tá bom, chega kkk!&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;impregnado-pela-dúvida&#34;&gt;Impregnado pela dúvida&lt;/h2&gt;
 &lt;p&gt;Me deparei certa vez com um termo peculiar em medicina: &lt;em&gt;impregnação&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Num primeiro momento, no contexto da neurologia, há uma definição específica para impregnação neuroléptica, que se refere a um efeito colateral dos antipsicóticos. Porém, a minha mente de &lt;em&gt;químico&lt;/em&gt; que &amp;ldquo;fui&amp;rdquo; um dia se sentiu incomodada, já que o termo parecia se referia a farmacodinâmica do medicamento que, de alguma forma, se deposita nos tecidos. Você provavelmente acha o mesmo. &lt;strong&gt;Mas não é.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Num primeiro momento, no contexto da neurologia, há uma definição específica para impregnação neuroléptica, que se refere a um efeito colateral dos antipsicóticos. Porém, a minha mente de &lt;em&gt;químico&lt;/em&gt; que &amp;ldquo;fui&amp;rdquo; um dia se sentiu incomodada, já que o termo parecia se referir a farmacodinâmica do medicamento que, de alguma forma, se deposita nos tecidos. Você provavelmente acha o mesmo. &lt;strong&gt;Mas não é.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Na cardiologia, o termo reaparece na prescrição da amiodarona, que deve ser feita em dose bem alta inicialmente, sob a desculpa de se alcançar a &amp;ldquo;&lt;em&gt;impregnação&lt;/em&gt;&amp;rdquo; do medicamento.&lt;/p&gt;
 &lt;p&gt;Além disso, os digitálicos podem produzir taquiarritmias como efeito colateral e, neste caso, todo esse quadro é chamado de &lt;em&gt;impregnação digitálica&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Na oftalmologia, há certos casos de menção ao termo &lt;em&gt;impregnação do nervo óptico&lt;/em&gt; como sinônimo da neurite óptica. Notadamente, o Manual de Emergências Clínica da USP de 2022¹ usa esta associação.&lt;/p&gt;
-&lt;p&gt;Radiologista se referem a má difusão do contraste nos diversos tecidos como &lt;em&gt;impregnação difusa&lt;/em&gt;. Novamente, é proeminente o uso em neuroimagem.&lt;/p&gt;
+&lt;p&gt;Radiologistas se referem a má difusão do contraste nos diversos tecidos como &lt;em&gt;impregnação difusa&lt;/em&gt;. Novamente, é proeminente o uso em neuroimagem.&lt;/p&gt;
 &lt;p&gt;E assim segue o baile. Um termo curinga, sem expressão ou, no caso do seu uso mais conhecido da impregnação neuroléptica, contém uma conotação de cinética ou dinâmica medicamentosa, aludindo a situação de depósito da substância.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Porém, na ciência de base farmacologia o termo é simplesmente inexistente!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Isto mesmo, experimento abrir o Katzung² e buscar pelo termo que este nem mesmo citado estará. O mesmo vale para pelo menos outros três grandes títulos que pesquisei.&lt;/p&gt;
-&lt;p&gt;Conclua o seguinte: este é um termo que deve ser encarado com especificidade de cada área em que é citado. Ponto.&lt;/p&gt;
+&lt;p&gt;Isto mesmo, experimente abrir o Katzung² e buscar pelo termo que este nem mesmo é citado no livro inteiro! O mesmo vale para pelo menos outros três grandes títulos que pesquisei.&lt;/p&gt;
+&lt;p&gt;Podemos concluir o seguinte: este é um termo que deve ser encarado com especificidade de cada área em que é citado. Ponto. &lt;strong&gt;Ou seria a medicina uma &lt;del&gt;pseudo&lt;/del&gt; proto-ciência?&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;actore-non-probante-reus-absolvitur&#34;&gt;actore non probante reus absolvitur&lt;/h3&gt;
 &lt;p&gt;Questionando meus professores ao longo da formação médica, notei que não há dolo neste ponto fraco da medicina. Na verdade, somos impelidos pela tradição no uso dos termos equivocados ou pessimamente definidos. Me lembra muito o efeito jornalístico na física, e.g. na nomeclatura da singularidade como Big-Bang, um termo jornalístico irônico que acabou por se tornar o nome ofial da cosmologia moderna para a primeira expansão do universo. Depois de um tempo, a cultura e a tradição já investiram tanto sobre o termo que este é &lt;em&gt;adquirido&lt;/em&gt; oficialmente ao &lt;em&gt;corpus&lt;/em&gt;, se tornando parte daquele campo científico.&lt;/p&gt;
 &lt;p&gt;Perdoável, mas cômico, pelo menos.&lt;/p&gt;
 &lt;h2 id=&#34;a-grande-festa-publicações-_científicas_-em-medicina&#34;&gt;A grande festa: publicações &lt;em&gt;&amp;ldquo;científicas&amp;rdquo;&lt;/em&gt; em medicina&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;

@@ -134,7 +134,7 @@ O termo mais complexo para uma boa discussão sobre cervejas é a escala IBU, In
  
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
     lighswitch.innerHTML = 'árido' ;
@@ -153,7 +153,7 @@ O termo mais complexo para uma boa discussão sobre cervejas é a escala IBU, In
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   }
 
   function alternarTema() {
@@ -179,7 +179,7 @@ O termo mais complexo para uma boa discussão sobre cervejas é a escala IBU, In
       localStorage.setItem('tema', '4'); 
 
     } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noite'
+      lighswitch.innerHTML = 'noturno'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
     }

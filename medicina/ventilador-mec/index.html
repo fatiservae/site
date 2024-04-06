@@ -21,12 +21,12 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em @fatiservae.
+  <meta name="description" content="Estou construindo este embrião de simulador para um ventilador mecânico.
+Se você tem interesse de participar do desenvolvimento, me chame no Telegram em @fatiservae.
 Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].
-Atualmente, os valores servem apenas de prova de conceito, não é um simulador real!
+Os valores servem apenas de prova de conceito, AINDA não é um simulador real!
 Paciente Nome Idade(anos) Condição Sepse Pneumonia Pós-cirúrgico Ventilador Volume Tidal(ml) Frequência Respiratória
-(irpm) Gasometria pH pCO2(mmHg) Bicarbonato(mEq/L) Atualizar
-Referências RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas.">
+(irpm) Gasometria pH pCO2(mmHg) Bicarbonato(mEq/L) Atualizar">
   <meta name="keywords" content="Medicina, Ciência, Projetos">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -113,7 +113,7 @@ Referências RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas.">
  
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
     lighswitch.innerHTML = 'árido' ;
@@ -132,7 +132,7 @@ Referências RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas.">
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   }
 
   function alternarTema() {
@@ -158,7 +158,7 @@ Referências RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas.">
       localStorage.setItem('tema', '4'); 
 
     } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noite'
+      lighswitch.innerHTML = 'noturno'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
     }
@@ -174,9 +174,10 @@ Referências RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas.">
 
 
 
-  <p>Estou construindo este simulador de ventilador mecânico. Se você tem interesse de participar do desenvolvimento, me chame no Telegram em <a href="https://t.me/fatiservae">@fatiservae</a>.</p>
+  <p>Estou construindo este embrião de simulador para um ventilador mecânico.</p>
+<p>Se você tem interesse de participar do desenvolvimento, me chame no Telegram em <a href="https://t.me/fatiservae">@fatiservae</a>.</p>
 <p>Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].</p>
-<p>Atualmente, os valores <strong>servem apenas de prova de conceito, não é um simulador real!</strong></p>
+<p>Os valores <strong>servem apenas de prova de conceito, AINDA não é um simulador real!</strong></p>
 <br>
 <style>
     .modulos{

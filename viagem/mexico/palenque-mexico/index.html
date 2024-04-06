@@ -137,7 +137,7 @@ Conferido em 2023 Estrada em boas condições (Villahermosa para Palenque); Parq
  
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
     lighswitch.innerHTML = 'árido' ;
@@ -156,7 +156,7 @@ Conferido em 2023 Estrada em boas condições (Villahermosa para Palenque); Parq
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   }
 
   function alternarTema() {
@@ -182,7 +182,7 @@ Conferido em 2023 Estrada em boas condições (Villahermosa para Palenque); Parq
       localStorage.setItem('tema', '4'); 
 
     } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noite'
+      lighswitch.innerHTML = 'noturno'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
     }

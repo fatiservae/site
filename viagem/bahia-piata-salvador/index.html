@@ -137,7 +137,7 @@ Site muito bom: https://dicasdabahia.com.br/ Hotéis por R$300,00 em Piatã mesm
  
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
     lighswitch.innerHTML = 'árido' ;
@@ -156,7 +156,7 @@ Site muito bom: https://dicasdabahia.com.br/ Hotéis por R$300,00 em Piatã mesm
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   }
 
   function alternarTema() {
@@ -182,7 +182,7 @@ Site muito bom: https://dicasdabahia.com.br/ Hotéis por R$300,00 em Piatã mesm
       localStorage.setItem('tema', '4'); 
 
     } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noite'
+      lighswitch.innerHTML = 'noturno'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
     }

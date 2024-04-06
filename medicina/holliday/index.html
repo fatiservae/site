@@ -138,7 +138,7 @@ Selecione fluido principal Ringer Lactato Soro glicosado a 5% Soro glicosado a 1
  
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
     lighswitch.innerHTML = 'árido' ;
@@ -157,7 +157,7 @@ Selecione fluido principal Ringer Lactato Soro glicosado a 5% Soro glicosado a 1
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   }
 
   function alternarTema() {
@@ -183,7 +183,7 @@ Selecione fluido principal Ringer Lactato Soro glicosado a 5% Soro glicosado a 1
       localStorage.setItem('tema', '4'); 
 
     } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noite'
+      lighswitch.innerHTML = 'noturno'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
     }

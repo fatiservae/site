@@ -89,7 +89,7 @@ Regras de estilo:
     color: var(--corSelecao);
 }
 
-:root[data-tema="0"] { /* noite */
+:root[data-tema="0"] { /* noturno */
   /*
   --corH2: var(--letragradiente-dark);
   */
@@ -1948,7 +1948,15 @@ mark::after{
   z-index: -1;
   transform: rotate(-4deg);
 }
+#boasvindas {
+  padding: 0;
+  text-align: start;
+  font-size: 200%;
+}
 
+#maquinaescrever{
+  margin-left: 5vw;
+}
 span.typewriter{
   border-right: 10px solid var(--fonte);
   animation: blinkTextCursor 800ms steps(44) infinite normal;

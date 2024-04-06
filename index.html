@@ -22,7 +22,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
-  <meta name="description" content="Bem vinda(o) Pesquise aqui: Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando nível de sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de viéses cognitivos Lagartas isognatus Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos Pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
+  <meta name="description" content="Pesquise outros artigos: Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando nível de sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de viéses cognitivos Lagartas isognatus Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos Pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -106,7 +106,7 @@
  
   if (temaAtual === '0') {
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   } else if (temaAtual === '1') {
     document.documentElement.setAttribute('data-tema', '1');
     lighswitch.innerHTML = 'árido' ;
@@ -125,7 +125,7 @@
   }
   else { 
     document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noite' ;
+    lighswitch.innerHTML = 'noturno' ;
   }
 
   function alternarTema() {
@@ -151,7 +151,7 @@
       localStorage.setItem('tema', '4'); 
 
     } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noite'
+      lighswitch.innerHTML = 'noturno'
       document.documentElement.setAttribute('data-tema', '0');
       localStorage.setItem('tema', '0'); 
     }
@@ -167,9 +167,34 @@
 
 
 
-  <h2><big><big><big>Bem vinda(o)</big></big></big></h2>
-<p><span class="typewriter" id="typed"><span>
-</big></big></p>
+  <script>
+var currentTime = new Date().getHours();
+
+let greeting = "noite";
+
+if (currentTime >= 0 && currentTime < 12) {
+    greeting = "Bom dia!"; // Entre 6 e 12 horas (manhã)
+} else if (currentTime >= 12 && currentTime < 18) {
+    greeting = "Boa tarde!"; // Entre 12 e 18 horas (tarde)
+} else {
+    greeting =  "Boa noite!"; // Após 18 horas (noite)
+}
+
+let boasvindas = document.createElement("h2");
+boasvindas.innerHTML = greeting;
+boasvindas.id = "boasvindas"
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  let referencia = document.getElementById("maquinaescrever");
+  console.log(referencia);
+  referencia.parentNode.insertBefore(boasvindas, referencia);
+});
+</script>
+<div id="maquinaescrever">
+<span class="typewriter" id="typed"><span>
+</big></big>
+</div>
 <br>
 <script>
 function randomIndex(valor) {
@@ -199,11 +224,334 @@ document.addEventListener("DOMContentLoaded", function() {
   item.classList.add('show');
 });
 </script>
-<div> 
+<div id=divFrase> 
   <p class="frase" id="frase"></p> 
   <div id="autor"></div>
   <br>
 </div>
+
+<script type="text/javascript">
+  var pagesData = [
+    
+      {
+        "title": "Simulador de ventilador mecânico",
+        "permalink": "\/medicina\/ventilador-mec\/"
+      },
+    
+      {
+        "title": "Manejo de descompensação em insuficiência cardíaca",
+        "permalink": "\/medicina\/icc\/"
+      },
+    
+      {
+        "title": "Monitorando nível de sedação: RASS\/SAS\/FOUR",
+        "permalink": "\/medicina\/sedacao-rass\/"
+      },
+    
+      {
+        "title": "Eletrocardiograma: principais achados",
+        "permalink": "\/medicina\/ecg\/"
+      },
+    
+      {
+        "title": "Neoplasias: visão geral de nomeclaturas",
+        "permalink": "\/medicina\/neoplasias\/"
+      },
+    
+      {
+        "title": "Webvim: editor de texto do hacker viajante",
+        "permalink": "\/vim\/"
+      },
+    
+      {
+        "title": "Surdez aguda: testes de Rinner e Weber",
+        "permalink": "\/medicina\/surdez\/"
+      },
+    
+      {
+        "title": "Dissecação aguda de aorta: Score ADD-RS",
+        "permalink": "\/medicina\/addrs\/"
+      },
+    
+      {
+        "title": "Estatística bayesiana para o diagnóstico médico",
+        "permalink": "\/medicina\/estatistica-diagnostica\/"
+      },
+    
+      {
+        "title": "Dislipidemias: síntese de recomendações da SBC 2017",
+        "permalink": "\/medicina\/colesterol\/"
+      },
+    
+      {
+        "title": "A farsa da navalha de Ockham",
+        "permalink": "\/farsa-ockham\/"
+      },
+    
+      {
+        "title": "Compêndio de viéses cognitivos",
+        "permalink": "\/vieses\/"
+      },
+    
+      {
+        "title": "Lagartas isognatus",
+        "permalink": "\/ciencia\/isognatus\/"
+      },
+    
+      {
+        "title": "Minhas apresentações",
+        "permalink": "\/medicina\/apresentacoes\/"
+      },
+    
+      {
+        "title": "Prescrição de hidratação: um resumo breve",
+        "permalink": "\/medicina\/hidratacao\/"
+      },
+    
+      {
+        "title": "Superfície corporal estimada: Costeff",
+        "permalink": "\/medicina\/costeff\/"
+      },
+    
+      {
+        "title": "Fluidoterapia de manutenção: Holliday-Segar",
+        "permalink": "\/medicina\/holliday\/"
+      },
+    
+      {
+        "title": "Efeito Gell Man: perpetuador da desinformação",
+        "permalink": "\/filosofia\/gell-man\/"
+      },
+    
+      {
+        "title": "Hanseníase: resumo compreensivo",
+        "permalink": "\/medicina\/hanseniase\/"
+      },
+    
+      {
+        "title": "Cleantes, o exemplo",
+        "permalink": "\/filosofia\/cleantes\/"
+      },
+    
+      {
+        "title": "Pohnpei: Micronésia",
+        "permalink": "\/viagem\/pohnpei-micronesia\/"
+      },
+    
+      {
+        "title": "Por trás de toda teoria conspiratória",
+        "permalink": "\/filosofia\/multiplas-saidas\/"
+      },
+    
+      {
+        "title": "Drogas vasoativas: informações importantes",
+        "permalink": "\/medicina\/drogas-vasoativas\/"
+      },
+    
+      {
+        "title": "Taquiarritimias: visão geral",
+        "permalink": "\/medicina\/taquicardias\/"
+      },
+    
+      {
+        "title": "Analgesia: seja um médico melhor",
+        "permalink": "\/medicina\/analgesias\/"
+      },
+    
+      {
+        "title": "Grand Prismatic Spring - Estados Unidos",
+        "permalink": "\/viagem\/grand-prismatic-spring\/"
+      },
+    
+      {
+        "title": "Pão de queijo",
+        "permalink": "\/receitas\/pao-de-queijo\/"
+      },
+    
+      {
+        "title": "Arquivos",
+        "permalink": "\/files\/"
+      },
+    
+      {
+        "title": "LLMedica: inteligência artificial para medicina",
+        "permalink": "\/medicina\/llmedica\/"
+      },
+    
+      {
+        "title": "Bulário",
+        "permalink": "\/medicina\/bulario\/"
+      },
+    
+      {
+        "title": "Afogamento",
+        "permalink": "\/medicina\/afogamento\/"
+      },
+    
+      {
+        "title": "A aceitação da morte como modo de vida",
+        "permalink": "\/filosofia\/morte\/"
+      },
+    
+      {
+        "title": "Diabetes Mellitus Gestacional",
+        "permalink": "\/medicina\/dmg\/"
+      },
+    
+      {
+        "title": "Vacinas",
+        "permalink": "\/medicina\/vacinas\/"
+      },
+    
+      {
+        "title": "Eclâmpsia",
+        "permalink": "\/medicina\/eclampsia\/"
+      },
+    
+      {
+        "title": "Meu dicionário",
+        "permalink": "\/dicionario\/"
+      },
+    
+      {
+        "title": "Abaixo a medicina!",
+        "permalink": "\/medicina\/abaixo-a-medicina\/"
+      },
+    
+      {
+        "title": "Principais conceitos em hemodinâmica",
+        "permalink": "\/medicina\/hemodinamica\/"
+      },
+    
+      {
+        "title": "Grandes queimados: Parkland",
+        "permalink": "\/medicina\/calculos-queimados\/"
+      },
+    
+      {
+        "title": "Canais que recomendo",
+        "permalink": "\/canais-yt\/"
+      },
+    
+      {
+        "title": "Cervejas",
+        "permalink": "\/receitas\/cervejas\/"
+      },
+    
+      {
+        "title": "Convulsões",
+        "permalink": "\/medicina\/convulsoes\/"
+      },
+    
+      {
+        "title": "Massagem Carotídea",
+        "permalink": "\/medicina\/massagem-carotidea\/"
+      },
+    
+      {
+        "title": "Taxa de filtração glomerular: MDRD e Cockcroft-Gault",
+        "permalink": "\/medicina\/cockcroft-gault\/"
+      },
+    
+      {
+        "title": "Considerações sobre a reprodução humana",
+        "permalink": "\/filosofia\/reproducao-humana-consideracoes-filosoficas\/"
+      },
+    
+      {
+        "title": "Banco de questões",
+        "permalink": "\/medicina\/banco-de-questoes\/"
+      },
+    
+      {
+        "title": "Bahia - Itacaré",
+        "permalink": "\/viagem\/bahia-itacare\/"
+      },
+    
+      {
+        "title": "Colecistite aguda: Tokyo Guideline",
+        "permalink": "\/medicina\/tokyo-guideline\/"
+      },
+    
+      {
+        "title": "Gasometria Arterial",
+        "permalink": "\/medicina\/gasometria-arterial\/"
+      },
+    
+      {
+        "title": "Como sincronizar iPhone e Linux",
+        "permalink": "\/tecnologia\/iphone-e-linux\/"
+      },
+    
+      {
+        "title": "Slides menos estúpidos: StultusVisio",
+        "permalink": "\/tecnologia\/stultus-visio\/"
+      },
+    
+      {
+        "title": "Injuria Renal Aguda",
+        "permalink": "\/medicina\/injuria-renal-aguda\/"
+      },
+    
+      {
+        "title": "Palenque - México",
+        "permalink": "\/viagem\/mexico\/palenque-mexico\/"
+      },
+    
+      {
+        "title": "Tromboembolismo pulmonar: Escore de Wells",
+        "permalink": "\/medicina\/wells-tep\/"
+      },
+    
+      {
+        "title": "Espírito Santo - Domingos Martins",
+        "permalink": "\/viagem\/espirito-santo-domingos-martins\/"
+      },
+    
+      {
+        "title": "Espiríto Santo - Praia de Iriri",
+        "permalink": "\/viagem\/espirito-santo-iriri\/"
+      },
+    
+      {
+        "title": "Bahia - Piatã, Salvador",
+        "permalink": "\/viagem\/bahia-piata-salvador\/"
+      },
+    
+      {
+        "title": "Sites úteis",
+        "permalink": "\/sites-uteis\/"
+      },
+    
+  ];
+  var totalPages =  58 ;
+  
+  function getRandomPage() {
+      var randomNumber = Math.floor(Math.random() * totalPages) + 1;
+      return pagesData[randomNumber];
+  }
+  
+  let paginaAleatoria = getRandomPage();
+  
+  var divLink = document.createElement('div');
+  divLink.id = 'divLink';
+
+  var chamadaLinkAleatorio = document.createElement('h2');
+  chamadaLinkAleatorio.id = 'chamadaLinkAleatorio';
+  chamadaLinkAleatorio.innerText = "Leia um artigo aleatório: ";
+
+
+  var link = document.createElement('a');
+  link.href = paginaAleatoria.permalink;
+  link.textContent = paginaAleatoria.title;
+  link.style.marginLeft = '5vw';
+
+  divLink.appendChild(chamadaLinkAleatorio);
+  divLink.appendChild(link);
+  
+  var referenceElement = document.getElementById("divFrase");
+  referenceElement.parentNode.insertBefore(divLink, referenceElement.nextSibling);
+</script>
 
 <!-- Estou construindo um [banco de questões](/medicina/banco-de-questoes) para provas de residência médica. 
 
@@ -211,7 +559,7 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 -->
 
 
-<h2>Pesquise aqui:</h2>
+<h2 id="h2Pesquisa">Pesquise outros artigos:</h2>
 <div class="search" style="position: relative;">
 <input type="text" id="search" placeholder="e.g. medicina, calculadoras...">
 <svg class="lupa" xmlns="http://www.w3.org/2000/svg" stroke-width="1.09" enable-background="new 0 0 24 24" height="14px" viewBox="0 0 24 24" width="4px" focusable="false" autocapitalize="none" autocomplete="off" autocorrect="off" tabindex="0" type="text" spellcheck="false" aria-label="Pesquisar"><path d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"></path></svg>
