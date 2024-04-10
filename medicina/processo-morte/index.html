@@ -16,18 +16,15 @@
 
   
 
-  <title>Simulador de ventilador mecânico | Jefferson T.</title>
+  <title>Escala PPS e o processo ativo de morte | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Estou construindo este embrião de simulador para um ventilador mecânico.
-Se você tem interesse de participar do desenvolvimento, me chame no Telegram em @fatiservae.
-Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].
-Os valores servem apenas de prova de conceito, AINDA não é um simulador real!
-Paciente Nome Idade(anos) Condição Sepse Pneumonia Pós-cirúrgico Ventilador Volume Tidal(ml) Frequência Respiratória
-(irpm) Gasometria pH pCO2(mmHg) Bicarbonato(mEq/L) Atualizar">
-  <meta name="keywords" content="Medicina, Ciência, Projetos">
+  <meta name="description" content="A escala PPS[1] Esta escala foi elaborada pela Victoria Hospice Society no Canada para avaliação de pacientes com curto prognóstico de vida, internados ou em regime de hospice.
+PPS Level Ambulation Activity &amp; Evidence of Disease Self-Care Intake Conscious Level 100% Full Normal activity &amp; work
+No evidence of disease Full Normal Full 90% Full Normal activity &amp; work
+Some evidence of disease Full Normal Full 80% Full Normal activity with Effort">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -76,6 +73,29 @@ Paciente Nome Idade(anos) Condição Sepse Pneumonia Pós-cirúrgico Ventilador 
 </head>
 <body>
 
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+</script>
+
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
       <a href="../../index.html" id="indexlink" alt="início">início</a>
@@ -87,7 +107,7 @@ Paciente Nome Idade(anos) Condição Sepse Pneumonia Pós-cirúrgico Ventilador 
 <br>
 <br>
 
-  <h1>Simulador de ventilador mecânico</h1>
+  <h1>Escala PPS e o processo ativo de morte</h1>
 
 <script>
   
@@ -180,110 +200,148 @@ Paciente Nome Idade(anos) Condição Sepse Pneumonia Pós-cirúrgico Ventilador 
 
 
 
-  <p>Estou construindo este embrião de simulador para um ventilador mecânico.</p>
-<p>Se você tem interesse de participar do desenvolvimento, me chame no Telegram em <a href="https://t.me/fatiservae">@fatiservae</a>.</p>
-<p>Atualmente, busco implementar em tipos seguros de JavaScript a modelagem discutida em uma referência[1].</p>
-<p>Os valores <strong>servem apenas de prova de conceito, AINDA não é um simulador real!</strong></p>
-<br>
-<style>
-    .modulos{
-        display: flex;
-        margin-left: 5vw;
-        flex-wrap: wrap;
-        justify-content: start ; 
-    }
-    .modulo {
-        border: var(--bordas);
-        width: fit-content;
-        padding: 5px;
-        margin: 0px;
-    }
-    .modulo .modulo {
-        margin-left: 0px;
-        padding: 0px;
-    }
-    .modulo h2 {
-        padding: 0px;
-        margin: 0px;
-    }
-    label {
-    }
-</style>
-<div class=modulos>
-<div class="modulo sticker" id="dados-clinicos">
-    <h2>Paciente</h2>
-    <label for="nome">Nome</label>
-    <br>
-    <input type="text" id="nome" name="nome" value="José">
-    <br>
-    <label for="idade">Idade(anos)</label>
-    <br>
-    <input type="number" id="idade" name="idade" value=32>
-    <br>
-    <!-- Adicione mais campos conforme necessário -->
-    <label for="condicao">Condição</label>
-    <br>
-    <select id="condicao" name="condicao">
-    <option value="sepse">Sepse</option>
-    <option value="pneumonia">Pneumonia</option>
-    <option value="pos-cirurgico">Pós-cirúrgico</option>
-    <!-- Adicione mais opções conforme necessário -->
-    </select>
-</div>
-<div class="modulo sticker" id="ventilador">
-    <h2>Ventilador</h2>
-    <label for="volTidal">Volume Tidal(ml)</label>
-    <br>
-    <input type="number" id="volTidal" name="volTidal" value=300 max=1000 min=0>
-    <br>
-    <label for="fr">Frequência Respiratória<br>(irpm)</label>
-    <br>
-    <input type="number" id="fr" value="20" min="0" max="100" step="1">
-</div>
-<div class="modulo sticker" id="gasometria">
-    <h2>Gasometria</h2>
-<!-- PH
-<input type="number" id="ph" max=7.6 min=7.11 name="ph" step="0.01" value=7.31> 
--->
-    <label for="ph">pH</label>
-    <br>
-    <p id=ph></p>
-    <br>
-<!-- PCO2
-<input type="number" value=31 id="pco2" name="pco2"> 
--->
-    <label for="pco2">pCO2(mmHg)</label>
-    <br>
-    <p id=pco2></p>
-<!-- 
--->
-    <br>
-    <label for="bic">Bicarbonato(mEq/L)</label>
-    <br>
-        <p id=bic></p>
-        <!--
-    <input type="number" id="bicarbonato" name="Bic" step="0.1" value=16>
-        -->
-    <br>
-</div>
-</div>
-<p><button id=atualizar onclick=atualizar()>Atualizar</button></p>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<p><canvas id="volume"></canvas>
-<canvas id="pressao"></canvas>
-<canvas id="fluxo"></canvas></p>
-<script src="../../medicina/simulador-ventilador/ventilador.js">   
-</script>
+  <h2 id="a-escala-pps1">A escala PPS[1]</h2>
+<p>Esta escala foi elaborada pela Victoria Hospice Society no Canada para avaliação de pacientes com curto prognóstico de vida, internados ou em regime de hospice.</p>
+<table>
+<thead>
+<tr>
+<th>PPS Level</th>
+<th>Ambulation</th>
+<th>Activity &amp; Evidence of Disease</th>
+<th>Self-Care</th>
+<th>Intake</th>
+<th>Conscious Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100%</td>
+<td>Full</td>
+<td>Normal activity &amp; work<br>No evidence of disease</td>
+<td>Full</td>
+<td>Normal</td>
+<td>Full</td>
+</tr>
+<tr>
+<td>90%</td>
+<td>Full</td>
+<td>Normal activity &amp; work<br>Some evidence of disease</td>
+<td>Full</td>
+<td>Normal</td>
+<td>Full</td>
+</tr>
+<tr>
+<td>80%</td>
+<td>Full</td>
+<td>Normal activity with Effort<br>Some evidence of disease</td>
+<td>Full</td>
+<td>Normal or reduced</td>
+<td>Full</td>
+</tr>
+<tr>
+<td>70%</td>
+<td>Reduced</td>
+<td>Unable of normal Job/Work<br>Significant disease</td>
+<td>Full</td>
+<td>Normal or reduced</td>
+<td>Full</td>
+</tr>
+<tr>
+<td>60%</td>
+<td>Reduced</td>
+<td>Unable to hobby/house work<br>Significant disease</td>
+<td>Occasional assistance necessary</td>
+<td>Normal or reduced</td>
+<td>Full or Confusion</td>
+</tr>
+<tr>
+<td>50%</td>
+<td>Mainly Sit/Lie</td>
+<td>Unable to do any work<br>Extensive disease</td>
+<td>Considerable assistance required</td>
+<td>Normal or reduced</td>
+<td>Full or Confusion</td>
+</tr>
+<tr>
+<td>40%</td>
+<td>Mainly in Bed</td>
+<td>Unable to do most activity<br>Extensive disease</td>
+<td>Mainly assistance</td>
+<td>Normal or reduced</td>
+<td>Full or Drowsy</td>
+</tr>
+<tr>
+<td>30%</td>
+<td>Totally Bed Bound</td>
+<td>Unable to do any activity<br> Extensive disease</td>
+<td>Total Care</td>
+<td>Normal or reduced</td>
+<td>Full or Drowsy</td>
+</tr>
+<tr>
+<td>20%</td>
+<td>Totally Bed Bound</td>
+<td>Unable to do any activity<br> Extensive disease</td>
+<td>Total Care</td>
+<td>Minimal to sips</td>
+<td>Full or Drowsy</td>
+</tr>
+<tr>
+<td>10%</td>
+<td>Totally Bed Bound</td>
+<td>Unable to do any activity<br> Extensive disease</td>
+<td>Total Care</td>
+<td>Mouth care only</td>
+<td>Drowsy or Coma</td>
+</tr>
+<tr>
+<td>0%</td>
+<td>Death</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="indicativos-do-processo-ativo-de-morte">Indicativos do processo ativo de morte</h2>
+<p>O seguintes indicativos devem ser reportados em prontuário do doente em cuidados paliativos e para familiares sempre que surgirem ou acontecerem mudanças:</p>
+<ul>
+<li>PPS &lt; 20%</li>
+<li>Rebaixamento do nível de consciência</li>
+<li>Delirium hipo ou hiperativo</li>
+<li>Disfunção renal/redução do débito urinário</li>
+<li>Apneia, taquipneia, bradipneia ou Cheyne-Stokes</li>
+<li>Pulso radial fino ou ausente</li>
+<li>Cianose de extremidades</li>
+<li>Sororoca¹</li>
+<li>Disfagia para líquidos</li>
+<li>Anorexia</li>
+<li>Ausência de fechamento palpebral</li>
+<li>Queda de mandíbula</li>
+<li>Respiração mandibular</li>
+<li>Taquicardia sustentada</li>
+<li>Resposta reduzida ao estímulo visual</li>
+<li>Resposta reduzida ao estímulo verbal</li>
+<li>Sangramento novo de trato gastrointestinal</li>
+<li>Pupilas não reagentes</li>
+<li>Hiperextensão do pescoço</li>
+<li>Úlcera terminal de Kennedy²</li>
+</ul>
 <hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>Roncos de transmissão bulhares, grossos e geralmente inspiratórios.</li>
+<li>Úlcera de pressão com desenvolvimento rápido. Diz-se, normalmente, da úlcera nova, de surgimento facilitado pelo débil enchimento capilar do paciente em processo ativo de morte.</li>
+</ol>
 <h2 id="referências">Referências</h2>
 <ol>
-<li>RICHARD, Paštěka; FORJAN, Mathias; DRAUSCHKE, Andreas. <strong>Comparison of mathematical and controlled mechanical lung simulation in active breathing and ventilated state</strong>. IFAC-PapersOnLine, v. 51, n. 6, p. 42-47, 2018.</li>
+<li><strong>The Palliative Performance Scale version 2 (PPSv2)</strong>. Victoria Hospice Society to the 1st scale published in J Pall Care 9(4): 26-32], 1996. Disponível em: <a href="http://www.npcrc.org/files/news/palliative_performance_scale_PPSv2.pdf">http://www.npcrc.org/files/news/palliative_performance_scale_PPSv2.pdf</a>. BC - Canada.</li>
 </ol>
 
 
 
-  <br>
-        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">Ciência</a> &middot; <a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">Projetos</a></div>
+  
 
 </article>
 

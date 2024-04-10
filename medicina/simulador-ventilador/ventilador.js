@@ -10,9 +10,9 @@ let tins = ((60000/fr)/5); // 1/5 do tempo da fr
 let texp = ((240000/fr)/5); // 4/5 do tempo da fr
 let fio2 = 30;
 let volResidual = 300;
-let bic;
-let ph = 7.4;
-let pco2;
+let bic = 22;
+let ph = 7.35;
+let pco2 = 40;
 let po2;
 let flux; /* ml/ms */
 let peep; /* normalmente informada em cmH2O, deve ser convertida em mmHg */
@@ -30,14 +30,40 @@ let patologia;
 //let fatorLact;
 //let fatorBic
 //let nome;
+function processos() {
+    let condicao = document.getElementById("condicao").value;
+
+    if (condicao === "pneumonia") {
+        return Math.abs(4*ph/100);
+    }else{
+        ph = 7.35;
+        return 0;
+    }
+}
 
 function atualizar() {
-    fr = ((document.getElementById("frequencia-respiratoria").value) / 60000);
-    volTidal = parseFloat(document.getElementById("vol-tidal").value);
-    fatorFr = 1;
-    ph = document.getElementById("ph").value;
-    pco2 = document.getElementById("pco2").value;
-    bic = document.getElementById("bicarbonato").value;
+    // aquisições
+    fr = document.getElementById("fr").value;
+    volTidal = parseFloat(document.getElementById("volTidal").value);
+    let ajuste = processos().toFixed(2);
+    ph = 7.35 - ajuste;
+   
+    /* Influência de FR em PH */
+    if (fr>22) {
+        ph = 7.35 + ph*3/1000 + fr/1000;
+    }else if(fr>17){
+        ph = 7.35 + ph*2/1000;
+    }else{
+        //nada
+    };
+
+    ph = ph.toFixed(2);
+    // devolve
+    document.getElementById("ph").innerText = ph;
+    document.getElementById("pco2").innerText = pco2;
+    document.getElementById("bic").innerText = bic;
+
+    console.log("Teste");
 }
 
 // Obtenha o contexto do canvas
@@ -47,7 +73,7 @@ var cor = getComputedStyle(document.documentElement).getPropertyValue('--fonte')
 var vol = {
     labels: [],
     datasets: [{
-        label: 'Volume pulmonar', // so pra por um titulo marrom
+        label: 'Pletismografia pulmonar (ml vs. s)', 
         borderColor: cor ,
         borderWidth: 1,
         data: []
@@ -78,14 +104,17 @@ var valor = 300;
     * respirar() devolve:
     * ph / pco2 / po2 / compl
 */
-function atualizarFisiologia (fr, fio2, peep, volTidal, flux) {
-    /* Influência de FR em PH */
-    if (fr>22) {
-        ph = ph - ph*20/100;
-    }else if(fr>18){
-        ph = ph - ph*10/100;
-    }
-}
+//function atualizarFisiologia () {
+////function atualizarFisiologia (fr, fio2, peep, volTidal, flux) {
+//    /* Influência de FR em PH */
+//    if (fr>22) {
+//        ph = ph - ph*20/100;
+//        ph = 7;
+//    }else if(fr>18){
+//        ph = ph - ph*10/100;
+//    }
+//    atualizar(fr, volTidal, ph, pco2, bic)
+//}
 
 // Intervalo de atualização em ms
 let intervalo = 1000 ; 

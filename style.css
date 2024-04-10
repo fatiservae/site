@@ -215,9 +215,9 @@ Regras de estilo:
   --corH1: #424242;
   --corH3: #455A64;
   */
+  --temaFonte: "Libre Baskerville";
   --corMark: black;
   --bordas: 1px solid var(--fonte);
-  --temaFonte: serif ;
   --displayFigurasFundo: none;
   --corProgressBar: var(--madeira);
   --corH2-gradiente: linear-gradient(90deg, #5b3027, var(--cafe), var(--madeira));

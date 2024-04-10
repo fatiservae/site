@@ -1,9 +1,33 @@
 [
   {
-    "nome": "tansulosina"
+    "nome": ["acetozolamida"],
+    "obs":[
+      "reduz líquor."
+    ]
   },
   {
-    "nome": "dopamina"
+    "nome": ["ácido valproico", "Valproato"],
+    "obs": [
+      "teratogenico"
+    ]
+  },
+  {
+    "nome": ["clorpromazina", "Amplictil"],
+    "obs": [
+      "migrânea"
+    ]
+  },
+  {
+    "nome": ["sumatriptano"],
+    "obs": [
+      "Subcutâneo para migrânea."
+    ]
+  },
+  {
+    "nome": ["tansulosina"]
+  },
+  {
+    "nome": ["dopamina"]
   },
   {
     "nome": ["tobramicina"],
