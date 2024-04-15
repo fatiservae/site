@@ -1,5 +1,32 @@
 [
   {
+    "nome": ["cloridrato de oxicodona e cloridrato de naloxona", "Targin"],
+    "class": ["analgésicos", "opidoides", "narcóticos"],
+    "posologias": [
+      {
+        "via": "VO",
+        "unidades": ["mg", "comprimido"],
+        "dosagem": ["5+2.5", 1] 
+      }
+    ],
+    "obs": [
+      "Receita branca.",
+      "A naloxona por via oral impede constipação."
+    ]
+  },
+  {
+    "nome": ["succinilcolina"],
+    "class": ["bloqueadores neuromusculares"],
+    "posologias": [
+      {
+        "unidades": ["mg", "kg"],
+        "dosagem": [1, 1],
+        "via": "IV",
+        "instrucao": "bloqueio muscular pediátrico para intubação de emergência."
+      }
+    ]
+  },
+  {
     "nome": ["flumazenil", "Lanexat"],
     "posologias":[
       {
@@ -306,6 +333,12 @@
         "dosagem": [0.3, 1],
         "instrucao": "dose máxima para analgesia moderada.",
         "via": "IV"
+      },
+      {
+        "unidades": ["mg", "kg"],
+        "dosagem": [2, 1],
+        "via": "IV",
+        "instrucao": "sedação pediátrica para intubação de emergência."
       }
     ],
     "obs": [

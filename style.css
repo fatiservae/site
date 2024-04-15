@@ -11,7 +11,7 @@ Regras de estilo:
 @font-face {
     font-family: 'comic sans';
     src: url('/fonts/comicsans.woff2') format('woff2'), /* Formato de fonte WOFF2 */
-         url('/fonts/comicsans.woff') format('woff'); /* Formato de fonte WOFF */
+         url('/fonts/comicsans.ttf') format('ttf'); /* Formato de fonte WOFF */
     font-weight: normal;
     font-style: normal;
 }

@@ -72,7 +72,13 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             dose.innerText += "/";
           };
-          let dosagem = posologia.dosagem[i] === 1 ? '' : posologia.dosagem[i];
+
+          let dosagem = posologia.dosagem[i];
+
+          if (i > 0 && dosagem === 1)
+          {
+              dosagem = '';
+          }
           dose.innerText += dosagem+posologia.unidades[i];
           indexUnidades--
         };
