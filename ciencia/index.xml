@@ -16,16 +16,20 @@
 		<pubDate>Sun, 14 Apr 2024 19:58:35 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/anemias/</guid>
-		<description>&lt;h2 id=&#34;reposição-de-ferro&#34;&gt;Reposição de ferro&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;algoritmo-de-investigação&#34;&gt;Algoritmo de investigação&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h2 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;reposição-de-ferro&#34;&gt;Reposição de ferro&lt;/h3&gt;
 &lt;p&gt;Estima-se que a administração de 400 mg do ferro sacarato seja capaz de aumentar em pelo menos 1g/dL a concentração de hemoglobina, o que corresponde ao incremento esperado quando se administra uma unidade de concentrado de hemácias.&lt;/p&gt;
 &lt;p&gt;A fórmula mais aceita é:&lt;/p&gt;
 &lt;p&gt;$$
-Ferro_{mg} = ((Hb_{desejada} - Hb_{atual}) * massa_{Kg} * 2.4 )+ 500
+Ferro_{mg} = 2.4massa_{Kg}(Hb_{desejada} - Hb_{atual}) + 500
 $$&lt;/p&gt;
 
 
 &lt;div class=calculadoras&gt;
-&lt;h2&gt;Calculadora de ferro&lt;/h2&gt;
+&lt;h2&gt;Calculadora para sacarato&lt;br&gt;de hidróxido férrico&lt;/h2&gt;
 &lt;label for=hbdesejada&gt;Hb desejada (g/dL)&lt;/label&gt;
 &lt;br&gt;
 &lt;input type=number id=hbdesejada&gt;&lt;/input&gt;
@@ -3637,6 +3641,54 @@ $$
 \Delta P_{tissue} = PA_{dias} - PA_{tissue}
 $$&lt;/p&gt;
 &lt;p&gt;O $\Delta P_{tissue}$ é crítico se &lt;strong&gt;menor que 30mmHg&lt;/strong&gt;. Se zero, a isquemia é presumida.&lt;/p&gt;
+&lt;h2 id=&#34;choque&#34;&gt;Choque&lt;/h2&gt;
+&lt;h3 id=&#34;classificação&#34;&gt;Classificação&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Classe&lt;/th&gt;
+&lt;th&gt;Pulso(bpm)&lt;/th&gt;
+&lt;th&gt;Pressão&lt;/th&gt;
+&lt;th&gt;Reperfusão&lt;/th&gt;
+&lt;th&gt;Incursẽos respiratórias por min&lt;/th&gt;
+&lt;th&gt;Perda sanguínea(%)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;I&lt;/td&gt;
+&lt;td&gt;&amp;lt; 100&lt;/td&gt;
+&lt;td&gt;Normal&lt;/td&gt;
+&lt;td&gt;Normal&lt;/td&gt;
+&lt;td&gt;14-20&lt;/td&gt;
+&lt;td&gt;≤16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;II&lt;/td&gt;
+&lt;td&gt;100-120&lt;/td&gt;
+&lt;td&gt;Normal&lt;/td&gt;
+&lt;td&gt;Atrasada&lt;/td&gt;
+&lt;td&gt;20-30&lt;/td&gt;
+&lt;td&gt;15-30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;III&lt;/td&gt;
+&lt;td&gt;120-140&lt;/td&gt;
+&lt;td&gt;Baixa&lt;/td&gt;
+&lt;td&gt;Atrasada&lt;/td&gt;
+&lt;td&gt;30-40&lt;/td&gt;
+&lt;td&gt;30-40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IV&lt;/td&gt;
+&lt;td&gt;&amp;gt;140&lt;/td&gt;
+&lt;td&gt;Baixa&lt;/td&gt;
+&lt;td&gt;Atrasada&lt;/td&gt;
+&lt;td&gt;&amp;gt;35&lt;/td&gt;
+&lt;td&gt;&amp;gt;40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;acessos-vasculares&#34;&gt;Acessos vasculares&lt;/h2&gt;
 &lt;h3 id=&#34;acesso-venoso-femoral&#34;&gt;Acesso venoso femoral&lt;/h3&gt;
 &lt;ul&gt;

@@ -8,6 +8,14 @@ Regras de estilo:
   3. Cores devem ter nomes a partir de sua origem.
 */
 
+@font-face {
+    font-family: 'comic sans';
+    src: url('/fonts/comicsans.woff2') format('woff2'), /* Formato de fonte WOFF2 */
+         url('/fonts/comicsans.woff') format('woff'); /* Formato de fonte WOFF */
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
   /*
   --letragradiente-dark: linear-gradient(45deg, #ff0000, #ffff00, #ffffff); 
@@ -280,7 +288,7 @@ Regras de estilo:
   --corFundoBarraHover: black;
   --bordaLinksBarra: 1px solid black;
   --corMark: black;
-  --temaFonte: 'comic sans ms' , sans-serif;
+  --temaFonte: 'comic sans' , sans-serif;
   --corProgressBar: var(--vermelhoDailyBeast);
   --fundoBarra: var(--vermelhoDailyBeast);
   --gradfundo: linear-gradient(to top, #e2725b , tan);

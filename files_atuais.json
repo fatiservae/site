@@ -104,6 +104,15 @@
     "path": "Física/Teoria da Relatividade"
   },
   {
+    "name": "dengue-manejo-adulto-crianca-5d.pdf",
+    "subjects": [
+      "Medicina",
+      "Emergências"
+    ],
+    "size": "1.47 MB",
+    "path": "Medicina/Emergências"
+  },
+  {
     "name": "Caderneta-gestante-8ed-2023.pdf",
     "subjects": [
       "Medicina",
@@ -164,6 +173,15 @@
       "Manuais médicos"
     ],
     "size": "3.55 MB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
+    "name": "modelo-historia-clinica.txt",
+    "subjects": [
+      "Medicina",
+      "Manuais médicos"
+    ],
+    "size": "1.42 KB",
     "path": "Medicina/Manuais médicos"
   },
   {
