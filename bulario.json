@@ -1,5 +1,261 @@
 [
   {
+    "nome": ["flumazenil", "Lanexat"],
+    "posologias":[
+      {
+        "unidades": ["mcg", "kg"],
+        "dosagem": [8, 1],
+        "via": "IV",
+        "instrucao": "dose inicial no auxílio ao despertar pós anestésico."
+      },
+      {
+        "unidades": ["mcg", "kg"],
+        "dosagem": [15, 1],
+        "instrucao": "dose máxima literária no auxílio ao despertar pós anestésico.",
+        "via": "IV"
+      },
+      {
+        "unidades": ["mg"],
+        "dosagem": [0.2],
+        "instrucao": "dose habitual de antídoto para adultos, podendo ser repetido até o máximo de 3mg.",
+        "via": "IV"
+      }
+    ],
+    "obs":[
+      "Pode ocorrer ressedação em curto prazo, e.g. 20min.",
+      "Não administrar em pacientes com convulsão, dependência de benzodiazepínico ou superdosagem de tricíclicos.",
+      "O flumazenil bloqueia muitas das ações dos benzodiazepínicos, do zolpidem, da zaleplona e da eszopiclona, po- rém não antagoniza os efeitos de outros sedativos e hipnóticos, do etanol, dos opioides ou dos anestésicos gerais.",
+      "O antagonismo da depressão respiratória induzida pelos benzodiazepínicos é menos previsível.",
+      "Existe um risco de precipitar sintomas de abstinência em usuários crônicos de benzodiazepínicos."
+    ]
+  },
+  {
+    "nome": ["ferripolimaltose", "Noripurum"],
+    "posologias":[
+      {
+        "unidades": ["mg"], 
+        "dosagem": [20],
+        "via": "IV",
+        "instrucao": "ajustado de acordo com o nível de hemoglobina."
+      }
+    ]
+  },
+  {
+    "nome": ["carboximaltose férrica", "Ferinject"],
+    "posologias":[
+      {
+        "unidades": ["g"],
+        "dosagem": [1],
+        "via": "IV", 
+        "instrucao": "nunca excedendo 1g ou 20mg/Kg"
+      }
+    ],
+    "obs": [
+      "A grande vantagem de Ferrinject é sua administração em dose única e estabilidade química.",
+      "O composto é similar a ferritina fisiológica e bem tolerado."
+    ]
+  },
+  {
+    "nome": ["desogestrel e etinilestradiol", "Mercilon"],
+    "posologias":[
+      {
+        "unidades": ["mcg", "dia"],
+        "dosagem": ["150+20", 1],
+        "via": "VO",
+        "instrucao": "conforme ordem de cartela ou critério médico."
+      }
+    ]
+  },
+  {
+    "nome": ["etinilestradiol"],
+    "posologias":[
+      {
+        "unidades": ["mcg", "h"],
+        "dosagem": [30, 6],
+        "via": "VO", 
+        "instrucao": "até parar o sangramento uterino agudo."
+      },
+      {
+        "unidades": ["mcg", "h"],
+        "dosagem": [30, 8],
+        "via": "VO", 
+        "instrucao": "até parar o sangramento uterino agudo, por no máximo 7 dias."
+      },
+      {
+        "unidades": ["mcg", "h"],
+        "dosagem": [30, 12],
+        "via": "VO", 
+        "instrucao": "por até 7 dias em caso de sangramento uterino agudo."
+      },
+      {
+        "unidades": ["mcg", "h"],
+        "dosagem": [30, 24],
+        "via": "VO", 
+        "instrucao": "seguimento pós sagramento uterino agudo, a critério médico."
+      }
+    ]
+  },
+  {
+    "nome": ["medroxiprogesterona", "Provera"],
+    "posologias":[
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [10, 1],
+        "via": "VO", 
+        "instrucao": "habitualmente usado como contraceptivo. A posologia pode ser individualizada."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [60, 1],
+        "via": "VO", 
+        "instrucao": "por 2 dias na vigência de sangramento uterino agudo."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [120, 1],
+        "via": "VO", 
+        "instrucao": "é a dose máxima por 2 dias na vigência de sangramento uterino agudo."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [30, 1],
+        "via": "VO", 
+        "instrucao": "por 3 a 6 semanas após cessar o sangramento uterino agudo."
+      }
+    ]
+  },
+  {
+    "nome": ["levomepromazina", "Neozine"],
+    "class": ["antipsicóticos típicos", "fenotiazinas"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [150, 1], 
+        "via": ["VO"]
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [250, 1], 
+        "via": ["VO"],
+        "instrucao": "é a dose diária máxima útil literária."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [20, 1], 
+        "via": ["VO"],
+        "instrucao": "inicialmente para progressão diária até dose ideal."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [200, 1], 
+        "via": ["VO"],
+        "instrucao": "para manejo da dor em pacientes terminais."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [500, 1], 
+        "via": ["VO"],
+        "instrucao": "máximo para manejo da dor em pacientes terminais."
+      },
+      {
+        "unidades": ["mg", "Kg", "dia"],
+        "dosagem": [0.1, 1, 1],
+        "via": "VO",
+        "instrucao": "dose inicial em pacientes de 2 a 15 anos"
+      },
+      {
+        "unidades": ["mg", "Kg", "dia"],
+        "dosagem": [0.2, 1, 1],
+        "via": "VO",
+        "instrucao": "dose máxima em pacientes de 2 a 15 anos"
+      }
+    ],
+    "obs": [
+      "No caso de gotas, diluir em solução de açúcar ou equivalente, nunca instilar diretamente nas mucosas."
+    ]
+  },
+  {
+    "nome": ["axetilcefuroxima", "Zinnat"],
+    "class": ["antibióticos", "cefalosporinas de 2° geração", "betalactâmicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [250, 12],
+        "via": "VO",
+        "instrucao": "em forma de comprimido, sachê ou suspensão."
+      },
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [500, 12],
+        "via": "VO",
+        "instrucao": "em forma de comprimido, sachê ou suspensão."
+      }
+    ]
+  },
+  {
+    "nome": ["ácido tranexâmico", "Transamin"],
+    "class": ["antifibrinolítico"],
+    "posologias":[
+      {
+       "unidades": ["g", "h"],
+       "dosagem": [1, 3],
+       "via": "IV",
+       "instrucao": "no trauma deve ser administrado nas 3 primeiras horas em infusão por 10min no melhor acesso adquirido."
+      },
+      {
+       "unidades": ["g", "h"],
+       "dosagem": [1, 8],
+       "via": "IV",
+       "instrucao": "manutenção no pós-trauma."
+      },
+      { 
+       "unidades": ["g", "h"],
+       "dosagem": [1, 3],
+       "via": "IV",
+       "instrucao": "em obstetrícia, nos sangramentos uterogênicos nas 3 primeiras horas em infusão por 10min."
+      }
+    ]
+  },
+  {
+    "nome": ["sulfato de magnésio"],
+    "class": ["eletrólitos"],
+    "posologias": [
+      {
+        "unidades": ["g", "min"],
+        "dosagem": [4, 10],
+        "via": "IV",
+        "instrucao": "acompanhado de 5g IM em cada nádega - ataque por esquemas Zuspan e Pritchard."
+      },
+      {
+        "unidades": ["g", "min"],
+        "dosagem": [6, 10],
+        "via": "IV",
+        "instrucao": "esquema Zuspan ataque modificado (Sibai)."
+      },
+      {
+        "unidades": ["g", "min"],
+        "dosagem": [5, 4],
+        "via": "IM",
+        "instrucao": "manutenção - esquema Pritchard."
+      },
+      {
+        "unidades": ["g", "min"],
+        "dosagem": [1, 10],
+        "via": "IV",
+        "instrucao": "manutenção - esquema Zuspan."
+      },
+      {
+        "unidades": ["g", "min"],
+        "dosagem": [2, 60],
+        "via": "IV",
+        "instrucao": "manutenção - esquema Sibai."
+      }
+    ],
+    "obs": [
+      "Para transportes, melhor usar Pritchard."
+    ]
+  },
+  {
     "nome": ["acetozolamida"],
     "obs":[
       "reduz líquor."
@@ -28,6 +284,127 @@
   },
   {
     "nome": ["dopamina"]
+  },
+  {
+    "nome": ["cetamina", "Ketalar"],
+    "class": ["hipnóticos", "sedativos", "bloqueadores de NMDA"],
+    "posologias": [
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": [1, 1],
+        "instrucao": "dose inicial para sedação.",
+        "via": "IV"
+      },
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": [3, 1],
+        "instrucao": "dose máxima literária para sedação.",
+        "via": "IV"
+      },
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": [0.3, 1],
+        "instrucao": "dose máxima para analgesia moderada.",
+        "via": "IV"
+      }
+    ],
+    "obs": [
+      "Causa hipertensão por liberação de adrenalina endógena.",
+      "Nas situações de adrenalina endógena esgotada, causa hipotensão.",
+      "Provoca moderada sialorreia, halucinação parasitária e outras."
+    ]
+  },
+  {
+    "nome": ["fluconazol"],
+    "class": ["antifúngicos"],
+    "posologias":[
+      {
+        "unidades": ["mg"],
+        "dosagem": [150],
+        "via": "VO",
+        "instrucao": "dose única ou semanal para sítios difíceis, como ungueal."
+      }
+    ]
+  },
+  {
+    "nome": ["terbinafina"],
+    "class": ["antifúngicos"],
+    "posologias":[
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [250, "VO"],
+        "instrucao": "sendo a terapia muito variável, de 3 a 12 semanas, a depender do sítio infectado."
+      }
+    ]
+  },
+  {
+    "nome": ["dexmedetomidina", "Precedex"],
+    "class": ["pré-anestésicos", "ansiolíticos", "simpaticolíticos"],
+    "posologias":[
+      {
+        "unidades": ["mcg", "Kg", "min"],
+        "dosagem": [1, 1, 10],
+        "via": "IV",
+        "instrucao": "ataque por 10min."
+      },
+      {
+        "unidades": ["mcg", "Kg", "min"],
+        "dosagem": [0.5, 1, 60],
+        "via": "IV",
+        "instrucao":"para manutenção, por hora. Também pode ser usada como droga de auxílio à VNI e para ansiólise." 
+      },
+      {
+        "unidades": ["mcg", "Kg", "min"],
+        "dosagem": [0.2, 1, 60],
+        "via": "IV",
+        "instrucao": "é o mínimo conhecido para manutenção de hora."
+      },
+      {
+        "unidades": ["mcg", "Kg", "min"],
+        "dosagem": [0.7, 1, 60],
+        "via": "IV",
+        "instrucao": "é o máximo indicado por bula comercial para manutenção de hora."
+      }
+    ]
+  },
+  {
+    "nome": ["citrato de fentanila", "Fentanil"],
+    "class": ["analgésicos", "opioides"],
+    "posologias":[
+      {
+        "unidades": ["mcg"],
+        "dosagem": [100],
+        "via": "IV",
+        "instrucao": "dose inicial adulta."
+      },
+      {
+        "unidades": ["mcg"],
+        "dosagem": [200],
+        "via": "IV",
+        "instrucao": "dose máxima adulta literária."
+      }
+    ],
+    "obs": [
+      "Todas características do paciente influenciam a dose que deve ser individualizada",
+      "No passado, doses muito maiores eram utilizadas isoladamente na antestesia.",
+      "Tem ação potencializadora dos sedativos.",
+      "A apresentação padrão é de 50mcg/ml."
+    ]
+  },
+  {
+    "nome": ["dissulfiram", "Antietanol", "(US) Antabuse"],
+    "class": ["antialcoólicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [250, 1],
+        "via": "VO",
+        "instrucao": "de preferência pela manhã, desde que esteja há 12h sem consumo de alcoól."
+      }
+    ],
+    "obs":[
+      "Se usado na vigência do consumo de alcoól, causa depressão neurológica, colapso cardíaco e diversos outros efeitos graves."
+    ]
   },
   {
     "nome": ["tobramicina"],

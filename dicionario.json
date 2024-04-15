@@ -1,7 +1,8 @@
 {
+  "Síndrome de Lance-Adams": "complicação crônica pós-parada cardiorespiratória de natureza neurológica com evolução do paciente apresentando convulsões mioclônicas .",
   "Pleiotropia": "diz-se da ação de um único gene que causa diferentes fenótipos.",
-  "Cofose": "surdez completa, bilateral",
-  "Anacusia": "perda auditiva, bilateral ou unilateral",
+  "Cofose": "surdez completa, bilateral.",
+  "Anacusia": "perda auditiva, bilateral ou unilateral.",
   "Rede neural convolucionada": "rede neural que aplica regras matemáticas para restringir a relação entre neurônios, isto é, evita-se a conexão de sinapses distantes, no intuito de reduzir o tamanho e a exigência computacional da rede neural, e.g. reconhecimento de imagens, para diminuir ou zerar do número de interações desnecessárias entre pixels distantes.",
   "Rede neural profunda": "rede neural de múltiplas camadas na qual uma ou mais camadas opera de forma \"oculta\", já que, uma vez treinada, não se conhece mais as conexões e pesos individuais das sinapses.",
   "Token - inteligência artificial": "fração de informação fornecida a um modelo de linguagem larga. Normalmente, trata-se de uma palavra ou porção de palavra, como radicais.",

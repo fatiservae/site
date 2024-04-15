@@ -10,6 +10,196 @@
 	
 	
 	<item>
+		<title>Anemias: investigação e tratamento</title>
+		<link>https://www.jeffersontorres.com.br/medicina/anemias/</link>
+		<pubDate>Sun, 14 Apr 2024 19:58:35 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/anemias/</guid>
+		<description>&lt;h2 id=&#34;reposição-de-ferro&#34;&gt;Reposição de ferro&lt;/h2&gt;
+&lt;p&gt;Estima-se que a administração de 400 mg do ferro sacarato seja capaz de aumentar em pelo menos 1g/dL a concentração de hemoglobina, o que corresponde ao incremento esperado quando se administra uma unidade de concentrado de hemácias.&lt;/p&gt;
+&lt;p&gt;A fórmula mais aceita é:&lt;/p&gt;
+&lt;p&gt;$$
+Ferro_{mg} = ((Hb_{desejada} - Hb_{atual}) * massa_{Kg} * 2.4 )+ 500
+$$&lt;/p&gt;
+
+
+&lt;div class=calculadoras&gt;
+&lt;h2&gt;Calculadora de ferro&lt;/h2&gt;
+&lt;label for=hbdesejada&gt;Hb desejada (g/dL)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=number id=hbdesejada&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;label for=hbatual&gt;Hb atual (g/dL)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=number id=hbatual&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;label for=hbdesejada&gt;Peso (Kg)&lt;/label&gt;
+&lt;br&gt;
+&lt;input type=number id=peso&gt;&lt;/input&gt;
+&lt;p id=resultado&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;button onclick=calculaFerro()&gt;Calcular&lt;/button&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function calculaFerro(){
+    let hbAtual = parseFloat(document.getElementById(&#34;hbatual&#34;).value);
+    let hbDesejada = parseFloat(document.getElementById(&#34;hbdesejada&#34;).value);
+    let peso = parseFloat(document.getElementById(&#34;peso&#34;).value);
+
+    let resultado = parseFloat(((hbDesejada - hbAtual)*peso*2.4)+500).toFixed(2);
+
+    if (isNaN(hbAtual + hbDesejada + peso)) {
+        document.getElementById(&#34;resultado&#34;).innerHTML = &#34;Verifique dados!&#34;;
+        return
+    }
+
+    document.getElementById(&#34;resultado&#34;).innerHTML = resultado+&#34;mg&#34;;
+}
+&lt;/script&gt;
+&lt;br&gt;
+
+&lt;h3 id=&#34;instruções&#34;&gt;Instruções&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Diluir cada ampola em 100ml de salina.&lt;/li&gt;
+&lt;li&gt;Tempo: correr a diluição em 15min para cada ampola.&lt;/li&gt;
+&lt;li&gt;Dose máxima por aplicação de 200mg e semanal de 500mg.&lt;/li&gt;
+&lt;li&gt;Intervalo mínimo entre doses de 24h.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Embora a administração de ferro por via intramuscular tenha sido muito utilizada, sobretudo em função da experiência negativa com o ferro dextran por via endovenosa na década de 80 e pela facilidade de aplicação, a partir do ano 2000, esta via de administração tem sido gradativamente substituída pela via endovenosa.&lt;/p&gt;
+&lt;p&gt;Recomenda-se a dose máxima diária de 200 mg (duas ampolas) de sacarato quando administrado por via intramuscular. Na prática, orienta-se a aplicação de uma ampola, uma a duas vezes por semana, até que se complete a dose total desejada ou calculada.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Cançado RD, Lobo C, Friedrich JR. &lt;strong&gt;Tratamento da anemia ferropriva com ferro por via parenteral&lt;/strong&gt;. Rev Bras Hematol Hemoter [Internet]. 2010Jun;32:121–8. Available from: &lt;a href=&#34;https://doi.org/10.1590/S1516-84842010005000066&#34;&gt;https://doi.org/10.1590/S1516-84842010005000066&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Gastrite e úlceras gástricas</title>
+		<link>https://www.jeffersontorres.com.br/medicina/gastrite/</link>
+		<pubDate>Sun, 14 Apr 2024 18:04:29 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/gastrite/</guid>
+		<description>&lt;h2 id=&#34;erradicação-da-h-pylori&#34;&gt;Erradicação da H. Pylori&lt;/h2&gt;
+&lt;table border=&#34;1&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-4 tabela-cor-texto&#34;&gt;&lt;strong class=&#34;fs-18 tabela&#34;&gt;Esquema terapêutico&lt;/strong&gt;&lt;/td&gt;
+&lt;td class=&#34;p-4 tabela-cor-texto&#34;&gt;&lt;strong class=&#34;fs-18 tabela&#34;&gt;Duração do tratamento&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34; colspan=&#34;2&#34;&gt;&lt;strong&gt;Esquema padrão de primeira linha: IBP* 12/12h associado a:&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Amoxicilina 1g 12/12 horas +&lt;br&gt;
+Claritromicina 500mg 12/12 horas&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;14 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34; colspan=&#34;2&#34;&gt;&lt;strong&gt;Esquemas alternativos ou de segunda linha: IBP* 12/12h associado a:&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Amoxicilina 1g 12/12 horas +&lt;br&gt;
+Levofloxacino 500mg 1x/dia&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;10 a 14 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Claritromicina 500mg 12/12 horas +&lt;br&gt;
+Levofloxacino 500mg 1x/dia**&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;14 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Amoxicilina 1g 12/12 horas +&lt;br&gt;
+Claritromicina 500mg 12/12 horas +&lt;br&gt;
+Metronidazol 500mg 12/12 horas ou&lt;br&gt;
+Tinidazol 500mg 12/12 horas&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;10 a 14 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Amoxicilina 1g 12/12 horas +&lt;br&gt;
+Subcitrato de Bismuto 240mg 12/12 horas +&lt;br&gt;
+Levofloxacino 500mg 1x/dia&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;10 a 14 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Metronidazol 500mg 12/12 horas ou 400mg 8/8 horas +&lt;br&gt;
+Subcitrato de Bismuto 120mg 6/6 horas&lt;br&gt;
+ou 240mg 12/12 horas +&lt;br&gt;
+Tetraciclina 500mg 6/6 horas**&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;10 a 14 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Metronidazol 500mg 12/12 horas ou&lt;br&gt;
+Tinidazol 500mg 12/12h +&lt;br&gt;
+Subcitrato de Bismuto 240mg 12/12 horas +&lt;br&gt;
+Doxiciclina 100mg 12/12 horas**&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;10 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Furazolidona 200mg 12/12 horas +&lt;br&gt;
+Subcitrato de Bismuto 240mg 12/12 horas +&lt;br&gt;
+Amoxicilina 1g 12/12h&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;10 a 14 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34;&gt;Furazolidona 200mg 12/12 horas +&lt;br&gt;
+Subcitrato de Bismuto 240mg 12/12 horas +&lt;br&gt;
+Tetraciclina 500mg 6/6 horas**&lt;/td&gt;
+&lt;td class=&#34;p-3 text-center&#34;&gt;10 dias&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;p-3&#34; colspan=&#34;2&#34;&gt;* IBP: omeprazol 20mg, lansoprazol 30mg, pantoprazol 40mg, esomeprazol 20mg, dexlansoprazol 60mg.&lt;br&gt;
+** Podem ser usados em alérgicos a penicilina.&lt;br&gt;
+Obs: esquemas com metronidazol podem ser prescritos com 400mg 8/8 horas quando a dose de 500mg não estiver disponível.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Cetoacidose diabética: insights</title>
+		<link>https://www.jeffersontorres.com.br/medicina/cetoacidose/</link>
+		<pubDate>Sun, 14 Apr 2024 17:25:02 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/cetoacidose/</guid>
+		<description>&lt;p&gt;Estes são compilados recentes de publicações que reorientam a conduta na cetoacidose diabética.
+Para preservar a intenção e a informação trazida nos artigos, mantive os textos originais.&lt;/p&gt;
+&lt;h2 id=&#34;seven-myths-about-diabetic-ketoacidosis-1&#34;&gt;Seven myths about diabetic ketoacidosis [1]&lt;/h2&gt;
+&lt;h3 id=&#34;myth-1-dka-is-a-state-of-extreme-hypovolemia-with-a-need-for-large-volume-resuscitation-eg-100-mlkg&#34;&gt;Myth 1: DKA is a state of extreme hypovolemia with a need for large volume resuscitation (e.g. 100 mL/Kg)&lt;/h3&gt;
+&lt;p&gt;Although substantial renal losses can occur due to hyperglycemia, especially over a longer duration, true hypovolemia usually ensues when patients are unable to drink due to nausea and vomiting. The body usually compensates for osmotic diuresis through increased oral intake through activation of physiologically effective circulating volume operators such as increased thirst and other neuro-hormone pathways. Some patients may not be hypovolemic, e.g. patients undergoing chronic dialysis or those with euglycemic DKA, where fluid losses are smaller.&lt;/p&gt;
+&lt;h3 id=&#34;myth-2-nacl-09-should-be-the-standard-of-care-for-volume-repletion-in-dka&#34;&gt;Myth 2: NaCl 0.9% should be the standard of care for volume repletion in DKA&lt;/h3&gt;
+&lt;p&gt;NaCl 0.9% causes iatrogenic hyperchloremic acidosis and does not prevent cerebral oedema. Buffered crystalloids such as Plasmalyte-148® or Hartmann’s solution will hasten pH correction but with no difference in anion-gap closure. Potassium replacement may however need to be given separately.&lt;/p&gt;
+&lt;h3 id=&#34;myth-3-weight-fixed-fluid-infusion-rates-are-necessary-for-the-treatment-of-dka&#34;&gt;Myth 3: Weight-fixed fluid infusion rates are necessary for the treatment of DKA&lt;/h3&gt;
+&lt;p&gt;A lower rate of fluid infusion leads to less hyperchloremic acidosis, reduces the risk of fluid overload, and does not affect overall DKA correction rates. Treatment should be personalized to patient needs.&lt;/p&gt;
+&lt;h3 id=&#34;myth-4-glucose-corrected-serum-sodium-follows-a-linear-relationship&#34;&gt;Myth 4: Glucose-corrected serum sodium follows a linear relationship&lt;/h3&gt;
+&lt;p&gt;A non-linear relationship for glucose-corrected serum sodium is most likely. The clinical significance of glucose-corrected serum sodium is usually low since fluid tonicity does not influence the rate of clinically significant cerebral
+oedema.&lt;/p&gt;
+&lt;h3 id=&#34;myth-5-hyperchloremic-acidosis-in-dka-is-the-sole-consequence-of-iatrogenesis&#34;&gt;Myth 5: Hyperchloremic acidosis in DKA is the sole consequence of iatrogenesis&lt;/h3&gt;
+&lt;p&gt;Hyperchloremic acidosis is not only a function of large volumes of salt-containing solutions, but also of the severity and duration of DKA before treatment is started. In DKA, renal reabsorption of chloride is increased to allow renal excretion of ketoacids, especially β-hydroxybutyrate.&lt;/p&gt;
+&lt;h3 id=&#34;myth-6-dka-should-be-treated-only-with-intravenous-insulin&#34;&gt;Myth 6: DKA should be treated only with intravenous insulin&lt;/h3&gt;
+&lt;p&gt;In patients who are not very sick, an ultra-rapid subcutaneous insulin regimen (hourly dose of 0.1 U/Kg) may shorten time to DKA treatment and avoid the need for intravenous insulin. With current very long-acting insulins, it is advisable to use only small doses (usually 0.2 U/Kg) in patients with severe DKA at the onset of treatment. This allows a smoother transition from an IV to a SC insulin regimen.&lt;/p&gt;
+&lt;h3 id=&#34;myth-7-dka-correction-criteria-include-glucose-levels-and-ketonemia&#34;&gt;Myth 7: DKA correction criteria include glucose levels and ketonemia&lt;/h3&gt;
+&lt;p&gt;pH &amp;gt; 7.30 and bicarbonate &amp;gt; 15 mEq/L are the usual minimum criteria for DKA correction. Full correction of hyperglycemia does not ensure DKA reversal, neither is it necessary. Although point-of-care ketonemia may hasten the diagnosis of DKA, its use as a routine treatment target has not been compared to standard approaches. Optimal monitoring and rate of reduction have not been identified.&lt;/p&gt;
+&lt;h2 id=&#34;keypoint-of-care-in-ketoacidosis2&#34;&gt;Keypoint of care in ketoacidosis[2]&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Diagnosis of diabetic ketoacidosis (DKA) is based on the biochemical triad of ketonaemia, hyperglycaemia, and acidaemia.&lt;/li&gt;
+&lt;li&gt;Cornerstones of management are: fluid and potassium replacement; weight-based fixed rate intravenous insulin infusion (FRIII); and close biochemical monitoring of capillary ketones, serum electrolytes, venous pH and capillary glucose.&lt;/li&gt;
+&lt;li&gt;It is not necessary to use arterial blood to assess acid-base status; venous sampling is sufficient as the difference between arterial and venous pH/HCO3 is not significant enough to influence diagnosis or management of DKA.&lt;/li&gt;
+&lt;li&gt;The patient’s long acting analogue insulin should be continued alongside the FRIII to prevent rebound hyperglycaemia when intravenous treatment is stopped.&lt;/li&gt;
+&lt;li&gt;DKA is preventable; patient education and support must be integral to type 1 diabetes mellitus care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;BESEN, Bruno AMP; RANZANI, Otavio T.; SINGER, Mervyn. &lt;strong&gt;Management of diabetic ketoacidosis&lt;/strong&gt;. Intensive Care Medicine, v. 49, n. 1, p. 95-98, 2023.&lt;/li&gt;
+&lt;li&gt;EVANS, Kate. &lt;strong&gt;Diabetic ketoacidosis: update on management&lt;/strong&gt;. Clinical Medicine, v. 19, n. 5, p. 396, 2019.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Escala PPS e o processo ativo de morte</title>
 		<link>https://www.jeffersontorres.com.br/medicina/processo-morte/</link>
 		<pubDate>Wed, 10 Apr 2024 06:22:00 -0300</pubDate>
@@ -1486,13 +1676,18 @@ table{
 &lt;h3 id=&#34;sugestividade&#34;&gt;Sugestividade&lt;/h3&gt;
 &lt;h3 id=&#34;falsa-lembrança&#34;&gt;Falsa lembrança&lt;/h3&gt;
 &lt;h3 id=&#34;criptomnésia&#34;&gt;Criptomnésia&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Por esquecimento, uma ideia velha parece nova.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;jamais-vu&#34;&gt;Jamais vu&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Algo familiar parece totalmente desconhecido.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;déjà-vu&#34;&gt;Déjà vu&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Algo desconhecido parece familiar.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;confusão-sobre-a-fonte&#34;&gt;Confusão sobre a fonte&lt;/h3&gt;
 &lt;h3 id=&#34;erro-de-atribuição-de-origem&#34;&gt;Erro de atribuição de origem&lt;/h3&gt;
 &lt;h2 id=&#34;a-racionalidade-humana-prefere-a-simplicidade-e-completude&#34;&gt;A racionalidade humana prefere a simplicidade e completude&lt;/h2&gt;
 &lt;h3 id=&#34;efeito-menos-é-melhor&#34;&gt;Efeito menos é melhor&lt;/h3&gt;
 &lt;h3 id=&#34;navalha-de-ockam&#34;&gt;Navalha de Ockam&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;A explicação mais simples é provavelmente a mais correta.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../farsa-ockham/&#34;&gt;Eu discordo deste viés&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Eu discordo deste viés, veja &lt;a href=&#34;../farsa-ockham/&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;erro-de-conjunção&#34;&gt;Erro de conjunção&lt;/h3&gt;
 &lt;h3 id=&#34;efeito-delmore&#34;&gt;Efeito Delmore&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;O cérebro humano superestima os objetivos imediatos e subestima os objetivos de longo prazo.&lt;/strong&gt;&lt;/p&gt;
@@ -1540,7 +1735,7 @@ table{
 &lt;h3 id=&#34;viés-de-custo-irrecuperável&#34;&gt;Viés de custo irrecuperável&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;O investimento atual é grande o suficiente para nos mantermos no plano, mesmo que seja um péssimo plano&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Víes mais conhecido como teoria do frânces &lt;em&gt;Jacque&lt;/em&gt;: &amp;ldquo;já que&amp;rdquo; já estou aqui, continuo! 😂&lt;/p&gt;
-&lt;h2 id=&#34;o-foco-do-raciocínio-humano-tende-ao-imediatismo&#34;&gt;O foco do raciocínio humano tende ao imediatismo&lt;/h2&gt;
+&lt;h2 id=&#34;o-raciocínio-humano-tende-ao-imediatismo&#34;&gt;O raciocínio humano tende ao imediatismo&lt;/h2&gt;
 &lt;h3 id=&#34;efeito-da-vítima-identificável&#34;&gt;Efeito da vítima identificável&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Os humanos agem em socorro de vítimas específicas e identificáveis em detrimento de grupos indefinidos de vítimas.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;O apelo do holocausto é intenso pela histórica identificação de um dos grupos vitimizados, os judeus. Conversivamente, os grupos de africanos vítimas anônimas de diversos regimes agressivos não recebem atenção proporcional.&lt;/p&gt;
@@ -1550,12 +1745,12 @@ table{
 &lt;p&gt;A dieta mais recente provavelmente é mais eficaz, &lt;em&gt;apenas por ser mais nova&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;desconto-hiperbólico&#34;&gt;Desconto hiperbólico&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Os benefícios imediatos tem maior peso que benefícios mediados e futuros.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Quanto maior a espera de um benefício, menos valor este parece ter diante da expectativa humana. Os mamíferos, de forma geral, montam estratégias de benefício limitadas no tempo. Leões, e.g., parecem esperar horas numa emboscada de presa, nunca dias.&lt;/p&gt;
+&lt;p&gt;Quanto maior a espera de um benefício, menos valor este parece ter diante da expectativa humana. Na verdade, os mamíferos, de forma geral, montam estratégias de benefício limitadas no tempo. Por exemplo, leões, podem esperar por horas para uma emboscada contra uma presa, nunca por dias.&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Lagartas isognatus</title>
+		<title>Foto: lagarta isognatus desconhecida</title>
 		<link>https://www.jeffersontorres.com.br/ciencia/isognatus/</link>
 		<pubDate>Mon, 12 Feb 2024 09:28:40 -0300</pubDate>
 		
@@ -3448,11 +3643,19 @@ $$&lt;/p&gt;
 &lt;li&gt;Deve ser realizado, preferencialmente, guiado por ultrassonografia[2];&lt;/li&gt;
 &lt;li&gt;A maioria das punções inserem cateters comerciais com menos de 20cm e, portanto, não alcançam a cava inferior e devem ser tratados como periférico de grosso calibre[2].&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;manejo-hemodinâmico&#34;&gt;Manejo hemodinâmico&lt;/h2&gt;
+&lt;h3 id=&#34;evidências&#34;&gt;Evidências&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Among adults with septic shock, &lt;mark&gt;vasopressin initiation&lt;/mark&gt; when low-dose NE was used was associated with an improvement in 28-day mortality[3].&lt;/li&gt;
+&lt;li&gt;For the clinician caring for patients with sepsis today, the initial administration of &lt;mark&gt;20 mL/kg&lt;/mark&gt; of intravenous balanced crystalloid, followed by consideration of the risks and benefits of subsequent fluid administration represents a reasonable approach [4].&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;MASON, Jay W. et al. &lt;strong&gt;Electrocardiographic reference ranges derived from 79,743 ambulatory subjects&lt;/strong&gt;. Journal of electrocardiology, v. 40, n. 3, p. 228-234. e8, 2007.&lt;/li&gt;
 &lt;li&gt;ANNETTA, Maria Giuseppina et al. &lt;strong&gt;Femoral venous access: State of the art and future perspectives&lt;/strong&gt;. The Journal of Vascular Access, p. 11297298231209253, 2023.&lt;/li&gt;
+&lt;li&gt;Xu, J., Cai, H. &amp;amp; Zheng, X. &lt;strong&gt;Timing of vasopressin initiation and mortality in patients with septic shock: analysis of the MIMIC-III and MIMIC-IV databases.&lt;/strong&gt; BMC Infect Dis 23, 199 (2023). &lt;a href=&#34;https://doi.org/10.1186/s12879-023-08147-6&#34;&gt;https://doi.org/10.1186/s12879-023-08147-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BROWN, Ryan M.; SEMLER, Matthew W. &lt;strong&gt;Fluid management in sepsis.&lt;/strong&gt; Journal of intensive care medicine, v. 34, n. 5, p. 364-373, 2019.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -3854,13 +4057,12 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 	</item>
 	
 	<item>
-		<title>Convulsões</title>
+		<title>Convulsões: fluxogramas de conduta</title>
 		<link>https://www.jeffersontorres.com.br/medicina/convulsoes/</link>
 		<pubDate>Sun, 19 Nov 2023 15:45:49 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/convulsoes/</guid>
 		<description>&lt;h2 id=&#34;lactente-ou-neonato&#34;&gt;Lactente ou neonato&lt;/h2&gt;
-&lt;h3 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 G(Instalar o EEG se disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia)
 A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg + manutenção 5-8mg/Kg)
@@ -3869,11 +4071,96 @@ F -- Persistência --&gt; Z(Sedação e intubação)
 E -- Persistência --&gt;Z
 &lt;/pre&gt;
 
+&lt;h2 id=&#34;estado-de-mal-epilético-pelo-purple-book1&#34;&gt;Estado de mal epilético pelo Purple Book[1]&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Fase&lt;/th&gt;
+&lt;th&gt;Tipo do EME&lt;/th&gt;
+&lt;th&gt;Duração&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;I&lt;/td&gt;
+&lt;td&gt;Preliminar ou iminente&lt;/td&gt;
+&lt;td&gt;5 a 30min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;II&lt;/td&gt;
+&lt;td&gt;Estabelecido&lt;/td&gt;
+&lt;td&gt;&amp;gt; 30min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;III&lt;/td&gt;
+&lt;td&gt;Refratário¹&lt;/td&gt;
+&lt;td&gt;&amp;gt; 60min ou falha das fases I/II&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;IV&lt;/td&gt;
+&lt;td&gt;Super-refratário²&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol&gt;
+&lt;li&gt;Persiste apesar do tratamento estabelecido na fase I e II com estado de mal sutil, comatoso ou não convulsivo.&lt;/li&gt;
+&lt;li&gt;Persiste apesar do tratamento anestésico por mais de 24h.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+inicio(Reconhecimento do EME) -- Adolescente ou adulto&lt;br&gt;de 13 a 40kg &lt;br&gt;e idosos --&gt; ate40kg(Midazolam 5mg IM&lt;br&gt; repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam 10mg&lt;br&gt;repetir até 2x);
+inicio -- Adolescente ou adulto&lt;br&gt;acima de 40kg --&gt; adulto(Midazolam 10mg IM&lt;br&gt;repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam IV 10mg&lt;br&gt;repetir até 2x);
+inicio -- Crianças --&gt; crianca(Midazolam 0.2mg/Kg IM&lt;br&gt;repetir se necessário&lt;br&gt;OU&lt;br&gt;Diazepam 0.5mg/Kg&lt;br&gt;repetir até 2x);
+adulto --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6h&lt;br&gt;Fenobarbital 20mg/Kg - manutenção em 12h);
+ate40kg --&gt; fim;
+crianca --&gt; fim;
+fim -- Sedação em UTI --&gt; sedacao(Quetamina, midazolam, propofol e tiopental contínuos);
+sedacao -- Mantém crise via EEG ou clínica --&gt; Fiim(Super-refratário se +24h);
+sedacao --&gt; reajuste(Reajustar fármacos&lt;br&gt;antiepiléticos e sedação);
+&lt;/pre&gt;
+
+&lt;h3 id=&#34;quetamina&#34;&gt;Quetamina&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Criança: bolus inicial de 2 a 3mg/Kg até duas vezes IV e infusão contínua de no máximo 3.6mg/Kg/h.&lt;/li&gt;
+&lt;li&gt;Adultos: bolus inicial de até 5mg/Kg IV e infusão contínua de no máximo 15mg/Kg/h.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;propofol&#34;&gt;Propofol&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bolus IV de 2-3mg/Kg e manutenção com bolus de até 2mg/Kg a cada 3-5min;&lt;/li&gt;
+&lt;li&gt;Manutenção de até 10mg/Kg/h;&lt;/li&gt;
+&lt;li&gt;Evitar o uso por mais de 48h por risco de síndrome da infusão de propofol.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;midazolam&#34;&gt;Midazolam&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bolus inicial de 0.2mg/Kg e manutenção de 0.05 a 0.4mg/Kg/h.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tiopental&#34;&gt;Tiopental&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bolus de 3-5mg/Kg e bolus de 1-2mg/Kg a cada 3-5min em diluição até fim da crise. Mantenção de 3-7mg/Kg/h.&lt;/li&gt;
+&lt;li&gt;Existe a administração por manutenção em EEG.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;super-refratário&#34;&gt;Super-refratário&lt;/h3&gt;
+&lt;h4 id=&#34;topiramato&#34;&gt;Topiramato&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Criança: 10 a 30mg/Kg/dia&lt;/li&gt;
+&lt;li&gt;Adulto: 200-500mg duas vezes ao dia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;clobazam&#34;&gt;Clobazam&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Criança: 0.5-1mg/Kg/dia.&lt;/li&gt;
+&lt;li&gt;Adulto: iniciar com 10mg/dia podendo chegar a 60mg/dia. Pode ser feito em 2 tomadas por dia, dividindo-se a dose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;YACUBIAN, Elza Márcia Targas; MANREZA, Maria Luiza; TERRA, Vera Cristina.&lt;strong&gt;Purple book : guia prático para o tratamento de
+epilepsias : recomendações para tratamento de crises e síndromes epiléticas de um grupo de especialistas brasileiros 2ed&lt;/strong&gt;. Planmark. São Paulo - Brasil. 2020. ISBN 978-85-9525-037-6&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Massagem Carotídea</title>
+		<title>Massagem Carotídea: mitos e verdades</title>
 		<link>https://www.jeffersontorres.com.br/medicina/massagem-carotidea/</link>
 		<pubDate>Wed, 15 Nov 2023 22:42:02 -0300</pubDate>
 		
@@ -3910,6 +4197,19 @@ E -- Persistência --&gt;Z
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/cockcroft-gault/</guid>
 		<description>&lt;script&gt;
+  function dadosErrados(idade, peso, creatinina, altura) {
+    if (idade &lt; 5 || idade &gt; 95 || isNaN(idade) ||
+        isNaN(peso) || peso &lt; 20 || peso &gt; 150 ||
+        isNaN(altura) || altura &lt; 130 || altura &gt; 210 ||
+        isNaN(creatinina))
+    {
+      console.log(idade, altura, peso, creatinina);
+      return true
+    } else {
+      return false
+    }
+  }
+
   function calcularTFG() {
     var idade = parseFloat(document.getElementById(&#34;idade&#34;).value);
     var peso = parseFloat(document.getElementById(&#34;peso&#34;).value);
@@ -3917,10 +4217,13 @@ E -- Persistência --&gt;Z
     var creatinina = parseFloat(document.getElementById(&#34;creatinina&#34;).value);
     var sexo = document.getElementById(&#34;sexo&#34;).value;
     var ajuste = sexo === &#34;masculino&#34; ? 1 : 0.85;
-    var ajustePeso = sexo === &#34;masculino&#34; ? 0 : 4.5;
-    var pesoIdeal = (50 - ajustePeso) + 2.3 * ((altura/2.54) - 60); //trocar o 60 p/ cm
+    var pesoMin = sexo === &#34;masculino&#34; ? 50 : 45.5;
+    //var ajustePeso = sexo === &#34;masculino&#34; ? 0 : 4.5;
+    //var pesoIdeal = (50 - ajustePeso) + 2.3 * ((altura/2.54) - 60); //trocar o 60 p/ cm
+    var pesoIdeal = pesoMin + 2.3 * ((altura - 152.4)/2.54);
     var pesoAjustado = pesoIdeal + 0.4 * (peso - pesoIdeal);
-    var resultadoTFG = ((140 - idade) * pesoIdeal) * ajuste / (72 * creatinina)
+    var cockroftGault = ((140 - idade) * peso) * ajuste / (72 * creatinina)
+    var cockroftGaultPesoIdeal = ((140 - idade) * pesoAjustado) * ajuste / (72 * creatinina)
     var negro = document.getElementById(&#34;negro&#34;);
     var fatormdrd1 = 1;
     var fatormdrd2 = 1;
@@ -3934,16 +4237,25 @@ E -- Persistência --&gt;Z
 
     var mdrd = 175 * Math.pow(creatinina, -1.154) * Math.pow(idade, -0.203) * fatormdrd1 * fatormdrd2; 
 
-    if  (isNaN(idade) ||
-         isNaN(peso) ||
-         isNaN(altura) ||
-         isNaN(creatinina)) 
-    {
-        document.getElementById(&#34;resultado&#34;).innerText = &#34;VERIFIQUE DADOS INSERIDOS!&#34;;
-        return
-    }
+    document.getElementById(&#34;resultado&#34;).innerHTML= 
+      &#34;&lt;span style=\&#34;color: var(--termo)\&#34;&gt;&#34;+
+      &#34;Cálculos da taxa de filtração glomerular&lt;/span&gt;&#34;+
+      &#34;&lt;br&gt;Por Cockcroft-Gault: &#34;+
+      &#34;&lt;span style=\&#34;color: var(--termo)\&#34;&gt;&#34;+
+      cockroftGault.toFixed(2)+&#34;mL/min&lt;/span&gt;&#34;+
+      &#34;&lt;br&gt;Cockcroft-Gault ajustada por peso ideal calculado: &#34;+
+      &#34;&lt;span style=\&#34;color: var(--termo)\&#34;&gt;&#34;+
+      cockroftGaultPesoIdeal.toFixed(2)+&#34;mL/min&lt;/span&gt;&#34;+
+      &#34;&lt;br&gt;Pela estimativa do estudo MDRD: &#34;+
+      &#34;&lt;span style=\&#34;color: var(--termo)\&#34;&gt;&#34;+
+      mdrd.toFixed(1)+&#34;mL/min&lt;/span&gt;&#34;
 
-    document.getElementById(&#34;resultado&#34;).innerText = &#34;Taxa de filtração glomerular estimada via Cockcroft-Gault de &#34;+resultadoTFG.toFixed(2)+&#34;mL/min.\nO peso ideal é de &#34;+pesoIdeal.toFixed(1)+&#34;Kg.\nO peso ajustado é de &#34;+pesoAjustado.toFixed(1)+&#34;Kg.\nA estimativa MDRD é de &#34;+mdrd.toFixed(1)+&#34;mL/min.&#34;;
+    if (dadosErrados(idade, peso, creatinina, altura))
+    {
+      document.getElementById(&#34;resultado&#34;).innerText = 
+        &#34;DADOS ERRADOS OU FORA DO INTERVALO!\nVERIFIQUE DADOS INSERIDOS!\nUSE PONTOS, NÃO VÍRGULAS!&#34;;
+      return
+    }
 
     document.getElementById(&#34;botao-copiar&#34;).style.display = &#39;block&#39;;
     const botaoCopiar = document.getElementById(&#39;botao-copiar&#39;);

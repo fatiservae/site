@@ -14,6 +14,7 @@ Regras de estilo:
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;
   */
   /* CORES */
+  --lime1: #ffff00;
   --ferrugem1: #92340b;
   --ferrugem2: #6d2708;
   --ferrugem3: #491a05;
@@ -65,6 +66,8 @@ Regras de estilo:
   --vermelhoDailyBeast: #ea0606;
 
   /* PROPRIEDADES */
+  --corH4: var(--negrito);
+  --h4BeforeContent: "# ";
   --bordas: 1px solid var(--fonte);
   --corFonteBarraHover: var(--corNegrito);
   scrollbar-color: var(--barraRolagem) var(--fundo);
@@ -699,7 +702,7 @@ a[href]:visited:hover, a[href]:hover{
 }
 
 /* PARAGRAFOS HEADING H1 H2 H3 */
-h1, h3, h2 {
+h1, h3, h2 , h4{
   /*
   */
   background-image: var(--imageBackgroundHeadings);
@@ -719,7 +722,7 @@ h1, h3, h2 {
   text-indent: 0% ;
   font-weight: bold;
   text-align: start;
-  max-width: 79vw;
+  max-width: var(--largura-texto);
   width: fit-content;
 }
 h2 {
@@ -750,6 +753,19 @@ h3 {
 }
 h3::before {
   content: var(--h3BeforeContent);
+  color: var(--corNegrito);
+}
+h4 {
+  background: none;
+  box-shadow: none;
+  border: none;
+  color: var(--corH4);
+  margin-left: 15vw;
+  font-size: 100%;
+  font-weight: bold;
+}
+h4::before {
+  content: var(--h4BeforeContent);
   color: var(--corNegrito);
 }
 
@@ -961,6 +977,10 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_nutrição::before { content: "💪 " ;}
+#tag_infectologia::before { content: "🦠 " ;}
+#tag_arboviroses::before { content: "🦟 " ;}
+#tag_tabelas::before { content: "🔡 " ;}
 #tag_resumos::before { content: "📝 " ;}
 #tag_psicologia::before { content: "🎭 " ;}
 #tag_filosofia::before { content: "🤔 " ;}
@@ -1246,8 +1266,8 @@ li::before{
 .frase{
   /* 
   */
-  font-size: 130%;
-  transition: filter 2s ease-in-out, font-size 5s ease-in-out, color 4s ease-in-out ;
+  font-size: 110%;
+  transition: filter 2.5s ease-in-out, color 4s ease-in-out ;
   align: center ;
   text-align: center ;
   font-style: italic ;
@@ -1261,8 +1281,8 @@ li::before{
 .frase.show {
   filter: none;
   color: var(--fraseShow);
-  font-size: 120%;
   /*
+  font-size: 105%;
   */
 }
 .frase:hover {
@@ -1925,6 +1945,10 @@ div#counter {
   margin-left: 5vw;
   border: var(--bordas);
   box-shadow: var(--sombraCaixas);
+}
+.calculadoras h2 {
+  margin-left: 1vw;
+  margin-top: 0;
 }
 .calculadoras h2::before {
   content: none;

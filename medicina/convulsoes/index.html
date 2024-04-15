@@ -57,12 +57,12 @@
     </script>
   
 
-  <title>Convulsões | Jefferson T.</title>
+  <title>Convulsões: fluxogramas de conduta | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Lactente ou neonato Tratamento graph TD; G(Instalar o EEG se disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia) A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg &#43; manutenção 5-8mg/Kg) D -- Opção 2 --&gt; F(Midazolam 0.15mg/Kg &#43; manutenção 0.1mcg/Kg/min) F -- Persistência --&gt; Z(Sedação e intubação) E -- Persistência --&gt;Z ">
+  <meta name="description" content="Lactente ou neonato graph TD; G(Instalar o EEG se disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia) A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg &#43; manutenção 5-8mg/Kg) D -- Opção 2 --&gt; F(Midazolam 0.15mg/Kg &#43; manutenção 0.1mcg/Kg/min) F -- Persistência --&gt; Z(Sedação e intubação) E -- Persistência --&gt;Z Estado de mal epilético pelo Purple Book[1] Fase Tipo do EME Duração I Preliminar ou iminente 5 a 30min II Estabelecido &gt; 30min III Refratário¹ &gt; 60min ou falha das fases I/II IV Super-refratário² - Persiste apesar do tratamento estabelecido na fase I e II com estado de mal sutil, comatoso ou não convulsivo.">
   <meta name="keywords" content="Medicina, Guidelines">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -146,7 +146,7 @@
 <br>
 <br>
 
-  <h1>Convulsões</h1>
+  <h1>Convulsões: fluxogramas de conduta</h1>
 
 <script>
   
@@ -237,10 +237,25 @@
 </script>
 
 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#lactente-ou-neonato">Lactente ou neonato</a></li>
+    <li><a href="#estado-de-mal-epilético-pelo-purple-book1">Estado de mal epilético pelo Purple Book[1]</a>
+      <ul>
+        <li><a href="#quetamina">Quetamina</a></li>
+        <li><a href="#propofol">Propofol</a></li>
+        <li><a href="#midazolam">Midazolam</a></li>
+        <li><a href="#tiopental">Tiopental</a></li>
+        <li><a href="#super-refratário">Super-refratário</a></li>
+      </ul>
+    </li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
+
 
 
   <h2 id="lactente-ou-neonato">Lactente ou neonato</h2>
-<h3 id="tratamento">Tratamento</h3>
 <pre class="mermaid">graph TD;
 G(Instalar o EEG se disponível) --> A(Fenobarbital em 20-30mg/Kg) -- Resolução -->B(Manter 5-6mg/Kg/dia)
 A -- Persistência --> D(Repetir 20-30mg/Kg) -- Opção 1 --> E(Fenitoína 21mg/Kg + manutenção 5-8mg/Kg)
@@ -249,11 +264,100 @@ F -- Persistência --> Z(Sedação e intubação)
 E -- Persistência -->Z
 </pre>
 
+<h2 id="estado-de-mal-epilético-pelo-purple-book1">Estado de mal epilético pelo Purple Book[1]</h2>
+<table>
+<thead>
+<tr>
+<th>Fase</th>
+<th>Tipo do EME</th>
+<th>Duração</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I</td>
+<td>Preliminar ou iminente</td>
+<td>5 a 30min</td>
+</tr>
+<tr>
+<td>II</td>
+<td>Estabelecido</td>
+<td>&gt; 30min</td>
+</tr>
+<tr>
+<td>III</td>
+<td>Refratário¹</td>
+<td>&gt; 60min ou falha das fases I/II</td>
+</tr>
+<tr>
+<td>IV</td>
+<td>Super-refratário²</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Persiste apesar do tratamento estabelecido na fase I e II com estado de mal sutil, comatoso ou não convulsivo.</li>
+<li>Persiste apesar do tratamento anestésico por mais de 24h.</li>
+</ol>
+<pre class="mermaid">graph TD;
+inicio(Reconhecimento do EME) -- Adolescente ou adulto<br>de 13 a 40kg <br>e idosos --> ate40kg(Midazolam 5mg IM<br> repetir se necessário<br>OU<br>Diazepam 10mg<br>repetir até 2x);
+inicio -- Adolescente ou adulto<br>acima de 40kg --> adulto(Midazolam 10mg IM<br>repetir se necessário<br>OU<br>Diazepam IV 10mg<br>repetir até 2x);
+inicio -- Crianças --> crianca(Midazolam 0.2mg/Kg IM<br>repetir se necessário<br>OU<br>Diazepam 0.5mg/Kg<br>repetir até 2x);
+adulto --> fim(Fenitoína 20mg/Kg - manutenção em 6h<br>Fenobarbital 20mg/Kg - manutenção em 12h);
+ate40kg --> fim;
+crianca --> fim;
+fim -- Sedação em UTI --> sedacao(Quetamina, midazolam, propofol e tiopental contínuos);
+sedacao -- Mantém crise via EEG ou clínica --> Fiim(Super-refratário se +24h);
+sedacao --> reajuste(Reajustar fármacos<br>antiepiléticos e sedação);
+</pre>
+
+<h3 id="quetamina">Quetamina</h3>
+<ul>
+<li>Criança: bolus inicial de 2 a 3mg/Kg até duas vezes IV e infusão contínua de no máximo 3.6mg/Kg/h.</li>
+<li>Adultos: bolus inicial de até 5mg/Kg IV e infusão contínua de no máximo 15mg/Kg/h.</li>
+</ul>
+<h3 id="propofol">Propofol</h3>
+<ul>
+<li>Bolus IV de 2-3mg/Kg e manutenção com bolus de até 2mg/Kg a cada 3-5min;</li>
+<li>Manutenção de até 10mg/Kg/h;</li>
+<li>Evitar o uso por mais de 48h por risco de síndrome da infusão de propofol.</li>
+</ul>
+<h3 id="midazolam">Midazolam</h3>
+<ul>
+<li>Bolus inicial de 0.2mg/Kg e manutenção de 0.05 a 0.4mg/Kg/h.</li>
+</ul>
+<h3 id="tiopental">Tiopental</h3>
+<ul>
+<li>Bolus de 3-5mg/Kg e bolus de 1-2mg/Kg a cada 3-5min em diluição até fim da crise. Mantenção de 3-7mg/Kg/h.</li>
+<li>Existe a administração por manutenção em EEG.</li>
+</ul>
+<h3 id="super-refratário">Super-refratário</h3>
+<h4 id="topiramato">Topiramato</h4>
+<ul>
+<li>Criança: 10 a 30mg/Kg/dia</li>
+<li>Adulto: 200-500mg duas vezes ao dia.</li>
+</ul>
+<h4 id="clobazam">Clobazam</h4>
+<ul>
+<li>Criança: 0.5-1mg/Kg/dia.</li>
+<li>Adulto: iniciar com 10mg/dia podendo chegar a 60mg/dia. Pode ser feito em 2 tomadas por dia, dividindo-se a dose.</li>
+</ul>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>YACUBIAN, Elza Márcia Targas; MANREZA, Maria Luiza; TERRA, Vera Cristina.<strong>Purple book : guia prático para o tratamento de
+epilepsias : recomendações para tratamento de crises e síndromes epiléticas de um grupo de especialistas brasileiros 2ed</strong>. Planmark. São Paulo - Brasil. 2020. ISBN 978-85-9525-037-6</li>
+</ol>
 
 
 
   <br>
-        <div style="" class=taglist><a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">Medicina</a> &middot; <a id="tag_guidelines" href="https://www.jeffersontorres.com.br/tags/guidelines">Guidelines</a></div>
+        <div style="" class=taglist> 
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_guidelines" href="https://www.jeffersontorres.com.br/tags/guidelines">guidelines</a></div>
+
+
 
 </article>
 

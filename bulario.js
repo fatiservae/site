@@ -72,7 +72,8 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             dose.innerText += "/";
           };
-          dose.innerText += posologia.dosagem[i]+posologia.unidades[i];
+          let dosagem = posologia.dosagem[i] === 1 ? '' : posologia.dosagem[i];
+          dose.innerText += dosagem+posologia.unidades[i];
           indexUnidades--
         };
         let instrucao = posologia.instrucao === undefined ? '' : " - "+posologia.instrucao;

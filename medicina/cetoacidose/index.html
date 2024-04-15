@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Cetoacidose diabética: insights | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="Estes são compilados recentes de publicações que reorientam a conduta na cetoacidose diabética. Para preservar a intenção e a informação trazida nos artigos, mantive os textos originais.
+Seven myths about diabetic ketoacidosis [1] Myth 1: DKA is a state of extreme hypovolemia with a need for large volume resuscitation (e.g. 100 mL/Kg) Although substantial renal losses can occur due to hyperglycemia, especially over a longer duration, true hypovolemia usually ensues when patients are unable to drink due to nausea and vomiting.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+<link href="https://db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS" rel="stylesheet" crossorigin> 
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+</script>
+
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="projetos">projetos</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+
+  <h1>Cetoacidose diabética: insights</h1>
+
+<script>
+  
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
+  }
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
+      lighswitch.innerHTML = 'noturno'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+  <p>Estes são compilados recentes de publicações que reorientam a conduta na cetoacidose diabética.
+Para preservar a intenção e a informação trazida nos artigos, mantive os textos originais.</p>
+<h2 id="seven-myths-about-diabetic-ketoacidosis-1">Seven myths about diabetic ketoacidosis [1]</h2>
+<h3 id="myth-1-dka-is-a-state-of-extreme-hypovolemia-with-a-need-for-large-volume-resuscitation-eg-100-mlkg">Myth 1: DKA is a state of extreme hypovolemia with a need for large volume resuscitation (e.g. 100 mL/Kg)</h3>
+<p>Although substantial renal losses can occur due to hyperglycemia, especially over a longer duration, true hypovolemia usually ensues when patients are unable to drink due to nausea and vomiting. The body usually compensates for osmotic diuresis through increased oral intake through activation of physiologically effective circulating volume operators such as increased thirst and other neuro-hormone pathways. Some patients may not be hypovolemic, e.g. patients undergoing chronic dialysis or those with euglycemic DKA, where fluid losses are smaller.</p>
+<h3 id="myth-2-nacl-09-should-be-the-standard-of-care-for-volume-repletion-in-dka">Myth 2: NaCl 0.9% should be the standard of care for volume repletion in DKA</h3>
+<p>NaCl 0.9% causes iatrogenic hyperchloremic acidosis and does not prevent cerebral oedema. Buffered crystalloids such as Plasmalyte-148® or Hartmann’s solution will hasten pH correction but with no difference in anion-gap closure. Potassium replacement may however need to be given separately.</p>
+<h3 id="myth-3-weight-fixed-fluid-infusion-rates-are-necessary-for-the-treatment-of-dka">Myth 3: Weight-fixed fluid infusion rates are necessary for the treatment of DKA</h3>
+<p>A lower rate of fluid infusion leads to less hyperchloremic acidosis, reduces the risk of fluid overload, and does not affect overall DKA correction rates. Treatment should be personalized to patient needs.</p>
+<h3 id="myth-4-glucose-corrected-serum-sodium-follows-a-linear-relationship">Myth 4: Glucose-corrected serum sodium follows a linear relationship</h3>
+<p>A non-linear relationship for glucose-corrected serum sodium is most likely. The clinical significance of glucose-corrected serum sodium is usually low since fluid tonicity does not influence the rate of clinically significant cerebral
+oedema.</p>
+<h3 id="myth-5-hyperchloremic-acidosis-in-dka-is-the-sole-consequence-of-iatrogenesis">Myth 5: Hyperchloremic acidosis in DKA is the sole consequence of iatrogenesis</h3>
+<p>Hyperchloremic acidosis is not only a function of large volumes of salt-containing solutions, but also of the severity and duration of DKA before treatment is started. In DKA, renal reabsorption of chloride is increased to allow renal excretion of ketoacids, especially β-hydroxybutyrate.</p>
+<h3 id="myth-6-dka-should-be-treated-only-with-intravenous-insulin">Myth 6: DKA should be treated only with intravenous insulin</h3>
+<p>In patients who are not very sick, an ultra-rapid subcutaneous insulin regimen (hourly dose of 0.1 U/Kg) may shorten time to DKA treatment and avoid the need for intravenous insulin. With current very long-acting insulins, it is advisable to use only small doses (usually 0.2 U/Kg) in patients with severe DKA at the onset of treatment. This allows a smoother transition from an IV to a SC insulin regimen.</p>
+<h3 id="myth-7-dka-correction-criteria-include-glucose-levels-and-ketonemia">Myth 7: DKA correction criteria include glucose levels and ketonemia</h3>
+<p>pH &gt; 7.30 and bicarbonate &gt; 15 mEq/L are the usual minimum criteria for DKA correction. Full correction of hyperglycemia does not ensure DKA reversal, neither is it necessary. Although point-of-care ketonemia may hasten the diagnosis of DKA, its use as a routine treatment target has not been compared to standard approaches. Optimal monitoring and rate of reduction have not been identified.</p>
+<h2 id="keypoint-of-care-in-ketoacidosis2">Keypoint of care in ketoacidosis[2]</h2>
+<ul>
+<li>Diagnosis of diabetic ketoacidosis (DKA) is based on the biochemical triad of ketonaemia, hyperglycaemia, and acidaemia.</li>
+<li>Cornerstones of management are: fluid and potassium replacement; weight-based fixed rate intravenous insulin infusion (FRIII); and close biochemical monitoring of capillary ketones, serum electrolytes, venous pH and capillary glucose.</li>
+<li>It is not necessary to use arterial blood to assess acid-base status; venous sampling is sufficient as the difference between arterial and venous pH/HCO3 is not significant enough to influence diagnosis or management of DKA.</li>
+<li>The patient’s long acting analogue insulin should be continued alongside the FRIII to prevent rebound hyperglycaemia when intravenous treatment is stopped.</li>
+<li>DKA is preventable; patient education and support must be integral to type 1 diabetes mellitus care.</li>
+</ul>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>BESEN, Bruno AMP; RANZANI, Otavio T.; SINGER, Mervyn. <strong>Management of diabetic ketoacidosis</strong>. Intensive Care Medicine, v. 49, n. 1, p. 95-98, 2023.</li>
+<li>EVANS, Kate. <strong>Diabetic ketoacidosis: update on management</strong>. Clinical Medicine, v. 19, n. 5, p. 396, 2019.</li>
+</ol>
+
+
+
+  
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

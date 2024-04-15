@@ -22,7 +22,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
-  <meta name="description" content="Pesquise outros artigos: Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando nível de sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de viéses cognitivos Lagartas isognatus Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos Pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
+  <meta name="description" content="Anemias: investigação e tratamento Gastrite e úlceras gástricas Cetoacidose diabética: insights Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando nível de sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de viéses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos Pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -176,14 +176,14 @@
   <script>
 var currentTime = new Date().getHours();
 
-let greeting = "noite";
+let greeting = "Boa noite";
 
 if (currentTime >= 0 && currentTime < 12) {
-    greeting = "Bom dia!"; // Entre 6 e 12 horas (manhã)
+    greeting = "Bom dia!"; 
 } else if (currentTime >= 12 && currentTime < 18) {
-    greeting = "Boa tarde!"; // Entre 12 e 18 horas (tarde)
+    greeting = "Boa tarde!"; 
 } else {
-    greeting =  "Boa noite!"; // Após 18 horas (noite)
+    greeting =  "Boa noite!"; 
 }
 
 let boasvindas = document.createElement("h2");
@@ -237,6 +237,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <script type="text/javascript">
   var pagesData = [
+    
+      {
+        "title": "Anemias: investigação e tratamento",
+        "permalink": "\/medicina\/anemias\/"
+      },
+    
+      {
+        "title": "Gastrite e úlceras gástricas",
+        "permalink": "\/medicina\/gastrite\/"
+      },
+    
+      {
+        "title": "Cetoacidose diabética: insights",
+        "permalink": "\/medicina\/cetoacidose\/"
+      },
     
       {
         "title": "Escala PPS e o processo ativo de morte",
@@ -304,7 +319,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Lagartas isognatus",
+        "title": "Foto: lagarta isognatus desconhecida",
         "permalink": "\/ciencia\/isognatus\/"
       },
     
@@ -449,12 +464,12 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Convulsões",
+        "title": "Convulsões: fluxogramas de conduta",
         "permalink": "\/medicina\/convulsoes\/"
       },
     
       {
-        "title": "Massagem Carotídea",
+        "title": "Massagem Carotídea: mitos e verdades",
         "permalink": "\/medicina\/massagem-carotidea\/"
       },
     
@@ -534,7 +549,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
   ];
-  var totalPages =  59 ;
+  var totalPages =  62 ;
   
   function getRandomPage() {
       var randomNumber = Math.floor(Math.random() * totalPages) + 1;
@@ -548,7 +563,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var chamadaLinkAleatorio = document.createElement('h2');
   chamadaLinkAleatorio.id = 'chamadaLinkAleatorio';
-  chamadaLinkAleatorio.innerText = "Leia um artigo aleatório: ";
+  chamadaLinkAleatorio.innerText = "Leia uma página aleatória: ";
 
 
   var link = document.createElement('a');
@@ -569,7 +584,9 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 -->
 
 
-<h2 id="h2Pesquisa">Pesquise outros artigos:</h2>
+<br>
+<br>
+<!-- <h2 id="h2Pesquisa">Pesquise outros artigos:</h2> -->
 <div class="search" style="position: relative;">
 <input type="text" id="search" placeholder="e.g. medicina, calculadoras...">
 <svg class="lupa" xmlns="http://www.w3.org/2000/svg" stroke-width="1.09" enable-background="new 0 0 24 24" height="14px" viewBox="0 0 24 24" width="4px" focusable="false" autocapitalize="none" autocomplete="off" autocorrect="off" tabindex="0" type="text" spellcheck="false" aria-label="Pesquisar"><path d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"></path></svg>
@@ -578,7 +595,10 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <script src="index.js"></script>
 
 <ul id=artlist>
-<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/processo-morte/">Escala PPS e o processo ativo de morte</a></li>
+<li data-tags="[medicina nutrição]" ><a href="https://www.jeffersontorres.com.br/medicina/anemias/">Anemias: investigação e tratamento</a></li>
+<li data-tags="[medicina infectologia]" ><a href="https://www.jeffersontorres.com.br/medicina/gastrite/">Gastrite e úlceras gástricas</a></li>
+<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/cetoacidose/">Cetoacidose diabética: insights</a></li>
+<li data-tags="[medicina tabelas calculadoras]" ><a href="https://www.jeffersontorres.com.br/medicina/processo-morte/">Escala PPS e o processo ativo de morte</a></li>
 <li data-tags="[Medicina Ciência Projetos]" ><a href="https://www.jeffersontorres.com.br/medicina/ventilador-mec/">Simulador de ventilador mecânico</a></li>
 <li data-tags="[Medicina Emergência Cardiologia]" ><a href="https://www.jeffersontorres.com.br/medicina/icc/">Manejo de descompensação em insuficiência cardíaca</a></li>
 <li data-tags="[Medicina Projetos Guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/sedacao-rass/">Monitorando nível de sedação: RASS/SAS/FOUR</a></li>
@@ -591,13 +611,13 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/colesterol/">Dislipidemias: síntese de recomendações da SBC 2017</a></li>
 <li data-tags="[filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/farsa-ockham/">A farsa da navalha de Ockham</a></li>
 <li data-tags="[Filosofia Ciência Psicologia]" ><a href="https://www.jeffersontorres.com.br/vieses/">Compêndio de viéses cognitivos</a></li>
-<li data-tags="[ciência Natureza]" ><a href="https://www.jeffersontorres.com.br/ciencia/isognatus/">Lagartas isognatus</a></li>
+<li data-tags="[ciência Natureza]" ><a href="https://www.jeffersontorres.com.br/ciencia/isognatus/">Foto: lagarta isognatus desconhecida</a></li>
 <li data-tags="[medicina apresentações]" ><a href="https://www.jeffersontorres.com.br/medicina/apresentacoes/">Minhas apresentações</a></li>
 <li data-tags="[Medicina Resumos]" ><a href="https://www.jeffersontorres.com.br/medicina/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
 <li data-tags="[projetos medicina calculadoras]" ><a href="https://www.jeffersontorres.com.br/medicina/costeff/">Superfície corporal estimada: Costeff</a></li>
 <li data-tags="[Projetos Medicina Calculadoras Pediatria]" ><a href="https://www.jeffersontorres.com.br/medicina/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
 <li data-tags="[Filosofia Inteligência]" ><a href="https://www.jeffersontorres.com.br/filosofia/gell-man/">Efeito Gell Man: perpetuador da desinformação</a></li>
-<li data-tags="[Medicina Resumos]" ><a href="https://www.jeffersontorres.com.br/medicina/hanseniase/">Hanseníase: resumo compreensivo</a></li>
+<li data-tags="[infectologia Medicina Resumos]" ><a href="https://www.jeffersontorres.com.br/medicina/hanseniase/">Hanseníase: resumo compreensivo</a></li>
 <li data-tags="[Filosofia Estoicismo]" ><a href="https://www.jeffersontorres.com.br/filosofia/cleantes/">Cleantes, o exemplo</a></li>
 <li data-tags="[viagem destinos]" ><a href="https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/">Pohnpei: Micronésia</a></li>
 <li data-tags="[Filosofia Inteligência]" ><a href="https://www.jeffersontorres.com.br/filosofia/multiplas-saidas/">Por trás de toda teoria conspiratória</a></li>
@@ -620,20 +640,20 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <li data-tags="[Projetos Pediatria Calculadoras Medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/calculos-queimados/">Grandes queimados: Parkland</a></li>
 <li data-tags="[ciência História Medicina Culinária Geopolítica]" ><a href="https://www.jeffersontorres.com.br/canais-yt/">Canais que recomendo</a></li>
 <li data-tags="[culinária receitas]" ><a href="https://www.jeffersontorres.com.br/receitas/cervejas/">Cervejas</a></li>
-<li data-tags="[Medicina Guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões</a></li>
-<li data-tags="[medicina ciência]" ><a href="https://www.jeffersontorres.com.br/medicina/massagem-carotidea/">Massagem Carotídea</a></li>
+<li data-tags="[Medicina Guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões: fluxogramas de conduta</a></li>
+<li data-tags="[medicina ciência]" ><a href="https://www.jeffersontorres.com.br/medicina/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
 <li data-tags="[projetos calculadoras medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/cockcroft-gault/">Taxa de filtração glomerular: MDRD e Cockcroft-Gault</a></li>
 <li data-tags="[filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações sobre a reprodução humana</a></li>
 <li data-tags="[Projetos Medicina Programação]" ><a href="https://www.jeffersontorres.com.br/medicina/banco-de-questoes/">Banco de questões</a></li>
-<li data-tags="[brasil Destinos]" ><a href="https://www.jeffersontorres.com.br/viagem/bahia-itacare/">Bahia - Itacaré</a></li>
-<li data-tags="[projetos calculadoras medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/tokyo-guideline/">Colecistite aguda: Tokyo Guideline</a></li>
-<li data-tags="[Medicina Resumos Projetos Calculadoras]" ><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria Arterial</a></li>
+<li data-tags="[natureza brasil Destinos]" class="older-article"><a href="https://www.jeffersontorres.com.br/viagem/bahia-itacare/">Bahia - Itacaré</a></li>
+<li data-tags="[projetos calculadoras medicina]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/tokyo-guideline/">Colecistite aguda: Tokyo Guideline</a></li>
+<li data-tags="[Medicina Resumos Projetos Calculadoras]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria Arterial</a></li>
 <li data-tags="[tecnologia programação]" class="older-article"><a href="https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
 <li data-tags="[Programação Projetos]" class="older-article"><a href="https://www.jeffersontorres.com.br/tecnologia/stultus-visio/">Slides menos estúpidos: StultusVisio</a></li>
 <li data-tags="[medicina guidelines]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/injuria-renal-aguda/">Injuria Renal Aguda</a></li>
 <li data-tags="[México Viagem Destinos]" class="older-article"><a href="https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
 <li data-tags="[projetos guidelines calculadoras medicina]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/wells-tep/">Tromboembolismo pulmonar: Escore de Wells</a></li>
-<li data-tags="[viagem brasil]" class="older-article"><a href="https://www.jeffersontorres.com.br/viagem/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
+<li data-tags="[natureza viagem brasil]" class="older-article"><a href="https://www.jeffersontorres.com.br/viagem/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
 <li data-tags="[Destinos Brasil Viagem]" class="older-article"><a href="https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/">Espiríto Santo - Praia de Iriri</a></li>
 <li data-tags="[viagem brasil]" class="older-article"><a href="https://www.jeffersontorres.com.br/viagem/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
 <li data-tags="[medicina projetos ciência]" class="older-article"><a href="https://www.jeffersontorres.com.br/sites-uteis/">Sites úteis</a></li>
@@ -657,6 +677,8 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 
 
   
+
+
 
 </article>
 
