@@ -1,5 +1,37 @@
 [
   {
+    "nome": ["fluticasona"]
+  },
+  {
+    "nome": ["oxacilina", "Oxanon", "Staficilin-N"],
+    "class": ["antibióticos", "penicilinas", "penicilinas resistentes a penicilinases", "betalactâmicos"],
+    "posologias": [
+      {
+        "unidades": ["g", "h"],
+        "dosagem": [1, 6],
+        "via": "IV"
+      },
+      {
+        "unidades": ["g", "h"],
+        "dosagem": [2, 6], 
+        "instrucao": "ou com tempo interdoses de 4h.",
+        "via": "IV"
+      }
+    ]
+  },
+  {
+    "nome": ["sulfato ferroso"],
+    "class": ["suplementos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "kg", "dia"],
+        "dosagem": [2, 1, 1],
+        "via": "VO",
+        "instrucao": "usar de acordo com défict de hemoglobina e ferritina."
+      }
+    ]
+  },
+  {
     "nome": ["cloridrato de oxicodona e cloridrato de naloxona", "Targin"],
     "class": ["analgésicos", "opidoides", "narcóticos"],
     "posologias": [

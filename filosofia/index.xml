@@ -16,10 +16,40 @@
 		<pubDate>Sun, 14 Apr 2024 19:58:35 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/anemias/</guid>
-		<description>&lt;h2 id=&#34;algoritmo-de-investigação&#34;&gt;Algoritmo de investigação&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;anemias&#34;&gt;Anemias&lt;/h2&gt;
+&lt;h3 id=&#34;ferropriva&#34;&gt;Ferropriva&lt;/h3&gt;
+&lt;p&gt;Normalmente causada pela deficiência dietética de ferro ou por sangramento crônico, resulta em hemoglobinas deficientes e maturadas ainda com pequeno tamanho, arbitrariamente definido como menor que 9fL.&lt;/p&gt;
+&lt;p&gt;Os sintomas comuns incluem a fadiga, fraqueza, palidez, taquicardia e tonturas.&lt;/p&gt;
+&lt;p&gt;A busca pelo sangramento crônico, como o algoritmo PALMCOEIN para mulheres, é o tratamento. A correção imediata é feita pela administração de ferro suplementar na forma preferencialmente oral.&lt;/p&gt;
+&lt;h3 id=&#34;por-deficiência-de-cobalamina-e-ácido-fólico&#34;&gt;Por deficiência de cobalamina e ácido fólico&lt;/h3&gt;
+&lt;p&gt;A cobalamina é o nome genérico a todas formas ativas de vitamina B12. A falta desta e do ácido fólico causa anemias desregulatórias da produção de eritrócitos pelos eritroblastos ainda na medula, resultando em megaloblastia. O volume corpuscular considerado alto é alvo de debate até hoje e recomendo o texto do professor Paulo Cesar Naoum da UNESP: &lt;a href=&#34;../files/Medicina/Qual-o-verdadeiro-valor-do-VCM-Professor-Paulo-Cesar.pdf&#34;&gt;qual o verdadeiro valor do VCM?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;O tratamento geralmente envolve administrar a B12 diretamente via intramuscular e o ácido fólico como suplemento alimentar.&lt;/p&gt;
+&lt;h4 id=&#34;privação-dietética&#34;&gt;Privação dietética&lt;/h4&gt;
+&lt;p&gt;Por privação alimentar do ácido fólico ou da cobalamina, como em dietas veganas, muito restritivas ou doenças absortivas e/ou perda da função intestinal, e.g. íleo.&lt;/p&gt;
+&lt;h4 id=&#34;perniciosa&#34;&gt;Perniciosa&lt;/h4&gt;
+&lt;p&gt;Trata-se de causa autoimune, quando anticorpos impedem a ligação da B12 ao fator intrínseco, etapa crucial da sua absorção nas células parietais estomacais.&lt;/p&gt;
+&lt;h3 id=&#34;esferocitose&#34;&gt;Esferocitose&lt;/h3&gt;
+&lt;p&gt;Uma anomalia genética que provoca espectrina e anquirina deficientes que provocam queda na tensão estrutural da hemácea, deixando seu formato esférico. Por esse motivo, são capturadas nos sinusoides esplênicos e hepáticos, destruídas e parcialmente fagocitadas, levando a hemólise.&lt;/p&gt;
+&lt;p&gt;Nota-se esplenomegalia, icterícia e bilirrubinemia às custas de indireta.&lt;/p&gt;
+&lt;h3 id=&#34;deficiência-de-g6pd-ou-favismo&#34;&gt;Deficiência de G6PD ou favismo&lt;/h3&gt;
+&lt;p&gt;A via metabólica do fosfato-pentose é dependente de glicose-6-fosfato-desidrogenase que auxilia na redução de NADP+ a NAPH com consumo de espécies reativas de oxigênio, diminuindo o estresse oxidativo metabólico, principalmente dos eritrócitos. A falta de G6PD torna a hemoglobina pronada a hemólise por estresse químico. Os restos deste processo são típicos e chamados de corpúsculos de Heinz.&lt;/p&gt;
+&lt;p&gt;Os sintomas, quando presentes, são a dispneia, fraqueza ao longo prazo e a icterícia. Algumas pessoas são assintomáticas. O diagnóstico é tradicionalmente feito pelo teste de Coombs.&lt;/p&gt;
+&lt;h3 id=&#34;falciforme&#34;&gt;Falciforme&lt;/h3&gt;
+&lt;p&gt;Por uma mera troca de ácido glutâmico por valina no sexto códon no DNA do cromossomo 11, a hemoglobina do indivíduo tem uma configuração que favorece a polimerização e a hemácea se torna &lt;em&gt;&amp;ldquo;afoiçada&amp;rdquo;&lt;/em&gt;, ou seja, curva, causando vasoclusão em diversos tecidos. Porém, a pior consequência é a incapacidade de carreamento de oxigênio, por isso a oxigenoterapia tende a melhorar os sintomas.&lt;/p&gt;
+&lt;p&gt;O paciente tem crises de vasoclusão, geralmente dolorosas em membros, isquêmicas, notadamente grave no SNC e uma peculiar e relativamente comum no pênis, levando ao priapismo. Com o tempo, as vasoclusões esplênicas podem levar a autoesplenectomia.&lt;/p&gt;
+&lt;p&gt;Curiosamente, a anemia falciforme se associa a resistência à malária e, talvez por causas evolutivas e pela alta incidência de malária na áfrica, a doença é quase exclusiva de pessoas afrodescendentes.&lt;/p&gt;
+&lt;h3 id=&#34;hemorragia-aguda&#34;&gt;Hemorragia aguda&lt;/h3&gt;
+&lt;p&gt;Autoexplicável.&lt;/p&gt;
+&lt;h3 id=&#34;aplástica&#34;&gt;Aplástica&lt;/h3&gt;
+&lt;p&gt;Nome controverso. Ocorre que uma falha de medula causada pelo uso de drogas, substâncias, infecções por CMV, EBV ou ainda idiopática, terminam por interromper a linhagem de produção de eritrócitos, plaquetas e leucócitos. Portanto, trata-se de uma pancitopenia de causa medular.&lt;/p&gt;
+&lt;p&gt;Os sintomas comuns giram em torno da facilidade de infecções, sangramentos, indisposição, atraso de desenvolvimento etc. O tratamento definitivo é o transplante de medula.&lt;/p&gt;
+&lt;h3 id=&#34;talassemias&#34;&gt;Talassemias&lt;/h3&gt;
+&lt;p&gt;Também de natureza hereditária, mais comum na ascendência mediterrânea, pode se apresentar de duas formas:
+Na deficiência da subunidade alfa, também chamada alfatalassemia, e alternativamente quando deficiente a subunidade beta, também chamada betatalassemia. Em todo caso, o volume corpuscular é aumentado ou próximo de normal, nunca microcítica.&lt;/p&gt;
+&lt;p&gt;Os sintomas são os comuns de anemias, necessitando de transfusões frequentes e o tratamento definitivo é a transfusão de medula.&lt;/p&gt;
+&lt;h2 id=&#34;algoritmo-de-investigação&#34;&gt;Algoritmo de investigação&lt;/h2&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
-&lt;h2 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h2&gt;
-&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h2 id=&#34;tratamentos&#34;&gt;Tratamentos&lt;/h2&gt;
 &lt;h3 id=&#34;reposição-de-ferro&#34;&gt;Reposição de ferro&lt;/h3&gt;
 &lt;p&gt;Estima-se que a administração de 400 mg do ferro sacarato seja capaz de aumentar em pelo menos 1g/dL a concentração de hemoglobina, o que corresponde ao incremento esperado quando se administra uma unidade de concentrado de hemácias.&lt;/p&gt;
 &lt;p&gt;A fórmula mais aceita é:&lt;/p&gt;
@@ -63,7 +93,7 @@ function calculaFerro(){
 &lt;/script&gt;
 &lt;br&gt;
 
-&lt;h3 id=&#34;instruções&#34;&gt;Instruções&lt;/h3&gt;
+&lt;h4 id=&#34;instruções&#34;&gt;Instruções&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Diluir cada ampola em 100ml de salina.&lt;/li&gt;
 &lt;li&gt;Tempo: correr a diluição em 15min para cada ampola.&lt;/li&gt;
@@ -72,6 +102,7 @@ function calculaFerro(){
 &lt;/ul&gt;
 &lt;p&gt;Embora a administração de ferro por via intramuscular tenha sido muito utilizada, sobretudo em função da experiência negativa com o ferro dextran por via endovenosa na década de 80 e pela facilidade de aplicação, a partir do ano 2000, esta via de administração tem sido gradativamente substituída pela via endovenosa.&lt;/p&gt;
 &lt;p&gt;Recomenda-se a dose máxima diária de 200 mg (duas ampolas) de sacarato quando administrado por via intramuscular. Na prática, orienta-se a aplicação de uma ampola, uma a duas vezes por semana, até que se complete a dose total desejada ou calculada.&lt;/p&gt;
+&lt;h3 id=&#34;cobalamina-intramuscular&#34;&gt;Cobalamina intramuscular&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;

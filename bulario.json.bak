@@ -101,15 +101,6 @@
     ]
   },
   {
-    "nome": ["oxacilina", "Oxanon", "Staficilin-N"],
-    "class": ["antibióticos", "penicilinas", "penicilinas resistentes a penicilinases", "betalactâmicos"],
-    "posologias": [
-      ["g", "h"],
-      [1, 6, "IV"],
-      [2, 6, "IV", "ou com tempo interdoses de 4h."]
-    ]
-  },
-  {
     "nome": ["ceftazidima"],
     "posologias":[
       ["g", "h"],

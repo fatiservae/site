@@ -109,6 +109,7 @@ Regras de estilo:
   --corProgressBar: tomato;
   --imageBackgroundHeadings: var(--corH2-gradiente); 
   --corH2: transparent;
+  --corH4: var(--rosinhaMDN);
   --bordasHeading: none;
   --fundoHeading: none;
   --corFundoCode: #303030;
