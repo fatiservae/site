@@ -22,7 +22,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
-  <meta name="description" content="Anemias: investigação e tratamento Gastrite e úlceras gástricas Cetoacidose diabética: insights Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando nível de sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de viéses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos Pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
+  <meta name="description" content="Nova frase Asfixias: classificação de Afrânio Peixoto Anemias: investigação e tratamento Gastrite e úlceras gástricas Cetoacidose diabética: insights Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando nível de sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de vieses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos Pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -205,38 +205,53 @@ document.addEventListener('DOMContentLoaded', function() {
 function randomIndex(valor) {
     return Math.floor(Math.random() * valor)
 }
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
 
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  if (autor.length > 1){
-    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-  }
-})
-.catch(error => console.error('Erro ao buscar o JSON:', error));
+function novaFrase(){
+  let frases;
+  let index ;
+  let fraseAleatoria ;
+  let autor ;
+  
+  fetch('/citacoes.json')
+  .then(response => response.json())
+  .then(data => { 
+    const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
+    index = randomIndex(novoFormato.length);
+    fraseAleatoria = novoFormato[index].frase;
+    autor = novoFormato[index].autor;
+    document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
+    if (autor.length > 1){
+      document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
+    }
+  })
+  .catch(error => console.error('Erro ao buscar o JSON:', error));
+  
+  setTimeout(function() {
+      frase.classList.add('show');
+  }, 300);
+}
 
 document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
+  var frase = document.getElementById("frase");
+  novaFrase();
 });
+
 </script>
 <div id=divFrase> 
-  <p class="frase" id="frase"></p> 
-  <div id="autor"></div>
+  <p id="frase"></p> 
+    <div id="autor"></div>
+    <br>
+    <button onClick=novaFrase() style="margin-left: 5vw; padding-right: 1rem">Nova frase</button>
   <br>
 </div>
 
 <script type="text/javascript">
   var pagesData = [
+    
+      {
+        "title": "Asfixias: classificação de Afrânio Peixoto",
+        "permalink": "\/medicina\/asfixias\/"
+      },
     
       {
         "title": "Anemias: investigação e tratamento",
@@ -314,7 +329,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Compêndio de viéses cognitivos",
+        "title": "Compêndio de vieses cognitivos",
         "permalink": "\/vieses\/"
       },
     
@@ -549,7 +564,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
   ];
-  var totalPages =  62 ;
+  var totalPages =  63 ;
   
   function getRandomPage() {
       var randomNumber = Math.floor(Math.random() * totalPages) + 1;
@@ -595,6 +610,7 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <script src="index.js"></script>
 
 <ul id=artlist>
+<li data-tags="[medicina direito penal perícias]" ><a href="https://www.jeffersontorres.com.br/medicina/asfixias/">Asfixias: classificação de Afrânio Peixoto</a></li>
 <li data-tags="[projetos medicina nutrição calculadoras]" ><a href="https://www.jeffersontorres.com.br/medicina/anemias/">Anemias: investigação e tratamento</a></li>
 <li data-tags="[medicina infectologia]" ><a href="https://www.jeffersontorres.com.br/medicina/gastrite/">Gastrite e úlceras gástricas</a></li>
 <li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/cetoacidose/">Cetoacidose diabética: insights</a></li>
@@ -609,18 +625,18 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <li data-tags="[Calculadoras Medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/addrs/">Dissecação aguda de aorta: Score ADD-RS</a></li>
 <li data-tags="[Medicina Calculadoras Ciência]" ><a href="https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/">Estatística bayesiana para o diagnóstico médico</a></li>
 <li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/colesterol/">Dislipidemias: síntese de recomendações da SBC 2017</a></li>
-<li data-tags="[filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/farsa-ockham/">A farsa da navalha de Ockham</a></li>
-<li data-tags="[Filosofia Ciência Psicologia]" ><a href="https://www.jeffersontorres.com.br/vieses/">Compêndio de viéses cognitivos</a></li>
+<li data-tags="[psicologia filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/farsa-ockham/">A farsa da navalha de Ockham</a></li>
+<li data-tags="[Filosofia Ciência Psicologia]" ><a href="https://www.jeffersontorres.com.br/vieses/">Compêndio de vieses cognitivos</a></li>
 <li data-tags="[ciência Natureza]" ><a href="https://www.jeffersontorres.com.br/ciencia/isognatus/">Foto: lagarta isognatus desconhecida</a></li>
 <li data-tags="[medicina apresentações]" ><a href="https://www.jeffersontorres.com.br/medicina/apresentacoes/">Minhas apresentações</a></li>
 <li data-tags="[Medicina Resumos]" ><a href="https://www.jeffersontorres.com.br/medicina/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
 <li data-tags="[projetos medicina calculadoras]" ><a href="https://www.jeffersontorres.com.br/medicina/costeff/">Superfície corporal estimada: Costeff</a></li>
 <li data-tags="[Projetos Medicina Calculadoras Pediatria]" ><a href="https://www.jeffersontorres.com.br/medicina/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
-<li data-tags="[Filosofia Inteligência]" ><a href="https://www.jeffersontorres.com.br/filosofia/gell-man/">Efeito Gell Man: perpetuador da desinformação</a></li>
+<li data-tags="[psicologia Filosofia Inteligência]" ><a href="https://www.jeffersontorres.com.br/filosofia/gell-man/">Efeito Gell Man: perpetuador da desinformação</a></li>
 <li data-tags="[infectologia Medicina Resumos]" ><a href="https://www.jeffersontorres.com.br/medicina/hanseniase/">Hanseníase: resumo compreensivo</a></li>
-<li data-tags="[Filosofia Estoicismo]" ><a href="https://www.jeffersontorres.com.br/filosofia/cleantes/">Cleantes, o exemplo</a></li>
+<li data-tags="[psicologia Filosofia Estoicismo]" ><a href="https://www.jeffersontorres.com.br/filosofia/cleantes/">Cleantes, o exemplo</a></li>
 <li data-tags="[viagem destinos]" ><a href="https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/">Pohnpei: Micronésia</a></li>
-<li data-tags="[Filosofia Inteligência]" ><a href="https://www.jeffersontorres.com.br/filosofia/multiplas-saidas/">Por trás de toda teoria conspiratória</a></li>
+<li data-tags="[psicologia Filosofia Inteligência]" ><a href="https://www.jeffersontorres.com.br/filosofia/multiplas-saidas/">Por trás de toda teoria conspiratória</a></li>
 <li data-tags="[Medicina Emergência]" ><a href="https://www.jeffersontorres.com.br/medicina/drogas-vasoativas/">Drogas vasoativas: informações importantes</a></li>
 <li data-tags="[Medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/taquicardias/">Taquiarritimias: visão geral</a></li>
 <li data-tags="[Medicina Dor]" ><a href="https://www.jeffersontorres.com.br/medicina/analgesias/">Analgesia: seja um médico melhor</a></li>
@@ -643,8 +659,8 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <li data-tags="[Medicina Guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões: fluxogramas de conduta</a></li>
 <li data-tags="[medicina ciência]" ><a href="https://www.jeffersontorres.com.br/medicina/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
 <li data-tags="[projetos calculadoras medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/cockcroft-gault/">Taxa de filtração glomerular: MDRD e Cockcroft-Gault</a></li>
-<li data-tags="[filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações sobre a reprodução humana</a></li>
-<li data-tags="[Projetos Medicina Programação]" ><a href="https://www.jeffersontorres.com.br/medicina/banco-de-questoes/">Banco de questões</a></li>
+<li data-tags="[psicologia filosofia ciência]" ><a href="https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações sobre a reprodução humana</a></li>
+<li data-tags="[Projetos Medicina Programação]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/banco-de-questoes/">Banco de questões</a></li>
 <li data-tags="[natureza brasil Destinos]" class="older-article"><a href="https://www.jeffersontorres.com.br/viagem/bahia-itacare/">Bahia - Itacaré</a></li>
 <li data-tags="[projetos calculadoras medicina]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/tokyo-guideline/">Colecistite aguda: Tokyo Guideline</a></li>
 <li data-tags="[Medicina Resumos Projetos Calculadoras]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria Arterial</a></li>
@@ -671,8 +687,11 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
   </div>
 
 
-<p>Este é um site pessoal. Desculpe a bagunça!</p>
-<p>Telegram: <a href="https://t.me/fatiservae">@fatiservae</a></p>
+<p>Desculpe a bagunça!
+Este é um site pessoal.</p>
+<p>Desenvolvi todos os temas e funções em Javascript vanilla.</p>
+<p>Se tem interesse, todo o código é livre.</p>
+<p>Contato por Telegram: <a href="https://t.me/fatiservae">@fatiservae</a></p>
 
 
 

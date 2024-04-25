@@ -37,6 +37,7 @@ Regras de estilo:
   --letragradiente-light: linear-gradient(45deg, black, darkred, var(--fonte));
 
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 50% 50%, #bf398910 0, transparent 75%)) ; 
+  --gradienteYoutube: linear-gradient(to right,#ff8983 17.85%,#7f0e7f 53.28%,#007a65 100%);
   --gradiente-light: var(--light-grad, radial-gradient(ellipse at 50% 50%, #c61d1020 0, transparent 55%), radial-gradient(ellipse at 50% 50%, #ffa70050 0, transparent 75%)) ;
   --green: #347d39 ;
   --blue: #539bf5 ;
@@ -117,6 +118,8 @@ Regras de estilo:
   --highlightCor: #FFE500;
   --corBarraSelecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
+  /*
+  */
   --corH2-gradiente: linear-gradient(90deg, #4b83f0, #6b7ce1, #8776d4, #ab6fb4, #be6b98, #d96570, #d56676);
   --background-img: url('pix/night.jpg'); 
   --hover-botao: var(--azul-escuro-google);
@@ -181,6 +184,7 @@ Regras de estilo:
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
   --corH2-gradiente: linear-gradient(90deg, darkred, var(--highlightCor), red);
+  --corH2-gradiente: var(--gradienteYoutube);
   --fundoImagem: url('pix/day.jpg'); 
   --fundo: #cc866a ; 
   --fonte: #303030;
@@ -500,6 +504,7 @@ a#switch:hover::before {
   }
 }
 
+/*CLASSES DE ALINHAMENTO*/
 .importante {
   background-color: #983500;
   font-weight: normal;
@@ -1261,9 +1266,6 @@ li::before{
   color: var(--autor) ; 
   font-weight: normal;
 }
-#frase{
-  margin-left: 5vw;
-}
 #autor, #frase{
   /*
   */
@@ -1272,9 +1274,10 @@ li::before{
   width: fit-content ;
   text-align: start ;
 }
-.frase{
+#frase{
   /* 
   */
+  margin-left: 5vw;
   font-size: 110%;
   transition: filter 2.5s ease-in-out, color 4s ease-in-out ;
   align: center ;
@@ -1287,14 +1290,14 @@ li::before{
   text-shadow: 8px 6px 10px var(--sombra);
   filter: blur(5px);
 }
-.frase.show {
+#frase.show {
   filter: none;
   color: var(--fraseShow);
   /*
   font-size: 105%;
   */
 }
-.frase:hover {
+#frase:hover {
   color: var(--fraseHover); 
 }
 

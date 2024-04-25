@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Concurso Polícia Científica - GO | Jefferson T.</title>
+  <link rel="canonical" href="http://localhost:1313/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../style.css'>
+  <link rel="icon" href="../favicon.webp">
+  <meta name="description" content="Português Compreensão e interpretação de textos de gêneros variados. Reconhecimento de tipos e gêneros textuais. Domínio da ortografia oficial. Domínio dos mecanismos de coesão textual. Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual. Emprego de tempos e modos verbais. Domínio da estrutura morfossintática do período. Emprego das classes de palavras. Relações de coordenação entre orações e entre termos da oração. Relações de subordinação entre orações e entre termos da oração.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+</script>
+
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../index.html" id="indexlink" alt="início">início</a>
+      <a href="../files/index.html" alt="files">arquivos</a>
+      <a href="../tags/projetos/index.html" alt="tools">tools</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+
+  <h1>Concurso Polícia Científica - GO</h1>
+
+<script>
+  
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
+  }
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
+      lighswitch.innerHTML = 'noturno'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#compreensão-e-interpretação-de-textos-de-gêneros-variados">Compreensão e interpretação de textos de gêneros variados.</a></li>
+    <li><a href="#reconhecimento-de-tipos-e-gêneros-textuais">Reconhecimento de tipos e gêneros textuais.</a></li>
+    <li><a href="#domínio-da-ortografia-oficial">Domínio da ortografia oficial.</a></li>
+    <li><a href="#domínio-dos-mecanismos-de-coesão-textual">Domínio dos mecanismos de coesão textual.</a>
+      <ul>
+        <li><a href="#emprego-de-elementos-de-referenciação-substituição-e-repetição-de-conectores-e-de-outros-elementos-de-sequenciação-textual">Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.</a></li>
+        <li><a href="#emprego-de-tempos-e-modos-verbais">Emprego de tempos e modos verbais.</a></li>
+      </ul>
+    </li>
+    <li><a href="#domínio-da-estrutura-morfossintática-do-período">Domínio da estrutura morfossintática do período.</a>
+      <ul>
+        <li><a href="#emprego-das-classes-de-palavras">Emprego das classes de palavras.</a></li>
+        <li><a href="#relações-de-coordenação-entre-orações-e-entre-termos-da-oração">Relações de coordenação entre orações e entre termos da oração.</a></li>
+        <li><a href="#relações-de-subordinação-entre-orações-e-entre-termos-da-oração">Relações de subordinação entre orações e entre termos da oração.</a></li>
+        <li><a href="#emprego-dos-sinais-de-pontuação">Emprego dos sinais de pontuação.</a></li>
+        <li><a href="#concordância-verbal-e-nominal">Concordância verbal e nominal.</a></li>
+        <li><a href="#regência-verbal-e-nominal">Regência verbal e nominal.</a></li>
+        <li><a href="#emprego-do-sinal-indicativo-de-crase">Emprego do sinal indicativo de crase.</a></li>
+        <li><a href="#colocação-dos-pronomes-átonos">Colocação dos pronomes átonos.</a></li>
+      </ul>
+    </li>
+    <li><a href="#reescrita-de-frases-e-parágrafos-do-texto">Reescrita de frases e parágrafos do texto.</a>
+      <ul>
+        <li><a href="#significação-das-palavras">Significação das palavras.</a></li>
+        <li><a href="#substituição-de-palavras-ou-de-trechos-de-texto">Substituição de palavras ou de trechos de texto.</a></li>
+        <li><a href="#reorganização-da-estrutura-de-orações-e-de-períodos-do-texto">Reorganização da estrutura de orações e de períodos do texto.</a></li>
+        <li><a href="#reescrita-de-textos-de-diferentes-gêneros-e-níveis-de-formalidade">Reescrita de textos de diferentes gêneros e níveis de formalidade.</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#formação-econômica-de-goiás-a-mineração-no-século-18i-a-agropecuária-nos-séculos-19-e-20-a-estrada-de-ferro-e-a-modernização-da-economia-goiana-as-transformações-econômicas-com-a-construção-de-goiânia-e-de-brasília-industrialização-infraestrutura-e-planejamento">Formação econômica de Goiás: a mineração no século 18I, a agropecuária nos séculos 19 e 20, a estrada de ferro e a modernização da economia goiana, as transformações econômicas com a construção de Goiânia e de Brasília, industrialização, infraestrutura e planejamento.</a></li>
+    <li><a href="#modernização-da-agricultura-e-urbanização-do-território-goiano">Modernização da agricultura e urbanização do território goiano.</a></li>
+    <li><a href="#a-população-goiana-povoamento-movimentos-migratórios-e-densidade-demográfica">A população goiana: povoamento, movimentos migratórios e densidade demográfica.</a></li>
+    <li><a href="#economia-goiana-industrialização-e-infraestrutura-de-transportes-e-comunicação">Economia goiana: industrialização e infraestrutura de transportes e comunicação.</a></li>
+    <li><a href="#as-regiões-goianas-e-as-desigualdades-regionais">As regiões goianas e as desigualdades regionais.</a></li>
+    <li><a href="#aspectos-físicos-do-território-goiano-vegetação-hidrografia-clima-e-relevo">Aspectos físicos do território goiano: vegetação, hidrografia, clima e relevo.</a></li>
+    <li><a href="#aspectos-da-história-política-de-goiás-a-independência-em-goiás-o-coronelismo-na-república-velha-as-oligarquias-a-revolução-de-1930-a-administração-política-de-1930-até-os-dias-atuais">Aspectos da história política de Goiás: a independência em Goiás, o coronelismo na República Velha, as oligarquias, a Revolução de 1930, a administração política de 1930 até os dias atuais.</a></li>
+    <li><a href="#aspectos-da-história-social-de-goiás-o-povoamento-branco-os-grupos-indígenas-a-escravidão-e-a-cultura-negra-os-movimentos-sociais-no-campo-e-a-cultura-popular">Aspectos da história social de goiás: o povoamento branco, os grupos indígenas, a escravidão e a cultura negra, os movimentos sociais no campo e a cultura popular.</a></li>
+    <li><a href="#atualidades-econômicas-políticas-e-sociais-do-brasil-especialmente-do-estado-de-goiás">Atualidades econômicas, políticas e sociais do Brasil, especialmente do Estado de Goiás.</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#noções-de-criminalística">Noções de Criminalística:</a>
+      <ul>
+        <li><a href="#noções-e-princípios-da-criminalística">Noções e princípios da Criminalística.</a></li>
+      </ul>
+    </li>
+    <li><a href="#tipos-de-provas-prova-confessional-prova-testemunhal-prova-documental-e-prova-pericial">Tipos de Provas: prova confessional, prova testemunhal, prova documental e prova pericial.</a></li>
+    <li><a href="#corpo-de-delito">Corpo de delito.</a></li>
+    <li><a href="#documentos-criminalísticos-auto-laudo-pericial-parecer-criminalístico">Documentos criminalísticos: auto, laudo pericial, parecer criminalístico.</a></li>
+    <li><a href="#finalidade-da-criminalística-constatação-do-fato-verificação-dos-meios-e-dos-modos-e-possível-indicação-da-autoria">Finalidade da criminalística: constatação do fato, verificação dos meios e dos modos e possível indicação da autoria</a></li>
+    <li><a href="#introdução-à-medicina-legal-conceito-definição-perícia-e-peritos-documentos-médico-legais-atestado-médico-declaração-de-óbito">Introdução à medicina legal: conceito, definição, perícia e peritos; documentos médico legais, atestado médico, declaração de óbito.</a></li>
+    <li><a href="#traumatologia-forense-lesões-e-morte-por-ação-contundente-estudo-médico-legal-dos-traumatismos-crânio--encefálicos-lesões-e-mortes-por-armas-brancas-lesões-e-mortes-por-instrumentos-perfuro--contundentes-armas-de-fogo-lesões-e-mortes-por-ação-térmica-lesões-e-mortes-por-ação-elétrica-lesões-e-morte-por-ação-química-cáusticos-venenos-noções-de-toxicologia-forense">Traumatologia forense: lesões e morte por ação contundente, estudo médico legal dos traumatismos crânio- encefálicos, lesões e mortes por armas brancas, lesões e mortes por instrumentos perfuro- contundentes, armas de fogo, lesões e mortes por ação térmica, lesões e mortes por ação elétrica; lesões e morte por ação química (cáusticos, venenos, noções de toxicologia forense).</a></li>
+    <li><a href="#tanatologia-forense-conceituação-da-morte-causa-jurídica-da-morte-diagnóstico-da-realidade-da-morte-fenômenos-abióticos-lesões-post-mortem-fenômenos-transformativos-estimativa-do-tempo-de-morte">Tanatologia forense: conceituação da morte, causa jurídica da morte, diagnóstico da realidade da morte, fenômenos abióticos, lesões post mortem, fenômenos transformativos, estimativa do tempo de morte.</a></li>
+    <li><a href="#morte-súbita-do-lactente">Morte súbita do lactente.</a></li>
+    <li><a href="#síndrome-da-criança-espancada-síndrome-do-bebê-sacudido">Síndrome da criança espancada, síndrome do bebê sacudido.</a></li>
+    <li><a href="#sexologia-forense-estupro-estupro-de-vulnerável-importunação-sexual-legislação-exame-médico-pericial-da-genitália-externa-masculina-e-feminina-e-da-região-anal-coleta-de-material-para-pesquisa-de-sêmen-e-dna">Sexologia forense: estupro, estupro de vulnerável, importunação sexual (legislação); exame médico-pericial da genitália externa (masculina e feminina) e da região anal; coleta de material para pesquisa de sêmen e DNA.</a></li>
+    <li><a href="#antropologia-forense-identidade-identificação-determinação-da-idade-sinais-individuais">Antropologia forense: identidade, identificação, determinação da idade, sinais individuais.</a></li>
+    <li><a href="#quantificação-do-dano--lesões-corporais">Quantificação do dano – Lesões Corporais.</a></li>
+    <li><a href="#causas-jurídicas-da-morte-suicídio-homicídio-morte-acidental">Causas jurídicas da morte: suicídio, homicídio, morte acidental.</a></li>
+    <li><a href="#morte-suspeita">Morte suspeita.</a></li>
+    <li><a href="#morte-súbita-morte-agônica-sobrevivência">Morte súbita, morte agônica, sobrevivência.</a></li>
+    <li><a href="#necropsia-branca-necropsia-clínica-necropsia-médico-legal">Necropsia branca, necropsia clínica, necropsia médico legal.</a></li>
+    <li><a href="#aborto-em-medicina-legal-15-gravidez-parto-e-puerpério-aspectos-médico-legais">Aborto em medicina legal. 15 Gravidez, parto e puerpério: aspectos médico-legais.</a></li>
+    <li><a href="#infanticídio-conceito-e-elementos-do-crime-diagnóstico-das-causas-de-morte-perinatal-naturais-e-violentas-provas-de-vida-durante-o-parto-e-extra--uterinas">Infanticídio: conceito e elementos do crime, diagnóstico das causas de morte perinatal (naturais e violentas), provas de vida durante o parto e extra- uterinas.</a></li>
+    <li><a href="#exame-de-embriaguez-fases-da-embriaguez-tolerância-ao-álcool-metabolismo-do-álcool-etílico-pesquisa-bioquímica-do-álcool-dosagem-de-álcool-no-cadáver-avaliação-dos-resultados-recusa-a-submeter-se-a-exame-e-formas-de-embriaguez">Exame de embriaguez: fases da embriaguez, tolerância ao álcool, metabolismo do álcool etílico, pesquisa bioquímica do álcool, dosagem de álcool no cadáver, avaliação dos resultados, recusa a submeter-se a exame e formas de embriaguez.</a></li>
+  </ul>
+</nav>
+
+
+
+  <h1 id="português">Português</h1>
+<h2 id="compreensão-e-interpretação-de-textos-de-gêneros-variados">Compreensão e interpretação de textos de gêneros variados.</h2>
+<h2 id="reconhecimento-de-tipos-e-gêneros-textuais">Reconhecimento de tipos e gêneros textuais.</h2>
+<h2 id="domínio-da-ortografia-oficial">Domínio da ortografia oficial.</h2>
+<h2 id="domínio-dos-mecanismos-de-coesão-textual">Domínio dos mecanismos de coesão textual.</h2>
+<h3 id="emprego-de-elementos-de-referenciação-substituição-e-repetição-de-conectores-e-de-outros-elementos-de-sequenciação-textual">Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.</h3>
+<h3 id="emprego-de-tempos-e-modos-verbais">Emprego de tempos e modos verbais.</h3>
+<h2 id="domínio-da-estrutura-morfossintática-do-período">Domínio da estrutura morfossintática do período.</h2>
+<h3 id="emprego-das-classes-de-palavras">Emprego das classes de palavras.</h3>
+<h3 id="relações-de-coordenação-entre-orações-e-entre-termos-da-oração">Relações de coordenação entre orações e entre termos da oração.</h3>
+<h3 id="relações-de-subordinação-entre-orações-e-entre-termos-da-oração">Relações de subordinação entre orações e entre termos da oração.</h3>
+<h3 id="emprego-dos-sinais-de-pontuação">Emprego dos sinais de pontuação.</h3>
+<h3 id="concordância-verbal-e-nominal">Concordância verbal e nominal.</h3>
+<h3 id="regência-verbal-e-nominal">Regência verbal e nominal.</h3>
+<h3 id="emprego-do-sinal-indicativo-de-crase">Emprego do sinal indicativo de crase.</h3>
+<h3 id="colocação-dos-pronomes-átonos">Colocação dos pronomes átonos.</h3>
+<h2 id="reescrita-de-frases-e-parágrafos-do-texto">Reescrita de frases e parágrafos do texto.</h2>
+<h3 id="significação-das-palavras">Significação das palavras.</h3>
+<h3 id="substituição-de-palavras-ou-de-trechos-de-texto">Substituição de palavras ou de trechos de texto.</h3>
+<h3 id="reorganização-da-estrutura-de-orações-e-de-períodos-do-texto">Reorganização da estrutura de orações e de períodos do texto.</h3>
+<h3 id="reescrita-de-textos-de-diferentes-gêneros-e-níveis-de-formalidade">Reescrita de textos de diferentes gêneros e níveis de formalidade.</h3>
+<h1 id="realidade-étnica-social-histórica-geográfica-cultural-política-e-econômica-do-estado-de-goiás-e-do-brasil">Realidade étnica, social, histórica, geográfica, cultural, política e econômica do estado de Goiás e do Brasil:</h1>
+<h2 id="formação-econômica-de-goiás-a-mineração-no-século-18i-a-agropecuária-nos-séculos-19-e-20-a-estrada-de-ferro-e-a-modernização-da-economia-goiana-as-transformações-econômicas-com-a-construção-de-goiânia-e-de-brasília-industrialização-infraestrutura-e-planejamento">Formação econômica de Goiás: a mineração no século 18I, a agropecuária nos séculos 19 e 20, a estrada de ferro e a modernização da economia goiana, as transformações econômicas com a construção de Goiânia e de Brasília, industrialização, infraestrutura e planejamento.</h2>
+<h2 id="modernização-da-agricultura-e-urbanização-do-território-goiano">Modernização da agricultura e urbanização do território goiano.</h2>
+<h2 id="a-população-goiana-povoamento-movimentos-migratórios-e-densidade-demográfica">A população goiana: povoamento, movimentos migratórios e densidade demográfica.</h2>
+<h2 id="economia-goiana-industrialização-e-infraestrutura-de-transportes-e-comunicação">Economia goiana: industrialização e infraestrutura de transportes e comunicação.</h2>
+<h2 id="as-regiões-goianas-e-as-desigualdades-regionais">As regiões goianas e as desigualdades regionais.</h2>
+<h2 id="aspectos-físicos-do-território-goiano-vegetação-hidrografia-clima-e-relevo">Aspectos físicos do território goiano: vegetação, hidrografia, clima e relevo.</h2>
+<h2 id="aspectos-da-história-política-de-goiás-a-independência-em-goiás-o-coronelismo-na-república-velha-as-oligarquias-a-revolução-de-1930-a-administração-política-de-1930-até-os-dias-atuais">Aspectos da história política de Goiás: a independência em Goiás, o coronelismo na República Velha, as oligarquias, a Revolução de 1930, a administração política de 1930 até os dias atuais.</h2>
+<h2 id="aspectos-da-história-social-de-goiás-o-povoamento-branco-os-grupos-indígenas-a-escravidão-e-a-cultura-negra-os-movimentos-sociais-no-campo-e-a-cultura-popular">Aspectos da história social de goiás: o povoamento branco, os grupos indígenas, a escravidão e a cultura negra, os movimentos sociais no campo e a cultura popular.</h2>
+<h2 id="atualidades-econômicas-políticas-e-sociais-do-brasil-especialmente-do-estado-de-goiás">Atualidades econômicas, políticas e sociais do Brasil, especialmente do Estado de Goiás.</h2>
+<h1 id="conhecimentos-específicos-comuns">Conhecimentos específicos comuns</h1>
+<h2 id="noções-de-criminalística">Noções de Criminalística:</h2>
+<h3 id="noções-e-princípios-da-criminalística">Noções e princípios da Criminalística.</h3>
+<h2 id="tipos-de-provas-prova-confessional-prova-testemunhal-prova-documental-e-prova-pericial">Tipos de Provas: prova confessional, prova testemunhal, prova documental e prova pericial.</h2>
+<h2 id="corpo-de-delito">Corpo de delito.</h2>
+<h2 id="documentos-criminalísticos-auto-laudo-pericial-parecer-criminalístico">Documentos criminalísticos: auto, laudo pericial, parecer criminalístico.</h2>
+<h2 id="finalidade-da-criminalística-constatação-do-fato-verificação-dos-meios-e-dos-modos-e-possível-indicação-da-autoria">Finalidade da criminalística: constatação do fato, verificação dos meios e dos modos e possível indicação da autoria</h2>
+<h2 id="introdução-à-medicina-legal-conceito-definição-perícia-e-peritos-documentos-médico-legais-atestado-médico-declaração-de-óbito">Introdução à medicina legal: conceito, definição, perícia e peritos; documentos médico legais, atestado médico, declaração de óbito.</h2>
+<h2 id="traumatologia-forense-lesões-e-morte-por-ação-contundente-estudo-médico-legal-dos-traumatismos-crânio--encefálicos-lesões-e-mortes-por-armas-brancas-lesões-e-mortes-por-instrumentos-perfuro--contundentes-armas-de-fogo-lesões-e-mortes-por-ação-térmica-lesões-e-mortes-por-ação-elétrica-lesões-e-morte-por-ação-química-cáusticos-venenos-noções-de-toxicologia-forense">Traumatologia forense: lesões e morte por ação contundente, estudo médico legal dos traumatismos crânio- encefálicos, lesões e mortes por armas brancas, lesões e mortes por instrumentos perfuro- contundentes, armas de fogo, lesões e mortes por ação térmica, lesões e mortes por ação elétrica; lesões e morte por ação química (cáusticos, venenos, noções de toxicologia forense).</h2>
+<p>##. Asfixiologia forense: conceito e classificação das asfixias, asfixias por modificações do meio ambiente, asfixias por constrição cervical (enforcamento, estrangulamento, esganadura), asfixias por sufocação.</p>
+<h2 id="tanatologia-forense-conceituação-da-morte-causa-jurídica-da-morte-diagnóstico-da-realidade-da-morte-fenômenos-abióticos-lesões-post-mortem-fenômenos-transformativos-estimativa-do-tempo-de-morte">Tanatologia forense: conceituação da morte, causa jurídica da morte, diagnóstico da realidade da morte, fenômenos abióticos, lesões post mortem, fenômenos transformativos, estimativa do tempo de morte.</h2>
+<h2 id="morte-súbita-do-lactente">Morte súbita do lactente.</h2>
+<h2 id="síndrome-da-criança-espancada-síndrome-do-bebê-sacudido">Síndrome da criança espancada, síndrome do bebê sacudido.</h2>
+<h2 id="sexologia-forense-estupro-estupro-de-vulnerável-importunação-sexual-legislação-exame-médico-pericial-da-genitália-externa-masculina-e-feminina-e-da-região-anal-coleta-de-material-para-pesquisa-de-sêmen-e-dna">Sexologia forense: estupro, estupro de vulnerável, importunação sexual (legislação); exame médico-pericial da genitália externa (masculina e feminina) e da região anal; coleta de material para pesquisa de sêmen e DNA.</h2>
+<h2 id="antropologia-forense-identidade-identificação-determinação-da-idade-sinais-individuais">Antropologia forense: identidade, identificação, determinação da idade, sinais individuais.</h2>
+<h2 id="quantificação-do-dano--lesões-corporais">Quantificação do dano – Lesões Corporais.</h2>
+<h2 id="causas-jurídicas-da-morte-suicídio-homicídio-morte-acidental">Causas jurídicas da morte: suicídio, homicídio, morte acidental.</h2>
+<h2 id="morte-suspeita">Morte suspeita.</h2>
+<h2 id="morte-súbita-morte-agônica-sobrevivência">Morte súbita, morte agônica, sobrevivência.</h2>
+<h2 id="necropsia-branca-necropsia-clínica-necropsia-médico-legal">Necropsia branca, necropsia clínica, necropsia médico legal.</h2>
+<h2 id="aborto-em-medicina-legal-15-gravidez-parto-e-puerpério-aspectos-médico-legais">Aborto em medicina legal. 15 Gravidez, parto e puerpério: aspectos médico-legais.</h2>
+<h2 id="infanticídio-conceito-e-elementos-do-crime-diagnóstico-das-causas-de-morte-perinatal-naturais-e-violentas-provas-de-vida-durante-o-parto-e-extra--uterinas">Infanticídio: conceito e elementos do crime, diagnóstico das causas de morte perinatal (naturais e violentas), provas de vida durante o parto e extra- uterinas.</h2>
+<h2 id="exame-de-embriaguez-fases-da-embriaguez-tolerância-ao-álcool-metabolismo-do-álcool-etílico-pesquisa-bioquímica-do-álcool-dosagem-de-álcool-no-cadáver-avaliação-dos-resultados-recusa-a-submeter-se-a-exame-e-formas-de-embriaguez">Exame de embriaguez: fases da embriaguez, tolerância ao álcool, metabolismo do álcool etílico, pesquisa bioquímica do álcool, dosagem de álcool no cadáver, avaliação dos resultados, recusa a submeter-se a exame e formas de embriaguez.</h2>
+
+
+
+  
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>
