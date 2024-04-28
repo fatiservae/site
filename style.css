@@ -183,8 +183,10 @@ Regras de estilo:
   --corBarraSelecionado: #3864da;
   --sombra: #303030;
   --fundo-card: linear-gradient(85deg, tan, darksalmon, tan);
-  --corH2-gradiente: linear-gradient(90deg, darkred, var(--highlightCor), red);
+  --corH2-gradiente: linear-gradient(90deg, darkred, var(--verde-servo), red);
+  /*
   --corH2-gradiente: var(--gradienteYoutube);
+  */
   --fundoImagem: url('pix/day.jpg'); 
   --fundo: #cc866a ; 
   --fonte: #303030;

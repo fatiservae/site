@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
   //  document.querySelectorAll('#artlist li')[i].style.display = 'none'
   //}
 
-
   const search = document.getElementById("search");
   // const searched = document.querySelectorAll('#artlist li'); // por algum motivo não funciona!
   
