@@ -95,6 +95,15 @@
     "path": "Concurso Científica Goiás/Leis"
   },
   {
+    "name": "14133-Licitacoes.pdf",
+    "subjects": [
+      "Concurso Científica Goiás",
+      "Leis"
+    ],
+    "size": "517.95 KB",
+    "path": "Concurso Científica Goiás/Leis"
+  },
+  {
     "name": "7960-Prisao-temporaria.pdf",
     "subjects": [
       "Concurso Científica Goiás",
@@ -174,6 +183,14 @@
     ],
     "size": "857.24 KB",
     "path": "Concurso Científica Goiás/Provas-IADES"
+  },
+  {
+    "name": "revisao-sp",
+    "subjects": [
+      "Concurso Científica Goiás"
+    ],
+    "size": "1.81 KB",
+    "path": "Concurso Científica Goiás"
   },
   {
     "name": "Boethius-Consolation-of-Philosophy.pdf",
@@ -263,6 +280,15 @@
       "Ginecologia e obstetrícia"
     ],
     "size": "13.03 MB",
+    "path": "Medicina/Ginecologia e obstetrícia"
+  },
+  {
+    "name": "Manual-de-condutas-obstetricas-HMIB-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Ginecologia e obstetrícia"
+    ],
+    "size": "9.27 MB",
     "path": "Medicina/Ginecologia e obstetrícia"
   },
   {
