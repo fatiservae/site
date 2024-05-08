@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === '0') { 
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            cScale0: '#ffdead', 
+            cScaleLabel0: '#282828',
+            cScale1: '#a0acb9',
+            cScaleLabel1: '#000000', 
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#262626',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
+      mermaid.initialize({ 
+          'theme': 'base',
+          'timeline': {'disableMulticolor': true},
+          'themeVariables': {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#ffdead',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '4' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': 'white',
+            'tertiaryColor': '#fff'
+          }
+      });
+    }
+    </script>
+  
+
+  <title>Medidas cautelares: a prisão | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO Prisão penal Para o entendimento constitucional, a prisão definitiva penal depende do trânsito em julgado, conforme ações diretas de constitucionalidade no STF números 43/44/54.
+Porém, há o aparente conflito com o chamado pacote anti-crime que inclui redação ao art. 429 do Código Processual Penal que estipula início de cumprimento de pena imediato se há condições de prisão temporária ou se a pena for igual ou superior a 15 anos de reclusão.">
+  <meta name="keywords" content="direito, penal">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+</script>
+
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="tools">tools</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+
+  <h1>Medidas cautelares: a prisão</h1>
+
+<script>
+  
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
+  }
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
+      lighswitch.innerHTML = 'noturno'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#prisão-penal">Prisão penal</a></li>
+    <li><a href="#prisão-processual-cautelar-provisória-domiciliar-ou-sem-pena">Prisão processual, cautelar, provisória, domiciliar ou sem pena</a>
+      <ul>
+        <li><a href="#flagrante">Flagrante</a></li>
+        <li><a href="#preventiva">Preventiva</a></li>
+        <li><a href="#temporária">Temporária</a></li>
+      </ul>
+    </li>
+    <li><a href="#prisão-civil">Prisão civil</a></li>
+    <li><a href="#disciplinar-militar">Disciplinar militar</a></li>
+    <li><a href="#audiência-de-custódia">Audiência de custódia</a></li>
+    <li><a href="#etapas-da-prisão">Etapas da prisão</a></li>
+    <li><a href="#notas">Notas</a></li>
+    <li><a href="#bibliografia">Bibliografia</a></li>
+  </ul>
+</nav>
+
+
+
+  <p class=emConstrucao >ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO </p>
+
+<h2 id="prisão-penal">Prisão penal</h2>
+<p>Para o entendimento constitucional, a prisão definitiva penal <strong>depende do trânsito em julgado</strong>, conforme ações diretas de constitucionalidade no STF números 43/44/54.</p>
+<p>Porém, há o aparente conflito com o chamado <em>pacote anti-crime</em> que inclui redação ao art. 429 do Código Processual Penal que estipula início de cumprimento de pena imediato se há condições de prisão temporária ou se a pena for igual ou superior a 15 anos de reclusão.</p>
+<p>De todo modo, o Habeas Corpus 623.107/PA no STJ foi claro em declarar ilegal a execução automática de pena antes do trânsito em julgado, mantida as condições da temporária se preenchidos requisitos respectivos.</p>
+<h2 id="prisão-processual-cautelar-provisória-domiciliar-ou-sem-pena">Prisão processual, cautelar, provisória, domiciliar ou sem pena</h2>
+<p>Independe de trânsito em julgado.</p>
+<h3 id="flagrante">Flagrante</h3>
+<p>Tem por objetivo assegurar a rápida constatação do autor do crime, da materialidade e interromper a prática delitiva.</p>
+<p>O <em>flagare</em> pode ser reconhecido por qualquer do povo e deve ser reconhecido por autoridade policial. Este se dá:</p>
+<ul>
+<li>durante o cometimento do crime;</li>
+<li>acaba de cometê-lo;</li>
+<li>se o suspeito é perseguido, logo após, por autoridade, por ofendido ou outrem em situação que se faça presumir ser o autor do crime, mesmo que a perseguição se dê com perda de vista do perseguido¹;</li>
+<li>se o suspeito é encontrado, logo depois, com instrumentos, armas, objetos ou papéis que se faça presumir ser o autor.</li>
+</ul>
+<h4 id="flagrante-ilegal">Flagrante ilegal</h4>
+<p><strong>O flagrante preparado (crime impossível)</strong>: o agente prepara o flagrante e detém o deliquente antes da consumação. Excetua-se ocrime de tráfico de drogas, tendo em vista os verbos do tipo penal. Também restou decidido pelo STJ na súmula 567 que sistemas de vigilância e monitoramento bem como vigilância de estabelecimento comercial não impedem caracterização do crime.</p>
+<h3 id="preventiva">Preventiva</h3>
+<p>Se há <strong>prova da existência do crime</strong> e estão presentes os <strong>indícios de autoria</strong> e se configura o <em>periculum libertatis</em> por garantia de ordem pública ou econômica, conveniência da instrução penal, assegurar lei penal, ausência da identificação civil ou se houve descumprimento de cautelar anterior.</p>
+<p>Não há prazo.</p>
+<h4 id="domiciliar">Domiciliar</h4>
+<p>Trata-se da prisão executada mediante recolhimento exclusivo à residência do acusado com possibilidade de saída apenas com autorização judicial. Regida por:</p>
+<p><strong>Art. 318</strong> - Poderá o juiz substituir a prisão preventiva pela domiciliar quando o agente for:
+I - maior de 80 (oitenta) anos;
+II - extremamente debilitado por motivo de doença grave;
+IV - gestante;
+V - mulher com filho de até 12 (doze) anos de idade incompletos;
+VI - homem, caso seja o único responsável pelos cuidados do filho de até 12 (doze) anos de idade incompletos.</p>
+<p><strong>Art. 318-A</strong> - A prisão preventiva imposta à mulher gestante ou que for mãe ou responsável por crianças ou pessoas com deficiência será substituída por prisão domiciliar, desde que:
+I - não tenha cometido crime com violência ou grave ameaça a pessoa;
+II - não tenha cometido o crime contra seu filho ou dependente.</p>
+<h3 id="temporária">Temporária</h3>
+<p>5 dias prorrogáveis por mais 5, ou 30 também prorrogáveis por até mais 30 se crime hediondo.</p>
+<h2 id="prisão-civil">Prisão civil</h2>
+<p>No Brasil, admitida apenas ao devedor de alimentos, conforme CPC art. 528.</p>
+<h2 id="disciplinar-militar">Disciplinar militar</h2>
+<p>Para as Forças Armadas, não existindo para as Polícias Militares. É disciplinada por regulamentação própria, e.g. Regimento Disciplinar do Exército.</p>
+<h2 id="audiência-de-custódia">Audiência de custódia</h2>
+<p>Momento de assertividade da legalidade da prisão, sendo incorreto apurar culpa, materialidade ou outros elementos se não as circustancias da prisão.</p>
+<h2 id="etapas-da-prisão">Etapas da prisão</h2>
+<pre class="mermaid">graph TD;
+cap(Captura) --> cond(Condução até autoridade policial<br>que ouve condutor, vítima e acusado.<br>Auto de infração) --> lavr(Lavratura do APF) --> recol(Recolhimento ao cárcere) --> com(Comunicação do juiz<br>Audiência de custódia²) --> vic(Prisão relaxada<br>se vício);
+lavr --> fi(Liberdade mediante fiança<br>se pena menor ou igual a 4 anos);
+lavr --> IMPO(Menor potencial ofensivo<br>Contravenções se pena < 2 anos<br>Lei 9.099 de 1995); 
+lavr --> usr(Usuário de droga ilícia<br>art. 28 Lei 11.343/06) --> pena(Pena específica do art. 28);
+com --> convert(Converter a prisão flagrante<br>em preventiva³);
+com --> conced(Conceder liberdade provisória)
+</pre>
+
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>Artigo 290 do Código Processual Penal.</li>
+<li>Pôde ser feita por videoconferência apenas durante o período oficial de pandemia.</li>
+<li>AgRg no STJ pelo RHC 136.708/MS vedou a conversão <em>ex-officio</em> de flagrante em preventiva pelo juiz sem ouvir o MP. Porém, a manifestação posterior do Delegado ou do Ministério Público <strong>convalida</strong> a prisão decretada de ofício.</li>
+</ol>
+<h2 id="bibliografia">Bibliografia</h2>
+<ol>
+<li>BRASIL. <strong>Lei nº 3.689, de 3 de outubro de 1941. Código de Processo Penal</strong>. Disponível em: <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del3689.htm">http://www.planalto.gov.br/ccivil_03/decreto-lei/Del3689.htm</a>.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_direito" href="https://www.jeffersontorres.com.br/tags/direito">direito</a> &middot;  
+                <a id="tag_penal" href="https://www.jeffersontorres.com.br/tags/penal">penal</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

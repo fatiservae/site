@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === '0') { 
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            cScale0: '#ffdead', 
+            cScaleLabel0: '#282828',
+            cScale1: '#a0acb9',
+            cScaleLabel1: '#000000', 
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#262626',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
+      mermaid.initialize({ 
+          'theme': 'base',
+          'timeline': {'disableMulticolor': true},
+          'themeVariables': {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#ffdead',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '4' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': 'white',
+            'tertiaryColor': '#fff'
+          }
+      });
+    }
+    </script>
+  
+
+  <title>Aborto e infanticídio no Brasil: aspectos médico-legais | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO Gravidez legal Início Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação sine qua non e a nidação que assume característica definidora posterior. O marco legal atualmente adotado no Brasil é a nidação bem sucedida que ocorre, normalmente, cerca de 14 dias após a fecundação.
+Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação.">
+  <meta name="keywords" content="direito, medicina, perícias, penal">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+</script>
+
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="tools">tools</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+
+  <h1>Aborto e infanticídio no Brasil: aspectos médico-legais</h1>
+
+<script>
+  
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
+  }
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
+      lighswitch.innerHTML = 'noturno'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#gravidez-legal">Gravidez legal</a>
+      <ul>
+        <li><a href="#início">Início</a></li>
+        <li><a href="#fim">Fim</a></li>
+      </ul>
+    </li>
+    <li><a href="#classificações-penais">Classificações penais</a>
+      <ul>
+        <li><a href="#tipos-penais">Tipos penais</a></li>
+        <li><a href="#manobras-abortivas-periparto">Manobras abortivas periparto</a></li>
+        <li><a href="#formas-ectópicas">Formas ectópicas</a></li>
+        <li><a href="#aborto-recente">Aborto Recente</a></li>
+        <li><a href="#aborto-antigo">Aborto Antigo</a></li>
+        <li><a href="#polêmicas">Polêmicas</a></li>
+      </ul>
+    </li>
+    <li><a href="#infanticídio">Infanticídio</a>
+      <ul>
+        <li><a href="#puerpério-puérpera-e-estado-puerperal">Puerpério, puérpera e estado puerperal</a></li>
+      </ul>
+    </li>
+    <li><a href="#notas">Notas</a></li>
+  </ul>
+</nav>
+
+
+
+  <p class=emConstrucao >ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO </p>
+
+<h2 id="gravidez-legal">Gravidez legal</h2>
+<h3 id="início">Início</h3>
+<p>Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação <em>sine qua non</em> e a nidação que assume característica definidora posterior. O marco <strong>legal atualmente adotado no Brasil é a nidação bem sucedida</strong> que ocorre, normalmente, cerca de 14 dias após a fecundação.</p>
+<h3 id="fim">Fim</h3>
+<p>O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação. O parto cesáreo ou de qualquer outra forma cirúrgica é encerrado com o ato cirúrgico em si.</p>
+<h2 id="classificações-penais">Classificações penais</h2>
+<h3 id="tipos-penais">Tipos penais</h3>
+<pre class="mermaid">graph TD;
+2(Abortos criminosos) --> 3(Quanto ao<br>sujeito ativo) --> 10(<strong>Provocado</strong><br>A própria gestante<br>realiza o aborto);
+3 --> 12(<strong>Consentido</strong><br>A gestante autoriza<br>a outrem que<br>realize o aborto);
+3 --> 13(<strong>Sofrido</strong><br>A gestante é submetida<br> ao aborto<br>sem consentir);
+2 --> 11(Quanto a justificativa) --> 6(<strong>Social</strong><br>Sem condições financeiras<br>de prole);
+11 --> 7(<strong><i>honoris causa</strong></i><br>Para resguardar a honra);
+11 --> 9(<strong>Eugênico</strong><br>Para evitar criança com<br>determinada característica.);
+</pre>
+
+<pre class="mermaid">graph TD;
+3(Abortos não criminosos) --> 4(<strong>Terapêutico</strong><br>estado de necessidade<br>imediato ou não);
+3 --> 5(<strong>Piedoso¹</strong><br>Da vítima de estupro<br>com consentimento);
+3 --> 8(<strong>Seletivo ou<br>Eugênico <i>legalizado</i></strong><br>anencefalia - ADI 54/2012²);
+</pre>
+
+<h3 id="manobras-abortivas-periparto">Manobras abortivas periparto</h3>
+<p>Se o nascido vivo morre logo após o parto por consequência de ação abortiva anterior, considera-se que ocorreu o aborto. Caso configure hipótese de ilegalidade, este será crime.</p>
+<h3 id="formas-ectópicas">Formas ectópicas</h3>
+<p>A gravidez ectópica, tubária ou não, interrompe-se por impossibilidade natural e, dado o risco de rotura, o interrompimento desta gravidez é o chamado aborto necessário.</p>
+<p>Abortamento espontâneo ou natural: aquele ocorrido sem intervenção artificial até 20 ou 22 semanas de gravidez. Este conceito se cruza com o de <strong>feto inviável</strong>.</p>
+<h3 id="aborto-recente">Aborto Recente</h3>
+<p>Em mulheres vivas, a verificação do aborto recente é semelhante ao do diagnóstico da gravidez, faltando, porém, o concepto ou, se presente, não tem vida. No caso, analisam-se os seios acerca da presença de:</p>
+<ol>
+<li>Pigmentação areolar;</li>
+<li>Rede venosa de Haller;</li>
+<li>tubérculos de Montgomery;</li>
+<li>Secreções.</li>
+</ol>
+<p>Naturalmente, a genitália é também examinada, constituindo-se em meio fundamental de avaliação. Verificam-se, pois, se há:</p>
+<ol>
+<li>Edemas dos grandes e pequenos lábios;</li>
+<li>Lesões no períneo;</li>
+<li>Lóquios serossanguinolentos ou serosos;</li>
+<li>Lesões no colo do útero decorrentes do emprego de manobras dentro dele, seja pelas pinças de Pozzi (duas garras) ou de Museaux (quatro garras).</li>
+</ol>
+<p>Tratando-se de mulheres mortas, é possível exploração mais ampla dos elementos internos e externos do cadáver, como a análise dos fluidos e das cavidades corpóreas a fim de encontrar sinais indicadores de gravidez e, consequentemente, do aborto. A verificação se dá pelo:</p>
+<ol>
+<li>Grau de dilatação do útero;</li>
+<li>O tamanho do útero;</li>
+<li>Os restos de vilosidades coriais;</li>
+<li>Formato do útero, que, se possuir forma triangular com paredes côncavas, indica ausência de parto; se convexas, o parto ocorreu.</li>
+<li>Análise dos folículos ovarianos;</li>
+<li>Exame das trompas de falópio;</li>
+<li>Procura por episiotomias (incisões cirúrgias) e episiorrafias (cicatrizes) no períneo, capazes de indicar partos vaginais anteriores.</li>
+</ol>
+<h3 id="aborto-antigo">Aborto Antigo</h3>
+<p>Em mulheres vivas, o aborto antigo pode apresentar dificuldade no diagnóstico, a depender do quanto tempo se passou entre o ato e o momento do exame. Somente por intermédio de exames pode ser feita a verificação de se ainda há vestígios de sua prática.</p>
+<p>Na hipótese de mulher morta, a mesma dificuldade existe, dependendo o diagnóstico ser feito conforme as possibilidades e os vestígios se apresentarem caso a caso. Inexiste, portanto, método de verificação a priori.</p>
+<h3 id="polêmicas">Polêmicas</h3>
+<h4 id="dispositivo-intrauterino-e-yuzpe">Dispositivo intrauterino e Yuzpe</h4>
+<p>A discussão em torno do DIU como método abortivo ou, ainda, da pílula do dia seguinte, é vazia, uma vez que naquele não há nidação e neste nem mesmo a fecundação. Em ambos os casos, a conduta da mulher de interromper o fenômeno fencundatório foi um <strong>exercício regular de um direito</strong> e, portanto, não há de se falar em crime.</p>
+<h2 id="infanticídio">Infanticídio</h2>
+<h3 id="puerpério-puérpera-e-estado-puerperal">Puerpério, puérpera e estado puerperal</h3>
+<p>O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.</p>
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>O aborto piedoso também é chamado de <em>ético, moral, sentimental ou humanitário</em>.</li>
+<li>Atualmente, a doutrina judicial é a de que a forma seletiva de aborto só pode ocorrer mediante autorização judicial. Na verdade, outros casos de incompatibilidade com a vida extra-uterina podem ser arguidas em juízo.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_direito" href="https://www.jeffersontorres.com.br/tags/direito">direito</a> &middot;  
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_perícias" href="https://www.jeffersontorres.com.br/tags/per%C3%ADcias">perícias</a> &middot;  
+                <a id="tag_penal" href="https://www.jeffersontorres.com.br/tags/penal">penal</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

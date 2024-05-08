@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === '0') { 
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            cScale0: '#ffdead', 
+            cScaleLabel0: '#282828',
+            cScale1: '#a0acb9',
+            cScaleLabel1: '#000000', 
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#262626',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
+      mermaid.initialize({ 
+          'theme': 'base',
+          'timeline': {'disableMulticolor': true},
+          'themeVariables': {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#ffdead',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '4' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': 'white',
+            'tertiaryColor': '#fff'
+          }
+      });
+    }
+    </script>
+  
+
+  <title>A morte e a lei: tanatologia forense | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO Fenômenos abióticos, avitais ou vitais negativos Marcam ausência de vida.
+Imetiatos Perda da consciência; Perda da sensibilidade; Perda da motilidade e do tono muscular; Cessação da respiração; Cessação da circulação; Flacidez generalizada; Midríase; Cessação de atividade cerebral³; Relaxamento dos esfíncteres; Espasmo cadavérico². Consecutivos ou tardios Desidratação cadavérica, inicialmente a evaporação tegumentar; Algor mortis, o reequilíbrio térmico cadavérico¹; Livor mortis, as manchas de hipóstase; Rigor mortis, a transitória rigidez cadavérica.">
+  <meta name="keywords" content="medicina, direito, penal, ciência">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+</script>
+
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../files/index.html" alt="files">arquivos</a>
+      <a href="../../tags/projetos/index.html" alt="tools">tools</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+
+  <h1>A morte e a lei: tanatologia forense</h1>
+
+<script>
+  
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
+  }
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
+      lighswitch.innerHTML = 'noturno'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#fenômenos-abióticos-avitais-ou-vitais-negativos">Fenômenos abióticos, avitais ou vitais negativos</a>
+      <ul>
+        <li><a href="#imetiatos">Imetiatos</a></li>
+        <li><a href="#consecutivos-ou-tardios">Consecutivos ou tardios</a></li>
+      </ul>
+    </li>
+    <li><a href="#cronotanagnose---cronologia-dos-eventos-perimortem">Cronotanagnose - cronologia dos eventos perimortem</a>
+      <ul>
+        <li><a href="#0h---morte">0h - Morte</a></li>
+        <li><a href="#8h">8h</a></li>
+        <li><a href="#9h">9h</a></li>
+        <li><a href="#12h">12h</a></li>
+        <li><a href="#18h">18h</a></li>
+        <li><a href="#24h">24h</a></li>
+      </ul>
+    </li>
+    <li><a href="#docimásias">Docimásias</a>
+      <ul>
+        <li><a href="#agônicas">Agônicas</a></li>
+        <li><a href="#do-recém-nascido">Do recém-nascido</a></li>
+      </ul>
+    </li>
+    <li><a href="#outras-provas-de-cessação-da-vida">Outras provas de cessação da vida</a></li>
+    <li><a href="#notas">Notas</a></li>
+  </ul>
+</nav>
+
+
+
+  <p class=emConstrucao >ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO </p>
+
+<h2 id="fenômenos-abióticos-avitais-ou-vitais-negativos">Fenômenos abióticos, avitais ou vitais negativos</h2>
+<p>Marcam ausência de vida.</p>
+<h3 id="imetiatos">Imetiatos</h3>
+<ul>
+<li>Perda da consciência;</li>
+<li>Perda da sensibilidade;</li>
+<li>Perda da motilidade e do tono muscular;</li>
+<li>Cessação da respiração;</li>
+<li>Cessação da circulação;</li>
+<li>Flacidez generalizada;</li>
+<li>Midríase;</li>
+<li>Cessação de atividade cerebral³;</li>
+<li>Relaxamento dos esfíncteres;</li>
+<li>Espasmo cadavérico².</li>
+</ul>
+<h3 id="consecutivos-ou-tardios">Consecutivos ou tardios</h3>
+<ul>
+<li>Desidratação cadavérica, inicialmente a evaporação tegumentar;</li>
+<li>Algor mortis, o reequilíbrio térmico cadavérico¹;</li>
+<li>Livor mortis, as manchas de hipóstase;</li>
+<li>Rigor mortis, a transitória rigidez cadavérica.</li>
+</ul>
+<h2 id="cronotanagnose---cronologia-dos-eventos-perimortem">Cronotanagnose - cronologia dos eventos perimortem</h2>
+<h3 id="0h---morte">0h - Morte</h3>
+<p>Início da rigidez cadavérica espasmódica permanente</p>
+<h3 id="8h">8h</h3>
+<p>Início da rigidez cadavérica generalizada</p>
+<h3 id="9h">9h</h3>
+<p>Possível início da putrefação: gás sulfídrico</p>
+<h3 id="12h">12h</h3>
+<p>Certamente há gases de putrefação, exceto nas condições fixadas</p>
+<h3 id="18h">18h</h3>
+<p>Possível início da mancha verde abdominal</p>
+<h3 id="24h">24h</h3>
+<p>Fim da rigidez cadavérica generalizada</p>
+<h2 id="docimásias">Docimásias</h2>
+<p>As docimásias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.</p>
+<h3 id="agônicas">Agônicas</h3>
+<p>Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais. A perícia, portanto, pode afastar a comoriência presumida.</p>
+<h3 id="do-recém-nascido">Do recém-nascido</h3>
+<h4 id="hidrostática-de-galeno">Hidrostática de Galeno</h4>
+<h4 id="histológica-de-balthazar">Histológica de Balthazar</h4>
+<h2 id="outras-provas-de-cessação-da-vida">Outras provas de cessação da vida</h2>
+<p>São muitos os sinais e provas técnicas descritas para ateste da morte real. Pesquise por <em>&ldquo;prova de morte&rdquo;</em> no <a href="../../dicionario">dicionário</a>.</p>
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>O chamado algor mortis é normalmente referido como o resfriamento do cadáver. Entretanto, o que ocorre de fato é o reequilíbrio térmico com o ambiente que, em condições habituais, está mais frio que o corpo recém morto, passando a impressão térmica ao toque de resfriamento.</li>
+<li>O dito sinal de Kossu é controverso e é descrito normalmente como o espasmo que mantém agarrada pela mão a arma do suicida.</li>
+<li>A morte cerebral difere da encefálica, sendo esta a característica morte real.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_direito" href="https://www.jeffersontorres.com.br/tags/direito">direito</a> &middot;  
+                <a id="tag_penal" href="https://www.jeffersontorres.com.br/tags/penal">penal</a> &middot;  
+                <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">ciência</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

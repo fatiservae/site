@@ -33,10 +33,15 @@
   
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-      if (temaAtual === '0') {
+      if (temaAtual === '0') { 
       mermaid.initialize({ 
           'theme': 'base',
+          timeline: {disableMulticolor: true},
           'themeVariables': {
+            cScale0: '#ffdead', 
+            cScaleLabel0: '#282828',
+            cScale1: '#a0acb9',
+            cScaleLabel1: '#000000', 
             'primaryColor': 'transparent',
             'primaryTextColor': '#a0acb9',
             'primaryBorderColor': '#ffdead',
@@ -48,7 +53,10 @@
     } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
       mermaid.initialize({ 
           'theme': 'base',
+          'timeline': {'disableMulticolor': true},
           'themeVariables': {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
             'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
             'primaryBorderColor': 'black',
@@ -59,8 +67,11 @@
       });
     } else if (temaAtual === '4' ) {
       mermaid.initialize({ 
-          'theme': 'base',
-          'themeVariables': {
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
             'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
             'primaryBorderColor': 'black',

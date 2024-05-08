@@ -17,7 +17,8 @@
         "instrucao": "ou com tempo interdoses de 4h.",
         "via": "IV"
       }
-    ]
+    ],
+    "mecanismo": "inibe síntese de parede celular da bactéria."
   },
   {
     "nome": ["sulfato ferroso"],
@@ -42,7 +43,7 @@
       }
     ],
     "obs": [
-      "Receita branca.",
+      "Receita branca, comum.",
       "A naloxona por via oral impede constipação."
     ]
   },

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Embriaguez: visão toxicológica-legal | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../../style.css'>
+  <link rel="icon" href="../../../favicon.webp">
+  <meta name="description" content="O álcool como vício O álcool é um componente alimentar antigo, com indícios de seu uso dietético desde o neolítico[4].
+Porém, seu uso regular alimentar pode ser deturpado pelo comportamento compulsivo, vicioso. Muitos estudaram os mecanismos do álcool no ser humano e na sociedade. Aqui, vamos nos ater as teorias de Jellinek[5] e as revisões por Glatt[6], bem como os documentos oficiais da WHO e da PAHO.
+A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto por Jellinek">
+  <meta name="keywords" content="medicina, perícias, direito">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+</script>
+
+  <div class="barra">
+      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
+      <a href="../../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../../files/index.html" alt="files">arquivos</a>
+      <a href="../../../tags/projetos/index.html" alt="tools">tools</a> 
+  
+  </div>
+<article>
+<br>
+<br>
+
+  <h1>Embriaguez: visão toxicológica-legal</h1>
+
+<script>
+  
+  const linksPaginas = document.querySelectorAll(".barra a");
+  const urlAtual = window.location.href;
+  const inicio = document.getElementById("indexlink");
+
+  for (const link of linksPaginas) {
+    if (urlAtual.includes(link.getAttribute("alt")
+                              .toLowerCase()
+                              .trim()
+                              .normalize('NFD')
+                              .replace(/\p{Diacritic}/gu, "")
+    )){
+      
+      link.style = "color: var(--barra-selecionado); font-weight: bold;";
+    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
+                urlAtual === "https://jeffersontorres.com.br/" || 
+                urlAtual === "https://jeffersontorres.com.br" || 
+                urlAtual === "jeffersontorres.com.br" || 
+                urlAtual === "http://localhost:1313/" ) {
+      
+      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
+    }
+  }
+
+  let lighswitch = document.getElementById("switch");
+  const temaAtual = localStorage.getItem('tema');
+ 
+  if (temaAtual === '0') {
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  } else if (temaAtual === '1') {
+    document.documentElement.setAttribute('data-tema', '1');
+    lighswitch.innerHTML = 'árido' ;
+  }
+  else if (temaAtual === '3') {
+    document.documentElement.setAttribute('data-tema', '3');
+    lighswitch.innerHTML = 'comics' ;
+  }
+  else if (temaAtual === '2') {
+    document.documentElement.setAttribute('data-tema', '2');
+    lighswitch.innerHTML = 'café' ;
+  }
+  else if (temaAtual === '4') {
+    document.documentElement.setAttribute('data-tema', '4');
+    lighswitch.innerHTML = 'papel' ;
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', '0');
+    lighswitch.innerHTML = 'noturno' ;
+  }
+
+  function alternarTema() {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    if (temaAtual === '0') {
+      lighswitch.innerHTML = 'árido'
+      document.documentElement.setAttribute('data-tema', '1');
+      localStorage.setItem('tema', '1'); 
+
+    } else if (temaAtual === '1') {
+      lighswitch.innerHTML = 'café'
+      document.documentElement.setAttribute('data-tema', '2');
+      localStorage.setItem('tema', '2'); 
+
+    } else if (temaAtual === '2') {
+      document.documentElement.setAttribute('data-tema', '3');
+      lighswitch.innerHTML = 'comics' ;
+      localStorage.setItem('tema', '3'); 
+
+    } else if (temaAtual === '3') {
+      lighswitch.innerHTML = 'papel'
+      document.documentElement.setAttribute('data-tema', '4');
+      localStorage.setItem('tema', '4'); 
+
+    } else if (temaAtual === '4') {
+      lighswitch.innerHTML = 'noturno'
+      document.documentElement.setAttribute('data-tema', '0');
+      localStorage.setItem('tema', '0'); 
+    }
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#o-álcool-como-vício">O álcool como vício</a></li>
+    <li><a href="#a-teoria-observacional-de-jellinek">A teoria observacional de Jellinek</a>
+      <ul>
+        <li><a href="#os-tipos-de-bebedores">Os tipos de &ldquo;bebedores&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#embriaguez">Embriaguez</a>
+      <ul>
+        <li><a href="#formas-de-embriaguez-1">Formas de embriaguez [1]</a></li>
+      </ul>
+    </li>
+    <li><a href="#metabolismo">Metabolismo</a>
+      <ul>
+        <li><a href="#as-três-fases-da-embriaguez-e-a-lenda-árabe-3">As três fases da embriaguez e a lenda árabe [3]</a></li>
+        <li><a href="#diferenças-significativas-entre-homens-e-mulheres-2">Diferenças significativas entre homens e mulheres [2]</a></li>
+        <li><a href="#síndrome-de-wernicke-korsakoff">Síndrome de Wernicke-Korsakoff</a></li>
+      </ul>
+    </li>
+    <li><a href="#detecção">Detecção</a>
+      <ul>
+        <li><a href="#de-maior-precisão">De maior precisão</a></li>
+        <li><a href="#bafômetro">Bafômetro</a></li>
+      </ul>
+    </li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
+
+
+
+  <h2 id="o-álcool-como-vício">O álcool como vício</h2>
+<p>O álcool é um componente alimentar antigo, com indícios de seu uso dietético desde o neolítico[4].</p>
+<p>Porém, seu uso regular alimentar pode ser deturpado pelo comportamento compulsivo, vicioso. Muitos estudaram os mecanismos do álcool no ser humano e na sociedade. Aqui, vamos nos ater as teorias de Jellinek[5] e as revisões por Glatt[6], bem como os documentos oficiais da WHO e da PAHO.</p>
+<h2 id="a-teoria-observacional-de-jellinek">A teoria observacional de Jellinek</h2>
+<p>
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+    
+    
+    
+      <div class="legend"><p>Gráfico original proposto por Jellinek</p></div>
+      <div class="slide">
+        <a href="../../../pix/medicina/jellinek.png">
+          <img src="../../../pix/medicina/jellinek.png"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Curva da addicção revisada por Glatt</p></div>
+      <div class="slide">
+        <a href="../../../pix/medicina/glatt.png">
+          <img src="../../../pix/medicina/glatt.png"></img>
+        </a>
+      </div>
+    
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .slide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<br></p>
+<h3 id="os-tipos-de-bebedores">Os tipos de &ldquo;bebedores&rdquo;</h3>
+<p>Jellinek também classificou os chamados &ldquo;bebedores&rdquo; em subcategorias, seguindo o princípio científico da taxonomia[7]. Para este fim, definiou o alcoolismo como gênero de espécies ou tipos que, mais tarde sofreram revisão e a proposição do tipo mais novo, épsilon.:</p>
+<ul>
+<li><strong>Alfa</strong>: indivíduo que bebe por razões puramente psicológicas como tristeza, desinibição e ansiedade, geralmente em contexto social. Não existe evidência de perda de controle, dependência física, nem incapacidade em se privar inteiramente do álcool. Jellinek descreve-o como um beber indisciplinado.</li>
+<li><strong>Beta</strong>: um beber continuado sem sinais de dependência física ou psicológica, que acarreta uma deterioração física. Por exemplo, problemas gástricos, hepáticos e nutricionais.</li>
+<li><strong>Gama</strong>: beber excessivo em que está patente o aumento de tolerância, perda de controle ou <em>craving</em> e abstinência. O indivíduo pode resistir ao consumo durante longos períodos, embora apresente dependência psicológica e física notáveis. Trata-se do típico bebedor anglo-saxônico, normalmente reportado como <em>meme</em> social do Irlândes.</li>
+<li><strong>Delta</strong>: existe evidência de tolerância e síndrome de abstinência, mas o consumo do álcool é mais estável, visto comumente bebendo. O indivíduo aparenta nunca ficar verdadeiramente embriagado, mas ingere continuadamente álcool em pequenas quantidades. Incapaz de alcançar abstinência prolongada. O consumo é influenciado por condições sociais e/ou financeiras. Típico bebedor mediterrâneo ou o culturalmente chamado <em>pé inchado</em> no Brasil.</li>
+<li><strong>Epsílon</strong>: consumo de álcool periódico. Contudo, o indivíduo parece que só fica satisfeito quando perde o controlo de si próprio, podendo mesmo ficar inconsciente com a alcoolização.</li>
+</ul>
+<h2 id="embriaguez">Embriaguez</h2>
+<p>O álcool é um depressor do SNC. Porém, a embriaguez é um fenômeno complexo e deve ser enxergado como um contínuo de fases que dependem da velocidade do consumo, da ingesta alimentar, do humor basal, da capacidade metabólica, do sexo, da idade e das comorbidades do embriagado.</p>
+<p>Apesar dos efeitos depressores, o uso de etanol pode provocar uma hiperexcitabilidade adaptativa nos neurônios afetados, resultando notadamente em tremores, insônia pós-embriaguez etc.</p>
+<h3 id="formas-de-embriaguez-1">Formas de embriaguez [1]</h3>
+<h4 id="culposa">Culposa</h4>
+<p>Decorre da imprudência ou negligência ao beber de forma exagerada. No entanto, não isenta de responsabilidade;</p>
+<h4 id="preterdolosa">Preterdolosa</h4>
+<p>O sujeito, apesar de não querer o resultado, sabe que estando embriagado pode cometer algum crime;</p>
+<p>Notadamente, há o crime positivado pelo Código de Trânsito:</p>
+<pre tabindex="0"><code>Seção II
+Dos Crimes em Espécie
+
+Art. 306.  Conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência:          
+
+Penas - detenção, de seis meses a três anos, multa e suspensão ou proibição de se obter a permissão ou a habilitação para dirigir veículo automotor.
+
+§ 1° As condutas previstas no caput serão constatadas por:
+
+I - concentração igual ou superior a 6 decigramas de álcool por litro de sangue ou igual ou superior a 0,3 miligrama de álcool por litro de ar alveolar; ou
+
+II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da capacidade psicomotora.
+
+§ 2° A verificação do disposto neste artigo poderá ser obtida mediante teste de alcoolemia ou toxicológico, exame clínico, perícia, vídeo, prova testemunhal ou outros meios de prova em direito admitidos, observado o direito à contraprova.
+
+§ 3° O Contran disporá sobre a equivalência entre os distintos testes de alcoolemia ou toxicológicos para efeito de caracterização do crime tipificado neste artigo.
+
+§ 4° Poderá ser empregado qualquer aparelho homologado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - INMETRO - para se determinar o previsto no caput.    
+</code></pre><p>Na sua forma definida, o legislador precisou ser específico quanto ao diagnóstico da alteração psicomotora aludida no artigo, tendo sido explícito nos incisos e parágrafos. <strong>A doutrina é relativamente pacífica em aceitar que o exame clínico é suficiente para demonstração da embriaguez (ou dos efeitos entorpecetentes) desde que evidentes</strong>.</p>
+<h4 id="proveniente-de-caso-fortuito-ou-força-maior">Proveniente de caso fortuito ou força maior</h4>
+<p>Prevista no art. 28, §1º, do CP, se for completa e deixar o agente inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento, isenta de pena;</p>
+<h4 id="acidental">Acidental</h4>
+<p>O sujeito acha que está bebendo algo sem nenhum teor alcoólico, ou ingere bebidas com grau baixo, mas que são potencializadas com medicamentos;</p>
+<h4 id="preordenadavoluntária">Preordenada/voluntária</h4>
+<p>Nesse tipo de embriaguez, o sujeito bebe para cometer crimes. Aqui está presente a chamada <em>actio libera in causa</em>, sendo considera tanto uma comprovação de dolo como agravante de penas, nos termos do art. 61, II, alínea &ldquo;l&rdquo;. do CP;</p>
+<h4 id="patológica">Patológica</h4>
+<p>É resultante da ingestão em pequenas doses, com manifestações desproporcionais. Vibert dividia a embriaguez patológica em quatro tipos:</p>
+<ul>
+<li>agressiva e violenta: tende ao rime e ao sangue;</li>
+<li>excito-motora: acesso de raiva e de destruição;</li>
+<li>convulsiva: impulsos destruidores e sanguinários;</li>
+<li>delirante: delírios com tendência à autoacusação.</li>
+</ul>
+<h2 id="metabolismo">Metabolismo</h2>
+<p>A <strong>cinética</strong> de metabolismo do etanol difere da maioria das drogas, nas quais, quando há aumento plasmático de seus níveis, a quantidade de droga metabolizada por unidade de tempo também aumenta. No caso do etanol, mesmo com aumento de sua concentração sanguínea, não há alteração de sua taxa de metabolização, ou seja, o etanol é metabolizado de maneira constante. Portanto, a taxa de oxidação do etanol segue uma cinética de ordem zero, isto é, independe do tempo e da concentração da droga.</p>
+<p>Desta forma, as curvas dose-respota logarítmicas apresentam desvio a direita, ou seja, queda da potência tóxica por dose conforme se aumenta o consumo.</p>
+<p>
+<div class="scalidraw">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538.2506014823913 418.902932527503" width="538.2506014823913" height="418.902932527503">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <g stroke-linecap="round"><g transform="translate(11.054157146811463 407.9521390587091) rotate(0 3 -198.5)"><path d="M-1.05 -0.42 C-0.16 -66.87, 4.8 -332.01, 5.86 -397.95 M0.59 -1.69 C1.27 -68.08, 3.63 -330.88, 4.84 -396.91" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(11.054157146811463 407.9521390587091) rotate(0 3 -198.5)"><path d="M13.08 -373.31 C9.41 -381.72, 5.69 -390.75, 4.84 -396.91 M13.08 -373.31 C9.78 -383, 7.72 -391.63, 4.84 -396.91" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(11.054157146811463 407.9521390587091) rotate(0 3 -198.5)"><path d="M-4.02 -373.53 C-1.82 -381.71, 0.33 -390.67, 4.84 -396.91 M-4.02 -373.53 C-0.86 -383.24, 3.56 -391.78, 4.84 -396.91" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(14.054157146811463 407.9521390587091) rotate(0 257 -2.5)"><path d="M0.81 -1.09 C86.59 -1.96, 428.65 -4.31, 514.2 -4.84 M-0.22 0.95 C85.46 0.26, 427.76 -2.03, 513.35 -3.21" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(14.054157146811463 407.9521390587091) rotate(0 257 -2.5)"><path d="M489.94 5.57 C494.17 3.46, 502.33 0.99, 513.35 -3.21 M489.94 5.57 C497.83 2.27, 506.62 -1.23, 513.35 -3.21" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(14.054157146811463 407.9521390587091) rotate(0 257 -2.5)"><path d="M489.78 -11.53 C494.1 -9.21, 502.3 -7.25, 513.35 -3.21 M489.78 -11.53 C497.65 -8.59, 506.5 -5.85, 513.35 -3.21" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(74.05415714681146 352.9521390587091) rotate(0 105 -164)"><path d="M-0.94 -0.78 C12.85 -12.49, 66.74 -38.85, 82.98 -70.07 C99.22 -101.29, 75.47 -145.03, 96.48 -188.11 C117.49 -231.19, 189.95 -305.08, 209.05 -328.53 M0.76 1.42 C14.46 -10.2, 66.77 -37.63, 82.55 -69.09 C98.33 -100.56, 74.39 -144.27, 95.44 -187.38 C116.48 -230.48, 189.67 -304.13, 208.81 -327.71" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(184.9976689517498 365.0085821078019) rotate(0 129.5 -113.5)"><path d="M-1 -0.47 C12.8 -12.12, 65.97 -37.51, 82.27 -68.78 C98.56 -100.04, 67.42 -161.75, 96.75 -188.06 C126.09 -214.37, 231.39 -220.31, 258.29 -226.61 M0.67 -1.76 C14.39 -13.28, 65.59 -39.86, 81.46 -70.78 C97.32 -101.71, 66.41 -161.54, 95.86 -187.3 C125.31 -213.05, 230.83 -218.42, 258.16 -225.31" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(295.05415714681146 116.95213905870912) rotate(0 67 -1)"><path d="M0.14 -0.8 C22.5 -1.29, 111.73 -1.8, 133.98 -1.92 M-1.25 1.39 C20.97 1.63, 110.7 0.49, 133.02 -0.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(295.05415714681146 116.95213905870912) rotate(0 67 -1)"><path d="M109.73 8.74 C114.93 6.1, 123.03 2.97, 133.02 -0.34 M109.73 8.74 C118.21 5.03, 125.72 1.83, 133.02 -0.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(295.05415714681146 116.95213905870912) rotate(0 67 -1)"><path d="M109.34 -8.35 C114.8 -6.13, 123 -4.41, 133.02 -0.34 M109.34 -8.35 C117.91 -6.22, 125.56 -3.56, 133.02 -0.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(300.05415714681146 88.95213905870912) rotate(0 78.38333129882812 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">desvio a direita</text></g><g transform="translate(317.05415714681146 376.9521390587091) rotate(0 22.133333206176758 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">dose</text></g><g transform="translate(-10.945842853188537 148.95213905870912) rotate(269.1429841772896 43.42499923706055 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">resposta</text></g><g transform="translate(274.05415714681146 287.9521390587091) rotate(0 26.975000381469727 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">álcool</text></g><g transform="translate(138.05415714681146 73.95213905870912) rotate(308.0867205712746 70.91666412353516 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">outras drogas</text></g></svg>
+</div>
+
+<br></p>
+<h3 id="as-três-fases-da-embriaguez-e-a-lenda-árabe-3">As três fases da embriaguez e a lenda árabe [3]</h3>
+<ul>
+<li>Eufórica: denominada embriaguez incompleta, quando as funções intelectuais mostram-se excitadas e o agente particularmente, se apresenta com loquacidade, eufórico. É o <strong>macaco</strong> alegórico;</li>
+<li>Agitada: denominada embriaguez completa, caracterizada pelas perturbações psiconsensoriais profundas, alterando-se as funções intelectuais, apresentando disartria, irritabilidade, violencia, agressividade, sendo a fase que predomina as infrações penais. É o <strong>leão</strong> alegórico;</li>
+<li>Comatosa: denominada estado comatoso, primeiramente aflora a sonolência, depois progressivamente apresenta-se com náusea, vômito, podendo ocorrer a espurcícia, imundície e porcaria, devido ao relaxamento dos esfíncteres, advindo anestesia profunda e abolição completa dos reflexos. É o <strong>porco</strong> na alegoria da lenda árabe;</li>
+</ul>
+<h3 id="diferenças-significativas-entre-homens-e-mulheres-2">Diferenças significativas entre homens e mulheres [2]</h3>
+<ul>
+<li>na média, as mulheres são menores que os homens e, por esse motivo, têm menos água corporal por unidade de peso, na qual o etanol pode ser distribuído; e</li>
+<li>a enzima ADH gástrica é menos ativa em mulheres do que nos homens, fazendo com que o metabolismo gástrico do etanol seja menor nas mulheres.</li>
+</ul>
+<h3 id="síndrome-de-wernicke-korsakoff">Síndrome de Wernicke-Korsakoff</h3>
+<p>Ocorre em pessoas mal alimentadas pela alta caloria alimentar do álcool consumido cronicamente, durante meses ou anos, na qual há baixa ingesta de vitamina B1 e sua consequente deficiência, levando a alterações metabolico-neurológicas importantes, resultando num quadro demencial composto de amnésia e confabulação, principalmente. Há, também, efeitos disautonômicos menores.</p>
+<h2 id="detecção">Detecção</h2>
+<h3 id="de-maior-precisão">De maior precisão</h3>
+<p>Métodos colorimétricos e cromatográficos.</p>
+<h3 id="bafômetro">Bafômetro</h3>
+<p>O nível sanguíneo de etanol nos seres humanos pode ser estimado pela determinação das concentrações de etanol no ar expirado uma vez que a relação entre o etanol presente nos gases alveolares ao final da expiração e seu nível sanguíneo é consistente[2].</p>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Wilson Palermo.</li>
+<li>DORTA, Daniel Junqueira; YONAMINE Mauricio; COSTA, José Luiz da, MARTINI, Bruno Spinosa De. <strong>Toxicologia forense</strong>. 2018.  s. Edgard Blücher. São Paulo - SP. Brasil.</li>
+<li><a href="https://www.jusbrasil.com.br/artigos/a-medicina-legal-e-o-direito-positivo-a-famosa-lenda-arabe-e-o-transito-parte-iii/121942731">https://www.jusbrasil.com.br/artigos/a-medicina-legal-e-o-direito-positivo-a-famosa-lenda-arabe-e-o-transito-parte-iii/121942731</a></li>
+<li>Charles H, Patrick; Durham, NC (1952). <strong>Alcohol, Culture, and Society</strong>. Duke University Press (reprint edition by AMS Press, New York, 1970). pp. 26–27. ISBN 9780404049065.</li>
+<li>Jellinek, E. M.<strong>The disease concept of alcoholism</strong>. Hillhouse. 1960.</li>
+<li>GLATT, M.M. (1958), <strong>Group therapy in alcoholism</strong>. British Journal of Addiction to Alcohol &amp; Other Drugs, 54: 133-148. <a href="https://doi.org/10.1111/j.1360-0443.1958.tb04266.x">https://doi.org/10.1111/j.1360-0443.1958.tb04266.x</a></li>
+<li>Jellinek EM. <strong>Alcoholism: A genus and some of its species</strong>. Canadian Medical Association Journal. 1960a;83:1341–1345.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_perícias" href="https://www.jeffersontorres.com.br/tags/per%C3%ADcias">perícias</a> &middot;  
+                <a id="tag_direito" href="https://www.jeffersontorres.com.br/tags/direito">direito</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

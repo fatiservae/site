@@ -100,6 +100,16 @@ document.addEventListener("DOMContentLoaded", () => {
         atb.appendChild(obs);
       }
 
+      if (atbAtual.mecanismo !== undefined){
+          //let mecanismo = atbAtual.mecanismo;
+          let mecanismo = document.createElement('p');
+          mecanismo.classList.add('mecanismo');
+          let conteudo = atbAtual.mecanismo === undefined ? '' : 
+                          atbAtual.mecanismo;
+          mecanismo.innerHTML = "<span style=\"color: var(--termo)\">Mecanismo:</span> "+conteudo;
+          atb.appendChild(mecanismo);
+      }
+
        searched.appendChild(atb);
       }
   })
