@@ -9,13 +9,13 @@
       {
         "unidades": ["g", "h"],
         "dosagem": [1, 6],
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["g", "h"],
         "dosagem": [2, 6], 
         "instrucao": "ou com tempo interdoses de 4h.",
-        "via": "IV"
+        "via": "intravenoso"
       }
     ],
     "mecanismo": "inibe síntese de parede celular da bactéria."
@@ -54,7 +54,7 @@
       {
         "unidades": ["mg", "kg"],
         "dosagem": [1, 1],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "bloqueio muscular pediátrico para intubação de emergência."
       }
     ]
@@ -65,20 +65,20 @@
       {
         "unidades": ["mcg", "kg"],
         "dosagem": [8, 1],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "dose inicial no auxílio ao despertar pós anestésico."
       },
       {
         "unidades": ["mcg", "kg"],
         "dosagem": [15, 1],
         "instrucao": "dose máxima literária no auxílio ao despertar pós anestésico.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg"],
         "dosagem": [0.2],
         "instrucao": "dose habitual de antídoto para adultos, podendo ser repetido até o máximo de 3mg.",
-        "via": "IV"
+        "via": "intravenoso"
       }
     ],
     "obs":[
@@ -95,7 +95,7 @@
       {
         "unidades": ["mg"], 
         "dosagem": [20],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "ajustado de acordo com o nível de hemoglobina."
       }
     ]
@@ -106,7 +106,7 @@
       {
         "unidades": ["g"],
         "dosagem": [1],
-        "via": "IV", 
+        "via": "intravenoso", 
         "instrucao": "nunca excedendo 1g ou 20mg/Kg"
       }
     ],
@@ -257,22 +257,28 @@
     "class": ["antifibrinolítico"],
     "posologias":[
       {
-       "unidades": ["g", "h"],
-       "dosagem": [1, 3],
-       "via": "IV",
+       "unidades": ["g"],
+       "dosagem": [1],
+       "via": "intravenoso",
        "instrucao": "no trauma deve ser administrado nas 3 primeiras horas em infusão por 10min no melhor acesso adquirido."
       },
       {
        "unidades": ["g", "h"],
        "dosagem": [1, 8],
-       "via": "IV",
-       "instrucao": "manutenção no pós-trauma."
+       "via": "intravenoso",
+       "instrucao": "manutenção no pós-trauma, <i>ter in die</i>."
       },
       { 
-       "unidades": ["g", "h"],
-       "dosagem": [1, 3],
-       "via": "IV",
+       "unidades": ["g"],
+       "dosagem": [1],
+       "via": "intravenoso",
        "instrucao": "em obstetrícia, nos sangramentos uterogênicos nas 3 primeiras horas em infusão por 10min."
+      },
+      {
+        "unidades": ["mg", "ml", "h"],
+        "dosagem": [500, 5, 8],
+        "via": "via nebulização",
+        "instrucao": "em soro fisiológico para hemoptise em diversas etiologias, conforme o <i>trial</i> publicado na CHEST em 2018."
       }
     ]
   },
@@ -283,13 +289,13 @@
       {
         "unidades": ["g", "min"],
         "dosagem": [4, 10],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "acompanhado de 5g IM em cada nádega - ataque por esquemas Zuspan e Pritchard."
       },
       {
         "unidades": ["g", "min"],
         "dosagem": [6, 10],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "esquema Zuspan ataque modificado (Sibai)."
       },
       {
@@ -301,13 +307,13 @@
       {
         "unidades": ["g", "min"],
         "dosagem": [1, 10],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "manutenção - esquema Zuspan."
       },
       {
         "unidades": ["g", "min"],
         "dosagem": [2, 60],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "manutenção - esquema Sibai."
       }
     ],
@@ -353,24 +359,24 @@
         "unidades": ["mg", "Kg"],
         "dosagem": [1, 1],
         "instrucao": "dose inicial para sedação.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [3, 1],
         "instrucao": "dose máxima literária para sedação.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [0.3, 1],
         "instrucao": "dose máxima para analgesia moderada.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "kg"],
         "dosagem": [2, 1],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "sedação pediátrica para intubação de emergência."
       }
     ],
@@ -410,25 +416,25 @@
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [1, 1, 10],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "ataque por 10min."
       },
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [0.5, 1, 60],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao":"para manutenção, por hora. Também pode ser usada como droga de auxílio à VNI e para ansiólise." 
       },
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [0.2, 1, 60],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "é o mínimo conhecido para manutenção de hora."
       },
       {
         "unidades": ["mcg", "Kg", "min"],
         "dosagem": [0.7, 1, 60],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "é o máximo indicado por bula comercial para manutenção de hora."
       }
     ]
@@ -440,13 +446,13 @@
       {
         "unidades": ["mcg"],
         "dosagem": [100],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "dose inicial adulta."
       },
       {
         "unidades": ["mcg"],
         "dosagem": [200],
-        "via": "IV",
+        "via": "intravenoso",
         "instrucao": "dose máxima adulta literária."
       }
     ],
@@ -479,34 +485,34 @@
       { 
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [5.1, 24],
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
         "instrucao": "se clearence de Cr abaixo de 90ml/min.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 24],
         "instrucao": "se clearence de Cr abaixo de 50ml/min.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 48],
         "instrucao": "se clearence de Cr abaixo de 10ml/min.",
-        "via": "IV"
+        "via": "intravenoso"
       }
     ],
     "obs": [ 
-      "Há apresentações IM/IV/SUBCAPS/ITRQ etc", 
+      "Há apresentações IM/intravenoso/SUBCAPS/ITRQ etc", 
       "Repetir 1/2 dose no pós-diálise.",
       "Todo aminoglicosídeo é capaz de provocar bloqueio da atividade neuromuscular.",
       "Os aminoglicosídeos não agem em ambiente de anaerobiose, pois o oxigênio é fundamental para o transporte dessas drogas para o interior da célula bacteriana."
@@ -519,34 +525,34 @@
       { 
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [5.1, 24],
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 8],
         "instrucao": "se clearence de Cr abaixo de 90ml/min.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 24],
         "instrucao": "se clearence de Cr abaixo de 50ml/min.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "h"],
         "dosagem": [1.7, 48],
         "instrucao": "se clearence de Cr abaixo de 10ml/min.",
-        "via": "IV"
+        "via": "intravenoso"
       }
     ],
     "obs": [ 
-      "Há apresentações IM/IV/SUBCAPS/ITRQ etc", 
+      "Há apresentações IM/intravenoso/SUBCAPS/ITRQ etc", 
       "Repetir 1/2 dose no pós-diálise.",
       "Todo aminoglicosídeo é capaz de provocar bloqueio da atividade neuromuscular.",
       "Os aminoglicosídeos não agem em ambiente de anaerobiose, pois o oxigênio é fundamental para o transporte dessas drogas para o interior da célula bacteriana."
@@ -575,13 +581,13 @@
         "unidades": ["mg"],
         "dosagem": [300],
         "instrucao":"para o ataque de FA de alta resposta com hemodinâmica estável.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg"],
         "dosagem": [900],
         "instrucao":"para o ataque de FA de alta resposta com hemodinâmica estável.",
-        "via": "IV"
+        "via": "intravenoso"
       }
     ],
     "obs":[
@@ -596,19 +602,19 @@
         "unidades": ["mg", "Kg"],
         "dosagem": [0.1, 1],
         "instrucao": "dose habitual para intubação orotraqueal com bloqueador neuromuscular.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "Kg"],
         "dosagem": [0.3, 1],
         "instrucao": "dose máxima habitual para intubação orotraqueal com bloqueador neuromuscular.",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "Kg", "h"],
         "dosagem": [0.03, 1, 1],
         "instrucao": "manutenção.",
-        "via": "IV"
+        "via": "intravenoso"
       }
     ],
     "obs": [
@@ -624,13 +630,13 @@
         "unidades": ["mg", "g"],
         "dosagem": [3, ""], 
         "instrucao": "uso tópico",
-        "via": "IV"
+        "via": "intravenoso"
       },
       {
         "unidades": ["mg", "g"],
         "dosagem": [5, 1], 
         "instrucao": "uso tópico",
-        "via": "IV"
+        "via": "intravenoso"
       }
     ],
     "obs": [

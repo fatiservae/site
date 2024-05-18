@@ -5,10 +5,38 @@
 	<description>Recent content in medicinas on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Wed, 08 May 2024 12:50:41 -0300</lastBuildDate>
+	<lastBuildDate>Wed, 15 May 2024 16:38:11 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/medicina/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Abuso de autoridade: lei 13.869/2019 esquematizada</title>
+		<link>https://www.jeffersontorres.com.br/direito/abuso-autoridade/</link>
+		<pubDate>Sun, 12 May 2024 11:41:16 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/direito/abuso-autoridade/</guid>
+		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+0(Abuso) --&gt; 3(Excesso de poder);
+0 --&gt; 4(Desvio de poder);
+1(Penas) --&gt; 9(Detenção); 
+3 --&gt; 1;
+4 --&gt; 1;
+1 --&gt; 10(Reclusão para a&lt;br&gt;interceptação telemática&lt;br&gt;sem autorização);
+10 --&gt; 2;
+9 --&gt; 2;
+2(Efeitos adicionais&lt;br&gt;da condenação) --&gt; 5(Indenização);
+2 --&gt; 6(Condicionados&lt;br&gt;a reincidência) --&gt; 7(Perda do cargo e/ou função);
+6 --&gt; 8(Inabilitação&lt;br&gt;de 1 a 5 anos&lt;br&gt; para exercer&lt;br&gt;cargo ou função pública);
+&lt;/pre&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;BRASIL. &lt;strong&gt;Lei 13.869 de 5 de setembro de 2019&lt;/strong&gt;. Brasília-DF. 2019.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Conceitos e prática em traumatologia forense</title>
@@ -103,9 +131,45 @@
 &lt;p&gt;Regra geral, as lesões de saída possuem forma irregular, borda reviradas para fora, maior sangramento, além de não apresentarem os sinais apresentados acima.&lt;/p&gt;
 &lt;p&gt;Há doutrinadores que afirmam que a lesão de saída pode apresentar uma orla de equimose se o tiro foi dado com a vítima encostada contra algum anteparo, por exemplo, no chão ou parede, pois, dessa forma, o projétil teria dificuldade para sair e acabaria gerando a escoriação.&lt;/p&gt;
 &lt;h2 id=&#34;energia-química&#34;&gt;Energia química&lt;/h2&gt;
+&lt;p&gt;Os cáusticos podem ser classificados como:&lt;/p&gt;
+&lt;p&gt;Desidratante: ácido sulfúrico ou ventríolo, óxido de cálcio, hidróxido de sódio (soda cáustica em escamas) e hidróxido de potássio.&lt;/p&gt;
+&lt;p&gt;Oxidante: ácido nítrico, clorídrico, crômico, fênico ou fenol e nitrato de prata ou cáustico lunar.&lt;/p&gt;
+&lt;p&gt;Fluidificante: hidróxido de sódio (soda cáustica em solução), ácido acético ou etanoico e amônia ou amoníaco.&lt;/p&gt;
+&lt;p&gt;Coagulante: cobre, chumbo, mercúrio e sais de zinco.&lt;/p&gt;
+&lt;p&gt;Irritante: gás mostarda ou iperita (gases bélicos).&lt;/p&gt;
 &lt;h3 id=&#34;lesões-e-feridas-cáusticas&#34;&gt;Lesões e feridas cáusticas&lt;/h3&gt;
-&lt;p&gt;Ácido - coagulação, ressecamento e endurecimento.
+&lt;p&gt;Ácido - coagulação, ressecamento e endurecimento. Variadas cores.
 Bases - liquefação ou liquefacientes.&lt;/p&gt;
+&lt;h2 id=&#34;energia-elétrica&#34;&gt;Energia elétrica&lt;/h2&gt;
+&lt;h3 id=&#34;natural&#34;&gt;Natural&lt;/h3&gt;
+&lt;h3 id=&#34;artificial&#34;&gt;Artificial&lt;/h3&gt;
+&lt;p&gt;A eletroplessão mata por fibrilação ventricular.&lt;/p&gt;
+&lt;h2 id=&#34;energia-térmica&#34;&gt;Energia térmica&lt;/h2&gt;
+&lt;h3 id=&#34;intermação&#34;&gt;Intermação&lt;/h3&gt;
+&lt;p&gt;O encéfalo apresentava hiperemia e congestão das meninges; coração com consistência muito aumentada; pulmões com equimoses subpleurais e edema interno; notou, em outras vísceras, a presença de hipertermia interna e de grande quantidade de sangue no sistema venoso.&lt;/p&gt;
+&lt;h3 id=&#34;graus-de-queimadura&#34;&gt;Graus de queimadura&lt;/h3&gt;
+&lt;p&gt;De acordo com a classificação de Lussena-Hoffman, a presença de flictena e bolhas na pele (sinal de Chamber) caracteriza a queimadura de segundo grau.&lt;/p&gt;
+&lt;h2 id=&#34;classificação-de-gravidade-legal-e-a-ação-penal&#34;&gt;Classificação de gravidade legal e a ação penal&lt;/h2&gt;
+&lt;p&gt;PANORAMA ATUAL&lt;/p&gt;
+&lt;p&gt;1 - Crimes de lesões corporais leves e/ou culposas praticados contra mulher no contexto da lei Maria da Penha:&lt;/p&gt;
+&lt;p&gt;Ação Penal Pública Incondicionada&lt;/p&gt;
+&lt;p&gt;Justificativa:&lt;/p&gt;
+&lt;p&gt;Lei 11.340/2006, Art. 41. Aos crimes praticados com violência doméstica e familiar contra a mulher, independentemente da pena prevista, não se aplica a Lei nº 9.099, de 26 de setembro de 1995.&lt;/p&gt;
+&lt;p&gt;Súmula 542 do STJ: A ação penal relativa ao crime de lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada.&lt;/p&gt;
+&lt;p&gt;2 - Crimes de lesões corporais leves e/ou culposas praticados contra criança ou adolescente:&lt;/p&gt;
+&lt;p&gt;Ação Penal Pública Incondicionada&lt;/p&gt;
+&lt;p&gt;Justificativa:&lt;/p&gt;
+&lt;p&gt;ECA: Art. 226, § 1º Aos crimes cometidos contra a criança e o adolescente, independentemente da pena prevista, não se aplica a Lei nº 9.099, de 26 de setembro de 1995. (novidade da lei Henry Borel)&lt;/p&gt;
+&lt;p&gt;3 - Crimes de lesões corporais leves e/ou culposas praticados fora das duas situações anteriores:&lt;/p&gt;
+&lt;p&gt;Ação Penal Pública condicionada a representação do ofendido&lt;/p&gt;
+&lt;p&gt;Justificativa:&lt;/p&gt;
+&lt;p&gt;Lei 9.099/95: Art. 88. Além das hipóteses do Código Penal e da legislação especial, dependerá de representação a ação penal relativa aos crimes de lesões corporais leves e lesões culposas.&lt;/p&gt;
+&lt;p&gt;4 - Demais crimes de lesões corporais (grave, gravíssima, com resultado morte):&lt;/p&gt;
+&lt;p&gt;Ação Penal Pública Incondicionada&lt;/p&gt;
+&lt;p&gt;Justificativa:&lt;/p&gt;
+&lt;p&gt;Código Penal, Art. 100 - A ação penal é pública, salvo quando a lei expressamente a declara privativa do ofendido.&lt;/p&gt;
+&lt;p&gt;§ 1º - A ação pública é promovida pelo Ministério Público, dependendo, quando a lei o exige, de representação do ofendido ou de requisição do Ministro da Justiça.&lt;/p&gt;
+&lt;p&gt;Ou seja: quando a lei for omissa quanto a natureza (se pública ou privada) e quanto a necessidade de representação, presume-se ser pública e incondicionada.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
@@ -122,6 +186,18 @@ Bases - liquefação ou liquefacientes.&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/medicina/morte-legal/</guid>
 		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
 
+&lt;h2 id=&#34;natureza-da-morte&#34;&gt;Natureza da morte&lt;/h2&gt;
+&lt;h2 id=&#34;súbita&#34;&gt;Súbita&lt;/h2&gt;
+&lt;p&gt;A morte súbita ocorre de forma inesperada, brusca e sem qualquer influência externa.&lt;/p&gt;
+&lt;h2 id=&#34;agônica&#34;&gt;Agônica&lt;/h2&gt;
+&lt;p&gt;Se arrasta por dias ou mais.&lt;/p&gt;
+&lt;h3 id=&#34;docimásias&#34;&gt;Docimásias&lt;/h3&gt;
+&lt;p&gt;As docimásias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.&lt;/p&gt;
+&lt;h4 id=&#34;agônicas&#34;&gt;Agônicas&lt;/h4&gt;
+&lt;p&gt;Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais. A perícia, portanto, pode afastar a comoriência presumida.&lt;/p&gt;
+&lt;p&gt;Especificamente a docimásia hepática foi estudada por Lacassagne e Martin.&lt;/p&gt;
+&lt;h4 id=&#34;do-recém-nascido&#34;&gt;Do recém-nascido&lt;/h4&gt;
+&lt;p&gt;Veja em &lt;a href=&#34;../medicina/aborto#docim%C3%A1sias-do-rec%C3%A9m-nascido&#34;&gt;aborto&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;fenômenos-abióticos-avitais-ou-vitais-negativos&#34;&gt;Fenômenos abióticos, avitais ou vitais negativos&lt;/h2&gt;
 &lt;p&gt;Marcam ausência de vida.&lt;/p&gt;
 &lt;h3 id=&#34;imetiatos&#34;&gt;Imetiatos&lt;/h3&gt;
@@ -133,9 +209,9 @@ Bases - liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Cessação da circulação;&lt;/li&gt;
 &lt;li&gt;Flacidez generalizada;&lt;/li&gt;
 &lt;li&gt;Midríase;&lt;/li&gt;
-&lt;li&gt;Cessação de atividade cerebral³;&lt;/li&gt;
+&lt;li&gt;Cessação de atividade cerebral²;&lt;/li&gt;
 &lt;li&gt;Relaxamento dos esfíncteres;&lt;/li&gt;
-&lt;li&gt;Espasmo cadavérico².&lt;/li&gt;
+&lt;li&gt;Espasmo cadavérico³.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;consecutivos-ou-tardios&#34;&gt;Consecutivos ou tardios&lt;/h3&gt;
 &lt;ul&gt;
@@ -144,34 +220,91 @@ Bases - liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Livor mortis, as manchas de hipóstase;&lt;/li&gt;
 &lt;li&gt;Rigor mortis, a transitória rigidez cadavérica.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;cronotanagnose---cronologia-dos-eventos-perimortem&#34;&gt;Cronotanagnose - cronologia dos eventos perimortem&lt;/h2&gt;
-&lt;h3 id=&#34;0h---morte&#34;&gt;0h - Morte&lt;/h3&gt;
-&lt;p&gt;Início da rigidez cadavérica espasmódica permanente&lt;/p&gt;
-&lt;h3 id=&#34;8h&#34;&gt;8h&lt;/h3&gt;
-&lt;p&gt;Início da rigidez cadavérica generalizada&lt;/p&gt;
-&lt;h3 id=&#34;9h&#34;&gt;9h&lt;/h3&gt;
-&lt;p&gt;Possível início da putrefação: gás sulfídrico&lt;/p&gt;
-&lt;h3 id=&#34;12h&#34;&gt;12h&lt;/h3&gt;
-&lt;p&gt;Certamente há gases de putrefação, exceto nas condições fixadas&lt;/p&gt;
-&lt;h3 id=&#34;18h&#34;&gt;18h&lt;/h3&gt;
-&lt;p&gt;Possível início da mancha verde abdominal&lt;/p&gt;
-&lt;h3 id=&#34;24h&#34;&gt;24h&lt;/h3&gt;
-&lt;p&gt;Fim da rigidez cadavérica generalizada&lt;/p&gt;
-&lt;h2 id=&#34;docimásias&#34;&gt;Docimásias&lt;/h2&gt;
-&lt;p&gt;As docimásias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.&lt;/p&gt;
-&lt;h3 id=&#34;agônicas&#34;&gt;Agônicas&lt;/h3&gt;
-&lt;p&gt;Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais. A perícia, portanto, pode afastar a comoriência presumida.&lt;/p&gt;
-&lt;h3 id=&#34;do-recém-nascido&#34;&gt;Do recém-nascido&lt;/h3&gt;
-&lt;h4 id=&#34;hidrostática-de-galeno&#34;&gt;Hidrostática de Galeno&lt;/h4&gt;
-&lt;h4 id=&#34;histológica-de-balthazar&#34;&gt;Histológica de Balthazar&lt;/h4&gt;
+&lt;h2 id=&#34;cronotanagnose&#34;&gt;Cronotanagnose&lt;/h2&gt;
+&lt;h3 id=&#34;cronologia-dos-eventos-perimortem&#34;&gt;Cronologia dos eventos perimortem&lt;/h3&gt;
+&lt;h4 id=&#34;0h---morte&#34;&gt;0h - Morte&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Início da rigidez cadavérica espasmódica permanente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;8h&#34;&gt;8h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Início da rigidez cadavérica generalizada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;9h&#34;&gt;9h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Possível início da putrefação: gás sulfídrico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;12h&#34;&gt;12h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Certamente há gases de putrefação, exceto nas condições fixadas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;18h&#34;&gt;18h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Possível início da mancha verde abdominal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;24h&#34;&gt;24h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Mancha verde abdominal.&lt;/li&gt;
+&lt;li&gt;Fim da rigidez cadavérica generalizada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;36h&#34;&gt;36h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;O nível de potássio do humor vítreo é de grande auxílio para se calcular a hora da morte&lt;sup&gt;?&lt;/sup&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;48h&#34;&gt;48h&lt;/h4&gt;
+&lt;h4 id=&#34;60h&#34;&gt;60h&lt;/h4&gt;
+&lt;h4 id=&#34;72h&#34;&gt;72h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Início dos cristais de Westenhöffer-Rocha-Valverde⁴.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;96h&#34;&gt;96h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fundo de olho irreconhecível.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;1-semana&#34;&gt;1 semana&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Aparecimento da primeira legião, a musca domestica, muscina stabulans e calliphora vomitoria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-semanas&#34;&gt;2 semanas&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Ainda é possível aparecimento da primeira legião, a musca domestica, muscina stabulans e calliphora vomitoria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;1-mês&#34;&gt;1 mês&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Ainda é possível detectar cristais de Westenhöffer-Rocha-Valverde.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-meses&#34;&gt;3 meses&lt;/h4&gt;
 &lt;h2 id=&#34;outras-provas-de-cessação-da-vida&#34;&gt;Outras provas de cessação da vida&lt;/h2&gt;
 &lt;p&gt;São muitos os sinais e provas técnicas descritas para ateste da morte real. Pesquise por &lt;em&gt;&amp;ldquo;prova de morte&amp;rdquo;&lt;/em&gt; no &lt;a href=&#34;../dicionario&#34;&gt;dicionário&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;fenômenos-conservativos-do-cadáver&#34;&gt;Fenômenos conservativos do cadáver&lt;/h2&gt;
+&lt;h3 id=&#34;saponificação-ou-adipocera&#34;&gt;Saponificação ou adipocera&lt;/h3&gt;
+&lt;p&gt;Os sais podem esterificar os compostos lipídicos do corpo, tornando-os saponificados, condição esta que prolonga a conservação de boa parte dos tecidos. O cadáver é quebradiço e de complexa manipulação. Alguns tecidos podem coalescer.&lt;/p&gt;
+&lt;h3 id=&#34;mumificação&#34;&gt;Mumificação&lt;/h3&gt;
+&lt;h3 id=&#34;calcificação&#34;&gt;Calcificação&lt;/h3&gt;
+&lt;h3 id=&#34;corificação-ou-coreificação&#34;&gt;Corificação ou coreificação&lt;/h3&gt;
+&lt;p&gt;Fenômeno conservador descrito por Della Volta em 1985 muito raro encontrado em cadáveres que foram selados em urnas metálicas fechadas hermeticamente, principalmente de zinco.&lt;/p&gt;
+&lt;h2 id=&#34;fenômenos-destrutivos-do-cadáver&#34;&gt;Fenômenos destrutivos do cadáver&lt;/h2&gt;
+&lt;h3 id=&#34;autólise&#34;&gt;Autólise&lt;/h3&gt;
+&lt;h3 id=&#34;putrefação&#34;&gt;Putrefação&lt;/h3&gt;
+&lt;h3 id=&#34;maceração&#34;&gt;Maceração&lt;/h3&gt;
+&lt;h4 id=&#34;asséptica&#34;&gt;Asséptica&lt;/h4&gt;
+&lt;h4 id=&#34;séptica&#34;&gt;Séptica&lt;/h4&gt;
+&lt;p&gt;I A morte agônica é precedida de doença grave, com perda da consciência, e de estados pré-comatoso e comatoso prolongados.
+II Sobrevivência é o período de tempo transcorrido desde o instante em que o indivíduo recebe a lesão mortal até que faleça.
+III Comoriência é a morte simultânea, ao mesmo tempo, de duas ou mais pessoas que foram partícipes do mesmo evento.
+IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes antes do(s) outro(s); isto é, a morte de um dos participantes precede a do(s) outro(s).&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;p&gt;&lt;span style=&#34;margin: 0;margin-left: 3vw;padding: 0; color: var(--corNegrito)&#34;&gt;?.&lt;/span&gt; Informação sem referência. &lt;mark&gt;Pesquisar!&lt;/mark&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;O chamado algor mortis é normalmente referido como o resfriamento do cadáver. Entretanto, o que ocorre de fato é o reequilíbrio térmico com o ambiente que, em condições habituais, está mais frio que o corpo recém morto, passando a impressão térmica ao toque de resfriamento.&lt;/li&gt;
-&lt;li&gt;O dito sinal de Kossu é controverso e é descrito normalmente como o espasmo que mantém agarrada pela mão a arma do suicida.&lt;/li&gt;
 &lt;li&gt;A morte cerebral difere da encefálica, sendo esta a característica morte real.&lt;/li&gt;
+&lt;li&gt;O dito sinal de Kossu é controverso e é descrito normalmente como o espasmo que mantém agarrada pela mão a arma do suicida.&lt;/li&gt;
+&lt;li&gt;Os chamados cristais de Westenhöffer-Rocha-Valverde são lâminas cristaloides muito frágeis, entrecruzadas e agrupadas, incolores, que adquirem coloração azul pelo ferrocianeto de potássio, e castanha, pelo iodo, passíveis de ser encontradas, segundo Belmiro Valverde, até 35 dias após a morte.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;FRANÇA, Genival Veloso de. &lt;strong&gt;Medicina Legal&lt;/strong&gt;. Guanabara Koogan, 10ª edição, 2015, p. 1030.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -232,15 +365,17 @@ Bases - liquefação ou liquefacientes.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;As equimoses podem se formar em local diverso do trauma, como ocorre na fratura de base de crânio com surgimento do sinal de Guaxinin ou de Zorro. Outros tecidos, como a esclera, podem ter cronologia de surgimento e desaparecimento das lesões equimóticas muito diversa da descrita por Legrand du Saulle.&lt;/p&gt;
+&lt;p&gt;As equimoses podem se formar em local diverso do trauma, como ocorre na fratura de base de crânio com surgimento do sinal de Guaxinin ou de Zorro.&lt;/p&gt;
+&lt;p&gt;Outros tecidos diversos da pele podem ter cronologia de surgimento e desaparecimento das lesões equimóticas muito diferente da descrita por Legrand du Saulle. A conjuntiva ocular e.g. pode apresentar equimose em aspecto avermelhado fixo até seu desaparecimento.&lt;/p&gt;
 &lt;h3 id=&#34;sugilação&#34;&gt;Sugilação&lt;/h3&gt;
 &lt;p&gt;A equimose formada pelo aglomerado de pequenos grãos. Um exemplo é o “chupão”.&lt;/p&gt;
-&lt;h2 id=&#34;petéquias&#34;&gt;Petéquias&lt;/h2&gt;
+&lt;h3 id=&#34;petéquias&#34;&gt;Petéquias&lt;/h3&gt;
 &lt;p&gt;São pequenas equimoses, com o tamanho de cabeça de alfinete.&lt;/p&gt;
-&lt;h2 id=&#34;sufusões&#34;&gt;Sufusões&lt;/h2&gt;
+&lt;h3 id=&#34;sufusões&#34;&gt;Sufusões&lt;/h3&gt;
 &lt;p&gt;Também conhecida como equimoma. Há uma hemorragia mais extensa, de tamanho variado.&lt;/p&gt;
-&lt;h2 id=&#34;víbices&#34;&gt;Víbices&lt;/h2&gt;
+&lt;h3 id=&#34;víbices&#34;&gt;Víbices&lt;/h3&gt;
 &lt;p&gt;São lesões com assinatura, apresentam a forma de estrias, duas linhas paralelas.&lt;/p&gt;
+&lt;h2 id=&#34;prova-de-verderau-consiste-em-comparar-a-relação-existente-entre-as-hemácias-e-leucócitos-da-lesão-suspeita-tomando-como-parâmetro-esses-elementos-figurados-do-sangue-de-outra-região-qualquer-do-corpo-se-a-relação-dos-glóbulos-brancos-e-vermelhos-se-equivale-nas-duas-contagens-diz-se-que-a-lesão-foi-produzida-após-a-morte-se-a-primeira-contagem-é-superior-à-segunda-conclui-se-pelo-diagnóstico-de-uma-lesão-in-vitam&#34;&gt;prova de Verderau consiste em comparar a relação existente entre as hemácias e leucócitos da lesão suspeita, tomando como parâmetro esses elementos figurados do sangue de outra região qualquer do corpo. Se a relação dos glóbulos brancos e vermelhos se equivale nas duas contagens, diz-se que a lesão foi produzida após a morte. Se a primeira contagem é superior à segunda, conclui-se pelo diagnóstico de uma lesão in vitam.&lt;/h2&gt;
 </description>
 	</item>
 	
@@ -285,13 +420,14 @@ Bases - liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Pigmentação areolar;&lt;/li&gt;
 &lt;li&gt;Rede venosa de Haller;&lt;/li&gt;
 &lt;li&gt;tubérculos de Montgomery;&lt;/li&gt;
+&lt;li&gt;Sinal de Halban;&lt;/li&gt;
 &lt;li&gt;Secreções.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Naturalmente, a genitália é também examinada, constituindo-se em meio fundamental de avaliação. Verificam-se, pois, se há:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Edemas dos grandes e pequenos lábios;&lt;/li&gt;
 &lt;li&gt;Lesões no períneo;&lt;/li&gt;
-&lt;li&gt;Lóquios serossanguinolentos ou serosos;&lt;/li&gt;
+&lt;li&gt;Lóquios serossanguinolentos &amp;mdash; até o segundo dia &amp;mdash; e ou serosos &amp;mdash; do quarto ao décimo dia;&lt;/li&gt;
 &lt;li&gt;Lesões no colo do útero decorrentes do emprego de manobras dentro dele, seja pelas pinças de Pozzi (duas garras) ou de Museaux (quatro garras).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Tratando-se de mulheres mortas, é possível exploração mais ampla dos elementos internos e externos do cadáver, como a análise dos fluidos e das cavidades corpóreas a fim de encontrar sinais indicadores de gravidez e, consequentemente, do aborto. A verificação se dá pelo:&lt;/p&gt;
@@ -310,9 +446,66 @@ Bases - liquefação ou liquefacientes.&lt;/p&gt;
 &lt;h3 id=&#34;polêmicas&#34;&gt;Polêmicas&lt;/h3&gt;
 &lt;h4 id=&#34;dispositivo-intrauterino-e-yuzpe&#34;&gt;Dispositivo intrauterino e Yuzpe&lt;/h4&gt;
 &lt;p&gt;A discussão em torno do DIU como método abortivo ou, ainda, da pílula do dia seguinte, é vazia, uma vez que naquele não há nidação e neste nem mesmo a fecundação. Em ambos os casos, a conduta da mulher de interromper o fenômeno fencundatório foi um &lt;strong&gt;exercício regular de um direito&lt;/strong&gt; e, portanto, não há de se falar em crime.&lt;/p&gt;
+&lt;h4 id=&#34;idade-do-concepto&#34;&gt;Idade do concepto&lt;/h4&gt;
+&lt;p&gt;A verificação da idade gestacional no aborto ou no infanticídio é importante para saber se a idade da mãe quando foi estuprada para a caracterização da situação de estupro de vulnerável; ou, ainda, se houve fecundação extraconjugal etc.&lt;/p&gt;
+&lt;h5 id=&#34;fórmula-de-haase&#34;&gt;Fórmula de Haase&lt;/h5&gt;
+&lt;p&gt;Multiplica pela altura e divide por 5 ou 5,6. Ou ainda multiplica a altura por 5,6 e divide por 30.&lt;/p&gt;
+&lt;h5 id=&#34;ponto-de-beclard&#34;&gt;Ponto de Beclard&lt;/h5&gt;
+&lt;p&gt;É localizado na epífise distal do fêmur dos fetos.&lt;/p&gt;
+&lt;h5 id=&#34;told&#34;&gt;Told&lt;/h5&gt;
+&lt;h5 id=&#34;olivier-e-pinaud&#34;&gt;Olivier e Pinaud&lt;/h5&gt;
+&lt;h5 id=&#34;balthazard&#34;&gt;Balthazard&lt;/h5&gt;
+&lt;h5 id=&#34;dervieux&#34;&gt;Dervieux.&lt;/h5&gt;
 &lt;h2 id=&#34;infanticídio&#34;&gt;Infanticídio&lt;/h2&gt;
 &lt;h3 id=&#34;puerpério-puérpera-e-estado-puerperal&#34;&gt;Puerpério, puérpera e estado puerperal&lt;/h3&gt;
 &lt;p&gt;O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.&lt;/p&gt;
+&lt;h2 id=&#34;aborto-ou-infanticídio&#34;&gt;Aborto ou infanticídio?&lt;/h2&gt;
+&lt;h3 id=&#34;docimásias-do-recém-nascido&#34;&gt;Docimásias do recém-nascido&lt;/h3&gt;
+&lt;p&gt;As docimásias são importantes meios de constatação de momento de morte do produto de aborto ou da vítima de infanticídio.&lt;/p&gt;
+&lt;p&gt;Porém, é importante que se tenha em mente que inúmeros fatores podem afetar as docimásias, como morte em meio a substâncias estranhas, tentativas de reanimação, congelamento e a própria putrefação &lt;mark&gt;influenciam&lt;/mark&gt; os exames.&lt;/p&gt;
+&lt;h4 id=&#34;hidrostática-de-galeno&#34;&gt;Hidrostática de Galeno&lt;/h4&gt;
+&lt;p&gt;A mais tradicional docimásia.&lt;/p&gt;
+&lt;h5 id=&#34;fase-1&#34;&gt;Fase 1&lt;/h5&gt;
+&lt;p&gt;Abertura da cavidade torácico-abdominal, aproveitando o bloco constituído de pulmões, traqueia, laringe, faringe, língua, timo e coração. Coloca-se em um recipiente com água. Se flutuarem por inteiro ou um pouco, a fase é positiva. Se não, deve-se passar para a segunda fase.&lt;/p&gt;
+&lt;h5 id=&#34;fase-2&#34;&gt;Fase 2&lt;/h5&gt;
+&lt;p&gt;Se o bloco se manter no fundo do vaso, separam-se os pulmões e retira os demais órgãos do recipiente. Se flutuar, houve respiração. Se não, parte-se para a terceira fase.&lt;/p&gt;
+&lt;h5 id=&#34;fase-3&#34;&gt;Fase 3&lt;/h5&gt;
+&lt;p&gt;Com os pulmões no fundo do recipiente, secciona-se os pulmões em lobos e analisa o comportamento. Se os pedaços flutuarem, houve respiração. Se não, passa para a quarta fase.&lt;/p&gt;
+&lt;h5 id=&#34;fase-4&#34;&gt;Fase 4&lt;/h5&gt;
+&lt;p&gt;Pega-se alguns desses fragmentos comprimindo-os entre os dedos e a parede do recipiente. Se houver o desprendimento de bolhas de ar e formação de espuma, houve respiração.&lt;/p&gt;
+&lt;h4 id=&#34;docimasia-histológica-de-lebrun-e-filippi-puppe-balthazard-ou-bouchut-tamassia&#34;&gt;Docimasia histológica de Lebrun e Filippi-Puppe-Balthazard ou Bouchut-Tamassia.&lt;/h4&gt;
+&lt;p&gt;Balthazar e Lebrun foram os primeiros a propor o estudo histológico rotineiro de cortes de pulmão para o diagnóstico de vida extrauterina.&lt;/p&gt;
+&lt;p&gt;É a prova considerada mais complexa e padrão ouro. É o exame &lt;mark&gt;microscópico&lt;/mark&gt;. Pode ser realizada até em pulmão putrefeito, uma vez que a respiração de fato produz padrão histológico característico, diferente dos gases de putrefação.&lt;/p&gt;
+&lt;h4 id=&#34;docimasia-diafragmática-de-ploquet&#34;&gt;Docimasia diafragmática de Ploquet&lt;/h4&gt;
+&lt;p&gt;Se o feto não respirou, as cúpulas estão convexas em direção ao tórax. Se o feto respirou, as cúpulas estarão menos convexas, mais planas porque foram empurradas pelos pulmões.&lt;/p&gt;
+&lt;h4 id=&#34;docimasia-radiológica-de-bordas&#34;&gt;Docimasia radiológica de Bordas&lt;/h4&gt;
+&lt;p&gt;O fundamento desta prova é a observação da maior opacidade da radiografia dos pulmões que não respiraram.&lt;/p&gt;
+&lt;h4 id=&#34;docimasia-táctil-de-nerio-rojas&#34;&gt;Docimasia táctil de Nerio Rojas&lt;/h4&gt;
+&lt;p&gt;É possível sentir no pulmão que respirou, pela palpação, um crepitar característico e a sensação esponjosa. No pulmão que não respirou, é possível sentir uma consistência carnosa.&lt;/p&gt;
+&lt;h4 id=&#34;docimasia-visual-de-bouchut-casper&#34;&gt;Docimasia visual de Bouchut-Casper&lt;/h4&gt;
+&lt;p&gt;É a simples inspeção do pulmão examinado, analisando-se o seu desenho. Se houve respiração, a amostra vai apresentar o desenho de mosaico alveolar&lt;/p&gt;
+&lt;h4 id=&#34;docimasias-de-icard&#34;&gt;Docimasias de Icard&lt;/h4&gt;
+&lt;p&gt;Icard propôs diversas docimásias, são elas:&lt;/p&gt;
+&lt;h5 id=&#34;hidrostática&#34;&gt;Hidrostática&lt;/h5&gt;
+&lt;p&gt;Pode ser feita por aspiração, colocando-se um pedaço do pulmão em água e, em seguida, realiza-se sucção com seringa. Se o pedaço sobe, significa teste positivo.&lt;/p&gt;
+&lt;p&gt;Também pode ser realizada por imersão, quando parte do pulmão que respirou é colocado em água quente, o que provoca a dilatação dos alvéolos e a amostra acabará flutuando, por força da dilatação do ar pelo calor.&lt;/p&gt;
+&lt;h5 id=&#34;física&#34;&gt;Física&lt;/h5&gt;
+&lt;p&gt;O feto é colocado sob a água e fura-se os espaços intercostais, verificando se saem bolhas.&lt;/p&gt;
+&lt;h5 id=&#34;óptica&#34;&gt;Óptica&lt;/h5&gt;
+&lt;p&gt;Ocorre através de pequenos cortes do pulmão. Os pedaços são colocados entre duas lâminas de vidro e esmagados. Se houve respiração, saem bolhas.&lt;/p&gt;
+&lt;h5 id=&#34;química&#34;&gt;Química&lt;/h5&gt;
+&lt;p&gt;O observador mergulha um fragmento do pulmão, lavado em álcool puro dentro de uma solução de hidróxido de potássio. O fragmento deve ficar preso ao fundo do vaso. Se houve respiração, o parênquima é destruído pelo líquido, desprendendo bolhas.&lt;/p&gt;
+&lt;h4 id=&#34;docimasias-extrapulmonares&#34;&gt;Docimasias extrapulmonares&lt;/h4&gt;
+&lt;h5 id=&#34;docimasia-gastrointestinal-de-breslau&#34;&gt;Docimasia gastrointestinal de Breslau&lt;/h5&gt;
+&lt;p&gt;Deve ser observado o comportamento da amostra composta pelo esôfago, estômago, intestino delgado e o intestino grosso, quando mergulhada, em água, similar a docimásia de Galeno, porém para os órgãos gastrointestinais. Só tem valor quando o cadáver recuperado não permite análise dos órgãos torácicos.&lt;/p&gt;
+&lt;h5 id=&#34;docimasia-de-mirto&#34;&gt;Docimasia de Mirto&lt;/h5&gt;
+&lt;p&gt;Verifica a presença de mielina no nervo óptico.  Significa mais de 12 horas de vida.&lt;/p&gt;
+&lt;h5 id=&#34;docimasia-auricular-de-vreden-wendt-gelé&#34;&gt;Docimasia auricular de Vreden-Wendt-Gelé&lt;/h5&gt;
+&lt;p&gt;Verifica a presença de ar no ouvido médio.&lt;/p&gt;
+&lt;h5 id=&#34;docimasia-siálica-de-souza-dinitz&#34;&gt;Docimasia siálica de Souza Dinitz&lt;/h5&gt;
+&lt;p&gt;Verifica a presença de saliva no estômago.&lt;/p&gt;
+&lt;h5 id=&#34;docimasias-circulatórias&#34;&gt;Docimasias circulatórias&lt;/h5&gt;
+&lt;p&gt;Podem ser retratadas através dos batimentos do cordão umbilical, do coração, bossa serosa occipital ou tumor do parto.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
@@ -401,7 +594,33 @@ com --&gt; conced(Conceder liberdade provisória)
 		<guid>https://www.jeffersontorres.com.br/medicina/medicina-legal/id-antropologica/</guid>
 		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
 
-&lt;h2 id=&#34;elementos-anatômicos&#34;&gt;Elementos anatômicos&lt;/h2&gt;
+&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
+&lt;p&gt;A antropologia forense estuda identidade e a identificação, os métodos, processos e técnicas envolvidas.&lt;/p&gt;
+&lt;h3 id=&#34;identidade&#34;&gt;Identidade&lt;/h3&gt;
+&lt;p&gt;Para a biologia, identidade é o conjunto de propriedades e características que individualiza um ser vivo. Para a antropologia, também, com a importante consequência dos efeitos jurídicos decorrentes da individualidade, ou seja, a capacidade jurídica de produzir efeitos, sofrer responsabilizações e portar direitos.&lt;/p&gt;
+&lt;h3 id=&#34;identificação&#34;&gt;Identificação&lt;/h3&gt;
+&lt;p&gt;A identificação é o processo de identificar.&lt;/p&gt;
+&lt;p&gt;Para a medicina e antropologia legal, trata-se de construir a identidade do espécime, tornando-o único.&lt;/p&gt;
+&lt;h2 id=&#34;a-identificação-policial-ou-judiciária&#34;&gt;A identificação policial ou judiciária&lt;/h2&gt;
+&lt;p&gt;São realizadas em sede de juízo por peritos jurídicos ou de polícia científica através de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assinalamento sucinto&lt;/li&gt;
+&lt;li&gt;Fotografia simples e sinaléptica&lt;/li&gt;
+&lt;li&gt;Sistema datiloscópio&lt;/li&gt;
+&lt;li&gt;Retrato falado&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a-identificação-médico-legal&#34;&gt;A identificação médico-legal&lt;/h2&gt;
+&lt;p&gt;Realizados por peritos antropólogos e médicos legistas para identificar:
+Espécie, geralmente pelos ossos e sangue.
+Raça, e.g. pelo crânio.
+Sexo pela pelve e crânio, principalmente.
+Idade, de forma preferencial pela radiografia do punho.
+Estatura, quase sempre pelos comprimentos dos ossos longos.
+Individualidade pelos dentes, quando estes puderem ser confrontados com dados anteriores, ou pelo padrão ouro, o DNA¹.&lt;/p&gt;
+&lt;p&gt;Para a Interpol a identificação &lt;mark&gt;primária&lt;/mark&gt; é feita por papiloscopia, odontologia legal (estomatognático) e DNA. Demais métodos são &lt;mark&gt;secundários&lt;/mark&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;bertilhonagem&#34;&gt;Bertilhonagem&lt;/h2&gt;
+&lt;p&gt;Trata-se da identificação pela antropometria. As medidas humanas guardam relação com sexo, raça, idade, estatura etc.&lt;/p&gt;
+&lt;p&gt;O mais clássico exemplo é a diferenciação de sexo através das medidas gerais ou específicas de ossos humanos.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -503,8 +722,18 @@ com --&gt; conced(Conceder liberdade provisória)
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;sistema-datiloscópico-de-vucetich&#34;&gt;Sistema datiloscópico de Vucetich&lt;/h2&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;craniômetro-de-galvão&#34;&gt;Craniômetro de Galvão&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h2 id=&#34;sistema-datiloscópico-de-vucetich&#34;&gt;Sistema datiloscópico de Vucetich&lt;/h2&gt;
+&lt;p&gt;Amputação de um dedo é assinalada com número 0 (zero).
+Em breve.&lt;/p&gt;
+&lt;h2 id=&#34;fotografia-sinaléptica&#34;&gt;Fotografia sinaléptica&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;O DNA pode identificar a pessoa de forma precisa mesmo sem levantar todas suas características, pelo chamado DNA não recombinante. Trata-se de porções do DNA que são únicas de cada pessoa mas não codificam proteínas, ou seja, não possibilitam pormenorizar características pessoais, doenças etc.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -608,6 +837,9 @@ com --&gt; conced(Conceder liberdade provisória)
 &lt;h2 id=&#34;embriaguez&#34;&gt;Embriaguez&lt;/h2&gt;
 &lt;p&gt;O álcool é um depressor do SNC. Porém, a embriaguez é um fenômeno complexo e deve ser enxergado como um contínuo de fases que dependem da velocidade do consumo, da ingesta alimentar, do humor basal, da capacidade metabólica, do sexo, da idade e das comorbidades do embriagado.&lt;/p&gt;
 &lt;p&gt;Apesar dos efeitos depressores, o uso de etanol pode provocar uma hiperexcitabilidade adaptativa nos neurônios afetados, resultando notadamente em tremores, insônia pós-embriaguez etc.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Muitos continuam defendendo a dosagem bioquímica do álcool, principalmente no sangue, como o parâmetro mais prático, mais eficaz e mais confiável para se determinar uma embriaguez. E até adiantam que, salvo algumas variações, essas cifras estariam entre 0,6 e 2,0 g/1.000 ml. Todavia, entendemos que mais importante do que determinar uma taxa de álcool no sangue, na urina ou no ar expirado é caracterizar as manifestações clínicas de uma embriaguez⁸.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;formas-de-embriaguez-1&#34;&gt;Formas de embriaguez [1]&lt;/h3&gt;
 &lt;h4 id=&#34;culposa&#34;&gt;Culposa&lt;/h4&gt;
 &lt;p&gt;Decorre da imprudência ou negligência ao beber de forma exagerada. No entanto, não isenta de responsabilidade;&lt;/p&gt;
@@ -704,6 +936,7 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;li&gt;Jellinek, E. M.&lt;strong&gt;The disease concept of alcoholism&lt;/strong&gt;. Hillhouse. 1960.&lt;/li&gt;
 &lt;li&gt;GLATT, M.M. (1958), &lt;strong&gt;Group therapy in alcoholism&lt;/strong&gt;. British Journal of Addiction to Alcohol &amp;amp; Other Drugs, 54: 133-148. &lt;a href=&#34;https://doi.org/10.1111/j.1360-0443.1958.tb04266.x&#34;&gt;https://doi.org/10.1111/j.1360-0443.1958.tb04266.x&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Jellinek EM. &lt;strong&gt;Alcoholism: A genus and some of its species&lt;/strong&gt;. Canadian Medical Association Journal. 1960a;83:1341–1345.&lt;/li&gt;
+&lt;li&gt;FRANÇA, Genival Veloso de. &lt;strong&gt;Medicina Legal&lt;/strong&gt;. Editora Guanabara Koogan, 10ª edição, 2015, p. 880.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -741,6 +974,26 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;/div&gt;
 
 &lt;h2 id=&#34;fases-da-asfixia&#34;&gt;Fases da asfixia&lt;/h2&gt;
+&lt;p&gt;1ª fase: cerebral&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta)
+1 a 2 minutos
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;2ª fase: excitação cortical e medular&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Convulsões generalizadas, contrações dos músculos respiratórios e da face, emissão de matéria fecal/urina (relaxamento dos esfíncteres), bradicardia (batimento cardíaco lento) e diminuição da pressão arterial
+ 1 a 2 minutos
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;3ª fase: respiratória&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Movimentos respiratórios lentos e superficiais
+ Insuficiência ventricular direita
+ Acelera a morte
+1 a 2 minutos
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;4ª fase: cardíaca&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; Sofrimento do miocárdio: batimentos do coração lentos, arrítmicos, quase imperceptíveis ao pulso
+ 3 a 5 minutos
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Fonte: Genival Veloso.&lt;/p&gt;
+&lt;h2 id=&#34;fases-do-afogamento&#34;&gt;Fases do afogamento&lt;/h2&gt;
 &lt;h3 id=&#34;defesa-ou-resistência&#34;&gt;Defesa ou Resistência&lt;/h3&gt;
 &lt;p&gt;A vítima tenta conter a respiração o máximo possível, ocorrendo a contenção e a pausa ou &lt;strong&gt;apneia&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;exaustão&#34;&gt;Exaustão&lt;/h3&gt;
@@ -748,11 +1001,20 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;h3 id=&#34;asfixia-propriamente-dita&#34;&gt;Asfixia propriamente dita&lt;/h3&gt;
 &lt;p&gt;Perda da consciência, convulsões e morte.&lt;/p&gt;
 &lt;h2 id=&#34;típicos-sinais-asfíxicos&#34;&gt;Típicos sinais asfíxicos&lt;/h2&gt;
+&lt;p&gt;Na morte por asfixia, o sangue do indivíduo é fluido e de cor negra; com exceção daqueles que sucumbiram sob o efeito do monóxido de carbono, cujo sangue apresenta a cor vermelho vivo, e dos afogados que ingeriram grande quantidade de líquido, cujo sangue apresenta a cor rosada.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cianose da face e leitos ungueais.&lt;/li&gt;
 &lt;li&gt;Espuma na boca e narinas.&lt;/li&gt;
 &lt;li&gt;Equimoses externas.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;anóxias&#34;&gt;Anóxias&lt;/h2&gt;
+&lt;h3 id=&#34;anóxica&#34;&gt;Anóxica&lt;/h3&gt;
+&lt;h4 id=&#34;enforcamento&#34;&gt;Enforcamento&lt;/h4&gt;
+&lt;p&gt;O osso hioide pode estar íntegro.&lt;/p&gt;
+&lt;h4 id=&#34;afogamento&#34;&gt;Afogamento&lt;/h4&gt;
+&lt;h3 id=&#34;anêmica&#34;&gt;Anêmica&lt;/h3&gt;
+&lt;h3 id=&#34;estase&#34;&gt;Estase&lt;/h3&gt;
+&lt;h3 id=&#34;histotóxica&#34;&gt;Histotóxica&lt;/h3&gt;
 </description>
 	</item>
 	
@@ -3088,7 +3350,6 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;operacional-na-ses-df&#34;&gt;Operacional na SES-DF&lt;/h2&gt;
 &lt;p&gt;Para detalhes de dispensação, documentos e responsáveis, visite a referência 2 no fim da página.
-&lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;hr&gt;

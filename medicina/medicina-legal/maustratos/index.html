@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
   
   <script>
@@ -16,12 +16,13 @@
 
   
 
-  <title>nutrição | Jefferson T.</title>
-  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
-  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
-  <link rel='stylesheet' type='text/css' href='../../style.css'>
-  <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <title>maustratos | Jefferson T.</title>
+  <link rel="canonical" href="http://localhost:1313/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../../style.css'>
+  <link rel="icon" href="../../../favicon.webp">
+  <meta name="description" content="Síndrome da criança maltratada ou battered child syndrome Descrever as lesões quanto à forma, ao tipo, à localização e ao número. Realizar estudo radiológico para verificar fraturas e calcificações ósseas em diferentes estágios. Realizar a entrevista, sempre que possível sem o responsável. Verificar a escassez de tecido subcutâneo relacionado à privação de alimento. Verificar presença de infestações de parasitas relacionada à negligência.
+Hematoma subperiósteo.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -95,14 +96,16 @@
 
   <div class="barra">
       <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-      <a href="../../index.html" id="indexlink" alt="início">início</a>
-      <a href="../../files/index.html" alt="files">arquivos</a>
-      <a href="../../tags/projetos/index.html" alt="tools">tools</a> 
+      <a href="../../../index.html" id="indexlink" alt="início">início</a>
+      <a href="../../../files/index.html" alt="files">arquivos</a>
+      <a href="../../../tags/projetos/index.html" alt="tools">tools</a> 
   
   </div>
 <article>
 <br>
 <br>
+
+  <h1>maustratos</h1>
 
 <script>
   
@@ -195,49 +198,15 @@
 
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
+  <h2 id="síndrome-da-criança-maltratada-ou-ibattered-child-syndromei">Síndrome da criança maltratada ou <i>battered child syndrome</i></h2>
+<p>Descrever as lesões quanto à forma, ao tipo, à localização e ao número.
+Realizar estudo radiológico para verificar fraturas e calcificações ósseas em diferentes estágios.
+Realizar a entrevista, sempre que possível sem o responsável.
+Verificar a escassez de tecido subcutâneo relacionado à privação de alimento.
+Verificar presença de infestações de parasitas relacionada à negligência.</p>
+<p>Hematoma subperiósteo.</p>
 
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  
-  
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  if (autor.length > 1){
-    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    console.log(autor)
-  }
-})
-.catch(error => console.error('Erro ao buscar o JSON:', error));
 
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-<div> 
-  <p class="frase" id="frase"></p> 
-  <div id="autor"></div>
-  <br>
-</div>
-
-<ul class="listing-list">
-<li>
-	<a href="../../medicina/anemias/">Anemias: investigação e tratamento</a>
-	
-	</li>
-</ul>
 
   
 

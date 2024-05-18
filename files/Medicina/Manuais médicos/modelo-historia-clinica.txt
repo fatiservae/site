@@ -1,3 +1,5 @@
+TEMPLATE DE HISTÓRIA CLÍNICA COM EXAME FÍSICO NORMAL
+
 - Queixa principal:
 
 - História da doença atual:
@@ -5,13 +7,28 @@
 - Antecedentes:
 
 - Exame físico:
-Pessoa em bom estado geral, normocorada, anictérica, acianótica.
+MASCULINO
+Bom estado geral, normocorado, anictérico e acianótico.
+Orientado no tempo e no espaço. Comunicante. 
+
+FEMININO
+Bom estado geral, normocorada, anictérica e acianótica.
 Orientada no tempo e no espaço. Comunicante. 
+
+RECÉM NASCIDO
+Criança em bom estado geral, normocorada, anictérica e acianótica.
+Sem choro e aceita o exame.
+
+CRIANÇA
+Criança em bom estado geral, normocorada, anictérica e acianótica.
+Contatctuante, mantém contato visual e colaborativa ao exame.
+
 Pressão arterial: mmHg. Saturação periférica: %.
 Frequência cardíaca: Frequência respiratória: .
 Cabeça: sem abaulamentos e retrações, móvel e sem rigidez de nuca.
 Face simétrica e atípica. Mímica preservada. 
 Olhos: simétricos, reflexo protetivo e pupilar bilateralmente presentes.
+Orofaringe: sem secreções e hiperemia de mucosas oral e faríngea, tonsilas e pilares sem edema. Úvula centralizada, sem sinais flogísticos.
 Cadeias linfonodais occiptais, cervicais e infra e supraclaviculares: palpação sem evidência de linfonodomegalias.
 Ictus cordis não perceptível.
 Ausculta cardíaca mostra bulhas cardíacas normais, em dois tempos, sem bulhas ou outros ruídos adicionais.

@@ -15,13 +15,72 @@
   </script>
 
   
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === '0') { 
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            cScale0: '#ffdead', 
+            cScaleLabel0: '#282828',
+            cScale1: '#a0acb9',
+            cScaleLabel1: '#000000', 
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#262626',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
+      mermaid.initialize({ 
+          'theme': 'base',
+          'timeline': {'disableMulticolor': true},
+          'themeVariables': {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#ffdead',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '4' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': 'white',
+            'tertiaryColor': '#fff'
+          }
+      });
+    }
+    </script>
+  
 
-  <title>nutrição | Jefferson T.</title>
+  <title>Abuso de autoridade: lei 13.869/2019 esquematizada | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <meta name="description" content="graph TD; 0(Abuso) --&gt; 3(Excesso de poder); 0 --&gt; 4(Desvio de poder); 1(Penas) --&gt; 9(Detenção); 3 --&gt; 1; 4 --&gt; 1; 1 --&gt; 10(Reclusão para a
+interceptação telemática
+sem autorização); 10 --&gt; 2; 9 --&gt; 2; 2(Efeitos adicionais
+da condenação) --&gt; 5(Indenização); 2 --&gt; 6(Condicionados
+a reincidência) --&gt; 7(Perda do cargo e/ou função); 6 --&gt; 8(Inabilitação
+de 1 a 5 anos
+para exercer
+cargo ou função pública); Bibliografia BRASIL. Lei 13.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -103,6 +162,8 @@
 <article>
 <br>
 <br>
+
+  <h1>Abuso de autoridade: lei 13.869/2019 esquematizada</h1>
 
 <script>
   
@@ -195,49 +256,27 @@
 
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
+  <pre class="mermaid">graph TD;
+0(Abuso) --> 3(Excesso de poder);
+0 --> 4(Desvio de poder);
+1(Penas) --> 9(Detenção); 
+3 --> 1;
+4 --> 1;
+1 --> 10(Reclusão para a<br>interceptação telemática<br>sem autorização);
+10 --> 2;
+9 --> 2;
+2(Efeitos adicionais<br>da condenação) --> 5(Indenização);
+2 --> 6(Condicionados<br>a reincidência) --> 7(Perda do cargo e/ou função);
+6 --> 8(Inabilitação<br>de 1 a 5 anos<br> para exercer<br>cargo ou função pública);
+</pre>
 
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  
-  
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  if (autor.length > 1){
-    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    console.log(autor)
-  }
-})
-.catch(error => console.error('Erro ao buscar o JSON:', error));
+<hr>
+<h2 id="bibliografia">Bibliografia</h2>
+<ol>
+<li>BRASIL. <strong>Lei 13.869 de 5 de setembro de 2019</strong>. Brasília-DF. 2019.</li>
+</ol>
 
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-<div> 
-  <p class="frase" id="frase"></p> 
-  <div id="autor"></div>
-  <br>
-</div>
 
-<ul class="listing-list">
-<li>
-	<a href="../../medicina/anemias/">Anemias: investigação e tratamento</a>
-	
-	</li>
-</ul>
 
   
 

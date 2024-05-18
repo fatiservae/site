@@ -64,8 +64,12 @@ document.addEventListener("DOMContentLoaded", () => {
         let indexUnidades = posologia.unidades.length - 1;
         let dose = document.createElement('p');
 
-        dose.innerText += posologia.via+" - ";
-
+        dose.style.color = "var(--termo)";
+        dose.style.background = "var(--vidro)";
+        dose.style.borderRadius = "var(--raioBordas)";
+        dose.style.padding = "5px";
+        dose.style.width = "fit-content";
+        dose.style.border = "var(--bordas)";
         for (var i = 0; i < posologia.unidades.length; i++)
         {
           if (i != 0)
@@ -79,11 +83,20 @@ document.addEventListener("DOMContentLoaded", () => {
           {
               dosagem = '';
           }
-          dose.innerText += dosagem+posologia.unidades[i];
+          dose.innerHTML += dosagem+posologia.unidades[i];
           indexUnidades--
         };
-        let instrucao = posologia.instrucao === undefined ? '' : " - "+posologia.instrucao;
-        dose.innerText += instrucao;
+
+        //dose.innerHTML += " "+posologia.via;
+
+        let instrucao = document.createElement('p');
+        instrucao.style.color = "var(--fonte)";
+        instrucao.style.margin = "0px";
+        instrucao.className = "primeiraMaiuscula";
+        instrucao.innerHTML = posologia.instrucao === undefined ? '' :
+                              posologia.instrucao;
+
+        dose.appendChild(instrucao);
         atb.appendChild(dose);
       });
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
   
   <script>
@@ -16,12 +16,14 @@
 
   
 
-  <title>nutrição | Jefferson T.</title>
-  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <title>Mandamentos legais brasileiros da autópsia | Jefferson T.</title>
+  <link rel="canonical" href="http://localhost:1313/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <meta name="description" content="A autópsia se justifica por motivos médico-legais em toda morte violenta, suspeita, natural não assistida e quando houve internação hospitalar e morte em menos de 24 horas, sem que tenha sido estabelecido um diagnóstico.
+Morte em hospital psiquiátrico A morte ocorrida em hospital psiquiátrico embaça as situações de análise, mesmo que todas causas apontem para naturalidade da morte, uma vez que muitos medicamentos psiquiátricos tem capacidade de, sozinhos ou em conjunto, simularem e mascararem uma morte criminosa.">
+  <meta name="keywords" content="medicina, perícias, penal">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -103,6 +105,8 @@
 <article>
 <br>
 <br>
+
+  <h1>Mandamentos legais brasileiros da autópsia</h1>
 
 <script>
   
@@ -195,51 +199,31 @@
 
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
+  <p>A autópsia se justifica por motivos médico-legais em toda morte violenta, suspeita, natural não assistida e quando houve internação hospitalar e morte em menos de 24 horas, sem que tenha sido estabelecido um diagnóstico.</p>
+<h3 id="morte-em-hospital-psiquiátrico">Morte em hospital psiquiátrico</h3>
+<p>A morte ocorrida em hospital psiquiátrico embaça as situações de análise, mesmo que todas causas apontem para naturalidade da morte, uma vez que muitos medicamentos psiquiátricos tem capacidade de, sozinhos ou em conjunto, simularem e mascararem uma morte criminosa. De toda maneira, até mesmo o relato testemunhal desta circustância pode ser não confiável.</p>
+<h2 id="critérios-legais">Critérios legais</h2>
+<p>A autópsia só deve ser iniciada se o embaraço burocrático do cadáver estiver resolvido, notadamente a identificação feita por etiqueta em hálux direito ou bracelete com, pelo menos, nome completo.</p>
+<pre tabindex="0"><code>Código de Processo Penal 
+Art. 162. A autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes daquele prazo, o que declararão no auto. 
 
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  
-  
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  if (autor.length > 1){
-    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    console.log(autor)
-  }
-})
-.catch(error => console.error('Erro ao buscar o JSON:', error));
+Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo do cadáver, quando não houver infração penal que apurar, ou quando as lesões externas permitirem precisar a causa da morte e não houver necessidade de exame interno para a verificação de alguma circunstância relevante.
+</code></pre><h2 id="técnicas-de-autópsia">Técnicas de autópsia</h2>
+<h3 id="ghon-eou-letulle">Ghon e/ou Letulle</h3>
+<p>A técnica de Ghon caracteriza-se por conservar a relação existente entre os órgãos, já que esses são retirados em blocos, por sistemas.</p>
+<p>Quando adotado o estudo dos órgãos pelo método de Ghon ou Letulle haverá a extração dor órgãos em blocos &mdash; cervicais, torácicos, abdominais e geniturinários separadamente &mdash; ou em monobloco, a.k.a. “em massa”.</p>
+<h3 id="rokitansky">Rokitansky</h3>
+<p>Mantém os órgãos &ndash; oração do cadáver</p>
+<h3 id="virchow">Virchow</h3>
+<p>Todos os órgãos são retirados individualmente.</p>
 
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-<div> 
-  <p class="frase" id="frase"></p> 
-  <div id="autor"></div>
+
+
   <br>
-</div>
-
-<ul class="listing-list">
-<li>
-	<a href="../../medicina/anemias/">Anemias: investigação e tratamento</a>
-	
-	</li>
-</ul>
-
-  
+        <div style="" class=taglist> 
+                <a id="tag_medicina" href="http://localhost:1313/tags/medicina">medicina</a> &middot;  
+                <a id="tag_perícias" href="http://localhost:1313/tags/per%C3%ADcias">perícias</a> &middot;  
+                <a id="tag_penal" href="http://localhost:1313/tags/penal">penal</a></div>
 
 
 
