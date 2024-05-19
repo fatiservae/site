@@ -93,13 +93,46 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
           scrollbar.style.display = 'none'; 
       }, 2000); 
   });
+
 </script>
 
   <div class="barra">
-      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-      <a href="../../../index.html" id="indexlink" alt="início">início</a>
-      <a href="../../../files/index.html" alt="files">arquivos</a>
-      <a href="../../../tags/projetos/index.html" alt="tools">tools</a> 
+      <select id=menu>
+        <option>páginas</option>
+        <option value="/index.html">início</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+        <option value="/tags/programação/">programação</option>
+        <option value="/tags/filosofia/">filosofia</option>
+        <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/estoicismo/">estoicismo</option>
+        <option value="/tags/destinos/">destinos</option>
+        <option value="/tags/culinária/">culinária</option>
+      </select>
+      <script>
+             document.getElementById("menu").addEventListener('change', function() {
+               let selectedPage = this.value;
+               window.location.href = selectedPage; 
+             });
+      </script>
+      <select id="temas-seletor">
+        <option>temas</option>
+        <option value=0>noturno</option>
+        <option value=1>árido</option>
+        <option value=2>café</option>
+        <option value=3>comics</option>
+        <option value=4>papel</option>
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+        });
+      </script>
+
   
   </div>
 <article>
@@ -110,6 +143,7 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
 
 <script>
   
+
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
   const inicio = document.getElementById("indexlink");
@@ -160,33 +194,34 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
     lighswitch.innerHTML = 'papel' ;
   }
 
-  function alternarTema() {
+  function alternarTema(tema) {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === '0') {
-      lighswitch.innerHTML = 'árido'
-      document.documentElement.setAttribute('data-tema', '1');
-      localStorage.setItem('tema', '1'); 
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
 
-    } else if (temaAtual === '1') {
-      lighswitch.innerHTML = 'café'
-      document.documentElement.setAttribute('data-tema', '2');
-      localStorage.setItem('tema', '2'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '2') {
-      document.documentElement.setAttribute('data-tema', '3');
-      lighswitch.innerHTML = 'comics' ;
-      localStorage.setItem('tema', '3'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '3') {
-      lighswitch.innerHTML = 'papel'
-      document.documentElement.setAttribute('data-tema', '4');
-      localStorage.setItem('tema', '4'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noturno'
-      document.documentElement.setAttribute('data-tema', '0');
-      localStorage.setItem('tema', '0'); 
-    }
+    
+    
+    
+    
+    
 
     const mermaidTags = document.querySelectorAll('pre.mermaid');
     if (mermaidTags.length > 0) {
@@ -213,6 +248,7 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
       <ul>
         <li><a href="#lesões-incisas-puntiformes-e-outras-decorrentes-de-instrumentos-diversos">Lesões incisas, puntiformes e outras decorrentes de instrumentos diversos</a></li>
         <li><a href="#lesões-por-arma-de-fogo">Lesões por arma de fogo</a></li>
+        <li><a href="#fenômenos-diversos">Fenômenos diversos</a></li>
       </ul>
     </li>
     <li><a href="#energia-química">Energia química</a>
@@ -234,6 +270,7 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
     </li>
     <li><a href="#classificação-de-gravidade-legal-e-a-ação-penal">Classificação de gravidade legal e a ação penal</a></li>
     <li><a href="#notas">Notas</a></li>
+    <li><a href="#bibliografias">Bibliografias</a></li>
   </ul>
 </nav>
 
@@ -263,7 +300,7 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
 <li><strong>Lei de Langer ou polimorfismo</strong>: caso a lesão seja em local do corpo humano em que as fibras musculares atuem em mais de uma direção, as lesões terão aspecto estrelado, polimórfico (bizarras).</li>
 </ul>
 <h3 id="lesões-por-arma-de-fogo">Lesões por arma de fogo</h3>
-<p>A balística se subdivide em balística interna, externa e terminal. A interna estuda os mecanismos de disparo de projétil, a externa se debruça sobre a viagem dos projéteis e a terminal ou de efeitos se preocupa com a interação com os alvos. <strong>A traumatologia se importa com as balísticas externa e, principalmente a terminal</strong>.</p>
+<p>A balística se subdivide em balística interna, externa e terminal. A interna estuda os mecanismos de disparo de projétil, a externa se debruça sobre a viagem dos projéteis e a terminal ou de efeitos se preocupa com a interação com os alvos. <strong>A traumatologia se importa com a balística externa e principalmente a terminal</strong>.</p>
 <h4 id="trajeto-e-trajetória">Trajeto e trajetória</h4>
 <p>Trajeto é o caminho que o projétil faz no interior do corpo humano, enquanto que trajetória é o percurso entre a arma e a vítima. No trajeto, importa ao legista primordialmente entender como o projétil se comportou antes de acertar o alvo. Os moviemntos de nutação, rotação e báscula ou precessão são os de relevância, conforme ilustro abaixo.</p>
 <p>
@@ -325,6 +362,11 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
 <h4 id="características-do-orifício-de-saída">Características do orifício de saída</h4>
 <p>Regra geral, as lesões de saída possuem forma irregular, borda reviradas para fora, maior sangramento, além de não apresentarem os sinais apresentados acima.</p>
 <p>Há doutrinadores que afirmam que a lesão de saída pode apresentar uma orla de equimose se o tiro foi dado com a vítima encostada contra algum anteparo, por exemplo, no chão ou parede, pois, dessa forma, o projétil teria dificuldade para sair e acabaria gerando a escoriação.</p>
+<h3 id="fenômenos-diversos">Fenômenos diversos</h3>
+<h4 id="o-tiro-encaixado">O tiro encaixado</h4>
+<p>Trata-se de incomum possbilidade em que o último disparo resultou em projétil retido no cano que é empurrado por disparo mais atual e ambos são propelidos como projétil único ou separados. Podem, portanto, acarretar lesões diversas ou singular. Normalmente, a energia do disparo é menor.</p>
+<h4 id="lesão-óssea-em-fechadura">Lesão óssea em fechadura</h4>
+<p>Colisões de projétil em ângulos tangenciais produzem uma entrada oblíquoa no tecido ósseo, deixando um caminho de entrada normalmente descrito como buraco de fechadura.</p>
 <h2 id="energia-química">Energia química</h2>
 <p>Os cáusticos podem ser classificados como:</p>
 <p>Desidratante: ácido sulfúrico ou ventríolo, óxido de cálcio, hidróxido de sódio (soda cáustica em escamas) e hidróxido de potássio.</p>
@@ -368,7 +410,11 @@ Bases - liquefação ou liquefacientes.</p>
 <hr>
 <h2 id="notas">Notas</h2>
 <ol>
-<li>A doutrina está em progressivo abandono do termo <em>à queima roupa</em>.</li>
+<li>A doutrina está em progressivo abandono do termo <em>à queima roupa</em>. França ainda traz que, em se tratando de disparos à cerca de 10cm, este seria um termo adequado.</li>
+</ol>
+<h2 id="bibliografias">Bibliografias</h2>
+<ol>
+<li>FRANÇA, Genival Veloso de. <strong>Medicina Legal</strong>. Rio de Janeiro-RJ: Guanabara Koogan, p. 1207, 2017.</li>
 </ol>
 
 

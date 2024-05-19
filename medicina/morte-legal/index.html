@@ -75,7 +75,7 @@
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO Natureza da morte Súbita A morte súbita ocorre de forma inesperada, brusca e sem qualquer influência externa.
 Agônica Se arrasta por dias ou mais.
-Docimásias As docimásias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.
+Docimasias As docimasias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.
 Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais.">
   <meta name="keywords" content="medicina, direito, penal, ciência">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -147,13 +147,46 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
           scrollbar.style.display = 'none'; 
       }, 2000); 
   });
+
 </script>
 
   <div class="barra">
-      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-      <a href="../../index.html" id="indexlink" alt="início">início</a>
-      <a href="../../files/index.html" alt="files">arquivos</a>
-      <a href="../../tags/projetos/index.html" alt="tools">tools</a> 
+      <select id=menu>
+        <option>páginas</option>
+        <option value="/index.html">início</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+        <option value="/tags/programação/">programação</option>
+        <option value="/tags/filosofia/">filosofia</option>
+        <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/estoicismo/">estoicismo</option>
+        <option value="/tags/destinos/">destinos</option>
+        <option value="/tags/culinária/">culinária</option>
+      </select>
+      <script>
+             document.getElementById("menu").addEventListener('change', function() {
+               let selectedPage = this.value;
+               window.location.href = selectedPage; 
+             });
+      </script>
+      <select id="temas-seletor">
+        <option>temas</option>
+        <option value=0>noturno</option>
+        <option value=1>árido</option>
+        <option value=2>café</option>
+        <option value=3>comics</option>
+        <option value=4>papel</option>
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+        });
+      </script>
+
   
   </div>
 <article>
@@ -164,6 +197,7 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 
 <script>
   
+
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
   const inicio = document.getElementById("indexlink");
@@ -214,33 +248,34 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
     lighswitch.innerHTML = 'papel' ;
   }
 
-  function alternarTema() {
+  function alternarTema(tema) {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === '0') {
-      lighswitch.innerHTML = 'árido'
-      document.documentElement.setAttribute('data-tema', '1');
-      localStorage.setItem('tema', '1'); 
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
 
-    } else if (temaAtual === '1') {
-      lighswitch.innerHTML = 'café'
-      document.documentElement.setAttribute('data-tema', '2');
-      localStorage.setItem('tema', '2'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '2') {
-      document.documentElement.setAttribute('data-tema', '3');
-      lighswitch.innerHTML = 'comics' ;
-      localStorage.setItem('tema', '3'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '3') {
-      lighswitch.innerHTML = 'papel'
-      document.documentElement.setAttribute('data-tema', '4');
-      localStorage.setItem('tema', '4'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noturno'
-      document.documentElement.setAttribute('data-tema', '0');
-      localStorage.setItem('tema', '0'); 
-    }
+    
+    
+    
+    
+    
 
     const mermaidTags = document.querySelectorAll('pre.mermaid');
     if (mermaidTags.length > 0) {
@@ -257,7 +292,8 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
     <li><a href="#súbita">Súbita</a></li>
     <li><a href="#agônica">Agônica</a>
       <ul>
-        <li><a href="#docimásias">Docimásias</a></li>
+        <li><a href="#docimasias">Docimasias</a></li>
+        <li><a href="#prova-de-verderau">Prova de Verderau</a></li>
       </ul>
     </li>
     <li><a href="#fenômenos-abióticos-avitais-ou-vitais-negativos">Fenômenos abióticos, avitais ou vitais negativos</a>
@@ -301,13 +337,15 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 <p>A morte súbita ocorre de forma inesperada, brusca e sem qualquer influência externa.</p>
 <h2 id="agônica">Agônica</h2>
 <p>Se arrasta por dias ou mais.</p>
-<h3 id="docimásias">Docimásias</h3>
-<p>As docimásias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.</p>
+<h3 id="docimasias">Docimasias</h3>
+<p>As docimasias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.</p>
 <h4 id="agônicas">Agônicas</h4>
 <p>Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais. A perícia, portanto, pode afastar a comoriência presumida.</p>
-<p>Especificamente a docimásia hepática foi estudada por Lacassagne e Martin.</p>
+<p>Especificamente a docimasia hepática foi estudada por Lacassagne e Martin.</p>
 <h4 id="do-recém-nascido">Do recém-nascido</h4>
 <p>Veja em <a href="../../medicina/aborto#docim%C3%A1sias-do-rec%C3%A9m-nascido">aborto</a>.</p>
+<h3 id="prova-de-verderau">Prova de Verderau</h3>
+<p>Compara-se a relação existente entre hemácias e leucócitos. A reação leucocitária só ocorre nos vivos. Os valores dependem de referências e dos diversos estados da vítima.</p>
 <h2 id="fenômenos-abióticos-avitais-ou-vitais-negativos">Fenômenos abióticos, avitais ou vitais negativos</h2>
 <p>Marcam ausência de vida.</p>
 <h3 id="imetiatos">Imetiatos</h3>
@@ -391,6 +429,7 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 <p>Os sais podem esterificar os compostos lipídicos do corpo, tornando-os saponificados, condição esta que prolonga a conservação de boa parte dos tecidos. O cadáver é quebradiço e de complexa manipulação. Alguns tecidos podem coalescer.</p>
 <h3 id="mumificação">Mumificação</h3>
 <h3 id="calcificação">Calcificação</h3>
+<p>A litotransformação é mais comum em cadáveres gravídicos em que o feto se torna petrificado, ou etmologicamente falando um <em>litopédio</em>.</p>
 <h3 id="corificação-ou-coreificação">Corificação ou coreificação</h3>
 <p>Fenômeno conservador descrito por Della Volta em 1985 muito raro encontrado em cadáveres que foram selados em urnas metálicas fechadas hermeticamente, principalmente de zinco.</p>
 <h2 id="fenômenos-destrutivos-do-cadáver">Fenômenos destrutivos do cadáver</h2>

@@ -1,5 +1,11 @@
 [
 	{
+		"autor" : "Lisa Simpson",
+		"citacoes": [
+			"... romance is dead. It was acquired in a hostile takeover by Hallmark and Disney, homogenized, and sold off piece by piece." 
+		]
+	},
+	{
 		"autor": "Rokitansky",
 		"citacoes": [
 			"Ao curvar-te com a lâmina rija de teu bisturi sobre o cadáver desconhecido, lembra-te que este corpo nasceu do amor de duas almas; cresceu embalado pela fé e esperança daquela que em seu seio o agasalhou, sorriu e sonhou os mesmos sonhos das crianças e dos jovens; por certo amou e foi amado e sentiu saudades dos outros que partiram, acalentou um amanhã feliz e agora jaz na fria lousa, sem que por ele tivesse derramado uma lágrima sequer, sem que tivesse uma só prece. Seu nome só Deus o sabe; mas o destino inexorável deu-lhe o poder e a grandeza de servir a humanidade que por ele passou indiferente."
@@ -13,7 +19,7 @@
 			"A medida do amor é amar sem medida.",
 			"Ninguém faz bem o que faz contra a vontade, mesmo que seja bom o que faz.",
 			"Se você crê somente naquilo de que gosta no evangelho e rejeita o de que não gosta, não é no evangelho que você crê, mas, sim, em si mesmo.",
-			"Não há dúvida de que a memória é como o ventre da alma. A alegria, porém, e a tristeza são o seu alimento, doce ou amargo.",
+			"Não há dúvida de que a memória é como o ventre da alma. Porém, a alegria e a tristeza são seus alimentos, o doce ou o amargo.",
 			"Creio para entender e entendo para crer."
 		]
 	},

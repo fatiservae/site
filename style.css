@@ -1779,8 +1779,8 @@ nav#TableOfContents li:last-child::before {
   */
   font-size: 110%;
   font-weight: normal;
+  padding: 2px;
   padding-left: 10px;
-  padding-right: 5px;
   border: var(--bordaLinksBarra);
   color: var(--link-barra);
   transition: border 500ms ease-in-out;
@@ -1824,6 +1824,16 @@ nav#TableOfContents li:last-child::before {
     */
     transition: background 0ms ease-in-out;
   }
+}
+.barra select, .barra button {
+  text-align: center;
+  font-size: 110%;
+  padding: 2px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.barra button {
+  padding-right: 10px
 }
 
 div#counter {

@@ -145,13 +145,46 @@ Porém, há o aparente conflito com o chamado pacote anti-crime que inclui reda�
           scrollbar.style.display = 'none'; 
       }, 2000); 
   });
+
 </script>
 
   <div class="barra">
-      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-      <a href="../../index.html" id="indexlink" alt="início">início</a>
-      <a href="../../files/index.html" alt="files">arquivos</a>
-      <a href="../../tags/projetos/index.html" alt="tools">tools</a> 
+      <select id=menu>
+        <option>páginas</option>
+        <option value="/index.html">início</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+        <option value="/tags/programação/">programação</option>
+        <option value="/tags/filosofia/">filosofia</option>
+        <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/estoicismo/">estoicismo</option>
+        <option value="/tags/destinos/">destinos</option>
+        <option value="/tags/culinária/">culinária</option>
+      </select>
+      <script>
+             document.getElementById("menu").addEventListener('change', function() {
+               let selectedPage = this.value;
+               window.location.href = selectedPage; 
+             });
+      </script>
+      <select id="temas-seletor">
+        <option>temas</option>
+        <option value=0>noturno</option>
+        <option value=1>árido</option>
+        <option value=2>café</option>
+        <option value=3>comics</option>
+        <option value=4>papel</option>
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+        });
+      </script>
+
   
   </div>
 <article>
@@ -162,6 +195,7 @@ Porém, há o aparente conflito com o chamado pacote anti-crime que inclui reda�
 
 <script>
   
+
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
   const inicio = document.getElementById("indexlink");
@@ -212,33 +246,34 @@ Porém, há o aparente conflito com o chamado pacote anti-crime que inclui reda�
     lighswitch.innerHTML = 'papel' ;
   }
 
-  function alternarTema() {
+  function alternarTema(tema) {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === '0') {
-      lighswitch.innerHTML = 'árido'
-      document.documentElement.setAttribute('data-tema', '1');
-      localStorage.setItem('tema', '1'); 
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
 
-    } else if (temaAtual === '1') {
-      lighswitch.innerHTML = 'café'
-      document.documentElement.setAttribute('data-tema', '2');
-      localStorage.setItem('tema', '2'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '2') {
-      document.documentElement.setAttribute('data-tema', '3');
-      lighswitch.innerHTML = 'comics' ;
-      localStorage.setItem('tema', '3'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '3') {
-      lighswitch.innerHTML = 'papel'
-      document.documentElement.setAttribute('data-tema', '4');
-      localStorage.setItem('tema', '4'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noturno'
-      document.documentElement.setAttribute('data-tema', '0');
-      localStorage.setItem('tema', '0'); 
-    }
+    
+    
+    
+    
+    
 
     const mermaidTags = document.querySelectorAll('pre.mermaid');
     if (mermaidTags.length > 0) {
