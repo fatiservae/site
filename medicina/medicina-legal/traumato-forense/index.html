@@ -15,6 +15,58 @@
   </script>
 
   
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === '0') { 
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            cScale0: '#ffdead', 
+            cScaleLabel0: '#282828',
+            cScale1: '#a0acb9',
+            cScaleLabel1: '#000000', 
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#262626',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
+      mermaid.initialize({ 
+          'theme': 'base',
+          'timeline': {'disableMulticolor': true},
+          'themeVariables': {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#ffdead',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === '4' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': 'white',
+            'tertiaryColor': '#fff'
+          }
+      });
+    }
+    </script>
+  
 
   <title>Conceitos e prática em traumatologia forense | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
@@ -29,6 +81,10 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
   <meta charset="utf-8">
 
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -137,7 +193,6 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
   </div>
 <article>
 <br>
-<br>
 
   <h1>Conceitos e prática em traumatologia forense</h1>
 
@@ -243,7 +298,11 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
         <li><a href="#individualidade-ou-de-kirk">Individualidade ou de Kirk</a></li>
       </ul>
     </li>
-    <li><a href="#lesões-e-feridas">Lesões e feridas</a></li>
+    <li><a href="#lesões-e-feridas">Lesões e feridas</a>
+      <ul>
+        <li><a href="#lesões-elementares-em-traumatologia-forense">Lesões elementares em traumatologia forense</a></li>
+      </ul>
+    </li>
     <li><a href="#energia-mecânica">Energia mecânica</a>
       <ul>
         <li><a href="#lesões-incisas-puntiformes-e-outras-decorrentes-de-instrumentos-diversos">Lesões incisas, puntiformes e outras decorrentes de instrumentos diversos</a></li>
@@ -291,9 +350,12 @@ Princípios Análise Princípio básico da atividade pericial, que é o apoio na
 <p>Tudo pode e deve ser individualizado em termos periciais.</p>
 <h2 id="lesões-e-feridas">Lesões e feridas</h2>
 <p>A abertura tecidual ao meio é chamada de ferida. As alterações teciduais, mesmo que não interrompam a continuidade, são chamadas de lesão.</p>
+<h3 id="lesões-elementares-em-traumatologia-forense">Lesões elementares em traumatologia forense</h3>
+<h4 id="rubefação">Rubefação</h4>
+<p>Caracteriza-se por congestão circulatória repentina e momentânea de uma área de alguns tecidos como o cutâneo e muscular quando traumatizada por instrumento contuso, caracterizada por vermelhidão efêmero e fugaz.</p>
 <h2 id="energia-mecânica">Energia mecânica</h2>
 <h3 id="lesões-incisas-puntiformes-e-outras-decorrentes-de-instrumentos-diversos">Lesões incisas, puntiformes e outras decorrentes de instrumentos diversos</h3>
-<h4 id="leis-de-filhos-e-langer">Leis de Filhos e Langer</h4>
+<h4 id="leis-de-edouard-filhós-e-langer">Leis de Edouard Filhós e Langer</h4>
 <ul>
 <li><strong>1ª Lei de Filhos ou paralelismo</strong>: dispõe que, na mesma região, as lesões produzidas por instrumentos perfurantes de médio calibre são paralelas entre si.</li>
 <li><strong>2ª Lei de Filhos ou semelhança</strong>: os instrumentos perfurantes de médio calibre, e.g. furador de gelo, produzem lesões semelhantes às produzidas por instrumentos perfuro-cortantes de dois gumes (punhal). Também chamada de lesão em botoeira.</li>
@@ -382,6 +444,12 @@ Bases - liquefação ou liquefacientes.</p>
 <h3 id="artificial">Artificial</h3>
 <p>A eletroplessão mata por fibrilação ventricular.</p>
 <h2 id="energia-térmica">Energia térmica</h2>
+<pre class="mermaid">graph TD;
+1(Termonoses) -- focal --> 2(Queimadura);
+1 -- difusa --> 3(Intermação);
+1 -- difusa por<br>energia solar<br>direta ou indireta--> 4(Insolação);
+</pre>
+
 <h3 id="intermação">Intermação</h3>
 <p>O encéfalo apresentava hiperemia e congestão das meninges; coração com consistência muito aumentada; pulmões com equimoses subpleurais e edema interno; notou, em outras vísceras, a presença de hipertermia interna e de grande quantidade de sangue no sistema venoso.</p>
 <h3 id="graus-de-queimadura">Graus de queimadura</h3>

@@ -1,5 +1,16 @@
 [
 	{
+		"autor": "Blaise Pascal",
+		"citacoes": [
+			"O amor é cego, a amizade fecha os olhos.",
+			"O prazer dos grandes homens consiste em poder tornar os outros felizes.",
+			"O homem está sempre disposto a negar tudo aquilo que não compreende.",
+			"O aumento do conhecimento é como uma esfera dilatando-se no espaço: quanto maior a nossa compreensão, maior o nosso contato com o desconhecido.",
+			"É uma doença natural no homem acreditar que possui a verdade.",
+			"A consciência é o melhor livro de moral e o que menos se consulta."
+		]
+	},
+	{
 		"autor" : "Lisa Simpson",
 		"citacoes": [
 			"... romance is dead. It was acquired in a hostile takeover by Hallmark and Disney, homogenized, and sold off piece by piece." 

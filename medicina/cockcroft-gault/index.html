@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
@@ -33,7 +33,7 @@
   
 
   <title>Taxa de filtração glomerular: MDRD e Cockcroft-Gault | Jefferson T.</title>
-  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel="canonical" href="http://localhost:1313/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
@@ -161,7 +161,6 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
   </div>
 <article>
 <br>
-<br>
 
   <h1>Taxa de filtração glomerular: MDRD e Cockcroft-Gault</h1>
 
@@ -258,78 +257,7 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
 
 
 
-  <script>
-  function dadosErrados(idade, peso, creatinina, altura) {
-    if (idade < 5 || idade > 95 || isNaN(idade) ||
-        isNaN(peso) || peso < 20 || peso > 150 ||
-        isNaN(altura) || altura < 130 || altura > 210 ||
-        isNaN(creatinina))
-    {
-      console.log(idade, altura, peso, creatinina);
-      return true
-    } else {
-      return false
-    }
-  }
-
-  function calcularTFG() {
-    var idade = parseFloat(document.getElementById("idade").value);
-    var peso = parseFloat(document.getElementById("peso").value);
-    var altura = parseFloat(document.getElementById("altura").value);
-    var creatinina = parseFloat(document.getElementById("creatinina").value);
-    var sexo = document.getElementById("sexo").value;
-    var ajuste = sexo === "masculino" ? 1 : 0.85;
-    var pesoMin = sexo === "masculino" ? 50 : 45.5;
-    //var ajustePeso = sexo === "masculino" ? 0 : 4.5;
-    //var pesoIdeal = (50 - ajustePeso) + 2.3 * ((altura/2.54) - 60); //trocar o 60 p/ cm
-    var pesoIdeal = pesoMin + 2.3 * ((altura - 152.4)/2.54);
-    var pesoAjustado = pesoIdeal + 0.4 * (peso - pesoIdeal);
-    var cockroftGault = ((140 - idade) * peso) * ajuste / (72 * creatinina)
-    var cockroftGaultPesoIdeal = ((140 - idade) * pesoAjustado) * ajuste / (72 * creatinina)
-    var negro = document.getElementById("negro");
-    var fatormdrd1 = 1;
-    var fatormdrd2 = 1;
-
-    if (negro.checked) {
-      fatormdrd1 = 1.21;
-    } 
-    if (sexo === "feminino") {
-      fatormdrd2 = 0.742
-    }
-
-    var mdrd = 175 * Math.pow(creatinina, -1.154) * Math.pow(idade, -0.203) * fatormdrd1 * fatormdrd2; 
-
-    document.getElementById("resultado").innerHTML= 
-      "<span style=\"color: var(--termo)\">"+
-      "Cálculos da taxa de filtração glomerular</span>"+
-      "<br>Por Cockcroft-Gault: "+
-      "<span style=\"color: var(--termo)\">"+
-      cockroftGault.toFixed(2)+"mL/min</span>"+
-      "<br>Cockcroft-Gault ajustada por peso ideal calculado: "+
-      "<span style=\"color: var(--termo)\">"+
-      cockroftGaultPesoIdeal.toFixed(2)+"mL/min</span>"+
-      "<br>Pela estimativa do estudo MDRD: "+
-      "<span style=\"color: var(--termo)\">"+
-      mdrd.toFixed(1)+"mL/min</span>"
-
-    if (dadosErrados(idade, peso, creatinina, altura))
-    {
-      document.getElementById("resultado").innerText = 
-        "DADOS ERRADOS OU FORA DO INTERVALO!\nVERIFIQUE DADOS INSERIDOS!\nUSE PONTOS, NÃO VÍRGULAS!";
-      return
-    }
-
-    document.getElementById("botao-copiar").style.display = 'block';
-    const botaoCopiar = document.getElementById('botao-copiar');
-    const paragrafo = document.getElementById('resultado');
-    
-    botaoCopiar.addEventListener('click', () => {
-      const textoParaCopiar = paragrafo.textContent;
-      navigator.clipboard.writeText(textoParaCopiar);
-      //alert('Texto copiado para a área de transferência!');
-    });
-  }
-</script>
+  <script src="../../tfg.js"></script>
 <div class="calculadoras">
     <label for="idade">Idade (anos):</label><br>
     <input type="number" id="idade"><br><br>
@@ -378,9 +306,9 @@ $$</p>
 
   <br>
         <div style="" class=taglist> 
-                <a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">projetos</a> &middot;  
-                <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">calculadoras</a> &middot;  
-                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a></div>
+                <a id="tag_projetos" href="http://localhost:1313/tags/projetos">projetos</a> &middot;  
+                <a id="tag_calculadoras" href="http://localhost:1313/tags/calculadoras">calculadoras</a> &middot;  
+                <a id="tag_medicina" href="http://localhost:1313/tags/medicina">medicina</a></div>
 
 
 

@@ -615,11 +615,35 @@
         "dosagem": [0.03, 1, 1],
         "instrucao": "manutenção.",
         "via": "intravenoso"
+      },
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": [0.2, 1],
+        "instrucao": "dose para interrupção de crise convulsiva em pediatria.",
+        "via": "intravenoso ou intramuscular"
+      },
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": [0.5, 1],
+        "instrucao": "dose máxima para interrupção de crise convulsiva em pediatria.",
+        "via": "intravenoso ou intramuscular"
       }
     ],
     "obs": [
       "Solução de manutenção a 0.03-0.2mg/Kg/h. Considerar menores doses na pediatria e idosos.",
       "Para sedação, em cardioversão e.g., considere usar uma diluição de 1mg/ml e progrida de 2 em 2mg até alcançar rebaixamento do paciente."
+    ]
+  },
+  {
+    "nome": ["diazepam"],
+    "class": ["benzodiazepínicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": ["0.5", 1],
+        "instrucao": "dose para interrupção de crise convulsiva em pediatria até o máximo de 10mg",
+        "via": "intravenosa"
+      }
     ]
   },
   {

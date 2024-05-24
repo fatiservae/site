@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   
   <script>
@@ -17,18 +17,22 @@
   
 
   <title>Mandamentos legais brasileiros da autópsia | Jefferson T.</title>
-  <link rel="canonical" href="http://localhost:1313/">
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="A autópsia se justifica por motivos médico-legais em toda morte violenta, suspeita, natural não assistida e quando houve internação hospitalar e morte em menos de 24 horas, sem que tenha sido estabelecido um diagnóstico.
-Morte em hospital psiquiátrico A morte ocorrida em hospital psiquiátrico embaça as situações de análise, mesmo que todas causas apontem para naturalidade da morte, uma vez que muitos medicamentos psiquiátricos tem capacidade de, sozinhos ou em conjunto, simularem e mascararem uma morte criminosa.">
+  <meta name="description" content="Justificativa A autópsia se justifica por motivos médico-legais em toda morte violenta, suspeita, natural não assistida e quando houve internação hospitalar e morte em menos de 24 horas, sem que tenha sido estabelecido um diagnóstico. Nas descritas situações ela é dita compulsória.
+No geral, o termo necropsia e autópsia são usadas de forma intercambiável, porém o exame deve se dividir em autópsia externa e interna, pelo menos. Desta forma, a autópsia é sempre necessária, porém nem sempre interna, como a própria legislação reza:">
   <meta name="keywords" content="medicina, perícias, penal">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
 
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,23 +97,56 @@ Morte em hospital psiquiátrico A morte ocorrida em hospital psiquiátrico emba�
           scrollbar.style.display = 'none'; 
       }, 2000); 
   });
+
 </script>
 
   <div class="barra">
-      <a href="" id="switch" alt="Mudar o tema" onclick="alternarTema(); return false"></a>
-      <a href="../../index.html" id="indexlink" alt="início">início</a>
-      <a href="../../files/index.html" alt="files">arquivos</a>
-      <a href="../../tags/projetos/index.html" alt="tools">tools</a> 
+      <select id=menu>
+        <option>páginas</option>
+        <option value="/index.html">início</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+        <option value="/tags/programação/">programação</option>
+        <option value="/tags/filosofia/">filosofia</option>
+        <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/estoicismo/">estoicismo</option>
+        <option value="/tags/destinos/">destinos</option>
+        <option value="/tags/culinária/">culinária</option>
+      </select>
+      <script>
+             document.getElementById("menu").addEventListener('change', function() {
+               let selectedPage = this.value;
+               window.location.href = selectedPage; 
+             });
+      </script>
+      <select id="temas-seletor">
+        <option>temas</option>
+        <option value=0>noturno</option>
+        <option value=1>árido</option>
+        <option value=2>café</option>
+        <option value=3>comics</option>
+        <option value=4>papel</option>
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+        });
+      </script>
+
   
   </div>
 <article>
-<br>
 <br>
 
   <h1>Mandamentos legais brasileiros da autópsia</h1>
 
 <script>
   
+
   const linksPaginas = document.querySelectorAll(".barra a");
   const urlAtual = window.location.href;
   const inicio = document.getElementById("indexlink");
@@ -160,33 +197,34 @@ Morte em hospital psiquiátrico A morte ocorrida em hospital psiquiátrico emba�
     lighswitch.innerHTML = 'papel' ;
   }
 
-  function alternarTema() {
+  function alternarTema(tema) {
     const temaAtual = document.documentElement.getAttribute('data-tema');
-    if (temaAtual === '0') {
-      lighswitch.innerHTML = 'árido'
-      document.documentElement.setAttribute('data-tema', '1');
-      localStorage.setItem('tema', '1'); 
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
 
-    } else if (temaAtual === '1') {
-      lighswitch.innerHTML = 'café'
-      document.documentElement.setAttribute('data-tema', '2');
-      localStorage.setItem('tema', '2'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '2') {
-      document.documentElement.setAttribute('data-tema', '3');
-      lighswitch.innerHTML = 'comics' ;
-      localStorage.setItem('tema', '3'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '3') {
-      lighswitch.innerHTML = 'papel'
-      document.documentElement.setAttribute('data-tema', '4');
-      localStorage.setItem('tema', '4'); 
+    
+    
+    
+    
 
-    } else if (temaAtual === '4') {
-      lighswitch.innerHTML = 'noturno'
-      document.documentElement.setAttribute('data-tema', '0');
-      localStorage.setItem('tema', '0'); 
-    }
+    
+    
+    
+    
+    
 
     const mermaidTags = document.querySelectorAll('pre.mermaid');
     if (mermaidTags.length > 0) {
@@ -197,18 +235,40 @@ Morte em hospital psiquiátrico A morte ocorrida em hospital psiquiátrico emba�
 </script>
 
 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#justificativa">Justificativa</a>
+      <ul>
+        <li><a href="#morte-em-hospital-psiquiátrico">Morte em hospital psiquiátrico</a></li>
+      </ul>
+    </li>
+    <li><a href="#critérios-legais">Critérios legais</a></li>
+    <li><a href="#técnicas-de-autópsia">Técnicas de autópsia</a>
+      <ul>
+        <li><a href="#ghon-eou-letulle">Ghon e/ou Letulle</a></li>
+        <li><a href="#rokitansky">Rokitansky</a></li>
+        <li><a href="#virchow">Virchow</a></li>
+        <li><a href="#autópsia-do-recém-nascido">Autópsia do recém-nascido</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
-  <p>A autópsia se justifica por motivos médico-legais em toda morte violenta, suspeita, natural não assistida e quando houve internação hospitalar e morte em menos de 24 horas, sem que tenha sido estabelecido um diagnóstico.</p>
-<h3 id="morte-em-hospital-psiquiátrico">Morte em hospital psiquiátrico</h3>
-<p>A morte ocorrida em hospital psiquiátrico embaça as situações de análise, mesmo que todas causas apontem para naturalidade da morte, uma vez que muitos medicamentos psiquiátricos tem capacidade de, sozinhos ou em conjunto, simularem e mascararem uma morte criminosa. De toda maneira, até mesmo o relato testemunhal desta circustância pode ser não confiável.</p>
-<h2 id="critérios-legais">Critérios legais</h2>
-<p>A autópsia só deve ser iniciada se o embaraço burocrático do cadáver estiver resolvido, notadamente a identificação feita por etiqueta em hálux direito ou bracelete com, pelo menos, nome completo.</p>
+
+  <h2 id="justificativa">Justificativa</h2>
+<p>A autópsia se justifica por motivos médico-legais em toda morte violenta, suspeita, natural não assistida e quando houve internação hospitalar e morte em menos de 24 horas, sem que tenha sido estabelecido um diagnóstico. Nas descritas situações ela é dita <strong>compulsória</strong>.</p>
+<p>No geral, o termo necropsia e autópsia são usadas de forma intercambiável, porém o exame deve se dividir em autópsia externa e interna, pelo menos. Desta forma, a autópsia é sempre necessária, porém nem sempre interna, como a própria legislação reza:</p>
 <pre tabindex="0"><code>Código de Processo Penal 
 Art. 162. A autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes daquele prazo, o que declararão no auto. 
 
 Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo do cadáver, quando não houver infração penal que apurar, ou quando as lesões externas permitirem precisar a causa da morte e não houver necessidade de exame interno para a verificação de alguma circunstância relevante.
-</code></pre><h2 id="técnicas-de-autópsia">Técnicas de autópsia</h2>
+</code></pre><p>A janela de 6h antes e após o óbito é estabelecida na doutrina como o período de incerteza de Tourdes e foi a base para o mandamento legal do Art. 162.</p>
+<h3 id="morte-em-hospital-psiquiátrico">Morte em hospital psiquiátrico</h3>
+<p>A morte ocorrida em hospital psiquiátrico embaça as situações de análise, mesmo que todas causas apontem para naturalidade da morte, uma vez que muitos medicamentos psiquiátricos tem capacidade de, sozinhos ou em conjunto, simularem e mascararem uma morte criminosa. De toda maneira, até mesmo o relato testemunhal desta circustância pode ser não confiável.</p>
+<h2 id="critérios-legais">Critérios legais</h2>
+<p>A autópsia só deve ser iniciada se o embaraço burocrático do cadáver estiver resolvido, notadamente a identificação feita por etiqueta em hálux direito ou bracelete com, pelo menos, nome completo.</p>
+<h2 id="técnicas-de-autópsia">Técnicas de autópsia</h2>
 <h3 id="ghon-eou-letulle">Ghon e/ou Letulle</h3>
 <p>A técnica de Ghon caracteriza-se por conservar a relação existente entre os órgãos, já que esses são retirados em blocos, por sistemas.</p>
 <p>Quando adotado o estudo dos órgãos pelo método de Ghon ou Letulle haverá a extração dor órgãos em blocos &mdash; cervicais, torácicos, abdominais e geniturinários separadamente &mdash; ou em monobloco, a.k.a. “em massa”.</p>
@@ -216,14 +276,16 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 <p>Mantém os órgãos &ndash; oração do cadáver</p>
 <h3 id="virchow">Virchow</h3>
 <p>Todos os órgãos são retirados individualmente.</p>
+<h3 id="autópsia-do-recém-nascido">Autópsia do recém-nascido</h3>
+<p>Circunferência da cabeça, tamanho dos pés, distância crânio-caudal ou comprimento e tamanho do cordão umbilical.</p>
 
 
 
   <br>
         <div style="" class=taglist> 
-                <a id="tag_medicina" href="http://localhost:1313/tags/medicina">medicina</a> &middot;  
-                <a id="tag_perícias" href="http://localhost:1313/tags/per%C3%ADcias">perícias</a> &middot;  
-                <a id="tag_penal" href="http://localhost:1313/tags/penal">penal</a></div>
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_perícias" href="https://www.jeffersontorres.com.br/tags/per%C3%ADcias">perícias</a> &middot;  
+                <a id="tag_penal" href="https://www.jeffersontorres.com.br/tags/penal">penal</a></div>
 
 
 

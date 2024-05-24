@@ -26,6 +26,10 @@ Regras de estilo:
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'redhatdisplay';
+    src: url('/fonts/redhat/RedHatDisplay-Light.ttf') format('ttf');
+}
 
 :root {
   /*
@@ -33,6 +37,7 @@ Regras de estilo:
   --gradiente-dark: var(--dark-grad, radial-gradient(ellipse at 50% 50%, #ffdead20 0, transparent 65%), radial-gradient(ellipse at 50% 50%, #ffdede10 0, transparent 65%)) ;
   */
   /* CORES */
+  --azulpapel: #c3e4e5;
   --azulbreve: #0960ee;
   --lime1: #ffff00;
   --ferrugem1: #92340b;
@@ -293,7 +298,7 @@ Regras de estilo:
   --corBotao: #ebc9a9 ;
   --fundo: #cc866a ; 
   --fundo: #FFECB3; 
-  --strong-color: #101010;
+  --)strong-color: #101010;
   --fundoImagem: url('pix/blur-coffee.jpg'); 
   --corH2: #4E342E;
   --corH1: #424242;
@@ -425,7 +430,7 @@ Regras de estilo:
   --fraseShow: black ;
   --autor: white;
   --sticker-font: brown;
-  --termo: var(--blueComics);
+  --termo: white ;
 }
 :root[data-tema="4"] { /* papel */
   /*
@@ -435,6 +440,7 @@ Regras de estilo:
   --margem5: var(--margem);
   */
   --temaFonte: sans ;
+  --temaFonte: redhatdisplay, RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
   --corFonteBarraHover: white;
   --corFundoBarraHover: black ;
   --bordaEtiqueta: 1px solid black;
@@ -483,14 +489,18 @@ Regras de estilo:
   --corLinksHover: black;
   --termo: darkred;
   --link-barra: black ;
-  --fundo: #ddeeee; 
-  --gradfundo: linear-gradient(to bottom, #26130f, #001b3f);
+  --gradfundo: linear-gradient(to bottom, var(--azulpapel), #deeeee); 
+  --fundoImagem: var(--gradfundo);
   --sombra: #353535;
   --corFundoSelecao: #282828 ;
   --corSelecao: white;
 }
 
 title {
+}
+
+html {
+  font-family: var(--temaFonte);
 }
 
 body {
@@ -502,9 +512,8 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
 */
-  font-family: var(--temaFonte);
   font-weight: light;
-  background-color: var(--fundo);
+  background: var(--fundo);
   background-image: var(--fundoImagem);
   background-attachment: fixed;
   color: var(--fonte) ;
@@ -754,7 +763,7 @@ pre code {
   border-radius: 5px;
   background-color: transparent ;
   font-family: monospace;
-  font-size: 90% ; 
+  font-size: 75% ; 
   color: var(--corTextoCode);
 }
 code {
@@ -985,6 +994,14 @@ img[alt="XMR Logo"] {
 */
 
 article {
+  padding: 0;
+  margin: 0;
+}
+
+#boasvindas {
+  padding: 0;
+  margin: 0;
+  margin-left: var(--margem);
 }
 
 .older-article {
@@ -1464,6 +1481,7 @@ input, textarea {
 button, select {
   /*
   */
+  font-family: inherit ;
   padding-right: 14px;
   padding-left: 14px;
   padding-top: 0; 
@@ -1769,8 +1787,6 @@ nav#TableOfContents li:last-child::before {
   line-height: 1.5;
   background: none;
   margin-right: 8vw;
-  margin-bottom: 3em;
-  margin-top: 0.5em;
   font-weight: bold ;
   white-space: nowrap;
 }
@@ -1893,7 +1909,9 @@ div#counter {
     max-width: 110% ;
   }
   table {
+    /*
     font-size: 65%;
+    */
     max-width: 95% !important;
   }
   #question-container {
@@ -2134,6 +2152,7 @@ mark::after{
 
 #maquinaescrever{
   margin-left: var(--margem);
+  margin-top: 3vw;
 }
 span.typewriter{
   border-right: 10px solid var(--fonte);
@@ -2157,4 +2176,8 @@ span.typewriter{
   height: 100%;
   background-color: var(--corProgressBar); 
   width: 0; 
+}
+
+div#vim {
+  margin-left: var(--margem);
 }
