@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.125.6">
+	<meta name="generator" content="Hugo 0.126.1">
   
   
   <script>
@@ -22,7 +22,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
-  <meta name="description" content="↻ Abuso de autoridade: lei 13.869/2019 esquematizada Mandamentos legais brasileiros da autópsia Conceitos e prática em traumatologia forense A morte e a lei: tanatologia forense Hemorragias cutâneas Aborto e infanticídio no Brasil: aspectos médico-legais Medidas cautelares: a prisão Identificação antropológica forense Embriaguez: visão toxicológica-legal Asfixias: classificação de Afrânio Peixoto Anemias: investigação e tratamento Gastrite e úlceras gástricas Cetoacidose diabética: insights Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando nível de sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de vieses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos A ciência por trás do pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
+  <meta name="description" content="↻ intoxicacoes Abuso de autoridade: lei 13.869/2019 esquematizada sexologia forense Mandamentos legais brasileiros da autópsia Conceitos e prática em traumatologia forense A morte e a lei: tanatologia forense Aborto e infanticídio no Brasil Medidas cautelares: a prisão Identificação antropológica forense Embriaguez: visão toxicológica-legal Asfixias: classificação de Afrânio Peixoto Anemias: investigação e tratamento Gastrite e úlceras gástricas Cetoacidose diabética: insights Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando a sedação: RASS/SAS/FOUR Eletrocardiograma: principais achados Neoplasias: visão geral de nomeclaturas Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de vieses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Superfície corporal estimada: Costeff Fluidoterapia de manutenção: Holliday-Segar Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos A ciência por trás do pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário Afogamento A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Vacinas Eclâmpsia Meu dicionário Abaixo a medicina!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -77,7 +77,7 @@
 
   <div class="barra">
       <select id=menu>
-        <option>páginas</option>
+        <option>navegação</option>
         <option value="/index.html">início</option>
         <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
@@ -86,33 +86,38 @@
         <option value="/tags/programação/">programação</option>
         <option value="/tags/filosofia/">filosofia</option>
         <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/direito/">direito</option>
         <option value="/tags/estoicismo/">estoicismo</option>
         <option value="/tags/destinos/">destinos</option>
         <option value="/tags/culinária/">culinária</option>
       </select>
       <script>
-             document.getElementById("menu").addEventListener('change', function() {
-               let selectedPage = this.value;
-               window.location.href = selectedPage; 
-             });
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
       </script>
+
       <select id="temas-seletor">
-        <option>temas</option>
-        <option value=0>noturno</option>
-        <option value=1>árido</option>
-        <option value=2>café</option>
-        <option value=3>comics</option>
-        <option value=4>papel</option>
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=papel>papel</option>
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
           let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
           document.documentElement.setAttribute('data-tema', selectedValue);
           localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
         });
       </script>
-
-  
   </div>
 <article>
 <br>
@@ -120,54 +125,53 @@
 <script>
   
 
-  const linksPaginas = document.querySelectorAll(".barra a");
-  const urlAtual = window.location.href;
-  const inicio = document.getElementById("indexlink");
 
-  for (const link of linksPaginas) {
-    if (urlAtual.includes(link.getAttribute("alt")
-                              .toLowerCase()
-                              .trim()
-                              .normalize('NFD')
-                              .replace(/\p{Diacritic}/gu, "")
-    )){
-      
-      link.style = "color: var(--barra-selecionado); font-weight: bold;";
-    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
-                urlAtual === "https://jeffersontorres.com.br/" || 
-                urlAtual === "https://jeffersontorres.com.br" || 
-                urlAtual === "jeffersontorres.com.br" || 
-                urlAtual === "http://localhost:1313/" ) {
-      
-      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
-    }
-  }
 
-  let lighswitch = document.getElementById("switch");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   const temaAtual = localStorage.getItem('tema');
- 
-  if (temaAtual === '0') {
-    document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noturno' ;
-  } else if (temaAtual === '1') {
-    document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'árido' ;
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
   }
-  else if (temaAtual === '3') {
-    document.documentElement.setAttribute('data-tema', '3');
-    lighswitch.innerHTML = 'comics' ;
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
   }
-  else if (temaAtual === '2') {
-    document.documentElement.setAttribute('data-tema', '2');
-    lighswitch.innerHTML = 'café' ;
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
   }
-  else if (temaAtual === '4') {
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+  else if (temaAtual === 'papel') {
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
   else { 
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
 
   function alternarTema(tema) {
@@ -285,8 +289,18 @@ document.addEventListener("DOMContentLoaded", function() {
   var pagesData = [
     
       {
+        "title": "intoxicacoes",
+        "permalink": "\/medicina\/intoxicacoes\/"
+      },
+    
+      {
         "title": "Abuso de autoridade: lei 13.869\/2019 esquematizada",
         "permalink": "\/direito\/abuso-autoridade\/"
+      },
+    
+      {
+        "title": "sexologia forense",
+        "permalink": "\/medicina\/medicina-legal\/sexologia-forense\/"
       },
     
       {
@@ -305,12 +319,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Hemorragias cutâneas",
-        "permalink": "\/medicina\/equimoses\/"
-      },
-    
-      {
-        "title": "Aborto e infanticídio no Brasil: aspectos médico-legais",
+        "title": "Aborto e infanticídio no Brasil",
         "permalink": "\/medicina\/aborto\/"
       },
     
@@ -365,8 +374,8 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Monitorando nível de sedação: RASS\/SAS\/FOUR",
-        "permalink": "\/medicina\/sedacao-rass\/"
+        "title": "Monitorando a sedação: RASS\/SAS\/FOUR",
+        "permalink": "\/medicina\/sedacao\/"
       },
     
       {
@@ -546,7 +555,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
       {
         "title": "Conceitos e conduta em grandes queimados",
-        "permalink": "\/medicina\/calculos-queimados\/"
+        "permalink": "\/medicina\/queimados\/"
       },
     
       {
@@ -645,7 +654,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
   ];
-  var totalPages =  72 ;
+  var totalPages =  73 ;
   
   function getRandomPage() {
       var randomNumber = Math.floor(Math.random() * totalPages) + 1;
@@ -691,12 +700,13 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <script src="index.js"></script>
 
 <ul id=artlist>
+<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/intoxicacoes/">intoxicacoes</a></li>
 <li data-tags="" ><a href="https://www.jeffersontorres.com.br/direito/abuso-autoridade/">Abuso de autoridade: lei 13.869/2019 esquematizada</a></li>
+<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/">sexologia forense</a></li>
 <li data-tags="[medicina perícias penal]" ><a href="https://www.jeffersontorres.com.br/medicina/autopsias/">Mandamentos legais brasileiros da autópsia</a></li>
 <li data-tags="[direito medicina penal]" ><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/traumato-forense/">Conceitos e prática em traumatologia forense</a></li>
 <li data-tags="[medicina direito penal ciência]" ><a href="https://www.jeffersontorres.com.br/medicina/morte-legal/">A morte e a lei: tanatologia forense</a></li>
-<li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/equimoses/">Hemorragias cutâneas</a></li>
-<li data-tags="[direito medicina perícias penal]" ><a href="https://www.jeffersontorres.com.br/medicina/aborto/">Aborto e infanticídio no Brasil: aspectos médico-legais</a></li>
+<li data-tags="[direito medicina perícias penal]" ><a href="https://www.jeffersontorres.com.br/medicina/aborto/">Aborto e infanticídio no Brasil</a></li>
 <li data-tags="[direito penal]" ><a href="https://www.jeffersontorres.com.br/direito/cautelares/">Medidas cautelares: a prisão</a></li>
 <li data-tags="[medicina direito penal perícias]" ><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/id-antropologica/">Identificação antropológica forense</a></li>
 <li data-tags="[medicina perícias direito]" ><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/embriaguez/">Embriaguez: visão toxicológica-legal</a></li>
@@ -707,7 +717,7 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <li data-tags="[medicina tabelas calculadoras]" ><a href="https://www.jeffersontorres.com.br/medicina/processo-morte/">Escala PPS e o processo ativo de morte</a></li>
 <li data-tags="[Medicina Ciência Projetos]" ><a href="https://www.jeffersontorres.com.br/medicina/ventilador-mec/">Simulador de ventilador mecânico</a></li>
 <li data-tags="[Medicina Emergência Cardiologia]" ><a href="https://www.jeffersontorres.com.br/medicina/icc/">Manejo de descompensação em insuficiência cardíaca</a></li>
-<li data-tags="[Medicina Projetos Guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/sedacao-rass/">Monitorando nível de sedação: RASS/SAS/FOUR</a></li>
+<li data-tags="[Medicina Projetos Guidelines]" ><a href="https://www.jeffersontorres.com.br/medicina/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
 <li data-tags="[Medicina Cardiologia Emergência]" ><a href="https://www.jeffersontorres.com.br/medicina/ecg/">Eletrocardiograma: principais achados</a></li>
 <li data-tags="[Medicina Projetos]" ><a href="https://www.jeffersontorres.com.br/medicina/neoplasias/">Neoplasias: visão geral de nomeclaturas</a></li>
 <li data-tags="[Projetos Programação]" ><a href="https://www.jeffersontorres.com.br/vim/">Webvim: editor de texto do hacker viajante</a></li>
@@ -740,10 +750,10 @@ Confira também minha lista curada de [canais que recomendo](/canais-yt/).
 <li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/dmg/">Diabetes Mellitus Gestacional</a></li>
 <li data-tags="" ><a href="https://www.jeffersontorres.com.br/medicina/vacinas/">Vacinas</a></li>
 <li data-tags="[medicina]" ><a href="https://www.jeffersontorres.com.br/medicina/eclampsia/">Eclâmpsia</a></li>
-<li data-tags="[medicina projetos ciência]" ><a href="https://www.jeffersontorres.com.br/dicionario/">Meu dicionário</a></li>
+<li data-tags="[medicina projetos ciência]" class="older-article"><a href="https://www.jeffersontorres.com.br/dicionario/">Meu dicionário</a></li>
 <li data-tags="[Medicina Filosofia Ciência]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/abaixo-a-medicina/">Abaixo a medicina!</a></li>
 <li data-tags="[Projetos Medicina Calculadoras]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/hemodinamica/">Principais conceitos em hemodinâmica</a></li>
-<li data-tags="[Projetos Pediatria Calculadoras Medicina]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/calculos-queimados/">Conceitos e conduta em grandes queimados</a></li>
+<li data-tags="[Projetos Pediatria Calculadoras Medicina]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/queimados/">Conceitos e conduta em grandes queimados</a></li>
 <li data-tags="[ciência História Medicina Culinária Geopolítica]" class="older-article"><a href="https://www.jeffersontorres.com.br/canais-yt/">Canais que recomendo</a></li>
 <li data-tags="[culinária receitas]" class="older-article"><a href="https://www.jeffersontorres.com.br/receitas/cervejas/">Cervejas</a></li>
 <li data-tags="[Medicina Guidelines]" class="older-article"><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões: fluxogramas de conduta</a></li>

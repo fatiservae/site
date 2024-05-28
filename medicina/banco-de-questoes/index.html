@@ -21,7 +21,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content=" Gerar nova questão ">
+  <meta name="description" content=" Infelizmente, a maior parte dos bancos de questões estãos protegidos por paywalls. Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso. Para provar meu ponto, criei este protótipo. A adição de novas questões demora um pouco porque faço quando posso. Entre em contato se deseja adicionar questões. Clique em Gerar nova questão e boa prática! Fechar aviso! Gerar nova questão ">
   <meta name="keywords" content="Projetos, Medicina, Programação">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -101,7 +101,7 @@
 
   <div class="barra">
       <select id=menu>
-        <option>páginas</option>
+        <option>navegação</option>
         <option value="/index.html">início</option>
         <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
@@ -110,33 +110,38 @@
         <option value="/tags/programação/">programação</option>
         <option value="/tags/filosofia/">filosofia</option>
         <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/direito/">direito</option>
         <option value="/tags/estoicismo/">estoicismo</option>
         <option value="/tags/destinos/">destinos</option>
         <option value="/tags/culinária/">culinária</option>
       </select>
       <script>
-             document.getElementById("menu").addEventListener('change', function() {
-               let selectedPage = this.value;
-               window.location.href = selectedPage; 
-             });
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
       </script>
+
       <select id="temas-seletor">
-        <option>temas</option>
-        <option value=0>noturno</option>
-        <option value=1>árido</option>
-        <option value=2>café</option>
-        <option value=3>comics</option>
-        <option value=4>papel</option>
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=papel>papel</option>
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
           let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
           document.documentElement.setAttribute('data-tema', selectedValue);
           localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
         });
       </script>
-
-  
   </div>
 <article>
 <br>
@@ -146,54 +151,53 @@
 <script>
   
 
-  const linksPaginas = document.querySelectorAll(".barra a");
-  const urlAtual = window.location.href;
-  const inicio = document.getElementById("indexlink");
 
-  for (const link of linksPaginas) {
-    if (urlAtual.includes(link.getAttribute("alt")
-                              .toLowerCase()
-                              .trim()
-                              .normalize('NFD')
-                              .replace(/\p{Diacritic}/gu, "")
-    )){
-      
-      link.style = "color: var(--barra-selecionado); font-weight: bold;";
-    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
-                urlAtual === "https://jeffersontorres.com.br/" || 
-                urlAtual === "https://jeffersontorres.com.br" || 
-                urlAtual === "jeffersontorres.com.br" || 
-                urlAtual === "http://localhost:1313/" ) {
-      
-      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
-    }
-  }
 
-  let lighswitch = document.getElementById("switch");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   const temaAtual = localStorage.getItem('tema');
- 
-  if (temaAtual === '0') {
-    document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noturno' ;
-  } else if (temaAtual === '1') {
-    document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'árido' ;
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
   }
-  else if (temaAtual === '3') {
-    document.documentElement.setAttribute('data-tema', '3');
-    lighswitch.innerHTML = 'comics' ;
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
   }
-  else if (temaAtual === '2') {
-    document.documentElement.setAttribute('data-tema', '2');
-    lighswitch.innerHTML = 'café' ;
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
   }
-  else if (temaAtual === '4') {
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+  else if (temaAtual === 'papel') {
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
   else { 
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
 
   function alternarTema(tema) {
@@ -236,8 +240,7 @@
 
 
 
-  <!-- 
-<div id="aviso">
+  <div id="aviso">
  <div style="display:flex; align-content:center">
   <span class="etiqueta">
    Infelizmente, a maior parte dos bancos de questões estãos protegidos por <em>paywalls</em>. 
@@ -245,12 +248,12 @@
    Isto seria facilmente superado por um esforço coletivo para produzir um banco de livre acesso.
    <br>
    <br>
-   <strong>Por isso resolvi criar um protótipo.</strong>
-   <br>
+   <strong>Para provar meu ponto, criei este protótipo.</strong>
    <br>
    A adição de novas questões demora um pouco porque faço quando posso. 
    <br>
    Entre em contato se deseja adicionar questões.
+   <br>
    <span style="color: var(--termo)">Clique em <em>Gerar nova questão</em> e boa prática! </span>
   </span>
 </div>
@@ -261,7 +264,6 @@
  </button>
 </div>
 <br>
--->
 
 
 <div id="counter"></div>

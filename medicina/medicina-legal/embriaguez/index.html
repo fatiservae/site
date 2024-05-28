@@ -103,7 +103,7 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
 
   <div class="barra">
       <select id=menu>
-        <option>páginas</option>
+        <option>navegação</option>
         <option value="/index.html">início</option>
         <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
@@ -112,33 +112,38 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
         <option value="/tags/programação/">programação</option>
         <option value="/tags/filosofia/">filosofia</option>
         <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/direito/">direito</option>
         <option value="/tags/estoicismo/">estoicismo</option>
         <option value="/tags/destinos/">destinos</option>
         <option value="/tags/culinária/">culinária</option>
       </select>
       <script>
-             document.getElementById("menu").addEventListener('change', function() {
-               let selectedPage = this.value;
-               window.location.href = selectedPage; 
-             });
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
       </script>
+
       <select id="temas-seletor">
-        <option>temas</option>
-        <option value=0>noturno</option>
-        <option value=1>árido</option>
-        <option value=2>café</option>
-        <option value=3>comics</option>
-        <option value=4>papel</option>
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=papel>papel</option>
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
           let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
           document.documentElement.setAttribute('data-tema', selectedValue);
           localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
         });
       </script>
-
-  
   </div>
 <article>
 <br>
@@ -148,54 +153,53 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
 <script>
   
 
-  const linksPaginas = document.querySelectorAll(".barra a");
-  const urlAtual = window.location.href;
-  const inicio = document.getElementById("indexlink");
 
-  for (const link of linksPaginas) {
-    if (urlAtual.includes(link.getAttribute("alt")
-                              .toLowerCase()
-                              .trim()
-                              .normalize('NFD')
-                              .replace(/\p{Diacritic}/gu, "")
-    )){
-      
-      link.style = "color: var(--barra-selecionado); font-weight: bold;";
-    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
-                urlAtual === "https://jeffersontorres.com.br/" || 
-                urlAtual === "https://jeffersontorres.com.br" || 
-                urlAtual === "jeffersontorres.com.br" || 
-                urlAtual === "http://localhost:1313/" ) {
-      
-      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
-    }
-  }
 
-  let lighswitch = document.getElementById("switch");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   const temaAtual = localStorage.getItem('tema');
- 
-  if (temaAtual === '0') {
-    document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noturno' ;
-  } else if (temaAtual === '1') {
-    document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'árido' ;
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
   }
-  else if (temaAtual === '3') {
-    document.documentElement.setAttribute('data-tema', '3');
-    lighswitch.innerHTML = 'comics' ;
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
   }
-  else if (temaAtual === '2') {
-    document.documentElement.setAttribute('data-tema', '2');
-    lighswitch.innerHTML = 'café' ;
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
   }
-  else if (temaAtual === '4') {
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+  else if (temaAtual === 'papel') {
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
   else { 
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
 
   function alternarTema(tema) {
@@ -244,25 +248,23 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
         <li><a href="#os-tipos-de-bebedores">Os tipos de &ldquo;bebedores&rdquo;</a></li>
       </ul>
     </li>
-    <li><a href="#embriaguez">Embriaguez</a>
+    <li><a href="#embriaguez-e-alcoolemia">Embriaguez e alcoolemia</a>
       <ul>
-        <li><a href="#formas-de-embriaguez-1">Formas de embriaguez [1]</a></li>
+        <li><a href="#a-clínica-da-embriaguez">A clínica da embriaguez</a></li>
+        <li><a href="#detecção-da-alcoolemia">Detecção da alcoolemia</a></li>
+        <li><a href="#o-bafômetro">O bafômetro</a></li>
+        <li><a href="#formas-de-embriaguez">Formas de embriaguez</a></li>
       </ul>
     </li>
     <li><a href="#metabolismo">Metabolismo</a>
       <ul>
-        <li><a href="#as-três-fases-da-embriaguez-e-a-lenda-árabe-3">As três fases da embriaguez e a lenda árabe [3]</a></li>
-        <li><a href="#diferenças-significativas-entre-homens-e-mulheres-2">Diferenças significativas entre homens e mulheres [2]</a></li>
+        <li><a href="#a-lenda-árabe-das-fases-da-embriaguez3">A lenda árabe das fases da embriaguez[3]</a></li>
+        <li><a href="#diferenças-entre-homens-e-mulheres-2">Diferenças entre homens e mulheres [2]</a></li>
         <li><a href="#síndrome-de-wernicke-korsakoff">Síndrome de Wernicke-Korsakoff</a></li>
       </ul>
     </li>
-    <li><a href="#detecção">Detecção</a>
-      <ul>
-        <li><a href="#de-maior-precisão">De maior precisão</a></li>
-        <li><a href="#bafômetro">Bafômetro</a></li>
-      </ul>
-    </li>
     <li><a href="#referências">Referências</a></li>
+    <li><a href="#bibliografia">Bibliografia</a></li>
   </ul>
 </nav>
 
@@ -359,13 +361,20 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
 <li><strong>Delta</strong>: existe evidência de tolerância e síndrome de abstinência, mas o consumo do álcool é mais estável, visto comumente bebendo. O indivíduo aparenta nunca ficar verdadeiramente embriagado, mas ingere continuadamente álcool em pequenas quantidades. Incapaz de alcançar abstinência prolongada. O consumo é influenciado por condições sociais e/ou financeiras. Típico bebedor mediterrâneo ou o culturalmente chamado <em>pé inchado</em> no Brasil.</li>
 <li><strong>Epsílon</strong>: consumo de álcool periódico. Contudo, o indivíduo parece que só fica satisfeito quando perde o controlo de si próprio, podendo mesmo ficar inconsciente com a alcoolização.</li>
 </ul>
-<h2 id="embriaguez">Embriaguez</h2>
+<h2 id="embriaguez-e-alcoolemia">Embriaguez e alcoolemia</h2>
+<h3 id="a-clínica-da-embriaguez">A clínica da embriaguez</h3>
 <p>O álcool é um depressor do SNC. Porém, a embriaguez é um fenômeno complexo e deve ser enxergado como um contínuo de fases que dependem da velocidade do consumo, da ingesta alimentar, do humor basal, da capacidade metabólica, do sexo, da idade e das comorbidades do embriagado.</p>
 <p>Apesar dos efeitos depressores, o uso de etanol pode provocar uma hiperexcitabilidade adaptativa nos neurônios afetados, resultando notadamente em tremores, insônia pós-embriaguez etc.</p>
 <blockquote>
-<p>Muitos continuam defendendo a dosagem bioquímica do álcool, principalmente no sangue, como o parâmetro mais prático, mais eficaz e mais confiável para se determinar uma embriaguez. E até adiantam que, salvo algumas variações, essas cifras estariam entre 0,6 e 2,0 g/1.000 ml. Todavia, entendemos que mais importante do que determinar uma taxa de álcool no sangue, na urina ou no ar expirado é caracterizar as manifestações clínicas de uma embriaguez⁸.</p>
+<p>Muitos continuam defendendo a dosagem bioquímica do álcool, principalmente no sangue, como o parâmetro mais prático, mais eficaz e mais confiável para se determinar uma embriaguez. E até adiantam que, salvo algumas variações, essas cifras estariam entre 0,6 e 2,0 g/1.000 ml. Todavia, entendemos que mais importante do que determinar uma taxa de álcool no sangue, na urina ou no ar expirado é caracterizar as manifestações clínicas de uma embriaguez[8].</p>
 </blockquote>
-<h3 id="formas-de-embriaguez-1">Formas de embriaguez [1]</h3>
+<p>Nesse sentido, a proposta diagnóstica forense para a embriaguez depende de dados estatísticos, num <a href="../../../medicina/estatistica-diagnostica">modelo diagnóstico bayesiano</a> em que cada sintoma e sinal compõem um somatório para a probabilidade final de embriaguez. Rubenzer elaborou bem esta filosofia em seu artigo &ldquo;<em>Judging intoxication</em>&rdquo; de 2010, inclusive propondo valores numéricos de relação entre os sintomas e o valor sérico da alcoolemia.</p>
+<p>Para fins penais, a embriaguez alcoólica é considerada uma <mark>causa externa</mark>.</p>
+<h3 id="detecção-da-alcoolemia">Detecção da alcoolemia</h3>
+<p>A detecção de alcoolemia é necessária no Brasil pelos mandamentos legais terem preservado limites numéricos como definidores de crime. Para tanto, os métodos colorimétricos e cromatográficos são o <strong>padrão ouro</strong> e, também por previsão legal, aceita-se a medição do alcoól exalado &mdash; <em>vulgo bafômetro</em>.</p>
+<h3 id="o-bafômetro">O bafômetro</h3>
+<p>O nível sanguíneo de etanol nos seres humanos pode ser estimado pela determinação das concentrações de etanol no ar expirado uma vez que a relação entre o etanol presente nos gases alveolares ao final da expiração e seu nível sanguíneo é consistente[2].</p>
+<h3 id="formas-de-embriaguez">Formas de embriaguez</h3>
 <h4 id="culposa">Culposa</h4>
 <p>Decorre da imprudência ou negligência ao beber de forma exagerada. No entanto, não isenta de responsabilidade;</p>
 <h4 id="preterdolosa">Preterdolosa</h4>
@@ -390,8 +399,11 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 
 § 4° Poderá ser empregado qualquer aparelho homologado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - INMETRO - para se determinar o previsto no caput.    
 </code></pre><p>Na sua forma definida, o legislador precisou ser específico quanto ao diagnóstico da alteração psicomotora aludida no artigo, tendo sido explícito nos incisos e parágrafos. <strong>A doutrina é relativamente pacífica em aceitar que o exame clínico é suficiente para demonstração da embriaguez (ou dos efeitos entorpecetentes) desde que evidentes</strong>.</p>
-<h4 id="proveniente-de-caso-fortuito-ou-força-maior">Proveniente de caso fortuito ou força maior</h4>
+<h4 id="proveniente-de-força-maior">Proveniente de força maior</h4>
 <p>Prevista no art. 28, §1º, do CP, se for completa e deixar o agente inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento, isenta de pena;</p>
+<h4 id="embriaguez-fortuita">Embriaguez fortuita</h4>
+<p>Pode estar elencada junto a força maior em grande parte da doutrina.</p>
+<p>França a define como a embriaguez ocasional, rara, em momentos especiais, tendo origem em um erro compreensível e não em uma ação predeterminada ou imprudente, por isso, pode isentar o agente de pena.</p>
 <h4 id="acidental">Acidental</h4>
 <p>O sujeito acha que está bebendo algo sem nenhum teor alcoólico, ou ingere bebidas com grau baixo, mas que são potencializadas com medicamentos;</p>
 <h4 id="preordenadavoluntária">Preordenada/voluntária</h4>
@@ -433,28 +445,23 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 </div>
 
 <br></p>
-<h3 id="as-três-fases-da-embriaguez-e-a-lenda-árabe-3">As três fases da embriaguez e a lenda árabe [3]</h3>
+<h3 id="a-lenda-árabe-das-fases-da-embriaguez3">A lenda árabe das fases da embriaguez[3]</h3>
 <ul>
 <li>Eufórica: denominada embriaguez incompleta, quando as funções intelectuais mostram-se excitadas e o agente particularmente, se apresenta com loquacidade, eufórico. É o <strong>macaco</strong> alegórico;</li>
 <li>Agitada: denominada embriaguez completa, caracterizada pelas perturbações psiconsensoriais profundas, alterando-se as funções intelectuais, apresentando disartria, irritabilidade, violencia, agressividade, sendo a fase que predomina as infrações penais. É o <strong>leão</strong> alegórico;</li>
 <li>Comatosa: denominada estado comatoso, primeiramente aflora a sonolência, depois progressivamente apresenta-se com náusea, vômito, podendo ocorrer a espurcícia, imundície e porcaria, devido ao relaxamento dos esfíncteres, advindo anestesia profunda e abolição completa dos reflexos. É o <strong>porco</strong> na alegoria da lenda árabe;</li>
 </ul>
-<h3 id="diferenças-significativas-entre-homens-e-mulheres-2">Diferenças significativas entre homens e mulheres [2]</h3>
+<h3 id="diferenças-entre-homens-e-mulheres-2">Diferenças entre homens e mulheres [2]</h3>
 <ul>
 <li>na média, as mulheres são menores que os homens e, por esse motivo, têm menos água corporal por unidade de peso, na qual o etanol pode ser distribuído; e</li>
 <li>a enzima ADH gástrica é menos ativa em mulheres do que nos homens, fazendo com que o metabolismo gástrico do etanol seja menor nas mulheres.</li>
 </ul>
 <h3 id="síndrome-de-wernicke-korsakoff">Síndrome de Wernicke-Korsakoff</h3>
 <p>Ocorre em pessoas mal alimentadas pela alta caloria alimentar do álcool consumido cronicamente, durante meses ou anos, na qual há baixa ingesta de vitamina B1 e sua consequente deficiência, levando a alterações metabolico-neurológicas importantes, resultando num quadro demencial composto de amnésia e confabulação, principalmente. Há, também, efeitos disautonômicos menores.</p>
-<h2 id="detecção">Detecção</h2>
-<h3 id="de-maior-precisão">De maior precisão</h3>
-<p>Métodos colorimétricos e cromatográficos.</p>
-<h3 id="bafômetro">Bafômetro</h3>
-<p>O nível sanguíneo de etanol nos seres humanos pode ser estimado pela determinação das concentrações de etanol no ar expirado uma vez que a relação entre o etanol presente nos gases alveolares ao final da expiração e seu nível sanguíneo é consistente[2].</p>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
-<li>Wilson Palermo.</li>
+<li>__REMOVIDA__.</li>
 <li>DORTA, Daniel Junqueira; YONAMINE Mauricio; COSTA, José Luiz da, MARTINI, Bruno Spinosa De. <strong>Toxicologia forense</strong>. 2018.  s. Edgard Blücher. São Paulo - SP. Brasil.</li>
 <li><a href="https://www.jusbrasil.com.br/artigos/a-medicina-legal-e-o-direito-positivo-a-famosa-lenda-arabe-e-o-transito-parte-iii/121942731">https://www.jusbrasil.com.br/artigos/a-medicina-legal-e-o-direito-positivo-a-famosa-lenda-arabe-e-o-transito-parte-iii/121942731</a></li>
 <li>Charles H, Patrick; Durham, NC (1952). <strong>Alcohol, Culture, and Society</strong>. Duke University Press (reprint edition by AMS Press, New York, 1970). pp. 26–27. ISBN 9780404049065.</li>
@@ -462,6 +469,12 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 <li>GLATT, M.M. (1958), <strong>Group therapy in alcoholism</strong>. British Journal of Addiction to Alcohol &amp; Other Drugs, 54: 133-148. <a href="https://doi.org/10.1111/j.1360-0443.1958.tb04266.x">https://doi.org/10.1111/j.1360-0443.1958.tb04266.x</a></li>
 <li>Jellinek EM. <strong>Alcoholism: A genus and some of its species</strong>. Canadian Medical Association Journal. 1960a;83:1341–1345.</li>
 <li>FRANÇA, Genival Veloso de. <strong>Medicina Legal</strong>. Editora Guanabara Koogan, 10ª edição, 2015, p. 880.</li>
+<li>Rubenzer S. <strong>Judging intoxication</strong>. Behav Sci Law. 2011;29(1):116-37</li>
+</ol>
+<h2 id="bibliografia">Bibliografia</h2>
+<ol>
+<li>FRANÇA, Genival Veloso de. <strong>Medicina Legal</strong>. Editora Guanabara Koogan, 10ª edição, 2015, p. 880.</li>
+<li>Rackkorsky LL, Zerbini T, Cintra RB. <strong>Avaliação pericial da embriaguez: legislação e aspectos práticos</strong>. Saúde, Ética &amp; Justiça. 2012;17(2):44-9.</li>
 </ol>
 
 

@@ -102,7 +102,7 @@ No geral, o termo necropsia e autópsia são usadas de forma intercambiável, po
 
   <div class="barra">
       <select id=menu>
-        <option>páginas</option>
+        <option>navegação</option>
         <option value="/index.html">início</option>
         <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
@@ -111,33 +111,38 @@ No geral, o termo necropsia e autópsia são usadas de forma intercambiável, po
         <option value="/tags/programação/">programação</option>
         <option value="/tags/filosofia/">filosofia</option>
         <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/direito/">direito</option>
         <option value="/tags/estoicismo/">estoicismo</option>
         <option value="/tags/destinos/">destinos</option>
         <option value="/tags/culinária/">culinária</option>
       </select>
       <script>
-             document.getElementById("menu").addEventListener('change', function() {
-               let selectedPage = this.value;
-               window.location.href = selectedPage; 
-             });
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
       </script>
+
       <select id="temas-seletor">
-        <option>temas</option>
-        <option value=0>noturno</option>
-        <option value=1>árido</option>
-        <option value=2>café</option>
-        <option value=3>comics</option>
-        <option value=4>papel</option>
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=papel>papel</option>
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
           let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
           document.documentElement.setAttribute('data-tema', selectedValue);
           localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
         });
       </script>
-
-  
   </div>
 <article>
 <br>
@@ -147,54 +152,53 @@ No geral, o termo necropsia e autópsia são usadas de forma intercambiável, po
 <script>
   
 
-  const linksPaginas = document.querySelectorAll(".barra a");
-  const urlAtual = window.location.href;
-  const inicio = document.getElementById("indexlink");
 
-  for (const link of linksPaginas) {
-    if (urlAtual.includes(link.getAttribute("alt")
-                              .toLowerCase()
-                              .trim()
-                              .normalize('NFD')
-                              .replace(/\p{Diacritic}/gu, "")
-    )){
-      
-      link.style = "color: var(--barra-selecionado); font-weight: bold;";
-    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
-                urlAtual === "https://jeffersontorres.com.br/" || 
-                urlAtual === "https://jeffersontorres.com.br" || 
-                urlAtual === "jeffersontorres.com.br" || 
-                urlAtual === "http://localhost:1313/" ) {
-      
-      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
-    }
-  }
 
-  let lighswitch = document.getElementById("switch");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   const temaAtual = localStorage.getItem('tema');
- 
-  if (temaAtual === '0') {
-    document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noturno' ;
-  } else if (temaAtual === '1') {
-    document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'árido' ;
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
   }
-  else if (temaAtual === '3') {
-    document.documentElement.setAttribute('data-tema', '3');
-    lighswitch.innerHTML = 'comics' ;
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
   }
-  else if (temaAtual === '2') {
-    document.documentElement.setAttribute('data-tema', '2');
-    lighswitch.innerHTML = 'café' ;
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
   }
-  else if (temaAtual === '4') {
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+  else if (temaAtual === 'papel') {
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
   else { 
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
 
   function alternarTema(tema) {
@@ -263,7 +267,7 @@ No geral, o termo necropsia e autópsia são usadas de forma intercambiável, po
 Art. 162. A autópsia será feita pelo menos seis horas depois do óbito, salvo se os peritos, pela evidência dos sinais de morte, julgarem que possa ser feita antes daquele prazo, o que declararão no auto. 
 
 Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo do cadáver, quando não houver infração penal que apurar, ou quando as lesões externas permitirem precisar a causa da morte e não houver necessidade de exame interno para a verificação de alguma circunstância relevante.
-</code></pre><p>A janela de 6h antes e após o óbito é estabelecida na doutrina como o período de incerteza de Tourdes e foi a base para o mandamento legal do Art. 162.</p>
+</code></pre><p>A janela de 6h antes e após o óbito é estabelecida na doutrina como o período de incerteza de Tourdes e foi a base para o mandamento legal do Art. 162. Ocorre que, lesões provocadas dentro da janela de Tourdes são consideradas de difícil distinção se ocorreram em vida ou morte.</p>
 <h3 id="morte-em-hospital-psiquiátrico">Morte em hospital psiquiátrico</h3>
 <p>A morte ocorrida em hospital psiquiátrico embaça as situações de análise, mesmo que todas causas apontem para naturalidade da morte, uma vez que muitos medicamentos psiquiátricos tem capacidade de, sozinhos ou em conjunto, simularem e mascararem uma morte criminosa. De toda maneira, até mesmo o relato testemunhal desta circustância pode ser não confiável.</p>
 <h2 id="critérios-legais">Critérios legais</h2>

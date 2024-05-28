@@ -26,10 +26,6 @@ Regras de estilo:
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'redhatdisplay';
-    src: url('/fonts/redhat/RedHatDisplay-Light.ttf') format('ttf');
-}
 
 :root {
   /*
@@ -161,7 +157,7 @@ Regras de estilo:
     color: var(--corSelecao);
 }
 
-:root[data-tema="0"] { /* noturno */
+:root[data-tema="noturno"] { /* noturno */
   /*
   --corH2: var(--letragradiente-dark);
   */
@@ -227,7 +223,7 @@ Regras de estilo:
                );
   --sombra: #353535;
 }
-:root[data-tema="1"] {/* árido */
+:root[data-tema="arido"] {/* árido */
   /*
   --fundoImagem: var(--gradfundo); 
   --corBotao: #ebc9a9 ;
@@ -293,7 +289,7 @@ Regras de estilo:
   --termo: darkblue;
 }
 
-:root[data-tema="2"] { /* café */
+:root[data-tema="cafe"] { /* café */
   /*
   --corBotao: #ebc9a9 ;
   --fundo: #cc866a ; 
@@ -353,7 +349,7 @@ Regras de estilo:
   --sticker-font: var(--fundo-invertido) ;
   --termo: var(--mocha);
 }
-:root[data-tema="3"] { /* comics */
+:root[data-tema="comics"] { /* comics */
   /*
   --fundo: #cc866a ; 
   --fundo: #FFECB3; 
@@ -432,7 +428,7 @@ Regras de estilo:
   --sticker-font: brown;
   --termo: white ;
 }
-:root[data-tema="4"] { /* papel */
+:root[data-tema="papel"] { /* papel */
   /*
   --margem2: var(--margem);
   --margem3: calc(var(--margem) + 2);
@@ -444,7 +440,6 @@ Regras de estilo:
   --corFonteBarraHover: white;
   --corFundoBarraHover: black ;
   --bordaEtiqueta: 1px solid black;
-  --corMark: white;
   --bordaLinksBarra: none;
   --corProgressBar: blue;
   --imageBackgroundHeadings: none; 
@@ -494,6 +489,8 @@ Regras de estilo:
   --sombra: #353535;
   --corFundoSelecao: #282828 ;
   --corSelecao: white;
+  --corMark: white;
+  --fundo: var(--azulpapel); 
 }
 
 title {
@@ -1409,10 +1406,10 @@ li a:hover {
 
 #autor{
   /*
+  color: var(--autor) ; Não precisa de cor pq já herda do mark
   */
   margin-left: var(--margem);
   white-space: nowrap;
-  color: var(--autor) ; 
   font-weight: normal;
 }
 #autor, #frase{

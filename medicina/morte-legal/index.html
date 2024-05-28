@@ -17,7 +17,7 @@
   
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-      if (temaAtual === '0') { 
+      if (temaAtual === 'noturno') { 
       mermaid.initialize({ 
           'theme': 'base',
           timeline: {disableMulticolor: true},
@@ -34,7 +34,7 @@
             'tertiaryColor': '#fff'
           }
       });
-    } else if (temaAtual === '1' || temaAtual === '2' || temaAtual === '3'){ 
+    } else if (temaAtual === 'arido' || temaAtual === 'cafe' || temaAtual === 'comics'){ 
       mermaid.initialize({ 
           'theme': 'base',
           'timeline': {'disableMulticolor': true},
@@ -49,7 +49,7 @@
             'tertiaryColor': '#fff'
           }
       });
-    } else if (temaAtual === '4' ) {
+    } else if (temaAtual === 'papel' ) {
       mermaid.initialize({ 
           theme: 'base',
           timeline: {'disableMulticolor': true},
@@ -156,7 +156,7 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 
   <div class="barra">
       <select id=menu>
-        <option>páginas</option>
+        <option>navegação</option>
         <option value="/index.html">início</option>
         <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
@@ -165,33 +165,38 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
         <option value="/tags/programação/">programação</option>
         <option value="/tags/filosofia/">filosofia</option>
         <option value="/tags/medicina/">medicina</option>
+        <option value="/tags/direito/">direito</option>
         <option value="/tags/estoicismo/">estoicismo</option>
         <option value="/tags/destinos/">destinos</option>
         <option value="/tags/culinária/">culinária</option>
       </select>
       <script>
-             document.getElementById("menu").addEventListener('change', function() {
-               let selectedPage = this.value;
-               window.location.href = selectedPage; 
-             });
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
       </script>
+
       <select id="temas-seletor">
-        <option>temas</option>
-        <option value=0>noturno</option>
-        <option value=1>árido</option>
-        <option value=2>café</option>
-        <option value=3>comics</option>
-        <option value=4>papel</option>
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=papel>papel</option>
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
           let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
           document.documentElement.setAttribute('data-tema', selectedValue);
           localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
         });
       </script>
-
-  
   </div>
 <article>
 <br>
@@ -201,54 +206,53 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 <script>
   
 
-  const linksPaginas = document.querySelectorAll(".barra a");
-  const urlAtual = window.location.href;
-  const inicio = document.getElementById("indexlink");
 
-  for (const link of linksPaginas) {
-    if (urlAtual.includes(link.getAttribute("alt")
-                              .toLowerCase()
-                              .trim()
-                              .normalize('NFD')
-                              .replace(/\p{Diacritic}/gu, "")
-    )){
-      
-      link.style = "color: var(--barra-selecionado); font-weight: bold;";
-    } else if ( urlAtual === "https://jeffersontorres.com.br/index.html" || 
-                urlAtual === "https://jeffersontorres.com.br/" || 
-                urlAtual === "https://jeffersontorres.com.br" || 
-                urlAtual === "jeffersontorres.com.br" || 
-                urlAtual === "http://localhost:1313/" ) {
-      
-      inicio.style = "color: var(--corBarraSelecionado); font-weight: bold;";
-    }
-  }
 
-  let lighswitch = document.getElementById("switch");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   const temaAtual = localStorage.getItem('tema');
- 
-  if (temaAtual === '0') {
-    document.documentElement.setAttribute('data-tema', '0');
-    lighswitch.innerHTML = 'noturno' ;
-  } else if (temaAtual === '1') {
-    document.documentElement.setAttribute('data-tema', '1');
-    lighswitch.innerHTML = 'árido' ;
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
   }
-  else if (temaAtual === '3') {
-    document.documentElement.setAttribute('data-tema', '3');
-    lighswitch.innerHTML = 'comics' ;
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
   }
-  else if (temaAtual === '2') {
-    document.documentElement.setAttribute('data-tema', '2');
-    lighswitch.innerHTML = 'café' ;
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
   }
-  else if (temaAtual === '4') {
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+  else if (temaAtual === 'papel') {
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
   else { 
-    document.documentElement.setAttribute('data-tema', '4');
-    lighswitch.innerHTML = 'papel' ;
+    document.documentElement.setAttribute('data-tema', 'papel');
+    
   }
 
   function alternarTema(tema) {
@@ -299,6 +303,13 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
         <li><a href="#prova-de-verderau">Prova de Verderau</a></li>
       </ul>
     </li>
+    <li><a href="#_causa-mortis_-jurídica"><em>Causa mortis</em> jurídica</a>
+      <ul>
+        <li><a href="#homicídio">Homicídio</a></li>
+        <li><a href="#suicídio">Suicídio</a></li>
+        <li><a href="#acidente">Acidente</a></li>
+      </ul>
+    </li>
     <li><a href="#a-constatação-documental-da-morte">A constatação documental da morte</a>
       <ul>
         <li><a href="#morte-fetal-natural">Morte fetal natural</a></li>
@@ -347,6 +358,21 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 <p>Veja em <a href="../../medicina/aborto#docim%C3%A1sias-do-rec%C3%A9m-nascido">aborto</a>.</p>
 <h3 id="prova-de-verderau">Prova de Verderau</h3>
 <p>Compara-se a relação existente entre hemácias e leucócitos. A reação leucocitária só ocorre nos vivos. Os valores dependem de referências e dos diversos estados da vítima.</p>
+<h2 id="_causa-mortis_-jurídica"><em>Causa mortis</em> jurídica</h2>
+<p>Na maioria dos ordenamentos jurídicos, a <em>causa mortis</em> se subdivide em:</p>
+<ul>
+<li>Homicídio</li>
+<li>Suicídio</li>
+<li>Acidente</li>
+</ul>
+<h3 id="homicídio">Homicídio</h3>
+<h3 id="suicídio">Suicídio</h3>
+<ul>
+<li>Anômico: decorre do estado social onde a coesão das regras sociais foram rompidas, afetando em algum grau a coletividade, e.g. em graves crises econômicas, vide <em>crash</em> da bolsa de 1929.</li>
+<li>Autruísta: o ego que comanda o impulso suicida é, na verdade, parte do grupo que pertence. O suicídio acontece no contexto específico da vivência do grupo, e.g. os <em>kamikazes</em> japoneses que se jogam na morte para a causa da guerra.</li>
+<li>Egoísta: o ego é parte do complexo do id e totalmente interno a pessoa, não tendo relação com o grupo que eventualmente pertença. Normalmente, observa-se a crise existencial como justificativa, e.g. sem razão para continuar vivendo.</li>
+</ul>
+<h3 id="acidente">Acidente</h3>
 <h2 id="a-constatação-documental-da-morte">A constatação documental da morte</h2>
 <p>No Brasil, a organização dos serviços documentais da morte dos indivíduos se divide em <strong>constatação forense</strong> e cível.</p>
 <p>No contexto cível, a morte é dita natural, decorrente de doença aguda ou crônica e a emissão da declaração de óbito é feita por médicos assistentes de forma preferencial.</p>
@@ -403,10 +429,12 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 <h4 id="2h---3h">2h - 3h</h4>
 <ul>
 <li>Surgimento das manchas de hipóstase.</li>
+<li>Rigidez do masseter.</li>
 </ul>
 <h4 id="8h">8h</h4>
 <ul>
-<li>Início da rigidez cadavérica generalizada.</li>
+<li>Início da rigidez estatuária, de acordo com a lei de Nysten-Sommer-Larcher.</li>
+<li>Possível início de fixação das manchas de hipóstase.</li>
 </ul>
 <h4 id="9h">9h</h4>
 <ul>
@@ -415,30 +443,35 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 <h4 id="12h">12h</h4>
 <ul>
 <li>Certamente há gases de putrefação, exceto nas condições fixadas.</li>
-<li>Fixação das manchas de hipóstase.</li>
+<li>Certeza de fixação das manchas de hipóstase.</li>
 </ul>
 <h4 id="18h">18h</h4>
 <ul>
 <li>Possível início da mancha verde abdominal.</li>
 </ul>
-<h4 id="24h">24h</h4>
+<h4 id="24h-ou-1-dia">24h ou 1 dia</h4>
 <ul>
 <li>Mancha verde abdominal.</li>
-<li>Fim da rigidez cadavérica generalizada.</li>
+<li>Surgem os gases não inflamáveis, por bactérias produtoras de gás carbônico.</li>
+<li>Fim da rigidez cadavérica generalizada, com retorno da flacidez do masseter.</li>
 </ul>
-<h4 id="36h">36h</h4>
+<h4 id="36h-ou-1-e-12-dia">36h ou 1 e 1/2 dia</h4>
 <ul>
 <li>O nível de potássio do humor vítreo é de grande auxílio para se calcular a hora da morte<sup>?</sup>.</li>
 </ul>
-<h4 id="48h">48h</h4>
-<h4 id="60h">60h</h4>
-<h4 id="72h">72h</h4>
+<h4 id="48h-ou-2-dias">48h ou 2 dias</h4>
+<ul>
+<li>Surgem os gases inflamáveis, por bactérias facultativas produtoras de hidrogênio e os hidrocarbonetos.</li>
+</ul>
+<h4 id="60h-ou-2-e-12-dias">60h ou 2 e 1/2 dias</h4>
+<h4 id="72h-ou-3-e-dias">72h ou 3 e dias</h4>
 <ul>
 <li>Início dos cristais de Westenhöffer-Rocha-Valverde⁴.</li>
 </ul>
-<h4 id="96h">96h</h4>
+<h4 id="96h-ou-4-dias">96h ou 4 dias</h4>
 <ul>
 <li>Fundo de olho irreconhecível.</li>
+<li>Fim da produção de gases inflamáveis, permanecem os gases não inflamáveis.</li>
 </ul>
 <h4 id="1-semana">1 semana</h4>
 <ul>
@@ -453,6 +486,11 @@ Agônicas Nas situações de premoriência duvidosa, os cadáveres podem ser ana
 <li>Ainda é possível detectar cristais de Westenhöffer-Rocha-Valverde.</li>
 </ul>
 <h4 id="3-meses">3 meses</h4>
+<p>1o dia: gases não inflamáveis; do 2o ao 4o dia: gases inflamáveis; e do 5o dia em diante:
+gases não inflamáveis. Justificou que no 1o dia estão em atividade as bactérias aeróbias produtoras
+de gás carbônico. Do 2o ao 4o dia, surgem, além das bactérias aeróbias, as facultativas, de cuja ação
+se formam o hidrogênio e os hidrocarbonetos, de capacidade inflamável. Finalmente, do 5o dia em
+diante, se produzem o azoto, o hidrogênio e as amônias que são compostos não inflamáveis.</p>
 <h2 id="outras-provas-de-cessação-da-vida">Outras provas de cessação da vida</h2>
 <p>São muitos os sinais e provas técnicas descritas para ateste da morte real. Pesquise por <em>&ldquo;prova de morte&rdquo;</em> no <a href="../../dicionario">dicionário</a>.</p>
 <h2 id="fenômenos-transformativos-do-cadáver">Fenômenos transformativos do cadáver</h2>
