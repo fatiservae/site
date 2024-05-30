@@ -13,17 +13,73 @@
           });
       });
   </script>
-
+  
+    <p class=emConstrucao >ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO</p>
   
 
-  <title>Asfixias: classificação de Afrânio Peixoto | Jefferson T.</title>
+  
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === 'noturno') { 
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            cScale0: '#ffdead', 
+            cScaleLabel0: '#282828',
+            cScale1: '#a0acb9',
+            cScaleLabel1: '#000000', 
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#262626',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === 'arido' || temaAtual === 'cafe' || temaAtual === 'comics'){ 
+      mermaid.initialize({ 
+          'theme': 'base',
+          'timeline': {'disableMulticolor': true},
+          'themeVariables': {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#ffdead',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else if (temaAtual === 'papel' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ffdead', 
+            'cScaleLabel0': '#282828',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': 'white',
+            'tertiaryColor': '#fff'
+          }
+      });
+    }
+    </script>
+  
+
+  <title>A morte por asfixias | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../../style.css'>
   <link rel="icon" href="../../../favicon.webp">
-  <meta name="description" content="AsfixiasPurasMistasComplexasGases irrespiráveis2. Confinamento1. Monóxido de carbono1. EsganaduraObstaculação1. Sufocaçãodireta2. Sufocaçãoindireta1. Enforcamento2. EstrangulamentoTransformaçãodo meio1. Afogamento2. Soterramento Fases da asfixia 1ª fase: cerebral
-Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta) 1 a 2 minutos 2ª fase: excitação cortical e medular
-Convulsões generalizadas, contrações dos músculos respiratórios e da face, emissão de matéria fecal/urina (relaxamento dos esfíncteres), bradicardia (batimento cardíaco lento) e diminuição da pressão arterial 1 a 2 minutos 3ª fase: respiratória">
+  <meta name="description" content="AsfixiasPurasMistasComplexasGases irrespiráveis2. Confinamento1. Monóxido de carbono1. EsganaduraObstaculação1. Sufocaçãodireta2. Sufocaçãoindireta1. Enforcamento2. EstrangulamentoTransformaçãodo meio1. Afogamento2. Soterramento Classificação de Afrânio Peixoto
+Geral As asfixias se definem pela impossibilidade de oxigenação dos diversos tecidos. Quando leva a morte e é causada por atores externos, torna-se de grande relevância para a medicina forense.
+Conceitos importantes:
+Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no tecido final. Hipercapnia: acúmulo de dióxido de carbono na circulação.">
   <meta name="keywords" content="medicina, direito, penal, perícias">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -105,17 +161,13 @@ Convulsões generalizadas, contrações dos músculos respiratórios e da face, 
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
+        <option value="/files/">arquivos</option>
         <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/programação/">programação</option>
-        <option value="/tags/filosofia/">filosofia</option>
-        <option value="/tags/medicina/">medicina</option>
-        <option value="/tags/direito/">direito</option>
-        <option value="/tags/estoicismo/">estoicismo</option>
-        <option value="/tags/destinos/">destinos</option>
-        <option value="/tags/culinária/">culinária</option>
+        <option value="/tags/">assuntos</option>
+
       </select>
       <script>
         document.getElementById("menu").addEventListener('change', function() {
@@ -148,7 +200,7 @@ Convulsões generalizadas, contrações dos músculos respiratórios e da face, 
 <article>
 <br>
 
-  <h1>Asfixias: classificação de Afrânio Peixoto</h1>
+  <h1>A morte por asfixias</h1>
 
 <script>
   
@@ -240,6 +292,48 @@ Convulsões generalizadas, contrações dos músculos respiratórios e da face, 
 </script>
 
 
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#geral">Geral</a></li>
+    <li><a href="#asfixias-puras">Asfixias puras</a>
+      <ul>
+        <li><a href="#gases-irrespiráveis">Gases irrespiráveis</a></li>
+        <li><a href="#transformação-do-meio">Transformação do meio</a></li>
+        <li><a href="#obstaculação">Obstaculação</a></li>
+      </ul>
+    </li>
+    <li><a href="#asfixias-mistas">Asfixias mistas</a>
+      <ul>
+        <li><a href="#esganadura">Esganadura</a></li>
+      </ul>
+    </li>
+    <li><a href="#asfixias-complexas">Asfixias complexas</a>
+      <ul>
+        <li><a href="#enforcamento">Enforcamento</a></li>
+        <li><a href="#estrangulamento">Estrangulamento</a></li>
+      </ul>
+    </li>
+    <li><a href="#fases-das-asfixias">Fases das asfixias</a>
+      <ul>
+        <li><a href="#1ª-fase-cerebral">1ª fase: cerebral</a></li>
+        <li><a href="#2ª-fase-excitação-cortical-e-medular">2ª fase: excitação cortical e medular</a></li>
+        <li><a href="#3ª-fase-respiratória">3ª fase: respiratória</a></li>
+        <li><a href="#4ª-fase-cardíaca">4ª fase: cardíaca</a></li>
+      </ul>
+    </li>
+    <li><a href="#típicos-sinais-asfíxicos">Típicos sinais asfíxicos</a></li>
+    <li><a href="#anóxias">Anóxias</a>
+      <ul>
+        <li><a href="#anóxica">Anóxica</a></li>
+        <li><a href="#anêmica">Anêmica</a></li>
+        <li><a href="#estase">Estase</a></li>
+        <li><a href="#histotóxica">Histotóxica</a></li>
+      </ul>
+    </li>
+    <li><a href="#bibliografia">Bibliografia</a></li>
+  </ul>
+</nav>
+
 
 
   
@@ -268,35 +362,68 @@ Convulsões generalizadas, contrações dos músculos respiratórios e da face, 
 
 </div>
 
-<h2 id="fases-da-asfixia">Fases da asfixia</h2>
-<p>1ª fase: cerebral</p>
-<pre><code>Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta)
-1 a 2 minutos
-</code></pre>
-<p>2ª fase: excitação cortical e medular</p>
-<pre><code>Convulsões generalizadas, contrações dos músculos respiratórios e da face, emissão de matéria fecal/urina (relaxamento dos esfíncteres), bradicardia (batimento cardíaco lento) e diminuição da pressão arterial
- 1 a 2 minutos
-</code></pre>
-<p>3ª fase: respiratória</p>
-<pre><code>Movimentos respiratórios lentos e superficiais
- Insuficiência ventricular direita
- Acelera a morte
-1 a 2 minutos
-</code></pre>
-<p>4ª fase: cardíaca</p>
-<pre><code> Sofrimento do miocárdio: batimentos do coração lentos, arrítmicos, quase imperceptíveis ao pulso
- 3 a 5 minutos
-</code></pre>
-<p>Fonte: Genival Veloso.</p>
-<h2 id="fases-do-afogamento">Fases do afogamento</h2>
-<h3 id="defesa-ou-resistência">Defesa ou Resistência</h3>
-<p>A vítima tenta conter a respiração o máximo possível, ocorrendo a contenção e a pausa ou <strong>apneia</strong>.</p>
-<h3 id="exaustão">Exaustão</h3>
-<p>Ocorre atos respiratórios desordenados, com respiração forçada e difícil, por reflexo. A vítima inspira líquido profundamente com <strong>dispneia</strong>.</p>
-<h3 id="asfixia-propriamente-dita">Asfixia propriamente dita</h3>
-<p>Perda da consciência, convulsões e morte.</p>
+<p>Classificação de Afrânio Peixoto</p>
+<h2 id="geral">Geral</h2>
+<p>As asfixias se definem pela impossibilidade de oxigenação dos diversos tecidos. Quando leva a morte e é causada por atores externos, torna-se de grande relevância para a medicina forense.</p>
+<p>Conceitos importantes:</p>
+<ul>
+<li><strong>Anoxemia:</strong> insuficiente oxigênio na corrente sanguínea para troca adequada no tecido final.</li>
+<li><strong>Hipercapnia:</strong> acúmulo de dióxido de carbono na circulação.</li>
+<li><strong>Inibição:</strong> perda da resposta neuronal cervical por compressão, causando disautonomias como a apneia.</li>
+</ul>
+<h2 id="asfixias-puras">Asfixias puras</h2>
+<p>Cursam com anoxemia e hipercapnia.</p>
+<h3 id="gases-irrespiráveis">Gases irrespiráveis</h3>
+<h4 id="monóxido-de-carbono">Monóxido de carbono</h4>
+<h4 id="confinamento">Confinamento</h4>
+<h3 id="transformação-do-meio">Transformação do meio</h3>
+<h4 id="afogamento">Afogamento</h4>
+<h5 id="conduta-no-afogamento">Conduta no afogamento</h5>
+<pre class="mermaid">graph TD;
+    a(Resposta ao chamado) -- Não --> y(Desobstrua via aérea, <br>jawthrust, checar respiração <br>+ cuidado com trauma cervical) -- Sem<br> pulso carotídeo --> x(Morte/Grau 6)
+    y -- Com<br> pulso carotídeo --> z(Grau 5)
+    a -- Sim --> c(Ausculta pulmonar) -- Estertores<br> francos --> d(Pulso radial) -- Não --> m(Grau 4)
+    d -- Sim --> gi(Grau 3)
+    c -- Estertores leves<br> ou moderados --> l(Grau 2)
+    c -- Normal<br> com tosse --> fim(Grau 1)
+    c -- Normal<br> sem tosse --> lli(Resgate da cena)
+</pre>
+
+<h5 id="fases-do-afogamento">Fases do afogamento</h5>
+<ul>
+<li>Defesa ou resistência: a vítima tenta conter a respiração o máximo possível, ocorrendo a contenção e a pausa ou <strong>apneia</strong>.</li>
+<li>Exaustão: ocorre atos respiratórios desordenados, com respiração forçada e difícil, por reflexo. a vítima inspira líquido profundamente com <strong>dispneia</strong>.</li>
+<li>Asfixia propriamente dita: perda da consciência, convulsões e <strong>morte</strong>.</li>
+</ul>
+<h4 id="soterramento">Soterramento</h4>
+<h3 id="obstaculação">Obstaculação</h3>
+<h4 id="sufocação-direta">Sufocação direta</h4>
+<h4 id="sufocação-indireta">Sufocação indireta</h4>
+<h2 id="asfixias-mistas">Asfixias mistas</h2>
+<p>Cursam com anoxemia, hipercapnia e inibição, de forma a confundir a causa principal de morte.</p>
+<h3 id="esganadura">Esganadura</h3>
+<h2 id="asfixias-complexas">Asfixias complexas</h2>
+<p>Cursam com anoxemia, hipercapnia e inibição, de forma concomitante, tendo todos três fenômenos concorridos para morte.</p>
+<h3 id="enforcamento">Enforcamento</h3>
+<p>O osso hioide pode estar íntegro.</p>
+<h3 id="estrangulamento">Estrangulamento</h3>
+<h2 id="fases-das-asfixias">Fases das asfixias</h2>
+<h3 id="1ª-fase-cerebral">1ª fase: cerebral</h3>
+<p>Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta)
+1 a 2 minutos</p>
+<h3 id="2ª-fase-excitação-cortical-e-medular">2ª fase: excitação cortical e medular</h3>
+<p>Convulsões generalizadas, contrações dos músculos respiratórios e da face, emissão de matéria fecal/urina (relaxamento dos esfíncteres), bradicardia (batimento cardíaco lento) e diminuição da pressão arterial
+1 a 2 minutos</p>
+<h3 id="3ª-fase-respiratória">3ª fase: respiratória</h3>
+<p>Movimentos respiratórios lentos e superficiais
+Insuficiência ventricular direita
+Acelera a morte
+1 a 2 minutos</p>
+<h3 id="4ª-fase-cardíaca">4ª fase: cardíaca</h3>
+<p>Sofrimento do miocárdio: batimentos do coração lentos, arrítmicos, quase imperceptíveis ao pulso
+3 a 5 minutos</p>
 <h2 id="típicos-sinais-asfíxicos">Típicos sinais asfíxicos</h2>
-<p>Na morte por asfixia, o sangue do indivíduo é fluido e de cor negra; com exceção daqueles que sucumbiram sob o efeito do monóxido de carbono, cujo sangue apresenta a cor vermelho vivo, e dos afogados que ingeriram grande quantidade de líquido, cujo sangue apresenta a cor rosada.</p>
+<p>Na morte por asfixia, o sangue do indivíduo é fluido e de cor escura, pela predominância de sangue venoso. Porém, aqueles que sucumbiram sob o efeito do monóxido de carbono tem o sangue em cor vermelho vivo, e os afogados que ingeriram grande quantidade de líquido, na cor rosada.</p>
 <p>No enforcamento podemos encontrar sinais de Livores distribuídos em torno ou nos próprios sulcos da lesão:</p>
 <ul>
 <li>Ponsold;</li>
@@ -305,6 +432,9 @@ Convulsões generalizadas, contrações dos músculos respiratórios e da face, 
 <li>Ambroise Paré;</li>
 <li>Thoinot.</li>
 </ul>
+<p>A procidência da língua é um sinal comum do enforcamento e do estrangulamento.</p>
+<p>Asfixias mecânicas causam manchas de Tardieu.</p>
+<p>Os achados necroscópicos frequentes, segundo o França, no afogamento são: sinais internos: diluição do sangue (em razão da ingestão de grande quantidade de líquido); presença de água no estômago; enfisema hidroaéreo do pulmão; manchas de “Paltauf” (hemorragias pleurais no pulmão); presença de plâncton e água nas vias respiratórias (nariz e boca); presença de líquido nos ouvidos.</p>
 <p>Sinais gerais de todas asfixias:</p>
 <ul>
 <li>Cianose da face e leitos ungueais.</li>
@@ -313,12 +443,14 @@ Convulsões generalizadas, contrações dos músculos respiratórios e da face, 
 </ul>
 <h2 id="anóxias">Anóxias</h2>
 <h3 id="anóxica">Anóxica</h3>
-<h4 id="enforcamento">Enforcamento</h4>
-<p>O osso hioide pode estar íntegro.</p>
-<h4 id="afogamento">Afogamento</h4>
+<h4 id="enforcamento-1">Enforcamento</h4>
+<h4 id="afogamento-1">Afogamento</h4>
 <h3 id="anêmica">Anêmica</h3>
 <h3 id="estase">Estase</h3>
 <h3 id="histotóxica">Histotóxica</h3>
+<hr>
+<h2 id="bibliografia">Bibliografia</h2>
+<p>França</p>
 
 
 

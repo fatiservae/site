@@ -39,6 +39,139 @@
 	</item>
 	
 	<item>
+		<title>Sexologia forense</title>
+		<link>https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/</link>
+		<pubDate>Wed, 08 May 2024 12:50:41 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/</guid>
+		<description>&lt;p&gt;Virgem é a mulher sem experiência sexual.&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/medicina/himem-integro.png&#34;&gt;
+          &lt;img src=&#34;../pix/medicina/himem-integro.png&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;determinação-sexual-e-gênero&#34;&gt;Determinação sexual e gênero&lt;/h2&gt;
+&lt;p&gt;“Os estados intersexuais ou missexualismo, dos quais importam à lei as disgenesias gonadais mistas, e mais particularmente o pseudo-hermafroditismo, constituem igualmente erro essencial. Citamos o pseudo-hermafroditismo porque o hermafroditismo verdadeiro, o indivíduo sendo a um só tempo macho e fêmea, com bissexualidade funcional capaz de determinar fecundação como homem e procriação como mulher, em si mesmo, não existe na espécie humana. O que existe é o falso hermafroditismo, consequente a perturbações da evolução dos órgãos genitais, em ambos os sexos, a partir da fase diferenciatória, após o segundo mês de gestação intrauterina, do que resultam, em realidade, indivíduos que apresentam uma anomalia particular do desenvolvimento somatopsíquico, consistente na coexistência de características anatômicas e funcionais de ambos os sexos. Embora não exista na espécie humana nenhum caso registrado de hermafroditismo verdadeiro, quanto à funcionalidade, há casos comprovados, anatômica e histologicamente, de hermafroditismo glandular, ou seja, presença em um mesmo indivíduo de uma única glândula, ovo-testis, de tecido ovariano e de tecido testicular, na qual somente a parte correspondente aos ová rios funciona, liberando óvulos possivelmente fecundáveis por reprodução assistida&amp;quot;. CROCE, Delton. CROCE Júnior,
+Pseudohemafrodita - única genitália dúbia.
+Hemafrodita real - duas genitálias.&lt;/p&gt;
+&lt;h2 id=&#34;as-agressões-sexuais&#34;&gt;As agressões sexuais&lt;/h2&gt;
+&lt;p&gt;O Código Penal divide os atos sexuais agressivos, ou libidinosos, em dois tipos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;conjunção carnal, que é a introdução completa ou incompleta do pênis na vagina; e&lt;/li&gt;
+&lt;li&gt;outros atos libidinosos&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;conjunção-carnal&#34;&gt;Conjunção carnal&lt;/h3&gt;
+&lt;p&gt;Cópula tópica: sexo vaginal com penetração.
+Ectópicas: demais atos copulatórios.&lt;/p&gt;
+&lt;p&gt;Comprovar conjunção carnal:
+Rompimento do hímen
+DNA do esperma (espermatozoides). Veja &lt;a href=&#34;../medicina/medicina-legal/id-antropologica/&#34;&gt;identificação forense&lt;/a&gt;.
+Fosfatase ácida acima de 300UI/ml
+PSA - Antígeno prostático específico ou glicoproteína P30
+DST
+Gravidez
+Antígeno PSA na vagina é indicativo de cópula tópica? Questionável&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;outros-atos-libidinosos&#34;&gt;Outros atos libidinosos&lt;/h3&gt;
+&lt;h2 id=&#34;sinais-de-gravidez&#34;&gt;Sinais de gravidez&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sinal de Piskacek - palpa-se o útero de forma irregular, dado o crescimento diferenciado da porção implantada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;parafilias&#34;&gt;Parafilias&lt;/h2&gt;
+&lt;p&gt;Frotteurismo - excitação por esfregar a genitália ou outros órgãos sexualmente identificados de outrem, tipicamente ilustrado pelo abuso que ocorre em coletivos.
+Riparofilia - a perversão sexual de relacionar-se com pessoa desasseada, suja e/ou de baixa condição social e higiênica.
+Urolagnia - Excitação sexual provocada por ver urinar.
+Sadismo – prazer sexual com sofrimento do parceiro
+Masoquismo – prazer sexual em ao sentir dor ou imaginar que a sente
+Travestismo ou erotopatia – prazer em vestir-se com roupas e acessórios de um membro do sexo oposto
+Pedofilia ou hebefilia – prazer sexual com crianças
+Frotteurismo – prazer sexual por tocar ou esfregar em pessoa não consentiu - Q1935934, Q1935854, Q1936264, Q1789448
+Exibicionismo – prazer sexual em exibir o órgão genital ao outro
+Voyeurismo ou mixoscopia – prazer sexual ao observar pessoas praticando sexo ou nuas Q795005
+Onanismo – masturbação, também chamada de coito solitário Q795005
+Autoerotismo – coito psíquico, geralmente sem tocar o órgão sexual Q795005
+Pigmalionismo – atração sexual por estátuas - Q1935854, Q1936264
+Necrofilia – atração sexual por pessoa morta
+Edipismo – impulso sexual por parentes próximos Q795005
+Pluralismo ou Troilismo ou ‘Ménage à trois’ – atividade sexual com três pessoas ou prazer de ver o parceiro ter relação sexual com outras pessoas
+Swapping – troca de casais
+Coprolalia – prazer sexual por palavras obscenas
+Coprofilia – prazer sexual pelo contato com fezes
+Coprofagia – prazer sexual na ingestão de fezes
+Urolagnia – prazer sexual que envolve micção, ruído de urina, urinar no parceiro
+Cromoinversão – atração sexual por pessoas de cor de pele diferente
+Gerontofilia ou Cronoinversão – atração sexual por pessoas de idade avançada
+Dolismo – atração sexual por bonecas ou manequins - Q1935854, Q1936264
+Anafrodisia – diminuição do instinto sexual do homem
+Frigidez – diminuição do instinto sexual da mulher
+Erotismo – tendência abusiva dos atos sexuais – satiríase quando é no homem e ninfomania quando é na mulher - Q1935854, Q1936264
+Anaclitismo - sinais excitatórios apenas ao usar objetos que remetem à infância, tais como usar chupeta, tomar mamadeira ou usar fraudas. Q1636825
+Hipoxifilia
+Clismafilia - liquidos anus e vagina&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Mandamentos legais brasileiros da autópsia</title>
 		<link>https://www.jeffersontorres.com.br/medicina/autopsias/</link>
 		<pubDate>Wed, 01 May 2024 22:00:06 -0300</pubDate>
@@ -66,6 +199,8 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;p&gt;Todos os órgãos são retirados individualmente.&lt;/p&gt;
 &lt;h3 id=&#34;autópsia-do-recém-nascido&#34;&gt;Autópsia do recém-nascido&lt;/h3&gt;
 &lt;p&gt;Circunferência da cabeça, tamanho dos pés, distância crânio-caudal ou comprimento e tamanho do cordão umbilical.&lt;/p&gt;
+&lt;h2 id=&#34;exames-e-coletas-da-autópsia&#34;&gt;Exames e coletas da autópsia&lt;/h2&gt;
+&lt;p&gt;Deve se buscar sempre coletar o conteúdo intestinal e estomacal por completo, não uma amostra representativa, dada a heterogeneidade.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -75,9 +210,7 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 		<pubDate>Wed, 01 May 2024 21:31:09 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/medicina-legal/traumato-forense/</guid>
-		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
-&lt;h2 id=&#34;história&#34;&gt;História&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;história&#34;&gt;História&lt;/h2&gt;
 &lt;p&gt;Após o austríaco Hans Groß publicar seu livro Handbuch für Untersuchungsrichter als System der Kriminalistik em 1893, uma nova era da criminalística iniciou-se com a definição de &lt;strong&gt;cena do crime&lt;/strong&gt; e da &lt;strong&gt;coleta de evidências&lt;/strong&gt;, notadamente para confrontar decisões judiciais tendenciosas e pouco esclarecidas. Seu manual introduziu a ciência formal no direito.&lt;/p&gt;
 &lt;h2 id=&#34;princípios&#34;&gt;Princípios&lt;/h2&gt;
 &lt;h3 id=&#34;análise&#34;&gt;Análise&lt;/h3&gt;
@@ -94,8 +227,7 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;h3 id=&#34;lesões-elementares-em-traumatologia-forense&#34;&gt;Lesões elementares em traumatologia forense&lt;/h3&gt;
 &lt;h4 id=&#34;rubefação&#34;&gt;Rubefação&lt;/h4&gt;
 &lt;p&gt;Caracteriza-se por congestão circulatória repentina e momentânea de uma área de alguns tecidos como o cutâneo e muscular quando traumatizada por instrumento contuso, caracterizada por vermelhidão efêmero e fugaz.&lt;/p&gt;
-&lt;h2 id=&#34;energia-mecânica&#34;&gt;Energia mecânica&lt;/h2&gt;
-&lt;h3 id=&#34;lesões-contusas&#34;&gt;Lesões contusas&lt;/h3&gt;
+&lt;h4 id=&#34;equimose&#34;&gt;Equimose&lt;/h4&gt;
 &lt;h5 id=&#34;espectro-equimótico-de-legrand-du-saulle&#34;&gt;Espectro equimótico de Legrand du Saulle&lt;/h5&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -149,7 +281,7 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;As equimoses podem se formar em local diverso do trauma, como ocorre na fratura de base de crânio com surgimento do sinal de Guaxinin ou de Zorro.&lt;/p&gt;
+&lt;p&gt;As equimoses podem se formar em local diverso do trauma, como ocorre na fratura de base de crânio com surgimento do sinal de Guaxinin ou de Zorro. Thoinot dizia que a equimose era uma prova irrefutável de reação vital.&lt;/p&gt;
 &lt;p&gt;Outros tecidos diversos da pele podem ter cronologia de surgimento e desaparecimento das lesões equimóticas muito diferente da descrita por Legrand du Saulle. A conjuntiva ocular e.g. pode apresentar equimose em aspecto avermelhado fixo até seu desaparecimento. Hygino também cita o escroto como região de progressão crômica diversa das equimoses em geral.&lt;/p&gt;
 &lt;h4 id=&#34;equimonas&#34;&gt;Equimonas&lt;/h4&gt;
 &lt;p&gt;Equimoses extensas, de tamanho não habitual.&lt;/p&gt;
@@ -163,6 +295,8 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;p&gt;São lesões com assinatura, apresentam a forma de estrias, duas linhas paralelas.&lt;/p&gt;
 &lt;h3 id=&#34;prova-de-verderau&#34;&gt;Prova de Verderau&lt;/h3&gt;
 &lt;p&gt;Consiste em comparar a relação existente entre as hemácias e leucócitos da lesão suspeita, tomando como parâmetro esses elementos figurados do sangue de outra região qualquer do corpo. Se a relação dos glóbulos brancos e vermelhos se equivale nas duas contagens, diz-se que a lesão foi produzida &lt;mark&gt;após a morte&lt;/mark&gt;. Se a primeira contagem é superior à segunda, conclui-se pelo diagnóstico de uma lesão &lt;mark&gt;in vitam&lt;/mark&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;energia-mecânica&#34;&gt;Energia mecânica&lt;/h2&gt;
+&lt;h3 id=&#34;lesões-contusas&#34;&gt;Lesões contusas&lt;/h3&gt;
 &lt;h3 id=&#34;lesões-incisas-perfurocontusas-e-puntiformes&#34;&gt;Lesões incisas, perfurocontusas e puntiformes&lt;/h3&gt;
 &lt;h4 id=&#34;leis-de-edouard-filhós-e-langer&#34;&gt;Leis de Edouard Filhós e Langer&lt;/h4&gt;
 &lt;ul&gt;
@@ -266,6 +400,8 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 1 -- difusa por&lt;br&gt;energia solar&lt;br&gt;direta ou indireta--&gt; 4(Insolação);
 &lt;/pre&gt;
 
+&lt;h3 id=&#34;queimaduras-e-geladuras&#34;&gt;Queimaduras e geladuras&lt;/h3&gt;
+&lt;p&gt;Veja em &lt;a href=&#34;../medicina/queimados/&#34;&gt;queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;intermação&#34;&gt;Intermação&lt;/h3&gt;
 &lt;p&gt;O encéfalo apresentava hiperemia e congestão das meninges; coração com consistência muito aumentada; pulmões com equimoses subpleurais e edema interno; notou, em outras vísceras, a presença de hipertermia interna e de grande quantidade de sangue no sistema venoso.&lt;/p&gt;
 &lt;h3 id=&#34;graus-de-queimadura&#34;&gt;Graus de queimadura&lt;/h3&gt;
@@ -308,14 +444,12 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 		<pubDate>Wed, 01 May 2024 12:33:43 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/morte-legal/</guid>
-		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
-&lt;h2 id=&#34;natureza-da-morte&#34;&gt;Natureza da morte&lt;/h2&gt;
-&lt;h2 id=&#34;súbita&#34;&gt;Súbita&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;natureza-da-morte&#34;&gt;Natureza da morte&lt;/h2&gt;
+&lt;h3 id=&#34;súbita&#34;&gt;Súbita&lt;/h3&gt;
 &lt;p&gt;A morte súbita ocorre de forma inesperada, brusca e sem qualquer influência externa.&lt;/p&gt;
-&lt;h2 id=&#34;agônica&#34;&gt;Agônica&lt;/h2&gt;
+&lt;h3 id=&#34;agônica&#34;&gt;Agônica&lt;/h3&gt;
 &lt;p&gt;Se arrasta por dias ou mais.&lt;/p&gt;
-&lt;h3 id=&#34;docimasias&#34;&gt;Docimasias&lt;/h3&gt;
+&lt;h2 id=&#34;docimasias&#34;&gt;Docimasias&lt;/h2&gt;
 &lt;p&gt;As docimasias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.&lt;/p&gt;
 &lt;h4 id=&#34;agônicas&#34;&gt;Agônicas&lt;/h4&gt;
 &lt;p&gt;Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais. A perícia, portanto, pode afastar a comoriência presumida.&lt;/p&gt;
@@ -362,6 +496,8 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Tem &lt;strong&gt;massa maior ou igual a 500g&lt;/strong&gt;; ou&lt;/li&gt;
 &lt;li&gt;Tem &lt;strong&gt;estatura maior ou igual a 25cm&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;inumação-e-cremação&#34;&gt;Inumação e cremação&lt;/h3&gt;
+&lt;p&gt;A cremação só pode ocorrer se a declaração de óbito é assinada por dois médicos e, nos casos da seara penal, não se autoriza a cremação até que se finde o processo.&lt;/p&gt;
 &lt;h2 id=&#34;fenômenos-abióticos-avitais-ou-vitais-negativos&#34;&gt;Fenômenos abióticos, avitais ou vitais negativos&lt;/h2&gt;
 &lt;p&gt;Marcam ausência de vida.&lt;/p&gt;
 &lt;h3 id=&#34;imediatos&#34;&gt;Imediatos&lt;/h3&gt;
@@ -373,14 +509,14 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Cessação da circulação;&lt;/li&gt;
 &lt;li&gt;Flacidez generalizada;&lt;/li&gt;
 &lt;li&gt;Midríase;&lt;/li&gt;
-&lt;li&gt;Cessação de atividade cerebral²;&lt;/li&gt;
+&lt;li&gt;Cessação de atividade cerebral³;&lt;/li&gt;
 &lt;li&gt;Relaxamento dos esfíncteres;&lt;/li&gt;
-&lt;li&gt;Espasmo cadavérico³.&lt;/li&gt;
+&lt;li&gt;Espasmo cadavérico⁴.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;consecutivos-ou-tardios&#34;&gt;Consecutivos ou tardios&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Desidratação cadavérica, inicialmente a evaporação tegumentar;&lt;/li&gt;
-&lt;li&gt;Algor mortis, o reequilíbrio térmico cadavérico¹;&lt;/li&gt;
+&lt;li&gt;Algor mortis, o reequilíbrio térmico cadavérico²;&lt;/li&gt;
 &lt;li&gt;Livor mortis, as manchas de hipóstase;&lt;/li&gt;
 &lt;li&gt;Rigor mortis, a transitória rigidez cadavérica.&lt;/li&gt;
 &lt;/ul&gt;
@@ -392,15 +528,25 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Início da rigidez cadavérica espasmódica permanente.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;minutos-a-1h&#34;&gt;Minutos a 1h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Sinal da tela viscosa.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;2h---3h&#34;&gt;2h - 3h&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Surgimento das manchas de hipóstase.&lt;/li&gt;
 &lt;li&gt;Rigidez do masseter.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;6h&#34;&gt;6h&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Pode surgir o sinal de Sommer-Laucher.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;8h&#34;&gt;8h&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Início da rigidez estatuária, de acordo com a lei de Nysten-Sommer-Larcher.&lt;/li&gt;
 &lt;li&gt;Possível início de fixação das manchas de hipóstase.&lt;/li&gt;
+&lt;li&gt;Começa a desaparecer as artérias de fundo de olho, por colapso.&lt;/li&gt;
+&lt;li&gt;Já é possível identificar o sinal de Ripault.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;9h&#34;&gt;9h&lt;/h4&gt;
 &lt;ul&gt;
@@ -409,7 +555,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;h4 id=&#34;12h&#34;&gt;12h&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Certamente há gases de putrefação, exceto nas condições fixadas.&lt;/li&gt;
-&lt;li&gt;Certeza de fixação das manchas de hipóstase.&lt;/li&gt;
+&lt;li&gt;Fixação das manchas de hipóstase.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;18h&#34;&gt;18h&lt;/h4&gt;
 &lt;ul&gt;
@@ -423,7 +569,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;36h-ou-1-e-12-dia&#34;&gt;36h ou 1 e 1/2 dia&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;O nível de potássio do humor vítreo é de grande auxílio para se calcular a hora da morte&lt;sup&gt;?&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;O nível de potássio do humor vítreo é de grande auxílio para se calcular a hora da morte&lt;sup&gt;1?&lt;/sup&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;48h-ou-2-dias&#34;&gt;48h ou 2 dias&lt;/h4&gt;
 &lt;ul&gt;
@@ -432,12 +578,12 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;h4 id=&#34;60h-ou-2-e-12-dias&#34;&gt;60h ou 2 e 1/2 dias&lt;/h4&gt;
 &lt;h4 id=&#34;72h-ou-3-e-dias&#34;&gt;72h ou 3 e dias&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Início dos cristais de Westenhöffer-Rocha-Valverde⁴.&lt;/li&gt;
+&lt;li&gt;Início dos cristais de Westenhöffer-Rocha-Valverde⁵.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;96h-ou-4-dias&#34;&gt;96h ou 4 dias&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Fundo de olho irreconhecível.&lt;/li&gt;
-&lt;li&gt;Fim da produção de gases inflamáveis, permanecem os gases não inflamáveis.&lt;/li&gt;
+&lt;li&gt;Fim da produção de gases inflamáveis, permanecem os gases não inflamáveis, principalmente azoto.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;1-semana&#34;&gt;1 semana&lt;/h4&gt;
 &lt;ul&gt;
@@ -447,16 +593,33 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ainda é possível aparecimento da primeira legião, a musca domestica, muscina stabulans e calliphora vomitoria.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;3-semanas&#34;&gt;3 semanas&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Primeiros legionários de Guerrin, e.g. Musca domestica, Calliphora vomitoria, Diptera &amp;mdash; Calliphoridae.&lt;/li&gt;
+&lt;li&gt;Pssível instalação dos segundos legionários, e.g. Lucilia coesar &amp;mdash; Diptera: Calliphoridae &amp;mdash;, Sarcophaga carnaria etc.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;1-mês&#34;&gt;1 mês&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Ainda é possível detectar cristais de Westenhöffer-Rocha-Valverde.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;3-meses&#34;&gt;3 meses&lt;/h4&gt;
-&lt;p&gt;1o dia: gases não inflamáveis; do 2o ao 4o dia: gases inflamáveis; e do 5o dia em diante:
-gases não inflamáveis. Justificou que no 1o dia estão em atividade as bactérias aeróbias produtoras
-de gás carbônico. Do 2o ao 4o dia, surgem, além das bactérias aeróbias, as facultativas, de cuja ação
-se formam o hidrogênio e os hidrocarbonetos, de capacidade inflamável. Finalmente, do 5o dia em
-diante, se produzem o azoto, o hidrogênio e as amônias que são compostos não inflamáveis.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Início da invasão legionária da quarta onda de Guerrin, os coleópteros &amp;mdash; bezouros &amp;mdash;, dípteros Sarcophaga etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;6-meses&#34;&gt;6 meses&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A quarta onda legionária após putrefação com fermentação butírica, principalmente pelas Pyophila petasionis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;1-ano&#34;&gt;1 ano&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A quinta legião, comandada pela fermentação amoniacal, e.g. Ophyra cadaverina.&lt;/li&gt;
+&lt;li&gt;A sexta legião resultando em dessecação completa ou mumificação das partes orgânicas que resistem, e.g. os acarinos como Uproda nummularia.&lt;/li&gt;
+&lt;li&gt;Sétima onda legionária de Guerrin, com consumo de tecidos pergaminhados, principalmente por Antherenus museorum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-anos&#34;&gt;3 anos&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Oitava onda de legionários consumindo todos vestígios não ósseos, e.g. Ptinus bruneus (Coleoptera).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;outras-provas-de-cessação-da-vida&#34;&gt;Outras provas de cessação da vida&lt;/h2&gt;
 &lt;p&gt;São muitos os sinais e provas técnicas descritas para ateste da morte real. Pesquise por &lt;em&gt;&amp;ldquo;prova de morte&amp;rdquo;&lt;/em&gt; no &lt;a href=&#34;../dicionario&#34;&gt;dicionário&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;fenômenos-transformativos-do-cadáver&#34;&gt;Fenômenos transformativos do cadáver&lt;/h2&gt;
@@ -486,8 +649,8 @@ III Comoriência é a morte simultânea, ao mesmo tempo, de duas ou mais pessoas
 IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes antes do(s) outro(s); isto é, a morte de um dos participantes precede a do(s) outro(s).&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
-&lt;p&gt;&lt;span style=&#34;margin: 0;margin-left: 3vw;padding: 0; color: var(--corNegrito)&#34;&gt;?.&lt;/span&gt; Informação sem referência. &lt;mark&gt;Pesquisar!&lt;/mark&gt;.&lt;/p&gt;
 &lt;ol&gt;
+&lt;li&gt;Informação sem referência exata para quantificar o quanto o potássio cai por hora após a morte. As referências raramente ousam fornecer essa informação, se limitando a informar que há aumento do potássio vítreo. &lt;mark&gt;Pesquisar!&lt;/mark&gt;.&lt;/li&gt;
 &lt;li&gt;O chamado algor mortis é normalmente referido como o resfriamento do cadáver. Entretanto, o que ocorre de fato é o reequilíbrio térmico com o ambiente que, em condições habituais, está mais frio que o corpo recém morto, passando a impressão térmica ao toque de resfriamento.&lt;/li&gt;
 &lt;li&gt;A morte cerebral difere da encefálica, sendo esta a característica morte real.&lt;/li&gt;
 &lt;li&gt;O dito sinal de Kossu é controverso e é descrito normalmente como o espasmo que mantém agarrada pela mão a arma do suicida.&lt;/li&gt;
@@ -496,6 +659,7 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;FRANÇA, Genival Veloso de. &lt;strong&gt;Medicina Legal&lt;/strong&gt;. Guanabara Koogan, 10ª edição, 2015, p. 1030.&lt;/li&gt;
+&lt;li&gt;Maia GL de S, Vieira IKF, Fortes CHF, Silva PH do N, Cunha CEX da, Oliveira AIP de, et al.. &lt;strong&gt;Aspectos médico-legais do olho&lt;/strong&gt;. Rev brasoftalmol [Internet]. 2022;81:e0068. Available from: &lt;a href=&#34;https://doi.org/10.37039/1982.8551.20220068&#34;&gt;https://doi.org/10.37039/1982.8551.20220068&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -510,9 +674,7 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 		<pubDate>Tue, 30 Apr 2024 11:27:39 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/aborto/</guid>
-		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
-&lt;h2 id=&#34;gravidez-legal&#34;&gt;Gravidez legal&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;gravidez-legal&#34;&gt;Gravidez legal&lt;/h2&gt;
 &lt;h3 id=&#34;início&#34;&gt;Início&lt;/h3&gt;
 &lt;p&gt;Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação &lt;em&gt;sine qua non&lt;/em&gt; e a nidação que assume característica definidora posterior. O marco &lt;strong&gt;legal atualmente adotado no Brasil é a nidação bem sucedida&lt;/strong&gt; que ocorre, normalmente, cerca de 14 dias após a fecundação.&lt;/p&gt;
 &lt;h3 id=&#34;fim&#34;&gt;Fim&lt;/h3&gt;
@@ -532,7 +694,31 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 &lt;li&gt;Menos de 22s.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;classificações-penais&#34;&gt;Classificações penais&lt;/h2&gt;
+&lt;p&gt;É admitida a tentativa do crime de aborto por se tratar de crime material.&lt;/p&gt;
 &lt;h3 id=&#34;tipos-penais&#34;&gt;Tipos penais&lt;/h3&gt;
+&lt;p&gt;Assim reza o Código Penal:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Aborto provocado pela gestante ou com seu consentimento
+Art. 124 - Provocar aborto em si mesma ou consentir que outrem lho provoque: (Vide ADPF 54)
+Pena - detenção, de um a três anos.
+Aborto provocado por terceiro
+Art. 125 - Provocar aborto, sem o consentimento da gestante:
+Pena - reclusão, de três a dez anos.
+Art. 126 - Provocar aborto com o consentimento da gestante: (Vide ADPF 54)
+Pena - reclusão, de um a quatro anos.
+Parágrafo único. Aplica-se a pena do artigo anterior, se a gestante não é maior de quatorze anos, ou é alienada
+ou debil mental, ou se o consentimento é obtido mediante fraude, grave ameaça ou violência
+Forma qualificada
+Art. 127 - As penas cominadas nos dois artigos anteriores são aumentadas de um terço, se, em conseqüência
+do aborto ou dos meios empregados para provocá-lo, a gestante sofre lesão corporal de natureza grave; e são
+duplicadas, se, por qualquer dessas
+causas, lhe sobrevém a morte.
+Art. 128 - Não se pune o aborto praticado por médico: (Vide ADPF 54)
+Aborto necessário
+I - se não há outro meio de salvar a vida da gestante;
+Aborto no caso de gravidez resultante de estupro
+II - se a gravidez resulta de estupro e o aborto é precedido de consentimento da gestante ou, quando incapaz,
+de seu representante legal.
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;mapa-mental&#34;&gt;Mapa mental&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 2(Abortos criminosos) --&gt; 3(Quanto ao&lt;br&gt;sujeito ativo) --&gt; 10(&lt;strong&gt;Provocado&lt;/strong&gt;&lt;br&gt;A própria gestante&lt;br&gt;realiza o aborto);
 3 --&gt; 12(&lt;strong&gt;Consentido&lt;/strong&gt;&lt;br&gt;A gestante autoriza&lt;br&gt;a outrem que&lt;br&gt;realize o aborto);
@@ -664,9 +850,7 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 		<pubDate>Tue, 30 Apr 2024 08:33:23 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/direito/cautelares/</guid>
-		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
-&lt;h2 id=&#34;prisão-penal&#34;&gt;Prisão penal&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;prisão-penal&#34;&gt;Prisão penal&lt;/h2&gt;
 &lt;p&gt;Para o entendimento constitucional, a prisão definitiva penal &lt;strong&gt;depende do trânsito em julgado&lt;/strong&gt;, conforme ações diretas de constitucionalidade no STF números 43/44/54.&lt;/p&gt;
 &lt;p&gt;Porém, há o aparente conflito com o chamado &lt;em&gt;pacote anti-crime&lt;/em&gt; que inclui redação ao art. 429 do Código Processual Penal que estipula início de cumprimento de pena imediato se há condições de prisão temporária ou se a pena for igual ou superior a 15 anos de reclusão.&lt;/p&gt;
 &lt;p&gt;De todo modo, o Habeas Corpus 623.107/PA no STJ foi claro em declarar ilegal a execução automática de pena antes do trânsito em julgado, mantida as condições da temporária se preenchidos requisitos respectivos.&lt;/p&gt;
@@ -735,15 +919,15 @@ com --&gt; conced(Conceder liberdade provisória)
 		<pubDate>Mon, 29 Apr 2024 10:25:40 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/medicina-legal/id-antropologica/</guid>
-		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
-&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;A antropologia forense estuda identidade e a identificação, os métodos, processos e técnicas envolvidas.&lt;/p&gt;
 &lt;h3 id=&#34;identidade&#34;&gt;Identidade&lt;/h3&gt;
 &lt;p&gt;Para a biologia, identidade é o conjunto de propriedades e características que individualiza um ser vivo. Para a antropologia, também, com a importante consequência dos efeitos jurídicos decorrentes da individualidade, ou seja, a capacidade jurídica de produzir efeitos, sofrer responsabilizações e portar direitos.&lt;/p&gt;
 &lt;h3 id=&#34;identificação&#34;&gt;Identificação&lt;/h3&gt;
 &lt;p&gt;A identificação é o processo de identificar.&lt;/p&gt;
 &lt;p&gt;Para a medicina e antropologia legal, trata-se de construir a identidade do espécime, tornando-o único.&lt;/p&gt;
+&lt;h3 id=&#34;princípios&#34;&gt;Princípios&lt;/h3&gt;
+&lt;p&gt;Imutabilidade ou perenidade, praticidade, unicidade e classificabilidade.&lt;/p&gt;
 &lt;h2 id=&#34;a-identificação-policial-ou-judiciária&#34;&gt;A identificação policial ou judiciária&lt;/h2&gt;
 &lt;p&gt;São realizadas em sede de juízo por peritos jurídicos ou de polícia científica através de:&lt;/p&gt;
 &lt;ul&gt;
@@ -3408,15 +3592,20 @@ $$&lt;/p&gt;
 FD = \frac{V 1 X X X}{E 1 2 4 3}
 $$&lt;/p&gt;
 &lt;p&gt;A amputação de um dedo é assinalada com número 0 (zero). Os dedos não identificáveis se assinalam por X.&lt;/p&gt;
-&lt;h3 id=&#34;pontos-característicos&#34;&gt;Pontos característicos&lt;/h3&gt;
+&lt;h3 id=&#34;pontos-característicos-ou-minúcias&#34;&gt;Pontos característicos ou minúcias&lt;/h3&gt;
 &lt;p&gt;As linhas definidoras do desenho da digital podem coalescer entre si, se separarem em bifurcações, mostrar características de raízes, apresentar aspecto de anastomose entre diversas outras características. Estes pontos são mapeados quanto a sua característica e localização na impressão e são usados para a conferência legal.&lt;/p&gt;
 &lt;h3 id=&#34;conferência-legal&#34;&gt;Conferência legal&lt;/h3&gt;
-&lt;p&gt;No Brasil, adotou-se de forma habitual que a identificação criminal seja feita pelo mesmo tipo fundamental e mais &lt;strong&gt;12 pontos característicos&lt;/strong&gt; para se atribuir a impressão digital ao banco fornecido.&lt;/p&gt;
+&lt;p&gt;No Brasil, adotou-se de forma habitual que a identificação criminal seja feita pelo &lt;strong&gt;mesmo tipo fundamental&lt;/strong&gt;, &lt;strong&gt;12 pontos característicos&lt;/strong&gt; e &lt;strong&gt;nenhuma minúcia discrepante&lt;/strong&gt; para se atribuir a impressão digital a uma do banco fornecido.&lt;/p&gt;
+&lt;h4 id=&#34;regra-de-locard&#34;&gt;Regra de Locard&lt;/h4&gt;
+&lt;p&gt;Na verdade, esta fórmula de conferência foi estabelecida pragmaticamente por Locard em seu tempo e recebe críticas modernas para conversão numa regra puramente estatística.&lt;/p&gt;
 &lt;p&gt;A perenidade da impressão digital é questionável, uma vez que a putrefação do tecido cutâneo consome as digitais. Porém, a doutrina aceita classificar a identificação por papiloscopias como perenes.&lt;/p&gt;
 &lt;h3 id=&#34;curiosidades&#34;&gt;Curiosidades&lt;/h3&gt;
 &lt;p&gt;A história por detrás da identificação via impressões digitais remontam a tempos com outros contextos tecnológicos e, até mesmo um código específico em Morse foi criado já nas primeiras conferências da INTERPOL para transmissão de informações sobre impressões de suspeitos e criminosos[2].&lt;/p&gt;
 &lt;h2 id=&#34;fotografia-sinaléptica&#34;&gt;Fotografia sinaléptica&lt;/h2&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h2 id=&#34;arcada-dentária&#34;&gt;Arcada dentária&lt;/h2&gt;
+&lt;p&gt;Em breve.
+Arcada é mutável.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
@@ -3431,7 +3620,7 @@ $$&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Embriaguez: visão toxicológica-legal</title>
+		<title>Visão toxicológica e legal da embriaguez</title>
 		<link>https://www.jeffersontorres.com.br/medicina/medicina-legal/embriaguez/</link>
 		<pubDate>Sun, 28 Apr 2024 09:59:55 -0300</pubDate>
 		
@@ -3646,7 +3835,7 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 	</item>
 	
 	<item>
-		<title>Asfixias: classificação de Afrânio Peixoto</title>
+		<title>A morte por asfixias</title>
 		<link>https://www.jeffersontorres.com.br/medicina/medicina-legal/asfixias/</link>
 		<pubDate>Wed, 24 Apr 2024 21:53:14 -0300</pubDate>
 		
@@ -3677,35 +3866,68 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 
 &lt;/div&gt;
 
-&lt;h2 id=&#34;fases-da-asfixia&#34;&gt;Fases da asfixia&lt;/h2&gt;
-&lt;p&gt;1ª fase: cerebral&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta)
-1 a 2 minutos
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;2ª fase: excitação cortical e medular&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Convulsões generalizadas, contrações dos músculos respiratórios e da face, emissão de matéria fecal/urina (relaxamento dos esfíncteres), bradicardia (batimento cardíaco lento) e diminuição da pressão arterial
- 1 a 2 minutos
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;3ª fase: respiratória&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Movimentos respiratórios lentos e superficiais
- Insuficiência ventricular direita
- Acelera a morte
-1 a 2 minutos
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;4ª fase: cardíaca&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; Sofrimento do miocárdio: batimentos do coração lentos, arrítmicos, quase imperceptíveis ao pulso
- 3 a 5 minutos
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Fonte: Genival Veloso.&lt;/p&gt;
-&lt;h2 id=&#34;fases-do-afogamento&#34;&gt;Fases do afogamento&lt;/h2&gt;
-&lt;h3 id=&#34;defesa-ou-resistência&#34;&gt;Defesa ou Resistência&lt;/h3&gt;
-&lt;p&gt;A vítima tenta conter a respiração o máximo possível, ocorrendo a contenção e a pausa ou &lt;strong&gt;apneia&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;exaustão&#34;&gt;Exaustão&lt;/h3&gt;
-&lt;p&gt;Ocorre atos respiratórios desordenados, com respiração forçada e difícil, por reflexo. A vítima inspira líquido profundamente com &lt;strong&gt;dispneia&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;asfixia-propriamente-dita&#34;&gt;Asfixia propriamente dita&lt;/h3&gt;
-&lt;p&gt;Perda da consciência, convulsões e morte.&lt;/p&gt;
+&lt;p&gt;Classificação de Afrânio Peixoto&lt;/p&gt;
+&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
+&lt;p&gt;As asfixias se definem pela impossibilidade de oxigenação dos diversos tecidos. Quando leva a morte e é causada por atores externos, torna-se de grande relevância para a medicina forense.&lt;/p&gt;
+&lt;p&gt;Conceitos importantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Anoxemia:&lt;/strong&gt; insuficiente oxigênio na corrente sanguínea para troca adequada no tecido final.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hipercapnia:&lt;/strong&gt; acúmulo de dióxido de carbono na circulação.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inibição:&lt;/strong&gt; perda da resposta neuronal cervical por compressão, causando disautonomias como a apneia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;asfixias-puras&#34;&gt;Asfixias puras&lt;/h2&gt;
+&lt;p&gt;Cursam com anoxemia e hipercapnia.&lt;/p&gt;
+&lt;h3 id=&#34;gases-irrespiráveis&#34;&gt;Gases irrespiráveis&lt;/h3&gt;
+&lt;h4 id=&#34;monóxido-de-carbono&#34;&gt;Monóxido de carbono&lt;/h4&gt;
+&lt;h4 id=&#34;confinamento&#34;&gt;Confinamento&lt;/h4&gt;
+&lt;h3 id=&#34;transformação-do-meio&#34;&gt;Transformação do meio&lt;/h3&gt;
+&lt;h4 id=&#34;afogamento&#34;&gt;Afogamento&lt;/h4&gt;
+&lt;h5 id=&#34;conduta-no-afogamento&#34;&gt;Conduta no afogamento&lt;/h5&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+    a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
+    y -- Com&lt;br&gt; pulso carotídeo --&gt; z(Grau 5)
+    a -- Sim --&gt; c(Ausculta pulmonar) -- Estertores&lt;br&gt; francos --&gt; d(Pulso radial) -- Não --&gt; m(Grau 4)
+    d -- Sim --&gt; gi(Grau 3)
+    c -- Estertores leves&lt;br&gt; ou moderados --&gt; l(Grau 2)
+    c -- Normal&lt;br&gt; com tosse --&gt; fim(Grau 1)
+    c -- Normal&lt;br&gt; sem tosse --&gt; lli(Resgate da cena)
+&lt;/pre&gt;
+
+&lt;h5 id=&#34;fases-do-afogamento&#34;&gt;Fases do afogamento&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Defesa ou resistência: a vítima tenta conter a respiração o máximo possível, ocorrendo a contenção e a pausa ou &lt;strong&gt;apneia&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Exaustão: ocorre atos respiratórios desordenados, com respiração forçada e difícil, por reflexo. a vítima inspira líquido profundamente com &lt;strong&gt;dispneia&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Asfixia propriamente dita: perda da consciência, convulsões e &lt;strong&gt;morte&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;soterramento&#34;&gt;Soterramento&lt;/h4&gt;
+&lt;h3 id=&#34;obstaculação&#34;&gt;Obstaculação&lt;/h3&gt;
+&lt;h4 id=&#34;sufocação-direta&#34;&gt;Sufocação direta&lt;/h4&gt;
+&lt;h4 id=&#34;sufocação-indireta&#34;&gt;Sufocação indireta&lt;/h4&gt;
+&lt;h2 id=&#34;asfixias-mistas&#34;&gt;Asfixias mistas&lt;/h2&gt;
+&lt;p&gt;Cursam com anoxemia, hipercapnia e inibição, de forma a confundir a causa principal de morte.&lt;/p&gt;
+&lt;h3 id=&#34;esganadura&#34;&gt;Esganadura&lt;/h3&gt;
+&lt;h2 id=&#34;asfixias-complexas&#34;&gt;Asfixias complexas&lt;/h2&gt;
+&lt;p&gt;Cursam com anoxemia, hipercapnia e inibição, de forma concomitante, tendo todos três fenômenos concorridos para morte.&lt;/p&gt;
+&lt;h3 id=&#34;enforcamento&#34;&gt;Enforcamento&lt;/h3&gt;
+&lt;p&gt;O osso hioide pode estar íntegro.&lt;/p&gt;
+&lt;h3 id=&#34;estrangulamento&#34;&gt;Estrangulamento&lt;/h3&gt;
+&lt;h2 id=&#34;fases-das-asfixias&#34;&gt;Fases das asfixias&lt;/h2&gt;
+&lt;h3 id=&#34;1ª-fase-cerebral&#34;&gt;1ª fase: cerebral&lt;/h3&gt;
+&lt;p&gt;Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta)
+1 a 2 minutos&lt;/p&gt;
+&lt;h3 id=&#34;2ª-fase-excitação-cortical-e-medular&#34;&gt;2ª fase: excitação cortical e medular&lt;/h3&gt;
+&lt;p&gt;Convulsões generalizadas, contrações dos músculos respiratórios e da face, emissão de matéria fecal/urina (relaxamento dos esfíncteres), bradicardia (batimento cardíaco lento) e diminuição da pressão arterial
+1 a 2 minutos&lt;/p&gt;
+&lt;h3 id=&#34;3ª-fase-respiratória&#34;&gt;3ª fase: respiratória&lt;/h3&gt;
+&lt;p&gt;Movimentos respiratórios lentos e superficiais
+Insuficiência ventricular direita
+Acelera a morte
+1 a 2 minutos&lt;/p&gt;
+&lt;h3 id=&#34;4ª-fase-cardíaca&#34;&gt;4ª fase: cardíaca&lt;/h3&gt;
+&lt;p&gt;Sofrimento do miocárdio: batimentos do coração lentos, arrítmicos, quase imperceptíveis ao pulso
+3 a 5 minutos&lt;/p&gt;
 &lt;h2 id=&#34;típicos-sinais-asfíxicos&#34;&gt;Típicos sinais asfíxicos&lt;/h2&gt;
-&lt;p&gt;Na morte por asfixia, o sangue do indivíduo é fluido e de cor negra; com exceção daqueles que sucumbiram sob o efeito do monóxido de carbono, cujo sangue apresenta a cor vermelho vivo, e dos afogados que ingeriram grande quantidade de líquido, cujo sangue apresenta a cor rosada.&lt;/p&gt;
+&lt;p&gt;Na morte por asfixia, o sangue do indivíduo é fluido e de cor escura, pela predominância de sangue venoso. Porém, aqueles que sucumbiram sob o efeito do monóxido de carbono tem o sangue em cor vermelho vivo, e os afogados que ingeriram grande quantidade de líquido, na cor rosada.&lt;/p&gt;
 &lt;p&gt;No enforcamento podemos encontrar sinais de Livores distribuídos em torno ou nos próprios sulcos da lesão:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ponsold;&lt;/li&gt;
@@ -3714,6 +3936,9 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;li&gt;Ambroise Paré;&lt;/li&gt;
 &lt;li&gt;Thoinot.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;A procidência da língua é um sinal comum do enforcamento e do estrangulamento.&lt;/p&gt;
+&lt;p&gt;Asfixias mecânicas causam manchas de Tardieu.&lt;/p&gt;
+&lt;p&gt;Os achados necroscópicos frequentes, segundo o França, no afogamento são: sinais internos: diluição do sangue (em razão da ingestão de grande quantidade de líquido); presença de água no estômago; enfisema hidroaéreo do pulmão; manchas de “Paltauf” (hemorragias pleurais no pulmão); presença de plâncton e água nas vias respiratórias (nariz e boca); presença de líquido nos ouvidos.&lt;/p&gt;
 &lt;p&gt;Sinais gerais de todas asfixias:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cianose da face e leitos ungueais.&lt;/li&gt;
@@ -3722,12 +3947,14 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;/ul&gt;
 &lt;h2 id=&#34;anóxias&#34;&gt;Anóxias&lt;/h2&gt;
 &lt;h3 id=&#34;anóxica&#34;&gt;Anóxica&lt;/h3&gt;
-&lt;h4 id=&#34;enforcamento&#34;&gt;Enforcamento&lt;/h4&gt;
-&lt;p&gt;O osso hioide pode estar íntegro.&lt;/p&gt;
-&lt;h4 id=&#34;afogamento&#34;&gt;Afogamento&lt;/h4&gt;
+&lt;h4 id=&#34;enforcamento-1&#34;&gt;Enforcamento&lt;/h4&gt;
+&lt;h4 id=&#34;afogamento-1&#34;&gt;Afogamento&lt;/h4&gt;
 &lt;h3 id=&#34;anêmica&#34;&gt;Anêmica&lt;/h3&gt;
 &lt;h3 id=&#34;estase&#34;&gt;Estase&lt;/h3&gt;
 &lt;h3 id=&#34;histotóxica&#34;&gt;Histotóxica&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
+&lt;p&gt;França&lt;/p&gt;
 </description>
 	</item>
 	
@@ -3917,7 +4144,7 @@ Obs: esquemas com metronidazol podem ser prescritos com 400mg 8/8 horas quando a
 	</item>
 	
 	<item>
-		<title>Cetoacidose diabética: insights</title>
+		<title>Insights sobre cetoacidose diabética</title>
 		<link>https://www.jeffersontorres.com.br/medicina/cetoacidose/</link>
 		<pubDate>Sun, 14 Apr 2024 17:25:02 -0300</pubDate>
 		
@@ -4218,9 +4445,7 @@ oedema.&lt;/p&gt;
 		<pubDate>Fri, 29 Mar 2024 09:48:00 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/icc/</guid>
-		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
-&lt;h2 id=&#34;icc-nova-vs-doença-descompensada&#34;&gt;ICC nova vs. doença descompensada&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;icc-nova-vs-doença-descompensada&#34;&gt;ICC nova vs. doença descompensada&lt;/h2&gt;
 &lt;p&gt;O paciente com ICC nova, diagnosticada na emergência se apresenta com sintomatologia mais pulmonar, &lt;strong&gt;como dispneia, asculta grosseira ou com creptação e dessaturação periférica&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Por outro lado, aquele que já tem diagnóstico e descompensa tem sinais sistêmicos como edemas, congestão generalizada e hipervolemia. Também traz história compatível, como:&lt;/p&gt;
 &lt;ul&gt;
@@ -4620,14 +4845,12 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Eletrocardiograma: principais achados</title>
+		<title>Principais achados em eletrocardiograma</title>
 		<link>https://www.jeffersontorres.com.br/medicina/ecg/</link>
 		<pubDate>Fri, 22 Mar 2024 16:15:54 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/ecg/</guid>
-		<description>&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
-&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Este é um compêndio e exemplos de eletrocardiogramas de condições incomuns.&lt;/p&gt;
 &lt;h2 id=&#34;padrão-wellens&#34;&gt;Padrão Wellens&lt;/h2&gt;
 
@@ -4657,7 +4880,7 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Neoplasias: visão geral de nomeclaturas</title>
+		<title>Guia de nomeclatura das neoplasias</title>
 		<link>https://www.jeffersontorres.com.br/medicina/neoplasias/</link>
 		<pubDate>Thu, 21 Mar 2024 21:47:16 -0300</pubDate>
 		
@@ -5437,8 +5660,6 @@ table{
 		
 		<guid>https://www.jeffersontorres.com.br/vieses/</guid>
 		<description>&lt;h2 id=&#34;introdução-ao-códex&#34;&gt;Introdução ao códex&lt;/h2&gt;
-&lt;p class=emConstrucao &gt;ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO &lt;/p&gt;
-
 &lt;!-- [Clique aqui](/pix/codex-vieses.jpg) para visualizar a imagem grande dos vieses. --&gt;
 &lt;h2 id=&#34;humanos-se-orientam-mal&#34;&gt;Humanos se orientam mal&lt;/h2&gt;
 &lt;h3 id=&#34;o-problema-xy&#34;&gt;O problema XY&lt;/h3&gt;
@@ -6858,25 +7079,6 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 	</item>
 	
 	<item>
-		<title>Afogamento</title>
-		<link>https://www.jeffersontorres.com.br/medicina/afogamento/</link>
-		<pubDate>Fri, 15 Dec 2023 20:39:22 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/afogamento/</guid>
-		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-    a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
-    y -- Com&lt;br&gt; pulso carotídeo --&gt; z(Grau 5)
-    a -- Sim --&gt; c(Ausculta pulmonar) -- Estertores&lt;br&gt; francos --&gt; d(Pulso radial) -- Não --&gt; m(Grau 4)
-    d -- Sim --&gt; gi(Grau 3)
-    c -- Estertores leves&lt;br&gt; ou moderados --&gt; l(Grau 2)
-    c -- Normal&lt;br&gt; com tosse --&gt; fim(Grau 1)
-    c -- Normal&lt;br&gt; sem tosse --&gt; lli(Resgate da cena)
-&lt;/pre&gt;
-
-</description>
-	</item>
-	
-	<item>
 		<title>A aceitação da morte como modo de vida</title>
 		<link>https://www.jeffersontorres.com.br/filosofia/morte/</link>
 		<pubDate>Fri, 15 Dec 2023 00:35:27 -0300</pubDate>
@@ -7162,7 +7364,7 @@ A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve in
 	</item>
 	
 	<item>
-		<title>Vacinas</title>
+		<title>Tudo sobre vacinas</title>
 		<link>https://www.jeffersontorres.com.br/medicina/vacinas/</link>
 		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
 		
@@ -7488,12 +7690,13 @@ $$&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Conceitos e conduta em grandes queimados</title>
+		<title>Conceitos e conduta em pacientes queimados</title>
 		<link>https://www.jeffersontorres.com.br/medicina/queimados/</link>
 		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/queimados/</guid>
-		<description>&lt;h2 id=&#34;calculadora-de-parkland&#34;&gt;Calculadora de Parkland&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;grandes-queimados&#34;&gt;Grandes queimados&lt;/h2&gt;
+&lt;h3 id=&#34;calculadora-de-parkland&#34;&gt;Calculadora de Parkland&lt;/h3&gt;
 
 
 &lt;div class=&#34;calculadoras&#34;&gt; 
@@ -7635,20 +7838,20 @@ function calcular() {
 }
 &lt;/script&gt;
 
-&lt;h2 id=&#34;queimadura-elétrica&#34;&gt;Queimadura elétrica&lt;/h2&gt;
-&lt;h3 id=&#34;como-a-eletricidade-pode-matar&#34;&gt;Como a eletricidade pode matar&lt;/h3&gt;
-&lt;h4 id=&#34;tetania&#34;&gt;Tetania&lt;/h4&gt;
+&lt;h3 id=&#34;queimadura-elétrica&#34;&gt;Queimadura elétrica&lt;/h3&gt;
+&lt;h4 id=&#34;como-a-eletricidade-pode-matar&#34;&gt;Como a eletricidade pode matar&lt;/h4&gt;
+&lt;h5 id=&#34;tetania&#34;&gt;Tetania&lt;/h5&gt;
 &lt;p&gt;A contração persistente do diafragma como resultado da passagem da corrente elétrica pode causar asfixia.&lt;/p&gt;
-&lt;h4 id=&#34;fibrilação-ventricular&#34;&gt;Fibrilação ventricular&lt;/h4&gt;
+&lt;h5 id=&#34;fibrilação-ventricular&#34;&gt;Fibrilação ventricular&lt;/h5&gt;
 &lt;p&gt;A corrente elétrica pode priorizar o surgimento de ritmo desordenado ventricular, causando predominância desta origem, levando a FV e, consequentemente, à morte.&lt;/p&gt;
-&lt;h4 id=&#34;morte-cerebral&#34;&gt;Morte cerebral&lt;/h4&gt;
+&lt;h5 id=&#34;morte-cerebral&#34;&gt;Morte cerebral&lt;/h5&gt;
 &lt;p&gt;Normalmente, a corrente elétrica ao atravessar o líquor provoca hemorragia meníngea, muitas vezes maciça.&lt;/p&gt;
 &lt;p&gt;Pela natureza eletroquímica do funcionamento de neurônios, a corrente elétrica também é capaz de danificar a maioria dos nervos e do sistema nervoso central pode levar a morte.&lt;/p&gt;
-&lt;h4 id=&#34;efeito-joule&#34;&gt;Efeito Joule&lt;/h4&gt;
+&lt;h5 id=&#34;efeito-joule&#34;&gt;Efeito Joule&lt;/h5&gt;
 &lt;p&gt;Em grandes tensões e em fontes com capacidade elétrica suficiente, o funciona como resistência convertendo energia elétrica em calor e promove o cozimento, fritura e queimadura dos diversos tecidos, levando a morte.&lt;/p&gt;
-&lt;h4 id=&#34;quedas&#34;&gt;Quedas&lt;/h4&gt;
+&lt;h5 id=&#34;quedas&#34;&gt;Quedas&lt;/h5&gt;
 &lt;p&gt;Ao ser eletrocutado, o corpo pode perder o equilíbrio ou ser ejetado pelo grande diferencial de potencial, levando a queda e trauma grave.&lt;/p&gt;
-&lt;h2 id=&#34;geladuras&#34;&gt;Geladuras&lt;/h2&gt;
+&lt;h3 id=&#34;geladuras&#34;&gt;Geladuras&lt;/h3&gt;
 &lt;p&gt;As queimaduras de frio se classificam por graus, como as de alta temperatura:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1° - palidez cutânea, pode ou não ser dolorosa.&lt;/li&gt;
@@ -8398,7 +8601,7 @@ function updateResult() {
 	</item>
 	
 	<item>
-		<title>Gasometria Arterial</title>
+		<title>A real compreensão da gasometria arterial</title>
 		<link>https://www.jeffersontorres.com.br/medicina/gasometria-arterial/</link>
 		<pubDate>Tue, 07 Nov 2023 20:55:26 -0300</pubDate>
 		
@@ -9017,7 +9220,7 @@ function updateResult() {
 	</item>
 	
 	<item>
-		<title>Sites úteis</title>
+		<title>Sites úteis que recomendo</title>
 		<link>https://www.jeffersontorres.com.br/sites-uteis/</link>
 		<pubDate>Wed, 31 Dec 1969 21:33:44 -0300</pubDate>
 		
