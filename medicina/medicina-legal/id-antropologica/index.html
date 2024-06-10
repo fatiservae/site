@@ -42,8 +42,7 @@
   <link rel="icon" href="../../../favicon.webp">
   <meta name="description" content="Definições A antropologia forense estuda identidade e a identificação, os métodos, processos e técnicas envolvidas.
 Identidade Para a biologia, identidade é o conjunto de propriedades e características que individualiza um ser vivo. Para a antropologia, também, com a importante consequência dos efeitos jurídicos decorrentes da individualidade, ou seja, a capacidade jurídica de produzir efeitos, sofrer responsabilizações e portar direitos.
-Identificação A identificação é o processo de identificar.
-Para a medicina e antropologia legal, trata-se de construir a identidade do espécime, tornando-o único.">
+Para as ciências forenses, a identidade é o isolamento do indivíduo dos demais por algum sinal sinalético ou um conjunto destes.">
   <meta name="keywords" content="medicina, direito, penal, perícias">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -125,12 +124,13 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -146,7 +146,9 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -200,6 +202,9 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -209,12 +214,16 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -271,6 +280,8 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
     <li><a href="#prosopometria">Prosopometria</a></li>
     <li><a href="#bertilhonagem">Bertilhonagem</a>
       <ul>
+        <li><a href="#método-suchey-brooks">Método Suchey-Brooks</a></li>
+        <li><a href="#índice-de-badouin-ou-razão-condiliana">Índice de Badouin ou razão condiliana</a></li>
         <li><a href="#craniômetro-de-galvão">Craniômetro de Galvão</a></li>
       </ul>
     </li>
@@ -278,6 +289,7 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
       <ul>
         <li><a href="#tipos-fundamentais">Tipos fundamentais</a></li>
         <li><a href="#fórmula-datiloscópica">Fórmula datiloscópica</a></li>
+        <li><a href="#os-sistemas-de-linhas">Os sistemas de linhas</a></li>
         <li><a href="#pontos-característicos-ou-minúcias">Pontos característicos ou minúcias</a></li>
         <li><a href="#conferência-legal">Conferência legal</a></li>
         <li><a href="#curiosidades">Curiosidades</a></li>
@@ -285,6 +297,7 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
     </li>
     <li><a href="#fotografia-sinaléptica">Fotografia sinaléptica</a></li>
     <li><a href="#arcada-dentária">Arcada dentária</a></li>
+    <li><a href="#determinação-da-idade">Determinação da idade</a></li>
     <li><a href="#notas">Notas</a></li>
     <li><a href="#referências">Referências</a></li>
   </ul>
@@ -296,11 +309,20 @@ Para a medicina e antropologia legal, trata-se de construir a identidade do esp�
 <p>A antropologia forense estuda identidade e a identificação, os métodos, processos e técnicas envolvidas.</p>
 <h3 id="identidade">Identidade</h3>
 <p>Para a biologia, identidade é o conjunto de propriedades e características que individualiza um ser vivo. Para a antropologia, também, com a importante consequência dos efeitos jurídicos decorrentes da individualidade, ou seja, a capacidade jurídica de produzir efeitos, sofrer responsabilizações e portar direitos.</p>
+<p>Para as ciências forenses, a identidade é o isolamento do indivíduo dos demais por algum sinal sinalético ou um conjunto destes.</p>
+<p>Por sinal sinlalético entende-se o(s) sinal(is) que tornam peculiar alguma característica individual. Exemplo, a impressão digital, o índice condiliano, o comprimento do fêmur etc.</p>
 <h3 id="identificação">Identificação</h3>
 <p>A identificação é o processo de identificar.</p>
 <p>Para a medicina e antropologia legal, trata-se de construir a identidade do espécime, tornando-o único.</p>
 <h3 id="princípios">Princípios</h3>
-<p>Imutabilidade ou perenidade, praticidade, unicidade e classificabilidade.</p>
+<ul>
+<li><strong>Variabilidade</strong>: é a garantia de que a característica estudada pode ser única em cada indivíduo por variação entre indivíduos;</li>
+<li><strong>Imutabilidade</strong>: é garantia prática de que a característica uma vez estabelecida para o indivíduo não se altere com o tempo;</li>
+<li><strong>Perenidade</strong>: é a certeza de manutenção da característica pela duração da vida do indivíduo;</li>
+<li><strong>Praticidade</strong>: é o princípio externo à característica em si e relacionada com a sua obtenção, comparação e compreensão, que deve ser prática, factível e realista¹;</li>
+<li><strong>Unicidade</strong>: é a garantia de que a característica se torne diferente entre diferentes indivíduos, dentro de sua variabilidade;</li>
+<li><strong>Classificabilidade</strong>: tal qual a praticidade, resguarda a certeza de que a característica seja passível de classificação para tornar a identificação metódica e acessível.</li>
+</ul>
 <h2 id="a-identificação-policial-ou-judiciária">A identificação policial ou judiciária</h2>
 <p>São realizadas em sede de juízo por peritos jurídicos ou de polícia científica através de:</p>
 <ul>
@@ -321,7 +343,8 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 <h2 id="exame-genético-do-dna">Exame genético do DNA</h2>
 <p>Em análises de DNA tem-se prova quase cabal de identidade. Porém, a comparação pode ser inútil quando avalia apenas o DNA não recombinante geral de dois suspeitos gêmeos. Portanto, <mark>nestas situações</mark>, <strong>a comparação das impressões digitais é mais precisa que o DNA</strong>.</p>
 <h2 id="prosopometria">Prosopometria</h2>
-<p>A identificação pelo antropometria específica da face e outras abordagens comparativas, ditas holísticas.</p>
+<p>O crânio, especialmente a face, configura-se como o melhor marcador biológico para análise da afinidade populacional.</p>
+<p>A prosopometria é identificação pela antropometria específica da face e outras abordagens comparativas, ditas holísticas. Seu valor é muito grande pela importância histórica.</p>
 <h2 id="bertilhonagem">Bertilhonagem</h2>
 <p>Trata-se da identificação pela antropometria. As medidas humanas guardam relação com sexo, raça, idade, estatura etc.</p>
 <p>O mais clássico exemplo é a diferenciação de sexo através das medidas gerais ou específicas de ossos humanos.</p>
@@ -427,6 +450,30 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 </tbody>
 </table>
 <br>
+<h3 id="método-suchey-brooks">Método Suchey-Brooks</h3>
+<p>Suchey e Brooks propuseram um método de análise regressiva em que os corpos podem ser identificados quanto a idade de acordo com seis fases de desenvolvimento da sínfise púbica. Estas fases se compõem de achados de rugosidade da face interna da área de sínfise púbica.</p>
+<p>A principal característica de mudança está nas diferentes rugosidades do faceteamento da sínfise.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../../pix/medicina/suchey-brooks.png"></img>
+    <p>As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.</p>
+  </div>
+
+<h3 id="índice-de-badouin-ou-razão-condiliana">Índice de Badouin ou razão condiliana</h3>
+<p>Badouin propôs um método de determinação dos sexos que considerou absoluta por sua grande acurácia, mas hoje sabidamente não certeira como se pensava. Trata-se de um cáculo, assim proposto:</p>
+<p>$$
+I_{B} = L_{c}/C_{c}
+$$</p>
+<p>Onde $I_{B}$ é o índice de Badouin, $L_{c}$ é a largura do côndilo e $C_{c}$ é o seu comprimento.</p>
+<p>Para análise:</p>
+<ul>
+<li>O $I_{B} &gt; 55$ reflete crânio feminino;</li>
+<li>O $50 &lt; I_{B} &lt; 55$ caracteriza crânio de sexo indeterminado; e</li>
+<li>O $I_{B} &lt; 50$ revela crânio masculino;</li>
+</ul>
+<p>Na minha opinião, chamar esta <strong>razão</strong> de <strong>índice</strong> é um erro. Porém, está assim consolidado na literatura.</p>
 <h3 id="craniômetro-de-galvão">Craniômetro de Galvão</h3>
 <p>Em breve.</p>
 <h2 id="sistema-datiloscópico-de-vucetich">Sistema datiloscópico de Vucetich</h2>
@@ -2905,7 +2952,7 @@ m-53 -32 c-3 -3 -12 -4 -19 -1 -8 3 -5 6 6 6 11 1 17 -2 13 -5z"/>
 </div>
 
 <p>Na imagem acima, todos as possibilidades de configuração das linhas estão ilustradas. O giro central das linhas e seus contornos é chamado de <strong>sistema nuclear</strong>. O encontro de linhas com formação de imagem vincada, em formato mais ou menos triangular, é chamado de <strong>delta</strong> e, junto com as linhas integrantes, forma o <strong>sistema marginal</strong>. Abaixo de ambos os sistemas, há linhas mais ou menos horizontais, chamdas de <strong>sistema basilar ou basal</strong>.</p>
-<p>A posição do delta com relação ao sistema nuclear é a primeira característica firmada por Vucetich. Na impressão deixada em superfícies, se o delta estiver a esquerda do sistema nuclear, diz-se que há uma <strong>presilha externa</strong>. Caso esteja a direita, uma <strong>presilha interna</strong>. A presença de deltas bilaterais forma a configuração em <strong>verticilo</strong>. A ausência de deltas monta um sistema chamado de <strong>arco</strong>.</p>
+<p>A posição do delta com relação ao sistema nuclear é a primeira característica firmada por Vucetich. Na impressão deixada em superfícies, se o delta estiver a esquerda do sistema nuclear, diz-se que há uma <strong>presilha externa</strong>. Caso esteja a direita, uma <strong>presilha interna</strong>. A presença de deltas bilaterais forma a configuração <strong>bidéltica ou em verticilo</strong>. A ausência de deltas monta um sistema chamado de <strong>adéltico ou arco</strong>.</p>
 <p>Portanto, na imagem, da esquerda para a direita:</p>
 <ul>
 <li>A primeira impressão trata-se de uma presilha interna.</li>
@@ -2965,6 +3012,12 @@ $$</p>
 FD = \frac{V 1 X X X}{E 1 2 4 3}
 $$</p>
 <p>A amputação de um dedo é assinalada com número 0 (zero). Os dedos não identificáveis se assinalam por X.</p>
+<h3 id="os-sistemas-de-linhas">Os sistemas de linhas</h3>
+<ul>
+<li><strong>Basal</strong>: linhas paralelas à linha de separação das falanges.</li>
+<li><strong>Marginal</strong>: linhas da borda da impressão que não são paralelas às linhas basais.</li>
+<li><strong>Nuclear</strong>: sistemas lineares compreendidos entre os sistemas basal e marginal.</li>
+</ul>
 <h3 id="pontos-característicos-ou-minúcias">Pontos característicos ou minúcias</h3>
 <p>As linhas definidoras do desenho da digital podem coalescer entre si, se separarem em bifurcações, mostrar características de raízes, apresentar aspecto de anastomose entre diversas outras características. Estes pontos são mapeados quanto a sua característica e localização na impressão e são usados para a conferência legal.</p>
 <h3 id="conferência-legal">Conferência legal</h3>
@@ -2979,10 +3032,14 @@ $$</p>
 <h2 id="arcada-dentária">Arcada dentária</h2>
 <p>Em breve.
 Arcada é mutável.</p>
+<h2 id="determinação-da-idade">Determinação da idade</h2>
+<p>O fechamento epifisário é um método de boa determinação de idade até o fim da puberdade.</p>
+<p>A involução dentomaxilar já é preferencialmente usada na determinação de idade a partir dos 20 anos, idade de certeza de formação total dos dentes e início do período de desgaste.</p>
 <hr>
 <h2 id="notas">Notas</h2>
 <ol>
 <li>O DNA pode identificar a pessoa de forma precisa mesmo sem levantar todas suas características, pelo chamado DNA não recombinante. Trata-se de porções do DNA que são únicas de cada pessoa mas não codificam proteínas, ou seja, não possibilitam pormenorizar características pessoais, doenças etc.</li>
+<li>A característica não prática se torna inútil ao direito. Tomemos, por exemplo, a ressonância de corpo inteiro. Esta pode, de forma certeira, identificar um ser humano por minúcias de órgãos internos, posições etc. Porém, dificilmente se tornará um método de identificação pela impraticabilidade.</li>
 </ol>
 <h2 id="referências">Referências</h2>
 <ol>

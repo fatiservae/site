@@ -44,7 +44,7 @@ Regras de estilo:
   --blueComics: #0256a1;
   --orangeComics: #fbb013;
   --rosinhaMDN: #ff6d91;
-  --vidro: rgba(8, 8, 7, .25);
+  --vidro: rgba(8, 8, 7, .15);
   --gradienteCafe: linear-gradient(
                     90deg, 
                     #5b3027, 
@@ -106,6 +106,8 @@ Regras de estilo:
   --amarelo-servo: #faae30;
   --laranja-servo: #f68243;
   --lilas-servo: #f03278;
+  --laranja: #ff4717;
+  --laranja2: #ff8503 ;
   --verde-servo: #4fc066;
   --roxoGoogle: #673ab7 ;
   --abobora-google: #f44336 ;
@@ -156,11 +158,102 @@ Regras de estilo:
     background-color: var(--corFundoSelecao); 
     color: var(--corSelecao);
 }
-
+:root[data-tema="laranja"] {
+  --bordaEtiqueta: 1px solid var(--laranja-servo);
+  --gradiente-dark: initial;
+  --gradiente-light: initial;
+  --bordas: 1px solid var(--laranja);
+  --corBordas: var(--laranja);
+  --corMark: black ;
+  --corProgressBar: var(--laranja);
+  --imageBackgroundHeadings: none;
+  --corH1: var(--laranja);
+  --corH2: var(--laranja);
+  --corH3: var(--laranja);
+  --corH4: var(--laranja);
+  --bordasHeading: initial;
+  --fundoHeading: var(--laranja);
+  --corFundoCode: initial;
+  --barraRolagem: var(--laranja);
+  --highlightCor: var(--laranja);
+  --corBarraSelecionado: initial;
+  --fundo-card: initial ;
+  --corH2-gradiente: initial ;
+  --background-img: initial ;
+  --hover-botao: initial ;
+  --corNegrito: var(--abobora-google);
+  --switch-shadow: initial;
+  --fundo-carousel: initial;
+  --corTextoCode: initial;
+  --strong-color: initial;
+  --texto-dim: initial;
+  --letragradiente: initial;
+  --katex-color: initial;
+  --corBotao: initial;
+  --corFundoHoverBotao: initial;
+  --headings: initial;
+  --fundo-invertido: initial;
+  --fundo-input: initial;
+  --separador: initial;
+  --fonte: navajowhite ;
+  --fonteInvertida: initial;
+  --frase: #eee;
+  --fraseShow: white ;
+  --fraseHover: navajowhite ;
+  --autor: #ddd;
+  --sticker-fundo: initial;
+  --corLinks: var(--laranja);
+  --corLinksVisitados: var(--laranja-servo);
+  --corLinksHover: var(--laranja-servo);
+  --termo: var(--laranja2);
+  --link-barra: initial;
+  --fundo: #181818 ;
+  --gradfundo: initial;
+  --sombra: none;
+}
+:root[data-tema="raiz"] { /* DEAD? */
+  all: initial;
+  --fundo: initial;
+  scrollbar-color: initial;
+  --margem: initial;
+  --margem2: initial;
+  --margem3: initial;
+  --margem4: initial;
+  --margem5: initial;
+  --corH4: initial;
+  --h4BeforeContent: initial;
+  --bordas: initial;
+  --corFonteBarraHover: initial;
+  --temaFonte: initial;
+               "Noto color emoji",  
+               "Open Sans", 
+               'Lato', 
+               sans-serif;
+  --displayFigurasFundo: initial;
+  --bordasButao: initial;
+  --fundoSticker: initial;
+  --raioCampos: initial;
+  --sombraCaixas: initial;
+  --sombraImagens: initial;
+  --raioBordas: initial;
+  --fonte-comedia: initial;
+  --largura-texto: initial;
+  --clipHeading: initial;
+  --corFundoSelecao: initial;
+  --corSelecao: initial;
+  --h3BeforeContent: initial;
+  margin-left: 5vw;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+}
 :root[data-tema="noturno"] { /* noturno */
   /*
   --corH2: var(--letragradiente-dark);
   */
+  --bordaEtiqueta: 1px solid gray;
   --bordas: 1px solid var(--corBordas);
   --corMark: black;
   --corProgressBar: tomato;
@@ -232,6 +325,7 @@ Regras de estilo:
   --fundo: navajowhite;
   --gradfundo: linear-gradient(to top, #e2725b , tan);
   */
+  --bordaEtiqueta: 1px solid black;
   --bordas: 1px solid var(--corBordas);
   --corFonteBotao: black;
   --gradfundo: linear-gradient(to top, #d4ab86, #e2725b );
@@ -275,7 +369,7 @@ Regras de estilo:
   --fundo-invertido: var(--git-hub-dark-back) ;
   --fundo-input: #fbc782;
   --separador: gray ;
-  --corBordas: gray ;
+  --corBordas: black;
   --strong-color: var(--lilas-servo);
   --fonteInvertida: var(--white-solarized);
   --corLinks: darkblue ;
@@ -300,6 +394,7 @@ Regras de estilo:
   --corH1: #424242;
   --corH3: #455A64;
   */
+  --bordaEtiqueta: 1px solid var(--ferrugem2);
   --temaFonte: "Libre Baskerville";
   --corMark: black;
   --bordas: 1px solid var(--fonte);
@@ -355,6 +450,7 @@ Regras de estilo:
   --fundo: #FFECB3; 
   --strong-color: #101010;
   */
+  --bordaEtiqueta: 1px solid black;
   --h3BeforeContent: none;
   --corHoverBotao: var(--vermelhoDailyBeast);
   --fundo: #cc866a ; 
@@ -428,7 +524,7 @@ Regras de estilo:
   --sticker-font: brown;
   --termo: white ;
 }
-:root[data-tema="papel"] { /* papel */
+:root[data-tema="moderno"] { /* papel */
   /*
   --margem2: var(--margem);
   --margem3: calc(var(--margem) + 2);
@@ -459,7 +555,7 @@ Regras de estilo:
   --corNegrito: black; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
-  --corTextoCode: black;
+  --corTextoCode: var(--fundo);
   --strong-color: green ;
   --texto-dim: #555555;
   --letragradiente: white;
@@ -686,7 +782,7 @@ p#resultado {
   margin-right: auto;
   max-width: var(--largura-texto);
   background: var(--sticker-fundo);
-  border-radius: 5px;
+  border-radius: var(--raioBordas);
   text-align: center;
   overflow: hidden; 
   color: var(--sticker-font); 
@@ -765,7 +861,6 @@ pre code {
 }
 code {
   background-color: var(--corFundoCode) ;
-  color: var(--fonte);
 }
 p code::after, 
 p code::before {
@@ -1127,6 +1222,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_obstetrícia::before { content: "🤰 " ;}
 #tag_perícias::before { content: "🕵️ " ;}
 #tag_direito::before { content: "⚖️ " ;}
 #tag_penal::before { content: "👮 " ;}
@@ -1355,7 +1451,7 @@ ol#artlist {
 #artlist li {
   margin-left: 0vw;
 }
-#artlist li:nth-child(n+21) {
+#artlist li:nth-child(n+31) {
   display: none;
 }
 
@@ -1933,7 +2029,9 @@ div#counter {
   #artlist li {
     width: 95;
   } 
-
+  #artlist li:nth-child(n+11) {
+    display: none;
+  }
   #frase {
    max-width: 90vw;
   }
@@ -2088,7 +2186,7 @@ div#counter {
   margin-left: var(--margem);
   margin-bottom: 0%;
   padding: 0%;
-  max-width: 95vw;
+  max-width: var(--largura-texto);
 }
 
 
@@ -2110,10 +2208,13 @@ div#counter {
   border-radius: var(--raioBordas);
   padding: 1em;
   width: fit-content;
-  max-width: 80vw;
+  max-width: 50vw;
   margin-left: var(--margem);
   border: var(--bordas);
   box-shadow: var(--sombraCaixas);
+}
+.calculadoras p {
+  margin-left: 0vw;
 }
 .calculadoras h2 {
   margin-left: 1vw;
@@ -2121,6 +2222,11 @@ div#counter {
 }
 .calculadoras h2::before {
   content: none;
+}
+@media only screen and (max-width: 800px){
+  .calculadoras {
+    max-width: 98vw;
+  }
 }
 
 mark {

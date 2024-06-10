@@ -111,12 +111,13 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -132,7 +133,9 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -186,6 +189,9 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -195,12 +201,16 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 

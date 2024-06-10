@@ -52,7 +52,7 @@
             'tertiaryColor': '#fff'
           }
       });
-    } else if (temaAtual === 'papel' ) {
+    } else if (temaAtual === 'moderno' ) {
       mermaid.initialize({ 
           theme: 'base',
           timeline: {'disableMulticolor': true},
@@ -67,7 +67,23 @@
             'tertiaryColor': '#fff'
           }
       });
+    } else if (temaAtual === 'laranja' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ff5510', 
+            'cScaleLabel0': '#181818',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#eee',
+            'primaryBorderColor': '#aa1000',
+            'lineColor': '#dd4000',
+            'secondaryColor': '#181818',
+            'tertiaryColor': '#181818'
+          }
+      });
     }
+
     </script>
   
 
@@ -161,12 +177,13 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -182,7 +199,9 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -236,6 +255,9 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -245,12 +267,16 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -375,9 +401,12 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
 <p>Cursam com anoxemia e hipercapnia.</p>
 <h3 id="gases-irrespiráveis">Gases irrespiráveis</h3>
 <h4 id="monóxido-de-carbono">Monóxido de carbono</h4>
+<p>A caboxihemoglobina é de forte associação e impede a ligação de oxigênio, tornando predominante as hemáceas inúteis a respiração celular.</p>
+<p>A morte ocorre, também, com depressão gradual do SNC e é indolor. Muito comum no suicídio, notadamente na sua forma egoísta. Observa-se hipóstases róseas carminadas.</p>
 <h4 id="confinamento">Confinamento</h4>
 <h3 id="transformação-do-meio">Transformação do meio</h3>
 <h4 id="afogamento">Afogamento</h4>
+<p>O verdadeiro afogamento é comumente chamado nos círculos de medicina legal como <strong>afogamento azul</strong>. O afogado azul é aquele que sofreu a asfixia submerso no líquido. Os já falecidos que são lançados para submersão em líquido para simular afogamento são chamados de afogados brancos e, no Brasil, trata-se sempre de um crime.</p>
 <h5 id="conduta-no-afogamento">Conduta no afogamento</h5>
 <pre class="mermaid">graph TD;
     a(Resposta ao chamado) -- Não --> y(Desobstrua via aérea, <br>jawthrust, checar respiração <br>+ cuidado com trauma cervical) -- Sem<br> pulso carotídeo --> x(Morte/Grau 6)

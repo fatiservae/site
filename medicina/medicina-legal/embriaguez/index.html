@@ -106,12 +106,13 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -127,7 +128,9 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -181,6 +184,9 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -190,12 +196,16 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -255,8 +265,10 @@ A teoria observacional de Jellinek Anterior Próxima Gráfico original proposto 
     </li>
     <li><a href="#metabolismo">Metabolismo</a>
       <ul>
+        <li><a href="#a-cinética-do-metabolismo-alcoólico">A cinética do metabolismo alcoólico</a></li>
+        <li><a href="#fases-metabólicas-do-álcool">Fases metabólicas do álcool</a></li>
         <li><a href="#a-lenda-árabe-das-fases-da-embriaguez3">A lenda árabe das fases da embriaguez[3]</a></li>
-        <li><a href="#diferenças-entre-homens-e-mulheres-2">Diferenças entre homens e mulheres [2]</a></li>
+        <li><a href="#diferenças-entre-homens-e-mulheres2">Diferenças entre homens e mulheres[2]</a></li>
         <li><a href="#síndrome-de-wernicke-korsakoff">Síndrome de Wernicke-Korsakoff</a></li>
       </ul>
     </li>
@@ -414,6 +426,7 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 <li>delirante: delírios com tendência à autoacusação.</li>
 </ul>
 <h2 id="metabolismo">Metabolismo</h2>
+<h3 id="a-cinética-do-metabolismo-alcoólico">A cinética do metabolismo alcoólico</h3>
 <p>A <strong>cinética</strong> de metabolismo do etanol difere da maioria das drogas, nas quais, quando há aumento plasmático de seus níveis, a quantidade de droga metabolizada por unidade de tempo também aumenta. No caso do etanol, mesmo com aumento de sua concentração sanguínea, não há alteração de sua taxa de metabolização, ou seja, o etanol é metabolizado de maneira constante. Portanto, a taxa de oxidação do etanol segue uma cinética de ordem zero, isto é, independe do tempo e da concentração da droga.</p>
 <p>Desta forma, as curvas dose-respota logarítmicas apresentam desvio a direita, ou seja, queda da potência tóxica por dose conforme se aumenta o consumo.</p>
 <p>
@@ -442,13 +455,17 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 </div>
 
 <br></p>
+<h3 id="fases-metabólicas-do-álcool">Fases metabólicas do álcool</h3>
+<p><strong>Absorção</strong>: a concentração sanguínea varia com o tempo e com a localização exata na circulação.
+<strong>Equilíbrio de difusão</strong>: a concentração sanguínea é estável e relativamente constante no tempo.
+<strong>Depuração</strong>: por processos de oxidação em aldeído, ácido acético, gás carbônico e água.</p>
 <h3 id="a-lenda-árabe-das-fases-da-embriaguez3">A lenda árabe das fases da embriaguez[3]</h3>
 <ul>
 <li>Eufórica: denominada embriaguez incompleta, quando as funções intelectuais mostram-se excitadas e o agente particularmente, se apresenta com loquacidade, eufórico. É o <strong>macaco</strong> alegórico;</li>
 <li>Agitada: denominada embriaguez completa, caracterizada pelas perturbações psiconsensoriais profundas, alterando-se as funções intelectuais, apresentando disartria, irritabilidade, violencia, agressividade, sendo a fase que predomina as infrações penais. É o <strong>leão</strong> alegórico;</li>
 <li>Comatosa: denominada estado comatoso, primeiramente aflora a sonolência, depois progressivamente apresenta-se com náusea, vômito, podendo ocorrer a espurcícia, imundície e porcaria, devido ao relaxamento dos esfíncteres, advindo anestesia profunda e abolição completa dos reflexos. É o <strong>porco</strong> na alegoria da lenda árabe;</li>
 </ul>
-<h3 id="diferenças-entre-homens-e-mulheres-2">Diferenças entre homens e mulheres [2]</h3>
+<h3 id="diferenças-entre-homens-e-mulheres2">Diferenças entre homens e mulheres[2]</h3>
 <ul>
 <li>na média, as mulheres são menores que os homens e, por esse motivo, têm menos água corporal por unidade de peso, na qual o etanol pode ser distribuído; e</li>
 <li>a enzima ADH gástrica é menos ativa em mulheres do que nos homens, fazendo com que o metabolismo gástrico do etanol seja menor nas mulheres.</li>

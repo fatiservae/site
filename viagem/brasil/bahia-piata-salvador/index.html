@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+  
+
+  
+
+  <title>Bahia - Piatã, Salvador | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../../style.css'>
+  <link rel="icon" href="../../../favicon.webp">
+  <meta name="description" content="Geral Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.
+É mais barato, fica em praia do tipo vazia mas de avenida.
+Durante o dia conhecer o pelourinho, andar pela praia e descansar. Noite tem as baladas.
+Tem a festa do pelourinho em 2 de fevereiro.
+OBS: Pesquisar reveillon.
+Em janeiro de 2023:
+Site muito bom: https://dicasdabahia.com.br/ Hotéis por R$300,00 em Piatã mesmo. Bares:">
+  <meta name="keywords" content="viagem, brasil">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+
+</script>
+
+  <div class="barra">
+      <select id=menu>
+        <option>navegação</option>
+        <option value="/index.html">início</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+
+      </select>
+      <script>
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
+      </script>
+
+      <select id="temas-seletor">
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
+        });
+      </script>
+  </div>
+<article>
+<br>
+
+  <h1>Bahia - Piatã, Salvador</h1>
+
+<script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const temaAtual = localStorage.getItem('tema');
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
+  }
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
+  }
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
+  }
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+
+  function alternarTema(tema) {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+  <p><img src="../../../pix/piata.png" alt="Praia em Piatã"></p>
+<h1 id="geral">Geral</h1>
+<p>Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.</p>
+<p>É mais barato, fica em praia do tipo vazia mas de avenida.</p>
+<p>Durante o dia conhecer o pelourinho, andar pela praia e descansar. Noite tem as baladas.</p>
+<p>Tem a festa do pelourinho em 2 de fevereiro.</p>
+<p>OBS:  Pesquisar reveillon.</p>
+<p>Em janeiro de 2023:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Site muito bom: <a href="https://dicasdabahia.com.br/">https://dicasdabahia.com.br/</a></li>
+<li><input checked="" disabled="" type="checkbox"> Hotéis por R$300,00 em Piatã mesmo.</li>
+</ul>
+<p>Bares:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 30 segundos bar;</li>
+<li><input checked="" disabled="" type="checkbox"> Amsterdam - AMS;</li>
+<li><input checked="" disabled="" type="checkbox"> Zen Salvador;</li>
+<li><input checked="" disabled="" type="checkbox"> Balada SAN.</li>
+</ul>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_viagem" href="https://www.jeffersontorres.com.br/tags/viagem">viagem</a> &middot;  
+                <a id="tag_brasil" href="https://www.jeffersontorres.com.br/tags/brasil">brasil</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

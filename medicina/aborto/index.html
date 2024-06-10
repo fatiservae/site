@@ -52,7 +52,7 @@
             'tertiaryColor': '#fff'
           }
       });
-    } else if (temaAtual === 'papel' ) {
+    } else if (temaAtual === 'moderno' ) {
       mermaid.initialize({ 
           theme: 'base',
           timeline: {'disableMulticolor': true},
@@ -67,7 +67,23 @@
             'tertiaryColor': '#fff'
           }
       });
+    } else if (temaAtual === 'laranja' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ff5510', 
+            'cScaleLabel0': '#181818',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#eee',
+            'primaryBorderColor': '#aa1000',
+            'lineColor': '#dd4000',
+            'secondaryColor': '#181818',
+            'tertiaryColor': '#181818'
+          }
+      });
     }
+
     </script>
   
 
@@ -159,12 +175,13 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -180,7 +197,9 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -234,6 +253,9 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -243,12 +265,16 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -298,7 +324,12 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
         <li><a href="#fim">Fim</a></li>
       </ul>
     </li>
-    <li><a href="#definição">Definição</a></li>
+    <li><a href="#definições">Definições</a>
+      <ul>
+        <li><a href="#aborto">Aborto</a></li>
+        <li><a href="#infanticídio">Infanticídio</a></li>
+      </ul>
+    </li>
     <li><a href="#classificações-penais">Classificações penais</a>
       <ul>
         <li><a href="#tipos-penais">Tipos penais</a></li>
@@ -307,10 +338,15 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
         <li><a href="#formas-ectópicas">Formas ectópicas</a></li>
         <li><a href="#aborto-recente">Aborto Recente</a></li>
         <li><a href="#aborto-antigo">Aborto Antigo</a></li>
+      </ul>
+    </li>
+    <li><a href="#morte-intraútero">Morte intraútero</a>
+      <ul>
+        <li></li>
         <li><a href="#polêmicas">Polêmicas</a></li>
       </ul>
     </li>
-    <li><a href="#infanticídio">Infanticídio</a>
+    <li><a href="#infanticídio-1">Infanticídio</a>
       <ul>
         <li><a href="#puerpério-puérpera-e-estado-puerperal">Puerpério, puérpera e estado puerperal</a></li>
       </ul>
@@ -332,7 +368,9 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
 <p>Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação <em>sine qua non</em> e a nidação que assume característica definidora posterior. O marco <strong>legal atualmente adotado no Brasil é a nidação bem sucedida</strong> que ocorre, normalmente, cerca de 14 dias após a fecundação.</p>
 <h3 id="fim">Fim</h3>
 <p>O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação. O parto cesáreo ou de qualquer outra forma cirúrgica é encerrado com o ato cirúrgico em si.</p>
-<h2 id="definição">Definição</h2>
+<h2 id="definições">Definições</h2>
+<p>A doutrina jurídica é preocupada com a idade do muito jovem morto. Se possui resquícios de vita uterina e ainda não recebeu cuidados, trata-se do <mark>infante nascido</mark> ou ainda do <mark>feto nascente</mark>. Já aquele que recebe cuidados ou se passam 24h <strong>de vida</strong> é um <mark>recém-nascido</mark>.</p>
+<h3 id="aborto">Aborto</h3>
 <p>Define-se aborto o encerramento gestacional antes da viabilidade fetal.</p>
 <p>Para Ministério da Saúde, é inviável todos fetos que atenda quaisquer uma das hipóteses:</p>
 <ul>
@@ -346,6 +384,13 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
 <li>Menos de 16,5cm;</li>
 <li>Menos de 22s.</li>
 </ul>
+<h3 id="infanticídio">Infanticídio</h3>
+<p>É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.</p>
+<p>A discussão sobre a idade da vítima ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Ora, se assim é, como recuperar o conceito para aplicá-lo ao crime de fato ocorrido?</p>
+<p>França traz a proposta de que um novo texto ao código penal versaria:</p>
+<pre tabindex="0"><code>Infanticídio 
+Matar o próprio filho durante o parto ou sob a influência pertubadora deste.
+</code></pre><p>Afinal, não seria o parto em si o agravante da qualificação mas sua influência sobre a mulher que pari.</p>
 <h2 id="classificações-penais">Classificações penais</h2>
 <p>É admitida a tentativa do crime de aborto por se tratar de crime material.</p>
 <h3 id="tipos-penais">Tipos penais</h3>
@@ -388,7 +433,7 @@ de seu representante legal.
 </pre>
 
 <h3 id="manobras-abortivas-periparto">Manobras abortivas periparto</h3>
-<p>Se o nascido vivo morre logo após o parto por consequência de ação abortiva anterior, considera-se que ocorreu o aborto. Caso configure hipótese de ilegalidade, este será crime.</p>
+<p>Se o nascido vivo morre logo após o parto por <mark>consequência</mark> de ação abortiva anterior, considera-se que ocorreu o aborto. Caso configure hipótese de ilegalidade, este será crime.</p>
 <h3 id="formas-ectópicas">Formas ectópicas</h3>
 <p>A gravidez ectópica, tubária ou não, interrompe-se por impossibilidade natural e, dado o risco de rotura, o interrompimento desta gravidez é o chamado aborto necessário.</p>
 <p>Abortamento espontâneo ou natural: aquele ocorrido sem intervenção artificial até 20 ou 22 semanas de gravidez. Este conceito se cruza com o de <strong>feto inviável</strong>.</p>
@@ -421,6 +466,22 @@ de seu representante legal.
 <h3 id="aborto-antigo">Aborto Antigo</h3>
 <p>Em mulheres vivas, o aborto antigo pode apresentar dificuldade no diagnóstico, a depender do quanto tempo se passou entre o ato e o momento do exame. Somente por intermédio de exames pode ser feita a verificação de se ainda há vestígios de sua prática.</p>
 <p>Na hipótese de mulher morta, a mesma dificuldade existe, dependendo o diagnóstico ser feito conforme as possibilidades e os vestígios se apresentarem caso a caso. Inexiste, portanto, método de verificação a priori.</p>
+<h2 id="morte-intraútero">Morte intraútero</h2>
+<p>Além do aborto, importa conhecer a data da morte fetal para efeitos civis e derivados, como, por exemplo, no tempo de gravidez, data da concepção, situações ligadas ao casamento, à herança e à filiação contestada.</p>
+<h4 id="sinais-da-morte-intrauterina">Sinais da morte intrauterina</h4>
+<ul>
+<li><strong>Spander</strong>: achatamento da calvária;</li>
+<li><strong>Horner</strong>: assimetria da calvária;</li>
+<li><strong>Postura de Buda</strong>: deformação torácica com colabamento ou achatamento assimétrico e encurtamento exagerado da coluna vertebral;</li>
+<li><strong>Spalding</strong>: cavalgamento dos ossos cranianos</li>
+<li><strong>Outros</strong>: aparecimento da linha negra acentuando o contorno fetal, queda do maxilar inferior, presença de gases nos vasos fetais etc.</li>
+</ul>
+<h4 id="maceração">Maceração</h4>
+<ul>
+<li><strong>Primeiro grau</strong>: nos três primeiros dias após a morte, o feto começa a apresentar flictenas que contêm serosidade sanguinolenta e destacamento da epiderme, e o líquido amniótico toma uma tonalidade esverdeada em virtude do mecônio expelido na fase de sofrimento fetal</li>
+<li><strong>Segundo grau</strong>: em torno do oitavo dia, o destacamento da epiderme é quase total, o desnudamento da derme dá ao feto um aspecto sanguinolento, e o líquido amniótico torna-se pardo-avermelhado, devido à serosidade das flictenas rotas</li>
+<li><strong>Terceiro grau</strong>: em torno do décimo quinto dia, o feto perde sua tonicidade, destaca-se o couro cabeludo, e os ossos cranianos e dos membros desarticulam-se.</li>
+</ul>
 <h3 id="polêmicas">Polêmicas</h3>
 <h4 id="dispositivo-intrauterino-e-yuzpe">Dispositivo intrauterino e Yuzpe</h4>
 <p>A discussão em torno do DIU como método abortivo ou, ainda, da pílula do dia seguinte, é vazia, uma vez que naquele não há nidação e neste nem mesmo a fecundação. Em ambos os casos, a conduta da mulher de interromper o fenômeno fencundatório foi um <strong>exercício regular de um direito</strong> e, portanto, não há de se falar em crime.</p>
@@ -434,7 +495,7 @@ de seu representante legal.
 <h5 id="olivier-e-pinaud">Olivier e Pinaud</h5>
 <h5 id="balthazard">Balthazard</h5>
 <h5 id="dervieux">Dervieux.</h5>
-<h2 id="infanticídio">Infanticídio</h2>
+<h2 id="infanticídio-1">Infanticídio</h2>
 <h3 id="puerpério-puérpera-e-estado-puerperal">Puerpério, puérpera e estado puerperal</h3>
 <p>O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.</p>
 <h2 id="aborto-ou-infanticídio">Aborto ou infanticídio?</h2>

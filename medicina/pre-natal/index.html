@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+  
+    <p class=emConstrucao >ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO</p>
+  
+
+  
+
+  <title>Guia de condutas em pré-natal | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="Suplementação de ferro sup de SO4Fe 600mg
+Ultrassonografias Agora ultrassom é obrigatório no PN 2 pelo menos nos 4 primeiros meses, transvaginal[1].
+Eclâmpsia Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.
+Pré-eclâmpsia é um diagnóstico somativo de:
+gestação a pelo menos 20 semanas; hipertensão; e proteinúria. Considera-se hipertensa a grávida com PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica.
+Proteinúria é a detecção de 300mg ou mais na urina de 24h.">
+  <meta name="keywords" content="obstetrícia, medicina, resumos, guias">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+
+</script>
+
+  <div class="barra">
+      <select id=menu>
+        <option>navegação</option>
+        <option value="/index.html">início</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+
+      </select>
+      <script>
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
+      </script>
+
+      <select id="temas-seletor">
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
+        });
+      </script>
+  </div>
+<article>
+<br>
+
+  <h1>Guia de condutas em pré-natal</h1>
+
+<script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const temaAtual = localStorage.getItem('tema');
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
+  }
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
+  }
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
+  }
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+
+  function alternarTema(tema) {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#suplementação-de-ferro">Suplementação de ferro</a></li>
+    <li><a href="#ultrassonografias">Ultrassonografias</a></li>
+    <li><a href="#eclâmpsia">Eclâmpsia</a>
+      <ul>
+        <li><a href="#conduta">Conduta</a></li>
+        <li><a href="#cuidados-no-tratamento">Cuidados no tratamento!</a></li>
+        <li><a href="#prevenção">Prevenção</a></li>
+      </ul>
+    </li>
+    <li><a href="#fator-rh">Fator Rh</a></li>
+    <li><a href="#parto">Parto</a></li>
+    <li><a href="#notas">Notas</a></li>
+    <li><a href="#referências">Referências</a></li>
+    <li><a href="#bibliografia">Bibliografia</a></li>
+  </ul>
+</nav>
+
+
+
+  <h2 id="suplementação-de-ferro">Suplementação de ferro</h2>
+<p>sup de SO4Fe 600mg</p>
+<h2 id="ultrassonografias">Ultrassonografias</h2>
+<p>Agora ultrassom é obrigatório no PN 2 pelo menos nos 4 primeiros meses, transvaginal[1].</p>
+<h2 id="eclâmpsia">Eclâmpsia</h2>
+<p>Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.</p>
+<p>Pré-eclâmpsia é um diagnóstico somativo de:</p>
+<ul>
+<li><strong>gestação a pelo menos 20 semanas;</strong></li>
+<li><strong>hipertensão; e</strong></li>
+<li><strong>proteinúria</strong>.</li>
+</ul>
+<p>Considera-se hipertensa a grávida com <strong>PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica</strong>.</p>
+<p>Proteinúria é a <strong>detecção de 300mg ou mais na urina de 24h</strong>.</p>
+<p>Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da <strong>relação proteína/creatinina¹ de 0.3</strong> em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a <a href="../../injura-renal-aguda/index.html">insuficiência renal aguda</a>, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.</p>
+<p><strong>Eclâmpsia</strong> é a ocorrência de <mark>convulsões</mark> durante o diagnóstico de pré-eclâmpsia.</p>
+<h3 id="conduta">Conduta</h3>
+<p>A conduta é a <strong>interrupção da convulsão com sulfato de magnésio</strong>.</p>
+<p>A cura é o <strong>parto</strong>.</p>
+<p><img src="../../pix/medicina/esquemas-sulfato.png" alt="Esquemas de sulfato de magnésio"></p>
+<h3 id="cuidados-no-tratamento">Cuidados no tratamento!</h3>
+<p>O reflexo patelar desaparece com 10mEq/L e ocorre PCR com 12mEq/L.</p>
+<p>Mantenha o antídoto preparado <strong>ANTES</strong> de administrar o sulfato.</p>
+<p>O gluconato de cálcio a <strong>1g por via endovenosa</strong> (geralmente 10 mL a 10%) deve ser administrado <mark>lentamente </mark>nos casos de sinais de intoxicação por magnésio.</p>
+<h3 id="prevenção">Prevenção</h3>
+<p>A medicina baseada em evidências consegue demostrar benefício no uso de <strong>ácido acetilsalicílico a 150mg/dia</strong>.</p>
+<p>Caso se tenha deficiência de cálcio na dieta presumida clinicamente ou por diagnóstico laboratorial, prescreve-se <strong>cálcio oral dietético suplementar a 1-2g/dia</strong>.</p>
+<h2 id="fator-rh">Fator Rh</h2>
+<p>A imunoglobulina anti Rh(D) (conhecida como vacina Rogan) é utilizada para prevenir a sensibilização materna ao fator sanguíneo de um bebê Rh positivo quando a mãe possui o fator Rh negativo.</p>
+<p>A imunoglobulina é administrada com 28s para que sua vida circulatória de 12s coincida com o momento de encerramento do parto.</p>
+<p>Papo de GO:</p>
+<ul>
+<li>Rh- coombs mensal + haloimunização</li>
+</ul>
+<h2 id="parto">Parto</h2>
+<p>Ocitocina
+Rotura prematura de membrana (clinda e genta)
+Corticoide
+20-26 semana ???
+faz com intervalo de 24h??
+Como faz ac. tranaxemico
+Noripurum etc</p>
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>Proteína total dividida pela creatinina medidas em mesma unidade.</li>
+</ol>
+<h2 id="referências">Referências</h2>
+<ol>
+<li><a href="https://www12.senado.leg.br/noticias/materias/2023/06/15/sancionada-lei-que-garante-mais-exames-para-gestantes-no-sus">https://www12.senado.leg.br/noticias/materias/2023/06/15/sancionada-lei-que-garante-mais-exames-para-gestantes-no-sus</a>.</li>
+</ol>
+<h2 id="bibliografia">Bibliografia</h2>
+<ol start="2">
+<li>FEBRASGO. <strong>Protocolo no. 73 - 2021</strong>. Federação Brasileira de Ginecologia e Obstetrícia. Brasil.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_obstetrícia" href="https://www.jeffersontorres.com.br/tags/obstetr%C3%ADcia">obstetrícia</a> &middot;  
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_resumos" href="https://www.jeffersontorres.com.br/tags/resumos">resumos</a> &middot;  
+                <a id="tag_guias" href="https://www.jeffersontorres.com.br/tags/guias">guias</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

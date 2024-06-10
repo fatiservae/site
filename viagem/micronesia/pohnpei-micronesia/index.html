@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+  
+
+  
+
+  <title>Pohnpei: Micronésia | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../../style.css'>
+  <link rel="icon" href="../../../favicon.webp">
+  <meta name="description" content="A terra do mistério Pohnpei é uma das ilhas da Micronésia, importante pelo seu valor arqueológico. As ruínas e sítios arqueológicos estão entre os menos explicados do planeta.
+A palavra pohnpei significa terra surgida de orações e explica a origem mitológica das ilhas, que seriam fruto das orações dos antigos migrantes oriundos da China em uma canoa mágica.
+Anterior Próxima Ruínas de Nan Madol
+Ruínas de Nan Madol
+Ruínas de Nan Madol">
+  <meta name="keywords" content="viagem, destinos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+
+</script>
+
+  <div class="barra">
+      <select id=menu>
+        <option>navegação</option>
+        <option value="/index.html">início</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+
+      </select>
+      <script>
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
+      </script>
+
+      <select id="temas-seletor">
+        <option value=0>temas</option>
+        <option value=noturno>noturno</option>
+        <option value=arido>árido</option>
+        <option value=cafe>café</option>
+        <option value=comics>comics</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
+        });
+      </script>
+  </div>
+<article>
+<br>
+
+  <h1>Pohnpei: Micronésia</h1>
+
+<script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const temaAtual = localStorage.getItem('tema');
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
+  }
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
+  }
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
+  }
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+
+  function alternarTema(tema) {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+  <h2 id="a-terra-do-mistério">A terra do mistério</h2>
+<p>Pohnpei é uma das ilhas da Micronésia, importante pelo seu valor arqueológico. As ruínas e sítios arqueológicos estão entre os menos explicados do planeta.</p>
+<p>A palavra <em>pohnpei</em> significa terra surgida de orações e explica a origem mitológica das ilhas, que seriam fruto das orações dos antigos migrantes oriundos da China em uma canoa mágica.</p>
+
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+    
+    
+    
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+      <div class="slide">
+        <a href="../../../pix/destinos/ruinas-nan-madol.jpg">
+          <img src="../../../pix/destinos/ruinas-nan-madol.jpg"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+      <div class="slide">
+        <a href="../../../pix/destinos/ruinas-nan-madol2.jpg">
+          <img src="../../../pix/destinos/ruinas-nan-madol2.jpg"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+      <div class="slide">
+        <a href="../../../pix/destinos/ruinas-nan-madol3.jpg">
+          <img src="../../../pix/destinos/ruinas-nan-madol3.jpg"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Bruce Best</p></div>
+      <div class="slide">
+        <a href="../../../pix/destinos/bruce-guam.webp">
+          <img src="../../../pix/destinos/bruce-guam.webp"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Ruínas de Nan Madol</p></div>
+      <div class="slide">
+        <a href="../../../pix/destinos/ruinas-nan-madol4.jpg">
+          <img src="../../../pix/destinos/ruinas-nan-madol4.jpg"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Mapa estimativo de ruínas de 2019</p></div>
+      <div class="slide">
+        <a href="../../../pix/destinos/ruinas-nan-madol-map.jpg">
+          <img src="../../../pix/destinos/ruinas-nan-madol-map.jpg"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Vista panorâmica de ruínas</p></div>
+      <div class="slide">
+        <a href="../../../pix/destinos/nan-madol.webp">
+          <img src="../../../pix/destinos/nan-madol.webp"></img>
+        </a>
+      </div>
+    
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .slide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<p>Nan Madol é uma outra palavra local que significa <em>pedras organizadas</em> ou ainda <em>cidade organizada</em>. Os moradores locais acreditam que as ruínas são uma entrada para um submergido continente.</p>
+<p>Estas estórias foram aproveitadas por Lovecraft em seus livros.</p>
+<p>Os moradores locais apresentam alto índice de acromatopsia genética, conforme observou o neurologista Oliver Sacks¹:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+"Fui à Micronésia como neurologista ou neuroantropólogo com a intenção de ver de que maneira indivíduos e comunidades reagiam à condições endêmicas incomuns - uma cegueira total e hereditária para cores em Pingelap e Pohnpei, um distúrbio neurodegeneneativo progressivo e fatal em Guam e Rota. Mas também me prenderam a atenção a vida cultural e a história dessas ilhas, sua flora e fauna únicas, suas origens geológicas singulares. Se a princípio examinar pacientes, visitar sítios arqueológicos, perambular por florestas tropicais e mergulhar de snorkel nos recifes pareciam atividades sem relação umas com as outras, depois fundiram-se todas em uma experiência única e indivisível, uma imersão total na vida da ilha".
+ </span>
+</div>
+
+
+<p>Bruce Best é um professor da universidade de Guam que, sozinho, construiu praticamente toda estrutura comunicacional de Pohnpei e das ilhas correlatas. Até onde pude apurar, ele estva vivo e trabalhando em setembro 2023. Ele coordena as operações, inclusive militares, na região.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hf0taYjdZOw?si=Qni0mJGBd50ygZlz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p class="legend">Banda de moradores locais, c. 2013</p>
+<p>Para viagem, trata-se de um local absurdamente isolado, com cultura ainda preservada, inclusive a língua, apesar do inglês oficial. É um local obviamente tropical.</p>
+<h2 id="curiosidades">Curiosidades</h2>
+<ul>
+<li>Chove todo dia o tempo inteiro;</li>
+<li>Os moradores evitam comer os cocos maduros, ao contrário da cultura litorânea brasileira;</li>
+<li>Comem cachorros, como iguaria, não rotineiramente;</li>
+<li>A cultura é muito contaminada pela americana. Basicamente todo mundo se comporta e se veste o mais próximo possível dos artistas americanos;</li>
+<li>Todos restaurantes servem basicamente tudo que se pode pescar: polvos, tubarões, peixes diversos etc;</li>
+<li>Existem muitos resquícios da ocupação militar da segunda guerra mundial;</li>
+<li>Os sítios arqueológicos não são protegidos e você pode tocar, subir e mexer em qualquer coisa;</li>
+<li>Existem barcos e navios menores naufragados e, caso tenha coragem, é possível mergulhar;</li>
+<li>Existem reis e cada reinado fala uma língua. <strong>Sério</strong>.</li>
+</ul>
+<h2 id="como-chegar-e-orientações">Como chegar e orientações</h2>
+<p>Só há duas formas de chegar em Pohnpei: por Guam ou pelo Hawai. Só há uma linha aérea, a United.</p>
+<p>Em 2023 a empresa local que prestava os serviços de telecomunicações e máquinas de ATM estava com seus serviços sem funcionar.</p>
+<p>Em 2024 conferi o telefone da locadora de veículos Budget +691 320 8705, que funcionou e faz reservas na ilha, se é que é necessário.</p>
+<p>Site oficial de turismo local: <a href="https://visitpohnpei.travel/travel-advisory/">https://visitpohnpei.travel/travel-advisory/</a></p>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>SACKS, Oliver. <strong>A ilha dos daltônicos</strong>. Tradução: Laura Teixeira Motta. ISBN: 978-85-7164-682-7. Companhia das Letras. 1997.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_viagem" href="https://www.jeffersontorres.com.br/tags/viagem">viagem</a> &middot;  
+                <a id="tag_destinos" href="https://www.jeffersontorres.com.br/tags/destinos">destinos</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

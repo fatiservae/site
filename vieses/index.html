@@ -108,12 +108,13 @@ A memória humana não é confiável Efeito de espaçamento Sugestividade Falsa 
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -129,7 +130,9 @@ A memória humana não é confiável Efeito de espaçamento Sugestividade Falsa 
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -183,6 +186,9 @@ A memória humana não é confiável Efeito de espaçamento Sugestividade Falsa 
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -192,12 +198,16 @@ A memória humana não é confiável Efeito de espaçamento Sugestividade Falsa 
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -257,6 +267,7 @@ A memória humana não é confiável Efeito de espaçamento Sugestividade Falsa 
         <li><a href="#déjà-vu">Déjà vu</a></li>
         <li><a href="#confusão-sobre-a-fonte">Confusão sobre a fonte</a></li>
         <li><a href="#erro-de-atribuição-de-origem">Erro de atribuição de origem</a></li>
+        <li><a href="#efeito-gell-mann">Efeito Gell-Mann</a></li>
       </ul>
     </li>
     <li><a href="#a-racionalidade-humana-prefere-a-simplicidade-e-completude">A racionalidade humana prefere a simplicidade e completude</a>
@@ -336,6 +347,9 @@ A memória humana não é confiável Efeito de espaçamento Sugestividade Falsa 
 <p><strong>Algo desconhecido parece familiar.</strong></p>
 <h3 id="confusão-sobre-a-fonte">Confusão sobre a fonte</h3>
 <h3 id="erro-de-atribuição-de-origem">Erro de atribuição de origem</h3>
+<h3 id="efeito-gell-mann">Efeito Gell-Mann</h3>
+<p><strong>Excessiva confiança em fontes sabidamente comprometidas</strong>.</p>
+<p>Veja meu artigo <a href="../filosofia/gell-man/">sobre o efeito Gell-Mann</a>.</p>
 <h2 id="a-racionalidade-humana-prefere-a-simplicidade-e-completude">A racionalidade humana prefere a simplicidade e completude</h2>
 <h3 id="efeito-menos-é-melhor">Efeito menos é melhor</h3>
 <h3 id="navalha-de-ockam">Navalha de Ockam</h3>

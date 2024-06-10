@@ -1,19 +1,58 @@
 [
 	{
+		"autor": "Facção Central",
+		"citacoes": [
+			"Hoje Deus anda de blindado, cercado, protegido por dez anjos armados.",
+			"Na guerra o mais inocente é o favelado de fuzil russo."
+		]
+	},
+	{
+		"autor": "Racionais",
+		"citacoes": [
+			"Em São Paulo Deus é uma nota de cem.",
+			"Lave o rosto nas águas sagradas da pia, nada como um dia após o outro dia."
+		]
+	},
+	{
+		"autor": "W. Edwards Deming",
+		"citacoes": [
+			"Sem dados, o que se tem é uma opinião."
+		]
+	},
+	{
+		"autor": "John Carmack",
+		"citacoes": [
+			"Foco é decidir o que não fazer.",
+			"A ciência de foguetes foi mitologizada até se tornar realmente difícil."
+		]
+	},
+	{
+		"autor": "Napoléon Bonaparte",
+		"citacoes": [
+			"Se deseja entender a mente de um homem, estude o mundo de quando ele tinha vinte anos."
+		]
+	},
+	{
+		"autor": "George Box",
+		"citacoes": [
+			"Todos modelos são errados, mas alguns são úteis."
+		]
+	},
+	{
 		"autor": "Blaise Pascal",
 		"citacoes": [
 			"O amor é cego, a amizade fecha os olhos.",
 			"O prazer dos grandes homens consiste em poder tornar os outros felizes.",
 			"O homem está sempre disposto a negar tudo aquilo que não compreende.",
 			"O aumento do conhecimento é como uma esfera dilatando-se no espaço: quanto maior a nossa compreensão, maior o nosso contato com o desconhecido.",
-			"É uma doença natural no homem acreditar que possui a verdade.",
+			"É uma doença natural do homem acreditar que possui a verdade.",
 			"A consciência é o melhor livro de moral e o que menos se consulta."
 		]
 	},
 	{
 		"autor" : "Lisa Simpson",
 		"citacoes": [
-			"... romance is dead. It was acquired in a hostile takeover by Hallmark and Disney, homogenized, and sold off piece by piece." 
+			"... o romance está morto. Foi adquirido de forma hostil pela Hallmark e pela Disney, homogenizado e vendido pedaço por pedaço."
 		]
 	},
 	{
@@ -69,7 +108,7 @@
 	},
 
 	{
-		"autor": "Autor Desconhecido",
+		"autor": "Antigo ditado",
 		"citacoes": [
 		"Dura verum, sed verum.",
 		"Felicidade é realidade menos expectativa.",
@@ -77,7 +116,6 @@
 		"Lembre-se do último sentimento bom.",
 		"Hipocrisia é alegar todo sucesso ao individual e as falhas à coletividade.",
 		"Primum non nocere.",
-		"O conforto é o pior dos vícios.",
 		"Evite a decepção: foque na jornada, não no resultado.",
 		"A verdadeira vontade não permite a indisciplina."
 		]
@@ -141,6 +179,7 @@
 			"Amor fati.",
 			"O espírito se mancha na cor dos pensamentos.",
 			"Viva uma boa vida sem idolatria. Se existem deuses justos eles não se importarão com adorações. Se existem e são injustos, não devem mesmo ser adorados. Se não existem deuses, terá vivido uma vida nobre e estará na memória dos seus amados.",
+			"O conforto é o pior dos vícios.",
 			"Ao admirar um jarro, lembre-se que é de barro e um dia se quebrará. Ao abraçar alguém querido, lembre-se que é humano e um dia te deixará."
 		]
 	},
@@ -218,7 +257,7 @@
 		]
 	},
 	{
-		"autor": "Antigo ditato 中国古话",
+		"autor": "Ditato chinês 中国古话",
 		"citacoes": [
 			"É melhor ser um guerreiro no jardim de que um jardineiro na guerra."
 		]

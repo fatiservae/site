@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<style>
+.katex{
+  text-align: start !important ;
+  width: fit-content;
+  background: var(--gradiente-dark);
+}
+@media only screen and (max-width: 800px){
+  .katex{
+    max-width: 95vw;
+    font-size: 90%;
+  }
+}
+</style>
+
   
   <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -107,12 +123,13 @@ Padrão Wellens Critérios Ondas T bifásicas ou simétricas e invertidas em V2 
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -128,7 +145,9 @@ Padrão Wellens Critérios Ondas T bifásicas ou simétricas e invertidas em V2 
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -182,6 +201,9 @@ Padrão Wellens Critérios Ondas T bifásicas ou simétricas e invertidas em V2 
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -191,12 +213,16 @@ Padrão Wellens Critérios Ondas T bifásicas ou simétricas e invertidas em V2 
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -247,8 +273,21 @@ Padrão Wellens Critérios Ondas T bifásicas ou simétricas e invertidas em V2 
         <li><a href="#significado">Significado</a></li>
       </ul>
     </li>
-    <li><a href="#bloqueio-de-ramo-esquerdo">Bloqueio de ramo esquerdo</a></li>
-    <li><a href="#referências">Referências</a></li>
+    <li><a href="#bloqueio-atrioventricular">Bloqueio atrioventricular</a>
+      <ul>
+        <li><a href="#de-grau-1">De grau 1</a></li>
+        <li><a href="#de-grau-2---mobitz-i">De grau 2 - Mobitz I</a></li>
+        <li><a href="#de-grau-2---mobitz-ii">De grau 2 - Mobitz II</a></li>
+        <li><a href="#de-grau-3-ou-bloqueio-total">De grau 3 ou bloqueio total</a></li>
+      </ul>
+    </li>
+    <li><a href="#bloqueios-de-ramos">Bloqueios de ramos</a>
+      <ul>
+        <li><a href="#esquerdo">Esquerdo</a></li>
+        <li><a href="#direito">Direito</a></li>
+      </ul>
+    </li>
+    <li><a href="#bibliografia">Bibliografia</a></li>
   </ul>
 </nav>
 
@@ -275,11 +314,150 @@ Padrão Wellens Critérios Ondas T bifásicas ou simétricas e invertidas em V2 
 </ul>
 <h3 id="significado">Significado</h3>
 <p>Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.</p>
-<h2 id="bloqueio-de-ramo-esquerdo">Bloqueio de ramo esquerdo</h2>
+<h2 id="bloqueio-atrioventricular">Bloqueio atrioventricular</h2>
+<h3 id="de-grau-1">De grau 1</h3>
+<ul>
+<li>Todas ondas P&rsquo;s associadas a um $\overline{QRS}$ sequente.</li>
+<li>Intervalo $\overline{PR}$ vai alargando acima de 200ms.</li>
+</ul>
+
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+
+
+
+  <div class="legend"><p>Grau 1</p></div>
+  <div class="slide">
+    <a href="../../pix/medicina/ecg/bavt1.jpg">
+      <img src="../../pix/medicina/ecg/bavt1.jpg"></img>
+    </a>
+  </div>
+
+
+
+
+
+  <div class="legend"><p>Grau 1</p></div>
+  <div class="slide">
+    <a href="../../pix/medicina/ecg/bavt1-2.jpg">
+      <img src="../../pix/medicina/ecg/bavt1-2.jpg"></img>
+    </a>
+  </div>
+
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .slide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<h3 id="de-grau-2---mobitz-i">De grau 2 - Mobitz I</h3>
+<ul>
+<li>Há perda de condução de ondas P&rsquo;s com progressivo alargamento do $\overline{PR}$, como em grau 1.</li>
+<li>Intervalo $\overline{PR}$ vai alargando acima de 200ms até ocorrer a onda P perdida, é <strong>o fenômeno de Wenckebach</strong>.</li>
+</ul>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/ecg/bavt2mobitzi.png"></img>
+    <p>Grau 2 Mobitz I</p>
+  </div>
+
+<h3 id="de-grau-2---mobitz-ii">De grau 2 - Mobitz II</h3>
+<ul>
+<li>Há perda de ondas P&rsquo;s sem progressivo alargamento de $\overline{PR}$, ou seja, sem Wenckebach.</li>
+<li>É benigno quando o QRS é estreito, dito <strong>supra-hissiano</strong>.</li>
+<li>É maligno quando o QRS é alargado <strong>infra-hissiano</strong>.</li>
+</ul>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/ecg/bavt2mobitzii.jpg"></img>
+    <p>Grau 2 Mobitz II</p>
+  </div>
+
+<p>Causas:</p>
+<ul>
+<li>Anterior MI (due to septal infarction with necrosis of the bundle branches)</li>
+<li>Idiopathic fibrosis of the conducting system (Lenègre-Lev disease)</li>
+<li>Cardiac surgery, especially surgery occurring close to the septum e.g. mitral valve repair</li>
+<li>Inflammatory conditions (rheumatic fever, myocarditis, Lyme disease)</li>
+<li>Autoimmune (SLE, systemic sclerosis)</li>
+<li>Infiltrative myocardial disease (amyloidosis, haemochromatosis, sarcoidosis)</li>
+<li>Hyperkalaemia</li>
+<li>Drugs: beta-blockers, calcium channel blockers, digoxin, amiodarone</li>
+</ul>
+<h3 id="de-grau-3-ou-bloqueio-total">De grau 3 ou bloqueio total</h3>
+<ul>
+<li>As ondas P&rsquo;s tem ritmo totalmente alheio ao dos $\overline{QRS}$.</li>
+</ul>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/ecg/bavt3.jpg"></img>
+    <p>Grau 3 - total: note que as ondas P&#39;s estão em taquifrequência e os QRS não</p>
+  </div>
+
+<h2 id="bloqueios-de-ramos">Bloqueios de ramos</h2>
+<h3 id="esquerdo">Esquerdo</h3>
 <p>Não há negatividade de V6.</p>
+<h3 id="direito">Direito</h3>
+<p>Em breve.</p>
 <hr>
-<h2 id="referências">Referências</h2>
-<p>Malcolm S Thaler. <strong>ECG essencial 7°ed.</strong> Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.</p>
+<h2 id="bibliografia">Bibliografia</h2>
+<ol>
+<li>Malcolm S Thaler. <strong>ECG essencial 7°ed.</strong> Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.</li>
+</ol>
+<p>Imagens de acervo prórpio ou livres na internet.</p>
 
 
 

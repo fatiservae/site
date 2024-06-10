@@ -1,6 +1,77 @@
 [
   {
+    "nome": ["memantina"]
+  },
+  {
+    "nome": ["rifampicina"]
+  },
+  {
+    "nome": ["donepezila"]
+  },
+  {
+    "nome": ["citalopram"]
+  },
+  {
+    "nome": ["talidomida"]
+  },
+  {
+    "nome": ["prednisona"]
+  },
+  {
+    "nome": ["valaciclovir"]
+  },
+  {
+    "nome": ["aciclovir"]
+  },
+  {
+    "nome": ["dapsona"]
+  },
+  {
+    "nome": ["clofazidima"]
+  },
+  {
+    "nome": ["naloxona"]
+  },
+  {
     "nome": ["fluticasona"]
+  },
+  {
+    "nome": ["clobazam", "Frisium"],
+    "class": ["benzodiazepínicos"],
+    "posologias":[
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [10, 1],
+        "instrucao": "dose habitual no manejo de ansiedade crônica ou aguda.",
+        "via": "oral"
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [20, 1],
+        "instrucao": "dose máxima diária no manejo de ansiedade crônica ou aguda.",
+        "via": "oral"
+      }
+    ],
+    "obs": [
+      "cautela com desenvolvimento de dependência.",
+      "não deve ser usada concomitante a ingesta de alcoól sob risco de sedação grave."
+    ]
+  },
+  {
+    "nome": ["risperidona", "Risperidon"],
+    "class": ["antipsicóticos atípicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [1, 1],
+        "via": "oral",
+        "instrucao": "dose inicial antipsicótica para uso contínuo"
+      }
+    ],
+    "mecanismo": "antagonismo seletivo de monoaminas, com predominância dopaminérgica e serotoninérgico.",
+    "obs": [
+      "Pode causar síndrome neuroléptica maligna."
+    ]
   },
   {
     "nome": ["oxacilina", "Oxanon", "Staficilin-N"],

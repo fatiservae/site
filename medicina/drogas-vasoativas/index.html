@@ -107,12 +107,13 @@ Permita maiores médias pressóricas para manter perfusão periférica e diurese
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -128,7 +129,9 @@ Permita maiores médias pressóricas para manter perfusão periférica e diurese
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -182,6 +185,9 @@ Permita maiores médias pressóricas para manter perfusão periférica e diurese
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -191,12 +197,16 @@ Permita maiores médias pressóricas para manter perfusão periférica e diurese
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -302,10 +312,74 @@ Calculadora <a href="../../medicina/hemodinamica/">aqui</a>.</p>
 </blockquote>
 <h3 id="10-vasopressors-can-be-safely-administered-through-a-peripheral-catheter">10. Vasopressors can be safely administered through a peripheral catheter</h3>
 <p>A falta de acesso vascular central não impede prescrição de droga vasoativa.</p>
+<table>
+<thead>
+<tr>
+<th>Droga</th>
+<th>Dose</th>
+<th>Receptores</th>
+<th>Colaterais</th>
+<th>Comentários</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Norepinephrine</td>
+<td>0.01-1 µg/kg/min</td>
+<td>α1 &gt; β1 &gt; β2</td>
+<td>- Tachyarrhythmias<br>- Increased pulmonary vascular resistance<br>- Peripheral (digital) ischemia</td>
+<td>- First-line vasopressor in septic and cardiogenic shock</td>
+</tr>
+<tr>
+<td>Epinephrine</td>
+<td>0.01-0.3 µg/kg/min</td>
+<td>α1 = β1 &gt; β2</td>
+<td>- Tachyarrhythmias, cardiac ischemia <br>- Splanchnic vasoconstriction leading to abdominal organ ischemia <br>- Hyperlactemia and hyperglycemia</td>
+<td>- First-line vasopressor in anaphylactic shock and cardiac arrest <br>- Hyperlactemia makes lactate a less reliable measure of end-organ perfusion</td>
+</tr>
+<tr>
+<td>Dopamine</td>
+<td>2-20 µg/kg/min</td>
+<td>aDA1&gt;β1 &gt; α1</td>
+<td>- Tachyarrhythmias<br>- Cardiac ischemia</td>
+<td>- Second-line inotrope in adults <br>- Used in select patients with low risk of tachyarrhythmias and bradycardia</td>
+</tr>
+<tr>
+<td>Phenylephrine</td>
+<td>0.1-1 µg/kg/min</td>
+<td>α1</td>
+<td>- Reﬂex bradycardia <br>- Severe peripheral ischemia</td>
+<td>- Useful for tachyarrhythmias, or in patients with adequate cardiac output and persistently low blood pressure</td>
+</tr>
+<tr>
+<td>Vasopressin</td>
+<td>0.01-0.06 units/min</td>
+<td>V1</td>
+<td>- Possible gastrointestinal hypoperfusion due to splanchnic vasoconstriction</td>
+<td>- Usually used as an adjunct to norepinephrine in septic shock <br>- Does not increase pulmonary vascular resistance</td>
+</tr>
+<tr>
+<td>Dobutamine</td>
+<td>2-10 µg/kg/min</td>
+<td>β1 &gt; β2 &gt; α1</td>
+<td>- Hypotension <br>- Tachyarrhythmias<br>- Tachyphylaxis (infusions greater than 72 hours)</td>
+<td>- First-line inotrope for most forms of shock <br>- Quick onset of action</td>
+</tr>
+<tr>
+<td>Milrinone</td>
+<td>0.1-0.5 µg/kg/min</td>
+<td>Phosphodiesterase-3 inhibitor</td>
+<td>- Hypotension (causes greater vasodilation than DOB)<br>- Tachyarrhythmias <br>- Torsades de pointes</td>
+<td>- Useful inotrope in patients with signiﬁcant pulmonary vascular resistance</td>
+</tr>
+</tbody>
+</table>
+<p><sup>*</sup>Adaptado de MERGOUM et. al.[2].</p>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
 <li>Legrand, M., Zarbock, A. <strong>Ten tips to optimize vasopressors use in the critically ill patient with hypotension</strong>. Intensive Care Med 48, 736–739 (2022). <a href="https://doi.org/10.1007/s00134-022-06708-y">https://doi.org/10.1007/s00134-022-06708-y</a></li>
+<li>Mergoum AM, Rhone AR, Larson NJ, Dries DJ, Blondeau B, Rogers FB. <strong>A Guide to the Use of Vasopressors and Inotropes for Patients in Shock</strong>. J Intensive Care Med. 2024 Apr 13:8850666241246230. doi: 10.1177/08850666241246230. Epub ahead of print. PMID: 38613381.</li>
 </ol>
 
 

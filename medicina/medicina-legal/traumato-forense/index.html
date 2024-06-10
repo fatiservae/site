@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<style>
+.katex{
+  text-align: start !important ;
+  width: fit-content;
+  background: var(--gradiente-dark);
+}
+@media only screen and (max-width: 800px){
+  .katex{
+    max-width: 95vw;
+    font-size: 90%;
+  }
+}
+</style>
+
   
   <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -52,7 +68,7 @@
             'tertiaryColor': '#fff'
           }
       });
-    } else if (temaAtual === 'papel' ) {
+    } else if (temaAtual === 'moderno' ) {
       mermaid.initialize({ 
           theme: 'base',
           timeline: {'disableMulticolor': true},
@@ -67,7 +83,23 @@
             'tertiaryColor': '#fff'
           }
       });
+    } else if (temaAtual === 'laranja' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ff5510', 
+            'cScaleLabel0': '#181818',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#eee',
+            'primaryBorderColor': '#aa1000',
+            'lineColor': '#dd4000',
+            'secondaryColor': '#181818',
+            'tertiaryColor': '#181818'
+          }
+      });
     }
+
     </script>
   
 
@@ -160,12 +192,13 @@ Descrição A linguagem técnica favorece a descrição precisa.">
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -181,7 +214,9 @@ Descrição A linguagem técnica favorece a descrição precisa.">
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -235,6 +270,9 @@ Descrição A linguagem técnica favorece a descrição precisa.">
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -244,12 +282,16 @@ Descrição A linguagem técnica favorece a descrição precisa.">
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -306,14 +348,17 @@ Descrição A linguagem técnica favorece a descrição precisa.">
       <ul>
         <li><a href="#lesões-elementares-em-traumatologia-forense">Lesões elementares em traumatologia forense</a></li>
         <li><a href="#prova-de-verderau">Prova de Verderau</a></li>
+        <li><a href="#sedenho">Sedenho</a></li>
       </ul>
     </li>
     <li><a href="#energia-mecânica">Energia mecânica</a>
       <ul>
         <li><a href="#lesões-contusas">Lesões contusas</a></li>
-        <li><a href="#lesões-incisas-perfurocontusas-e-puntiformes">Lesões incisas, perfurocontusas e puntiformes</a></li>
-        <li><a href="#lesões-por-arma-de-fogo">Lesões por arma de fogo</a></li>
-        <li><a href="#fenômenos-diversos">Fenômenos diversos</a></li>
+        <li><a href="#lesões-cortocontusas">Lesões cortocontusas</a></li>
+        <li><a href="#lesões-perfurocontusas-e-puntiformes">Lesões perfurocontusas e puntiformes</a></li>
+        <li><a href="#lesões-incisas">Lesões incisas</a></li>
+        <li><a href="#lesões-causadas-por-arma-de-fogo">Lesões causadas por arma de fogo</a></li>
+        <li><a href="#escoriações">Escoriações</a></li>
       </ul>
     </li>
     <li><a href="#energia-química">Energia química</a>
@@ -334,13 +379,17 @@ Descrição A linguagem técnica favorece a descrição precisa.">
         <li><a href="#graus-de-queimadura">Graus de queimadura</a></li>
       </ul>
     </li>
-    <li><a href="#classificação-de-gravidade-legal">Classificação de gravidade legal</a>
+    <li><a href="#energia-ionizante">Energia ionizante</a>
       <ul>
-        <li><a href="#lesão-corporal-grave">Lesão corporal grave</a></li>
-        <li><a href="#lesão-gravíssima">Lesão gravíssima</a></li>
+        <li><a href="#úlcera-de-roentgen">Úlcera de Roentgen</a></li>
       </ul>
     </li>
-    <li><a href="#notas">Notas</a></li>
+    <li><a href="#classificação-de-gravidade-nas-lesões-corporais">Classificação de gravidade nas lesões corporais</a>
+      <ul>
+        <li><a href="#gravíssimas-graves-e-leves">Gravíssimas, graves e leves</a></li>
+        <li><a href="#perigo-de-vida">Perigo de vida</a></li>
+      </ul>
+    </li>
     <li><a href="#bibliografias">Bibliografias</a></li>
   </ul>
 </nav>
@@ -369,10 +418,9 @@ Descrição A linguagem técnica favorece a descrição precisa.">
 <table>
 <thead>
 <tr>
-    <th>Cor da equimose</th>
-    <th>Cor da equimose</th>
-    <th>Lapso em dias</th>
-    <th>Hemocomponente predominante</th>
+    <th colspan=2>Cor da equimose</th>
+    <th>Lapso<br>em dias</th>
+    <th>Hemocomponente<br>predominante</th>
 </tr>
 </thead>
 <tbody>
@@ -421,8 +469,12 @@ Descrição A linguagem técnica favorece a descrição precisa.">
 <p>As equimoses podem se formar em local diverso do trauma, como ocorre na fratura de base de crânio com surgimento do sinal de Guaxinin ou de Zorro. Thoinot dizia que a equimose era uma prova irrefutável de reação vital.</p>
 <p>Outros tecidos diversos da pele podem ter cronologia de surgimento e desaparecimento das lesões equimóticas muito diferente da descrita por Legrand du Saulle. A conjuntiva ocular e.g. pode apresentar equimose em aspecto avermelhado fixo até seu desaparecimento. Hygino também cita o escroto como região de progressão crômica diversa das equimoses em geral.</p>
 <h4 id="equimonas">Equimonas</h4>
-<p>Equimoses extensas, de tamanho não habitual.</p>
-<h4 id="sugilação">Sugilação</h4>
+<p>Equimose extensa, de tamanho não habitual.</p>
+<h4 id="hematomas">Hematomas</h4>
+<p>Extravazamento sanguíneo para neocavidade.</p>
+<h4 id="bossa">Bossa</h4>
+<p>O hematoma formado sobre plano ósseo, vulgarmente chamado de &ldquo;galo&rdquo;.</p>
+<h4 id="sugilações">Sugilações</h4>
 <p>A equimose formada pelo aglomerado de pequenos grãos. Um exemplo é o “chupão”.</p>
 <h4 id="petéquias">Petéquias</h4>
 <p>São pequenas equimoses, com o tamanho de cabeça de alfinete.</p>
@@ -432,16 +484,25 @@ Descrição A linguagem técnica favorece a descrição precisa.">
 <p>São lesões com assinatura, apresentam a forma de estrias, duas linhas paralelas.</p>
 <h3 id="prova-de-verderau">Prova de Verderau</h3>
 <p>Consiste em comparar a relação existente entre as hemácias e leucócitos da lesão suspeita, tomando como parâmetro esses elementos figurados do sangue de outra região qualquer do corpo. Se a relação dos glóbulos brancos e vermelhos se equivale nas duas contagens, diz-se que a lesão foi produzida <mark>após a morte</mark>. Se a primeira contagem é superior à segunda, conclui-se pelo diagnóstico de uma lesão <mark>in vitam</mark>.</p>
+<h3 id="sedenho">Sedenho</h3>
+<p>Os projéteis e os agentes vulnerantes penetrantes na pele podem livrar-se de entrar nas quatro cavidades do corpo humano, sejam elas a abdominal, a torácica, craniana e raquiana. Nesses casos, a ferida é dita <em>em sedenho</em>, fenômeno comumente ocorrido em casos de &ldquo;<em>bala giratória</em>&rdquo;, quando o projétil faz trajetos curvos livrando as cavidades.</p>
 <h2 id="energia-mecânica">Energia mecânica</h2>
 <h3 id="lesões-contusas">Lesões contusas</h3>
-<h3 id="lesões-incisas-perfurocontusas-e-puntiformes">Lesões incisas, perfurocontusas e puntiformes</h3>
+<p>Em breve.</p>
+<h3 id="lesões-cortocontusas">Lesões cortocontusas</h3>
+<h4 id="mordedura">Mordedura</h4>
+<p>Em breve.</p>
+<h3 id="lesões-perfurocontusas-e-puntiformes">Lesões perfurocontusas e puntiformes</h3>
+<p>Em breve.</p>
+<h3 id="lesões-incisas">Lesões incisas</h3>
+<p>A lesão decorrente da pouca pressão e grande capacidade dissecante é chamada de <strong>incisa</strong>. Este termo esteve reservado em boa parte da doutrina para as lesões em cortes produzidas pelo médico durante cirurgias ou procedimentos. Porém, seu uso amplo se refere a todas formas de resultado cortante dos instrumentos de gume, quando usados na sua maneira tradicional, deslizante, com pouca ou proporcionalmente pequena força.</p>
 <h4 id="leis-de-edouard-filhós-e-langer">Leis de Edouard Filhós e Langer</h4>
 <ul>
 <li><strong>1ª Lei ou Lei do paralelismo</strong>: dispõe que, na mesma região, as lesões produzidas por instrumentos perfurantes de médio calibre são paralelas entre si.</li>
 <li><strong>2ª Lei ou Lei da semelhança</strong>: os instrumentos perfurantes de médio calibre, e.g. furador de gelo, produzem lesões semelhantes às produzidas por instrumentos perfuro-cortantes de dois gumes (punhal). Também chamada de lesão em botoeira.</li>
 <li><strong>Lei de Langer ou polimorfismo</strong>: caso a lesão seja em local do corpo humano em que as fibras musculares atuem em mais de uma direção, as lesões terão aspecto estrelado, polimórfico (bizarras).</li>
 </ul>
-<h3 id="lesões-por-arma-de-fogo">Lesões por arma de fogo</h3>
+<h3 id="lesões-causadas-por-arma-de-fogo">Lesões causadas por arma de fogo</h3>
 <p>A balística se subdivide em balística interna, externa e terminal. A interna estuda os mecanismos de disparo de projétil, a externa se debruça sobre a viagem dos projéteis e a terminal ou de efeitos se preocupa com a interação com os alvos. <strong>A traumatologia se importa com a balística externa e principalmente a terminal</strong>.</p>
 <h4 id="trajeto-e-trajetória">Trajeto e trajetória</h4>
 <p>Trajeto é o caminho que o projétil faz no interior do corpo humano, enquanto que trajetória é o percurso entre a arma e a vítima. No trajeto, importa ao legista primordialmente entender como o projétil se comportou antes de acertar o alvo. Os moviemntos de nutação, rotação e báscula ou precessão são os de relevância, conforme ilustro abaixo.</p>
@@ -474,25 +535,37 @@ Descrição A linguagem técnica favorece a descrição precisa.">
 <h4 id="efeitos-primários-e-secundários-do-tiro">Efeitos primários e secundários do tiro</h4>
 <p>Os efeitos primários decorrem da ação do projétil e independem da distância do tiro.</p>
 <p>Já os efeitos secundários resultam dos tiros encostados ou à curta distância, da ação dos gases, de seus efeitos explosivos, de resíduos da combustão da pólvora e de microprojéteis.</p>
+<h4 id="coeficiente-balístico">Coeficiente balístico</h4>
+<p>Termo exato definidor do grau de dano causado pelo projétil em termos de sua massa $m_{p}$(g), sua ponta $p_{p}$(mm) e seu calibre $c_{p}$(mm). Assim,
+$$
+C_{b} = \frac{m_{p}}{p_{p}c_{p}}
+$$</p>
 <h4 id="disparo-a-grande-distância">Disparo a grande distância</h4>
+<p>O tiro a distância causa apenas os efeitos primários.</p>
 <p>Os orifícios de entrada <mark>normalmente</mark> possuem diâmetro menor que o do projétil, forma arredondada ou elíptica, suas bordas são viradas para dentro, bem como contam com algumas características:</p>
 <ul>
 <li><strong>Orla de enxugo ou de alimpadura</strong>: é a orla de detritos e impurezas que ficam retidas na pele quando da passagem do projétil;</li>
 <li><strong>Orla de escoriação ou de contusão</strong>: rompimento da pele pela passagem do projétil;</li>
 <li><strong>Anel de Fisch</strong>: é a combinação das orlas de enxugo e de escoriação. Pode indicar a direção do projétil (pedra do anel de fisch).</li>
-<li><strong>Sinal do tronco de cone de Bonett</strong>: o osso atingido por projétil que o atravessa apresenta um canal cônico, mostrando menor diâmetro na entrada e maior na saída. Portanto, em trajetos ósseos com duas lâminas sequenciais existirão duas lesões cônicas, a primeira de entrada de menor diâmetro e última lâmina apresenta maior diâmetro, quando vistas externamente. O exame interno do cadáver vai evidencias os formatos cônicos do trajeto no osso.</li>
+<li><strong>Sinal do tronco de cone de Bonnet</strong>: o osso atingido por projétil que o atravessa apresenta um canal cônico, mostrando menor diâmetro na entrada e maior na saída. Portanto, em trajetos ósseos com duas lâminas sequenciais existirão duas lesões cônicas, a primeira de entrada de menor diâmetro e última lâmina apresenta maior diâmetro, quando vistas externamente. O exame interno do cadáver vai evidencias os formatos cônicos do trajeto no osso.</li>
 </ul>
 <p>Os três primeiros sinais acima decorrem da passagem do projétil pela pele, ou seja, são efeitos <mark>primários</mark> do tiro. Aparecem somente nas lesões de entrada, porém, sua ausência não indica que o orifício é de saída, como ocorre nos casos em que o tiro é dado com um anteparo, eg. travesseiro, não haverá orla de enxugo, uma vez que o projétil vai ser limpo antes de atingir a vítima.</p>
-<h4 id="disparos-a-curta-distância">Disparos a curta distância¹</h4>
+<h4 id="disparos-a-curta-distância-e-_à-queima-roupa_">Disparos a curta distância e <em>à queima roupa</em></h4>
 <p>A distância do disparo é da ordem do cone de explosão ou da faixa de expansão dos gases.</p>
+<p>A doutrina está em progressivo abandono do termo <em>à queima roupa</em>. França ainda traz que, em se tratando de disparos à cerca de 10cm, este seria um termo adequado.</p>
+<p>O tiro a queima roupa ocorre com efeitos primários e secundários além do possível chamuscamento. Já o tiro de curta distância tem efeitos primários e secundários, sem chamuscamento.</p>
 <ul>
 <li><strong>Rosa de Tiro de Cevidalli</strong>: Nos disparos com múltiplos balins, quanto menor a distância, mais concentrados estão as lesões de entrada;</li>
 <li><strong>Zona de edema e hiperemia</strong>: rebordo inflamatório do ponto de impacto do projétil;</li>
 <li><strong>Zona de tatuagem</strong>: ocasionada pela impregnação na pele dos grânulos de pólvora incombusta;</li>
 <li><strong>Zona de esfumaçamento ou de tisnado</strong>: causada pela fuligem da queima da pólvora e é expelida pelo cano da arma junto com o projétil;</li>
-<li><strong>Orla ou zona de queimadura</strong>: O disparo a curta distância pode ocasionar queimaduras de 1º e 2º grau na pele.</li>
+<li><strong>Orla ou zona de queimadura</strong>: o disparo a curta distância pode ocasionar queimaduras de 1º e 2º grau na pele; e</li>
+<li><strong>Zona de compressão pelos gases</strong>: uma depressão dos tecidos moles ocorre por alguns segundos ou no máximo por minutos pela pressão ocorrida pela expansão gasosa e desaparece na sequência.</li>
 </ul>
+<h4 id="fratura-ou-lesão-em-fechadura">Fratura ou lesão em fechadura</h4>
+<p>A lesão em buraco de fechadura se refere ao fenômeno do tiro obliquoamente incidente sobre o plano ósseo, causando entrada lateralizada do projétil que forma o orifício de entrada e um tunelamento subsequênte, geralmente ressaltando o osso, como em uma fechadura. Ocorre tanto em disparos de curta e longa distância, tendo maior relação com ângulo de entrada que com a energia <em>per si</em>.</p>
 <h4 id="disparos-encostados-sem-plano-ósseo">Disparos encostados sem plano ósseo</h4>
+<p>O tiro encostado tem efeitos primários e características peculiares:</p>
 <ul>
 <li><strong>Sinal de Puppe-Werkgartener</strong>: é um sinal característico dos disparos encostados sem plano ósseo por baixo (ex: abdome, bochecha), em que fica marcado na pele o cano da arma.</li>
 </ul>
@@ -501,21 +574,39 @@ Descrição A linguagem técnica favorece a descrição precisa.">
 <li><strong>Sinal de boca ou câmara de mina de Hoffmann</strong>: ocorre em tiros encostados com plano ósseo por baixo. É causada pela expansão dos gases que afasta a pele do plano ósseo subjacente provocando irregularidade e aspecto em câmara. Apresenta um aspecto estrelado;</li>
 <li><strong>Sinal de Benassi</strong>: Nas lesões de entrada no crânio ou escápulas, com disparos encostados, pode ser encontrado uma fuligem no osso, encrustada pela velocidade e temperatura do contato;</li>
 </ul>
-<h4 id="características-do-orifício-de-saída">Características do orifício de saída</h4>
+<h4 id="o-orifício-de-entrada">O orifício de entrada</h4>
+<p>Em breve.</p>
+<h4 id="o-trajeto-do-projétil">O trajeto do projétil</h4>
+<ul>
+<li><strong>Halo hemorrágico visceral de Bonnet</strong>: hemorragia circular em torno da lesão de passagem do projétil por órgãos viscerais, encontrado principalmente no pulmão, comprovador de entrada de projetil independente de distância.</li>
+</ul>
+<h4 id="o-orifício-de-saída">O orifício de saída</h4>
 <p>Regra geral, as lesões de saída possuem forma irregular, borda reviradas para fora, maior sangramento, além de não apresentarem os sinais apresentados acima.</p>
 <p>Há doutrinadores que afirmam que a lesão de saída pode apresentar uma orla de equimose se o tiro foi dado com a vítima encostada contra algum anteparo, por exemplo, no chão ou parede, pois, dessa forma, o projétil teria dificuldade para sair e acabaria gerando a escoriação.</p>
-<h3 id="fenômenos-diversos">Fenômenos diversos</h3>
-<h4 id="o-tiro-encaixado">O tiro encaixado</h4>
+<h5 id="sinal-de-romanesi">Sinal de Romanesi</h5>
+<p>É a equimose em halo formada no orifício de saída quando há um anteparo posto contra a pele no local de saída.</p>
+<h4 id="fenômenos-diversos">Fenômenos diversos</h4>
+<h5 id="o-tiro-encaixado">O tiro encaixado</h5>
 <p>Trata-se de incomum possbilidade em que o último disparo resultou em projétil retido no cano que é empurrado por disparo mais atual e ambos são propelidos como projétil único ou separados. Podem, portanto, acarretar lesões diversas ou singular. Normalmente, a energia do disparo é menor.</p>
-<h4 id="lesão-óssea-em-fechadura">Lesão óssea em fechadura</h4>
+<h5 id="lesão-óssea-em-fechadura">Lesão óssea em fechadura</h5>
 <p>Colisões de projétil em ângulos tangenciais produzem uma entrada oblíquoa no tecido ósseo, deixando um caminho de entrada normalmente descrito como buraco de fechadura.</p>
-<h4 id="explosões">Explosões</h4>
+<h5 id="orlas-desalinhadas">Orlas desalinhadas</h5>
+<p>As orlas equimótica, de esfumaçamento, de queimadura e de tatuagem podem ser de dois tipos quanto ao seu alinhamento:</p>
+<ul>
+<li>Alinhadas ou concêntricas, se o disparo é feito de forma que a trajetória do projétil é perpendicular ao plano corporal atingido; e</li>
+<li>Desalinhadas ou excêntricas se o disparo é feito com algum ângulo agudo de trajetória em relação ao plano corporal.</li>
+</ul>
+<h5 id="explosões">Explosões</h5>
 <p>As explosões <em>a.k.a.</em> pelo neologismo <em>blast</em> se dividem pela lesão que causa:</p>
 <ul>
 <li>Primárias: lesões a órgãos ocos ou aerados por barotraumas.</li>
-<li>Secundárias: feridas e lesões causadas por objetos projetados com grande energia.</li>
+<li>Secundárias: feridas e lesões causadas por objetos projetados com grande energia, também chamados projéteis.</li>
 <li>Terciárias: feridas e lesões decorrentes do arremesso do corpo ou de quedas.</li>
 </ul>
+<h3 id="escoriações">Escoriações</h3>
+<p>A escoriação é o resultado da ação tangencial do instrumento contudente. Pode ocorrer em diferentes graus e extensão, a depender do instrumento em si, da energia e do tecido escoriado, porém, sua forma mais comum é da pele escoriada por superfície irregular, situação na qual as lesões são múltiplas, parecidas, com rastro linear que acompanha o movimento tangencial e hiperemia secundária.</p>
+<p>Além disso, a epiderme é a única afetada, sem ferida real, pois a abertura da derme ou da hipoderme caracterizariam a lesão contusa.</p>
+<p>Por fim, as escoriações não cicatrizam no sentido estrito e passam, sim, por reepitelização, não deixando cicatriz ou marca.</p>
 <h2 id="energia-química">Energia química</h2>
 <p>Os cáusticos podem ser classificados como:</p>
 <p>Desidratante: ácido sulfúrico ou ventríolo, óxido de cálcio, hidróxido de sódio (soda cáustica em escamas) e hidróxido de potássio.</p>
@@ -526,6 +617,7 @@ Descrição A linguagem técnica favorece a descrição precisa.">
 <h3 id="lesões-e-feridas-cáusticas">Lesões e feridas cáusticas</h3>
 <p>Ácido (branco sulfúrico, amarelo e otura cor&hellip;) e sais? - coagulação, ressecamento e endurecimento. Variadas cores.
 Bases (hidróxidos e amônia)- liquefação ou liquefacientes.</p>
+<p>O diagnóstico diferencial das escaras produzidas <em>in vitam</em> ou <em>post mortem</em> é que após a morte, elas não têm propriamente a forma de escara, mostram-se apergaminhadas e de tonalidade marrom-escura. Sob o ponto de vista histológico, não apresentam reação vital através dos exames histoquímicos e histológicos.</p>
 <h2 id="energia-elétrica">Energia elétrica</h2>
 <h3 id="natural">Natural</h3>
 <h3 id="artificial">Artificial</h3>
@@ -543,19 +635,14 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.</p>
 <p>O encéfalo apresentava hiperemia e congestão das meninges; coração com consistência muito aumentada; pulmões com equimoses subpleurais e edema interno; notou, em outras vísceras, a presença de hipertermia interna e de grande quantidade de sangue no sistema venoso.</p>
 <h3 id="graus-de-queimadura">Graus de queimadura</h3>
 <p>De acordo com a classificação de Lussena-Hoffman, a presença de flictena e bolhas na pele (sinal de Chamber) caracteriza a queimadura de segundo grau.</p>
-<h2 id="classificação-de-gravidade-legal">Classificação de gravidade legal</h2>
+<h2 id="energia-ionizante">Energia ionizante</h2>
+<h3 id="úlcera-de-roentgen">Úlcera de Roentgen</h3>
+<p>Irradiação da pele com pelo menos 12 Gray ou irradiação repetida com pequenas doses resultam em radiodermatite crônica após 2 anos ou mais. No centro atrófico da radiodermatite, há pouca circulação e inflamação crônica leva a ulceração central devido a trauma mínimo ou suprimento de oxigênio ao tecido inadequado. São caracterizadas por sua pobre cicatrização.</p>
+<h2 id="classificação-de-gravidade-nas-lesões-corporais">Classificação de gravidade nas lesões corporais</h2>
 <p>Primeiramente, a <strong>lesão corporal é o evento qualquer que ofenda a integridade física ou a <u>saúde</u> de alguém</strong>.</p>
 <p>Portanto, para nosso escopo, interessa as avarias físicas contra alguém. Mas caracteriza-se lesão corporal também os insultos à saúde mental.</p>
-<h3 id="lesão-corporal-grave">Lesão corporal grave</h3>
-<p>Quando a lesão acarreta:</p>
-<ul>
-<li>Incapacidade para as ocupações habituais, por mais de trinta dias;</li>
-<li>Perigo de vida;</li>
-<li>Debilidade permanente de membro, sentido ou função; e</li>
-<li>Aceleração de parto.</li>
-</ul>
-<h3 id="lesão-gravíssima">Lesão gravíssima</h3>
-<p>Se o resultado da agressão causa:</p>
+<h3 id="gravíssimas-graves-e-leves">Gravíssimas, graves e leves</h3>
+<p>É <strong>gravíssima</strong> a lesão que acarreta:</p>
 <ul>
 <li>Incapacidade permanente para o trabalho;</li>
 <li>Enfermidade incuravel;</li>
@@ -563,11 +650,18 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.</p>
 <li>Deformidade permanente;e</li>
 <li>Aborto.</li>
 </ul>
+<p>É <strong>grave</strong> se o resultado da agressão causa:</p>
+<ul>
+<li>Incapacidade para as ocupações habituais, por mais de trinta dias;</li>
+<li>Perigo de vida;</li>
+<li>Debilidade permanente de membro, sentido ou função; e</li>
+<li>Aceleração de parto.</li>
+</ul>
+<p>E são <strong>leves</strong> todas demais lesões corporais.</p>
+<p>Portanto, na gradação da gravidade de lesões corporais, opera-se por exclusão, primeiro das possibilidades gravíssimas depois das graves.</p>
+<h3 id="perigo-de-vida">Perigo de vida</h3>
+<p>O perigo de vida foi uma feliz colocação do código penal que evitou a confusão comum deste termo. Caracteriza-se o perigo de vida pela real ameaça à vida, de forma concreta e possível. Jamais se deve admitir como perigo de vida as situações que partem da hipótese especulativa. Por exemplo, é um erro afirmar que uma ferida incisa no dedo indicador oferece perigo de vida já que uma infecção grave pode se alastrar como sepse e levar à morte. Já um traumatismo crâniano tem potencial efetivo real e imediato de causar a morte, a depender de sua energia e forma de ocorrência, configurando, este sim, um perigo de vida.</p>
 <hr>
-<h2 id="notas">Notas</h2>
-<ol>
-<li>A doutrina está em progressivo abandono do termo <em>à queima roupa</em>. França ainda traz que, em se tratando de disparos à cerca de 10cm, este seria um termo adequado.</li>
-</ol>
 <h2 id="bibliografias">Bibliografias</h2>
 <ol>
 <li>FRANÇA, Genival Veloso de. <strong>Medicina Legal</strong>. Rio de Janeiro-RJ: Guanabara Koogan, p. 1207, 2017.</li>

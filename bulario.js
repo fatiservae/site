@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let dose = document.createElement('p');
 
         dose.style.color = "var(--termo)";
-        dose.style.background = "var(--vidro)";
+        dose.style.background = "none";
         dose.style.borderRadius = "var(--raioBordas)";
         dose.style.padding = "5px";
         dose.style.width = "fit-content";
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (atbAtual.obs !== undefined){
         let obsTopic = document.createElement('p');
-        obsTopic.innerHTML = "<hr>Observações";
+        obsTopic.innerHTML = "<hr>Observações:";
         let obs = document.createElement('p');
         obs.classList.add('observacao');
         obs.innerText = atbAtual.obs[0] === undefined ? '' : 

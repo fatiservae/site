@@ -107,12 +107,13 @@ Atenuada Trata-se de patógeno vivo, enfraquecido estratégicamente via técnica
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -128,7 +129,9 @@ Atenuada Trata-se de patógeno vivo, enfraquecido estratégicamente via técnica
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -182,6 +185,9 @@ Atenuada Trata-se de patógeno vivo, enfraquecido estratégicamente via técnica
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -191,12 +197,16 @@ Atenuada Trata-se de patógeno vivo, enfraquecido estratégicamente via técnica
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
@@ -258,6 +268,7 @@ Atenuada Trata-se de patógeno vivo, enfraquecido estratégicamente via técnica
         <li><a href="#bcg">BCG</a></li>
         <li><a href="#meningocóccica">Meningocóccica</a></li>
         <li><a href="#dt-dtpa-e-dtpa">dT, dTpa e DTPA</a></li>
+        <li><a href="#hib">Hib</a></li>
       </ul>
     </li>
     <li><a href="#referências">Referências</a></li>
@@ -304,6 +315,8 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 <p>Também deve ser administrada em profissionais de saúde com reforços a cada 10 anos.</p>
 <p>Pode ser feita como reforço da DTPA (infantil) a partir dos 7 anos de idade.</p>
 <p><strong>O esquema nunca deve ser reiniciado</strong>.</p>
+<h3 id="hib">Hib</h3>
+<p>Haemophilus influenzae bacteria.</p>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>

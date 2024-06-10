@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
   
   <script>
@@ -18,7 +18,7 @@
   
 
   <title>Eclâmpsia | Jefferson T.</title>
-  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel="canonical" href="http://localhost:1313/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
@@ -108,12 +108,12 @@ Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da r
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -130,6 +130,8 @@ Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da r
         <option value=cafe>café</option>
         <option value=comics>comics</option>
         <option value=papel>papel</option>
+        <option value=laranja>laranja</option>
+        <option value=raiz>raiz</option>
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -183,6 +185,9 @@ Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da r
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -190,6 +195,10 @@ Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da r
   }
   else if (temaAtual === 'cafe') {
     document.documentElement.setAttribute('data-tema', 'cafe');
+    
+  }
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
     
   }
   else if (temaAtual === 'papel') {
@@ -292,7 +301,7 @@ Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da r
 
   <br>
         <div style="" class=taglist> 
-                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a></div>
+                <a id="tag_medicina" href="http://localhost:1313/tags/medicina">medicina</a></div>
 
 
 

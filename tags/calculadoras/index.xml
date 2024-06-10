@@ -5,13 +5,94 @@
 	<description>Recent content in calculadoras on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sun, 14 Apr 2024 19:58:35 -0300</lastBuildDate>
+	<lastBuildDate>Fri, 07 Jun 2024 07:56:45 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/calculadoras/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
-		<title>Abuso de autoridade: lei 13.869/2019 esquematizada</title>
+		<title>Critérios de Centor e Jones em febre reumática</title>
+		<link>https://www.jeffersontorres.com.br/medicina/febre-reumatica/</link>
+		<pubDate>Fri, 07 Jun 2024 07:56:45 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/febre-reumatica/</guid>
+		<description>&lt;script src=&#34;../../febre-reumatica.js&#34;&gt;&lt;/script&gt;
+&lt;div class=calculadoras&gt;
+    &lt;h2&gt;Calculdora de profilaxia de Centor&lt;/h2&gt;
+    &lt;label for=idade&gt;Idade&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input id=idade type=number&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;label for=tonsilas&gt;Tonsilas&lt;/label&gt;
+    &lt;br&gt;
+    &lt;select id=tonsilas&gt;
+        &lt;option value=normal&gt;Normal&lt;/option&gt;
+        &lt;option value=anormal&gt;Edema ou exsudato&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;input id=tosse type=checkbox&gt;&lt;/input&gt;
+    &lt;label for=tosse&gt;Tosse&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input id=linfonodomegalia type=checkbox&gt;&lt;/input&gt;
+    &lt;label for=linfonodomegalia&gt;Linfonodomegalia&lt;/label&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=&#34;calcular()&#34;&gt;Calcular&lt;/button&gt;
+    &lt;p id=resultado&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class=calculadoras&gt;
+    &lt;h2&gt;Calculdora de tratamento Jones&lt;/h2&gt;
+    &lt;input id=riscoAlto type=checkbox&gt;População de moderado ou alto risco&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=monoartrite type=checkbox&gt;Monoartrite&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=poliartrite type=checkbox&gt;Poliartrite&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=poliartralgia type=checkbox&gt;Poliartralgia&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=cardite type=checkbox&gt;Cardite&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=coreia type=checkbox&gt;Coreia&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=nodulos type=checkbox&gt;Nódulos subcutâneos&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=eritema type=checkbox&gt;Eritema marginado&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=febre type=checkbox&gt;Febre&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=ecg type=checkbox&gt;ECG mostrando aumento de PR&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=cultura type=checkbox&gt;Cultura positiva da orofaringe para estreptococo beta-hemolítico do grupo A&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input id=titulos type=checkbox&gt;Títulos elevados de ASO ou outro anticorpo estreptocócico, teste rápido para antígenos do estreptococo, escarlatina recente&lt;/input&gt;
+    &lt;br&gt;
+    &lt;label for=vhs &gt;VHS em mm/h&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input id=vhs type=number &gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;label for=pcr&gt;PCR em mg/dL&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input id=pcr type=number&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=&#34;calcularJones()&#34;&gt;Calcular&lt;/button&gt;
+    &lt;p id=resultado2&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;McIsaac WJ, Kellner JD, Aufricht P, Vanjaka A, Low DE. &lt;strong&gt;Empirical validation of guidelines for the management of pharyngitis in children and adults&lt;/strong&gt;. JAMA. 2004 Apr 7;291(13):1587-95. doi: 10.1001/jama.291.13.1587. Erratum in: JAMA. 2005 Dec 7;294(21):2700. PMID: 15069046.&lt;/li&gt;
+&lt;li&gt;Centor RM, Witherspoon JM, Dalton HP, Brody CE, Link K. &lt;strong&gt;The diagnosis of strep throat in adults in the emergency
+room&lt;/strong&gt;. Med Decis Making. 1981;1(3):239-46&lt;/li&gt;
+&lt;li&gt;Fine AM, Nizet V, Mandl KD. &lt;strong&gt;Large-Scale Validation of the Centor and McIsaac Scores to Predict Group A Streptococcal Pharyngitis&lt;/strong&gt;. Arch Intern Med. 2012 Jun 11; 172(11): 847–852&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Lei do abuso de autoridade esquematizada</title>
 		<link>https://www.jeffersontorres.com.br/direito/abuso-autoridade/</link>
 		<pubDate>Sun, 12 May 2024 11:41:16 -0300</pubDate>
 		
@@ -35,139 +116,6 @@
 &lt;ol&gt;
 &lt;li&gt;BRASIL. &lt;strong&gt;Lei 13.869 de 5 de setembro de 2019&lt;/strong&gt;. Brasília-DF. 2019.&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Sexologia forense</title>
-		<link>https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/</link>
-		<pubDate>Wed, 08 May 2024 12:50:41 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/</guid>
-		<description>&lt;p&gt;Virgem é a mulher sem experiência sexual.&lt;/p&gt;
-
- 
-&lt;div class=&#34;carousel&#34;&gt;
-  &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;conteudo&#34;&gt;
-  
-    
-    
-    
-      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
-      &lt;div class=&#34;slide&#34;&gt;
-        &lt;a href=&#34;../../pix/medicina/himem-integro.png&#34;&gt;
-          &lt;img src=&#34;../../pix/medicina/himem-integro.png&#34;&gt;&lt;/img&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-    
-
-
-  
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-(function() {
-  let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
-  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
-  let totalSlides = slides.length;
-  let anterior = document.getElementById(&#34;anterior&#34;);
-  let proximo = document.getElementById(&#34;proximo&#34;);
-
-  function showSlide(n) {
-    currentSlide = (n + totalSlides) % totalSlides;
-    for (let i = 0; i &lt; totalSlides; i++) {
-      slides[i].style.display = &#34;none&#34;;
-      legends[i].style.display = &#34;none&#34;;
-    }
-    slides[currentSlide].style.display = &#34;block&#34;;
-    legends[currentSlide].style.display = &#34;block&#34;;
-  }
-  
-  showSlide(currentSlide);
-  
-  
-  
-  
-  proximo.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide + 1);
-  })
-  anterior.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide - 1);
-  })
-  
-  
-  
-  
-  
-  
-  
-  
-})();
-  &lt;/script&gt;
-
-
-&lt;h2 id=&#34;determinação-sexual-e-gênero&#34;&gt;Determinação sexual e gênero&lt;/h2&gt;
-&lt;p&gt;“Os estados intersexuais ou missexualismo, dos quais importam à lei as disgenesias gonadais mistas, e mais particularmente o pseudo-hermafroditismo, constituem igualmente erro essencial. Citamos o pseudo-hermafroditismo porque o hermafroditismo verdadeiro, o indivíduo sendo a um só tempo macho e fêmea, com bissexualidade funcional capaz de determinar fecundação como homem e procriação como mulher, em si mesmo, não existe na espécie humana. O que existe é o falso hermafroditismo, consequente a perturbações da evolução dos órgãos genitais, em ambos os sexos, a partir da fase diferenciatória, após o segundo mês de gestação intrauterina, do que resultam, em realidade, indivíduos que apresentam uma anomalia particular do desenvolvimento somatopsíquico, consistente na coexistência de características anatômicas e funcionais de ambos os sexos. Embora não exista na espécie humana nenhum caso registrado de hermafroditismo verdadeiro, quanto à funcionalidade, há casos comprovados, anatômica e histologicamente, de hermafroditismo glandular, ou seja, presença em um mesmo indivíduo de uma única glândula, ovo-testis, de tecido ovariano e de tecido testicular, na qual somente a parte correspondente aos ová rios funciona, liberando óvulos possivelmente fecundáveis por reprodução assistida&amp;quot;. CROCE, Delton. CROCE Júnior,
-Pseudohemafrodita - única genitália dúbia.
-Hemafrodita real - duas genitálias.&lt;/p&gt;
-&lt;h2 id=&#34;as-agressões-sexuais&#34;&gt;As agressões sexuais&lt;/h2&gt;
-&lt;p&gt;O Código Penal divide os atos sexuais agressivos, ou libidinosos, em dois tipos:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;conjunção carnal, que é a introdução completa ou incompleta do pênis na vagina; e&lt;/li&gt;
-&lt;li&gt;outros atos libidinosos&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;conjunção-carnal&#34;&gt;Conjunção carnal&lt;/h3&gt;
-&lt;p&gt;Cópula tópica: sexo vaginal com penetração.
-Ectópicas: demais atos copulatórios.&lt;/p&gt;
-&lt;p&gt;Comprovar conjunção carnal:
-Rompimento do hímen
-DNA do esperma (espermatozoides). Veja &lt;a href=&#34;../../medicina/medicina-legal/id-antropologica/&#34;&gt;identificação forense&lt;/a&gt;.
-Fosfatase ácida acima de 300UI/ml
-PSA - Antígeno prostático específico ou glicoproteína P30
-DST
-Gravidez
-Antígeno PSA na vagina é indicativo de cópula tópica? Questionável&amp;hellip;&lt;/p&gt;
-&lt;h3 id=&#34;outros-atos-libidinosos&#34;&gt;Outros atos libidinosos&lt;/h3&gt;
-&lt;h2 id=&#34;sinais-de-gravidez&#34;&gt;Sinais de gravidez&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Sinal de Piskacek - palpa-se o útero de forma irregular, dado o crescimento diferenciado da porção implantada.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;parafilias&#34;&gt;Parafilias&lt;/h2&gt;
-&lt;p&gt;Frotteurismo - excitação por esfregar a genitália ou outros órgãos sexualmente identificados de outrem, tipicamente ilustrado pelo abuso que ocorre em coletivos.
-Riparofilia - a perversão sexual de relacionar-se com pessoa desasseada, suja e/ou de baixa condição social e higiênica.
-Urolagnia - Excitação sexual provocada por ver urinar.
-Sadismo – prazer sexual com sofrimento do parceiro
-Masoquismo – prazer sexual em ao sentir dor ou imaginar que a sente
-Travestismo ou erotopatia – prazer em vestir-se com roupas e acessórios de um membro do sexo oposto
-Pedofilia ou hebefilia – prazer sexual com crianças
-Frotteurismo – prazer sexual por tocar ou esfregar em pessoa não consentiu - Q1935934, Q1935854, Q1936264, Q1789448
-Exibicionismo – prazer sexual em exibir o órgão genital ao outro
-Voyeurismo ou mixoscopia – prazer sexual ao observar pessoas praticando sexo ou nuas Q795005
-Onanismo – masturbação, também chamada de coito solitário Q795005
-Autoerotismo – coito psíquico, geralmente sem tocar o órgão sexual Q795005
-Pigmalionismo – atração sexual por estátuas - Q1935854, Q1936264
-Necrofilia – atração sexual por pessoa morta
-Edipismo – impulso sexual por parentes próximos Q795005
-Pluralismo ou Troilismo ou ‘Ménage à trois’ – atividade sexual com três pessoas ou prazer de ver o parceiro ter relação sexual com outras pessoas
-Swapping – troca de casais
-Coprolalia – prazer sexual por palavras obscenas
-Coprofilia – prazer sexual pelo contato com fezes
-Coprofagia – prazer sexual na ingestão de fezes
-Urolagnia – prazer sexual que envolve micção, ruído de urina, urinar no parceiro
-Cromoinversão – atração sexual por pessoas de cor de pele diferente
-Gerontofilia ou Cronoinversão – atração sexual por pessoas de idade avançada
-Dolismo – atração sexual por bonecas ou manequins - Q1935854, Q1936264
-Anafrodisia – diminuição do instinto sexual do homem
-Frigidez – diminuição do instinto sexual da mulher
-Erotismo – tendência abusiva dos atos sexuais – satiríase quando é no homem e ninfomania quando é na mulher - Q1935854, Q1936264
-Anaclitismo - sinais excitatórios apenas ao usar objetos que remetem à infância, tais como usar chupeta, tomar mamadeira ou usar fraudas. Q1636825
-Hipoxifilia
-Clismafilia - liquidos anus e vagina&lt;/p&gt;
 </description>
 	</item>
 	
@@ -232,10 +180,9 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-    &lt;th&gt;Cor da equimose&lt;/th&gt;
-    &lt;th&gt;Cor da equimose&lt;/th&gt;
-    &lt;th&gt;Lapso em dias&lt;/th&gt;
-    &lt;th&gt;Hemocomponente predominante&lt;/th&gt;
+    &lt;th colspan=2&gt;Cor da equimose&lt;/th&gt;
+    &lt;th&gt;Lapso&lt;br&gt;em dias&lt;/th&gt;
+    &lt;th&gt;Hemocomponente&lt;br&gt;predominante&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -284,8 +231,12 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;p&gt;As equimoses podem se formar em local diverso do trauma, como ocorre na fratura de base de crânio com surgimento do sinal de Guaxinin ou de Zorro. Thoinot dizia que a equimose era uma prova irrefutável de reação vital.&lt;/p&gt;
 &lt;p&gt;Outros tecidos diversos da pele podem ter cronologia de surgimento e desaparecimento das lesões equimóticas muito diferente da descrita por Legrand du Saulle. A conjuntiva ocular e.g. pode apresentar equimose em aspecto avermelhado fixo até seu desaparecimento. Hygino também cita o escroto como região de progressão crômica diversa das equimoses em geral.&lt;/p&gt;
 &lt;h4 id=&#34;equimonas&#34;&gt;Equimonas&lt;/h4&gt;
-&lt;p&gt;Equimoses extensas, de tamanho não habitual.&lt;/p&gt;
-&lt;h4 id=&#34;sugilação&#34;&gt;Sugilação&lt;/h4&gt;
+&lt;p&gt;Equimose extensa, de tamanho não habitual.&lt;/p&gt;
+&lt;h4 id=&#34;hematomas&#34;&gt;Hematomas&lt;/h4&gt;
+&lt;p&gt;Extravazamento sanguíneo para neocavidade.&lt;/p&gt;
+&lt;h4 id=&#34;bossa&#34;&gt;Bossa&lt;/h4&gt;
+&lt;p&gt;O hematoma formado sobre plano ósseo, vulgarmente chamado de &amp;ldquo;galo&amp;rdquo;.&lt;/p&gt;
+&lt;h4 id=&#34;sugilações&#34;&gt;Sugilações&lt;/h4&gt;
 &lt;p&gt;A equimose formada pelo aglomerado de pequenos grãos. Um exemplo é o “chupão”.&lt;/p&gt;
 &lt;h4 id=&#34;petéquias&#34;&gt;Petéquias&lt;/h4&gt;
 &lt;p&gt;São pequenas equimoses, com o tamanho de cabeça de alfinete.&lt;/p&gt;
@@ -295,16 +246,25 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;p&gt;São lesões com assinatura, apresentam a forma de estrias, duas linhas paralelas.&lt;/p&gt;
 &lt;h3 id=&#34;prova-de-verderau&#34;&gt;Prova de Verderau&lt;/h3&gt;
 &lt;p&gt;Consiste em comparar a relação existente entre as hemácias e leucócitos da lesão suspeita, tomando como parâmetro esses elementos figurados do sangue de outra região qualquer do corpo. Se a relação dos glóbulos brancos e vermelhos se equivale nas duas contagens, diz-se que a lesão foi produzida &lt;mark&gt;após a morte&lt;/mark&gt;. Se a primeira contagem é superior à segunda, conclui-se pelo diagnóstico de uma lesão &lt;mark&gt;in vitam&lt;/mark&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;sedenho&#34;&gt;Sedenho&lt;/h3&gt;
+&lt;p&gt;Os projéteis e os agentes vulnerantes penetrantes na pele podem livrar-se de entrar nas quatro cavidades do corpo humano, sejam elas a abdominal, a torácica, craniana e raquiana. Nesses casos, a ferida é dita &lt;em&gt;em sedenho&lt;/em&gt;, fenômeno comumente ocorrido em casos de &amp;ldquo;&lt;em&gt;bala giratória&lt;/em&gt;&amp;rdquo;, quando o projétil faz trajetos curvos livrando as cavidades.&lt;/p&gt;
 &lt;h2 id=&#34;energia-mecânica&#34;&gt;Energia mecânica&lt;/h2&gt;
 &lt;h3 id=&#34;lesões-contusas&#34;&gt;Lesões contusas&lt;/h3&gt;
-&lt;h3 id=&#34;lesões-incisas-perfurocontusas-e-puntiformes&#34;&gt;Lesões incisas, perfurocontusas e puntiformes&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;lesões-cortocontusas&#34;&gt;Lesões cortocontusas&lt;/h3&gt;
+&lt;h4 id=&#34;mordedura&#34;&gt;Mordedura&lt;/h4&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;lesões-perfurocontusas-e-puntiformes&#34;&gt;Lesões perfurocontusas e puntiformes&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h3 id=&#34;lesões-incisas&#34;&gt;Lesões incisas&lt;/h3&gt;
+&lt;p&gt;A lesão decorrente da pouca pressão e grande capacidade dissecante é chamada de &lt;strong&gt;incisa&lt;/strong&gt;. Este termo esteve reservado em boa parte da doutrina para as lesões em cortes produzidas pelo médico durante cirurgias ou procedimentos. Porém, seu uso amplo se refere a todas formas de resultado cortante dos instrumentos de gume, quando usados na sua maneira tradicional, deslizante, com pouca ou proporcionalmente pequena força.&lt;/p&gt;
 &lt;h4 id=&#34;leis-de-edouard-filhós-e-langer&#34;&gt;Leis de Edouard Filhós e Langer&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;1ª Lei ou Lei do paralelismo&lt;/strong&gt;: dispõe que, na mesma região, as lesões produzidas por instrumentos perfurantes de médio calibre são paralelas entre si.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;2ª Lei ou Lei da semelhança&lt;/strong&gt;: os instrumentos perfurantes de médio calibre, e.g. furador de gelo, produzem lesões semelhantes às produzidas por instrumentos perfuro-cortantes de dois gumes (punhal). Também chamada de lesão em botoeira.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Lei de Langer ou polimorfismo&lt;/strong&gt;: caso a lesão seja em local do corpo humano em que as fibras musculares atuem em mais de uma direção, as lesões terão aspecto estrelado, polimórfico (bizarras).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;lesões-por-arma-de-fogo&#34;&gt;Lesões por arma de fogo&lt;/h3&gt;
+&lt;h3 id=&#34;lesões-causadas-por-arma-de-fogo&#34;&gt;Lesões causadas por arma de fogo&lt;/h3&gt;
 &lt;p&gt;A balística se subdivide em balística interna, externa e terminal. A interna estuda os mecanismos de disparo de projétil, a externa se debruça sobre a viagem dos projéteis e a terminal ou de efeitos se preocupa com a interação com os alvos. &lt;strong&gt;A traumatologia se importa com a balística externa e principalmente a terminal&lt;/strong&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;trajeto-e-trajetória&#34;&gt;Trajeto e trajetória&lt;/h4&gt;
 &lt;p&gt;Trajeto é o caminho que o projétil faz no interior do corpo humano, enquanto que trajetória é o percurso entre a arma e a vítima. No trajeto, importa ao legista primordialmente entender como o projétil se comportou antes de acertar o alvo. Os moviemntos de nutação, rotação e báscula ou precessão são os de relevância, conforme ilustro abaixo.&lt;/p&gt;
@@ -337,25 +297,37 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;h4 id=&#34;efeitos-primários-e-secundários-do-tiro&#34;&gt;Efeitos primários e secundários do tiro&lt;/h4&gt;
 &lt;p&gt;Os efeitos primários decorrem da ação do projétil e independem da distância do tiro.&lt;/p&gt;
 &lt;p&gt;Já os efeitos secundários resultam dos tiros encostados ou à curta distância, da ação dos gases, de seus efeitos explosivos, de resíduos da combustão da pólvora e de microprojéteis.&lt;/p&gt;
+&lt;h4 id=&#34;coeficiente-balístico&#34;&gt;Coeficiente balístico&lt;/h4&gt;
+&lt;p&gt;Termo exato definidor do grau de dano causado pelo projétil em termos de sua massa $m_{p}$(g), sua ponta $p_{p}$(mm) e seu calibre $c_{p}$(mm). Assim,
+$$
+C_{b} = \frac{m_{p}}{p_{p}c_{p}}
+$$&lt;/p&gt;
 &lt;h4 id=&#34;disparo-a-grande-distância&#34;&gt;Disparo a grande distância&lt;/h4&gt;
+&lt;p&gt;O tiro a distância causa apenas os efeitos primários.&lt;/p&gt;
 &lt;p&gt;Os orifícios de entrada &lt;mark&gt;normalmente&lt;/mark&gt; possuem diâmetro menor que o do projétil, forma arredondada ou elíptica, suas bordas são viradas para dentro, bem como contam com algumas características:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Orla de enxugo ou de alimpadura&lt;/strong&gt;: é a orla de detritos e impurezas que ficam retidas na pele quando da passagem do projétil;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Orla de escoriação ou de contusão&lt;/strong&gt;: rompimento da pele pela passagem do projétil;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Anel de Fisch&lt;/strong&gt;: é a combinação das orlas de enxugo e de escoriação. Pode indicar a direção do projétil (pedra do anel de fisch).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sinal do tronco de cone de Bonett&lt;/strong&gt;: o osso atingido por projétil que o atravessa apresenta um canal cônico, mostrando menor diâmetro na entrada e maior na saída. Portanto, em trajetos ósseos com duas lâminas sequenciais existirão duas lesões cônicas, a primeira de entrada de menor diâmetro e última lâmina apresenta maior diâmetro, quando vistas externamente. O exame interno do cadáver vai evidencias os formatos cônicos do trajeto no osso.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sinal do tronco de cone de Bonnet&lt;/strong&gt;: o osso atingido por projétil que o atravessa apresenta um canal cônico, mostrando menor diâmetro na entrada e maior na saída. Portanto, em trajetos ósseos com duas lâminas sequenciais existirão duas lesões cônicas, a primeira de entrada de menor diâmetro e última lâmina apresenta maior diâmetro, quando vistas externamente. O exame interno do cadáver vai evidencias os formatos cônicos do trajeto no osso.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Os três primeiros sinais acima decorrem da passagem do projétil pela pele, ou seja, são efeitos &lt;mark&gt;primários&lt;/mark&gt; do tiro. Aparecem somente nas lesões de entrada, porém, sua ausência não indica que o orifício é de saída, como ocorre nos casos em que o tiro é dado com um anteparo, eg. travesseiro, não haverá orla de enxugo, uma vez que o projétil vai ser limpo antes de atingir a vítima.&lt;/p&gt;
-&lt;h4 id=&#34;disparos-a-curta-distância&#34;&gt;Disparos a curta distância¹&lt;/h4&gt;
+&lt;h4 id=&#34;disparos-a-curta-distância-e-_à-queima-roupa_&#34;&gt;Disparos a curta distância e &lt;em&gt;à queima roupa&lt;/em&gt;&lt;/h4&gt;
 &lt;p&gt;A distância do disparo é da ordem do cone de explosão ou da faixa de expansão dos gases.&lt;/p&gt;
+&lt;p&gt;A doutrina está em progressivo abandono do termo &lt;em&gt;à queima roupa&lt;/em&gt;. França ainda traz que, em se tratando de disparos à cerca de 10cm, este seria um termo adequado.&lt;/p&gt;
+&lt;p&gt;O tiro a queima roupa ocorre com efeitos primários e secundários além do possível chamuscamento. Já o tiro de curta distância tem efeitos primários e secundários, sem chamuscamento.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Rosa de Tiro de Cevidalli&lt;/strong&gt;: Nos disparos com múltiplos balins, quanto menor a distância, mais concentrados estão as lesões de entrada;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Zona de edema e hiperemia&lt;/strong&gt;: rebordo inflamatório do ponto de impacto do projétil;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Zona de tatuagem&lt;/strong&gt;: ocasionada pela impregnação na pele dos grânulos de pólvora incombusta;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Zona de esfumaçamento ou de tisnado&lt;/strong&gt;: causada pela fuligem da queima da pólvora e é expelida pelo cano da arma junto com o projétil;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Orla ou zona de queimadura&lt;/strong&gt;: O disparo a curta distância pode ocasionar queimaduras de 1º e 2º grau na pele.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Orla ou zona de queimadura&lt;/strong&gt;: o disparo a curta distância pode ocasionar queimaduras de 1º e 2º grau na pele; e&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zona de compressão pelos gases&lt;/strong&gt;: uma depressão dos tecidos moles ocorre por alguns segundos ou no máximo por minutos pela pressão ocorrida pela expansão gasosa e desaparece na sequência.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;fratura-ou-lesão-em-fechadura&#34;&gt;Fratura ou lesão em fechadura&lt;/h4&gt;
+&lt;p&gt;A lesão em buraco de fechadura se refere ao fenômeno do tiro obliquoamente incidente sobre o plano ósseo, causando entrada lateralizada do projétil que forma o orifício de entrada e um tunelamento subsequênte, geralmente ressaltando o osso, como em uma fechadura. Ocorre tanto em disparos de curta e longa distância, tendo maior relação com ângulo de entrada que com a energia &lt;em&gt;per si&lt;/em&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;disparos-encostados-sem-plano-ósseo&#34;&gt;Disparos encostados sem plano ósseo&lt;/h4&gt;
+&lt;p&gt;O tiro encostado tem efeitos primários e características peculiares:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Sinal de Puppe-Werkgartener&lt;/strong&gt;: é um sinal característico dos disparos encostados sem plano ósseo por baixo (ex: abdome, bochecha), em que fica marcado na pele o cano da arma.&lt;/li&gt;
 &lt;/ul&gt;
@@ -364,21 +336,39 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;li&gt;&lt;strong&gt;Sinal de boca ou câmara de mina de Hoffmann&lt;/strong&gt;: ocorre em tiros encostados com plano ósseo por baixo. É causada pela expansão dos gases que afasta a pele do plano ósseo subjacente provocando irregularidade e aspecto em câmara. Apresenta um aspecto estrelado;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Sinal de Benassi&lt;/strong&gt;: Nas lesões de entrada no crânio ou escápulas, com disparos encostados, pode ser encontrado uma fuligem no osso, encrustada pela velocidade e temperatura do contato;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;características-do-orifício-de-saída&#34;&gt;Características do orifício de saída&lt;/h4&gt;
+&lt;h4 id=&#34;o-orifício-de-entrada&#34;&gt;O orifício de entrada&lt;/h4&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;h4 id=&#34;o-trajeto-do-projétil&#34;&gt;O trajeto do projétil&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Halo hemorrágico visceral de Bonnet&lt;/strong&gt;: hemorragia circular em torno da lesão de passagem do projétil por órgãos viscerais, encontrado principalmente no pulmão, comprovador de entrada de projetil independente de distância.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;o-orifício-de-saída&#34;&gt;O orifício de saída&lt;/h4&gt;
 &lt;p&gt;Regra geral, as lesões de saída possuem forma irregular, borda reviradas para fora, maior sangramento, além de não apresentarem os sinais apresentados acima.&lt;/p&gt;
 &lt;p&gt;Há doutrinadores que afirmam que a lesão de saída pode apresentar uma orla de equimose se o tiro foi dado com a vítima encostada contra algum anteparo, por exemplo, no chão ou parede, pois, dessa forma, o projétil teria dificuldade para sair e acabaria gerando a escoriação.&lt;/p&gt;
-&lt;h3 id=&#34;fenômenos-diversos&#34;&gt;Fenômenos diversos&lt;/h3&gt;
-&lt;h4 id=&#34;o-tiro-encaixado&#34;&gt;O tiro encaixado&lt;/h4&gt;
+&lt;h5 id=&#34;sinal-de-romanesi&#34;&gt;Sinal de Romanesi&lt;/h5&gt;
+&lt;p&gt;É a equimose em halo formada no orifício de saída quando há um anteparo posto contra a pele no local de saída.&lt;/p&gt;
+&lt;h4 id=&#34;fenômenos-diversos&#34;&gt;Fenômenos diversos&lt;/h4&gt;
+&lt;h5 id=&#34;o-tiro-encaixado&#34;&gt;O tiro encaixado&lt;/h5&gt;
 &lt;p&gt;Trata-se de incomum possbilidade em que o último disparo resultou em projétil retido no cano que é empurrado por disparo mais atual e ambos são propelidos como projétil único ou separados. Podem, portanto, acarretar lesões diversas ou singular. Normalmente, a energia do disparo é menor.&lt;/p&gt;
-&lt;h4 id=&#34;lesão-óssea-em-fechadura&#34;&gt;Lesão óssea em fechadura&lt;/h4&gt;
+&lt;h5 id=&#34;lesão-óssea-em-fechadura&#34;&gt;Lesão óssea em fechadura&lt;/h5&gt;
 &lt;p&gt;Colisões de projétil em ângulos tangenciais produzem uma entrada oblíquoa no tecido ósseo, deixando um caminho de entrada normalmente descrito como buraco de fechadura.&lt;/p&gt;
-&lt;h4 id=&#34;explosões&#34;&gt;Explosões&lt;/h4&gt;
+&lt;h5 id=&#34;orlas-desalinhadas&#34;&gt;Orlas desalinhadas&lt;/h5&gt;
+&lt;p&gt;As orlas equimótica, de esfumaçamento, de queimadura e de tatuagem podem ser de dois tipos quanto ao seu alinhamento:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alinhadas ou concêntricas, se o disparo é feito de forma que a trajetória do projétil é perpendicular ao plano corporal atingido; e&lt;/li&gt;
+&lt;li&gt;Desalinhadas ou excêntricas se o disparo é feito com algum ângulo agudo de trajetória em relação ao plano corporal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;explosões&#34;&gt;Explosões&lt;/h5&gt;
 &lt;p&gt;As explosões &lt;em&gt;a.k.a.&lt;/em&gt; pelo neologismo &lt;em&gt;blast&lt;/em&gt; se dividem pela lesão que causa:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Primárias: lesões a órgãos ocos ou aerados por barotraumas.&lt;/li&gt;
-&lt;li&gt;Secundárias: feridas e lesões causadas por objetos projetados com grande energia.&lt;/li&gt;
+&lt;li&gt;Secundárias: feridas e lesões causadas por objetos projetados com grande energia, também chamados projéteis.&lt;/li&gt;
 &lt;li&gt;Terciárias: feridas e lesões decorrentes do arremesso do corpo ou de quedas.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;escoriações&#34;&gt;Escoriações&lt;/h3&gt;
+&lt;p&gt;A escoriação é o resultado da ação tangencial do instrumento contudente. Pode ocorrer em diferentes graus e extensão, a depender do instrumento em si, da energia e do tecido escoriado, porém, sua forma mais comum é da pele escoriada por superfície irregular, situação na qual as lesões são múltiplas, parecidas, com rastro linear que acompanha o movimento tangencial e hiperemia secundária.&lt;/p&gt;
+&lt;p&gt;Além disso, a epiderme é a única afetada, sem ferida real, pois a abertura da derme ou da hipoderme caracterizariam a lesão contusa.&lt;/p&gt;
+&lt;p&gt;Por fim, as escoriações não cicatrizam no sentido estrito e passam, sim, por reepitelização, não deixando cicatriz ou marca.&lt;/p&gt;
 &lt;h2 id=&#34;energia-química&#34;&gt;Energia química&lt;/h2&gt;
 &lt;p&gt;Os cáusticos podem ser classificados como:&lt;/p&gt;
 &lt;p&gt;Desidratante: ácido sulfúrico ou ventríolo, óxido de cálcio, hidróxido de sódio (soda cáustica em escamas) e hidróxido de potássio.&lt;/p&gt;
@@ -389,6 +379,7 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;h3 id=&#34;lesões-e-feridas-cáusticas&#34;&gt;Lesões e feridas cáusticas&lt;/h3&gt;
 &lt;p&gt;Ácido (branco sulfúrico, amarelo e otura cor&amp;hellip;) e sais? - coagulação, ressecamento e endurecimento. Variadas cores.
 Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
+&lt;p&gt;O diagnóstico diferencial das escaras produzidas &lt;em&gt;in vitam&lt;/em&gt; ou &lt;em&gt;post mortem&lt;/em&gt; é que após a morte, elas não têm propriamente a forma de escara, mostram-se apergaminhadas e de tonalidade marrom-escura. Sob o ponto de vista histológico, não apresentam reação vital através dos exames histoquímicos e histológicos.&lt;/p&gt;
 &lt;h2 id=&#34;energia-elétrica&#34;&gt;Energia elétrica&lt;/h2&gt;
 &lt;h3 id=&#34;natural&#34;&gt;Natural&lt;/h3&gt;
 &lt;h3 id=&#34;artificial&#34;&gt;Artificial&lt;/h3&gt;
@@ -406,19 +397,14 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;p&gt;O encéfalo apresentava hiperemia e congestão das meninges; coração com consistência muito aumentada; pulmões com equimoses subpleurais e edema interno; notou, em outras vísceras, a presença de hipertermia interna e de grande quantidade de sangue no sistema venoso.&lt;/p&gt;
 &lt;h3 id=&#34;graus-de-queimadura&#34;&gt;Graus de queimadura&lt;/h3&gt;
 &lt;p&gt;De acordo com a classificação de Lussena-Hoffman, a presença de flictena e bolhas na pele (sinal de Chamber) caracteriza a queimadura de segundo grau.&lt;/p&gt;
-&lt;h2 id=&#34;classificação-de-gravidade-legal&#34;&gt;Classificação de gravidade legal&lt;/h2&gt;
+&lt;h2 id=&#34;energia-ionizante&#34;&gt;Energia ionizante&lt;/h2&gt;
+&lt;h3 id=&#34;úlcera-de-roentgen&#34;&gt;Úlcera de Roentgen&lt;/h3&gt;
+&lt;p&gt;Irradiação da pele com pelo menos 12 Gray ou irradiação repetida com pequenas doses resultam em radiodermatite crônica após 2 anos ou mais. No centro atrófico da radiodermatite, há pouca circulação e inflamação crônica leva a ulceração central devido a trauma mínimo ou suprimento de oxigênio ao tecido inadequado. São caracterizadas por sua pobre cicatrização.&lt;/p&gt;
+&lt;h2 id=&#34;classificação-de-gravidade-nas-lesões-corporais&#34;&gt;Classificação de gravidade nas lesões corporais&lt;/h2&gt;
 &lt;p&gt;Primeiramente, a &lt;strong&gt;lesão corporal é o evento qualquer que ofenda a integridade física ou a &lt;u&gt;saúde&lt;/u&gt; de alguém&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Portanto, para nosso escopo, interessa as avarias físicas contra alguém. Mas caracteriza-se lesão corporal também os insultos à saúde mental.&lt;/p&gt;
-&lt;h3 id=&#34;lesão-corporal-grave&#34;&gt;Lesão corporal grave&lt;/h3&gt;
-&lt;p&gt;Quando a lesão acarreta:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Incapacidade para as ocupações habituais, por mais de trinta dias;&lt;/li&gt;
-&lt;li&gt;Perigo de vida;&lt;/li&gt;
-&lt;li&gt;Debilidade permanente de membro, sentido ou função; e&lt;/li&gt;
-&lt;li&gt;Aceleração de parto.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;lesão-gravíssima&#34;&gt;Lesão gravíssima&lt;/h3&gt;
-&lt;p&gt;Se o resultado da agressão causa:&lt;/p&gt;
+&lt;h3 id=&#34;gravíssimas-graves-e-leves&#34;&gt;Gravíssimas, graves e leves&lt;/h3&gt;
+&lt;p&gt;É &lt;strong&gt;gravíssima&lt;/strong&gt; a lesão que acarreta:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Incapacidade permanente para o trabalho;&lt;/li&gt;
 &lt;li&gt;Enfermidade incuravel;&lt;/li&gt;
@@ -426,11 +412,18 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Deformidade permanente;e&lt;/li&gt;
 &lt;li&gt;Aborto.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;É &lt;strong&gt;grave&lt;/strong&gt; se o resultado da agressão causa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incapacidade para as ocupações habituais, por mais de trinta dias;&lt;/li&gt;
+&lt;li&gt;Perigo de vida;&lt;/li&gt;
+&lt;li&gt;Debilidade permanente de membro, sentido ou função; e&lt;/li&gt;
+&lt;li&gt;Aceleração de parto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;E são &lt;strong&gt;leves&lt;/strong&gt; todas demais lesões corporais.&lt;/p&gt;
+&lt;p&gt;Portanto, na gradação da gravidade de lesões corporais, opera-se por exclusão, primeiro das possibilidades gravíssimas depois das graves.&lt;/p&gt;
+&lt;h3 id=&#34;perigo-de-vida&#34;&gt;Perigo de vida&lt;/h3&gt;
+&lt;p&gt;O perigo de vida foi uma feliz colocação do código penal que evitou a confusão comum deste termo. Caracteriza-se o perigo de vida pela real ameaça à vida, de forma concreta e possível. Jamais se deve admitir como perigo de vida as situações que partem da hipótese especulativa. Por exemplo, é um erro afirmar que uma ferida incisa no dedo indicador oferece perigo de vida já que uma infecção grave pode se alastrar como sepse e levar à morte. Já um traumatismo crâniano tem potencial efetivo real e imediato de causar a morte, a depender de sua energia e forma de ocorrência, configurando, este sim, um perigo de vida.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;A doutrina está em progressivo abandono do termo &lt;em&gt;à queima roupa&lt;/em&gt;. França ainda traz que, em se tratando de disparos à cerca de 10cm, este seria um termo adequado.&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h2 id=&#34;bibliografias&#34;&gt;Bibliografias&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;FRANÇA, Genival Veloso de. &lt;strong&gt;Medicina Legal&lt;/strong&gt;. Rio de Janeiro-RJ: Guanabara Koogan, p. 1207, 2017.&lt;/li&gt;
@@ -446,20 +439,24 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/medicina/morte-legal/</guid>
 		<description>&lt;h2 id=&#34;natureza-da-morte&#34;&gt;Natureza da morte&lt;/h2&gt;
 &lt;h3 id=&#34;súbita&#34;&gt;Súbita&lt;/h3&gt;
-&lt;p&gt;A morte súbita ocorre de forma inesperada, brusca e sem qualquer influência externa.&lt;/p&gt;
+&lt;p&gt;A doutrina é consensual em entender que esta se prende mais à inexistência de um quadro patológico prévio que pudesse explicá-la do que ao tempo de evolução rápido da causa da morte.&lt;/p&gt;
+&lt;p&gt;De toda forma, a morte súbita ocorre de forma inesperada, brusca e sem qualquer influência externa.&lt;/p&gt;
 &lt;h3 id=&#34;agônica&#34;&gt;Agônica&lt;/h3&gt;
 &lt;p&gt;Se arrasta por dias ou mais.&lt;/p&gt;
 &lt;h2 id=&#34;docimasias&#34;&gt;Docimasias&lt;/h2&gt;
 &lt;p&gt;As docimasias são as medidas de determinação de condições de morte através do estudo dos tecidos humanos.&lt;/p&gt;
 &lt;h4 id=&#34;agônicas&#34;&gt;Agônicas&lt;/h4&gt;
 &lt;p&gt;Nas situações de premoriência duvidosa, os cadáveres podem ser analisados quanto a sua composição hepática e circulatória. O indivíduo que morreu primeiro terá maior reserva de glicogênio hepático e de adrenalina suprarenais. A perícia, portanto, pode afastar a comoriência presumida.&lt;/p&gt;
-&lt;p&gt;Especificamente a docimasia hepática foi estudada por Lacassagne e Martin.&lt;/p&gt;
+&lt;p&gt;Especificamente a docimasia hepática foi estudada por Lacassagne e Martin. Há, também, a técnica de Meissner, que investiga através de fixação e pigmentação o glicogênio presente em lâminas.&lt;/p&gt;
 &lt;h4 id=&#34;do-recém-nascido&#34;&gt;Do recém-nascido&lt;/h4&gt;
 &lt;p&gt;Veja em &lt;a href=&#34;../../medicina/aborto#docim%C3%A1sias-do-rec%C3%A9m-nascido&#34;&gt;aborto&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;prova-de-verderau&#34;&gt;Prova de Verderau&lt;/h3&gt;
 &lt;p&gt;Compara-se a relação existente entre hemácias e leucócitos. A reação leucocitária só ocorre nos vivos. Os valores dependem de referências e dos diversos estados da vítima.&lt;/p&gt;
 &lt;h2 id=&#34;_causa-mortis_-jurídica&#34;&gt;&lt;em&gt;Causa mortis&lt;/em&gt; jurídica&lt;/h2&gt;
-&lt;p&gt;Na maioria dos ordenamentos jurídicos, a &lt;em&gt;causa mortis&lt;/em&gt; se subdivide em:&lt;/p&gt;
+&lt;p&gt;Juridicamente, a morte pode ser natural ou violenta.&lt;/p&gt;
+&lt;p&gt;A morte é considerada &lt;mark&gt;suspeita&lt;/mark&gt; sempre que houver a possibilidade de não ter sido natural a sua causa. É aquela que decorre de causa duvidosa. A morte &lt;mark&gt;natural&lt;/mark&gt; ou, ainda, a morte por antecedentes patológicos, pode ter origem tanto em eventos congênitos, quanto em patologias adquiridas.&lt;/p&gt;
+&lt;p&gt;A morte &lt;mark&gt;violenta&lt;/mark&gt;, por sua vez, é aquela oriunda de causa externa.&lt;/p&gt;
+&lt;p&gt;Na maioria dos ordenamentos jurídicos, a &lt;em&gt;causa mortis&lt;/em&gt; jurídica violenta se subdivide em:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Homicídio&lt;/li&gt;
 &lt;li&gt;Suicídio&lt;/li&gt;
@@ -518,15 +515,41 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Desidratação cadavérica, inicialmente a evaporação tegumentar;&lt;/li&gt;
 &lt;li&gt;Algor mortis, o reequilíbrio térmico cadavérico²;&lt;/li&gt;
 &lt;li&gt;Livor mortis, as manchas de hipóstase;&lt;/li&gt;
-&lt;li&gt;Rigor mortis, a transitória rigidez cadavérica.&lt;/li&gt;
+&lt;li&gt;Rigor mortis, a transitória rigidez cadavérica, de ordem química ou físico-química, decorrente da aproximação de actina e miosina.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;fenômenos-transformativos-do-cadáver&#34;&gt;Fenômenos transformativos do cadáver&lt;/h3&gt;
+&lt;p&gt;Os fenômenos que sucedem a morte tendem a transformar o cadáver em dois sentidos competitivos: &lt;strong&gt;a conservação vs. a destruição&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;fenômenos-conservativos&#34;&gt;Fenômenos conservativos&lt;/h4&gt;
+&lt;h5 id=&#34;saponificação-ou-adipocera&#34;&gt;Saponificação ou adipocera&lt;/h5&gt;
+&lt;p&gt;Os sais podem esterificar os compostos lipídicos do corpo, tornando-os saponificados, condição esta que prolonga a conservação de boa parte dos tecidos. O cadáver é quebradiço e de complexa manipulação. Alguns tecidos podem coalescer.&lt;/p&gt;
+&lt;p&gt;Parâmetro de Thouret?&lt;/p&gt;
+&lt;h5 id=&#34;mumificação&#34;&gt;Mumificação&lt;/h5&gt;
+&lt;p&gt;sinal de brakeman?&lt;/p&gt;
+&lt;h5 id=&#34;calcificação&#34;&gt;Calcificação&lt;/h5&gt;
+&lt;p&gt;A litotransformação é mais comum em cadáveres gravídicos em que o feto se torna petrificado, ou etmologicamente falando um &lt;em&gt;litopédio&lt;/em&gt;.&lt;/p&gt;
+&lt;h5 id=&#34;corificação-ou-coreificação&#34;&gt;Corificação ou coreificação&lt;/h5&gt;
+&lt;p&gt;Fenômeno conservador descrito por Della Volta em 1985 muito raro encontrado em cadáveres que foram selados em urnas metálicas fechadas hermeticamente, principalmente de zinco.&lt;/p&gt;
+&lt;h4 id=&#34;fenômenos-destrutivos&#34;&gt;Fenômenos destrutivos&lt;/h4&gt;
+&lt;h5 id=&#34;autólise&#34;&gt;Autólise&lt;/h5&gt;
+&lt;h5 id=&#34;putrefação&#34;&gt;Putrefação&lt;/h5&gt;
+&lt;p&gt;circulação póstuma de Brouardel.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Coloração&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enfisematoso ou gasoso&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coliquativo ou liquefação&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Esqueletização&lt;/strong&gt;: ocorre em torno dos 36 meses após a morte e não é considerado um fenômeno destrutivo nem conservativo do cadáver e sim uma transformação de longo prazo. A doutrina &lt;mark&gt;diverge&lt;mark&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;maceração&#34;&gt;Maceração&lt;/h5&gt;
+&lt;p&gt;sinal de spalding?&lt;/p&gt;
+&lt;h6 id=&#34;asséptica&#34;&gt;Asséptica&lt;/h6&gt;
+&lt;h6 id=&#34;séptica&#34;&gt;Séptica&lt;/h6&gt;
 &lt;h4 id=&#34;rigor-mortis&#34;&gt;Rigor mortis&lt;/h4&gt;
 &lt;p&gt;Classicamente, o rigor mortis obedece à Lei de Nysten de 1881, começando pela mandíbula e nuca nas primeiras duas horas após o óbito, membros superiores após quatro horas, músculos torácicos e abdominais após seis horas e finalmente membros inferiores, após oito horas. A flacidez muscular, após o rigor mortis, aparece na mesma sequência, sendo completa após 48 horas do óbito.&lt;/p&gt;
 &lt;h2 id=&#34;cronotanagnose&#34;&gt;Cronotanagnose&lt;/h2&gt;
 &lt;h3 id=&#34;cronologia-dos-eventos-perimortem&#34;&gt;Cronologia dos eventos perimortem&lt;/h3&gt;
 &lt;h4 id=&#34;0h---morte&#34;&gt;0h - Morte&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Início da rigidez cadavérica espasmódica permanente.&lt;/li&gt;
+&lt;li&gt;Pode ocorrer a rigidez cadavérica espasmódica permanente. Normalmente não.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;minutos-a-1h&#34;&gt;Minutos a 1h&lt;/h4&gt;
 &lt;ul&gt;
@@ -543,14 +566,15 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;8h&#34;&gt;8h&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Início da rigidez estatuária, de acordo com a lei de Nysten-Sommer-Larcher.&lt;/li&gt;
+&lt;li&gt;Início da rigidez estatuária, de acordo com a lei de Nysten-Sommer-Larcher. A intensidade da rigidez muscular varia de acordo com as condições relacionadas ao cadáver e à causa da morte.&lt;/li&gt;
 &lt;li&gt;Possível início de fixação das manchas de hipóstase.&lt;/li&gt;
 &lt;li&gt;Começa a desaparecer as artérias de fundo de olho, por colapso.&lt;/li&gt;
 &lt;li&gt;Já é possível identificar o sinal de Ripault.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;9h&#34;&gt;9h&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Possível início da putrefação: gás sulfídrico.&lt;/li&gt;
+&lt;li&gt;Possível início da putrefação: gás sulfídrico⁶. É o período &lt;strong&gt;enfisematoso&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Inicia-se o agigantamento do corpo, principalmente de membros, face e órgão genital masculino.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;12h&#34;&gt;12h&lt;/h4&gt;
 &lt;ul&gt;
@@ -587,7 +611,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;1-semana&#34;&gt;1 semana&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Aparecimento da primeira legião, a musca domestica, muscina stabulans e calliphora vomitoria.&lt;/li&gt;
+&lt;li&gt;Possível aparecimento da primeira legião, a musca domestica, muscina stabulans e calliphora vomitoria.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;2-semanas&#34;&gt;2 semanas&lt;/h4&gt;
 &lt;ul&gt;
@@ -595,7 +619,8 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;3-semanas&#34;&gt;3 semanas&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Primeiros legionários de Guerrin, e.g. Musca domestica, Calliphora vomitoria, Diptera &amp;mdash; Calliphoridae.&lt;/li&gt;
+&lt;li&gt;Início da &lt;strong&gt;fase coliquativa&lt;/strong&gt;, com progressivo amolecimento dos tecidos.&lt;/li&gt;
+&lt;li&gt;Se o ambiente comporta, certamente há os primeiros legionários de Guerrin, e.g. Musca domestica, Calliphora vomitoria, Diptera &amp;mdash; Calliphoridae.&lt;/li&gt;
 &lt;li&gt;Pssível instalação dos segundos legionários, e.g. Lucilia coesar &amp;mdash; Diptera: Calliphoridae &amp;mdash;, Sarcophaga carnaria etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;1-mês&#34;&gt;1 mês&lt;/h4&gt;
@@ -622,27 +647,6 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;outras-provas-de-cessação-da-vida&#34;&gt;Outras provas de cessação da vida&lt;/h2&gt;
 &lt;p&gt;São muitos os sinais e provas técnicas descritas para ateste da morte real. Pesquise por &lt;em&gt;&amp;ldquo;prova de morte&amp;rdquo;&lt;/em&gt; no &lt;a href=&#34;../../dicionario&#34;&gt;dicionário&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;fenômenos-transformativos-do-cadáver&#34;&gt;Fenômenos transformativos do cadáver&lt;/h2&gt;
-&lt;h3 id=&#34;fenômenos-conservativos&#34;&gt;Fenômenos conservativos&lt;/h3&gt;
-&lt;h4 id=&#34;saponificação-ou-adipocera&#34;&gt;Saponificação ou adipocera&lt;/h4&gt;
-&lt;p&gt;Os sais podem esterificar os compostos lipídicos do corpo, tornando-os saponificados, condição esta que prolonga a conservação de boa parte dos tecidos. O cadáver é quebradiço e de complexa manipulação. Alguns tecidos podem coalescer.&lt;/p&gt;
-&lt;p&gt;Parâmetro de Thouret?&lt;/p&gt;
-&lt;h4 id=&#34;mumificação&#34;&gt;Mumificação&lt;/h4&gt;
-&lt;p&gt;sinal de brakeman?&lt;/p&gt;
-&lt;h4 id=&#34;calcificação&#34;&gt;Calcificação&lt;/h4&gt;
-&lt;p&gt;A litotransformação é mais comum em cadáveres gravídicos em que o feto se torna petrificado, ou etmologicamente falando um &lt;em&gt;litopédio&lt;/em&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;corificação-ou-coreificação&#34;&gt;Corificação ou coreificação&lt;/h4&gt;
-&lt;p&gt;Fenômeno conservador descrito por Della Volta em 1985 muito raro encontrado em cadáveres que foram selados em urnas metálicas fechadas hermeticamente, principalmente de zinco.&lt;/p&gt;
-&lt;h3 id=&#34;fenômenos-destrutivos&#34;&gt;Fenômenos destrutivos&lt;/h3&gt;
-&lt;h4 id=&#34;autólise&#34;&gt;Autólise&lt;/h4&gt;
-&lt;h4 id=&#34;putrefação&#34;&gt;Putrefação&lt;/h4&gt;
-&lt;p&gt;circulação póstuma de Brouardel.&lt;/p&gt;
-&lt;h4 id=&#34;maceração&#34;&gt;Maceração&lt;/h4&gt;
-&lt;p&gt;sinal de spalding?&lt;/p&gt;
-&lt;h5 id=&#34;asséptica&#34;&gt;Asséptica&lt;/h5&gt;
-&lt;h5 id=&#34;séptica&#34;&gt;Séptica&lt;/h5&gt;
-&lt;h3 id=&#34;esqueletização&#34;&gt;Esqueletização&lt;/h3&gt;
-&lt;p&gt;A esqueletização compelta ocorre em torno dos 36 meses após a morte e não é considerado um fenômeno destrutivo nem conservativo do cadáver e sim uma transformação de longo prazo.&lt;/p&gt;
 &lt;p&gt;I A morte agônica é precedida de doença grave, com perda da consciência, e de estados pré-comatoso e comatoso prolongados.
 II Sobrevivência é o período de tempo transcorrido desde o instante em que o indivíduo recebe a lesão mortal até que faleça.
 III Comoriência é a morte simultânea, ao mesmo tempo, de duas ou mais pessoas que foram partícipes do mesmo evento.
@@ -655,6 +659,7 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 &lt;li&gt;A morte cerebral difere da encefálica, sendo esta a característica morte real.&lt;/li&gt;
 &lt;li&gt;O dito sinal de Kossu é controverso e é descrito normalmente como o espasmo que mantém agarrada pela mão a arma do suicida.&lt;/li&gt;
 &lt;li&gt;Os chamados cristais de Westenhöffer-Rocha-Valverde são lâminas cristaloides muito frágeis, entrecruzadas e agrupadas, incolores, que adquirem coloração azul pelo ferrocianeto de potássio, e castanha, pelo iodo, passíveis de ser encontradas, segundo Belmiro Valverde, até 35 dias após a morte.&lt;/li&gt;
+&lt;li&gt;Brouardel descobriu a natureza e o tempo dos gases ao passar trocares nos abdomes de cadávers e testar a inflamabilidade do gás com isqueiros.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
@@ -679,7 +684,9 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 &lt;p&gt;Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação &lt;em&gt;sine qua non&lt;/em&gt; e a nidação que assume característica definidora posterior. O marco &lt;strong&gt;legal atualmente adotado no Brasil é a nidação bem sucedida&lt;/strong&gt; que ocorre, normalmente, cerca de 14 dias após a fecundação.&lt;/p&gt;
 &lt;h3 id=&#34;fim&#34;&gt;Fim&lt;/h3&gt;
 &lt;p&gt;O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação. O parto cesáreo ou de qualquer outra forma cirúrgica é encerrado com o ato cirúrgico em si.&lt;/p&gt;
-&lt;h2 id=&#34;definição&#34;&gt;Definição&lt;/h2&gt;
+&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
+&lt;p&gt;A doutrina jurídica é preocupada com a idade do muito jovem morto. Se possui resquícios de vita uterina e ainda não recebeu cuidados, trata-se do &lt;mark&gt;infante nascido&lt;/mark&gt; ou ainda do &lt;mark&gt;feto nascente&lt;/mark&gt;. Já aquele que recebe cuidados ou se passam 24h &lt;strong&gt;de vida&lt;/strong&gt; é um &lt;mark&gt;recém-nascido&lt;/mark&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;aborto&#34;&gt;Aborto&lt;/h3&gt;
 &lt;p&gt;Define-se aborto o encerramento gestacional antes da viabilidade fetal.&lt;/p&gt;
 &lt;p&gt;Para Ministério da Saúde, é inviável todos fetos que atenda quaisquer uma das hipóteses:&lt;/p&gt;
 &lt;ul&gt;
@@ -693,6 +700,13 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 &lt;li&gt;Menos de 16,5cm;&lt;/li&gt;
 &lt;li&gt;Menos de 22s.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;infanticídio&#34;&gt;Infanticídio&lt;/h3&gt;
+&lt;p&gt;É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.&lt;/p&gt;
+&lt;p&gt;A discussão sobre a idade da vítima ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Ora, se assim é, como recuperar o conceito para aplicá-lo ao crime de fato ocorrido?&lt;/p&gt;
+&lt;p&gt;França traz a proposta de que um novo texto ao código penal versaria:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Infanticídio 
+Matar o próprio filho durante o parto ou sob a influência pertubadora deste.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Afinal, não seria o parto em si o agravante da qualificação mas sua influência sobre a mulher que pari.&lt;/p&gt;
 &lt;h2 id=&#34;classificações-penais&#34;&gt;Classificações penais&lt;/h2&gt;
 &lt;p&gt;É admitida a tentativa do crime de aborto por se tratar de crime material.&lt;/p&gt;
 &lt;h3 id=&#34;tipos-penais&#34;&gt;Tipos penais&lt;/h3&gt;
@@ -735,7 +749,7 @@ de seu representante legal.
 &lt;/pre&gt;
 
 &lt;h3 id=&#34;manobras-abortivas-periparto&#34;&gt;Manobras abortivas periparto&lt;/h3&gt;
-&lt;p&gt;Se o nascido vivo morre logo após o parto por consequência de ação abortiva anterior, considera-se que ocorreu o aborto. Caso configure hipótese de ilegalidade, este será crime.&lt;/p&gt;
+&lt;p&gt;Se o nascido vivo morre logo após o parto por &lt;mark&gt;consequência&lt;/mark&gt; de ação abortiva anterior, considera-se que ocorreu o aborto. Caso configure hipótese de ilegalidade, este será crime.&lt;/p&gt;
 &lt;h3 id=&#34;formas-ectópicas&#34;&gt;Formas ectópicas&lt;/h3&gt;
 &lt;p&gt;A gravidez ectópica, tubária ou não, interrompe-se por impossibilidade natural e, dado o risco de rotura, o interrompimento desta gravidez é o chamado aborto necessário.&lt;/p&gt;
 &lt;p&gt;Abortamento espontâneo ou natural: aquele ocorrido sem intervenção artificial até 20 ou 22 semanas de gravidez. Este conceito se cruza com o de &lt;strong&gt;feto inviável&lt;/strong&gt;.&lt;/p&gt;
@@ -768,6 +782,22 @@ de seu representante legal.
 &lt;h3 id=&#34;aborto-antigo&#34;&gt;Aborto Antigo&lt;/h3&gt;
 &lt;p&gt;Em mulheres vivas, o aborto antigo pode apresentar dificuldade no diagnóstico, a depender do quanto tempo se passou entre o ato e o momento do exame. Somente por intermédio de exames pode ser feita a verificação de se ainda há vestígios de sua prática.&lt;/p&gt;
 &lt;p&gt;Na hipótese de mulher morta, a mesma dificuldade existe, dependendo o diagnóstico ser feito conforme as possibilidades e os vestígios se apresentarem caso a caso. Inexiste, portanto, método de verificação a priori.&lt;/p&gt;
+&lt;h2 id=&#34;morte-intraútero&#34;&gt;Morte intraútero&lt;/h2&gt;
+&lt;p&gt;Além do aborto, importa conhecer a data da morte fetal para efeitos civis e derivados, como, por exemplo, no tempo de gravidez, data da concepção, situações ligadas ao casamento, à herança e à filiação contestada.&lt;/p&gt;
+&lt;h4 id=&#34;sinais-da-morte-intrauterina&#34;&gt;Sinais da morte intrauterina&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Spander&lt;/strong&gt;: achatamento da calvária;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Horner&lt;/strong&gt;: assimetria da calvária;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Postura de Buda&lt;/strong&gt;: deformação torácica com colabamento ou achatamento assimétrico e encurtamento exagerado da coluna vertebral;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spalding&lt;/strong&gt;: cavalgamento dos ossos cranianos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outros&lt;/strong&gt;: aparecimento da linha negra acentuando o contorno fetal, queda do maxilar inferior, presença de gases nos vasos fetais etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;maceração&#34;&gt;Maceração&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Primeiro grau&lt;/strong&gt;: nos três primeiros dias após a morte, o feto começa a apresentar flictenas que contêm serosidade sanguinolenta e destacamento da epiderme, e o líquido amniótico toma uma tonalidade esverdeada em virtude do mecônio expelido na fase de sofrimento fetal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Segundo grau&lt;/strong&gt;: em torno do oitavo dia, o destacamento da epiderme é quase total, o desnudamento da derme dá ao feto um aspecto sanguinolento, e o líquido amniótico torna-se pardo-avermelhado, devido à serosidade das flictenas rotas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terceiro grau&lt;/strong&gt;: em torno do décimo quinto dia, o feto perde sua tonicidade, destaca-se o couro cabeludo, e os ossos cranianos e dos membros desarticulam-se.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;polêmicas&#34;&gt;Polêmicas&lt;/h3&gt;
 &lt;h4 id=&#34;dispositivo-intrauterino-e-yuzpe&#34;&gt;Dispositivo intrauterino e Yuzpe&lt;/h4&gt;
 &lt;p&gt;A discussão em torno do DIU como método abortivo ou, ainda, da pílula do dia seguinte, é vazia, uma vez que naquele não há nidação e neste nem mesmo a fecundação. Em ambos os casos, a conduta da mulher de interromper o fenômeno fencundatório foi um &lt;strong&gt;exercício regular de um direito&lt;/strong&gt; e, portanto, não há de se falar em crime.&lt;/p&gt;
@@ -781,7 +811,7 @@ de seu representante legal.
 &lt;h5 id=&#34;olivier-e-pinaud&#34;&gt;Olivier e Pinaud&lt;/h5&gt;
 &lt;h5 id=&#34;balthazard&#34;&gt;Balthazard&lt;/h5&gt;
 &lt;h5 id=&#34;dervieux&#34;&gt;Dervieux.&lt;/h5&gt;
-&lt;h2 id=&#34;infanticídio&#34;&gt;Infanticídio&lt;/h2&gt;
+&lt;h2 id=&#34;infanticídio-1&#34;&gt;Infanticídio&lt;/h2&gt;
 &lt;h3 id=&#34;puerpério-puérpera-e-estado-puerperal&#34;&gt;Puerpério, puérpera e estado puerperal&lt;/h3&gt;
 &lt;p&gt;O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.&lt;/p&gt;
 &lt;h2 id=&#34;aborto-ou-infanticídio&#34;&gt;Aborto ou infanticídio?&lt;/h2&gt;
@@ -923,11 +953,20 @@ com --&gt; conced(Conceder liberdade provisória)
 &lt;p&gt;A antropologia forense estuda identidade e a identificação, os métodos, processos e técnicas envolvidas.&lt;/p&gt;
 &lt;h3 id=&#34;identidade&#34;&gt;Identidade&lt;/h3&gt;
 &lt;p&gt;Para a biologia, identidade é o conjunto de propriedades e características que individualiza um ser vivo. Para a antropologia, também, com a importante consequência dos efeitos jurídicos decorrentes da individualidade, ou seja, a capacidade jurídica de produzir efeitos, sofrer responsabilizações e portar direitos.&lt;/p&gt;
+&lt;p&gt;Para as ciências forenses, a identidade é o isolamento do indivíduo dos demais por algum sinal sinalético ou um conjunto destes.&lt;/p&gt;
+&lt;p&gt;Por sinal sinlalético entende-se o(s) sinal(is) que tornam peculiar alguma característica individual. Exemplo, a impressão digital, o índice condiliano, o comprimento do fêmur etc.&lt;/p&gt;
 &lt;h3 id=&#34;identificação&#34;&gt;Identificação&lt;/h3&gt;
 &lt;p&gt;A identificação é o processo de identificar.&lt;/p&gt;
 &lt;p&gt;Para a medicina e antropologia legal, trata-se de construir a identidade do espécime, tornando-o único.&lt;/p&gt;
 &lt;h3 id=&#34;princípios&#34;&gt;Princípios&lt;/h3&gt;
-&lt;p&gt;Imutabilidade ou perenidade, praticidade, unicidade e classificabilidade.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Variabilidade&lt;/strong&gt;: é a garantia de que a característica estudada pode ser única em cada indivíduo por variação entre indivíduos;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Imutabilidade&lt;/strong&gt;: é garantia prática de que a característica uma vez estabelecida para o indivíduo não se altere com o tempo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perenidade&lt;/strong&gt;: é a certeza de manutenção da característica pela duração da vida do indivíduo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Praticidade&lt;/strong&gt;: é o princípio externo à característica em si e relacionada com a sua obtenção, comparação e compreensão, que deve ser prática, factível e realista¹;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unicidade&lt;/strong&gt;: é a garantia de que a característica se torne diferente entre diferentes indivíduos, dentro de sua variabilidade;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classificabilidade&lt;/strong&gt;: tal qual a praticidade, resguarda a certeza de que a característica seja passível de classificação para tornar a identificação metódica e acessível.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;a-identificação-policial-ou-judiciária&#34;&gt;A identificação policial ou judiciária&lt;/h2&gt;
 &lt;p&gt;São realizadas em sede de juízo por peritos jurídicos ou de polícia científica através de:&lt;/p&gt;
 &lt;ul&gt;
@@ -948,7 +987,8 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 &lt;h2 id=&#34;exame-genético-do-dna&#34;&gt;Exame genético do DNA&lt;/h2&gt;
 &lt;p&gt;Em análises de DNA tem-se prova quase cabal de identidade. Porém, a comparação pode ser inútil quando avalia apenas o DNA não recombinante geral de dois suspeitos gêmeos. Portanto, &lt;mark&gt;nestas situações&lt;/mark&gt;, &lt;strong&gt;a comparação das impressões digitais é mais precisa que o DNA&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;prosopometria&#34;&gt;Prosopometria&lt;/h2&gt;
-&lt;p&gt;A identificação pelo antropometria específica da face e outras abordagens comparativas, ditas holísticas.&lt;/p&gt;
+&lt;p&gt;O crânio, especialmente a face, configura-se como o melhor marcador biológico para análise da afinidade populacional.&lt;/p&gt;
+&lt;p&gt;A prosopometria é identificação pela antropometria específica da face e outras abordagens comparativas, ditas holísticas. Seu valor é muito grande pela importância histórica.&lt;/p&gt;
 &lt;h2 id=&#34;bertilhonagem&#34;&gt;Bertilhonagem&lt;/h2&gt;
 &lt;p&gt;Trata-se da identificação pela antropometria. As medidas humanas guardam relação com sexo, raça, idade, estatura etc.&lt;/p&gt;
 &lt;p&gt;O mais clássico exemplo é a diferenciação de sexo através das medidas gerais ou específicas de ossos humanos.&lt;/p&gt;
@@ -1054,6 +1094,30 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br&gt;
+&lt;h3 id=&#34;método-suchey-brooks&#34;&gt;Método Suchey-Brooks&lt;/h3&gt;
+&lt;p&gt;Suchey e Brooks propuseram um método de análise regressiva em que os corpos podem ser identificados quanto a idade de acordo com seis fases de desenvolvimento da sínfise púbica. Estas fases se compõem de achados de rugosidade da face interna da área de sínfise púbica.&lt;/p&gt;
+&lt;p&gt;A principal característica de mudança está nas diferentes rugosidades do faceteamento da sínfise.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/suchey-brooks.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;h3 id=&#34;índice-de-badouin-ou-razão-condiliana&#34;&gt;Índice de Badouin ou razão condiliana&lt;/h3&gt;
+&lt;p&gt;Badouin propôs um método de determinação dos sexos que considerou absoluta por sua grande acurácia, mas hoje sabidamente não certeira como se pensava. Trata-se de um cáculo, assim proposto:&lt;/p&gt;
+&lt;p&gt;$$
+I_{B} = L_{c}/C_{c}
+$$&lt;/p&gt;
+&lt;p&gt;Onde $I_{B}$ é o índice de Badouin, $L_{c}$ é a largura do côndilo e $C_{c}$ é o seu comprimento.&lt;/p&gt;
+&lt;p&gt;Para análise:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;O $I_{B} &amp;gt; 55$ reflete crânio feminino;&lt;/li&gt;
+&lt;li&gt;O $50 &amp;lt; I_{B} &amp;lt; 55$ caracteriza crânio de sexo indeterminado; e&lt;/li&gt;
+&lt;li&gt;O $I_{B} &amp;lt; 50$ revela crânio masculino;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Na minha opinião, chamar esta &lt;strong&gt;razão&lt;/strong&gt; de &lt;strong&gt;índice&lt;/strong&gt; é um erro. Porém, está assim consolidado na literatura.&lt;/p&gt;
 &lt;h3 id=&#34;craniômetro-de-galvão&#34;&gt;Craniômetro de Galvão&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;sistema-datiloscópico-de-vucetich&#34;&gt;Sistema datiloscópico de Vucetich&lt;/h2&gt;
@@ -3532,7 +3596,7 @@ m-53 -32 c-3 -3 -12 -4 -19 -1 -8 3 -5 6 6 6 11 1 17 -2 13 -5z&#34;/&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Na imagem acima, todos as possibilidades de configuração das linhas estão ilustradas. O giro central das linhas e seus contornos é chamado de &lt;strong&gt;sistema nuclear&lt;/strong&gt;. O encontro de linhas com formação de imagem vincada, em formato mais ou menos triangular, é chamado de &lt;strong&gt;delta&lt;/strong&gt; e, junto com as linhas integrantes, forma o &lt;strong&gt;sistema marginal&lt;/strong&gt;. Abaixo de ambos os sistemas, há linhas mais ou menos horizontais, chamdas de &lt;strong&gt;sistema basilar ou basal&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;A posição do delta com relação ao sistema nuclear é a primeira característica firmada por Vucetich. Na impressão deixada em superfícies, se o delta estiver a esquerda do sistema nuclear, diz-se que há uma &lt;strong&gt;presilha externa&lt;/strong&gt;. Caso esteja a direita, uma &lt;strong&gt;presilha interna&lt;/strong&gt;. A presença de deltas bilaterais forma a configuração em &lt;strong&gt;verticilo&lt;/strong&gt;. A ausência de deltas monta um sistema chamado de &lt;strong&gt;arco&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A posição do delta com relação ao sistema nuclear é a primeira característica firmada por Vucetich. Na impressão deixada em superfícies, se o delta estiver a esquerda do sistema nuclear, diz-se que há uma &lt;strong&gt;presilha externa&lt;/strong&gt;. Caso esteja a direita, uma &lt;strong&gt;presilha interna&lt;/strong&gt;. A presença de deltas bilaterais forma a configuração &lt;strong&gt;bidéltica ou em verticilo&lt;/strong&gt;. A ausência de deltas monta um sistema chamado de &lt;strong&gt;adéltico ou arco&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Portanto, na imagem, da esquerda para a direita:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A primeira impressão trata-se de uma presilha interna.&lt;/li&gt;
@@ -3592,6 +3656,12 @@ $$&lt;/p&gt;
 FD = \frac{V 1 X X X}{E 1 2 4 3}
 $$&lt;/p&gt;
 &lt;p&gt;A amputação de um dedo é assinalada com número 0 (zero). Os dedos não identificáveis se assinalam por X.&lt;/p&gt;
+&lt;h3 id=&#34;os-sistemas-de-linhas&#34;&gt;Os sistemas de linhas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Basal&lt;/strong&gt;: linhas paralelas à linha de separação das falanges.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marginal&lt;/strong&gt;: linhas da borda da impressão que não são paralelas às linhas basais.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nuclear&lt;/strong&gt;: sistemas lineares compreendidos entre os sistemas basal e marginal.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;pontos-característicos-ou-minúcias&#34;&gt;Pontos característicos ou minúcias&lt;/h3&gt;
 &lt;p&gt;As linhas definidoras do desenho da digital podem coalescer entre si, se separarem em bifurcações, mostrar características de raízes, apresentar aspecto de anastomose entre diversas outras características. Estes pontos são mapeados quanto a sua característica e localização na impressão e são usados para a conferência legal.&lt;/p&gt;
 &lt;h3 id=&#34;conferência-legal&#34;&gt;Conferência legal&lt;/h3&gt;
@@ -3606,10 +3676,14 @@ $$&lt;/p&gt;
 &lt;h2 id=&#34;arcada-dentária&#34;&gt;Arcada dentária&lt;/h2&gt;
 &lt;p&gt;Em breve.
 Arcada é mutável.&lt;/p&gt;
+&lt;h2 id=&#34;determinação-da-idade&#34;&gt;Determinação da idade&lt;/h2&gt;
+&lt;p&gt;O fechamento epifisário é um método de boa determinação de idade até o fim da puberdade.&lt;/p&gt;
+&lt;p&gt;A involução dentomaxilar já é preferencialmente usada na determinação de idade a partir dos 20 anos, idade de certeza de formação total dos dentes e início do período de desgaste.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;O DNA pode identificar a pessoa de forma precisa mesmo sem levantar todas suas características, pelo chamado DNA não recombinante. Trata-se de porções do DNA que são únicas de cada pessoa mas não codificam proteínas, ou seja, não possibilitam pormenorizar características pessoais, doenças etc.&lt;/li&gt;
+&lt;li&gt;A característica não prática se torna inútil ao direito. Tomemos, por exemplo, a ressonância de corpo inteiro. Esta pode, de forma certeira, identificar um ser humano por minúcias de órgãos internos, posições etc. Porém, dificilmente se tornará um método de identificação pela impraticabilidade.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -3772,6 +3846,7 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;li&gt;delirante: delírios com tendência à autoacusação.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;metabolismo&#34;&gt;Metabolismo&lt;/h2&gt;
+&lt;h3 id=&#34;a-cinética-do-metabolismo-alcoólico&#34;&gt;A cinética do metabolismo alcoólico&lt;/h3&gt;
 &lt;p&gt;A &lt;strong&gt;cinética&lt;/strong&gt; de metabolismo do etanol difere da maioria das drogas, nas quais, quando há aumento plasmático de seus níveis, a quantidade de droga metabolizada por unidade de tempo também aumenta. No caso do etanol, mesmo com aumento de sua concentração sanguínea, não há alteração de sua taxa de metabolização, ou seja, o etanol é metabolizado de maneira constante. Portanto, a taxa de oxidação do etanol segue uma cinética de ordem zero, isto é, independe do tempo e da concentração da droga.&lt;/p&gt;
 &lt;p&gt;Desta forma, as curvas dose-respota logarítmicas apresentam desvio a direita, ou seja, queda da potência tóxica por dose conforme se aumenta o consumo.&lt;/p&gt;
 &lt;p&gt;
@@ -3800,13 +3875,17 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;/div&gt;
 
 &lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fases-metabólicas-do-álcool&#34;&gt;Fases metabólicas do álcool&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Absorção&lt;/strong&gt;: a concentração sanguínea varia com o tempo e com a localização exata na circulação.
+&lt;strong&gt;Equilíbrio de difusão&lt;/strong&gt;: a concentração sanguínea é estável e relativamente constante no tempo.
+&lt;strong&gt;Depuração&lt;/strong&gt;: por processos de oxidação em aldeído, ácido acético, gás carbônico e água.&lt;/p&gt;
 &lt;h3 id=&#34;a-lenda-árabe-das-fases-da-embriaguez3&#34;&gt;A lenda árabe das fases da embriaguez[3]&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Eufórica: denominada embriaguez incompleta, quando as funções intelectuais mostram-se excitadas e o agente particularmente, se apresenta com loquacidade, eufórico. É o &lt;strong&gt;macaco&lt;/strong&gt; alegórico;&lt;/li&gt;
 &lt;li&gt;Agitada: denominada embriaguez completa, caracterizada pelas perturbações psiconsensoriais profundas, alterando-se as funções intelectuais, apresentando disartria, irritabilidade, violencia, agressividade, sendo a fase que predomina as infrações penais. É o &lt;strong&gt;leão&lt;/strong&gt; alegórico;&lt;/li&gt;
 &lt;li&gt;Comatosa: denominada estado comatoso, primeiramente aflora a sonolência, depois progressivamente apresenta-se com náusea, vômito, podendo ocorrer a espurcícia, imundície e porcaria, devido ao relaxamento dos esfíncteres, advindo anestesia profunda e abolição completa dos reflexos. É o &lt;strong&gt;porco&lt;/strong&gt; na alegoria da lenda árabe;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;diferenças-entre-homens-e-mulheres-2&#34;&gt;Diferenças entre homens e mulheres [2]&lt;/h3&gt;
+&lt;h3 id=&#34;diferenças-entre-homens-e-mulheres2&#34;&gt;Diferenças entre homens e mulheres[2]&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;na média, as mulheres são menores que os homens e, por esse motivo, têm menos água corporal por unidade de peso, na qual o etanol pode ser distribuído; e&lt;/li&gt;
 &lt;li&gt;a enzima ADH gástrica é menos ativa em mulheres do que nos homens, fazendo com que o metabolismo gástrico do etanol seja menor nas mulheres.&lt;/li&gt;
@@ -3879,9 +3958,12 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;p&gt;Cursam com anoxemia e hipercapnia.&lt;/p&gt;
 &lt;h3 id=&#34;gases-irrespiráveis&#34;&gt;Gases irrespiráveis&lt;/h3&gt;
 &lt;h4 id=&#34;monóxido-de-carbono&#34;&gt;Monóxido de carbono&lt;/h4&gt;
+&lt;p&gt;A caboxihemoglobina é de forte associação e impede a ligação de oxigênio, tornando predominante as hemáceas inúteis a respiração celular.&lt;/p&gt;
+&lt;p&gt;A morte ocorre, também, com depressão gradual do SNC e é indolor. Muito comum no suicídio, notadamente na sua forma egoísta. Observa-se hipóstases róseas carminadas.&lt;/p&gt;
 &lt;h4 id=&#34;confinamento&#34;&gt;Confinamento&lt;/h4&gt;
 &lt;h3 id=&#34;transformação-do-meio&#34;&gt;Transformação do meio&lt;/h3&gt;
 &lt;h4 id=&#34;afogamento&#34;&gt;Afogamento&lt;/h4&gt;
+&lt;p&gt;O verdadeiro afogamento é comumente chamado nos círculos de medicina legal como &lt;strong&gt;afogamento azul&lt;/strong&gt;. O afogado azul é aquele que sofreu a asfixia submerso no líquido. Os já falecidos que são lançados para submersão em líquido para simular afogamento são chamados de afogados brancos e, no Brasil, trata-se sempre de um crime.&lt;/p&gt;
 &lt;h5 id=&#34;conduta-no-afogamento&#34;&gt;Conduta no afogamento&lt;/h5&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
     a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
@@ -4744,7 +4826,7 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;full-outline-of-unresponsiveness-score-2&#34;&gt;Full outline of unresponsiveness score [2]&lt;/h2&gt;
+&lt;h2 id=&#34;full-outline-of-unresponsiveness-score---four-2&#34;&gt;Full outline of unresponsiveness score - FOUR [2]&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -4871,11 +4953,150 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;significado&#34;&gt;Significado&lt;/h3&gt;
 &lt;p&gt;Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.&lt;/p&gt;
-&lt;h2 id=&#34;bloqueio-de-ramo-esquerdo&#34;&gt;Bloqueio de ramo esquerdo&lt;/h2&gt;
+&lt;h2 id=&#34;bloqueio-atrioventricular&#34;&gt;Bloqueio atrioventricular&lt;/h2&gt;
+&lt;h3 id=&#34;de-grau-1&#34;&gt;De grau 1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Todas ondas P&amp;rsquo;s associadas a um $\overline{QRS}$ sequente.&lt;/li&gt;
+&lt;li&gt;Intervalo $\overline{PR}$ vai alargando acima de 200ms.&lt;/li&gt;
+&lt;/ul&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Grau 1&lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/bavt1.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/bavt1.jpg&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Grau 1&lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/bavt1-2.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/bavt1-2.jpg&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h3 id=&#34;de-grau-2---mobitz-i&#34;&gt;De grau 2 - Mobitz I&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Há perda de condução de ondas P&amp;rsquo;s com progressivo alargamento do $\overline{PR}$, como em grau 1.&lt;/li&gt;
+&lt;li&gt;Intervalo $\overline{PR}$ vai alargando acima de 200ms até ocorrer a onda P perdida, é &lt;strong&gt;o fenômeno de Wenckebach&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Grau 2 Mobitz I&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;h3 id=&#34;de-grau-2---mobitz-ii&#34;&gt;De grau 2 - Mobitz II&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Há perda de ondas P&amp;rsquo;s sem progressivo alargamento de $\overline{PR}$, ou seja, sem Wenckebach.&lt;/li&gt;
+&lt;li&gt;É benigno quando o QRS é estreito, dito &lt;strong&gt;supra-hissiano&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;É maligno quando o QRS é alargado &lt;strong&gt;infra-hissiano&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Grau 2 Mobitz II&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Causas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anterior MI (due to septal infarction with necrosis of the bundle branches)&lt;/li&gt;
+&lt;li&gt;Idiopathic fibrosis of the conducting system (Lenègre-Lev disease)&lt;/li&gt;
+&lt;li&gt;Cardiac surgery, especially surgery occurring close to the septum e.g. mitral valve repair&lt;/li&gt;
+&lt;li&gt;Inflammatory conditions (rheumatic fever, myocarditis, Lyme disease)&lt;/li&gt;
+&lt;li&gt;Autoimmune (SLE, systemic sclerosis)&lt;/li&gt;
+&lt;li&gt;Infiltrative myocardial disease (amyloidosis, haemochromatosis, sarcoidosis)&lt;/li&gt;
+&lt;li&gt;Hyperkalaemia&lt;/li&gt;
+&lt;li&gt;Drugs: beta-blockers, calcium channel blockers, digoxin, amiodarone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;de-grau-3-ou-bloqueio-total&#34;&gt;De grau 3 ou bloqueio total&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;As ondas P&amp;rsquo;s tem ritmo totalmente alheio ao dos $\overline{QRS}$.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/ecg/bavt3.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Grau 3 - total: note que as ondas P&amp;#39;s estão em taquifrequência e os QRS não&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;bloqueios-de-ramos&#34;&gt;Bloqueios de ramos&lt;/h2&gt;
+&lt;h3 id=&#34;esquerdo&#34;&gt;Esquerdo&lt;/h3&gt;
 &lt;p&gt;Não há negatividade de V6.&lt;/p&gt;
+&lt;h3 id=&#34;direito&#34;&gt;Direito&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;p&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&lt;/p&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Malcolm S Thaler. &lt;strong&gt;ECG essencial 7°ed.&lt;/strong&gt; Artmed, 2013. Porto Alegre - Brasil. ISBN 978-85-65852-76-0 1.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Imagens de acervo prórpio ou livres na internet.&lt;/p&gt;
 </description>
 	</item>
 	
@@ -5292,10 +5513,10 @@ p(Dengue\mid dor) = \frac{p(dor\mid Dengue) p(Dengue)}{p(dor\mid Dengue)p(Dengue
 $$&lt;/p&gt;
 &lt;p&gt;Resolvendo o denominador para facilitar:&lt;/p&gt;
 &lt;p&gt;$$
-p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) = 0.85*0.026 + 0.01*0.934
+p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) =
 $$&lt;/p&gt;
 &lt;p&gt;$$
-\approx 0.031
+0.85*0.026 + 0.01*0.934 \approx 0.031
 $$&lt;/p&gt;
 &lt;p&gt;Já que a probabilidade de se ter dor retro-orbitária sem dengue é de 0.01 e a &lt;em&gt;&amp;ldquo;prevalência de não-dengue&amp;rdquo;&lt;/em&gt; é de $1 - 0.026$, ou melhor, 0.934.&lt;/p&gt;
 &lt;p&gt;Então:&lt;/p&gt;
@@ -5677,6 +5898,9 @@ table{
 &lt;p&gt;&lt;strong&gt;Algo desconhecido parece familiar.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;confusão-sobre-a-fonte&#34;&gt;Confusão sobre a fonte&lt;/h3&gt;
 &lt;h3 id=&#34;erro-de-atribuição-de-origem&#34;&gt;Erro de atribuição de origem&lt;/h3&gt;
+&lt;h3 id=&#34;efeito-gell-mann&#34;&gt;Efeito Gell-Mann&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Excessiva confiança em fontes sabidamente comprometidas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Veja meu artigo &lt;a href=&#34;../../filosofia/gell-man/&#34;&gt;sobre o efeito Gell-Mann&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;a-racionalidade-humana-prefere-a-simplicidade-e-completude&#34;&gt;A racionalidade humana prefere a simplicidade e completude&lt;/h2&gt;
 &lt;h3 id=&#34;efeito-menos-é-melhor&#34;&gt;Efeito menos é melhor&lt;/h3&gt;
 &lt;h3 id=&#34;navalha-de-ockam&#34;&gt;Navalha de Ockam&lt;/h3&gt;
@@ -5952,11 +6176,11 @@ table{
 	</item>
 	
 	<item>
-		<title>Superfície corporal estimada: Costeff</title>
-		<link>https://www.jeffersontorres.com.br/medicina/costeff/</link>
+		<title>Calculadoras de superfície corporal</title>
+		<link>https://www.jeffersontorres.com.br/medicina/superficie-corporal/</link>
 		<pubDate>Sun, 04 Feb 2024 07:49:46 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/costeff/</guid>
+		<guid>https://www.jeffersontorres.com.br/medicina/superficie-corporal/</guid>
 		<description>&lt;h2 id=&#34;superfície-corporal-estimada-de-costeff&#34;&gt;Superfície corporal estimada de Costeff&lt;/h2&gt;
 &lt;p&gt;Este cálculo proposto por Costeff em 1966 é mais acurado que Du Bois e Boyd (1916) e pode ser usado para pacientes de 1.5Kg até 100Kg.&lt;/p&gt;
 &lt;p&gt;Trata-se de um ajuste empírico em regressão linear, testada em 220 pacientes para determinar a área de superfície corporal (ASC) de humanos a partir de suas respectivas massas.&lt;/p&gt;
@@ -6106,6 +6330,70 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;HOLLIDAY MA, SEGAR WE. &lt;strong&gt;The maintenance need for water in parenteral fluid therapy.&lt;/strong&gt; Pediatrics. 1957 May;19(5):823-32. PMID: 13431307.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Guia de condutas em pré-natal</title>
+		<link>https://www.jeffersontorres.com.br/medicina/pre-natal/</link>
+		<pubDate>Sun, 28 Jan 2024 20:44:01 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/pre-natal/</guid>
+		<description>&lt;h2 id=&#34;suplementação-de-ferro&#34;&gt;Suplementação de ferro&lt;/h2&gt;
+&lt;p&gt;sup de SO4Fe 600mg&lt;/p&gt;
+&lt;h2 id=&#34;ultrassonografias&#34;&gt;Ultrassonografias&lt;/h2&gt;
+&lt;p&gt;Agora ultrassom é obrigatório no PN 2 pelo menos nos 4 primeiros meses, transvaginal[1].&lt;/p&gt;
+&lt;h2 id=&#34;eclâmpsia&#34;&gt;Eclâmpsia&lt;/h2&gt;
+&lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
+&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;gestação a pelo menos 20 semanas;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;hipertensão; e&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;proteinúria&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Considera-se hipertensa a grávida com &lt;strong&gt;PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Eclâmpsia&lt;/strong&gt; é a ocorrência de &lt;mark&gt;convulsões&lt;/mark&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
+&lt;h3 id=&#34;conduta&#34;&gt;Conduta&lt;/h3&gt;
+&lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A cura é o &lt;strong&gt;parto&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cuidados-no-tratamento&#34;&gt;Cuidados no tratamento!&lt;/h3&gt;
+&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e ocorre PCR com 12mEq/L.&lt;/p&gt;
+&lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
+&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10 mL a 10%) deve ser administrado &lt;mark&gt;lentamente &lt;/mark&gt;nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
+&lt;h3 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h3&gt;
+&lt;p&gt;A medicina baseada em evidências consegue demostrar benefício no uso de &lt;strong&gt;ácido acetilsalicílico a 150mg/dia&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Caso se tenha deficiência de cálcio na dieta presumida clinicamente ou por diagnóstico laboratorial, prescreve-se &lt;strong&gt;cálcio oral dietético suplementar a 1-2g/dia&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;fator-rh&#34;&gt;Fator Rh&lt;/h2&gt;
+&lt;p&gt;A imunoglobulina anti Rh(D) (conhecida como vacina Rogan) é utilizada para prevenir a sensibilização materna ao fator sanguíneo de um bebê Rh positivo quando a mãe possui o fator Rh negativo.&lt;/p&gt;
+&lt;p&gt;A imunoglobulina é administrada com 28s para que sua vida circulatória de 12s coincida com o momento de encerramento do parto.&lt;/p&gt;
+&lt;p&gt;Papo de GO:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rh- coombs mensal + haloimunização&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;parto&#34;&gt;Parto&lt;/h2&gt;
+&lt;p&gt;Ocitocina
+Rotura prematura de membrana (clinda e genta)
+Corticoide
+20-26 semana ???
+faz com intervalo de 24h??
+Como faz ac. tranaxemico
+Noripurum etc&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Proteína total dividida pela creatinina medidas em mesma unidade.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www12.senado.leg.br/noticias/materias/2023/06/15/sancionada-lei-que-garante-mais-exames-para-gestantes-no-sus&#34;&gt;https://www12.senado.leg.br/noticias/materias/2023/06/15/sancionada-lei-que-garante-mais-exames-para-gestantes-no-sus&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;FEBRASGO. &lt;strong&gt;Protocolo no. 73 - 2021&lt;/strong&gt;. Federação Brasileira de Ginecologia e Obstetrícia. Brasil.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -6338,10 +6626,10 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 	
 	<item>
 		<title>Pohnpei: Micronésia</title>
-		<link>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</link>
+		<link>https://www.jeffersontorres.com.br/viagem/micronesia/pohnpei-micronesia/</link>
 		<pubDate>Thu, 04 Jan 2024 06:27:45 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/pohnpei-micronesia/</guid>
+		<guid>https://www.jeffersontorres.com.br/viagem/micronesia/pohnpei-micronesia/</guid>
 		<description>&lt;h2 id=&#34;a-terra-do-mistério&#34;&gt;A terra do mistério&lt;/h2&gt;
 &lt;p&gt;Pohnpei é uma das ilhas da Micronésia, importante pelo seu valor arqueológico. As ruínas e sítios arqueológicos estão entre os menos explicados do planeta.&lt;/p&gt;
 &lt;p&gt;A palavra &lt;em&gt;pohnpei&lt;/em&gt; significa terra surgida de orações e explica a origem mitológica das ilhas, que seriam fruto das orações dos antigos migrantes oriundos da China em uma canoa mágica.&lt;/p&gt;
@@ -6635,10 +6923,74 @@ Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;10-vasopressors-can-be-safely-administered-through-a-peripheral-catheter&#34;&gt;10. Vasopressors can be safely administered through a peripheral catheter&lt;/h3&gt;
 &lt;p&gt;A falta de acesso vascular central não impede prescrição de droga vasoativa.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Droga&lt;/th&gt;
+&lt;th&gt;Dose&lt;/th&gt;
+&lt;th&gt;Receptores&lt;/th&gt;
+&lt;th&gt;Colaterais&lt;/th&gt;
+&lt;th&gt;Comentários&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Norepinephrine&lt;/td&gt;
+&lt;td&gt;0.01-1 µg/kg/min&lt;/td&gt;
+&lt;td&gt;α1 &amp;gt; β1 &amp;gt; β2&lt;/td&gt;
+&lt;td&gt;- Tachyarrhythmias&lt;br&gt;- Increased pulmonary vascular resistance&lt;br&gt;- Peripheral (digital) ischemia&lt;/td&gt;
+&lt;td&gt;- First-line vasopressor in septic and cardiogenic shock&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Epinephrine&lt;/td&gt;
+&lt;td&gt;0.01-0.3 µg/kg/min&lt;/td&gt;
+&lt;td&gt;α1 = β1 &amp;gt; β2&lt;/td&gt;
+&lt;td&gt;- Tachyarrhythmias, cardiac ischemia &lt;br&gt;- Splanchnic vasoconstriction leading to abdominal organ ischemia &lt;br&gt;- Hyperlactemia and hyperglycemia&lt;/td&gt;
+&lt;td&gt;- First-line vasopressor in anaphylactic shock and cardiac arrest &lt;br&gt;- Hyperlactemia makes lactate a less reliable measure of end-organ perfusion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dopamine&lt;/td&gt;
+&lt;td&gt;2-20 µg/kg/min&lt;/td&gt;
+&lt;td&gt;aDA1&amp;gt;β1 &amp;gt; α1&lt;/td&gt;
+&lt;td&gt;- Tachyarrhythmias&lt;br&gt;- Cardiac ischemia&lt;/td&gt;
+&lt;td&gt;- Second-line inotrope in adults &lt;br&gt;- Used in select patients with low risk of tachyarrhythmias and bradycardia&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Phenylephrine&lt;/td&gt;
+&lt;td&gt;0.1-1 µg/kg/min&lt;/td&gt;
+&lt;td&gt;α1&lt;/td&gt;
+&lt;td&gt;- Reﬂex bradycardia &lt;br&gt;- Severe peripheral ischemia&lt;/td&gt;
+&lt;td&gt;- Useful for tachyarrhythmias, or in patients with adequate cardiac output and persistently low blood pressure&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vasopressin&lt;/td&gt;
+&lt;td&gt;0.01-0.06 units/min&lt;/td&gt;
+&lt;td&gt;V1&lt;/td&gt;
+&lt;td&gt;- Possible gastrointestinal hypoperfusion due to splanchnic vasoconstriction&lt;/td&gt;
+&lt;td&gt;- Usually used as an adjunct to norepinephrine in septic shock &lt;br&gt;- Does not increase pulmonary vascular resistance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dobutamine&lt;/td&gt;
+&lt;td&gt;2-10 µg/kg/min&lt;/td&gt;
+&lt;td&gt;β1 &amp;gt; β2 &amp;gt; α1&lt;/td&gt;
+&lt;td&gt;- Hypotension &lt;br&gt;- Tachyarrhythmias&lt;br&gt;- Tachyphylaxis (infusions greater than 72 hours)&lt;/td&gt;
+&lt;td&gt;- First-line inotrope for most forms of shock &lt;br&gt;- Quick onset of action&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Milrinone&lt;/td&gt;
+&lt;td&gt;0.1-0.5 µg/kg/min&lt;/td&gt;
+&lt;td&gt;Phosphodiesterase-3 inhibitor&lt;/td&gt;
+&lt;td&gt;- Hypotension (causes greater vasodilation than DOB)&lt;br&gt;- Tachyarrhythmias &lt;br&gt;- Torsades de pointes&lt;/td&gt;
+&lt;td&gt;- Useful inotrope in patients with signiﬁcant pulmonary vascular resistance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt;Adaptado de MERGOUM et. al.[2].&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Legrand, M., Zarbock, A. &lt;strong&gt;Ten tips to optimize vasopressors use in the critically ill patient with hypotension&lt;/strong&gt;. Intensive Care Med 48, 736–739 (2022). &lt;a href=&#34;https://doi.org/10.1007/s00134-022-06708-y&#34;&gt;https://doi.org/10.1007/s00134-022-06708-y&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mergoum AM, Rhone AR, Larson NJ, Dries DJ, Blondeau B, Rogers FB. &lt;strong&gt;A Guide to the Use of Vasopressors and Inotropes for Patients in Shock&lt;/strong&gt;. J Intensive Care Med. 2024 Apr 13:8850666241246230. doi: 10.1177/08850666241246230. Epub ahead of print. PMID: 38613381.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -6784,10 +7136,10 @@ Faça lentamente antes da administração de fluidos, aguardando 2min se possív
 	
 	<item>
 		<title>Grand Prismatic Spring - Estados Unidos</title>
-		<link>https://www.jeffersontorres.com.br/viagem/grand-prismatic-spring/</link>
+		<link>https://www.jeffersontorres.com.br/viagem/eua/grand-prismatic-spring/</link>
 		<pubDate>Thu, 28 Dec 2023 14:16:28 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/grand-prismatic-spring/</guid>
+		<guid>https://www.jeffersontorres.com.br/viagem/eua/grand-prismatic-spring/</guid>
 		<description>&lt;h2 id=&#34;grand-prismatic-spring&#34;&gt;Grand Prismatic Spring&lt;/h2&gt;
 &lt;p&gt;A mais incrível &lt;em&gt;Hot Springs&lt;/em&gt; do mundo!&lt;/p&gt;
 &lt;p&gt;A terceira maior e a mais memorável pelas cores.&lt;/p&gt;
@@ -7407,51 +7759,12 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 &lt;p&gt;Também deve ser administrada em profissionais de saúde com reforços a cada 10 anos.&lt;/p&gt;
 &lt;p&gt;Pode ser feita como reforço da DTPA (infantil) a partir dos 7 anos de idade.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;O esquema nunca deve ser reiniciado&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;hib&#34;&gt;Hib&lt;/h3&gt;
+&lt;p&gt;Haemophilus influenzae bacteria.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;BRASIL. &lt;strong&gt;Manual de Normas e Procedimentos para Vacinação Ministério da Saúde&lt;/strong&gt;. Secretaria de Vigilância em Saúde. Departamento de Vigilância das Doenças Transmissíveis. Ministério da Saúde. Brasília. 2014. ISBN 978-85-334-2164-6&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Eclâmpsia</title>
-		<link>https://www.jeffersontorres.com.br/medicina/eclampsia/</link>
-		<pubDate>Mon, 11 Dec 2023 00:53:39 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/eclampsia/</guid>
-		<description>&lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
-&lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
-&lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;gestação a pelo menos 20 semanas;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;hipertensão; e&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;proteinúria&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Considera-se hipertensa a grávida com &lt;strong&gt;PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Eclâmpsia&lt;/strong&gt; é a ocorrência de &lt;mark&gt;convulsões&lt;/mark&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
-&lt;h2 id=&#34;conduta&#34;&gt;Conduta&lt;/h2&gt;
-&lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;A cura é o &lt;strong&gt;parto&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;cuidados&#34;&gt;Cuidados!&lt;/h3&gt;
-&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e ocorre PCR com 12mEq/L.&lt;/p&gt;
-&lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
-&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10 mL a 10%) deve ser administrado &lt;mark&gt;lentamente &lt;/mark&gt;nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
-&lt;h2 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h2&gt;
-&lt;p&gt;A medicina baseada em evidências consegue demostrar benefício no uso de &lt;strong&gt;ácido acetilsalicílico a 150mg/dia&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Caso se tenha deficiência de cálcio na dieta presumida clinicamente ou por diagnóstico laboratorial, prescreve-se &lt;strong&gt;cálcio oral dietético suplementar a 1-2g/dia&lt;/strong&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Proteína total dividida pela creatinina medidas em mesma unidade.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;FEBRASGO. Protocolo no. 73 - 2021. Federação Brasileira de Ginecologia e Obstetrícia. Brasil.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -7697,7 +8010,7 @@ $$&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/medicina/queimados/</guid>
 		<description>&lt;h2 id=&#34;grandes-queimados&#34;&gt;Grandes queimados&lt;/h2&gt;
 &lt;h3 id=&#34;calculadora-de-parkland&#34;&gt;Calculadora de Parkland&lt;/h3&gt;
-
+&lt;p&gt;
 
 &lt;div class=&#34;calculadoras&#34;&gt; 
 &lt;form id=&#34;formElementos&#34;&gt;
@@ -7744,100 +8057,11 @@ $$&lt;/p&gt;
   &lt;p id=&#34;resultado&#34;&gt;Adicione os elementos queimados, idade, peso e clique em Calcular.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script&gt;
-let elementosSelecionados = [];
+&lt;script src=&#34;../../queimados.js&#34;&gt;&lt;/script&gt;
 
-function adicionarElemento() {
-  const selectElement = document.getElementById(&#39;elementos&#39;);
-  const selectedOption = selectElement.options[selectElement.selectedIndex];
-  
-  elementosSelecionados.push(selectedOption.value);
-  const elementosSelecionadosList = document.getElementById(&#39;elementosSelecionados&#39;);
-  const listItem = document.createElement(&#39;p&#39;);
-  listItem.appendChild(document.createTextNode(selectedOption.text));
-  elementosSelecionadosList.appendChild(listItem);
-}
-
-function calcular() {
-  document.getElementById(&#39;resultado&#39;).innerHTML = &#39;&#39;;
-
-  let meiaperna = 9;
-  let meiacabeca = 4.5;
-  let genitalia = 1;
-  let pescoco = 1;
-  let meiobraco = 4.5;
-  let torax = 18;
-  let dorso = 18;
-  let nadega = 0;
-  let scq = 0;
-  let dose;
-  let debito;
-  let eletrica = document.getElementById(&#34;eletrica&#34;).checked;
-  let peso = document.getElementById(&#34;peso&#34;).value;
-  // qual idade criança msm?
-  let pediatrico = false;
-  if ( document.getElementById(&#34;idade&#34;).value &lt; 3){
-    pediatrico = true
-  };
-  let lesao_pescoco = false;
-
-  if (pediatrico) { 
-    meiaperna = 7;
-    meiacabeca = 9;
-    dorso = 13;
-    nadega = 2.5;
-  }
-
-  elementosSelecionados.forEach(elemento =&gt; {
-    if (elemento === &#39;meiacabeca&#39;) { scq = scq + meiacabeca}
-    else if ( elemento === &#39;meiaperna&#39;) {scq = scq + meiaperna}
-    else if ( elemento === &#39;nadega&#39;) {scq = scq + nadega}
-    else if ( elemento === &#39;meiaperna&#39;) {scq = scq + meiaperna}
-    else if ( elemento === &#39;meiobraco&#39;) {scq = scq + meiobraco}
-    else if ( elemento === &#39;pescoco&#39;) {scq = scq + pescoco; lesao_pescoco = true}
-    else if ( elemento === &#39;torax&#39;) {scq = scq + torax}
-    else if ( elemento === &#39;dorso&#39;) {scq = scq + dorso}
-    else if ( elemento === &#39;genitalia&#39;) {scq = scq + dorso}
-  })
-
-  let classificacao;
-  let grau = &#34;pequeno&#34;;
-  if (scq &gt; 20 ) {
-    grau = &#34;grande&#34;;
-  } else if (scq &gt; 10 &amp;&amp; pediatrico) { 
-    grau = &#34;grande&#34;
-  } else { classificacao = &#34;&#34;}
-  classificacao = &#34;Paciente &#34; + grau +&#34; queimado.&#34;
-  document.getElementById(&#39;resultado&#39;).innerHTML = 
-    classificacao + &#34;&lt;br&gt;&#34;+scq+&#34;% da superfície corporal queimada.&#34;;
-
-  // Parkland
-  if (eletrica) {
-    dose = scq * peso * 4 ;
-    debito = 1.5 * peso ;
-  } else if (idade &lt; 14 || peso &lt; 31){
-    dose = scq * peso * 3;
-    debito = 1 * peso ;
-  } else{
-    dose = scq * peso * 2;
-    debito = 0.5 * peso ;
-  };
-
-  if (lesao_pescoco === true) {
-    document.getElementById(&#39;resultado&#39;).innerHTML += 
-    &#34;&lt;br&gt;&lt;strong&gt;Atente-se para lesões de pescoço pela fatalidade de síndromes compressivas no sítio!&lt;/strong&gt;&#34;;
-  }
-
-  if (grau === &#34;pequeno&#34;) {
-    document.getElementById(&#39;resultado&#39;).innerHTML += 
-    &#34;&lt;br&gt;&lt;strong&gt;Em pacientes pequenos queimados, repense a necessidade de reidratação.&lt;/strong&gt;&#34;;
-  }
-
-  document.getElementById(&#39;resultado&#39;).innerHTML += 
-    &#34;&lt;br&gt;Fazer &#34;+dose+&#34;ml/h de Ringer Lactato&lt;br&gt;Débito urinário esperado em torno de &#34;+debito+&#34;mL/h.&lt;br&gt;Observe sempre se a urina é clara!&lt;br&gt;Considere hidratação de manutenção.&lt;br&gt;&lt;br&gt;A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário.&#34;
-}
-&lt;/script&gt;
-
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&#34;queimadura-elétrica&#34;&gt;Queimadura elétrica&lt;/h3&gt;
 &lt;h4 id=&#34;como-a-eletricidade-pode-matar&#34;&gt;Como a eletricidade pode matar&lt;/h4&gt;
 &lt;h5 id=&#34;tetania&#34;&gt;Tetania&lt;/h5&gt;
@@ -7852,13 +8076,23 @@ function calcular() {
 &lt;h5 id=&#34;quedas&#34;&gt;Quedas&lt;/h5&gt;
 &lt;p&gt;Ao ser eletrocutado, o corpo pode perder o equilíbrio ou ser ejetado pelo grande diferencial de potencial, levando a queda e trauma grave.&lt;/p&gt;
 &lt;h3 id=&#34;geladuras&#34;&gt;Geladuras&lt;/h3&gt;
-&lt;p&gt;As queimaduras de frio se classificam por graus, como as de alta temperatura:&lt;/p&gt;
+&lt;p&gt;Hoffmann também propôs que as queimaduras de frio se classificam por graus, como as de alta temperatura:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1° - palidez cutânea, pode ou não ser dolorosa.&lt;/li&gt;
 &lt;li&gt;2° - eritema doloroso.&lt;/li&gt;
 &lt;li&gt;3° - necrose de tecido epidérmico e dérmico.&lt;/li&gt;
 &lt;li&gt;4° - gangrena.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;classificações&#34;&gt;Classificações&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Simples: queimaduras decorrentes de agentes causadores líquidos ou vapores, líquidos densos e sólidos aquecidos, substâncias inflamáveis, contato direto com chama, radiações não-ionizantes e frio.&lt;/li&gt;
+&lt;li&gt;Complexas: decorre de agentes causadores como a fricção mecânica, a eletricidade, as radiações ionizantes como raios X, alfa, beta, gama, e produtos químicos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;LOURDES, Carolina de; ROCHA, J. V.. &lt;strong&gt;Histofisiologia e classificação das queimaduras: consequencias locais e sistêmicas das perdas teciduais em pacientes queimados&lt;/strong&gt;. Revista Interdisciplinar de Estudos Experimentais, v. 1, n. 3, p. 140 - 147, 2009.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -7937,7 +8171,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 	</item>
 	
 	<item>
-		<title>Cervejas</title>
+		<title>Meu guia descomplicado de cervejas</title>
 		<link>https://www.jeffersontorres.com.br/receitas/cervejas/</link>
 		<pubDate>Mon, 20 Nov 2023 20:46:46 -0300</pubDate>
 		
@@ -8365,10 +8599,10 @@ function fechardialogo() {
 	
 	<item>
 		<title>Bahia - Itacaré</title>
-		<link>https://www.jeffersontorres.com.br/viagem/bahia-itacare/</link>
+		<link>https://www.jeffersontorres.com.br/viagem/brasil/bahia-itacare/</link>
 		<pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/bahia-itacare/</guid>
+		<guid>https://www.jeffersontorres.com.br/viagem/brasil/bahia-itacare/</guid>
 		<description>
  
 &lt;div class=&#34;carousel&#34;&gt;
@@ -9069,10 +9303,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espírito Santo - Domingos Martins</title>
-		<link>https://www.jeffersontorres.com.br/viagem/espirito-santo-domingos-martins/</link>
+		<link>https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-domingos-martins/</link>
 		<pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/espirito-santo-domingos-martins/</guid>
+		<guid>https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-domingos-martins/</guid>
 		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;Cidade a 50km de Vitória de cultura alemã.&lt;/p&gt;
 &lt;p&gt;A praça principal Arthur Gerhardt já é uma atração.&lt;/p&gt;
@@ -9166,10 +9400,10 @@ function updateResult() {
 	
 	<item>
 		<title>Espiríto Santo - Praia de Iriri</title>
-		<link>https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/</link>
+		<link>https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-iriri/</link>
 		<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/espirito-santo-iriri/</guid>
+		<guid>https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-iriri/</guid>
 		<description>
 
 
@@ -9193,10 +9427,10 @@ function updateResult() {
 	
 	<item>
 		<title>Bahia - Piatã, Salvador</title>
-		<link>https://www.jeffersontorres.com.br/viagem/bahia-piata-salvador/</link>
+		<link>https://www.jeffersontorres.com.br/viagem/brasil/bahia-piata-salvador/</link>
 		<pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/viagem/bahia-piata-salvador/</guid>
+		<guid>https://www.jeffersontorres.com.br/viagem/brasil/bahia-piata-salvador/</guid>
 		<description>&lt;p&gt;&lt;img src=&#34;../../pix/piata.png&#34; alt=&#34;Praia em Piatã&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;geral&#34;&gt;Geral&lt;/h1&gt;
 &lt;p&gt;Dá pra ficar em Piatã pq fica a 11km de distância de SSA mesmo.&lt;/p&gt;

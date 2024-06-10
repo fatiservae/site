@@ -50,7 +50,7 @@
             'tertiaryColor': '#fff'
           }
       });
-    } else if (temaAtual === 'papel' ) {
+    } else if (temaAtual === 'moderno' ) {
       mermaid.initialize({ 
           theme: 'base',
           timeline: {'disableMulticolor': true},
@@ -65,11 +65,27 @@
             'tertiaryColor': '#fff'
           }
       });
+    } else if (temaAtual === 'laranja' ) {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'cScale0': '#ff5510', 
+            'cScaleLabel0': '#181818',
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#eee',
+            'primaryBorderColor': '#aa1000',
+            'lineColor': '#dd4000',
+            'secondaryColor': '#181818',
+            'tertiaryColor': '#181818'
+          }
+      });
     }
+
     </script>
   
 
-  <title>Abuso de autoridade: lei 13.869/2019 esquematizada | Jefferson T.</title>
+  <title>Lei do abuso de autoridade esquematizada | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
@@ -162,12 +178,13 @@ cargo ou função pública); Bibliografia BRASIL. Lei 13.">
       <select id=menu>
         <option>navegação</option>
         <option value="/index.html">início</option>
-        <option value="/files/">arquivos</option>
-        <option value="/dicionario/">dicionário</option>
         <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
         <option value="/tags/calculadoras/">calculadoras</option>
         <option value="/medicina/banco-de-questoes/">banco de questões</option>
-        <option value="/tags/">assuntos</option>
 
       </select>
       <script>
@@ -183,7 +200,9 @@ cargo ou função pública); Bibliografia BRASIL. Lei 13.">
         <option value=arido>árido</option>
         <option value=cafe>café</option>
         <option value=comics>comics</option>
-        <option value=papel>papel</option>
+        <option value=moderno>moderno</option>
+        <option value=laranja>laranja</option>
+        
       </select>
       <script>
         document.getElementById('temas-seletor').addEventListener('change', function() {
@@ -201,7 +220,7 @@ cargo ou função pública); Bibliografia BRASIL. Lei 13.">
 <article>
 <br>
 
-  <h1>Abuso de autoridade: lei 13.869/2019 esquematizada</h1>
+  <h1>Lei do abuso de autoridade esquematizada</h1>
 
 <script>
   
@@ -237,6 +256,9 @@ cargo ou função pública); Bibliografia BRASIL. Lei 13.">
   } else if (temaAtual === 'arido') {
     document.documentElement.setAttribute('data-tema', 'arido');
     
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
   }
   else if (temaAtual === 'comics') {
     document.documentElement.setAttribute('data-tema', 'comics');
@@ -246,12 +268,16 @@ cargo ou função pública); Bibliografia BRASIL. Lei 13.">
     document.documentElement.setAttribute('data-tema', 'cafe');
     
   }
-  else if (temaAtual === 'papel') {
-    document.documentElement.setAttribute('data-tema', 'papel');
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
   else { 
-    document.documentElement.setAttribute('data-tema', 'papel');
+    document.documentElement.setAttribute('data-tema', 'moderno');
     
   }
 
