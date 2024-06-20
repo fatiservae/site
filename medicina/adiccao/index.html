@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+  
+
+  
+
+  <title>Adicção: os impactos de diversas drogas | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content=" 0.5 1.0 1.5 2.0 2.5 3.0 Dano social (média) Dependência (média) Dano físico (média) Álcool Metadona de rua Barbitúricos Cocaína Heroína Khat Nitritos alquilados Ecstasy GHB Benzodiazepínicos Anfetaminas Tabaco Buprenorfina Cannabis Solventes 4-MTA LSD Metilfenidato Cetamina Esteroides anabolizantes Referências Nutt, David, Leslie A King, William Saulsbury, Colin Blakemore. Development of a rational scale to assess the harm of drugs of potential misuse. The Lancet 2007; 369:1047-1053. PMID:17382831. ">
+  <meta name="keywords" content="medicina, farmacologia">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+
+</script>
+
+  <div class="barra">
+      <select id=menu>
+        <option>navegação</option>
+        <option value="/index.html">início</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+
+      </select>
+      <script>
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
+      </script>
+
+      <select id="temas-seletor">
+        <option value=0>temas</option>
+        <option value=cafe>café</option>
+        <option value=arido>árido</option>
+        <option value=laranja>laranja</option>
+        <option value=comics>comics</option>
+        <option value=noturno>noturno</option>
+        <option value=moderno>moderno</option>
+        
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
+        });
+      </script>
+  </div>
+<article>
+<br>
+
+  <h1>Adicção: os impactos de diversas drogas</h1>
+
+<script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const temaAtual = localStorage.getItem('tema');
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
+  }
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
+  }
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
+  }
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+
+  function alternarTema(tema) {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+  
+<div class="scalidraw">
+<svg width="900" height="900" viewBox="-450 -405 900 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" backgroun>
+<marker id="dotR" viewBox="-1 -1 2 2" markerWidth="3" markerHeight="3"><circle r="1" fill="#F00"/></marker>
+<marker id="dotG" viewBox="-1 -1 2 2" markerWidth="3" markerHeight="3"><circle r="1" fill="#008000"/></marker>
+<marker id="dotB" viewBox="-1 -1 2 2" markerWidth="3" markerHeight="3"><circle r="1" fill="#00F"/></marker>
+<rect x="-450" y="-405" width="900" height="900" fill="none"/>
+<g fill="none" stroke="var(--fonte)" stroke-width="1.25">
+<circle r="315" fill="none"/>
+<rect x="-114.38" y="397.9" width="228.76" height="86.2" stroke-linejoin="round"/>
+<g stroke-width=".63">
+<path id="radial" d="M-315 0h630M0-315v630"/>
+<g id="radial2">
+<use xlink:href="#radial" transform="rotate(18)"/>
+<use xlink:href="#radial" transform="rotate(36)"/>
+</g>
+<use xlink:href="#radial2" transform="rotate(36)"/>
+<circle r="52.5"/>
+<circle r="105"/>
+<circle r="157.5"/>
+<circle r="210"/>
+<circle r="262.5"/>
+</g>
+<g stroke-width="1.9">
+<g stroke="#008000" marker-start="url(#dotG)">
+<polygon points="266.7,0 216.7,-70.41 169.89,-123.43 115.41,-158.85 71.71,-220.69 0,-177.45 -53.54,-164.77 -92.58,-127.42 -120.62,-87.64 -148.79,-48.35 -157.5,0 -151.79,49.32 -90.04,65.42 -81.47,112.13 -31.47,96.87 0,118.65 42.18,129.82 67.27,92.59 82.4,59.87 84.88,27.58" marker-mid="url(#dotG)"/>
+<path d="M-101.78 412.25h25.2" marker-end="url(#dotG)"/>
+</g>
+<g stroke="#F00" marker-start="url(#dotR)">
+<polygon points="315,0 238.67,-77.55 170.74,-124.05 128.37,-176.69 62.62,-192.73 0,-161.7 -59.38,-182.75 -103.07,-141.86 -187.73,-136.4 -163.77,-53.21 -158.55,0 -100.86,32.77 -110.43,80.23 -75.91,104.48 -40.56,124.83 0,92.4 38.61,118.83 69.74,95.99 73.9,53.69 103.86,33.74" marker-mid="url(#dotR)"/>
+<path d="M-101.78 439.19h25.2" marker-end="url(#dotR)"/>
+</g>
+<g stroke="#00F" marker-start="url(#dotB)">
+<polygon points="291.9,0 232.68,-75.6 189.43,-137.63 114.79,-158 45.43,-139.81 0,-210 -52.89,-162.77 -111.71,-153.75 -105.33,-76.53 -159.78,-51.91 -103.95,0 -127.82,41.53 -122.32,88.87 -69.74,95.99 -42.83,131.82 0,152.25 27.9,85.88 64.8,89.19 79,57.4 49.93,16.22" marker-mid="url(#dotB)"/>
+<path d="M-101.78 466.13h25.2" marker-end="url(#dotB)"/>
+</g>
+</g>
+</g>
+<g font-family="DejaVu Sans Condensed" font-size="15" stroke="var(--fonte)" fill="var(--fonte)">
+<text x="56" y="-4">0.5</text>
+<text x="108.2" y="-10.8">1.0</text>
+<text x="160.4" y="-17.6">1.5</text>
+<text x="212.6" y="-24.4">2.0</text>
+<text x="264.8" y="-31.2">2.5</text>
+<text x="317" y="-38">3.0</text>
+<text x="-56" y="419">Dano social (média)</text>
+<text x="-56" y="445.94">Dependência (média)</text>
+<text x="-56" y="472.88">Dano físico (média)</text>
+<text x="107" y="-323">Álcool</text>
+<text x="203" y="-275">Metadona de rua</text>
+<text x="280" y="-198">Barbitúricos</text>
+<text x="330" y="-100">Cocaína</text>
+<text x="346" y="6">Heroína</text>
+<text x="330" y="112">Khat</text>
+<text x="280" y="207">Nitritos alquilados</text>
+<text x="203" y="284">Ecstasy</text>
+<text x="107" y="335">GHB</text>
+<g text-anchor="end">
+<text x="-110" y="-325">Benzodiazepínicos</text>
+<text x="-206" y="-276">Anfetaminas</text>
+<text x="-282" y="-198">Tabaco</text>
+<text x="-333" y="-103">Buprenorfina</text>
+<text x="-348" y="6">Cannabis</text>
+<text x="-330" y="112">Solventes</text>
+<text x="-282" y="210">4-MTA</text>
+<text x="-205" y="284">LSD</text>
+<text x="-110" y="335">Metilfenidato</text>
+</g>
+<g text-anchor="middle">
+<text y="-340">Cetamina</text>
+<text y="353">Esteroides anabolizantes</text>
+</g>
+</g>
+</svg>
+
+</div>
+
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Nutt, David, Leslie A King, William Saulsbury, Colin Blakemore. <strong>Development of a rational scale to assess the harm of drugs of potential misuse</strong>. The Lancet 2007; 369:1047-1053. PMID:17382831.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_farmacologia" href="https://www.jeffersontorres.com.br/tags/farmacologia">farmacologia</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

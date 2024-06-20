@@ -57,14 +57,14 @@
           theme: 'base',
           timeline: {'disableMulticolor': true},
           themeVariables: {
-            'cScale0': '#ffdead', 
+            'cScale0': 'black', 
             'cScaleLabel0': '#282828',
             'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
             'primaryBorderColor': 'black',
             'lineColor': '#000000',
-            'secondaryColor': 'white',
-            'tertiaryColor': '#fff'
+            'secondaryColor': '#282828',
+            'tertiaryColor': '#000'
           }
       });
     } else if (temaAtual === 'laranja' ) {
@@ -195,12 +195,12 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
 
       <select id="temas-seletor">
         <option value=0>temas</option>
-        <option value=noturno>noturno</option>
-        <option value=arido>árido</option>
         <option value=cafe>café</option>
-        <option value=comics>comics</option>
-        <option value=moderno>moderno</option>
+        <option value=arido>árido</option>
         <option value=laranja>laranja</option>
+        <option value=comics>comics</option>
+        <option value=noturno>noturno</option>
+        <option value=moderno>moderno</option>
         
       </select>
       <script>
@@ -320,7 +320,11 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
 
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#geral">Geral</a></li>
+    <li><a href="#geral">Geral</a>
+      <ul>
+        <li><a href="#sinais-gerais-de-asfixias">Sinais gerais de asfixias</a></li>
+      </ul>
+    </li>
     <li><a href="#asfixias-puras">Asfixias puras</a>
       <ul>
         <li><a href="#gases-irrespiráveis">Gases irrespiráveis</a></li>
@@ -347,7 +351,6 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
         <li><a href="#4ª-fase-cardíaca">4ª fase: cardíaca</a></li>
       </ul>
     </li>
-    <li><a href="#típicos-sinais-asfíxicos">Típicos sinais asfíxicos</a></li>
     <li><a href="#anóxias">Anóxias</a>
       <ul>
         <li><a href="#anóxica">Anóxica</a></li>
@@ -397,16 +400,29 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
 <li><strong>Hipercapnia:</strong> acúmulo de dióxido de carbono na circulação.</li>
 <li><strong>Inibição:</strong> perda da resposta neuronal cervical por compressão, causando disautonomias como a apneia.</li>
 </ul>
+<h3 id="sinais-gerais-de-asfixias">Sinais gerais de asfixias</h3>
+<ul>
+<li>Vestígios como instrumentos e posição do corpo;</li>
+<li>Tendência a apresentar sangue fluido e de cor escura, pela predominância de sangue venoso;</li>
+<li>Cianose da face e leitos ungueais;</li>
+<li>Espuma na boca e narinas; e</li>
+<li>Equimoses externas.</li>
+</ul>
 <h2 id="asfixias-puras">Asfixias puras</h2>
 <p>Cursam com anoxemia e hipercapnia.</p>
 <h3 id="gases-irrespiráveis">Gases irrespiráveis</h3>
 <h4 id="monóxido-de-carbono">Monóxido de carbono</h4>
 <p>A caboxihemoglobina é de forte associação e impede a ligação de oxigênio, tornando predominante as hemáceas inúteis a respiração celular.</p>
 <p>A morte ocorre, também, com depressão gradual do SNC e é indolor. Muito comum no suicídio, notadamente na sua forma egoísta. Observa-se hipóstases róseas carminadas.</p>
+<p>Aqueles que sucumbiram sob o efeito do monóxido de carbono tem o sangue em cor vermelho vivo.</p>
 <h4 id="confinamento">Confinamento</h4>
 <h3 id="transformação-do-meio">Transformação do meio</h3>
 <h4 id="afogamento">Afogamento</h4>
 <p>O verdadeiro afogamento é comumente chamado nos círculos de medicina legal como <strong>afogamento azul</strong>. O afogado azul é aquele que sofreu a asfixia submerso no líquido. Os já falecidos que são lançados para submersão em líquido para simular afogamento são chamados de afogados brancos e, no Brasil, trata-se sempre de um crime.</p>
+<p>Os achados do afogado real são o &mdash; nem sempre presente &mdash; cogumelo de espuma róseo, o avanço da mancha verde iniciada no tórax e não no abdome e a presença de materiais estranhos nas vias aéreas, de origem aquática ou do líquido origem do afogamento além do sangue rosado e claro, diferente de outros asfixiados, causado pela hemodiluição.</p>
+<p>Materiais estranhos podem ser encontrados em todos os brônquios pois foram aspirados, diferentemente do falso afogado que geralmente apresenta corpos estranhos até a traqueia, ou, no máximo, até o brôquio primário. Nos leitos aquáticos naturais, é comum a presença no exame de plâncton nas vias aéreas.</p>
+<p>No pulmão do afogado, podem ou não surgir <strong>petéquias</strong> e as <strong>manchas equimóticas lenticulares de Tardieu</strong>, mas é indispensável que estejam presente as <strong>manchas subpleurais equimóticas de Paltauf</strong>, sem as quais não fala em morte por afogamento.</p>
+<p>Além disso, podem ocorrer a presença de água no estômago, o enfisema hidroaéreo do pulmão, a água nas vias respiratórias e a presença de líquido nos ouvidos.</p>
 <h5 id="conduta-no-afogamento">Conduta no afogamento</h5>
 <pre class="mermaid">graph TD;
     a(Resposta ao chamado) -- Não --> y(Desobstrua via aérea, <br>jawthrust, checar respiração <br>+ cuidado com trauma cervical) -- Sem<br> pulso carotídeo --> x(Morte/Grau 6)
@@ -419,6 +435,7 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
 </pre>
 
 <h5 id="fases-do-afogamento">Fases do afogamento</h5>
+<p>(Ver se convulsão ocorre no segundo ou terceiro momento)</p>
 <ul>
 <li>Defesa ou resistência: a vítima tenta conter a respiração o máximo possível, ocorrendo a contenção e a pausa ou <strong>apneia</strong>.</li>
 <li>Exaustão: ocorre atos respiratórios desordenados, com respiração forçada e difícil, por reflexo. a vítima inspira líquido profundamente com <strong>dispneia</strong>.</li>
@@ -434,8 +451,17 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
 <h2 id="asfixias-complexas">Asfixias complexas</h2>
 <p>Cursam com anoxemia, hipercapnia e inibição, de forma concomitante, tendo todos três fenômenos concorridos para morte.</p>
 <h3 id="enforcamento">Enforcamento</h3>
-<p>O osso hioide pode estar íntegro.</p>
+<p>O osso hioide pode estar íntegro. A língua pode se projetar fora da boca (procidêncida).</p>
+<p>No enforcamento podemos encontrar sinais de Livores distribuídos em torno ou nos próprios sulcos da lesão:</p>
+<ul>
+<li>Ponsold;</li>
+<li>Azevedo Neves;</li>
+<li>Neyding;</li>
+<li>Ambroise Paré;</li>
+<li>Thoinot.</li>
+</ul>
 <h3 id="estrangulamento">Estrangulamento</h3>
+<p>A procidência da língua também é um sinal comum do estrangulamento.</p>
 <h2 id="fases-das-asfixias">Fases das asfixias</h2>
 <h3 id="1ª-fase-cerebral">1ª fase: cerebral</h3>
 <p>Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta)
@@ -451,25 +477,6 @@ Acelera a morte
 <h3 id="4ª-fase-cardíaca">4ª fase: cardíaca</h3>
 <p>Sofrimento do miocárdio: batimentos do coração lentos, arrítmicos, quase imperceptíveis ao pulso
 3 a 5 minutos</p>
-<h2 id="típicos-sinais-asfíxicos">Típicos sinais asfíxicos</h2>
-<p>Na morte por asfixia, o sangue do indivíduo é fluido e de cor escura, pela predominância de sangue venoso. Porém, aqueles que sucumbiram sob o efeito do monóxido de carbono tem o sangue em cor vermelho vivo, e os afogados que ingeriram grande quantidade de líquido, na cor rosada.</p>
-<p>No enforcamento podemos encontrar sinais de Livores distribuídos em torno ou nos próprios sulcos da lesão:</p>
-<ul>
-<li>Ponsold;</li>
-<li>Azevedo Neves;</li>
-<li>Neyding;</li>
-<li>Ambroise Paré;</li>
-<li>Thoinot.</li>
-</ul>
-<p>A procidência da língua é um sinal comum do enforcamento e do estrangulamento.</p>
-<p>Asfixias mecânicas causam manchas de Tardieu.</p>
-<p>Os achados necroscópicos frequentes, segundo o França, no afogamento são: sinais internos: diluição do sangue (em razão da ingestão de grande quantidade de líquido); presença de água no estômago; enfisema hidroaéreo do pulmão; manchas de “Paltauf” (hemorragias pleurais no pulmão); presença de plâncton e água nas vias respiratórias (nariz e boca); presença de líquido nos ouvidos.</p>
-<p>Sinais gerais de todas asfixias:</p>
-<ul>
-<li>Cianose da face e leitos ungueais.</li>
-<li>Espuma na boca e narinas.</li>
-<li>Equimoses externas.</li>
-</ul>
 <h2 id="anóxias">Anóxias</h2>
 <h3 id="anóxica">Anóxica</h3>
 <h4 id="enforcamento-1">Enforcamento</h4>

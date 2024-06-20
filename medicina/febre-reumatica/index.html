@@ -22,7 +22,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Calculdora de profilaxia de Centor Idade Tonsilas Normal Edema ou exsudato Tosse Linfonodomegalia Calcular Calculdora de tratamento Jones População de moderado ou alto risco Monoartrite Poliartrite Poliartralgia Cardite Coreia Nódulos subcutâneos Eritema marginado Febre ECG mostrando aumento de PR Cultura positiva da orofaringe para estreptococo beta-hemolítico do grupo A Títulos elevados de ASO ou outro anticorpo estreptocócico, teste rápido para antígenos do estreptococo, escarlatina recente VHS em mm/h PCR em mg/dL Calcular Referências McIsaac WJ, Kellner JD, Aufricht P, Vanjaka A, Low DE.">
+  <meta name="description" content="Calculdora de profilaxia de Centor Idade (anos) Tonsilas Normais Edema ou exsudato Tosse Linfonodomegalia Calcular Calculdora de tratamento Jones População de moderado ou alto risco para exposição ao estreptococo beta-hemolítico do grupo A¹ Monoartrite Poliartrite Poliartralgia Cardite Coreia Nódulos subcutâneos Eritema marginado Febre ECG mostrando aumento de PR Cultura positiva da orofaringe para estreptococo beta-hemolítico do grupo A Títulos elevados de ASO ou outro anticorpo estreptocócico, teste rápido para antígenos do estreptococo, escarlatina recente VHS em mm/h PCR em mg/dL Calcular Notas O Brasil é considerado país com alto risco para exposição ao estreptococo beta-hemolítico.">
   <meta name="keywords" content="calculadoras, medicina, infectologia">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -122,12 +122,12 @@
 
       <select id="temas-seletor">
         <option value=0>temas</option>
-        <option value=noturno>noturno</option>
-        <option value=arido>árido</option>
         <option value=cafe>café</option>
-        <option value=comics>comics</option>
-        <option value=moderno>moderno</option>
+        <option value=arido>árido</option>
         <option value=laranja>laranja</option>
+        <option value=comics>comics</option>
+        <option value=noturno>noturno</option>
+        <option value=moderno>moderno</option>
         
       </select>
       <script>
@@ -250,14 +250,14 @@
   <script src="../../febre-reumatica.js"></script>
 <div class=calculadoras>
     <h2>Calculdora de profilaxia de Centor</h2>
-    <label for=idade>Idade</label>
+    <label for=idade>Idade (anos)</label>
     <br>
     <input id=idade type=number></input>
     <br>
     <label for=tonsilas>Tonsilas</label>
     <br>
     <select id=tonsilas>
-        <option value=normal>Normal</option>
+        <option value=normal>Normais</option>
         <option value=anormal>Edema ou exsudato</option>
     </select>
     <br>
@@ -275,7 +275,7 @@
 <br>
 <div class=calculadoras>
     <h2>Calculdora de tratamento Jones</h2>
-    <input id=riscoAlto type=checkbox>População de moderado ou alto risco</input>
+    <input id=riscoAlto type=checkbox>População de moderado ou alto risco para exposição ao estreptococo beta-hemolítico do grupo A¹</input>
     <br>
     <input id=monoartrite type=checkbox>Monoartrite</input>
     <br>
@@ -312,6 +312,10 @@
     <p id=resultado2></p>
 </div>
 <hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>O Brasil é considerado país com alto risco para exposição ao estreptococo beta-hemolítico.</li>
+</ol>
 <h2 id="referências">Referências</h2>
 <ol>
 <li>McIsaac WJ, Kellner JD, Aufricht P, Vanjaka A, Low DE. <strong>Empirical validation of guidelines for the management of pharyngitis in children and adults</strong>. JAMA. 2004 Apr 7;291(13):1587-95. doi: 10.1001/jama.291.13.1587. Erratum in: JAMA. 2005 Dec 7;294(21):2700. PMID: 15069046.</li>

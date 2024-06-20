@@ -743,13 +743,13 @@ a#switch:hover::before {
   text-transform: uppercase;
 }
 
-#resultado{
+[id^="resultado"] {
   margin-left: 0;
   text-align: start;
   text-indent: 0%;
   font-weight: bold;
 }
-p#resultado {
+p[id^="resultado"]{
   margin-left: 0;
   max-width: 100%;
 }
@@ -1222,6 +1222,8 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_documentos::before { content: "📄 " ;}
+#tag_ferramentas::before { content: "🔧 " ;}
 #tag_obstetrícia::before { content: "🤰 " ;}
 #tag_perícias::before { content: "🕵️ " ;}
 #tag_direito::before { content: "⚖️ " ;}
@@ -2282,5 +2284,9 @@ span.typewriter{
 }
 
 div#vim {
+  margin-left: var(--margem);
+}
+
+.receituario{
   margin-left: var(--margem);
 }

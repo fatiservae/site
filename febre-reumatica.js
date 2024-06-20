@@ -119,7 +119,7 @@ function calcularJones() {
     };
 
     if ((maiores > 1) || (maiores > 0 && menores > 1 && evidencia )) {
-      resultado2.innerText = "Indicado tratamento considerando febre reumática.";
+      resultado2.innerText = "Indicado tratamento considerando febre reumática.\nPenicilina benzatina IM 1.2miUI; ou\nPara alérgicos a penicilinas a eritromicina na dose de 20 a 40mg/kg/dia.";
     } else {
       resultado2.innerText = "Não indicado tratar.";
     }

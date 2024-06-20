@@ -1,5 +1,23 @@
 [
   {
+    "nome": ["carbamazepina", "Tegreto", "Tegretard"]
+  },
+  {
+    "nome": ["oxcarbazepina", "Trileptal", "Oleptal"]
+  },
+  {
+    "nome": ["carbonato de lítio", "Carbolitium", "Litiocar", "Neurolitium"]
+  },
+  {
+    "nome": ["ácido valpróico", "Depakene", "Valpakine"]
+  },
+  {
+    "nome": ["divalproato de sódio", "Depakote"]
+  },
+  {
+    "nome": ["lamotrigina", "Lamictal", "Neurim"]
+  },
+  {
     "nome": ["memantina"]
   },
   {

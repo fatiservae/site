@@ -5,10 +5,298 @@
 	<description>Recent content on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sat, 08 Jun 2024 23:08:33 -0300</lastBuildDate>
+	<lastBuildDate>Mon, 17 Jun 2024 23:37:33 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Adicção: os impactos de diversas drogas</title>
+		<link>https://www.jeffersontorres.com.br/medicina/adiccao/</link>
+		<pubDate>Mon, 17 Jun 2024 23:37:33 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/adiccao/</guid>
+		<description>
+&lt;div class=&#34;scalidraw&#34;&gt;
+&lt;svg width=&#34;900&#34; height=&#34;900&#34; viewBox=&#34;-450 -405 900 900&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; backgroun&gt;
+&lt;marker id=&#34;dotR&#34; viewBox=&#34;-1 -1 2 2&#34; markerWidth=&#34;3&#34; markerHeight=&#34;3&#34;&gt;&lt;circle r=&#34;1&#34; fill=&#34;#F00&#34;/&gt;&lt;/marker&gt;
+&lt;marker id=&#34;dotG&#34; viewBox=&#34;-1 -1 2 2&#34; markerWidth=&#34;3&#34; markerHeight=&#34;3&#34;&gt;&lt;circle r=&#34;1&#34; fill=&#34;#008000&#34;/&gt;&lt;/marker&gt;
+&lt;marker id=&#34;dotB&#34; viewBox=&#34;-1 -1 2 2&#34; markerWidth=&#34;3&#34; markerHeight=&#34;3&#34;&gt;&lt;circle r=&#34;1&#34; fill=&#34;#00F&#34;/&gt;&lt;/marker&gt;
+&lt;rect x=&#34;-450&#34; y=&#34;-405&#34; width=&#34;900&#34; height=&#34;900&#34; fill=&#34;none&#34;/&gt;
+&lt;g fill=&#34;none&#34; stroke=&#34;var(--fonte)&#34; stroke-width=&#34;1.25&#34;&gt;
+&lt;circle r=&#34;315&#34; fill=&#34;none&#34;/&gt;
+&lt;rect x=&#34;-114.38&#34; y=&#34;397.9&#34; width=&#34;228.76&#34; height=&#34;86.2&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;g stroke-width=&#34;.63&#34;&gt;
+&lt;path id=&#34;radial&#34; d=&#34;M-315 0h630M0-315v630&#34;/&gt;
+&lt;g id=&#34;radial2&#34;&gt;
+&lt;use xlink:href=&#34;#radial&#34; transform=&#34;rotate(18)&#34;/&gt;
+&lt;use xlink:href=&#34;#radial&#34; transform=&#34;rotate(36)&#34;/&gt;
+&lt;/g&gt;
+&lt;use xlink:href=&#34;#radial2&#34; transform=&#34;rotate(36)&#34;/&gt;
+&lt;circle r=&#34;52.5&#34;/&gt;
+&lt;circle r=&#34;105&#34;/&gt;
+&lt;circle r=&#34;157.5&#34;/&gt;
+&lt;circle r=&#34;210&#34;/&gt;
+&lt;circle r=&#34;262.5&#34;/&gt;
+&lt;/g&gt;
+&lt;g stroke-width=&#34;1.9&#34;&gt;
+&lt;g stroke=&#34;#008000&#34; marker-start=&#34;url(#dotG)&#34;&gt;
+&lt;polygon points=&#34;266.7,0 216.7,-70.41 169.89,-123.43 115.41,-158.85 71.71,-220.69 0,-177.45 -53.54,-164.77 -92.58,-127.42 -120.62,-87.64 -148.79,-48.35 -157.5,0 -151.79,49.32 -90.04,65.42 -81.47,112.13 -31.47,96.87 0,118.65 42.18,129.82 67.27,92.59 82.4,59.87 84.88,27.58&#34; marker-mid=&#34;url(#dotG)&#34;/&gt;
+&lt;path d=&#34;M-101.78 412.25h25.2&#34; marker-end=&#34;url(#dotG)&#34;/&gt;
+&lt;/g&gt;
+&lt;g stroke=&#34;#F00&#34; marker-start=&#34;url(#dotR)&#34;&gt;
+&lt;polygon points=&#34;315,0 238.67,-77.55 170.74,-124.05 128.37,-176.69 62.62,-192.73 0,-161.7 -59.38,-182.75 -103.07,-141.86 -187.73,-136.4 -163.77,-53.21 -158.55,0 -100.86,32.77 -110.43,80.23 -75.91,104.48 -40.56,124.83 0,92.4 38.61,118.83 69.74,95.99 73.9,53.69 103.86,33.74&#34; marker-mid=&#34;url(#dotR)&#34;/&gt;
+&lt;path d=&#34;M-101.78 439.19h25.2&#34; marker-end=&#34;url(#dotR)&#34;/&gt;
+&lt;/g&gt;
+&lt;g stroke=&#34;#00F&#34; marker-start=&#34;url(#dotB)&#34;&gt;
+&lt;polygon points=&#34;291.9,0 232.68,-75.6 189.43,-137.63 114.79,-158 45.43,-139.81 0,-210 -52.89,-162.77 -111.71,-153.75 -105.33,-76.53 -159.78,-51.91 -103.95,0 -127.82,41.53 -122.32,88.87 -69.74,95.99 -42.83,131.82 0,152.25 27.9,85.88 64.8,89.19 79,57.4 49.93,16.22&#34; marker-mid=&#34;url(#dotB)&#34;/&gt;
+&lt;path d=&#34;M-101.78 466.13h25.2&#34; marker-end=&#34;url(#dotB)&#34;/&gt;
+&lt;/g&gt;
+&lt;/g&gt;
+&lt;/g&gt;
+&lt;g font-family=&#34;DejaVu Sans Condensed&#34; font-size=&#34;15&#34; stroke=&#34;var(--fonte)&#34; fill=&#34;var(--fonte)&#34;&gt;
+&lt;text x=&#34;56&#34; y=&#34;-4&#34;&gt;0.5&lt;/text&gt;
+&lt;text x=&#34;108.2&#34; y=&#34;-10.8&#34;&gt;1.0&lt;/text&gt;
+&lt;text x=&#34;160.4&#34; y=&#34;-17.6&#34;&gt;1.5&lt;/text&gt;
+&lt;text x=&#34;212.6&#34; y=&#34;-24.4&#34;&gt;2.0&lt;/text&gt;
+&lt;text x=&#34;264.8&#34; y=&#34;-31.2&#34;&gt;2.5&lt;/text&gt;
+&lt;text x=&#34;317&#34; y=&#34;-38&#34;&gt;3.0&lt;/text&gt;
+&lt;text x=&#34;-56&#34; y=&#34;419&#34;&gt;Dano social (média)&lt;/text&gt;
+&lt;text x=&#34;-56&#34; y=&#34;445.94&#34;&gt;Dependência (média)&lt;/text&gt;
+&lt;text x=&#34;-56&#34; y=&#34;472.88&#34;&gt;Dano físico (média)&lt;/text&gt;
+&lt;text x=&#34;107&#34; y=&#34;-323&#34;&gt;Álcool&lt;/text&gt;
+&lt;text x=&#34;203&#34; y=&#34;-275&#34;&gt;Metadona de rua&lt;/text&gt;
+&lt;text x=&#34;280&#34; y=&#34;-198&#34;&gt;Barbitúricos&lt;/text&gt;
+&lt;text x=&#34;330&#34; y=&#34;-100&#34;&gt;Cocaína&lt;/text&gt;
+&lt;text x=&#34;346&#34; y=&#34;6&#34;&gt;Heroína&lt;/text&gt;
+&lt;text x=&#34;330&#34; y=&#34;112&#34;&gt;Khat&lt;/text&gt;
+&lt;text x=&#34;280&#34; y=&#34;207&#34;&gt;Nitritos alquilados&lt;/text&gt;
+&lt;text x=&#34;203&#34; y=&#34;284&#34;&gt;Ecstasy&lt;/text&gt;
+&lt;text x=&#34;107&#34; y=&#34;335&#34;&gt;GHB&lt;/text&gt;
+&lt;g text-anchor=&#34;end&#34;&gt;
+&lt;text x=&#34;-110&#34; y=&#34;-325&#34;&gt;Benzodiazepínicos&lt;/text&gt;
+&lt;text x=&#34;-206&#34; y=&#34;-276&#34;&gt;Anfetaminas&lt;/text&gt;
+&lt;text x=&#34;-282&#34; y=&#34;-198&#34;&gt;Tabaco&lt;/text&gt;
+&lt;text x=&#34;-333&#34; y=&#34;-103&#34;&gt;Buprenorfina&lt;/text&gt;
+&lt;text x=&#34;-348&#34; y=&#34;6&#34;&gt;Cannabis&lt;/text&gt;
+&lt;text x=&#34;-330&#34; y=&#34;112&#34;&gt;Solventes&lt;/text&gt;
+&lt;text x=&#34;-282&#34; y=&#34;210&#34;&gt;4-MTA&lt;/text&gt;
+&lt;text x=&#34;-205&#34; y=&#34;284&#34;&gt;LSD&lt;/text&gt;
+&lt;text x=&#34;-110&#34; y=&#34;335&#34;&gt;Metilfenidato&lt;/text&gt;
+&lt;/g&gt;
+&lt;g text-anchor=&#34;middle&#34;&gt;
+&lt;text y=&#34;-340&#34;&gt;Cetamina&lt;/text&gt;
+&lt;text y=&#34;353&#34;&gt;Esteroides anabolizantes&lt;/text&gt;
+&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Nutt, David, Leslie A King, William Saulsbury, Colin Blakemore. &lt;strong&gt;Development of a rational scale to assess the harm of drugs of potential misuse&lt;/strong&gt;. The Lancet 2007; 369:1047-1053. PMID:17382831.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Documento médico eletrônico</title>
+		<link>https://www.jeffersontorres.com.br/medicina/receituario/</link>
+		<pubDate>Wed, 12 Jun 2024 19:15:57 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/receituario/</guid>
+		<description>
+
+&lt;style&gt;
+/* styles.css */
+.rodape {
+}
+.documento {
+  margin-left: 5vw;
+  margin-right: 15vw;
+}
+.container {
+  width: 80%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 60vw ; 
+  height: 200px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Permite redimensionar verticalmente */
+  margin-bottom: 20px;
+}
+#titulo {
+  width: 60vw;
+  height: 10px;
+}
+@media only screen and (max-width: 800px){
+  textarea, #titulo {
+    width: 80vw;
+  }
+}
+
+/*
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.cabecalho{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+#titulo {
+  width: 65vw;
+}
+
+*/
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.date-field {
+  width: 20%;
+  text-align: left;
+}
+.date-field.input,
+.date-field.select,
+.date-field p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.signature-field {
+  width: 60%;
+  text-align: right;
+}
+&lt;/style&gt;
+&lt;div class=documento&gt;
+    &lt;select id=logoEsq&gt;
+        &lt;option value=&#34;&#34;&gt;Logo à esquerda&lt;/option&gt;
+        &lt;option value=&#34;sec-saude-novo&#34;&gt;Secretaria de Sáude DF novo&lt;/option&gt;
+        &lt;option value=&#34;brasao-gdf&#34;&gt;Brasão do GDF&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;select id=logoDir&gt;
+        &lt;option value=&#34;&#34;&gt;Logo à direita&lt;/option&gt;
+        &lt;option value=&#34;sec-saude-novo&#34;&gt;Secretaria de Sáude DF novo&lt;/option&gt;
+        &lt;option value=&#34;brasao-gdf&#34;&gt;Brasão do GDF&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;div class=&#34;cabecalho&#34;&gt;
+        &lt;textarea id=&#34;titulo&#34; rows=&#34;1&#34; cols=&#34;50&#34; placeholder=&#34;Título&#34;&gt;&lt;/textarea&gt;
+        &lt;textarea id=&#34;cabecalho&#34; rows=&#34;10&#34; cols=&#34;50&#34; placeholder=&#34;Insira um cabeçalho&#34;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;content&#34;&gt;
+        &lt;textarea id=&#34;corpo&#34; rows=&#34;10&#34; cols=&#34;50&#34; placeholder=&#34;Insira texto&#34;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+    &lt;div class=rodape&gt;
+            &lt;select id=&#34;dia&#34; required&gt;
+                &lt;option value=&#34;1&#34;&gt;1&lt;/option&gt;
+                &lt;option value=&#34;2&#34;&gt;2&lt;/option&gt;
+                &lt;option value=&#34;3&#34;&gt;3&lt;/option&gt;
+                &lt;option value=&#34;4&#34;&gt;4&lt;/option&gt;
+                &lt;option value=&#34;5&#34;&gt;5&lt;/option&gt;
+                &lt;option value=&#34;6&#34;&gt;6&lt;/option&gt;
+                &lt;option value=&#34;7&#34;&gt;7&lt;/option&gt;
+                &lt;option value=&#34;8&#34;&gt;8&lt;/option&gt;
+                &lt;option value=&#34;9&#34;&gt;9&lt;/option&gt;
+                &lt;option value=&#34;10&#34;&gt;10&lt;/option&gt;
+                &lt;option value=&#34;11&#34;&gt;11&lt;/option&gt;
+                &lt;option value=&#34;12&#34;&gt;12&lt;/option&gt;
+                &lt;option value=&#34;13&#34;&gt;13&lt;/option&gt;
+                &lt;option value=&#34;14&#34;&gt;14&lt;/option&gt;
+                &lt;option value=&#34;15&#34;&gt;15&lt;/option&gt;
+                &lt;option value=&#34;16&#34;&gt;16&lt;/option&gt;
+                &lt;option value=&#34;17&#34;&gt;17&lt;/option&gt;
+                &lt;option value=&#34;18&#34;&gt;18&lt;/option&gt;
+                &lt;option value=&#34;19&#34;&gt;19&lt;/option&gt;
+                &lt;option value=&#34;20&#34;&gt;20&lt;/option&gt;
+                &lt;option value=&#34;21&#34;&gt;21&lt;/option&gt;
+                &lt;option value=&#34;22&#34;&gt;22&lt;/option&gt;
+                &lt;option value=&#34;23&#34;&gt;23&lt;/option&gt;
+                &lt;option value=&#34;24&#34;&gt;24&lt;/option&gt;
+                &lt;option value=&#34;25&#34;&gt;25&lt;/option&gt;
+                &lt;option value=&#34;26&#34;&gt;26&lt;/option&gt;
+                &lt;option value=&#34;27&#34;&gt;27&lt;/option&gt;
+                &lt;option value=&#34;28&#34;&gt;28&lt;/option&gt;
+                &lt;option value=&#34;29&#34;&gt;29&lt;/option&gt;
+                &lt;option value=&#34;30&#34;&gt;30&lt;/option&gt;
+                &lt;option value=&#34;31&#34;&gt;31&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;select id=&#34;mes&#34; required&gt;
+                &lt;option value=&#34;Janeiro&#34;&gt;Janeiro&lt;/option&gt;
+                &lt;option value=&#34;Fevereiro&#34;&gt;Fevereiro&lt;/option&gt;
+                &lt;option value=&#34;Março&#34;&gt;Março&lt;/option&gt;
+                &lt;option value=&#34;Abril&#34;&gt;Abril&lt;/option&gt;
+                &lt;option value=&#34;Maio&#34;&gt;Maio&lt;/option&gt;
+                &lt;option value=&#34;Junho&#34;&gt;Junho&lt;/option&gt;
+                &lt;option value=&#34;Julho&#34;&gt;Julho&lt;/option&gt;
+                &lt;option value=&#34;Agosto&#34;&gt;Agosto&lt;/option&gt;
+                &lt;option value=&#34;Setembro&#34;&gt;Setembro&lt;/option&gt;
+                &lt;option value=&#34;Outubro&#34;&gt;Outubro&lt;/option&gt;
+                &lt;option value=&#34;Novembro&#34;&gt;Novembro&lt;/option&gt;
+                &lt;option value=&#34;Dezembro&#34;&gt;Dezembro&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;select id=&#34;ano&#34;&gt;
+                &lt;option value=&#34;2024&#34;&gt;2024&lt;/option&gt;
+                &lt;option value=&#34;2025&#34;&gt;2025&lt;/option&gt;
+                &lt;option value=&#34;2026&#34;&gt;2026&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;br&gt;
+    &lt;br&gt;
+            &lt;label for=&#34;assinatura&#34;&gt;Assinante:&lt;/label&gt;
+            &lt;input type=&#34;text&#34; id=&#34;assinatura&#34; placeholder=&#34;Dr. Fulano&#34; required&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+    &lt;label for=&#34;nomeArquivo&#34;&gt;Nome do arquivo:&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=&#34;text&#34; id=&#34;nomeArquivo&#34; placeholder=&#34;meu_documento&#34; required&gt;
+    &lt;button onclick=&#34;generatePDF()&#34;&gt;Gerar PDF&lt;/button&gt;
+&lt;/div&gt;
+&lt;script src=&#34;./receituario.js&#34;&gt;&lt;/script&gt;
+
+</description>
+	</item>
 	
 	<item>
 		<title>Critérios de Centor e Jones em febre reumática</title>
@@ -19,14 +307,14 @@
 		<description>&lt;script src=&#34;./febre-reumatica.js&#34;&gt;&lt;/script&gt;
 &lt;div class=calculadoras&gt;
     &lt;h2&gt;Calculdora de profilaxia de Centor&lt;/h2&gt;
-    &lt;label for=idade&gt;Idade&lt;/label&gt;
+    &lt;label for=idade&gt;Idade (anos)&lt;/label&gt;
     &lt;br&gt;
     &lt;input id=idade type=number&gt;&lt;/input&gt;
     &lt;br&gt;
     &lt;label for=tonsilas&gt;Tonsilas&lt;/label&gt;
     &lt;br&gt;
     &lt;select id=tonsilas&gt;
-        &lt;option value=normal&gt;Normal&lt;/option&gt;
+        &lt;option value=normal&gt;Normais&lt;/option&gt;
         &lt;option value=anormal&gt;Edema ou exsudato&lt;/option&gt;
     &lt;/select&gt;
     &lt;br&gt;
@@ -44,7 +332,7 @@
 &lt;br&gt;
 &lt;div class=calculadoras&gt;
     &lt;h2&gt;Calculdora de tratamento Jones&lt;/h2&gt;
-    &lt;input id=riscoAlto type=checkbox&gt;População de moderado ou alto risco&lt;/input&gt;
+    &lt;input id=riscoAlto type=checkbox&gt;População de moderado ou alto risco para exposição ao estreptococo beta-hemolítico do grupo A¹&lt;/input&gt;
     &lt;br&gt;
     &lt;input id=monoartrite type=checkbox&gt;Monoartrite&lt;/input&gt;
     &lt;br&gt;
@@ -81,6 +369,10 @@
     &lt;p id=resultado2&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;O Brasil é considerado país com alto risco para exposição ao estreptococo beta-hemolítico.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;McIsaac WJ, Kellner JD, Aufricht P, Vanjaka A, Low DE. &lt;strong&gt;Empirical validation of guidelines for the management of pharyngitis in children and adults&lt;/strong&gt;. JAMA. 2004 Apr 7;291(13):1587-95. doi: 10.1001/jama.291.13.1587. Erratum in: JAMA. 2005 Dec 7;294(21):2700. PMID: 15069046.&lt;/li&gt;
@@ -248,6 +540,8 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;p&gt;Consiste em comparar a relação existente entre as hemácias e leucócitos da lesão suspeita, tomando como parâmetro esses elementos figurados do sangue de outra região qualquer do corpo. Se a relação dos glóbulos brancos e vermelhos se equivale nas duas contagens, diz-se que a lesão foi produzida &lt;mark&gt;após a morte&lt;/mark&gt;. Se a primeira contagem é superior à segunda, conclui-se pelo diagnóstico de uma lesão &lt;mark&gt;in vitam&lt;/mark&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;sedenho&#34;&gt;Sedenho&lt;/h3&gt;
 &lt;p&gt;Os projéteis e os agentes vulnerantes penetrantes na pele podem livrar-se de entrar nas quatro cavidades do corpo humano, sejam elas a abdominal, a torácica, craniana e raquiana. Nesses casos, a ferida é dita &lt;em&gt;em sedenho&lt;/em&gt;, fenômeno comumente ocorrido em casos de &amp;ldquo;&lt;em&gt;bala giratória&lt;/em&gt;&amp;rdquo;, quando o projétil faz trajetos curvos livrando as cavidades.&lt;/p&gt;
+&lt;h3 id=&#34;chuleio&#34;&gt;Chuleio&lt;/h3&gt;
+&lt;p&gt;Um mesmo projétil pode transfixas diversas partes do corpo, tornando o caminho um trajeto em costura de mais de um tecido, chamado &lt;strong&gt;chuleio&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;energia-mecânica&#34;&gt;Energia mecânica&lt;/h2&gt;
 &lt;h3 id=&#34;lesões-contusas&#34;&gt;Lesões contusas&lt;/h3&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
@@ -423,6 +717,8 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;p&gt;Portanto, na gradação da gravidade de lesões corporais, opera-se por exclusão, primeiro das possibilidades gravíssimas depois das graves.&lt;/p&gt;
 &lt;h3 id=&#34;perigo-de-vida&#34;&gt;Perigo de vida&lt;/h3&gt;
 &lt;p&gt;O perigo de vida foi uma feliz colocação do código penal que evitou a confusão comum deste termo. Caracteriza-se o perigo de vida pela real ameaça à vida, de forma concreta e possível. Jamais se deve admitir como perigo de vida as situações que partem da hipótese especulativa. Por exemplo, é um erro afirmar que uma ferida incisa no dedo indicador oferece perigo de vida já que uma infecção grave pode se alastrar como sepse e levar à morte. Já um traumatismo crâniano tem potencial efetivo real e imediato de causar a morte, a depender de sua energia e forma de ocorrência, configurando, este sim, um perigo de vida.&lt;/p&gt;
+&lt;h2 id=&#34;autolesões-simulações-e-metassimulações&#34;&gt;Autolesões, simulações e metassimulações&lt;/h2&gt;
+&lt;p&gt;Autolesão é a a lesão causada e sofrida pelo mesmo agente. Quando tem o interesse particular de indicar falsamente crime a outrem, chama-se simulação. Quando o agente agrava em si mesmo lesão já existente, chama-se metassimulação.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;bibliografias&#34;&gt;Bibliografias&lt;/h2&gt;
 &lt;ol&gt;
@@ -532,10 +828,10 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;h4 id=&#34;fenômenos-destrutivos&#34;&gt;Fenômenos destrutivos&lt;/h4&gt;
 &lt;h5 id=&#34;autólise&#34;&gt;Autólise&lt;/h5&gt;
 &lt;h5 id=&#34;putrefação&#34;&gt;Putrefação&lt;/h5&gt;
-&lt;p&gt;circulação póstuma de Brouardel.&lt;/p&gt;
+&lt;p&gt;São as fases da putrefação, em ordem:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Coloração&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enfisematoso ou gasoso&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enfisematoso ou gasoso&lt;/strong&gt;: evidenciado pela circulação póstuma de Brouardel.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Coliquativo ou liquefação&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Esqueletização&lt;/strong&gt;: ocorre em torno dos 36 meses após a morte e não é considerado um fenômeno destrutivo nem conservativo do cadáver e sim uma transformação de longo prazo. A doutrina &lt;mark&gt;diverge&lt;mark&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -630,6 +926,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;h4 id=&#34;3-meses&#34;&gt;3 meses&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Início da invasão legionária da quarta onda de Guerrin, os coleópteros &amp;mdash; bezouros &amp;mdash;, dípteros Sarcophaga etc.&lt;/li&gt;
+&lt;li&gt;No afogado, podem ser notadas pequenas calcificações pontuais nos restos de pele por depósito de sais calcários.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;6-meses&#34;&gt;6 meses&lt;/h4&gt;
 &lt;ul&gt;
@@ -686,27 +983,35 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 &lt;p&gt;O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação. O parto cesáreo ou de qualquer outra forma cirúrgica é encerrado com o ato cirúrgico em si.&lt;/p&gt;
 &lt;h2 id=&#34;definições&#34;&gt;Definições&lt;/h2&gt;
 &lt;p&gt;A doutrina jurídica é preocupada com a idade do muito jovem morto. Se possui resquícios de vita uterina e ainda não recebeu cuidados, trata-se do &lt;mark&gt;infante nascido&lt;/mark&gt; ou ainda do &lt;mark&gt;feto nascente&lt;/mark&gt;. Já aquele que recebe cuidados ou se passam 24h &lt;strong&gt;de vida&lt;/strong&gt; é um &lt;mark&gt;recém-nascido&lt;/mark&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;aborto&#34;&gt;Aborto&lt;/h3&gt;
-&lt;p&gt;Define-se aborto o encerramento gestacional antes da viabilidade fetal.&lt;/p&gt;
-&lt;p&gt;Para Ministério da Saúde, é inviável todos fetos que atenda quaisquer uma das hipóteses:&lt;/p&gt;
+&lt;h3 id=&#34;abortamento-e-aborto&#34;&gt;Abortamento e aborto&lt;/h3&gt;
+&lt;p&gt;Abortamento, de maneira &lt;em&gt;latu sensu&lt;/em&gt; é a interrupção da gestação antes de seu fim fisiológico, o parto.&lt;/p&gt;
+&lt;p&gt;Para a obstetrícia, &lt;strong&gt;abortamento&lt;/strong&gt; se refere a síndrome hemorrágica de primeiro trimestre que cursa com o encerramento gestacional antes da viabilidade fetal. Uma vez viável o feto, a obstetrícia procede, quando muito, a interrupção da gestação para o parto induzido ou para o parto de via abdominal, também chamada via alta ou cirúrgica, notadamente pela técnica cesariana.&lt;/p&gt;
+&lt;p&gt;Para o Ministério da Saúde, é inviável todo feto que atenda quaisquer uma das hipóteses:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Menos de 500g;&lt;/li&gt;
 &lt;li&gt;Menos de 25cm;&lt;/li&gt;
-&lt;li&gt;Menos de 20s.&lt;/li&gt;
+&lt;li&gt;Menos de 20 semanas.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Para a OMS, é inviável todos fetos que atenda quaisquer uma das hipóteses:&lt;/p&gt;
+&lt;p&gt;Para a Organização Mundial da Saúde, é inviável todo feto que atenda quaisquer uma das hipóteses:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Menos de 500g;&lt;/li&gt;
 &lt;li&gt;Menos de 16,5cm;&lt;/li&gt;
-&lt;li&gt;Menos de 22s.&lt;/li&gt;
+&lt;li&gt;Menos de 22 semanas.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Já para a medicina legal, o &lt;mark&gt;aborto&lt;/mark&gt; é o &lt;strong&gt;abortamento provocado&lt;/strong&gt; e refere-se à interrupção da gravidez a qualquer tempo, causada por uma intervenção externa e intencional para findar a gestação resultando na eliminação de um produto sem vida.&lt;/p&gt;
+&lt;p&gt;O produto do aborto pode ou não ser um sujeito da declaração de óbito, portanto, só é realizada para aqueles fetos que preenchiam critérios de viabilidade fetal para o Ministério da Saúde. Ademais, o produto do abortamento é chamado de &lt;strong&gt;peça&lt;/strong&gt; e tem destino anatomopatológico setorial da instituição responsável. O estudo do feto com óbito declarado ou da peça do aborto não deve confundir as duas situações.&lt;/p&gt;
 &lt;h3 id=&#34;infanticídio&#34;&gt;Infanticídio&lt;/h3&gt;
 &lt;p&gt;É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.&lt;/p&gt;
-&lt;p&gt;A discussão sobre a idade da vítima ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Ora, se assim é, como recuperar o conceito para aplicá-lo ao crime de fato ocorrido?&lt;/p&gt;
+&lt;p&gt;O estado puerperal é uma ficção do direito. Não existe a entidade médica &lt;strong&gt;estado puerperal&lt;/strong&gt;. Há, na verdade, o puerpério, período após o parto em que diversos reajustes fisiológicos ocorrem em todas mulheres recém paridas.&lt;/p&gt;
+&lt;p&gt;Porém, este conceito ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Em outras palavras, não basta o parto recente para configurar uma mãe afetada pelo estado puerperal.&lt;/p&gt;
+&lt;p&gt;A bem da verdade, o infanticídio decorre de um estado mental longo, concebido durante toda a gestação que é geralmente ocultada, pela desonra ou pela vergonha, estado este que produz na mulher sentimentos diametralmente opostos pelo filho vindouro, preocupações com o julgamento social, a vida a partir do nascimento dele e outras questões mais. A gestante vive um inferno mental até que é chegado o dia do parto, momento no qual seus recusos de dissonância cognitiva se acabam, sua esperança na ocultaçao da gestção não mais a acode e num lampejo de emoção forte e medo mata-o para preservar a sanidade, beirando o surto psicótico. Findada a tragédia, se arrepende ou se sente muito mal e já começa pagar pelo que fez, com a punição sentimental, motivo pelo qual o infanticídio é um crime privilegiado.&lt;/p&gt;
+&lt;h4 id=&#34;novo-código&#34;&gt;Novo código&lt;/h4&gt;
+&lt;p&gt;Ora, se há tal confusão com a figura jurídica do estado puerperal, como recuperar o conceito para aplicá-lo ao crime de fato ocorrido?&lt;/p&gt;
+&lt;p&gt;Eliminando de vez o conceito.&lt;/p&gt;
 &lt;p&gt;França traz a proposta de que um novo texto ao código penal versaria:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Infanticídio 
 Matar o próprio filho durante o parto ou sob a influência pertubadora deste.
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Afinal, não seria o parto em si o agravante da qualificação mas sua influência sobre a mulher que pari.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;E assim se findariam as laudas de discussão sobre o tema, estando clara a letra da lei se tratar sobre uma condição complexa e não de um conceito mal elaborado.&lt;/p&gt;
 &lt;h2 id=&#34;classificações-penais&#34;&gt;Classificações penais&lt;/h2&gt;
 &lt;p&gt;É admitida a tentativa do crime de aborto por se tratar de crime material.&lt;/p&gt;
 &lt;h3 id=&#34;tipos-penais&#34;&gt;Tipos penais&lt;/h3&gt;
@@ -1106,19 +1411,29 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
   &lt;/div&gt;
 
 &lt;h3 id=&#34;índice-de-badouin-ou-razão-condiliana&#34;&gt;Índice de Badouin ou razão condiliana&lt;/h3&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/medicina/condyle-animated.gif&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Côndilos em destaque&lt;/p&gt;
+  &lt;/div&gt;
+
 &lt;p&gt;Badouin propôs um método de determinação dos sexos que considerou absoluta por sua grande acurácia, mas hoje sabidamente não certeira como se pensava. Trata-se de um cáculo, assim proposto:&lt;/p&gt;
 &lt;p&gt;$$
-I_{B} = L_{c}/C_{c}
+I_{B} = (L_{c}/C_{c})100 \%
 $$&lt;/p&gt;
 &lt;p&gt;Onde $I_{B}$ é o índice de Badouin, $L_{c}$ é a largura do côndilo e $C_{c}$ é o seu comprimento.&lt;/p&gt;
 &lt;p&gt;Para análise:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;O $I_{B} &amp;gt; 55$ reflete crânio feminino;&lt;/li&gt;
-&lt;li&gt;O $50 &amp;lt; I_{B} &amp;lt; 55$ caracteriza crânio de sexo indeterminado; e&lt;/li&gt;
-&lt;li&gt;O $I_{B} &amp;lt; 50$ revela crânio masculino;&lt;/li&gt;
+&lt;li&gt;O $I_{B} &amp;gt; 55\%$ reflete crânio feminino;&lt;/li&gt;
+&lt;li&gt;O $50\% &amp;lt; I_{B} &amp;lt; 55\%$ caracteriza crânio de sexo indeterminado; e&lt;/li&gt;
+&lt;li&gt;O $I_{B} &amp;lt; 50\%$ revela crânio masculino;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Na minha opinião, chamar esta &lt;strong&gt;razão&lt;/strong&gt; de &lt;strong&gt;índice&lt;/strong&gt; é um erro. Porém, está assim consolidado na literatura.&lt;/p&gt;
-&lt;h3 id=&#34;craniômetro-de-galvão&#34;&gt;Craniômetro de Galvão&lt;/h3&gt;
+&lt;h3 id=&#34;craniometria&#34;&gt;Craniometria&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Cephalometric_analysis#Cephalometric_landmarks&#34;&gt;Análise cefalométrica na Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;craniômetro-de-galvão&#34;&gt;Craniômetro de Galvão&lt;/h4&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;sistema-datiloscópico-de-vucetich&#34;&gt;Sistema datiloscópico de Vucetich&lt;/h2&gt;
 &lt;p&gt;O argentino Vucetich propôs um sistema lógico para obtenção de identidade humana a partir dos desenhos formados pela rugosidade padrão da pele das mãos[1].&lt;/p&gt;
@@ -3954,16 +4269,29 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;li&gt;&lt;strong&gt;Hipercapnia:&lt;/strong&gt; acúmulo de dióxido de carbono na circulação.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Inibição:&lt;/strong&gt; perda da resposta neuronal cervical por compressão, causando disautonomias como a apneia.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;sinais-gerais-de-asfixias&#34;&gt;Sinais gerais de asfixias&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vestígios como instrumentos e posição do corpo;&lt;/li&gt;
+&lt;li&gt;Tendência a apresentar sangue fluido e de cor escura, pela predominância de sangue venoso;&lt;/li&gt;
+&lt;li&gt;Cianose da face e leitos ungueais;&lt;/li&gt;
+&lt;li&gt;Espuma na boca e narinas; e&lt;/li&gt;
+&lt;li&gt;Equimoses externas.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;asfixias-puras&#34;&gt;Asfixias puras&lt;/h2&gt;
 &lt;p&gt;Cursam com anoxemia e hipercapnia.&lt;/p&gt;
 &lt;h3 id=&#34;gases-irrespiráveis&#34;&gt;Gases irrespiráveis&lt;/h3&gt;
 &lt;h4 id=&#34;monóxido-de-carbono&#34;&gt;Monóxido de carbono&lt;/h4&gt;
 &lt;p&gt;A caboxihemoglobina é de forte associação e impede a ligação de oxigênio, tornando predominante as hemáceas inúteis a respiração celular.&lt;/p&gt;
 &lt;p&gt;A morte ocorre, também, com depressão gradual do SNC e é indolor. Muito comum no suicídio, notadamente na sua forma egoísta. Observa-se hipóstases róseas carminadas.&lt;/p&gt;
+&lt;p&gt;Aqueles que sucumbiram sob o efeito do monóxido de carbono tem o sangue em cor vermelho vivo.&lt;/p&gt;
 &lt;h4 id=&#34;confinamento&#34;&gt;Confinamento&lt;/h4&gt;
 &lt;h3 id=&#34;transformação-do-meio&#34;&gt;Transformação do meio&lt;/h3&gt;
 &lt;h4 id=&#34;afogamento&#34;&gt;Afogamento&lt;/h4&gt;
 &lt;p&gt;O verdadeiro afogamento é comumente chamado nos círculos de medicina legal como &lt;strong&gt;afogamento azul&lt;/strong&gt;. O afogado azul é aquele que sofreu a asfixia submerso no líquido. Os já falecidos que são lançados para submersão em líquido para simular afogamento são chamados de afogados brancos e, no Brasil, trata-se sempre de um crime.&lt;/p&gt;
+&lt;p&gt;Os achados do afogado real são o &amp;mdash; nem sempre presente &amp;mdash; cogumelo de espuma róseo, o avanço da mancha verde iniciada no tórax e não no abdome e a presença de materiais estranhos nas vias aéreas, de origem aquática ou do líquido origem do afogamento além do sangue rosado e claro, diferente de outros asfixiados, causado pela hemodiluição.&lt;/p&gt;
+&lt;p&gt;Materiais estranhos podem ser encontrados em todos os brônquios pois foram aspirados, diferentemente do falso afogado que geralmente apresenta corpos estranhos até a traqueia, ou, no máximo, até o brôquio primário. Nos leitos aquáticos naturais, é comum a presença no exame de plâncton nas vias aéreas.&lt;/p&gt;
+&lt;p&gt;No pulmão do afogado, podem ou não surgir &lt;strong&gt;petéquias&lt;/strong&gt; e as &lt;strong&gt;manchas equimóticas lenticulares de Tardieu&lt;/strong&gt;, mas é indispensável que estejam presente as &lt;strong&gt;manchas subpleurais equimóticas de Paltauf&lt;/strong&gt;, sem as quais não fala em morte por afogamento.&lt;/p&gt;
+&lt;p&gt;Além disso, podem ocorrer a presença de água no estômago, o enfisema hidroaéreo do pulmão, a água nas vias respiratórias e a presença de líquido nos ouvidos.&lt;/p&gt;
 &lt;h5 id=&#34;conduta-no-afogamento&#34;&gt;Conduta no afogamento&lt;/h5&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
     a(Resposta ao chamado) -- Não --&gt; y(Desobstrua via aérea, &lt;br&gt;jawthrust, checar respiração &lt;br&gt;+ cuidado com trauma cervical) -- Sem&lt;br&gt; pulso carotídeo --&gt; x(Morte/Grau 6)
@@ -3976,6 +4304,7 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;/pre&gt;
 
 &lt;h5 id=&#34;fases-do-afogamento&#34;&gt;Fases do afogamento&lt;/h5&gt;
+&lt;p&gt;(Ver se convulsão ocorre no segundo ou terceiro momento)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Defesa ou resistência: a vítima tenta conter a respiração o máximo possível, ocorrendo a contenção e a pausa ou &lt;strong&gt;apneia&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Exaustão: ocorre atos respiratórios desordenados, com respiração forçada e difícil, por reflexo. a vítima inspira líquido profundamente com &lt;strong&gt;dispneia&lt;/strong&gt;.&lt;/li&gt;
@@ -3991,8 +4320,17 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 &lt;h2 id=&#34;asfixias-complexas&#34;&gt;Asfixias complexas&lt;/h2&gt;
 &lt;p&gt;Cursam com anoxemia, hipercapnia e inibição, de forma concomitante, tendo todos três fenômenos concorridos para morte.&lt;/p&gt;
 &lt;h3 id=&#34;enforcamento&#34;&gt;Enforcamento&lt;/h3&gt;
-&lt;p&gt;O osso hioide pode estar íntegro.&lt;/p&gt;
+&lt;p&gt;O osso hioide pode estar íntegro. A língua pode se projetar fora da boca (procidêncida).&lt;/p&gt;
+&lt;p&gt;No enforcamento podemos encontrar sinais de Livores distribuídos em torno ou nos próprios sulcos da lesão:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ponsold;&lt;/li&gt;
+&lt;li&gt;Azevedo Neves;&lt;/li&gt;
+&lt;li&gt;Neyding;&lt;/li&gt;
+&lt;li&gt;Ambroise Paré;&lt;/li&gt;
+&lt;li&gt;Thoinot.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;estrangulamento&#34;&gt;Estrangulamento&lt;/h3&gt;
+&lt;p&gt;A procidência da língua também é um sinal comum do estrangulamento.&lt;/p&gt;
 &lt;h2 id=&#34;fases-das-asfixias&#34;&gt;Fases das asfixias&lt;/h2&gt;
 &lt;h3 id=&#34;1ª-fase-cerebral&#34;&gt;1ª fase: cerebral&lt;/h3&gt;
 &lt;p&gt;Vertigens, enjoos, sensação de angústia e lipotimia (prestes a desmaiar). Perda do conhecimento de forma rápida e bradipneia taquisfigmia (respiração lenta)
@@ -4008,25 +4346,6 @@ Acelera a morte
 &lt;h3 id=&#34;4ª-fase-cardíaca&#34;&gt;4ª fase: cardíaca&lt;/h3&gt;
 &lt;p&gt;Sofrimento do miocárdio: batimentos do coração lentos, arrítmicos, quase imperceptíveis ao pulso
 3 a 5 minutos&lt;/p&gt;
-&lt;h2 id=&#34;típicos-sinais-asfíxicos&#34;&gt;Típicos sinais asfíxicos&lt;/h2&gt;
-&lt;p&gt;Na morte por asfixia, o sangue do indivíduo é fluido e de cor escura, pela predominância de sangue venoso. Porém, aqueles que sucumbiram sob o efeito do monóxido de carbono tem o sangue em cor vermelho vivo, e os afogados que ingeriram grande quantidade de líquido, na cor rosada.&lt;/p&gt;
-&lt;p&gt;No enforcamento podemos encontrar sinais de Livores distribuídos em torno ou nos próprios sulcos da lesão:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ponsold;&lt;/li&gt;
-&lt;li&gt;Azevedo Neves;&lt;/li&gt;
-&lt;li&gt;Neyding;&lt;/li&gt;
-&lt;li&gt;Ambroise Paré;&lt;/li&gt;
-&lt;li&gt;Thoinot.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A procidência da língua é um sinal comum do enforcamento e do estrangulamento.&lt;/p&gt;
-&lt;p&gt;Asfixias mecânicas causam manchas de Tardieu.&lt;/p&gt;
-&lt;p&gt;Os achados necroscópicos frequentes, segundo o França, no afogamento são: sinais internos: diluição do sangue (em razão da ingestão de grande quantidade de líquido); presença de água no estômago; enfisema hidroaéreo do pulmão; manchas de “Paltauf” (hemorragias pleurais no pulmão); presença de plâncton e água nas vias respiratórias (nariz e boca); presença de líquido nos ouvidos.&lt;/p&gt;
-&lt;p&gt;Sinais gerais de todas asfixias:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cianose da face e leitos ungueais.&lt;/li&gt;
-&lt;li&gt;Espuma na boca e narinas.&lt;/li&gt;
-&lt;li&gt;Equimoses externas.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;anóxias&#34;&gt;Anóxias&lt;/h2&gt;
 &lt;h3 id=&#34;anóxica&#34;&gt;Anóxica&lt;/h3&gt;
 &lt;h4 id=&#34;enforcamento-1&#34;&gt;Enforcamento&lt;/h4&gt;
