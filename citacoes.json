@@ -1,5 +1,11 @@
 [
 	{
+		"autor": "Parmenides",
+		"citacoes": [
+			"Ex nihilo nihil fit."
+		]
+	},
+	{
 		"autor": "Sigmund Freud",
 		"citacoes": [
 			"Quando Pedro me fala sobre Paulo, sei mais de Pedro que de Paulo",
@@ -16,7 +22,7 @@
 	{
 		"autor": "Racionais",
 		"citacoes": [
-			"Em São Paulo Deus é uma nota de cem.",
+			"Em São Paulo, Deus é uma nota de cem.",
 			"Lave o rosto nas águas sagradas da pia, nada como um dia após o outro dia."
 		]
 	},
@@ -59,7 +65,7 @@
 	{
 		"autor" : "Lisa Simpson",
 		"citacoes": [
-			"... o romance está morto. Foi adquirido de forma hostil pela Hallmark e pela Disney, homogenizado e vendido pedaço por pedaço."
+			"... o romance está morto. Foi adquirido de forma hostil pela Hallmark e pela Disney, homogeneizado e vendido pedaço por pedaço."
 		]
 	},
 	{

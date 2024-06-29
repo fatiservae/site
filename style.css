@@ -124,6 +124,7 @@ Regras de estilo:
   --vermelhoDailyBeast: #ea0606;
 
   /* PROPRIEDADES */
+  --iconeBarraSize: 30px;
   scrollbar-color: var(--barraRolagem) var(--fundo);
   --margem: 5vw;
   --margem2: 7vw;
@@ -193,7 +194,7 @@ Regras de estilo:
   --corFundoHoverBotao: initial;
   --headings: initial;
   --fundo-invertido: initial;
-  --fundo-input: initial;
+  --fundo-input: var(--ferrugem3);
   --separador: initial;
   --fonte: navajowhite ;
   --fonteInvertida: initial;
@@ -249,7 +250,73 @@ Regras de estilo:
   color: #444;
   padding: 0 10px;
 }
-:root[data-tema="noturno"] { /* noturno */
+:root[data-tema="light"] { 
+  /*
+  --corH2: var(--letragradiente-dark);
+  */
+  --bordaEtiqueta: 1px solid darkgray;
+  --bordas: 1px solid var(--corBordas);
+  --corMark: white;
+  --corProgressBar: tomato;
+  --imageBackgroundHeadings: var(--corH2-gradiente); 
+  --corH2: transparent;
+  --corH4: var(--rosinhaMDN);
+  --bordasHeading: none;
+  --fundoHeading: none;
+  --corFundoCode: #303030;
+  --barraRolagem: #282828;
+  --highlightCor: tomato;
+  --corBarraSelecionado: var(--amarelo-servo);
+  --fundo-card: linear-gradient(85deg,#101010,#262626);
+  --corH2-gradiente: linear-gradient(
+                      90deg, 
+                      #4b83f0, 
+                      #6b7ce1, 
+                      #8776d4, 
+                      #ab6fb4, 
+                      #be6b98, 
+                      #d96570, 
+                      #d56676
+                     );
+  --corHoverBotao: navajowhite ;
+  --corH1: var(--pimenta);
+  --corH3: tomato;
+  --corNegrito: black; 
+  --switch-shadow: -2px 1px 10px #ffffff;
+  --fundo-carousel: none;
+  --corTextoCode: #eee ;
+  --strong-color: black;
+  --texto-dim: darkgray ;
+  --letragradiente: black;
+  --katex-color: var(--fonte);
+  --corBotao: var(--fundo-input);
+  --corFundoHoverBotao: #2e2c35;
+  --headings: black;
+  --corBordas: #282828;
+  --fundo-invertido: darkgray ;
+  --fundo-input: tan;
+  --separador: darkgray;
+  --fonte: #282828;
+  --fonteInvertida: white;
+  --frase: var(--azul-gemini);
+  --fraseShow: black;
+  --fraseHover: darkred ;
+  --autor: var(--azul-estadao);
+  --sticker-fundo: var(--gradiente-light) ;
+  --corLinks: var(--azul-gemini) ;
+  --corLinksVisitados: var(--azul-escuro-google) ;
+  --corLinksHover: black;
+  --termo: tomato ;
+  --link-barra: var(--tomato-gemini);
+  --fundo: #eee ; 
+  --gradfundo: linear-gradient(
+                to bottom, 
+                #26130f, 
+                #001b3f
+               );
+  --sombra: #353535;
+}
+:root[data-tema="dark"] { /* noturno */
   /*
   --corH2: var(--letragradiente-dark);
   */
@@ -524,7 +591,7 @@ Regras de estilo:
   --sticker-font: brown;
   --termo: white ;
 }
-:root[data-tema="moderno"] { /* papel */
+:root[data-tema=""] { /* papel */
   /*
   --margem2: var(--margem);
   --margem3: calc(var(--margem) + 2);
@@ -560,8 +627,8 @@ Regras de estilo:
   --texto-dim: #555555;
   --letragradiente: white;
   --katex-color: var(--fonte);
-  --corBotao: var(--fundo-input);
-  --corFundoHoverBotao: #2e2c35;
+  --corBotao: #cff;
+  --corFundoHoverBotao: #aff;
   --corHoverBotao: white;
   --headings: navajowhite ;
   --corBordas: #383f48 ;
@@ -604,6 +671,7 @@ body {
   -webkit-overflow-scrolling: touch;
   height: 100vh;
   background-repeat: no-repeat;
+  display: block;
 */
   font-weight: light;
   background: var(--fundo);
@@ -1222,6 +1290,8 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_sociologia::before { content: "👩🏻‍💼 " ;}
+#tag_ginecologia::before { content: "♀ " ;}
 #tag_documentos::before { content: "📄 " ;}
 #tag_ferramentas::before { content: "🔧 " ;}
 #tag_obstetrícia::before { content: "🤰 " ;}
@@ -1873,67 +1943,75 @@ nav#TableOfContents li:last-child::before {
 }
 
 .barra {
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 10px ;
   /*
-  */
-  position: absolute;
-  top: 1vw;
+  text-align: right;
   right: 3vw;
+  top: 1vw;
+  position: absolute;
+  display: flex;
   width: fit-content;
   line-height: 1.5;
   background: none;
-  margin-right: 8vw;
   font-weight: bold ;
-  white-space: nowrap;
+  max-width: 90vw;
+  white-space: normal; 
+  overflow-wrap: break-word;
+  */
+}
+#icone-tema {
+  border: none;
 }
 .barra a{
-  /* 
-  */
+  padding-right: 3px;
+  padding-left: 3px;
   font-size: 110%;
+  color: var(--fonte);
+  border-bottom: 2px solid var(--fonte);
+  border-left: 0.5px solid var(--fonte);
+  border-right: 0.5px solid var(--fonte);
+  white-space: none;
+  /*
   font-weight: normal;
   padding: 2px;
   padding-left: 10px;
   border: var(--bordaLinksBarra);
-  color: var(--link-barra);
   transition: border 500ms ease-in-out;
   font-feature-settings: "kern" 1;
-  white-space: nowrap;
   background: var(--fundoBarra);
   box-shadow: var(--sombraCaixas);
+  */
 }
 .barra a[href]:visited, .barra a[href] {
-  /* 
+  /*
   */
-  color: var(--link-barra);
-  font-weight: normal;
+  color: var(--fonte);
+  font-weight: bold;
+  border-bottom: 2px solid var(--fonte);
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
-  /* 
-  */
-  background: var(--corFundoBarraHover);
-  color: var(--corFonteBarraHover);
 }
 
 .barra a[href]:visited:active,
 .barra a[href]:active {
-  /* 
-  */
-  font-weight: bold;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
   .barra {
+    margin-right: 10px ;
     /*
-    */
     font-size: 90%;
     position: static;
     margin-left: 3vw;
     margin-right: 1vw;
+    */
   }
   .barra a {
     /*
-    font-size: 150%;
-    */
     transition: background 0ms ease-in-out;
+    */
   }
 }
 .barra select, .barra button {
@@ -1944,7 +2022,8 @@ nav#TableOfContents li:last-child::before {
   font-weight: bold;
 }
 .barra button {
-  padding-right: 10px
+  padding-right: 3px;
+  margin-bottom: 3px;
 }
 
 div#counter {
@@ -2191,7 +2270,6 @@ div#counter {
   max-width: var(--largura-texto);
 }
 
-
 .fundo-only-big {
   display: var(--displayFigurasFundo);
   position: fixed; 
@@ -2289,4 +2367,81 @@ div#vim {
 
 .receituario{
   margin-left: var(--margem);
+}
+
+#config {
+  display: none;
+  background-color: red;
+  width: 90vw;
+  height: 90vw;
+}
+
+/* Dropdown Button */
+.dropbtn {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover,
+.dropdown-content a:focus,
+.dropdown-content a:active {
+  background-color: var(--corFundoHoverBotao);
+  border-radius: var(--raioBordas);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content,
+.dropdown:active .dropdown-content {
+  display: block;
+  background-color: var(--corFundoHoverBotao);
+  border-radius: var(--raioBordas);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn,
+.dropdown:focus .dropbtn,
+.dropdown:active .dropbtn {
+  background-color: var(--corFundoHoverBotao);
+  border-radius: var(--raioBordas);
+}
+@media (hover: none) and (pointer: coarse) {
+  .dropdown .droptbn{
+    display: none;
+  }
+  .dropdown.droptbn:focus,
+  .dropdown.droptbn:active {
+    display: block;
+  }
+}
+
+.icone-barra {
+  text-shadow: none;
+  transition: text-shadow 200ms ease-in-out;
+  fill: var(--fonte);
+  stroke: var(--fonte);
+  width: var(--iconeBarraSize);
+  height: var(--iconeBarraSize);
+}
+.icone-barra:hover {
+  text-shadow: 4px 4px 4px var(--fonte);
 }

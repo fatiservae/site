@@ -467,6 +467,12 @@
         "dosagem": [2, 1],
         "via": "intravenoso",
         "instrucao": "sedação pediátrica para intubação de emergência."
+      },
+      {
+        "unidades": ["mg", "kg"],
+        "dosagem": [0.02, 1],
+        "via": "intramuscular",
+        "instrução": "para sedação pediátrica sem acesso venoso."
       }
     ],
     "obs": [

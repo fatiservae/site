@@ -13,77 +13,37 @@
           });
       });
   </script>
-  
-    <p class=emConstrucao >ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO</p>
-  
 
   
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-      if (temaAtual === 'noturno') { 
+      if (temaAtual === 'dark') {
       mermaid.initialize({ 
           'theme': 'base',
           timeline: {disableMulticolor: true},
           'themeVariables': {
-            cScale0: '#ffdead', 
-            cScaleLabel0: '#282828',
-            cScale1: '#a0acb9',
-            cScaleLabel1: '#000000', 
             'primaryColor': 'transparent',
-            'primaryTextColor': '#a0acb9',
+            'primaryTextColor': 'white',
             'primaryBorderColor': '#ffdead',
             'lineColor': '#ffdead',
-            'secondaryColor': '#262626',
+            'secondaryColor': '#22272e',
             'tertiaryColor': '#fff'
           }
       });
-    } else if (temaAtual === 'arido' || temaAtual === 'cafe' || temaAtual === 'comics'){ 
-      mermaid.initialize({ 
-          'theme': 'base',
-          'timeline': {'disableMulticolor': true},
-          'themeVariables': {
-            'cScale0': '#ffdead', 
-            'cScaleLabel0': '#282828',
-            'primaryColor': 'transparent',
-            'primaryTextColor': '#000000',
-            'primaryBorderColor': 'black',
-            'lineColor': '#000000',
-            'secondaryColor': '#ffdead',
-            'tertiaryColor': '#fff'
-          }
-      });
-    } else if (temaAtual === 'moderno' ) {
+    } else {
       mermaid.initialize({ 
           theme: 'base',
           timeline: {'disableMulticolor': true},
           themeVariables: {
-            'cScale0': 'black', 
-            'cScaleLabel0': '#282828',
             'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
             'primaryBorderColor': 'black',
             'lineColor': '#000000',
-            'secondaryColor': '#282828',
-            'tertiaryColor': '#000'
+            'secondaryColor': '#eee',
+            'tertiaryColor': 'white'
           }
       });
-    } else if (temaAtual === 'laranja' ) {
-      mermaid.initialize({ 
-          theme: 'base',
-          timeline: {'disableMulticolor': true},
-          themeVariables: {
-            'cScale0': '#ff5510', 
-            'cScaleLabel0': '#181818',
-            'primaryColor': 'transparent',
-            'primaryTextColor': '#eee',
-            'primaryBorderColor': '#aa1000',
-            'lineColor': '#dd4000',
-            'secondaryColor': '#181818',
-            'tertiaryColor': '#181818'
-          }
-      });
-    }
-
+    } 
     </script>
   
 
@@ -103,46 +63,15 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-
-
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
 
 </head>
 <body>
@@ -168,151 +97,60 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
           scrollbar.style.display = 'none'; 
       }, 2000); 
   });
-
 </script>
 
-  <div class="barra">
-      <select id=menu>
-        <option>navegação</option>
-        <option value="/index.html">início</option>
-        <option value="/medicina/bulario">bulário</option>
-        <option value="/files/">arquivos</option>
-        <option value="/tags/">assuntos</option>
-        <option value="/dicionario/">dicionário</option>
-        <option value="/sites-uteis/">sites úteis</option>
-        <option value="/tags/calculadoras/">calculadoras</option>
-        <option value="/medicina/banco-de-questoes/">banco de questões</option>
-
-      </select>
-      <script>
-        document.getElementById("menu").addEventListener('change', function() {
-          let selectedPage = this.value;
-          window.location.href = selectedPage; 
-        });
-      </script>
-
-      <select id="temas-seletor">
-        <option value=0>temas</option>
-        <option value=cafe>café</option>
-        <option value=arido>árido</option>
-        <option value=laranja>laranja</option>
-        <option value=comics>comics</option>
-        <option value=noturno>noturno</option>
-        <option value=moderno>moderno</option>
-        
-      </select>
-      <script>
-        document.getElementById('temas-seletor').addEventListener('change', function() {
-          let selectedValue = this.value;
-          console.log(selectedValue);
-          if (selectedValue == 0) {
-            return
-          }
-          document.documentElement.setAttribute('data-tema', selectedValue);
-          localStorage.setItem('tema', selectedValue); 
-          document.getElementById('temas-seletor').value = 0;
-        });
-      </script>
-  </div>
+<div class="barra">
+  <p>
+  <a id=icone-tema href="#" onclick="tema()"></a>
+  <button onclick="window.location.href='../../index.html'">Início</button>
+  <button onclick="window.location.href='../../files/'">Arquivos</button>
+  <button onclick="window.location.href='../../tags/calculadoras/'">Calculadoras</button>
+  <button onclick="window.location.href='../../dicionario/'">Dicionário</button>
+  <button onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
+  </p>
+  
+</div>
 <article>
+  
+    <p class=emConstrucao >ATENÇÃO: ESTA PÁGINA ESTÁ EM CONSTRUÇÃO</p>
+  
 <br>
 
   <h1>Aborto e infanticídio no Brasil</h1>
 
 <script>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  const temaAtual = localStorage.getItem('tema');
-
-  if (temaAtual === 'noturno') {
-    document.documentElement.setAttribute('data-tema', 'noturno');
-    
-  } else if (temaAtual === 'arido') {
-    document.documentElement.setAttribute('data-tema', 'arido');
-    
-  } else if (temaAtual === 'raiz') {
-    document.documentElement.setAttribute('data-tema', 'raiz');
-    
+  function setIconeLight(){
+    document.getElementById("icone-tema").innerHTML = `<svg class="icone-barra"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12Z" fill="var(--fonte)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C12.4142 1.25 12.75 1.58579 12.75 2V4C12.75 4.41421 12.4142 4.75 12 4.75C11.5858 4.75 11.25 4.41421 11.25 4V2C11.25 1.58579 11.5858 1.25 12 1.25ZM3.66865 3.71609C3.94815 3.41039 4.42255 3.38915 4.72825 3.66865L6.95026 5.70024C7.25596 5.97974 7.2772 6.45413 6.9977 6.75983C6.7182 7.06553 6.2438 7.08677 5.9381 6.80727L3.71609 4.77569C3.41039 4.49619 3.38915 4.02179 3.66865 3.71609ZM20.3314 3.71609C20.6109 4.02179 20.5896 4.49619 20.2839 4.77569L18.0619 6.80727C17.7562 7.08677 17.2818 7.06553 17.0023 6.75983C16.7228 6.45413 16.744 5.97974 17.0497 5.70024L19.2718 3.66865C19.5775 3.38915 20.0518 3.41039 20.3314 3.71609ZM1.25 12C1.25 11.5858 1.58579 11.25 2 11.25H4C4.41421 11.25 4.75 11.5858 4.75 12C4.75 12.4142 4.41421 12.75 4 12.75H2C1.58579 12.75 1.25 12.4142 1.25 12ZM19.25 12C19.25 11.5858 19.5858 11.25 20 11.25H22C22.4142 11.25 22.75 11.5858 22.75 12C22.75 12.4142 22.4142 12.75 22 12.75H20C19.5858 12.75 19.25 12.4142 19.25 12ZM17.0255 17.0252C17.3184 16.7323 17.7933 16.7323 18.0862 17.0252L20.3082 19.2475C20.6011 19.5404 20.601 20.0153 20.3081 20.3082C20.0152 20.6011 19.5403 20.601 19.2475 20.3081L17.0255 18.0858C16.7326 17.7929 16.7326 17.3181 17.0255 17.0252ZM6.97467 17.0253C7.26756 17.3182 7.26756 17.7931 6.97467 18.086L4.75244 20.3082C4.45955 20.6011 3.98468 20.6011 3.69178 20.3082C3.39889 20.0153 3.39889 19.5404 3.69178 19.2476L5.91401 17.0253C6.2069 16.7324 6.68177 16.7324 6.97467 17.0253ZM12 19.25C12.4142 19.25 12.75 19.5858 12.75 20V22C12.75 22.4142 12.4142 22.75 12 22.75C11.5858 22.75 11.25 22.4142 11.25 22V20C11.25 19.5858 11.5858 19.25 12 19.25Z" fill="var(--fonte)"/></svg>`;
   }
-  else if (temaAtual === 'comics') {
-    document.documentElement.setAttribute('data-tema', 'comics');
-    
+  function setIconeDark(){
+    document.getElementById("icone-tema").innerHTML= `<svg class="icone-barra" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="icone-barra" d="M19.9001 2.30719C19.7392 1.8976 19.1616 1.8976 19.0007 2.30719L18.5703 3.40247C18.5212 3.52752 18.4226 3.62651 18.298 3.67583L17.2067 4.1078C16.7986 4.26934 16.7986 4.849 17.2067 5.01054L18.298 5.44252C18.4226 5.49184 18.5212 5.59082 18.5703 5.71587L19.0007 6.81115C19.1616 7.22074 19.7392 7.22074 19.9001 6.81116L20.3305 5.71587C20.3796 5.59082 20.4782 5.49184 20.6028 5.44252L21.6941 5.01054C22.1022 4.849 22.1022 4.26934 21.6941 4.1078L20.6028 3.67583C20.4782 3.62651 20.3796 3.52752 20.3305 3.40247L19.9001 2.30719Z" var(--fonte)/><path class="icone-barra" d="M16.0328 8.12967C15.8718 7.72009 15.2943 7.72009 15.1333 8.12967L14.9764 8.52902C14.9273 8.65407 14.8287 8.75305 14.7041 8.80237L14.3062 8.95987C13.8981 9.12141 13.8981 9.70107 14.3062 9.86261L14.7041 10.0201C14.8287 10.0694 14.9273 10.1684 14.9764 10.2935L15.1333 10.6928C15.2943 11.1024 15.8718 11.1024 16.0328 10.6928L16.1897 10.2935C16.2388 10.1684 16.3374 10.0694 16.462 10.0201L16.8599 9.86261C17.268 9.70107 17.268 9.12141 16.8599 8.95987L16.462 8.80237C16.3374 8.75305 16.2388 8.65407 16.1897 8.52902L16.0328 8.12967Z" var(--fonte)/><path class="icone-barra" d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" var(--fonte)/></svg>`;
   }
-  else if (temaAtual === 'cafe') {
-    document.documentElement.setAttribute('data-tema', 'cafe');
-    
-  }
-  else if (temaAtual === 'laranja') {
-    document.documentElement.setAttribute('data-tema', 'laranja');
-    
-  }
-  else if (temaAtual === 'moderno') {
-    document.documentElement.setAttribute('data-tema', 'moderno');
-    
-  }
-  else { 
-    document.documentElement.setAttribute('data-tema', 'moderno');
-    
+  let temaAtual = localStorage.getItem('tema');
+  if (temaAtual == "dark") {
+    setIconeDark();
+    document.documentElement.setAttribute('data-tema', "dark");
+    localStorage.setItem('tema', "dark"); 
+  } else {
+    setIconeLight();
+    document.documentElement.setAttribute('data-tema', "light");
+    localStorage.setItem('tema', "light"); 
   }
 
-  function alternarTema(tema) {
-    const temaAtual = document.documentElement.getAttribute('data-tema');
-    document.documentElement.setAttribute('data-tema', tema);
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    const mermaidTags = document.querySelectorAll('pre.mermaid');
-    if (mermaidTags.length > 0) {
-      location.reload();
+  function tema() {
+    temaAtual = localStorage.getItem('tema');
+    if (temaAtual == "light") {
+      document.documentElement.setAttribute('data-tema', "dark");
+      localStorage.setItem('tema', "dark"); 
+      setIconeDark();
+    } else {
+      document.documentElement.setAttribute('data-tema', "light");
+      localStorage.setItem('tema', "light"); 
+      setIconeLight();
     }
+    
+      location.reload();
+    
   }
-
 </script>
 
 
@@ -324,31 +162,34 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
         <li><a href="#fim">Fim</a></li>
       </ul>
     </li>
-    <li><a href="#definições">Definições</a>
+    <li><a href="#conceitos">Conceitos</a>
       <ul>
         <li><a href="#abortamento-e-aborto">Abortamento e aborto</a></li>
-        <li><a href="#infanticídio">Infanticídio</a></li>
-      </ul>
-    </li>
-    <li><a href="#classificações-penais">Classificações penais</a>
-      <ul>
-        <li><a href="#tipos-penais">Tipos penais</a></li>
+        <li><a href="#feto-inviável">Feto inviável</a></li>
+        <li><a href="#abortamento-médico-legal">Abortamento médico-legal</a></li>
+        <li><a href="#declaração-de-óbito">Declaração de óbito</a></li>
+        <li><a href="#classificações">Classificações</a></li>
         <li><a href="#mapa-mental">Mapa mental</a></li>
         <li><a href="#manobras-abortivas-periparto">Manobras abortivas periparto</a></li>
         <li><a href="#formas-ectópicas">Formas ectópicas</a></li>
-        <li><a href="#aborto-recente">Aborto Recente</a></li>
-        <li><a href="#aborto-antigo">Aborto Antigo</a></li>
+        <li><a href="#investigação-do-aborto">Investigação do aborto</a></li>
       </ul>
     </li>
     <li><a href="#morte-intraútero">Morte intraútero</a>
       <ul>
         <li></li>
-        <li><a href="#polêmicas">Polêmicas</a></li>
       </ul>
     </li>
-    <li><a href="#infanticídio-1">Infanticídio</a>
+    <li><a href="#polêmicas">Polêmicas</a>
+      <ul>
+        <li><a href="#dispositivo-intrauterino-e-yuzpe">Dispositivo intrauterino e Yuzpe</a></li>
+        <li><a href="#idade-do-concepto">Idade do concepto</a></li>
+      </ul>
+    </li>
+    <li><a href="#infanticídio">Infanticídio</a>
       <ul>
         <li><a href="#puerpério-puérpera-e-estado-puerperal">Puerpério, puérpera e estado puerperal</a></li>
+        <li><a href="#novo-código">Novo código</a></li>
       </ul>
     </li>
     <li><a href="#aborto-ou-infanticídio">Aborto ou infanticídio?</a>
@@ -368,11 +209,11 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
 <p>Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação <em>sine qua non</em> e a nidação que assume característica definidora posterior. O marco <strong>legal atualmente adotado no Brasil é a nidação bem sucedida</strong> que ocorre, normalmente, cerca de 14 dias após a fecundação.</p>
 <h3 id="fim">Fim</h3>
 <p>O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação. O parto cesáreo ou de qualquer outra forma cirúrgica é encerrado com o ato cirúrgico em si.</p>
-<h2 id="definições">Definições</h2>
-<p>A doutrina jurídica é preocupada com a idade do muito jovem morto. Se possui resquícios de vita uterina e ainda não recebeu cuidados, trata-se do <mark>infante nascido</mark> ou ainda do <mark>feto nascente</mark>. Já aquele que recebe cuidados ou se passam 24h <strong>de vida</strong> é um <mark>recém-nascido</mark>.</p>
+<h2 id="conceitos">Conceitos</h2>
 <h3 id="abortamento-e-aborto">Abortamento e aborto</h3>
 <p>Abortamento, de maneira <em>latu sensu</em> é a interrupção da gestação antes de seu fim fisiológico, o parto.</p>
 <p>Para a obstetrícia, <strong>abortamento</strong> se refere a síndrome hemorrágica de primeiro trimestre que cursa com o encerramento gestacional antes da viabilidade fetal. Uma vez viável o feto, a obstetrícia procede, quando muito, a interrupção da gestação para o parto induzido ou para o parto de via abdominal, também chamada via alta ou cirúrgica, notadamente pela técnica cesariana.</p>
+<h3 id="feto-inviável">Feto inviável</h3>
 <p>Para o Ministério da Saúde, é inviável todo feto que atenda quaisquer uma das hipóteses:</p>
 <ul>
 <li>Menos de 500g;</li>
@@ -385,23 +226,23 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
 <li>Menos de 16,5cm;</li>
 <li>Menos de 22 semanas.</li>
 </ul>
-<p>Já para a medicina legal, o <mark>aborto</mark> é o <strong>abortamento provocado</strong> e refere-se à interrupção da gravidez a qualquer tempo, causada por uma intervenção externa e intencional para findar a gestação resultando na eliminação de um produto sem vida.</p>
+<h3 id="abortamento-médico-legal">Abortamento médico-legal</h3>
+<p>Para a medicina legal, o <mark>aborto</mark> é o <strong>abortamento provocado</strong> e refere-se à interrupção da gravidez a qualquer tempo, causada por uma intervenção externa e intencional para findar a gestação resultando na eliminação de um produto sem vida.</p>
+<h3 id="declaração-de-óbito">Declaração de óbito</h3>
 <p>O produto do aborto pode ou não ser um sujeito da declaração de óbito, portanto, só é realizada para aqueles fetos que preenchiam critérios de viabilidade fetal para o Ministério da Saúde. Ademais, o produto do abortamento é chamado de <strong>peça</strong> e tem destino anatomopatológico setorial da instituição responsável. O estudo do feto com óbito declarado ou da peça do aborto não deve confundir as duas situações.</p>
-<h3 id="infanticídio">Infanticídio</h3>
-<p>É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.</p>
-<p>O estado puerperal é uma ficção do direito. Não existe a entidade médica <strong>estado puerperal</strong>. Há, na verdade, o puerpério, período após o parto em que diversos reajustes fisiológicos ocorrem em todas mulheres recém paridas.</p>
-<p>Porém, este conceito ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Em outras palavras, não basta o parto recente para configurar uma mãe afetada pelo estado puerperal.</p>
-<p>A bem da verdade, o infanticídio decorre de um estado mental longo, concebido durante toda a gestação que é geralmente ocultada, pela desonra ou pela vergonha, estado este que produz na mulher sentimentos diametralmente opostos pelo filho vindouro, preocupações com o julgamento social, a vida a partir do nascimento dele e outras questões mais. A gestante vive um inferno mental até que é chegado o dia do parto, momento no qual seus recusos de dissonância cognitiva se acabam, sua esperança na ocultaçao da gestção não mais a acode e num lampejo de emoção forte e medo mata-o para preservar a sanidade, beirando o surto psicótico. Findada a tragédia, se arrepende ou se sente muito mal e já começa pagar pelo que fez, com a punição sentimental, motivo pelo qual o infanticídio é um crime privilegiado.</p>
-<h4 id="novo-código">Novo código</h4>
-<p>Ora, se há tal confusão com a figura jurídica do estado puerperal, como recuperar o conceito para aplicá-lo ao crime de fato ocorrido?</p>
-<p>Eliminando de vez o conceito.</p>
-<p>França traz a proposta de que um novo texto ao código penal versaria:</p>
-<pre tabindex="0"><code>Infanticídio 
-Matar o próprio filho durante o parto ou sob a influência pertubadora deste.
-</code></pre><p>E assim se findariam as laudas de discussão sobre o tema, estando clara a letra da lei se tratar sobre uma condição complexa e não de um conceito mal elaborado.</p>
-<h2 id="classificações-penais">Classificações penais</h2>
-<p>É admitida a tentativa do crime de aborto por se tratar de crime material.</p>
-<h3 id="tipos-penais">Tipos penais</h3>
+<h3 id="classificações">Classificações</h3>
+<h4 id="abortamento-legal">Abortamento legal</h4>
+<p>É o caso do aborto piedoso, da provada anencefalia, nos termos da ADPF 54 e o terapêutico para salvar a vida da mãe, sempre que possível respaldado por mais de um médico e realizado necessariamente por médico.</p>
+<h4 id="abortamento-ilegal">Abortamento ilegal</h4>
+<p>São elementos necessários do fato típico <strong>aborto</strong>:</p>
+<ol>
+<li>A óbvia gravidez pregressa;</li>
+<li>O feto deve ser viável, dada a força extensiva possível da ADPF 54;</li>
+<li>Uso de meio eficaz para o abortamento;</li>
+<li>Morte do concepto; e</li>
+<li>Dolo.</li>
+</ol>
+<p>É admitida a tentativa do crime de aborto por se tratar de crime material. Neste caso, todos os elementos do fato típico estão presentes, exceto a morte do concepto.</p>
 <p>Assim reza o Código Penal:</p>
 <pre tabindex="0"><code>Aborto provocado pela gestante ou com seu consentimento
 Art. 124 - Provocar aborto em si mesma ou consentir que outrem lho provoque: (Vide ADPF 54)
@@ -445,7 +286,8 @@ de seu representante legal.
 <h3 id="formas-ectópicas">Formas ectópicas</h3>
 <p>A gravidez ectópica, tubária ou não, interrompe-se por impossibilidade natural e, dado o risco de rotura, o interrompimento desta gravidez é o chamado aborto necessário.</p>
 <p>Abortamento espontâneo ou natural: aquele ocorrido sem intervenção artificial até 20 ou 22 semanas de gravidez. Este conceito se cruza com o de <strong>feto inviável</strong>.</p>
-<h3 id="aborto-recente">Aborto Recente</h3>
+<h3 id="investigação-do-aborto">Investigação do aborto</h3>
+<h4 id="aborto-recente">Aborto Recente</h4>
 <p>Em mulheres vivas, a verificação do aborto recente é semelhante ao do diagnóstico da gravidez, faltando, porém, o concepto ou, se presente, não tem vida. No caso, analisam-se os seios acerca da presença de:</p>
 <ol>
 <li>Pigmentação areolar;</li>
@@ -471,7 +313,15 @@ de seu representante legal.
 <li>Exame das trompas de falópio;</li>
 <li>Procura por episiotomias (incisões cirúrgias) e episiorrafias (cicatrizes) no períneo, capazes de indicar partos vaginais anteriores.</li>
 </ol>
-<h3 id="aborto-antigo">Aborto Antigo</h3>
+<p>É certo que, se investigado, indica gravidez na cadáver:</p>
+<ul>
+<li>Vilosidades-fantasma no conteúdo uterino.</li>
+<li>Invasão da decídua basal por células multinucleadas acidófilas.</li>
+<li>Embolia pulmonar por células trofoblásticas.</li>
+<li>Grande hipertrofia das fibras musculares lisas miometriais.</li>
+</ul>
+<p>Já a reação decidual sozinha não pode ser considerada indicativo de gravidez, porque ocorre também em outros estados de hiperprogesteronismo.</p>
+<h4 id="aborto-antigo">Aborto Antigo</h4>
 <p>Em mulheres vivas, o aborto antigo pode apresentar dificuldade no diagnóstico, a depender do quanto tempo se passou entre o ato e o momento do exame. Somente por intermédio de exames pode ser feita a verificação de se ainda há vestígios de sua prática.</p>
 <p>Na hipótese de mulher morta, a mesma dificuldade existe, dependendo o diagnóstico ser feito conforme as possibilidades e os vestígios se apresentarem caso a caso. Inexiste, portanto, método de verificação a priori.</p>
 <h2 id="morte-intraútero">Morte intraútero</h2>
@@ -486,26 +336,38 @@ de seu representante legal.
 </ul>
 <h4 id="maceração">Maceração</h4>
 <ul>
-<li><strong>Primeiro grau</strong>: nos três primeiros dias após a morte, o feto começa a apresentar flictenas que contêm serosidade sanguinolenta e destacamento da epiderme, e o líquido amniótico toma uma tonalidade esverdeada em virtude do mecônio expelido na fase de sofrimento fetal</li>
-<li><strong>Segundo grau</strong>: em torno do oitavo dia, o destacamento da epiderme é quase total, o desnudamento da derme dá ao feto um aspecto sanguinolento, e o líquido amniótico torna-se pardo-avermelhado, devido à serosidade das flictenas rotas</li>
+<li><strong>Primeiro grau</strong>: nos três primeiros dias após a morte, o feto começa a apresentar flictenas que contêm serosidade sanguinolenta e destacamento da epiderme, e o líquido amniótico toma uma tonalidade esverdeada em virtude do mecônio expelido na fase de sofrimento fetal.</li>
+<li><strong>Segundo grau</strong>: em torno do oitavo dia, o destacamento da epiderme é quase total, o desnudamento da derme dá ao feto um aspecto sanguinolento, e o líquido amniótico torna-se pardo-avermelhado, devido à serosidade das flictenas rotas.</li>
 <li><strong>Terceiro grau</strong>: em torno do décimo quinto dia, o feto perde sua tonicidade, destaca-se o couro cabeludo, e os ossos cranianos e dos membros desarticulam-se.</li>
 </ul>
-<h3 id="polêmicas">Polêmicas</h3>
-<h4 id="dispositivo-intrauterino-e-yuzpe">Dispositivo intrauterino e Yuzpe</h4>
+<h2 id="polêmicas">Polêmicas</h2>
+<h3 id="dispositivo-intrauterino-e-yuzpe">Dispositivo intrauterino e Yuzpe</h3>
 <p>A discussão em torno do DIU como método abortivo ou, ainda, da pílula do dia seguinte, é vazia, uma vez que naquele não há nidação e neste nem mesmo a fecundação. Em ambos os casos, a conduta da mulher de interromper o fenômeno fencundatório foi um <strong>exercício regular de um direito</strong> e, portanto, não há de se falar em crime.</p>
-<h4 id="idade-do-concepto">Idade do concepto</h4>
+<h3 id="idade-do-concepto">Idade do concepto</h3>
 <p>A verificação da idade gestacional no aborto ou no infanticídio é importante para saber se a idade da mãe quando foi estuprada para a caracterização da situação de estupro de vulnerável; ou, ainda, se houve fecundação extraconjugal etc.</p>
-<h5 id="fórmula-de-haase">Fórmula de Haase</h5>
+<h4 id="fórmula-de-haase">Fórmula de Haase</h4>
 <p>Multiplica pela altura e divide por 5 ou 5,6. Ou ainda multiplica a altura por 5,6 e divide por 30.</p>
-<h5 id="ponto-de-beclard">Ponto de Beclard</h5>
+<h4 id="ponto-de-beclard">Ponto de Beclard</h4>
 <p>É localizado na epífise distal do fêmur dos fetos.</p>
-<h5 id="told">Told</h5>
-<h5 id="olivier-e-pinaud">Olivier e Pinaud</h5>
-<h5 id="balthazard">Balthazard</h5>
-<h5 id="dervieux">Dervieux.</h5>
-<h2 id="infanticídio-1">Infanticídio</h2>
+<h4 id="told">Told</h4>
+<h4 id="olivier-e-pinaud">Olivier e Pinaud</h4>
+<h4 id="balthazard">Balthazard</h4>
+<h4 id="dervieux">Dervieux.</h4>
+<h2 id="infanticídio">Infanticídio</h2>
+<p>A doutrina jurídica é preocupada com a idade do muito jovem morto. Se possui resquícios de vita uterina e ainda não recebeu cuidados, trata-se do <mark>infante nascido</mark> ou ainda do <mark>feto nascente</mark>. Já aquele que recebe cuidados ou se passam 24h <strong>de vida</strong> é um <mark>recém-nascido</mark>.</p>
 <h3 id="puerpério-puérpera-e-estado-puerperal">Puerpério, puérpera e estado puerperal</h3>
 <p>O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.</p>
+<p>É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.</p>
+<p>O estado puerperal é uma ficção do direito. Não existe a entidade médica <strong>estado puerperal</strong>. Há, na verdade, o puerpério, período após o parto em que diversos reajustes fisiológicos ocorrem em todas mulheres recém paridas.</p>
+<p>Porém, este conceito ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Em outras palavras, não basta o parto recente para configurar uma mãe afetada pelo estado puerperal.</p>
+<p>A bem da verdade, o infanticídio decorre de um estado mental longo, concebido durante toda a gestação que é geralmente ocultada, pela desonra ou pela vergonha, estado este que produz na mulher sentimentos diametralmente opostos pelo filho vindouro, preocupações com o julgamento social, a vida a partir do nascimento dele e outras questões mais. A gestante vive um inferno mental até que é chegado o dia do parto, momento no qual seus recusos de dissonância cognitiva se acabam, sua esperança na ocultaçao da gestção não mais a acode e num lampejo de emoção forte e medo mata-o para preservar a sanidade, beirando o surto psicótico. Findada a tragédia, se arrepende ou se sente muito mal e já começa pagar pelo que fez, com a punição sentimental, motivo pelo qual o infanticídio é um crime privilegiado.</p>
+<h3 id="novo-código">Novo código</h3>
+<p>Ora, se há tal confusão com a figura jurídica do estado puerperal, como recuperar o conceito para aplicá-lo ao crime de fato ocorrido?</p>
+<p>Eliminando de vez o conceito.</p>
+<p>França traz a proposta de que um novo texto ao código penal versaria:</p>
+<pre tabindex="0"><code>Infanticídio 
+Matar o próprio filho durante o parto ou sob a influência pertubadora deste.
+</code></pre><p>E assim se findariam as laudas de discussão sobre o tema, estando clara a letra da lei se tratar sobre uma condição complexa e não de um conceito mal elaborado.</p>
 <h2 id="aborto-ou-infanticídio">Aborto ou infanticídio?</h2>
 <h3 id="docimásias-do-recém-nascido">Docimásias do recém-nascido</h3>
 <p>As docimásias são importantes meios de constatação de momento de morte do produto de aborto ou da vítima de infanticídio.</p>

@@ -13,7 +13,6 @@
           });
       });
   </script>
-  
 
   
 
@@ -33,46 +32,15 @@ A partir de então, o número de bacilos infiltrados nos diversos tecidos do cor
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-
-
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
 
 </head>
 <body>
@@ -98,151 +66,56 @@ A partir de então, o número de bacilos infiltrados nos diversos tecidos do cor
           scrollbar.style.display = 'none'; 
       }, 2000); 
   });
-
 </script>
 
-  <div class="barra">
-      <select id=menu>
-        <option>navegação</option>
-        <option value="/index.html">início</option>
-        <option value="/medicina/bulario">bulário</option>
-        <option value="/files/">arquivos</option>
-        <option value="/tags/">assuntos</option>
-        <option value="/dicionario/">dicionário</option>
-        <option value="/sites-uteis/">sites úteis</option>
-        <option value="/tags/calculadoras/">calculadoras</option>
-        <option value="/medicina/banco-de-questoes/">banco de questões</option>
-
-      </select>
-      <script>
-        document.getElementById("menu").addEventListener('change', function() {
-          let selectedPage = this.value;
-          window.location.href = selectedPage; 
-        });
-      </script>
-
-      <select id="temas-seletor">
-        <option value=0>temas</option>
-        <option value=cafe>café</option>
-        <option value=arido>árido</option>
-        <option value=laranja>laranja</option>
-        <option value=comics>comics</option>
-        <option value=noturno>noturno</option>
-        <option value=moderno>moderno</option>
-        
-      </select>
-      <script>
-        document.getElementById('temas-seletor').addEventListener('change', function() {
-          let selectedValue = this.value;
-          console.log(selectedValue);
-          if (selectedValue == 0) {
-            return
-          }
-          document.documentElement.setAttribute('data-tema', selectedValue);
-          localStorage.setItem('tema', selectedValue); 
-          document.getElementById('temas-seletor').value = 0;
-        });
-      </script>
-  </div>
+<div class="barra">
+  <p>
+  <a id=icone-tema href="#" onclick="tema()"></a>
+  <button onclick="window.location.href='../../index.html'">Início</button>
+  <button onclick="window.location.href='../../files/'">Arquivos</button>
+  <button onclick="window.location.href='../../tags/calculadoras/'">Calculadoras</button>
+  <button onclick="window.location.href='../../dicionario/'">Dicionário</button>
+  <button onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
+  </p>
+  
+</div>
 <article>
+  
 <br>
 
   <h1>Hanseníase: resumo compreensivo</h1>
 
 <script>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  const temaAtual = localStorage.getItem('tema');
-
-  if (temaAtual === 'noturno') {
-    document.documentElement.setAttribute('data-tema', 'noturno');
-    
-  } else if (temaAtual === 'arido') {
-    document.documentElement.setAttribute('data-tema', 'arido');
-    
-  } else if (temaAtual === 'raiz') {
-    document.documentElement.setAttribute('data-tema', 'raiz');
-    
+  function setIconeLight(){
+    document.getElementById("icone-tema").innerHTML = `<svg class="icone-barra"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12Z" fill="var(--fonte)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C12.4142 1.25 12.75 1.58579 12.75 2V4C12.75 4.41421 12.4142 4.75 12 4.75C11.5858 4.75 11.25 4.41421 11.25 4V2C11.25 1.58579 11.5858 1.25 12 1.25ZM3.66865 3.71609C3.94815 3.41039 4.42255 3.38915 4.72825 3.66865L6.95026 5.70024C7.25596 5.97974 7.2772 6.45413 6.9977 6.75983C6.7182 7.06553 6.2438 7.08677 5.9381 6.80727L3.71609 4.77569C3.41039 4.49619 3.38915 4.02179 3.66865 3.71609ZM20.3314 3.71609C20.6109 4.02179 20.5896 4.49619 20.2839 4.77569L18.0619 6.80727C17.7562 7.08677 17.2818 7.06553 17.0023 6.75983C16.7228 6.45413 16.744 5.97974 17.0497 5.70024L19.2718 3.66865C19.5775 3.38915 20.0518 3.41039 20.3314 3.71609ZM1.25 12C1.25 11.5858 1.58579 11.25 2 11.25H4C4.41421 11.25 4.75 11.5858 4.75 12C4.75 12.4142 4.41421 12.75 4 12.75H2C1.58579 12.75 1.25 12.4142 1.25 12ZM19.25 12C19.25 11.5858 19.5858 11.25 20 11.25H22C22.4142 11.25 22.75 11.5858 22.75 12C22.75 12.4142 22.4142 12.75 22 12.75H20C19.5858 12.75 19.25 12.4142 19.25 12ZM17.0255 17.0252C17.3184 16.7323 17.7933 16.7323 18.0862 17.0252L20.3082 19.2475C20.6011 19.5404 20.601 20.0153 20.3081 20.3082C20.0152 20.6011 19.5403 20.601 19.2475 20.3081L17.0255 18.0858C16.7326 17.7929 16.7326 17.3181 17.0255 17.0252ZM6.97467 17.0253C7.26756 17.3182 7.26756 17.7931 6.97467 18.086L4.75244 20.3082C4.45955 20.6011 3.98468 20.6011 3.69178 20.3082C3.39889 20.0153 3.39889 19.5404 3.69178 19.2476L5.91401 17.0253C6.2069 16.7324 6.68177 16.7324 6.97467 17.0253ZM12 19.25C12.4142 19.25 12.75 19.5858 12.75 20V22C12.75 22.4142 12.4142 22.75 12 22.75C11.5858 22.75 11.25 22.4142 11.25 22V20C11.25 19.5858 11.5858 19.25 12 19.25Z" fill="var(--fonte)"/></svg>`;
   }
-  else if (temaAtual === 'comics') {
-    document.documentElement.setAttribute('data-tema', 'comics');
-    
+  function setIconeDark(){
+    document.getElementById("icone-tema").innerHTML= `<svg class="icone-barra" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="icone-barra" d="M19.9001 2.30719C19.7392 1.8976 19.1616 1.8976 19.0007 2.30719L18.5703 3.40247C18.5212 3.52752 18.4226 3.62651 18.298 3.67583L17.2067 4.1078C16.7986 4.26934 16.7986 4.849 17.2067 5.01054L18.298 5.44252C18.4226 5.49184 18.5212 5.59082 18.5703 5.71587L19.0007 6.81115C19.1616 7.22074 19.7392 7.22074 19.9001 6.81116L20.3305 5.71587C20.3796 5.59082 20.4782 5.49184 20.6028 5.44252L21.6941 5.01054C22.1022 4.849 22.1022 4.26934 21.6941 4.1078L20.6028 3.67583C20.4782 3.62651 20.3796 3.52752 20.3305 3.40247L19.9001 2.30719Z" var(--fonte)/><path class="icone-barra" d="M16.0328 8.12967C15.8718 7.72009 15.2943 7.72009 15.1333 8.12967L14.9764 8.52902C14.9273 8.65407 14.8287 8.75305 14.7041 8.80237L14.3062 8.95987C13.8981 9.12141 13.8981 9.70107 14.3062 9.86261L14.7041 10.0201C14.8287 10.0694 14.9273 10.1684 14.9764 10.2935L15.1333 10.6928C15.2943 11.1024 15.8718 11.1024 16.0328 10.6928L16.1897 10.2935C16.2388 10.1684 16.3374 10.0694 16.462 10.0201L16.8599 9.86261C17.268 9.70107 17.268 9.12141 16.8599 8.95987L16.462 8.80237C16.3374 8.75305 16.2388 8.65407 16.1897 8.52902L16.0328 8.12967Z" var(--fonte)/><path class="icone-barra" d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" var(--fonte)/></svg>`;
   }
-  else if (temaAtual === 'cafe') {
-    document.documentElement.setAttribute('data-tema', 'cafe');
-    
-  }
-  else if (temaAtual === 'laranja') {
-    document.documentElement.setAttribute('data-tema', 'laranja');
-    
-  }
-  else if (temaAtual === 'moderno') {
-    document.documentElement.setAttribute('data-tema', 'moderno');
-    
-  }
-  else { 
-    document.documentElement.setAttribute('data-tema', 'moderno');
-    
+  let temaAtual = localStorage.getItem('tema');
+  if (temaAtual == "dark") {
+    setIconeDark();
+    document.documentElement.setAttribute('data-tema', "dark");
+    localStorage.setItem('tema', "dark"); 
+  } else {
+    setIconeLight();
+    document.documentElement.setAttribute('data-tema', "light");
+    localStorage.setItem('tema', "light"); 
   }
 
-  function alternarTema(tema) {
-    const temaAtual = document.documentElement.getAttribute('data-tema');
-    document.documentElement.setAttribute('data-tema', tema);
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    const mermaidTags = document.querySelectorAll('pre.mermaid');
-    if (mermaidTags.length > 0) {
-      location.reload();
+  function tema() {
+    temaAtual = localStorage.getItem('tema');
+    if (temaAtual == "light") {
+      document.documentElement.setAttribute('data-tema', "dark");
+      localStorage.setItem('tema', "dark"); 
+      setIconeDark();
+    } else {
+      document.documentElement.setAttribute('data-tema', "light");
+      localStorage.setItem('tema', "light"); 
+      setIconeLight();
     }
+    
   }
-
 </script>
 
 
@@ -279,6 +152,7 @@ O agente etiológico da hanseníase é o <em>Mycobacterium leprae</em>, que foi 
 
 <br>
 
+
 <div class="scalidraw">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624.5 373" width="624.5" height="373">
   <!-- svg-source:excalidraw -->
@@ -303,6 +177,7 @@ O agente etiológico da hanseníase é o <em>Mycobacterium leprae</em>, que foi 
   <g stroke-linecap="round"><g transform="translate(92 324) rotate(0 1.5 -142.5)"><path d="M-0.56 -0.66 C-0.11 -48.2, 2.84 -238.64, 3.6 -286.12 M1.35 1.61 C1.61 -45.75, 2.56 -237.48, 2.97 -285.17" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(92 324) rotate(0 1.5 -142.5)"><path d="M11.36 -261.62 C7.28 -269.51, 3.36 -277.66, 2.97 -285.17 M11.36 -261.62 C8.46 -266.91, 6.73 -272.75, 2.97 -285.17" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(92 324) rotate(0 1.5 -142.5)"><path d="M-5.74 -261.73 C-3.4 -269.5, -0.89 -277.6, 2.97 -285.17 M-5.74 -261.73 C-4.28 -267.03, -1.66 -272.85, 2.97 -285.17" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(527 24) rotate(0 3 151)"><path d="M-1.01 1.07 C-0.18 51.44, 4.44 251.71, 5.66 301.8 M0.65 0.59 C1.24 51.18, 3.69 252.88, 4.54 303.23" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(527 24) rotate(0 3 151)"><path d="M-4.34 279.86 C0.53 287.69, 1.57 297.08, 4.54 303.23 M-4.34 279.86 C-2.52 286.12, -0.56 291.72, 4.54 303.23" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(527 24) rotate(0 3 151)"><path d="M12.75 279.62 C11.54 287.39, 6.5 296.87, 4.54 303.23 M12.75 279.62 C10.01 285.99, 7.39 291.66, 4.54 303.23" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(545 34) rotate(0 34.75 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Bacilos</text></g><g transform="translate(10 10) rotate(0 45.90833282470703 25)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Resposta</text><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Imune</text></g><g stroke-linecap="round"><g transform="translate(391.155626748483 327.71194156055856) rotate(0 -169.0778133742415 -2.8559707802792786)"><path d="M0.41 1.16 C-28.63 0.75, -117.59 -0.81, -174.17 -1.87 C-230.75 -2.94, -311.74 -4.79, -339.07 -5.24 M-0.83 0.73 C-30.04 -0.07, -119.16 -2.21, -175.13 -3.56 C-231.1 -4.9, -309.53 -6.84, -336.65 -7.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(391.155626748483 327.71194156055856) rotate(0 -169.0778133742415 -2.8559707802792786)"><path d="M-312.98 -15.38 C-318.26 -12.86, -326.06 -11.89, -336.65 -7.34 M-312.98 -15.38 C-320.81 -13.23, -329.25 -10.02, -336.65 -7.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(391.155626748483 327.71194156055856) rotate(0 -169.0778133742415 -2.8559707802792786)"><path d="M-313.35 1.72 C-318.6 -1.01, -326.29 -5.28, -336.65 -7.34 M-313.35 1.72 C-321.06 -1.94, -329.37 -4.53, -336.65 -7.34" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(348.61531237299516 328.3634882663277) rotate(0 113.19234381350242 -0.1817441331638463)"><path d="M-0.97 0.68 C36.99 0.46, 189.22 -1.07, 227.26 -1.17 M0.72 -0.01 C38.64 -0.1, 189.07 0.27, 226.77 -0.05" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(348.61531237299516 328.3634882663277) rotate(0 113.19234381350242 -0.1817441331638463)"><path d="M203.29 8.55 C210.54 7.95, 214.18 5.67, 226.77 -0.05 M203.29 8.55 C211.25 5.83, 218.76 2.91, 226.77 -0.05" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(348.61531237299516 328.3634882663277) rotate(0 113.19234381350242 -0.1817441331638463)"><path d="M203.25 -8.55 C210.53 -4.69, 214.18 -2.52, 226.77 -0.05 M203.25 -8.55 C211.24 -5.46, 218.77 -2.58, 226.77 -0.05" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(304 322) rotate(0 0.030859788936993482 -59.5)"><path d="M-1.01 -0.86 C-1.01 -20.68, -1.4 -99.27, -1.06 -118.95 M0.65 1.3 C1.11 -18.3, 1.04 -97.57, 1.06 -117.38" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(304 322) rotate(0 0.030859788936993482 -59.5)"><path d="M9.6 -93.88 C6.38 -100.76, 6.12 -102.19, 1.06 -117.38 M9.6 -93.88 C6.61 -100.45, 3.74 -108.67, 1.06 -117.38" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(304 322) rotate(0 0.030859788936993482 -59.5)"><path d="M-7.5 -93.89 C-7.12 -100.62, -3.8 -102.05, 1.06 -117.38 M-7.5 -93.89 C-5.23 -100.31, -2.84 -108.52, 1.06 -117.38" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(291.2750015258789 170.5) rotate(0 108.7249984741211 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">x  Polo Indeterminado</text></g><g stroke-linecap="round"><g transform="translate(285 167.48382959937663) rotate(0 -32.00982476973064 -30.146513351485353)"><path d="M0.81 -0.89 C-9.92 -10.96, -52.86 -50.23, -63.78 -60.08 M-0.22 1.26 C-11.14 -9.23, -53.67 -52.14, -64.6 -62.09" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(285 167.48382959937663) rotate(0 -32.00982476973064 -30.146513351485353)"><path d="M-41.76 -51.92 C-51.26 -54.93, -57.42 -59.99, -64.6 -62.09 M-41.76 -51.92 C-49.96 -54.23, -56.01 -57.96, -64.6 -62.09" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(285 167.48382959937663) rotate(0 -32.00982476973064 -30.146513351485353)"><path d="M-53.64 -39.62 C-59.02 -47.01, -61.02 -56.37, -64.6 -62.09 M-53.64 -39.62 C-58.07 -46.04, -60.23 -53.8, -64.6 -62.09" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(127 53) rotate(0 58.40833282470703 25)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Forma </text><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">tuberculoide</text></g><g transform="translate(399 241) rotate(0 53.44166564941406 25)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Forma</text><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Virchowiana</text></g><g stroke-linecap="round"><g transform="translate(313 194) rotate(0 58.711935173225015 23)"><path d="M-0.32 -0.75 C19.37 6.62, 98.94 37.16, 118.53 44.89 M1.71 1.46 C21.31 8.89, 99.05 38.3, 118.16 45.84" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(313 194) rotate(0 58.711935173225015 23)"><path d="M93.17 45.38 C100.21 47.44, 107.91 45.47, 118.16 45.84 M93.17 45.38 C99.68 44.85, 105.56 46.47, 118.16 45.84" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(313 194) rotate(0 58.711935173225015 23)"><path d="M99.31 29.42 C104.4 36.77, 110.06 40.09, 118.16 45.84 M99.31 29.42 C104.17 33.15, 108.41 39.04, 118.16 45.84" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(295 338) rotate(0 6.883333206176758 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">0</text></g><g transform="translate(514 331) rotate(0 11.899999618530273 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">+t</text></g><g transform="translate(82 326) rotate(0 11.899999618530273 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">+t</text></g><g transform="translate(25 69) rotate(0 15.691666603088379 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Th1</text></g><g transform="translate(31 278) rotate(0 20.100000381469727 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Th2</text></g><g stroke-linecap="round"><g transform="translate(42 179) rotate(0 1 -38.5)"><path d="M-0.38 0.22 C-0.38 -12.54, 0.54 -63.69, 1.03 -76.36 M1.62 -0.72 C1.9 -13.83, 3.16 -65.34, 3.24 -78.15" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(42 179) rotate(0 1 -38.5)"><path d="M11.4 -54.51 C8.6 -65.22, 6.17 -71.71, 3.24 -78.15 M11.4 -54.51 C8.5 -64.79, 5.81 -73.79, 3.24 -78.15" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(42 179) rotate(0 1 -38.5)"><path d="M-5.7 -54.8 C-1.94 -65.34, 2.2 -71.73, 3.24 -78.15 M-5.7 -54.8 C-1.81 -64.97, 2.31 -73.85, 3.24 -78.15" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(43 177) rotate(0 0 41)"><path d="M-0.64 0.98 C-0.69 14.44, -0.97 67.55, -0.72 81.25 M1.22 0.45 C1.6 14.01, 1.73 68.9, 1.61 82.4" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(43 177) rotate(0 0 41)"><path d="M-6.89 58.89 C-2.93 63.9, -3.58 72.62, 1.61 82.4 M-6.89 58.89 C-2.31 68.34, -0.3 78.36, 1.61 82.4" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g><g transform="translate(43 177) rotate(0 0 41)"><path d="M10.21 58.92 C9.68 63.84, 4.54 72.55, 1.61 82.4 M10.21 58.92 C7.98 68.42, 3.16 78.42, 1.61 82.4" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(-21 164) rotate(268.8818117937933 45.61666488647461 12.5)"><text x="0" y="0" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">predomíno</text></g></svg>
 
 </div>
+
 </p>
 <p class="legend">O ponto de tempo zero <em>t=0</em> é o momento da descoberta de lesões indeterminadas;<br>A partir de então, o número de bacilos infiltrados nos diversos tecidos do corpo podem cair ou aumentar;<br>A resposta imune pode ser mediada por macrófagos predominantemente Th1 ou Th2.</p> 
 <h2 id="a-doença">A doença</h2>

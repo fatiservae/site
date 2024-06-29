@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.7333297729492 325" width="420.7333297729492" height="325">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <g stroke-linecap="round"><g transform="translate(197 44) rotate(0 -59 91.5)"><path d="M-0.99 0.18 C-20.65 30.74, -98.94 152.89, -118.32 183.3 M0.7 -0.77 C-19.12 29.42, -99.71 150.57, -119.44 181.33" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(323.37030155312266 225.73366069024434) rotate(0 -122 0.5)"><path d="M-0.12 0.3 C-40.77 0.32, -204.07 0.5, -244.62 0.48 M-1.64 -0.59 C-41.83 -0.44, -201.86 1.47, -242.24 1.74" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(198.37030155312266 45.733660690244335) rotate(0 63.5 92)"><path d="M-0.86 0.93 C20.28 31.52, 104.93 153.43, 126.32 184.12 M0.89 0.37 C22.47 31.13, 107.67 155.23, 128.67 185.72" stroke="var(--fonte)" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(134 10) rotate(0 70.33333587646484 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Imputabilidade</text></g><g transform="translate(286 240) rotate(0 62.36666488647461 37.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Exigibilidade </text><text x="0" y="42.519999999999996" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">de conduta</text><text x="0" y="67.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">  diversa</text></g><g transform="translate(10 240) rotate(0 61.92499923706055 37.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">  Potencial </text><text x="0" y="42.519999999999996" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Conhecimento</text><text x="0" y="67.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">da ilicitude</text></g><g transform="translate(139 151) rotate(0 61.974998474121094 12.5)"><text x="0" y="17.52" font-family="Virgil, Segoe UI Emoji" font-size="20px" fill="var(--fonte)" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">Culpabilidade</text></g></svg>

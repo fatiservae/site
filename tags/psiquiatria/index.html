@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+  
+
+  
+
+  <title>psiquiatria | Jefferson T.</title>
+  <link rel="canonical" href="http://localhost:1313/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div id="progress-bar-container">
+  <div id="progress-bar"></div>
+</div>
+<script>
+  let scrollbar = document.getElementById('progress-bar');
+  let timeout;
+  
+  window.addEventListener('scroll', function() {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = scrollTop / scrollHeight * 100;
+    scrollbar.style.width = scrolled + '%';
+  });
+
+  document.addEventListener('scroll' || 'mousemove', function() {
+      scrollbar.style.display = 'block';
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+          scrollbar.style.display = 'none'; 
+      }, 2000); 
+  });
+
+</script>
+
+<script>
+function config() {
+  let configElement = document.getElementById("config");
+  
+  let configAtual = window.getComputedStyle(configElement).display;
+  
+  if (configAtual === "none" || configAtual === "") {
+    console.log("1: " + configAtual); 
+    configElement.style.display = "block"; 
+  } else {
+    console.log("2: " + configAtual); 
+    configElement.style.display = "none"; 
+  }
+}
+</script>
+<div class="barra">
+<button onclick="config()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="var(--fonte)"><path d="M24 13.616v-3.232c-1.651-.587-2.694-.752-3.219-2.019v-.001c-.527-1.271.1-2.134.847-3.707l-2.285-2.285c-1.561.742-2.433 1.375-3.707.847h-.001c-1.269-.526-1.435-1.576-2.019-3.219h-3.232c-.582 1.635-.749 2.692-2.019 3.219h-.001c-1.271.528-2.132-.098-3.707-.847l-2.285 2.285c.745 1.568 1.375 2.434.847 3.707-.527 1.271-1.584 1.438-3.219 2.02v3.232c1.632.58 2.692.749 3.219 2.019.53 1.282-.114 2.166-.847 3.707l2.285 2.286c1.562-.743 2.434-1.375 3.707-.847h.001c1.27.526 1.436 1.579 2.019 3.219h3.232c.582-1.636.75-2.69 2.027-3.222h.001c1.262-.524 2.12.101 3.698.851l2.285-2.286c-.744-1.563-1.375-2.433-.848-3.706.527-1.271 1.588-1.44 3.221-2.021zm-12 2.384c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"/></svg>
+</button>
+      <div id=config></div>
+      <select id=menu>
+        <option>navegação</option>
+        <option value="/index.html">início</option>
+        <option value="/medicina/bulario">bulário</option>
+        <option value="/files/">arquivos</option>
+        <option value="/tags/">assuntos</option>
+        <option value="/dicionario/">dicionário</option>
+        <option value="/sites-uteis/">sites úteis</option>
+        <option value="/tags/calculadoras/">calculadoras</option>
+        <option value="/medicina/banco-de-questoes/">banco de questões</option>
+
+      </select>
+      <script>
+        document.getElementById("menu").addEventListener('change', function() {
+          let selectedPage = this.value;
+          window.location.href = selectedPage; 
+        });
+      </script>
+
+      <select id="temas-seletor">
+        <option value=0>temas</option>
+        <option value=cafe>café</option>
+        <option value=arido>árido</option>
+        <option value=laranja>laranja</option>
+        <option value=comics>comics</option>
+        <option value=noturno>noturno</option>
+        <option value=moderno>moderno</option>
+        
+      </select>
+      <script>
+        document.getElementById('temas-seletor').addEventListener('change', function() {
+          let selectedValue = this.value;
+          console.log(selectedValue);
+          if (selectedValue == 0) {
+            return
+          }
+          document.documentElement.setAttribute('data-tema', selectedValue);
+          localStorage.setItem('tema', selectedValue); 
+          document.getElementById('temas-seletor').value = 0;
+        });
+      </script>
+  </div>
+<article>
+<br>
+
+<script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const temaAtual = localStorage.getItem('tema');
+
+  if (temaAtual === 'noturno') {
+    document.documentElement.setAttribute('data-tema', 'noturno');
+    
+  } else if (temaAtual === 'arido') {
+    document.documentElement.setAttribute('data-tema', 'arido');
+    
+  } else if (temaAtual === 'raiz') {
+    document.documentElement.setAttribute('data-tema', 'raiz');
+    
+  }
+  else if (temaAtual === 'comics') {
+    document.documentElement.setAttribute('data-tema', 'comics');
+    
+  }
+  else if (temaAtual === 'cafe') {
+    document.documentElement.setAttribute('data-tema', 'cafe');
+    
+  }
+  else if (temaAtual === 'laranja') {
+    document.documentElement.setAttribute('data-tema', 'laranja');
+    
+  }
+  else if (temaAtual === 'moderno') {
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+  else { 
+    document.documentElement.setAttribute('data-tema', 'moderno');
+    
+  }
+
+  function alternarTema(tema) {
+    const temaAtual = document.documentElement.getAttribute('data-tema');
+    document.documentElement.setAttribute('data-tema', tema);
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    const mermaidTags = document.querySelectorAll('pre.mermaid');
+    if (mermaidTags.length > 0) {
+      location.reload();
+    }
+  }
+
+</script>
+
+
+
+
+<script>
+function randomIndex(valor) {
+    return Math.floor(Math.random() * valor)
+}
+let frases;
+let index ;
+let fraseAleatoria ;
+let autor ;
+
+fetch('/citacoes.json')
+.then(response => response.json())
+.then(data => { 
+  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
+  index = randomIndex(novoFormato.length);
+  fraseAleatoria = novoFormato[index].frase;
+  autor = novoFormato[index].autor;
+  
+  
+  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
+  if (autor.length > 1){
+    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
+    console.log(autor)
+  }
+})
+.catch(error => console.error('Erro ao buscar o JSON:', error));
+
+document.addEventListener("DOMContentLoaded", function() {
+  const item = document.querySelector('.frase');
+  item.classList.add('show');
+});
+</script>
+<div> 
+  <p class="frase" id="frase"></p> 
+  <div id="autor"></div>
+  <br>
+</div>
+
+<ul class="listing-list">
+<li>
+	<a href="../../medicina/psiq/">Tratamentos psiquiátricos para o generalista</a>
+	
+	</li>
+</ul>
+
+  
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>
