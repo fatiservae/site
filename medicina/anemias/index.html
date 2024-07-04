@@ -117,20 +117,15 @@ Por deficiência de cobalamina e ácido fólico A cobalamina é o nome genérico
     setIconeDark();
     document.documentElement.setAttribute('data-tema', "dark");
     localStorage.setItem('tema', "dark"); 
-  } else if (temaAtual == "light"){
+  } else {
     setIconeLight();
     document.documentElement.setAttribute('data-tema', "light");
     localStorage.setItem('tema', "light"); 
-  } else {
-    document.documentElement.setAttribute('data-tema', temaAtual);
   }
 
-  function tema(nome) {
+  function tema() {
     temaAtual = localStorage.getItem('tema');
-    if (nome !== undefined) {
-      document.documentElement.setAttribute('data-tema', nome);
-      localStorage.setItem('tema', nome); 
-    } else if (temaAtual == "light") {
+    if (temaAtual == "light") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       setIconeDark();
