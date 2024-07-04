@@ -104,7 +104,7 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
   <a id=icone-tema href="#" onclick="tema()"></a>
   <button onclick="window.location.href='../../index.html'">Início</button>
   <button onclick="window.location.href='../../files/'">Arquivos</button>
-  <button onclick="window.location.href='../../tags/calculadoras/'">Calculadoras</button>
+  <button onclick="window.location.href='../../tags/calculadoras/'">Ferramentas</button>
   <button onclick="window.location.href='../../dicionario/'">Dicionário</button>
   <button onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
   </p>
@@ -130,15 +130,20 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
     setIconeDark();
     document.documentElement.setAttribute('data-tema', "dark");
     localStorage.setItem('tema', "dark"); 
-  } else {
+  } else if (temaAtual == "light"){
     setIconeLight();
     document.documentElement.setAttribute('data-tema', "light");
     localStorage.setItem('tema', "light"); 
+  } else {
+    document.documentElement.setAttribute('data-tema', temaAtual);
   }
 
-  function tema() {
+  function tema(nome) {
     temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+    if (nome !== undefined) {
+      document.documentElement.setAttribute('data-tema', nome);
+      localStorage.setItem('tema', nome); 
+    } else if (temaAtual == "light") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       setIconeDark();
@@ -160,6 +165,7 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
       <ul>
         <li><a href="#início">Início</a></li>
         <li><a href="#fim">Fim</a></li>
+        <li><a href="#fraude-gestacional-e-erro">Fraude gestacional e erro</a></li>
       </ul>
     </li>
     <li><a href="#conceitos">Conceitos</a>
@@ -209,6 +215,13 @@ Fim O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de su
 <p>Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação <em>sine qua non</em> e a nidação que assume característica definidora posterior. O marco <strong>legal atualmente adotado no Brasil é a nidação bem sucedida</strong> que ocorre, normalmente, cerca de 14 dias após a fecundação.</p>
 <h3 id="fim">Fim</h3>
 <p>O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação. O parto cesáreo ou de qualquer outra forma cirúrgica é encerrado com o ato cirúrgico em si.</p>
+<h3 id="fraude-gestacional-e-erro">Fraude gestacional e erro</h3>
+<ul>
+<li><strong>Pseudociese</strong>: tomada pela crença real de estar grávida, a mulher passar por um distúrbio psicossomático em que se comporta, se veste, se sente e até sofre as mesmas circunstâncias de uma gravidez real, podendo, inclusive, ter os mesmos sintomas e sinais, possivelmente levados a cabo até a insustentável data das 40 semanas. É um distúrbio psiquiátrico, descrito no Quinto Manual Estatístico e Diagnóstico de Doenças Mentais.</li>
+<li><strong>Simulação</strong>: é o comportamento delituoso de fraude com o fim de obter vantagem, sendo consciente e produzido por artifícios diversos.</li>
+<li><strong>Metassimulação</strong>: a mulher realmente grávida se põe a aumentar os sintomas ou intensidades dos sintomas para obter vantagens. Ocorre, também, na manipulação da idade gestacional, afim de atribuir paternidade diversa, por exemplo.</li>
+<li><strong>Dissimulação</strong>: é negativa da real gestação, por boa ou má fé, compreendendo motivos diversos, desde a mera dificuldade de aceitação de gestação indesejada, até ocultação do crime de aborto.</li>
+</ul>
 <h2 id="conceitos">Conceitos</h2>
 <h3 id="abortamento-e-aborto">Abortamento e aborto</h3>
 <p>Abortamento, de maneira <em>latu sensu</em> é a interrupção da gestação antes de seu fim fisiológico, o parto.</p>
@@ -354,10 +367,11 @@ de seu representante legal.
 <h4 id="balthazard">Balthazard</h4>
 <h4 id="dervieux">Dervieux.</h4>
 <h2 id="infanticídio">Infanticídio</h2>
+<p>É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.</p>
 <p>A doutrina jurídica é preocupada com a idade do muito jovem morto. Se possui resquícios de vita uterina e ainda não recebeu cuidados, trata-se do <mark>infante nascido</mark> ou ainda do <mark>feto nascente</mark>. Já aquele que recebe cuidados ou se passam 24h <strong>de vida</strong> é um <mark>recém-nascido</mark>.</p>
 <h3 id="puerpério-puérpera-e-estado-puerperal">Puerpério, puérpera e estado puerperal</h3>
-<p>O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.</p>
-<p>É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.</p>
+<p>O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. Seu início formal se dá com a eliminação da placenta e não tem duração fixa, mas costuma durar entre 6 e 8 semanas.</p>
+<p>O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.</p>
 <p>O estado puerperal é uma ficção do direito. Não existe a entidade médica <strong>estado puerperal</strong>. Há, na verdade, o puerpério, período após o parto em que diversos reajustes fisiológicos ocorrem em todas mulheres recém paridas.</p>
 <p>Porém, este conceito ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Em outras palavras, não basta o parto recente para configurar uma mãe afetada pelo estado puerperal.</p>
 <p>A bem da verdade, o infanticídio decorre de um estado mental longo, concebido durante toda a gestação que é geralmente ocultada, pela desonra ou pela vergonha, estado este que produz na mulher sentimentos diametralmente opostos pelo filho vindouro, preocupações com o julgamento social, a vida a partir do nascimento dele e outras questões mais. A gestante vive um inferno mental até que é chegado o dia do parto, momento no qual seus recusos de dissonância cognitiva se acabam, sua esperança na ocultaçao da gestção não mais a acode e num lampejo de emoção forte e medo mata-o para preservar a sanidade, beirando o surto psicótico. Findada a tragédia, se arrepende ou se sente muito mal e já começa pagar pelo que fez, com a punição sentimental, motivo pelo qual o infanticídio é um crime privilegiado.</p>

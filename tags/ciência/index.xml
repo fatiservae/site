@@ -5,10 +5,242 @@
 	<description>Recent content in Ciência on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Wed, 01 May 2024 12:33:43 -0300</lastBuildDate>
+	<lastBuildDate>Tue, 02 Jul 2024 20:49:45 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Bases fisiopatológicas do autismo</title>
+		<link>https://www.jeffersontorres.com.br/medicina/autismo/</link>
+		<pubDate>Tue, 02 Jul 2024 20:49:45 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/autismo/</guid>
+		<description>&lt;h2 id=&#34;epidemiologia&#34;&gt;Epidemiologia&lt;/h2&gt;
+
+ 
+&lt;div class=&#34;carouselprimeiro&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anteriorprimeiro&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximoprimeiro&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Organização Pan-Americana da Saúde&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../../pix/medicina/autism-opas-epidemiology.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/autism-opas-epidemiology.png&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;TACA - The Autism Community in Action&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../../pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/taca-epidemiology-autism.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carouselprimeiro .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carouselprimeiro .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anteriorprimeiro&#34;);
+  let proximo = document.getElementById(&#34;proximoprimeiro&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;p&gt;Estima-se que, em todo o mundo, uma em cada 160 crianças tem transtorno do espectro autista. Essa estimativa representa um valor médio e a prevalência relatada varia substancialmente entre os estudos. Algumas pesquisas bem controladas têm, no entanto, relatado números que são significativamente mais elevados. A prevalência de TEA em muitos países de baixa e média renda é até agora desconhecida[3].&lt;/p&gt;
+&lt;p&gt;Com base em estudos epidemiológicos realizados nos últimos 50 anos, a prevalência de TEA parece estar aumentando globalmente. Há muitas explicações possíveis para esse aumento aparente, incluindo aumento da conscientização sobre o tema, a expansão dos critérios diagnósticos, melhores ferramentas de diagnóstico e o aprimoramento das informações reportadas[3].&lt;/p&gt;
+&lt;p&gt;O aumento significativo do diagnóstico de TEA é uma discussão ainda sem consenso, uma vez que a difusão dos critérios diagnósticos e das ferramentas melhoraram a sensibilidade de detecção e, de forma oposta, a inclusão de antigos diagnósticos no espectro e o diagnóstico equivocado também contribuiram para as estatísticas.&lt;/p&gt;
+&lt;h2 id=&#34;alterações-estruturais-do-autismo&#34;&gt;Alterações estruturais do autismo&lt;/h2&gt;
+&lt;p&gt;A primeira observação material com relação as estruturas nervosas no autismo foi a circunferência cefálica. Em média, os autistas tem a cabeça até 20% maior em circunferência e esse dado sempre chamou a atenção da neurologia, por indicar algum tipo de desenvolvimento anormal do SNC.&lt;/p&gt;
+&lt;p&gt;Com o avanço do auxílio de imagem não invasiva e do mapeamento da atividade metabólica cerebral, foi possível determinar que o autista tem um maior número de sinapses.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/eliminated-synapses.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Sinapses eliminadas como processo de desenvolvimento do controle motor fino&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Mais tarde, foi possível conhecer que, na verdade, o neurodesenvolvimento do autista cursa ao contrário do desenvolvimento de pessoas normais. Primeiro, &lt;strong&gt;todo o SNC&lt;/strong&gt; é afetado por excesso de matéria cinzenta e branca, além de claro aumento de densidade das sinapses. Segundo, &lt;strong&gt;o período de neurodesenvolvimento&lt;/strong&gt; é bastante aumentado, chegando a extremos como a amígdala que pode se manter em desenvolvimento exagerado até os 18 anos.&lt;/p&gt;
+&lt;h3 id=&#34;teoria-da-mente&#34;&gt;Teoria da mente&lt;/h3&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/mentalizing-areas.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Áreas envolvidas no processo de mentalização&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;A &lt;mark&gt;mentalização&lt;/mark&gt; é um conceito neuropsíquico que pode ser definido como a capacidade de atribuir comportamento, presumir ações e entender atitudes de outrem como se fossem suas. Trata-se de uma excelente capacidade humana que provavelmente contribui bastante para a evolução do homem moderno.&lt;/p&gt;
+&lt;p&gt;As redes neurais envolvidas na mentalização, bem como a região temporoparietal conhecida por ser ativada durante o contato visual mútuo e monitorização de movimento está hipoativa apesar de hipertrofiada em pessoas que reprovam o teste de Sally-Anne[1].&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Teste de mentalização mais elaborado&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../../pix/medicina/mentalizing-fishing.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/mentalizing-fishing.png&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Experimento Sally-Anne&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../../pix/medicina/sally-anne.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/sally-anne.png&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h3 id=&#34;os-fatores-de-risco&#34;&gt;Os fatores de risco&lt;/h3&gt;
+&lt;p&gt;Propostas teóricas mostram que drogas conhecidas por causar autismo atuam de forma similar a outros mecanismos estressores.&lt;/p&gt;
+&lt;h4 id=&#34;ácido-valproico&#34;&gt;Ácido valproico&lt;/h4&gt;
+&lt;p&gt;A metilaçao do DNA facilitada pela ação intracelular do ácido valproico está comprovada pelo chamado &lt;em&gt;modelo autista em roedores&lt;/em&gt;[4].&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/valproic-acid-autism.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;h4 id=&#34;idade-avançada-dos-pais&#34;&gt;Idade avançada dos pais&lt;/h4&gt;
+&lt;p&gt;A idade materna &amp;mdash; e paterna em menor grau &amp;mdash; são fatores de risco bem estabelecidos para o TEA da prole. O mecanismo mais aceito até o momento é a excessiva metilação de diferentes regiões do DNA das células reprodutoras.&lt;/p&gt;
+&lt;h3 id=&#34;bases-genéticas&#34;&gt;Bases genéticas&lt;/h3&gt;
+&lt;p&gt;Até 15% das pessoas com TEA possuem outra alteração genética, em sua grande maioria doenças ligadas ao desenvolvimento[1]. Algumas destas doenças produzem sintomatologia muito próxima ao autismo.&lt;/p&gt;
+&lt;h4 id=&#34;síndrome-de-rett&#34;&gt;Síndrome de Rett&lt;/h4&gt;
+&lt;p&gt;A síndrome de Rett com prevalência de 1 em 15mil meninas também é um exemplo de doença genética ligada ao cromossomo X que apresenta claras similaridades com o autismo. Sabidamente, as causas são involuções estruturais causadas por remodelamento de cromatina em decorrência de DNA metilado. Outra marcada característica é a redução na expressão de BDNA [1].&lt;/p&gt;
+&lt;p&gt;Como o X afetado é incompatível com a vida, somente mulheres tem a doença na forma mosaica.&lt;/p&gt;
+&lt;h4 id=&#34;síndrome-do-x-frágil&#34;&gt;Síndrome do X frágil&lt;/h4&gt;
+&lt;p&gt;A síndrome do X frágil é notada pela deficiência intelectual do portador, bastante similar ao autismo na sua forma mais típica, contando com elementos bastante específicos como falta de contato visual, comportamento repetitivos, repulsa ao toque etc. Até 25% dos garotos com X frágil são diagnosticados como autistas[1].&lt;/p&gt;
+&lt;h4 id=&#34;smith-magenis&#34;&gt;Smith-Magenis&lt;/h4&gt;
+&lt;p&gt;A deleção de um braço do cromossomo 17 causa um déficit intelectual e uma queda na habilidade social marcada, com o diferencial de sonolência peculiar.&lt;/p&gt;
+&lt;h4 id=&#34;outras&#34;&gt;Outras&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Síndrome de Down&lt;/strong&gt;: até 7% dos portadores de trissomia do 21 são diagnosticados com TEA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prader-Willi&lt;/strong&gt;: prejuízo cortical global, similar ao TEA.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Síndrome de Angelman&lt;/strong&gt;: notada ausência da fala com prejuízo amplo do neurodesenvolvimento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+## Outro
+- Ilhas de habilidade em 10% dos casos[1].
+- 6 a 18 meses.
+--&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;KANDEL, Eric et al. &lt;strong&gt;Principles of neuroscience 5th&lt;/strong&gt;. AMGH Editora, 2014.&lt;/li&gt;
+&lt;li&gt;CHALIHA, Devahuti et al. &lt;strong&gt;A systematic review of the valproic-acid-induced rodent model of autism&lt;/strong&gt;. Developmental neuroscience, v. 42, n. 1, p. 12-48, 2020.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.paho.org/pt/topicos/transtorno-do-espectro-autista&#34;&gt;https://www.paho.org/pt/topicos/transtorno-do-espectro-autista&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CHOMIAK, Taylor; TURNER, Nathanael; HU, Bin. &lt;strong&gt;What we have learned about autism spectrum disorder from valproic acid&lt;/strong&gt;. Pathology research international, v. 2013, n. 1, p. 712758, 2013.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Cronotanatognose</title>
@@ -838,12 +1070,13 @@ Art. 66 - A pena poderá ser ainda atenuada em razão de circunstância relevant
 	</item>
 	
 	<item>
-		<title>Documento médico eletrônico</title>
+		<title>Documento em papel timbrado</title>
 		<link>https://www.jeffersontorres.com.br/medicina/receituario/</link>
 		<pubDate>Wed, 12 Jun 2024 19:15:57 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/receituario/</guid>
-		<description>
+		<description>&lt;p&gt;Tendo em vista a necessidade de escrever em papel timbrado em diversas situações do meu quotidiano, criei esta página como facilidade. O usuário se responsabiliza pela criação dos documentos e sua autenticidade depende de assinatura física.&lt;/p&gt;
+
 
 &lt;style&gt;
 /* styles.css */
@@ -867,7 +1100,7 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: vertical; /* Permite redimensionar verticalmente */
+  resize: vertical; 
   margin-bottom: 20px;
 }
 #titulo {
@@ -960,10 +1193,12 @@ body {
     &lt;br&gt;
     &lt;div class=&#34;cabecalho&#34;&gt;
         &lt;textarea id=&#34;titulo&#34; rows=&#34;1&#34; cols=&#34;50&#34; placeholder=&#34;Título&#34;&gt;&lt;/textarea&gt;
-        &lt;textarea id=&#34;cabecalho&#34; rows=&#34;10&#34; cols=&#34;50&#34; placeholder=&#34;Insira um cabeçalho&#34;&gt;&lt;/textarea&gt;
+        &lt;textarea id=&#34;cabecalho&#34; rows=&#34;10&#34; cols=&#34;50&#34; placeholder=&#34;Um cabeçalho centralizado
+Pode conter várias linhas
+Que centralizam automaticamente&#34;&gt;&lt;/textarea&gt;
     &lt;/div&gt;
     &lt;div class=&#34;content&#34;&gt;
-        &lt;textarea id=&#34;corpo&#34; rows=&#34;10&#34; cols=&#34;50&#34; placeholder=&#34;Insira texto&#34;&gt;&lt;/textarea&gt;
+        &lt;textarea id=&#34;corpo&#34; rows=&#34;10&#34; cols=&#34;50&#34; placeholder=&#34;Corpo do texto...&#34;&gt;&lt;/textarea&gt;
     &lt;/div&gt;
     &lt;div class=rodape&gt;
             &lt;select id=&#34;dia&#34; required&gt;
@@ -1805,6 +2040,13 @@ IV Premoriência é a morte de um dos partícipes de um mesmo evento, instantes 
 &lt;p&gt;Os dois marcos possíveis de início da gravidez, no Brasil, são a fecundação &lt;em&gt;sine qua non&lt;/em&gt; e a nidação que assume característica definidora posterior. O marco &lt;strong&gt;legal atualmente adotado no Brasil é a nidação bem sucedida&lt;/strong&gt; que ocorre, normalmente, cerca de 14 dias após a fecundação.&lt;/p&gt;
 &lt;h3 id=&#34;fim&#34;&gt;Fim&lt;/h3&gt;
 &lt;p&gt;O marco final da gravidez é a rotura da bolsa amniótica, em qualquer de suas formas, momento este que define, também, o início do parto normal que termina com a dequitação. O parto cesáreo ou de qualquer outra forma cirúrgica é encerrado com o ato cirúrgico em si.&lt;/p&gt;
+&lt;h3 id=&#34;fraude-gestacional-e-erro&#34;&gt;Fraude gestacional e erro&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pseudociese&lt;/strong&gt;: tomada pela crença real de estar grávida, a mulher passar por um distúrbio psicossomático em que se comporta, se veste, se sente e até sofre as mesmas circunstâncias de uma gravidez real, podendo, inclusive, ter os mesmos sintomas e sinais, possivelmente levados a cabo até a insustentável data das 40 semanas. É um distúrbio psiquiátrico, descrito no Quinto Manual Estatístico e Diagnóstico de Doenças Mentais.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simulação&lt;/strong&gt;: é o comportamento delituoso de fraude com o fim de obter vantagem, sendo consciente e produzido por artifícios diversos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metassimulação&lt;/strong&gt;: a mulher realmente grávida se põe a aumentar os sintomas ou intensidades dos sintomas para obter vantagens. Ocorre, também, na manipulação da idade gestacional, afim de atribuir paternidade diversa, por exemplo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dissimulação&lt;/strong&gt;: é negativa da real gestação, por boa ou má fé, compreendendo motivos diversos, desde a mera dificuldade de aceitação de gestação indesejada, até ocultação do crime de aborto.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;conceitos&#34;&gt;Conceitos&lt;/h2&gt;
 &lt;h3 id=&#34;abortamento-e-aborto&#34;&gt;Abortamento e aborto&lt;/h3&gt;
 &lt;p&gt;Abortamento, de maneira &lt;em&gt;latu sensu&lt;/em&gt; é a interrupção da gestação antes de seu fim fisiológico, o parto.&lt;/p&gt;
@@ -1950,10 +2192,11 @@ de seu representante legal.
 &lt;h4 id=&#34;balthazard&#34;&gt;Balthazard&lt;/h4&gt;
 &lt;h4 id=&#34;dervieux&#34;&gt;Dervieux.&lt;/h4&gt;
 &lt;h2 id=&#34;infanticídio&#34;&gt;Infanticídio&lt;/h2&gt;
+&lt;p&gt;É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.&lt;/p&gt;
 &lt;p&gt;A doutrina jurídica é preocupada com a idade do muito jovem morto. Se possui resquícios de vita uterina e ainda não recebeu cuidados, trata-se do &lt;mark&gt;infante nascido&lt;/mark&gt; ou ainda do &lt;mark&gt;feto nascente&lt;/mark&gt;. Já aquele que recebe cuidados ou se passam 24h &lt;strong&gt;de vida&lt;/strong&gt; é um &lt;mark&gt;recém-nascido&lt;/mark&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;puerpério-puérpera-e-estado-puerperal&#34;&gt;Puerpério, puérpera e estado puerperal&lt;/h3&gt;
-&lt;p&gt;O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.&lt;/p&gt;
-&lt;p&gt;É o homicídio cometido pela mãe ao matar o filho durante o parto ou logo após este, sob o estado puerperal.&lt;/p&gt;
+&lt;p&gt;O puerpério é o tempo pós-parto definido pela obstetrícia. Toda gestante, ao encerrar a gestação, é uma puérpera. Seu início formal se dá com a eliminação da placenta e não tem duração fixa, mas costuma durar entre 6 e 8 semanas.&lt;/p&gt;
+&lt;p&gt;O estado puerperal é uma criação legal e penal para tipificação do crime específico de infanticídio.&lt;/p&gt;
 &lt;p&gt;O estado puerperal é uma ficção do direito. Não existe a entidade médica &lt;strong&gt;estado puerperal&lt;/strong&gt;. Há, na verdade, o puerpério, período após o parto em que diversos reajustes fisiológicos ocorrem em todas mulheres recém paridas.&lt;/p&gt;
 &lt;p&gt;Porém, este conceito ainda é relevante no infanticídio porque o código penal vigente é inespecífico na qualificação da agente deste crime. Seria a mãe, claro, a única possível, porém para que se qualifique o chamado estado puerperal haveriam condições psíquicas esperadas não encontradas no contexto de simples análise das circunstâncias imediatas ao parto. Em outras palavras, não basta o parto recente para configurar uma mãe afetada pelo estado puerperal.&lt;/p&gt;
 &lt;p&gt;A bem da verdade, o infanticídio decorre de um estado mental longo, concebido durante toda a gestação que é geralmente ocultada, pela desonra ou pela vergonha, estado este que produz na mulher sentimentos diametralmente opostos pelo filho vindouro, preocupações com o julgamento social, a vida a partir do nascimento dele e outras questões mais. A gestante vive um inferno mental até que é chegado o dia do parto, momento no qual seus recusos de dissonância cognitiva se acabam, sua esperança na ocultaçao da gestção não mais a acode e num lampejo de emoção forte e medo mata-o para preservar a sanidade, beirando o surto psicótico. Findada a tragédia, se arrepende ou se sente muito mal e já começa pagar pelo que fez, com a punição sentimental, motivo pelo qual o infanticídio é um crime privilegiado.&lt;/p&gt;
@@ -5115,8 +5358,9 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 
 &lt;/div&gt;
 
+  &lt;p style=&#34;font-size: 80%&#34;&gt;Classificação de Afrânio Peixoto&lt;/p&gt;
 
-&lt;p&gt;Classificação de Afrânio Peixoto&lt;/p&gt;
+
 &lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
 &lt;p&gt;As asfixias se definem pela impossibilidade de oxigenação dos diversos tecidos. Quando leva a morte e é causada por atores externos, torna-se de grande relevância para a medicina forense.&lt;/p&gt;
 &lt;p&gt;Conceitos importantes:&lt;/p&gt;

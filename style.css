@@ -345,7 +345,6 @@ Regras de estilo:
                       #d56676
                      );
   --background-img: url('pix/night.jpg'); 
-  --hover-botao: var(--azul-escuro-google);
   --corH1: var(--amarelo-google);
   --corH3: tomato;
   --corNegrito: tan; 
@@ -357,7 +356,7 @@ Regras de estilo:
   --letragradiente: white;
   --katex-color: var(--fonte);
   --corBotao: var(--fundo-input);
-  --corFundoHoverBotao: #2e2c35;
+  --corFundoHoverBotao: var(--roxoGoogle);
   --headings: navajowhite ;
   --corBordas: #383f48 ;
   --fundo-invertido: var(--white-solarized) ;
@@ -1715,7 +1714,8 @@ input[name="answer"] {
 }
 
 /* CAROUSEL CARROSSEIS */
-[class^=carousel] {
+/*[class^=carousel] {*/
+.carousel {
   /*
   height: 400px;
   background-size: fit-content;
@@ -1726,35 +1726,52 @@ input[name="answer"] {
   margin-left: auto ;
   margin-right: auto ;
   */
-  --largura: 60vw;
-  --carouselheight: calc(var(--largura) * 2 / 3);
+  /*
+  display: flex;
+  flex-wrap: wrap;
+  --carouselAltura: 60vh;
+  --carouselLargura: calc(var(--carouselAltura) * 2 / 3);
+  height: var(--carouselAltura);
+  width: fit-content;
   padding: 1vw;
   border: 1px solid var(--corBordas);
-  width: fit-content;
   border-radius: var(--raioBordas);
   background: var(--fundo-carousel);
-  display: block;
   margin-left: var(--margem);
+  */
+  padding-bottom: 2rem;
+}
+.slide {
 }
 .slide img{
   /*
-  */
-  margin: 0%;
   height: 100%;
+  max-width: calc(600px + 20vw); 
+  height: fit-content;
+  margin: 0%;
   border-radius: 7px;
-  max-width: calc(300px + 20vw); 
   position: relative;
-  max-height: 300px; 
+  */
+  max-height: 60vh; 
 }
 div.slide a img {
+  /*
+  max-width: calc(var(--carouselLargura) - 20px);
+  height: auto;
+  */
 }
 .slide ul {
+  /*
   text-align: start;
+  */
 }
 .slide li {
+  /*
   text-align: start;
+  */
 }
 .button-container {
+  margin-left: var(--margem);
 /* 
   align: center;
   margin: auto;
@@ -1763,25 +1780,25 @@ div.slide a img {
   height: 200px;
   width: calc(var(--largura) - 5vw);
   justify-content: space-between;
-*/
   display: flex;
   justify-content: flex-start;
+*/
 }
 .conteudo div.slide {
 }
 .conteudo div.legend {
+/*
   margin-left: 0vw;
+*/
 }
 button[id^="proximo"] {
   text-align: start;
   padding-left: 1%;
 }
-
 button[id^="anterior"] {
   padding-right: 1%;
   text-align: end;
 }
-
 button[id^="proximo"], button[id^="anterior"] {
   /* 
   color: gray;
@@ -1833,14 +1850,16 @@ button[id^="anterior"]:active{
   align-content: center;
   object-fit: cover;
   align-content: center;
-*/
   display: flex;
   justify-content: center;
+*/
 }
 .carousel.slide iframe {
+/*
   display: block ;
   align-content: center;
   justify-content: center;
+*/
 /* Problema de tamanho... 'auto' não funciona, 70 do viewheight ficou bom, deixei sem. */
 }
 .carousel.slide a{
@@ -1852,38 +1871,42 @@ button[id^="anterior"]:active{
 */
   }
 .carousel.slide a[href]{
+/*  
   display: flex;
   justify-content: center;
   align-items: center;
+*/
 }
 .conteudo .legend {
   font-size: 100%;
   color: var(--font); 
   font-style: italic;
-  margin-left: var(--margem);
-  text-align: start;
 }
 .legend {
+/*  
   font-size: 80%;
   color: var(--font); 
   font-style: italic;
   margin-left: var(--margem);
   text-align: start;
+*/
 }
 .legend p{
   /*
   margin: 0%;
   text-indent: 0%;
   padding-left: 5%;
-  */
   font-size: 90%;
   font-style: italic;
   max-width: 75%;
   margin-left: 0vw;
   color: var(--font); 
+  */
 }
 .carousel.slide a[href] img {
+  /*
   max-height: 100%;
+  */
 }
 
 /* Limpar campos de input
@@ -1943,10 +1966,10 @@ nav#TableOfContents li:last-child::before {
 }
 
 .barra {
+  /*
   justify-content: flex-end;
   display: flex;
   margin-right: 10px ;
-  /*
   text-align: right;
   right: 3vw;
   top: 1vw;

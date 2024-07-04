@@ -71,7 +71,7 @@
   <a id=icone-tema href="#" onclick="tema()"></a>
   <button onclick="window.location.href='../../index.html'">Início</button>
   <button onclick="window.location.href='../../files/'">Arquivos</button>
-  <button onclick="window.location.href='../../tags/calculadoras/'">Calculadoras</button>
+  <button onclick="window.location.href='../../tags/calculadoras/'">Ferramentas</button>
   <button onclick="window.location.href='../../dicionario/'">Dicionário</button>
   <button onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
   </p>
@@ -93,15 +93,20 @@
     setIconeDark();
     document.documentElement.setAttribute('data-tema', "dark");
     localStorage.setItem('tema', "dark"); 
-  } else {
+  } else if (temaAtual == "light"){
     setIconeLight();
     document.documentElement.setAttribute('data-tema', "light");
     localStorage.setItem('tema', "light"); 
+  } else {
+    document.documentElement.setAttribute('data-tema', temaAtual);
   }
 
-  function tema() {
+  function tema(nome) {
     temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+    if (nome !== undefined) {
+      document.documentElement.setAttribute('data-tema', nome);
+      localStorage.setItem('tema', nome); 
+    } else if (temaAtual == "light") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       setIconeDark();
@@ -117,44 +122,11 @@
 
 
 
-<script>
-function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
-}
-let frases;
-let index ;
-let fraseAleatoria ;
-let autor ;
-
-fetch('/citacoes.json')
-.then(response => response.json())
-.then(data => { 
-  const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-  index = randomIndex(novoFormato.length);
-  fraseAleatoria = novoFormato[index].frase;
-  autor = novoFormato[index].autor;
-  
-  
-  document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
-  if (autor.length > 1){
-    document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    console.log(autor)
-  }
-})
-.catch(error => console.error('Erro ao buscar o JSON:', error));
-
-document.addEventListener("DOMContentLoaded", function() {
-  const item = document.querySelector('.frase');
-  item.classList.add('show');
-});
-</script>
-<div> 
-  <p class="frase" id="frase"></p> 
-  <div id="autor"></div>
-  <br>
-</div>
-
 <ul class="listing-list">
+<li>
+	<a href="../../medicina/autismo/">Bases fisiopatológicas do autismo</a>
+	
+	</li>
 <li>
 	<a href="../../medicina/medicina-legal/morte-legal/">A morte e a lei: tanatologia forense</a>
 	

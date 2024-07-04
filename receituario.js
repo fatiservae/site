@@ -1,4 +1,4 @@
-let medicamentos = [];
+//let medicamentos = [];
 
 //function adicionarElemento() {
 //  const selectElement = document.getElementById('elementos');
@@ -41,12 +41,18 @@ async function generatePDF() {
   const doc = new jsPDF();
 
   //LOGOS
-  const imgDir = "/pix/"+document.getElementById("logoDir").value+".png";
-  const imgEsq = "/pix/"+document.getElementById("logoEsq").value+".png";
-  const logoEsq = await getImageData(imgEsq);
-  const logoDir = await getImageData(imgDir);
-  doc.addImage(logoEsq, 'PNG', 20, 10, 30, 30);
-  doc.addImage(logoDir, 'PNG', 170, 10, 30, 30);
+  const imgDirPath = document.getElementById("logoDir").value;
+  const imgEsqPath = document.getElementById("logoEsq").value;
+  if (!imgDirPath == ""){
+    let imgDir = "/pix/"+imgDirPath+".png";
+    const logoDir = await getImageData(imgDir);
+    doc.addImage(logoDir, 'PNG', 170, 10, 30, 30);
+  };
+  if (!imgEsqPath == ""){
+    let imgEsq = "/pix/"+imgEsqPath+".png";
+    const logoEsq = await getImageData(imgEsq);
+    doc.addImage(logoEsq, 'PNG', 20, 10, 30, 30);
+  };
 
   // CABECALHO
   doc.setFontSize(12);

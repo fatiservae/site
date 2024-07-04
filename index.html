@@ -22,7 +22,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
-  <meta name="description" content="↻ Cronotanatognose Controle de conteúdo Noções de direito penal Pirâmide das necessidades de Maslow Visão forense de teoria tripartite do crime Sangramento uterino anormal Adicção: os impactos de diversas drogas Documento médico eletrônico Critérios de Centor e Jones em febre reumática Documentos em medicina legal Lei do abuso de autoridade esquematizada Sexologia forense Mandamentos legais brasileiros da autópsia Conceitos e prática em traumatologia forense A morte e a lei: tanatologia forense Aborto e infanticídio no Brasil Medidas cautelares: a prisão Identificação antropológica forense Visão toxicológica e legal da embriaguez A morte por asfixias Anemias: investigação e tratamento Gastrite e úlceras gástricas Insights sobre cetoacidose diabética Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando a sedação: RASS/SAS/FOUR Principais achados em eletrocardiograma Guia de nomeclatura das neoplasias Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de vieses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Calculadoras de superfície corporal Fluidoterapia de manutenção: Holliday-Segar Guia de condutas em pré-natal Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos A ciência por trás do pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Tudo sobre vacinas Meu dicionário Abaixo a medicina!">
+  <meta name="description" content="↻ Bases fisiopatológicas do autismo Cronotanatognose Controle de conteúdo Noções de direito penal Pirâmide das necessidades de Maslow Visão forense de teoria tripartite do crime Sangramento uterino anormal Adicção: os impactos de diversas drogas Documento em papel timbrado Critérios de Centor e Jones em febre reumática Documentos em medicina legal Lei do abuso de autoridade esquematizada Sexologia forense Mandamentos legais brasileiros da autópsia Conceitos e prática em traumatologia forense A morte e a lei: tanatologia forense Aborto e infanticídio no Brasil Medidas cautelares: a prisão Identificação antropológica forense Visão toxicológica e legal da embriaguez A morte por asfixias Anemias: investigação e tratamento Gastrite e úlceras gástricas Insights sobre cetoacidose diabética Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando a sedação: RASS/SAS/FOUR Principais achados em eletrocardiograma Guia de nomeclatura das neoplasias Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de vieses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Calculadoras de superfície corporal Fluidoterapia de manutenção: Holliday-Segar Guia de condutas em pré-natal Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos A ciência por trás do pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Tudo sobre vacinas Meu dicionário Abaixo a medicina!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -49,7 +49,7 @@
   <a id=icone-tema href="#" onclick="tema()"></a>
   <button onclick="window.location.href='./index.html'">Início</button>
   <button onclick="window.location.href='./files/'">Arquivos</button>
-  <button onclick="window.location.href='./tags/calculadoras/'">Calculadoras</button>
+  <button onclick="window.location.href='./tags/calculadoras/'">Ferramentas</button>
   <button onclick="window.location.href='./dicionario/'">Dicionário</button>
   <button onclick="window.location.href='./medicina/bulario/'">Bulário</button>
   </p>
@@ -71,15 +71,20 @@
     setIconeDark();
     document.documentElement.setAttribute('data-tema', "dark");
     localStorage.setItem('tema', "dark"); 
-  } else {
+  } else if (temaAtual == "light"){
     setIconeLight();
     document.documentElement.setAttribute('data-tema', "light");
     localStorage.setItem('tema', "light"); 
+  } else {
+    document.documentElement.setAttribute('data-tema', temaAtual);
   }
 
-  function tema() {
+  function tema(nome) {
     temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+    if (nome !== undefined) {
+      document.documentElement.setAttribute('data-tema', nome);
+      localStorage.setItem('tema', nome); 
+    } else if (temaAtual == "light") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       setIconeDark();
@@ -170,6 +175,11 @@ document.addEventListener("DOMContentLoaded", function() {
   var pagesData = [
     
       {
+        "title": "Bases fisiopatológicas do autismo",
+        "permalink": "\/medicina\/autismo\/"
+      },
+    
+      {
         "title": "Cronotanatognose",
         "permalink": "\/medicina\/medicina-legal\/cronotanatognose\/"
       },
@@ -205,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Documento médico eletrônico",
+        "title": "Documento em papel timbrado",
         "permalink": "\/medicina\/receituario\/"
       },
     
@@ -575,7 +585,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
   ];
-  var totalPages =  81 ;
+  var totalPages =  82 ;
   
   function getRandomPage() {
       var randomNumber = Math.floor(Math.random() * totalPages) + 1;
@@ -618,6 +628,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <script src="index.js"></script>
 
 <ul id="artlist">
+  <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/medicina/autismo/">Bases fisiopatológicas do autismo</a></li>
   <li data-tags="[medicina penal direito perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
   <li data-tags=""><a href="https://www.jeffersontorres.com.br/conteudo/">Controle de conteúdo</a></li>
   <li data-tags="[direito penal]"><a href="https://www.jeffersontorres.com.br/direito/penal/nocoes-penais/">Noções de direito penal</a></li>
@@ -625,7 +636,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <li data-tags="[medicina direito penal]"><a href="https://www.jeffersontorres.com.br/direito/imputabilidade/">Visão forense de teoria tripartite do crime</a></li>
   <li data-tags="[medicina ginecologia emergência]"><a href="https://www.jeffersontorres.com.br/medicina/sua/">Sangramento uterino anormal</a></li>
   <li data-tags="[medicina farmacologia]"><a href="https://www.jeffersontorres.com.br/medicina/adiccao/">Adicção: os impactos de diversas drogas</a></li>
-  <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/receituario/">Documento médico eletrônico</a></li>
+  <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/receituario/">Documento em papel timbrado</a></li>
   <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/febre-reumatica/">Critérios de Centor e Jones em febre reumática</a></li>
   <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/docs/">Documentos em medicina legal</a></li>
   <li data-tags=""><a href="https://www.jeffersontorres.com.br/direito/abuso-autoridade/">Lei do abuso de autoridade esquematizada</a></li>

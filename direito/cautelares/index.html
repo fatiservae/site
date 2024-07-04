@@ -104,7 +104,7 @@ Porém, há o aparente conflito com o chamado pacote anti-crime que inclui reda�
   <a id=icone-tema href="#" onclick="tema()"></a>
   <button onclick="window.location.href='../../index.html'">Início</button>
   <button onclick="window.location.href='../../files/'">Arquivos</button>
-  <button onclick="window.location.href='../../tags/calculadoras/'">Calculadoras</button>
+  <button onclick="window.location.href='../../tags/calculadoras/'">Ferramentas</button>
   <button onclick="window.location.href='../../dicionario/'">Dicionário</button>
   <button onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
   </p>
@@ -130,15 +130,20 @@ Porém, há o aparente conflito com o chamado pacote anti-crime que inclui reda�
     setIconeDark();
     document.documentElement.setAttribute('data-tema', "dark");
     localStorage.setItem('tema', "dark"); 
-  } else {
+  } else if (temaAtual == "light"){
     setIconeLight();
     document.documentElement.setAttribute('data-tema', "light");
     localStorage.setItem('tema', "light"); 
+  } else {
+    document.documentElement.setAttribute('data-tema', temaAtual);
   }
 
-  function tema() {
+  function tema(nome) {
     temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+    if (nome !== undefined) {
+      document.documentElement.setAttribute('data-tema', nome);
+      localStorage.setItem('tema', nome); 
+    } else if (temaAtual == "light") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       setIconeDark();

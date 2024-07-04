@@ -106,7 +106,7 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
   <a id=icone-tema href="#" onclick="tema()"></a>
   <button onclick="window.location.href='../../../index.html'">Início</button>
   <button onclick="window.location.href='../../../files/'">Arquivos</button>
-  <button onclick="window.location.href='../../../tags/calculadoras/'">Calculadoras</button>
+  <button onclick="window.location.href='../../../tags/calculadoras/'">Ferramentas</button>
   <button onclick="window.location.href='../../../dicionario/'">Dicionário</button>
   <button onclick="window.location.href='../../../medicina/bulario/'">Bulário</button>
   </p>
@@ -132,15 +132,20 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
     setIconeDark();
     document.documentElement.setAttribute('data-tema', "dark");
     localStorage.setItem('tema', "dark"); 
-  } else {
+  } else if (temaAtual == "light"){
     setIconeLight();
     document.documentElement.setAttribute('data-tema', "light");
     localStorage.setItem('tema', "light"); 
+  } else {
+    document.documentElement.setAttribute('data-tema', temaAtual);
   }
 
-  function tema() {
+  function tema(nome) {
     temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+    if (nome !== undefined) {
+      document.documentElement.setAttribute('data-tema', nome);
+      localStorage.setItem('tema', nome); 
+    } else if (temaAtual == "light") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       setIconeDark();
@@ -230,8 +235,9 @@ Anoxemia: insuficiente oxigênio na corrente sanguínea para troca adequada no t
 
 </div>
 
+  <p style="font-size: 80%">Classificação de Afrânio Peixoto</p>
 
-<p>Classificação de Afrânio Peixoto</p>
+
 <h2 id="geral">Geral</h2>
 <p>As asfixias se definem pela impossibilidade de oxigenação dos diversos tecidos. Quando leva a morte e é causada por atores externos, torna-se de grande relevância para a medicina forense.</p>
 <p>Conceitos importantes:</p>
