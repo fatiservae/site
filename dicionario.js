@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const searched = document.getElementById('search-output');
   const search = document.getElementById("search");
 
-
   // A variável searched deve ser incrementada com os 
   // dados que vão sofrer a busca.
   // O exemplo abaixo alimenta searched com dados de 
@@ -14,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   .then(data => {
     for (let key in data) {
       const listItem = document.createElement('li');
-      listItem.innerHTML = "<span style=\"color: var(--termo)\">"+key+"</span>"+": "+data[key]; 
+      listItem.innerHTML = "<span style=\"color: var(--corTermo)\">"+key+"</span>"+": "+data[key]; 
       searched.appendChild(listItem);
     }
   })

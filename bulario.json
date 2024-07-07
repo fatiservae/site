@@ -742,6 +742,18 @@
     ]
   },
   {
+    "nome": ["mupirocina", "Bactroban"],
+    "class": ["antibióticos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "g"],
+        "dosagem": [20, 1],
+        "instrucao": "Aplicar fina camada três vezes ao dia",
+        "via": "tópica"
+      }
+    ]
+  },
+  {
     "nome": ["polisulfato de mucopolissacarídeo", "Hirudoid"],
     "class": ["mucopolissacarídeos"],
     "posologias":[
@@ -761,5 +773,8 @@
     "obs": [
       "Aplicar fina camada sobre todo o hematoma."
     ]
+  },
+  {
+    "nome": ["valproato de sódio", "Depakote", "Depakene"]
   }
 ]

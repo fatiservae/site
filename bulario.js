@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       nome.innerText = atbAtual.nome[0] === undefined ? "" : 
                        atbAtual.nome[0];
 
-      comercial.classList.add('comercial');
+      comercial.classList.add('nomeComercial');
       comercial.innerText = atbAtual.nome[1] === undefined ? '' : 
                             atbAtual.nome.slice(1)
                                          .map(item => `${item}`+'®')

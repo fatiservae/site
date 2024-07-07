@@ -17,6 +17,7 @@ function calcular() {
   let meiaperna = 9;
   let meiacabeca = 4.5;
   let genitalia = 1;
+  let palma = 1;
   let pescoco = 1;
   let meiobraco = 4.5;
   let torax = 18;
@@ -24,6 +25,7 @@ function calcular() {
   let nadega = 0;
   let scq = 0;
   let dose;
+  let meiaDose;
   let debito;
   let eletrica = document.getElementById("eletrica").checked;
   let peso = document.getElementById("peso").value;
@@ -50,7 +52,8 @@ function calcular() {
     else if ( elemento === 'pescoco') {scq = scq + pescoco; lesao_pescoco = true}
     else if ( elemento === 'torax') {scq = scq + torax}
     else if ( elemento === 'dorso') {scq = scq + dorso}
-    else if ( elemento === 'genitalia') {scq = scq + dorso}
+    else if ( elemento === 'genitalia') {scq = scq + genitalia}
+    else if ( elemento === 'palma') {scq = scq + palma}
   })
 
   let classificacao;
@@ -68,11 +71,14 @@ function calcular() {
   if (eletrica) {
     dose = scq * peso * 4 ;
     debito = 1.5 * peso ;
+    meiaDose = dose / 2;
   } else if (idade < 14 || peso < 31){
     dose = scq * peso * 3;
     debito = 1 * peso ;
+    meiaDose = dose / 2;
   } else{
     dose = scq * peso * 2;
+    meiaDose = dose / 2;
     debito = 0.5 * peso ;
   };
 
@@ -87,5 +93,5 @@ function calcular() {
   }
 
   document.getElementById('resultado').innerHTML += 
-    "<br>Fazer "+dose+"ml de Ringer Lactato em 24h.<br>Débito urinário esperado em torno de "+debito+"mL/h.<br>Observe sempre se a urina é clara!<br>Considere hidratação de manutenção.<br><br>A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário."
+    "<br>Fazer "+dose+"ml de Ringer Lactato em 24h.<br>Correr "+meiaDose+"ml nas primeiras 8h. Débito urinário esperado em torno de "+debito+"mL/h.<br>Observe sempre se a urina é clara!<br>Considere hidratação de manutenção.<br><br>A administração de líquidos deve ser baseada na resposta fisiológica do doente, ajustando-se a quantidade de volume para mais ou para menos baseada no débito urinário."
 }
