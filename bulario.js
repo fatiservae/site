@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
           indexUnidades--
         };
 
-        //dose.innerHTML += " "+posologia.via;
+        dose.innerHTML += " "+posologia.via;
 
         let instrucao = document.createElement('p');
         instrucao.style.color = "var(--fonte)";

@@ -1,5 +1,60 @@
 [
   {
+    "nome": ["gemfibrozil"],
+    "class": ["fibratos"],
+    "obs": [
+      "Evitar uso concomitante com estatinas."
+    ]
+  },
+  {
+    "nome": ["adenosina"],
+    "class": ["antiarritmicos"],
+    "posologias": [
+      {
+        "unidades": ["mg"],
+        "dosagem": [6],
+        "via": "intravenoso",
+        "instrucao": "no contexto de taquicardias supraventriculares feita em bolo intravenoso que pode ser repetido em 2min."
+      }
+    ]
+  },
+  {
+    "nome": ["diltiazem"],
+    "class": ["antiarritmicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "kg"],
+        "dosagem": [0.25, 1],
+        "via": "intravenoso",
+        "instrucao": "para controle de frequência ventricular em flutter, correr o bolo em 2min."
+      }
+    ]
+  },
+  {
+    "nome": ["verapamil"],
+    "class": ["antiarritmicos"],
+    "posologias": [
+      {
+        "unidades": ["mg"],
+        "dosagem": [5],
+        "via": "intravenoso",
+        "instrucao": "no contexto de controle da frequência ventricular em flutter, correr o bolo em 2min."
+      }
+    ]
+  },
+  { 
+    "nome": ["metoprolol"],
+    "class": ["antiarritmicos"],
+    "posologias": [
+      {
+        "unidades": ["mg"],
+        "dosagem": [5],
+        "via": "intravenoso",
+        "instrucao": "no contexto de controle da frequência ventricular em flutter, correr o bolo em 5min."
+      }
+    ]
+  },
+  {
     "nome": ["carbamazepina", "Tegreto", "Tegretard"]
   },
   {
@@ -424,6 +479,14 @@
   },
   {
     "nome": ["clorpromazina", "Amplictil"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [400, 1],
+        "via": ["oral"],
+        "instrucao": ["dose imediata para cessação de soluço persistente."]
+      }
+    ],
     "obs": [
       "migrânea"
     ]
@@ -441,7 +504,7 @@
     "nome": ["dopamina"]
   },
   {
-    "nome": ["cetamina", "Ketalar"],
+    "nome": ["cetamina", "Ketalar", "Cetamin"],
     "class": ["hipnóticos", "sedativos", "bloqueadores de NMDA"],
     "posologias": [
       {
@@ -472,13 +535,13 @@
         "unidades": ["mg", "kg"],
         "dosagem": [0.02, 1],
         "via": "intramuscular",
-        "instrução": "para sedação pediátrica sem acesso venoso."
+        "instrucao": "para sedação pediátrica sem acesso venoso."
       }
     ],
     "obs": [
       "Causa hipertensão por liberação de adrenalina endógena.",
       "Nas situações de adrenalina endógena esgotada, causa hipotensão.",
-      "Provoca moderada sialorreia, halucinação parasitária e outras."
+      "Provoca moderada sialorreia, alucinação parasitária e outras."
     ]
   },
   {
@@ -669,24 +732,39 @@
     ]
   },
   {
-    "nome": ["amiodarona"],
+    "nome": ["propafenona"],
     "class": ["antiarritmícos"],
     "posologias": [
       {
-        "unidades": ["mg"],
-        "dosagem": [300],
-        "instrucao":"para o ataque de FA de alta resposta com hemodinâmica estável.",
+        "unidades": ["mg", "Kg"],
+        "dosagem": [2, 1],
+        "instrucao": "dose para fibrilação atrial.",
         "via": "intravenoso"
       },
       {
         "unidades": ["mg"],
-        "dosagem": [900],
-        "instrucao":"para o ataque de FA de alta resposta com hemodinâmica estável.",
+        "dosagem": [600],
+        "instrucao": "dose ataque para fibrilação atrial.",
         "via": "intravenoso"
       }
-    ],
-    "obs":[
-      "Em FA, diluir as doses em 250ml de soro 0.9%."
+    ]
+  },
+  {
+    "nome": ["amiodarona"],
+    "class": ["antiarritmícos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": [5, 1],
+        "instrucao": "dose inicial para fibrilação atrial, bolo em 2 minutos",
+        "via": "intravenoso"
+      },
+      {
+        "unidades": ["mg", "Kg"],
+        "dosagem": [7, 1],
+        "instrucao": "dose máxima para fibrilação atrial, bolo em 2 minutos",
+        "via": "intravenoso"
+      }
     ]
   },
   {
@@ -776,5 +854,20 @@
   },
   {
     "nome": ["valproato de sódio", "Depakote", "Depakene"]
+  },
+  {
+    "nome": ["glibenclamida", "Daonil"],
+    "class": ["sulfonilureias", "antidiabéticos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [5, 1],
+        "via": "oral",
+        "instrucao": "O comprimido pode ser partido."
+      }
+    ],
+    "obs": [
+      "Se a glicemia de jejum cai na vigência de sulfonilureias, verificar função renal."
+    ]
   }
 ]

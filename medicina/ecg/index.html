@@ -31,6 +31,37 @@
   </script>
 
   
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      if (temaAtual === 'dark') {
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            'primaryColor': 'transparent',
+            'primaryTextColor': 'white',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#22272e',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#eee',
+            'tertiaryColor': 'white'
+          }
+      });
+    } 
+    </script>
+  
 
   <title>Principais achados em eletrocardiograma | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
@@ -152,6 +183,8 @@ O eletrocardiograma normal adulto O eletrocardiograma normal pediátrico Padrão
       setIconeLight();
     }
     
+      location.reload();
+    
   }
 </script>
 
@@ -165,6 +198,13 @@ O eletrocardiograma normal adulto O eletrocardiograma normal pediátrico Padrão
       <ul>
         <li><a href="#critérios">Critérios</a></li>
         <li><a href="#significado">Significado</a></li>
+      </ul>
+    </li>
+    <li><a href="#arritmias-atriais">Arritmias atriais</a>
+      <ul>
+        <li><a href="#fibrilação-atrial">Fibrilação atrial</a></li>
+        <li><a href="#flutter-atrial">Flutter atrial</a></li>
+        <li><a href="#observações">Observações</a></li>
       </ul>
     </li>
     <li><a href="#bloqueio-atrioventricular">Bloqueio atrioventricular</a>
@@ -212,6 +252,60 @@ O eletrocardiograma normal adulto O eletrocardiograma normal pediátrico Padrão
 </ul>
 <h3 id="significado">Significado</h3>
 <p>Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.</p>
+<h2 id="arritmias-atriais">Arritmias atriais</h2>
+<h3 id="fibrilação-atrial">Fibrilação atrial</h3>
+<ul>
+<li>$QRS$ estreito;</li>
+<li>Ritmo irregularmente irregular;</li>
+<li>Ondas $P$ não identificadas ou desorganizadas; e</li>
+<li>Possível presença de ondas $f$ que possuem linha de base elétrica e chamadas grosseiras quando possuírem voltagem superior a 0,5mm ou 1mm.</li>
+</ul>
+<pre class="mermaid">graph TD;
+2(Presença de ondas <i>f</i>.<br>Ritmo irregularmente irregular.) --> fa(Fibrilação atrial);
+fa -- hemodinamicamente<br>instável --> cve(1. Internação;<br>2. Cardioversão elétrica imediata:<br>200J iniciais<br>ou<br>Bifásico 200J<br>ou<br>Pás anteroposteriorizadas);
+fa -- hemodinamicamente<br>estável --> t(Tempo de sintomas) -- menor que 48h<br>ou<br>paciente já anticoagulado --> 3(Cardioversão elétrica ou química);
+t -- menor que 7 dias --> 4(Ainda compensa<br>tentar cardioversão<br>química);
+t -- maior que 7 dias<br>ou<br>anticoagulação desconhecida --> 6(1. Anticoagular;<br>2. Jejum;<br>3. Sedação;<br>4. Cardioversão elétrica.); 
+</pre>
+
+<h4 id="cardioversão-química">Cardioversão química</h4>
+<ul>
+<li>Amiodarona em bolo de 5 a 7mg/kg em 30 minutos; e</li>
+<li>Propafenona oral de 600 mg ou 2 mg/kg intravenosa.</li>
+</ul>
+<h3 id="flutter-atrial">Flutter atrial</h3>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/ecg/ecg-flutter.jpg"></img>
+    <p>ECG típico com ondas F de base elétrica perdida.</p>
+  </div>
+
+<ul>
+<li>Ritmo pode ser irregular ou regular;</li>
+<li>Possíveis ondas $F$ de base isoelétrica perdida. O mais comum é que a polaridade dessa onda seja negativa em DII, DIII e aVF; e</li>
+<li>A frequência ventricular costuma ser metade ou outra fração inteira da frequência atrial.</li>
+</ul>
+<pre class="mermaid">graph TD;
+5(Presença de ondas <i>F</i> em II, III e aVF<br>possivelmente negativas.<br>Base isoelétrica perdida.) --> ff(Flutter atrial); 
+ff --> t2(Tempo de sintomas) -- menor que 48h --> 7(Tentar cardioversão com 50J) -- falha --> 8(Repetir com 200J);
+t2 -- maior que 48h --> 9(1. Controle de frequência ventricular.<br>2. Ecocardio para<br>descartar trombos.);
+</pre>
+
+<h4 id="controle-de-frequência-ventricular">Controle de frequência ventricular</h4>
+<ul>
+<li>Diltiazem intravenoso a 0,25mg/kg em 2 minutos;</li>
+<li>Verapamil intravenoso 5mg em 2min; ou</li>
+<li>Metoprolol intravenoso 5mg em 5min.</li>
+</ul>
+<h3 id="observações">Observações</h3>
+<ul>
+<li>A adenosina a 6mg/bolo intravenoso pode ser usada em toda arritmia supraventricular, porém a reversão para ritmo sinusal é rara. <strong>Funciona mais como um redutor de frequência cardíaca, permitindo diagnóstico mais apurado, e.g. quando há confusão entre flutter e fibrilação atrial;</strong></li>
+<li>Pode-se repetir o bolus de adenosina dentro de 2min ou em momento diferente;</li>
+<li>O flutter pode ser curado por meio da ablação por radiofrequência;</li>
+<li>No flutter está <mark>contraindicado</mark> a tentativa de reversão química, notadamente a amiodarona, porque o ritmo pode se converter em um mais lento ainda levando a instabilidade hemodinâmica.</li>
+</ul>
 <h2 id="bloqueio-atrioventricular">Bloqueio atrioventricular</h2>
 <h3 id="de-grau-1">De grau 1</h3>
 <ul>

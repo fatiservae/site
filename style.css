@@ -284,6 +284,7 @@
   --corHoverBotao: navajowhite ;
   --corH1: var(--pimenta);
   --corH3: tomato;
+  --corH5: black;
   --corNegrito: black; 
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
@@ -975,7 +976,7 @@ h1, h3, h2 , h4, h5{
   border: var(--bordasHeadings);
   font-weight: bold;  
   box-shadow: var(--sombraCaixas);
-  font-size: 125%;
+  font-size: 120%;
   padding: 0%;
   margin-top: 1em;
   padding-right: .5rem;
@@ -1012,7 +1013,7 @@ h1 {
 h3 {
   color: var(--corH3);
   margin-left: var(--margem2);
-  font-size: 105%;
+  font-size: 115%;
 }
 h3::before {
   /*
@@ -1026,7 +1027,7 @@ h4 {
   border: none;
   color: var(--corH4);
   margin-left: var(--margem3);
-  font-size: 100%;
+  font-size: 110%;
 }
 h4::before {
   /*
@@ -1038,14 +1039,14 @@ h5 {
   background: none;
   box-shadow: none;
   border: none;
-  color: var(--corH4);
+  color: var(--corH5);
   margin-left: var(--margem4);
   font-size: 100%;
 }
 h5::before {
+  content: "— ";
   /*
   content: var(--h4BeforeContent);
-  content: "— ";
   color: var(--corNegrito);
   */
 }

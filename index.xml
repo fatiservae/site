@@ -5,7 +5,7 @@
 	<description>Recent content on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sat, 06 Jul 2024 20:46:51 -0300</lastBuildDate>
+	<lastBuildDate>Fri, 12 Jul 2024 01:29:39 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
@@ -417,6 +417,10 @@ quinta --&gt; 9(Ceftarolina);
 &lt;tr&gt;
 &lt;td&gt;Colecistite Tokyo&lt;/td&gt;
 &lt;td&gt;Ok&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kings College - prognóstico de hepatite fulminante&lt;/td&gt;
+&lt;td&gt;Draft&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Monitorização de sedação&lt;/td&gt;
@@ -1613,14 +1617,20 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 &lt;h2 id=&#34;critérios-legais&#34;&gt;Critérios legais&lt;/h2&gt;
 &lt;p&gt;A autópsia só deve ser iniciada se o embaraço burocrático do cadáver estiver resolvido, notadamente a identificação feita por etiqueta em hálux direito ou bracelete com, pelo menos, nome completo.&lt;/p&gt;
 &lt;h2 id=&#34;técnicas-de-autópsia&#34;&gt;Técnicas de autópsia&lt;/h2&gt;
-&lt;h3 id=&#34;ghon-eou-letulle&#34;&gt;Ghon e/ou Letulle&lt;/h3&gt;
-&lt;p&gt;A técnica de Ghon caracteriza-se por conservar a relação existente entre os órgãos, já que esses são retirados em blocos, por sistemas.&lt;/p&gt;
-&lt;p&gt;Quando adotado o estudo dos órgãos pelo método de Ghon ou Letulle haverá a extração dor órgãos em blocos &amp;mdash; cervicais, torácicos, abdominais e geniturinários separadamente &amp;mdash; ou em monobloco, a.k.a. “em massa”.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Abertura em Y&lt;/strong&gt;: incisão biacromio-esterno-pubiana.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abertura do couro cabeludo&lt;/strong&gt;: bimastoidea usando serra para formar um sulco, raquítomo e martelo para rompimento final preservando as membranas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ghon&#34;&gt;Ghon&lt;/h3&gt;
+&lt;p&gt;A técnica de Ghon caracteriza-se por conservar a relação existente entre os órgãos, já que esses são retirados em blocos, por sistemas, cervicais, torácicos, abdominais e geniturinários separadamente.&lt;/p&gt;
+&lt;h3 id=&#34;letulle&#34;&gt;Letulle&lt;/h3&gt;
+&lt;p&gt;Remoção em monobloco, a.k.a. “em massa” de todos órgãos para exposição global em bancada.&lt;/p&gt;
 &lt;h3 id=&#34;rokitansky&#34;&gt;Rokitansky&lt;/h3&gt;
-&lt;p&gt;Mantém os órgãos &amp;ndash; oração do cadáver&lt;/p&gt;
+&lt;p&gt;Dissecação &lt;em&gt;in situ&lt;/em&gt; dos órgãos.&lt;/p&gt;
 &lt;h3 id=&#34;virchow&#34;&gt;Virchow&lt;/h3&gt;
-&lt;p&gt;Todos os órgãos são retirados individualmente.&lt;/p&gt;
+&lt;p&gt;Todos os órgãos são retirados individualmente. É a técnica mais usada.&lt;/p&gt;
 &lt;h3 id=&#34;autópsia-do-recém-nascido&#34;&gt;Autópsia do recém-nascido&lt;/h3&gt;
+&lt;p&gt;Aplica-se os mesmos métodos do adulto, sempre que possível.&lt;/p&gt;
 &lt;p&gt;Circunferência da cabeça, tamanho dos pés, distância crânio-caudal ou comprimento e tamanho do cordão umbilical.&lt;/p&gt;
 &lt;h2 id=&#34;exames-e-coletas-da-autópsia&#34;&gt;Exames e coletas da autópsia&lt;/h2&gt;
 &lt;p&gt;Deve se buscar sempre coletar o conteúdo intestinal e estomacal por completo, não uma amostra representativa, dada a heterogeneidade.&lt;/p&gt;
@@ -1883,9 +1893,12 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;/pre&gt;
 
 &lt;h3 id=&#34;queimaduras-e-geladuras&#34;&gt;Queimaduras e geladuras&lt;/h3&gt;
+&lt;p&gt;A gravidade das queimaduras focais se dá pela extensão. Há diversas classificações do chamado &lt;strong&gt;grande queimado&lt;/strong&gt;.Em geral, chama-se de grande queimado o paciente com mais de 20% de superfície corporal queimada.&lt;/p&gt;
 &lt;p&gt;Veja em &lt;a href=&#34;./medicina/queimados/&#34;&gt;queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;intermação&#34;&gt;Intermação&lt;/h3&gt;
 &lt;p&gt;O encéfalo apresentava hiperemia e congestão das meninges; coração com consistência muito aumentada; pulmões com equimoses subpleurais e edema interno; notou, em outras vísceras, a presença de hipertermia interna e de grande quantidade de sangue no sistema venoso.&lt;/p&gt;
+&lt;h3 id=&#34;insolação&#34;&gt;Insolação&lt;/h3&gt;
+&lt;p&gt;A lesão difusa térmica causada pela exposição a intempérie solar é a mais grave.&lt;/p&gt;
 &lt;h3 id=&#34;graus-de-queimadura&#34;&gt;Graus de queimadura&lt;/h3&gt;
 &lt;p&gt;De acordo com a classificação de Lussena-Hoffman, a presença de flictena e bolhas na pele (sinal de Chamber) caracteriza a queimadura de segundo grau.&lt;/p&gt;
 &lt;h2 id=&#34;energia-ionizante&#34;&gt;Energia ionizante&lt;/h2&gt;
@@ -1956,6 +1969,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Acidente&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;homicídio&#34;&gt;Homicídio&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h3 id=&#34;suicídio&#34;&gt;Suicídio&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Anômico: decorre do estado social onde a coesão das regras sociais foram rompidas, afetando em algum grau a coletividade, e.g. em graves crises econômicas, vide &lt;em&gt;crash&lt;/em&gt; da bolsa de 1929.&lt;/li&gt;
@@ -1963,6 +1977,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 &lt;li&gt;Egoísta: o ego é parte do complexo do id e totalmente interno a pessoa, não tendo relação com o grupo que eventualmente pertença. Normalmente, observa-se a crise existencial como justificativa, e.g. sem razão para continuar vivendo.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;acidente&#34;&gt;Acidente&lt;/h3&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;a-constatação-documental-da-morte&#34;&gt;A constatação documental da morte&lt;/h2&gt;
 &lt;p&gt;No Brasil, a organização dos serviços documentais da morte dos indivíduos se divide em &lt;strong&gt;constatação forense&lt;/strong&gt; e cível.&lt;/p&gt;
 &lt;p&gt;No contexto cível, a morte é dita natural, decorrente de doença aguda ou crônica e a emissão da declaração de óbito é feita por médicos assistentes de forma preferencial.&lt;/p&gt;
@@ -2272,6 +2287,8 @@ Matar o próprio filho durante o parto ou sob a influência pertubadora deste.
 &lt;p&gt;É possível sentir no pulmão que respirou, pela palpação, um crepitar característico e a sensação esponjosa. No pulmão que não respirou, é possível sentir uma consistência carnosa.&lt;/p&gt;
 &lt;h4 id=&#34;docimasia-visual-de-bouchut-casper&#34;&gt;Docimasia visual de Bouchut-Casper&lt;/h4&gt;
 &lt;p&gt;É a simples inspeção do pulmão examinado, analisando-se o seu desenho. Se houve respiração, a amostra vai apresentar o desenho de mosaico alveolar&lt;/p&gt;
+&lt;h4 id=&#34;óptica-de-bouchut-visual-ou-macroscópica&#34;&gt;Óptica de Bouchut, visual ou macroscópica&lt;/h4&gt;
+&lt;p&gt;O pulmão é observado macroscopicamente e tem aspecto hepatizado, liso e uniforme quando o feto não respirou. Aquele que respirou apresenta pulmão mosaico, reflexo da expansão alveolar.&lt;/p&gt;
 &lt;h4 id=&#34;docimasias-de-icard&#34;&gt;Docimasias de Icard&lt;/h4&gt;
 &lt;p&gt;Icard propôs diversas docimásias, são elas:&lt;/p&gt;
 &lt;h5 id=&#34;hidrostática&#34;&gt;Hidrostática&lt;/h5&gt;
@@ -2418,7 +2435,9 @@ Estatura, quase sempre pelos comprimentos dos ossos longos.
 Individualidade pelos dentes, quando estes puderem ser confrontados com dados anteriores, ou pelo padrão ouro, o DNA¹.&lt;/p&gt;
 &lt;p&gt;Para a Interpol a identificação &lt;mark&gt;primária&lt;/mark&gt; é feita por papiloscopia, odontologia legal (estomatognático) e DNA. Demais métodos são &lt;mark&gt;secundários&lt;/mark&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;exame-genético-do-dna&#34;&gt;Exame genético do DNA&lt;/h2&gt;
-&lt;p&gt;Em análises de DNA tem-se prova quase cabal de identidade. Porém, a comparação pode ser inútil quando avalia apenas o DNA não recombinante geral de dois suspeitos gêmeos. Portanto, &lt;mark&gt;nestas situações&lt;/mark&gt;, &lt;strong&gt;a comparação das impressões digitais é mais precisa que o DNA&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Em análises de DNA tem-se prova quase cabal de identidade.&lt;/p&gt;
+&lt;p&gt;Para se ter um perfil de DNA, segue-se a sequência de identificação e coleta do material, extração, quantificação, amplificação e detecção dos produtos, &lt;strong&gt;nesta ordem&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A comparação do DNA pode ser inútil quando avalia apenas o material não recombinante geral de dois suspeitos gêmeos. Portanto, &lt;mark&gt;nestas situações&lt;/mark&gt;, &lt;strong&gt;a comparação das impressões digitais é mais precisa que o DNA&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;prosopometria&#34;&gt;Prosopometria&lt;/h2&gt;
 &lt;p&gt;O crânio, especialmente a face, configura-se como o melhor marcador biológico para análise da afinidade populacional.&lt;/p&gt;
 &lt;p&gt;A prosopometria é identificação pela antropometria específica da face e outras abordagens comparativas, ditas holísticas. Seu valor é muito grande pela importância histórica.&lt;/p&gt;
@@ -5114,11 +5133,16 @@ $$&lt;/p&gt;
 &lt;p&gt;Em um fragmento de impressão, dá-se um grande valor à poroscopia, levando-se em conta, em uma determinada linha, o número, a forma, a posição e a dimensão dos poros sudoríparos.&lt;/p&gt;
 &lt;h3 id=&#34;albodactilograma&#34;&gt;Albodactilograma&lt;/h3&gt;
 &lt;p&gt;Sobre a impressão digital como um todo surgem falhas de preenchimento em forma de linhas que formam um negativo, ou seja, ausência de tintura e daí seu nome. Estas linhas tendem a guardar boa capacidade para a identificação.&lt;/p&gt;
+&lt;h3 id=&#34;revelação&#34;&gt;Revelação&lt;/h3&gt;
+&lt;p&gt;Uma impressão digital &lt;strong&gt;revelada&lt;/strong&gt; ou &lt;strong&gt;latente&lt;/strong&gt; se refere àquela que se torna visível após o uso de técnicas, como pós ou reagentes químicos, para a sua revelação. A impressão digital &lt;strong&gt;entintada&lt;/strong&gt; é aquela que é obtida diretamente usando tinta, como nas fichas dactiloscópicas.&lt;/p&gt;
 &lt;h4 id=&#34;regra-de-locard&#34;&gt;Regra de Locard&lt;/h4&gt;
 &lt;p&gt;Na verdade, esta fórmula de conferência foi estabelecida pragmaticamente por Locard em seu tempo e recebe críticas modernas para conversão numa regra puramente estatística.&lt;/p&gt;
 &lt;p&gt;A perenidade da impressão digital é questionável, uma vez que a putrefação do tecido cutâneo consome as digitais. Porém, a doutrina aceita classificar a identificação por papiloscopias como perenes.&lt;/p&gt;
 &lt;h3 id=&#34;curiosidades&#34;&gt;Curiosidades&lt;/h3&gt;
 &lt;p&gt;A história por detrás da identificação via impressões digitais remontam a tempos com outros contextos tecnológicos e, até mesmo um código específico em Morse foi criado já nas primeiras conferências da INTERPOL para transmissão de informações sobre impressões de suspeitos e criminosos[2].&lt;/p&gt;
+&lt;h2 id=&#34;métodos-radiográficos&#34;&gt;Métodos radiográficos&lt;/h2&gt;
+&lt;p&gt;Em breve.
+Método radiográfico de Levinsohn.&lt;/p&gt;
 &lt;h2 id=&#34;fotografia-sinaléptica&#34;&gt;Fotografia sinaléptica&lt;/h2&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;h2 id=&#34;arcada-dentária&#34;&gt;Arcada dentária&lt;/h2&gt;
@@ -6424,6 +6448,60 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;significado&#34;&gt;Significado&lt;/h3&gt;
 &lt;p&gt;Um extenso infarto está iminente. A repolarização mostra alterações por grande estenose ou outra forma de obstrução que estão em iminência de agravamento, por isso ainda não há sinais de dano franco miocárdico como supradesnivelamento, onda Q patológica ou má progressão de R.&lt;/p&gt;
+&lt;h2 id=&#34;arritmias-atriais&#34;&gt;Arritmias atriais&lt;/h2&gt;
+&lt;h3 id=&#34;fibrilação-atrial&#34;&gt;Fibrilação atrial&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$QRS$ estreito;&lt;/li&gt;
+&lt;li&gt;Ritmo irregularmente irregular;&lt;/li&gt;
+&lt;li&gt;Ondas $P$ não identificadas ou desorganizadas; e&lt;/li&gt;
+&lt;li&gt;Possível presença de ondas $f$ que possuem linha de base elétrica e chamadas grosseiras quando possuírem voltagem superior a 0,5mm ou 1mm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+2(Presença de ondas &lt;i&gt;f&lt;/i&gt;.&lt;br&gt;Ritmo irregularmente irregular.) --&gt; fa(Fibrilação atrial);
+fa -- hemodinamicamente&lt;br&gt;instável --&gt; cve(1. Internação;&lt;br&gt;2. Cardioversão elétrica imediata:&lt;br&gt;200J iniciais&lt;br&gt;ou&lt;br&gt;Bifásico 200J&lt;br&gt;ou&lt;br&gt;Pás anteroposteriorizadas);
+fa -- hemodinamicamente&lt;br&gt;estável --&gt; t(Tempo de sintomas) -- menor que 48h&lt;br&gt;ou&lt;br&gt;paciente já anticoagulado --&gt; 3(Cardioversão elétrica ou química);
+t -- menor que 7 dias --&gt; 4(Ainda compensa&lt;br&gt;tentar cardioversão&lt;br&gt;química);
+t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 6(1. Anticoagular;&lt;br&gt;2. Jejum;&lt;br&gt;3. Sedação;&lt;br&gt;4. Cardioversão elétrica.); 
+&lt;/pre&gt;
+
+&lt;h4 id=&#34;cardioversão-química&#34;&gt;Cardioversão química&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Amiodarona em bolo de 5 a 7mg/kg em 30 minutos; e&lt;/li&gt;
+&lt;li&gt;Propafenona oral de 600 mg ou 2 mg/kg intravenosa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;flutter-atrial&#34;&gt;Flutter atrial&lt;/h3&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;ECG típico com ondas F de base elétrica perdida.&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ritmo pode ser irregular ou regular;&lt;/li&gt;
+&lt;li&gt;Possíveis ondas $F$ de base isoelétrica perdida. O mais comum é que a polaridade dessa onda seja negativa em DII, DIII e aVF; e&lt;/li&gt;
+&lt;li&gt;A frequência ventricular costuma ser metade ou outra fração inteira da frequência atrial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+5(Presença de ondas &lt;i&gt;F&lt;/i&gt; em II, III e aVF&lt;br&gt;possivelmente negativas.&lt;br&gt;Base isoelétrica perdida.) --&gt; ff(Flutter atrial); 
+ff --&gt; t2(Tempo de sintomas) -- menor que 48h --&gt; 7(Tentar cardioversão com 50J) -- falha --&gt; 8(Repetir com 200J);
+t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2. Ecocardio para&lt;br&gt;descartar trombos.);
+&lt;/pre&gt;
+
+&lt;h4 id=&#34;controle-de-frequência-ventricular&#34;&gt;Controle de frequência ventricular&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Diltiazem intravenoso a 0,25mg/kg em 2 minutos;&lt;/li&gt;
+&lt;li&gt;Verapamil intravenoso 5mg em 2min; ou&lt;/li&gt;
+&lt;li&gt;Metoprolol intravenoso 5mg em 5min.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;observações&#34;&gt;Observações&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A adenosina a 6mg/bolo intravenoso pode ser usada em toda arritmia supraventricular, porém a reversão para ritmo sinusal é rara. &lt;strong&gt;Funciona mais como um redutor de frequência cardíaca, permitindo diagnóstico mais apurado, e.g. quando há confusão entre flutter e fibrilação atrial;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Pode-se repetir o bolus de adenosina dentro de 2min ou em momento diferente;&lt;/li&gt;
+&lt;li&gt;O flutter pode ser curado por meio da ablação por radiofrequência;&lt;/li&gt;
+&lt;li&gt;No flutter está &lt;mark&gt;contraindicado&lt;/mark&gt; a tentativa de reversão química, notadamente a amiodarona, porque o ritmo pode se converter em um mais lento ainda levando a instabilidade hemodinâmica.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;bloqueio-atrioventricular&#34;&gt;Bloqueio atrioventricular&lt;/h2&gt;
 &lt;h3 id=&#34;de-grau-1&#34;&gt;De grau 1&lt;/h3&gt;
 &lt;ul&gt;
