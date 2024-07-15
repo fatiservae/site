@@ -193,6 +193,12 @@
     "path": "Concurso Científica Goiás"
   },
   {
+    "name": "FISEMI - preechida.pdf",
+    "subjects": [],
+    "size": "70.90 KB",
+    "path": "."
+  },
+  {
     "name": "Boethius-Consolation-of-Philosophy.pdf",
     "subjects": [
       "Filosofia",
@@ -283,6 +289,15 @@
     "path": "Medicina/Ginecologia e obstetrícia"
   },
   {
+    "name": "Manual-Gestacao-Alto-Risco-2022.pdf",
+    "subjects": [
+      "Medicina",
+      "Ginecologia e obstetrícia"
+    ],
+    "size": "4.79 MB",
+    "path": "Medicina/Ginecologia e obstetrícia"
+  },
+  {
     "name": "Manual-de-condutas-obstetricas-HMIB-2022.pdf",
     "subjects": [
       "Medicina",
@@ -351,7 +366,34 @@
       "Medicina",
       "Manuais médicos"
     ],
-    "size": "1.42 KB",
+    "size": "2.46 KB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
+    "name": "relatorio-medico-hemodialise-defensoria-publica.pdf",
+    "subjects": [
+      "Medicina",
+      "Manuais médicos"
+    ],
+    "size": "36.00 KB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
+    "name": "relatorio-medico-medicamento.doc",
+    "subjects": [
+      "Medicina",
+      "Manuais médicos"
+    ],
+    "size": "57.00 KB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
+    "name": "relatorio-medico-padrao.doc",
+    "subjects": [
+      "Medicina",
+      "Manuais médicos"
+    ],
+    "size": "54.00 KB",
     "path": "Medicina/Manuais médicos"
   },
   {
