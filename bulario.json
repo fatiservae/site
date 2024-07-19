@@ -1,5 +1,69 @@
 [
   {
+    "nome": ["clozapina"],
+    "obs": [
+      "pode causar agranulocitose, pedir leucograma semanal até atingir dose terapêutica."
+    ]
+  },
+  {
+    "nome": ["quetiapina"],
+    "class": ["antipsicóticos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [100, 1],
+        "via": "oral",
+        "instrucao": "dose antipsicótica diária, progredir a cada 24h até 400mg/dia."
+      }
+    ]
+  },
+  {
+    "nome": ["fluoxetina", "Prozac"],
+    "class": ["antidepressivo"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [20, 1],
+        "via": "oral",
+        "instrucao": "dose inicial antidepressiva por sete dias."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [40, 1],
+        "via": "oral",
+        "instrucao": "dose alvo antidepressiva após sete dias de dose inicial."
+      }
+    ] 
+  },
+  {
+    "nome": ["haloperidol", "Haldol"],
+    "class": ["antipsicóticos clássicos"],
+    "posologias": [
+      {
+        "unidades": ["mg"],
+        "dosagem": [5],
+        "via": "oral, intravenosa ou intramuscular",
+        "instrucao": "dose para controle da psicose aguda ou paroxística com aplicações repetidas em até três vezes com intervalo de 30min entre administrações."
+      }
+    ],
+    "obs": [
+      "Na combinação com prometazina, evitar repetir a prometazina em todas repetições de haloperidol",
+      "Pode causar síndrome neuroléptica maligna."
+    ]
+  },
+  {
+    "nome": ["olanzapina"],
+    "class": ["antipsicóticos atípicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [10, 1],
+        "via": "oral",
+        "instrucao": "dose inicial antipsicótica, podendo chegar a 30mg/dia."
+      }
+    ]
+  },
+  {
     "nome": ["gemfibrozil"],
     "class": ["fibratos"],
     "obs": [
@@ -61,13 +125,62 @@
     "nome": ["oxcarbazepina", "Trileptal", "Oleptal"]
   },
   {
-    "nome": ["carbonato de lítio", "Carbolitium", "Litiocar", "Neurolitium"]
+    "nome": ["carbonato de lítio", "Carbolitium", "Litiocar", "Neurolitium"],
+    "class": ["estabilizadores de humor"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [900, 1],
+        "via": "oral",
+        "instrucao": "dose inicial <i>ter in die</i>, fazer litemia trimestral e ter alvo entre 0.6-1.2mEq/L."
+      }
+    ],
+    "obs": [
+      "pode causar rebaixamento grave com litemias acima de 2mEq/L."
+    ]
   },
   {
-    "nome": ["ácido valpróico", "Depakene", "Valpakine"]
+    "nome": ["ácido valpróico", "Depakene", "Valpakine"],
+    "class": ["anticonvulsionantes", "estabilizadores de humor"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [500, 1],
+        "via": "oral",
+        "instrucao": "dose inicial estabilizadora de humor, podendo alcançar 2000mg/dia."
+      },
+      {
+        "unidades": ["mg", "kg", "dia"],
+        "dosagem": [10, 1, 1],
+        "via": "oral",
+        "instrucao": "dose habitual anticonvulsivante para pacientes com diagnóstico de epilepsia."
+      }
+    ],
+    "obs": [
+      "Nos usos como estabilizador do humor, realizar valproatemia trimestral buscando 50-125mcg/mL."
+    ]
   },
   {
-    "nome": ["divalproato de sódio", "Depakote"]
+    "nome": ["divalproato de sódio", "Depakote"],
+    "class": ["anticonvulsionantes", "estabilizadores de humor"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [500, 1],
+        "via": "oral",
+        "instrucao": "dose inicial estabilizadora de humor, podendo alcançar 2000mg/dia."
+      },
+      {
+        "unidades": ["mg", "kg", "dia"],
+        "dosagem": [10, 1, 1],
+        "via": "oral",
+        "instrucao": "dose habitual anticonvulsivante para pacientes com diagnóstico de epilepsia."
+      }
+    ],
+    "obs": [
+      "Divalproato é uma combinação direta do ácido valproico e valproato sódico em proporção molar visando melhor farmacodinâmica.",
+      "Nos usos como estabilizador do humor, realizar valproatemia trimestral buscando 50-125mcg/mL."
+    ]
   },
   {
     "nome": ["lamotrigina", "Lamictal", "Neurim"]
@@ -136,14 +249,14 @@
     "posologias": [
       {
         "unidades": ["mg", "dia"],
-        "dosagem": [1, 1],
+        "dosagem": [5, 1],
         "via": "oral",
         "instrucao": "dose inicial antipsicótica para uso contínuo"
       }
     ],
     "mecanismo": "antagonismo seletivo de monoaminas, com predominância dopaminérgica e serotoninérgico.",
     "obs": [
-      "Pode causar síndrome neuroléptica maligna."
+      "Principais colaterais são galactorreia e hiperprolactinemia. Pode causar síndrome neuroléptica maligna."
     ]
   },
   {

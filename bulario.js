@@ -64,11 +64,13 @@ document.addEventListener("DOMContentLoaded", () => {
         let indexUnidades = posologia.unidades.length - 1;
         let dose = document.createElement('p');
 
+        // Criar classe e eliminar dose.style
         dose.style.color = "var(--termo)";
         dose.style.background = "none";
         dose.style.borderRadius = "var(--raioBordas)";
         dose.style.padding = "5px";
         dose.style.width = "fit-content";
+        dose.style.fontWeight = "bold";
         dose.style.border = "var(--bordas)";
         for (var i = 0; i < posologia.unidades.length; i++)
         {
@@ -97,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
                               posologia.instrucao;
 
         dose.appendChild(instrucao);
+        instrucao.style.fontWeight = "normal";
         atb.appendChild(dose);
       });
 
@@ -105,6 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
         obsTopic.innerHTML = "<hr>Observações:";
         let obs = document.createElement('p');
         obs.classList.add('observacao');
+        obs.className = "primeiraMaiuscula";
         obs.innerText = atbAtual.obs[0] === undefined ? '' : 
                         atbAtual.obs.map(item => `${item}`)
                                     .join('\n');
