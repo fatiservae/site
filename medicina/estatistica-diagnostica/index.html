@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
@@ -33,7 +33,7 @@
   
 
   <title>Estatística bayesiana para o diagnóstico médico | Jefferson T.</title>
-  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel="canonical" href="http://localhost:1313/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
@@ -184,7 +184,7 @@ Primeiro contexto: paciente aleatório de uma determinada população A probabil
 <p>Seu resultado é chamado de <strong>prevalência</strong>.</p>
 <p>Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente, segundo estudos atualizados até 2023.</p>
 <h2 id="segundo-contexto-o-paciente-aleatório-faz-um-exame-ou-tem-um-sintoma">Segundo contexto: o paciente aleatório faz um exame ou tem um sintoma</h2>
-<p>A partir do momento que um paciente realiza um teste², seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.</p>
+<p>A partir do momento que um paciente realiza um teste², seu resultado deve ser analisado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.</p>
 <p>No caso do resultado positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:</p>
 <p>$$
 p(A\mid B) = \frac{p(B \mid A)\ p(A)}{p(B)}
@@ -320,8 +320,7 @@ $$</p>
 
             probPreT = probPreT/100;
             console.log(probPreT);
-            probPosT = 100 * ((verossimilhanca * probPreT ) / 
-                (1 + (verossimilhanca - probPreT)));
+            probPosT = 100 * ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT)));
             document.getElementById("probPosT").innerText = probPosT.toFixed(2)+"%";
         }
     </script>
@@ -347,9 +346,9 @@ $$</p>
 
   <br>
         <div style="" class=taglist> 
-                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
-                <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">calculadoras</a> &middot;  
-                <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">ciência</a></div>
+                <a id="tag_medicina" href="http://localhost:1313/tags/medicina">medicina</a> &middot;  
+                <a id="tag_calculadoras" href="http://localhost:1313/tags/calculadoras">calculadoras</a> &middot;  
+                <a id="tag_ciência" href="http://localhost:1313/tags/ci%C3%AAncia">ciência</a></div>
 
 
 

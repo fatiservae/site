@@ -88,16 +88,31 @@ A seguir, vamos solucionar alguns destes problemas comumente encontrados no dia-
 </script>
 
 <div class="barra">
-  <p>
   <a id=icone-tema href="#" onclick="tema()"></a>
-  <button onclick="window.location.href='../../index.html'">Início</button>
-  <button onclick="window.location.href='../../files/'">Arquivos</button>
-  <button onclick="window.location.href='../../tags/calculadoras/'">Ferramentas</button>
-  <button onclick="window.location.href='../../dicionario/'">Dicionário</button>
-  <button onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
-  </p>
+  <button id="index" onclick="window.location.href='../../index.html'">Início</button>
+  <button id="/files" onclick="window.location.href='../../files/'">Arquivos</button>
+  <button id="/calculadoras" onclick="window.location.href='../../tags/calculadoras/'">Ferramentas</button>
+  <button id="/dicionario" onclick="window.location.href='../../dicionario/'">Dicionário</button>
+  <button id="/bulario" onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
   
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.barra button');
+    const currentUrl = window.location.pathname;
+
+    buttons.forEach(button => {
+      if (button.id == "index" && currentUrl == "/") {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      } else if (currentUrl.includes(button.id, 0)) {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      }
+    });
+  });
+</script>
+
 <article>
   
 <br>

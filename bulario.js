@@ -1,3 +1,6 @@
+function maiuscula(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 document.addEventListener("DOMContentLoaded", () => {
   const searched = document.getElementById('resultado');
   /*
@@ -41,8 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
       comercial.classList.add('nomeComercial');
       comercial.innerText = atbAtual.nome[1] === undefined ? '' : 
                             atbAtual.nome.slice(1)
-                                         .map(item => `${item}`+'®')
+                                         .map(item => maiuscula(`${item}`)+'®')
                                          .join('  ');
+      comercial.classList.add("primeiraMaiuscula");
       
       atb.appendChild(comercial);
       atb.appendChild(nome);
@@ -109,9 +113,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let obs = document.createElement('p');
         obs.classList.add('observacao');
         obs.className = "primeiraMaiuscula";
-        obs.innerText = atbAtual.obs[0] === undefined ? '' : 
+        obs.innerHTML = atbAtual.obs[0] === undefined ? '' : 
                         atbAtual.obs.map(item => `${item}`)
-                                    .join('\n');
+                                    .join('<br>');
 
         atb.appendChild(obsTopic);
         atb.appendChild(obs);

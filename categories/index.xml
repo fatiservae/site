@@ -10,6 +10,117 @@
 	
 	
 	<item>
+		<title>Licitações</title>
+		<link>https://www.jeffersontorres.com.br/direito/licitacoes/</link>
+		<pubDate>Sun, 21 Jul 2024 13:13:34 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/direito/licitacoes/</guid>
+		<description>&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+1(Pregão e Concorrência) -- fase&lt;br&gt;preparatória --&gt; 2(Edital) -- propostas&lt;br&gt;e lances --&gt; 3(Julgamento) --&gt; 4(Habilitação) -- fase&lt;br&gt;recursal --&gt; 5(Homologação);
+6(Leilão) --&gt; 2 --&gt; 5;
+7(Dialógo&lt;br&gt;competitivo) -- diálogo&lt;br&gt;individualizado --&gt; 2 -- fase&lt;br&gt;competitiva --&gt; 8(Comissão com 3&lt;br&gt;servidores e assessores) -- julgamento conforme&lt;br&gt;primeiro edital --&gt; 5;
+&lt;/pre&gt;
+
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Art. 17. O processo de licitação observará as seguintes fases, em sequência:
+I - preparatória;
+II - de divulgação do edital de licitação;
+III - de apresentação de propostas e lances, quando for o caso;
+IV - de julgamento;
+V - de habilitação;
+VI - recursal;
+VII - de homologação.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+1(Contratação direta) --&gt; 2(Por&lt;br&gt;inexigibilidade) -- rol&lt;br&gt;exemplificativo --&gt; 3(Fornecedor exclusivo&lt;br&gt;Serviço especializado&lt;sup&gt;*&lt;/sup&gt;&lt;br&gt;Artistas antigos&lt;br&gt;Aquisição ou locação de imóvel exclusivo&lt;br&gt;Pareceres e perícias&lt;br&gt;Controles de qualidade&lt;br&gt;Defesa técnico-jurídica);
+1 --&gt; 4(Por&lt;br&gt;dispensa) -- rol&lt;br&gt;taxativo --&gt; 5(Artigo 75:&lt;br&gt;Guerra, calamidade e GLO;&lt;br&gt;Hortifruti e perecíveis;&lt;br&gt;Recolhimento de lixo;&lt;br&gt;Operações de paz ou defesa nacional;&lt;br&gt;...);
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt; Exceto publicidade e divulgação.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Art. 75. É dispensável a licitação:
+I - para contratação que envolva valores inferiores a R$ 100.000,00 (cem mil reais), no caso de obras e serviços de engenharia ou de serviços de manutenção de veículos automotores; 
+II - para contratação que envolva valores inferiores a R$ 50.000,00 (cinquenta mil reais), no caso de outros serviços e compras;
+III - para contratação que mantenha todas as condições definidas em edital de licitação realizada há menos de 1 (um) ano, quando se verificar que naquela licitação:
+a) não surgiram licitantes interessados ou não foram apresentadas propostas válidas;
+b) as propostas apresentadas consignaram preços manifestamente superiores aos praticados no mercado ou incompatíveis com os fixados pelos órgãos oficiais competentes;
+IV - para contratação que tenha por objeto:
+a)  bens,  componentes  ou  peças  de  origem  nacional  ou  estrangeira  necessários  à  manutenção  de equipamentos, a serem adquiridos do fornecedor original desses equipamentos durante o período de garantia técnica, quando essa condição de exclusividade for indispensável para a vigência da garantia;
+b) bens, serviços, alienações ou obras, nos termos de acordo internacional específico aprovado pelo Congresso Nacional, quando as condições ofertadas forem manifestamente vantajosas para a Administração;
+c) produtos para pesquisa e desenvolvimento, limitada a contratação, no caso de obras e serviços de engenharia, ao valor de R$ 300.000,00 (trezentos mil reais);
+d) transferência de tecnologia ou licenciamento de direito de uso ou de exploração de criação protegida, nas contratações realizadas por instituição científica, tecnológica e de inovação (ICT) pública ou por agência de fomento, desde que demonstrada vantagem para a Administração;
+e) hortifrutigranjeiros, pães e outros gêneros perecíveis, no período necessário para a realização dos processos licitatórios correspondentes, hipótese em que a contratação será realizada diretamente com base no preço do dia;
+f) bens ou serviços produzidos ou prestados no País que envolvam, cumulativamente, alta complexidade tecnológica e defesa nacional;
+g) materiais de uso das Forças Armadas, com exceção de materiais de uso pessoal e administrativo, quando houver necessidade de manter a padronização requerida pela estrutura de apoio logístico dos meios navais, aéreos e terrestres, mediante autorização por ato do comandante da força militar;
+h) bens  e  serviços  para  atendimento  dos  contingentes  militares  das  forças  singulares  brasileiras empregadas em operações de paz no exterior, hipótese em que a contratação deverá ser justificada quanto ao preço e à escolha do fornecedor ou executante e ratificada pelo comandante da força militar;
+i) abastecimento ou suprimento de efetivos militares em estada eventual de curta duração em portos,
+aeroportos ou localidades diferentes de suas sedes, por motivo de movimentação operacional ou de adestramento;
+j) coleta, processamento e comercialização de resíduos sólidos urbanos recicláveis ou reutilizáveis, em
+áreas com sistema de coleta seletiva de lixo, realizados por associações ou cooperativas formadas exclusivamente
+de pessoas físicas de baixa renda reconhecidas pelo poder público como catadores de materiais recicláveis, com o
+uso de equipamentos compatíveis com as normas técnicas, ambientais e de saúde pública;
+k) aquisição ou restauração de obras de arte e objetos históricos, de autenticidade certificada, desde que
+inerente às finalidades do órgão ou com elas compatível;
+l) serviços especializados ou aquisição ou locação de equipamentos destinados ao rastreamento e à
+obtenção de provas previstas nos incisos II e V do caput do art. 3º da Lei nº 12.850, de 2 de agosto de 2013,
+quando houver necessidade justificada de manutenção de sigilo sobre a investigação;
+m) aquisição de medicamentos destinados exclusivamente ao tratamento de doenças raras definidas pelo
+Ministério da Saúde;
+V - para contratação com vistas ao cumprimento do disposto nos arts. 3º, 3º-A, 4º, 5º e 20 da Lei nº 10.973,
+de 2 de dezembro de 2004, observados os princípios gerais de contratação constantes da referida Lei;
+VI  -  para  contratação  que  possa  acarretar  comprometimento  da  segurança  nacional,  nos  casos
+estabelecidos pelo Ministro de Estado da Defesa, mediante demanda dos comandos das Forças Armadas ou dos
+demais ministérios;
+VII - nos casos de guerra, estado de defesa, estado de sítio, intervenção federal ou de grave perturbação da
+ordem;
+VIII - nos casos de emergência ou de calamidade pública, quando caracterizada urgência de atendimento de
+situação que possa ocasionar prejuízo ou comprometer a continuidade dos serviços públicos ou a segurança de
+pessoas, obras, serviços, equipamentos e outros bens, públicos ou particulares, e somente para aquisição dos
+bens necessários ao atendimento da situação emergencial ou calamitosa e para as parcelas de obras e serviços
+que possam ser concluídas no prazo máximo de 1 (um) ano, contado da data de ocorrência da emergência ou da
+calamidade, vedadas a prorrogação dos respectivos contratos e a recontratação de empresa já contratada com
+base no disposto neste inciso;
+IX - para a aquisição, por pessoa jurídica de direito público interno, de bens produzidos ou serviços
+prestados por órgão ou entidade que integrem a Administração Pública e que tenham sido criados para esse fim
+específico, desde que o preço contratado seja compatível com o praticado no mercado;
+X  -  quando  a  União  tiver  que  intervir  no  domínio  econômico  para  regular  preços  ou  normalizar  o
+abastecimento; 
+XI - para celebração de contrato de programa com ente federativo ou com entidade de sua Administração
+Pública indireta que envolva prestação de serviços públicos de forma associada nos termos autorizados em
+contrato de consórcio público ou em convênio de cooperação;
+XII - para contratação em que houver transferência de tecnologia de produtos estratégicos para o Sistema
+Único de Saúde (SUS), conforme elencados em ato da direção nacional do SUS, inclusive por ocasião da
+aquisição desses produtos durante as etapas de absorção tecnológica, e em valores compatíveis com aqueles
+definidos no instrumento firmado para a transferência de tecnologia;
+XIII - para contratação de profissionais para compor a comissão de avaliação de critérios de técnica, quando
+se tratar de profissional técnico de notória especialização;
+XIV - para contratação de associação de pessoas com deficiência, sem fins lucrativos e de comprovada
+idoneidade, por órgão ou entidade da Administração Pública, para a prestação de serviços, desde que o preço
+contratado  seja  compatível  com  o  praticado  no  mercado  e  os  serviços  contratados  sejam  prestados
+exclusivamente por pessoas com deficiência;
+XV - para contratação de instituição brasileira que tenha por finalidade estatutária apoiar, captar e executar
+atividades de ensino, pesquisa, extensão, desenvolvimento institucional, científico e tecnológico e estímulo à
+inovação, inclusive para gerir administrativa e financeiramente essas atividades, ou para contratação de instituição
+dedicada à recuperação social da pessoa presa, desde que o contratado tenha inquestionável reputação ética e
+profissional e não tenha fins lucrativos;
+XVI - para aquisição, por pessoa jurídica de direito público interno, de insumos estratégicos para a saúde
+produzidos por fundação que, regimental ou estatutariamente, tenha por finalidade apoiar órgão da Administração
+Pública  direta,  sua  autarquia  ou  fundação  em  projetos  de  ensino,  pesquisa,  extensão,  desenvolvimento
+institucional, científico e tecnológico e de estímulo à inovação, inclusive na gestão administrativa e financeira
+necessária à execução desses projetos, ou em parcerias que envolvam transferência de tecnologia de produtos
+estratégicos para o SUS, nos termos do inciso XII deste caput, e que tenha sido criada para esse fim específico
+em data anterior à entrada em vigor desta Lei, desde que o preço contratado seja compatível com o praticado no
+mercado;    (Redação dada pela Lei nº 14.628, de 2023)
+XVII - para contratação de entidades privadas sem fins lucrativos para a implementação de cisternas ou
+outras tecnologias sociais de acesso à água para consumo humano e produção de alimentos, a fim de beneficiar
+as famílias rurais de baixa renda atingidas pela seca ou pela falta regular de água; e       (Incluído pela Lei nº
+14.628, de 2023)
+XVIII - para contratação de entidades privadas sem fins lucrativos, para a implementação do Programa
+Cozinha Solidária, que tem como finalidade fornecer alimentação gratuita preferencialmente à população em
+situação de vulnerabilidade e risco social, incluída a população em situação de rua, com vistas à promoção de
+políticas de segurança alimentar e nutricional e de assistência social e à efetivação de direitos sociais, dignidade
+humana, resgate social e melhoria da qualidade de vida.      (Incluído pela Lei nº 14.628, de 2023)
+&lt;/code&gt;&lt;/pre&gt;</description>
+	</item>
+	
+	<item>
 		<title>História e panorama dos antibióticos</title>
 		<link>https://www.jeffersontorres.com.br/medicina/antibioticos/</link>
 		<pubDate>Sat, 06 Jul 2024 15:04:34 -0300</pubDate>
@@ -342,7 +453,7 @@ quinta --&gt; 9(Ceftarolina);
 &lt;ul&gt;
 &lt;li&gt;Surgem os gases inflamáveis, por bactérias facultativas produtoras de hidrogênio e os hidrocarbonetos.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;60h-ou-2-e-12-dias&#34;&gt;60h ou 2 e 1/2 dias&lt;/h3&gt;
+&lt;!-- ### 60h ou 2 e 1/2 dias  --&gt;
 &lt;h3 id=&#34;72h-ou-3-e-dias&#34;&gt;72h ou 3 e dias&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Início dos cristais de Westenhöffer-Rocha-Valverde⁵.&lt;/li&gt;
@@ -7040,182 +7151,6 @@ Se quer colaborar, me chame no Telegram: @fatiservae
 	</item>
 	
 	<item>
-		<title>Estatística bayesiana para o diagnóstico médico</title>
-		<link>https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/</link>
-		<pubDate>Sat, 09 Mar 2024 17:43:11 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/</guid>
-		<description>&lt;h2 id=&#34;introdução&#34;&gt;Introdução&lt;/h2&gt;
-&lt;p&gt;Na medicina, o diagnóstico é fruto de testes ajustados em sequência.&lt;/p&gt;
-&lt;p&gt;Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.&lt;/p&gt;
-&lt;p&gt;Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.&lt;/p&gt;
-&lt;h2 id=&#34;primeiro-contexto-paciente-aleatório-de-uma-determinada-população&#34;&gt;Primeiro contexto: paciente aleatório de uma determinada população&lt;/h2&gt;
-&lt;p&gt;A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.&lt;/p&gt;
-&lt;p&gt;Seu resultado é chamado de &lt;strong&gt;prevalência&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente, segundo estudos atualizados até 2023.&lt;/p&gt;
-&lt;h2 id=&#34;segundo-contexto-o-paciente-aleatório-faz-um-exame-ou-tem-um-sintoma&#34;&gt;Segundo contexto: o paciente aleatório faz um exame ou tem um sintoma&lt;/h2&gt;
-&lt;p&gt;A partir do momento que um paciente realiza um teste², seu resultado deve ser analizado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.&lt;/p&gt;
-&lt;p&gt;No caso do resultado positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:&lt;/p&gt;
-&lt;p&gt;$$
-p(A\mid B) = \frac{p(B \mid A)\ p(A)}{p(B)}
-$$&lt;/p&gt;
-&lt;p&gt;Leia-se:&lt;/p&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
-  &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade de A dado B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
- &lt;/span&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Este é o &lt;a href=&#34;https://pt.wikipedia.org/wiki/Teorema_de_Bayes&#34;&gt;Teorema de Bayes&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;No caso do exame, lemos:&lt;/p&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
-  &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo verdadeiro vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
- &lt;/span&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Finalmente:&lt;/p&gt;
-&lt;div style=&#34;display:flex; align-content:center&#34;&gt;
-  &lt;span class=&#34;etiqueta&#34;&gt;
-A probabilidade do diagnóstico pelo exame é igual a especificidade vezes a prevalência dividido pela sensibilidade.
- &lt;/span&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Para tanto, $p(B)$ deve ser entendido como a soma de todas probabilidades de dar positivo, ou seja:&lt;/p&gt;
-&lt;p&gt;$$
-p(B)=p(B\mid A)p(A) + p(B\mid ¬A)p(¬A)
-$$&lt;/p&gt;
-&lt;p&gt;Onde:&lt;/p&gt;
-&lt;p&gt;$p(B\mid A)p(A)$ são todos os positivos verdadeiros expressos em probabilidade; e&lt;/p&gt;
-&lt;p&gt;$p(B\mid ¬A)p(¬A)$ são todos os falsos positivos, em probabilidade.&lt;/p&gt;
-&lt;h3 id=&#34;exemplo-concreto&#34;&gt;Exemplo concreto&lt;/h3&gt;
-&lt;p&gt;Atualmente em Brasília (2024), estamos vivendo um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.&lt;/p&gt;
-&lt;p&gt;$$
-prevalência = \frac{72600}{2.817.381} \approx 0.026
-$$&lt;/p&gt;
-&lt;p&gt;Suponhamos que um paciente se apresente apenas com dor retro-orbitária há 4 dias.&lt;/p&gt;
-&lt;p&gt;Vamos supor, também, que esse sintoma tem probabilidade geral de 1%, ou seja, somadas todas as outras formas de dor retro-orbitária em Brasília no momento, 1 a cada 100 pessoas terá o sintoma.&lt;/p&gt;
-&lt;p&gt;Este sintoma é extremamente comum na dengue, digamos que 85% das pessoas com dengue tenham dor retro-orbitária.&lt;/p&gt;
-&lt;p&gt;Assim sendo, qual a probabilidade desta pessoa ter dengue?&lt;/p&gt;
-&lt;p&gt;$$
-p(Dengue\mid dor) = \frac{p(dor\mid Dengue) p(Dengue)}{p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue)}
-$$&lt;/p&gt;
-&lt;p&gt;Resolvendo o denominador para facilitar:&lt;/p&gt;
-&lt;p&gt;$$
-p(dor\mid Dengue)p(Dengue) + p(dor\mid ¬Dengue)p(¬Dengue) =
-$$&lt;/p&gt;
-&lt;p&gt;$$
-0.85*0.026 + 0.01*0.934 \approx 0.031
-$$&lt;/p&gt;
-&lt;p&gt;Já que a probabilidade de se ter dor retro-orbitária sem dengue é de 0.01 e a &lt;em&gt;&amp;ldquo;prevalência de não-dengue&amp;rdquo;&lt;/em&gt; é de $1 - 0.026$, ou melhor, 0.934.&lt;/p&gt;
-&lt;p&gt;Então:&lt;/p&gt;
-&lt;p&gt;$$
-p(Dengue\mid dor) = \frac{0.85*0.026}{0.031} \approx 0.71
-$$&lt;/p&gt;
-&lt;p&gt;Ou seja, &lt;strong&gt;temos &lt;mark&gt;71%&lt;/mark&gt; de chance deste paciente ter dengue!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.&lt;/p&gt;
-&lt;h2 id=&#34;terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco&#34;&gt;Terceiro contexto: um estudo foi feito para determinar fatores de risco&lt;/h2&gt;
-&lt;p&gt;Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.&lt;/p&gt;
-&lt;p&gt;Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.&lt;/p&gt;
-&lt;p&gt;Este &lt;em&gt;risco associado&lt;/em&gt; a um fator é chamado de &lt;strong&gt;risco relativo&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% &lt;strong&gt;independentemente da prevalencia global&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;o-nomograma-de-fagan&#34;&gt;O nomograma de Fagan&lt;/h2&gt;
-&lt;p&gt;No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada &lt;strong&gt;diagrama de Fagan&lt;/strong&gt;. Traçamos uma reta entre os valores de pré-teste e de verossimilhança (likelihood) para lermos onde a reta toca no eixo pós-teste.&lt;/p&gt;
-&lt;p&gt;Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança, obviamente.&lt;/p&gt;
-
-
-
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/fagan-nomogram.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt; &lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Pre-_and_post-test_probability&#34;&gt;Leia mais sobre&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;calculadora-para-teste-positivo&#34;&gt;Calculadora para teste positivo&lt;/h2&gt;
-&lt;p&gt;Calcule a probabilidade de doença após exame positivo.&lt;/p&gt;
-&lt;p&gt;Lembre-se: &lt;strong&gt;a prevalência pode ser a prevalência basal ou um valor de risco relativo&lt;/strong&gt;¹.&lt;/p&gt;
-
-
-&lt;style&gt;
-    #probPosT {
-        color: var(--negrito);
-    }
-&lt;/style&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;div class=&#34;calculadoras&#34;&gt;
-&lt;!--
-    &lt;select id=tipo&gt;
-        &lt;option value=prevalencia&gt;Prevalência&lt;/option&gt;
-        &lt;option value=testeClinico&gt;Testes clínicos&lt;/option&gt;
-        &lt;option value=riscoRelativo&gt;Risco relativo&lt;/option&gt;
-    &lt;/select&gt;
---&gt;
-    &lt;label for=&#34;probPreT&#34;&gt;Probabilidade pré-teste (%)&lt;/label&gt;
-    &lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;probPreT&#34;&gt;&lt;/input&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    
-    &lt;label for=sensibilidade&gt;Sensibilidade (%)&lt;/label&gt;
-    &lt;br&gt;
-    &lt;input type=number id=sensibilidade&gt;&lt;/input&gt;
-    &lt;br&gt;
-    &lt;br&gt;
- 
-    &lt;label for=especificidade&gt;Especificidade (%)&lt;/label&gt;
-    &lt;br&gt;
-    &lt;input type=number id=especificidade&gt;&lt;/input&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    
-    &lt;div class=&#34;resultado&#34;&gt;
-        &lt;label for=probPosT&gt;Probabilidade pós-teste&lt;/label&gt;
-        &lt;p id=probPosT&gt;0&lt;/p&gt;
-    &lt;/div&gt;
-    
-    &lt;button id=calc onclick=&#34;calcPosT()&#34;&gt;Calcular!&lt;/button&gt;
-    &lt;script&gt;
-        function calcPosT() {
-            let probPreT = document.getElementById(&#34;probPreT&#34;).value;
-            let sensibilidade = document.getElementById(&#34;sensibilidade&#34;).value;
-            let especificidade = document.getElementById(&#34;especificidade&#34;).value;
-            console.log(&#34;especificidade: &#34;+especificidade+&#34;\nsensibilidade: &#34;+sensibilidade+&#34;\nPreteste: &#34;+probPreT);
-
-            let verossimilhanca = sensibilidade / (100 - especificidade);
-            let probPosT = 0;
-
-            probPreT = probPreT/100;
-            console.log(probPreT);
-            probPosT = 100 * ((verossimilhanca * probPreT ) / 
-                (1 + (verossimilhanca - probPreT)));
-            document.getElementById(&#34;probPosT&#34;).innerText = probPosT.toFixed(2)+&#34;%&#34;;
-        }
-    &lt;/script&gt;
-&lt;/div&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-
-&lt;hr&gt;
-&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, também é consenso que não é justo o seu paciente queixoso em consultório ser comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência ou, melhor ainda, estudos disponíveis.&lt;/li&gt;
-&lt;li&gt;Entenda-se por teste qualquer exame ou sintoma pelo qual eu possa atribuir um valorestatístico na interpretação de seu resultado.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;JAMA Networks. &lt;strong&gt;JAMA guide to statistics and methods.&lt;/strong&gt; Disponível em (2024): &lt;a href=&#34;https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods&#34;&gt;https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes&#34;&gt;https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;BRASIL. &lt;strong&gt;Tabaco e saúde pulmonar: dia mundial sem tabaco: manual 2019&lt;/strong&gt;. Instituto Nacional de Câncer José Alencar Gomes da Silva. – Rio de Janeiro: INCA, 2019.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude&#34;&gt;https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Dislipidemias: síntese de recomendações da SBC 2017</title>
 		<link>https://www.jeffersontorres.com.br/medicina/colesterol/</link>
 		<pubDate>Fri, 08 Mar 2024 23:33:58 -0300</pubDate>
@@ -9013,7 +8948,7 @@ Para os arquivos que eu entendo não estarem sob restrição, fará o download.
 &lt;/style&gt;
 
 &lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;
-&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34; ex. oxacilina&#34;&gt;
+&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34; ex. midazolam&#34;&gt;
 &lt;svg class=&#34;lupa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; stroke-width=&#34;1.09&#34; enable-background=&#34;new 0 0 24 24&#34; height=&#34;14px&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;4px&#34; focusable=&#34;false&#34; autocapitalize=&#34;none&#34; autocomplete=&#34;off&#34; autocorrect=&#34;off&#34; tabindex=&#34;0&#34; type=&#34;text&#34; spellcheck=&#34;false&#34; aria-label=&#34;Pesquisar&#34;&gt;&lt;path d=&#34;m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
 &lt;/input&gt;
 &lt;/div&gt;
@@ -9366,7 +9301,7 @@ A primeira imunização infantil ao tétano idealmente deve ser feita com Penta 
 	</item>
 	
 	<item>
-		<title>Meu dicionário</title>
+		<title>Dicionário</title>
 		<link>https://www.jeffersontorres.com.br/dicionario/</link>
 		<pubDate>Wed, 06 Dec 2023 22:08:46 -0300</pubDate>
 		
@@ -9768,7 +9703,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 	</item>
 	
 	<item>
-		<title>Meu guia descomplicado de cervejas</title>
+		<title>Guia descomplicado de cervejas</title>
 		<link>https://www.jeffersontorres.com.br/receitas/cervejas/</link>
 		<pubDate>Mon, 20 Nov 2023 20:46:46 -0300</pubDate>
 		

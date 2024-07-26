@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.128.2">
+	<meta name="generator" content="Hugo 0.129.0">
   
   
   <script>
@@ -22,7 +22,7 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='./index.xml'>
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
-  <meta name="description" content="↻ História e panorama dos antibióticos Bases fisiopatológicas do autismo Cronotanatognose Controle de conteúdo Noções de direito penal Pirâmide das necessidades de Maslow Visão forense de teoria tripartite do crime Sangramento uterino anormal Adicção: os impactos de diversas drogas Documento em papel timbrado Critérios de Centor e Jones em febre reumática Documentos em medicina legal Lei do abuso de autoridade esquematizada Sexologia forense Mandamentos legais brasileiros da autópsia Conceitos e prática em traumatologia forense A morte e a lei: tanatologia forense Aborto e infanticídio no Brasil Medidas cautelares: a prisão Identificação antropológica forense Visão toxicológica e legal da embriaguez A morte por asfixias Anemias: investigação e tratamento Gastrite e úlceras gástricas Insights sobre cetoacidose diabética Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando a sedação: RASS/SAS/FOUR Principais achados em eletrocardiograma Guia de nomeclatura das neoplasias Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Estatística bayesiana para o diagnóstico médico Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de vieses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Calculadoras de superfície corporal Fluidoterapia de manutenção: Holliday-Segar Guia de condutas em pré-natal Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos A ciência por trás do pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Tudo sobre vacinas Meu dicionário Abaixo a medicina!">
+  <meta name="description" content="↻ Licitações História e panorama dos antibióticos Bases fisiopatológicas do autismo Cronotanatognose Controle de conteúdo Noções de direito penal Pirâmide das necessidades de Maslow Visão forense de teoria tripartite do crime Sangramento uterino anormal Adicção: os impactos de diversas drogas Documento em papel timbrado Critérios de Centor e Jones em febre reumática Documentos em medicina legal Lei do abuso de autoridade esquematizada Sexologia forense Mandamentos legais brasileiros da autópsia Conceitos e prática em traumatologia forense A morte e a lei: tanatologia forense Aborto e infanticídio no Brasil Medidas cautelares: a prisão Identificação antropológica forense Visão toxicológica e legal da embriaguez A morte por asfixias Anemias: investigação e tratamento Gastrite e úlceras gástricas Insights sobre cetoacidose diabética Escala PPS e o processo ativo de morte Simulador de ventilador mecânico Manejo de descompensação em insuficiência cardíaca Monitorando a sedação: RASS/SAS/FOUR Principais achados em eletrocardiograma Guia de nomeclatura das neoplasias Webvim: editor de texto do hacker viajante Surdez aguda: testes de Rinner e Weber Dissecação aguda de aorta: Score ADD-RS Dislipidemias: síntese de recomendações da SBC 2017 A farsa da navalha de Ockham Compêndio de vieses cognitivos Foto: lagarta isognatus desconhecida Minhas apresentações Prescrição de hidratação: um resumo breve Calculadoras de superfície corporal Fluidoterapia de manutenção: Holliday-Segar Guia de condutas em pré-natal Efeito Gell Man: perpetuador da desinformação Hanseníase: resumo compreensivo Cleantes, o exemplo Pohnpei: Micronésia Por trás de toda teoria conspiratória Drogas vasoativas: informações importantes Taquiarritimias: visão geral Analgesia: seja um médico melhor Grand Prismatic Spring - Estados Unidos A ciência por trás do pão de queijo Arquivos LLMedica: inteligência artificial para medicina Bulário A aceitação da morte como modo de vida Diabetes Mellitus Gestacional Tudo sobre vacinas Dicionário Abaixo a medicina!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -45,16 +45,31 @@
 <body>
 
 <div class="barra">
-  <p>
   <a id=icone-tema href="#" onclick="tema()"></a>
-  <button onclick="window.location.href='./index.html'">Início</button>
-  <button onclick="window.location.href='./files/'">Arquivos</button>
-  <button onclick="window.location.href='./tags/calculadoras/'">Ferramentas</button>
-  <button onclick="window.location.href='./dicionario/'">Dicionário</button>
-  <button onclick="window.location.href='./medicina/bulario/'">Bulário</button>
-  </p>
+  <button id="index" onclick="window.location.href='./index.html'">Início</button>
+  <button id="/files" onclick="window.location.href='./files/'">Arquivos</button>
+  <button id="/calculadoras" onclick="window.location.href='./tags/calculadoras/'">Ferramentas</button>
+  <button id="/dicionario" onclick="window.location.href='./dicionario/'">Dicionário</button>
+  <button id="/bulario" onclick="window.location.href='./medicina/bulario/'">Bulário</button>
   
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.barra button');
+    const currentUrl = window.location.pathname;
+
+    buttons.forEach(button => {
+      if (button.id == "index" && currentUrl == "/") {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      } else if (currentUrl.includes(button.id, 0)) {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      }
+    });
+  });
+</script>
+
 <article>
   
 <br>
@@ -187,6 +202,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <!-- 
 <script type="text/javascript">
   var pagesData = [
+    
+      {
+        "title": "Licitações",
+        "permalink": "\/direito\/licitacoes\/"
+      },
     
       {
         "title": "História e panorama dos antibióticos",
@@ -359,11 +379,6 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Estatística bayesiana para o diagnóstico médico",
-        "permalink": "\/medicina\/estatistica-diagnostica\/"
-      },
-    
-      {
         "title": "Dislipidemias: síntese de recomendações da SBC 2017",
         "permalink": "\/medicina\/colesterol\/"
       },
@@ -489,7 +504,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Meu dicionário",
+        "title": "Dicionário",
         "permalink": "\/dicionario\/"
       },
     
@@ -514,7 +529,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
     
       {
-        "title": "Meu guia descomplicado de cervejas",
+        "title": "Guia descomplicado de cervejas",
         "permalink": "\/receitas\/cervejas\/"
       },
     
@@ -647,6 +662,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <script src="index.js"></script>
 
 <ul id="artlist">
+  <li data-tags=""><a href="https://www.jeffersontorres.com.br/direito/licitacoes/">Licitações</a></li>
   <li data-tags="[medicina infectologia ciência história]"><a href="https://www.jeffersontorres.com.br/medicina/antibioticos/">História e panorama dos antibióticos</a></li>
   <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/medicina/autismo/">Bases fisiopatológicas do autismo</a></li>
   <li data-tags="[medicina penal direito perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
@@ -681,7 +697,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <li data-tags="[Projetos Programação]"><a href="https://www.jeffersontorres.com.br/vim/">Webvim: editor de texto do hacker viajante</a></li>
   <li data-tags="[Medicina]"><a href="https://www.jeffersontorres.com.br/medicina/surdez/">Surdez aguda: testes de Rinner e Weber</a></li>
   <li data-tags="[Calculadoras Medicina]"><a href="https://www.jeffersontorres.com.br/medicina/addrs/">Dissecação aguda de aorta: Score ADD-RS</a></li>
-  <li data-tags="[Medicina Calculadoras Ciência]"><a href="https://www.jeffersontorres.com.br/medicina/estatistica-diagnostica/">Estatística bayesiana para o diagnóstico médico</a></li>
   <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/colesterol/">Dislipidemias: síntese de recomendações da SBC 2017</a></li>
   <li data-tags="[psicologia filosofia ciência]"><a href="https://www.jeffersontorres.com.br/farsa-ockham/">A farsa da navalha de Ockham</a></li>
   <li data-tags="[Filosofia Ciência Psicologia]"><a href="https://www.jeffersontorres.com.br/vieses/">Compêndio de vieses cognitivos</a></li>
@@ -707,12 +722,12 @@ document.addEventListener("DOMContentLoaded", function() {
   <li data-tags="[filosofia estoicismo]"><a href="https://www.jeffersontorres.com.br/filosofia/morte/">A aceitação da morte como modo de vida</a></li>
   <li data-tags="[medicina]"><a href="https://www.jeffersontorres.com.br/medicina/dmg/">Diabetes Mellitus Gestacional</a></li>
   <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/vacinas/">Tudo sobre vacinas</a></li>
-  <li data-tags="[medicina projetos ciência]"><a href="https://www.jeffersontorres.com.br/dicionario/">Meu dicionário</a></li>
+  <li data-tags="[medicina projetos ciência]"><a href="https://www.jeffersontorres.com.br/dicionario/">Dicionário</a></li>
   <li data-tags="[Medicina Filosofia Ciência]"><a href="https://www.jeffersontorres.com.br/medicina/abaixo-a-medicina/">Abaixo a medicina!</a></li>
   <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/hemodinamica/">Principais conceitos em hemodinâmica</a></li>
   <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.jeffersontorres.com.br/medicina/queimados/">Conceitos e conduta em pacientes queimados</a></li>
   <li data-tags="[ciência História Medicina Culinária Geopolítica]"><a href="https://www.jeffersontorres.com.br/canais-yt/">Canais que recomendo</a></li>
-  <li data-tags="[culinária receitas]"><a href="https://www.jeffersontorres.com.br/receitas/cervejas/">Meu guia descomplicado de cervejas</a></li>
+  <li data-tags="[culinária receitas]"><a href="https://www.jeffersontorres.com.br/receitas/cervejas/">Guia descomplicado de cervejas</a></li>
   <li data-tags="[Medicina Guidelines]"><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões: fluxogramas de conduta</a></li>
   <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/medicina/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
   <li data-tags="[projetos calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/medicina/tfg/">Taxa de filtração glomerular: MDRD e Cockcroft-Gault</a></li>

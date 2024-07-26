@@ -1,25 +1,989 @@
 [
+	{
+		"nome": ["naltrexona"],
+		"class": ["antialcoólicos", "antagonistas opioides", "antídotos de narcóticos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [50, 1],
+				"via": "oral",
+				"instrucao": "posologia única para tratamento de alcoolismo na vigência de programa de reabilitação."
+			}
+		],
+		"obs": [
+			"Naltrexona é hepatotóxica. Não exceder a dose indicada. Avaliar o uso em hepatopatas."
+		]
+	},
+	{
+		"nome": ["finasterida"],
+		"class": ["inibidores de 5-alfa-redutase"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [5, 1],
+				"via": "oral",
+				"instrucao": "posologia recomendada para uso contínuo no tratamento de hiperplasia prostática benigna ou hipertrofia prostática."
+			}
+		]
+	},
+	{
+		"nome": ["liraglutida"],
+		"class": ["análogos de GLP-1"], 
+		"obs": ["Perda de peso"]
+	},
+	{
+		"nome": ["sibutramina"],
+		"class": ["inibidores de recaptação de serotonina e dopamina", "antidepressivos duais", "redutores de peso"], 
+		"obs": ["Perda de peso"]
+	},
+	{
+		"nome": ["orlistate, orlistatina, orlistato ou orlistat", "Xenical"],
+		"class": ["inibidores de lipases pancreáticas"], 
+		"obs": ["Perda de peso"]
+	},
+	{
+		"nome": ["bupropiona"],
+		"class": ["inibidores de recaptacã́o de serotonina e dopamina", "antitabágicos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [150, 1],
+				"instrucao": "dobrar a dose diária para <i>bis in die</i> após o terceiro dia.",
+				"via": "oral"
+			}
+		],
+		"obs": [
+			"Atua no sistema de recompensa e é usado na cessação do tabagismo, na perda de peso e na depressão.",
+			"É o antidepressivo indicado para pacintes com queda da libido ou disfunção erétil e/ou sexual."
+		] 
+	},
+	{
+		"nome": ["tansulosina"],
+		"class": ["alfabloqueadores", "antagonistas de receptor adrenérgico alfa-1 pós-sináptico"],
+		"posologias": [
+			{
+				"unidades": ["mg", "manhã"],
+				"dosagem": [0.4, 1],
+				"via": "oral",
+				"instrucao": "Tomado por trinta dias na terapia expulsiva ou pode ser prescrito de uso contínuo em hiperlasia prostática benigna, vide bula."
+			}
+		]
+	},
+	{
+		"nome": ["trometamol cetorolaco", "Toragesic"],
+		"class": ["analgésicos", "antiinflamatórios não esteroidais"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": [10, 6],
+				"via": "sublingual",
+				"instrucao": "dose usualmente prescrita para dores relacionadas a patologias obstrutivas do trato urinário."
+			}
+		]
+	},
+	{
+		"nome": ["doxazosina"],
+		"class": ["alfabloqueadores", "anti-hipertensivos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [2, 1],
+				"instrucao": "para manejo de crise de migração de cálculo em terço inferior.",
+				"via": "oral"
+			}
+		],
+		"obs": [
+			"Cuidado ao prescrever para pacientes hipo ou normotensos, tendo em vista efeito hipotensor."
+		]
+	},
+	{
+		"nome": ["diosmina e hesperidina", "Diosmin"],
+		"class": ["venotensores","venoprotetores"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": ["450+50", 1],
+				"via": "oral",
+				"instrucao": "para uso contínuo em venopatologias de membros inferiores e do plexo venoso hemorroidário."
+			}
+		]
+	},
+  {
+  	"nome": ["alprazolam", "Frontal"],
+  	"class": ["benzodiazepínicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [0.25, 1],
+  			"instrucao": "dose inicial recomendada para ansiólise, podendo chegar a 3mg/dia.",
+  			"via": "oral"
+  		}
+  	],
+  	"obs": [
+  		"A meia vida de alprazolam é de 6h."
+  	]
+  },
+  {
+  	"nome": ["lorazepam"],
+  	"class": ["benzodiazepínicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [0.5, 1],
+  			"instrucao": "dose inicial recomendada para ansiólise, podendo chegar a 6mg/dia.",
+  			"via": "oral"
+  		}
+  	],
+  	"obs": [
+  		"A meia vida de lorazepam é de 10h a 20h."
+  	]
+  },
+  {
+  	"nome": ["flunitrazepam", "Rohypinol"],
+  	"class": ["benzodiazepínicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [0.5, 1],
+  			"instrucao": "dose inicial recomendada para ansiólise, podendo chegar a 2mg/dia.",
+  			"via": "oral"
+  		}
+  	],
+  	"obs": [
+  		"A meia vida de flunitrazepam é de 20h."
+  	]
+  },
+  {
+  	"nome": ["zolpidem"],
+  	"class": ["hipnóticos classe Z"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [5, 1],
+  			"via": "oral"
+  		}
+    ],
+  	"obs": [
+  		"O tempo de meia vida de zolpidem é de 6h."
+  	]
+  },
+  {
+  	"nome": ["ezopiclona"],
+  	"class": ["modulador gabaérgico"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [1, 1],
+  			"via": "oral",
+  			"instrucao": "dose habitual inicial podendo chegar a 3mg/dia"
+  		}
+    ]
+  },
+  {
+  	"nome": ["hidrocortisona e ciprofloxacino", "otociriax", "otosporin"],
+  	"class": ["gotas ototóxicas"],
+  	"posologias": [
+  		{
+  			"unidades": ["gotas", "h"],
+  			"dosagem": [5, 12],
+  			"via": "otológica",
+  			"instrucao": "tratamento padrão para otite externa aguda e otite média crônica por até 15 dias."
+  		}
+  	]
+  },
+  {
+  	"nome": ["betametasona com clorfenesina e tetracaína", "oto-betnovate"],
+  	"class": ["gotas ototóxicas"],
+  	"posologias": [
+  		{
+  			"unidades": ["gotas", "h"],
+  			"dosagem": [5, 8],
+  			"via": "otológica",
+  			"instrucao": "tratamento padrão para otite externa aguda e otite média crônica, na suspeita de etiologia fúngica associada por até 15 dias."
+  		}
+  	]
+  },
+	{
+    "nome": ["sertralina"],
+		"class": ["inibidores de recaptação da serotonina", "antidepressivos"],
+		"posologias": [
+				{
+				  "unidades": ["mg", "dia"],
+					"dosagem": [50, 1],
+					"via": "oral",
+					"instrucao": "dose habitual antidepressiva, podendo chegar a 200mg/dia."
+				}
+    ],
+		"obs": [
+      "Indicada para o tratamento de transtorno depressivo pré-menstrual.",
+			"pode ser usada na gestação e lactação, evitando-se no primeiro trimestre.",
+      "Na primeira semana pode provocar amolecimento transitório das fezes."
+    ]
+  },
+  {
+  	"nome": ["trazodona"],
+  	"class": ["antidepressivo atípico de segunda geração"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [50, 1],
+  			"via": "oral",
+  			"instrucao": "dose habitual para tratamento de insônia primária, podendo chegar a 150mg/dia."
+  		}
+    ]
+  },
+	{
+		"nome": ["venlafaxina"],
+		"class": ["antidepressivos duais", "inibidores de recaptação de serotonina e dopamina"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [75, 1],
+				"via": "oral"
+			}
+		],
+		"obs": [
+			"Retirar de 37,5 em 37,5mg para evitar sintomas de retirada."
+		]
+	},
+	{
+		"nome": ["desvenlafaxina"],
+		"class": ["antidepressivos duais", "inibidores de recaptação de serotonina e dopamina"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [50, 1],
+				"via": "oral",
+				"instrucao": "dose inicial habitual podendo ser progredida até 200mg/dia."
+			}
+		],
+		"obs": [
+			"Retirar de 50 em 50mg para evitar sintomas de retirada."
+		]
+	},
+	{
+		"nome": ["duloxetina"],
+		"class": ["antidepressivos duais"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [30, 1],
+				"via": "oral",
+				"instrucao": "dose inicial habitual podendo ser dobrada."
+			}
+		],
+		"obs": [
+			"a duloxetina é mais associada e mais benéfica no manejo de fibromialgia."
+		]
+	},
+  {
+  	"nome": ["fenobarbital"],
+  	"class": ["anticonvulsivantes"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "kg"],
+  			"dosagem": [3, 1],
+  			"via": "oral",
+  			"instrucao": "dose habitual inicial para uso contínuo de crianças abaixo de cinco anos."
+  		},
+  		{
+  			"unidades": ["mg", "kg"],
+  			"dosagem": [5, 1],
+  			"via": "oral",
+  			"instrucao": "dose máxima para uso contínuo de crianças abaixo de cinco anos."
+  		},
+  		{
+  			"unidades": ["mg", "kg"],
+  			"dosagem": [3, 1],
+  			"via": "oral",
+  			"instrucao": "dose habitual inicial para uso contínuo de crianças e adolescentes."
+  		},
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [100],
+  			"via": "oral",
+  			"instrucao": "dose diária de uso contínuo adulta."
+  		}
+  	],
+  	"obs": [
+  		"Atenção! Para o fenobarbital, cada 1ml são 40 gotas."
+  	]
+  },
+  {
+  	"nome": ["carbamazepina"],
+  	"class": ["anticonvulsivantes"],
+  	"obs": [
+  		"A carbamazepina aumenta a atividade enzimática de um grande número de outros fármacos, inclusive dela própria, levando a necessidade de monitorização e reajuste de dose."
+  	]
+  },
+  {
+  	"nome": ["pegabalina"],
+  	"class": ["gabaérgicos", "analgésicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg"],
+  			"dosagem": [50],
+  			"via": "oral",
+  			"instrucao": "dose inicial, deve ser progredida semanalmente até 150mg/dia conforme resposta da dor."
+  		}
+  	]
+  },
+  {
+		"nome": ["nortriptilina"],
+		"class": ["antidepressivos tricíclicos"],
+		"posologias": [
+			{
+			  "unidades": ["mg", "dia"],
+				"dosagem": [50, 1],
+				"via": "oral",
+				"instrucao": "dose inicial, podendo progredir até 150mg/dia."
+			}
+    ],
+		"obs": [
+       "nortriptilina é o mais bem tolerado dos antidepressivos tricíclicos, sendo boa indicação para idosos."
+    ]
+  },
+  {
+		"nome": ["clomipramina"],
+		"class": ["antidepressivos tricíclicos"],
+		"posologias": [
+			{
+			  "unidades": ["mg", "dia"],
+				"dosagem": [50, 1],
+				"via": "oral",
+				"instrucao": "dose inicial, podendo progredir até 150mg/dia."
+			}
+    ],
+		"obs": [
+      "Clomipramina está indicada como padrão ouro para tratamento de transtorno obcessivo compulsivo."
+    ]
+  },
+  {
+		"nome": ["imipramina"],
+		"class": ["antidepressivos tricíclicos"],
+		"posologias": [
+			{
+			  "unidades": ["mg", "dia"],
+				"dosagem": [50, 1],
+				"via": "oral",
+				"instrucao": "dose inicial, podendo progredir até 150mg/dia."
+			}
+    ],
+		"obs": [
+      "Imipramina é considerada a medicação <i>off label</i> para tratamento de enurese e encoprese."
+    ]
+  },
+  {
+		"nome": ["amitriptilina"],
+		"class": ["antidepressivos tricíclicos"],
+		"posologias": [
+			{
+			  "unidades": ["mg", "dia"],
+				"dosagem": [50, 1],
+				"via": "oral",
+				"instrucao": "dose inicial, podendo progredir até 150mg/dia."
+			}
+    ]
+  },
+  {
+  	"nome": ["gabapentina"]
+  },
+  {
+  	"nome": ["clonazepam", "Rivotril"],
+  	"class": ["benzodiazepínicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg"],
+  			"dosagem": [0.25],
+  			"via": "sublingual",
+  			"instrucao": "dose S.O.S. sublingual habitual."
+  		},
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [8, 1],
+  			"via": "oral",
+  			"instrucao": "dosagem máxima diária recomendada."
+  		},
+			{
+				"unidades": ["gotas", "dia"],
+				"dosagem": [5, 1],
+				"instrucao": "apresentação comercial em gotas de 25mg/ml. Progredir de cinco em cinco gotas.",
+				"via": "oral"
+      }
+  	],
+  	"obs": [
+  		"Clonazepam tem meia vida de 24h.",
+  		"É cerca de cinco vezes mais forte que diazepam",
+  		"Os benzodiazepínicos desenvolvem dependência com uso regular, normalmente após a oitava semana."
+  	]
+  },
+  {
+  	"nome": ["clopidogrel"],
+  	"class": ["antiagregantes plaquetários"]
+  },
+  {
+  	"nome": ["alteplase"],
+  	"class": ["trombolíticos"]
+  },
+  {
+  	"nome": ["tenecteplase"],
+  	"class": ["trombolíticos"]
+  },
+  {
+  	"nome": ["loratadina", "Histadin"],
+  	"class": ["antialérgicos", "antihistamínicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [10, 1],
+  			"instrucao": "posologia usual para tratamento de rinite alérgica sem obstrução nasal por quatro semanas.",
+  			"via": "oral"
+  		}
+  	]
+  },
+  {
+  	"nome": ["ciclobenzaprina", "Miosan"],
+  	"class": ["relaxantes musculares"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [10, 1],
+  			"via": "oral",
+  			"instrucao": "dose usual para diagnósticos de rigidez ou espasmos musculares, bem como coadjuvantes em mioanalgesia por até dez dias."
+  		}
+  	]
+  },
+  {
+  	"class": ["anti-histamínicos"],
+  	"nome": ["dexclorfeniramina", "Histamin"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "h"],
+  			"dosagem": [4, 6],
+  			"via": "oral"
+  		}
+  	]
+  },
+  {
+  	"nome": ["levocetirizina"],
+  	"class": ["anti-histamínicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "dia"],
+  			"dosagem": [5, 1],
+  			"via": "oral",
+  			"instrucao": "por até sete dias."
+  		}
+  	]
+  },
+  {
+  	"nome": ["prometazina", "Fenergan"],
+  	"class": ["anti-histamínicos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "h"],
+  			"dosagem": [4, 12],
+  			"via": "oral"
+  		},
+  		{
+  			"unidades": ["mg", "min"],
+  			"dosagem": [25, 30],
+  			"via": "intramuscular ou intravenosa",
+  			"instrucao": "dose coadjuvante no controle de ansiedade e agitação psicótica ou não, podendo ser repetida uma vez."
+  		},
+  		{
+  			"unidades": ["mg"],
+  			"dosagem": [50],
+  			"via": "intramuscular ou intravenosa",
+  			"instrucao": "dose única coadjuvante no controle de ansiedade e agitação psicótica ou não para paciente já em uso de outro ansioítico."
+  		}
+  	]
+  },
+  {
+  	"nome": ["loperamida"],
+  	"class": ["antidiarreico"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg"],
+  			"dosagem": [4],
+  			"instrucao": "dose usual de um dois comprimidos após primeira diarreia. Suspender se houver remissão.",
+  			"via": "oral"
+  		},
+  		{
+  			"unidades": ["mg"],
+  			"dosagem": [2],
+  			"instrucao": "dose usual de um comprimido após episódios seguidos de diarreia. Suspender se houver remissão.",
+  			"via": "oral"
+  		}
+  	]
+  },
+  {
+  	"nome": ["bromoprida"],
+  	"class": ["antieméticos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "h"],
+  			"dosagem": [10, 8],
+  			"via": "oral"
+  		}
+  	]
+  },
+  {
+  	"nome": ["meclizina"],
+  	"class": ["antieméticos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "h"],
+  			"dosagem": [12.5, 6],
+  			"via": "oral",
+  			"instrucao": "dose habitual em cinetose, podendo ser dobrada ou espaçada para oito horas de intervalo, caso a caso."
+  		}
+  	],
+  	"obs": [
+  		"dose máxima diária de 100mg."
+  	]
+  },
+  {
+  	"nome": ["ondansetrona", "Vonau"],
+  	"class": ["antieméticos"],
+  	"posologias": [
+  		{
+  			"unidades": ["mg", "h"],
+  			"dosagem": [8, 1],
+  			"via": "oral"
+  		}
+  	]
+  },
+  {
+  	"nome": ["hidroclorotiazida"],
+  	"class": ["tiazídicos"]
+  },
+  {
+  	"nome": ["clortalidona"],
+  	"class": ["tiazídicos"]
+  },
+  {
+  	"class": ["betabloqueadores"],
+  	"name": ["metropolol"]
+  },
+  {
+  	"class": ["betabloqueadores"],
+  	"name": ["carvedilol"]
+  },
+  {
+  	"class": ["betabloqueadores"],
+  	"name": ["atenolol"]
+  },
+  {
+  	"class": ["betabloqueadores"],
+  	"name": ["propanolol"]
+  },
+  {
+    "nome": ["dexametasona"],
+    "class": ["corticoides", "corticoesteroides"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [4, 1],
+        "via": "oral",
+        "instrucao": "dose habitual de corticoterapia antiinflamatória."
+      }
+    ]
+  },
+  {
+    "nome": ["metilpredinisolona"],
+    "class": ["corticoides", "corticoesteroides"],
+    "posologias": [
+      {
+        "unidades": ["mg", "kg"],
+        "dosagem": [30, 1],
+        "via": "oral",
+        "instrucao": "dose de pulsoterapia para dias alternados por até 6 semanas."
+      }
+    ]
+  },
+  {
+    "nome": ["prednisolona"],
+    "class": ["corticoides", "corticoesteroides"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [40, 1],
+        "via": "oral",
+        "instrucao": "dose habitual matinal de corticoterapia. Desmamar com meia dose por cinco dias antes de interromper."
+      }
+    ]
+  },
+  {
+    "nome": ["espironolactona"],
+    "class": ["antihipertensivos", "diuréticos poupadores de potássio", "antagonistas de aldosterona"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [25, 1],
+        "via": "oral",
+        "instrucao": "dose habitual inicial antihipertensiva."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [50, 1],
+        "via": "oral",
+        "instrucao": "dose progressiva antihipertensiva."
+      }
+    ]
+  },
+  {
+    "nome": ["levofloxacino"],
+    "class": ["antibióticos", "fluoroquinolonas de terceira geração"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [500, 1],
+        "via": "oral"
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [750, 1],
+        "via": "oral"
+      }
+    ]
+  },
+  {
+    "nome": ["moxifloxacino"],
+    "class": ["antibióticos", "fluoroquinolonas"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [400, 1],
+        "via": "oral"
+      }
+    ]
+  },
+  {
+    "nome": ["ciprofloxacino"],
+    "class": ["antibióticos", "quinolonas"]
+  },
+  {
+    "nome": ["clindamicina"],
+    "class": ["antibióticos", "lincosamidas"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [400, 8],
+        "via": "oral"
+      },
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [1600, 8],
+        "via": "oral"
+      }
+    ],
+    "obs": [
+      "tomar com pelo menos 200ml de água para evitar lesão esofágica."
+    ]
+  },
+  {
+    "nome": "fosfomicina"
+  },
+  {
+    "nome": ["diclofenaco"],
+    "class": ["antiinflamatórios não esteroides ou hormonais"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [50, 8],
+        "via": "oral"
+      }
+    ]
+  },
+  {
+    "nome": ["nimesulida"],
+    "class": ["antiinflamatórios não esteroides ou hormonais"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [100, 12],
+        "via": "oral",
+        "instrucao": "dose habitual analgésica."
+      },
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [200, 12],
+        "via": "oral",
+        "instrucao": "dose habitual antiinflamatória."
+      },
+      {
+        "unidades": ["gota", "kg", "h"],
+        "dosagem": [1, 1, 12],
+        "via": "oral",
+        "instrucao": "apresentação em gotas com 50mg/ml."
+      }
+    ]
+  },
+  {
+    "nome": ["naproxeno"],
+    "class": ["antiinflamatórios não esteroides ou hormonais"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [500, 12],
+        "via": "via oral",
+        "instrucao": "dose habitual para terapia de cinco dias."
+      }
+    ]
+  },
+  {
+    "nome": ["celecoxibe"],
+    "class": ["antiinflamatórios não esteroides ou hormonais", "coxibes"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [200, 1],
+        "via": "via oral",
+        "instrucao": "dose habitual para terapia de até dez dias."
+      }
+    ]
+  },
+  {
+    "nome": ["tramadol"],
+    "class": ["analgésicos", "opioides"], 
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [50, 8],
+        "via": "oral"
+      }
+    ]
+  },
+  {
+    "nome": ["tenoxicam", "Tilatil"],
+    "class": ["analgésicos", "oxicans"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [20, 1],
+        "via": "oral"
+      },
+      {
+        "unidades": ["mg"],
+        "dosagem": [40],
+        "via": "intravenosa",
+        "instrucao": "posologia analgésica de emergência, normalmente combinada com dipirona intravenosa de 1g."
+      }
+    ]
+  },
+  {
+    "nome": ["azitromicina"],
+    "class": ["antibióticos", "macrolídeos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [500, 1],
+        "via": "oral",
+        "instrucao": "dose usual para três dias de terapia."
+      }
+    ]
+  },
+  {
+    "nome": ["claritromicina"],
+    "class": ["antibióticos", "macrolídeos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [500, 12],
+        "via": "oral",
+        "instrucao": "dose usual para sete a catorze dias de terapia."
+      }
+    ],
+    "obs": [
+      "contraindicada em caso de uso concomitante com estatinas."
+    ]
+  },
+  {
+    "nome": ["amicacina", "Amicilon"],
+    "class": ["antibióticos", "aminoglicosídeos", "antipseudomonas"],
+    "posologias": [
+      {
+        "unidades": ["mg", "kg", "dia"],
+        "dosagem": [15, 1, 1],
+        "via": "intravenosa",
+        "instrucao": "para administração em duas ou três vezes ao dia."
+      }
+    ]
+  },
+  {
+    "nome": ["cefalexina"],
+    "class": ["antibióticos", "betalactâmicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [500, 6],
+        "via": "oral",
+        "instrucao": "dose usual para sete a dez dias de terapia."
+      }
+    ]
+  },
+  {
+    "nome": ["amoxicilina"],
+    "class": ["antibióticos", "betalactâmicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [500, 8],
+        "via": "oral",
+        "instrucao": "dose usual para sete a dez dias de terapia."
+      },
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": [875, 12],
+        "via": "oral",
+        "instrucao": "dose alternativa para sete a dez dias de terapia."
+      }
+    ]
+  },
+  {
+    "nome": ["amoxicilina com clavulanato", "Clavulin"],
+    "class": ["antibióticos", "betalactâmicos", "inibidor de betalactamases"],
+    "posologias": [
+      {
+        "unidades": ["mg", "h"],
+        "dosagem": ["500+125", 8],
+        "via": "oral",
+        "instrucao": "dose usual para sete a quinze dias de terapia."
+      }
+    ]
+  },
+  {
+     "nome": ["losartana"],
+     "class": ["antihipertensivos", "bloqueadores do receptor de angiotensina"],
+     "posologias": [
+        {
+           "unidades": ["mg", "dia"],
+           "dosagem": [50, 1],
+           "via": "oral",
+           "instrucao": "dose para controle pressórico crônico, podendo ser dobrada <i>bis in die</i>."
+        }
+     ]
+  },
+  {
+     "nome": ["captopril"],
+     "class": ["antihipertensivos", "inibidores de conversão da enzima conversora de angiotensina"],
+     "posologias": [
+        {
+           "unidades": ["mg", "dia"],
+           "dosagem": [5, 1],
+           "via": "oral",
+           "instrucao": "dose inicial de controle pressórico contínuo."
+        },
+        {
+           "unidades": ["mg", "dia"],
+           "dosagem": [10, 1],
+           "via": "oral",
+           "instrucao": "dose de controle pressórico contínuo, preferencialmente <i>bis in die</i>."
+        }
+     ]
+  },
+  {
+     "nome": ["enalapril"],
+     "class": ["antihipertensivos", "inibidores de conversão da enzima conversora de angiotensina"],
+     "posologias": [
+        {
+           "unidades": ["mg", "dia"],
+           "dosagem": [20, 1],
+           "via": "oral",
+           "instrucao": "dose inicial de controle pressórico contínuo."
+        },
+        {
+           "unidades": ["mg", "dia"],
+           "dosagem": [40, 1],
+           "via": "oral",
+           "instrucao": "dose de controle pressórico contínuo, preferencialmente <i>bis in die</i>."
+        }
+     ]
+  },
+  {
+    "nome": ["budesonida"],
+    "class": ["corticoesteroides"],
+    "posologias": [
+      {
+        "unidades": ["mcg", "dia"],
+        "dosagem": [60, 1],
+        "via": "inalatória",
+        "instrucao": "para a apresentação de 30mcg/jato, aplicar dois jatos a noite em cada narina."
+      }
+    ]
+  },
+  {
+    "nome": ["beclometasona"],
+    "class": ["corticoesteroides"],
+    "posologias": [
+      {
+        "unidades": ["mcg", "dia"],
+        "dosagem": [60, 1],
+        "via": "inalatória",
+        "instrucao": "se não possível budesonida. Aplicar dois jatos de 30mcg a noite em cada narina."
+      }
+    ]
+  },
   {
     "nome": ["clozapina"],
+    "class": ["antipsicóticos atípicos"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [25, 1],
+        "via": "oral",
+        "instrucao": "progredir a dose a cada três dias em 25mg até 250-300mg/dia, tornando o ajuste semanal ou mensal, se necessário."
+      }
+    ],
     "obs": [
-      "pode causar agranulocitose, pedir leucograma semanal até atingir dose terapêutica."
+      "Ganho de peso e sialorreia são colaterais comuns.",
+      "Doses de clozapina acima de 500mg/dia diminuem significativamente o limiar convulsivo, associar anticonvulsivante diferente de carbamazepina, preferencialmente ácido valproico se não contraindicado.",
+      "pode causar agranulocitose, pedir leucograma semanal até atingir dose terapêutica.",
+      "Jamais associar a carbamazepina por risco aumentado de agranulocitose."
     ]
   },
   {
     "nome": ["quetiapina"],
-    "class": ["antipsicóticos"],
+    "class": ["antipsicóticos atípicos", "hipnóticos"],
     "posologias": [
       {
         "unidades": ["mg", "dia"],
         "dosagem": [100, 1],
         "via": "oral",
         "instrucao": "dose antipsicótica diária, progredir a cada 24h até 400mg/dia."
+      },
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [25, 1],
+        "via": "oral",
+        "instrucao": "dose hipnótica, progredir a cada 24h até alcançar indução de sono desejada."
       }
+    ],
+    "obs": [
+      "A combinação com levomepromazina provoca hipnose acentuada, evitar.",
+      "Quetiapina tem o melhor perfil para evitar ganho de peso entre os antipsicóticos."
     ]
   },
   {
+    "nome": ["paroxetina"],
+    "class": ["antidepressivos", "inibidores seletivos de recaptação de serotonina"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [20, 1],
+        "via": "oral",
+        "instrucao": "dose inicial antidepressiva por sete dias, progredindo até 60mg/dia."
+      }
+		],
+		"obs": [
+      "Causa sonolência e pode ser usada <i>off label</i> para insônia.",
+			"Principais colaterais são ganho de peso, diminuição de libido e disfunção erétil."
+    ]
+	},
+  {
     "nome": ["fluoxetina", "Prozac"],
-    "class": ["antidepressivo"],
+    "class": ["antidepressivos", "inibidores seletivos de recaptação de serotonina"],
     "posologias": [
       {
         "unidades": ["mg", "dia"],
@@ -31,24 +995,46 @@
         "unidades": ["mg", "dia"],
         "dosagem": [40, 1],
         "via": "oral",
-        "instrucao": "dose alvo antidepressiva após sete dias de dose inicial."
+        "instrucao": "dose alvo antidepressiva após sete dias de dose inicial. Pode se chegar a 80mg/dia."
       }
-    ] 
+    ],
+		"obs": [
+      "antidepressivo com menor ganho de peso associado."
+    ]
   },
   {
     "nome": ["haloperidol", "Haldol"],
-    "class": ["antipsicóticos clássicos"],
+    "class": ["antipsicóticos clássicos ou típicos"],
     "posologias": [
       {
         "unidades": ["mg"],
         "dosagem": [5],
         "via": "oral, intravenosa ou intramuscular",
         "instrucao": "dose para controle da psicose aguda ou paroxística com aplicações repetidas em até três vezes com intervalo de 30min entre administrações."
+      },
+      {
+        "unidades": ["ampola decanoato", "mg"],
+        "dosagem": [1, 25],
+        "via": "intramuscular preferencialmente no glúteo em aplicação `Z`.",
+        "instrucao": "relação comercial mais comum da equivalência de depósito do sal decanoato."
       }
     ],
     "obs": [
       "Na combinação com prometazina, evitar repetir a prometazina em todas repetições de haloperidol",
+      "Para pacientes em uso contínuo de haloperidol ou impregnados, sempre associar prometazina se não houver contraindicação.",
       "Pode causar síndrome neuroléptica maligna."
+    ]
+  },
+  {
+    "nome": ["aripripazol"],
+    "class": ["antipsicótico atípico e moderno", "antipsicótico seletivo"],
+    "posologias": [
+      {
+        "unidades": ["mg", "dia"],
+        "dosagem": [10, 1],
+        "via": "oral",
+        "instrucao": "dose inicial diária para uso contínuo, podendo chegar a 30mg/dia."
+      }
     ]
   },
   {
@@ -58,9 +1044,13 @@
       {
         "unidades": ["mg", "dia"],
         "dosagem": [10, 1],
-        "via": "oral",
+        "via": "oral ou intramuscular",
         "instrucao": "dose inicial antipsicótica, podendo chegar a 30mg/dia."
       }
+    ],
+    "obs": [
+      "Pode ser usada em concomitância de prometazina para controle de agitação psicótica.",
+      "Olanzapina causa ganho de peso considerável e resistência insulínica."
     ]
   },
   {
@@ -136,6 +1126,7 @@
       }
     ],
     "obs": [
+      "carbonato de lítio comprovadamente reduz o risco de suicídio mesmo em doses abaixo da estabilizadora de humor.",
       "pode causar rebaixamento grave com litemias acima de 2mEq/L."
     ]
   },
@@ -183,7 +1174,10 @@
     ]
   },
   {
-    "nome": ["lamotrigina", "Lamictal", "Neurim"]
+    "nome": ["lamotrigina", "Lamictal", "Neurim"],
+    "obs": [
+      "aumentar lentamente a dose para evitar síndrome de Stevens-Jonhson."
+    ]
   },
   {
     "nome": ["memantina"]
@@ -195,7 +1189,33 @@
     "nome": ["donepezila"]
   },
   {
-    "nome": ["citalopram"]
+    "nome": ["escitalopram"],
+		"posologias": [
+      {
+        "unidades": ["mg", "dia"],
+				"dosagem": [10, 1],
+				"instrucao": "dose inicial antidepressiva diária podendo chegar a 20mg/dia.",
+				"via": "oral"
+      }
+    ],
+    "obs": [
+      "Citalopram e escitalopram possuem menos interação medicamentosa.",
+			"Escitalopram tem início de ação mais rápido entre os antidepressivos seletivos de serotonina."
+    ]
+  },
+  {
+    "nome": ["citalopram"],
+		"posologias": [
+      {
+        "unidades": ["mg", "dia"],
+				"dosagem": [20, 1],
+				"instrucao": "dose inicial antidepressiva diária podendo chegar a 40mg/dia.",
+				"via": "oral"
+      }
+    ],
+    "obs": [
+      "Citalopram e escitalopram possuem menos interação medicamentosa."
+    ]
   },
   {
     "nome": ["talidomida"]
@@ -219,7 +1239,16 @@
     "nome": ["naloxona"]
   },
   {
-    "nome": ["fluticasona"]
+    "nome": ["fluticasona"],
+    "class": ["antiinflamatórios esteroidais", "corticosteroides"],
+    "posologias": [
+	    {
+		    "unidades": ["mcg", "jato"],
+		    "dosagem": [50, 1],
+		    "via": "intranasal",
+		    "instrucao": "aplicar dois jatos pela manhã ou um jato para menores de 11 anos."
+	    }
+	]
   },
   {
     "nome": ["clobazam", "Frisium"],
@@ -251,12 +1280,13 @@
         "unidades": ["mg", "dia"],
         "dosagem": [5, 1],
         "via": "oral",
-        "instrucao": "dose inicial antipsicótica para uso contínuo"
+        "instrucao": "dose inicial antipsicótica para uso contínuo."
       }
     ],
     "mecanismo": "antagonismo seletivo de monoaminas, com predominância dopaminérgica e serotoninérgico.",
     "obs": [
-      "Principais colaterais são galactorreia e hiperprolactinemia. Pode causar síndrome neuroléptica maligna."
+      "Risperidona a partir de 6mg/dia se comporta como antipsicótico típico, podendo causar sintomas extrapiramidais.",
+      "Principais colaterais são galactorreia, amenorreia e hiperprolactinemia (ginecomastia em homens). Pode causar síndrome neuroléptica maligna."
     ]
   },
   {
@@ -592,16 +1622,26 @@
   },
   {
     "nome": ["clorpromazina", "Amplictil"],
+    "class": ["antipsicóticos atípicos", "vagolíticos"],
     "posologias": [
       {
         "unidades": ["mg", "dia"],
-        "dosagem": [400, 1],
+        "dosagem": [300, 1],
         "via": ["oral"],
-        "instrucao": ["dose imediata para cessação de soluço persistente."]
+        "instrucao": ["dose antipsicótica de uso contínuo, podendo chegar a 400mg/dia."]
+      },
+      {
+        "instrucao": "dose para cessação de soluço persistente é indicado 25mg dose única.",
+        "unidades": ["mg"],
+        "dosagem": [25],
+        "via": "intravenosa ou oral"
+      },
+      {
+        "unidades": ["mg", "ampola"],
+	"dosagem": [125, 1],
+	"via": "intramuscular ou intravenosa",
+	"instrucao": "administrar uma ampola se agitação não controlada por haloperidol, podendo chegar a 800mg/dia na repetição a cada 30min. Para controle de agitação grave, considerar sedação."
       }
-    ],
-    "obs": [
-      "migrânea"
     ]
   },
   {
@@ -913,9 +1953,22 @@
         "dosagem": [0.5, 1],
         "instrucao": "dose máxima para interrupção de crise convulsiva em pediatria.",
         "via": "intravenoso ou intramuscular"
+      },
+      {
+        "unidades": ["mg"],
+        "dosagem": [7.5],
+        "instrucao": "dose habitual intramuscular para agitação psicomotora e ansiólise. Até 30mg.",
+        "via": "intramuscular"
+      },
+      {
+        "unidades": ["mg", "kg"],
+	"dosagem": [0.5, 1],
+	"instrucao": "para controle de agitação ou ansiólise de procedimentos em pediatria de emergência, administrar em aplicador nasal.",
+	"via": "intranasal"
       }
     ],
     "obs": [
+      "Midazolam tem meia vida de 3h.",
       "Solução de manutenção a 0.03-0.2mg/Kg/h. Considerar menores doses na pediatria e idosos.",
       "Para sedação, em cardioversão e.g., considere usar uma diluição de 1mg/ml e progrida de 2 em 2mg até alcançar rebaixamento do paciente."
     ]
@@ -928,8 +1981,20 @@
         "unidades": ["mg", "Kg"],
         "dosagem": ["0.5", 1],
         "instrucao": "dose para interrupção de crise convulsiva em pediatria até o máximo de 10mg",
+        "via": "intranasal ou intravenosa"
+      },
+      {
+        "unidades": ["mg"],
+        "dosagem": [5],
+        "instrucao": "dose de bolo intravenoso em agitação, ansiólise, abstinência. Na abstinência, repetir a dose de forma espaçada até encontrar sedação desejada.",
         "via": "intravenosa"
       }
+    ],
+    "obs": [
+      "A meia vida de diazepam é de 30h.",
+      "Dose máxima de 40mg/dia.",
+      "Diazepam adere ao material do equipo e dos frascos plásticos. Administrar flush no bolo.",
+      "Evitar em extremos de idade por efeito paradoxal, bem como em usuários de opióides e compulsivos."
     ]
   },
   {

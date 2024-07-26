@@ -1957,6 +1957,7 @@ nav#TableOfContents li li:last-child::before {
 }
 
 .barra {
+  margin-left: var(--margem);
   /*
   */
 }
@@ -1998,6 +1999,8 @@ nav#TableOfContents li li:last-child::before {
   margin-bottom: 3px;
 }
 .barra button {
+}
+.barra button:hover {
 }
 
 /* BANCO DE QUESTÕES */

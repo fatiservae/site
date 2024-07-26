@@ -193,12 +193,6 @@
     "path": "Concurso Científica Goiás"
   },
   {
-    "name": "FISEMI - preechida.pdf",
-    "subjects": [],
-    "size": "70.90 KB",
-    "path": "."
-  },
-  {
     "name": "Boethius-Consolation-of-Philosophy.pdf",
     "subjects": [
       "Filosofia",
@@ -278,6 +272,22 @@
     ],
     "size": "1.47 MB",
     "path": "Medicina/Emergências"
+  },
+  {
+    "name": "Escala-Estagio-Puberal-Tanner-Meninas.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "3.36 MB",
+    "path": "Medicina"
+  },
+  {
+    "name": "Escala-Estagio-Puberal-Tanner-Meninos.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "3.14 MB",
+    "path": "Medicina"
   },
   {
     "name": "Caderneta-gestante-8ed-2023.pdf",
@@ -415,6 +425,30 @@
     "path": "Medicina/Pediatria"
   },
   {
+    "name": "Protocolo-clinico-e-diretrizes-terapeuticas-epilepsia-2018.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "643.85 KB",
+    "path": "Medicina"
+  },
+  {
+    "name": "Protocolo-clinico-e-diretrizes-terapeuticas-esquizofrenia-2013.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "415.68 KB",
+    "path": "Medicina"
+  },
+  {
+    "name": "Protocolo-clinico-e-diretrizes-terapeuticas-transtorno-bipolar-tipo-i-2016.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "467.98 KB",
+    "path": "Medicina"
+  },
+  {
     "name": "Qual-o-verdadeiro-valor-do-VCM-Professor-Paulo-Cesar.pdf",
     "subjects": [
       "Medicina"
@@ -428,6 +462,14 @@
       "Medicina"
     ],
     "size": "4.78 MB",
+    "path": "Medicina"
+  },
+  {
+    "name": "Tabela de Drogas Vasoativas.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "107.17 KB",
     "path": "Medicina"
   },
   {

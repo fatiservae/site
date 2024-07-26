@@ -16,7 +16,7 @@
 
   
 
-  <title>Meu guia descomplicado de cervejas | Jefferson T.</title>
+  <title>Guia descomplicado de cervejas | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
@@ -71,21 +71,36 @@ O termo mais complexo para uma boa discussão sobre cervejas é a escala IBU, In
 </script>
 
 <div class="barra">
-  <p>
   <a id=icone-tema href="#" onclick="tema()"></a>
-  <button onclick="window.location.href='../../index.html'">Início</button>
-  <button onclick="window.location.href='../../files/'">Arquivos</button>
-  <button onclick="window.location.href='../../tags/calculadoras/'">Ferramentas</button>
-  <button onclick="window.location.href='../../dicionario/'">Dicionário</button>
-  <button onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
-  </p>
+  <button id="index" onclick="window.location.href='../../index.html'">Início</button>
+  <button id="/files" onclick="window.location.href='../../files/'">Arquivos</button>
+  <button id="/calculadoras" onclick="window.location.href='../../tags/calculadoras/'">Ferramentas</button>
+  <button id="/dicionario" onclick="window.location.href='../../dicionario/'">Dicionário</button>
+  <button id="/bulario" onclick="window.location.href='../../medicina/bulario/'">Bulário</button>
   
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.barra button');
+    const currentUrl = window.location.pathname;
+
+    buttons.forEach(button => {
+      if (button.id == "index" && currentUrl == "/") {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      } else if (currentUrl.includes(button.id, 0)) {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      }
+    });
+  });
+</script>
+
 <article>
   
 <br>
 
-  <h1>Meu guia descomplicado de cervejas</h1>
+  <h1>Guia descomplicado de cervejas</h1>
 
 <script>
   function setIconeLight(){

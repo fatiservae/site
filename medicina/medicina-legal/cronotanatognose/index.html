@@ -69,16 +69,31 @@ Cronologia dos eventos perimortem Morte - 0h Pode ocorrer a rigidez cadavérica 
 </script>
 
 <div class="barra">
-  <p>
   <a id=icone-tema href="#" onclick="tema()"></a>
-  <button onclick="window.location.href='../../../index.html'">Início</button>
-  <button onclick="window.location.href='../../../files/'">Arquivos</button>
-  <button onclick="window.location.href='../../../tags/calculadoras/'">Ferramentas</button>
-  <button onclick="window.location.href='../../../dicionario/'">Dicionário</button>
-  <button onclick="window.location.href='../../../medicina/bulario/'">Bulário</button>
-  </p>
+  <button id="index" onclick="window.location.href='../../../index.html'">Início</button>
+  <button id="/files" onclick="window.location.href='../../../files/'">Arquivos</button>
+  <button id="/calculadoras" onclick="window.location.href='../../../tags/calculadoras/'">Ferramentas</button>
+  <button id="/dicionario" onclick="window.location.href='../../../dicionario/'">Dicionário</button>
+  <button id="/bulario" onclick="window.location.href='../../../medicina/bulario/'">Bulário</button>
   
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.barra button');
+    const currentUrl = window.location.pathname;
+
+    buttons.forEach(button => {
+      if (button.id == "index" && currentUrl == "/") {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      } else if (currentUrl.includes(button.id, 0)) {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      }
+    });
+  });
+</script>
+
 <article>
   
 <br>
@@ -156,7 +171,6 @@ Cronologia dos eventos perimortem Morte - 0h Pode ocorrer a rigidez cadavérica 
         <li><a href="#24h-ou-1-dia">24h ou 1 dia</a></li>
         <li><a href="#36h-ou-1-e-12-dia">36h ou 1 e 1/2 dia</a></li>
         <li><a href="#48h-ou-2-dias">48h ou 2 dias</a></li>
-        <li><a href="#60h-ou-2-e-12-dias">60h ou 2 e 1/2 dias</a></li>
         <li><a href="#72h-ou-3-e-dias">72h ou 3 e dias</a></li>
         <li><a href="#96h-ou-4-dias">96h ou 4 dias</a></li>
         <li><a href="#1-semana">1 semana</a></li>
@@ -246,7 +260,7 @@ Cronologia dos eventos perimortem Morte - 0h Pode ocorrer a rigidez cadavérica 
 <ul>
 <li>Surgem os gases inflamáveis, por bactérias facultativas produtoras de hidrogênio e os hidrocarbonetos.</li>
 </ul>
-<h3 id="60h-ou-2-e-12-dias">60h ou 2 e 1/2 dias</h3>
+<!-- ### 60h ou 2 e 1/2 dias  -->
 <h3 id="72h-ou-3-e-dias">72h ou 3 e dias</h3>
 <ul>
 <li>Início dos cristais de Westenhöffer-Rocha-Valverde⁵.</li>
