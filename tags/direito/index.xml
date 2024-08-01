@@ -5,10 +5,59 @@
 	<description>Recent content in direito on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Tue, 25 Jun 2024 14:17:16 -0300</lastBuildDate>
+	<lastBuildDate>Tue, 30 Jul 2024 17:16:14 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/direito/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Calculadoras fetais</title>
+		<link>https://www.jeffersontorres.com.br/medicina/calculadoras-fetais/</link>
+		<pubDate>Tue, 30 Jul 2024 17:16:14 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/calculadoras-fetais/</guid>
+		<description>&lt;h2 id=&#34;calculadora-de-idade-por-haase&#34;&gt;Calculadora de idade por Haase&lt;/h2&gt;
+
+
+&lt;div class=&#34;calculadoras&#34;&gt;
+    &lt;label for=comprimento&gt;Comprimento do feto ou produto de aborto (cm):&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number id=comprimento&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+&lt;button onclick=calculaIdade()&gt;Calcule&lt;/button&gt;
+&lt;p id=resultado&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;script&gt;
+function fim(idade) {
+    if (idade == 0 || idade &lt; 0) {
+        resultado.innerHTML = &#34;Verifique o comprimento!&#34;;
+    } else if (idade &gt; 9) {
+        resultado.innerHTML = &#34;Esta calculadora funciona até 50cm!&#34;;
+    } else {
+        resultado.innerHTML = &#34;A idade gestacional está em torno dos &#34;+idade.toFixed(1)+&#34; meses de vida&#34;;
+    };
+};
+
+function calculaIdade(){
+    let comprimento = document.getElementById(&#34;comprimento&#34;).value;
+    let resultado = document.getElementById(&#34;resultado&#34;);
+    let idade = 0;
+
+    if (comprimento &lt;= 25 &amp;&amp; comprimento &gt; 0) { 
+        idade = Math.sqrt(comprimento);
+        fim(idade);
+    } else if (comprimento &gt; 25 &amp;&amp; comprimento &lt; 70) {
+        idade = comprimento / 5.6;
+        fim(idade);
+    } else {
+        fim(0);
+    }
+};
+&lt;/script&gt;
+
+</description>
+	</item>
 	
 	<item>
 		<title>Licitações</title>
@@ -64,60 +113,20 @@ obtenção de provas previstas nos incisos II e V do caput do art. 3º da Lei n�
 quando houver necessidade justificada de manutenção de sigilo sobre a investigação;
 m) aquisição de medicamentos destinados exclusivamente ao tratamento de doenças raras definidas pelo
 Ministério da Saúde;
-V - para contratação com vistas ao cumprimento do disposto nos arts. 3º, 3º-A, 4º, 5º e 20 da Lei nº 10.973,
-de 2 de dezembro de 2004, observados os princípios gerais de contratação constantes da referida Lei;
-VI  -  para  contratação  que  possa  acarretar  comprometimento  da  segurança  nacional,  nos  casos
-estabelecidos pelo Ministro de Estado da Defesa, mediante demanda dos comandos das Forças Armadas ou dos
-demais ministérios;
-VII - nos casos de guerra, estado de defesa, estado de sítio, intervenção federal ou de grave perturbação da
-ordem;
-VIII - nos casos de emergência ou de calamidade pública, quando caracterizada urgência de atendimento de
-situação que possa ocasionar prejuízo ou comprometer a continuidade dos serviços públicos ou a segurança de
-pessoas, obras, serviços, equipamentos e outros bens, públicos ou particulares, e somente para aquisição dos
-bens necessários ao atendimento da situação emergencial ou calamitosa e para as parcelas de obras e serviços
-que possam ser concluídas no prazo máximo de 1 (um) ano, contado da data de ocorrência da emergência ou da
-calamidade, vedadas a prorrogação dos respectivos contratos e a recontratação de empresa já contratada com
-base no disposto neste inciso;
-IX - para a aquisição, por pessoa jurídica de direito público interno, de bens produzidos ou serviços
-prestados por órgão ou entidade que integrem a Administração Pública e que tenham sido criados para esse fim
-específico, desde que o preço contratado seja compatível com o praticado no mercado;
-X  -  quando  a  União  tiver  que  intervir  no  domínio  econômico  para  regular  preços  ou  normalizar  o
-abastecimento; 
-XI - para celebração de contrato de programa com ente federativo ou com entidade de sua Administração
-Pública indireta que envolva prestação de serviços públicos de forma associada nos termos autorizados em
-contrato de consórcio público ou em convênio de cooperação;
-XII - para contratação em que houver transferência de tecnologia de produtos estratégicos para o Sistema
-Único de Saúde (SUS), conforme elencados em ato da direção nacional do SUS, inclusive por ocasião da
-aquisição desses produtos durante as etapas de absorção tecnológica, e em valores compatíveis com aqueles
-definidos no instrumento firmado para a transferência de tecnologia;
-XIII - para contratação de profissionais para compor a comissão de avaliação de critérios de técnica, quando
-se tratar de profissional técnico de notória especialização;
-XIV - para contratação de associação de pessoas com deficiência, sem fins lucrativos e de comprovada
-idoneidade, por órgão ou entidade da Administração Pública, para a prestação de serviços, desde que o preço
-contratado  seja  compatível  com  o  praticado  no  mercado  e  os  serviços  contratados  sejam  prestados
-exclusivamente por pessoas com deficiência;
-XV - para contratação de instituição brasileira que tenha por finalidade estatutária apoiar, captar e executar
-atividades de ensino, pesquisa, extensão, desenvolvimento institucional, científico e tecnológico e estímulo à
-inovação, inclusive para gerir administrativa e financeiramente essas atividades, ou para contratação de instituição
-dedicada à recuperação social da pessoa presa, desde que o contratado tenha inquestionável reputação ética e
-profissional e não tenha fins lucrativos;
-XVI - para aquisição, por pessoa jurídica de direito público interno, de insumos estratégicos para a saúde
-produzidos por fundação que, regimental ou estatutariamente, tenha por finalidade apoiar órgão da Administração
-Pública  direta,  sua  autarquia  ou  fundação  em  projetos  de  ensino,  pesquisa,  extensão,  desenvolvimento
-institucional, científico e tecnológico e de estímulo à inovação, inclusive na gestão administrativa e financeira
-necessária à execução desses projetos, ou em parcerias que envolvam transferência de tecnologia de produtos
-estratégicos para o SUS, nos termos do inciso XII deste caput, e que tenha sido criada para esse fim específico
-em data anterior à entrada em vigor desta Lei, desde que o preço contratado seja compatível com o praticado no
-mercado;    (Redação dada pela Lei nº 14.628, de 2023)
-XVII - para contratação de entidades privadas sem fins lucrativos para a implementação de cisternas ou
-outras tecnologias sociais de acesso à água para consumo humano e produção de alimentos, a fim de beneficiar
-as famílias rurais de baixa renda atingidas pela seca ou pela falta regular de água; e       (Incluído pela Lei nº
-14.628, de 2023)
-XVIII - para contratação de entidades privadas sem fins lucrativos, para a implementação do Programa
-Cozinha Solidária, que tem como finalidade fornecer alimentação gratuita preferencialmente à população em
-situação de vulnerabilidade e risco social, incluída a população em situação de rua, com vistas à promoção de
-políticas de segurança alimentar e nutricional e de assistência social e à efetivação de direitos sociais, dignidade
-humana, resgate social e melhoria da qualidade de vida.      (Incluído pela Lei nº 14.628, de 2023)
+V - para contratação com vistas ao cumprimento do disposto nos arts. 3º, 3º-A, 4º, 5º e 20 da Lei nº 10.973, de 2 de dezembro de 2004, observados os princípios gerais de contratação constantes da referida Lei;
+VI  -  para  contratação  que  possa  acarretar  comprometimento  da  segurança  nacional,  nos  casos estabelecidos pelo Ministro de Estado da Defesa, mediante demanda dos comandos das Forças Armadas ou dos demais ministérios;
+VII - nos casos de guerra, estado de defesa, estado de sítio, intervenção federal ou de grave perturbação da ordem;
+VIII - nos casos de emergência ou de calamidade pública, quando caracterizada urgência de atendimento de situação que possa ocasionar prejuízo ou comprometer a continuidade dos serviços públicos ou a segurança de pessoas, obras, serviços, equipamentos e outros bens, públicos ou particulares, e somente para aquisição dos bens necessários ao atendimento da situação emergencial ou calamitosa e para as parcelas de obras e serviços que possam ser concluídas no prazo máximo de 1 (um) ano, contado da data de ocorrência da emergência ou da calamidade, vedadas a prorrogação dos respectivos contratos e a recontratação de empresa já contratada com base no disposto neste inciso;
+IX - para a aquisição, por pessoa jurídica de direito público interno, de bens produzidos ou serviços prestados por órgão ou entidade que integrem a Administração Pública e que tenham sido criados para esse fim específico, desde que o preço contratado seja compatível com o praticado no mercado;
+X  -  quando  a  União  tiver  que  intervir  no  domínio  econômico  para  regular  preços  ou  normalizar  o abastecimento; 
+XI - para celebração de contrato de programa com ente federativo ou com entidade de sua Administração Pública indireta que envolva prestação de serviços públicos de forma associada nos termos autorizados em contrato de consórcio público ou em convênio de cooperação;
+XII - para contratação em que houver transferência de tecnologia de produtos estratégicos para o Sistema Único de Saúde (SUS), conforme elencados em ato da direção nacional do SUS, inclusive por ocasião da aquisição desses produtos durante as etapas de absorção tecnológica, e em valores compatíveis com aqueles definidos no instrumento firmado para a transferência de tecnologia;
+XIII - para contratação de profissionais para compor a comissão de avaliação de critérios de técnica, quando se tratar de profissional técnico de notória especialização;
+XIV - para contratação de associação de pessoas com deficiência, sem fins lucrativos e de comprovada idoneidade, por órgão ou entidade da Administração Pública, para a prestação de serviços, desde que o preço contratado  seja  compatível  com  o  praticado  no  mercado  e  os  serviços  contratados  sejam  prestados exclusivamente por pessoas com deficiência;
+XV - para contratação de instituição brasileira que tenha por finalidade estatutária apoiar, captar e executar atividades de ensino, pesquisa, extensão, desenvolvimento institucional, científico e tecnológico e estímulo à inovação, inclusive para gerir administrativa e financeiramente essas atividades, ou para contratação de instituição dedicada à recuperação social da pessoa presa, desde que o contratado tenha inquestionável reputação ética e profissional e não tenha fins lucrativos;
+XVI - para aquisição, por pessoa jurídica de direito público interno, de insumos estratégicos para a saúde produzidos por fundação que, regimental ou estatutariamente, tenha por finalidade apoiar órgão da Administração Pública  direta,  sua  autarquia  ou  fundação  em  projetos  de  ensino,  pesquisa,  extensão,  desenvolvimento institucional, científico e tecnológico e de estímulo à inovação, inclusive na gestão administrativa e financeira necessária à execução desses projetos, ou em parcerias que envolvam transferência de tecnologia de produtos estratégicos para o SUS, nos termos do inciso XII deste caput, e que tenha sido criada para esse fim específico em data anterior à entrada em vigor desta Lei, desde que o preço contratado seja compatível com o praticado no mercado;    (Redação dada pela Lei nº 14.628, de 2023)
+XVII - para contratação de entidades privadas sem fins lucrativos para a implementação de cisternas ou outras tecnologias sociais de acesso à água para consumo humano e produção de alimentos, a fim de beneficiar as famílias rurais de baixa renda atingidas pela seca ou pela falta regular de água; e       (Incluído pela Lei nº 14.628, de 2023)
+XVIII - para contratação de entidades privadas sem fins lucrativos, para a implementação do Programa Cozinha Solidária, que tem como finalidade fornecer alimentação gratuita preferencialmente à população em situação de vulnerabilidade e risco social, incluída a população em situação de rua, com vistas à promoção de políticas de segurança alimentar e nutricional e de assistência social e à efetivação de direitos sociais, dignidade humana, resgate social e melhoria da qualidade de vida.      (Incluído pela Lei nº 14.628, de 2023)
 &lt;/code&gt;&lt;/pre&gt;</description>
 	</item>
 	
@@ -5236,7 +5245,7 @@ m-53 -32 c-3 -3 -12 -4 -19 -1 -8 3 -5 6 6 6 11 1 17 -2 13 -5z&#34;/&gt;
 &lt;td&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Inindentificável&lt;/td&gt;
+&lt;td&gt;Prejudicado&lt;/td&gt;
 &lt;td&gt;X&lt;/td&gt;
 &lt;td&gt;X&lt;/td&gt;
 &lt;/tr&gt;
@@ -9535,13 +9544,13 @@ $$&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Conceitos e conduta em pacientes queimados</title>
+		<title>Calculadoras para pacientes queimados</title>
 		<link>https://www.jeffersontorres.com.br/medicina/queimados/</link>
 		<pubDate>Tue, 21 Nov 2023 01:34:54 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/queimados/</guid>
 		<description>&lt;h2 id=&#34;grandes-queimados&#34;&gt;Grandes queimados&lt;/h2&gt;
-&lt;h3 id=&#34;calculadora-de-parkland&#34;&gt;Calculadora de Parkland&lt;/h3&gt;
+&lt;h3 id=&#34;calculadora-de-parkland-via-regra-dos-nove-de-pulaski-e-tennisson&#34;&gt;Calculadora de Parkland via regra dos nove de Pulaski e Tennisson&lt;/h3&gt;
 &lt;p&gt;
 
 &lt;div class=&#34;calculadoras&#34;&gt; 
@@ -10987,7 +10996,7 @@ function updateResult() {
 	</item>
 	
 	<item>
-		<title>Sites úteis que recomendo</title>
+		<title>Websites e páginas úteis</title>
 		<link>https://www.jeffersontorres.com.br/sites-uteis/</link>
 		<pubDate>Wed, 31 Dec 1969 21:33:44 -0300</pubDate>
 		

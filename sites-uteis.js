@@ -1,3 +1,7 @@
+function maiuscula(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const searched = document.getElementById('search-output');
   const search = document.getElementById("search");
@@ -13,7 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
   .then(data => {
     for (let key in data) {
       const listItem = document.createElement('li');
-      listItem.innerHTML = "<a style=\"color: var(--corLinks)\" href=\""+key+"\" target=\"_blank\" >"+key+"</a>: "+data[key]; 
+      //listItem.innerHTML = "<a style=\"color: var(--corLinks)\" href=\""+key+"\" target=\"_blank\" >"+key+"</a>: "+data[key]; 
+      let desc = maiuscula(data[key]);
+      listItem.innerHTML = "<a target=\"_blank\" href=\""+key+"\"> -- "+desc+"</a>"; 
       searched.appendChild(listItem);
     }
   })

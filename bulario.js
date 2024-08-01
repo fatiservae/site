@@ -1,6 +1,7 @@
 function maiuscula(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
 document.addEventListener("DOMContentLoaded", () => {
   const searched = document.getElementById('resultado');
   /*

@@ -8,6 +8,11 @@
 
 :root {
   /* CORES */
+  --corDailyDevGradiente: linear-gradient(
+                            90deg,
+                            #fc538e,
+                            #d741df,
+                            );
   --corGradienteGemini: linear-gradient(
                       90deg, 
                       #4b83f0, 
@@ -17,6 +22,13 @@
                       #be6b98, 
                       #d96570, 
                       #d56676);
+  --corGradienteGray: linear-gradient(
+                      90deg, 
+                      var(--corFonte),
+                      #777,
+                      #666,
+                      #444 );
+
   --azulpapel: #c3e4e5;
   --azulbreve: #0960ee;
   --lime: #ffff00;
@@ -140,7 +152,7 @@
                'Lato', 
                sans-serif;
   --displayFigurasFundo: block;
-  --bordasButao: 34px;
+  --bordasButao: 8px;
   --fundoSticker: var(--gradiente-dark);
   --raioCampos: 34px; 
   --sombraCaixas: none;
@@ -323,7 +335,6 @@
   /*
   */
   --corTextoGradiente: var(--corGradienteGemini);
-  --corHoverBotao: var(--corBotao);
   --bordaEtiqueta: 1px solid gray;
   --bordas: 1px solid var(--corBordas);
   --corMark: black;
@@ -349,7 +360,12 @@
   --texto-dim: #555555;
   --letragradiente: white;
   --katex-color: var(--corFonte);
+  /*
   --corBotao: var(--fundo-input);
+  --corHoverBotao: var(--corBotao);
+  --corBotao: var(--font-invertida);
+  */
+  --corHoverBotao: var(--fundo);
   --corFundoHoverBotao: var(--corFonte);
   --headings: navajowhite ;
   --corBordas: #383f48 ;
@@ -680,30 +696,6 @@ body {
   animation: blinkEmConstrucao 2s infinite;
 }
 
-blockquote {
-  /*
-  border-left: 1px solid var(--corFonte);
-  border: var(--bordas);
-  */
-  padding: 0vw;
-  margin-left: var(--margem);
-  box-shadow: var(--sombraCaixas);
-  border-radius: var(--raioBordas);
-  background-color: var(--vidro);
-  max-width: 88vw;
-  width: fit-content; 
-}
-blockquote p {
-  font-style: italic;
-  margin: 8px;
-}
-blockquote p::before,
-blockquote p::after {
-  margin: 0;
-  padding: 0;
-  content: '"';
-  font-size: 90%;
-}
 #switch {
   /*
   position: absolute;
@@ -881,33 +873,43 @@ label {
   color: var(--corFonte) ;
 }
 
-div#code{
+/* já não me lembro mais onde precisei de div#code*/
+div#code, p code, pre, blockquote {
   /*
   */
-  text-indent: 3%;
-  font-family: monospace;
-  color: var(--corTextoCode); 
-}
-pre{
+  padding: 1rem;
   margin-left: var(--margem);
-  align: center;
-  padding: 8px;
+  box-shadow: var(--sombraCaixas);
   border-radius: var(--raioBordas);
-  border: 1px solid var(--corBordas);
-  max-width: var(--largura-texto);
-  background-color: var(--corFundoCode) ;
-  white-space: pre-wrap;
-}
-code, 
-pre code {
-  border-radius: 5px;
-  background-color: transparent ;
+  background-color: var(--vidro);
   font-family: monospace;
-  font-size: 75% ; 
-  color: var(--corTextoCode);
+  font-size: 80%;
+  max-width: calc(var(--largura-texto) + 5px);
+}
+blockquote p {
+  /*
+  */
+  margin: 8px;
 }
 code {
-  background-color: var(--corFundoCode) ;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  display:inline-block;
+  max-width: var(--largura-texto);
+  overflow: wrap;
+}
+p code {
+  display: inline;
+}
+blockquote p::before,
+blockquote p::after {
+  margin: 0;
+  padding: 0;
+  content: '"';
+}
+p code{
+  padding: 0vw;
+  margin: 0vw;
 }
 p code::after, 
 p code::before {
@@ -2385,6 +2387,8 @@ div#vim {
 .icone-barra {
   text-shadow: none;
   transition: text-shadow 200ms ease-in-out;
+  /*
+  */
   fill: var(--corFonte);
   stroke: var(--corFonte);
   width: var(--iconeBarraSize);

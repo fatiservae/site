@@ -1,5 +1,29 @@
 [
 	{
+		"nome": ["epinefrina", "Hyfren"],
+		"class": ["drogas vasoativas"],
+		"posologias": [
+			{
+				"unidades": ["mg", "kg"],
+				"dosagem": [0.01, 1],
+				"instrucao": "para anafilaxia em pediatria, máximo de até 0.5mg/dose.",
+				"via": "intramuscular"
+			},
+			{
+				"unidades": ["mg"],
+				"dosagem": [0.5],
+				"instrucao": "dose de meia ampola para anafilaxia em adulto, repetida a cada cinco minutos se necessário.",
+				"via": "intramuscular"
+			},
+			{
+				"unidades": ["mg"],
+				"dosagem": [1],
+				"instrucao": "dose de manejo da parada cardiovascular, vide Advanced Cardiac Life Support",
+				"via": "intravenosa lenta para evitar vasoespasmo, em equipo fotoprotetor"
+			}
+		]
+	},
+	{
 		"nome": ["naltrexona"],
 		"class": ["antialcoólicos", "antagonistas opioides", "antídotos de narcóticos"],
 		"posologias": [
@@ -506,7 +530,7 @@
   		{
   			"unidades": ["mg"],
   			"dosagem": [4],
-  			"instrucao": "dose usual de um dois comprimidos após primeira diarreia. Suspender se houver remissão.",
+  			"instrucao": "dose usual de dois comprimidos após primeira diarreia. Suspender se houver remissão.",
   			"via": "oral"
   		},
   		{
