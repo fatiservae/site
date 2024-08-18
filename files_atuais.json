@@ -326,6 +326,14 @@
     "path": "Medicina/Ginecologia e obstetrícia"
   },
   {
+    "name": "Guia-de-prescricoes-plantao-UBS.pdf",
+    "subjects": [
+      "Medicina"
+    ],
+    "size": "10.10 MB",
+    "path": "Medicina"
+  },
+  {
     "name": "1-Hippocrates-By-WHS-Jones-1923-59.pdf",
     "subjects": [
       "Medicina",
@@ -360,6 +368,15 @@
     ],
     "size": "21.69 MB",
     "path": "Medicina/História da medicina"
+  },
+  {
+    "name": "Protocolo-De-Antibioticoprofilaxia-Cirurgica-HRS.pdf",
+    "subjects": [
+      "Medicina",
+      "Infectologia"
+    ],
+    "size": "1.31 MB",
+    "path": "Medicina/Infectologia"
   },
   {
     "name": "Manual-declaracao-obito-2022.pdf",

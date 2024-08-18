@@ -1,5 +1,29 @@
 [
 	{
+		"nome": ["hipromelose"],
+		"class": ["colírios lubrificantes"],
+		"posologias": [
+			{
+				"unidades": ["gotas", "aplicação"],
+				"dosagem": [1, 1],
+				"instrucao": "instilar uma gota em cada olho sempre que necessário.",
+				"via": "oftálmica"
+			}
+		]
+	},
+	{
+		"nome": ["noradrenalina"],
+		"class": ["drogas vasoativas"],
+		"posologias": [
+			{
+				"unidades": ["mcg", "kg", "min"],
+				"dosagem": [0.3, 1, 1],
+				"instrucao": "dose inicial para associar vasopressina.",
+				"via": "intravenosa em infusão contínua"
+			}
+		]
+	},
+	{
 		"nome": ["epinefrina", "Hyfren"],
 		"class": ["drogas vasoativas"],
 		"posologias": [
