@@ -11,6 +11,169 @@
 	
 	
 	<item>
+		<title>Classificações em nefropatias</title>
+		<link>https://www.jeffersontorres.com.br/medicina/doenca-renal/</link>
+		<pubDate>Sun, 18 Aug 2024 11:10:23 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/doenca-renal/</guid>
+		<description>&lt;h2 id=&#34;calculadora-de-tfg&#34;&gt;Calculadora de TFG&lt;/h2&gt;
+&lt;script src=&#34;../../tfg.js&#34;&gt;&lt;/script&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
+    &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;peso&#34;&gt;Peso (kg):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;peso&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;creatinina&#34;&gt;Creatinina (mg/dL):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;creatinina&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;altura&#34;&gt;Altura (cm):&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; id=&#34;altura&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;sexo&#34;&gt;Sexo:&lt;/label&gt;&lt;br&gt;
+    &lt;select id=&#34;sexo&#34;&gt;
+        &lt;option value=&#34;masculino&#34;&gt;Masculino&lt;/option&gt;
+        &lt;option value=&#34;feminino&#34;&gt;Feminino&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;&lt;br&gt;
+    &lt;input id=&#34;negro&#34; type=&#34;checkbox&#34;&gt;Negro(a&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=&#34;calcularTFG()&#34;&gt;Calcular TFG&lt;/button&gt;&lt;br&gt;&lt;br&gt;
+    &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
+    &lt;button style=&#34;display: none&#34; id=&#34;botao-copiar&#34;&gt;Copiar Resultado&lt;/button&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;os-cálculos-de-cockcroft-gault1&#34;&gt;Os cálculos de Cockcroft-Gault[1]:&lt;/h3&gt;
+&lt;p&gt;$$
+m_{ideal} = (50_{homem} \wedge 45.5_{mulher}) + 2.3(alt - 60)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
+$$&lt;/p&gt;
+&lt;p&gt;$$
+TFG = \frac{(140 - i) m_{ajustada}}{cr * 72} 0.85_{mulher}
+$$&lt;/p&gt;
+&lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;m(s)&lt;/em&gt;&lt;/strong&gt; são as massas em Kg, &lt;strong&gt;&lt;em&gt;alt&lt;/em&gt;&lt;/strong&gt; a altura em pol, &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos, &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;0.85&lt;/em&gt;&lt;/strong&gt; uma constante de ajuste aplicado às mulheres, apenas.&lt;/p&gt;
+&lt;h3 id=&#34;os-cálculos-do-estudo-modification-of-diet-in-renal-disease-mdrd2&#34;&gt;Os cálculos do estudo Modification of Diet in Renal Disease (MDRD)[2]&lt;/h3&gt;
+&lt;p&gt;$$
+TFG = 175 \frac {(1.212_{negro} \wedge 1_{demais}) (0.742_{mulher} \wedge 1_{homem})} {cr^{-1.154} i^{-0.203}}
+$$&lt;/p&gt;
+&lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; é a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos completos. A constante de 175 era originalmente 185 e foi alterada por uma revisão do estudo[2], por isto o valor estimado por MDRD nesta calculadora é uma faixa de valor.&lt;/p&gt;
+&lt;h2 id=&#34;injúria-renal-aguda&#34;&gt;Injúria renal aguda&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Estágio&lt;/th&gt;
+&lt;th&gt;Creatinina Sérica em mg/dL&lt;/th&gt;
+&lt;th&gt;Diurese em mL/kg/h&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Aumento de 0.3 em 48h ou 50% acima do basal em 7 dias.&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,5 por 6-12h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Dobrada em 7 dias&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,5 por 12-24h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Triplicada a qualquer momento&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Acima de 4 a qualquer momento&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;TFG&amp;lt; 35ml/min/1.73m² em &amp;lt; de 18 anos&lt;/td&gt;
+&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dialítico&lt;/td&gt;
+&lt;td&gt;Necessidade de diálise&lt;/td&gt;
+&lt;td&gt;Anúria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;doença-renal-crônica&#34;&gt;Doença renal crônica&lt;/h2&gt;
+&lt;style&gt;
+    .low-risk {
+      background-color: #99ff99; /* Verde claro */
+    }
+    .moderate-risk {
+      background-color: #ffff99; /* Amarelo */
+    }
+    .high-risk {
+      background-color: #ffcc99; /* Laranja */
+    }
+    .very-high-risk {
+      background-color: #ff6666; /* Vermelho */
+    }
+  &lt;/style&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th rowspan=&#34;2&#34;&gt;Taxa de filtração&lt;br&gt;em mL/min/1,73m²&lt;/th&gt;
+      &lt;th colspan=&#34;3&#34;&gt;Albuminúria por creatinina&lt;br&gt;mg/g&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;A1&lt;br&gt;&amp;lt; 30&lt;/th&gt;
+      &lt;th&gt;A2&lt;br&gt;30-300&lt;/th&gt;
+      &lt;th&gt;A3&lt;br&gt;&amp;gt; 300&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;gt; 90&lt;br&gt;Estágio 1&lt;/td&gt;
+      &lt;td class=&#34;low-risk&#34;&gt;Baixo risco&lt;/td&gt;
+      &lt;td class=&#34;moderate-risk&#34;&gt;Risco moderado&lt;/td&gt;
+      &lt;td class=&#34;high-risk&#34;&gt;Alto risco&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;60-89&lt;br&gt;Estágio 2&lt;/td&gt;
+      &lt;td class=&#34;low-risk&#34;&gt;Baixo risco&lt;/td&gt;
+      &lt;td class=&#34;moderate-risk&#34;&gt;Risco moderado&lt;/td&gt;
+      &lt;td class=&#34;high-risk&#34;&gt;Alto risco&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;45-59&lt;br&gt;Estágio 3a&lt;/td&gt;
+      &lt;td class=&#34;moderate-risk&#34;&gt;Risco moderado&lt;/td&gt;
+      &lt;td class=&#34;high-risk&#34;&gt;Alto risco&lt;/td&gt;
+      &lt;td class=&#34;very-high-risk&#34;&gt;Risco muito alto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;30-44&lt;br&gt;Estágio 3b&lt;/td&gt;
+      &lt;td class=&#34;moderate-risk&#34;&gt;Risco moderado&lt;/td&gt;
+      &lt;td class=&#34;high-risk&#34;&gt;Alto risco&lt;/td&gt;
+      &lt;td class=&#34;very-high-risk&#34;&gt;Risco muito alto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15-29&lt;br&gt;Estágio 4&lt;/td&gt;
+      &lt;td class=&#34;high-risk&#34;&gt;Alto risco&lt;/td&gt;
+      &lt;td class=&#34;very-high-risk&#34;&gt;Risco muito alto&lt;/td&gt;
+      &lt;td class=&#34;very-high-risk&#34;&gt;Risco muito alto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt; 15&lt;br&gt;Estágio 5&lt;/td&gt;
+      &lt;td class=&#34;very-high-risk&#34;&gt;Risco muito alto&lt;/td&gt;
+      &lt;td class=&#34;very-high-risk&#34;&gt;Risco muito alto&lt;/td&gt;
+      &lt;td class=&#34;very-high-risk&#34;&gt;Risco muito alto&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Cockcroft DW, Gault MH. &lt;strong&gt;Prediction of creatinine clearance from serum creatinine&lt;/strong&gt;. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.&lt;/li&gt;
+&lt;li&gt;LEVEY, Andrew S. et al. &lt;strong&gt;A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation&lt;/strong&gt;. Annals of internal medicine, v. 130, n. 6, p. 461-470, 1999.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Calculadoras fetais</title>
 		<link>https://www.jeffersontorres.com.br/medicina/calculadoras-fetais/</link>
 		<pubDate>Tue, 30 Jul 2024 17:16:14 -0300</pubDate>
@@ -7847,17 +8010,127 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 	</item>
 	
 	<item>
-		<title>Guia de condutas em pré-natal</title>
+		<title>Pré-natal</title>
 		<link>https://www.jeffersontorres.com.br/medicina/pre-natal/</link>
 		<pubDate>Sun, 28 Jan 2024 20:44:01 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/pre-natal/</guid>
-		<description>&lt;h2 id=&#34;suplementação-de-ferro&#34;&gt;Suplementação de ferro&lt;/h2&gt;
-&lt;p&gt;sup de SO4Fe 600mg&lt;/p&gt;
-&lt;h2 id=&#34;ultrassonografias&#34;&gt;Ultrassonografias&lt;/h2&gt;
-&lt;p&gt;Agora ultrassom é obrigatório no PN 2 pelo menos nos 4 primeiros meses, transvaginal[1].&lt;/p&gt;
-&lt;h2 id=&#34;eclâmpsia&#34;&gt;Eclâmpsia&lt;/h2&gt;
-&lt;p&gt;Este assunto é tratado com muita enrolação em toda literatura médica. Portanto, sejamos simples.&lt;/p&gt;
+		<description>&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
+&lt;h3 id=&#34;primeiro-trimestre&#34;&gt;Primeiro trimestre&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Estratificar o risco gestacional;&lt;/li&gt;
+&lt;li&gt;GS/Rh&lt;/li&gt;
+&lt;li&gt;Coombs indireto&lt;/li&gt;
+&lt;li&gt;Glicemia jejum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;segundo-trimestre&#34;&gt;Segundo trimestre&lt;/h3&gt;
+&lt;h3 id=&#34;terceiro-trimestre&#34;&gt;Terceiro trimestre&lt;/h3&gt;
+&lt;h3 id=&#34;puerpério&#34;&gt;Puerpério&lt;/h3&gt;
+&lt;h2 id=&#34;rastreios&#34;&gt;Rastreios&lt;/h2&gt;
+&lt;h3 id=&#34;diabetes-mellitus-gestacional&#34;&gt;Diabetes mellitus gestacional&lt;/h3&gt;
+&lt;p&gt;A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.&lt;/p&gt;
+&lt;h4 id=&#34;conduta&#34;&gt;Conduta&lt;/h4&gt;
+&lt;p&gt;
+ 
+&lt;div class=&#34;carousela&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gestante com viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Gestante sem viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Puérpera com viabilidade financeira&lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Puérpera sem viabilidade financeira&lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousela .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousela .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anteriora&#34;);
+  let proximo = document.getElementById(&#34;proximoa&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;eclâmpsia&#34;&gt;Eclâmpsia&lt;/h3&gt;
 &lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;gestação a pelo menos 20 semanas;&lt;/strong&gt;&lt;/li&gt;
@@ -7868,18 +8141,23 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Eclâmpsia&lt;/strong&gt; é a ocorrência de &lt;mark&gt;convulsões&lt;/mark&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
-&lt;h3 id=&#34;conduta&#34;&gt;Conduta&lt;/h3&gt;
+&lt;h4 id=&#34;conduta-1&#34;&gt;Conduta&lt;/h4&gt;
 &lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;A cura é o &lt;strong&gt;parto&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../../pix/medicina/esquemas-sulfato.png&#34; alt=&#34;Esquemas de sulfato de magnésio&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;cuidados-no-tratamento&#34;&gt;Cuidados no tratamento!&lt;/h3&gt;
-&lt;p&gt;O reflexo patelar desaparece com 10mEq/L e ocorre PCR com 12mEq/L.&lt;/p&gt;
+&lt;h5 id=&#34;cuidados&#34;&gt;Cuidados&lt;/h5&gt;
+&lt;p&gt;O reflexo patelar desaparece com 10mEq/L de sulfato e ocorre parada cardíaca com 12mEq/L.&lt;/p&gt;
 &lt;p&gt;Mantenha o antídoto preparado &lt;strong&gt;ANTES&lt;/strong&gt; de administrar o sulfato.&lt;/p&gt;
-&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10 mL a 10%) deve ser administrado &lt;mark&gt;lentamente &lt;/mark&gt;nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
-&lt;h3 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h3&gt;
+&lt;p&gt;O gluconato de cálcio a &lt;strong&gt;1g por via endovenosa&lt;/strong&gt; (geralmente 10mL a 10%) deve ser administrado &lt;mark&gt;lentamente &lt;/mark&gt;nos casos de sinais de intoxicação por magnésio.&lt;/p&gt;
+&lt;h4 id=&#34;prevenção&#34;&gt;Prevenção&lt;/h4&gt;
 &lt;p&gt;A medicina baseada em evidências consegue demostrar benefício no uso de &lt;strong&gt;ácido acetilsalicílico a 150mg/dia&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Caso se tenha deficiência de cálcio na dieta presumida clinicamente ou por diagnóstico laboratorial, prescreve-se &lt;strong&gt;cálcio oral dietético suplementar a 1-2g/dia&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;fator-rh&#34;&gt;Fator Rh&lt;/h2&gt;
+&lt;h3 id=&#34;ultrassonografias&#34;&gt;Ultrassonografias&lt;/h3&gt;
+&lt;p&gt;Agora ultrassom é obrigatório no pré-natal.&lt;/p&gt;
+&lt;p&gt;Pelo menos dois nos quatro primeiros meses, transvaginal[1].&lt;/p&gt;
+&lt;h3 id=&#34;suplementação-de-ferro&#34;&gt;Suplementação de ferro&lt;/h3&gt;
+&lt;p&gt;sup de SO4Fe 600mg&lt;/p&gt;
+&lt;h3 id=&#34;fator-rh&#34;&gt;Fator Rh&lt;/h3&gt;
 &lt;p&gt;A imunoglobulina anti Rh(D) (conhecida como vacina Rogan) é utilizada para prevenir a sensibilização materna ao fator sanguíneo de um bebê Rh positivo quando a mãe possui o fator Rh negativo.&lt;/p&gt;
 &lt;p&gt;A imunoglobulina é administrada com 28s para que sua vida circulatória de 12s coincida com o momento de encerramento do parto.&lt;/p&gt;
 &lt;p&gt;Papo de GO:&lt;/p&gt;
@@ -7904,8 +8182,9 @@ Noripurum etc&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www12.senado.leg.br/noticias/materias/2023/06/15/sancionada-lei-que-garante-mais-exames-para-gestantes-no-sus&#34;&gt;https://www12.senado.leg.br/noticias/materias/2023/06/15/sancionada-lei-que-garante-mais-exames-para-gestantes-no-sus&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
-&lt;ol start=&#34;2&#34;&gt;
+&lt;ol&gt;
 &lt;li&gt;FEBRASGO. &lt;strong&gt;Protocolo no. 73 - 2021&lt;/strong&gt;. Federação Brasileira de Ginecologia e Obstetrícia. Brasil.&lt;/li&gt;
+&lt;li&gt;FEBRASGO. &lt;strong&gt;Revista Feminina - Volume 47, Número 11&lt;/strong&gt;. Federação Brasileira de Ginecologia e Obstetrícia. Brasil. 2019.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>
@@ -9015,183 +9294,6 @@ Seneca
 	</item>
 	
 	<item>
-		<title>Diabetes Mellitus Gestacional</title>
-		<link>https://www.jeffersontorres.com.br/medicina/dmg/</link>
-		<pubDate>Thu, 14 Dec 2023 09:17:12 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/dmg/</guid>
-		<description>&lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;
-&lt;p&gt;O diabetes mellitus gestacional tem hoje um fluxograma de conduta bem definido pela FEBRASGO.&lt;/p&gt;
-&lt;p&gt;Outrora, já foi mais confuso.&lt;/p&gt;
-&lt;p&gt;Uma dúvida comum:&lt;/p&gt;
-&lt;p style=&#34;text-indent: 0%&#34; class=&#34;sticker&#34;&gt;
-A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.
-&lt;/p&gt;
-&lt;h2 id=&#34;diagnóstico&#34;&gt;Diagnóstico&lt;/h2&gt;
-
- 
-&lt;div class=&#34;carousela&#34;&gt;
-  &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima&lt;/button&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;conteudo&#34;&gt;
-  
-
-
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma com viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-
-
-
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma sem viabilidade finananceira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;../../pix/medicina/dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-
-
-  
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-(function() {
-  let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousela .slide&#34;);
-  let legends = document.querySelectorAll(&#34;.carousela .legend&#34;);
-  let totalSlides = slides.length;
-  let anterior = document.getElementById(&#34;anteriora&#34;);
-  let proximo = document.getElementById(&#34;proximoa&#34;);
-
-  function showSlide(n) {
-    currentSlide = (n + totalSlides) % totalSlides;
-    for (let i = 0; i &lt; totalSlides; i++) {
-      slides[i].style.display = &#34;none&#34;;
-      legends[i].style.display = &#34;none&#34;;
-    }
-    slides[currentSlide].style.display = &#34;block&#34;;
-    legends[currentSlide].style.display = &#34;block&#34;;
-  }
-  
-  showSlide(currentSlide);
-  
-  
-  
-  
-  proximo.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide + 1);
-  })
-  anterior.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide - 1);
-  })
-  
-  
-  
-  
-  
-  
-  
-  
-})();
-  &lt;/script&gt;
-
-
-&lt;h2 id=&#34;conduta-no-pós-parto&#34;&gt;Conduta no pós-parto&lt;/h2&gt;
-
- 
-&lt;div class=&#34;carousel2&#34;&gt;
-  &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anterior2&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximo2&#34;&gt;Próxima&lt;/button&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;conteudo&#34;&gt;
-  
-
-
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma com viabilidade financeira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;
-      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-
-
-
-
-  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxograma sem viabilidade financeira&lt;/p&gt;&lt;/div&gt;
-  &lt;div class=&#34;slide&#34;&gt;
-    &lt;a href=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;
-      &lt;img src=&#34;../../pix/medicina/puerpera-dmg-financeiro-nao-viavel.png&#34;&gt;&lt;/img&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-
-
-
-  
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-(function() {
-  let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousel2 .slide&#34;);
-  let legends = document.querySelectorAll(&#34;.carousel2 .legend&#34;);
-  let totalSlides = slides.length;
-  let anterior = document.getElementById(&#34;anterior2&#34;);
-  let proximo = document.getElementById(&#34;proximo2&#34;);
-
-  function showSlide(n) {
-    currentSlide = (n + totalSlides) % totalSlides;
-    for (let i = 0; i &lt; totalSlides; i++) {
-      slides[i].style.display = &#34;none&#34;;
-      legends[i].style.display = &#34;none&#34;;
-    }
-    slides[currentSlide].style.display = &#34;block&#34;;
-    legends[currentSlide].style.display = &#34;block&#34;;
-  }
-  
-  showSlide(currentSlide);
-  
-  
-  
-  
-  proximo.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide + 1);
-  })
-  anterior.addEventListener(&#34;click&#34;, () =&gt; {
-    showSlide(currentSlide - 1);
-  })
-  
-  
-  
-  
-  
-  
-  
-  
-})();
-  &lt;/script&gt;
-
-
-&lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;FEBRASGO. &lt;strong&gt;Revista Feminina - Volume 47, Número 11&lt;/strong&gt;. Federação Brasileira de Ginecologia e Obstetrícia. Brasil. 2019.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Tudo sobre vacinas</title>
 		<link>https://www.jeffersontorres.com.br/medicina/vacinas/</link>
 		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
@@ -9954,59 +10056,6 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
 	</item>
 	
 	<item>
-		<title>Taxa de filtração glomerular</title>
-		<link>https://www.jeffersontorres.com.br/medicina/tfg/</link>
-		<pubDate>Wed, 15 Nov 2023 18:42:29 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/tfg/</guid>
-		<description>&lt;script src=&#34;../../tfg.js&#34;&gt;&lt;/script&gt;
-&lt;div class=&#34;calculadoras&#34;&gt;
-    &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;label for=&#34;peso&#34;&gt;Peso (kg):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;peso&#34;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;label for=&#34;creatinina&#34;&gt;Creatinina (mg/dL):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;creatinina&#34;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;label for=&#34;altura&#34;&gt;Altura (cm):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;altura&#34;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;label for=&#34;sexo&#34;&gt;Sexo:&lt;/label&gt;&lt;br&gt;
-    &lt;select id=&#34;sexo&#34;&gt;
-        &lt;option value=&#34;masculino&#34;&gt;Masculino&lt;/option&gt;
-        &lt;option value=&#34;feminino&#34;&gt;Feminino&lt;/option&gt;
-    &lt;/select&gt;&lt;br&gt;&lt;br&gt;
-    &lt;input id=&#34;negro&#34; type=&#34;checkbox&#34;&gt;Negro(a)&lt;/input&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;button onclick=&#34;calcularTFG()&#34;&gt;Calcular TFG&lt;/button&gt;&lt;br&gt;&lt;br&gt;
-    &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
-    &lt;button style=&#34;display: none&#34; id=&#34;botao-copiar&#34;&gt;Copiar Resultado&lt;/button&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;os-cálculos-de-cockcroft-gault&#34;&gt;Os cálculos de Cockcroft-Gault:&lt;/h2&gt;
-&lt;p&gt;$$
-m_{ideal} = (50_{homem} \wedge 45.5_{mulher}) + 2.3(alt - 60)
-$$&lt;/p&gt;
-&lt;p&gt;$$
-m_{ajustada} = m_{ideal} + 0.4(m - m_{ideal})
-$$&lt;/p&gt;
-&lt;p&gt;$$
-TFG = \frac{(140 - i) m_{ajustada}}{cr * 72} 0.85_{mulher}
-$$&lt;/p&gt;
-&lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;m(s)&lt;/em&gt;&lt;/strong&gt; são as massas em Kg, &lt;strong&gt;&lt;em&gt;alt&lt;/em&gt;&lt;/strong&gt; a altura em pol, &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos, &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;0.85&lt;/em&gt;&lt;/strong&gt; uma constante de ajuste aplicado às mulheres, apenas.&lt;/p&gt;
-&lt;h2 id=&#34;os-cálculos-do-estudo-modification-of-diet-in-renal-disease-mdrd&#34;&gt;Os cálculos do estudo Modification of Diet in Renal Disease (MDRD)&lt;/h2&gt;
-&lt;p&gt;$$
-TFG = 175 \frac {(1.212_{negro} \wedge 1_{demais}) (0.742_{mulher} \wedge 1_{homem})} {cr^{-1.154} i^{-0.203}}
-$$&lt;/p&gt;
-&lt;p&gt;Onde &lt;strong&gt;&lt;em&gt;cr&lt;/em&gt;&lt;/strong&gt; é a creatinina sérica em mg/dL e &lt;strong&gt;&lt;em&gt;i&lt;/em&gt;&lt;/strong&gt; a idade em anos completos. A constante de 175 era originalmente 185 e foi alterada por uma revisão do estudo[2], por isto o valor estimado por MDRD nesta calculadora é uma faixa de valor.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Cockcroft DW, Gault MH. &lt;strong&gt;Prediction of creatinine clearance from serum creatinine&lt;/strong&gt;. Nephron. 1976;16(1):31-41. doi: 10.1159/000180580. PMID: 1244564.&lt;/li&gt;
-&lt;li&gt;LEVEY, Andrew S. et al. &lt;strong&gt;A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation&lt;/strong&gt;. Annals of internal medicine, v. 130, n. 6, p. 461-470, 1999.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Considerações sobre a reprodução humana</title>
 		<link>https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/</link>
 		<pubDate>Tue, 14 Nov 2023 00:28:26 -0300</pubDate>
@@ -10591,94 +10640,6 @@ Imprima na opção &lt;code&gt;Salvar para PDF&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; zoom ad-hoc do slide atual.&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; incluir arquivos de fontes.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Injuria Renal Aguda</title>
-		<link>https://www.jeffersontorres.com.br/medicina/injuria-renal-aguda/</link>
-		<pubDate>Mon, 06 Nov 2023 07:52:13 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/injuria-renal-aguda/</guid>
-		<description>&lt;h2 id=&#34;etiologias&#34;&gt;Etiologias&lt;/h2&gt;
-&lt;h3 id=&#34;pré-renais&#34;&gt;Pré-renais&lt;/h3&gt;
-&lt;p&gt;Quaisquer situações de hipofluxo e ativação do sistema renina-angiotensina-aldosterona e constricção da artéria aferente.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Hemorragias.&lt;/li&gt;
-&lt;li&gt;Desidratação grave.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;renais&#34;&gt;Renais&lt;/h3&gt;
-&lt;p&gt;Quaisquer situações que afetem a capacidade funcional do rim de forma aguda, ou seja, não dependente de dano cumulativo. Várias coisas podem danificar o rim cronicamente. As causas renais de &lt;strong&gt;injúria aguda&lt;/strong&gt; reduzem a função renal de forma imediata, sem necessidade de cumulatividade temporal (&lt;em&gt;semanas, meses, anos etc&lt;/em&gt;).&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Tubolopatias, principalmente medicamentosas, associadas ao uso de AINES, IECAs, BRAs, Anfotericina B e outros.&lt;/li&gt;
-&lt;li&gt;Nefrite intersticial medicamentosa (e em menor incidência a autoimune).&lt;/li&gt;
-&lt;li&gt;Causas vasogênicas, notadamente a hipercalcemia que povoca vasoconstricção vasculo-renal.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;pós-renais&#34;&gt;Pós-renais&lt;/h3&gt;
-&lt;p&gt;Essencialmente, as obstruções do trajeto urinário causam estase a montante, com hidronefrose sendo o estágio mais grave desta complicação.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Todas obstruções da via urinária, seja renal, ureterais, uretrais ou vesicais, notadamente a doença calculosa. Em pacientes muito jovens, a epidemiologia em segundo lugar é de má-formação de trajeto urinário.&lt;/li&gt;
-&lt;li&gt;Outras.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Portanto, nota-se que as causas renais são as principais.&lt;/p&gt;
-&lt;p&gt;No contexto de emergência, as nefrites intersticiais medicamentosas são a principal causa de IRA, sendo os AINES disparados a principal causa.&lt;/p&gt;
-&lt;p&gt;Os demais medicamentos causadores de necrose tubular são menos comuns.&lt;/p&gt;
-&lt;p&gt;Nas causas pré-renais, a hemorragia e demais causas de hipovolemia lideram as causas, devendo-se suspeitar sempre de anúria em pacientes com fatores de risco para sangramento.&lt;/p&gt;
-&lt;p&gt;Já no pós-renal o exame de urina apresenta alterações típicas de trajeto como hematúria e piúria, sem necessariamente alterar métricas nefrológicas como fração de sódio etc. A sintomatologia envolve a disúria, urgência miccional e lombalgia. Pode haver contexto infeccioso (ITU).&lt;/p&gt;
-&lt;h2 id=&#34;classificações&#34;&gt;Classificações&lt;/h2&gt;
-&lt;h3 id=&#34;segundo-kidney-disease-improving-global-outcomes&#34;&gt;Segundo Kidney Disease: Improving Global Outcomes&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Estágio&lt;/th&gt;
-&lt;th&gt;Creatinina Sérica em mg/dL&lt;/th&gt;
-&lt;th&gt;Diurese em mL/kg/h&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Aumento de 0.3 em 48h ou 50% acima do basal em 7 dias.&lt;/td&gt;
-&lt;td&gt;&amp;lt; 0,5 por 6-12h&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Dobrada em 7 dias&lt;/td&gt;
-&lt;td&gt;&amp;lt; 0,5 por 12-24h&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;Triplicada a qualquer momento&lt;/td&gt;
-&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;Acima de 4 a qualquer momento&lt;/td&gt;
-&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;TFG&amp;lt; 35ml/min/1.73m² em &amp;lt; de 18 anos&lt;/td&gt;
-&lt;td&gt;&amp;lt; 0,3 em 24h ou anúria&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Dialítico&lt;/td&gt;
-&lt;td&gt;Necessidade de diálise&lt;/td&gt;
-&lt;td&gt;Anúria&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;a href=&#34;../../medicina/cockcroft-gault/index.html&#34;&gt;Calcule aqui a TFG via Cockcroft-Gault&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h2&gt;
-&lt;h3 id=&#34;pré-renais-1&#34;&gt;Pré-renais&lt;/h3&gt;
-&lt;p&gt;Volemia parcimoniosa e criteriosa, inotrópicos e vasodilatadores.&lt;/p&gt;
-&lt;h3 id=&#34;renais-1&#34;&gt;Renais&lt;/h3&gt;
-&lt;p&gt;Retirar agente danoso.&lt;/p&gt;
-&lt;p&gt;Furosemida (inibindo cotransporte de Sódio-Cloro-Potássio na alça larga ascendente de Henle, resultando em excreta aumentada de cátions e consequente diurese).&lt;/p&gt;
-&lt;p&gt;A furosemida faz sentido pelo fato da doença interstiscial poupar o funcionamento das células tubulares e, portanto, seu estímulo é restaurador de TFG.&lt;/p&gt;
-&lt;h3 id=&#34;pós-renais-1&#34;&gt;Pós-renais&lt;/h3&gt;
-&lt;p&gt;Abordagem da obstrução.&lt;/p&gt;
-&lt;p&gt;Veja &lt;a href=&#34;../../litiase_urinaria/index.md&#34;&gt;litíase urinária&lt;/a&gt;&lt;/p&gt;
 </description>
 	</item>
 	
