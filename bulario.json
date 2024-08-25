@@ -1,5 +1,32 @@
 [
 	{
+		"nome": ["etomidato"],
+		"class": ["hipnóticos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "Kg"],
+				"dosagem": [0.3, 1],
+				"instrucao": "dose de indução para intubação orotraqueal",
+				"via": "intravenosa"
+			}
+		]
+	},
+	{
+		"nome": ["lidocaína"],
+		"class": ["anestésicos locais", "sedativos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "Kg"],
+				"dosagem": [1.5, 1],
+				"instrucao": "dose para indução em intubação orotraqueal. A lidocaína tem especial aplicação em sedação nos pacientes com risco de aumento da pressão intracraniana.",
+				"via": "intravenosa"
+			}
+		],
+		"obs": [
+			"Evitar exceder 3mg/Kg, principalmente em crianças."
+		]
+	},
+	{
 		"nome": ["hipromelose"],
 		"class": ["colírios lubrificantes"],
 		"posologias": [
@@ -1728,7 +1755,7 @@
       },
       {
         "unidades": ["mg", "kg"],
-        "dosagem": [2, 1],
+        "dosagem": ["0.5 a 2", 1],
         "via": "intravenoso",
         "instrucao": "sedação pediátrica para intubação de emergência."
       },
@@ -1803,20 +1830,32 @@
     "class": ["analgésicos", "opioides"],
     "posologias":[
       {
-        "unidades": ["mcg"],
-        "dosagem": [100],
+        "unidades": ["mcg", "Kg"],
+        "dosagem": [3, 1],
         "via": "intravenoso",
-        "instrucao": "dose inicial adulta."
+        "instrucao": "dose de indução na intubação orotraqueal adulta."
+      },
+      {
+        "unidades": ["mcg", "Kg"],
+        "dosagem": ["1 a 2", 1],
+        "via": "intravenoso",
+        "instrucao": "dose de indução na intubação orotraqueal pediátrica."
+      },
+			{
+        "unidades": ["mcg", "Kg", "min"],
+        "dosagem": ["0.03-0.05", 1, 1],
+        "via": "intravenoso",
+        "instrucao": "dose de manutenção da sedação adulta."
       },
       {
         "unidades": ["mcg"],
         "dosagem": [200],
         "via": "intravenoso",
-        "instrucao": "dose máxima adulta literária."
+        "instrucao": "dose individual máxima adulta permitida pela literatura."
       }
     ],
     "obs": [
-      "Todas características do paciente influenciam a dose que deve ser individualizada",
+      "Muitas características do paciente influenciam a dose que deve ser individualizada para cada pessoa.",
       "No passado, doses muito maiores eram utilizadas isoladamente na antestesia.",
       "Tem ação potencializadora dos sedativos.",
       "A apresentação padrão é de 50mcg/ml."

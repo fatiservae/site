@@ -146,7 +146,8 @@
   --h4BeforeContent: "-- ";
   --bordas: 1px solid var(--corFonte);
   --corFonteBarraHover: var(--corNegrito);
-  --temaFonte: "Fira Sans", 
+  --temaFonte: "Source Code Pro",
+               "Fira Sans", 
                "Noto color emoji",  
                "Open Sans", 
                'Lato', 
@@ -274,7 +275,6 @@
   --corMark: black;
   --corProgressBar: tomato;
   --imageBackgroundHeadings: var(--corH2-gradiente); 
-  --corH2: transparent;
   --corH4: var(--rosaJornal);
   --bordasHeading: none;
   --fundoHeading: none;
@@ -283,6 +283,9 @@
   --highlightCor: tomato;
   --corBarraSelecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
+  --corH2: tomato;
+  /*
+  --corH2: transparent;
   --corH2-gradiente: linear-gradient(
                       90deg, 
                       #4b83f0, 
@@ -293,6 +296,7 @@
                       #d96570, 
                       #d56676
                      );
+  */
   --corHoverBotao: navajowhite ;
   --corH1: var(--pimenta);
   --corH3: tomato;
@@ -305,7 +309,9 @@
   --texto-dim: darkgray ;
   --letragradiente: black;
   --katex-color: var(--corFonte);
+  /*
   --corBotao: var(--fundo-input);
+  */
   --corFundoHoverBotao: #2e2c35;
   --headings: black;
   --corBordas: #282828;
@@ -340,7 +346,6 @@
   --corMark: black;
   --corProgressBar: tomato;
   --imageBackgroundHeadings: var(--corH2-gradiente); 
-  --corH2: transparent;
   --corH4: var(--rosaJornal);
   --bordasHeading: none;
   --fundoHeading: none;
@@ -349,7 +354,11 @@
   --highlightCor: #FFE500;
   --corBarraSelecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
+  --corH2: tomato;
+  /*
+  --corH2: transparent;
   --corH2-gradiente: var(--corGradienteGemini);
+  */
   --corH1: var(--amarelo-google);
   --corH3: tomato;
   --corNegrito: tan; 
@@ -970,13 +979,14 @@ a[href]:visited:hover, a[href]:hover{
 /* PARAGRAFOS HEADING H1 H2 H3 */
 h1, h3, h2 , h4, h5{
   /*
+  font-weight: bold;  
   */
+  font-weight: normal;  
   background-image: var(--imageBackgroundHeadings);
   -webkit-background-clip: var(--clipHeading);
   background-color: var(--fundoHeading);
   color: var(--corH2); 
   border: var(--bordasHeadings);
-  font-weight: bold;  
   box-shadow: var(--sombraCaixas);
   font-size: 120%;
   padding: 0%;
@@ -989,7 +999,6 @@ h1, h3, h2 , h4, h5{
   text-align: start;
   max-width: var(--largura-texto);
   width: fit-content;
-  font-weight: bold;
 }
 h2 {
   /*
@@ -1624,21 +1633,21 @@ input, textarea {
 
 /* BOTÕES BUTTON SELETOR SELECT MENU */
 button, select {
-  /*
-  */
+  padding-right: 10px;
+  padding-left: 10px;
+  color: var(--corFonteBotao); 
+  background-color: var(--corBotao) ;
+  border-radius: var(--bordasButao);
+  border: 1px solid var(--corBordas); 
   font-family: inherit ;
-  padding-right: 14px;
-  padding-left: 14px;
+  /*
   padding-top: 0; 
   padding-bottom: 0; 
   max-width: 96%;
-  border: 1px solid #383f48 ; 
-  border-radius: var(--bordasButao);
-  background-color: var(--corBotao) ;
-  color: var(--corFonteBotao); 
   box-shadow: var(--sombraCaixas);
   cursor: pointer; 
   font-size: 1em; 
+  */
 }
 button:hover {
   color: var(--corHoverBotao);
@@ -1772,12 +1781,16 @@ div.slide a img {
 */
 }
 button[id^="proximo"] {
+  /* 
   text-align: start;
   padding-left: 1%;
+  */
 }
 button[id^="anterior"] {
+  /* 
   padding-right: 1%;
   text-align: end;
+  */
 }
 button[id^="proximo"], button[id^="anterior"] {
   /* 
@@ -1793,12 +1806,12 @@ button[id^="proximo"], button[id^="anterior"] {
   background: var(--fundo);
   flex: 1;
   margin: 0%;
-  */
   transition: box-shadow 200ms ease-in-out;
   border: 1px solid var(--corBordas);
   border-radius: var(--bordasButao);
   padding-right: 14px;
   padding-left: 14px;
+  */
 }
 button[id^="anterior"] {
   padding-right: none;
@@ -1960,6 +1973,7 @@ nav#TableOfContents li li:last-child::before {
 
 .barra {
   margin-left: var(--margem);
+  font-size: 110%;
   /*
   */
 }
@@ -1969,6 +1983,7 @@ nav#TableOfContents li li:last-child::before {
 .barra a{
   /*
   */
+  padding-right: 1rem;
 }
 .barra a[href]:visited, .barra a[href] {
   /*
@@ -1992,6 +2007,7 @@ nav#TableOfContents li li:last-child::before {
   }
 }
 .barra select, .barra button {
+  /*
   text-align: center;
   font-size: 110%;
   padding: 2px;
@@ -1999,6 +2015,7 @@ nav#TableOfContents li li:last-child::before {
   padding-right: 8px;
   font-weight: bold;
   margin-bottom: 3px;
+  */
 }
 .barra button {
 }

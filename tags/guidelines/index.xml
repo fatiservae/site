@@ -6671,8 +6671,10 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 		<guid>https://www.jeffersontorres.com.br/medicina/ecg/</guid>
 		<description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Este é um compêndio e exemplos de eletrocardiogramas de condições incomuns.&lt;/p&gt;
-&lt;h2 id=&#34;o-eletrocardiograma-normal-adulto&#34;&gt;O eletrocardiograma normal adulto&lt;/h2&gt;
-&lt;h2 id=&#34;o-eletrocardiograma-normal-pediátrico&#34;&gt;O eletrocardiograma normal pediátrico&lt;/h2&gt;
+&lt;!--
+## O eletrocardiograma normal adulto
+## O eletrocardiograma normal pediátrico 
+--&gt;
 &lt;h2 id=&#34;padrão-wellens&#34;&gt;Padrão Wellens&lt;/h2&gt;
 
 
@@ -6908,6 +6910,18 @@ t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2.
     &lt;p&gt;ECG típico em SWPW&lt;/p&gt;
   &lt;/div&gt;
 
+&lt;h2 id=&#34;sobrecarga-ventricular&#34;&gt;Sobrecarga ventricular&lt;/h2&gt;
+&lt;h3 id=&#34;esquerda&#34;&gt;Esquerda&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Índice de Sokolov-Lyon: se a soma de S em V1 com R de V5 ou V6 somam mais de 35mm ou 40mm se paciente atleta ou muito jovem.&lt;/li&gt;
+&lt;li&gt;Se R de aVL ou S de V3 somam 28mm em homens e 20mm em mulheres.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;direita&#34;&gt;Direita&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Onda S em V5 ou V6 com pelo menos 7mm.
+– Onda R dominante em V1 e/ou V2.&lt;/li&gt;
+&lt;li&gt;Ocasionalmente, bloqueio de ramo direito.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
