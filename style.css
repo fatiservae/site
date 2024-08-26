@@ -275,7 +275,6 @@
   --corMark: black;
   --corProgressBar: tomato;
   --imageBackgroundHeadings: var(--corH2-gradiente); 
-  --corH4: var(--rosaJornal);
   --bordasHeading: none;
   --fundoHeading: none;
   --corFundoCode: #303030;
@@ -283,7 +282,8 @@
   --highlightCor: tomato;
   --corBarraSelecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
-  --corH2: tomato;
+  --corH2: var(--azul-escuro-google);
+  --corH4: var(--azul-estadao);
   /*
   --corH2: transparent;
   --corH2-gradiente: linear-gradient(
@@ -297,11 +297,11 @@
                       #d56676
                      );
   */
-  --corHoverBotao: navajowhite ;
   --corH1: var(--pimenta);
-  --corH3: tomato;
-  --corH5: black;
+  --corH3: var(--roxoGoogle);
+  --corH5: var(--verde-servo);
   --corNegrito: black; 
+  --corHoverBotao: navajowhite ;
   --switch-shadow: -2px 1px 10px #ffffff;
   --fundo-carousel: none;
   --corTextoCode: #eee ;
@@ -885,15 +885,17 @@ label {
 /* já não me lembro mais onde precisei de div#code*/
 div#code, p code, pre, blockquote {
   /*
+  background-color: var(--vidro);
+  border-radius: var(--raioBordas);
+  font-family: monospace;
   */
   padding: 1rem;
+  padding-top: 5px;
   margin-left: var(--margem);
   box-shadow: var(--sombraCaixas);
-  border-radius: var(--raioBordas);
-  background-color: var(--vidro);
-  font-family: monospace;
   font-size: 80%;
   max-width: calc(var(--largura-texto) + 5px);
+  border-left: 1px solid tomato; 
 }
 blockquote p {
   /*
@@ -908,6 +910,9 @@ code {
   overflow: wrap;
 }
 p code {
+  background-color: var(--vidro);
+  border-radius: var(--raioBordas);
+  border: none;
   display: inline;
 }
 blockquote p::before,
@@ -1629,6 +1634,7 @@ input, textarea {
   border: 1px solid var(--corBordas); 
   color: var(--font-invertida) ;
   height: 2em ;
+  font-family: inherit;
 }
 
 /* BOTÕES BUTTON SELETOR SELECT MENU */

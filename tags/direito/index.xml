@@ -100,17 +100,23 @@ $$&lt;/p&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;doença-renal-crônica&#34;&gt;Doença renal crônica&lt;/h2&gt;
 &lt;style&gt;
+    table {
+    }
     .low-risk {
-      background-color: #99ff99; /* Verde claro */
+      background-color: #99ff99; 
+      color: black;
     }
     .moderate-risk {
-      background-color: #ffff99; /* Amarelo */
+      background-color: #ffff99; 
+      color: black;
     }
     .high-risk {
-      background-color: #ffcc99; /* Laranja */
+      background-color: #ffcc99; 
+      color: black;
     }
     .very-high-risk {
-      background-color: #ff6666; /* Vermelho */
+      color: black;
+      background-color: #ff6666; 
     }
   &lt;/style&gt;
 &lt;table&gt;
@@ -294,7 +300,7 @@ XVIII - para contratação de entidades privadas sem fins lucrativos, para a imp
 	</item>
 	
 	<item>
-		<title>História e panorama dos antibióticos</title>
+		<title>Panorama histórico dos antibióticos</title>
 		<link>https://www.jeffersontorres.com.br/medicina/antibioticos/</link>
 		<pubDate>Sat, 06 Jul 2024 15:04:34 -0300</pubDate>
 		
@@ -5807,7 +5813,7 @@ Acelera a morte
 &lt;p&gt;Curiosamente, a anemia falciforme se associa a resistência à malária e, talvez por causas evolutivas e pela alta incidência de malária na áfrica, a doença é quase exclusiva de pessoas afrodescendentes.&lt;/p&gt;
 &lt;h3 id=&#34;hemorragia-aguda&#34;&gt;Hemorragia aguda&lt;/h3&gt;
 &lt;p&gt;Autoexplicável.&lt;/p&gt;
-&lt;h3 id=&#34;aplástica&#34;&gt;Aplástica&lt;/h3&gt;
+&lt;h3 id=&#34;aplásica&#34;&gt;Aplásica&lt;/h3&gt;
 &lt;p&gt;Nome controverso. Ocorre que uma falha de medula causada pelo uso de drogas, substâncias, infecções por CMV, EBV ou ainda idiopática, terminam por interromper a linhagem de produção de eritrócitos, plaquetas e leucócitos. Portanto, trata-se de uma pancitopenia de causa medular.&lt;/p&gt;
 &lt;p&gt;Os sintomas comuns giram em torno da facilidade de infecções, sangramentos, indisposição, atraso de desenvolvimento etc. O tratamento definitivo é o transplante de medula.&lt;/p&gt;
 &lt;h3 id=&#34;talassemias&#34;&gt;Talassemias&lt;/h3&gt;
@@ -10230,14 +10236,11 @@ function fechardialogo() {
 		<guid>https://www.jeffersontorres.com.br/medicina/tokyo-guideline/</guid>
 		<description>
 
-&lt;!DOCTYPE html&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
+&lt;div class=calculadoras&gt;
       &lt;h3&gt;Exame do abdome&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;suspeita&#34;&gt;
       &lt;label&gt;Murphy positivo, palpação dolorosa ou de massa.&lt;/label&gt;
-  &lt;/div&gt;
       &lt;br&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
       &lt;h3&gt;Inflamação sistêmica&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;inflamacao&#34;&gt;
       &lt;label&gt;Febre ou calafrios.&lt;/label&gt;
@@ -10245,25 +10248,18 @@ function fechardialogo() {
       &lt;input type=&#34;checkbox&#34; id=&#34;inflamacao&#34;&gt;
       &lt;label&gt;Proteína C reativa elevada ou leucocitose.&lt;/label&gt;
       &lt;br&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
       &lt;h3&gt;Imagem&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
       &lt;label&gt;Dilatação biliar.&lt;/label&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
       &lt;label&gt;Constricção constatada (estenose, cálculo etc).&lt;/label&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;sticker&#34;&gt;
       &lt;h3&gt;Colestase&lt;/h3&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
       &lt;label&gt;Icterícia ou bilirrubina de pelo menos 2mg/dL.&lt;/label&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
       &lt;label&gt;Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal.&lt;/label&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&#34;sticker&#34;&gt;
       &lt;h3&gt;Gravidade&lt;/h3&gt;
       &lt;label&gt;Idade:&lt;/label&gt;
       &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;
@@ -10295,7 +10291,6 @@ function fechardialogo() {
       &lt;input type=&#34;checkbox&#34; id=&#34;albumina&#34;&gt;
       &lt;label&gt;Albumina menor que 70% do limite superior laboratorial.&lt;/label&gt;
        &lt;br&gt;
-
 &lt;br&gt;
 &lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
 &lt;br&gt;
