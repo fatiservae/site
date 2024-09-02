@@ -5,10 +5,47 @@
 	<description>Recent content in calculadoras on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sun, 18 Aug 2024 11:10:23 -0300</lastBuildDate>
+	<lastBuildDate>Thu, 29 Aug 2024 20:11:26 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/calculadoras/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Conversões de unidades</title>
+		<link>https://www.jeffersontorres.com.br/ciencia/conversoes/</link>
+		<pubDate>Thu, 29 Aug 2024 20:11:26 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/ciencia/conversoes/</guid>
+		<description>&lt;div class=calculadoras&gt;
+  &lt;p&gt;Converter&lt;/p&gt;
+  &lt;br&gt;
+  &lt;input id=inputValor&gt;&lt;/input&gt;
+  &lt;br&gt;
+  &lt;select id=inputConverter&gt;
+    &lt;option value=minutos&gt;Minutos(m)&lt;/option&gt;
+    &lt;option value=metros&gt;Metros(m)&lt;/option&gt;
+    &lt;option value=metrosMin&gt;Metros por minutos (m/min)&lt;/option&gt;
+    &lt;option value=kiloMetros&gt;Kilômetros (Km)&lt;/option&gt;
+    &lt;option value=kiloMetros&gt;Kilômetros por minuto (Km/min)&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;p&gt;Para:&lt;/p&gt;
+  &lt;select id=outputConverter&gt;
+    &lt;option value=minutos&gt;Minutos (min)&lt;/option&gt;
+    &lt;option value=minutos&gt;Horas (h)&lt;/option&gt;
+    &lt;option value=metrosMin&gt;Metros por min (m/min)&lt;/option&gt;
+    &lt;option value=metros&gt;Metros (m)&lt;/option&gt;
+    &lt;option value=kiloMetros&gt;Kilômetros (Km)&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;button onclick=converta()&gt;Converta!&lt;/button&gt;
+  &lt;br&gt;
+  &lt;p id=resultadoConverter&gt;- - &lt;/p&gt;
+  &lt;button style=&#34;display: none&#34; id=&#34;botao-copiar&#34;&gt;Copiar Resultado&lt;/button&gt;
+&lt;/div&gt;
+&lt;script src=&#34;../../conversores.js&#34;&gt;&lt;/script&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Classificações em nefropatias</title>

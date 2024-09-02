@@ -146,8 +146,8 @@
   --h4BeforeContent: "-- ";
   --bordas: 1px solid var(--corFonte);
   --corFonteBarraHover: var(--corNegrito);
-  --temaFonte: "Source Code Pro",
-               "Fira Sans", 
+  --temaFonte: "Fira Sans", 
+               "Source Code Pro",
                "Noto color emoji",  
                "Open Sans", 
                'Lato', 
@@ -262,7 +262,7 @@
   /*margin-left: 5vw;*/
   max-width: 650px;
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 12px;
   color: #444;
   padding: 0 10px;
 }
@@ -282,7 +282,7 @@
   --highlightCor: tomato;
   --corBarraSelecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
-  --corH2: var(--azul-escuro-google);
+  --corH2: var(--verde-servo);
   --corH4: var(--azul-estadao);
   /*
   --corH2: transparent;
@@ -683,12 +683,12 @@ body {
   background-attachment: fixed;
   color: var(--corFonte) ;
   scroll-behavior: smooth ;
-  font-size: clamp(18px, calc(1.5vw - 3px), 24px);
+  font-size: clamp(12px, calc(1.2vw - 1px), 24px);
   padding: 0%;
 }
 @media only screen and (max-width: 800px){
   body{
-    font-size: 120%;
+    font-size: 105%;
     background-image: none;
   }
 }
@@ -887,8 +887,8 @@ div#code, p code, pre, blockquote {
   /*
   background-color: var(--vidro);
   border-radius: var(--raioBordas);
-  font-family: monospace;
   */
+  font-family: "Source Code Pro";
   padding: 1rem;
   padding-top: 5px;
   margin-left: var(--margem);
