@@ -30,114 +30,114 @@ O diapasão deve ser posicionado em qualquer parte média-anterior do crânio, p
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
 
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<div class="barra">
   
-  <a href="../../index.html">Início</a>
-  <a href="../../files/">Arquivos</a>
-  <a href='../../tags/projetos/'>Projetos</a>
-  <a href="#" id="nomeTema" onclick="tema()">Tema</a>
-</div>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const buttons = document.querySelectorAll('.barra button');
-    const currentUrl = window.location.pathname;
-
-    buttons.forEach(button => {
-      if (button.id == "index" && currentUrl == "/") {
-        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-        button.style.color = 'var(--corHoverBotao)';
-      } else if (currentUrl.includes(button.id, 0)) {
-        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-        button.style.color = 'var(--corHoverBotao)';
-      }
+  <div class="barra">
+    
+    <a href="../../index.html">Início</a>
+    <a href="../../files/">Arquivos</a>
+    <a href='../../tags/projetos/'>Projetos</a>
+    <a href="#" id="nomeTema" onclick="tema()">Tema</a>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.barra button');
+      const currentUrl = window.location.pathname;
+  
+      buttons.forEach(button => {
+        if (button.id == "index" && currentUrl == "/") {
+          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+          button.style.color = 'var(--corHoverBotao)';
+        } else if (currentUrl.includes(button.id, 0)) {
+          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+          button.style.color = 'var(--corHoverBotao)';
+        }
+      });
     });
-  });
-</script>
-
-<article>
+  </script>
   
-<br>
-
-  <h1>Surdez aguda</h1>
-
-<script>
-  let temaAtual = localStorage.getItem('tema');
-  let temaEspecificado = localStorage.getItem('temaEspecificado');
-
-  if (temaAtual == "dark"){
-    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
-  } else if (temaAtual == "light") {
-    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-  }
-
-  if (temaEspecificado == "true") {
-    document.documentElement.setAttribute('data-tema', temaAtual);
-  } else if (temaAtual == "dark") {
-    document.documentElement.setAttribute('data-tema', "dark");
-    localStorage.setItem('tema', "dark"); 
-    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
-    setNomeTema();
-  } else {
-    document.documentElement.setAttribute('data-tema', "light");
-    localStorage.setItem('tema', "light"); 
-    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-  }
-
-  function temaEspecifico(nome) {
-    if (nome == "OFF") {
-      document.documentElement.setAttribute('data-tema', "light")
-      localStorage.setItem('temaEspecificado', "false"); 
-      localStorage.setItem('tema', "light"); 
+  <article>
+    
+  <br>
+  
+    <h1>Surdez aguda</h1>
+  
+  <script>
+    let temaAtual = localStorage.getItem('tema');
+    let temaEspecificado = localStorage.getItem('temaEspecificado');
+  
+    if (temaAtual == "dark"){
+      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+    } else if (temaAtual == "light") {
       document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-    } else if (nome !== undefined) {
-      document.documentElement.setAttribute('data-tema', nome)
-      localStorage.setItem('temaEspecificado', "true"); 
-      localStorage.setItem('tema', nome); 
-    } else {
-      console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
     }
-  }
-
-  function tema() {
-    temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+  
+    if (temaEspecificado == "true") {
+      document.documentElement.setAttribute('data-tema', temaAtual);
+    } else if (temaAtual == "dark") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      setNomeTema();
     } else {
       document.documentElement.setAttribute('data-tema', "light");
       localStorage.setItem('tema', "light"); 
       document.getElementById("nomeTema").innerHTML = "Tema: Dia";
     }
-
-    
-  }
-</script>
-
-
-
-
-  <h2 id="teste-de-rinner">Teste de Rinner</h2>
+  
+    function temaEspecifico(nome) {
+      if (nome == "OFF") {
+        document.documentElement.setAttribute('data-tema', "light")
+        localStorage.setItem('temaEspecificado', "false"); 
+        localStorage.setItem('tema', "light"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      } else if (nome !== undefined) {
+        document.documentElement.setAttribute('data-tema', nome)
+        localStorage.setItem('temaEspecificado', "true"); 
+        localStorage.setItem('tema', nome); 
+      } else {
+        console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
+      }
+    }
+  
+    function tema() {
+      temaAtual = localStorage.getItem('tema');
+      if (temaAtual == "light") {
+        document.documentElement.setAttribute('data-tema', "dark");
+        localStorage.setItem('tema', "dark"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      } else {
+        document.documentElement.setAttribute('data-tema', "light");
+        localStorage.setItem('tema', "light"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      }
+  
+      
+    }
+  </script>
+  
+  
+  
+  
+    <h2 id="teste-de-rinner">Teste de Rinner</h2>
 <p>O diapasão é apresentado por contato no processo mastoide, de um dos lados. Após a exposição por um tempo <em>t</em>, deve ser apresentado ao lado do ouvido para que o paciente relate percepção sonora por, no mínimo <em>2t</em>.</p>
 <h2 id="teste-de-weber">Teste de Weber</h2>
 <p>O diapasão deve ser posicionado em qualquer parte média-anterior do crânio, prefrencialmente no topo do vértice. Anota-se a perceção do paciente em ambos lados e espera se nível e tempo simétrico. O teste é dito <strong>anormal</strong> se lateralizado.</p>
@@ -163,25 +163,25 @@ O diapasão deve ser posicionado em qualquer parte média-anterior do crânio, p
   </tbody>
 </table>
 
-
-
-  <br>
+  
+  
+    <br>
         <div style="" class=taglist> 
                 <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a></div>
 
 
 
-</article>
-
-<footer>
-<a href='#' onClick="retornaTopo()">Ao topo!</a> 
-
-<script>
-  function retornaTopo(){
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-</footer>
-
+  </article>
+  
+  <footer>
+  <a href='#' onClick="retornaTopo()">Ao topo!</a> 
+  
+  <script>
+    function retornaTopo(){
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  </footer>
+  
 </body>
 </html>

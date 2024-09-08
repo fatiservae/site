@@ -258,6 +258,7 @@
   /*
   --corH2: var(--letragradiente-dark);
   */
+  --corBarraHover: tomato;
   --corListas: red; 
   --bordaEtiqueta: 1px solid darkgray;
   --bordas: 1px solid var(--corBordas);
@@ -329,6 +330,7 @@
 :root[data-tema="dark"] { 
   /*
   */
+  --corBarraHover: var(--amarelo-servo);
   --corListas: var(--amarelo-google); 
   --corTextoGradiente: var(--corGradienteGemini);
   --bordaEtiqueta: 1px solid gray;
@@ -1987,10 +1989,12 @@ nav#TableOfContents li li:last-child::before {
 }
 .barra a[href]:visited:hover,
 .barra a[href]:hover{
+  color: var(--corBarraHover);
 }
 
 .barra a[href]:visited:active,
 .barra a[href]:active {
+  color: var(--corBarraHover);
 }
 @media only screen and (max-width: 800px){
   .barra {

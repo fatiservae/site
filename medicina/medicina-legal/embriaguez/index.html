@@ -43,114 +43,114 @@ A teoria observacional de Jellinek
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
 
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<div class="barra">
   
-  <a href="../../../index.html">Início</a>
-  <a href="../../../files/">Arquivos</a>
-  <a href='../../../tags/projetos/'>Projetos</a>
-  <a href="#" id="nomeTema" onclick="tema()">Tema</a>
-</div>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const buttons = document.querySelectorAll('.barra button');
-    const currentUrl = window.location.pathname;
-
-    buttons.forEach(button => {
-      if (button.id == "index" && currentUrl == "/") {
-        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-        button.style.color = 'var(--corHoverBotao)';
-      } else if (currentUrl.includes(button.id, 0)) {
-        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-        button.style.color = 'var(--corHoverBotao)';
-      }
+  <div class="barra">
+    
+    <a href="../../../index.html">Início</a>
+    <a href="../../../files/">Arquivos</a>
+    <a href='../../../tags/projetos/'>Projetos</a>
+    <a href="#" id="nomeTema" onclick="tema()">Tema</a>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.barra button');
+      const currentUrl = window.location.pathname;
+  
+      buttons.forEach(button => {
+        if (button.id == "index" && currentUrl == "/") {
+          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+          button.style.color = 'var(--corHoverBotao)';
+        } else if (currentUrl.includes(button.id, 0)) {
+          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+          button.style.color = 'var(--corHoverBotao)';
+        }
+      });
     });
-  });
-</script>
-
-<article>
+  </script>
   
-    <p class=emConstrucao >ATENÇÃO: PÁGINA EM CONSTRUÇÃO</p> 
+  <article>
+    
+      <p class=emConstrucao >ATENÇÃO: PÁGINA EM CONSTRUÇÃO</p> 
+    
+  <br>
   
-<br>
-
-  <h1>Visão toxicológica e legal da embriaguez</h1>
-
-<script>
-  let temaAtual = localStorage.getItem('tema');
-  let temaEspecificado = localStorage.getItem('temaEspecificado');
-
-  if (temaAtual == "dark"){
-    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
-  } else if (temaAtual == "light") {
-    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-  }
-
-  if (temaEspecificado == "true") {
-    document.documentElement.setAttribute('data-tema', temaAtual);
-  } else if (temaAtual == "dark") {
-    document.documentElement.setAttribute('data-tema', "dark");
-    localStorage.setItem('tema', "dark"); 
-    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
-    setNomeTema();
-  } else {
-    document.documentElement.setAttribute('data-tema', "light");
-    localStorage.setItem('tema', "light"); 
-    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-  }
-
-  function temaEspecifico(nome) {
-    if (nome == "OFF") {
-      document.documentElement.setAttribute('data-tema', "light")
-      localStorage.setItem('temaEspecificado', "false"); 
-      localStorage.setItem('tema', "light"); 
+    <h1>Visão toxicológica e legal da embriaguez</h1>
+  
+  <script>
+    let temaAtual = localStorage.getItem('tema');
+    let temaEspecificado = localStorage.getItem('temaEspecificado');
+  
+    if (temaAtual == "dark"){
+      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+    } else if (temaAtual == "light") {
       document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-    } else if (nome !== undefined) {
-      document.documentElement.setAttribute('data-tema', nome)
-      localStorage.setItem('temaEspecificado', "true"); 
-      localStorage.setItem('tema', nome); 
-    } else {
-      console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
     }
-  }
-
-  function tema() {
-    temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+  
+    if (temaEspecificado == "true") {
+      document.documentElement.setAttribute('data-tema', temaAtual);
+    } else if (temaAtual == "dark") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      setNomeTema();
     } else {
       document.documentElement.setAttribute('data-tema', "light");
       localStorage.setItem('tema', "light"); 
       document.getElementById("nomeTema").innerHTML = "Tema: Dia";
     }
-
-    
-  }
-</script>
-
-
-    <nav id="TableOfContents">
+  
+    function temaEspecifico(nome) {
+      if (nome == "OFF") {
+        document.documentElement.setAttribute('data-tema', "light")
+        localStorage.setItem('temaEspecificado', "false"); 
+        localStorage.setItem('tema', "light"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      } else if (nome !== undefined) {
+        document.documentElement.setAttribute('data-tema', nome)
+        localStorage.setItem('temaEspecificado', "true"); 
+        localStorage.setItem('tema', nome); 
+      } else {
+        console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
+      }
+    }
+  
+    function tema() {
+      temaAtual = localStorage.getItem('tema');
+      if (temaAtual == "light") {
+        document.documentElement.setAttribute('data-tema', "dark");
+        localStorage.setItem('tema', "dark"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      } else {
+        document.documentElement.setAttribute('data-tema', "light");
+        localStorage.setItem('tema', "light"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      }
+  
+      
+    }
+  </script>
+  
+  
+      <nav id="TableOfContents">
   <ul>
     <li><a href="#o-álcool-como-vício">O álcool como vício</a></li>
     <li><a href="#a-teoria-observacional-de-jellinek">A teoria observacional de Jellinek</a>
@@ -179,10 +179,10 @@ A teoria observacional de Jellinek
     <li><a href="#bibliografia">Bibliografia</a></li>
   </ul>
 </nav>
-
-
-
-  <h2 id="o-álcool-como-vício">O álcool como vício</h2>
+  
+  
+  
+    <h2 id="o-álcool-como-vício">O álcool como vício</h2>
 <p>O álcool é um componente alimentar antigo, com indícios de seu uso dietético desde o neolítico[4].</p>
 <p>Porém, seu uso regular alimentar pode ser deturpado pelo comportamento compulsivo, vicioso. Muitos estudaram os mecanismos do álcool no ser humano e na sociedade. Aqui, vamos nos ater as teorias de Jellinek[5] e as revisões por Glatt[6], bem como os documentos oficiais da WHO e da PAHO.</p>
 <h2 id="a-teoria-observacional-de-jellinek">A teoria observacional de Jellinek</h2>
@@ -398,9 +398,9 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 <li>Rackkorsky LL, Zerbini T, Cintra RB. <strong>Avaliação pericial da embriaguez: legislação e aspectos práticos</strong>. Saúde, Ética &amp; Justiça. 2012;17(2):44-9.</li>
 </ol>
 
-
-
-  <br>
+  
+  
+    <br>
         <div style="" class=taglist> 
                 <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
                 <a id="tag_perícias" href="https://www.jeffersontorres.com.br/tags/per%C3%ADcias">perícias</a> &middot;  
@@ -408,17 +408,17 @@ II - sinais que indiquem, na forma disciplinada pelo Contran, alteração da cap
 
 
 
-</article>
-
-<footer>
-<a href='#' onClick="retornaTopo()">Ao topo!</a> 
-
-<script>
-  function retornaTopo(){
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-</footer>
-
+  </article>
+  
+  <footer>
+  <a href='#' onClick="retornaTopo()">Ao topo!</a> 
+  
+  <script>
+    function retornaTopo(){
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  </footer>
+  
 </body>
 </html>

@@ -31,114 +31,114 @@ Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, ten
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
 
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<div class="barra">
   
-  <a href="../../index.html">Início</a>
-  <a href="../../files/">Arquivos</a>
-  <a href='../../tags/projetos/'>Projetos</a>
-  <a href="#" id="nomeTema" onclick="tema()">Tema</a>
-</div>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const buttons = document.querySelectorAll('.barra button');
-    const currentUrl = window.location.pathname;
-
-    buttons.forEach(button => {
-      if (button.id == "index" && currentUrl == "/") {
-        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-        button.style.color = 'var(--corHoverBotao)';
-      } else if (currentUrl.includes(button.id, 0)) {
-        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-        button.style.color = 'var(--corHoverBotao)';
-      }
+  <div class="barra">
+    
+    <a href="../../index.html">Início</a>
+    <a href="../../files/">Arquivos</a>
+    <a href='../../tags/projetos/'>Projetos</a>
+    <a href="#" id="nomeTema" onclick="tema()">Tema</a>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.barra button');
+      const currentUrl = window.location.pathname;
+  
+      buttons.forEach(button => {
+        if (button.id == "index" && currentUrl == "/") {
+          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+          button.style.color = 'var(--corHoverBotao)';
+        } else if (currentUrl.includes(button.id, 0)) {
+          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+          button.style.color = 'var(--corHoverBotao)';
+        }
+      });
     });
-  });
-</script>
-
-<article>
+  </script>
   
-<br>
-
-  <h1>Dissecação aguda de aorta: Score ADD-RS</h1>
-
-<script>
-  let temaAtual = localStorage.getItem('tema');
-  let temaEspecificado = localStorage.getItem('temaEspecificado');
-
-  if (temaAtual == "dark"){
-    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
-  } else if (temaAtual == "light") {
-    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-  }
-
-  if (temaEspecificado == "true") {
-    document.documentElement.setAttribute('data-tema', temaAtual);
-  } else if (temaAtual == "dark") {
-    document.documentElement.setAttribute('data-tema', "dark");
-    localStorage.setItem('tema', "dark"); 
-    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
-    setNomeTema();
-  } else {
-    document.documentElement.setAttribute('data-tema', "light");
-    localStorage.setItem('tema', "light"); 
-    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-  }
-
-  function temaEspecifico(nome) {
-    if (nome == "OFF") {
-      document.documentElement.setAttribute('data-tema', "light")
-      localStorage.setItem('temaEspecificado', "false"); 
-      localStorage.setItem('tema', "light"); 
+  <article>
+    
+  <br>
+  
+    <h1>Dissecação aguda de aorta: Score ADD-RS</h1>
+  
+  <script>
+    let temaAtual = localStorage.getItem('tema');
+    let temaEspecificado = localStorage.getItem('temaEspecificado');
+  
+    if (temaAtual == "dark"){
+      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+    } else if (temaAtual == "light") {
       document.getElementById("nomeTema").innerHTML = "Tema: Dia";
-    } else if (nome !== undefined) {
-      document.documentElement.setAttribute('data-tema', nome)
-      localStorage.setItem('temaEspecificado', "true"); 
-      localStorage.setItem('tema', nome); 
-    } else {
-      console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
     }
-  }
-
-  function tema() {
-    temaAtual = localStorage.getItem('tema');
-    if (temaAtual == "light") {
+  
+    if (temaEspecificado == "true") {
+      document.documentElement.setAttribute('data-tema', temaAtual);
+    } else if (temaAtual == "dark") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
       document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      setNomeTema();
     } else {
       document.documentElement.setAttribute('data-tema', "light");
       localStorage.setItem('tema', "light"); 
       document.getElementById("nomeTema").innerHTML = "Tema: Dia";
     }
-
-    
-  }
-</script>
-
-
-
-
-  <h2 id="sempre-descarte-a-dissecação-de-aorta">Sempre descarte a dissecação de aorta!</h2>
+  
+    function temaEspecifico(nome) {
+      if (nome == "OFF") {
+        document.documentElement.setAttribute('data-tema', "light")
+        localStorage.setItem('temaEspecificado', "false"); 
+        localStorage.setItem('tema', "light"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      } else if (nome !== undefined) {
+        document.documentElement.setAttribute('data-tema', nome)
+        localStorage.setItem('temaEspecificado', "true"); 
+        localStorage.setItem('tema', nome); 
+      } else {
+        console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
+      }
+    }
+  
+    function tema() {
+      temaAtual = localStorage.getItem('tema');
+      if (temaAtual == "light") {
+        document.documentElement.setAttribute('data-tema', "dark");
+        localStorage.setItem('tema', "dark"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      } else {
+        document.documentElement.setAttribute('data-tema', "light");
+        localStorage.setItem('tema', "light"); 
+        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      }
+  
+      
+    }
+  </script>
+  
+  
+  
+  
+    <h2 id="sempre-descarte-a-dissecação-de-aorta">Sempre descarte a dissecação de aorta!</h2>
 <p>A dissecação de aorta é um diagnóstico muito improvável, mesmo no contexto de dor torácica.</p>
 <p>Porém, sua fatalidade e necessidade de alta desconfiança diagnóstica exige que sempre a descartemos como diferencial o mais cedo possível!</p>
 <p>Para isso, a ferramenta mais atualizada é o chamado <strong>Score ADD-Risk Score</strong>.</p>
@@ -220,26 +220,26 @@ Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, ten
 <li>Rogers AM, Hermann LK, Booher AM, et al. <strong>Sensitivity of the aortic dissection detection risk score, a novel guideline-based tool for identification of acute aortic dissection at initial presentation: results from the international registry of acute aortic dissection</strong>. Circulation. 2011;123(20):2213-8.</li>
 </ol>
 
-
-
-  <br>
+  
+  
+    <br>
         <div style="" class=taglist> 
                 <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">calculadoras</a> &middot;  
                 <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a></div>
 
 
 
-</article>
-
-<footer>
-<a href='#' onClick="retornaTopo()">Ao topo!</a> 
-
-<script>
-  function retornaTopo(){
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-</footer>
-
+  </article>
+  
+  <footer>
+  <a href='#' onClick="retornaTopo()">Ao topo!</a> 
+  
+  <script>
+    function retornaTopo(){
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  </footer>
+  
 </body>
 </html>
