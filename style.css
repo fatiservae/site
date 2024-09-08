@@ -146,12 +146,7 @@
   --h4BeforeContent: "-- ";
   --bordas: 1px solid var(--corFonte);
   --corFonteBarraHover: var(--corNegrito);
-  --temaFonte: "Fira Sans", 
-               "Source Code Pro",
-               "Noto color emoji",  
-               "Open Sans", 
-               'Lato', 
-               sans-serif;
+  --temaFonte: "Fira Sans";
   --displayFigurasFundo: block;
   --bordasButao: 8px;
   --fundoSticker: var(--gradiente-dark);
@@ -159,7 +154,6 @@
   --sombraCaixas: none;
   --sombraImagens: none;
   --raioBordas: 10px;
-  --corFonte-comedia: "Bangers";
   --largura-texto: calc(650px + 10vw);
   --clipHeading: text; 
   --corFundoSelecao: tomato;
@@ -241,11 +235,6 @@
   --h4BeforeContent: initial;
   --bordas: initial;
   --corFonteBarraHover: initial;
-  --temaFonte: initial;
-               "Noto color emoji",  
-               "Open Sans", 
-               'Lato', 
-               sans-serif;
   --displayFigurasFundo: initial;
   --bordasButao: initial;
   --fundoSticker: initial;
@@ -253,7 +242,6 @@
   --sombraCaixas: initial;
   --sombraImagens: initial;
   --raioBordas: initial;
-  --corFonte-comedia: initial;
   --largura-texto: initial;
   --clipHeading: initial;
   --corFundoSelecao: initial;
@@ -270,6 +258,7 @@
   /*
   --corH2: var(--letragradiente-dark);
   */
+  --corListas: red; 
   --bordaEtiqueta: 1px solid darkgray;
   --bordas: 1px solid var(--corBordas);
   --corMark: black;
@@ -282,7 +271,7 @@
   --highlightCor: tomato;
   --corBarraSelecionado: var(--amarelo-servo);
   --fundo-card: linear-gradient(85deg,#101010,#262626);
-  --corH2: var(--verde-servo);
+  --corH2: darkred;
   --corH4: var(--azul-estadao);
   /*
   --corH2: transparent;
@@ -340,6 +329,7 @@
 :root[data-tema="dark"] { 
   /*
   */
+  --corListas: var(--amarelo-google); 
   --corTextoGradiente: var(--corGradienteGemini);
   --bordaEtiqueta: 1px solid gray;
   --bordas: 1px solid var(--corBordas);
@@ -477,7 +467,6 @@
   --corH3: #455A64;
   */
   --bordaEtiqueta: 1px solid var(--ferrugem2);
-  --temaFonte: "Libre Baskerville";
   --corMark: black;
   --bordas: 1px solid var(--corFonte);
   --displayFigurasFundo: none;
@@ -611,8 +600,6 @@
   --margem4: var(--margem);
   --margem5: var(--margem);
   */
-  --temaFonte: sans ;
-  --temaFonte: redhatdisplay, RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
   --corFonteBarraHover: white;
   --corFundoBarraHover: black ;
   --bordaEtiqueta: 1px solid black;
@@ -683,7 +670,7 @@ body {
   background-attachment: fixed;
   color: var(--corFonte) ;
   scroll-behavior: smooth ;
-  font-size: clamp(12px, calc(1.2vw - 1px), 24px);
+  font-size: clamp(14px, calc(1.5vw - 2px), 24px);
   padding: 0%;
 }
 @media only screen and (max-width: 800px){
@@ -984,9 +971,8 @@ a[href]:visited:hover, a[href]:hover{
 /* PARAGRAFOS HEADING H1 H2 H3 */
 h1, h3, h2 , h4, h5{
   /*
-  font-weight: bold;  
   */
-  font-weight: normal;  
+  font-weight: bold;  
   background-image: var(--imageBackgroundHeadings);
   -webkit-background-clip: var(--clipHeading);
   background-color: var(--fundoHeading);
@@ -1285,6 +1271,8 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_cirurgia::before { content: "🔪🩸 " ;}
+#tag_radiologia::before { content: "🩻 " ;}
 #tag_sociologia::before { content: "👩🏻‍💼 " ;}
 #tag_ginecologia::before { content: "♀ " ;}
 #tag_documentos::before { content: "📄 " ;}
@@ -1550,16 +1538,16 @@ ol {
   margin-left: var(--margem);
   /*
   */
-  list-style: none; /* Removendo os marcadores padrão */
-  counter-reset: my-counter; /* Reiniciando o contador */
+  list-style: none; 
+  counter-reset: my-counter; 
 }
 ol li::before {
   /*
   */
-  content: counter(my-counter)". "; /* Usando o valor do contador como conteúdo */
-  counter-increment: my-counter; /* Incrementando o contador */
-  font-weight: bold; /* Definindo negrito para os números */
-  color: var(--corNegrito); /* Definindo a cor dos números */
+  content: counter(my-counter)". "; 
+  counter-increment: my-counter; 
+  font-weight: bold; 
+  color: var(--corListas); 
 }
 li a:hover {
   color: var(--corFonte);
@@ -1646,6 +1634,7 @@ button, select {
   border-radius: var(--bordasButao);
   border: 1px solid var(--corBordas); 
   font-family: inherit ;
+  font-weight: bolder;
   /*
   padding-top: 0; 
   padding-bottom: 0; 
@@ -1980,6 +1969,8 @@ nav#TableOfContents li li:last-child::before {
 .barra {
   margin-left: var(--margem);
   font-size: 110%;
+  font-weight: bolder;
+  white-space: nowrap;
   /*
   */
 }

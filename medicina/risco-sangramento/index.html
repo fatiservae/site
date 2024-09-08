@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "$", right: "$", display: false}
+              ]
+          });
+      });
+  </script>
+
+  
+
+  <title>Risco de sangramento: HAS-BLED | Jefferson T.</title>
+  <link rel="canonical" href="https://www.jeffersontorres.com.br/">
+  <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
+  <link rel='stylesheet' type='text/css' href='../../style.css'>
+  <link rel="icon" href="../../favicon.webp">
+  <meta name="description" content="O escore HAS-BLED foi sugerido em 2010 para pacientes com fibrilação atual na tentativa de predizer o risco de sangramento caso seja iniciada a anticoagulação. Foi validado em 2011.
+
+Hipertensão
+
+Função hepática anormal
+
+Função renal anormal
+
+Acidente vascular cerebral
+
+Sangramento anterior ou predisposição a sangramento
+
+INR instável sob anticoagulação
+
+Idade acima de 60 anos
+
+Uso de agentes antiplaquetários concomitantes ou NSAIDS
+
+Abuso de álcool
+
+Calcule!
+">
+  <meta name="keywords" content="medicina, calculadoras, projetos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="barra">
+  
+  <a href="../../index.html">Início</a>
+  <a href="../../files/">Arquivos</a>
+  <a href='../../tags/projetos/'>Projetos</a>
+  <a href="#" id="nomeTema" onclick="tema()">Tema</a>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.barra button');
+    const currentUrl = window.location.pathname;
+
+    buttons.forEach(button => {
+      if (button.id == "index" && currentUrl == "/") {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      } else if (currentUrl.includes(button.id, 0)) {
+        button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
+        button.style.color = 'var(--corHoverBotao)';
+      }
+    });
+  });
+</script>
+
+<article>
+  
+<br>
+
+  <h1>Risco de sangramento: HAS-BLED</h1>
+
+<script>
+  let temaAtual = localStorage.getItem('tema');
+  let temaEspecificado = localStorage.getItem('temaEspecificado');
+
+  if (temaAtual == "dark"){
+    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+  } else if (temaAtual == "light") {
+    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+  }
+
+  if (temaEspecificado == "true") {
+    document.documentElement.setAttribute('data-tema', temaAtual);
+  } else if (temaAtual == "dark") {
+    document.documentElement.setAttribute('data-tema', "dark");
+    localStorage.setItem('tema', "dark"); 
+    document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+    setNomeTema();
+  } else {
+    document.documentElement.setAttribute('data-tema', "light");
+    localStorage.setItem('tema', "light"); 
+    document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+  }
+
+  function temaEspecifico(nome) {
+    if (nome == "OFF") {
+      document.documentElement.setAttribute('data-tema', "light")
+      localStorage.setItem('temaEspecificado', "false"); 
+      localStorage.setItem('tema', "light"); 
+      document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+    } else if (nome !== undefined) {
+      document.documentElement.setAttribute('data-tema', nome)
+      localStorage.setItem('temaEspecificado', "true"); 
+      localStorage.setItem('tema', nome); 
+    } else {
+      console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
+    }
+  }
+
+  function tema() {
+    temaAtual = localStorage.getItem('tema');
+    if (temaAtual == "light") {
+      document.documentElement.setAttribute('data-tema', "dark");
+      localStorage.setItem('tema', "dark"); 
+      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+    } else {
+      document.documentElement.setAttribute('data-tema', "light");
+      localStorage.setItem('tema', "light"); 
+      document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+    }
+
+    
+  }
+</script>
+
+
+
+
+  <p>O escore HAS-BLED foi sugerido em 2010 para pacientes com fibrilação atual na tentativa de predizer o risco de sangramento caso seja iniciada a anticoagulação. Foi validado em 2011.</p>
+<div class=calculadoras>
+<input type=checkbox>Hipertensão</input>
+<br>
+<input type=checkbox>Função hepática anormal</input>
+<br>
+<input type=checkbox>Função renal anormal</input>
+<br>
+<input type=checkbox>Acidente vascular cerebral</input>
+<br>
+<input type=checkbox>Sangramento anterior ou predisposição a sangramento</input>
+<br>
+<input type=checkbox>INR instável sob anticoagulação</input>
+<br>
+<input type=checkbox>Idade acima de 60 anos</input>
+<br>
+<input type=checkbox>Uso de agentes antiplaquetários concomitantes ou NSAIDS</input>
+<br>
+<input type=checkbox>Abuso de álcool</input>
+<br>
+<button onclick=calcularHASBLED()>Calcule!</button>
+<p id=resultadoHASBLED></p>
+</div>
+<script src=../../hasbled.js></script>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Pisters R, Lane DA, Nieuwlaat R, de Vos CB, Crijns HJ, Lip GY. <strong>A novel user-friendly score (HAS-BLED) to assess 1-year risk of major bleeding in patients with atrial fibrillation: the Euro Heart Survey</strong>. Chest. 2010 Nov;138(5):1093-100. doi: 10.1378/chest.10-0134. Epub 2010 Mar 18. PMID: 20299623.</li>
+<li>Lip GY, Frison L, Halperin JL, Lane DA. <strong>Comparative validation of a novel risk score for predicting bleeding risk in anticoagulated patients with atrial fibrillation: the HAS-BLED (Hypertension, Abnormal Renal/Liver Function, Stroke, Bleeding History or Predisposition, Labile INR, Elderly, Drugs/Alcohol Concomitantly) score</strong>. J Am Coll Cardiol. 2011 Jan 11;57(2):173-80. doi: 10.1016/j.jacc.2010.09.024. Epub 2010 Nov 24. PMID: 21111555.</li>
+</ol>
+
+
+
+  <br>
+        <div style="" class=taglist> 
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">calculadoras</a> &middot;  
+                <a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">projetos</a></div>
+
+
+
+</article>
+
+<footer>
+<a href='#' onClick="retornaTopo()">Ao topo!</a> 
+
+<script>
+  function retornaTopo(){
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+</footer>
+
+</body>
+</html>

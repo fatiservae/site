@@ -21,8 +21,218 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../index.xml'>
   <link rel='stylesheet' type='text/css' href='../style.css'>
   <link rel="icon" href="../favicon.webp">
-  <meta name="description" content=" Esta é uma página de controle do site.
-Conteúdo Status Calculadoras &mdash; Dissecação de aorta ADD-RS Ok Colecistite Tokyo Ok Kings College - prognóstico de hepatite fulminante Draft Monitorização de sedação Ok Gotejamento Não iniciada Febre reumática - Centor e Jones Ok MDRD e Cockcroft-Gault Ok Reposição de ferro Ok Reidratação - Holliday-Segar Ok Queimados Ok Probabilidade pós-teste Ok Projetos &mdash; Ventilador mecânico Em hold YellowBook Não iniciado Dicionário Ok Bulário Em desenvolvimento Direito &mdash; Medidas cautelares Em desenvolvimento Noções de direito penal Em desenvolvimento Medicina &mdash; Câncer de mama Draft Doenças exantemáticas Draft Lesões ulceradas Draft Compêndio de ECG Em desenvolvimento Surdez aguda Em desenvolvimento Analgesia Em desenvolvimento Resumo de reidratação Ok Convulsões Em desenvolvimento Neoplasias Em desenvolvimento Vacinas Em desenvolvimento Hanseníase Em desenvolvimento Medicina legal &mdash; Documentos médicos Em desenvolvimento Aborto Em desenvolvimento Autópsias Em desenvolvimento Embriaguez Em desenvolvimento Asfixias Em desenvolvimento Cronotanatognose Em desenvolvimento Imputabilidade Em desenvolvimento Destinos &mdash; Itacaré - BA Em desenvolvimento Piatã - BA Em desenvolvimento Yellowstones - EUA Em desenvolvimento Pohnpei Ok Filosofia &mdash; Farsa da Navalha de Ockham Ok Morte como destino Ok Efeito Gell-Mann Ok &hellip; &hellip; ">
+  <meta name="description" content="
+Esta é uma página de controle do site.
+
+  
+      
+          Conteúdo
+          Status
+      
+  
+  
+      
+          Calculadoras
+          &mdash;
+      
+      
+          Dissecação de aorta ADD-RS
+          Ok
+      
+      
+          Colecistite Tokyo
+          Ok
+      
+      
+          Kings College - prognóstico de hepatite fulminante
+          Draft
+      
+      
+          Monitorização de sedação
+          Ok
+      
+      
+          Gotejamento
+          Não iniciada
+      
+      
+          Febre reumática - Centor e Jones
+          Ok
+      
+      
+          MDRD e Cockcroft-Gault
+          Ok
+      
+      
+          Reposição de ferro
+          Ok
+      
+      
+          Reidratação - Holliday-Segar
+          Ok
+      
+      
+          Queimados
+          Ok
+      
+      
+          Probabilidade pós-teste
+          Ok
+      
+      
+          Projetos
+          &mdash;
+      
+      
+          Ventilador mecânico
+          Em hold
+      
+      
+          YellowBook
+          Não iniciado
+      
+      
+          Dicionário
+          Ok
+      
+      
+          Bulário
+          Em desenvolvimento
+      
+      
+          Direito
+          &mdash;
+      
+      
+          Medidas cautelares
+          Em desenvolvimento
+      
+      
+          Noções de direito penal
+          Em desenvolvimento
+      
+      
+          Medicina
+          &mdash;
+      
+      
+          Câncer de mama
+          Draft
+      
+      
+          Doenças exantemáticas
+          Draft
+      
+      
+          Lesões ulceradas
+          Draft
+      
+      
+          Compêndio de ECG
+          Em desenvolvimento
+      
+      
+          Surdez aguda
+          Em desenvolvimento
+      
+      
+          Analgesia
+          Em desenvolvimento
+      
+      
+          Resumo de reidratação
+          Ok
+      
+      
+          Convulsões
+          Em desenvolvimento
+      
+      
+          Neoplasias
+          Em desenvolvimento
+      
+      
+          Vacinas
+          Em desenvolvimento
+      
+      
+          Hanseníase
+          Em desenvolvimento
+      
+      
+          Medicina legal
+          &mdash;
+      
+      
+          Documentos médicos
+          Em desenvolvimento
+      
+      
+          Aborto
+          Em desenvolvimento
+      
+      
+          Autópsias
+          Em desenvolvimento
+      
+      
+          Embriaguez
+          Em desenvolvimento
+      
+      
+          Asfixias
+          Em desenvolvimento
+      
+      
+          Cronotanatognose
+          Em desenvolvimento
+      
+      
+          Imputabilidade
+          Em desenvolvimento
+      
+      
+          Destinos
+          &mdash;
+      
+      
+          Itacaré - BA
+          Em desenvolvimento
+      
+      
+          Piatã - BA
+          Em desenvolvimento
+      
+      
+          Yellowstones - EUA
+          Em desenvolvimento
+      
+      
+          Pohnpei
+          Ok
+      
+      
+          Filosofia
+          &mdash;
+      
+      
+          Farsa da Navalha de Ockham
+          Ok
+      
+      
+          Morte como destino
+          Ok
+      
+      
+          Efeito Gell-Mann
+          Ok
+      
+      
+          &hellip;
+          &hellip;
+      
+  
+">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -35,7 +245,7 @@ Conteúdo Status Calculadoras &mdash; Dissecação de aorta ADD-RS Ok Colecistit
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,29 +257,6 @@ Conteúdo Status Calculadoras &mdash; Dissecação de aorta ADD-RS Ok Colecistit
 
 </head>
 <body>
-
-<div id="progress-bar-container">
-  <div id="progress-bar"></div>
-</div>
-<script>
-  let scrollbar = document.getElementById('progress-bar');
-  let timeout;
-  
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = scrollTop / scrollHeight * 100;
-    scrollbar.style.width = scrolled + '%';
-  });
-
-  document.addEventListener('scroll' || 'mousemove', function() {
-      scrollbar.style.display = 'block';
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-          scrollbar.style.display = 'none'; 
-      }, 2000); 
-  });
-</script>
 
 <div class="barra">
   
@@ -174,214 +361,214 @@ Conteúdo Status Calculadoras &mdash; Dissecação de aorta ADD-RS Ok Colecistit
 </style>
 <p>Esta é uma página de controle do site.</p>
 <table>
-<thead>
-<tr>
-<th>Conteúdo</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>Calculadoras</b></td>
-<td><b>&mdash;</b></td>
-</tr>
-<tr>
-<td>Dissecação de aorta ADD-RS</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Colecistite Tokyo</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Kings College - prognóstico de hepatite fulminante</td>
-<td>Draft</td>
-</tr>
-<tr>
-<td>Monitorização de sedação</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Gotejamento</td>
-<td><strong>Não iniciada</strong></td>
-</tr>
-<tr>
-<td>Febre reumática - Centor e Jones</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>MDRD e Cockcroft-Gault</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Reposição de ferro</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Reidratação - Holliday-Segar</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Queimados</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Probabilidade pós-teste</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td><b>Projetos</b></td>
-<td><b>&mdash;</b></td>
-</tr>
-<tr>
-<td>Ventilador mecânico</td>
-<td>Em hold</td>
-</tr>
-<tr>
-<td>YellowBook</td>
-<td>Não iniciado</td>
-</tr>
-<tr>
-<td>Dicionário</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Bulário</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td><b>Direito</b></td>
-<td><b>&mdash;</b></td>
-</tr>
-<tr>
-<td>Medidas cautelares</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Noções de direito penal</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td><b>Medicina</b></td>
-<td><b>&mdash;</b></td>
-</tr>
-<tr>
-<td>Câncer de mama</td>
-<td>Draft</td>
-</tr>
-<tr>
-<td>Doenças exantemáticas</td>
-<td>Draft</td>
-</tr>
-<tr>
-<td>Lesões ulceradas</td>
-<td>Draft</td>
-</tr>
-<tr>
-<td>Compêndio de ECG</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Surdez aguda</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Analgesia</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Resumo de reidratação</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Convulsões</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Neoplasias</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Vacinas</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Hanseníase</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td><b>Medicina legal</b></td>
-<td><b>&mdash;</b></td>
-</tr>
-<tr>
-<td>Documentos médicos</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Aborto</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Autópsias</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Embriaguez</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Asfixias</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Cronotanatognose</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Imputabilidade</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td><b>Destinos</b></td>
-<td><b>&mdash;</b></td>
-</tr>
-<tr>
-<td>Itacaré - BA</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Piatã - BA</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Yellowstones - EUA</td>
-<td>Em desenvolvimento</td>
-</tr>
-<tr>
-<td>Pohnpei</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td><b>Filosofia</b></td>
-<td><b>&mdash;</b></td>
-</tr>
-<tr>
-<td>Farsa da Navalha de Ockham</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Morte como destino</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>Efeito Gell-Mann</td>
-<td>Ok</td>
-</tr>
-<tr>
-<td>&hellip;</td>
-<td>&hellip;</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Conteúdo</th>
+          <th style="text-align: left">Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><b>Calculadoras</b></td>
+          <td style="text-align: left"><b>&mdash;</b></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Dissecação de aorta ADD-RS</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Colecistite Tokyo</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Kings College - prognóstico de hepatite fulminante</td>
+          <td style="text-align: left">Draft</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Monitorização de sedação</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Gotejamento</td>
+          <td style="text-align: left"><strong>Não iniciada</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Febre reumática - Centor e Jones</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MDRD e Cockcroft-Gault</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Reposição de ferro</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Reidratação - Holliday-Segar</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Queimados</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Probabilidade pós-teste</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><b>Projetos</b></td>
+          <td style="text-align: left"><b>&mdash;</b></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ventilador mecânico</td>
+          <td style="text-align: left">Em hold</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">YellowBook</td>
+          <td style="text-align: left">Não iniciado</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Dicionário</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Bulário</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><b>Direito</b></td>
+          <td style="text-align: left"><b>&mdash;</b></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Medidas cautelares</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Noções de direito penal</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><b>Medicina</b></td>
+          <td style="text-align: left"><b>&mdash;</b></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Câncer de mama</td>
+          <td style="text-align: left">Draft</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Doenças exantemáticas</td>
+          <td style="text-align: left">Draft</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Lesões ulceradas</td>
+          <td style="text-align: left">Draft</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Compêndio de ECG</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Surdez aguda</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Analgesia</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Resumo de reidratação</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Convulsões</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Neoplasias</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Vacinas</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Hanseníase</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><b>Medicina legal</b></td>
+          <td style="text-align: left"><b>&mdash;</b></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Documentos médicos</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Aborto</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Autópsias</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Embriaguez</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Asfixias</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cronotanatognose</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Imputabilidade</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><b>Destinos</b></td>
+          <td style="text-align: left"><b>&mdash;</b></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Itacaré - BA</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Piatã - BA</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Yellowstones - EUA</td>
+          <td style="text-align: left">Em desenvolvimento</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Pohnpei</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><b>Filosofia</b></td>
+          <td style="text-align: left"><b>&mdash;</b></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Farsa da Navalha de Ockham</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Morte como destino</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Efeito Gell-Mann</td>
+          <td style="text-align: left">Ok</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">&hellip;</td>
+          <td style="text-align: left">&hellip;</td>
+      </tr>
+  </tbody>
 </table>
 
 

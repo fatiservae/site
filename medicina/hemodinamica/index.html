@@ -31,16 +31,67 @@
   </script>
 
   
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+      if (temaAtual === 'dark') {
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#22272e',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#eee'
+          }
+      });
+    } 
+    </script>
+  
 
   <title>Hemodinâmica | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Frequência cardíaca¹ $$ 50bpm \leq FC_{normal} \leq 100bpm $$
-Pressão arterial média $$ PAM = \frac{PAS &#43; 2 * PAD}{3} $$ Pressão diastólica: Pressão sistólica: Calcular PAM Média da pressão arterial $$ \bar{\mu}= PA[média] = \frac{PAS &#43; PAD}{2} $$
-Pressão normal de tecidos não-fluidos $$ 0mmHg \leq PA_{tissue} \leq 8mmHg $$ $$ \Delta P_{tissue} = PA_{dias} - PA_{tissue} $$
-O $\Delta P_{tissue}$ é crítico se menor que 30mmHg. Se zero, a isquemia é presumida.">
+  <meta name="description" content="Frequência cardíaca¹
+$$
+50bpm \leq FC_{normal} \leq 100bpm
+$$
+Pressão arterial média
+$$
+PAM = \frac{PAS &#43; 2 * PAD}{3}
+$$
+
+
+
+Pressão diastólica:
+
+
+
+Pressão sistólica:
+
+
+
+
+Calcular PAM
+
+
+
+">
   <meta name="keywords" content="Projetos, Medicina, Calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -54,7 +105,7 @@ O $\Delta P_{tissue}$ é crítico se menor que 30mmHg. Se zero, a isquemia é pr
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,29 +117,6 @@ O $\Delta P_{tissue}$ é crítico se menor que 30mmHg. Se zero, a isquemia é pr
 
 </head>
 <body>
-
-<div id="progress-bar-container">
-  <div id="progress-bar"></div>
-</div>
-<script>
-  let scrollbar = document.getElementById('progress-bar');
-  let timeout;
-  
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = scrollTop / scrollHeight * 100;
-    scrollbar.style.width = scrolled + '%';
-  });
-
-  document.addEventListener('scroll' || 'mousemove', function() {
-      scrollbar.style.display = 'block';
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-          scrollbar.style.display = 'none'; 
-      }, 2000); 
-  });
-</script>
 
 <div class="barra">
   
@@ -171,6 +199,8 @@ O $\Delta P_{tissue}$ é crítico se menor que 30mmHg. Se zero, a isquemia é pr
     }
 
     
+      location.reload();
+    
   }
 </script>
 
@@ -231,50 +261,50 @@ $$</p>
 <h2 id="choque">Choque</h2>
 <h3 id="classificação">Classificação</h3>
 <table>
-<thead>
-<tr>
-<th>Classe</th>
-<th>Pulso(bpm)</th>
-<th>Pressão</th>
-<th>Reperfusão</th>
-<th>Incursẽos respiratórias por min</th>
-<th>Perda sanguínea(%)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>I</td>
-<td>&lt; 100</td>
-<td>Normal</td>
-<td>Normal</td>
-<td>14-20</td>
-<td>≤16</td>
-</tr>
-<tr>
-<td>II</td>
-<td>100-120</td>
-<td>Normal</td>
-<td>Atrasada</td>
-<td>20-30</td>
-<td>15-30</td>
-</tr>
-<tr>
-<td>III</td>
-<td>120-140</td>
-<td>Baixa</td>
-<td>Atrasada</td>
-<td>30-40</td>
-<td>30-40</td>
-</tr>
-<tr>
-<td>IV</td>
-<td>&gt;140</td>
-<td>Baixa</td>
-<td>Atrasada</td>
-<td>&gt;35</td>
-<td>&gt;40</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Classe</th>
+          <th style="text-align: left">Pulso(bpm)</th>
+          <th style="text-align: left">Pressão</th>
+          <th style="text-align: left">Reperfusão</th>
+          <th style="text-align: left">Incursẽos respiratórias por min</th>
+          <th style="text-align: left">Perda sanguínea(%)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">I</td>
+          <td style="text-align: left">&lt; 100</td>
+          <td style="text-align: left">Normal</td>
+          <td style="text-align: left">Normal</td>
+          <td style="text-align: left">14-20</td>
+          <td style="text-align: left">≤16</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">II</td>
+          <td style="text-align: left">100-120</td>
+          <td style="text-align: left">Normal</td>
+          <td style="text-align: left">Atrasada</td>
+          <td style="text-align: left">20-30</td>
+          <td style="text-align: left">15-30</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">III</td>
+          <td style="text-align: left">120-140</td>
+          <td style="text-align: left">Baixa</td>
+          <td style="text-align: left">Atrasada</td>
+          <td style="text-align: left">30-40</td>
+          <td style="text-align: left">30-40</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">IV</td>
+          <td style="text-align: left">&gt;140</td>
+          <td style="text-align: left">Baixa</td>
+          <td style="text-align: left">Atrasada</td>
+          <td style="text-align: left">&gt;35</td>
+          <td style="text-align: left">&gt;40</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="acessos-vasculares">Acessos vasculares</h2>
 <h3 id="acesso-venoso-femoral">Acesso venoso femoral</h3>
@@ -289,6 +319,18 @@ $$</p>
 <li>Among adults with septic shock, <mark>vasopressin initiation</mark> when low-dose NE was used was associated with an improvement in 28-day mortality[3].</li>
 <li>For the clinician caring for patients with sepsis today, the initial administration of <mark>20 mL/kg</mark> of intravenous balanced crystalloid, followed by consideration of the risks and benefits of subsequent fluid administration represents a reasonable approach [4].</li>
 </ul>
+<h2 id="radioscopia">Radioscopia</h2>
+<h3 id="interpretação-de-sequência-de-imagens-ou-videocoronariografias">Interpretação de sequência de imagens ou videocoronariografias</h3>
+<pre class="mermaid">graph TD;
+1(Identificar se está visualizando:<br>1. O óstio da coronária esquerda<br>OU<br>2. O tronco de coronária direita) -- coronária<br>direita --> 2(Observar ramo e possível dominância) --> 8(Observar calibres);
+1 -- coronária<br>esquerda --> 3(Identificar a a descendente anterior) --> 4(As perforantes são visualizadas?);
+4 -- Sim --> 5(Tratam-se de<br>artérias septais) --> 8;
+4 -- Não --> 6(Seguir observando calibre até a ponta);
+6 -- Ramos craniais --> 7(Identificar a circunflexa);
+6 -- Ramos caudais --> 8;
+7 --> 8;
+</pre>
+
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>

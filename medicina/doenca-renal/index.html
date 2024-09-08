@@ -37,16 +37,27 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Calculadora de TFG Idade (anos):
-Peso (kg):
-Creatinina (mg/dL):
-Altura (cm):
-Sexo:
-Masculino Feminino Negro(a Calcular TFG
-Copiar Resultado Os cálculos de Cockcroft-Gault[1]: $$ m_{ideal} = (50_{homem} \wedge 45.5_{mulher}) &#43; 2.3(alt - 60) $$
-$$ m_{ajustada} = m_{ideal} &#43; 0.4(m - m_{ideal}) $$
-$$ TFG = \frac{(140 - i) m_{ajustada}}{cr * 72} 0.85_{mulher} $$
-Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a creatinina sérica em mg/dL e 0.">
+  <meta name="description" content="Calculadora de TFG
+
+
+    Idade (anos):
+    
+    Peso (kg):
+    
+    Creatinina (mg/dL):
+    
+    Altura (cm):
+    
+    Sexo:
+    
+        Masculino
+        Feminino
+    
+    Negro(a
+    
+    
+    Calcular TFG
+    ">
   <meta name="keywords" content="projetos, calculadoras, medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -60,7 +71,7 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,29 +83,6 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
 
 </head>
 <body>
-
-<div id="progress-bar-container">
-  <div id="progress-bar"></div>
-</div>
-<script>
-  let scrollbar = document.getElementById('progress-bar');
-  let timeout;
-  
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = scrollTop / scrollHeight * 100;
-    scrollbar.style.width = scrolled + '%';
-  });
-
-  document.addEventListener('scroll' || 'mousemove', function() {
-      scrollbar.style.display = 'block';
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-          scrollbar.style.display = 'none'; 
-      }, 2000); 
-  });
-</script>
 
 <div class="barra">
   
@@ -225,45 +213,45 @@ $$</p>
 <p>Onde <strong><em>cr</em></strong> é a creatinina sérica em mg/dL e <strong><em>i</em></strong> a idade em anos completos. A constante de 175 era originalmente 185 e foi alterada por uma revisão do estudo[2], por isto o valor estimado por MDRD nesta calculadora é uma faixa de valor.</p>
 <h2 id="injúria-renal-aguda">Injúria renal aguda</h2>
 <table>
-<thead>
-<tr>
-<th>Estágio</th>
-<th>Creatinina Sérica em mg/dL</th>
-<th>Diurese em mL/kg/h</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Aumento de 0.3 em 48h ou 50% acima do basal em 7 dias.</td>
-<td>&lt; 0,5 por 6-12h</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Dobrada em 7 dias</td>
-<td>&lt; 0,5 por 12-24h</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Triplicada a qualquer momento</td>
-<td>&lt; 0,3 em 24h ou anúria</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Acima de 4 a qualquer momento</td>
-<td>&lt; 0,3 em 24h ou anúria</td>
-</tr>
-<tr>
-<td>3</td>
-<td>TFG&lt; 35ml/min/1.73m² em &lt; de 18 anos</td>
-<td>&lt; 0,3 em 24h ou anúria</td>
-</tr>
-<tr>
-<td>Dialítico</td>
-<td>Necessidade de diálise</td>
-<td>Anúria</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Estágio</th>
+          <th style="text-align: left">Creatinina Sérica em mg/dL</th>
+          <th style="text-align: left">Diurese em mL/kg/h</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">Aumento de 0.3 em 48h ou 50% acima do basal em 7 dias.</td>
+          <td style="text-align: left">&lt; 0,5 por 6-12h</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">Dobrada em 7 dias</td>
+          <td style="text-align: left">&lt; 0,5 por 12-24h</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Triplicada a qualquer momento</td>
+          <td style="text-align: left">&lt; 0,3 em 24h ou anúria</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Acima de 4 a qualquer momento</td>
+          <td style="text-align: left">&lt; 0,3 em 24h ou anúria</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">TFG&lt; 35ml/min/1.73m² em &lt; de 18 anos</td>
+          <td style="text-align: left">&lt; 0,3 em 24h ou anúria</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Dialítico</td>
+          <td style="text-align: left">Necessidade de diálise</td>
+          <td style="text-align: left">Anúria</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="doença-renal-crônica">Doença renal crônica</h2>
 <style>

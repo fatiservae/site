@@ -51,7 +51,62 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Lactente ou neonato graph TD; G(Instalar o EEG se disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia) A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg &#43; manutenção 5-8mg/Kg) D -- Opção 2 --&gt; F(Midazolam 0.15mg/Kg &#43; manutenção 0.1mcg/Kg/min) F -- Persistência --&gt; Z(Sedação e intubação) E -- Persistência --&gt;Z Estado de mal epilético pelo Purple Book[1] Fase Tipo do EME Duração I Preliminar ou iminente 5 a 30min II Estabelecido &gt; 30min III Refratário¹ &gt; 60min ou falha das fases I/II IV Super-refratário² - Persiste apesar do tratamento estabelecido na fase I e II com estado de mal sutil, comatoso ou não convulsivo.">
+  <meta name="description" content="Lactente ou neonato
+graph TD;
+G(Instalar o EEG se disponível) --&gt; A(Fenobarbital em 20-30mg/Kg) -- Resolução --&gt;B(Manter 5-6mg/Kg/dia)
+A -- Persistência --&gt; D(Repetir 20-30mg/Kg) -- Opção 1 --&gt; E(Fenitoína 21mg/Kg &#43; manutenção 5-8mg/Kg)
+D -- Opção 2 --&gt; F(Midazolam 0.15mg/Kg &#43; manutenção 0.1mcg/Kg/min)
+F -- Persistência --&gt; Z(Sedação e intubação)
+E -- Persistência --&gt;Z
+
+
+Estado de mal epilético pelo Purple Book[1]
+
+  
+      
+          Fase
+          Tipo do EME
+          Duração
+      
+  
+  
+      
+          I
+          Preliminar ou iminente
+          5 a 30min
+      
+      
+          II
+          Estabelecido
+          &gt; 30min
+      
+      
+          III
+          Refratário¹
+          &gt; 60min ou falha das fases I/II
+      
+      
+          IV
+          Super-refratário²
+          -
+      
+  
+
+
+Persiste apesar do tratamento estabelecido na fase I e II com estado de mal sutil, comatoso ou não convulsivo.
+Persiste apesar do tratamento anestésico por mais de 24h.
+
+graph TD;
+inicio(Reconhecimento do EME) -- Adolescente ou adultode 13 a 40kg e idosos --&gt; ate40kg(Midazolam 5mg IM repetir se necessárioOUDiazepam 10mgrepetir até 2x);
+inicio -- Adolescente ou adultoacima de 40kg --&gt; adulto(Midazolam 10mg IMrepetir se necessárioOUDiazepam IV 10mgrepetir até 2x);
+inicio -- Crianças --&gt; crianca(Midazolam 0.2mg/Kg IMrepetir se necessárioOUDiazepam 0.5mg/Kgrepetir até 2x);
+adulto --&gt; fim(Fenitoína 20mg/Kg - manutenção em 6hFenobarbital 20mg/Kg - manutenção em 12h);
+ate40kg --&gt; fim;
+crianca --&gt; fim;
+fim -- Sedação em UTI --&gt; sedacao(Quetamina, midazolam, propofol e tiopental contínuos);
+sedacao -- Mantém crise via EEG ou clínica --&gt; Fiim(Super-refratário se &#43;24h);
+sedacao --&gt; reajuste(Reajustar fármacosantiepiléticos e sedação);
+">
   <meta name="keywords" content="Medicina, Guidelines">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -65,7 +120,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,29 +132,6 @@
 
 </head>
 <body>
-
-<div id="progress-bar-container">
-  <div id="progress-bar"></div>
-</div>
-<script>
-  let scrollbar = document.getElementById('progress-bar');
-  let timeout;
-  
-  window.addEventListener('scroll', function() {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = scrollTop / scrollHeight * 100;
-    scrollbar.style.width = scrolled + '%';
-  });
-
-  document.addEventListener('scroll' || 'mousemove', function() {
-      scrollbar.style.display = 'block';
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-          scrollbar.style.display = 'none'; 
-      }, 2000); 
-  });
-</script>
 
 <div class="barra">
   
@@ -217,35 +249,35 @@ E -- Persistência -->Z
 
 <h2 id="estado-de-mal-epilético-pelo-purple-book1">Estado de mal epilético pelo Purple Book[1]</h2>
 <table>
-<thead>
-<tr>
-<th>Fase</th>
-<th>Tipo do EME</th>
-<th>Duração</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>I</td>
-<td>Preliminar ou iminente</td>
-<td>5 a 30min</td>
-</tr>
-<tr>
-<td>II</td>
-<td>Estabelecido</td>
-<td>&gt; 30min</td>
-</tr>
-<tr>
-<td>III</td>
-<td>Refratário¹</td>
-<td>&gt; 60min ou falha das fases I/II</td>
-</tr>
-<tr>
-<td>IV</td>
-<td>Super-refratário²</td>
-<td>-</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Fase</th>
+          <th style="text-align: left">Tipo do EME</th>
+          <th style="text-align: left">Duração</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">I</td>
+          <td style="text-align: left">Preliminar ou iminente</td>
+          <td style="text-align: left">5 a 30min</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">II</td>
+          <td style="text-align: left">Estabelecido</td>
+          <td style="text-align: left">&gt; 30min</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">III</td>
+          <td style="text-align: left">Refratário¹</td>
+          <td style="text-align: left">&gt; 60min ou falha das fases I/II</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">IV</td>
+          <td style="text-align: left">Super-refratário²</td>
+          <td style="text-align: left">-</td>
+      </tr>
+  </tbody>
 </table>
 <ol>
 <li>Persiste apesar do tratamento estabelecido na fase I e II com estado de mal sutil, comatoso ou não convulsivo.</li>

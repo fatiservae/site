@@ -1,5 +1,56 @@
 [
 	{
+		"nome": ["clomifeno"],
+		"class": ["indutores de ovulação", "bloqueadores hipotalâmicos de estrogênio"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [50, 1],
+				"via": "oral",
+				"instrucao": "também é possível iniciar clomifeno em dias alternados."
+			}
+		],
+		"obs": [
+			"Clomifeno é capaz de bloquear a ação do estrogênio no hipotálamo, preservando e estimulando a produção de hormônios leutinizantes e foliculares, estimulando as gônadas."
+		]
+	},
+	{
+		"nome": ["ampicilina"],
+		"class": ["penicilinas", "antibióticos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": [500, 6],
+				"instrucao": "dose habitual antibiótica.",
+				"via": "intravenosa"
+			},
+			{
+				"unidades": ["g", "dia"],
+				"dosagem": ["8 a 14", 1],
+				"instrucao": "dose habitual antibiótica adulta para meningite.",
+				"via": "intravenosa"
+			},
+			{
+				"unidades": ["mg", "Kg", "dia"],
+				"dosagem": [100, 1, 1],
+				"instrucao": "dose habitual antibiótica para crianças que não alcançam dose adulta, inclusive em meningite.",
+				"via": "intravenosa"
+			}
+		]
+	},
+	{
+		"nome": ["biperideno", "Akineton"],
+		"class": ["anticolinérgicos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": ["1 a 4", 1],
+				"instrucao": "dose habitual para combate de efeitos extrapiramidais medicamentosos ou parkinsonianos. Pode chegar a 16mg/dia.",
+				"via": "oral"
+			}
+		]
+	},
+	{
 		"nome": ["etomidato"],
 		"class": ["hipnóticos"],
 		"posologias": [
@@ -639,19 +690,27 @@
   },
   {
   	"class": ["betabloqueadores"],
-  	"name": ["metropolol"]
+  	"nome": ["metropolol"]
   },
   {
   	"class": ["betabloqueadores"],
-  	"name": ["carvedilol"]
+  	"nome": ["carvedilol"]
   },
   {
   	"class": ["betabloqueadores"],
-  	"name": ["atenolol"]
+  	"nome": ["atenolol"]
   },
   {
   	"class": ["betabloqueadores"],
-  	"name": ["propanolol"]
+  	"nome": ["propanolol"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": [10, 12],
+				"via": "oral",
+				"instrucao": "dose inicial antipsicótica indicada para refratariedade ou contraindicação de outras drogas. Dose máxima de 60mg a cada 12h."
+			}
+		]
   },
   {
     "nome": ["dexametasona"],
