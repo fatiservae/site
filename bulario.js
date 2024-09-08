@@ -33,8 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
       let atb = document.createElement('div');
       let nome = document.createElement('p');
       let comercial = document.createElement('p');
-      let prescricoes = document.createElement('p');
-      prescricoes.innerHTML += "Prescrições:<br>";
       
       atb.id = "divAtb" ;
 
@@ -53,11 +51,12 @@ document.addEventListener("DOMContentLoaded", () => {
       atb.appendChild(nome);
 
       if (atbAtual.class !== undefined && 
-      Object.keys(data[i].class).length > 0 ) 
+          Object.keys(data[i].class).length > 0 ) 
+          //dupla conferência para certeza
       {
         let classes = document.createElement('p');
         classes.innerHTML = 
-          "<span style=\"color: var(--termo)\">Classes: </span>"+
+          "<span style=\"color: var(--corTermo)\">Classes: </span>"+
           atbAtual.class.map(item => `${item}`)
                         .join(', ');
         atb.appendChild(classes);
@@ -68,15 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
       posologias.forEach(posologia => {
         let indexUnidades = posologia.unidades.length - 1;
         let dose = document.createElement('p');
+        
+        dose.classList.add("dose");
 
-        // Criar classe e eliminar dose.style
-        dose.style.color = "var(--termo)";
-        dose.style.background = "none";
-        dose.style.borderRadius = "var(--raioBordas)";
-        dose.style.padding = "5px";
-        dose.style.width = "fit-content";
-        dose.style.fontWeight = "bold";
-        dose.style.border = "var(--bordas)";
         for (var i = 0; i < posologia.unidades.length; i++)
         {
           if (i != 0)
@@ -109,16 +102,14 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       if (atbAtual.obs !== undefined){
-        let obsTopic = document.createElement('p');
-        obsTopic.innerHTML = "<hr>Observações:";
         let obs = document.createElement('p');
+        obs.innerHTML = "<span style=\"color: var(--corTermo)\">Observações:</span><br>";
         obs.classList.add('observacao');
-        obs.className = "primeiraMaiuscula";
-        obs.innerHTML = atbAtual.obs[0] === undefined ? '' : 
+        obs.classList.add('primeiraMaiuscula');
+        obs.innerHTML += atbAtual.obs[0] === undefined ? '' : 
                         atbAtual.obs.map(item => `${item}`)
                                     .join('<br>');
 
-        atb.appendChild(obsTopic);
         atb.appendChild(obs);
       }
 
@@ -128,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
           mecanismo.classList.add('mecanismo');
           let conteudo = atbAtual.mecanismo === undefined ? '' : 
                           atbAtual.mecanismo;
-          mecanismo.innerHTML = "<span style=\"color: var(--termo)\">Mecanismo:</span> "+conteudo;
+          mecanismo.innerHTML = "<span style=\"color: var(--corTermo)\">Mecanismo:</span> "+conteudo;
           atb.appendChild(mecanismo);
       }
 
