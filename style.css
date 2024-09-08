@@ -146,7 +146,7 @@
   --h4BeforeContent: "-- ";
   --bordas: 1px solid var(--corFonte);
   --corFonteBarraHover: var(--corNegrito);
-  --temaFonte: "Fira Sans";
+  --temaFonte: "Fira Sans Condensed" ;
   --displayFigurasFundo: block;
   --bordasButao: 8px;
   --fundoSticker: var(--gradiente-dark);
@@ -993,7 +993,6 @@ h1, h3, h2 , h4, h5{
 }
 h2 {
   /*
-  font-family: "Bangers";
   color: var(corH2);
   */
   margin-left: var(--margem);
