@@ -10,6 +10,33 @@
 	
 	
 	<item>
+		<title>Sistema único de saúde do Brasil</title>
+		<link>https://www.jeffersontorres.com.br/medicina/sus/</link>
+		<pubDate>Wed, 11 Sep 2024 17:46:56 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/sus/</guid>
+		<description>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Pilar&lt;/td&gt;
+            &lt;td&gt;Itens&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;&lt;td rowspan=4&gt;Princípios&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Integralidade&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Equidade&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Universalidade&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td rowspan=4&gt;Objetivos&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Identificar os condicionantes e determinantes em saúde&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Formular políticas públicas&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Executar a assistência em saúde pública&lt;/td&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Risco de sangramento: HAS-BLED</title>
 		<link>https://www.jeffersontorres.com.br/medicina/risco-sangramento/</link>
 		<pubDate>Sat, 07 Sep 2024 22:25:03 -0300</pubDate>
@@ -350,6 +377,36 @@ function calculaIdade(){
 };
 &lt;/script&gt;
 
+</description>
+	</item>
+	
+	<item>
+		<title>disturbios hidroeletroliticos</title>
+		<link>https://www.jeffersontorres.com.br/medicina/disturbios-hidroeletroliticos/</link>
+		<pubDate>Tue, 23 Jul 2024 09:48:22 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/disturbios-hidroeletroliticos/</guid>
+		<description>&lt;p&gt;HIPONATREMIA&lt;/p&gt;
+&lt;p&gt;Nacl 0,9% 445 ml + 55 ml NacL 20%&lt;/p&gt;
+&lt;p&gt;Iniciar reposição de ml com equivalente à 1/4 do peso - ex. 14 ml hora&lt;/p&gt;
+&lt;p&gt;Avaliar reposição pelo mec subir 8 mecs por dia&lt;/p&gt;
+&lt;p&gt;Repor sódio quando abaixo de 120 ou em hiponatremia se o paciente estiver com sensório alterado&lt;/p&gt;
+&lt;h2 id=&#34;magnésio&#34;&gt;Magnésio&lt;/h2&gt;
+&lt;h3 id=&#34;hipomagnesemiasup1sup&#34;&gt;Hipomagnesemia&lt;sup&gt;1&lt;/sup&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Abaixo de 1.7mg/dL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+1(Hipomagnesemia) -- promove secreção de K no ducto coletor por inibição da bomba Na-K-ATPase, aumentando a abertura dos canais medulares de excreção de K --&gt; 2(Hipocalemia);
+1 -- suprime a liberação de PTH e diminui a sensibilidade orgânica ao hormônio, com consequente redução da reabsorção orgânica de Ca2+ e aumento de calciúria --&gt; 3(Hipocalcemia);
+&lt;/pre&gt;
+
+&lt;h3 id=&#34;hipermagnesemia&#34;&gt;Hipermagnesemia&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Touyz, Rhian M et al. &lt;strong&gt;Magnesium Disorders.&lt;/strong&gt; The New England journal of medicine vol. 390,21 (2024): 1998-2009. doi:10.1056/NEJMra1510603&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -7336,96 +7393,6 @@ Se quer colaborar, me chame no Telegram: @fatiservae
 	</item>
 	
 	<item>
-		<title>Dissecação aguda de aorta: Score ADD-RS</title>
-		<link>https://www.jeffersontorres.com.br/medicina/addrs/</link>
-		<pubDate>Thu, 14 Mar 2024 11:21:34 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/medicina/addrs/</guid>
-		<description>&lt;h2 id=&#34;sempre-descarte-a-dissecação-de-aorta&#34;&gt;Sempre descarte a dissecação de aorta!&lt;/h2&gt;
-&lt;p&gt;A dissecação de aorta é um diagnóstico muito improvável, mesmo no contexto de dor torácica.&lt;/p&gt;
-&lt;p&gt;Porém, sua fatalidade e necessidade de alta desconfiança diagnóstica exige que sempre a descartemos como diferencial o mais cedo possível!&lt;/p&gt;
-&lt;p&gt;Para isso, a ferramenta mais atualizada é o chamado &lt;strong&gt;Score ADD-Risk Score&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, tentar um segundo descarte por D-dímero, como foi sugerido posteriormente pelo estudo ADvISED[1]. Em toda lesão de leito vascular o valor de D-dímero se alterará e o estudo considerou o corte de 500ng/ml como valor superior de descarte.&lt;/p&gt;
-&lt;p&gt;De forma prática, utilize a calculadora abaixo.&lt;/p&gt;
-&lt;h2 id=&#34;calculadora-add-rs&#34;&gt;Calculadora ADD-RS&lt;/h2&gt;
-&lt;br&gt;
-&lt;div class=calculadoras &gt;
-    &lt;label for=historia&gt;História pessoal e familiar&lt;/label&gt;
-    &lt;br&gt;
-    &lt;select id=historia&gt;
-        &lt;option value=0&gt;Sem história relevante&lt;/option&gt;
-        &lt;option value=1&gt;Histórico familiar de doença aortica&lt;/option&gt;
-        &lt;option value=1&gt;Doença valvar cardíaca conhecida&lt;/option&gt;
-        &lt;option value=1&gt;Manipulação recente da aorta&lt;/option&gt;
-        &lt;option value=1&gt;Síndrome de Marfan&lt;/option&gt;
-        &lt;option value=1&gt;Aneurisma torácico conhecido&lt;/option&gt;
-    &lt;/select&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;label for=dor&gt;Dor posterior, torácica ou abdominal&lt;/label&gt;
-    &lt;br&gt;
-    &lt;select id=dor&gt;
-        &lt;option value=0&gt;Sem dor&lt;/option&gt;
-        &lt;option value=1&gt;Dor de início abrupto&lt;/option&gt;
-        &lt;option value=1&gt;Dor severa&lt;/option&gt;
-        &lt;option value=1&gt;Sensação de rasgo ou facada&lt;/option&gt;
-    &lt;/select&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;label for=dor&gt;Dor posterior, torácica ou abdominal&lt;/label&gt;
-    &lt;br&gt;
-    &lt;select id=exame&gt;
-        &lt;option value=0&gt;Exame normal&lt;/option&gt;
-        &lt;option value=1&gt;Gradiente de MMSS de sistólica maior de 10mmHg&lt;/option&gt;
-        &lt;option value=1&gt;Déficit de pulso&lt;/option&gt;
-        &lt;option value=1&gt;Déficit neurológico focal com dor&lt;/option&gt;
-        &lt;option value=1&gt;Murmúrio aortico e dor&lt;/option&gt;
-        &lt;option value=1&gt;Hipotensão ou choque&lt;/option&gt;
-    &lt;/select&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;button onclick=&#34;riscoAddrs()&#34;&gt;Calcule&lt;/button&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;div id=resultado&gt;
-    &lt;/div&gt;
-    &lt;br&gt;
-&lt;/div&gt;
-&lt;script&gt;
-    function riscoAddrs(){
-        let resultado = document.getElementById(&#34;resultado&#34;);
-        let exame = parseInt(document.getElementById(&#34;exame&#34;).value);
-        let dor = parseInt(document.getElementById(&#34;dor&#34;).value);
-        let historia = parseInt(document.getElementById(&#34;historia&#34;).value);
-        let addrs = exame + dor + historia;
-        console.log(addrs)
-        if (addrs == 0) {
-            resultado.innerHTML = &#39;Considere &lt;mark&gt;abandonar&lt;/mark&gt; o diferencial de dissecação de aorta.&#39;
-        } else if (addrs &gt; 1) {
-            resultado.innerHTML = &#39;&lt;span&gt;Score Alto!&lt;br&gt;Solicite &lt;mark&gt;angiotomografia&lt;/mark&gt;, outro exame de imagem conclusivo ou abordagem cirúrgica direta!&lt;/span&gt;&#39;
-        } else {
-            resultado.innerHTML = &#39;&lt;label for=ddimero&gt;Solicite D-dímero (ng/ml):&lt;/label&gt;&lt;br&gt;&lt;input id=ddimero type=number &gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;&lt;button onclick=\&#34;ddimero()\&#34;&gt;Calcule&lt;/button&gt;&#39;
-        }
-    }
-    function ddimero(){
-        let d_dimero = document.getElementById(&#34;ddimero&#34;).value;
-        if (d_dimero &lt; 500) {
-            resultado.innerHTML = &#39;Considere &lt;mark&gt;abandonar&lt;/mark&gt; o diferencial de dissecação de aorta.&#39;
-        } else if ( d_dimero &gt; 499 ) {
-            resultado.innerHTML = &#39;&lt;span&gt;Score alto!&lt;br&gt;Solicite &lt;mark&gt;angiotomografia&lt;/mark&gt;, outro exame de imagem conclusivo ou abordagem cirúrgica direta!&lt;/span&gt;&#39;
-        }
-    }
-&lt;/script&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Nazerian P, Mueller C, Soeiro AM, et al. &lt;strong&gt;Diagnostic Accuracy of the Aortic Dissection Detection Risk Score Plus D-Dimer for Acute Aortic Syndromes: The ADvISED Prospective Multicenter Study&lt;/strong&gt;. Circulation. 2018;137(3):250-258.&lt;/li&gt;
-&lt;li&gt;Rogers AM, Hermann LK, Booher AM, et al. &lt;strong&gt;Sensitivity of the aortic dissection detection risk score, a novel guideline-based tool for identification of acute aortic dissection at initial presentation: results from the international registry of acute aortic dissection&lt;/strong&gt;. Circulation. 2011;123(20):2213-8.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Dislipidemias</title>
 		<link>https://www.jeffersontorres.com.br/medicina/colesterol/</link>
 		<pubDate>Fri, 08 Mar 2024 23:33:58 -0300</pubDate>
@@ -10197,6 +10164,130 @@ sedacao --&gt; reajuste(Reajustar fármacos&lt;br&gt;antiepiléticos e sedação
 &lt;ol&gt;
 &lt;li&gt;YACUBIAN, Elza Márcia Targas; MANREZA, Maria Luiza; TERRA, Vera Cristina.&lt;strong&gt;Purple book : guia prático para o tratamento de
 epilepsias : recomendações para tratamento de crises e síndromes epiléticas de um grupo de especialistas brasileiros 2ed&lt;/strong&gt;. Planmark. São Paulo - Brasil. 2020. ISBN 978-85-9525-037-6&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Dor torácica</title>
+		<link>https://www.jeffersontorres.com.br/medicina/dor-toracica/</link>
+		<pubDate>Sat, 18 Nov 2023 13:00:42 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/dor-toracica/</guid>
+		<description>&lt;h2 id=&#34;sempre-descarte-a-dissecação-de-aorta&#34;&gt;Sempre descarte a dissecação de aorta!&lt;/h2&gt;
+&lt;p&gt;A dissecação de aorta é um diagnóstico muito improvável, mesmo no contexto de dor torácica.&lt;/p&gt;
+&lt;p&gt;Porém, sua fatalidade e necessidade de alta desconfiança diagnóstica exige que sempre a descartemos como diferencial o mais cedo possível!&lt;/p&gt;
+&lt;p&gt;Para isso, a ferramenta mais atualizada é o chamado &lt;strong&gt;Score ADD-Risk Score&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, tentar um segundo descarte por D-dímero, como foi sugerido posteriormente pelo estudo ADvISED[1]. Em toda lesão de leito vascular o valor de D-dímero se alterará e o estudo considerou o corte de 500ng/ml como valor superior de descarte.&lt;/p&gt;
+&lt;p&gt;De forma prática, utilize a calculadora abaixo.&lt;/p&gt;
+&lt;h3 id=&#34;calculadora-add-rs-12&#34;&gt;Calculadora ADD-RS [1][2]&lt;/h3&gt;
+&lt;br&gt;
+&lt;div class=calculadoras &gt;
+    &lt;label for=historia&gt;História pessoal e familiar&lt;/label&gt;
+    &lt;br&gt;
+    &lt;select id=historia&gt;
+        &lt;option value=0&gt;Sem história relevante&lt;/option&gt;
+        &lt;option value=1&gt;Histórico familiar de doença aortica&lt;/option&gt;
+        &lt;option value=1&gt;Doença valvar cardíaca conhecida&lt;/option&gt;
+        &lt;option value=1&gt;Manipulação recente da aorta&lt;/option&gt;
+        &lt;option value=1&gt;Síndrome de Marfan&lt;/option&gt;
+        &lt;option value=1&gt;Aneurisma torácico conhecido&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=dor&gt;Dor posterior, torácica ou abdominal&lt;/label&gt;
+    &lt;br&gt;
+    &lt;select id=dor&gt;
+        &lt;option value=0&gt;Sem dor&lt;/option&gt;
+        &lt;option value=1&gt;Dor de início abrupto&lt;/option&gt;
+        &lt;option value=1&gt;Dor severa&lt;/option&gt;
+        &lt;option value=1&gt;Sensação de rasgo ou facada&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=dor&gt;Dor posterior, torácica ou abdominal&lt;/label&gt;
+    &lt;br&gt;
+    &lt;select id=exame&gt;
+        &lt;option value=0&gt;Exame normal&lt;/option&gt;
+        &lt;option value=1&gt;Gradiente de MMSS de sistólica maior de 10mmHg&lt;/option&gt;
+        &lt;option value=1&gt;Déficit de pulso&lt;/option&gt;
+        &lt;option value=1&gt;Déficit neurológico focal com dor&lt;/option&gt;
+        &lt;option value=1&gt;Murmúrio aortico e dor&lt;/option&gt;
+        &lt;option value=1&gt;Hipotensão ou choque&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;button onclick=&#34;riscoAddrs()&#34;&gt;Calcule&lt;/button&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;div id=resultado&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+&lt;/div&gt;
+&lt;script src=../addrs.js&gt;&lt;/script&gt;
+&lt;h2 id=&#34;escore-grace-3&#34;&gt;Escore GRACE [3]&lt;/h2&gt;
+&lt;div class=calculadoras&gt;
+    &lt;form id=&#34;graceForm&#34;&gt;
+    &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
+    &lt;input type=&#34;number&#34; id=&#34;idade&#34; name=&#34;idade&#34; required&gt;&lt;br&gt;
+    &lt;label for=&#34;pas&#34;&gt;Pressão Arterial Sistólica (mmHg):&lt;/label&gt;
+    &lt;input type=&#34;number&#34; id=&#34;pas&#34; name=&#34;pas&#34; required&gt;&lt;br&gt;
+    &lt;label for=&#34;fc&#34;&gt;Frequência Cardíaca (bpm):&lt;/label&gt;
+    &lt;input type=&#34;number&#34; id=&#34;fc&#34; name=&#34;fc&#34; required&gt;&lt;br&gt;
+    &lt;label for=&#34;creatinina&#34;&gt;Creatinina (mg/dL):&lt;/label&gt;
+    &lt;input type=&#34;number&#34; id=&#34;creatinina&#34; name=&#34;creatinina&#34; required&gt;&lt;br&gt;
+    &lt;label for=&#34;killip&#34;&gt;Classe de Killip:&lt;/label&gt;
+    &lt;select id=&#34;killip&#34; name=&#34;killip&#34; required&gt;
+      &lt;option value=&#34;1&#34;&gt;Killip I&lt;/option&gt;
+      &lt;option value=&#34;2&#34;&gt;Killip II&lt;/option&gt;
+      &lt;option value=&#34;3&#34;&gt;Killip III&lt;/option&gt;
+      &lt;option value=&#34;4&#34;&gt;Killip IV&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;
+    &lt;label for=&#34;parada&#34;&gt;Parada Cardíaca Antes da Admissão:&lt;/label&gt;
+    &lt;select id=&#34;parada&#34; name=&#34;parada&#34; required&gt;
+      &lt;option value=&#34;0&#34;&gt;Não&lt;/option&gt;
+      &lt;option value=&#34;1&#34;&gt;Sim&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;
+    &lt;label for=&#34;st&#34;&gt;Alterações no Segmento ST:&lt;/label&gt;
+    &lt;select id=&#34;st&#34; name=&#34;st&#34; required&gt;
+      &lt;option value=&#34;0&#34;&gt;Não&lt;/option&gt;
+      &lt;option value=&#34;1&#34;&gt;Sim&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;
+    &lt;label for=&#34;enzimas&#34;&gt;Enzimas Cardíacas Elevadas:&lt;/label&gt;
+    &lt;select id=&#34;enzimas&#34; name=&#34;enzimas&#34; required&gt;
+      &lt;option value=&#34;0&#34;&gt;Não&lt;/option&gt;
+      &lt;option value=&#34;1&#34;&gt;Sim&lt;/option&gt;
+    &lt;/select&gt;&lt;br&gt;
+    &lt;button type=&#34;submit&#34;&gt;Calcular&lt;/button&gt;
+  &lt;/form&gt;
+  &lt;p id=&#34;resultadoGRACE&#34;&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=../grace.js&gt;&lt;/script&gt;
+&lt;h3 id=&#34;sample&#34;&gt;SAMPLE&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;S - Sinais e sintomas&lt;/li&gt;
+&lt;li&gt;A - Alergias&lt;/li&gt;
+&lt;li&gt;M - Medicamentos em uso&lt;/li&gt;
+&lt;li&gt;P - Passado médico (principalmente relacionado a dor torácica)&lt;/li&gt;
+&lt;li&gt;L - Líquidos (se a pessoa se alimentou/bebeu qualquer coisa)&lt;/li&gt;
+&lt;li&gt;E - Eventos similares&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;melhora dor
+ecg supra menor 50%
+arritmia reperfusao
+pico precoce de troponina (troponina circula mais quando revasculariza)&lt;/p&gt;
+&lt;p&gt;ecg 10min
+trombolise 12h
+porta-agulha 30min  trombolise
+porta-balao 120min transf 90min
+angio de resgate apos trombolise
+angio primaria&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Nazerian P, Mueller C, Soeiro AM, et al. &lt;strong&gt;Diagnostic Accuracy of the Aortic Dissection Detection Risk Score Plus D-Dimer for Acute Aortic Syndromes: The ADvISED Prospective Multicenter Study&lt;/strong&gt;. Circulation. 2018;137(3):250-258.&lt;/li&gt;
+&lt;li&gt;Rogers AM, Hermann LK, Booher AM, et al. &lt;strong&gt;Sensitivity of the aortic dissection detection risk score, a novel guideline-based tool for identification of acute aortic dissection at initial presentation: results from the international registry of acute aortic dissection&lt;/strong&gt;. Circulation. 2011;123(20):2213-8.&lt;/li&gt;
+&lt;li&gt;Eagle KA, Lim MJ, Dabbous OH, et al. &lt;strong&gt;A validated prediction model for all forms of acute coronary syndrome: estimating the risk of 6-month postdischarge death in an international registry.&lt;/strong&gt; JAMA. 2004;291(22):2727-2733.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
 	</item>

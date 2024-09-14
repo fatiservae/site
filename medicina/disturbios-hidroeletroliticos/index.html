@@ -15,13 +15,56 @@
   </script>
 
   
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+      if (temaAtual === 'dark') {
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#22272e',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#eee'
+          }
+      });
+    } 
+    </script>
+  
 
-  <title>guidelines | Jefferson T.</title>
+  <title>disturbios hidroeletroliticos | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <meta name="description" content="HIPONATREMIA
+Nacl 0,9% 445 ml &#43; 55 ml NacL 20%
+Iniciar reposição de ml com equivalente à 1/4 do peso - ex. 14 ml hora
+Avaliar reposição pelo mec subir 8 mecs por dia
+Repor sódio quando abaixo de 120 ou em hiponatremia se o paciente estiver com sensório alterado
+Magnésio
+Hipomagnesemia1
+
+Abaixo de 1.7mg/dL
+
+graph TD;
+1(Hipomagnesemia) -- promove secreção de K no ducto coletor por inibição da bomba Na-K-ATPase, aumentando a abertura dos canais medulares de excreção de K --&gt; 2(Hipocalemia);
+1 -- suprime a liberação de PTH e diminui a sensibilidade orgânica ao hormônio, com consequente redução da reabsorção orgânica de Ca2&#43; e aumento de calciúria --&gt; 3(Hipocalcemia);
+">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -74,6 +117,8 @@
     
   <br>
   
+    <h1>disturbios hidroeletroliticos</h1>
+  
   <script>
     let temaAtual = localStorage.getItem('tema');
     let temaEspecificado = localStorage.getItem('temaEspecificado');
@@ -125,30 +170,37 @@
       }
   
       
+        location.reload();
+      
     }
   </script>
   
   
   
   
-<ul class="listing-list">
-<li>
-	<a href="../../medicina/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/convulsoes/">Convulsões: fluxogramas de conduta</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/dor-toracica/">Dor torácica</a>
-	
-	</li>
-<li>
-	<a href="../../medicina/wells-tep/">Tromboembolismo pulmonar: Escore de Wells</a>
-	
-	</li>
+    <p>HIPONATREMIA</p>
+<p>Nacl 0,9% 445 ml + 55 ml NacL 20%</p>
+<p>Iniciar reposição de ml com equivalente à 1/4 do peso - ex. 14 ml hora</p>
+<p>Avaliar reposição pelo mec subir 8 mecs por dia</p>
+<p>Repor sódio quando abaixo de 120 ou em hiponatremia se o paciente estiver com sensório alterado</p>
+<h2 id="magnésio">Magnésio</h2>
+<h3 id="hipomagnesemiasup1sup">Hipomagnesemia<sup>1</sup></h3>
+<ul>
+<li>Abaixo de 1.7mg/dL</li>
 </ul>
+<pre class="mermaid">graph TD;
+1(Hipomagnesemia) -- promove secreção de K no ducto coletor por inibição da bomba Na-K-ATPase, aumentando a abertura dos canais medulares de excreção de K --> 2(Hipocalemia);
+1 -- suprime a liberação de PTH e diminui a sensibilidade orgânica ao hormônio, com consequente redução da reabsorção orgânica de Ca2+ e aumento de calciúria --> 3(Hipocalcemia);
+</pre>
+
+<h3 id="hipermagnesemia">Hipermagnesemia</h3>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>Touyz, Rhian M et al. <strong>Magnesium Disorders.</strong> The New England journal of medicine vol. 390,21 (2024): 1998-2009. doi:10.1056/NEJMra1510603</li>
+</ol>
+
+  
   
     
 

@@ -154,7 +154,13 @@
   --sombraCaixas: none;
   --sombraImagens: none;
   --raioBordas: 10px;
-  --largura-texto: calc(650px + 10vw);
+  /* Quanto maior o componente vw, melhor em monitores
+   * grandes para aproveitamento de tela e pior em mon
+   * itores menores. E vice-versa.
+   * O terceiro componente é um cálculo que privilegia
+   * monitores grandes para compensar.
+  */
+  --largura-texto: calc(650px + 10vw + calc(calc(100vw - 600px) * 30/100));
   --clipHeading: text; 
   --corFundoSelecao: tomato;
   --corSelecao: black;
@@ -672,7 +678,7 @@ body {
   background-attachment: fixed;
   color: var(--corFonte) ;
   scroll-behavior: smooth ;
-  font-size: clamp(14px, calc(1.5vw - 2px), 24px);
+  font-size: clamp(14px, calc(1.3vw - 3px), 24px);
   padding: 0%;
 }
 @media only screen and (max-width: 800px){
@@ -1020,9 +1026,10 @@ h3 {
 }
 h3::before {
   /*
-  content: var(--h3BeforeContent);
   color: var(--corNegrito);
+  content: var(--h3BeforeContent);
   */
+  content: "— ";
 }
 h4 {
   background: none;
@@ -1269,6 +1276,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_cardiologia::before { content: "❤️ " ;}
 #tag_pneumologia::before { content: "🫁 " ;}
 #tag_ciência::before { content: "🧪👨🏽‍🔬 " ;}
+#tag_emergências::before { content: "🚨 " ;}
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
@@ -1431,6 +1439,7 @@ table th:not(:last-child),
 table td:not(:last-child) {
   border-right: var(--bordas);
 }
+
 table>thead>tr:not(:last-child)>th,
 table>thead>tr:not(:last-child)>td,
 table>tbody>tr:not(:last-child)>th,
@@ -1441,7 +1450,12 @@ table>tr:not(:last-child)>td,
 table>tr:not(:last-child)>th,
 table>thead:not(:last-child),
 table>tbody:not(:last-child),
-table>tfoot:not(:last-child) {
+table>tfoot:not(:last-child){
+  border-bottom: var(--bordas);
+}
+tbody tr{
+}
+tr td{
   border-bottom: var(--bordas);
 }
 th {
@@ -1453,6 +1467,7 @@ th {
 th, td {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  border-right: var(--bordas);
 }
 
 /* UL OL LI UNORDERED LISTS */
@@ -2269,6 +2284,10 @@ div#counter {
 }
 .calculadoras h2::before {
   content: none;
+}
+.calculadoras input {
+}
+.calculadoras label{
 }
 @media only screen and (max-width: 800px){
   .calculadoras {

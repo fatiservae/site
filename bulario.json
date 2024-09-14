@@ -1085,7 +1085,7 @@
         "unidades": ["mg", "dia"],
         "dosagem": [100, 1],
         "via": "oral",
-        "instrucao": "dose antipsicótica diária, progredir a cada 24h até 400mg/dia."
+        "instrucao": "dose antipsicótica diária, progredir a cada 24h até, pelo menos, 400mg/dia. A dose máxima antipsicótica é de 800mg/dia."
       },
       {
         "unidades": ["mg", "dia"],
@@ -1183,6 +1183,7 @@
       }
     ],
     "obs": [
+			"Olanzapina apresenta efeito estabilizador de humor.",
       "Pode ser usada em concomitância de prometazina para controle de agitação psicótica.",
       "Olanzapina causa ganho de peso considerável e resistência insulínica."
     ]
