@@ -1,28 +1,36 @@
-document.getElementById('graceForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  
+function grace() {
   const idade = parseInt(document.getElementById('idade').value);
   const pas = parseInt(document.getElementById('pas').value);
   const fc = parseInt(document.getElementById('fc').value);
   const creatinina = parseFloat(document.getElementById('creatinina').value);
   const killip = parseInt(document.getElementById('killip').value);
   const parada = parseInt(document.getElementById('parada').value);
-  const st = parseInt(document.getElementById('st').value);
-  const enzimas = parseInt(document.getElementById('enzimas').value);
+  const st = document.getElementById('st');
+  const enzimas = document.getElementById('enzimas');
+  const iccc = document.getElementById('icc-c');
 
-  const score = calcularScoreGRACE(idade, pas, fc, creatinina, killip, parada, st, enzimas);
-  
-  document.getElementById('resultadoGRACE').innerText = 'Score GRACE: ' + score;
-});
-
-function calcularScoreGRACE(idade, pas, fc, creatinina, killip, parada, st, enzimas) {
   let score = 0;
+  let mortalidade = 0;
 
   // Pontuação para Idade
-  if (idade >= 70 && idade <= 80) {
-    score += 20;
-  } else if (idade > 80) {
-    score += 40;
+  console.log(idade);
+  if (idade >= 40 && idade <= 49) {
+    score += 18;
+  } else if (idade >= 50 && idade <= 59) {
+    score += 36;
+  } else if (idade >= 60 && idade <= 69) {
+    score += 55;
+  } else if (idade >= 70 && idade <= 79) {
+    score += 73;
+  } else if (idade >= 80 && idade <= 89) {
+    score += 91;
+  } else if (idade > 90 && idade <= 120) {
+    score += 100
+  } else if (idade > 120) {
+    document.getElementById('resultadoGRACE').innerHTML = "Idade absurda!";
+    return
+  } else {
+    //
   }
 
   // Pontuação para Pressão Arterial Sistólica
@@ -59,19 +67,27 @@ function calcularScoreGRACE(idade, pas, fc, creatinina, killip, parada, st, enzi
   }
 
   // Pontuação para Parada Cardíaca
-  if (parada === 1) {
+  if (parada) {
     score += 30;
   }
 
   // Pontuação para Alterações no Segmento ST
-  if (st === 1) {
-    score += 40;
+  if (st) {
+    score += 11;
   }
 
   // Pontuação para Enzimas Cardíacas Elevadas
+  console.log(enzimas);
   if (enzimas === 1) {
-    score += 20;
+    score += 15;
   }
 
-  return score;
+  if (iccc) {
+    score += 24;
+  }
+
+
+  mortalidade = 1 - Math.exp(-0.00102586*(score-70)).toFixed(2);
+
+  document.getElementById('resultadoGRACE').innerHTML = "Escore: "+score+"<br>Mortalidade associada: "+mortalidade;
 }

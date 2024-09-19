@@ -15,6 +15,36 @@
   </script>
 
   
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+      if (temaAtual === 'dark') {
+      mermaid.initialize({ 
+          'theme': 'base',
+          timeline: {disableMulticolor: true},
+          'themeVariables': {
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#a0acb9',
+            'primaryBorderColor': '#ffdead',
+            'lineColor': '#ffdead',
+            'secondaryColor': '#22272e',
+            'tertiaryColor': '#fff'
+          }
+      });
+    } else {
+      mermaid.initialize({ 
+          theme: 'base',
+          timeline: {'disableMulticolor': true},
+          themeVariables: {
+            'primaryColor': 'transparent',
+            'primaryTextColor': '#000000',
+            'primaryBorderColor': 'black',
+            'lineColor': '#000000',
+            'secondaryColor': '#eee'
+          }
+      });
+    } 
+    </script>
+  
 
   <title>Dor torácica | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
@@ -24,7 +54,7 @@
   <meta name="description" content="Sempre descarte a dissecação de aorta!
 A dissecação de aorta é um diagnóstico muito improvável, mesmo no contexto de dor torácica.
 Porém, sua fatalidade e necessidade de alta desconfiança diagnóstica exige que sempre a descartemos como diferencial o mais cedo possível!
-Para isso, a ferramenta mais atualizada é o chamado Score ADD-Risk Score.
+Para isso, a ferramenta mais atualizada é o chamado ADD-Risk Score.
 Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, tentar um segundo descarte por D-dímero, como foi sugerido posteriormente pelo estudo ADvISED[1]. Em toda lesão de leito vascular o valor de D-dímero se alterará e o estudo considerou o corte de 500ng/ml como valor superior de descarte.">
   <meta name="keywords" content="emergências, cardiologia, guidelines, medicina">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -134,16 +164,32 @@ Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, ten
       }
   
       
+        location.reload();
+      
     }
   </script>
   
+  
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sempre-descarte-a-dissecação-de-aorta">Sempre descarte a dissecação de aorta!</a>
+      <ul>
+        <li><a href="#calculadora-add-rs-12">Calculadora ADD-RS [1][2]</a></li>
+      </ul>
+    </li>
+    <li><a href="#escore-grace-3">Escore GRACE [3]</a></li>
+    <li><a href="#fluxogramas">Fluxogramas</a></li>
+    <li><a href="#manejo-da-angina-crônica">Manejo da angina crônica</a></li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
   
   
   
     <h2 id="sempre-descarte-a-dissecação-de-aorta">Sempre descarte a dissecação de aorta!</h2>
 <p>A dissecação de aorta é um diagnóstico muito improvável, mesmo no contexto de dor torácica.</p>
 <p>Porém, sua fatalidade e necessidade de alta desconfiança diagnóstica exige que sempre a descartemos como diferencial o mais cedo possível!</p>
-<p>Para isso, a ferramenta mais atualizada é o chamado <strong>Score ADD-Risk Score</strong>.</p>
+<p>Para isso, a ferramenta mais atualizada é o chamado <strong>ADD-Risk Score</strong>.</p>
 <p>Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, tentar um segundo descarte por D-dímero, como foi sugerido posteriormente pelo estudo ADvISED[1]. Em toda lesão de leito vascular o valor de D-dímero se alterará e o estudo considerou o corte de 500ng/ml como valor superior de descarte.</p>
 <p>De forma prática, utilize a calculadora abaixo.</p>
 <h3 id="calculadora-add-rs-12">Calculadora ADD-RS [1][2]</h3>
@@ -192,8 +238,9 @@ Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, ten
 </div>
 <script src=../../addrs.js></script>
 <h2 id="escore-grace-3">Escore GRACE [3]</h2>
+<p>Em breve.</p>
+<!--
 <div class=calculadoras>
-    <form id="graceForm">
     <label for="idade">Idade:</label>
     <input type="number" id="idade" name="idade" required><br>
     <label for="pas">Pressão Arterial Sistólica (mmHg):</label>
@@ -214,40 +261,119 @@ Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, ten
       <option value="0">Não</option>
       <option value="1">Sim</option>
     </select><br>
-    <label for="st">Alterações no Segmento ST:</label>
-    <select id="st" name="st" required>
-      <option value="0">Não</option>
-      <option value="1">Sim</option>
-    </select><br>
-    <label for="enzimas">Enzimas Cardíacas Elevadas:</label>
-    <select id="enzimas" name="enzimas" required>
-      <option value="0">Não</option>
-      <option value="1">Sim</option>
-    </select><br>
-    <button type="submit">Calcular</button>
-  </form>
+    <input type=checkbox id=st>Alterações no segmento ST</input>
+    <br>
+    <input type=checkbox id="enzimas" name="enzimas">Enzimas Cardíacas Elevadas</input>
+    <br>
+    <input type=checkbox id="icc-c" name="icc-c">História de insuficiência cardíaca congestiva</label></input>
+    <br>
+    <button onclick=grace()>Calcular</button>
   <p id="resultadoGRACE"></p></div>
 </div>
 <script src=../../grace.js></script>
-<h3 id="sample">SAMPLE</h3>
-<ul>
-<li>S - Sinais e sintomas</li>
-<li>A - Alergias</li>
-<li>M - Medicamentos em uso</li>
-<li>P - Passado médico (principalmente relacionado a dor torácica)</li>
-<li>L - Líquidos (se a pessoa se alimentou/bebeu qualquer coisa)</li>
-<li>E - Eventos similares</li>
-</ul>
-<p>melhora dor
+
+melhora dor
 ecg supra menor 50%
 arritmia reperfusao
-pico precoce de troponina (troponina circula mais quando revasculariza)</p>
-<p>ecg 10min
-trombolise 12h
+pico precoce de troponina (troponina circula mais quando revasculariza)
+
+ecg 10min 
+trombolise 12h 
 porta-agulha 30min  trombolise
-porta-balao 120min transf 90min
+porta-balao 120min transf 90min 
 angio de resgate apos trombolise
-angio primaria</p>
+angio primaria 
+-->
+<h2 id="fluxogramas">Fluxogramas</h2>
+
+ 
+<div class="carousel">
+  <div class="button-container">
+    <button type="button" id="anterior">Anterior</button>
+    <button type="button" id="proximo">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+    
+    
+    
+      <div class="legend"><p>TINOCA vs MINOCA</p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/tinoca.png">
+          <img src="../../pix/medicina/tinoca.png"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Fluxo da análise de troponina</p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/fluxo-troponina.png">
+          <img src="../../pix/medicina/fluxo-troponina.png"></img>
+        </a>
+      </div>
+    
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carousel .slide");
+  let legends = document.querySelectorAll(".carousel .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anterior");
+  let proximo = document.getElementById("proximo");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<h2 id="manejo-da-angina-crônica">Manejo da angina crônica</h2>
+<pre class="mermaid">graph TD;
+n{{Nitrato<br>em S.O.S}} <--> 1;
+1(IECA/BRA<br>AAS<br>Estatinas<br>Betabloqueadores) --> 2(Fração de ejeção?) -- maior que 70% --> 3(Aumentar<br>betabloqueador) --> 10(Fração de<br>ejeção em queda?) -- Sim --> 4(Ritmo sinusal?) -- Sim --> 5(Ivabradina);
+4 -- Não --> 6(Digoxina);
+10 -- Não --> 16(Bloqueadores<br>de canal de cálcio);
+5 --> 13(Fração de ejeção<br>continua em queda?) --> 2;
+6 --> 13;
+2 -- menor que 70% --> 12(Trimetadizidina e/ou<br>Bloqueadores de canal de cálcio) --> 14(Propatilnitrato de horário) --> 15(Alopurinol em<br>dose antianginosa);
+</pre>
+
+<p>1 &ndash; 7(FE &lt; 70) &ndash;&gt; 9(ate alupurinol);</p>
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>

@@ -62,7 +62,7 @@
     </script>
   
 
-  <title>Achados em eletrocardiograma | Jefferson T.</title>
+  <title>Eletrocardiograma | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
@@ -144,7 +144,7 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
     
   <br>
   
-    <h1>Achados em eletrocardiograma</h1>
+    <h1>Eletrocardiograma</h1>
   
   <script>
     let temaAtual = localStorage.getItem('tema');
@@ -242,6 +242,7 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
         <li><a href="#direita">Direita</a></li>
       </ul>
     </li>
+    <li><a href="#ondas-j-ou-de-osborn">Ondas J ou de Osborn</a></li>
     <li><a href="#bibliografia">Bibliografia</a></li>
   </ul>
 </nav>
@@ -283,10 +284,10 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
 </ul>
 <pre class="mermaid">graph TD;
 2(Presença de ondas <i>f</i>.<br>Ritmo irregularmente irregular.) --> fa(Fibrilação atrial);
-fa -- hemodinamicamente<br>instável --> cve(1. Internação;<br>2. Cardioversão elétrica imediata:<br>200J iniciais<br>ou<br>Bifásico 200J<br>ou<br>Pás anteroposteriorizadas);
+fa -- hemodinamicamente<br>instável --> cve(<span>1. Internação;<br>2. Cardioversão elétrica imediata:<br>200J iniciais<br>ou<br>Bifásico 200J<br>ou<br>Pás anteroposteriorizadas</span>);
 fa -- hemodinamicamente<br>estável --> t(Tempo de sintomas) -- menor que 48h<br>ou<br>paciente já anticoagulado --> 3(Cardioversão elétrica ou química);
 t -- menor que 7 dias --> 4(Ainda compensa<br>tentar cardioversão<br>química);
-t -- maior que 7 dias<br>ou<br>anticoagulação desconhecida --> 6(1. Anticoagular;<br>2. Jejum;<br>3. Sedação;<br>4. Cardioversão elétrica.); 
+t -- maior que 7 dias<br>ou<br>anticoagulação desconhecida --> 6(<span>1. Anticoagular;<br>2. Jejum;<br>3. Sedação;<br>4. Cardioversão elétrica.</span>); 
 </pre>
 
 <h4 id="cardioversão-química">Cardioversão química</h4>
@@ -517,6 +518,88 @@ t2 -- maior que 48h --> 9(1. Controle de frequência ventricular.<br>2. Ecocardi
 – Onda R dominante em V1 e/ou V2.</li>
 <li>Ocasionalmente, bloqueio de ramo direito.</li>
 </ul>
+<h2 id="ondas-j-ou-de-osborn">Ondas J ou de Osborn</h2>
+<ul>
+<li>Entalhe similar a uma onda $R$ no fim do $QRS$, alterando o ponto $J$, daí seu nome;</li>
+<li>Causas comuns envolvem hipotermia, hipercalcemia, lesões cerebrais, hemorragia subaracnóidea, parada cardíaca relacionada à sedação, angina vasoespástica e fibrilação ventricular idiopática.</li>
+</ul>
+
+ 
+<div class="carouselosborn">
+  <div class="button-container">
+    <button type="button" id="anteriorosborn">Anterior</button>
+    <button type="button" id="proximoosborn">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+
+
+
+  <div class="legend"><p>ECG de sobrecarga de câmaras esquerdas com onda de Osborn</p></div>
+  <div class="slide">
+    <a href="../../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg">
+      <img src="../../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg"></img>
+    </a>
+  </div>
+
+
+
+
+
+  <div class="legend"><p> </p></div>
+  <div class="slide">
+    <a href="../../pix/medicina/ecg/ondas-osborn.png">
+      <img src="../../pix/medicina/ecg/ondas-osborn.png"></img>
+    </a>
+  </div>
+
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carouselosborn .slide");
+  let legends = document.querySelectorAll(".carouselosborn .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anteriorosborn");
+  let proximo = document.getElementById("proximoosborn");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
 <hr>
 <h2 id="bibliografia">Bibliografia</h2>
 <ol>

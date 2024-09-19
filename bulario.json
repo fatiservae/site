@@ -1,5 +1,22 @@
 [
 	{
+		"nome": ["alopurinol"],
+		"class": ["antimetabólicos", "agentes antianginosos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [100, 1],
+				"via": "oral"
+			},
+			{
+				"unidades": ["mg", "dia"],
+				"dosagem": [300, 1],
+				"via": "oral",
+				"instrucao": "dose antiaginosa."
+			}
+		]
+	},
+	{
 		"nome": ["clomifeno"],
 		"class": ["indutores de ovulação", "bloqueadores hipotalâmicos de estrogênio"],
 		"posologias": [

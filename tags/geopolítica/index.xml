@@ -382,7 +382,7 @@ function calculaIdade(){
 	</item>
 	
 	<item>
-		<title>disturbios hidroeletroliticos</title>
+		<title>Distúrbios hidroeletrolíticos</title>
 		<link>https://www.jeffersontorres.com.br/medicina/disturbios-hidroeletroliticos/</link>
 		<pubDate>Tue, 23 Jul 2024 09:48:22 -0300</pubDate>
 		
@@ -483,7 +483,7 @@ XVIII - para contratação de entidades privadas sem fins lucrativos, para a imp
 	</item>
 	
 	<item>
-		<title>Panorama histórico dos antibióticos</title>
+		<title>Antibioticoterapia</title>
 		<link>https://www.jeffersontorres.com.br/medicina/antibioticos/</link>
 		<pubDate>Sat, 06 Jul 2024 15:04:34 -0300</pubDate>
 		
@@ -1718,7 +1718,7 @@ Que centralizam automaticamente&#34;&gt;&lt;/textarea&gt;
 	</item>
 	
 	<item>
-		<title>Critérios de Centor e Jones em febre reumática</title>
+		<title>Febre reumática</title>
 		<link>https://www.jeffersontorres.com.br/medicina/febre-reumatica/</link>
 		<pubDate>Fri, 07 Jun 2024 07:56:45 -0300</pubDate>
 		
@@ -6193,7 +6193,7 @@ oedema.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Escala PPS e o processo ativo de morte</title>
+		<title>Processo ativo de morte</title>
 		<link>https://www.jeffersontorres.com.br/medicina/processo-morte/</link>
 		<pubDate>Wed, 10 Apr 2024 06:22:00 -0300</pubDate>
 		
@@ -6853,7 +6853,7 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Achados em eletrocardiograma</title>
+		<title>Eletrocardiograma</title>
 		<link>https://www.jeffersontorres.com.br/medicina/ecg/</link>
 		<pubDate>Fri, 22 Mar 2024 16:15:54 -0300</pubDate>
 		
@@ -6893,10 +6893,10 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 2(Presença de ondas &lt;i&gt;f&lt;/i&gt;.&lt;br&gt;Ritmo irregularmente irregular.) --&gt; fa(Fibrilação atrial);
-fa -- hemodinamicamente&lt;br&gt;instável --&gt; cve(1. Internação;&lt;br&gt;2. Cardioversão elétrica imediata:&lt;br&gt;200J iniciais&lt;br&gt;ou&lt;br&gt;Bifásico 200J&lt;br&gt;ou&lt;br&gt;Pás anteroposteriorizadas);
+fa -- hemodinamicamente&lt;br&gt;instável --&gt; cve(&lt;span&gt;1. Internação;&lt;br&gt;2. Cardioversão elétrica imediata:&lt;br&gt;200J iniciais&lt;br&gt;ou&lt;br&gt;Bifásico 200J&lt;br&gt;ou&lt;br&gt;Pás anteroposteriorizadas&lt;/span&gt;);
 fa -- hemodinamicamente&lt;br&gt;estável --&gt; t(Tempo de sintomas) -- menor que 48h&lt;br&gt;ou&lt;br&gt;paciente já anticoagulado --&gt; 3(Cardioversão elétrica ou química);
 t -- menor que 7 dias --&gt; 4(Ainda compensa&lt;br&gt;tentar cardioversão&lt;br&gt;química);
-t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 6(1. Anticoagular;&lt;br&gt;2. Jejum;&lt;br&gt;3. Sedação;&lt;br&gt;4. Cardioversão elétrica.); 
+t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 6(&lt;span&gt;1. Anticoagular;&lt;br&gt;2. Jejum;&lt;br&gt;3. Sedação;&lt;br&gt;4. Cardioversão elétrica.&lt;/span&gt;); 
 &lt;/pre&gt;
 
 &lt;h4 id=&#34;cardioversão-química&#34;&gt;Cardioversão química&lt;/h4&gt;
@@ -7127,6 +7127,88 @@ t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2.
 – Onda R dominante em V1 e/ou V2.&lt;/li&gt;
 &lt;li&gt;Ocasionalmente, bloqueio de ramo direito.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;ondas-j-ou-de-osborn&#34;&gt;Ondas J ou de Osborn&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Entalhe similar a uma onda $R$ no fim do $QRS$, alterando o ponto $J$, daí seu nome;&lt;/li&gt;
+&lt;li&gt;Causas comuns envolvem hipotermia, hipercalcemia, lesões cerebrais, hemorragia subaracnóidea, parada cardíaca relacionada à sedação, angina vasoespástica e fibrilação ventricular idiopática.&lt;/li&gt;
+&lt;/ul&gt;
+
+ 
+&lt;div class=&#34;carouselosborn&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anteriorosborn&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximoosborn&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;ECG de sobrecarga de câmaras esquerdas com onda de Osborn&lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/sobrecarga-ondas-osborn.jpg&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/ecg/ondas-osborn.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ecg/ondas-osborn.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carouselosborn .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carouselosborn .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anteriorosborn&#34;);
+  let proximo = document.getElementById(&#34;proximoosborn&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
 &lt;hr&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;
@@ -8163,12 +8245,12 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;h3 id=&#34;diabetes-mellitus-gestacional&#34;&gt;Diabetes mellitus gestacional&lt;/h3&gt;
 &lt;p&gt;A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.&lt;/p&gt;
 &lt;h4 id=&#34;conduta&#34;&gt;Conduta&lt;/h4&gt;
-&lt;p&gt;
+
  
-&lt;div class=&#34;carousela&#34;&gt;
+&lt;div class=&#34;carousel&#34;&gt;
   &lt;div class=&#34;button-container&#34;&gt;
-    &lt;button type=&#34;button&#34; id=&#34;anteriora&#34;&gt;Anterior&lt;/button&gt;
-    &lt;button type=&#34;button&#34; id=&#34;proximoa&#34;&gt;Próxima&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
   &lt;/div&gt;
   &lt;div class=&#34;conteudo&#34;&gt;
   
@@ -8223,11 +8305,11 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;script&gt;
 (function() {
   let currentSlide = 0;
-  let slides = document.querySelectorAll(&#34;.carousela .slide&#34;);
-  let legends = document.querySelectorAll(&#34;.carousela .legend&#34;);
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
   let totalSlides = slides.length;
-  let anterior = document.getElementById(&#34;anteriora&#34;);
-  let proximo = document.getElementById(&#34;proximoa&#34;);
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
 
   function showSlide(n) {
     currentSlide = (n + totalSlides) % totalSlides;
@@ -8262,7 +8344,7 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
   &lt;/script&gt;
 
 
-&lt;br&gt;&lt;/p&gt;
+&lt;br&gt;
 &lt;h3 id=&#34;eclâmpsia&#34;&gt;Eclâmpsia&lt;/h3&gt;
 &lt;p&gt;Pré-eclâmpsia é um diagnóstico somativo de:&lt;/p&gt;
 &lt;ul&gt;
@@ -10067,7 +10149,7 @@ Seu melhor vídeo é sobre Alan Turing, pelo simples motivo de expor a informaç
 	</item>
 	
 	<item>
-		<title>Convulsões: fluxogramas de conduta</title>
+		<title>Convulsões e grande mal</title>
 		<link>https://www.jeffersontorres.com.br/medicina/convulsoes/</link>
 		<pubDate>Sun, 19 Nov 2023 15:45:49 -0300</pubDate>
 		
@@ -10178,7 +10260,7 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
 		<description>&lt;h2 id=&#34;sempre-descarte-a-dissecação-de-aorta&#34;&gt;Sempre descarte a dissecação de aorta!&lt;/h2&gt;
 &lt;p&gt;A dissecação de aorta é um diagnóstico muito improvável, mesmo no contexto de dor torácica.&lt;/p&gt;
 &lt;p&gt;Porém, sua fatalidade e necessidade de alta desconfiança diagnóstica exige que sempre a descartemos como diferencial o mais cedo possível!&lt;/p&gt;
-&lt;p&gt;Para isso, a ferramenta mais atualizada é o chamado &lt;strong&gt;Score ADD-Risk Score&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Para isso, a ferramenta mais atualizada é o chamado &lt;strong&gt;ADD-Risk Score&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Sua lógica se baseia no descarte do diferencial de imediato ou, na dúvida, tentar um segundo descarte por D-dímero, como foi sugerido posteriormente pelo estudo ADvISED[1]. Em toda lesão de leito vascular o valor de D-dímero se alterará e o estudo considerou o corte de 500ng/ml como valor superior de descarte.&lt;/p&gt;
 &lt;p&gt;De forma prática, utilize a calculadora abaixo.&lt;/p&gt;
 &lt;h3 id=&#34;calculadora-add-rs-12&#34;&gt;Calculadora ADD-RS [1][2]&lt;/h3&gt;
@@ -10227,8 +10309,9 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
 &lt;/div&gt;
 &lt;script src=../../addrs.js&gt;&lt;/script&gt;
 &lt;h2 id=&#34;escore-grace-3&#34;&gt;Escore GRACE [3]&lt;/h2&gt;
+&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;!--
 &lt;div class=calculadoras&gt;
-    &lt;form id=&#34;graceForm&#34;&gt;
     &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
     &lt;input type=&#34;number&#34; id=&#34;idade&#34; name=&#34;idade&#34; required&gt;&lt;br&gt;
     &lt;label for=&#34;pas&#34;&gt;Pressão Arterial Sistólica (mmHg):&lt;/label&gt;
@@ -10249,40 +10332,119 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
       &lt;option value=&#34;0&#34;&gt;Não&lt;/option&gt;
       &lt;option value=&#34;1&#34;&gt;Sim&lt;/option&gt;
     &lt;/select&gt;&lt;br&gt;
-    &lt;label for=&#34;st&#34;&gt;Alterações no Segmento ST:&lt;/label&gt;
-    &lt;select id=&#34;st&#34; name=&#34;st&#34; required&gt;
-      &lt;option value=&#34;0&#34;&gt;Não&lt;/option&gt;
-      &lt;option value=&#34;1&#34;&gt;Sim&lt;/option&gt;
-    &lt;/select&gt;&lt;br&gt;
-    &lt;label for=&#34;enzimas&#34;&gt;Enzimas Cardíacas Elevadas:&lt;/label&gt;
-    &lt;select id=&#34;enzimas&#34; name=&#34;enzimas&#34; required&gt;
-      &lt;option value=&#34;0&#34;&gt;Não&lt;/option&gt;
-      &lt;option value=&#34;1&#34;&gt;Sim&lt;/option&gt;
-    &lt;/select&gt;&lt;br&gt;
-    &lt;button type=&#34;submit&#34;&gt;Calcular&lt;/button&gt;
-  &lt;/form&gt;
+    &lt;input type=checkbox id=st&gt;Alterações no segmento ST&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input type=checkbox id=&#34;enzimas&#34; name=&#34;enzimas&#34;&gt;Enzimas Cardíacas Elevadas&lt;/input&gt;
+    &lt;br&gt;
+    &lt;input type=checkbox id=&#34;icc-c&#34; name=&#34;icc-c&#34;&gt;História de insuficiência cardíaca congestiva&lt;/label&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;button onclick=grace()&gt;Calcular&lt;/button&gt;
   &lt;p id=&#34;resultadoGRACE&#34;&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;script src=../../grace.js&gt;&lt;/script&gt;
-&lt;h3 id=&#34;sample&#34;&gt;SAMPLE&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;S - Sinais e sintomas&lt;/li&gt;
-&lt;li&gt;A - Alergias&lt;/li&gt;
-&lt;li&gt;M - Medicamentos em uso&lt;/li&gt;
-&lt;li&gt;P - Passado médico (principalmente relacionado a dor torácica)&lt;/li&gt;
-&lt;li&gt;L - Líquidos (se a pessoa se alimentou/bebeu qualquer coisa)&lt;/li&gt;
-&lt;li&gt;E - Eventos similares&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;melhora dor
+
+melhora dor
 ecg supra menor 50%
 arritmia reperfusao
-pico precoce de troponina (troponina circula mais quando revasculariza)&lt;/p&gt;
-&lt;p&gt;ecg 10min
-trombolise 12h
+pico precoce de troponina (troponina circula mais quando revasculariza)
+
+ecg 10min 
+trombolise 12h 
 porta-agulha 30min  trombolise
-porta-balao 120min transf 90min
+porta-balao 120min transf 90min 
 angio de resgate apos trombolise
-angio primaria&lt;/p&gt;
+angio primaria 
+--&gt;
+&lt;h2 id=&#34;fluxogramas&#34;&gt;Fluxogramas&lt;/h2&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;TINOCA vs MINOCA&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../../pix/medicina/tinoca.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/tinoca.png&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Fluxo da análise de troponina&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../../pix/medicina/fluxo-troponina.png&#34;&gt;
+          &lt;img src=&#34;../../pix/medicina/fluxo-troponina.png&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h2 id=&#34;manejo-da-angina-crônica&#34;&gt;Manejo da angina crônica&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+n{{Nitrato&lt;br&gt;em S.O.S}} &lt;--&gt; 1;
+1(IECA/BRA&lt;br&gt;AAS&lt;br&gt;Estatinas&lt;br&gt;Betabloqueadores) --&gt; 2(Fração de ejeção?) -- maior que 70% --&gt; 3(Aumentar&lt;br&gt;betabloqueador) --&gt; 10(Fração de&lt;br&gt;ejeção em queda?) -- Sim --&gt; 4(Ritmo sinusal?) -- Sim --&gt; 5(Ivabradina);
+4 -- Não --&gt; 6(Digoxina);
+10 -- Não --&gt; 16(Bloqueadores&lt;br&gt;de canal de cálcio);
+5 --&gt; 13(Fração de ejeção&lt;br&gt;continua em queda?) --&gt; 2;
+6 --&gt; 13;
+2 -- menor que 70% --&gt; 12(Trimetadizidina e/ou&lt;br&gt;Bloqueadores de canal de cálcio) --&gt; 14(Propatilnitrato de horário) --&gt; 15(Alopurinol em&lt;br&gt;dose antianginosa);
+&lt;/pre&gt;
+
+&lt;p&gt;1 &amp;ndash; 7(FE &amp;lt; 70) &amp;ndash;&amp;gt; 9(ate alupurinol);&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;
@@ -10936,16 +11098,16 @@ Imprima na opção &lt;code&gt;Salvar para PDF&lt;/code&gt;.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>Tromboembolismo pulmonar: Escore de Wells</title>
+		<title>Tromboembolismo pulmonar</title>
 		<link>https://www.jeffersontorres.com.br/medicina/wells-tep/</link>
 		<pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/wells-tep/</guid>
-		<description>
+		<description>&lt;h2 id=&#34;escore-de-wells&#34;&gt;Escore de Wells&lt;/h2&gt;
+
 
 &lt;!-- Falta incluir alguns elementos como ruptura de aneurisma etc --&gt;
-&lt;div&gt;
-&lt;div style=&#34;display: inline-block;&#34; class=&#34;sticker&#34;&gt;
+&lt;div class=calculadoras&gt;
   &lt;input type=&#34;checkbox&#34; id=&#34;3&#34;&gt;
   &lt;label&gt;Não há outro diagnóstico mais provável.&lt;/label&gt;
   &lt;br&gt;
@@ -10966,10 +11128,9 @@ Imprima na opção &lt;code&gt;Salvar para PDF&lt;/code&gt;.&lt;/p&gt;
   &lt;br&gt;
   &lt;input type=&#34;checkbox&#34; id=&#34;1&#34;&gt;
   &lt;label&gt;Câncer.&lt;/label&gt;
-&lt;/div&gt;
 &lt;br&gt;
-&lt;button style=&#34;margin-left: 5vw&#34; onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
 &lt;br&gt;
+&lt;button onclick=&#34;updateResult()&#34;&gt;Calcule!&lt;/button&gt;
 &lt;br&gt;
 &lt;p id=&#34;result&#34;&gt;&lt;/p&gt;
 
