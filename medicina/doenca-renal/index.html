@@ -40,20 +40,20 @@
   <meta name="description" content="Calculadora de TFG
 
 
-    Idade (anos):
+    Idade:
     
-    Peso (kg):
+    Massa corporal:
     
-    Creatinina (mg/dL):
+    Creatinina sérica:
     
-    Altura (cm):
+    Altura:
     
     Sexo:
     
         Masculino
         Feminino
     
-    Negro(a
+    Negra(o)
     
     
     Calcular TFG
@@ -187,20 +187,20 @@ Onde m(s) são as massas em Kg, alt a altura em pol, i a idade em anos, cr a cre
     <h2 id="calculadora-de-tfg">Calculadora de TFG</h2>
 <script src="../../tfg.js"></script>
 <div class="calculadoras">
-    <label for="idade">Idade (anos):</label><br>
-    <input type="number" id="idade"><br><br>
-    <label for="peso">Peso (kg):</label><br>
-    <input type="number" id="peso"><br><br>
-    <label for="creatinina">Creatinina (mg/dL):</label><br>
-    <input type="number" id="creatinina"><br><br>
-    <label for="altura">Altura (cm):</label><br>
-    <input type="number" id="altura"><br><br>
+    <label for="idade">Idade:</label><br>
+    <input type="number" placeholder="anos" id="idade"><br><br>
+    <label for="peso">Massa corporal:</label><br>
+    <input type="number" placeholder="Kg" id="peso"><br><br>
+    <label for="creatinina">Creatinina sérica:</label><br>
+    <input type="number" placeholder="mg/dL" id="creatinina"><br><br>
+    <label for="altura">Altura:</label><br>
+    <input type="number" placeholder="cm" id="altura"><br><br>
     <label for="sexo">Sexo:</label><br>
     <select id="sexo">
         <option value="masculino">Masculino</option>
         <option value="feminino">Feminino</option>
     </select><br><br>
-    <input id="negro" type="checkbox">Negro(a</input>
+    <input id="negro" type="checkbox">Negra(o)</input>
     <br>
     <br>
     <button onclick="calcularTFG()">Calcular TFG</button><br><br>

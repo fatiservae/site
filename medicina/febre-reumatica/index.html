@@ -24,7 +24,7 @@
   <meta name="description" content="
 
     Calculdora de profilaxia de Centor
-    Idade (anos)
+    Idade
     
     
     
@@ -73,11 +73,12 @@
     
     Títulos elevados de ASO ou outro anticorpo estreptocócico, teste rápido para antígenos do estreptococo, escarlatina recente
     
-    VHS em mm/h
+    
+    Velocidade de hemossedimentação
     
     
     
-    PCR em mg/dL
+    Proteína C reativa
     
     
     
@@ -199,9 +200,9 @@
     <script src="../../febre-reumatica.js"></script>
 <div class=calculadoras>
     <h2>Calculdora de profilaxia de Centor</h2>
-    <label for=idade>Idade (anos)</label>
+    <label for=idade>Idade</label>
     <br>
-    <input id=idade type=number></input>
+    <input id=idade placeholder="anos" type=number></input>
     <br>
     <label for=tonsilas>Tonsilas</label>
     <br>
@@ -248,13 +249,14 @@
     <br>
     <input id=titulos type=checkbox>Títulos elevados de ASO ou outro anticorpo estreptocócico, teste rápido para antígenos do estreptococo, escarlatina recente</input>
     <br>
-    <label for=vhs >VHS em mm/h</label>
     <br>
-    <input id=vhs type=number ></input>
+    <label for=vhs >Velocidade de hemossedimentação</label>
     <br>
-    <label for=pcr>PCR em mg/dL</label>
+    <input id=vhs placeholder="mm/h" type=number ></input>
     <br>
-    <input id=pcr type=number></input>
+    <label for=pcr>Proteína C reativa</label>
+    <br>
+    <input id=pcr placeholder="mg/dL" type=number></input>
     <br>
     <br>
     <button onclick="calcularJones()">Calcular</button>

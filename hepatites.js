@@ -31,7 +31,7 @@ function calcularHepB() {
     } else {
       resultado.innerHTML = "Paciente recém infectado e não imune.";
     };
-    resultado.innerHTML += "<br><br>A hepatite B crônica é defnida pela presença continuada do HBsAg no sangue por um período superior a seis meses.";
+    resultado.innerHTML += "<br><br>Nota:<br>A hepatite B crônica é defnida pela presença continuada do HBsAg no sangue por um período superior a seis meses.";
   }
 
   //imunizados

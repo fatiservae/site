@@ -68,19 +68,21 @@ Calculadora de Parkland via regra dos nove de Pulaski e Tennisson
 
 
   Adicionar
-  Elementos selecionados:
+  Elementos adicionados:
     
   
   Idade:
   
   
   
-  Peso:
+  Massa corporal:
+  
   
   
   
   
   Queimadura elétrica
+  
   
   Calcular
   
@@ -239,19 +241,21 @@ A contração persistente do diafragma como resultado da passagem da corrente el
 <br>
 <div>
   <button onclick="adicionarElemento()">Adicionar</button>
-  <p>Elementos selecionados:</p>
+  <p>Elementos adicionados:</p>
     <ul class="left" id="elementosSelecionados"></ul>
   <br>
   <label for="idade">Idade:</label>
-  <input id="idade" type="number"></input>
   <br>
+  <input id="idade" placeholder="anos" type="number"></input>
   <br>
-  <label for="peso">Peso:</label>
-  <input id="peso" type="number"></input>
+  <label for="peso">Massa corporal:</label>
+  <br>
+  <input id="peso" placeholder="Kg"  type="number"></input>
   <br>
   <br>
   <input id="eletrica" type="checkbox"></input>
   <label for="eletrica">Queimadura elétrica</label>
+  <br>
   <br>
   <button onclick="calcular()">Calcular</button>
   <br>

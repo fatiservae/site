@@ -11,6 +11,46 @@
 	
 	
 	<item>
+		<title>Prostatopatias</title>
+		<link>https://www.jeffersontorres.com.br/medicina/prostatopatias/</link>
+		<pubDate>Fri, 20 Sep 2024 16:31:48 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/prostatopatias/</guid>
+		<description>&lt;h2 id=&#34;peso-de-próstata-por-idade&#34;&gt;Peso de próstata por idade&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Idade (anos)&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Peso (g)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;40&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pequena 20;&lt;br&gt;Grande 50 a 100&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;50&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;38&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;60&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;38&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;70&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;50 a 70&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;80&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;50 a 70&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Sistema único de saúde do Brasil</title>
 		<link>https://www.jeffersontorres.com.br/medicina/sus/</link>
 		<pubDate>Wed, 11 Sep 2024 17:46:56 -0300</pubDate>
@@ -127,43 +167,6 @@
 	</item>
 	
 	<item>
-		<title>Conversões de unidades</title>
-		<link>https://www.jeffersontorres.com.br/ciencia/conversoes/</link>
-		<pubDate>Thu, 29 Aug 2024 20:11:26 -0300</pubDate>
-		
-		<guid>https://www.jeffersontorres.com.br/ciencia/conversoes/</guid>
-		<description>&lt;div class=calculadoras&gt;
-  &lt;p&gt;Converter&lt;/p&gt;
-  &lt;br&gt;
-  &lt;input id=inputValor&gt;&lt;/input&gt;
-  &lt;br&gt;
-  &lt;select id=inputConverter&gt;
-    &lt;option value=minutos&gt;Minutos(m)&lt;/option&gt;
-    &lt;option value=metros&gt;Metros(m)&lt;/option&gt;
-    &lt;option value=metrosMin&gt;Metros por minutos (m/min)&lt;/option&gt;
-    &lt;option value=kiloMetros&gt;Kilômetros (Km)&lt;/option&gt;
-    &lt;option value=kiloMetros&gt;Kilômetros por minuto (Km/min)&lt;/option&gt;
-  &lt;/select&gt;
-  &lt;p&gt;Para:&lt;/p&gt;
-  &lt;select id=outputConverter&gt;
-    &lt;option value=minutos&gt;Minutos (min)&lt;/option&gt;
-    &lt;option value=minutos&gt;Horas (h)&lt;/option&gt;
-    &lt;option value=metrosMin&gt;Metros por min (m/min)&lt;/option&gt;
-    &lt;option value=metros&gt;Metros (m)&lt;/option&gt;
-    &lt;option value=kiloMetros&gt;Kilômetros (Km)&lt;/option&gt;
-  &lt;/select&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;button onclick=converta()&gt;Converta!&lt;/button&gt;
-  &lt;br&gt;
-  &lt;p id=resultadoConverter&gt;- - &lt;/p&gt;
-  &lt;button style=&#34;display: none&#34; id=&#34;botao-copiar&#34;&gt;Copiar Resultado&lt;/button&gt;
-&lt;/div&gt;
-&lt;script src=&#34;../conversores.js&#34;&gt;&lt;/script&gt;
-</description>
-	</item>
-	
-	<item>
 		<title>Classificações em nefropatias</title>
 		<link>https://www.jeffersontorres.com.br/medicina/doenca-renal/</link>
 		<pubDate>Sun, 18 Aug 2024 11:10:23 -0300</pubDate>
@@ -172,20 +175,20 @@
 		<description>&lt;h2 id=&#34;calculadora-de-tfg&#34;&gt;Calculadora de TFG&lt;/h2&gt;
 &lt;script src=&#34;../tfg.js&#34;&gt;&lt;/script&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
-    &lt;label for=&#34;idade&#34;&gt;Idade (anos):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;label for=&#34;peso&#34;&gt;Peso (kg):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;peso&#34;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;label for=&#34;creatinina&#34;&gt;Creatinina (mg/dL):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;creatinina&#34;&gt;&lt;br&gt;&lt;br&gt;
-    &lt;label for=&#34;altura&#34;&gt;Altura (cm):&lt;/label&gt;&lt;br&gt;
-    &lt;input type=&#34;number&#34; id=&#34;altura&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; placeholder=&#34;anos&#34; id=&#34;idade&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;peso&#34;&gt;Massa corporal:&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; placeholder=&#34;Kg&#34; id=&#34;peso&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;creatinina&#34;&gt;Creatinina sérica:&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; placeholder=&#34;mg/dL&#34; id=&#34;creatinina&#34;&gt;&lt;br&gt;&lt;br&gt;
+    &lt;label for=&#34;altura&#34;&gt;Altura:&lt;/label&gt;&lt;br&gt;
+    &lt;input type=&#34;number&#34; placeholder=&#34;cm&#34; id=&#34;altura&#34;&gt;&lt;br&gt;&lt;br&gt;
     &lt;label for=&#34;sexo&#34;&gt;Sexo:&lt;/label&gt;&lt;br&gt;
     &lt;select id=&#34;sexo&#34;&gt;
         &lt;option value=&#34;masculino&#34;&gt;Masculino&lt;/option&gt;
         &lt;option value=&#34;feminino&#34;&gt;Feminino&lt;/option&gt;
     &lt;/select&gt;&lt;br&gt;&lt;br&gt;
-    &lt;input id=&#34;negro&#34; type=&#34;checkbox&#34;&gt;Negro(a&lt;/input&gt;
+    &lt;input id=&#34;negro&#34; type=&#34;checkbox&#34;&gt;Negra(o)&lt;/input&gt;
     &lt;br&gt;
     &lt;br&gt;
     &lt;button onclick=&#34;calcularTFG()&#34;&gt;Calcular TFG&lt;/button&gt;&lt;br&gt;&lt;br&gt;
@@ -342,9 +345,9 @@ $$&lt;/p&gt;
 
 
 &lt;div class=&#34;calculadoras&#34;&gt;
-    &lt;label for=comprimento&gt;Comprimento do feto ou produto de aborto (cm):&lt;/label&gt;
+    &lt;label for=comprimento&gt;Comprimento do feto ou produto de aborto:&lt;/label&gt;
     &lt;br&gt;
-    &lt;input type=number id=comprimento&gt;&lt;/input&gt;
+    &lt;input type=number placeholder=&#34;cm&#34; id=comprimento&gt;&lt;/input&gt;
     &lt;br&gt;
     &lt;br&gt;
 &lt;button onclick=calculaIdade()&gt;Calcule&lt;/button&gt;
@@ -869,7 +872,7 @@ quinta --&gt; 9(Ceftarolina);
 	</item>
 	
 	<item>
-		<title>Controle de conteúdo</title>
+		<title>Conteúdo do site</title>
 		<link>https://www.jeffersontorres.com.br/conteudo/</link>
 		<pubDate>Sun, 23 Jun 2024 10:48:20 -0300</pubDate>
 		
@@ -902,6 +905,10 @@ quinta --&gt; 9(Ceftarolina);
           &lt;td style=&#34;text-align: left&#34;&gt;&lt;b&gt;&amp;mdash;&lt;/b&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Conversor de unidades&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Draft&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Dissecação de aorta ADD-RS&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Ok&lt;/td&gt;
       &lt;/tr&gt;
@@ -919,7 +926,7 @@ quinta --&gt; 9(Ceftarolina);
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Gotejamento&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Não iniciada&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Não iniciado&lt;/strong&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Febre reumática - Centor e Jones&lt;/td&gt;
@@ -1091,6 +1098,10 @@ quinta --&gt; 9(Ceftarolina);
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Efeito Gell-Mann&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ok&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cleantes&lt;/td&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;Ok&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -1726,9 +1737,9 @@ Que centralizam automaticamente&#34;&gt;&lt;/textarea&gt;
 		<description>&lt;script src=&#34;../febre-reumatica.js&#34;&gt;&lt;/script&gt;
 &lt;div class=calculadoras&gt;
     &lt;h2&gt;Calculdora de profilaxia de Centor&lt;/h2&gt;
-    &lt;label for=idade&gt;Idade (anos)&lt;/label&gt;
+    &lt;label for=idade&gt;Idade&lt;/label&gt;
     &lt;br&gt;
-    &lt;input id=idade type=number&gt;&lt;/input&gt;
+    &lt;input id=idade placeholder=&#34;anos&#34; type=number&gt;&lt;/input&gt;
     &lt;br&gt;
     &lt;label for=tonsilas&gt;Tonsilas&lt;/label&gt;
     &lt;br&gt;
@@ -1775,13 +1786,14 @@ Que centralizam automaticamente&#34;&gt;&lt;/textarea&gt;
     &lt;br&gt;
     &lt;input id=titulos type=checkbox&gt;Títulos elevados de ASO ou outro anticorpo estreptocócico, teste rápido para antígenos do estreptococo, escarlatina recente&lt;/input&gt;
     &lt;br&gt;
-    &lt;label for=vhs &gt;VHS em mm/h&lt;/label&gt;
     &lt;br&gt;
-    &lt;input id=vhs type=number &gt;&lt;/input&gt;
+    &lt;label for=vhs &gt;Velocidade de hemossedimentação&lt;/label&gt;
     &lt;br&gt;
-    &lt;label for=pcr&gt;PCR em mg/dL&lt;/label&gt;
+    &lt;input id=vhs placeholder=&#34;mm/h&#34; type=number &gt;&lt;/input&gt;
     &lt;br&gt;
-    &lt;input id=pcr type=number&gt;&lt;/input&gt;
+    &lt;label for=pcr&gt;Proteína C reativa&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input id=pcr placeholder=&#34;mg/dL&#34; type=number&gt;&lt;/input&gt;
     &lt;br&gt;
     &lt;br&gt;
     &lt;button onclick=&#34;calcularJones()&#34;&gt;Calcular&lt;/button&gt;
@@ -2009,9 +2021,9 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/hepatites/</guid>
 		<description>&lt;h2 id=&#34;virais&#34;&gt;Virais&lt;/h2&gt;
-&lt;h3 id=&#34;hepatite-b&#34;&gt;Hepatite B&lt;/h3&gt;
+&lt;h3 id=&#34;sistema-de-decisão-em-hepatite-b&#34;&gt;Sistema de decisão em hepatite B&lt;/h3&gt;
 &lt;div class=calculadoras&gt;
-    &lt;p&gt;Hepatite B&lt;br&gt;Marque os exames positivados&lt;/p&gt;
+    &lt;p&gt;Marque os exames positivados&lt;/p&gt;
     &lt;input type=checkbox id=HbSAg&gt;HbSAg&lt;/input&gt;
     &lt;br&gt;
     &lt;input type=checkbox id=antiHbCIgM&gt;Anti HbC IgM&lt;/input&gt;
@@ -2069,7 +2081,7 @@ Parágrafo único. Nos casos de morte violenta, bastará o simples exame externo
 	</item>
 	
 	<item>
-		<title>Conceitos e prática em traumatologia forense</title>
+		<title>Traumatologia forense</title>
 		<link>https://www.jeffersontorres.com.br/medicina/medicina-legal/traumato-forense/</link>
 		<pubDate>Wed, 01 May 2024 21:31:09 -0300</pubDate>
 		
@@ -2369,7 +2381,7 @@ Bases (hidróxidos e amônia)- liquefação ou liquefacientes.&lt;/p&gt;
 	</item>
 	
 	<item>
-		<title>A morte e a lei: tanatologia forense</title>
+		<title>Tanatologia forense</title>
 		<link>https://www.jeffersontorres.com.br/medicina/medicina-legal/morte-legal/</link>
 		<pubDate>Wed, 01 May 2024 12:33:43 -0300</pubDate>
 		
@@ -6016,17 +6028,17 @@ $$&lt;/p&gt;
 
 &lt;div class=calculadoras&gt;
 &lt;h2&gt;Calculadora para sacarato&lt;br&gt;de hidróxido férrico&lt;/h2&gt;
-&lt;label for=hbdesejada&gt;Hb desejada (g/dL)&lt;/label&gt;
+&lt;label for=hbdesejada&gt;Hemoglobina desejada&lt;/label&gt;
 &lt;br&gt;
-&lt;input type=number id=hbdesejada&gt;&lt;/input&gt;
+&lt;input type=number placeholder=&#34;g/dL&#34; id=hbdesejada&gt;&lt;/input&gt;
 &lt;br&gt;
-&lt;label for=hbatual&gt;Hb atual (g/dL)&lt;/label&gt;
+&lt;label for=hbatual&gt;Hemoglobina atual&lt;/label&gt;
 &lt;br&gt;
-&lt;input type=number id=hbatual&gt;&lt;/input&gt;
+&lt;input type=number placeholder=&#34;g/dL&#34; id=hbatual&gt;&lt;/input&gt;
 &lt;br&gt;
-&lt;label for=hbdesejada&gt;Peso (Kg)&lt;/label&gt;
+&lt;label for=hbdesejada&gt;Massa corporal&lt;/label&gt;
 &lt;br&gt;
-&lt;input type=number id=peso&gt;&lt;/input&gt;
+&lt;input type=number placeholder=&#34;Kg&#34; id=peso&gt;&lt;/input&gt;
 &lt;p id=resultado&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;button onclick=calculaFerro()&gt;Calcular&lt;/button&gt;
@@ -6152,7 +6164,7 @@ Obs: esquemas com metronidazol podem ser prescritos com 400mg 8/8 horas quando a
 	</item>
 	
 	<item>
-		<title>Insights sobre cetoacidose diabética</title>
+		<title>Cetoacidose diabética</title>
 		<link>https://www.jeffersontorres.com.br/medicina/cetoacidose/</link>
 		<pubDate>Sun, 14 Apr 2024 17:25:02 -0300</pubDate>
 		
@@ -8080,9 +8092,9 @@ $$&lt;/p&gt;
 &lt;p&gt;A perda hídrica &lt;strong&gt;insensível&lt;/strong&gt; estimada¹ é de 300-400mL/m²/dia.&lt;/p&gt;
 &lt;p&gt;Considere também a perda &lt;strong&gt;sensível&lt;/strong&gt; de diurese, evacuação e sangramentos (&lt;a href=&#34;../medicina/cockcroft-gault/&#34;&gt;calcule a TFG via Cockcroft-Gault&lt;/a&gt;).&lt;/p&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
-&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;
+&lt;label for=&#34;massa&#34;&gt;Massa do paciente&lt;/label&gt;
 &lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;massa&#34;/&gt;
+&lt;input placeholder=&#34;Kg&#34; type=&#34;number&#34; id=&#34;massa&#34;/&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -8144,8 +8156,8 @@ $$&lt;/p&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;div class=&#34;calculadoras&#34;&gt;
 &lt;h2&gt;Fluido&lt;/h2&gt;
-&lt;label for=&#34;massa&#34;&gt;Massa do paciente (Kg)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;massa&#34;&gt;Massa do paciente&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; placeholder=&#34;Kg&#34; id=&#34;massa&#34;&gt;&lt;/input&gt;&lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;fluidoPrincipal&#34;&gt;Fluido principal&lt;/label&gt;&lt;br&gt;
 &lt;select id=&#34;tipoFluidoPrincipal&#34;&gt;
     &lt;!-- 
@@ -8162,8 +8174,8 @@ $$&lt;/p&gt;
     &lt;/select&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;h2&gt;Sódio&lt;/h2&gt;
-&lt;label for=&#34;volumeAmpNa&#34;&gt;Volume de cada ampola de sódio (mL)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;volumeAmpNa&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;volumeAmpNa&#34;&gt;Volume de cada ampola de sódio&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; placeholder=&#34;mL&#34; id=&#34;volumeAmpNa&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;concentAmpNa&#34;&gt;Ampola de sódio concentrado&lt;/label&gt;&lt;br&gt;
 &lt;select id=&#34;concentAmpNa&#34;&gt;
     &lt;option value=&#34;&#34;&gt;Selecione sódio concentrado&lt;/option&gt;
@@ -8174,14 +8186,14 @@ $$&lt;/p&gt;
 &lt;br&gt;
 &lt;h2&gt;Tonicidade do sódio&lt;/h2&gt;
 &lt;form&gt;
-    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Isotônico - 135mEq/L? &lt;br&gt;
-    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Hipotônico - 30mEq/L? 
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioIso&#34;&gt;Isotônico - 135mEq/L&lt;/input&gt; &lt;br&gt;
+    &lt;input name=&#34;tonicidade&#34; type=&#34;radio&#34; id=&#34;sodioHipo&#34;&gt;Hipotônico - 30mEq/L&lt;/input&gt; 
 &lt;/form&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;h2&gt;Potássio&lt;/h2&gt;
-&lt;label for=&#34;volumeAmpK&#34;&gt;Volume de cada ampola de potássio (mL)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;volumeAmpK&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
-&lt;label for=&#34;concentAmpK&#34;&gt;Concentração de Potássio da ampola&lt;label&gt;&lt;br&gt;
+&lt;label for=&#34;volumeAmpK&#34;&gt;Volume de cada ampola de potássio&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; placeholder=&#34;mL&#34; id=&#34;volumeAmpK&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;concentAmpK&#34;&gt;Concentração de potássio da ampola&lt;label&gt;&lt;br&gt;
 &lt;select id=&#34;concentAmpK&#34;&gt;
     &lt;option value=&#34;&#34;&gt;Selecione ampola&lt;/option&gt;
     &lt;option value=&#34;19&#34;&gt;Cloreto de Potássio a 19,1%&lt;/option&gt;
@@ -8192,8 +8204,8 @@ $$&lt;/p&gt;
 &lt;/select&gt;&lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;h2&gt;Glicose&lt;/h2&gt;
-&lt;label for=&#34;volumeAmpGlic&#34;&gt;Volume de cada ampola de glicose (mL)&lt;/label&gt;&lt;br&gt;
-&lt;input type=&#34;number&#34; id=&#34;volumeAmpGlic&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
+&lt;label for=&#34;volumeAmpGlic&#34;&gt;Volume de cada ampola de glicose&lt;/label&gt;&lt;br&gt;
+&lt;input type=&#34;number&#34; placeholder=&#34;mL&#34; id=&#34;volumeAmpGlic&#34;&gt;&lt;/input&gt; &lt;br&gt;&lt;br&gt;
 &lt;label for=&#34;percentualGlic&#34;&gt;Percentual de glicose da ampola&lt;label&gt;&lt;br&gt;
 &lt;select id=&#34;percentualGlic&#34;&gt;
     &lt;option value=&#34;&#34;&gt;Selecione tipo de ampola&lt;/option&gt;
@@ -9197,7 +9209,7 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 	</item>
 	
 	<item>
-		<title>A ciência por trás do pão de queijo</title>
+		<title>Pão de queijo</title>
 		<link>https://www.jeffersontorres.com.br/receitas/pao-de-queijo/</link>
 		<pubDate>Wed, 27 Dec 2023 19:07:14 -0300</pubDate>
 		
@@ -9509,7 +9521,7 @@ Seneca
 	</item>
 	
 	<item>
-		<title>Tudo sobre vacinas</title>
+		<title>Imunológicos e vacinas</title>
 		<link>https://www.jeffersontorres.com.br/medicina/vacinas/</link>
 		<pubDate>Tue, 12 Dec 2023 08:54:05 -0300</pubDate>
 		
@@ -9672,27 +9684,41 @@ Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre 
 		<pubDate>Mon, 27 Nov 2023 11:02:22 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/hemodinamica/</guid>
-		<description>&lt;h2 id=&#34;frequência-cardíaca&#34;&gt;Frequência cardíaca¹&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;valores-normais&#34;&gt;Valores normais&lt;/h2&gt;
+&lt;h3 id=&#34;frequência-cardíaca&#34;&gt;Frequência cardíaca¹&lt;/h3&gt;
 &lt;p&gt;$$
 50bpm \leq FC_{normal} \leq 100bpm
 $$&lt;/p&gt;
+&lt;h3 id=&#34;delta-de-pressão&#34;&gt;Delta de pressão&lt;/h3&gt;
+&lt;p&gt;$$
+\delta = PAS - PAD
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Se $\delta \leq 30mmHg $ a pressão arterial é convergente; e&lt;/li&gt;
+&lt;li&gt;Se $\delta \geq 60mmHg $ a pressão arterial é divergente.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;pressão-arterial-média&#34;&gt;Pressão arterial média&lt;/h2&gt;
 &lt;p&gt;$$
 PAM = \frac{PAS + 2 * PAD}{3}
-$$
+$$&lt;/p&gt;
+&lt;h2 id=&#34;média-da-pressão-arterial&#34;&gt;Média da pressão arterial&lt;/h2&gt;
+&lt;p&gt;$$
+\bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;calculadora-de-médias&#34;&gt;Calculadora de médias&lt;/h3&gt;
 
 
 &lt;div class=&#34;calculadoras&#34;&gt;
-&lt;label for=&#34;pad&#34;&gt;Pressão diastólica:&lt;/label&gt;
-&lt;br&gt;
-&lt;input id=&#34;pad&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
-&lt;br&gt;
 &lt;label for=&#34;pas&#34;&gt;Pressão sistólica:&lt;/label&gt;
 &lt;br&gt;
-&lt;input id=&#34;pas&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+&lt;input id=&#34;pas&#34; placeholder=&#34;mmHg&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+&lt;br&gt;
+&lt;label for=&#34;pad&#34;&gt;Pressão diastólica:&lt;/label&gt;
+&lt;br&gt;
+&lt;input id=&#34;pad&#34; placeholder=&#34;mmHg&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;button id=&#34;calc-pam&#34; onclick=&#34;pamedia()&#34;&gt;Calcular PAM&lt;/button&gt;
+&lt;button id=&#34;calc-pam&#34; onclick=&#34;pamedia()&#34;&gt;Calcular&lt;/button&gt;
 &lt;p id=&#34;resultado&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script&gt;
@@ -9700,21 +9726,26 @@ $$
         let pad = parseFloat(document.getElementById(&#34;pad&#34;).value);
         let pas = parseFloat(document.getElementById(&#34;pas&#34;).value);
 
-        let resultado = (pas + (2 * pad)) / 3;
+        let delta = pas - pad;
 
-        if (isNaN(resultado)) {
+        let pam = (pas + (2 * pad)) / 3;
+        let pm = (pas + pad) / 2;
+
+        if (!(pad &gt; 0 &amp;&amp; pas &gt; 0) || isNaN(pam) || isNaN(pm) || delta &lt; 5 ) {
             document.getElementById(&#34;resultado&#34;).innerText = &#34;Confira os dados!&#34;;
             return
         }
 
-        document.getElementById(&#34;resultado&#34;).innerText = resultado.toFixed(2)+&#34;mmHg de pressão arterial média.&#34;;
+        document.getElementById(&#34;resultado&#34;).innerHTML = pam.toFixed(1)+&#34;mmHg de pressão arterial média.&lt;br&gt;&#34;+pad.toFixed(1)+&#34;mmHg de média da pressão arterial&#34;;
+
+        if (delta &lt; 30) {
+            document.getElementById(&#34;resultado&#34;).innerHTML += &#34;&lt;br&gt;A pressão está convergente!&#34;;
+        } else if (delta &gt; 60) {
+            document.getElementById(&#34;resultado&#34;).innerHTML += &#34;&lt;br&gt;A pressão está divergente!&#34;;
+        } 
     }
 &lt;/script&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;média-da-pressão-arterial&#34;&gt;Média da pressão arterial&lt;/h2&gt;
-&lt;p&gt;$$
-\bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
-$$&lt;/p&gt;
+
 &lt;h2 id=&#34;pressão-normal-de-tecidos-não-fluidos&#34;&gt;Pressão normal de tecidos não-fluidos&lt;/h2&gt;
 &lt;p&gt;$$
 0mmHg \leq PA_{tissue} \leq 8mmHg
@@ -9786,8 +9817,9 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;radioscopia&#34;&gt;Radioscopia&lt;/h2&gt;
 &lt;h3 id=&#34;interpretação-de-sequência-de-imagens-ou-videocoronariografias&#34;&gt;Interpretação de sequência de imagens ou videocoronariografias&lt;/h3&gt;
+&lt;p&gt;Este fluxograma é de minha autoria e serve como auxílio a imagens não laudadas que precisam ser interpretadas pelo médico não especialista.&lt;/p&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-1(Identificar se está visualizando:&lt;br&gt;1. O óstio da coronária esquerda&lt;br&gt;OU&lt;br&gt;2. O tronco de coronária direita) -- coronária&lt;br&gt;direita --&gt; 2(Observar ramo e possível dominância) --&gt; 8(Observar calibres);
+1(Identificar se está visualizando:&lt;br&gt;1. O óstio da coronária esquerda&lt;br&gt;OU&lt;br&gt;2. O tronco de coronária direita) -- artéria em forma de C --&gt; n(Coronária&lt;br&gt;direita) --&gt; 2(Observar ramos e possível dominância) --&gt; 8(Observar calibres);
 1 -- coronária&lt;br&gt;esquerda --&gt; 3(Identificar a a descendente anterior) --&gt; 4(As perforantes são visualizadas?);
 4 -- Sim --&gt; 5(Tratam-se de&lt;br&gt;artérias septais) --&gt; 8;
 4 -- Não --&gt; 6(Seguir observando calibre até a ponta);
@@ -9844,19 +9876,21 @@ $$&lt;/p&gt;
 &lt;br&gt;
 &lt;div&gt;
   &lt;button onclick=&#34;adicionarElemento()&#34;&gt;Adicionar&lt;/button&gt;
-  &lt;p&gt;Elementos selecionados:&lt;/p&gt;
+  &lt;p&gt;Elementos adicionados:&lt;/p&gt;
     &lt;ul class=&#34;left&#34; id=&#34;elementosSelecionados&#34;&gt;&lt;/ul&gt;
   &lt;br&gt;
   &lt;label for=&#34;idade&#34;&gt;Idade:&lt;/label&gt;
-  &lt;input id=&#34;idade&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
   &lt;br&gt;
+  &lt;input id=&#34;idade&#34; placeholder=&#34;anos&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
   &lt;br&gt;
-  &lt;label for=&#34;peso&#34;&gt;Peso:&lt;/label&gt;
-  &lt;input id=&#34;peso&#34; type=&#34;number&#34;&gt;&lt;/input&gt;
+  &lt;label for=&#34;peso&#34;&gt;Massa corporal:&lt;/label&gt;
+  &lt;br&gt;
+  &lt;input id=&#34;peso&#34; placeholder=&#34;Kg&#34;  type=&#34;number&#34;&gt;&lt;/input&gt;
   &lt;br&gt;
   &lt;br&gt;
   &lt;input id=&#34;eletrica&#34; type=&#34;checkbox&#34;&gt;&lt;/input&gt;
   &lt;label for=&#34;eletrica&#34;&gt;Queimadura elétrica&lt;/label&gt;
+  &lt;br&gt;
   &lt;br&gt;
   &lt;button onclick=&#34;calcular()&#34;&gt;Calcular&lt;/button&gt;
   &lt;br&gt;
@@ -10308,6 +10342,37 @@ epilepsias : recomendações para tratamento de crises e síndromes epiléticas 
     &lt;br&gt;
 &lt;/div&gt;
 &lt;script src=../addrs.js&gt;&lt;/script&gt;
+&lt;h2 id=&#34;tipos-de-infarto&#34;&gt;Tipos de infarto&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tipo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Descrição&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;placa causando obstrução da passagem do sangue por uma coronária.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;diminuição da irrigação sanguínea no músculo cardíaco por causa de eventos graves, e.g. crise hipertensiva, que eleva a demanda por oxigênio de modo abrupto, espasmos das artérias, pressão baixa e arritmias.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3 ou fulminante&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;é o mais temido, pois leva à morte súbita. Geralmente, a falta de oxigênio e nutrientes mata a maioria das células cardíacas. Outro motivo são lesões que comprometem a frequência cardíaca normal, gerando arritmias graves.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;reúne os casos de infarto pós angioplastia das artérias coronárias. O infarto pode ocorrer logo depois ou em decorrência de nova obstrução por cima do stent.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;identificado quando existe relação entre o infarto e a revascularização cardíaca.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;escore-grace-3&#34;&gt;Escore GRACE [3]&lt;/h2&gt;
 &lt;p&gt;Em breve.&lt;/p&gt;
 &lt;!--
@@ -10640,40 +10705,48 @@ function fechardialogo() {
 	</item>
 	
 	<item>
-		<title>Colecistite aguda: Tokyo Guideline</title>
+		<title>Colecistite aguda</title>
 		<link>https://www.jeffersontorres.com.br/medicina/tokyo-guideline/</link>
 		<pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/tokyo-guideline/</guid>
-		<description>
+		<description>&lt;style&gt;
+	h4 {
+		padding: 0px;
+		padding-top: 1rem;
+		margin: 0px;
+	}
+&lt;/style&gt;
+&lt;h2 id=&#34;tokyo-guideline1&#34;&gt;Tokyo Guideline[1]&lt;/h2&gt;
+
 
 &lt;div class=calculadoras&gt;
-      &lt;h3&gt;Exame do abdome&lt;/h3&gt;
+      &lt;h4&gt;Exame do abdome&lt;/h4&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;suspeita&#34;&gt;
       &lt;label&gt;Murphy positivo, palpação dolorosa ou de massa.&lt;/label&gt;
       &lt;br&gt;
-      &lt;h3&gt;Inflamação sistêmica&lt;/h3&gt;
+      &lt;h4&gt;Inflamação sistêmica&lt;/h4&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;inflamacao&#34;&gt;
       &lt;label&gt;Febre ou calafrios.&lt;/label&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;inflamacao&#34;&gt;
       &lt;label&gt;Proteína C reativa elevada ou leucocitose.&lt;/label&gt;
       &lt;br&gt;
-      &lt;h3&gt;Imagem&lt;/h3&gt;
+      &lt;h4&gt;Imagem&lt;/h4&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
       &lt;label&gt;Dilatação biliar.&lt;/label&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;imagem&#34;&gt;
       &lt;label&gt;Constricção constatada (estenose, cálculo etc).&lt;/label&gt;
-      &lt;h3&gt;Colestase&lt;/h3&gt;
+      &lt;h4&gt;Colestase&lt;/h4&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
       &lt;label&gt;Icterícia ou bilirrubina de pelo menos 2mg/dL.&lt;/label&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;colestase&#34;&gt;
       &lt;label&gt;Transaminemia ou enzimas canaliculares de pelo menos 1.5x o normal.&lt;/label&gt;
-      &lt;h3&gt;Gravidade&lt;/h3&gt;
+      &lt;h4&gt;Gravidade&lt;/h4&gt;
       &lt;label&gt;Idade:&lt;/label&gt;
-      &lt;input type=&#34;number&#34; id=&#34;idade&#34;&gt;
+      &lt;input type=&#34;number&#34; placeholder=&#34;anos&#34; id=&#34;idade&#34;&gt;
       &lt;br&gt;
       &lt;input type=&#34;checkbox&#34; id=&#34;disfuncao_cardiovascular&#34;&gt;
       &lt;label&gt;Necessidade de epinefrina em qualquer dose ou pelo menos 5ug/Kg de dopamina.&lt;/label&gt;

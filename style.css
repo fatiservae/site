@@ -1275,11 +1275,16 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_nefrologia::before { content: "🥔 " ;}
 #tag_cardiologia::before { content: "❤️ " ;}
 #tag_pneumologia::before { content: "🫁 " ;}
+#tag_endocrinologia::before { content: "📊🩸 " ;}
 #tag_ciência::before { content: "🧪👨🏽‍🔬 " ;}
 #tag_emergências::before { content: "🚨 " ;}
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_imunologia::before { content: "💉🔬 " ;}
+#tag_urologia::before { content: "💧♂️ " ;}
+#tag_epidemiologia::before { content: "😷 " ;}
+#tag_sus::before { content: "🏥 " ;}
 #tag_história::before { content: "⌛ " ;}
 #tag_política::before { content: "🏛️ " ;}
 #tag_neurologia::before { content: "🧠 " ;}
@@ -1987,6 +1992,7 @@ nav#TableOfContents li li:last-child::before {
 }
 
 .barra {
+  margin-top: 1rem;
   margin-left: var(--margem);
   font-size: 110%;
   font-weight: bolder;

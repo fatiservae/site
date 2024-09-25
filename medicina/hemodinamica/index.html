@@ -67,18 +67,28 @@
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Frequência cardíaca¹
+  <meta name="description" content="Valores normais
+Frequência cardíaca¹
 $$
 50bpm \leq FC_{normal} \leq 100bpm
 $$
+Delta de pressão
+$$
+\delta = PAS - PAD
+$$
+
+Se $\delta \leq 30mmHg $ a pressão arterial é convergente; e
+Se $\delta \geq 60mmHg $ a pressão arterial é divergente.
+
 Pressão arterial média
 $$
 PAM = \frac{PAS &#43; 2 * PAD}{3}
 $$
-
-
-
-Pressão diastólica:
+Média da pressão arterial
+$$
+\bar{\mu}= PA[média] = \frac{PAS &#43; PAD}{2}
+$$
+Calculadora de médias
 
 
 
@@ -86,16 +96,13 @@ Pressão sistólica:
 
 
 
-
-Calcular PAM
-
+Pressão diastólica:
 
 
 
-Média da pressão arterial
-$$
-\bar{\mu}= PA[média] = \frac{PAS &#43; PAD}{2}
-$$">
+
+Calcular
+">
   <meta name="keywords" content="Projetos, Medicina, Calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -210,27 +217,41 @@ $$">
   
   
   
-    <h2 id="frequência-cardíaca">Frequência cardíaca¹</h2>
+    <h2 id="valores-normais">Valores normais</h2>
+<h3 id="frequência-cardíaca">Frequência cardíaca¹</h3>
 <p>$$
 50bpm \leq FC_{normal} \leq 100bpm
 $$</p>
+<h3 id="delta-de-pressão">Delta de pressão</h3>
+<p>$$
+\delta = PAS - PAD
+$$</p>
+<ul>
+<li>Se $\delta \leq 30mmHg $ a pressão arterial é convergente; e</li>
+<li>Se $\delta \geq 60mmHg $ a pressão arterial é divergente.</li>
+</ul>
 <h2 id="pressão-arterial-média">Pressão arterial média</h2>
 <p>$$
 PAM = \frac{PAS + 2 * PAD}{3}
-$$
+$$</p>
+<h2 id="média-da-pressão-arterial">Média da pressão arterial</h2>
+<p>$$
+\bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
+$$</p>
+<h3 id="calculadora-de-médias">Calculadora de médias</h3>
 
 
 <div class="calculadoras">
-<label for="pad">Pressão diastólica:</label>
-<br>
-<input id="pad" type="number"></input>
-<br>
 <label for="pas">Pressão sistólica:</label>
 <br>
-<input id="pas" type="number"></input>
+<input id="pas" placeholder="mmHg" type="number"></input>
+<br>
+<label for="pad">Pressão diastólica:</label>
+<br>
+<input id="pad" placeholder="mmHg" type="number"></input>
 <br>
 <br>
-<button id="calc-pam" onclick="pamedia()">Calcular PAM</button>
+<button id="calc-pam" onclick="pamedia()">Calcular</button>
 <p id="resultado"></p>
 </div>
 <script>
@@ -238,21 +259,26 @@ $$
         let pad = parseFloat(document.getElementById("pad").value);
         let pas = parseFloat(document.getElementById("pas").value);
 
-        let resultado = (pas + (2 * pad)) / 3;
+        let delta = pas - pad;
 
-        if (isNaN(resultado)) {
+        let pam = (pas + (2 * pad)) / 3;
+        let pm = (pas + pad) / 2;
+
+        if (!(pad > 0 && pas > 0) || isNaN(pam) || isNaN(pm) || delta < 5 ) {
             document.getElementById("resultado").innerText = "Confira os dados!";
             return
         }
 
-        document.getElementById("resultado").innerText = resultado.toFixed(2)+"mmHg de pressão arterial média.";
+        document.getElementById("resultado").innerHTML = pam.toFixed(1)+"mmHg de pressão arterial média.<br>"+pad.toFixed(1)+"mmHg de média da pressão arterial";
+
+        if (delta < 30) {
+            document.getElementById("resultado").innerHTML += "<br>A pressão está convergente!";
+        } else if (delta > 60) {
+            document.getElementById("resultado").innerHTML += "<br>A pressão está divergente!";
+        } 
     }
 </script>
-</p>
-<h2 id="média-da-pressão-arterial">Média da pressão arterial</h2>
-<p>$$
-\bar{\mu}= PA[média] = \frac{PAS + PAD}{2}
-$$</p>
+
 <h2 id="pressão-normal-de-tecidos-não-fluidos">Pressão normal de tecidos não-fluidos</h2>
 <p>$$
 0mmHg \leq PA_{tissue} \leq 8mmHg
@@ -324,8 +350,9 @@ $$</p>
 </ul>
 <h2 id="radioscopia">Radioscopia</h2>
 <h3 id="interpretação-de-sequência-de-imagens-ou-videocoronariografias">Interpretação de sequência de imagens ou videocoronariografias</h3>
+<p>Este fluxograma é de minha autoria e serve como auxílio a imagens não laudadas que precisam ser interpretadas pelo médico não especialista.</p>
 <pre class="mermaid">graph TD;
-1(Identificar se está visualizando:<br>1. O óstio da coronária esquerda<br>OU<br>2. O tronco de coronária direita) -- coronária<br>direita --> 2(Observar ramo e possível dominância) --> 8(Observar calibres);
+1(Identificar se está visualizando:<br>1. O óstio da coronária esquerda<br>OU<br>2. O tronco de coronária direita) -- artéria em forma de C --> n(Coronária<br>direita) --> 2(Observar ramos e possível dominância) --> 8(Observar calibres);
 1 -- coronária<br>esquerda --> 3(Identificar a a descendente anterior) --> 4(As perforantes são visualizadas?);
 4 -- Sim --> 5(Tratam-se de<br>artérias septais) --> 8;
 4 -- Não --> 6(Seguir observando calibre até a ponta);
