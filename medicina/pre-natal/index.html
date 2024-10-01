@@ -32,10 +32,13 @@ Glicemia jejum
 Segundo trimestre
 Terceiro trimestre
 Puerpério
-Rastreios
-Diabetes mellitus gestacional
-A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.
-Conduta
+Idade gestacional
+Erro entre idade gestacional determinada por ultrassonografia e data da última menstruação:
+
+&#43;- 3 dias: entre a 7 e a 10 semana.
+&#43;- 7 dias: entre a 10 e a 14 semana.
+&#43;- 2 a 4 semanas: segundo e terceiros trimestres.
+
 
  
 
@@ -45,60 +48,21 @@ Conduta
   
   
   
-
-
-
-  Gestante com viabilidade finananceira
-  
     
+    
+    
+      Altura uterina por idade gestacional
+      
+        
+          
+        
       
     
-  
 
-
-
-
-
-  Gestante sem viabilidade finananceira
-  
     
-      
     
-  
-
-
-
-
-
-  Puérpera com viabilidade financeira
-  
     
-      
-    
-  
-
-
-
-
-
-  Puérpera sem viabilidade financeira
-  
-    
-      
-    
-  
-
-
-
-  
-  
-
-
-
-
-
-Eclâmpsia
-Pré-eclâmpsia é um diagnóstico somativo de:">
+      Tamanho do útero por idade gestacional">
   <meta name="keywords" content="obstetrícia, medicina, resumos, guias">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -221,6 +185,11 @@ Pré-eclâmpsia é um diagnóstico somativo de:">
         <li><a href="#puerpério">Puerpério</a></li>
       </ul>
     </li>
+    <li><a href="#idade-gestacional">Idade gestacional</a>
+      <ul>
+        <li><a href="#calculadora-de-naegele">Calculadora de Naegele</a></li>
+      </ul>
+    </li>
     <li><a href="#rastreios">Rastreios</a>
       <ul>
         <li><a href="#diabetes-mellitus-gestacional">Diabetes mellitus gestacional</a></li>
@@ -250,6 +219,161 @@ Pré-eclâmpsia é um diagnóstico somativo de:">
 <h3 id="segundo-trimestre">Segundo trimestre</h3>
 <h3 id="terceiro-trimestre">Terceiro trimestre</h3>
 <h3 id="puerpério">Puerpério</h3>
+<h2 id="idade-gestacional">Idade gestacional</h2>
+<p>Erro entre idade gestacional determinada por ultrassonografia e data da última menstruação:</p>
+<ul>
+<li><strong>+- 3 dias</strong>: entre a 7 e a 10 semana.</li>
+<li><strong>+- 7 dias</strong>: entre a 10 e a 14 semana.</li>
+<li><strong>+- 2 a 4 semanas</strong>: segundo e terceiros trimestres.</li>
+</ul>
+<p>
+ 
+<div class="carouselig">
+  <div class="button-container">
+    <button type="button" id="anteriorig">Anterior</button>
+    <button type="button" id="proximoig">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+    
+    
+    
+      <div class="legend"><p>Altura uterina por idade gestacional</p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/altura-uterina-ig.png">
+          <img src="../../pix/medicina/altura-uterina-ig.png"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p>Tamanho do útero por idade gestacional</p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/ig-tamanho-utero.png">
+          <img src="../../pix/medicina/ig-tamanho-utero.png"></img>
+        </a>
+      </div>
+    
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carouselig .slide");
+  let legends = document.querySelectorAll(".carouselig .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anteriorig");
+  let proximo = document.getElementById("proximoig");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<br>
+<br></p>
+<h3 id="calculadora-de-naegele">Calculadora de Naegele</h3>
+<div class=calculadoras>
+<span style="color: tomato">Calculadora em construção</span>
+<br>
+    <label for="dum">Data da última menstruação:</label>
+    <br>
+    <br>
+    <div class=calendar>
+        <select id="diaDum">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select id="mesDum" required>
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="1O">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
+        <select id="anoDum">
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2028">2028</option>
+        </select>
+    </div>
+    <br>
+    <button onclick="naegele()">Calcular</button>
+    <br>
+    <br>
+    <p id="resultadoNaegele"></p>
+    <script src="../../naegele.js"></script>
+</div>
 <h2 id="rastreios">Rastreios</h2>
 <h3 id="diabetes-mellitus-gestacional">Diabetes mellitus gestacional</h3>
 <p>A gestante que se encontra entre 20 e 24 semanas sem pré-natal iniciado deve iniciá-lo e realizar teste de tolerância oral à glicose (TOTG) na 24° semana.</p>

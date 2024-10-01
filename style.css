@@ -2443,3 +2443,14 @@ div#vim {
 .icone-barra:hover {
   text-shadow: 4px 4px 4px var(--corFonte);
 }
+
+.calendar {
+  display: flex;
+}
+.calendar p::before,
+.calendar p::after{
+ content: "-";
+}
+.calendar select {
+  height: fit-content;
+}
