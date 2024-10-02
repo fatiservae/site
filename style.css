@@ -264,7 +264,7 @@
   /*
   --corH2: var(--letragradiente-dark);
   */
-  --corBarraHover: tomato;
+  --corBarraHover: darkred;
   --corListas: red; 
   --bordaEtiqueta: 1px solid darkgray;
   --bordas: 1px solid var(--corBordas);
@@ -325,11 +325,11 @@
   --corLinksHover: black;
   --corTermo: var(--pimenta);
   --link-barra: var(--tomato-gemini);
-  --fundo: #eee ; 
+  --fundo: #eee; 
   --gradfundo: linear-gradient(
                 to bottom, 
-                #26130f, 
-                #001b3f
+                lightblue,
+                #eee
                );
   --sombra: #353535;
 }
@@ -393,8 +393,11 @@
   --fundo: #22272e; 
   --gradfundo: linear-gradient(
                 to bottom, 
-                #26130f, 
-                #001b3f
+                #22272e,
+                #22272e,
+                #212121,
+                #202020,
+                #191919
                );
   --sombra: #353535;
 }
@@ -672,13 +675,13 @@ html {
 
 body {
   /*
+  background-image: var(--fundoImagem);
   */
   background: var(--fundo);
-  background-image: var(--fundoImagem);
   background-attachment: fixed;
   color: var(--corFonte) ;
   scroll-behavior: smooth ;
-  font-size: clamp(14px, calc(1.4vw - 3px), 24px);
+  font-size: clamp(14px, calc(1.5vw - 4px), 24px);
   padding: 0%;
 }
 @media only screen and (max-width: 800px){
@@ -1098,6 +1101,7 @@ img {
   border-radius: var(--raioBordas);
   box-shadow: var(--sombraImagens);
   margin-left: var(--margem);
+  margin-bottom: 2rem;
 }
 
 
@@ -1110,6 +1114,10 @@ img {
   font-size: 0.8em;
   font-style:oblique;
   max-width: 65vw;
+  margin-bottom: 2rem;
+}
+#img-div img {
+  margin-bottom: 0rem;
 }
 
 strong {
@@ -1280,6 +1288,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_emergências::before { content: "🚨 " ;}
 #tag_emergência::before { content: "🚨 " ;}
 #tag_calculadoras::before { content: "🔢 " ;}
+#tag_guias::before { content: "🔀 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
 #tag_imunologia::before { content: "💉🔬 " ;}
 #tag_urologia::before { content: "💧♂️ " ;}
@@ -1745,6 +1754,7 @@ input[name="answer"] {
   padding: 1vw;
   padding-left: 0vw;
   margin-left: var(--margem);
+  margin-bottom: 2rem;
   width: fit-content;
   border-radius: var(--raioBordas);
   border: 1px solid var(--corBordas);
@@ -1753,6 +1763,7 @@ input[name="answer"] {
 }
 .slide img{
   margin-left: 2vw;
+  margin-bottom: 0vw;
   /*
   height: 100%;
   max-width: calc(600px + 20vw); 

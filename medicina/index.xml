@@ -5,10 +5,28 @@
 	<description>Recent content in medicinas on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sun, 22 Sep 2024 09:11:42 -0300</lastBuildDate>
+	<lastBuildDate>Wed, 02 Oct 2024 18:59:35 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/medicina/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Saúde da mulher</title>
+		<link>https://www.jeffersontorres.com.br/medicina/saude-mulher/</link>
+		<pubDate>Wed, 02 Oct 2024 18:59:35 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/saude-mulher/</guid>
+		<description>&lt;h2 id=&#34;ciclos-menstruais&#34;&gt;Ciclos menstruais&lt;/h2&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../pix/medicina/ciclo_menstrual.jpg&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+</description>
+	</item>
 	
 	<item>
 		<title>Prostatopatias</title>
@@ -167,7 +185,7 @@
 	</item>
 	
 	<item>
-		<title>Classificações em nefropatias</title>
+		<title>Nefropatias</title>
 		<link>https://www.jeffersontorres.com.br/medicina/doenca-renal/</link>
 		<pubDate>Sun, 18 Aug 2024 11:10:23 -0300</pubDate>
 		
@@ -7837,7 +7855,7 @@ table{
 	</item>
 	
 	<item>
-		<title>Foto: lagarta isognatus desconhecida</title>
+		<title>Lagarta isognatus desconhecida</title>
 		<link>https://www.jeffersontorres.com.br/ciencia/isognatus/</link>
 		<pubDate>Mon, 12 Feb 2024 09:28:40 -0300</pubDate>
 		
@@ -8578,7 +8596,7 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 &lt;/ul&gt;
 &lt;p&gt;Considera-se hipertensa a grávida com &lt;strong&gt;PA de pelo menos 140mmHg de sistólica ou 90mmHg de diastólica&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Proteinúria é a &lt;strong&gt;detecção de 300mg ou mais na urina de 24h&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../injura-renal-aguda/index.html&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
+&lt;p&gt;Na ausência de proteinúria de 24h, aceita-se o diagnóstico mais prático da &lt;strong&gt;relação proteína/creatinina¹ de 0.3&lt;/strong&gt; em amostra aleatória. Considera-se, também, qualquer lesão de órgão-alvo como a &lt;a href=&#34;../medicina/doenca-renal&#34;&gt;insuficiência renal aguda&lt;/a&gt;, o edema pulmonar agudo, a disfução hepática e a trombocitopenia.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Eclâmpsia&lt;/strong&gt; é a ocorrência de &lt;mark&gt;convulsões&lt;/mark&gt; durante o diagnóstico de pré-eclâmpsia.&lt;/p&gt;
 &lt;h4 id=&#34;conduta-1&#34;&gt;Conduta&lt;/h4&gt;
 &lt;p&gt;A conduta é a &lt;strong&gt;interrupção da convulsão com sulfato de magnésio&lt;/strong&gt;.&lt;/p&gt;

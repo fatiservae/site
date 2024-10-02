@@ -20,26 +20,27 @@
       if (temaAtual === 'dark') {
       mermaid.initialize({ 
           'theme': 'base',
-          timeline: {disableMulticolor: true},
+          'timeline': {'disableMulticolor': true},
           'themeVariables': {
             'primaryColor': 'transparent',
             'primaryTextColor': '#a0acb9',
             'primaryBorderColor': '#ffdead',
             'lineColor': '#ffdead',
             'secondaryColor': '#22272e',
-            'tertiaryColor': '#fff'
+            'tertiaryColor': 'transparent'
           }
       });
     } else {
       mermaid.initialize({ 
-          theme: 'base',
-          timeline: {'disableMulticolor': true},
-          themeVariables: {
+          'theme': 'base',
+          'timeline': {'disableMulticolor': true},
+          'themeVariables': {
             'primaryColor': 'transparent',
             'primaryTextColor': '#000000',
             'primaryBorderColor': 'black',
             'lineColor': '#000000',
-            'secondaryColor': '#eee'
+            'secondaryColor': '#eee',
+            'tertiaryColor': '#eee'
           }
       });
     } 
