@@ -112,6 +112,12 @@
 		"posologias": [
 			{
 				"unidades": ["mcg", "kg", "min"],
+				"dosagem": ["0.03 a 3.3", 1, 1],
+				"instrucao": "intervalo de dose habitual no choque.",
+				"via": "intravenosa em infusão contínua"
+			},
+			{
+				"unidades": ["mcg", "kg", "min"],
 				"dosagem": [0.3, 1, 1],
 				"instrucao": "dose inicial para associar vasopressina.",
 				"via": "intravenosa em infusão contínua"

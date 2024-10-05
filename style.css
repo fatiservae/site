@@ -1040,7 +1040,8 @@ h4 {
   border: none;
   color: var(--corH4);
   margin-left: var(--margem3);
-  font-size: 110%;
+  font-size: 100%;
+  font-weight: normal;
 }
 h4::before {
   /*
