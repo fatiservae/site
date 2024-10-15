@@ -1,0 +1,15 @@
+[
+	{
+		"id": "Varicela",
+		"prog": "centrifuga",
+		"imgs": [
+			"varicela1.jpg"
+		],
+		"elem": [
+			"papulas",
+			"morbiliformes"
+		]
+	},
+	{
+	}
+]

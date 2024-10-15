@@ -5,6 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'virgil';
+    src: url('/fonts/Virgil.woff2') format('woff2'), /* Formato de fonte WOFF2 */
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
   /* CORES */
@@ -1294,6 +1300,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
 #tag_imunologia::before { content: "💉🔬 " ;}
 #tag_urologia::before { content: "💧♂️ " ;}
 #tag_epidemiologia::before { content: "😷 " ;}
+#tag_dermatologia::before { content: "🤲 " ;}
 #tag_sus::before { content: "🏥 " ;}
 #tag_história::before { content: "⌛ " ;}
 #tag_política::before { content: "🏛️ " ;}
@@ -2018,19 +2025,19 @@ nav#TableOfContents li li:last-child::before {
 .barra a{
   /*
   */
-  padding-right: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 4px;
 }
 .barra a[href]:visited, .barra a[href] {
   /*
   */
 }
 .barra a[href]:visited:hover,
-.barra a[href]:hover{
-  color: var(--corBarraHover);
-}
-
+.barra a[href]:hover,
 .barra a[href]:visited:active,
 .barra a[href]:active {
+  background: var(--fundo-input);
   color: var(--corBarraHover);
 }
 @media only screen and (max-width: 800px){
