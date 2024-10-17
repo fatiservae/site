@@ -16,15 +16,403 @@
 		<pubDate>Wed, 02 Oct 2024 18:59:35 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/saude-mulher/</guid>
-		<description>&lt;h2 id=&#34;ciclos-menstruais&#34;&gt;Ciclos menstruais&lt;/h2&gt;
+		<description>&lt;h2 id=&#34;sangramento-anormal&#34;&gt;Sangramento anormal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantidade, duração e frequência.&lt;/li&gt;
+&lt;li&gt;40% das mulheres.&lt;/li&gt;
+&lt;li&gt;Pólipo: pré e peri menopausa&lt;/li&gt;
+&lt;li&gt;Adenomiose: dor, fluxo e grande volume, variando conforme a profundidade do implante da massa.&lt;/li&gt;
+&lt;li&gt;Miomas: depende&amp;hellip;submucoso pior.&lt;/li&gt;
+&lt;li&gt;Coagulopatias: Von Willebrand. Hemofilias e disfunção plaquetária.&lt;/li&gt;
+&lt;li&gt;Ovulação: anovulação, insuficiência do corpo lúteo.&lt;/li&gt;
+&lt;li&gt;Endométrio: distúrbio da hemostasia local.&lt;/li&gt;
+&lt;li&gt;Iatrogenias: &lt;em&gt;spotting&lt;/em&gt; do ACO, AAS, tamoxifeno e corticoides.&lt;/li&gt;
+&lt;li&gt;Causas extras: má formação vascular, hipertrofia de endométrio, istmocele e causas mullerianas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Tipo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Causa&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Estruturais&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;P&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pólipo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;A&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Adenomiose&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;L&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Leiomioma&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;M&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Malignidade&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Funcionais&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;C&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Coagulopatia&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;O&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ovulação disfuncional&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;E&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Endométrio hiperplásico&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;I&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Iatrogenia&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;N&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Não classificadas&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;amenorreia&#34;&gt;Amenorreia&lt;/h2&gt;
+&lt;p&gt;Primária: nunca menstruou.
+Secundária: parou de menstruar.&lt;/p&gt;
+&lt;p&gt;FEBRASGO: 13 anos sem caracteres secundários&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
 
 
 
-  &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../../pix/medicina/ciclo_menstrual.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/ciclo_menstrual.jpg&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/ciclo_menstrual.jpg&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
   &lt;/div&gt;
 
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/eixo-fem.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/eixo-fem.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior&#34;);
+  let proximo = document.getElementById(&#34;proximo&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h3 id=&#34;primárias&#34;&gt;Primárias&lt;/h3&gt;
+&lt;p&gt;Rokitansky: 46XX sem útero.
+Morris: 46XY tem testículo com antimulleriano e testosterona sem ação periférica. Regride útero. Gonadectomia.&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carousel2&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior2&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo2&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/causas.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/causas.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/gentico.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/gentico.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/flux.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/flux.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel2 .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel2 .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior2&#34;);
+  let proximo = document.getElementById(&#34;proximo2&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;h4 id=&#34;disgenesias-gonadas---fsh-alto-e-falta-caracters-secundários&#34;&gt;Disgenesias gonadas - FSH alto e falta caracters secundários:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Turner 45X0: atresia de folículos, sem caracters secundários. Má formações. FSH alto. Estradiol baixo. Trata com hormônio.&lt;/li&gt;
+&lt;li&gt;Agenesia 46XX: sem estigmas. Trata com hormônio.&lt;/li&gt;
+&lt;li&gt;Swyer 46XY: Tem testículo, não produz nada. Acaba tendo útero mas sem a parte do eixo gonadal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;hipotalâmica&#34;&gt;Hipotalâmica:&lt;/h4&gt;
+&lt;p&gt;Deficiência na produção de GnRH. Tratamento é TH.&lt;/p&gt;
+&lt;h3 id=&#34;secundárias&#34;&gt;Secundárias&lt;/h3&gt;
+&lt;p&gt;3 meses sem menstruar ou menos de 9 por ano.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Principal síndrome de Asherman - curetagem ou manipulação causa sinéquias/fibroses intrauterinas.&lt;/li&gt;
+&lt;li&gt;Ovarianas: SOP, falência prematura e hiperandro&lt;/li&gt;
+&lt;li&gt;hiperandrogenismo LH &amp;gt; FSH por Critérios de Rotterdam&lt;/li&gt;
+&lt;li&gt;Amenorreia funcional: exercícios físicos, estresse. Cortisol alto, endorfinas altas, baixa leptina etc&amp;hellip;todos inibem GnRH.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Na falência precoce tem que repor hormônios.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hipofisária: hiperprolactinemia (aumenta dopamina por causa da prolactina, a dopa derruba GnRH). Uso de medicações, como metoclopramida, antipsicótiocs como risperidona. Se prolactina &amp;gt; 100 procurar o tumor.&lt;/li&gt;
+&lt;li&gt;Sheehan: isquemia da hipófise. Tratamento: mineralcorticoides.&lt;/li&gt;
+&lt;/ul&gt;
+
+ 
+&lt;div class=&#34;carousel3&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior3&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo3&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/sec.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/sec.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel3 .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel3 .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior3&#34;);
+  let proximo = document.getElementById(&#34;proximo3&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Hipotireoidismo com aumento do TRH e TSH causando hiperprolactinemia e amenorreia.&lt;/li&gt;
+&lt;/ul&gt;
+
+ 
+&lt;div class=&#34;carousel4&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anterior4&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximo4&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+
+
+
+  &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+  &lt;div class=&#34;slide&#34;&gt;
+    &lt;a href=&#34;../../pix/medicina/rot.png&#34;&gt;
+      &lt;img src=&#34;../../pix/medicina/rot.png&#34;&gt;&lt;/img&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carousel4 .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carousel4 .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anterior4&#34;);
+  let proximo = document.getElementById(&#34;proximo4&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;p&gt;Teste da progesterona é dar progesterona por 15 dias.
+Teste do estrogênio e progesterona: é pra menstruar! Se não é Asherman.&lt;/p&gt;
 </description>
 	</item>
 	

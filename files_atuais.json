@@ -156,6 +156,15 @@
     "path": "Medicina/Ginecologia e obstetrícia"
   },
   {
+    "name": "Sangramento-Uterino-Anormal-FEBRASGO-2018.pdf",
+    "subjects": [
+      "Medicina",
+      "Ginecologia e obstetrícia"
+    ],
+    "size": "1.07 MB",
+    "path": "Medicina/Ginecologia e obstetrícia"
+  },
+  {
     "name": "febrasgo-feminina-diabetes-mellitus-2019.pdf",
     "subjects": [
       "Medicina",
@@ -242,15 +251,6 @@
       "Manuais médicos"
     ],
     "size": "2.46 KB",
-    "path": "Medicina/Manuais médicos"
-  },
-  {
-    "name": "relatorio-medico-hemodialise-defensoria-publica.pdf",
-    "subjects": [
-      "Medicina",
-      "Manuais médicos"
-    ],
-    "size": "36.00 KB",
     "path": "Medicina/Manuais médicos"
   },
   {

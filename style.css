@@ -383,7 +383,7 @@
   --headings: navajowhite ;
   --corBordas: #383f48 ;
   --fundo-invertido: var(--solarized) ;
-  --fundo-input: #313131;
+  --fundo-input: #404040;
   --separador: #383f48 ;
   --corFonte: #a0acb9 ;
   --corFonteInvertida: black;
@@ -2012,7 +2012,7 @@ nav#TableOfContents li li:last-child::before {
 
 .barra {
   margin-top: 1rem;
-  margin-left: var(--margem);
+  margin-left: calc(var(--margem) - 0.5rem);
   font-size: 110%;
   font-weight: bolder;
   white-space: nowrap;
@@ -2027,6 +2027,7 @@ nav#TableOfContents li li:last-child::before {
   */
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  padding-top: 0.3rem;
   border-radius: 4px;
 }
 .barra a[href]:visited, .barra a[href] {
