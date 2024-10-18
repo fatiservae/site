@@ -143,7 +143,7 @@
   /* PROPRIEDADES */
   --iconeBarraSize: 30px;
   scrollbar-color: var(--barraRolagem) var(--fundo);
-  --margem: 5vw;
+  /* --margem: 5vw; */
   --margem2: 7vw;
   --margem3: 9vw;
   --margem4: 11vw;
@@ -182,90 +182,7 @@
     background-color: var(--corFundoSelecao); 
     color: var(--corSelecao);
 }
-:root[data-tema="laranja"] {
-  --bordaEtiqueta: 1px solid var(--laranja-servo);
-  --gradiente-dark: initial;
-  --gradiente-light: initial;
-  --bordas: 1px solid var(--laranja);
-  --corBordas: var(--laranja);
-  --corMark: black ;
-  --corProgressBar: var(--laranja);
-  --imageBackgroundHeadings: none;
-  --corH1: var(--laranja);
-  --corH2: var(--laranja);
-  --corH3: var(--laranja);
-  --corH4: var(--laranja);
-  --bordasHeading: initial;
-  --fundoHeading: var(--laranja);
-  --corFundoCode: initial;
-  --barraRolagem: var(--laranja);
-  --highlightCor: var(--laranja);
-  --corBarraSelecionado: initial;
-  --fundo-card: initial ;
-  --corH2-gradiente: initial ;
-  --background-img: initial ;
-  --hover-botao: initial ;
-  --corNegrito: var(--abobora-google);
-  --switch-shadow: initial;
-  --fundo-carousel: initial;
-  --corTextoCode: initial;
-  --strong-color: initial;
-  --texto-dim: initial;
-  --letragradiente: initial;
-  --katex-color: initial;
-  --corBotao: initial;
-  --corFundoHoverBotao: initial;
-  --headings: initial;
-  --fundo-invertido: initial;
-  --fundo-input: var(--ferrugem3);
-  --separador: initial;
-  --corFonte: navajowhite ;
-  --corFonteInvertida: initial;
-  --frase: #eee;
-  --fraseShow: white ;
-  --fraseHover: navajowhite ;
-  --sticker-fundo: initial;
-  --corLinks: var(--laranja);
-  --corLinksVisitados: var(--laranja-servo);
-  --corLinksHover: var(--laranja-servo);
-  --corTermo: var(--laranja2);
-  --link-barra: initial;
-  --fundo: #181818 ;
-  --gradfundo: initial;
-  --sombra: none;
-}
-:root[data-tema="raiz"] { /* DEAD? */
-  all: initial;
-  --fundo: initial;
-  scrollbar-color: initial;
-  --margem: initial;
-  --margem2: initial;
-  --margem3: initial;
-  --margem4: initial;
-  --margem5: initial;
-  --corH4: initial;
-  --h4BeforeContent: initial;
-  --bordas: initial;
-  --corFonteBarraHover: initial;
-  --displayFigurasFundo: initial;
-  --bordasButao: initial;
-  --fundoSticker: initial;
-  --raioCampos: initial;
-  --sombraCaixas: initial;
-  --sombraImagens: initial;
-  --raioBordas: initial;
-  --largura-texto: initial;
-  --clipHeading: initial;
-  --corFundoSelecao: initial;
-  --corSelecao: initial;
-  --h3BeforeContent: initial;
-  /*margin-left: 5vw;*/
-  max-width: 650px;
-  line-height: 1.6;
-  font-size: 12px;
-  color: #444;
-  padding: 0 10px;
-}
+
 :root[data-tema="light"] { 
   /*
   --corH2: var(--letragradiente-dark);
@@ -331,7 +248,7 @@
   --corLinksHover: black;
   --corTermo: var(--pimenta);
   --link-barra: var(--tomato-gemini);
-  --fundo: #eee; 
+  --fundo: #ffe; 
   --gradfundo: linear-gradient(
                 to bottom, 
                 lightblue,
@@ -682,13 +599,17 @@ html {
 body {
   /*
   background-image: var(--fundoImagem);
+  padding: 0%;
   */
+  padding: 2ch;
+  max-width: 80ch;
+  margin-left: auto;
+  margin-right: auto;
   background: var(--fundo);
   background-attachment: fixed;
   color: var(--corFonte) ;
   scroll-behavior: smooth ;
-  font-size: clamp(14px, calc(1.5vw - 4px), 24px);
-  padding: 0%;
+  font-size: clamp(16px, calc(2vw - 5px), 24px);
 }
 @media only screen and (max-width: 800px){
   body{
@@ -829,7 +750,6 @@ p[id^="resultado"]{
   */
   border: var(--bordaEtiqueta);
   overflow: wrap;
-  margin-left: var(--margem);
   padding: 0.5em;
   margin-right: auto;
   max-width: var(--largura-texto);
@@ -895,7 +815,6 @@ div#code, p code, pre, blockquote {
   font-family: "Source Code Pro";
   padding: 1rem;
   padding-top: 5px;
-  margin-left: var(--margem);
   box-shadow: var(--sombraCaixas);
   font-size: 80%;
   max-width: calc(var(--largura-texto) + 5px);
@@ -1002,17 +921,18 @@ h1, h3, h2 , h4, h5{
   padding-right: .5rem;
   margin: 0vw;
   margin-bottom: 1vw;
-  margin-left: var(--margem);
   text-indent: 0% ;
   text-align: start;
   max-width: var(--largura-texto);
   width: fit-content;
 }
+h1::before, h3::before, h2::before, h4::before, h5::before{
+  content: "# ";
+}
 h2 {
   /*
   color: var(corH2);
   */
-  margin-left: var(--margem);
   margin-top: 3rem;
 }
 h2::before {
@@ -1023,30 +943,27 @@ h2::before {
 }
 h1 {
   color: var(--corH1);
-  margin-left: var(--margem);
   padding: 0em;
   margin-top: 1em;
   font-size: 150%;
 }
 h3 {
   color: var(--corH3);
-  margin-left: var(--margem2);
   font-size: 115%;
 }
 h3::before {
   /*
   color: var(--corNegrito);
   content: var(--h3BeforeContent);
-  */
   content: "— ";
+  */
 }
 h4 {
   background: none;
   box-shadow: none;
   border: none;
   color: var(--corH4);
-  margin-left: var(--margem3);
-  font-size: 100%;
+  font-size: 110%;
   font-weight: normal;
 }
 h4::before {
@@ -1064,8 +981,8 @@ h5 {
   font-size: 100%;
 }
 h5::before {
-  content: "— ";
   /*
+  content: "— ";
   content: var(--h4BeforeContent);
   color: var(--corNegrito);
   */
@@ -1232,6 +1149,7 @@ input#search {
   text-align: start;
   text-indent: 50px;
   outline: none;
+  margin-bottom: 3ch;
 }
 input#search:focus{
   border: 1px solid var(--corLinksVisitados);
@@ -1245,10 +1163,15 @@ input#search::placeholder {
 p input#search { /* Não sei de onde saiu esse p na _index... */
   margin-left: 0;
 }
-.search {
-  width: 45vw; 
+
+.search #search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70ch; 
+  max-width: 80vw;
 }
 .lupa{
+  /*  Deprecated
   pointer-events: none; 
   display: block; 
   width: 1.5em; 
@@ -1258,6 +1181,7 @@ p input#search { /* Não sei de onde saiu esse p na _index... */
   left: 6vw; 
   top: 0.5em; 
   position: absolute;
+  */
 }
 
 .matched-recipe {
@@ -1456,7 +1380,6 @@ table {
   border: var(--bordas);
   overflow: hidden;
   box-shadow: var(--sombraCaixas);
-  margin-left: var(--margem);
   margin-right: 5vw;
   max-width: 70vw;
 }
@@ -1541,11 +1464,12 @@ ol#artlist {
   width: 90%;
   max-width: 90vw;
   text-align: start;
-  margin-left: 0vw;
-  padding-left: 5vw;
+  margin: 0vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0vw;
 }
 #artlist li {
-  margin-left: 0vw;
 }
 #artlist li:nth-child(n+31) {
   display: none;
@@ -1761,7 +1685,6 @@ input[name="answer"] {
   */
   padding: 1vw;
   padding-left: 0vw;
-  margin-left: var(--margem);
   margin-bottom: 2rem;
   width: fit-content;
   border-radius: var(--raioBordas);
@@ -1799,8 +1722,9 @@ div.slide a img {
   */
 }
 .button-container {
-  margin-left: var(--margem);
+  margin-left: 0.5rem;
 /* 
+  margin-left: var(--margem);
   align: center;
   margin: auto;
   margin-top: none;
@@ -1910,6 +1834,7 @@ button[id^="anterior"]:active{
 */
 }
 .conteudo .legend {
+  margin-left: 0.5rem;
   font-size: 100%;
   color: var(--font); 
   font-style: italic;
@@ -2012,11 +1937,11 @@ nav#TableOfContents li li:last-child::before {
 
 .barra {
   margin-top: 1rem;
-  margin-left: calc(var(--margem) - 0.5rem);
   font-size: 110%;
   font-weight: bolder;
   white-space: nowrap;
   /*
+  margin-left: calc(var(--margem) - 0.5rem);
   */
 }
 #icone-tema {
@@ -2031,6 +1956,7 @@ nav#TableOfContents li li:last-child::before {
   border-radius: 4px;
 }
 .barra a[href]:visited, .barra a[href] {
+  background: var(--fundo-input);
   /*
   */
 }
@@ -2038,7 +1964,7 @@ nav#TableOfContents li li:last-child::before {
 .barra a[href]:hover,
 .barra a[href]:visited:active,
 .barra a[href]:active {
-  background: var(--fundo-input);
+  background: var(--vidro);
   color: var(--corBarraHover);
 }
 @media only screen and (max-width: 800px){
