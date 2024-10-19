@@ -90,9 +90,9 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
     let temaEspecificado = localStorage.getItem('temaEspecificado');
   
     if (temaAtual == "dark"){
-      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      document.getElementById("nomeTema").innerHTML = "Noite";
     } else if (temaAtual == "light") {
-      document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      document.getElementById("nomeTema").innerHTML = "Dia";
     }
   
     if (temaEspecificado == "true") {
@@ -100,12 +100,12 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
     } else if (temaAtual == "dark") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
-      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      document.getElementById("nomeTema").innerHTML = "Noite";
       setNomeTema();
     } else {
       document.documentElement.setAttribute('data-tema', "light");
       localStorage.setItem('tema', "light"); 
-      document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      document.getElementById("nomeTema").innerHTML = "Dia";
     }
   
     function temaEspecifico(nome) {
@@ -113,7 +113,7 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
         document.documentElement.setAttribute('data-tema', "light")
         localStorage.setItem('temaEspecificado', "false"); 
         localStorage.setItem('tema', "light"); 
-        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+        document.getElementById("nomeTema").innerHTML = "Dia";
       } else if (nome !== undefined) {
         document.documentElement.setAttribute('data-tema', nome)
         localStorage.setItem('temaEspecificado', "true"); 
@@ -128,11 +128,11 @@ Uma lista de aplicativos acessíveis via usb vão aparecer. Escolha qual app des
       if (temaAtual == "light") {
         document.documentElement.setAttribute('data-tema', "dark");
         localStorage.setItem('tema', "dark"); 
-        document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+        document.getElementById("nomeTema").innerHTML = "Noite";
       } else {
         document.documentElement.setAttribute('data-tema', "light");
         localStorage.setItem('tema', "light"); 
-        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+        document.getElementById("nomeTema").innerHTML = "Dia";
       }
   
       

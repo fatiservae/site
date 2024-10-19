@@ -120,9 +120,9 @@ Estima-se que, em todo o mundo, uma em cada 160 crianças tem transtorno do espe
     let temaEspecificado = localStorage.getItem('temaEspecificado');
   
     if (temaAtual == "dark"){
-      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      document.getElementById("nomeTema").innerHTML = "Noite";
     } else if (temaAtual == "light") {
-      document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      document.getElementById("nomeTema").innerHTML = "Dia";
     }
   
     if (temaEspecificado == "true") {
@@ -130,12 +130,12 @@ Estima-se que, em todo o mundo, uma em cada 160 crianças tem transtorno do espe
     } else if (temaAtual == "dark") {
       document.documentElement.setAttribute('data-tema', "dark");
       localStorage.setItem('tema', "dark"); 
-      document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+      document.getElementById("nomeTema").innerHTML = "Noite";
       setNomeTema();
     } else {
       document.documentElement.setAttribute('data-tema', "light");
       localStorage.setItem('tema', "light"); 
-      document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+      document.getElementById("nomeTema").innerHTML = "Dia";
     }
   
     function temaEspecifico(nome) {
@@ -143,7 +143,7 @@ Estima-se que, em todo o mundo, uma em cada 160 crianças tem transtorno do espe
         document.documentElement.setAttribute('data-tema', "light")
         localStorage.setItem('temaEspecificado', "false"); 
         localStorage.setItem('tema', "light"); 
-        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+        document.getElementById("nomeTema").innerHTML = "Dia";
       } else if (nome !== undefined) {
         document.documentElement.setAttribute('data-tema', nome)
         localStorage.setItem('temaEspecificado', "true"); 
@@ -158,11 +158,11 @@ Estima-se que, em todo o mundo, uma em cada 160 crianças tem transtorno do espe
       if (temaAtual == "light") {
         document.documentElement.setAttribute('data-tema', "dark");
         localStorage.setItem('tema', "dark"); 
-        document.getElementById("nomeTema").innerHTML = "Tema: Noite";
+        document.getElementById("nomeTema").innerHTML = "Noite";
       } else {
         document.documentElement.setAttribute('data-tema', "light");
         localStorage.setItem('tema', "light"); 
-        document.getElementById("nomeTema").innerHTML = "Tema: Dia";
+        document.getElementById("nomeTema").innerHTML = "Dia";
       }
   
       
