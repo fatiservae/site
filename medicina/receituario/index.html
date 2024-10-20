@@ -103,11 +103,14 @@
             
             
     
-            Assinante:
-            
+    Assinante:
+    
+    
     
     
     Nome do arquivo:
+    
+    
     
     
     Gerar PDF
@@ -234,8 +237,6 @@
 .rodape {
 }
 .documento {
-  margin-left: 5vw;
-  margin-right: 15vw;
 }
 .container {
   width: 80%;
@@ -406,13 +407,16 @@ Que centralizam automaticamente"></textarea>
             </select>
             <br>
     <br>
-            <label for="assinatura">Assinante:</label>
-            <input type="text" id="assinatura" placeholder="Dr. Fulano" required>
+    <label for="assinatura">Assinante:</label>
+    <br>
+    <input type="text" id="assinatura" placeholder="Dr. Fulano" required>
     </div>
     <br>
     <label for="nomeArquivo">Nome do arquivo:</label>
     <br>
     <input type="text" id="nomeArquivo" placeholder="meu_documento" required>
+    <br>
+    <br>
     <button onclick="generatePDF()">Gerar PDF</button>
 </div>
 <script src="../../receituario.js"></script>

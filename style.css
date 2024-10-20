@@ -929,7 +929,9 @@ h1, h3, h2 , h4, h5{
   width: fit-content;
 }
 h1::before, h3::before, h2::before, h4::before, h5::before{
-  content: "# ";
+  /*
+  content: "\2022  ";
+  */
 }
 h2 {
   /*
@@ -1535,13 +1537,13 @@ li a:hover {
   text-indent: 0% !important ;
   max-width: 60vw ;
   width: fit-content ;
+  font-size: 90%;
   text-align: start ;
 }
 #frase{
   /* 
   */
   margin-left: var(--margem);
-  font-size: 110%;
   transition: filter 2.5s ease-in-out, color 4s ease-in-out ;
   align: center ;
   text-align: center ;
@@ -1630,9 +1632,9 @@ p {
   /*
   margin-right: auto;
   text-indent: 3%;
+  margin-left: var(--margem);
   */
   max-width: var(--largura-texto);
-  margin-left: var(--margem);
   text-align: start;
 }
 #question-container {

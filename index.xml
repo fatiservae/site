@@ -1948,8 +1948,6 @@ Art. 66 - A pena poderá ser ainda atenuada em razão de circunstância relevant
 .rodape {
 }
 .documento {
-  margin-left: 5vw;
-  margin-right: 15vw;
 }
 .container {
   width: 80%;
@@ -2120,13 +2118,16 @@ Que centralizam automaticamente&#34;&gt;&lt;/textarea&gt;
             &lt;/select&gt;
             &lt;br&gt;
     &lt;br&gt;
-            &lt;label for=&#34;assinatura&#34;&gt;Assinante:&lt;/label&gt;
-            &lt;input type=&#34;text&#34; id=&#34;assinatura&#34; placeholder=&#34;Dr. Fulano&#34; required&gt;
+    &lt;label for=&#34;assinatura&#34;&gt;Assinante:&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=&#34;text&#34; id=&#34;assinatura&#34; placeholder=&#34;Dr. Fulano&#34; required&gt;
     &lt;/div&gt;
     &lt;br&gt;
     &lt;label for=&#34;nomeArquivo&#34;&gt;Nome do arquivo:&lt;/label&gt;
     &lt;br&gt;
     &lt;input type=&#34;text&#34; id=&#34;nomeArquivo&#34; placeholder=&#34;meu_documento&#34; required&gt;
+    &lt;br&gt;
+    &lt;br&gt;
     &lt;button onclick=&#34;generatePDF()&#34;&gt;Gerar PDF&lt;/button&gt;
 &lt;/div&gt;
 &lt;script src=&#34;./receituario.js&#34;&gt;&lt;/script&gt;
@@ -9620,7 +9621,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;li&gt;Aumento do índice cardíaco e da resistência vascular sistêmica em menor grau, com aumento da pressão arterial.&lt;/li&gt;
 &lt;li&gt;Hiperlactatemia com acidose metabólica, além de disritmias, isquemia e hipoglicemia.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;dopamina&#34;&gt;Dopamina:&lt;/h3&gt;
+&lt;h3 id=&#34;dopamina&#34;&gt;Dopamina&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Precursora natural da noradrenalina e adrenalina.&lt;/li&gt;
 &lt;/ul&gt;
