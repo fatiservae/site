@@ -5,10 +5,86 @@
 	<description>Recent content in medicina on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Wed, 02 Oct 2024 18:59:35 -0300</lastBuildDate>
+	<lastBuildDate>Sun, 20 Oct 2024 19:17:11 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/tags/medicina/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Neonatologia e recém-nascidos</title>
+		<link>https://www.jeffersontorres.com.br/medicina/neonatologia/</link>
+		<pubDate>Sun, 20 Oct 2024 19:17:11 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/neonatologia/</guid>
+		<description>&lt;h2 id=&#34;icterícia&#34;&gt;Icterícia&lt;/h2&gt;
+&lt;h3 id=&#34;causas&#34;&gt;Causas:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Poliglobulia natural da hipóxia uterina;&lt;/li&gt;
+&lt;li&gt;Meia vida curta por ser Hb-fetal;&lt;/li&gt;
+&lt;li&gt;Ordenha incorreta ou excessiva de cordão no sentido fetal;&lt;/li&gt;
+&lt;li&gt;Baixa captação hepática de bilirrubina, principalmente nos prematuros;&lt;/li&gt;
+&lt;li&gt;Baixa concentração de enzimas conjugadoras de bilirrubina direta para eliminação;&lt;/li&gt;
+&lt;li&gt;Lenta excreção por atividade intestinal; e&lt;/li&gt;
+&lt;li&gt;Alta concentração de beta-glucuronidases que promovem a bilirrubina indireta.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;classificações&#34;&gt;Classificações&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Valores séricos normais até 13.&lt;/li&gt;
+&lt;li&gt;Antes de 24h é sempre precoce&lt;sup&gt;1&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;A fisiológica é tardia, sempre após 36h.&lt;/li&gt;
+&lt;li&gt;É prolongada se dura mais de 15 dias.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;valores&#34;&gt;Valores&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Acima de 5 é visível ao olho nu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;zonas-de-kramer&#34;&gt;Zonas de Kramer&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;4 a 8mg/dL : &lt;strong&gt;cabeça e pescoço&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;5 a 12mg/dL : &lt;strong&gt;até cicatriz umbilical&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;8 a 16.5mg/dL : &lt;strong&gt;até joelhos&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;11 a 18mg/dL : &lt;strong&gt;braços e pernas até punho e tornozelos&lt;/strong&gt;; e&lt;/li&gt;
+&lt;li&gt;15mg/dL ou mais : &lt;strong&gt;pés e mãos&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A partir de zona 3, o valor de bilirrubina pode exceder o fisiológico e está formalmente indicada a investigação com bilirrubinômetro ou sérica direta.&lt;/p&gt;
+&lt;h3 id=&#34;fatores-de-risco&#34;&gt;Fatores de risco&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Prematuriedade &amp;ndash; antes das 37 e 39 semanas &amp;ndash; e pós-datismo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;encefalopatia-bilirrubínica&#34;&gt;Encefalopatia bilirrubínica&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Déficits neurológicos, principalmente auditivo;&lt;/li&gt;
+&lt;li&gt;Quase irreversível.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bilirrubinômetro&#34;&gt;Bilirrubinômetro&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Alto valor preditivo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conduta&#34;&gt;Conduta&lt;/h3&gt;
+&lt;p&gt;Investigar sempre que zona de Kramer acima de 3, fatores de risco presentes, antes de 36h ou recém-nascido sem ganho de peso.&lt;/p&gt;
+&lt;h4 id=&#34;investigação&#34;&gt;Investigação&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Hemograma: bilirrubinemia,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O fator Rhesus torna mais grave a incompatibilidade sanguínea porque o antígeno é exclusivamente apresentado nas hemoglobinas, já os antígenos AB estão presentes em outros tecidos, diluindo o efeito e avidez das imunoglobulinas.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/medicina/maisel-nomogram.png&#34;&gt;&lt;/img&gt;
+    &lt;p&gt;Nomograma de Maisel&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Exame físico abdominal para investigar visceromegalias.&lt;/p&gt;
+&lt;p&gt;Fototerapia.&lt;/p&gt;
+&lt;p&gt;Na ocasião da alta, orientar sobre as zonas 3 em diante de Kramer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;As referências divergem mas é consenso que antes das 24h se trata de icterícia precoce.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Saúde da mulher</title>
