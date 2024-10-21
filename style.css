@@ -2241,9 +2241,11 @@ div#counter {
 .calculadoras p {
   margin-left: 0vw;
 }
-.calculadoras h2 {
-  margin-left: 1vw;
-  margin-top: 0;
+.calculadoras h2,
+.calculadoras h4 {
+  margin: 0;
+  padding: 0;
+  padding-top: 2vw;
 }
 .calculadoras h2::before {
   content: none;
