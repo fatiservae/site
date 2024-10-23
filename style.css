@@ -152,7 +152,7 @@
   --h4BeforeContent: "-- ";
   --bordas: 1px solid var(--corFonte);
   --corFonteBarraHover: var(--corNegrito);
-  --temaFonte: "Fira Sans Condensed" ;
+  --temaFonte: "Fira Sans" ;
   --displayFigurasFundo: block;
   --bordasButao: 8px;
   --fundoSticker: var(--gradiente-dark);
