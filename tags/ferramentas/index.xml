@@ -6501,7 +6501,74 @@ Acelera a morte
 Na deficiência da subunidade alfa, também chamada alfatalassemia, e alternativamente quando deficiente a subunidade beta, também chamada betatalassemia. Em todo caso, o volume corpuscular é aumentado ou próximo de normal, nunca microcítica.&lt;/p&gt;
 &lt;p&gt;Os sintomas são os comuns de anemias, necessitando de transfusões frequentes e o tratamento definitivo é a transfusão de medula.&lt;/p&gt;
 &lt;h2 id=&#34;algoritmo-de-investigação&#34;&gt;Algoritmo de investigação&lt;/h2&gt;
-&lt;p&gt;Em breve.&lt;/p&gt;
+&lt;table&gt;
+       &lt;tr&gt;
+           &lt;th&gt;&lt;/th&gt;
+           &lt;th class=&#34;header-cell&#34;&gt;RDW: 11-14,5%&lt;/th&gt;
+           &lt;th class=&#34;header-cell&#34;&gt;RDW &gt; 14,5%&lt;/th&gt;
+       &lt;/tr&gt;
+       &lt;tr&gt;
+           &lt;td class=&#34;vcm-column&#34;&gt;VCM &lt; 80&lt;/td&gt;
+           &lt;td&gt;
+               &lt;div class=&#34;diagnostic-cell&#34;&gt;MICROCITOSE HOMOGÊNEA&lt;/div&gt;
+               &lt;div class=&#34;conditions&#34;&gt;
+                   • Talassemias heterozigotas&lt;br&gt;
+                   • Anemia de doença crônica
+               &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+               &lt;div class=&#34;diagnostic-cell&#34;&gt;MICROCITOSE HETEROGÊNEA&lt;/div&gt;
+               &lt;div class=&#34;conditions&#34;&gt;
+                   • Ferropriva evidente&lt;br&gt;
+                   • Fragmentação de hemácias&lt;br&gt;
+                   • Sideroblástica
+               &lt;/div&gt;
+           &lt;/td&gt;
+       &lt;/tr&gt;
+       &lt;tr&gt;
+           &lt;td class=&#34;vcm-column&#34;&gt;VCM 80-100&lt;/td&gt;
+           &lt;td&gt;
+               &lt;div class=&#34;diagnostic-cell&#34;&gt;NORMOCITOSE HOMOGÊNEA&lt;/div&gt;
+               &lt;div class=&#34;conditions&#34;&gt;
+                   • Anemia de doença crônica&lt;br&gt;
+                   • Hemoglobinopatias não anêmicas&lt;br&gt;
+                   • Transfusão&lt;br&gt;
+                   • Doenças oncohematológicas&lt;br&gt;
+                   • Hemorragia
+               &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+               &lt;div class=&#34;diagnostic-cell&#34;&gt;NORMOCITOSE HETEROGÊNEA&lt;/div&gt;
+               &lt;div class=&#34;conditions&#34;&gt;
+                   • Deficiências mistas&lt;br&gt;
+                   • Deficiência de Fe ou Folato no início&lt;br&gt;
+                   • Hemoglobinopatias anêmicas&lt;br&gt;
+                   • Mielofibrose&lt;br&gt;
+                   • Sideroblástica
+               &lt;/div&gt;
+           &lt;/td&gt;
+       &lt;/tr&gt;
+       &lt;tr&gt;
+           &lt;td class=&#34;vcm-column&#34;&gt;VCM &gt; 100&lt;/td&gt;
+           &lt;td&gt;
+               &lt;div class=&#34;diagnostic-cell&#34;&gt;MACROCITOSE HOMOGÊNEA&lt;/div&gt;
+               &lt;div class=&#34;conditions&#34;&gt;
+                   • Anemia Aplástica&lt;br&gt;
+                   • Mielodisplasias
+               &lt;/div&gt;
+           &lt;/td&gt;
+           &lt;td&gt;
+               &lt;div class=&#34;diagnostic-cell&#34;&gt;MACROCITOSE HETEROGÊNEA&lt;/div&gt;
+               &lt;div class=&#34;conditions&#34;&gt;
+                   • Deficiência folato, B12&lt;br&gt;
+                   • AHAI&lt;br&gt;
+                   • Crioaglutininas&lt;br&gt;
+                   • LLC com hiperleucocitose&lt;br&gt;
+                   • Sideroblástica
+               &lt;/div&gt;
+           &lt;/td&gt;
+       &lt;/tr&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;tratamentos&#34;&gt;Tratamentos&lt;/h2&gt;
 &lt;h3 id=&#34;calculadora-de-reposição-de-ferro&#34;&gt;Calculadora de reposição de ferro&lt;/h3&gt;
 &lt;p&gt;Estima-se que a administração de 400 mg do ferro sacarato seja capaz de aumentar em pelo menos 1g/dL a concentração de hemoglobina, o que corresponde ao incremento esperado quando se administra uma unidade de concentrado de hemácias.&lt;/p&gt;
@@ -9071,6 +9138,19 @@ Corticoide
 faz com intervalo de 24h??
 Como faz ac. tranaxemico
 Noripurum etc&lt;/p&gt;
+&lt;h2 id=&#34;pós-parto&#34;&gt;Pós-parto&lt;/h2&gt;
+&lt;p&gt;Baby blues:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sintomas: Irritabilidade, tristeza leve, fadiga, mudanças de humor e choro fácil.
+Duração: 2 a 3 semanas após o parto.
+Gravidade: Sintomas leves e transitórios, não interferem significativamente nas atividades diárias.
+Tratamento: Normalmente não requer intervenção; melhora espontânea.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Depressão pós-parto:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sintomas: Tristeza profunda, perda de interesse, insônia ou hipersonia, fadiga extrema, sentimentos de culpa ou inutilidade, dificuldade em cuidar do bebê.
+Duração: Mais de 2 semanas, podendo durar meses se não tratada.
+Gravidade: Interfere nas atividades diárias e no vínculo com o bebê.
+Tratamento: Necessita de intervenção, como psicoterapia e/ou medicamentos antidepressivos.
+&lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
