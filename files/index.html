@@ -11,13 +11,6 @@
   <link rel="icon" href="../favicon.webp">
   <meta name="description" content="
 
-
-
-
-
-
-
-
 ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -37,9 +30,11 @@
   <nav class=barra>
       <a href="../index.html">Início</a>
       <a href="../files/">Arquivos</a>
-      <a href="#" id="nomeTema" onclick="tema()">Tema</a>
-    <div class="search">
-      <input type="text" id="search" placeholder="busca..."></input>
+      <a href="#" id="nomeTema" onclick="tema()">tema()</a>
+    <div>
+      
+        <script>const noglobalsearch = false </script>
+      <input type="text" id="globalsearch" placeholder="busca..."></input>
       <ul id="artlist">
         <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/medicina/neonatologia/">Neonatologia e recém-nascidos</a></li>
         <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/medicina/saude-mulher/">Saúde da mulher</a></li>
@@ -146,26 +141,9 @@
   
   
   
-    <!--
-<div style="display:flex; align-content:center;">
-<span class="etiqueta">
-⚠️
-<br>
-Para os arquivos guardados por algum direito autoral, ao clicar você será levado a respectiva página de aquisição.
-<br>
-Para os arquivos que eu entendo não estarem sob restrição, fará o download.
-</span>
-</div> 
--->
-<br>
-<div class="search" style="position: relative;">
-<input type="text" id="search" placeholder="procure aqui">
-<svg class="lupa" xmlns="http://www.w3.org/2000/svg" stroke-width="1.09" enable-background="new 0 0 24 24" height="14px" viewBox="0 0 24 24" width="4px" focusable="false"><path d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"></path></svg>
-</input>
-</div>
+    <p><input type="text" id="search" placeholder="procure aqui"></input></p>
 <script src="../files.js"></script>
-<ul id="files">
-</ul>
+<ul id="files"></ul>
 
   
   

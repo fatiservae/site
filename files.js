@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const searched = document.getElementById('files');
-//  const search = document.getElementById("search");
+  const search = document.getElementById("search");
 
   // A variável searched deve ser incrementada com os 
   // dados que vão sofrer a busca.
@@ -24,15 +24,14 @@ document.addEventListener("DOMContentLoaded", () => {
           "<a href=\""+
           caminho+
           "\">"+nome+
-          "</a><br><span style=\"color: var(--termo);\">Tamanho: </span>"+
+          "</a><br><span style=\"color: var(--corTermo);\">Tamanho: </span>"+
           size+
-          "<br><span style=\"color: var(--termo);\">Assuntos: </span>"+
+          "<br><span style=\"color: var(--corTermo);\">Assuntos: </span>"+
           temas
       searched.appendChild(listItem);
     }
   })
   .catch(error => console.error('Erro no fetch JSON:', error));
-})
 
 // Motor de busca
 // O motor trabalha em cima de "searched" tornando
@@ -42,14 +41,15 @@ search.addEventListener("input", () => {
     .toLowerCase()
     .trim()
     .normalize('NFD')
-    .replace(/\p{Diacritic}/gu, "");
+    .replace(/[\s\-_]+/g, "").replace(/\p{Diacritic}/gu, "");
+
   const searchTerms = searchText.split(" ");
   const hasFilter = searchText.length > 0;
   document.querySelectorAll("#files li").forEach(out => {
     const searchString = `${out.innerText}`
       .toLowerCase()
       .normalize('NFD')
-      .replace(/\p{Diacritic}/gu, ""); 
+      .replace(/[\s\-_]+/g, "").replace(/\p{Diacritic}/gu, "");
     let isMatch = searchTerms.every(
       term => searchString.includes(term)
     );
@@ -61,18 +61,14 @@ search.addEventListener("input", () => {
       //out.classList.add('show')
     }
   })
+  // limpar com ESC
+  // tem q ser em último
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+      document.querySelectorAll("#artlist li").forEach(out => {
+        out.style.display = 'none'
+      })
+    }
+  });
 })
-
-// Limpar a busca
-document.getElementById("clear-search")
-  .addEventListener("click", () => {
-    search.value = "";
-    document.querySelectorAll("#search-output li").forEach(out => {
-      out.classList.remove("show");
-    })
-});
-
-function fechardialogo() {
-  let aviso = document.getElementById("aviso");
-  aviso.style.display = 'none'
-};
+})

@@ -27,8 +27,10 @@
 }
 
 :root[data-tema="light"] {
+  --darkerBg: darkgray;
+  --corTermo: darkred;
   --linkColorHover: gray;
-  --linkColor: black;
+  --linkColor: blue;
   --selectionColor: springgreen;
   --highLightColor: tomato;
   --backgroundColor: #eee;
@@ -36,12 +38,14 @@
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
+  --darkerBg: #282828;
+  --corTermo: tomato;
   --linkColorHover: gray;
   --linkColor: white;
   --selectionColor: tomato;
   --highLightColor: lime;
   --backgroundColor: #343a3f;
-  --borderColor: white;
+  --borderColor: #666;
   --fontColor: #aaa;
 }
 
@@ -82,7 +86,7 @@ a::hover{
 #autor{
   /*
   */
-  margin-left: var(--margem);
+  margin-top: 2ch;
   white-space: nowrap;
   font-weight: normal;
 }
@@ -94,23 +98,48 @@ a::hover{
   width: fit-content ;
   text-align: start ;
 }
+#boasvindas {
+  padding: 0;
+  text-align: start;
+  font-size: 200%;
+}
+#maquinaescrever{
+  margin-top: 3vw;
+}
+span#frase{
+  border-right: 10px solid var(--borderColor);
+  animation: blinkTextCursor 800ms steps(44) infinite normal;
+  border-right: 10px solid var(--borderColor);
+  border-radius: 0px;
+  animation: blinkTextCursor 800ms steps(44) infinite normal;
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: var(--fontColor);}
+  to{border-right-color: transparent;}
+}
+
+
 #frase{
-  font-size: 95%;
-  font-style: italic ;
+  /*
   margin-left: var(--margem);
   transition: filter 2.5s ease-in-out, color 4s ease-in-out ;
+  text-shadow: 8px 6px 10px var(--sombra);
+  filter: blur(5px);
+  */
+  font-size: 95%;
+  font-style: italic ;
   align: center ;
   text-align: center ;
   color: var(--corFonte) ;
   padding-left: auto ;
   padding-right: auto ;
   border-radius: 5px ;
-  text-shadow: 8px 6px 10px var(--sombra);
-  filter: blur(5px);
 }
 #frase.show {
+  /*
   filter: none;
   color: var(--fraseShow);
+  */
 }
 #frase:hover {
   color: var(--fraseHover); 
@@ -125,10 +154,6 @@ nav a {
 }
 nav a:hover{
   font-weight: bold;
-}
-nav div.search {
-  margin-top: 0.6rem;
-  padding-left: 0vw;
 }
 
 mark {
@@ -149,25 +174,9 @@ mark::after{
   z-index: -1;
   transform: rotate(-4deg);
 }
-#boasvindas {
-  padding: 0;
-  text-align: start;
-  font-size: 200%;
-}
 
-#maquinaescrever{
-  margin-top: 3vw;
-}
-span.typewriter{
-  border-right: 10px solid var(--borderColor);
-  animation: blinkTextCursor 800ms steps(44) infinite normal;
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: var(--fontColor);}
-  to{border-right-color: transparent;}
-}
-
-input#search {
+input{
+  margin-top: 2ch;
   outline: none;
   text-indent: 5px;
   background: none;
@@ -175,13 +184,13 @@ input#search {
   text-align: start;
   border: 1px solid var(--fontColor);
 }
-input#search:focus{
+input:focus{
 }
-input#search::placeholder {
+input::placeholder {
 }
 
 code {
-  font-family: 'Source Code Pro';
+  font-size: 95%;
 }
 
 @media only screen and (max-width: 800px){
@@ -355,8 +364,8 @@ img {
   font-size: 88%;
 }
 
-input#search,
-input#search::placeholder {
+input,
+input::placeholder {
   color: var(--fontColor);
 }
 
@@ -440,28 +449,26 @@ pre {
 }
 
 table {
-  border-radius: var(--raioBordas);
   border-spacing: 0;
   border-collapse: separate;
-  border: var(--bordas);
+  border: 1px solid var(--borderColor);
   overflow: hidden;
-  box-shadow: var(--sombraCaixas);
   margin-right: 5vw;
 }
 th {
-  background-color: var(--corBotao);
-  color: var(--corFonteBotao); 
-  border-top: var(--bordas);
-  border-bottom: var(--bordas);
+  background: var(--darkerBg);
+  border: 1px solid var(--borderColor);
 }
 th, td {
+  border: 1px solid var(--borderColor);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  border-right: var(--bordas);
 }
 
-div#code, p code, blockquote {
+code, div#code, p code, blockquote {
   padding-left: 1ch;
+  margin: 2ch;
+  margin-left: 0px;
   border-left: 1px solid tomato; 
 }
 

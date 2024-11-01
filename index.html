@@ -11,12 +11,27 @@
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
   <meta name="description" content="
-
-
-
-
  
-  ">
+   
+    
+    
+    
+  
+
+
+
+
+  
+  
+      
+  
+  
+  TLDR Desculpe a bagunça!
+  Este é um site pessoal onde guardo minhas ferramentas online. 
+  Contato por Telegram: @fatiservae
+  
+
+">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -35,9 +50,11 @@
   <nav class=barra>
       <a href="./index.html">Início</a>
       <a href="./files/">Arquivos</a>
-      <a href="#" id="nomeTema" onclick="tema()">Tema</a>
-    <div class="search">
-      <input type="text" id="search" placeholder="busca..."></input>
+      <a href="#" id="nomeTema" onclick="tema()">tema()</a>
+    <div>
+      
+        <script>const noglobalsearch = false </script>
+      <input type="text" id="globalsearch" placeholder="busca..."></input>
       <ul id="artlist">
         <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/medicina/neonatologia/">Neonatologia e recém-nascidos</a></li>
         <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/medicina/saude-mulher/">Saúde da mulher</a></li>
@@ -142,11 +159,7 @@
   
   
   
-    <div id="maquinaescrever">
-<span class="typewriter" id="typed"><span>
-</div>
-<br>
-<script>
+    <script>
 function randomIndex(valor) {
     return Math.floor(Math.random() * valor)
 }
@@ -163,27 +176,44 @@ function novaFrase(){
     const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
     index = randomIndex(novoFormato.length);
     fraseAleatoria = novoFormato[index].frase;
+    
+    while (fraseAleatoria.length > 100) {
+      index = randomIndex(novoFormato.length);
+    }
+    fraseAleatoria = novoFormato[index].frase;
     autor = novoFormato[index].autor;
-    document.getElementById("frase").textContent = "\""+fraseAleatoria+"\"";
     if (autor.length > 1){
       document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
     }
+ 
+  let typedout = "";
+  let comprimento = fraseAleatoria.length;
+  let delay = 90;
+  console.log(delay);
+
+  for (let i = 0; i < comprimento; i++) {
+      
+      
+      
+      
+      
+      setTimeout(() => {
+      typedout += fraseAleatoria[i];
+      document.getElementById("frase").innerText = typedout;
+    }, i * delay);
+  }
   })
   .catch(error => console.error('Erro ao buscar o JSON:', error));
-  
-  setTimeout(function() {
-      frase.classList.add('show');
-  }, 300);
+
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  var frase = document.getElementById("frase");
   novaFrase();
 });
 
 </script>
 <div id=divFrase> 
-  <p id="frase"></p> 
+  <span id="frase"></span> 
     <div onclick=novaFrase() id="autor"></div>
     <br>
     
@@ -196,11 +226,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <div>
       <img src="./pix/eu3.jpg" alt="Eu">
   </div>
-  <pre><code>
-  <span style="color: tomato; font-weight: bold">TLDR</span> Desculpe a bagunça!
-  Este é um site pessoal onde guardo minhas ferramentas online. 
+  <blockquote>
+  <span style="color: tomato; font-weight: bold">TLDR</span><br> Desculpe a bagunça!<br>
+  Este é um site pessoal onde guardo minhas ferramentas online. <br>
   Contato por Telegram: <a href="https://t.me/fatiservae">@fatiservae</a>
-  </code></pre>
+  </blockquote>
 
 <script src=index.js></script>
 

@@ -34,9 +34,11 @@ O usuário de um serviço qualquer encontra uma dificuldade por ter o serviço X
   <nav class=barra>
       <a href="../index.html">Início</a>
       <a href="../files/">Arquivos</a>
-      <a href="#" id="nomeTema" onclick="tema()">Tema</a>
-    <div class="search">
-      <input type="text" id="search" placeholder="busca..."></input>
+      <a href="#" id="nomeTema" onclick="tema()">tema()</a>
+    <div>
+      
+        <script>const noglobalsearch = false </script>
+      <input type="text" id="globalsearch" placeholder="busca..."></input>
       <ul id="artlist">
         <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/medicina/neonatologia/">Neonatologia e recém-nascidos</a></li>
         <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/medicina/saude-mulher/">Saúde da mulher</a></li>

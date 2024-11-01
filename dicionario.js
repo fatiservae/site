@@ -47,18 +47,19 @@ search.addEventListener("input", () => {
       //out.classList.add('show')
     }
   })
+
+
+  // limpar com ESC
+  // tem q ser em último
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+      document.querySelectorAll("#artlist li").forEach(out => {
+        out.style.display = 'none'
+      })
+    }
+  });
 })
-
-// Limpar a busca
-document.getElementById("clear-search")
-  .addEventListener("click", () => {
-    search.value = "";
-    document.querySelectorAll("#search-output li").forEach(out => {
-      out.classList.remove("show");
-    })
-});
-
-function fechardialogo() {
-  let aviso = document.getElementById("aviso");
-  aviso.style.display = 'none'
-};
+//function fechardialogo() {
+//  let aviso = document.getElementById("aviso");
+//  aviso.style.display = 'none'
+//};
