@@ -13,6 +13,7 @@
 }
 
 :root {
+  --fonte: var(--fontColor); /* Manter compatibildiade dos temas antigos e SVGs */
   --bordas: 1px solid var(--fontColor);
   --borderRadius: 3px;
   background-color: var(--backgroundColor); 
@@ -91,17 +92,15 @@ a::hover{
   text-indent: 0% !important ;
   max-width: 60vw ;
   width: fit-content ;
-  font-size: 90%;
   text-align: start ;
 }
 #frase{
-  /* 
-  */
+  font-size: 95%;
+  font-style: italic ;
   margin-left: var(--margem);
   transition: filter 2.5s ease-in-out, color 4s ease-in-out ;
   align: center ;
   text-align: center ;
-  font-style: italic ;
   color: var(--corFonte) ;
   padding-left: auto ;
   padding-right: auto ;
@@ -112,9 +111,6 @@ a::hover{
 #frase.show {
   filter: none;
   color: var(--fraseShow);
-  /*
-  font-size: 105%;
-  */
 }
 #frase:hover {
   color: var(--fraseHover); 
@@ -177,18 +173,11 @@ input#search {
   background: none;
   height: 2em ;
   text-align: start;
-  border: 1px solid var(--borderColor);
+  border: 1px solid var(--fontColor);
 }
 input#search:focus{
 }
 input#search::placeholder {
-  /*
-  color: var(--texto) ;
-  text-align: start;
-  */
-}
-p input#search { /* Não sei de onde saiu esse p na _index... */
-  margin-left: 0;
 }
 
 code {
@@ -196,7 +185,9 @@ code {
 }
 
 @media only screen and (max-width: 800px){
-  font-size: 120%;
+  body {
+    font-size: 130%;
+  }
 }
 
 [id^="tag_"] {
@@ -469,7 +460,7 @@ th, td {
   border-right: var(--bordas);
 }
 
-div#code, p code, pre, blockquote {
+div#code, p code, blockquote {
   padding-left: 1ch;
   border-left: 1px solid tomato; 
 }

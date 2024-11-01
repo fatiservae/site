@@ -3,16 +3,6 @@
 <head>
   
   
-  <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          renderMathInElement(document.body, {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},
-                  {left: "$", right: "$", display: false}
-              ]
-          });
-      });
-  </script>
   
   <title>cirurgia | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
@@ -26,18 +16,9 @@
 
   
   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  
-<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,227 +26,111 @@
 </head>
 <body>
   <nav class=barra>
-    <a href="../../index.html">Início</a>
-    <a href="../../files/">Arquivos</a>
-    <a href="#" id="nomeTema" onclick="tema()">Tema</a>
-  <div class="search">
-  <input type="text" id="search" placeholder="busca..."></input>
-  </div>
-    <ul id="artlist">
-      <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/medicina/neonatologia/">Neonatologia e recém-nascidos</a></li>
-      <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/medicina/saude-mulher/">Saúde da mulher</a></li>
-      <li data-tags="[medicina urologia]"><a href="https://www.jeffersontorres.com.br/medicina/prostatopatias/">Prostatopatias</a></li>
-      <li data-tags="[medicina história política Brasil]"><a href="https://www.jeffersontorres.com.br/medicina/sus/">Sistema único de saúde do Brasil</a></li>
-      <li data-tags="[medicina calculadoras projetos]"><a href="https://www.jeffersontorres.com.br/medicina/risco-sangramento/">Risco de sangramento: HAS-BLED</a></li>
-      <li data-tags="[cirurgia medicina]"><a href="https://www.jeffersontorres.com.br/medicina/clavien-dindo/">Complicações cirúrgicas: Clavien Dindo</a></li>
-      <li data-tags="[nefrologia projetos calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/medicina/doenca-renal/">Nefropatias</a></li>
-      <li data-tags="[calculadoras pediatria perícias direito]"><a href="https://www.jeffersontorres.com.br/medicina/calculadoras-fetais/">Calculadoras fetais</a></li>
-      <li data-tags="[emergências medicina]"><a href="https://www.jeffersontorres.com.br/medicina/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
-      <li data-tags="[direito]"><a href="https://www.jeffersontorres.com.br/direito/licitacoes/">Licitações</a></li>
-      <li data-tags="[medicina infectologia ciência história]"><a href="https://www.jeffersontorres.com.br/medicina/antibioticos/">Antibioticoterapia</a></li>
-      <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/medicina/autismo/">Bases fisiopatológicas do autismo</a></li>
-      <li data-tags="[medicina penal direito perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/conteudo/">Conteúdo do site</a></li>
-      <li data-tags="[sociologia medicina]"><a href="https://www.jeffersontorres.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
-      <li data-tags="[medicina direito penal]"><a href="https://www.jeffersontorres.com.br/direito/imputabilidade/">Visão forense de teoria tripartite do crime</a></li>
-      <li data-tags="[medicina ginecologia emergência]"><a href="https://www.jeffersontorres.com.br/medicina/sua/">Sangramento uterino anormal</a></li>
-      <li data-tags="[medicina farmacologia]"><a href="https://www.jeffersontorres.com.br/medicina/adiccao/">Adicção: os impactos de diversas drogas</a></li>
-      <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/receituario/">Documento em papel timbrado</a></li>
-      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/febre-reumatica/">Febre reumática</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/docs/">Documentos em medicina legal</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/direito/abuso-autoridade/">Lei do abuso de autoridade</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
-      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/hepatites/">Hepatites</a></li>
-      <li data-tags="[medicina perícias penal]"><a href="https://www.jeffersontorres.com.br/medicina/autopsias/">Autópsias</a></li>
-      <li data-tags="[direito medicina penal]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
-      <li data-tags="[medicina direito penal ciência]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/morte-legal/">Tanatologia forense</a></li>
-      <li data-tags="[direito medicina perícias penal]"><a href="https://www.jeffersontorres.com.br/medicina/aborto/">Aborto e infanticídio no Brasil</a></li>
-      <li data-tags="[direito penal]"><a href="https://www.jeffersontorres.com.br/direito/cautelares/">Medidas cautelares: a prisão</a></li>
-      <li data-tags="[medicina direito penal perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/id-antropologica/">Identificação antropológica forense</a></li>
-      <li data-tags="[medicina perícias direito]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/embriaguez/">Visão toxicológica e legal da embriaguez</a></li>
-      <li data-tags="[medicina direito penal perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/asfixias/">A morte por asfixias</a></li>
-      <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/anemias/">Anemias: investigação e tratamento</a></li>
-      <li data-tags="[medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/gastrite/">Gastrite e úlceras gástricas</a></li>
-      <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.jeffersontorres.com.br/medicina/cetoacidose/">Cetoacidose diabética</a></li>
-      <li data-tags="[medicina tabelas calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/processo-morte/">Processo ativo de morte</a></li>
-      <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.jeffersontorres.com.br/medicina/ventilador-mec/">Simulador de ventilador mecânico</a></li>
-      <li data-tags="[Medicina Emergência Cardiologia]"><a href="https://www.jeffersontorres.com.br/medicina/icc/">Insuficiência cardíaca</a></li>
-      <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.jeffersontorres.com.br/medicina/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
-      <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.jeffersontorres.com.br/medicina/ecg/">Eletrocardiograma</a></li>
-      <li data-tags="[Medicina Projetos]"><a href="https://www.jeffersontorres.com.br/medicina/neoplasias/">Nomeclatura das neoplasias</a></li>
-      <li data-tags="[Projetos Programação]"><a href="https://www.jeffersontorres.com.br/vim/">Webvim: editor de texto do hacker viajante</a></li>
-      <li data-tags="[Medicina]"><a href="https://www.jeffersontorres.com.br/medicina/surdez/">Surdez aguda</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/colesterol/">Dislipidemias</a></li>
-      <li data-tags="[psicologia filosofia ciência]"><a href="https://www.jeffersontorres.com.br/farsa-ockham/">A farsa da navalha de Ockham</a></li>
-      <li data-tags="[Filosofia Ciência Psicologia]"><a href="https://www.jeffersontorres.com.br/vieses/">Compêndio de vieses cognitivos</a></li>
-      <li data-tags="[ciência biologia Natureza]"><a href="https://www.jeffersontorres.com.br/ciencia/isognatus/">Lagarta isognatus desconhecida</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/intubacao/">Intubação orotraqueal</a></li>
-      <li data-tags="[medicina apresentações]"><a href="https://www.jeffersontorres.com.br/medicina/apresentacoes/">Minhas apresentações</a></li>
-      <li data-tags="[Medicina Resumos]"><a href="https://www.jeffersontorres.com.br/medicina/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
-      <li data-tags="[projetos medicina calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/superficie-corporal/">Calculadoras de superfície corporal</a></li>
-      <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.jeffersontorres.com.br/medicina/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
-      <li data-tags="[obstetrícia medicina resumos guias]"><a href="https://www.jeffersontorres.com.br/medicina/pre-natal/">Pré-natal</a></li>
-      <li data-tags="[psicologia Filosofia Inteligência]"><a href="https://www.jeffersontorres.com.br/filosofia/gell-man/">Efeito Gell Man: perpetuador da desinformação</a></li>
-      <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.jeffersontorres.com.br/medicina/hanseniase/">Hanseníase</a></li>
-      <li data-tags="[psicologia Filosofia Estoicismo]"><a href="https://www.jeffersontorres.com.br/filosofia/cleantes/">Cleantes, o exemplo</a></li>
-      <li data-tags="[viagem destinos]"><a href="https://www.jeffersontorres.com.br/viagem/micronesia/pohnpei-micronesia/">Pohnpei: Micronésia</a></li>
-      <li data-tags="[psicologia Filosofia Inteligência]"><a href="https://www.jeffersontorres.com.br/filosofia/multiplas-saidas/">Por trás de toda teoria conspiratória</a></li>
-      <li data-tags="[Medicina Emergência]"><a href="https://www.jeffersontorres.com.br/medicina/drogas-vasoativas/">Drogas vasoativas</a></li>
-      <li data-tags="[Medicina]"><a href="https://www.jeffersontorres.com.br/medicina/taquicardias/">Taquiarritimias: visão geral</a></li>
-      <li data-tags="[Medicina Dor]"><a href="https://www.jeffersontorres.com.br/medicina/analgesias/">Analgesias</a></li>
-      <li data-tags="[Destinos Viagem Estados Unidos]"><a href="https://www.jeffersontorres.com.br/viagem/eua/grand-prismatic-spring/">Grand Prismatic Spring - Estados Unidos</a></li>
-      <li data-tags="[Culinária receitas]"><a href="https://www.jeffersontorres.com.br/receitas/pao-de-queijo/">Pão de queijo</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/files/">Arquivos</a></li>
-      <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medical_ai/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
-      <li data-tags="[medicina projetos farmacologia]"><a href="https://www.jeffersontorres.com.br/medicina/bulario/">Bulário</a></li>
-      <li data-tags="[filosofia estoicismo]"><a href="https://www.jeffersontorres.com.br/filosofia/morte/">A aceitação da morte como modo de vida</a></li>
-      <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.jeffersontorres.com.br/medicina/vacinas/">Imunológicos e vacinas</a></li>
-      <li data-tags="[medicina projetos ciência]"><a href="https://www.jeffersontorres.com.br/dicionario/">Dicionário</a></li>
-      <li data-tags="[Medicina Filosofia Ciência]"><a href="https://www.jeffersontorres.com.br/medicina/abaixo-a-medicina/">Abaixo a medicina!</a></li>
-      <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/hemodinamica/">Hemodinâmica</a></li>
-      <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.jeffersontorres.com.br/medicina/queimados/">Calculadoras para pacientes queimados</a></li>
-      <li data-tags="[ciência História Medicina Culinária Geopolítica]"><a href="https://www.jeffersontorres.com.br/canais-yt/">Canais que recomendo</a></li>
-      <li data-tags="[culinária receitas]"><a href="https://www.jeffersontorres.com.br/receitas/cervejas/">Guia descomplicado de cervejas</a></li>
-      <li data-tags="[Medicina Guidelines emergências neurologia]"><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões e grande mal</a></li>
-      <li data-tags="[emergências cardiologia guidelines medicina]"><a href="https://www.jeffersontorres.com.br/medicina/dor-toracica/">Dor torácica</a></li>
-      <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/medicina/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
-      <li data-tags="[psicologia filosofia ciência]"><a href="https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações sobre a reprodução humana</a></li>
-      <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.jeffersontorres.com.br/medicina/banco-de-questoes/">Banco de questões</a></li>
-      <li data-tags="[natureza brasil Destinos]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/bahia-itacare/">Bahia - Itacaré</a></li>
-      <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/medicina/tokyo-guideline/">Colecistite aguda</a></li>
-      <li data-tags="[Medicina Resumos Projetos Calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria arterial</a></li>
-      <li data-tags="[tecnologia programação]"><a href="https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
-      <li data-tags="[Programação Projetos]"><a href="https://www.jeffersontorres.com.br/tecnologia/stultus-visio/">Slides menos estúpidos: StultusVisio</a></li>
-      <li data-tags="[México Viagem Destinos]"><a href="https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
-      <li data-tags="[projetos guidelines calculadoras medicina emergências]"><a href="https://www.jeffersontorres.com.br/medicina/wells-tep/">Tromboembolismo pulmonar</a></li>
-      <li data-tags="[destinos viagem brasil]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
-      <li data-tags="[Destinos Brasil Viagem]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-iriri/">Espiríto Santo - Praia de Iriri</a></li>
-      <li data-tags="[viagem brasil]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
-      <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.jeffersontorres.com.br/sites-uteis/">Websites e páginas úteis</a></li>
-      </ul>
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const search = document.getElementById("search");
-  search.addEventListener("input", () => {
-    const searchText = search.value
-      .toLowerCase()
-      .trim()
-      .normalize('NFD')
-      .replace(/\p{Diacritic}/gu, "");
-    const searchTerms = searchText.split(" ");
-    let hasFilter = false;
-    if (searchText.length > 0) {hasFilter = true};
-    console.log(hasFilter);
-    document.querySelectorAll("#artlist li").forEach(out => {
-      let titulo = `${out.innerText}`
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/\p{Diacritic}/gu, "");
-      let tags = `${out.getAttribute('data-tags')}`
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/\p{Diacritic}/gu, "");
-      let searchString = titulo + tags;
-      searchString
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/\p{Diacritic}/gu, "")
-        .replace(/\[/g, '');
-      let isMatch = searchTerms.every(
-        term => searchString.includes(term)
-      );
-      
-      
-      if (isMatch){
-        out.style.display = 'block'
-        
-      } else {
-        out.style.display = 'none'
-      }
-
-      if (!hasFilter) {
-        out.style.display = 'none'
-        
-      }
-    })
-  })
-});
-  </script>
+      <a href="../../index.html">Início</a>
+      <a href="../../files/">Arquivos</a>
+      <a href="#" id="nomeTema" onclick="tema()">Tema</a>
+    <div class="search">
+      <input type="text" id="search" placeholder="busca..."></input>
+      <ul id="artlist">
+        <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/medicina/neonatologia/">Neonatologia e recém-nascidos</a></li>
+        <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/medicina/saude-mulher/">Saúde da mulher</a></li>
+        <li data-tags="[medicina urologia]"><a href="https://www.jeffersontorres.com.br/medicina/prostatopatias/">Prostatopatias</a></li>
+        <li data-tags="[medicina história política Brasil]"><a href="https://www.jeffersontorres.com.br/medicina/sus/">Sistema único de saúde do Brasil</a></li>
+        <li data-tags="[medicina calculadoras projetos]"><a href="https://www.jeffersontorres.com.br/medicina/risco-sangramento/">Risco de sangramento: HAS-BLED</a></li>
+        <li data-tags="[cirurgia medicina]"><a href="https://www.jeffersontorres.com.br/medicina/clavien-dindo/">Complicações cirúrgicas: Clavien Dindo</a></li>
+        <li data-tags="[nefrologia projetos calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/medicina/doenca-renal/">Nefropatias</a></li>
+        <li data-tags="[calculadoras pediatria perícias direito]"><a href="https://www.jeffersontorres.com.br/medicina/calculadoras-fetais/">Calculadoras fetais</a></li>
+        <li data-tags="[emergências medicina]"><a href="https://www.jeffersontorres.com.br/medicina/disturbios-hidroeletroliticos/">Distúrbios hidroeletrolíticos</a></li>
+        <li data-tags="[direito]"><a href="https://www.jeffersontorres.com.br/direito/licitacoes/">Licitações</a></li>
+        <li data-tags="[medicina infectologia ciência história]"><a href="https://www.jeffersontorres.com.br/medicina/antibioticos/">Antibioticoterapia</a></li>
+        <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/medicina/autismo/">Bases fisiopatológicas do autismo</a></li>
+        <li data-tags="[medicina penal direito perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/cronotanatognose/">Cronotanatognose</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/conteudo/">Conteúdo do site</a></li>
+        <li data-tags="[sociologia medicina]"><a href="https://www.jeffersontorres.com.br/piramide-maslow/">Pirâmide das necessidades de Maslow</a></li>
+        <li data-tags="[medicina direito penal]"><a href="https://www.jeffersontorres.com.br/direito/imputabilidade/">Visão forense de teoria tripartite do crime</a></li>
+        <li data-tags="[medicina ginecologia emergência]"><a href="https://www.jeffersontorres.com.br/medicina/sua/">Sangramento uterino anormal</a></li>
+        <li data-tags="[medicina farmacologia]"><a href="https://www.jeffersontorres.com.br/medicina/adiccao/">Adicção: os impactos de diversas drogas</a></li>
+        <li data-tags="[medicina documentos ferramentas calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/receituario/">Documento em papel timbrado</a></li>
+        <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/febre-reumatica/">Febre reumática</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/docs/">Documentos em medicina legal</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/direito/abuso-autoridade/">Lei do abuso de autoridade</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
+        <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/hepatites/">Hepatites</a></li>
+        <li data-tags="[medicina perícias penal]"><a href="https://www.jeffersontorres.com.br/medicina/autopsias/">Autópsias</a></li>
+        <li data-tags="[direito medicina penal]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
+        <li data-tags="[medicina direito penal ciência]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/morte-legal/">Tanatologia forense</a></li>
+        <li data-tags="[direito medicina perícias penal]"><a href="https://www.jeffersontorres.com.br/medicina/aborto/">Aborto e infanticídio no Brasil</a></li>
+        <li data-tags="[direito penal]"><a href="https://www.jeffersontorres.com.br/direito/cautelares/">Medidas cautelares: a prisão</a></li>
+        <li data-tags="[medicina direito penal perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/id-antropologica/">Identificação antropológica forense</a></li>
+        <li data-tags="[medicina perícias direito]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/embriaguez/">Visão toxicológica e legal da embriaguez</a></li>
+        <li data-tags="[medicina direito penal perícias]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/asfixias/">A morte por asfixias</a></li>
+        <li data-tags="[obstetrícia projetos medicina nutrição calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/anemias/">Anemias: investigação e tratamento</a></li>
+        <li data-tags="[medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/gastrite/">Gastrite e úlceras gástricas</a></li>
+        <li data-tags="[medicina emergências endocrinologia]"><a href="https://www.jeffersontorres.com.br/medicina/cetoacidose/">Cetoacidose diabética</a></li>
+        <li data-tags="[medicina tabelas calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/processo-morte/">Processo ativo de morte</a></li>
+        <li data-tags="[Medicina Ciência Projetos]"><a href="https://www.jeffersontorres.com.br/medicina/ventilador-mec/">Simulador de ventilador mecânico</a></li>
+        <li data-tags="[Medicina Emergência Cardiologia]"><a href="https://www.jeffersontorres.com.br/medicina/icc/">Insuficiência cardíaca</a></li>
+        <li data-tags="[Medicina Projetos Guidelines]"><a href="https://www.jeffersontorres.com.br/medicina/sedacao/">Monitorando a sedação: RASS/SAS/FOUR</a></li>
+        <li data-tags="[Medicina Cardiologia Emergência]"><a href="https://www.jeffersontorres.com.br/medicina/ecg/">Eletrocardiograma</a></li>
+        <li data-tags="[Medicina Projetos]"><a href="https://www.jeffersontorres.com.br/medicina/neoplasias/">Nomeclatura das neoplasias</a></li>
+        <li data-tags="[Projetos Programação]"><a href="https://www.jeffersontorres.com.br/vim/">Webvim: editor de texto do hacker viajante</a></li>
+        <li data-tags="[Medicina]"><a href="https://www.jeffersontorres.com.br/medicina/surdez/">Surdez aguda</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/colesterol/">Dislipidemias</a></li>
+        <li data-tags="[psicologia filosofia ciência]"><a href="https://www.jeffersontorres.com.br/farsa-ockham/">A farsa da navalha de Ockham</a></li>
+        <li data-tags="[Filosofia Ciência Psicologia]"><a href="https://www.jeffersontorres.com.br/vieses/">Compêndio de vieses cognitivos</a></li>
+        <li data-tags="[ciência biologia Natureza]"><a href="https://www.jeffersontorres.com.br/ciencia/isognatus/">Lagarta isognatus desconhecida</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/intubacao/">Intubação orotraqueal</a></li>
+        <li data-tags="[medicina apresentações]"><a href="https://www.jeffersontorres.com.br/medicina/apresentacoes/">Minhas apresentações</a></li>
+        <li data-tags="[Medicina Resumos]"><a href="https://www.jeffersontorres.com.br/medicina/hidratacao/">Prescrição de hidratação: um resumo breve</a></li>
+        <li data-tags="[projetos medicina calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/superficie-corporal/">Calculadoras de superfície corporal</a></li>
+        <li data-tags="[Projetos Medicina Calculadoras Pediatria]"><a href="https://www.jeffersontorres.com.br/medicina/holliday/">Fluidoterapia de manutenção: Holliday-Segar</a></li>
+        <li data-tags="[obstetrícia medicina resumos guias]"><a href="https://www.jeffersontorres.com.br/medicina/pre-natal/">Pré-natal</a></li>
+        <li data-tags="[psicologia Filosofia Inteligência]"><a href="https://www.jeffersontorres.com.br/filosofia/gell-man/">Efeito Gell Man: perpetuador da desinformação</a></li>
+        <li data-tags="[infectologia Medicina Resumos]"><a href="https://www.jeffersontorres.com.br/medicina/hanseniase/">Hanseníase</a></li>
+        <li data-tags="[psicologia Filosofia Estoicismo]"><a href="https://www.jeffersontorres.com.br/filosofia/cleantes/">Cleantes, o exemplo</a></li>
+        <li data-tags="[viagem destinos]"><a href="https://www.jeffersontorres.com.br/viagem/micronesia/pohnpei-micronesia/">Pohnpei: Micronésia</a></li>
+        <li data-tags="[psicologia Filosofia Inteligência]"><a href="https://www.jeffersontorres.com.br/filosofia/multiplas-saidas/">Por trás de toda teoria conspiratória</a></li>
+        <li data-tags="[Medicina Emergência]"><a href="https://www.jeffersontorres.com.br/medicina/drogas-vasoativas/">Drogas vasoativas</a></li>
+        <li data-tags="[Medicina]"><a href="https://www.jeffersontorres.com.br/medicina/taquicardias/">Taquiarritimias: visão geral</a></li>
+        <li data-tags="[Medicina Dor]"><a href="https://www.jeffersontorres.com.br/medicina/analgesias/">Analgesias</a></li>
+        <li data-tags="[Destinos Viagem Estados Unidos]"><a href="https://www.jeffersontorres.com.br/viagem/eua/grand-prismatic-spring/">Grand Prismatic Spring - Estados Unidos</a></li>
+        <li data-tags="[Culinária receitas]"><a href="https://www.jeffersontorres.com.br/receitas/pao-de-queijo/">Pão de queijo</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/files/">Arquivos</a></li>
+        <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medical_ai/llmedica/">LLMedica: inteligência artificial para medicina</a></li>
+        <li data-tags="[medicina projetos farmacologia]"><a href="https://www.jeffersontorres.com.br/medicina/bulario/">Bulário</a></li>
+        <li data-tags="[filosofia estoicismo]"><a href="https://www.jeffersontorres.com.br/filosofia/morte/">A aceitação da morte como modo de vida</a></li>
+        <li data-tags="[medicina imunologia epidemiologia sus]"><a href="https://www.jeffersontorres.com.br/medicina/vacinas/">Imunológicos e vacinas</a></li>
+        <li data-tags="[medicina projetos ciência]"><a href="https://www.jeffersontorres.com.br/dicionario/">Dicionário</a></li>
+        <li data-tags="[Medicina Filosofia Ciência]"><a href="https://www.jeffersontorres.com.br/medicina/abaixo-a-medicina/">Abaixo a medicina!</a></li>
+        <li data-tags="[Projetos Medicina Calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/hemodinamica/">Hemodinâmica</a></li>
+        <li data-tags="[Projetos Pediatria Calculadoras Medicina Ferramentas]"><a href="https://www.jeffersontorres.com.br/medicina/queimados/">Calculadoras para pacientes queimados</a></li>
+        <li data-tags="[ciência História Medicina Culinária Geopolítica]"><a href="https://www.jeffersontorres.com.br/canais-yt/">Canais que recomendo</a></li>
+        <li data-tags="[culinária receitas]"><a href="https://www.jeffersontorres.com.br/receitas/cervejas/">Guia descomplicado de cervejas</a></li>
+        <li data-tags="[Medicina Guidelines emergências neurologia]"><a href="https://www.jeffersontorres.com.br/medicina/convulsoes/">Convulsões e grande mal</a></li>
+        <li data-tags="[emergências cardiologia guidelines medicina]"><a href="https://www.jeffersontorres.com.br/medicina/dor-toracica/">Dor torácica</a></li>
+        <li data-tags="[medicina ciência]"><a href="https://www.jeffersontorres.com.br/medicina/massagem-carotidea/">Massagem Carotídea: mitos e verdades</a></li>
+        <li data-tags="[psicologia filosofia ciência]"><a href="https://www.jeffersontorres.com.br/filosofia/reproducao-humana-consideracoes-filosoficas/">Considerações sobre a reprodução humana</a></li>
+        <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.jeffersontorres.com.br/medicina/banco-de-questoes/">Banco de questões</a></li>
+        <li data-tags="[natureza brasil Destinos]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/bahia-itacare/">Bahia - Itacaré</a></li>
+        <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/medicina/tokyo-guideline/">Colecistite aguda</a></li>
+        <li data-tags="[Medicina Resumos Projetos Calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria arterial</a></li>
+        <li data-tags="[tecnologia programação]"><a href="https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
+        <li data-tags="[Programação Projetos]"><a href="https://www.jeffersontorres.com.br/tecnologia/stultus-visio/">Slides menos estúpidos: StultusVisio</a></li>
+        <li data-tags="[México Viagem Destinos]"><a href="https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
+        <li data-tags="[projetos guidelines calculadoras medicina emergências]"><a href="https://www.jeffersontorres.com.br/medicina/wells-tep/">Tromboembolismo pulmonar</a></li>
+        <li data-tags="[destinos viagem brasil]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
+        <li data-tags="[Destinos Brasil Viagem]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-iriri/">Espiríto Santo - Praia de Iriri</a></li>
+        <li data-tags="[viagem brasil]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
+        <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.jeffersontorres.com.br/sites-uteis/">Websites e páginas úteis</a></li>
+        </ul>
+      <script src=../../baseof-search.js></script>
+    </div>
   </nav>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const buttons = document.querySelectorAll('.barra button');
-      const currentUrl = window.location.pathname;
-  
-      buttons.forEach(button => {
-        if (button.id == "index" && currentUrl == "/") {
-          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-          button.style.color = 'var(--corHoverBotao)';
-        } else if (currentUrl.includes(button.id, 0)) {
-          button.style.backgroundColor = 'var(--corFundoHoverBotao)'; 
-          button.style.color = 'var(--corHoverBotao)';
-        }
-      });
-    });
-  </script>
-  
   <article>
     
   <br>
   
-  <script>
-    let temaAtual = localStorage.getItem('tema');
-    let temaEspecificado = localStorage.getItem('temaEspecificado');
-  
-    if (temaAtual == "dark"){
-      document.getElementById("nomeTema").innerHTML = "light()";
-    } else if (temaAtual == "light") {
-      document.getElementById("nomeTema").innerHTML = "dark()";
-    }
-  
-    if (temaEspecificado == "true") {
-      document.documentElement.setAttribute('data-tema', temaAtual);
-    } else if (temaAtual == "dark") {
-      document.documentElement.setAttribute('data-tema', "dark");
-      localStorage.setItem('tema', "dark"); 
-      document.getElementById("nomeTema").innerHTML = "light()";
-      setNomeTema();
-    } else {
-      document.documentElement.setAttribute('data-tema', "light");
-      localStorage.setItem('tema', "light"); 
-      document.getElementById("nomeTema").innerHTML = "dark()";
-    }
-  
-    function temaEspecifico(nome) {
-      if (nome == "OFF") {
-        document.documentElement.setAttribute('data-tema', "light")
-        localStorage.setItem('temaEspecificado', "false"); 
-        localStorage.setItem('tema', "light"); 
-        document.getElementById("nomeTema").innerHTML = "dark()";
-      } else if (nome !== undefined) {
-        document.documentElement.setAttribute('data-tema', nome)
-        localStorage.setItem('temaEspecificado', "true"); 
-        localStorage.setItem('tema', nome); 
-      } else {
-        console.log("Erro: nome do tema precisa ser definido ou OFF para desativar");
-      }
-    }
-  
-    function tema() {
-      temaAtual = localStorage.getItem('tema');
-      if (temaAtual == "light") {
-        document.documentElement.setAttribute('data-tema', "dark");
-        localStorage.setItem('tema', "dark"); 
-        document.getElementById("nomeTema").innerHTML = "light()";
-      } else {
-        document.documentElement.setAttribute('data-tema', "light");
-        localStorage.setItem('tema', "light"); 
-        document.getElementById("nomeTema").innerHTML = "dark()";
-      }
-  
-      
-    }
-  </script>
+  <script src=../../baseof-tema.js></script>
   
   
   
