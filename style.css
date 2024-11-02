@@ -1,10 +1,11 @@
 :root {
+  --vidro: rgba(6, 6, 4, .1);
   --fonte: var(--fontColor); /* Manter compatibildiade dos temas antigos e SVGs */
   --bordas: 1px solid var(--fontColor);
   --borderRadius: 3px;
   background-color: var(--backgroundColor); 
   color: var(--fontColor);
-  font-family: 'IBM Plex Sans Condensed';
+  font-family: 'Fira mono';
 }
 
 ::selection {
@@ -18,7 +19,7 @@
   --corTermo: darkred;
   --linkColorHover: gray;
   --linkColor: blue;
-  --selectionColor: springgreen;
+  --selectionColor: gray;
   --highLightColor: tomato;
   --backgroundColor: #eee;
   --borderColor: black;
@@ -48,7 +49,6 @@ body {
   font-size: 18px;
   align-items: center;
   margin: 2ch calc(25% - 90px); /* quero ver mais elegante */
-  text-align: justify;
 }
 
 article {
@@ -136,7 +136,9 @@ span#frase{
 }
 
 nav.barra {
+  display: block;
   /*
+  justify-content: flex-end;
   position: fixed;
   top: 0;
   background: var(--backgroundColor);
@@ -192,6 +194,7 @@ input::placeholder {
 
 code {
   font-size: 95%;
+  white-space: break-spaces;
 }
 
 @media only screen and (max-width: 800px){
@@ -354,6 +357,10 @@ img {
   border-radius: 4px;
   max-width: 95%;
 }
+figcaption {
+  font-size: 90%;
+  font-style: italic;
+}
 
 #img-div {
   padding: 0px;
@@ -451,7 +458,7 @@ button[id^="anterior"]:active{
 }
 
 pre {
-  white-space: wrap;
+  white-space: space;
 }
 
 table {
@@ -471,11 +478,16 @@ th, td {
   padding-right: 0.5rem;
 }
 
-code, div#code, p code, blockquote {
+pre, blockquote {
+  width: fit-content;
   padding-left: 1ch;
   margin: 2ch;
   margin-left: 0px;
   border-left: 1px solid tomato; 
+  background: var(--vidro);
+}
+p code {
+  border: none;
 }
 
 @keyframes blinkEmConstrucao {

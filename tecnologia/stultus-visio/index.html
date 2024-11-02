@@ -17,7 +17,8 @@ O tempo que se perde com diagramação, baboseiras, temas e formatação é absu
 
   
     
-    Acadêmico montando uma apresentação em Power Point.
+      Acadêmico montando uma apresentação em Power Point.
+    
   
 
 O formato de arquivo associado aos principais programas de slideshows são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado.  Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente! Seria como ler um livro inteiro no Word!">
@@ -27,9 +28,6 @@ O formato de arquivo associado aos principais programas de slideshows são estú
   <meta charset="utf-8">
 
   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +41,6 @@ O formato de arquivo associado aos principais programas de slideshows são estú
     <a href="../../index.html">Início</a>
     <a href="../../files/">Arquivos</a>
     <a href="#" id="nomeTema" onclick="tema()">tema()</a>
-  <div>
     
       <script>const noglobalsearch = false </script>
     <input type="text" id="globalsearch" placeholder="busca..."></input>
@@ -140,7 +137,6 @@ O formato de arquivo associado aos principais programas de slideshows são estú
       <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.jeffersontorres.com.br/sites-uteis/">Websites e páginas úteis</a></li>
       </ul>
     <script src=../../baseof-search.js></script>
-  </div>
 </nav>
 <body>
   <article>
@@ -174,8 +170,9 @@ O formato de arquivo associado aos principais programas de slideshows são estú
 
 
   <div id="img-div">
-    <img src="../../pix/explain-much.gif"></img>
-    <p>Acadêmico montando uma apresentação em Power Point.</p>
+    <img src="../../pix/explain-much.gif">
+      <figcaption>Acadêmico montando uma apresentação em Power Point.</figcaption>
+    </img>
   </div>
 
 <p>O formato de arquivo associado aos principais programas de <em>slideshows</em> são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado.  Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente! <strong>Seria como ler um livro inteiro no Word!</strong></p>
@@ -183,8 +180,9 @@ O formato de arquivo associado aos principais programas de slideshows são estú
 
 
   <div id="img-div">
-    <img src="../../pix/slides.jpg"></img>
-    <p>Você e seus slides.</p>
+    <img src="../../pix/slides.jpg">
+      <figcaption>Você e seus slides.</figcaption>
+    </img>
   </div>
 
 <p>Decidi então criar um sistema próprio e automatizado.</p>
@@ -303,8 +301,10 @@ Imprima na opção <code>Salvar para PDF</code>.</p>
   </article>
   
   <footer>
-  <a href='#' onClick="retornaTopo()">Ao topo!</a> 
-  
+    
+      <br>
+      <a href='#' onClick="retornaTopo()">Ao topo!</a> 
+    
   <script>
     function retornaTopo(){
       document.documentElement.scrollTop = 0;

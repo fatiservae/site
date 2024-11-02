@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const listItem = document.createElement('li');
       //listItem.innerHTML = "<a style=\"color: var(--corLinks)\" href=\""+key+"\" target=\"_blank\" >"+key+"</a>: "+data[key]; 
       let desc = maiuscula(data[key]);
-      listItem.innerHTML = "<a target=\"_blank\" href=\""+key+"\"> -- "+desc+"</a>"; 
+      listItem.innerHTML = "<a target=\"_blank\" href=\""+key+"\">"+desc+"</a>"; 
       searched.appendChild(listItem);
     }
   })

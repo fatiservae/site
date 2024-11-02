@@ -71,8 +71,9 @@
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/maisel-nomogram.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Nomograma de Maisel&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/maisel-nomogram.png&#34;&gt;
+      &lt;figcaption&gt;Nomograma de Maisel&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Exame físico abdominal para investigar visceromegalias.&lt;/p&gt;
@@ -1084,8 +1085,9 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/eliminated-synapses.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Sinapses eliminadas como processo de desenvolvimento do controle motor fino&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/eliminated-synapses.png&#34;&gt;
+      &lt;figcaption&gt;Sinapses eliminadas como processo de desenvolvimento do controle motor fino&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Mais tarde, foi possível conhecer que, na verdade, o neurodesenvolvimento do autista cursa ao contrário do desenvolvimento de pessoas normais. Primeiro, &lt;strong&gt;todo o SNC&lt;/strong&gt; é afetado por excesso de matéria cinzenta e branca, além de claro aumento de densidade das sinapses. Segundo, &lt;strong&gt;o período de neurodesenvolvimento&lt;/strong&gt; é bastante aumentado, chegando a extremos como a amígdala que pode se manter em desenvolvimento exagerado até os 18 anos.&lt;/p&gt;
@@ -1094,8 +1096,9 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/mentalizing-areas.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Áreas envolvidas no processo de mentalização&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/mentalizing-areas.png&#34;&gt;
+      &lt;figcaption&gt;Áreas envolvidas no processo de mentalização&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;A &lt;mark&gt;mentalização&lt;/mark&gt; é um conceito neuropsíquico que pode ser definido como a capacidade de atribuir comportamento, presumir ações e entender atitudes de outrem como se fossem suas. Trata-se de uma excelente capacidade humana que provavelmente contribui bastante para a evolução do homem moderno.&lt;/p&gt;
@@ -1185,8 +1188,9 @@ quinta --&gt; 9(Ceftarolina);
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/valproic-acid-autism.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/valproic-acid-autism.png&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h4 id=&#34;idade-avançada-dos-pais&#34;&gt;Idade avançada dos pais&lt;/h4&gt;
@@ -2487,8 +2491,9 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/himem-integro.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Exemplo de hímem íntegro.&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/himem-integro.png&#34;&gt;
+      &lt;figcaption&gt;Exemplo de hímem íntegro.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;CRISTAIS DE FLORENCE (iodatada); CRISTAIS DE BARBÉRIO (solução de ácido píprico); CRISTAIS DE BAECHI E CRISTAIS DE BOKARIUS. Locais escuros: LÂMPADA DE WOODS (verde-azulada), indica probabilidade. Reação de Corin-Stocks, exame microscópico com reagente, reação de certeza.Fonte: Medicina Legal, Paulo Furtado e Pedro Henrique Neves, 2ª Ed., revista, atualizada e ampliada, Juspodivm, pg. 241 a 245.&lt;/p&gt;
@@ -3483,8 +3488,9 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/suchey-brooks.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/suchey-brooks.png&#34;&gt;
+      &lt;figcaption&gt;As seis fases de Suchey-Brooks. Note a grande diferença de rugosidade da face interna da sínfise.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h3 id=&#34;índice-de-badouin-ou-razão-condiliana&#34;&gt;Índice de Badouin ou razão condiliana&lt;/h3&gt;
@@ -3492,8 +3498,9 @@ Individualidade pelos dentes, quando estes puderem ser confrontados com dados an
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/condyle-animated.gif&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Côndilos em destaque&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/condyle-animated.gif&#34;&gt;
+      &lt;figcaption&gt;Côndilos em destaque&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Badouin propôs um método de determinação dos sexos que considerou absoluta por sua grande acurácia, mas hoje sabidamente não certeira como se pensava. Trata-se de um cáculo, assim proposto:&lt;/p&gt;
@@ -7433,8 +7440,9 @@ Tolere hipotensão desde que tenha certeza clínica da boa perfusão.&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/wellens.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt; &lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/wellens.jpg&#34;&gt;
+      &lt;figcaption&gt; &lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h3 id=&#34;critérios&#34;&gt;Critérios&lt;/h3&gt;
@@ -7473,8 +7481,9 @@ t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;ECG típico com ondas F de base elétrica perdida.&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/ecg-flutter.jpg&#34;&gt;
+      &lt;figcaption&gt;ECG típico com ondas F de base elétrica perdida.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;ul&gt;
@@ -7593,8 +7602,9 @@ t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2.
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Grau 2 Mobitz I&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/bavt2mobitzi.png&#34;&gt;
+      &lt;figcaption&gt;Grau 2 Mobitz I&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h3 id=&#34;de-grau-2---mobitz-ii&#34;&gt;De grau 2 - Mobitz II&lt;/h3&gt;
@@ -7607,8 +7617,9 @@ t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2.
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Grau 2 Mobitz II&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/bavt2mobitzii.jpg&#34;&gt;
+      &lt;figcaption&gt;Grau 2 Mobitz II&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Causas:&lt;/p&gt;
@@ -7630,8 +7641,9 @@ t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2.
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/bavt3.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Grau 3 - total: note que as ondas P&amp;#39;s estão em taquifrequência e os QRS não&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/bavt3.jpg&#34;&gt;
+      &lt;figcaption&gt;Grau 3 - total: note que as ondas P&amp;#39;s estão em taquifrequência e os QRS não&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;bloqueio-divisional-anterosuperior&#34;&gt;Bloqueio divisional anterosuperior&lt;/h2&gt;
@@ -7660,8 +7672,9 @@ t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2.
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/onda-delta.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Destaque para onda delta no início do QRS&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/onda-delta.jpg&#34;&gt;
+      &lt;figcaption&gt;Destaque para onda delta no início do QRS&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;wolff-parkinson-white&#34;&gt;Wolff Parkinson White&lt;/h2&gt;
@@ -7675,8 +7688,9 @@ t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2.
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;ECG típico em SWPW&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/ecg/wolff%e2%80%93parkinson%e2%80%93white.JPG&#34;&gt;
+      &lt;figcaption&gt;ECG típico em SWPW&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;sobrecarga-ventricular&#34;&gt;Sobrecarga ventricular&lt;/h2&gt;
@@ -8235,8 +8249,9 @@ table{
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/guilherme-ockham.webp&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Guilherme de Ockham.&lt;/p&gt;
+    &lt;img src=&#34;../pix/guilherme-ockham.webp&#34;&gt;
+      &lt;figcaption&gt;Guilherme de Ockham.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Suponha que uma raça alienígena entre em contato com os humanos e decida estudar o nosso comportamento em jogos. Mais especificamente, eles têm interesse em &lt;strong&gt;xadrez&lt;/strong&gt;. Há, contudo, um problema: &lt;em&gt;os aliens são incapazes de enxergar as peças no tabuleiro, tudo que conseguem ver é um emaranhado de borrões entre peças brancas e pretas&lt;/em&gt;. Para eles, nenhum mecanismo do jogo é visível.&lt;/p&gt;
@@ -8244,8 +8259,9 @@ table{
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/chess-board.webp&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
+    &lt;img src=&#34;../pix/chess-board.webp&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Diante desta situação, decidem estudar o jogo de forma comportamental, observando os jogadores de xadrez. Após milhares de partidas assistidas, os aliens concluem que, &lt;em&gt;no longo prazo&lt;/em&gt;, o xadrez é na verdade um jogo de 50/50 já que em metade das partidas o jogador dito &amp;ldquo;peças brancas&amp;rdquo; venceu e, na outra metade, perderam.&lt;/p&gt;
@@ -8255,8 +8271,9 @@ table{
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/razor-ockham.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Não me parece que esta navalha corte muito.&lt;/p&gt;
+    &lt;img src=&#34;../pix/razor-ockham.jpg&#34;&gt;
+      &lt;figcaption&gt;Não me parece que esta navalha corte muito.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Guilherme de Ockham foi um frade e filósofo inglês que formulou o princípio da econômia da natureza, como se segue:&lt;/p&gt;
@@ -8543,8 +8560,9 @@ $$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/projector.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
+    &lt;img src=&#34;../pix/projector.png&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Os arquivos devem ser acessados preferencialmente no formato original &lt;a href=&#34;../tecnologia/stultus-visio/&#34;&gt;StultusVisio&lt;/a&gt;, pois contém vídeos e outros conteúdos interativos impossíveis em PDF.&lt;/p&gt;
@@ -9289,8 +9307,9 @@ Tratamento: Necessita de intervenção, como psicoterapia e/ou medicamentos anti
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/lendo-jornal.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
+    &lt;img src=&#34;../pix/lendo-jornal.png&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Sr. Carlos é um médico renomado, cirurgião especialista. Está em casa pela manhã, lendo as notícias em seu jornal e se depara com uma reportagem sobre uma patologia cirúrgica que conhece muito bem.&lt;/p&gt;
@@ -9311,8 +9330,9 @@ Tratamento: Necessita de intervenção, como psicoterapia e/ou medicamentos anti
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/gell-mann.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Murray Gell-Mann, c. 2012.&lt;/p&gt;
+    &lt;img src=&#34;../pix/gell-mann.png&#34;&gt;
+      &lt;figcaption&gt;Murray Gell-Mann, c. 2012.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Em uma tarde setentrional norte americana da década de 70, em algum café aconchegante, o físico nuclear Gell-Mann e seu colega médico Michael Crichton conversavam sobre este fenômeno. Após o &lt;em&gt;insight&lt;/em&gt; do amigo, Crichton nomeou-o de &lt;strong&gt;amnésia de Gell-Mann.&lt;/strong&gt;&lt;/p&gt;
@@ -9387,18 +9407,20 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Forma clássica&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/hanseniase-hipocromicas.webp&#34;&gt;
+      &lt;figcaption&gt;Forma clássica&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;resposta-imune-fraca&#34;&gt;Resposta imune fraca&lt;/h2&gt;
-&lt;p&gt;A resposta de predomínio Th2 ou a ausência de resposta imune permite a exacerbada replicação bacilar, levando a infiltração disseminada e sintomatologia mais rica. Pode afetar quaisquer tecidos, notadamente os de origem ectodérmica: a pele e o sistema nervos. Curiosamente, o SNC costuma ser poupado.&lt;/p&gt;
+&lt;p&gt;A resposta de predomínio Th2 ou a ausência de resposta imune permite a exacerbada replicação bacilar, levando a infiltração disseminada e sintomatologia mais rica. Pode afetar quaisquer tecidos, notadamente os de origem ectodérmica: a pele e o sistema nervoso. Curiosamente, o SNC costuma ser poupado.&lt;/p&gt;
 
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Desconfie de lesões com aspecto purpúrico somadas a sintomas neurológicos. A pele é lisa e caracteristicamente infiltrada.&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/hanseniase-eritematoferruginosa.jpeg&#34;&gt;
+      &lt;figcaption&gt;Desconfie de lesões com aspecto purpúrico somadas a sintomas neurológicos. A pele é lisa e caracteristicamente infiltrada.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;classificação-da-oms&#34;&gt;Classificação da OMS&lt;/h2&gt;
@@ -9416,7 +9438,7 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 &lt;h2 id=&#34;tratamento&#34;&gt;Tratamento&lt;/h2&gt;
 &lt;p&gt;O tratamento, no Brasil, é a poliquimioterapia padrão da OMS (PQT/OMS).&lt;/p&gt;
 &lt;p&gt;No Distrito Federal, em 2023, estão vigentes os seguintes esquemas:&lt;/p&gt;
-&lt;table border=&#34;1&#34; cellpadding=&#34;1&#34; cellspacing=&#34;1&#34; style=&#34;width:500px;&#34;&gt;
+&lt;table&gt;
 	&lt;tbody&gt;
 		&lt;tr&gt;
 			&lt;td colspan=&#34;2&#34;&gt;&lt;b&gt;Medicamentos padronizados para o tratamento da Hanseníase&lt;/b&gt;&lt;/td&gt;
@@ -9437,25 +9459,25 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 			&lt;td&gt;
 			&lt;p&gt;Tratamento das reações hansênicas&lt;/p&gt;
 			&lt;/td&gt;
-			&lt;td&gt;Clofazimina 50 mg e 100 mg / Prednisona 5 mg e 20 mg / Pentoxifilina 400 mg/ Talidomida 100 mg&lt;/td&gt;
+			&lt;td&gt;Clofazimina 50mg e 100mg &lt;br&gt; Prednisona 5mg e 20mg &lt;br&gt; Pentoxifilina 400mg&lt;br&gt; Talidomida 100mg&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;
 			&lt;p&gt;Tratamento de 2ª linha&lt;/p&gt;
 			&lt;/td&gt;
-			&lt;td&gt;Clofazimina 50 mg e 100 mg / Minociclina 100 mg / Rifampicina 300 mg / Ofloxacino 400 mg&lt;/td&gt;
+			&lt;td&gt;Clofazimina 50mg e 100mg &lt;br&gt; Minociclina 100mg &lt;br&gt; Rifampicina 300mg &lt;br&gt; Ofloxacino 400mg&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;
 			&lt;p&gt;Esquema Farmacológico ROM1&lt;/p&gt;
 			&lt;/td&gt;
-			&lt;td&gt;Rifampicina 600 mg / Ofloxacino 400 mg / Minociclina 100 mg&lt;/td&gt;
+			&lt;td&gt;Rifampicina 600mg &lt;br&gt; Ofloxacino 400mg &lt;br&gt; Minociclina 100mg&lt;/td&gt;
 		&lt;/tr&gt;
 		&lt;tr&gt;
 			&lt;td&gt;
 			&lt;p&gt;Tratamento para os casos resistentes&lt;/p&gt;
 			&lt;/td&gt;
-			&lt;td&gt;Ofloxacino 400 mg / Minociclina 100 mg / Claritromicina 500 mg2/Clofazimina 50 mg&lt;/td&gt;
+			&lt;td&gt;Ofloxacino 400mg &lt;br&gt; Minociclina 100mg &lt;br&gt; Claritromicina 500mg&lt;br&gt;Clofazimina 50mg&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
@@ -9496,8 +9518,9 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
     
     
       &lt;div id=&#34;img-div&#34;&gt;
-        &lt;img src=&#34;../pix/cleanthes.png&#34;&gt;&lt;/img&gt;
-        &lt;p&gt;Cleantes, o cara.&lt;/p&gt;
+        &lt;img src=&#34;../pix/cleanthes.png&#34;&gt;
+          &lt;figcaption&gt;Cleantes, o cara.&lt;/figcaption&gt;
+        &lt;/img&gt;
       &lt;/div&gt;
 
 &lt;/div&gt;
@@ -9696,8 +9719,9 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/magician.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;A ilusão nada mais é que a realidade mal compreendida.&lt;/p&gt;
+    &lt;img src=&#34;../pix/magician.jpg&#34;&gt;
+      &lt;figcaption&gt;A ilusão nada mais é que a realidade mal compreendida.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;como-a-mágica-da-advinhação-funciona&#34;&gt;Como a mágica da advinhação funciona&lt;/h2&gt;
@@ -10215,8 +10239,9 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/dr-stupid.webp&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;É só uma picadinha!&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/dr-stupid.webp&#34;&gt;
+      &lt;figcaption&gt;É só uma picadinha!&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Entre as pessoas leigas há um consenso: &lt;strong&gt;médicos são pessoas capazes de reduzir o sofrimento físico e, a depender, até mesmo emocional das pessoas.&lt;/strong&gt;&lt;/p&gt;
@@ -10552,8 +10577,9 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/many-paths.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Em deviantart.com © by username465, 2016&lt;/p&gt;
+    &lt;img src=&#34;../pix/many-paths.jpg&#34;&gt;
+      &lt;figcaption&gt;Em deviantart.com © by username465, 2016&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Somos forçados contra diversos caminhos na vida.&lt;/p&gt;
@@ -10598,8 +10624,9 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/memento-mori.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;&lt;/p&gt;
+    &lt;img src=&#34;../pix/memento-mori.jpg&#34;&gt;
+      &lt;figcaption&gt;&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Dentre todos os destinos, qual aquele mais certo de que a morte? &lt;strong&gt;Nenhum&lt;/strong&gt;.&lt;/p&gt;
@@ -10720,8 +10747,9 @@ https://en.wikipedia.org/wiki/Soapbox
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/doctor-plague.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.&lt;/p&gt;
+    &lt;img src=&#34;../pix/doctor-plague.png&#34;&gt;
+      &lt;figcaption&gt;Para neutralizar odores, o bico era preenchido com flores, lavanda ou, a depender da indicação, esponjas ao vinagre.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;classificações-médicas&#34;&gt;Classificações médicas&lt;/h2&gt;
@@ -10750,8 +10778,9 @@ Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre 
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/medicina/snake-oil.png&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Óleo de víboras, bom pra tudo. Panaceia Alles Da&lt;/p&gt;
+    &lt;img src=&#34;../pix/medicina/snake-oil.png&#34;&gt;
+      &lt;figcaption&gt;Óleo de víboras, bom pra tudo. Panaceia Alles Da&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;O ano é 2023 e você se lembra da velha caixa de vídeos chamada TV. Liga-a. Uma mulher de meia idade está numa aparente curta estória, explicando inúmeras melhoras na sua vida, desde energia para os filhos até alta libido com seu marido, também de meia idade mas grisalho sorridente. Suas bocas tem sorrisos amplos, ela com 177 dentes, ele com 150. No fim, ela explica:&lt;/p&gt;
@@ -12127,8 +12156,9 @@ $$&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/explain-much.gif&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Acadêmico montando uma apresentação em Power Point.&lt;/p&gt;
+    &lt;img src=&#34;../pix/explain-much.gif&#34;&gt;
+      &lt;figcaption&gt;Acadêmico montando uma apresentação em Power Point.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;O formato de arquivo associado aos principais programas de &lt;em&gt;slideshows&lt;/em&gt; são estúpidos porque se pressupõe que o computador/aparelho de apresentação tenha o mesmo software instalado.  Além disso, a apresentação é mostrada a partir do arquivo editável. Em nenhuma área da informática isso é tão contraproducente! &lt;strong&gt;Seria como ler um livro inteiro no Word!&lt;/strong&gt;&lt;/p&gt;
@@ -12136,8 +12166,9 @@ $$&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/slides.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Você e seus slides.&lt;/p&gt;
+    &lt;img src=&#34;../pix/slides.jpg&#34;&gt;
+      &lt;figcaption&gt;Você e seus slides.&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Decidi então criar um sistema próprio e automatizado.&lt;/p&gt;
@@ -12256,8 +12287,9 @@ Imprima na opção &lt;code&gt;Salvar para PDF&lt;/code&gt;.&lt;/p&gt;
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/palenque.webp&#34;&gt;&lt;/img&gt;
-    &lt;p&gt; &lt;/p&gt;
+    &lt;img src=&#34;../pix/palenque.webp&#34;&gt;
+      &lt;figcaption&gt; &lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;p&gt;Cidade de Chiapas, referência de uma cultura perdida do século 8, pertencente aos Maias.&lt;/p&gt;
@@ -12448,8 +12480,9 @@ function updateResult() {
 
 
   &lt;div id=&#34;img-div&#34;&gt;
-    &lt;img src=&#34;../pix/iriri.jpg&#34;&gt;&lt;/img&gt;
-    &lt;p&gt;Pousada Barla Vento&lt;/p&gt;
+    &lt;img src=&#34;../pix/iriri.jpg&#34;&gt;
+      &lt;figcaption&gt;Pousada Barla Vento&lt;/figcaption&gt;
+    &lt;/img&gt;
   &lt;/div&gt;
 
 &lt;h2 id=&#34;geral&#34;&gt;Geral&lt;/h2&gt;

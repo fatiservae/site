@@ -11,24 +11,25 @@
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link rel="icon" href="./favicon.webp">
   <meta name="description" content="
+
  
    
   
   
-    
-  
 
 
 
 
+
   
-  
-      
-  
-  
-  TLDR Desculpe a bagunça!
+  TLDR; Desculpe a bagunça!
   Este é um site pessoal onde guardo minhas ferramentas online. 
   Contato por Telegram: @fatiservae
+  
+  
+  
+  
+      Eu circa 2022
   
 
 ">
@@ -37,9 +38,6 @@
   <meta charset="utf-8">
 
   
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,7 +51,6 @@
     <a href="./index.html">Início</a>
     <a href="./files/">Arquivos</a>
     <a href="#" id="nomeTema" onclick="tema()">tema()</a>
-  <div>
     
       <script>const noglobalsearch = false </script>
     <input type="text" id="globalsearch" placeholder="busca..."></input>
@@ -150,7 +147,6 @@
       <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.jeffersontorres.com.br/sites-uteis/">Websites e páginas úteis</a></li>
       </ul>
     <script src=./baseof-search.js></script>
-  </div>
 </nav>
 <body>
   <article>
@@ -164,73 +160,72 @@
   
     <script>
 function randomIndex(valor) {
-    return Math.floor(Math.random() * valor)
+  return Math.floor(Math.random() * valor);
 }
 
-function novaFrase(){
-  let frases;
-  let index ;
-  let fraseAleatoria ;
-  let autor ;
-  
+function novaFrase() {
   fetch('/citacoes.json')
-  .then(response => response.json())
-  .then(data => { 
-    const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
-    index = randomIndex(novoFormato.length);
-    fraseAleatoria = novoFormato[index].frase;
-    
-    while (fraseAleatoria.length > 100) {
-      index = randomIndex(novoFormato.length);
-    }
-    fraseAleatoria = novoFormato[index].frase;
-    autor = novoFormato[index].autor;
-    if (autor.length > 1){
-      document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
-    }
-    let typedout = "";
-    let comprimento = fraseAleatoria.length;
-    let delay = 90;
-    
-    for (let i = 0; i < comprimento; i++) {
+    .then(response => response.json())
+    .then(async data => { 
+      const novoFormato = data.flatMap(item => item.citacoes.map(frase => ({ autor: item.autor, frase })));
+      let index = randomIndex(novoFormato.length);
+      let fraseAleatoria = novoFormato[index].frase;
+
       
+      while (fraseAleatoria.length > 100) {
+        index = randomIndex(novoFormato.length);
+        fraseAleatoria = novoFormato[index].frase;
+      }
+
+      const autor = novoFormato[index].autor;
+      if (autor.length > 1) {
+        document.getElementById("autor").innerHTML = `<mark id="autor">${autor}</mark>`;
+      }
       
+      let typedout = "";
+      const comprimento = fraseAleatoria.length;
+
       
-      
-      
-      setTimeout(() => {
+      for (let i = 0; i < comprimento; i++) {
+        let delay = 90;
+        
+        
+        if (fraseAleatoria[i] === '.' || fraseAleatoria[i] === ',') {
+          delay = 500;
+        }
+        
+        await new Promise(resolve => setTimeout(resolve, delay));
         typedout += fraseAleatoria[i];
         document.getElementById("frase").innerText = typedout;
-      }, i * delay);
-    }
-  })
-  .catch(error => console.error('Erro ao buscar o JSON:', error));
+      }
+    })
+    .catch(error => console.error('Erro ao buscar o JSON:', error));
 }
 
 document.addEventListener("DOMContentLoaded", function() {
   novaFrase();
 });
-
 </script>
-<div id=divFrase> 
+
+<div id="divFrase"> 
   <span id="frase"></span> 
   <div id="autor"></div>
-  <br>
-    
   <br>
 </div>
 
 
 
-  <br>
-  <div>
-      <img src="./pix/eu3.jpg" alt="Eu">
-  </div>
+
   <blockquote>
-  <span style="color: tomato; font-weight: bold">TLDR</span><br> Desculpe a bagunça!<br>
+  <span style="color: tomato; font-weight: bold">TLDR;</span><br> Desculpe a bagunça!<br>
   Este é um site pessoal onde guardo minhas ferramentas online. <br>
   Contato por Telegram: <a href="https://t.me/fatiservae">@fatiservae</a>
   </blockquote>
+  <br>
+  <br>
+  <div>
+      <img src="./pix/eu3.jpg" alt="Eu"><figcaption>Eu circa 2022</figcaption></img>
+  </div>
 
 <script src=index.js></script>
 
@@ -243,8 +238,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </article>
   
   <footer>
-  <a href='#' onClick="retornaTopo()">Ao topo!</a> 
-  
+    
   <script>
     function retornaTopo(){
       document.documentElement.scrollTop = 0;
