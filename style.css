@@ -47,7 +47,7 @@ body {
   margin-top: 2ch;
   font-size: 18px;
   align-items: center;
-  margin: 2ch calc(25% - 120px); /* quero ver mais elegante */
+  margin: 2ch calc(25% - 90px); /* quero ver mais elegante */
   text-align: justify;
 }
 
@@ -92,6 +92,7 @@ a::hover{
   text-align: start;
   font-size: 200%;
 }
+/* Questionável ... */
 #maquinaescrever{
   margin-top: 3vw;
 }
@@ -375,6 +376,11 @@ input::placeholder {
   right: 1em; 
   bottom: 1em; 
   z-index: -1;
+}
+@media only screen and (max-width: 800px){
+  .fundo-only-big {
+    display: none;
+  }
 }
 
 [class^="carousel"] {
