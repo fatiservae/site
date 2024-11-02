@@ -4,6 +4,8 @@
   
   
   
+    <script type="module" src="../../baseof-mermaid-theme.js"></script>
+  
   <title>Saúde da mulher | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
@@ -206,6 +208,19 @@ Secundária: parou de menstruar.">
   
   <script src=../../baseof-tema.js></script>
   
+  
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sangramento-anormal">Sangramento anormal</a></li>
+    <li><a href="#amenorreia">Amenorreia</a>
+      <ul>
+        <li><a href="#primárias">Primárias</a></li>
+        <li><a href="#secundárias">Secundárias</a></li>
+      </ul>
+    </li>
+    <li><a href="#câncer-cervical">Câncer cervical</a></li>
+  </ul>
+</nav>
   
   
   
@@ -606,6 +621,28 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
 <p>Teste da progesterona é dar progesterona por 15 dias.
 Teste do estrogênio e progesterona: é pra menstruar! Se não é Asherman.</p>
+<h2 id="câncer-cervical">Câncer cervical</h2>
+<pre class="mermaid">graph TD;
+A[Demanda espontânea, encaminhamentos etc] -- Encaminhamento para coleta do exame colpocitológico com médico ou enfermeiro --> E[Resultado do exame colhido por médico ou enfermeiro];
+E --> |Normal| F[Repetir em 1 ano];
+F --> H[Normal];
+H --> I[Repetir em no mínimo 1 ano e no máximo em 3 anos];
+E --> Y[Alterado <br> Encaminhar para o médico] -- LIAG sem descartar microinvasão ou lesão vegetante, carcinoma epidermoide, adenocarcinoma, adenocarcinoma <i>in situ</i>] --> Z[Colposcopia em 10 dias!];
+Y -- LIAG, AGC, ASC-H --> U[Colposcopia em 30 dias.];
+Y -- ASC-US, LSIL --> J[Repetir exame em 6 meses];
+J --> K[Novamente<br>LSIL ou ASC-US];
+K --> L[Colposcopia em 60 dias];
+</pre>
+
+<p>Legenda:</p>
+<ul>
+<li>ASC-US: Atipias de significado indeterminado em células escamosas, possivelmente não neoplásicas.</li>
+<li>ASC-H: Atipias de significado indeterminado em células escamosas não podendo excluir lesão de alto grau.</li>
+<li>AGC: Atipias de significado indeterminado em células glandulares.</li>
+<li>LSIL: Lesão intraepitelial escamosa de baixo grau.</li>
+<li>LIAG: Lesão intraepitelial de alto grau.</li>
+<li>NIC: Neoplasia intraepitelial cervical.</li>
+</ul>
 
   
   

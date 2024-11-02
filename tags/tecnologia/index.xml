@@ -490,6 +490,28 @@ Morris: 46XY tem testículo com antimulleriano e testosterona sem ação perifé
 
 &lt;p&gt;Teste da progesterona é dar progesterona por 15 dias.
 Teste do estrogênio e progesterona: é pra menstruar! Se não é Asherman.&lt;/p&gt;
+&lt;h2 id=&#34;câncer-cervical&#34;&gt;Câncer cervical&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+A[Demanda espontânea, encaminhamentos etc] -- Encaminhamento para coleta do exame colpocitológico com médico ou enfermeiro --&gt; E[Resultado do exame colhido por médico ou enfermeiro];
+E --&gt; |Normal| F[Repetir em 1 ano];
+F --&gt; H[Normal];
+H --&gt; I[Repetir em no mínimo 1 ano e no máximo em 3 anos];
+E --&gt; Y[Alterado &lt;br&gt; Encaminhar para o médico] -- LIAG sem descartar microinvasão ou lesão vegetante, carcinoma epidermoide, adenocarcinoma, adenocarcinoma &lt;i&gt;in situ&lt;/i&gt;] --&gt; Z[Colposcopia em 10 dias!];
+Y -- LIAG, AGC, ASC-H --&gt; U[Colposcopia em 30 dias.];
+Y -- ASC-US, LSIL --&gt; J[Repetir exame em 6 meses];
+J --&gt; K[Novamente&lt;br&gt;LSIL ou ASC-US];
+K --&gt; L[Colposcopia em 60 dias];
+&lt;/pre&gt;
+
+&lt;p&gt;Legenda:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ASC-US: Atipias de significado indeterminado em células escamosas, possivelmente não neoplásicas.&lt;/li&gt;
+&lt;li&gt;ASC-H: Atipias de significado indeterminado em células escamosas não podendo excluir lesão de alto grau.&lt;/li&gt;
+&lt;li&gt;AGC: Atipias de significado indeterminado em células glandulares.&lt;/li&gt;
+&lt;li&gt;LSIL: Lesão intraepitelial escamosa de baixo grau.&lt;/li&gt;
+&lt;li&gt;LIAG: Lesão intraepitelial de alto grau.&lt;/li&gt;
+&lt;li&gt;NIC: Neoplasia intraepitelial cervical.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 	</item>
 	

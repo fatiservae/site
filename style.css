@@ -31,8 +31,8 @@
   --corTermo: tomato;
   --linkColorHover: gray;
   --linkColor: white;
-  --selectionColor: tomato;
-  --highLightColor: lime;
+  --selectionColor: #ebc3d9;
+  --highLightColor: #ebc3d9;
   --backgroundColor: #343a3f;
   --borderColor: #666;
   --fontColor: #aaa;
@@ -460,6 +460,14 @@ button[id^="anterior"]:active{
 pre {
   white-space: space;
 }
+pre.mermaid {
+  width: 93%;
+  border: none;
+  background: none;
+}
+.mermaid svg {
+  align: center
+}
 
 table {
   border-spacing: 0;
@@ -502,4 +510,7 @@ p code {
 
 h1, h2, h3, h4, h5 {
   color: var(--headingsColor);
+}
+
+#greeting {
 }
