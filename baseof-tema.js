@@ -2,9 +2,9 @@ let temaAtual = localStorage.getItem('tema');
 let temaEspecificado = localStorage.getItem('temaEspecificado');
 
 if (temaAtual == "dark"){
-  document.getElementById("nomeTema").innerHTML = "light()";
+  document.getElementById("nomeTema").innerHTML = ".light";
 } else if (temaAtual == "light") {
-  document.getElementById("nomeTema").innerHTML = "dark()";
+  document.getElementById("nomeTema").innerHTML = ".dark";
 }
 
 if (temaEspecificado == "true") {
@@ -12,12 +12,12 @@ if (temaEspecificado == "true") {
 } else if (temaAtual == "dark") {
   document.documentElement.setAttribute('data-tema', "dark");
   localStorage.setItem('tema', "dark"); 
-  document.getElementById("nomeTema").innerHTML = "light()";
+  document.getElementById("nomeTema").innerHTML = ".light";
   setNomeTema();
 } else {
   document.documentElement.setAttribute('data-tema', "light");
   localStorage.setItem('tema', "light"); 
-  document.getElementById("nomeTema").innerHTML = "dark()";
+  document.getElementById("nomeTema").innerHTML = ".dark";
 }
 
 function temaEspecifico(nome) {
@@ -25,7 +25,7 @@ function temaEspecifico(nome) {
     document.documentElement.setAttribute('data-tema', "light")
     localStorage.setItem('temaEspecificado', "false"); 
     localStorage.setItem('tema', "light"); 
-    document.getElementById("nomeTema").innerHTML = "dark()";
+    document.getElementById("nomeTema").innerHTML = ".dark";
   } else if (nome !== undefined) {
     document.documentElement.setAttribute('data-tema', nome)
     localStorage.setItem('temaEspecificado', "true"); 
@@ -40,11 +40,11 @@ function tema() {
   if (temaAtual == "light") {
     document.documentElement.setAttribute('data-tema', "dark");
     localStorage.setItem('tema', "dark"); 
-    document.getElementById("nomeTema").innerHTML = "light()";
+    document.getElementById("nomeTema").innerHTML = ".light";
   } else {
     document.documentElement.setAttribute('data-tema', "light");
     localStorage.setItem('tema', "light"); 
-    document.getElementById("nomeTema").innerHTML = "dark()";
+    document.getElementById("nomeTema").innerHTML = ".dark";
   }  
 
   location.reload();

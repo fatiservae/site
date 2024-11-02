@@ -1,24 +1,10 @@
-@font-face {
-    font-family: 'comic sans';
-    src: url('/fonts/comicsans.woff2') format('woff2'), /* Formato de fonte WOFF2 */
-         url('/fonts/comicsans.ttf') format('ttf'); /* Formato de fonte WOFF */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'virgil';
-    src: url('/fonts/Virgil.woff2') format('woff2'), /* Formato de fonte WOFF2 */
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
   --fonte: var(--fontColor); /* Manter compatibildiade dos temas antigos e SVGs */
   --bordas: 1px solid var(--fontColor);
   --borderRadius: 3px;
   background-color: var(--backgroundColor); 
   color: var(--fontColor);
-  font-family: 'Fira Mono';
+  font-family: 'IBM Plex Sans Condensed';
 }
 
 ::selection {
@@ -27,6 +13,7 @@
 }
 
 :root[data-tema="light"] {
+  --headingsColor: black;
   --darkerBg: darkgray;
   --corTermo: darkred;
   --linkColorHover: gray;
@@ -38,6 +25,7 @@
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
+  --headingsColor: #ecc;
   --darkerBg: #282828;
   --corTermo: tomato;
   --linkColorHover: gray;
@@ -54,12 +42,13 @@ body {
   line-height: 1.6;
   padding: 0 10px;
   max-width: 90vw;
-  display: block;
+  display: flex;
   */
   margin-top: 2ch;
   font-size: 18px;
   align-items: center;
-  margin: 2ch calc(25% - 90px);
+  margin: 2ch calc(25% - 120px); /* quero ver mais elegante */
+  text-align: justify;
 }
 
 article {
@@ -145,7 +134,18 @@ span#frase{
   color: var(--fraseHover); 
 }
 
+nav.barra {
+  /*
+  position: fixed;
+  top: 0;
+  background: var(--backgroundColor);
+  margin: 0px;
+  width: 100vw;
+  z-index: +100;
+  */
+}
 nav {
+  font-family: "Fira Mono";
 }
 nav a {
   padding-right: 0.5vw;
@@ -480,4 +480,8 @@ code, div#code, p code, blockquote {
 .emConstrucao {
   font-weight: bold;
   animation: blinkEmConstrucao 2s infinite;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--headingsColor);
 }

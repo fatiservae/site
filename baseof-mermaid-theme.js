@@ -1,28 +1,33 @@
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-      if (temaAtual === 'dark') {
-      mermaid.initialize({ 
-          'theme': 'base',
-          'timeline': {'disableMulticolor': true},
-          'themeVariables': {
-            'primaryColor': 'transparent',
-            'primaryTextColor': '#a0acb9',
-            'primaryBorderColor': '#ffdead',
-            'lineColor': '#ffdead',
-            'secondaryColor': '#22272e',
-            'tertiaryColor': 'transparent'
-          }
-      });
-    } else {
-      mermaid.initialize({ 
-          'theme': 'base',
-          'timeline': {'disableMulticolor': true},
-          'themeVariables': {
-            'primaryColor': 'transparent',
-            'primaryTextColor': '#000000',
-            'primaryBorderColor': 'black',
-            'lineColor': '#000000',
-            'secondaryColor': '#f4f4f4',
-            'tertiaryColor': '#f4f4f4'
-          }
-      });
-    } 
+const rootStyles = getComputedStyle(document.documentElement);
+const backgroundColor = rootStyles.getPropertyValue("--backgroundColor").trim();
+const borderColor = rootStyles.getPropertyValue("--borderColor").trim();
+const fontColor = rootStyles.getPropertyValue("--fontColor").trim();
+
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  if (temaAtual === 'dark') {
+  mermaid.initialize({ 
+      'theme': 'base',
+      'timeline': {'disableMulticolor': true},
+      'themeVariables': {
+        'primaryColor': 'transparent',
+        'primaryTextColor': fontColor,
+        'primaryBorderColor': borderColor,
+        'lineColor': borderColor,
+        'secondaryColor': backgroundColor,
+        'tertiaryColor': 'transparent'
+      }
+  });
+} else {
+  mermaid.initialize({ 
+      'theme': 'base',
+      'timeline': {'disableMulticolor': true},
+      'themeVariables': {
+        'primaryColor': 'transparent',
+        'primaryTextColor': fontColor,
+        'primaryBorderColor': borderColor,
+        'lineColor': borderColor,
+        'secondaryColor': backgroundColor,
+        'tertiaryColor': 'transparent'
+      }
+  });
+} 
