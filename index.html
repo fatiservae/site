@@ -12,6 +12,7 @@
   <link rel="icon" href="./favicon.webp">
   <meta name="description" content="
 
+
  
    
   
@@ -147,7 +148,12 @@ Este é um site pessoal onde guardo minhas ferramentas online. ">
   
   
   
-    <script>
+    <style>
+  h2::before {
+    content: none;
+  }
+</style>
+<script>
 function randomIndex(valor) {
   return Math.floor(Math.random() * valor);
 }

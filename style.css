@@ -14,13 +14,13 @@
 }
 
 :root[data-tema="light"] {
-  --headingsColor: black;
+  --linkColor: #474bbf;
+  --linkColorHover: blue;
+  --headingsColor: #c24040;
   --darkerBg: darkgray;
   --corTermo: darkred;
-  --linkColorHover: gray;
-  --linkColor: blue;
   --selectionColor: gray;
-  --highLightColor: tomato;
+  --highLightColor: #c24040;
   --backgroundColor: #eee;
   --borderColor: black;
   --fontColor: #222;
@@ -28,10 +28,10 @@
 :root[data-tema="dark"] {
   --headingsColor: #ecc;
   --darkerBg: #282828;
+  --linkColor: #5a5fed;
+  --linkColorHover: skyblue;
   --corTermo: tomato;
-  --linkColorHover: gray;
-  --linkColor: white;
-  --selectionColor: #ebc3d9;
+  --selectionColor: #9e3c3c;
   --highLightColor: #ebc3d9;
   --backgroundColor: #343a3f;
   --borderColor: #666;
@@ -58,7 +58,8 @@ a {
   text-decoration: none;
   color: var(--linkColor);
 }
-a::hover{
+a:hover{
+  text-decoration: underline;
   color: var(--linkColorHover);
 }
 
@@ -155,8 +156,10 @@ nav a {
   font-weight: medium;
   color: var(--fontColor);
 }
-nav a:hover{
+nav.barra a:hover{
+  color: var(--fontColor); /* Para evitar ser sobreposto por a{}*/
   font-weight: bold;
+  text-decoration: none;
 }
 
 mark {
@@ -513,4 +516,47 @@ h1, h2, h3, h4, h5 {
 }
 
 #greeting {
+}
+
+
+/* Inicializa o contador principal */
+body {
+    counter-reset: h1;
+}
+
+/* Estiliza o h1 e incrementa o contador h1 */
+h1 {
+    counter-reset: h2; /* Reseta o contador de h2 toda vez que encontra um h1 */
+    counter-increment: h1;
+}
+
+h1::before, 
+h2::before, 
+h3::before, 
+h4::before {
+    color: var(--selectionColor);
+}
+
+h1::before {
+    content: counter(h1) ". "; /* Exibe o número do h1 */
+}
+h2 {
+    counter-reset: h3; 
+    counter-increment: h2;
+}
+h2::before {
+    content: counter(h1) "." counter(h2) ". "; /* Exibe h1.h2 */
+}
+h3 {
+    counter-reset: h4; 
+    counter-increment: h3;
+}
+h3::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) ". "; /* Exibe h1.h2.h3 */
+}
+h4 {
+    counter-increment: h4;
+}
+h4::before {
+    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "; /* Exibe h1.h2.h3.h4 */
 }
