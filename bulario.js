@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         dose.innerHTML += " "+posologia.via;
+        dose.style.color = "var(--corTermo)";
 
         let instrucao = document.createElement('p');
         instrucao.style.color = "var(--fonte)";
@@ -99,6 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
         dose.appendChild(instrucao);
         instrucao.style.fontWeight = "normal";
         atb.appendChild(dose);
+        atb.appendChild(document.createElement("br"));
       });
 
       if (atbAtual.obs !== undefined){

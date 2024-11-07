@@ -15,9 +15,7 @@
 
 
 
-
-
-
+  
 
 
 
@@ -45,6 +43,7 @@
       <script>const noglobalsearch = false </script>
     <input type="text" id="globalsearch" placeholder="busca..."></input>
     <ul id="artlist">
+      <li data-tags="[medicina emergências neurologia]"><a href="https://www.jeffersontorres.com.br/medicina/avc/">Acidente vascular cerebral</a></li>
       <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/medicina/neonatologia/">Neonatologia e recém-nascidos</a></li>
       <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/medicina/saude-mulher/">Saúde da mulher</a></li>
       <li data-tags="[medicina urologia]"><a href="https://www.jeffersontorres.com.br/medicina/prostatopatias/">Prostatopatias</a></li>
@@ -163,11 +162,9 @@
     font-weight: normal;
     width: fit-content;
     display: none;
-    margin-left: 5vw;
     margin-bottom: 0.5em;
     border: none;
-    border-radius: var(--raioBordas);
-    border: var(--bordas);
+    border: var(--borders);
     background-color: var(--vidro);
   }
   div#divAtb p{
@@ -177,11 +174,7 @@
   .obsTopic {
     margin-bottom = 5px;
   }
-  .observacao {
-    color: var(--negrito);
-    margin = 5px;
-  }
- 
+
   .nome{
     font-size: 140%;
     margin-left: 0em;
@@ -203,12 +196,13 @@
     width = fit-content;
     fontweight = bold;
   }
+  hr { 
+    width: 20vw;
+  }
 </style>
 
 <div class="search" style="position: relative;">
-<input type="text" id="search" placeholder=" ex. midazolam">
-<svg class="lupa" xmlns="http://www.w3.org/2000/svg" stroke-width="1.09" enable-background="new 0 0 24 24" height="14px" viewBox="0 0 24 24" width="4px" focusable="false" autocapitalize="none" autocomplete="off" autocorrect="off" tabindex="0" type="text" spellcheck="false" aria-label="Pesquisar"><path d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"></path></svg>
-</input>
+  <input type="text" id="search" placeholder=" ex. midazolam"></input>
 </div>
 <br>
 <div id="resultado"></div>

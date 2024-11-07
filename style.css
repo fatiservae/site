@@ -1,7 +1,8 @@
 :root {
+  /* Manter compatibildiade dos temas antigos e SVGs */
+  --fonte: var(--fontColor); 
   --vidro: rgba(6, 6, 4, .1);
-  --fonte: var(--fontColor); /* Manter compatibildiade dos temas antigos e SVGs */
-  --bordas: 1px solid var(--fontColor);
+  --borders: 1px solid var(--fontColor);
   --borderRadius: 3px;
   background-color: var(--backgroundColor); 
   color: var(--fontColor);
@@ -46,7 +47,7 @@ body {
   display: flex;
   */
   margin-top: 2ch;
-  font-size: 18px;
+  font-size: 17px;
   align-items: center;
   margin: 2ch calc(25% - 90px); /* quero ver mais elegante */
 }
@@ -61,6 +62,9 @@ a {
 a:hover{
   text-decoration: underline;
   color: var(--linkColorHover);
+}
+
+#artlist {
 }
 
 #artlist li {
@@ -137,6 +141,7 @@ span#frase{
 }
 
 nav.barra {
+  font-size: 120%;
   display: block;
   /*
   justify-content: flex-end;
@@ -149,13 +154,13 @@ nav.barra {
   */
 }
 nav {
-  font-family: "Fira Mono";
 }
 nav a {
   padding-right: 0.5vw;
   font-weight: medium;
   color: var(--fontColor);
 }
+nav.barra a:active,
 nav.barra a:hover{
   color: var(--fontColor); /* Para evitar ser sobreposto por a{}*/
   font-weight: bold;
@@ -514,49 +519,13 @@ p code {
 h1, h2, h3, h4, h5 {
   color: var(--headingsColor);
 }
+h2, h3, h4, h5 {
+  font-weight: normal;
+}
 
 #greeting {
 }
 
-
-/* Inicializa o contador principal */
-body {
-    counter-reset: h1;
-}
-
-/* Estiliza o h1 e incrementa o contador h1 */
-h1 {
-    counter-reset: h2; /* Reseta o contador de h2 toda vez que encontra um h1 */
-    counter-increment: h1;
-}
-
-h1::before, 
-h2::before, 
-h3::before, 
-h4::before {
-    color: var(--selectionColor);
-}
-
-h1::before {
-    content: counter(h1) ". "; /* Exibe o número do h1 */
-}
-h2 {
-    counter-reset: h3; 
-    counter-increment: h2;
-}
-h2::before {
-    content: counter(h1) "." counter(h2) ". "; /* Exibe h1.h2 */
-}
-h3 {
-    counter-reset: h4; 
-    counter-increment: h3;
-}
-h3::before {
-    content: counter(h1) "." counter(h2) "." counter(h3) ". "; /* Exibe h1.h2.h3 */
-}
-h4 {
-    counter-increment: h4;
-}
-h4::before {
-    content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". "; /* Exibe h1.h2.h3.h4 */
+.primeiraMaiuscula::first-letter {
+  text-transform: uppercase;
 }

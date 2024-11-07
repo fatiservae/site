@@ -11,6 +11,46 @@
 	
 	
 	<item>
+		<title>Acidente vascular cerebral</title>
+		<link>https://www.jeffersontorres.com.br/medicina/avc/</link>
+		<pubDate>Mon, 04 Nov 2024 19:34:15 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/avc/</guid>
+		<description>&lt;h2 id=&#34;escala-de-house-brackmann&#34;&gt;Escala de House-Brackmann&lt;/h2&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Grau&lt;/th&gt;
+    &lt;th&gt;Descrição&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;I&lt;/td&gt;
+    &lt;td&gt;Normal: Função facial normal em repouso e movimento.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;II&lt;/td&gt;
+    &lt;td&gt;Disfunção leve: Pequena assimetria em repouso, movimentos completos. Pequena sinquinesia.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;III&lt;/td&gt;
+    &lt;td&gt;Disfunção moderada: Assimetria visível em repouso, fechamento completo dos olhos e sorriso. Sinquinesia moderada.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;IV&lt;/td&gt;
+    &lt;td&gt;Disfunção moderadamente severa: Assimetria evidente em repouso, fechamento incompleto dos olhos. Sinquinesia acentuada.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;V&lt;/td&gt;
+    &lt;td&gt;Disfunção severa: Movimentos mínimos do lado afetado. Ausência de fechamento completo dos olhos e sorriso.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;VI&lt;/td&gt;
+    &lt;td&gt;Paralisia total: Ausência completa de movimentos faciais.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Neonatologia e recém-nascidos</title>
 		<link>https://www.jeffersontorres.com.br/medicina/neonatologia/</link>
 		<pubDate>Sun, 20 Oct 2024 19:17:11 -0300</pubDate>
@@ -10520,11 +10560,9 @@ Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.
     font-weight: normal;
     width: fit-content;
     display: none;
-    margin-left: 5vw;
     margin-bottom: 0.5em;
     border: none;
-    border-radius: var(--raioBordas);
-    border: var(--bordas);
+    border: var(--borders);
     background-color: var(--vidro);
   }
   div#divAtb p{
@@ -10534,11 +10572,7 @@ Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.
   .obsTopic {
     margin-bottom = 5px;
   }
-  .observacao {
-    color: var(--negrito);
-    margin = 5px;
-  }
- 
+
   .nome{
     font-size: 140%;
     margin-left: 0em;
@@ -10560,12 +10594,13 @@ Calculadora &lt;a href=&#34;../../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.
     width = fit-content;
     fontweight = bold;
   }
+  hr { 
+    width: 20vw;
+  }
 &lt;/style&gt;
 
 &lt;div class=&#34;search&#34; style=&#34;position: relative;&#34;&gt;
-&lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34; ex. midazolam&#34;&gt;
-&lt;svg class=&#34;lupa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; stroke-width=&#34;1.09&#34; enable-background=&#34;new 0 0 24 24&#34; height=&#34;14px&#34; viewBox=&#34;0 0 24 24&#34; width=&#34;4px&#34; focusable=&#34;false&#34; autocapitalize=&#34;none&#34; autocomplete=&#34;off&#34; autocorrect=&#34;off&#34; tabindex=&#34;0&#34; type=&#34;text&#34; spellcheck=&#34;false&#34; aria-label=&#34;Pesquisar&#34;&gt;&lt;path d=&#34;m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
-&lt;/input&gt;
+  &lt;input type=&#34;text&#34; id=&#34;search&#34; placeholder=&#34; ex. midazolam&#34;&gt;&lt;/input&gt;
 &lt;/div&gt;
 &lt;br&gt;
 &lt;div id=&#34;resultado&#34;&gt;&lt;/div&gt;
