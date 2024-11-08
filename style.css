@@ -529,3 +529,12 @@ h2, h3, h4, h5 {
 .primeiraMaiuscula::first-letter {
   text-transform: uppercase;
 }
+
+.mermaid {
+  background-color: transparent;
+  border: none;
+}
+/* Para Katex, veja o shortcode com css integrado. */
+.mermaid svg {
+  align: center
+}
