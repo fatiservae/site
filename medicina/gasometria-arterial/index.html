@@ -48,7 +48,7 @@ A respiração provoca retirada do dióxido de carbono diluído no soro; e
 Os rins regulam a excreção de bicarbonato.
 
 Este sistema é o principal sistema tampão sérico. Existem outros, como o sistema proteico (bases), principalmente via albumina.">
-  <meta name="keywords" content="Medicina, Resumos, Projetos, Calculadoras">
+  <meta name="keywords" content="emergências, Medicina, Resumos, Projetos, Calculadoras">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -71,6 +71,7 @@ Este sistema é o principal sistema tampão sérico. Existem outros, como o sist
       <script>const noglobalsearch = false </script>
     <input type="text" id="globalsearch" placeholder="busca..."></input>
     <ul id="artlist">
+      <li data-tags="[pediatria emergências trauma]"><a href="https://www.jeffersontorres.com.br/medicina/tce/">Traumatismo craniencefálico</a></li>
       <li data-tags="[medicina emergências neurologia]"><a href="https://www.jeffersontorres.com.br/medicina/avc/">Acidente vascular cerebral</a></li>
       <li data-tags="[pediatria medicina]"><a href="https://www.jeffersontorres.com.br/medicina/neonatologia/">Neonatologia e recém-nascidos</a></li>
       <li data-tags="[medicina ginecologia obstetrícia]"><a href="https://www.jeffersontorres.com.br/medicina/saude-mulher/">Saúde da mulher</a></li>
@@ -153,7 +154,7 @@ Este sistema é o principal sistema tampão sérico. Existem outros, como o sist
       <li data-tags="[calculadoras projetos medicina programação]"><a href="https://www.jeffersontorres.com.br/medicina/banco-de-questoes/">Banco de questões</a></li>
       <li data-tags="[natureza brasil Destinos]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/bahia-itacare/">Bahia - Itacaré</a></li>
       <li data-tags="[projetos emergências calculadoras medicina]"><a href="https://www.jeffersontorres.com.br/medicina/tokyo-guideline/">Colecistite aguda</a></li>
-      <li data-tags="[Medicina Resumos Projetos Calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria arterial</a></li>
+      <li data-tags="[emergências Medicina Resumos Projetos Calculadoras]"><a href="https://www.jeffersontorres.com.br/medicina/gasometria-arterial/">Gasometria arterial</a></li>
       <li data-tags="[tecnologia programação]"><a href="https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
       <li data-tags="[Programação Projetos]"><a href="https://www.jeffersontorres.com.br/tecnologia/stultus-visio/">Slides menos estúpidos: StultusVisio</a></li>
       <li data-tags="[México Viagem Destinos]"><a href="https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
@@ -188,7 +189,6 @@ Este sistema é o principal sistema tampão sérico. Existem outros, como o sist
         <li><a href="#ânion-gap">Ânion gap</a></li>
         <li><a href="#delta-delta">Delta delta</a></li>
         <li><a href="#fluxograma-para-acidemia">Fluxograma para acidemia</a></li>
-        <li><a href="#fluxograma-para-alcalemia">Fluxograma para alcalemia</a></li>
       </ul>
     </li>
     <li><a href="#referências">Referências</a></li>
@@ -294,20 +294,17 @@ $$</p>
 <p>A interpretação da relação delta/delta só se justifica em contextos muito confusos e deve ser criteriosa.</p>
 <h3 id="fluxograma-para-acidemia">Fluxograma para acidemia</h3>
 <pre class="mermaid">graph TD;
-    acidemia[acidemia<br>pH < 7.35];
-    acidemia -- HCO3⁻ < 20 --> acmet[acidose<br>metabólica];
-    acmet --> gapN[ânion gap normal] --> clor[acidose hiperclorêmica]; 
-    acmet --> gapLargo[ânion gap > 12 ];
-    gapLargo -- dúvidas --> delta[calcular<br>delta/delta];
-    gapLargo --> etio[cetoacidose diabética<br>intoxicação alcoólica<br>sepse];
-    acidemia -- HCO3⁻ > 26<br>pCO2 < 35 --> fimmetcomp[acidose respiratória<br>compensada] --> cron[investigar processos de hipóxia crônica];
-    acidemia -- HCO3⁻ normal<br>pCO2 > 45 --> resp1[acidose respiratória<br>recente não compensada] -->hipox[hipóxia];
-    hipox --> etioH[edema pulmonar<br>DPOC descompensado<br>crise de asma];
+    acidemia(acidemia<br>pH < 7.35);
+    acidemia -- HCO3⁻ < 20 --> acmet(acidose<br>metabólica);
+    acmet --> gapN(ânion gap normal) --> clor(acidose hiperclorêmica); 
+    acmet --> gapLargo(ânion gap > 12 );
+    gapLargo -- dúvidas --> delta(calcular<br>delta/delta);
+    gapLargo --> etio(cetoacidose diabética<br>intoxicação alcoólica<br>sepse);
+    acidemia -- HCO3⁻ > 26<br>pCO2 < 35 --> fimmetcomp(acidose respiratória<br>compensada) --> cron(investigar processos de hipóxia crônica);
+    acidemia -- HCO3⁻ normal<br>pCO2 > 45 --> resp1(acidose respiratória<br>recente não compensada) -->hipox(hipóxia);
+    hipox --> etioH(edema pulmonar<br>DPOC descompensado<br>crise de asma);
 </pre>
 
-<h3 id="fluxograma-para-alcalemia">Fluxograma para alcalemia</h3>
-<p>Em breve.</p>
-<!-- alcalemia[alcalemia<br>pH > 7.45] -- HCO3- > 26 -- alcmet[alcalose<br>metabólica]; -->
 <hr>
 <h2 id="referências">Referências</h2>
 <ol>
@@ -318,6 +315,7 @@ $$</p>
   
     <br>
         <div style="" class=taglist> 
+                <a id="tag_emergências" href="https://www.jeffersontorres.com.br/tags/emerg%C3%AAncias">emergências</a> &middot;  
                 <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
                 <a id="tag_resumos" href="https://www.jeffersontorres.com.br/tags/resumos">resumos</a> &middot;  
                 <a id="tag_projetos" href="https://www.jeffersontorres.com.br/tags/projetos">projetos</a> &middot;  

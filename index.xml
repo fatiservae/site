@@ -5,10 +5,35 @@
 	<description>Recent content on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Mon, 04 Nov 2024 19:34:15 -0300</lastBuildDate>
+	<lastBuildDate>Tue, 12 Nov 2024 07:55:39 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Traumatismo craniencefálico</title>
+		<link>https://www.jeffersontorres.com.br/medicina/tce/</link>
+		<pubDate>Tue, 12 Nov 2024 07:55:39 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/medicina/tce/</guid>
+		<description>&lt;h2 id=&#34;conduta-pediátrica1&#34;&gt;Conduta pediátrica[1]&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+a(Glasgow menor que 15&lt;br&gt;Alteração de consciência&lt;br&gt;Fratura palpável) -- sim --&gt; tc(Realizar tomografia);
+a --&gt; c(Hematoma subgaleal não frontal&lt;br&gt;Perda de consciência por mais de 5s&lt;br&gt;Mecanismo de trauma grave&lt;sup&gt;1&lt;/sup&gt;&lt;br&gt;Comportamento alterado&lt;sup&gt;2&lt;/sup&gt;);
+c -- sim --&gt; obstc(&lt;b&gt;Observação vs TC:&lt;/b&gt;&lt;br&gt;Inexperiência do médico&lt;br&gt;Achados múltiplos ou piora&lt;br&gt;Idade &lt; 3 meses);
+obstc -- sim --&gt; k(Considerar TC a depender &lt;br&gt;da disponibilidade do serviço);
+c -- não --&gt; n(Descartada&lt;br&gt;necessidade de TC);
+n --&gt; fim(observar por 6h);
+k --&gt; fim;
+obstc -- decidido&lt;br&gt;observar --&gt; fim;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;_. &lt;strong&gt;Tratado de pediatria 5 edição.&lt;/strong&gt; Organização Sociedade Brasileira de Pediatria - Barueri - SP. Manole, 2022. ISBN 9786555767476.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Acidente vascular cerebral</title>
@@ -7556,7 +7581,7 @@ t -- maior que 7 dias&lt;br&gt;ou&lt;br&gt;anticoagulação desconhecida --&gt; 
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
 5(Presença de ondas &lt;i&gt;F&lt;/i&gt; em II, III e aVF&lt;br&gt;possivelmente negativas.&lt;br&gt;Base isoelétrica perdida.) --&gt; ff(Flutter atrial); 
 ff --&gt; t2(Tempo de sintomas) -- menor que 48h --&gt; 7(Tentar cardioversão com 50J) -- falha --&gt; 8(Repetir com 200J);
-t2 -- maior que 48h --&gt; 9(1. Controle de frequência ventricular.&lt;br&gt;2. Ecocardio para&lt;br&gt;descartar trombos.);
+t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 Ecocardio para&lt;br&gt;descartar trombos.);
 &lt;/pre&gt;
 
 &lt;h4 id=&#34;controle-de-frequência-ventricular&#34;&gt;Controle de frequência ventricular&lt;/h4&gt;
@@ -12152,20 +12177,17 @@ $$&lt;/p&gt;
 &lt;p&gt;A interpretação da relação delta/delta só se justifica em contextos muito confusos e deve ser criteriosa.&lt;/p&gt;
 &lt;h3 id=&#34;fluxograma-para-acidemia&#34;&gt;Fluxograma para acidemia&lt;/h3&gt;
 &lt;pre class=&#34;mermaid&#34;&gt;graph TD;
-    acidemia[acidemia&lt;br&gt;pH &lt; 7.35];
-    acidemia -- HCO3⁻ &lt; 20 --&gt; acmet[acidose&lt;br&gt;metabólica];
-    acmet --&gt; gapN[ânion gap normal] --&gt; clor[acidose hiperclorêmica]; 
-    acmet --&gt; gapLargo[ânion gap &gt; 12 ];
-    gapLargo -- dúvidas --&gt; delta[calcular&lt;br&gt;delta/delta];
-    gapLargo --&gt; etio[cetoacidose diabética&lt;br&gt;intoxicação alcoólica&lt;br&gt;sepse];
-    acidemia -- HCO3⁻ &gt; 26&lt;br&gt;pCO2 &lt; 35 --&gt; fimmetcomp[acidose respiratória&lt;br&gt;compensada] --&gt; cron[investigar processos de hipóxia crônica];
-    acidemia -- HCO3⁻ normal&lt;br&gt;pCO2 &gt; 45 --&gt; resp1[acidose respiratória&lt;br&gt;recente não compensada] --&gt;hipox[hipóxia];
-    hipox --&gt; etioH[edema pulmonar&lt;br&gt;DPOC descompensado&lt;br&gt;crise de asma];
+    acidemia(acidemia&lt;br&gt;pH &lt; 7.35);
+    acidemia -- HCO3⁻ &lt; 20 --&gt; acmet(acidose&lt;br&gt;metabólica);
+    acmet --&gt; gapN(ânion gap normal) --&gt; clor(acidose hiperclorêmica); 
+    acmet --&gt; gapLargo(ânion gap &gt; 12 );
+    gapLargo -- dúvidas --&gt; delta(calcular&lt;br&gt;delta/delta);
+    gapLargo --&gt; etio(cetoacidose diabética&lt;br&gt;intoxicação alcoólica&lt;br&gt;sepse);
+    acidemia -- HCO3⁻ &gt; 26&lt;br&gt;pCO2 &lt; 35 --&gt; fimmetcomp(acidose respiratória&lt;br&gt;compensada) --&gt; cron(investigar processos de hipóxia crônica);
+    acidemia -- HCO3⁻ normal&lt;br&gt;pCO2 &gt; 45 --&gt; resp1(acidose respiratória&lt;br&gt;recente não compensada) --&gt;hipox(hipóxia);
+    hipox --&gt; etioH(edema pulmonar&lt;br&gt;DPOC descompensado&lt;br&gt;crise de asma);
 &lt;/pre&gt;
 
-&lt;h3 id=&#34;fluxograma-para-alcalemia&#34;&gt;Fluxograma para alcalemia&lt;/h3&gt;
-&lt;p&gt;Em breve.&lt;/p&gt;
-&lt;!-- alcalemia[alcalemia&lt;br&gt;pH &gt; 7.45] -- HCO3- &gt; 26 -- alcmet[alcalose&lt;br&gt;metabólica]; --&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
 &lt;ol&gt;

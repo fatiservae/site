@@ -47,7 +47,7 @@ body {
   display: flex;
   */
   margin-top: 2ch;
-  font-size: 17px;
+  font-size: 15px;
   align-items: center;
   margin: 2ch calc(25% - 90px); /* quero ver mais elegante */
 }
@@ -235,6 +235,7 @@ code {
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_guias::before { content: "🔀 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_trauma::before { content: "🤕 " ;}
 #tag_imunologia::before { content: "💉🔬 " ;}
 #tag_urologia::before { content: "💧♂️ " ;}
 #tag_epidemiologia::before { content: "😷 " ;}
