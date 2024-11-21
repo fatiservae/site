@@ -1,7 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
+  text-align: center;
   /* Manter compatibildiade dos temas antigos e SVGs */
   --fonte: var(--fontColor); 
-  --vidro: rgba(6, 6, 4, .1);
+  --vidro: rgba(6, 6, 4, .2);
   --borders: 1px solid var(--fontColor);
   --borderRadius: 3px;
   background-color: var(--backgroundColor); 
@@ -23,7 +28,7 @@
 :root[data-tema="light"] {
   --linkColor: #474bbf;
   --linkColorHover: blue;
-  --headingsColor: #c24040;
+  --headingsColor: darkred;
   --darkerBg: darkgray;
   --corTermo: darkred;
   --selectionColor: gray;
@@ -59,10 +64,25 @@ body {
   margin-top: 2ch;
   font-size: 15px;
   align-items: center;
-  margin: 2ch calc(25% - 90px); /* quero ver mais elegante */
+  margin: 2ch calc(25% - 130px); /* quero ver mais elegante */
+}
+@media only screen and (max-width: 900px){
+  body {
+    font-size: 95%;
+    margin: 2ch calc(15% - 50px); /* quero ver mais elegante */
+  }
+}
+@media only screen and (max-width: 500px){
+  body {
+    font-size: 90%;
+    margin: 1ch 0px; 
+  }
 }
 
+
+
 article {
+  text-align: start;
   border: 3px solid black;
   padding: 1rem;
   background-color: var(--backgroundColor);
@@ -83,6 +103,10 @@ a:hover{
   margin-left: 0px;
   padding-left: 0px;
 }
+#files li:hover{
+  width: fit-content;
+  background-color: var(--vidro);
+}
 
 #artlist li {
   display: none;
@@ -97,6 +121,7 @@ a:hover{
 #autor{
   /*
   */
+  margin: auto;
   margin-top: 2ch;
   white-space: nowrap;
   font-weight: normal;
@@ -181,7 +206,7 @@ nav a {
   padding: 0px;
   margin: 0px;
   padding-right: 0.5vw;
-  color: var(--fontColor);
+  color: var(--headingsColor);
 }
 nav.barra a:active,
 nav.barra a:hover{
@@ -230,12 +255,6 @@ input::placeholder {
 code {
   font-size: 95%;
   white-space: break-spaces;
-}
-
-@media only screen and (max-width: 800px){
-  body {
-    font-size: 130%;
-  }
 }
 
 [id^="tag_"] {
@@ -549,9 +568,10 @@ p code {
 }
 
 h1, h2, h3, h4, h5 {
+  font-weight: bold;
   color: var(--headingsColor);
 }
-h2, h3, h4, h5 {
+h3, h4, h5 {
   font-weight: normal;
 }
 
