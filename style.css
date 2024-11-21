@@ -5,6 +5,12 @@
   --borders: 1px solid var(--fontColor);
   --borderRadius: 3px;
   background-color: var(--backgroundColor); 
+  background-image: radial-gradient(var(--fontColor), 1px,transparent 0);
+  background-size: 30px 30px;
+  background-position: -15px -15px;
+  background-attachment: fixed; 
+  /*
+  */
   color: var(--fontColor);
   font-family: 'Fira mono';
 }
@@ -22,7 +28,10 @@
   --corTermo: darkred;
   --selectionColor: gray;
   --highLightColor: #c24040;
+  /*
   --backgroundColor: #eee;
+  */
+  --backgroundColor: #ffd8a8;
   --borderColor: black;
   --fontColor: #222;
 }
@@ -46,6 +55,7 @@ body {
   max-width: 90vw;
   display: flex;
   */
+  background-color: transparent;
   margin-top: 2ch;
   font-size: 15px;
   align-items: center;
@@ -53,6 +63,9 @@ body {
 }
 
 article {
+  border: 3px solid black;
+  padding: 1rem;
+  background-color: var(--backgroundColor);
 }
 
 a {
@@ -64,7 +77,11 @@ a:hover{
   color: var(--linkColorHover);
 }
 
-#artlist {
+#search-output,
+#artlist,
+#files {
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 #artlist li {
@@ -141,8 +158,13 @@ span#frase{
 }
 
 nav.barra {
+  justify-content: space-between;
+  margin-bottom: 4px;
+  border: 3px solid black;
+  padding: 1vw;
+  background-color: var(--backgroundColor);
   font-size: 120%;
-  display: block;
+  font-style: bold;
   /*
   justify-content: flex-end;
   position: fixed;
@@ -156,8 +178,9 @@ nav.barra {
 nav {
 }
 nav a {
+  padding: 0px;
+  margin: 0px;
   padding-right: 0.5vw;
-  font-weight: medium;
   color: var(--fontColor);
 }
 nav.barra a:active,
@@ -172,6 +195,8 @@ mark {
   background-color: var(--highLightColor);
   position: relative;
   white-space: nowrap;
+  display: inline;
+  z-index: +1;
 }
 mark::before,
 mark::after{
@@ -187,13 +212,15 @@ mark::after{
 }
 
 input{
+  /*
   margin-top: 2ch;
+  */
   outline: none;
   text-indent: 5px;
   background: none;
   height: 2em ;
   text-align: start;
-  border: 1px solid var(--fontColor);
+  border: 2px solid black;
 }
 input:focus{
 }
@@ -219,7 +246,9 @@ code {
 #tag_receitas::before { content: "🍅🍲 " ;}
 #tag_linux::before { content: "🐧 " ;}
 #tag_tecnologia::before { content: "📡💻 " ;}
-#tag_mecanica::before { content: "🔧⚙️ " ;}
+#tag_mecânica::before { content: "🔧⚙️ " ;}
+#tag_automobilismo::before { content: "🏎️💨 " ;}
+#tag_carros::before { content: "🚗 " ;}
 #tag_projetos::before { content: "👷🏽‍♂️🚧 " ;}
 #tag_arqueologia::before { content: "🗿 " ;}
 #tag_programação::before { content: "🧑🏽‍💻 " ;}
@@ -235,6 +264,8 @@ code {
 #tag_calculadoras::before { content: "🔢 " ;}
 #tag_guias::before { content: "🔀 " ;}
 #tag_medicina::before { content: "🩺💉 " ;}
+#tag_estoicismo::before { content: "🗿 " ;}
+#tag_anestesia::before { content: "💉😴 " ;}
 #tag_trauma::before { content: "🤕 " ;}
 #tag_imunologia::before { content: "💉🔬 " ;}
 #tag_urologia::before { content: "💧♂️ " ;}
@@ -538,4 +569,9 @@ h2, h3, h4, h5 {
 /* Para Katex, veja o shortcode com css integrado. */
 .mermaid svg {
   align: center
+}
+
+hr {
+  width: 25%;
+  align: start;
 }

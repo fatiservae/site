@@ -1732,8 +1732,14 @@
   },
   {
     "nome": ["sulfato de magnésio"],
-    "class": ["eletrólitos"],
+    "class": ["eletrólitos", "anticonvulsivantes", "depressores do sistema nervoso", "broncodilatadores"],
     "posologias": [
+			{
+				"unidades": ["mg", "Kg", "h"],
+				"dosagem": ["40-50", 1, 1],
+				"via": "intravenoso",
+				"instrucao": "dose habitual em crise grave de asma no contexto pediátrico, diluir em 100ml no máximo de 2g/paciente."
+			},
       {
         "unidades": ["g", "min"],
         "dosagem": [4, 10],
@@ -1941,10 +1947,11 @@
       }
     ],
     "obs": [
-      "Muitas características do paciente influenciam a dose que deve ser individualizada para cada pessoa.",
+			"A literatura oferece dosagem de até 8mcg/Kg em pacientes graves.",
       "No passado, doses muito maiores eram utilizadas isoladamente na antestesia.",
-      "Tem ação potencializadora dos sedativos.",
-      "A apresentação padrão é de 50mcg/ml."
+      "Muitas características do paciente influenciam a dose que deve ser individualizada para cada pessoa.",
+      "Tem ação potencializadora dos sedativos, inclusive dos colaterais destes, como hipotensão.",
+      "A apresentação padrão é de 50mcg/mL."
     ]
   },
   {

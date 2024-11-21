@@ -8619,6 +8619,33 @@ table{
 &lt;li&gt;Analgésico, e.g. fentanil.&lt;/li&gt;
 &lt;li&gt;Hipnótico, e.g. etomidato.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;escala-mallampati&#34;&gt;Escala Mallampati&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Classe&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Visualização&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;I&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ponta da úvula, língua, palatos e tonsilas completos.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;II&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Apenas parte superior das tonsilas e parte da úvula. Demais podem ser normais.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;III&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Palato mole e duro visível, mas apenas base da úvula.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;IV&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Apenas palato duro.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;pediátrica&#34;&gt;Pediátrica&lt;/h2&gt;
 &lt;p&gt;Tamanho de cânula:
 $$ Tubo_{num} = (idade/4) + (4_{com\ cuff} | 3.5_{sem\ cuff}) $$&lt;/p&gt;
@@ -10589,9 +10616,6 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
     border: var(--borders);
     background-color: var(--vidro);
   }
-  div#divAtb p{
-    margin: 2vw;
-  }
 
   .obsTopic {
     margin-bottom = 5px;
@@ -10611,12 +10635,8 @@ Calculadora &lt;a href=&#34;../medicina/hemodinamica/&#34;&gt;aqui&lt;/a&gt;.&lt
   #resultado div .nomeComercial{
     color: var(--corLinks);
   }
-  .dose {
-    color = var(--termo);
-    background = none;
-    padding = 5px;
-    width = fit-content;
-    fontweight = bold;
+  div#divAtb p{
+    margin: 5px;
   }
   hr { 
     width: 20vw;

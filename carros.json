@@ -1,0 +1,5 @@
+[
+  { "id": 1, "modelo": "Corolla", "marca": "Toyota", "anos": "2010-2012", "motor": "2.0L", "preço": "R$ 80.000" },
+  { "id": 2, "modelo": "Carro B", "marca": "Marca Y", "anos": 2021, "motor": "1.6L", "preço": "R$ 75.000" },
+  { "id": 3, "modelo": "Carro C", "marca": "Marca X", "anos": 2019, "motor": "2.5L", "preço": "R$ 90.000" }
+]
