@@ -3,22 +3,20 @@
 }
 
 :root {
+  /*
+  */
+  --stdTransition: background-color 0.2s ease;
   text-align: center;
   /* Manter compatibildiade dos temas antigos e SVGs */
   --fonte: var(--fontColor); 
   --vidro: rgba(6, 6, 4, .2);
   --borders: 1px solid var(--fontColor);
-  --borderRadius: 3px;
-  --stdBorder: 3px solid black;
-  background-color: var(--backgroundColor); 
-  background-image: radial-gradient(var(--fontColor), 1px,transparent 0);
-  background-size: 30px 30px;
-  background-position: -15px -15px;
-  background-attachment: fixed; 
-  /*
-  */
+  --borderRadius: 8px;
+  --stdBorder: 1px solid black;
   color: var(--fontColor);
-  font-family: 'Fira mono';
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  background-color: var(--backgroundColor);
 }
 
 ::selection {
@@ -27,6 +25,8 @@
 }
 
 :root[data-tema="light"] {
+  --hoverBackground: #ccc;
+  --navLinkHoverBack: gray;
   --linkColor: #5a5fed;
   --linkColorHover: darkblue;
   --headingsColor: darkred;
@@ -35,13 +35,14 @@
   --selectionColor: gray;
   --highLightColor: #c24040;
   /*
-  --backgroundColor: #eee;
-  */
   --backgroundColor: #ffd8a8;
+  */
+  --backgroundColor: #eee;
   --borderColor: black;
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
+  --hoverBackground: #282828;
   --headingsColor: #ecc;
   --darkerBg: #282828;
   --linkColor: skyblue;
@@ -56,14 +57,8 @@
 
 body {
   /*
-  line-height: 1.6;
-  padding: 0 10px;
-  max-width: 90vw;
-  display: flex;
   */
-  background-color: transparent;
   margin-top: 2ch;
-  font-size: 15px;
   align-items: center;
   margin: 2ch calc(25% - 130px); /* quero ver mais elegante */
 }
@@ -71,9 +66,7 @@ body {
 
 article {
   text-align: start;
-  border: var(--stdBorder);
   padding: 1rem;
-  background-color: var(--backgroundColor);
 }
 
 a {
@@ -107,6 +100,7 @@ a:hover{
   width: fit-content;
   max-width: 70%;
   border: 1px solid var(--borderColor);
+  border-radius: var(--borderRadius);
 }
 
 #autor{
@@ -174,18 +168,20 @@ span#frase{
 }
 
 nav.barra {
-  justify-content: space-between;
-  margin-bottom: 4px;
-  border: var(--stdBorder);
-  padding: 1vw;
-  background-color: var(--backgroundColor);
   font-size: 120%;
-  font-style: bold;
   /*
-  justify-content: flex-end;
+  font-style: bold;
+  width: fit-content;
+  justify-content: space-between;
+  background-color: var(--vidro);
+  border: var(--stdBorder);
+  border-radius: var(--borderRadius);
+  padding: 1vw;
+  margin-bottom: 14px;
+
   position: fixed;
+  justify-content: flex-end;
   top: 0;
-  background: var(--backgroundColor);
   margin: 0px;
   width: 100vw;
   z-index: +100;
@@ -194,15 +190,16 @@ nav.barra {
 nav {
 }
 nav a {
-  padding: 0px;
   margin: 0px;
-  padding-right: 0.5vw;
   color: var(--headingsColor);
+  padding: 3px 14px;
+  border-radius: var(--borderRadius);
+  transition: var(--stdTransition);
 }
 nav.barra a:active,
 nav.barra a:hover{
+  background-color: var(--hoverBackground);
   color: var(--fontColor); /* Para evitar ser sobreposto por a{}*/
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -236,7 +233,11 @@ input{
   background: none;
   height: 2em ;
   text-align: start;
-  border: 2px solid black;
+  background-color: var(--hoverBackground);
+  border: none;
+  border-radius: var(--borderRadius);
+  background-color: var(--hoverBackground);
+
 }
 input:focus{
 }
@@ -407,6 +408,7 @@ code {
 #tag_wine::before { content: "🍷 " ; }
 
 img {
+  max-height: 40vw;
   border-radius: 4px;
   max-width: 95%;
 }
@@ -536,11 +538,13 @@ th, td {
 
 pre, blockquote {
   width: fit-content;
+  padding: 2ch;
   padding-left: 1ch;
   margin: 2ch;
   margin-left: 0px;
   border-left: 1px solid tomato; 
   background: var(--vidro);
+  border-radius: var(--borderRadius);
 }
 p code {
   border: none;
@@ -590,24 +594,61 @@ h3, h4, h5 {
   max-width: var(--largura-texto);
 }
 
-
+.duploflex {
+  /*
+  display: inline-flex;
+  */
+  display: flex;
+  justify-content: flex-start;
+}
+.duploflex div{
+  max-width: 40%;
+}
+.duploflex img {
+  width: 50%;
+}
+div.duploflex p{
+}
 
 hr {
   width: 25%;
   align: start;
 }
+
+#nomeTema:hover{
+  background: none;
+}
+.material-icons {
+  vertical-align: middle;
+}
+
+/* Mediaqueruis */
 @media only screen and (max-width: 800px){
+  img {
+    max-height: 80vw;
+  }
 }
 @media only screen and (max-width: 900px){
+  .duploflex {
+    display: block;
+  }
+  .duploflex div {
+    max-width: 100%;
+  }
+
   .fundo-only-big {
     display: none;
   }
   body {
     font-size: 95%;
-    margin: 2ch calc(15% - 50px); /* quero ver mais elegante */
+    margin: 2ch calc(15% - 50px); 
   }
 }
 @media only screen and (max-width: 500px){
+  :root {
+  background-color: var(--backgroundColor);
+  }
+
   body {
     font-size: 90%;
     margin: 1ch 0px; 

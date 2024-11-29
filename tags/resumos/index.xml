@@ -2,7 +2,7 @@
   <channel>
 	<title>Jefferson T.</title>
 	<link>https://www.jeffersontorres.com.br/tags/resumos/</link>
-	<description>Recent content in resumos on Jefferson T.</description>
+	<description>Recent content in Resumos on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Sun, 04 Feb 2024 15:26:54 -0300</lastBuildDate>
@@ -16,7 +16,17 @@
 		<pubDate>Thu, 21 Nov 2024 12:52:47 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/sobre/</guid>
-		<description>&lt;p&gt;&lt;strong&gt;Desculpe a bagunça!&lt;/strong&gt;&lt;/p&gt;
+		<description>&lt;style&gt;
+  img {
+    max-height: 35vh;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+&lt;/style&gt;
+&lt;img style=&#34;max-height: 35vh;border-radius: 50%; border: 2px solid black&#34; src=&#34;../../pix/eu3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;!-- &lt;figcaption&gt;Eu circa 2022&lt;/figcaption&gt; --&gt;
+&lt;/img&gt;
+&lt;p&gt;&lt;strong&gt;Desculpe a bagunça!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Este é um site pessoal onde mantenho minhas ferramentas online.&lt;/p&gt;
 &lt;p&gt;Sou médico, mecânico, programador e entusiasta científico-tecnológico.&lt;/p&gt;
 &lt;p&gt;Se compartilha algum dos interesses comigo, entre em contato pelo &lt;a href=&#34;https://t.me/fatiservae&#34;&gt;Telegram: @fatiservae&lt;/a&gt;&lt;/p&gt;
@@ -8934,11 +8944,11 @@ O potássio deve ser realizado idealmente em 0.3-0.5 mEq/kg/h.
 	</item>
 	
 	<item>
-		<title>Pré-natal</title>
-		<link>https://www.jeffersontorres.com.br/medicina/pre-natal/</link>
+		<title>Concepção, gestação, pré-natal e pós-parto</title>
+		<link>https://www.jeffersontorres.com.br/medicina/gestacao/</link>
 		<pubDate>Sun, 28 Jan 2024 20:44:01 -0300</pubDate>
 		
-		<guid>https://www.jeffersontorres.com.br/medicina/pre-natal/</guid>
+		<guid>https://www.jeffersontorres.com.br/medicina/gestacao/</guid>
 		<description>&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
 &lt;h3 id=&#34;primeiro-trimestre&#34;&gt;Primeiro trimestre&lt;/h3&gt;
 &lt;ul&gt;
@@ -9296,6 +9306,33 @@ Duração: Mais de 2 semanas, podendo durar meses se não tratada.
 Gravidade: Interfere nas atividades diárias e no vínculo com o bebê.
 Tratamento: Necessita de intervenção, como psicoterapia e/ou medicamentos antidepressivos.
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;triagem-do-neonato&#34;&gt;Triagem do neonato&lt;/h2&gt;
+&lt;h3 id=&#34;erros-inatos-do-metabolismo&#34;&gt;Erros inatos do metabolismo&lt;/h3&gt;
+&lt;h4 id=&#34;fenilcetonúria&#34;&gt;Fenilcetonúria&lt;/h4&gt;
+&lt;p&gt;Deficiência de hidroxilase da fenilalanina com consequente acúmulo da substância.&lt;/p&gt;
+&lt;h3 id=&#34;distúrbios-endócrinos&#34;&gt;Distúrbios endócrinos&lt;/h3&gt;
+&lt;h4 id=&#34;hipotireoidismo-congênito&#34;&gt;Hipotireoidismo congênito&lt;/h4&gt;
+&lt;h3 id=&#34;hemoglobinopatias&#34;&gt;Hemoglobinopatias&lt;/h3&gt;
+&lt;h3 id=&#34;imunodeficiência&#34;&gt;Imunodeficiência&lt;/h3&gt;
+&lt;h3 id=&#34;fibrose-cística&#34;&gt;Fibrose cística&lt;/h3&gt;
+&lt;h3 id=&#34;defeitos-cardíacos-congênitos-críticos&#34;&gt;Defeitos cardíacos congênitos críticos&lt;/h3&gt;
+&lt;p&gt;O teste do coraçãozinho é o principal, com oximetria aferida segundo algoritmo específico para rastrear diferença de saturação de oxigênio superior a 3% entre os membros superiores (pré-ductal) e inferiores (pós-ductal).&lt;/p&gt;
+&lt;p&gt;Em casos alterados, solicitar &lt;mark&gt;imediatamente&lt;/mark&gt; ultrassonografia cardíaca.&lt;/p&gt;
+&lt;p&gt;Em casos sintomáticos, oferecer oxigenoterapia com alvo de saturação de oxigênio periférico entre 85 e 90%, evitar antiinflamatórios, principalmente não esteroidais, e, se possível, &lt;strong&gt;administrar análogos ou a prória prostaglandina E1&lt;/strong&gt; para manter a comunicação intercâmaras que provavelmente é necessária a sustentação da vida.&lt;/p&gt;
+&lt;h3 id=&#34;doenças-raras&#34;&gt;Doenças raras&lt;/h3&gt;
+&lt;h3 id=&#34;síndromes-falciformes&#34;&gt;Síndromes falciformes&lt;/h3&gt;
+&lt;h3 id=&#34;fibrose-cística-1&#34;&gt;Fibrose cística&lt;/h3&gt;
+&lt;h3 id=&#34;hiperplasia-adrenal-congênita&#34;&gt;Hiperplasia adrenal congênita&lt;/h3&gt;
+&lt;h3 id=&#34;deficiência-de-biotinidase&#34;&gt;Deficiência de biotinidase&lt;/h3&gt;
+&lt;h3 id=&#34;surdez&#34;&gt;Surdez&lt;/h3&gt;
+&lt;h4 id=&#34;brain-evoked-response-auditory&#34;&gt;Brain Evoked Response Auditory&lt;/h4&gt;
+&lt;p&gt;Teste encefalográfico que avalia a resposta cerebral a estímulos sonoros, feito em qualquer idade, preferencialmente antes da alta e nos casos de pacientes com fatores de risco obrigatoriamente durante a internação em unidade de cuidados intensivos externos.&lt;/p&gt;
+&lt;h4 id=&#34;fatores-de-risco&#34;&gt;Fatores de risco&lt;/h4&gt;
+&lt;p&gt;Asfixia (Apgar &amp;lt; 6 no 5º minuto), história familiar, infecção TORCHS, hiperbilirrubinemia, sepse e meningite, hemorragia intraventricular, drogas ototóxicas, peso nascimento &amp;lt; 1500g e ventilação mecânica &amp;gt; 5 dias.&lt;/p&gt;
+&lt;h3 id=&#34;teste-da-linguinha&#34;&gt;Teste da linguinha&lt;/h3&gt;
+&lt;p&gt;Utilizar o Bristol Tongue Assessment Tool disponível na Nota Técnica 35/2018 do Ministério da Saúde &lt;a href=&#34;../../files/Medicina/Pediatria/NT35-2018-MS-Anquiloglossia.pdf&#34;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;teste-do-olhinho&#34;&gt;Teste do olhinho&lt;/h3&gt;
+&lt;p&gt;De baixo custo, consiste em observar a uniformidade e bilateralidade do reflexo vermelho do fundo de olho. Quaisquer alterações grosseiras do teste devem ser indicativo de exame oftalmológico com dilatação pupilar.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;notas&#34;&gt;Notas&lt;/h2&gt;
 &lt;ol&gt;
@@ -9630,28 +9667,29 @@ O agente etiológico da hanseníase é o &lt;em&gt;Mycobacterium leprae&lt;/em&g
 		<pubDate>Sat, 06 Jan 2024 18:05:29 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/filosofia/cleantes/</guid>
-		<description>&lt;div class=&#34;duploflex&#34;&gt;
-    &lt;div&gt;
-        &lt;h2&gt;A inspiração para história de Cristo?&lt;/h2&gt;
-        &lt;p&gt;&lt;strong&gt;Cleantes de Assos&lt;/strong&gt; foi um filósofo helenístico discípulo de Zenão.&lt;/p&gt;
-        &lt;p&gt;Nascido pobre, viveu a juventude sob a alcunha de estúpido porque foi atleta durante o dia e, a noite, era servente para se sustentar.&lt;/p&gt;
-        &lt;p&gt;Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma cozinheira.&lt;/p&gt;
-        &lt;p&gt;Foi acusado injustamente de manter atividades ilegais. Seus patrões depuseram a seu favor e foi absolvido. Na verdade, o tribunal ficou tão convencido de sua retidão de conduta que se determinou pagamento de um salário público a Cleantes. &lt;strong&gt;Ele rejeitou.&lt;/strong&gt;&lt;/p&gt;
-            &lt;br&gt;
-        &lt;p&gt;Assumiu a escola de filosofia após a morte de Zenão mas continuou trabalhando como carregador de água e outras cargas.&lt;/p&gt;
-        &lt;p&gt;Morreu na pobreza, solidão e ensino da filosofia estoica.&lt;/p&gt;
-    &lt;/div&gt;
-    
-    
-    
-      &lt;div id=&#34;img-div&#34;&gt;
-        &lt;img src=&#34;../../pix/cleanthes.png&#34;&gt;
-          &lt;figcaption&gt;Cleantes, o cara.&lt;/figcaption&gt;
-        &lt;/img&gt;
-      &lt;/div&gt;
+		<description>&lt;style&gt;
+    img {
+        max-height: 60vh;
+    }
+&lt;/style&gt;
 
-&lt;/div&gt;
-&lt;h2&gt;A diferença?&lt;/h2&gt;
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;../../pix/cleanthes.png&#34;&gt;
+      &lt;figcaption&gt;Cleantes, o cara.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;a-inspiração-para-história-de-cristo&#34;&gt;A inspiração para história de Cristo?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cleantes de Assos&lt;/strong&gt; foi um filósofo helenístico discípulo de Zenão.&lt;/p&gt;
+&lt;p&gt;Nascido pobre, viveu a juventude sob a alcunha de estúpido porque foi atleta durante o dia e, a noite, era servente para se sustentar.&lt;/p&gt;
+&lt;p&gt;Aos 50, trabalhava como carregador de água para um agricultor e de farinha para uma cozinheira.&lt;/p&gt;
+&lt;p&gt;Foi acusado injustamente de manter atividades ilegais. Seus patrões depuseram a seu favor e foi absolvido. Na verdade, o tribunal ficou tão convencido de sua retidão de conduta que se determinou pagamento de um salário público a Cleantes. &lt;strong&gt;Ele rejeitou.&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Assumiu a escola de filosofia após a morte de Zenão mas continuou trabalhando como carregador de água e outras cargas.&lt;/p&gt;
+&lt;p&gt;Morreu na pobreza, solidão e ensino da filosofia estoica.&lt;/p&gt;
+&lt;h2 id=&#34;a-diferença&#34;&gt;A diferença?&lt;/h2&gt;
 &lt;p&gt;A diferença é que Cleantes de fato existiu e Cristo foi, ao que tudo indica, uma alegoria poderosa para salvação humana.&lt;/p&gt;
 </description>
 	</item>
@@ -10905,7 +10943,7 @@ Durante quatro anos de grauduação, um aluno de medicina chega a decorar entre 
 &lt;p&gt;Engraçado, né? kkkk.&lt;/p&gt;
 &lt;p&gt;Calma. Mas e aquele seu YouTuber favorito, &lt;em&gt;fitness&lt;/em&gt;, que vive te dizendo que bom mesmo é suco de beterraba, correr de lado e beber água com vinagre? Esse você certamente não segue, né?&lt;/p&gt;
 &lt;p&gt;Mas e aquele que &lt;em&gt;parece muito inteligente&lt;/em&gt;, tem um &lt;em&gt;Instagram&lt;/em&gt; lotado de fotos de pratos e destinos, uma esposa também muito &lt;em&gt;fit&lt;/em&gt;, três cachorros e vende um curso na &lt;em&gt;Hotmart&lt;/em&gt;? &lt;strong&gt;Esse, também, você não segue.&lt;/strong&gt; Sei&amp;hellip; 😏&lt;/p&gt;
-&lt;img style=&#34;border:none; box-shadow:none&#34; src=&#34;../../pix/medicina/ducktor.png&#34;&gt;
+&lt;img style=&#34;border:none; box-shadow:none&#34; src=&#34;../../pix/medicina/ducktor.jpg&#34;&gt;
 &lt;p&gt;Tá, e aquele que tem inúmeros estigmas do uso crônico de esteróides anabolizantes e diz pra você que é natural? &lt;strong&gt;Tá bom, chega kkk!&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;impregnado-pela-dúvida&#34;&gt;Impregnado pela dúvida&lt;/h2&gt;
 &lt;p&gt;Me deparei certa vez com um termo peculiar em medicina: &lt;em&gt;impregnação&lt;/em&gt;.&lt;/p&gt;
@@ -11830,7 +11868,7 @@ n{{Nitrato&lt;br&gt;em S.O.S}} &lt;--&gt; 1;
 		<pubDate>Mon, 13 Nov 2023 11:41:15 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/banco-de-questoes/</guid>
-		<description>&lt;div id=&#34;aviso&#34;&gt;
+		<description>&lt;div class=calculadoras id=&#34;aviso&#34;&gt;
  &lt;div style=&#34;display:flex; align-content:center&#34;&gt;
   &lt;span class=&#34;etiqueta&#34;&gt;
    Infelizmente, a maior parte dos bancos de questões estãos protegidos por &lt;em&gt;paywalls&lt;/em&gt;. 
@@ -11849,7 +11887,8 @@ n{{Nitrato&lt;br&gt;em S.O.S}} &lt;--&gt; 1;
 &lt;/div&gt;
 
 
- &lt;button style=&#34;margin-left: 5vw; margin-right: auto;&#34; id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;
+&lt;br&gt;
+ &lt;button id=&#34;close&#34; onclick=&#34;fechardialogo()&#34;&gt;
     Fechar aviso!
  &lt;/button&gt;
 &lt;/div&gt;
