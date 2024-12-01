@@ -1,5 +1,20 @@
 [
 	{
+		"nome": ["pomada de barreira", "Lassar"],
+		"class": ["antifúngicos", "pomadas"],
+		"posologias": [
+			{
+				"unidades": ["%"],
+				"dosagem": ["25"],
+				"via": "tópica"
+			}
+		],
+		"obs": [
+			"Composta de lanolina, vaselina, talco e oxido de zinco todos a 25%.",
+			"Aplicação tópica no tratamento de frieiras ou fungos, com ou sem tratamento sistêmico concomitante."
+		]
+	},
+	{
 		"nome": ["alopurinol"],
 		"class": ["antimetabólicos", "agentes antianginosos"],
 		"posologias": [

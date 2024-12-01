@@ -86,9 +86,17 @@ a:hover{
   margin-left: 0px;
   padding-left: 0px;
 }
+#files li {
+  padding-left: 10px;
+}
+#files li::marker {
+  content: none;
+}
 #files li:hover{
+  padding: 10px;
   width: fit-content;
   background-color: var(--vidro);
+  border-radius: var(--borderRadius);
 }
 
 #artlist li {
@@ -169,6 +177,7 @@ span#frase{
 
 nav.barra {
   font-size: 120%;
+  padding: 1vw; /* Necessário para boa acomodação em telas menores */
   /*
   font-style: bold;
   width: fit-content;
@@ -176,7 +185,6 @@ nav.barra {
   background-color: var(--vidro);
   border: var(--stdBorder);
   border-radius: var(--borderRadius);
-  padding: 1vw;
   margin-bottom: 14px;
 
   position: fixed;
