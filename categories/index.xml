@@ -7896,6 +7896,93 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
   &lt;/script&gt;
 
 
+&lt;h2 id=&#34;achados-isquêmicos&#34;&gt;Achados isquêmicos&lt;/h2&gt;
+&lt;h3 id=&#34;alterações-de-repolarização&#34;&gt;Alterações de repolarização&lt;/h3&gt;
+&lt;h3 id=&#34;infradesnivelamento-de-st&#34;&gt;Infradesnivelamento de ST&lt;/h3&gt;
+&lt;h3 id=&#34;supradesnivelamento-de-st&#34;&gt;Supradesnivelamento de ST&lt;/h3&gt;
+&lt;h3 id=&#34;isquemia-circunferencial&#34;&gt;Isquemia circunferencial&lt;/h3&gt;
+&lt;p&gt;Supradesnivelamento de $ST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.&lt;/p&gt;
+
+ 
+&lt;div class=&#34;carouselcircunf&#34;&gt;
+  &lt;div class=&#34;button-container&#34;&gt;
+    &lt;button type=&#34;button&#34; id=&#34;anteriorcircunf&#34;&gt;Anterior&lt;/button&gt;
+    &lt;button type=&#34;button&#34; id=&#34;proximocircunf&#34;&gt;Próxima&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;conteudo&#34;&gt;
+  
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/medicina/ecg/circunferencial.jpg&#34;&gt;
+          &lt;img src=&#34;../pix/medicina/ecg/circunferencial.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;../pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;
+          &lt;img src=&#34;../pix/medicina/ecg/circunferencial2.jpeg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+
+  
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(&#34;.carouselcircunf .slide&#34;);
+  let legends = document.querySelectorAll(&#34;.carouselcircunf .legend&#34;);
+  let totalSlides = slides.length;
+  let anterior = document.getElementById(&#34;anteriorcircunf&#34;);
+  let proximo = document.getElementById(&#34;proximocircunf&#34;);
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i &lt; totalSlides; i++) {
+      slides[i].style.display = &#34;none&#34;;
+      legends[i].style.display = &#34;none&#34;;
+    }
+    slides[currentSlide].style.display = &#34;block&#34;;
+    legends[currentSlide].style.display = &#34;block&#34;;
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener(&#34;click&#34;, () =&gt; {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  &lt;/script&gt;
+
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;bibliografia&#34;&gt;Bibliografia&lt;/h2&gt;
 &lt;ol&gt;

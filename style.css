@@ -15,7 +15,7 @@
   --stdBorder: 1px solid black;
   color: var(--fontColor);
   font-family: 'Fira Sans';
-  font-size: 18px;
+  font-size: 16px;
   background-color: var(--backgroundColor);
 }
 
@@ -177,7 +177,7 @@ span#frase{
 
 nav.barra {
   font-size: 120%;
-  padding: 1vw; /* Necessário para boa acomodação em telas menores */
+  /* padding: 1vw; Necessário para boa acomodação em telas menores */
   /*
   font-style: bold;
   width: fit-content;
@@ -234,8 +234,8 @@ mark::after{
 
 input{
   /*
-  margin-top: 2ch;
   */
+  margin-top: 1ch;
   outline: none;
   text-indent: 5px;
   background: none;

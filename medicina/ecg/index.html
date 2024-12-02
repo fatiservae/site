@@ -89,6 +89,7 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
     <a href="../../files/">Arquivos</a>
     
       <script>const noglobalsearch = false </script>
+    <div>
     <input type="text" id="globalsearch" placeholder="busca..."></input>
     <a href="#" id="nomeTema" onclick="tema()"><span class="material-icons">contrast</span></a>
     <ul id="artlist">
@@ -186,7 +187,7 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
       <li data-tags="[viagem brasil]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
       <li data-tags="[ferramentas medicina projetos ciência calculadoras]"><a href="https://www.jeffersontorres.com.br/sites-uteis/">Websites e páginas úteis</a></li>
       </ul>
-
+    </div>
     <script src=../../baseof-search.js></script>
 </nav>
 </head>
@@ -242,6 +243,14 @@ Um extenso infarto está iminente. A repolarização mostra alterações por gra
       </ul>
     </li>
     <li><a href="#ondas-j-ou-de-osborn">Ondas J ou de Osborn</a></li>
+    <li><a href="#achados-isquêmicos">Achados isquêmicos</a>
+      <ul>
+        <li><a href="#alterações-de-repolarização">Alterações de repolarização</a></li>
+        <li><a href="#infradesnivelamento-de-st">Infradesnivelamento de ST</a></li>
+        <li><a href="#supradesnivelamento-de-st">Supradesnivelamento de ST</a></li>
+        <li><a href="#isquemia-circunferencial">Isquemia circunferencial</a></li>
+      </ul>
+    </li>
     <li><a href="#bibliografia">Bibliografia</a></li>
   </ul>
 </nav>
@@ -606,6 +615,93 @@ t2 -- maior que 48h --> 9(1 Controle de frequência ventricular.<br>2 Ecocardio 
   </script>
 
 
+<h2 id="achados-isquêmicos">Achados isquêmicos</h2>
+<h3 id="alterações-de-repolarização">Alterações de repolarização</h3>
+<h3 id="infradesnivelamento-de-st">Infradesnivelamento de ST</h3>
+<h3 id="supradesnivelamento-de-st">Supradesnivelamento de ST</h3>
+<h3 id="isquemia-circunferencial">Isquemia circunferencial</h3>
+<p>Supradesnivelamento de $ST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.</p>
+
+ 
+<div class="carouselcircunf">
+  <div class="button-container">
+    <button type="button" id="anteriorcircunf">Anterior</button>
+    <button type="button" id="proximocircunf">Próxima</button>
+  </div>
+  <div class="conteudo">
+  
+    
+    
+    
+      <div class="legend"><p> </p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/ecg/circunferencial.jpg">
+          <img src="../../pix/medicina/ecg/circunferencial.jpg"></img>
+        </a>
+      </div>
+    
+
+    
+    
+    
+      <div class="legend"><p> </p></div>
+      <div class="slide">
+        <a href="../../pix/medicina/ecg/circunferencial2.jpeg">
+          <img src="../../pix/medicina/ecg/circunferencial2.jpeg"></img>
+        </a>
+      </div>
+    
+
+
+  
+  </div>
+</div>
+<script>
+(function() {
+  let currentSlide = 0;
+  let slides = document.querySelectorAll(".carouselcircunf .slide");
+  let legends = document.querySelectorAll(".carouselcircunf .legend");
+  let totalSlides = slides.length;
+  let anterior = document.getElementById("anteriorcircunf");
+  let proximo = document.getElementById("proximocircunf");
+
+  function showSlide(n) {
+    currentSlide = (n + totalSlides) % totalSlides;
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+      legends[i].style.display = "none";
+    }
+    slides[currentSlide].style.display = "block";
+    legends[currentSlide].style.display = "block";
+  }
+  
+  showSlide(currentSlide);
+  
+  
+  
+  
+  proximo.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+  })
+  anterior.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+})();
+  </script>
+
+
+<br>
+<br>
+<br>
+<br>
 <hr>
 <h2 id="bibliografia">Bibliografia</h2>
 <ol>
