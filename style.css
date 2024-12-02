@@ -25,6 +25,7 @@
 }
 
 :root[data-tema="light"] {
+  --dimmedFontColor: #999;
   --hoverBackground: #ccc;
   --navLinkHoverBack: gray;
   --linkColor: #5a5fed;
@@ -42,6 +43,7 @@
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
+  --dimmedFontColor: #555;
   --hoverBackground: #282828;
   --headingsColor: #ecc;
   --darkerBg: #282828;
@@ -97,6 +99,9 @@ a:hover{
   width: fit-content;
   background-color: var(--vidro);
   border-radius: var(--borderRadius);
+}
+#search-output li::marker{
+  content: none;
 }
 
 #artlist li {
@@ -250,6 +255,7 @@ input{
 input:focus{
 }
 input::placeholder {
+  color: var(--dimmedFontColor);
 }
 
 code {
@@ -435,11 +441,6 @@ figcaption {
   font-size: 88%;
 }
 
-input,
-input::placeholder {
-  color: var(--fontColor);
-}
-
 .fundo-only-big {
   position: fixed; 
   width: 15em;
@@ -527,6 +528,7 @@ pre.mermaid {
   align: center
 }
 
+/*
 table {
   border-spacing: 0;
   border-collapse: separate;
@@ -542,6 +544,48 @@ th, td {
   border: 1px solid var(--borderColor);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+*/
+table {
+  border-radius: var(--borderRadius);
+  border-spacing: 0;
+  border-collapse: separate;
+  border: var(--stdBorder);
+  overflow: hidden;
+  margin-right: 5vw;
+  max-width: 70vw;
+}
+table th:not(:last-child),
+table td:not(:last-child) {
+}
+
+table>thead>tr:not(:last-child)>th,
+table>thead>tr:not(:last-child)>td,
+table>tbody>tr:not(:last-child)>th,
+table>tbody>tr:not(:last-child)>td,
+table>tfoot>tr:not(:last-child)>th,
+table>tfoot>tr:not(:last-child)>td,
+table>tr:not(:last-child)>td,
+table>tr:not(:last-child)>th,
+table>thead:not(:last-child),
+table>tbody:not(:last-child),
+table>tfoot:not(:last-child){
+  border-bottom: var(--stdBorder);
+}
+tbody tr{
+}
+tr td{
+  border-bottom: var(--stdBorder);
+}
+th {
+  background-color: var(--darkerBg);
+  border-top: var(--stdBorder);
+  border-bottom: var(--stdBorder);
+}
+th, td {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-right: var(--stdBorder);
 }
 
 pre, blockquote {

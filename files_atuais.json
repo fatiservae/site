@@ -253,6 +253,15 @@
     "path": "Medicina/Manuais médicos"
   },
   {
+    "name": "Medical-Algorithm-Diagnosis-Treatment.pdf",
+    "subjects": [
+      "Medicina",
+      "Manuais médicos"
+    ],
+    "size": "10.02 MB",
+    "path": "Medicina/Manuais médicos"
+  },
+  {
     "name": "modelo-historia-clinica.txt",
     "subjects": [
       "Medicina",
