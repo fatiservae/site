@@ -1,5 +1,17 @@
 [
 	{
+		"nome": ["salicilato de dietilamônio com escina", "Reparil"],
+		"class": ["antiinflamatórios tópicos"],
+		"posologias": [
+			{
+				"unidades": ["g", "bisnaga"],
+				"dosagem":  [300, 1],
+				"via": "tópica",
+				"instrucao": "aplicar três vezes no dia sobre áreas de flebite, edema local, contusões, luxações e artroartries diversas."
+			}
+		]
+	},
+	{
 		"nome": ["pomada de barreira", "Lassar"],
 		"class": ["antifúngicos", "pomadas"],
 		"posologias": [

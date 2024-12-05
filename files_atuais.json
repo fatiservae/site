@@ -325,6 +325,24 @@
     "path": "Medicina/Pediatria"
   },
   {
+    "name": "calculadora-nutricao-parenteral-pediatria.xlsx",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "69.89 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
+    "name": "calculadora-taxa-de-infusao-glicose-pediatria.xlsx",
+    "subjects": [
+      "Medicina",
+      "Pediatria"
+    ],
+    "size": "30.54 KB",
+    "path": "Medicina/Pediatria"
+  },
+  {
     "name": "Protocolo-clinico-e-diretrizes-terapeuticas-epilepsia-2018.pdf",
     "subjects": [
       "Medicina"

@@ -5,10 +5,62 @@
 	<description>Recent content on Jefferson T.</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 21 Nov 2024 12:52:47 -0300</lastBuildDate>
+	<lastBuildDate>Thu, 05 Dec 2024 11:35:52 -0300</lastBuildDate>
     
         <atom:link href="https://www.jeffersontorres.com.br/index.xml" rel="self" type="application/rss+xml" />
 	
+	
+	<item>
+		<title>Curriculum Vitae</title>
+		<link>https://www.jeffersontorres.com.br/cv/</link>
+		<pubDate>Thu, 05 Dec 2024 11:35:52 -0300</pubDate>
+		
+		<guid>https://www.jeffersontorres.com.br/cv/</guid>
+		<description>&lt;style&gt;
+  img {
+    max-height: 35vh;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+&lt;/style&gt;
+&lt;img style=&#34;max-height: 35vh;border-radius: 50%; border: 2px solid black&#34; src=&#34;./pix/eu3.jpg&#34; alt=&#34;&#34;&gt;
+&lt;!-- &lt;figcaption&gt;Eu circa 2022&lt;/figcaption&gt; --&gt;
+&lt;/img&gt;
+&lt;h2 id=&#34;quem-sou&#34;&gt;Quem sou&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Atualmente&lt;/strong&gt; sou médico, apaixonado por tecnologia, tendo a me enxergar como um &lt;strong&gt;cientista&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Afeto pela ciência desde criança, filho de eletricista industrial, sou curioso e inquieto. Estas características se refletiram no meu curso de vida diversificado e marcado por mudanças, das quais me &lt;strong&gt;orgulho!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;perfil&#34;&gt;Perfil&lt;/h2&gt;
+&lt;p&gt;Autodidata, sou afeto a pesquisa científica, crítico dos modelos atuais de ensino e sou conhecido pela diversidade de áreas de interesse.&lt;/p&gt;
+&lt;h2 id=&#34;áreas&#34;&gt;Áreas&lt;/h2&gt;
+&lt;h3 id=&#34;medicina&#34;&gt;Medicina&lt;/h3&gt;
+&lt;p&gt;Pretendo me especializar em anestesiologia ou medicina intensiva adulta.&lt;/p&gt;
+&lt;p&gt;Meu principal interesse de ramo é no &lt;strong&gt;manejo da dor&lt;/strong&gt;, um campo com muitas lacunas, pesquisas interessantes e muito espaço para inovação.&lt;/p&gt;
+&lt;p&gt;Meus estágios obrigatórios envolveram todas as áreas da medicina interna, epidemiologia e saúde básica, já que o currículo da ESCS é de metodologia ativa e todo o curso é baseado na imersão prática, desde o primeiro semestre.&lt;/p&gt;
+&lt;p&gt;Meu passatempo principal é programar &lt;a href=&#34;./tags/calculadoras/&#34;&gt;calculadoras diagnósticas&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;programação&#34;&gt;Programação&lt;/h3&gt;
+&lt;p&gt;Não acredito em linguagem de programação preferida, mas estou fluente em Rust, Shell, Javascript, C e Cpp. Nesta ordem.&lt;/p&gt;
+&lt;p&gt;Meu case principal que prefiro apresentar é o &lt;a href=&#34;./tecnologia/stultus-visio&#34;&gt;StultusVisio&lt;/a&gt;, um programa miniamlista de apresentação de slides. Estou reescrevendo-o em modo estado-de-máquina e ligeiramente orientado a objetos, chamado &lt;a href=&#34;https://github.com/fatiservae/SxPres/tree/fat-main&#34;&gt;Sxpres&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meu principal campo de interesse é o de inteligência artificial, mais especificamente no treinamento de modelos de LLM&amp;rsquo;s para aplicação diagnóstica. Há muito avanço a ser feito em IA. Quaisquer conqusitas nessa área posto em meu perfil no &lt;a href=&#34;https://huggingface.co/fatiservae&#34;&gt;HuggingFace&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Outros &lt;a href=&#34;./tags/projetos&#34;&gt;projetos&lt;/a&gt; no meu site.&lt;/p&gt;
+&lt;h2 id=&#34;ensino&#34;&gt;Ensino&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Aprovado em 2009 no vestibular de Física na Universidade de Brasília (UnB);&lt;/li&gt;
+&lt;li&gt;Aprovado em 2010 no concurso da Escola Preparatória de oficiais do Exército Brasileiro (EsPCEx);&lt;/li&gt;
+&lt;li&gt;Ainda em 2010, fui aprovado no vestibular da (UnB), deixando o exército e retornado a Brasília em 2011 para cursar química;&lt;/li&gt;
+&lt;li&gt;Enquanto aluno da UnB, por três anos fui professor horizontal das cadeiras de química, física e matemática do curso preparatório Alub em Brasília;&lt;/li&gt;
+&lt;li&gt;Fui aprovado em diversos concursos públicos em 2013-14, tomando posse na Polícia Rodoviária Federal (PRF) em Porto Alegre no fim de 2014;&lt;/li&gt;
+&lt;li&gt;Aprovado em Direito na Universidade Federal do Rio Grande do Sul (UFRGS) em 2015, cursando dois anos da graduação;&lt;/li&gt;
+&lt;li&gt;Aprovado em Medicina em 2018 na Escola Superior de Ciências da Saúde (ESCS) de Brasília; e&lt;/li&gt;
+&lt;li&gt;Graduado em Gestão Pública pela Universidade do Sul de Santa Catarina (Unisul) em 2019.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;línguas&#34;&gt;Línguas&lt;/h2&gt;
+&lt;p&gt;Fluently english, both british and american.&lt;/p&gt;
+&lt;p&gt;Spreche etwas Deutsch&amp;hellip; nein sehr gut.&lt;/p&gt;
+&lt;h2 id=&#34;contato&#34;&gt;Contato&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/fatiservae&#34;&gt;Telegram: @fatiservae&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://web.whatsapp.com/send/?phone=5561998739933&amp;amp;text=&#34;&gt;WhatsApp: 61 99873-9933&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
 	
 	<item>
 		<title>Sobre</title>
@@ -2615,13 +2667,13 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
 	</item>
 	
 	<item>
-		<title>Hepatites</title>
+		<title>Hepatopatias</title>
 		<link>https://www.jeffersontorres.com.br/medicina/hepatites/</link>
 		<pubDate>Wed, 08 May 2024 11:54:37 -0300</pubDate>
 		
 		<guid>https://www.jeffersontorres.com.br/medicina/hepatites/</guid>
-		<description>&lt;h2 id=&#34;virais&#34;&gt;Virais&lt;/h2&gt;
-&lt;h3 id=&#34;sistema-de-decisão-em-hepatite-b&#34;&gt;Sistema de decisão em hepatite B&lt;/h3&gt;
+		<description>&lt;h2 id=&#34;hepatites-virais&#34;&gt;Hepatites Virais&lt;/h2&gt;
+&lt;h3 id=&#34;sistema-de-decisão-em-hepatite-b-1&#34;&gt;Sistema de decisão em hepatite B [1]&lt;/h3&gt;
 &lt;div class=calculadoras&gt;
     &lt;p&gt;Marque os exames positivados&lt;/p&gt;
     &lt;input type=checkbox id=HbSAg&gt;HbSAg&lt;/input&gt;
@@ -2638,6 +2690,61 @@ Para a pesquisa de líquido prostático (será? ou é esperma?) pode ser utiliza
     &lt;p id=resultadoHepB&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;script src=&#34;./hepatites.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;cirrose&#34;&gt;Cirrose&lt;/h2&gt;
+&lt;h3 id=&#34;child-pugh-score-23&#34;&gt;Child-Pugh Score [2][3]&lt;/h3&gt;
+&lt;div class=&#34;calculadoras&#34;&gt;
+    &lt;label for=cpsBr&gt;Bilirrubina total&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number id=cpsBr required&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=cpsAb&gt;Albumina&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number id=cpsAb required&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=cpsInr&gt;International Normalized Ratio&lt;/label&gt;
+    &lt;br&gt;
+    &lt;input type=number id=&#34;cpsInr&#34; required&gt;&lt;/input&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=ascite&gt;Ascite&lt;/label&gt;
+    &lt;br&gt;
+    &lt;select id=ascite&gt;
+        &lt;option value=0&gt;Ausente&lt;/option&gt;
+        &lt;option value=1&gt;Pouca&lt;/option&gt;
+        &lt;option value=2&gt;Moderada&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;label for=encefalopatia&gt;Encefalopatia&lt;/label&gt;
+    &lt;br&gt;
+    &lt;select id=encefalopatia&gt;
+        &lt;option value=0&gt;Ausente&lt;/option&gt;
+        &lt;option value=1&gt;Grau I ou II&lt;/option&gt;
+        &lt;option value=2&gt;Grau III ou IV&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;p&gt;Na ausência de eletroencefalograma, avalie o grau da encefalopatia:&lt;br&gt;
+        I: distúrbio de sono, irritabilidade, agitação, tremor, escrita afetada.&lt;br&gt;
+        II: letargia, desorientação temporal, fala inapropriada, asterix, ataxia.&lt;br&gt;
+        III: sonolência, estopor, desorientação geográfica, hiperreflexia, rigidez.&lt;br&gt;
+        IV: coma, decerebração.
+    &lt;/p&gt;
+    &lt;br&gt;
+    &lt;button onclick=&#34;calcularCPS()&#34;&gt;Calcular&lt;/button&gt;
+    &lt;br&gt;
+    &lt;p id=resultadoCPS&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;referências&#34;&gt;Referências&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;DUARTE, Geraldo et al. &lt;strong&gt;Protocolo Brasileiro para Infecções Sexualmente Transmissíveis 2020: hepatites virais&lt;/strong&gt;. Epidemiologia e Serviços de Saúde, v. 30, p. e2020834, 2021.&lt;/li&gt;
+&lt;li&gt;Child CG, Turcotte JG. &lt;strong&gt;Surgery and portal hypertension. In: The liver and portal hypertension&lt;/strong&gt;. Edited by CG Child. Philadelphia: Saunders 1964:50-64.&lt;/li&gt;
+&lt;li&gt;Pugh RN, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R (1973). &lt;strong&gt;Transection of the oesophagus for bleeding oesophageal varices&lt;/strong&gt;. The British journal of surgery 60 (8).&lt;/li&gt;
+&lt;/ol&gt;
 </description>
 	</item>
 	
@@ -6686,6 +6793,13 @@ Na deficiência da subunidade alfa, também chamada alfatalassemia, e alternativ
            &lt;/td&gt;
        &lt;/tr&gt;
 &lt;/table&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD;
+1(Volume&lt;br&gt;corpuscular médio acima de 100fl) --&gt; 2(Reticulócitos) -- Diminuídos --&gt; 3(Sangue periférico);
+2 -- Aumentados --&gt; 4(Triar para&lt;br&gt;anemias hemolíticas);
+3 --&gt; 5(Macrócitos ovais e&lt;br&gt;hipersegmentação de neutrófilos) -- Presente --&gt; 6(Deficiência&lt;br&gt;de B12 ou folato);
+5 -- Ausente --&gt; 7(Hipotireoidismo, síndrome mielodisplásica&lt;br&gt;hepatopatias, medicamentos);
+&lt;/pre&gt;
+
 &lt;h2 id=&#34;tratamentos&#34;&gt;Tratamentos&lt;/h2&gt;
 &lt;h3 id=&#34;calculadora-de-reposição-de-ferro&#34;&gt;Calculadora de reposição de ferro&lt;/h3&gt;
 &lt;p&gt;Estima-se que a administração de 400 mg do ferro sacarato seja capaz de aumentar em pelo menos 1g/dL a concentração de hemoglobina, o que corresponde ao incremento esperado quando se administra uma unidade de concentrado de hemácias.&lt;/p&gt;
@@ -7901,6 +8015,17 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 &lt;h3 id=&#34;alterações-de-repolarização&#34;&gt;Alterações de repolarização&lt;/h3&gt;
 &lt;h3 id=&#34;infradesnivelamento-de-st&#34;&gt;Infradesnivelamento de ST&lt;/h3&gt;
 &lt;h3 id=&#34;supradesnivelamento-de-st&#34;&gt;Supradesnivelamento de ST&lt;/h3&gt;
+&lt;h4 id=&#34;padrão-de-ascenção-côncava-para-baixo-ou-feliz&#34;&gt;Padrão de ascenção côncava para baixo ou &amp;ldquo;feliz&amp;rdquo;&lt;/h4&gt;
+&lt;p&gt;Indica início de infarto miocárdico ou alterações não isquêmicas na topografia da derivação ou globais, como alterações eletrolíticas.
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/medicina/ecg/supra-bom.jpg&#34;&gt;
+      &lt;figcaption&gt;Supradesnivelamento com aspecto de concavidade voltada para baixo.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;isquemia-circunferencial&#34;&gt;Isquemia circunferencial&lt;/h3&gt;
 &lt;p&gt;Supradesnivelamento de $ST$ em $aVR$ e infradesnivelamento em derivações precordiais. A literatura pode divergir sobre quantas derivações com infra são necessárias para diagnóstico.&lt;/p&gt;
 
@@ -7919,6 +8044,17 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
       &lt;div class=&#34;slide&#34;&gt;
         &lt;a href=&#34;./pix/medicina/ecg/circunferencial.jpg&#34;&gt;
           &lt;img src=&#34;./pix/medicina/ecg/circunferencial.jpg&#34;&gt;&lt;/img&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+    
+    
+    
+      &lt;div class=&#34;legend&#34;&gt;&lt;p&gt;Isquemia circunferencial provavelmente em início, note o padrão de supra ascendente &amp;#34;feliz&amp;#34; em aVR.&lt;/p&gt;&lt;/div&gt;
+      &lt;div class=&#34;slide&#34;&gt;
+        &lt;a href=&#34;./pix/medicina/ecg/supra-avr.jpg&#34;&gt;
+          &lt;img src=&#34;./pix/medicina/ecg/supra-avr.jpg&#34;&gt;&lt;/img&gt;
         &lt;/a&gt;
       &lt;/div&gt;
     
@@ -7979,6 +8115,27 @@ t2 -- maior que 48h --&gt; 9(1 Controle de frequência ventricular.&lt;br&gt;2 E
 })();
   &lt;/script&gt;
 
+
+&lt;h2 id=&#34;inversão-fisiológica-de-ondas-t&#34;&gt;Inversão fisiológica de ondas T&lt;/h2&gt;
+&lt;p&gt;É possível o achado de ondas T precordias invertidas, principalmente em mulheres jovens e atletas.&lt;/p&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/medicina/ecg/t-invertida-mulher.jpg&#34;&gt;
+      &lt;figcaption&gt;Eletrocardiograma de mulher jovem sem sintomas e comorbidades mostrando V1 e V2 com T invertida.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&#34;marca-passo&#34;&gt;Marca-passo&lt;/h2&gt;
+
+
+
+  &lt;div id=&#34;img-div&#34;&gt;
+    &lt;img src=&#34;./pix/medicina/ecg/marcapasso.jpg&#34;&gt;
+      &lt;figcaption&gt;Espículas pequenas precedendo QRSs efetivos.&lt;/figcaption&gt;
+    &lt;/img&gt;
+  &lt;/div&gt;
 
 &lt;br&gt;
 &lt;br&gt;
@@ -8893,7 +9050,7 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;button onClick=&#34;bsa()&#34;&gt;Calcular&lt;/button&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;queimados&#34;&gt;Queimados&lt;/h2&gt;
-&lt;p&gt;Veja &lt;a href=&#34;./medicina/calculos-queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Veja &lt;a href=&#34;./medicina/queimados/&#34;&gt;grandes queimados&lt;/a&gt;.&lt;/p&gt;
 &lt;script&gt;
     function bsa(){
         const massa = parseFloat(document.getElementById(&#34;massa&#34;).value);

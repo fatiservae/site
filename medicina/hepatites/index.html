@@ -4,13 +4,13 @@
   
   
   
-  <title>Hepatites | Jefferson T.</title>
+  <title>Hepatopatias | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="Virais
-Sistema de decisão em hepatite B
+  <meta name="description" content="Hepatites Virais
+Sistema de decisão em hepatite B [1]
 
     Marque os exames positivados
     HbSAg
@@ -26,7 +26,47 @@ Sistema de decisão em hepatite B
     
     
 
-">
+
+Cirrose
+Child-Pugh Score [2][3]
+
+    Bilirrubina total
+    
+    
+    
+    
+    Albumina
+    
+    
+    
+    
+    International Normalized Ratio
+    
+    
+    
+    
+    Ascite
+    
+    
+        Ausente
+        Pouca
+        Moderada
+    
+    
+    
+    Encefalopatia
+    
+    
+        Ausente
+        Grau I ou II
+        Grau III ou IV
+    
+    Na ausência de eletroencefalograma, avalie o grau da encefalopatia:
+        I: distúrbio de sono, irritabilidade, agitação, tremor, escrita afetada.
+        II: letargia, desorientação temporal, fala inapropriada, asterix, ataxia.
+        III: sonolência, estopor, desorientação geográfica, hiperreflexia, rigidez.
+        IV: coma, decerebração.
+    ">
   <meta name="keywords" content="calculadoras, medicina, infectologia">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
@@ -61,6 +101,7 @@ Sistema de decisão em hepatite B
     <div>
     <input type="text" id="globalsearch" placeholder="busca..."></input>
     <ul id="artlist">
+      <li data-tags=""><a href="https://www.jeffersontorres.com.br/cv/">Curriculum Vitae</a></li>
       <li data-tags=""><a href="https://www.jeffersontorres.com.br/sobre/">Sobre</a></li>
       <li data-tags="[pediatria emergências trauma]"><a href="https://www.jeffersontorres.com.br/medicina/tce/">Traumatismo craniencefálico</a></li>
       <li data-tags="[medicina emergências neurologia]"><a href="https://www.jeffersontorres.com.br/medicina/avc/">Acidente vascular cerebral</a></li>
@@ -87,7 +128,7 @@ Sistema de decisão em hepatite B
       <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/docs/">Documentos em medicina legal</a></li>
       <li data-tags=""><a href="https://www.jeffersontorres.com.br/direito/abuso-autoridade/">Lei do abuso de autoridade</a></li>
       <li data-tags=""><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/sexologia-forense/">Sexologia forense</a></li>
-      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/hepatites/">Hepatites</a></li>
+      <li data-tags="[calculadoras medicina infectologia]"><a href="https://www.jeffersontorres.com.br/medicina/hepatites/">Hepatopatias</a></li>
       <li data-tags="[medicina perícias penal]"><a href="https://www.jeffersontorres.com.br/medicina/autopsias/">Autópsias</a></li>
       <li data-tags="[direito medicina penal]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/traumato-forense/">Traumatologia forense</a></li>
       <li data-tags="[medicina direito penal ciência]"><a href="https://www.jeffersontorres.com.br/medicina/medicina-legal/morte-legal/">Tanatologia forense</a></li>
@@ -162,7 +203,7 @@ Sistema de decisão em hepatite B
 <body>
   <article>
 
-  <h1>Hepatites</h1>
+  <h1>Hepatopatias</h1>
 
 
     
@@ -171,8 +212,8 @@ Sistema de decisão em hepatite B
   
   
   
-    <h2 id="virais">Virais</h2>
-<h3 id="sistema-de-decisão-em-hepatite-b">Sistema de decisão em hepatite B</h3>
+    <h2 id="hepatites-virais">Hepatites Virais</h2>
+<h3 id="sistema-de-decisão-em-hepatite-b-1">Sistema de decisão em hepatite B [1]</h3>
 <div class=calculadoras>
     <p>Marque os exames positivados</p>
     <input type=checkbox id=HbSAg>HbSAg</input>
@@ -189,6 +230,61 @@ Sistema de decisão em hepatite B
     <p id=resultadoHepB></p>
 </div>
 <script src="../../hepatites.js"></script>
+<h2 id="cirrose">Cirrose</h2>
+<h3 id="child-pugh-score-23">Child-Pugh Score [2][3]</h3>
+<div class="calculadoras">
+    <label for=cpsBr>Bilirrubina total</label>
+    <br>
+    <input type=number id=cpsBr required></input>
+    <br>
+    <br>
+    <label for=cpsAb>Albumina</label>
+    <br>
+    <input type=number id=cpsAb required></input>
+    <br>
+    <br>
+    <label for=cpsInr>International Normalized Ratio</label>
+    <br>
+    <input type=number id="cpsInr" required></input>
+    <br>
+    <br>
+    <label for=ascite>Ascite</label>
+    <br>
+    <select id=ascite>
+        <option value=0>Ausente</option>
+        <option value=1>Pouca</option>
+        <option value=2>Moderada</option>
+    </select>
+    <br>
+    <br>
+    <label for=encefalopatia>Encefalopatia</label>
+    <br>
+    <select id=encefalopatia>
+        <option value=0>Ausente</option>
+        <option value=1>Grau I ou II</option>
+        <option value=2>Grau III ou IV</option>
+    </select>
+    <p>Na ausência de eletroencefalograma, avalie o grau da encefalopatia:<br>
+        I: distúrbio de sono, irritabilidade, agitação, tremor, escrita afetada.<br>
+        II: letargia, desorientação temporal, fala inapropriada, asterix, ataxia.<br>
+        III: sonolência, estopor, desorientação geográfica, hiperreflexia, rigidez.<br>
+        IV: coma, decerebração.
+    </p>
+    <br>
+    <button onclick="calcularCPS()">Calcular</button>
+    <br>
+    <p id=resultadoCPS></p>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>DUARTE, Geraldo et al. <strong>Protocolo Brasileiro para Infecções Sexualmente Transmissíveis 2020: hepatites virais</strong>. Epidemiologia e Serviços de Saúde, v. 30, p. e2020834, 2021.</li>
+<li>Child CG, Turcotte JG. <strong>Surgery and portal hypertension. In: The liver and portal hypertension</strong>. Edited by CG Child. Philadelphia: Saunders 1964:50-64.</li>
+<li>Pugh RN, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R (1973). <strong>Transection of the oesophagus for bleeding oesophageal varices</strong>. The British journal of surgery 60 (8).</li>
+</ol>
 
   
   
