@@ -14,8 +14,8 @@
   --borderRadius: 8px;
   --stdBorder: 1px solid black;
   color: var(--fontColor);
-  font-family: 'Fira Sans';
-  font-size: 16px;
+  font-family: 'Fira sans';
+  font-size: 1.2rem;
   background-color: var(--backgroundColor);
 }
 
@@ -65,6 +65,9 @@ body {
   margin: 2ch calc(25% - 130px); /* quero ver mais elegante */
 }
 
+p {
+  font-family: "Inter";
+}
 
 article {
   text-align: start;
@@ -102,6 +105,10 @@ a:hover{
 }
 #search-output li::marker{
   content: none;
+}
+
+#artlist {
+  width: 100%;
 }
 
 #artlist li {
@@ -188,6 +195,10 @@ span#frase{
 
 nav.barra {
   font-size: 120%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
   /* padding: 1vw; Necessário para boa acomodação em telas menores */
   /*
   font-style: bold;
@@ -220,6 +231,10 @@ nav.barra a:hover{
   background-color: var(--hoverBackground);
   color: var(--fontColor); /* Para evitar ser sobreposto por a{}*/
   text-decoration: none;
+}
+.divGlobalSearch {
+  display: flex;
+  align-content: center;
 }
 
 mark {

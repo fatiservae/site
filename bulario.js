@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
           atbAtual.class.map(item => `${item}`)
                         .join(', ');
         atb.appendChild(classes);
+        atb.appendChild(document.createElement("br"));
       }
 
       let posologias = atbAtual.posologias;

@@ -1,12 +1,44 @@
 [
 	{
+		"nome": ["ácido acetilsalicílico", "Aspirin"],
+		"class": ["antiagregantes plaquetários", "antiinflamatórios"],
+		"posologias": [
+			{
+				"unidades": ["cp"],
+				"dosagem": [1],
+				"via": "tópico",
+				"instrucao": "dissolver comprimidos em clorofórmio e aplicar sobre a área afetada pelo zóster."
+			}
+		],
+		"obs": [
+			"Na verdade, formulações em creme são mais indicadas, o clorofórmio é considerado cancerígeno.",
+			"Os estudos apontam alívio de até 100% dos pacientes e há atividade antiinflamatória e antiviral reconhecidas.",
+			"Pode ser usada irrestritamente intercalada com hidratação da pele."
+		]
+	},
+	{
+		"nome": ["permetrina", "Kaodine", "Kwell", "Clean Hair"],
+		"class": ["pediculicidas", "antiparasitário"],
+		"posologias": [
+			{
+				"unidades": ["mg", "g"],
+				"dosagem": [10, 1],
+				"via": "tópico",
+				"instrucao": "loção tópico padrão"
+			}
+		],
+		"obs": [
+			"O uso de compostos de enxofre é autorizado por estudos em menores de 2 meses, da permetrina não. Porém seu uso <i>offlabel</i> é comumente aceito."
+		]
+	},
+	{
 		"nome": ["salicilato de dietilamônio com escina", "Reparil"],
 		"class": ["antiinflamatórios tópicos"],
 		"posologias": [
 			{
 				"unidades": ["g", "bisnaga"],
 				"dosagem":  [300, 1],
-				"via": "tópica",
+				"via": "tópico",
 				"instrucao": "aplicar três vezes no dia sobre áreas de flebite, edema local, contusões, luxações e artroartries diversas."
 			}
 		]
@@ -18,12 +50,12 @@
 			{
 				"unidades": ["%"],
 				"dosagem": ["25"],
-				"via": "tópica"
+				"via": "tópico"
 			}
 		],
 		"obs": [
 			"Composta de lanolina, vaselina, talco e oxido de zinco todos a 25%.",
-			"Aplicação tópica no tratamento de frieiras ou fungos, com ou sem tratamento sistêmico concomitante."
+			"Aplicação tópico no tratamento de frieiras ou fungos, com ou sem tratamento sistêmico concomitante."
 		]
 	},
 	{
@@ -1022,7 +1054,13 @@
         "dosagem": [875, 12],
         "via": "oral",
         "instrucao": "dose alternativa para sete a dez dias de terapia."
-      }
+      },
+			{
+				"unidades": ["mg", "kg", "dia"],
+				"dosagem": [40, 1, 1],
+				"via": "oral",
+				"instrucao": "dose padrão chamada de \"dose alta\"."
+			}
     ]
   },
   {
@@ -2070,7 +2108,7 @@
       }
     ],
     "obs": [ 
-      "Há apresentações IM/intravenoso/SUBCAPS/ITRQ etc", 
+      "Há apresentações intramuscular, intravenosa, intratraqueal etc.", 
       "Repetir 1/2 dose no pós-diálise.",
       "Todo aminoglicosídeo é capaz de provocar bloqueio da atividade neuromuscular.",
       "Os aminoglicosídeos não agem em ambiente de anaerobiose, pois o oxigênio é fundamental para o transporte dessas drogas para o interior da célula bacteriana."
@@ -2088,7 +2126,7 @@
       }
     ],
     "obs": [
-      "Apresentação comercial normal de 1+0.5mg/ml em colutório"
+      "Apresentação comercial normal de 1+0.5mg/ml em colutório."
     ]
   },
   {
@@ -2212,7 +2250,7 @@
         "unidades": ["mg", "g"],
         "dosagem": [20, 1],
         "instrucao": "Aplicar fina camada três vezes ao dia",
-        "via": "tópica"
+        "via": "tópico"
       }
     ]
   },
