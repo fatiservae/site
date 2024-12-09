@@ -2,14 +2,49 @@
 <html lang="en">
 <head>
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"> 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ]
+    });
+  });
+</script>
+<style>
+.katex{
+  text-align: start !important ;
+  width: fit-content;
+  background: none;
+}
+@media only screen and (max-width: 800px){
+  .katex{
+    max-width: 95vw;
+    font-size: 90%;
+  }
+}
+</style>
+
   
   
-  <title>tabelas | Jefferson T.</title>
+  
+  <title>Estatística bayesiana para o diagnóstico médico | Jefferson T.</title>
   <link rel="canonical" href="https://www.jeffersontorres.com.br/">
   <link rel='alternate' type='application/rss+xml' title="Jefferson T. RSS" href='../../index.xml'>
   <link rel='stylesheet' type='text/css' href='../../style.css'>
   <link rel="icon" href="../../favicon.webp">
-  <meta name="description" content="">
+  <meta name="description" content="
+Introdução
+Na medicina, o diagnóstico é fruto de testes ajustados em sequência.
+Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.
+Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.
+Primeiro contexto: paciente aleatório de uma determinada população
+A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.">
+  <meta name="keywords" content="Medicina, Calculadoras, Ciência">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta charset="utf-8">
@@ -145,27 +180,211 @@
 <body>
   <article>
 
+  <h1>Estatística bayesiana para o diagnóstico médico</h1>
+
 
     
   <script src=../../baseof-tema.js></script>
   
   
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introdução">Introdução</a></li>
+    <li><a href="#primeiro-contexto-paciente-aleatório-de-uma-determinada-população">Primeiro contexto: paciente aleatório de uma determinada população</a></li>
+    <li><a href="#segundo-contexto-o-paciente-aleatório-faz-um-exame-ou-tem-um-sintoma">Segundo contexto: o paciente aleatório faz um exame ou tem um sintoma</a>
+      <ul>
+        <li><a href="#exemplo-concreto">Exemplo concreto</a></li>
+      </ul>
+    </li>
+    <li><a href="#terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco">Terceiro contexto: um estudo foi feito para determinar fatores de risco</a></li>
+    <li><a href="#o-nomograma-de-fagan">O nomograma de Fagan</a></li>
+    <li><a href="#calculadora-para-teste-positivo">Calculadora para teste positivo</a></li>
+    <li><a href="#notas">Notas</a></li>
+    <li><a href="#referências">Referências</a></li>
+  </ul>
+</nav>
   
-  <style>
-	h2::first-letter {
-		text-transform: uppercase;
-	}
-</style>
-<h2>tabelas</h2>
+  
+  
+    <!-- 
+Transformar esta página em uma calculadora universal que checka primeiro os campos preenchidos e tenta calcular os restantes. Fazer em typescritp? como em
+https://www.msdmanuals.com/pt-br/profissional/multimedia/clinical-calculator/multicalc-para-estat%C3%ADstica-bayesiana-i
+-->
+<h2 id="introdução">Introdução</h2>
+<p>Na medicina, o diagnóstico é fruto de testes ajustados em sequência.</p>
+<p>Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.</p>
+<p>Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.</p>
+<h2 id="primeiro-contexto-paciente-aleatório-de-uma-determinada-população">Primeiro contexto: paciente aleatório de uma determinada população</h2>
+<p>A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percentual populacional, ou seja, quantas pessoas tem aquele diagnóstico naquela determinada população em determinado momento. Esta estatística deve ser levantada por estudos.</p>
+<p>Seu resultado é chamado de <strong>prevalência</strong>.</p>
+<p>Exemplo, a prevalência de diabetes no Brasil é de 10.2%. Esta é a probabilidade pré-teste para qualquer brasileiro selecionado aleatoriamente, segundo estudos atualizados até 2023.</p>
+<h2 id="segundo-contexto-o-paciente-aleatório-faz-um-exame-ou-tem-um-sintoma">Segundo contexto: o paciente aleatório faz um exame ou tem um sintoma</h2>
+<p>A partir do momento que um paciente realiza um teste<sup>1</sup>, seu resultado deve ser analisado à luz das estatísticas relacionadas ao teste, mais precisamente suas sensibilidade e especificidade.</p>
+<p>No caso do resultado positivo, um cálculo condicional para nova probabilidade deve ser realizado. Este cálculo é:</p>
+<p>$$
+p(A\mid B) = \frac{p(B \mid A)\ p(A)}{p(B)}
+$$</p>
+<p>Leia-se:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+A probabilidade de A dado B é igual a probabilidade de B dado A vezes a probabilidade de A dividido pela probabilidade de B.
+ </span>
+</div>
 
-<ul class="listing-list">
-<li>
-	<a href="../../medicina/processo-morte/">Processo ativo de morte</a>
-	
-	</li>
-</ul>
-  
+
+<p>Este é o <a href="https://pt.wikipedia.org/wiki/Teorema_de_Bayes">Teorema de Bayes</a>.</p>
+<p>No caso do exame, lemos:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+A probabilidade do diagnóstico dado o teste positivo é igual a probabilidade do teste ser positivo verdadeiro vezes a probabilidade geral do diagnóstico dividido pela probabilidade do exame ser positivo aleatoriamente.
+ </span>
+</div>
+
+
+<p>Finalmente:</p>
+<div style="display:flex; align-content:center">
+  <span class="etiqueta">
+A probabilidade do diagnóstico pelo exame é igual a especificidade vezes a prevalência dividido pela sensibilidade.
+ </span>
+</div>
+
+
+<p>Para tanto, $p(B)$ deve ser entendido como a soma de todas probabilidades de dar positivo, ou seja:</p>
+<p>$$
+p(B)=p(B\mid A)p(A) + p(B\mid ¬A)p(¬A)
+$$</p>
+<p>Onde:</p>
+<p>$p(B\mid A)p(A)$ são todos os positivos verdadeiros expressos em probabilidade; e</p>
+<p>$p(B\mid ¬A)p(¬A)$ são todos os falsos positivos, em probabilidade.</p>
+<h3 id="exemplo-concreto">Exemplo concreto</h3>
+<p>Atualmente em Brasília (2024), estamos vivendo um surto de dengue. A probabilidade geral do diagnóstico de dengue é de 2.6%, porque as notícias relatam 72.600 casos da doença sendo a população de 2.817.381 habitantes.</p>
+<p>$$
+prevalência = \frac{72600}{2.817.381} \approx 0.026
+$$</p>
+<p>Suponhamos que um paciente se apresente apenas com dor retro-orbitária há 4 dias.</p>
+<p>Vamos supor, também, que esse sintoma tem probabilidade geral de 1%, ou seja, somadas todas as outras formas de dor retro-orbitária em Brasília no momento, 1 a cada 100 pessoas terá o sintoma.</p>
+<p>Este sintoma é extremamente comum na dengue, digamos que 85% das pessoas com dengue tenham dor retro-orbitária.</p>
+<p>Assim sendo, qual a probabilidade desta pessoa ter dengue?</p>
+<p>$$
+p(Dengue\mid dorRetro) = \frac{p(dorRetro\mid Dengue) p(Dengue)}{p(dorRetro\mid Dengue)p(Dengue) + p(dorRetro\mid ¬Dengue)p(¬Dengue)}
+$$</p>
+<p>Resolvendo o denominadorRetro para facilitar:</p>
+<p>$$
+p(dorRetro\mid Dengue)p(Dengue) + p(dorRetro\mid ¬Dengue)p(¬Dengue) =
+$$</p>
+<p>$$
+0.85*0.026 + 0.01*0.934 \approx 0.031
+$$</p>
+<p>Já que a probabilidade de se ter dorRetro retro-orbitária sem dengue é de 0.01 e a <em>&ldquo;prevalência de não-dengue&rdquo;</em> é de $1 - 0.026$, ou melhor, 0.934.</p>
+<p>Então:</p>
+<p>$$
+p(Dengue\mid dorRetro) = \frac{0.85*0.026}{0.031} \approx 0.71
+$$</p>
+<p>Ou seja, <strong>temos <mark>71%</mark> de chance deste paciente ter dengue!</strong></p>
+<p>Note que, para este valor alto de probabilide diagnóstica, utilizamos apenas um sintoma. Se combinado com outros, é fácil entender porque podemos ter certezas diagnósticas próximas de 100% mesmo em contextos com poucas informações.</p>
+<h2 id="terceiro-contexto-um-estudo-foi-feito-para-determinar-fatores-de-risco">Terceiro contexto: um estudo foi feito para determinar fatores de risco</h2>
+<p>Existem situações específicas em que um terceiro dado se correlaciona ao diagnóstico.</p>
+<p>Um exemplo clássico é o hábito de fumar e o câncer de pulmão. Estudos mostram que um fumante tem uma probabilidade adicional de 30% de desenvolver câncer de pulmão.</p>
+<p>Este <em>risco associado</em> a um fator é chamado de <strong>risco relativo</strong>.</p>
+<p>Em outras palavras, este paciente deixa de ter a velha prevalência como probabilidade pré-teste. Sua estatística, agora, parte de 30% <strong>independentemente da prevalência global</strong>.</p>
+<h2 id="o-nomograma-de-fagan">O nomograma de Fagan</h2>
+<p>No caso dos testes e exames, a probabilidade pós-teste pode ser calculada utilizando uma régua prática chamada <strong>diagrama de Fagan</strong>. Traçamos uma reta entre os valores de pré-teste e de verossimilhança (likelihood) para lermos onde a reta toca no eixo pós-teste.</p>
+<p>Serve apenas no cenário da lógica de pós-teste ajustado por verossimilhança, obviamente.</p>
+
+
+
+  <div id="img-div">
+    <img src="../../pix/medicina/fagan-nomogram.jpg">
+      <figcaption> </figcaption>
+    </img>
+  </div>
+
+<p><a href="https://en.wikipedia.org/wiki/Pre-_and_post-test_probability">Leia mais sobre</a>.</p>
+<h2 id="calculadora-para-teste-positivo">Calculadora para teste positivo</h2>
+<p>Calcule a probabilidade de doença após exame positivo.</p>
+<p>Lembre-se: <strong>a prevalência pode ser a prevalência basal ou um valor de risco relativo</strong><sup>2</sup>.</p>
+
+
+<style>
+    #probPosT {
+        color: var(--negrito);
+    }
+</style>
+<br>
+<br>
+<div class="calculadoras">
+<!--
+    <select id=tipo>
+        <option value=prevalencia>Prevalência</option>
+        <option value=testeClinico>Testes clínicos</option>
+        <option value=riscoRelativo>Risco relativo</option>
+    </select>
+-->
+    <label for="probPreT">Probabilidade pré-teste (%)</label>
+    <br>
+    <input type="number" id="probPreT"></input>
+    <br>
+    <br>
     
+    <label for=sensibilidade>Sensibilidade (%)</label>
+    <br>
+    <input type=number id=sensibilidade></input>
+    <br>
+    <br>
+ 
+    <label for=especificidade>Especificidade (%)</label>
+    <br>
+    <input type=number id=especificidade></input>
+    <br>
+    <br>
+    
+    <div class="resultado">
+        <label for=probPosT>Probabilidade pós-teste</label>
+        <p id=probPosT>0</p>
+    </div>
+    
+    <button id=calc onclick="calcPosT()">Calcular!</button>
+    <script>
+        function calcPosT() {
+            let probPreT = document.getElementById("probPreT").value;
+            let sensibilidade = document.getElementById("sensibilidade").value;
+            let especificidade = document.getElementById("especificidade").value;
+            console.log("especificidade: "+especificidade+"\nsensibilidade: "+sensibilidade+"\nPreteste: "+probPreT);
+
+            let verossimilhanca = sensibilidade / (100 - especificidade);
+            let probPosT = 0;
+
+            probPreT = probPreT/100;
+            console.log(probPreT);
+            probPosT = 100 * ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT)));
+            document.getElementById("probPosT").innerText = probPosT.toFixed(2)+"%";
+        }
+    </script>
+</div>
+    <br>
+    <br>
+
+<hr>
+<h2 id="notas">Notas</h2>
+<ol>
+<li>Entenda por <em>&ldquo;teste&rdquo;</em> qualquer exame ou sintoma pelo qual eu possa atribuir um valor estatístico na interpretação de seu resultado.</li>
+<li>Não existe, na literatura formal, indicação de se utilizar outro valor de prevalência para cálculo de pós-teste após exame. Porém, também é consenso que não é justo o seu paciente queixoso em consultório ser comparado ao transeunte saudável sem queixas. Portanto, conhecendo fatores de risco, você deve fazer um ajuste na prevalência, de acordo com o conhecimento médico, a experiência ou, melhor ainda, estudos disponíveis.</li>
+</ol>
+<h2 id="referências">Referências</h2>
+<ol>
+<li>JAMA Networks. <strong>JAMA guide to statistics and methods.</strong> Disponível em (2024): <a href="https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods">https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods</a></li>
+<li><a href="https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes">https://agenciabrasil.ebc.com.br/saude/noticia/2023-11/mais-de-10-dos-brasileiros-vivem-com-diabetes</a></li>
+<li>BRASIL. <strong>Tabaco e saúde pulmonar: dia mundial sem tabaco: manual 2019</strong>. Instituto Nacional de Câncer José Alencar Gomes da Silva. – Rio de Janeiro: INCA, 2019.</li>
+<li><a href="https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude">https://agenciabrasil.ebc.com.br/saude/noticia/2024-02/df-ja-pode-ter-ultrapassado-recorde-de-casos-de-dengue-diz-saude</a></li>
+</ol>
+
+  
+  
+    <br>
+        <div style="" class=taglist> 
+                <a id="tag_medicina" href="https://www.jeffersontorres.com.br/tags/medicina">medicina</a> &middot;  
+                <a id="tag_calculadoras" href="https://www.jeffersontorres.com.br/tags/calculadoras">calculadoras</a> &middot;  
+                <a id="tag_ciência" href="https://www.jeffersontorres.com.br/tags/ci%C3%AAncia">ciência</a></div>
 
 
 

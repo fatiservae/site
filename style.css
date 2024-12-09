@@ -7,25 +7,26 @@
   */
   --stdTransition: background-color 0.2s ease;
   text-align: center;
-  /* Manter compatibildiade dos temas antigos e SVGs */
+  /* Manter --fonte para compatibildiade dos temas antigos e SVGs */
   --fonte: var(--fontColor); 
   --vidro: rgba(6, 6, 4, .2);
   --borders: 1px solid var(--fontColor);
   --borderRadius: 8px;
-  --stdBorder: 1px solid black;
+  --stdBorder: 1px solid var(--fontColor);
   color: var(--fontColor);
   font-family: 'Fira sans';
+  font-weight: 300;
   font-size: 1.2rem;
   background-color: var(--backgroundColor);
 }
 
 ::selection {
   background: var(--selectionColor);
-  color: black;
+  color: var(--fontSelectionColor);
 }
 
 :root[data-tema="light"] {
-  --dimmedFontColor: #999;
+  --dimmedFontColor: #666;
   --hoverBackground: #ccc;
   --navLinkHoverBack: gray;
   --linkColor: #5a5fed;
@@ -33,7 +34,8 @@
   --headingsColor: darkred;
   --darkerBg: darkgray;
   --corTermo: darkred;
-  --selectionColor: gray;
+  --selectionColor: var(--headingsColor);
+  --fontSelectionColor: var(--backgroundColor);
   --highLightColor: #c24040;
   /*
   --backgroundColor: #ffd8a8;
@@ -43,14 +45,15 @@
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
-  --dimmedFontColor: #555;
+  --dimmedFontColor: #777;
   --hoverBackground: #282828;
   --headingsColor: #ecc;
   --darkerBg: #282828;
   --linkColor: skyblue;
   --linkColorHover: white;
   --corTermo: tomato;
-  --selectionColor: #9e3c3c;
+  --selectionColor: #ecc ;
+  --fontSelectionColor: black;
   --highLightColor: #ebc3d9;
   --backgroundColor: #343a3f;
   --borderColor: #666;
@@ -66,12 +69,38 @@ body {
 }
 
 p {
-  font-family: "Inter";
+}
+
+strong {
+  font-weight: 500;
 }
 
 article {
   text-align: start;
   padding: 1rem;
+}
+
+button, select{
+  color: var(--backgroundColor); 
+  background-color: var(--headingsColor) ;
+  border-radius: var(--borderRadius);
+  border: 1px solid var(--stdBorder); 
+  padding: 0.5ch;
+}
+button:active {
+  background-color: var(--fontColor);
+}
+
+/* Limpar campos de input
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 a {
@@ -613,8 +642,12 @@ th, td {
 #TableOfContents li::marker {
   content: none;
 }
+#TableOfContents li:hover{
+  font-weight: 400;
+}
 #TableOfContents li:hover::marker {
   content: ">";
+  font-style: bold;
 }
 
 pre, blockquote {
@@ -623,7 +656,7 @@ pre, blockquote {
   padding-left: 1ch;
   margin: 2ch;
   margin-left: 0px;
-  border-left: 1px solid tomato; 
+  border-left: 1px solid var(--headingsColor); 
   background: var(--vidro);
   border-radius: var(--borderRadius);
 }

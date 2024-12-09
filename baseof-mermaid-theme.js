@@ -1,6 +1,6 @@
 const rootStyles = getComputedStyle(document.documentElement);
 const backgroundColor = rootStyles.getPropertyValue("--backgroundColor").trim();
-const borderColor = rootStyles.getPropertyValue("--borderColor").trim();
+const borderColor = rootStyles.getPropertyValue("--headingsColor").trim();
 const fontColor = rootStyles.getPropertyValue("--fontColor").trim();
 
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';

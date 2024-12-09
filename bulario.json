@@ -1,5 +1,20 @@
 [
 	{
+		"nome": ["potássio", "Slow-K"],
+		"class": ["eletrólitos"],
+		"posologias": [
+			{
+				"unidades": ["drágeas", "dia"],
+				"dosagem": ["2 a 3 ", 1],
+				"via": "oral",
+				"instrucao": "dose preventiva de hipopotassemia."
+			}
+		],
+		"obs": [
+			"A dose pode ser aumentada para até 5 drágeas por dia para correção de hipopotassemia."
+		]
+	},
+	{
 		"nome": ["ácido acetilsalicílico", "Aspirin"],
 		"class": ["antiagregantes plaquetários", "antiinflamatórios"],
 		"posologias": [
