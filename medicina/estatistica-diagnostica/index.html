@@ -39,7 +39,7 @@
   <link rel="icon" href="../../favicon.webp">
   <meta name="description" content="
 Introdução
-Na medicina, o diagnóstico é fruto de testes ajustados em sequência.
+Na medicina, o diagnóstico é alcançado através de testes ajustados em sequência.
 Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.
 Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.
 Primeiro contexto: paciente aleatório de uma determinada população
@@ -78,6 +78,8 @@ A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percent
       <input type="text" id="globalsearch" placeholder="    busca..."></input>
     </div>
     <ul id="artlist">
+      <li data-tags="[infectologia emergências medicina intensiva guidelines]"><a href="https://www.jeffersontorres.com.br/medicina/sepse/">Síndrome infecciosa sistêmica: sepse</a></li>
+      <li data-tags="[pneumologia infectologia resumos]"><a href="https://www.jeffersontorres.com.br/medicina/doencas-pulmonares/">Pneumopatias</a></li>
       <li data-tags=""><a href="https://www.jeffersontorres.com.br/cv/">Curriculum Vitae</a></li>
       <li data-tags=""><a href="https://www.jeffersontorres.com.br/sobre/">Sobre</a></li>
       <li data-tags="[pediatria emergências trauma]"><a href="https://www.jeffersontorres.com.br/medicina/tce/">Traumatismo craniencefálico</a></li>
@@ -168,7 +170,7 @@ A probabilidade basal de qualquer diagnóstico é dada pelo levantamento percent
       <li data-tags="[tecnologia programação]"><a href="https://www.jeffersontorres.com.br/tecnologia/iphone-e-linux/">Como sincronizar iPhone e Linux</a></li>
       <li data-tags="[Programação Projetos]"><a href="https://www.jeffersontorres.com.br/tecnologia/stultus-visio/">Slides menos estúpidos: StultusVisio</a></li>
       <li data-tags="[México Viagem Destinos]"><a href="https://www.jeffersontorres.com.br/viagem/mexico/palenque-mexico/">Palenque - México</a></li>
-      <li data-tags="[projetos guidelines calculadoras medicina emergências]"><a href="https://www.jeffersontorres.com.br/medicina/wells-tep/">Tromboembolismo pulmonar</a></li>
+      <li data-tags="[pneumologia projetos guidelines calculadoras medicina emergências]"><a href="https://www.jeffersontorres.com.br/medicina/wells-tep/">Tromboembolismo pulmonar</a></li>
       <li data-tags="[destinos viagem brasil]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-domingos-martins/">Espírito Santo - Domingos Martins</a></li>
       <li data-tags="[Destinos Brasil Viagem]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/espirito-santo-iriri/">Espiríto Santo - Praia de Iriri</a></li>
       <li data-tags="[viagem brasil]"><a href="https://www.jeffersontorres.com.br/viagem/brasil/bahia-piata-salvador/">Bahia - Piatã, Salvador</a></li>
@@ -211,7 +213,7 @@ Transformar esta página em uma calculadora universal que checka primeiro os cam
 https://www.msdmanuals.com/pt-br/profissional/multimedia/clinical-calculator/multicalc-para-estat%C3%ADstica-bayesiana-i
 -->
 <h2 id="introdução">Introdução</h2>
-<p>Na medicina, o diagnóstico é fruto de testes ajustados em sequência.</p>
+<p>Na medicina, o diagnóstico é alcançado através de testes ajustados em sequência.</p>
 <p>Mais especificamente, qualquer pessoa tem chance de ter qualquer diagnóstico em qualquer momento.</p>
 <p>Para afunilarmos esta probabilidade, as ferramentas estatísticas utilizadas dependem do contexto.</p>
 <h2 id="primeiro-contexto-paciente-aleatório-de-uma-determinada-população">Primeiro contexto: paciente aleatório de uma determinada população</h2>
@@ -268,7 +270,7 @@ $$</p>
 <p>$$
 p(Dengue\mid dorRetro) = \frac{p(dorRetro\mid Dengue) p(Dengue)}{p(dorRetro\mid Dengue)p(Dengue) + p(dorRetro\mid ¬Dengue)p(¬Dengue)}
 $$</p>
-<p>Resolvendo o denominadorRetro para facilitar:</p>
+<p>Resolvendo o denominador para facilitar:</p>
 <p>$$
 p(dorRetro\mid Dengue)p(Dengue) + p(dorRetro\mid ¬Dengue)p(¬Dengue) =
 $$</p>
@@ -320,46 +322,27 @@ $$</p>
         <option value=riscoRelativo>Risco relativo</option>
     </select>
 -->
-    <label for="probPreT">Probabilidade pré-teste (%)</label>
+    <label for="probPreT">Probabilidade pré-teste</label>
     <br>
-    <input type="number" id="probPreT"></input>
-    <br>
-    <br>
-    
-    <label for=sensibilidade>Sensibilidade (%)</label>
-    <br>
-    <input type=number id=sensibilidade></input>
+    <input type="number" id="probPreT" placeholder="%" ></input>
     <br>
     <br>
- 
-    <label for=especificidade>Especificidade (%)</label>
+    <label for=sensibilidade>Sensibilidade </label>
     <br>
-    <input type=number id=especificidade></input>
+    <input type=number id=sensibilidade placeholder="%" ></input>
     <br>
     <br>
-    
+    <label for=especificidade>Especificidade </label>
+    <br>
+    <input type=number id=especificidade placeholder="%" ></input>
+    <br>
+    <br>
     <div class="resultado">
         <label for=probPosT>Probabilidade pós-teste</label>
         <p id=probPosT>0</p>
     </div>
-    
     <button id=calc onclick="calcPosT()">Calcular!</button>
-    <script>
-        function calcPosT() {
-            let probPreT = document.getElementById("probPreT").value;
-            let sensibilidade = document.getElementById("sensibilidade").value;
-            let especificidade = document.getElementById("especificidade").value;
-            console.log("especificidade: "+especificidade+"\nsensibilidade: "+sensibilidade+"\nPreteste: "+probPreT);
-
-            let verossimilhanca = sensibilidade / (100 - especificidade);
-            let probPosT = 0;
-
-            probPreT = probPreT/100;
-            console.log(probPreT);
-            probPosT = 100 * ((verossimilhanca * probPreT ) / (1 + (verossimilhanca - probPreT)));
-            document.getElementById("probPosT").innerText = probPosT.toFixed(2)+"%";
-        }
-    </script>
+    <script src=../../diagnostico.js></script>
 </div>
     <br>
     <br>
@@ -400,6 +383,8 @@ $$</p>
   </script>
   </article>
   <footer>
+    <hr>
+    By Jefferson T. - @fatiservae - 2024 
   </footer>
   
 </body>

@@ -1,5 +1,20 @@
 [
 	{
+		"nome": ["isometpteno", "Doralgina"],
+		"class": ["simpatomiméticos", "vasoconstrictores", "analgésicos"],
+		"posologias": [
+			{
+				"unidades": ["mg", "h"],
+				"dosagem": [30, 6],
+				"via": "oral",
+				"instrucao": "geralmente associada a dipirona e cafeína."
+			}
+		],
+		"obs": [
+			"Para pessoas acima de 12 anos."
+		]
+	},
+	{
 		"nome": ["potássio", "Slow-K"],
 		"class": ["eletrólitos"],
 		"posologias": [

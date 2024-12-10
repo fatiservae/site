@@ -26,6 +26,14 @@
 }
 
 :root[data-tema="light"] {
+  --gradiente: radial-gradient(
+                       ellipse at 50% 50%, 
+                       #c61d1020 0, 
+                       transparent 55%), 
+                     radial-gradient(
+                       ellipse at 50% 50%, 
+                       #ffa70050 0, 
+                       transparent 75%);
   --dimmedFontColor: #666;
   --hoverBackground: #ccc;
   --navLinkHoverBack: gray;
@@ -36,15 +44,22 @@
   --corTermo: darkred;
   --selectionColor: var(--headingsColor);
   --fontSelectionColor: var(--backgroundColor);
-  --highLightColor: #c24040;
+  --highLightColor: lime;
   /*
-  --backgroundColor: #ffd8a8;
   */
   --backgroundColor: #eee;
   --borderColor: black;
   --fontColor: #222;
 }
 :root[data-tema="dark"] {
+  --gradiente: radial-gradient(
+                      ellipse at 50% 50%, 
+                      #bf398910 0, 
+                      transparent 75%), 
+                    radial-gradient(
+                      ellipse at 50% 50%, 
+                      #bf398910 0, 
+                      transparent 75%); 
   --dimmedFontColor: #777;
   --hoverBackground: #282828;
   --headingsColor: #ecc;
@@ -54,7 +69,7 @@
   --corTermo: tomato;
   --selectionColor: #ecc ;
   --fontSelectionColor: black;
-  --highLightColor: #ebc3d9;
+  --highLightColor: springgreen;
   --backgroundColor: #343a3f;
   --borderColor: #666;
   --fontColor: #aaa;
@@ -78,6 +93,10 @@ strong {
 article {
   text-align: start;
   padding: 1rem;
+}
+
+footer {
+  font-size: 60%;
 }
 
 button, select{
@@ -674,14 +693,29 @@ p code {
   animation: blinkEmConstrucao 2s infinite;
 }
 
-h1, h2, h3, h4, h5 {
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 1.5ch;
   font-weight: bold;
   color: var(--headingsColor);
 }
-h3, h4, h5 {
-  font-weight: normal;
+h1, h2 {
+  font-size: 110%;
 }
-
+h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+h4, h5, h6 {
+  font-weight: 300;
+}
+h3::before, h4::before, h5::before, h6::before {
+  content: "\00a0 \00a0";
+}
+h4::before, h5::before, h6::before {
+  content: "\00a0 \00a0 \00a0 \00a0";
+}
 #greeting {
 }
 
@@ -736,6 +770,10 @@ hr {
   vertical-align: middle;
 }
 
+.etiqueta {
+  background: var(--gradiente);
+}
+
 /* Mediaqueries */
 @media only screen and (max-width: 800px){
   img {
@@ -749,7 +787,6 @@ hr {
   .duploflex div {
     max-width: 100%;
   }
-
   .fundo-only-big {
     display: none;
   }
